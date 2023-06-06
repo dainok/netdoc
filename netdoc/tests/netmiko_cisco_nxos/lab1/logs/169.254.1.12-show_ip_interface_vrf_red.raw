@@ -1,0 +1,55 @@
+
+IP Interface Status for VRF "red"
+loopback1, Interface status: protocol-up/link-up/admin-up, iod: 9,
+  IP address: 2.2.2.12, IP subnet: 2.2.2.12/32 route-preference: 0, tag: 0 
+  IP broadcast address: 255.255.255.255
+  IP multicast groups locally joined: none
+  IP MTU: 1500 bytes (using link MTU)
+  IP primary address route-preference: 0, tag: 0
+  IP proxy ARP : disabled
+  IP Local Proxy ARP : disabled
+  IP multicast routing: disabled
+  IP icmp redirects: enabled
+  IP directed-broadcast: disabled 
+  IP Forwarding: disabled 
+  IP icmp unreachables (except port): disabled
+  IP icmp port-unreachable: enabled
+  IP unicast reverse path forwarding: none
+  IP load sharing: none 
+  IP interface statistics last reset: never
+  IP interface software stats: (sent/received/forwarded/originated/consumed)
+    Unicast packets    : 0/0/0/0/0
+    Unicast bytes      : 0/0/0/0/0
+    Multicast packets  : 0/0/0/0/0
+    Multicast bytes    : 0/0/0/0/0
+    Broadcast packets  : 0/0/0/0/0
+    Broadcast bytes    : 0/0/0/0/0
+    Labeled packets    : 0/0/0/0/0
+    Labeled bytes      : 0/0/0/0/0
+Ethernet1/3.3, Interface status: protocol-up/link-up/admin-up, iod: 76,
+  IP address: 10.0.0.12, IP subnet: 10.0.0.0/24 route-preference: 0, tag: 0 
+  IP broadcast address: 255.255.255.255
+  IP multicast groups locally joined: 
+      224.0.0.6  224.0.0.5  
+  IP MTU: 1500 bytes (using link MTU)
+  IP primary address route-preference: 0, tag: 0
+  IP proxy ARP : disabled
+  IP Local Proxy ARP : disabled
+  IP multicast routing: disabled
+  IP icmp redirects: enabled
+  IP directed-broadcast: disabled 
+  IP Forwarding: disabled 
+  IP icmp unreachables (except port): disabled
+  IP icmp port-unreachable: enabled
+  IP unicast reverse path forwarding: none
+  IP load sharing: none 
+  IP interface statistics last reset: never
+  IP interface software stats: (sent/received/forwarded/originated/consumed)
+    Unicast packets    : 11/7/0/11/14
+    Unicast bytes      : 882/476/0/882/952
+    Multicast packets  : 65/64/0/65/128
+    Multicast bytes    : 5630/4368/0/5630/4368
+    Broadcast packets  : 0/0/0/0/0
+    Broadcast bytes    : 0/0/0/0/0
+    Labeled packets    : 0/0/0/0/0
+    Labeled bytes      : 0/0/0/0/0

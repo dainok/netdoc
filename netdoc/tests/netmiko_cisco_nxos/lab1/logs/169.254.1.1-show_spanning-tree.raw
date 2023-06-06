@@ -1,0 +1,42 @@
+
+VLAN0001
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    24577
+             Address     0023.04ee.be01
+             Cost        3
+             Port        65 (Port-channel2)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32769  (priority 32768 sys-id-ext 1)
+             Address     5001.0018.0000
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time  300 sec
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi0/3               Desg FWD 4         128.4    Shr 
+Gi1/0               Desg FWD 4         128.5    Shr 
+Gi1/1               Desg FWD 4         128.6    Shr 
+Gi1/2               Desg FWD 4         128.7    Shr 
+Gi1/3               Desg FWD 4         128.8    Shr 
+Po2                 Root FWD 3         128.65   Shr 
+
+
+
+VLAN0004
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    4
+             Address     0023.04ee.be01
+             Cost        3
+             Port        65 (Port-channel2)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32772  (priority 32768 sys-id-ext 4)
+             Address     5001.0018.0000
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time  300 sec
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po2                 Root FWD 3         128.65   Shr 
+

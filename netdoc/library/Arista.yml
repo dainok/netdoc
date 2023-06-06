@@ -1,0 +1,5983 @@
+keywords:
+- DCS-7508
+- DCS-7508
+- DCS-7050S-52
+- CCS-720XP-48ZC2
+- CCS-720XP-48ZC2
+- DCS-7060PX4-32
+- DCS-7280QR-C36
+- DCS-7280QR-C36
+- DCS-7150SC-64
+- DCS-7150SC-64
+- CCS-720XP-24Y6
+- CCS-720XP-24Y6
+- DCS-7050S-64
+- DCS-7050SX3-48YC12
+- DCS-7050SX3-48YC12
+- DCS-7050TX3-48C8
+- DCS-7050TX3-48C8
+- DCS-7150S-64
+- DCS-7150S-64
+- DCS-7020TR-48
+- DCS-7020TR-48
+- DCS-7050TX-72Q
+- DCS-7280SR2-48YC6
+- DCS-7280SR2-48YC6
+- DCS-7010T-48
+- DCS-7010T-48
+- CCS-720XP-96ZC2
+- CCS-720XP-96ZC2
+- DCS-7020SR-24C2
+- DCS-7020SR-24C2
+- DCS-7050QX-32S
+- DCS-7050QX-32S
+- DCS-7050TX-48
+- DCS-7050TX-48
+- DCS-7280SR2K-48C6-M
+- DCS-7280SR2K-48C6-M
+- DCS-7280SRA-48C6
+- DCS-7280SRA-48C6
+- DCS-7260CX3-64-F
+- DCS-7260CX3-64-F
+- DCS-7150SC-24
+- DCS-7150SC-24
+- DCS-7280CR2-60
+- DCS-7280CR2-60
+- DCS-7060CX2-32S
+- DCS-7280SR3-48YC8
+- DCS-7280SR3-48YC8
+- DCS-7280CR3-32P4
+- DCS-7280CR3-32P4
+- DCS-7060DX4-32
+- DCS-7280CR2A-30
+- DCS-7280CR2A-30
+- DCS-7280SRA-48C6-M
+- DCS-7280SRA-48C6-M
+- DCS-7020SR-32C2
+- DCS-7020SR-32C2
+- DCS-7060CX-32S
+- DCS-7060CX-32S
+- DCS-7060SX2-48YC6
+- DCS-7060SX2-48YC6
+- DCS-7050SX2-72Q
+- DCS-7050SX2-72Q
+- CCS-720XP-48Y6
+- CCS-720XP-48Y6
+- DCS-7048-T
+- DCS-7280SR-48C6
+- DCS-7280SR-48C6
+- DCS-7150S-52
+- DCS-7150S-52
+- DCS-7150S-24
+- DCS-7150S-24
+- DCS-7280CR3-32D4
+- DCS-7280CR3-32D4
+- DCS-7050CX3-32S
+- DCS-7050CX3-32S
+- DCS-7280SR-48YC6
+- DCS-7280SR-48YC6
+- DCS-7124SX
+- DCS-7124SX
+- CCS-720XP-24ZY4
+- CCS-720XP-24ZY4
+- DCS-7280TR-48C6
+- DCS-7280TR-48C6
+- DCS-7010TX-48
+- DCS-7010TX-48
+- DCS-7050SX-64
+- DCS-7050SX3-48YC8
+- DCS-7050SX3-48YC8
+- DCS-7050T-52
+- DCS-7148SX
+- DCS-7148SX
+- DCS-7368
+- DCS-7368
+- DCS-7050T-64
+models:
+- console-ports:
+  - name: con0
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  - mgmt_only: true
+    name: Management2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7508
+  part_number: DCS-7508
+  power-ports:
+  - maximum_draw: 2900
+    name: PS1
+    type: iec-60320-c20
+  - maximum_draw: 2900
+    name: PS2
+    type: iec-60320-c20
+  - maximum_draw: 2900
+    name: PS3
+    type: iec-60320-c20
+  - maximum_draw: 2900
+    name: PS4
+    type: iec-60320-c20
+  slug: dcs-7508
+  u_height: 11
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Ethernet29
+    type: 10gbase-x-sfpp
+  - name: Ethernet30
+    type: 10gbase-x-sfpp
+  - name: Ethernet31
+    type: 10gbase-x-sfpp
+  - name: Ethernet32
+    type: 10gbase-x-sfpp
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Ethernet35
+    type: 10gbase-x-sfpp
+  - name: Ethernet36
+    type: 10gbase-x-sfpp
+  - name: Ethernet37
+    type: 10gbase-x-sfpp
+  - name: Ethernet38
+    type: 10gbase-x-sfpp
+  - name: Ethernet39
+    type: 10gbase-x-sfpp
+  - name: Ethernet40
+    type: 10gbase-x-sfpp
+  - name: Ethernet41
+    type: 10gbase-x-sfpp
+  - name: Ethernet42
+    type: 10gbase-x-sfpp
+  - name: Ethernet43
+    type: 10gbase-x-sfpp
+  - name: Ethernet44
+    type: 10gbase-x-sfpp
+  - name: Ethernet45
+    type: 10gbase-x-sfpp
+  - name: Ethernet46
+    type: 10gbase-x-sfpp
+  - name: Ethernet47
+    type: 10gbase-x-sfpp
+  - name: Ethernet48
+    type: 10gbase-x-sfpp
+  - name: Ethernet49
+    type: 10gbase-x-sfpp
+  - name: Ethernet50
+    type: 10gbase-x-sfpp
+  - name: Ethernet51
+    type: 10gbase-x-sfpp
+  - name: Ethernet52
+    type: 10gbase-x-sfpp
+  - name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7050S-52
+  power-ports:
+  - allocated_draw: 150
+    maximum_draw: 460
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 150
+    maximum_draw: 460
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7050s-52
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 1000base-t
+  - name: Ethernet2
+    type: 2.5gbase-t
+  - name: Ethernet3
+    type: 2.5gbase-t
+  - name: Ethernet4
+    type: 2.5gbase-t
+  - name: Ethernet5
+    type: 2.5gbase-t
+  - name: Ethernet6
+    type: 2.5gbase-t
+  - name: Ethernet7
+    type: 2.5gbase-t
+  - name: Ethernet8
+    type: 2.5gbase-t
+  - name: Ethernet9
+    type: 2.5gbase-t
+  - name: Ethernet10
+    type: 2.5gbase-t
+  - name: Ethernet11
+    type: 2.5gbase-t
+  - name: Ethernet12
+    type: 2.5gbase-t
+  - name: Ethernet13
+    type: 2.5gbase-t
+  - name: Ethernet14
+    type: 2.5gbase-t
+  - name: Ethernet15
+    type: 2.5gbase-t
+  - name: Ethernet16
+    type: 2.5gbase-t
+  - name: Ethernet17
+    type: 2.5gbase-t
+  - name: Ethernet18
+    type: 2.5gbase-t
+  - name: Ethernet19
+    type: 2.5gbase-t
+  - name: Ethernet20
+    type: 2.5gbase-t
+  - name: Ethernet21
+    type: 2.5gbase-t
+  - name: Ethernet22
+    type: 2.5gbase-t
+  - name: Ethernet23
+    type: 2.5gbase-t
+  - name: Ethernet24
+    type: 2.5gbase-t
+  - name: Ethernet25
+    type: 2.5gbase-t
+  - name: Ethernet26
+    type: 2.5gbase-t
+  - name: Ethernet27
+    type: 2.5gbase-t
+  - name: Ethernet28
+    type: 2.5gbase-t
+  - name: Ethernet29
+    type: 2.5gbase-t
+  - name: Ethernet30
+    type: 2.5gbase-t
+  - name: Ethernet31
+    type: 2.5gbase-t
+  - name: Ethernet32
+    type: 2.5gbase-t
+  - name: Ethernet33
+    type: 2.5gbase-t
+  - name: Ethernet34
+    type: 2.5gbase-t
+  - name: Ethernet35
+    type: 2.5gbase-t
+  - name: Ethernet36
+    type: 2.5gbase-t
+  - name: Ethernet37
+    type: 2.5gbase-t
+  - name: Ethernet38
+    type: 2.5gbase-t
+  - name: Ethernet39
+    type: 2.5gbase-t
+  - name: Ethernet40
+    type: 2.5gbase-t
+  - name: Ethernet41
+    type: 5gbase-t
+  - name: Ethernet42
+    type: 5gbase-t
+  - name: Ethernet43
+    type: 5gbase-t
+  - name: Ethernet44
+    type: 5gbase-t
+  - name: Ethernet45
+    type: 5gbase-t
+  - name: Ethernet46
+    type: 5gbase-t
+  - name: Ethernet47
+    type: 5gbase-t
+  - name: Ethernet48
+    type: 5gbase-t
+  - name: Ethernet49
+    type: 25gbase-x-sfp28
+  - name: Ethernet50
+    type: 25gbase-x-sfp28
+  - name: Ethernet51
+    type: 25gbase-x-sfp28
+  - name: Ethernet52
+    type: 25gbase-x-sfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: CCS-720XP-48ZC2
+  part_number: CCS-720XP-48ZC2
+  power-ports:
+  - allocated_draw: 164
+    maximum_draw: 177
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 164
+    maximum_draw: 177
+    name: PS2
+    type: iec-60320-c14
+  slug: ccs-720xp-48zc2
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1/1
+    type: 400gbase-x-osfp
+  - name: Ethernet2/1
+    type: 400gbase-x-osfp
+  - name: Ethernet3/1
+    type: 400gbase-x-osfp
+  - name: Ethernet4/1
+    type: 400gbase-x-osfp
+  - name: Ethernet5/1
+    type: 400gbase-x-osfp
+  - name: Ethernet6/1
+    type: 400gbase-x-osfp
+  - name: Ethernet7/1
+    type: 400gbase-x-osfp
+  - name: Ethernet8/1
+    type: 400gbase-x-osfp
+  - name: Ethernet9/1
+    type: 400gbase-x-osfp
+  - name: Ethernet10/1
+    type: 400gbase-x-osfp
+  - name: Ethernet11/1
+    type: 400gbase-x-osfp
+  - name: Ethernet12/1
+    type: 400gbase-x-osfp
+  - name: Ethernet13/1
+    type: 400gbase-x-osfp
+  - name: Ethernet14/1
+    type: 400gbase-x-osfp
+  - name: Ethernet15/1
+    type: 400gbase-x-osfp
+  - name: Ethernet16/1
+    type: 400gbase-x-osfp
+  - name: Ethernet17/1
+    type: 400gbase-x-osfp
+  - name: Ethernet18/1
+    type: 400gbase-x-osfp
+  - name: Ethernet19/1
+    type: 400gbase-x-osfp
+  - name: Ethernet20/1
+    type: 400gbase-x-osfp
+  - name: Ethernet21/1
+    type: 400gbase-x-osfp
+  - name: Ethernet22/1
+    type: 400gbase-x-osfp
+  - name: Ethernet23/1
+    type: 400gbase-x-osfp
+  - name: Ethernet24/1
+    type: 400gbase-x-osfp
+  - name: Ethernet25/1
+    type: 400gbase-x-osfp
+  - name: Ethernet26/1
+    type: 400gbase-x-osfp
+  - name: Ethernet27/1
+    type: 400gbase-x-osfp
+  - name: Ethernet28/1
+    type: 400gbase-x-osfp
+  - name: Ethernet29/1
+    type: 400gbase-x-osfp
+  - name: Ethernet30/1
+    type: 400gbase-x-osfp
+  - name: Ethernet31/1
+    type: 400gbase-x-osfp
+  - name: Ethernet32/1
+    type: 400gbase-x-osfp
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7060PX4-32
+  power-ports:
+  - allocated_draw: 342
+    maximum_draw: 1600
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 342
+    maximum_draw: 1600
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7060px4-32
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet2/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet3/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet4/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet5/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet6/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet7/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet8/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet9/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet10/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet11/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet12/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet13/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet14/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet15/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet16/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet17/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet18/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet19/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet20/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet21/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet22/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet23/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet24/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet27/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet28/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet29/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet30/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet31/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet32/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet33/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet34/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet35/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet36/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7280QR-C36
+  part_number: DCS-7280QR-C36
+  power-ports:
+  - allocated_draw: 324
+    maximum_draw: 499
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 324
+    maximum_draw: 499
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7280qr-c36
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Ethernet29
+    type: 10gbase-x-sfpp
+  - name: Ethernet30
+    type: 10gbase-x-sfpp
+  - name: Ethernet31
+    type: 10gbase-x-sfpp
+  - name: Ethernet32
+    type: 10gbase-x-sfpp
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Ethernet35
+    type: 10gbase-x-sfpp
+  - name: Ethernet36
+    type: 10gbase-x-sfpp
+  - name: Ethernet37
+    type: 10gbase-x-sfpp
+  - name: Ethernet38
+    type: 10gbase-x-sfpp
+  - name: Ethernet39
+    type: 10gbase-x-sfpp
+  - name: Ethernet40
+    type: 10gbase-x-sfpp
+  - name: Ethernet41
+    type: 10gbase-x-sfpp
+  - name: Ethernet42
+    type: 10gbase-x-sfpp
+  - name: Ethernet43
+    type: 10gbase-x-sfpp
+  - name: Ethernet44
+    type: 10gbase-x-sfpp
+  - name: Ethernet45
+    type: 10gbase-x-sfpp
+  - name: Ethernet46
+    type: 10gbase-x-sfpp
+  - name: Ethernet47
+    type: 10gbase-x-sfpp
+  - name: Ethernet48
+    type: 10gbase-x-sfpp
+  - name: Ethernet49/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet50/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet51/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet52/1
+    type: 40gbase-x-qsfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7150SC-64
+  part_number: DCS-7150SC-64
+  power-ports:
+  - allocated_draw: 224
+    maximum_draw: 455
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 224
+    maximum_draw: 455
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7150sc-64
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 1000base-t
+  - name: Ethernet2
+    type: 1000base-t
+  - name: Ethernet3
+    type: 1000base-t
+  - name: Ethernet4
+    type: 1000base-t
+  - name: Ethernet5
+    type: 1000base-t
+  - name: Ethernet6
+    type: 1000base-t
+  - name: Ethernet7
+    type: 1000base-t
+  - name: Ethernet8
+    type: 1000base-t
+  - name: Ethernet9
+    type: 1000base-t
+  - name: Ethernet10
+    type: 1000base-t
+  - name: Ethernet11
+    type: 1000base-t
+  - name: Ethernet12
+    type: 1000base-t
+  - name: Ethernet13
+    type: 1000base-t
+  - name: Ethernet14
+    type: 1000base-t
+  - name: Ethernet15
+    type: 1000base-t
+  - name: Ethernet16
+    type: 1000base-t
+  - name: Ethernet17
+    type: 1000base-t
+  - name: Ethernet18
+    type: 1000base-t
+  - name: Ethernet19
+    type: 1000base-t
+  - name: Ethernet20
+    type: 1000base-t
+  - name: Ethernet21
+    type: 1000base-t
+  - name: Ethernet22
+    type: 1000base-t
+  - name: Ethernet23
+    type: 1000base-t
+  - name: Ethernet24
+    type: 1000base-t
+  - name: Ethernet25
+    type: 25gbase-x-sfp28
+  - name: Ethernet26
+    type: 25gbase-x-sfp28
+  - name: Ethernet27
+    type: 25gbase-x-sfp28
+  - name: Ethernet28
+    type: 25gbase-x-sfp28
+  - name: Ethernet29
+    type: 25gbase-x-sfp28
+  - name: Ethernet30
+    type: 25gbase-x-sfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: CCS-720XP-24Y6
+  part_number: CCS-720XP-24Y6
+  power-ports:
+  - allocated_draw: 164
+    maximum_draw: 177
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 164
+    maximum_draw: 177
+    name: PS2
+    type: iec-60320-c14
+  slug: ccs-720xp-24y6
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Ethernet29
+    type: 10gbase-x-sfpp
+  - name: Ethernet30
+    type: 10gbase-x-sfpp
+  - name: Ethernet31
+    type: 10gbase-x-sfpp
+  - name: Ethernet32
+    type: 10gbase-x-sfpp
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Ethernet35
+    type: 10gbase-x-sfpp
+  - name: Ethernet36
+    type: 10gbase-x-sfpp
+  - name: Ethernet37
+    type: 10gbase-x-sfpp
+  - name: Ethernet38
+    type: 10gbase-x-sfpp
+  - name: Ethernet39
+    type: 10gbase-x-sfpp
+  - name: Ethernet40
+    type: 10gbase-x-sfpp
+  - name: Ethernet41
+    type: 10gbase-x-sfpp
+  - name: Ethernet42
+    type: 10gbase-x-sfpp
+  - name: Ethernet43
+    type: 10gbase-x-sfpp
+  - name: Ethernet44
+    type: 10gbase-x-sfpp
+  - name: Ethernet45
+    type: 10gbase-x-sfpp
+  - name: Ethernet46
+    type: 10gbase-x-sfpp
+  - name: Ethernet47
+    type: 10gbase-x-sfpp
+  - name: Ethernet48
+    type: 10gbase-x-sfpp
+  - name: Ethernet49
+    type: 40gbase-x-qsfpp
+  - name: Ethernet50
+    type: 40gbase-x-qsfpp
+  - name: Ethernet51
+    type: 40gbase-x-qsfpp
+  - name: Ethernet52
+    type: 40gbase-x-qsfpp
+  - name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7050S-64
+  power-ports:
+  - allocated_draw: 150
+    maximum_draw: 460
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 150
+    maximum_draw: 460
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7050s-64
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 25gbase-x-sfp28
+  - name: Ethernet2
+    type: 25gbase-x-sfp28
+  - name: Ethernet3
+    type: 25gbase-x-sfp28
+  - name: Ethernet4
+    type: 25gbase-x-sfp28
+  - name: Ethernet5
+    type: 25gbase-x-sfp28
+  - name: Ethernet6
+    type: 25gbase-x-sfp28
+  - name: Ethernet7
+    type: 25gbase-x-sfp28
+  - name: Ethernet8
+    type: 25gbase-x-sfp28
+  - name: Ethernet9
+    type: 25gbase-x-sfp28
+  - name: Ethernet10
+    type: 25gbase-x-sfp28
+  - name: Ethernet11
+    type: 25gbase-x-sfp28
+  - name: Ethernet12
+    type: 25gbase-x-sfp28
+  - name: Ethernet13
+    type: 25gbase-x-sfp28
+  - name: Ethernet14
+    type: 25gbase-x-sfp28
+  - name: Ethernet15
+    type: 25gbase-x-sfp28
+  - name: Ethernet16
+    type: 25gbase-x-sfp28
+  - name: Ethernet17
+    type: 25gbase-x-sfp28
+  - name: Ethernet18
+    type: 25gbase-x-sfp28
+  - name: Ethernet19
+    type: 25gbase-x-sfp28
+  - name: Ethernet20
+    type: 25gbase-x-sfp28
+  - name: Ethernet21
+    type: 25gbase-x-sfp28
+  - name: Ethernet22
+    type: 25gbase-x-sfp28
+  - name: Ethernet23
+    type: 25gbase-x-sfp28
+  - name: Ethernet24
+    type: 25gbase-x-sfp28
+  - name: Ethernet25
+    type: 25gbase-x-sfp28
+  - name: Ethernet26
+    type: 25gbase-x-sfp28
+  - name: Ethernet27
+    type: 25gbase-x-sfp28
+  - name: Ethernet28
+    type: 25gbase-x-sfp28
+  - name: Ethernet29
+    type: 25gbase-x-sfp28
+  - name: Ethernet30
+    type: 25gbase-x-sfp28
+  - name: Ethernet31
+    type: 25gbase-x-sfp28
+  - name: Ethernet32
+    type: 25gbase-x-sfp28
+  - name: Ethernet33
+    type: 25gbase-x-sfp28
+  - name: Ethernet34
+    type: 25gbase-x-sfp28
+  - name: Ethernet35
+    type: 25gbase-x-sfp28
+  - name: Ethernet36
+    type: 25gbase-x-sfp28
+  - name: Ethernet37
+    type: 25gbase-x-sfp28
+  - name: Ethernet38
+    type: 25gbase-x-sfp28
+  - name: Ethernet39
+    type: 25gbase-x-sfp28
+  - name: Ethernet40
+    type: 25gbase-x-sfp28
+  - name: Ethernet41
+    type: 25gbase-x-sfp28
+  - name: Ethernet42
+    type: 25gbase-x-sfp28
+  - name: Ethernet43
+    type: 25gbase-x-sfp28
+  - name: Ethernet44
+    type: 25gbase-x-sfp28
+  - name: Ethernet45
+    type: 25gbase-x-sfp28
+  - name: Ethernet46
+    type: 25gbase-x-sfp28
+  - name: Ethernet47
+    type: 25gbase-x-sfp28
+  - name: Ethernet48
+    type: 25gbase-x-sfp28
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet55/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet56/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet57/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet58/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet59/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet60/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7050SX3-48YC12
+  part_number: DCS-7050SX3-48YC12
+  power-ports:
+  - allocated_draw: 170
+    maximum_draw: 325
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 170
+    maximum_draw: 325
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7050sx3-48yc12
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-t
+  - name: Ethernet2
+    type: 10gbase-t
+  - name: Ethernet3
+    type: 10gbase-t
+  - name: Ethernet4
+    type: 10gbase-t
+  - name: Ethernet5
+    type: 10gbase-t
+  - name: Ethernet6
+    type: 10gbase-t
+  - name: Ethernet7
+    type: 10gbase-t
+  - name: Ethernet8
+    type: 10gbase-t
+  - name: Ethernet9
+    type: 10gbase-t
+  - name: Ethernet10
+    type: 10gbase-t
+  - name: Ethernet11
+    type: 10gbase-t
+  - name: Ethernet12
+    type: 10gbase-t
+  - name: Ethernet13
+    type: 10gbase-t
+  - name: Ethernet14
+    type: 10gbase-t
+  - name: Ethernet15
+    type: 10gbase-t
+  - name: Ethernet16
+    type: 10gbase-t
+  - name: Ethernet17
+    type: 10gbase-t
+  - name: Ethernet18
+    type: 10gbase-t
+  - name: Ethernet19
+    type: 10gbase-t
+  - name: Ethernet20
+    type: 10gbase-t
+  - name: Ethernet21
+    type: 10gbase-t
+  - name: Ethernet22
+    type: 10gbase-t
+  - name: Ethernet23
+    type: 10gbase-t
+  - name: Ethernet24
+    type: 10gbase-t
+  - name: Ethernet25
+    type: 10gbase-t
+  - name: Ethernet26
+    type: 10gbase-t
+  - name: Ethernet27
+    type: 10gbase-t
+  - name: Ethernet28
+    type: 10gbase-t
+  - name: Ethernet29
+    type: 10gbase-t
+  - name: Ethernet30
+    type: 10gbase-t
+  - name: Ethernet31
+    type: 10gbase-t
+  - name: Ethernet32
+    type: 10gbase-t
+  - name: Ethernet33
+    type: 10gbase-t
+  - name: Ethernet34
+    type: 10gbase-t
+  - name: Ethernet35
+    type: 10gbase-t
+  - name: Ethernet36
+    type: 10gbase-t
+  - name: Ethernet37
+    type: 10gbase-t
+  - name: Ethernet38
+    type: 10gbase-t
+  - name: Ethernet39
+    type: 10gbase-t
+  - name: Ethernet40
+    type: 10gbase-t
+  - name: Ethernet41
+    type: 10gbase-t
+  - name: Ethernet42
+    type: 10gbase-t
+  - name: Ethernet43
+    type: 10gbase-t
+  - name: Ethernet44
+    type: 10gbase-t
+  - name: Ethernet45
+    type: 10gbase-t
+  - name: Ethernet46
+    type: 10gbase-t
+  - name: Ethernet47
+    type: 10gbase-t
+  - name: Ethernet48
+    type: 10gbase-t
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet55/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet56/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7050TX3-48C8
+  part_number: DCS-7050TX3-48C8
+  power-ports:
+  - allocated_draw: 212
+    maximum_draw: 346
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 212
+    maximum_draw: 346
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7050tx3-48c8
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Ethernet29
+    type: 10gbase-x-sfpp
+  - name: Ethernet30
+    type: 10gbase-x-sfpp
+  - name: Ethernet31
+    type: 10gbase-x-sfpp
+  - name: Ethernet32
+    type: 10gbase-x-sfpp
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Ethernet35
+    type: 10gbase-x-sfpp
+  - name: Ethernet36
+    type: 10gbase-x-sfpp
+  - name: Ethernet37
+    type: 10gbase-x-sfpp
+  - name: Ethernet38
+    type: 10gbase-x-sfpp
+  - name: Ethernet39
+    type: 10gbase-x-sfpp
+  - name: Ethernet40
+    type: 10gbase-x-sfpp
+  - name: Ethernet41
+    type: 10gbase-x-sfpp
+  - name: Ethernet42
+    type: 10gbase-x-sfpp
+  - name: Ethernet43
+    type: 10gbase-x-sfpp
+  - name: Ethernet44
+    type: 10gbase-x-sfpp
+  - name: Ethernet45
+    type: 10gbase-x-sfpp
+  - name: Ethernet46
+    type: 10gbase-x-sfpp
+  - name: Ethernet47
+    type: 10gbase-x-sfpp
+  - name: Ethernet48
+    type: 10gbase-x-sfpp
+  - name: Ethernet49/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet50/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet51/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet52/1
+    type: 40gbase-x-qsfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7150S-64
+  part_number: DCS-7150S-64
+  power-ports:
+  - allocated_draw: 224
+    maximum_draw: 455
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 224
+    maximum_draw: 455
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7150s-64
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 1000base-t
+  - name: Ethernet2
+    type: 1000base-t
+  - name: Ethernet3
+    type: 1000base-t
+  - name: Ethernet4
+    type: 1000base-t
+  - name: Ethernet5
+    type: 1000base-t
+  - name: Ethernet6
+    type: 1000base-t
+  - name: Ethernet7
+    type: 1000base-t
+  - name: Ethernet8
+    type: 1000base-t
+  - name: Ethernet9
+    type: 1000base-t
+  - name: Ethernet10
+    type: 1000base-t
+  - name: Ethernet11
+    type: 1000base-t
+  - name: Ethernet12
+    type: 1000base-t
+  - name: Ethernet13
+    type: 1000base-t
+  - name: Ethernet14
+    type: 1000base-t
+  - name: Ethernet15
+    type: 1000base-t
+  - name: Ethernet16
+    type: 1000base-t
+  - name: Ethernet17
+    type: 1000base-t
+  - name: Ethernet18
+    type: 1000base-t
+  - name: Ethernet19
+    type: 1000base-t
+  - name: Ethernet20
+    type: 1000base-t
+  - name: Ethernet21
+    type: 1000base-t
+  - name: Ethernet22
+    type: 1000base-t
+  - name: Ethernet23
+    type: 1000base-t
+  - name: Ethernet24
+    type: 1000base-t
+  - name: Ethernet25
+    type: 1000base-t
+  - name: Ethernet26
+    type: 1000base-t
+  - name: Ethernet27
+    type: 1000base-t
+  - name: Ethernet28
+    type: 1000base-t
+  - name: Ethernet29
+    type: 1000base-t
+  - name: Ethernet30
+    type: 1000base-t
+  - name: Ethernet31
+    type: 1000base-t
+  - name: Ethernet32
+    type: 1000base-t
+  - name: Ethernet33
+    type: 1000base-t
+  - name: Ethernet34
+    type: 1000base-t
+  - name: Ethernet35
+    type: 1000base-t
+  - name: Ethernet36
+    type: 1000base-t
+  - name: Ethernet37
+    type: 1000base-t
+  - name: Ethernet38
+    type: 1000base-t
+  - name: Ethernet39
+    type: 1000base-t
+  - name: Ethernet40
+    type: 1000base-t
+  - name: Ethernet41
+    type: 1000base-t
+  - name: Ethernet42
+    type: 1000base-t
+  - name: Ethernet43
+    type: 1000base-t
+  - name: Ethernet44
+    type: 1000base-t
+  - name: Ethernet45
+    type: 1000base-t
+  - name: Ethernet46
+    type: 1000base-t
+  - name: Ethernet47
+    type: 1000base-t
+  - name: Ethernet48
+    type: 1000base-t
+  - name: Ethernet49
+    type: 10gbase-x-sfpp
+  - name: Ethernet50
+    type: 10gbase-x-sfpp
+  - name: Ethernet51
+    type: 10gbase-x-sfpp
+  - name: Ethernet52
+    type: 10gbase-x-sfpp
+  - name: Ethernet53
+    type: 10gbase-x-sfpp
+  - name: Ethernet54
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7020TR-48
+  part_number: DCS-7020TR-48
+  power-ports:
+  - allocated_draw: 105
+    maximum_draw: 115
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 105
+    maximum_draw: 115
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7020tr-48
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-t
+  - name: Ethernet2
+    type: 10gbase-t
+  - name: Ethernet3
+    type: 10gbase-t
+  - name: Ethernet4
+    type: 10gbase-t
+  - name: Ethernet5
+    type: 10gbase-t
+  - name: Ethernet6
+    type: 10gbase-t
+  - name: Ethernet7
+    type: 10gbase-t
+  - name: Ethernet8
+    type: 10gbase-t
+  - name: Ethernet9
+    type: 10gbase-t
+  - name: Ethernet10
+    type: 10gbase-t
+  - name: Ethernet11
+    type: 10gbase-t
+  - name: Ethernet12
+    type: 10gbase-t
+  - name: Ethernet13
+    type: 10gbase-t
+  - name: Ethernet14
+    type: 10gbase-t
+  - name: Ethernet15
+    type: 10gbase-t
+  - name: Ethernet16
+    type: 10gbase-t
+  - name: Ethernet17
+    type: 10gbase-t
+  - name: Ethernet18
+    type: 10gbase-t
+  - name: Ethernet19
+    type: 10gbase-t
+  - name: Ethernet20
+    type: 10gbase-t
+  - name: Ethernet21
+    type: 10gbase-t
+  - name: Ethernet22
+    type: 10gbase-t
+  - name: Ethernet23
+    type: 10gbase-t
+  - name: Ethernet24
+    type: 10gbase-t
+  - name: Ethernet25
+    type: 10gbase-t
+  - name: Ethernet26
+    type: 10gbase-t
+  - name: Ethernet27
+    type: 10gbase-t
+  - name: Ethernet28
+    type: 10gbase-t
+  - name: Ethernet29
+    type: 10gbase-t
+  - name: Ethernet30
+    type: 10gbase-t
+  - name: Ethernet31
+    type: 10gbase-t
+  - name: Ethernet32
+    type: 10gbase-t
+  - name: Ethernet33
+    type: 10gbase-t
+  - name: Ethernet34
+    type: 10gbase-t
+  - name: Ethernet35
+    type: 10gbase-t
+  - name: Ethernet36
+    type: 10gbase-t
+  - name: Ethernet37
+    type: 10gbase-t
+  - name: Ethernet38
+    type: 10gbase-t
+  - name: Ethernet39
+    type: 10gbase-t
+  - name: Ethernet40
+    type: 10gbase-t
+  - name: Ethernet41
+    type: 10gbase-t
+  - name: Ethernet42
+    type: 10gbase-t
+  - name: Ethernet43
+    type: 10gbase-t
+  - name: Ethernet44
+    type: 10gbase-t
+  - name: Ethernet45
+    type: 10gbase-t
+  - name: Ethernet46
+    type: 10gbase-t
+  - name: Ethernet47
+    type: 10gbase-t
+  - name: Ethernet48
+    type: 10gbase-t
+  - name: Ethernet49/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet50/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet51/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet52/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet53/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet54/1
+    type: 40gbase-x-qsfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7050TX-72Q
+  power-ports:
+  - allocated_draw: 355
+    maximum_draw: 500
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 355
+    maximum_draw: 500
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7050tx-72q
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 25gbase-x-sfp28
+  - name: Ethernet2
+    type: 25gbase-x-sfp28
+  - name: Ethernet3
+    type: 25gbase-x-sfp28
+  - name: Ethernet4
+    type: 25gbase-x-sfp28
+  - name: Ethernet5
+    type: 25gbase-x-sfp28
+  - name: Ethernet6
+    type: 25gbase-x-sfp28
+  - name: Ethernet7
+    type: 25gbase-x-sfp28
+  - name: Ethernet8
+    type: 25gbase-x-sfp28
+  - name: Ethernet9
+    type: 25gbase-x-sfp28
+  - name: Ethernet10
+    type: 25gbase-x-sfp28
+  - name: Ethernet11
+    type: 25gbase-x-sfp28
+  - name: Ethernet12
+    type: 25gbase-x-sfp28
+  - name: Ethernet13
+    type: 25gbase-x-sfp28
+  - name: Ethernet14
+    type: 25gbase-x-sfp28
+  - name: Ethernet15
+    type: 25gbase-x-sfp28
+  - name: Ethernet16
+    type: 25gbase-x-sfp28
+  - name: Ethernet17
+    type: 25gbase-x-sfp28
+  - name: Ethernet18
+    type: 25gbase-x-sfp28
+  - name: Ethernet19
+    type: 25gbase-x-sfp28
+  - name: Ethernet20
+    type: 25gbase-x-sfp28
+  - name: Ethernet21
+    type: 25gbase-x-sfp28
+  - name: Ethernet22
+    type: 25gbase-x-sfp28
+  - name: Ethernet23
+    type: 25gbase-x-sfp28
+  - name: Ethernet24
+    type: 25gbase-x-sfp28
+  - name: Ethernet25
+    type: 25gbase-x-sfp28
+  - name: Ethernet26
+    type: 25gbase-x-sfp28
+  - name: Ethernet27
+    type: 25gbase-x-sfp28
+  - name: Ethernet28
+    type: 25gbase-x-sfp28
+  - name: Ethernet29
+    type: 25gbase-x-sfp28
+  - name: Ethernet30
+    type: 25gbase-x-sfp28
+  - name: Ethernet31
+    type: 25gbase-x-sfp28
+  - name: Ethernet32
+    type: 25gbase-x-sfp28
+  - name: Ethernet33
+    type: 25gbase-x-sfp28
+  - name: Ethernet34
+    type: 25gbase-x-sfp28
+  - name: Ethernet35
+    type: 25gbase-x-sfp28
+  - name: Ethernet36
+    type: 25gbase-x-sfp28
+  - name: Ethernet37
+    type: 25gbase-x-sfp28
+  - name: Ethernet38
+    type: 25gbase-x-sfp28
+  - name: Ethernet39
+    type: 25gbase-x-sfp28
+  - name: Ethernet40
+    type: 25gbase-x-sfp28
+  - name: Ethernet41
+    type: 25gbase-x-sfp28
+  - name: Ethernet42
+    type: 25gbase-x-sfp28
+  - name: Ethernet43
+    type: 25gbase-x-sfp28
+  - name: Ethernet44
+    type: 25gbase-x-sfp28
+  - name: Ethernet45
+    type: 25gbase-x-sfp28
+  - name: Ethernet46
+    type: 25gbase-x-sfp28
+  - name: Ethernet47
+    type: 25gbase-x-sfp28
+  - name: Ethernet48
+    type: 25gbase-x-sfp28
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7280SR2-48YC6
+  part_number: DCS-7280SR2-48YC6
+  power-ports:
+  - allocated_draw: 425
+    maximum_draw: 647
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 425
+    maximum_draw: 647
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7280sr2-48yc6
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 1000base-t
+  - name: Ethernet2
+    type: 1000base-t
+  - name: Ethernet3
+    type: 1000base-t
+  - name: Ethernet4
+    type: 1000base-t
+  - name: Ethernet5
+    type: 1000base-t
+  - name: Ethernet6
+    type: 1000base-t
+  - name: Ethernet7
+    type: 1000base-t
+  - name: Ethernet8
+    type: 1000base-t
+  - name: Ethernet9
+    type: 1000base-t
+  - name: Ethernet10
+    type: 1000base-t
+  - name: Ethernet11
+    type: 1000base-t
+  - name: Ethernet12
+    type: 1000base-t
+  - name: Ethernet13
+    type: 1000base-t
+  - name: Ethernet14
+    type: 1000base-t
+  - name: Ethernet15
+    type: 1000base-t
+  - name: Ethernet16
+    type: 1000base-t
+  - name: Ethernet17
+    type: 1000base-t
+  - name: Ethernet18
+    type: 1000base-t
+  - name: Ethernet19
+    type: 1000base-t
+  - name: Ethernet20
+    type: 1000base-t
+  - name: Ethernet21
+    type: 1000base-t
+  - name: Ethernet22
+    type: 1000base-t
+  - name: Ethernet23
+    type: 1000base-t
+  - name: Ethernet24
+    type: 1000base-t
+  - name: Ethernet25
+    type: 1000base-t
+  - name: Ethernet26
+    type: 1000base-t
+  - name: Ethernet27
+    type: 1000base-t
+  - name: Ethernet28
+    type: 1000base-t
+  - name: Ethernet29
+    type: 1000base-t
+  - name: Ethernet30
+    type: 1000base-t
+  - name: Ethernet31
+    type: 1000base-t
+  - name: Ethernet32
+    type: 1000base-t
+  - name: Ethernet33
+    type: 1000base-t
+  - name: Ethernet34
+    type: 1000base-t
+  - name: Ethernet35
+    type: 1000base-t
+  - name: Ethernet36
+    type: 1000base-t
+  - name: Ethernet37
+    type: 1000base-t
+  - name: Ethernet38
+    type: 1000base-t
+  - name: Ethernet39
+    type: 1000base-t
+  - name: Ethernet40
+    type: 1000base-t
+  - name: Ethernet41
+    type: 1000base-t
+  - name: Ethernet42
+    type: 1000base-t
+  - name: Ethernet43
+    type: 1000base-t
+  - name: Ethernet44
+    type: 1000base-t
+  - name: Ethernet45
+    type: 1000base-t
+  - name: Ethernet46
+    type: 1000base-t
+  - name: Ethernet47
+    type: 1000base-t
+  - name: Ethernet48
+    type: 1000base-t
+  - name: Ethernet49
+    type: 10gbase-x-sfpp
+  - name: Ethernet50
+    type: 10gbase-x-sfpp
+  - name: Ethernet51
+    type: 10gbase-x-sfpp
+  - name: Ethernet52
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7010T-48
+  part_number: DCS-7010T-48
+  power-ports:
+  - allocated_draw: 52
+    maximum_draw: 65
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 52
+    maximum_draw: 65
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7010t-48
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 1000base-t
+  - name: Ethernet2
+    type: 2.5gbase-t
+  - name: Ethernet3
+    type: 2.5gbase-t
+  - name: Ethernet4
+    type: 2.5gbase-t
+  - name: Ethernet5
+    type: 2.5gbase-t
+  - name: Ethernet6
+    type: 2.5gbase-t
+  - name: Ethernet7
+    type: 2.5gbase-t
+  - name: Ethernet8
+    type: 2.5gbase-t
+  - name: Ethernet9
+    type: 2.5gbase-t
+  - name: Ethernet10
+    type: 2.5gbase-t
+  - name: Ethernet11
+    type: 2.5gbase-t
+  - name: Ethernet12
+    type: 2.5gbase-t
+  - name: Ethernet13
+    type: 2.5gbase-t
+  - name: Ethernet14
+    type: 2.5gbase-t
+  - name: Ethernet15
+    type: 2.5gbase-t
+  - name: Ethernet16
+    type: 2.5gbase-t
+  - name: Ethernet17
+    type: 2.5gbase-t
+  - name: Ethernet18
+    type: 2.5gbase-t
+  - name: Ethernet19
+    type: 2.5gbase-t
+  - name: Ethernet20
+    type: 2.5gbase-t
+  - name: Ethernet21
+    type: 2.5gbase-t
+  - name: Ethernet22
+    type: 2.5gbase-t
+  - name: Ethernet23
+    type: 2.5gbase-t
+  - name: Ethernet24
+    type: 2.5gbase-t
+  - name: Ethernet25
+    type: 2.5gbase-t
+  - name: Ethernet26
+    type: 2.5gbase-t
+  - name: Ethernet27
+    type: 2.5gbase-t
+  - name: Ethernet28
+    type: 2.5gbase-t
+  - name: Ethernet29
+    type: 2.5gbase-t
+  - name: Ethernet30
+    type: 2.5gbase-t
+  - name: Ethernet31
+    type: 2.5gbase-t
+  - name: Ethernet32
+    type: 2.5gbase-t
+  - name: Ethernet33
+    type: 2.5gbase-t
+  - name: Ethernet34
+    type: 2.5gbase-t
+  - name: Ethernet35
+    type: 2.5gbase-t
+  - name: Ethernet36
+    type: 2.5gbase-t
+  - name: Ethernet37
+    type: 2.5gbase-t
+  - name: Ethernet38
+    type: 2.5gbase-t
+  - name: Ethernet39
+    type: 2.5gbase-t
+  - name: Ethernet40
+    type: 2.5gbase-t
+  - name: Ethernet41
+    type: 1000base-t
+  - name: Ethernet42
+    type: 2.5gbase-t
+  - name: Ethernet43
+    type: 2.5gbase-t
+  - name: Ethernet44
+    type: 2.5gbase-t
+  - name: Ethernet45
+    type: 2.5gbase-t
+  - name: Ethernet46
+    type: 2.5gbase-t
+  - name: Ethernet47
+    type: 2.5gbase-t
+  - name: Ethernet48
+    type: 2.5gbase-t
+  - name: Ethernet49
+    type: 2.5gbase-t
+  - name: Ethernet50
+    type: 2.5gbase-t
+  - name: Ethernet51
+    type: 2.5gbase-t
+  - name: Ethernet52
+    type: 2.5gbase-t
+  - name: Ethernet53
+    type: 2.5gbase-t
+  - name: Ethernet54
+    type: 2.5gbase-t
+  - name: Ethernet55
+    type: 2.5gbase-t
+  - name: Ethernet56
+    type: 2.5gbase-t
+  - name: Ethernet57
+    type: 2.5gbase-t
+  - name: Ethernet58
+    type: 2.5gbase-t
+  - name: Ethernet59
+    type: 2.5gbase-t
+  - name: Ethernet60
+    type: 2.5gbase-t
+  - name: Ethernet61
+    type: 2.5gbase-t
+  - name: Ethernet62
+    type: 2.5gbase-t
+  - name: Ethernet63
+    type: 2.5gbase-t
+  - name: Ethernet64
+    type: 2.5gbase-t
+  - name: Ethernet65
+    type: 2.5gbase-t
+  - name: Ethernet66
+    type: 2.5gbase-t
+  - name: Ethernet67
+    type: 2.5gbase-t
+  - name: Ethernet68
+    type: 2.5gbase-t
+  - name: Ethernet69
+    type: 2.5gbase-t
+  - name: Ethernet70
+    type: 2.5gbase-t
+  - name: Ethernet71
+    type: 2.5gbase-t
+  - name: Ethernet72
+    type: 2.5gbase-t
+  - name: Ethernet73
+    type: 2.5gbase-t
+  - name: Ethernet74
+    type: 2.5gbase-t
+  - name: Ethernet75
+    type: 2.5gbase-t
+  - name: Ethernet76
+    type: 2.5gbase-t
+  - name: Ethernet77
+    type: 2.5gbase-t
+  - name: Ethernet78
+    type: 2.5gbase-t
+  - name: Ethernet79
+    type: 2.5gbase-t
+  - name: Ethernet80
+    type: 2.5gbase-t
+  - name: Ethernet81
+    type: 5gbase-t
+  - name: Ethernet82
+    type: 5gbase-t
+  - name: Ethernet83
+    type: 5gbase-t
+  - name: Ethernet84
+    type: 5gbase-t
+  - name: Ethernet85
+    type: 5gbase-t
+  - name: Ethernet86
+    type: 5gbase-t
+  - name: Ethernet87
+    type: 5gbase-t
+  - name: Ethernet88
+    type: 5gbase-t
+  - name: Ethernet89
+    type: 5gbase-t
+  - name: Ethernet90
+    type: 5gbase-t
+  - name: Ethernet91
+    type: 5gbase-t
+  - name: Ethernet92
+    type: 5gbase-t
+  - name: Ethernet93
+    type: 5gbase-t
+  - name: Ethernet94
+    type: 5gbase-t
+  - name: Ethernet95
+    type: 5gbase-t
+  - name: Ethernet96
+    type: 5gbase-t
+  - name: Ethernet97
+    type: 25gbase-x-sfp28
+  - name: Ethernet98
+    type: 25gbase-x-sfp28
+  - name: Ethernet99
+    type: 25gbase-x-sfp28
+  - name: Ethernet100
+    type: 25gbase-x-sfp28
+  - name: Ethernet101/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet102/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: CCS-720XP-96ZC2
+  part_number: CCS-720XP-96ZC2
+  power-ports:
+  - allocated_draw: 245
+    maximum_draw: 378
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 245
+    maximum_draw: 378
+    name: PS2
+    type: iec-60320-c14
+  slug: ccs-720xp-96zc2
+  u_height: 2
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7020SR-24C2
+  part_number: DCS-7020SR-24C2
+  power-ports:
+  - allocated_draw: 95
+    maximum_draw: 105
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 95
+    maximum_draw: 105
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7020sr-24c2
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet6/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet7/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet8/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet9/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet10/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet11/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet12/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet13/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet14/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet15/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet16/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet17/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet18/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet19/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet20/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet21/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet22/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet23/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet24/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet25/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet26/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet27/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet28/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet29
+    type: 40gbase-x-qsfpp
+  - name: Ethernet30
+    type: 40gbase-x-qsfpp
+  - name: Ethernet31
+    type: 40gbase-x-qsfpp
+  - name: Ethernet32
+    type: 40gbase-x-qsfpp
+  - name: Ethernet33
+    type: 40gbase-x-qsfpp
+  - name: Ethernet34
+    type: 40gbase-x-qsfpp
+  - name: Ethernet35
+    type: 40gbase-x-qsfpp
+  - name: Ethernet36
+    type: 40gbase-x-qsfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7050QX-32S
+  part_number: DCS-7050QX-32S
+  power-ports:
+  - allocated_draw: 192
+    maximum_draw: 500
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 192
+    maximum_draw: 500
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7050qx-32s
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Ethernet29
+    type: 10gbase-x-sfpp
+  - name: Ethernet30
+    type: 10gbase-x-sfpp
+  - name: Ethernet31
+    type: 10gbase-x-sfpp
+  - name: Ethernet32
+    type: 10gbase-x-sfpp
+  - name: Ethernet33
+    type: 40gbase-x-qsfpp
+  - name: Ethernet34
+    type: 40gbase-x-qsfpp
+  - name: Ethernet35
+    type: 40gbase-x-qsfpp
+  - name: Ethernet36
+    type: 40gbase-x-qsfpp
+  - name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7050TX-48
+  part_number: DCS-7050TX-48
+  power-ports:
+  - allocated_draw: 305
+    maximum_draw: 500
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 305
+    maximum_draw: 500
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7050tx-48
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 25gbase-x-sfp28
+  - name: Ethernet26
+    type: 25gbase-x-sfp28
+  - name: Ethernet27
+    type: 25gbase-x-sfp28
+  - name: Ethernet28
+    type: 25gbase-x-sfp28
+  - name: Ethernet29
+    type: 25gbase-x-sfp28
+  - name: Ethernet30
+    type: 25gbase-x-sfp28
+  - name: Ethernet31
+    type: 25gbase-x-sfp28
+  - name: Ethernet32
+    type: 25gbase-x-sfp28
+  - name: Ethernet33
+    type: 25gbase-x-sfp28
+  - name: Ethernet34
+    type: 25gbase-x-sfp28
+  - name: Ethernet35
+    type: 25gbase-x-sfp28
+  - name: Ethernet36
+    type: 25gbase-x-sfp28
+  - name: Ethernet37
+    type: 25gbase-x-sfp28
+  - name: Ethernet38
+    type: 25gbase-x-sfp28
+  - name: Ethernet39
+    type: 25gbase-x-sfp28
+  - name: Ethernet40
+    type: 25gbase-x-sfp28
+  - name: Ethernet41
+    type: 25gbase-x-sfp28
+  - name: Ethernet42
+    type: 25gbase-x-sfp28
+  - name: Ethernet43
+    type: 25gbase-x-sfp28
+  - name: Ethernet44
+    type: 25gbase-x-sfp28
+  - name: Ethernet45
+    type: 25gbase-x-sfp28
+  - name: Ethernet46
+    type: 25gbase-x-sfp28
+  - name: Ethernet47
+    type: 25gbase-x-sfp28
+  - name: Ethernet48
+    type: 25gbase-x-sfp28
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7280SR2K-48C6-M
+  part_number: DCS-7280SR2K-48C6-M
+  power-ports:
+  - allocated_draw: 215
+    maximum_draw: 370
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 215
+    maximum_draw: 370
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7280sr2k-48c6-m
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Ethernet29
+    type: 10gbase-x-sfpp
+  - name: Ethernet30
+    type: 10gbase-x-sfpp
+  - name: Ethernet31
+    type: 10gbase-x-sfpp
+  - name: Ethernet32
+    type: 10gbase-x-sfpp
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Ethernet35
+    type: 10gbase-x-sfpp
+  - name: Ethernet36
+    type: 10gbase-x-sfpp
+  - name: Ethernet37
+    type: 10gbase-x-sfpp
+  - name: Ethernet38
+    type: 10gbase-x-sfpp
+  - name: Ethernet39
+    type: 10gbase-x-sfpp
+  - name: Ethernet40
+    type: 10gbase-x-sfpp
+  - name: Ethernet41
+    type: 10gbase-x-sfpp
+  - name: Ethernet42
+    type: 10gbase-x-sfpp
+  - name: Ethernet43
+    type: 10gbase-x-sfpp
+  - name: Ethernet44
+    type: 10gbase-x-sfpp
+  - name: Ethernet45
+    type: 10gbase-x-sfpp
+  - name: Ethernet46
+    type: 10gbase-x-sfpp
+  - name: Ethernet47
+    type: 10gbase-x-sfpp
+  - name: Ethernet48
+    type: 10gbase-x-sfpp
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7280SRA-48C6
+  part_number: DCS-7280SRA-48C6
+  power-ports:
+  - allocated_draw: 313
+    maximum_draw: 410
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 313
+    maximum_draw: 410
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7280sra-48c6
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet2/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet3/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet4/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet5/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet6/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet7/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet8/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet9/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet10/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet11/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet12/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet13/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet14/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet15/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet16/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet17/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet18/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet19/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet20/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet21/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet22/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet23/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet24/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet27/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet28/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet29/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet30/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet31/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet32/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet33/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet34/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet35/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet36/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet37/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet38/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet39/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet40/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet41/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet42/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet43/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet44/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet45/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet46/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet47/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet48/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet55/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet56/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet57/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet58/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet59/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet60/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet61/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet62/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet63/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet64/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet65
+    type: 10gbase-x-sfpp
+  - name: Ethernet66
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7260CX3-64-F
+  part_number: DCS-7260CX3-64-F
+  power-ports:
+  - allocated_draw: 314
+    maximum_draw: 616
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 314
+    maximum_draw: 616
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7260cx3-64-f
+  u_height: 2
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7150SC-24
+  part_number: DCS-7150SC-24
+  power-ports:
+  - allocated_draw: 191
+    maximum_draw: 334
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 191
+    maximum_draw: 334
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7150sc-24
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet2/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet3/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet4/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet5/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet6/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet7/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet8/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet9/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet10/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet11/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet12/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet13/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet14/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet15/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet16/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet17/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet18/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet19/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet20/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet21/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet22/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet23/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet24/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet27/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet28/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet29/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet30/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet31/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet32/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet33/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet34/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet35/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet36/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet37/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet38/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet39/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet40/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet41/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet42/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet43/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet44/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet45/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet46/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet47/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet48/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet55/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet56/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet57/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet58/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet59/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet60/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7280CR2-60
+  part_number: DCS-7280CR2-60
+  power-ports:
+  - allocated_draw: 1660
+    maximum_draw: 1900
+    name: PS1
+    type: iec-60320-c20
+  - allocated_draw: 1660
+    maximum_draw: 1900
+    name: PS2
+    type: iec-60320-c20
+  slug: dcs-7280cr2-60
+  u_height: 2
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet2/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet3/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet4/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet5/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet6/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet7/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet8/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet9/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet10/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet11/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet12/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet13/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet14/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet15/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet16/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet17/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet18/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet19/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet20/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet21/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet22/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet23/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet24/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet27/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet28/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet29/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet30/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet31/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet32/1
+    type: 100gbase-x-qsfp28
+  - name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7060CX2-32S
+  power-ports:
+  - allocated_draw: 150
+    maximum_draw: 460
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 150
+    maximum_draw: 460
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7060cx2-32s
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 25gbase-x-sfp28
+  - name: Ethernet2
+    type: 25gbase-x-sfp28
+  - name: Ethernet3
+    type: 25gbase-x-sfp28
+  - name: Ethernet4
+    type: 25gbase-x-sfp28
+  - name: Ethernet5
+    type: 25gbase-x-sfp28
+  - name: Ethernet6
+    type: 25gbase-x-sfp28
+  - name: Ethernet7
+    type: 25gbase-x-sfp28
+  - name: Ethernet8
+    type: 25gbase-x-sfp28
+  - name: Ethernet9
+    type: 25gbase-x-sfp28
+  - name: Ethernet10
+    type: 25gbase-x-sfp28
+  - name: Ethernet11
+    type: 25gbase-x-sfp28
+  - name: Ethernet12
+    type: 25gbase-x-sfp28
+  - name: Ethernet13
+    type: 25gbase-x-sfp28
+  - name: Ethernet14
+    type: 25gbase-x-sfp28
+  - name: Ethernet15
+    type: 25gbase-x-sfp28
+  - name: Ethernet16
+    type: 25gbase-x-sfp28
+  - name: Ethernet17
+    type: 25gbase-x-sfp28
+  - name: Ethernet18
+    type: 25gbase-x-sfp28
+  - name: Ethernet19
+    type: 25gbase-x-sfp28
+  - name: Ethernet20
+    type: 25gbase-x-sfp28
+  - name: Ethernet21
+    type: 25gbase-x-sfp28
+  - name: Ethernet22
+    type: 25gbase-x-sfp28
+  - name: Ethernet23
+    type: 25gbase-x-sfp28
+  - name: Ethernet24
+    type: 25gbase-x-sfp28
+  - name: Ethernet25
+    type: 25gbase-x-sfp28
+  - name: Ethernet26
+    type: 25gbase-x-sfp28
+  - name: Ethernet27
+    type: 25gbase-x-sfp28
+  - name: Ethernet28
+    type: 25gbase-x-sfp28
+  - name: Ethernet29
+    type: 25gbase-x-sfp28
+  - name: Ethernet30
+    type: 25gbase-x-sfp28
+  - name: Ethernet31
+    type: 25gbase-x-sfp28
+  - name: Ethernet32
+    type: 25gbase-x-sfp28
+  - name: Ethernet33
+    type: 25gbase-x-sfp28
+  - name: Ethernet34
+    type: 25gbase-x-sfp28
+  - name: Ethernet35
+    type: 25gbase-x-sfp28
+  - name: Ethernet36
+    type: 25gbase-x-sfp28
+  - name: Ethernet37
+    type: 25gbase-x-sfp28
+  - name: Ethernet38
+    type: 25gbase-x-sfp28
+  - name: Ethernet39
+    type: 25gbase-x-sfp28
+  - name: Ethernet40
+    type: 25gbase-x-sfp28
+  - name: Ethernet41
+    type: 25gbase-x-sfp28
+  - name: Ethernet42
+    type: 25gbase-x-sfp28
+  - name: Ethernet43
+    type: 25gbase-x-sfp28
+  - name: Ethernet44
+    type: 25gbase-x-sfp28
+  - name: Ethernet45
+    type: 25gbase-x-sfp28
+  - name: Ethernet46
+    type: 25gbase-x-sfp28
+  - name: Ethernet47
+    type: 25gbase-x-sfp28
+  - name: Ethernet48
+    type: 25gbase-x-sfp28
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet55/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet56/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7280SR3-48YC8
+  part_number: DCS-7280SR3-48YC8
+  power-ports:
+  - allocated_draw: 154
+    maximum_draw: 324
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 154
+    maximum_draw: 324
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7280sr3-48yc8
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet2/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet3/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet4/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet5/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet6/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet7/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet8/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet9/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet10/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet11/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet12/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet13/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet14/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet15/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet16/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet17/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet18/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet19/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet20/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet21/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet22/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet23/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet24/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet27/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet28/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet29/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet30/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet31/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet32/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet33/1
+    type: 400gbase-x-osfp
+  - name: Ethernet34/1
+    type: 400gbase-x-osfp
+  - name: Ethernet35/1
+    type: 400gbase-x-osfp
+  - name: Ethernet36/1
+    type: 400gbase-x-osfp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7280CR3-32P4
+  part_number: DCS-7280CR3-32P4
+  power-ports:
+  - allocated_draw: 565
+    maximum_draw: 630
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 565
+    maximum_draw: 630
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7280cr3-32p4
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet2/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet3/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet4/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet5/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet6/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet7/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet8/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet9/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet10/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet11/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet12/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet13/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet14/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet15/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet16/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet17/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet18/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet19/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet20/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet21/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet22/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet23/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet24/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet25/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet26/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet27/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet28/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet29/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet30/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet31/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet32/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7060DX4-32
+  power-ports:
+  - allocated_draw: 342
+    maximum_draw: 1600
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 342
+    maximum_draw: 1600
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7060dx4-32
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet2/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet3/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet4/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet5/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet6/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet7/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet8/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet9/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet10/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet11/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet12/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet13/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet14/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet15/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet16/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet17/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet18/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet19/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet20/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet21/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet22/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet23/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet24/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet27/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet28/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet29/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet30/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7280CR2A-30
+  part_number: DCS-7280CR2A-30
+  power-ports:
+  - allocated_draw: 565
+    maximum_draw: 630
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 565
+    maximum_draw: 630
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7280cr2a-30
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Ethernet29
+    type: 10gbase-x-sfpp
+  - name: Ethernet30
+    type: 10gbase-x-sfpp
+  - name: Ethernet31
+    type: 10gbase-x-sfpp
+  - name: Ethernet32
+    type: 10gbase-x-sfpp
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Ethernet35
+    type: 10gbase-x-sfpp
+  - name: Ethernet36
+    type: 10gbase-x-sfpp
+  - name: Ethernet37
+    type: 10gbase-x-sfpp
+  - name: Ethernet38
+    type: 10gbase-x-sfpp
+  - name: Ethernet39
+    type: 10gbase-x-sfpp
+  - name: Ethernet40
+    type: 10gbase-x-sfpp
+  - name: Ethernet41
+    type: 10gbase-x-sfpp
+  - name: Ethernet42
+    type: 10gbase-x-sfpp
+  - name: Ethernet43
+    type: 10gbase-x-sfpp
+  - name: Ethernet44
+    type: 10gbase-x-sfpp
+  - name: Ethernet45
+    type: 10gbase-x-sfpp
+  - name: Ethernet46
+    type: 10gbase-x-sfpp
+  - name: Ethernet47
+    type: 10gbase-x-sfpp
+  - name: Ethernet48
+    type: 10gbase-x-sfpp
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7280SRA-48C6-M
+  part_number: DCS-7280SRA-48C6-M
+  power-ports:
+  - allocated_draw: 313
+    maximum_draw: 410
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 313
+    maximum_draw: 410
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7280sra-48c6-m
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Ethernet29
+    type: 10gbase-x-sfpp
+  - name: Ethernet30
+    type: 10gbase-x-sfpp
+  - name: Ethernet31
+    type: 10gbase-x-sfpp
+  - name: Ethernet32
+    type: 10gbase-x-sfpp
+  - name: Ethernet33/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet34/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7020SR-32C2
+  part_number: DCS-7020SR-32C2
+  power-ports:
+  - allocated_draw: 160
+    maximum_draw: 189
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 160
+    maximum_draw: 189
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7020sr-32c2
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet2/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet3/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet4/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet5/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet6/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet7/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet8/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet9/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet10/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet11/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet12/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet13/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet14/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet15/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet16/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet17/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet18/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet19/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet20/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet21/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet22/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet23/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet24/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet27/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet28/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet29/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet30/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet31/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet32/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7060CX-32S
+  part_number: DCS-7060CX-32S
+  power-ports:
+  - allocated_draw: 187
+    maximum_draw: 500
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 187
+    maximum_draw: 500
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7060cx-32s
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 25gbase-x-sfp28
+  - name: Ethernet2
+    type: 25gbase-x-sfp28
+  - name: Ethernet3
+    type: 25gbase-x-sfp28
+  - name: Ethernet4
+    type: 25gbase-x-sfp28
+  - name: Ethernet5
+    type: 25gbase-x-sfp28
+  - name: Ethernet6
+    type: 25gbase-x-sfp28
+  - name: Ethernet7
+    type: 25gbase-x-sfp28
+  - name: Ethernet8
+    type: 25gbase-x-sfp28
+  - name: Ethernet9
+    type: 25gbase-x-sfp28
+  - name: Ethernet10
+    type: 25gbase-x-sfp28
+  - name: Ethernet11
+    type: 25gbase-x-sfp28
+  - name: Ethernet12
+    type: 25gbase-x-sfp28
+  - name: Ethernet13
+    type: 25gbase-x-sfp28
+  - name: Ethernet14
+    type: 25gbase-x-sfp28
+  - name: Ethernet15
+    type: 25gbase-x-sfp28
+  - name: Ethernet16
+    type: 25gbase-x-sfp28
+  - name: Ethernet17
+    type: 25gbase-x-sfp28
+  - name: Ethernet18
+    type: 25gbase-x-sfp28
+  - name: Ethernet19
+    type: 25gbase-x-sfp28
+  - name: Ethernet20
+    type: 25gbase-x-sfp28
+  - name: Ethernet21
+    type: 25gbase-x-sfp28
+  - name: Ethernet22
+    type: 25gbase-x-sfp28
+  - name: Ethernet23
+    type: 25gbase-x-sfp28
+  - name: Ethernet24
+    type: 25gbase-x-sfp28
+  - name: Ethernet25
+    type: 25gbase-x-sfp28
+  - name: Ethernet26
+    type: 25gbase-x-sfp28
+  - name: Ethernet27
+    type: 25gbase-x-sfp28
+  - name: Ethernet28
+    type: 25gbase-x-sfp28
+  - name: Ethernet29
+    type: 25gbase-x-sfp28
+  - name: Ethernet30
+    type: 25gbase-x-sfp28
+  - name: Ethernet31
+    type: 25gbase-x-sfp28
+  - name: Ethernet32
+    type: 25gbase-x-sfp28
+  - name: Ethernet33
+    type: 25gbase-x-sfp28
+  - name: Ethernet34
+    type: 25gbase-x-sfp28
+  - name: Ethernet35
+    type: 25gbase-x-sfp28
+  - name: Ethernet36
+    type: 25gbase-x-sfp28
+  - name: Ethernet37
+    type: 25gbase-x-sfp28
+  - name: Ethernet38
+    type: 25gbase-x-sfp28
+  - name: Ethernet39
+    type: 25gbase-x-sfp28
+  - name: Ethernet40
+    type: 25gbase-x-sfp28
+  - name: Ethernet41
+    type: 25gbase-x-sfp28
+  - name: Ethernet42
+    type: 25gbase-x-sfp28
+  - name: Ethernet43
+    type: 25gbase-x-sfp28
+  - name: Ethernet44
+    type: 25gbase-x-sfp28
+  - name: Ethernet45
+    type: 25gbase-x-sfp28
+  - name: Ethernet46
+    type: 25gbase-x-sfp28
+  - name: Ethernet47
+    type: 25gbase-x-sfp28
+  - name: Ethernet48
+    type: 25gbase-x-sfp28
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7060SX2-48YC6
+  part_number: DCS-7060SX2-48YC6
+  power-ports:
+  - allocated_draw: 240
+    maximum_draw: 500
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 240
+    maximum_draw: 500
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7060sx2-48yc6
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Ethernet29
+    type: 10gbase-x-sfpp
+  - name: Ethernet30
+    type: 10gbase-x-sfpp
+  - name: Ethernet31
+    type: 10gbase-x-sfpp
+  - name: Ethernet32
+    type: 10gbase-x-sfpp
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Ethernet35
+    type: 10gbase-x-sfpp
+  - name: Ethernet36
+    type: 10gbase-x-sfpp
+  - name: Ethernet37
+    type: 10gbase-x-sfpp
+  - name: Ethernet38
+    type: 10gbase-x-sfpp
+  - name: Ethernet39
+    type: 10gbase-x-sfpp
+  - name: Ethernet40
+    type: 10gbase-x-sfpp
+  - name: Ethernet41
+    type: 10gbase-x-sfpp
+  - name: Ethernet42
+    type: 10gbase-x-sfpp
+  - name: Ethernet43
+    type: 10gbase-x-sfpp
+  - name: Ethernet44
+    type: 10gbase-x-sfpp
+  - name: Ethernet45
+    type: 10gbase-x-sfpp
+  - name: Ethernet46
+    type: 10gbase-x-sfpp
+  - name: Ethernet47
+    type: 10gbase-x-sfpp
+  - name: Ethernet48
+    type: 10gbase-x-sfpp
+  - name: Ethernet49/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet50/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet51/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet52/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet53/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet54/1
+    type: 40gbase-x-qsfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7050SX2-72Q
+  part_number: DCS-7050SX2-72Q
+  power-ports:
+  - allocated_draw: 127
+    maximum_draw: 500
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 127
+    maximum_draw: 500
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7050sx2-72q
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 1000base-t
+  - name: Ethernet2
+    type: 1000base-t
+  - name: Ethernet3
+    type: 1000base-t
+  - name: Ethernet4
+    type: 1000base-t
+  - name: Ethernet5
+    type: 1000base-t
+  - name: Ethernet6
+    type: 1000base-t
+  - name: Ethernet7
+    type: 1000base-t
+  - name: Ethernet8
+    type: 1000base-t
+  - name: Ethernet9
+    type: 1000base-t
+  - name: Ethernet10
+    type: 1000base-t
+  - name: Ethernet11
+    type: 1000base-t
+  - name: Ethernet12
+    type: 1000base-t
+  - name: Ethernet13
+    type: 1000base-t
+  - name: Ethernet14
+    type: 1000base-t
+  - name: Ethernet15
+    type: 1000base-t
+  - name: Ethernet16
+    type: 1000base-t
+  - name: Ethernet17
+    type: 1000base-t
+  - name: Ethernet18
+    type: 1000base-t
+  - name: Ethernet19
+    type: 1000base-t
+  - name: Ethernet20
+    type: 1000base-t
+  - name: Ethernet21
+    type: 1000base-t
+  - name: Ethernet22
+    type: 1000base-t
+  - name: Ethernet23
+    type: 1000base-t
+  - name: Ethernet24
+    type: 1000base-t
+  - name: Ethernet25
+    type: 1000base-t
+  - name: Ethernet26
+    type: 1000base-t
+  - name: Ethernet27
+    type: 1000base-t
+  - name: Ethernet28
+    type: 1000base-t
+  - name: Ethernet29
+    type: 1000base-t
+  - name: Ethernet30
+    type: 1000base-t
+  - name: Ethernet31
+    type: 1000base-t
+  - name: Ethernet32
+    type: 1000base-t
+  - name: Ethernet33
+    type: 1000base-t
+  - name: Ethernet34
+    type: 1000base-t
+  - name: Ethernet35
+    type: 1000base-t
+  - name: Ethernet36
+    type: 1000base-t
+  - name: Ethernet37
+    type: 1000base-t
+  - name: Ethernet38
+    type: 1000base-t
+  - name: Ethernet39
+    type: 1000base-t
+  - name: Ethernet40
+    type: 1000base-t
+  - name: Ethernet41
+    type: 1000base-t
+  - name: Ethernet42
+    type: 1000base-t
+  - name: Ethernet43
+    type: 1000base-t
+  - name: Ethernet44
+    type: 1000base-t
+  - name: Ethernet45
+    type: 1000base-t
+  - name: Ethernet46
+    type: 1000base-t
+  - name: Ethernet47
+    type: 1000base-t
+  - name: Ethernet48
+    type: 1000base-t
+  - name: Ethernet49
+    type: 25gbase-x-sfp28
+  - name: Ethernet50
+    type: 25gbase-x-sfp28
+  - name: Ethernet51
+    type: 25gbase-x-sfp28
+  - name: Ethernet52
+    type: 25gbase-x-sfp28
+  - name: Ethernet53
+    type: 25gbase-x-sfp28
+  - name: Ethernet54
+    type: 25gbase-x-sfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: CCS-720XP-48Y6
+  part_number: CCS-720XP-48Y6
+  power-ports:
+  - allocated_draw: 164
+    maximum_draw: 177
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 164
+    maximum_draw: 177
+    name: PS2
+    type: iec-60320-c14
+  slug: ccs-720xp-48y6
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 1000base-t
+  - name: Ethernet2
+    type: 1000base-t
+  - name: Ethernet3
+    type: 1000base-t
+  - name: Ethernet4
+    type: 1000base-t
+  - name: Ethernet5
+    type: 1000base-t
+  - name: Ethernet6
+    type: 1000base-t
+  - name: Ethernet7
+    type: 1000base-t
+  - name: Ethernet8
+    type: 1000base-t
+  - name: Ethernet9
+    type: 1000base-t
+  - name: Ethernet10
+    type: 1000base-t
+  - name: Ethernet11
+    type: 1000base-t
+  - name: Ethernet12
+    type: 1000base-t
+  - name: Ethernet13
+    type: 1000base-t
+  - name: Ethernet14
+    type: 1000base-t
+  - name: Ethernet15
+    type: 1000base-t
+  - name: Ethernet16
+    type: 1000base-t
+  - name: Ethernet17
+    type: 1000base-t
+  - name: Ethernet18
+    type: 1000base-t
+  - name: Ethernet19
+    type: 1000base-t
+  - name: Ethernet20
+    type: 1000base-t
+  - name: Ethernet21
+    type: 1000base-t
+  - name: Ethernet22
+    type: 1000base-t
+  - name: Ethernet23
+    type: 1000base-t
+  - name: Ethernet24
+    type: 1000base-t
+  - name: Ethernet25
+    type: 1000base-t
+  - name: Ethernet26
+    type: 1000base-t
+  - name: Ethernet27
+    type: 1000base-t
+  - name: Ethernet28
+    type: 1000base-t
+  - name: Ethernet29
+    type: 1000base-t
+  - name: Ethernet30
+    type: 1000base-t
+  - name: Ethernet31
+    type: 1000base-t
+  - name: Ethernet32
+    type: 1000base-t
+  - name: Ethernet33
+    type: 1000base-t
+  - name: Ethernet34
+    type: 1000base-t
+  - name: Ethernet35
+    type: 1000base-t
+  - name: Ethernet36
+    type: 1000base-t
+  - name: Ethernet37
+    type: 1000base-t
+  - name: Ethernet38
+    type: 1000base-t
+  - name: Ethernet39
+    type: 1000base-t
+  - name: Ethernet40
+    type: 1000base-t
+  - name: Ethernet41
+    type: 1000base-t
+  - name: Ethernet42
+    type: 1000base-t
+  - name: Ethernet43
+    type: 1000base-t
+  - name: Ethernet44
+    type: 1000base-t
+  - name: Ethernet45
+    type: 1000base-t
+  - name: Ethernet46
+    type: 1000base-t
+  - name: Ethernet47
+    type: 1000base-t
+  - name: Ethernet48
+    type: 1000base-t
+  - name: Ethernet49
+    type: 10gbase-x-sfpp
+  - name: Ethernet50
+    type: 10gbase-x-sfpp
+  - name: Ethernet51
+    type: 10gbase-x-sfpp
+  - name: Ethernet52
+    type: 10gbase-x-sfpp
+  - name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7048-T
+  power-ports:
+  - allocated_draw: 150
+    maximum_draw: 460
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 150
+    maximum_draw: 460
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7048-t
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Ethernet29
+    type: 10gbase-x-sfpp
+  - name: Ethernet30
+    type: 10gbase-x-sfpp
+  - name: Ethernet31
+    type: 10gbase-x-sfpp
+  - name: Ethernet32
+    type: 10gbase-x-sfpp
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Ethernet35
+    type: 10gbase-x-sfpp
+  - name: Ethernet36
+    type: 10gbase-x-sfpp
+  - name: Ethernet37
+    type: 10gbase-x-sfpp
+  - name: Ethernet38
+    type: 10gbase-x-sfpp
+  - name: Ethernet39
+    type: 10gbase-x-sfpp
+  - name: Ethernet40
+    type: 10gbase-x-sfpp
+  - name: Ethernet41
+    type: 10gbase-x-sfpp
+  - name: Ethernet42
+    type: 10gbase-x-sfpp
+  - name: Ethernet43
+    type: 10gbase-x-sfpp
+  - name: Ethernet44
+    type: 10gbase-x-sfpp
+  - name: Ethernet45
+    type: 10gbase-x-sfpp
+  - name: Ethernet46
+    type: 10gbase-x-sfpp
+  - name: Ethernet47
+    type: 10gbase-x-sfpp
+  - name: Ethernet48
+    type: 10gbase-x-sfpp
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7280SR-48C6
+  part_number: DCS-7280SR-48C6
+  power-ports:
+  - allocated_draw: 263
+    maximum_draw: 381
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 263
+    maximum_draw: 381
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7280sr-48c6
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Ethernet29
+    type: 10gbase-x-sfpp
+  - name: Ethernet30
+    type: 10gbase-x-sfpp
+  - name: Ethernet31
+    type: 10gbase-x-sfpp
+  - name: Ethernet32
+    type: 10gbase-x-sfpp
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Ethernet35
+    type: 10gbase-x-sfpp
+  - name: Ethernet36
+    type: 10gbase-x-sfpp
+  - name: Ethernet37
+    type: 10gbase-x-sfpp
+  - name: Ethernet38
+    type: 10gbase-x-sfpp
+  - name: Ethernet39
+    type: 10gbase-x-sfpp
+  - name: Ethernet40
+    type: 10gbase-x-sfpp
+  - name: Ethernet41
+    type: 10gbase-x-sfpp
+  - name: Ethernet42
+    type: 10gbase-x-sfpp
+  - name: Ethernet43
+    type: 10gbase-x-sfpp
+  - name: Ethernet44
+    type: 10gbase-x-sfpp
+  - name: Ethernet45
+    type: 10gbase-x-sfpp
+  - name: Ethernet46
+    type: 10gbase-x-sfpp
+  - name: Ethernet47
+    type: 10gbase-x-sfpp
+  - name: Ethernet48
+    type: 10gbase-x-sfpp
+  - name: Ethernet49
+    type: 10gbase-x-sfpp
+  - name: Ethernet50
+    type: 10gbase-x-sfpp
+  - name: Ethernet51
+    type: 10gbase-x-sfpp
+  - name: Ethernet52
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7150S-52
+  part_number: DCS-7150S-52
+  power-ports:
+  - allocated_draw: 191
+    maximum_draw: 450
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 191
+    maximum_draw: 450
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7150s-52
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7150S-24
+  part_number: DCS-7150S-24
+  power-ports:
+  - allocated_draw: 191
+    maximum_draw: 334
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 191
+    maximum_draw: 334
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7150s-24
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1
+    type: 25gbase-x-sfp28
+  - name: Ethernet2
+    type: 25gbase-x-sfp28
+  - name: Ethernet3
+    type: 25gbase-x-sfp28
+  - name: Ethernet4
+    type: 25gbase-x-sfp28
+  - name: Ethernet5
+    type: 25gbase-x-sfp28
+  - name: Ethernet6
+    type: 25gbase-x-sfp28
+  - name: Ethernet7
+    type: 25gbase-x-sfp28
+  - name: Ethernet8
+    type: 25gbase-x-sfp28
+  - name: Ethernet9
+    type: 25gbase-x-sfp28
+  - name: Ethernet10
+    type: 25gbase-x-sfp28
+  - name: Ethernet11
+    type: 25gbase-x-sfp28
+  - name: Ethernet12
+    type: 25gbase-x-sfp28
+  - name: Ethernet13
+    type: 25gbase-x-sfp28
+  - name: Ethernet14
+    type: 25gbase-x-sfp28
+  - name: Ethernet15
+    type: 25gbase-x-sfp28
+  - name: Ethernet16
+    type: 25gbase-x-sfp28
+  - name: Ethernet17
+    type: 25gbase-x-sfp28
+  - name: Ethernet18
+    type: 25gbase-x-sfp28
+  - name: Ethernet19
+    type: 25gbase-x-sfp28
+  - name: Ethernet20
+    type: 25gbase-x-sfp28
+  - name: Ethernet21
+    type: 25gbase-x-sfp28
+  - name: Ethernet22
+    type: 25gbase-x-sfp28
+  - name: Ethernet23
+    type: 25gbase-x-sfp28
+  - name: Ethernet24
+    type: 25gbase-x-sfp28
+  - name: Ethernet25
+    type: 25gbase-x-sfp28
+  - name: Ethernet26
+    type: 25gbase-x-sfp28
+  - name: Ethernet27
+    type: 25gbase-x-sfp28
+  - name: Ethernet28
+    type: 25gbase-x-sfp28
+  - name: Ethernet29
+    type: 25gbase-x-sfp28
+  - name: Ethernet30
+    type: 25gbase-x-sfp28
+  - name: Ethernet31
+    type: 25gbase-x-sfp28
+  - name: Ethernet32
+    type: 25gbase-x-sfp28
+  - name: Ethernet33
+    type: 25gbase-x-sfp28
+  - name: Ethernet34
+    type: 25gbase-x-sfp28
+  - name: Ethernet35
+    type: 25gbase-x-sfp28
+  - name: Ethernet36
+    type: 25gbase-x-sfp28
+  - name: Ethernet37
+    type: 25gbase-x-sfp28
+  - name: Ethernet38
+    type: 25gbase-x-sfp28
+  - name: Ethernet39
+    type: 25gbase-x-sfp28
+  - name: Ethernet40
+    type: 25gbase-x-sfp28
+  - name: Ethernet41
+    type: 25gbase-x-sfp28
+  - name: Ethernet42
+    type: 25gbase-x-sfp28
+  - name: Ethernet43
+    type: 25gbase-x-sfp28
+  - name: Ethernet44
+    type: 25gbase-x-sfp28
+  - name: Ethernet45
+    type: 25gbase-x-sfp28
+  - name: Ethernet46
+    type: 25gbase-x-sfp28
+  - name: Ethernet47
+    type: 25gbase-x-sfp28
+  - name: Ethernet48
+    type: 25gbase-x-sfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7280CR3-32D4
+  part_number: DCS-7280CR3-32D4
+  power-ports:
+  - allocated_draw: 565
+    maximum_draw: 630
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 565
+    maximum_draw: 630
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7280cr3-32d4
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet2/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet3/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet4/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet5/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet6/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet7/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet8/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet9/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet10/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet11/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet12/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet13/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet14/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet15/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet16/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet17/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet18/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet19/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet20/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet21/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet22/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet23/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet24/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet27/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet28/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet29/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet30/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet31/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet32/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7050CX3-32S
+  part_number: DCS-7050CX3-32S
+  power-ports:
+  - allocated_draw: 192
+    maximum_draw: 362
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 192
+    maximum_draw: 362
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7050cx3-32s
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Ethernet29
+    type: 10gbase-x-sfpp
+  - name: Ethernet30
+    type: 10gbase-x-sfpp
+  - name: Ethernet31
+    type: 10gbase-x-sfpp
+  - name: Ethernet32
+    type: 10gbase-x-sfpp
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Ethernet35
+    type: 10gbase-x-sfpp
+  - name: Ethernet36
+    type: 10gbase-x-sfpp
+  - name: Ethernet37
+    type: 10gbase-x-sfpp
+  - name: Ethernet38
+    type: 10gbase-x-sfpp
+  - name: Ethernet39
+    type: 10gbase-x-sfpp
+  - name: Ethernet40
+    type: 10gbase-x-sfpp
+  - name: Ethernet41
+    type: 10gbase-x-sfpp
+  - name: Ethernet42
+    type: 10gbase-x-sfpp
+  - name: Ethernet43
+    type: 10gbase-x-sfpp
+  - name: Ethernet44
+    type: 10gbase-x-sfpp
+  - name: Ethernet45
+    type: 10gbase-x-sfpp
+  - name: Ethernet46
+    type: 10gbase-x-sfpp
+  - name: Ethernet47
+    type: 10gbase-x-sfpp
+  - name: Ethernet48
+    type: 10gbase-x-sfpp
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7280SR-48YC6
+  part_number: DCS-7280SR-48YC6
+  power-ports:
+  - allocated_draw: 132
+    maximum_draw: 191
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 132
+    maximum_draw: 191
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7280sr-48yc6
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7124SX
+  part_number: DCS-7124SX
+  power-ports:
+  - allocated_draw: 120
+    maximum_draw: 210
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 120
+    maximum_draw: 210
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7124sx
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 2.5gbase-t
+  - name: Ethernet2
+    type: 2.5gbase-t
+  - name: Ethernet3
+    type: 2.5gbase-t
+  - name: Ethernet4
+    type: 2.5gbase-t
+  - name: Ethernet5
+    type: 2.5gbase-t
+  - name: Ethernet6
+    type: 2.5gbase-t
+  - name: Ethernet7
+    type: 2.5gbase-t
+  - name: Ethernet8
+    type: 2.5gbase-t
+  - name: Ethernet9
+    type: 2.5gbase-t
+  - name: Ethernet10
+    type: 2.5gbase-t
+  - name: Ethernet11
+    type: 2.5gbase-t
+  - name: Ethernet12
+    type: 2.5gbase-t
+  - name: Ethernet13
+    type: 2.5gbase-t
+  - name: Ethernet14
+    type: 2.5gbase-t
+  - name: Ethernet15
+    type: 2.5gbase-t
+  - name: Ethernet16
+    type: 2.5gbase-t
+  - name: Ethernet17
+    type: 5gbase-t
+  - name: Ethernet18
+    type: 5gbase-t
+  - name: Ethernet19
+    type: 5gbase-t
+  - name: Ethernet20
+    type: 5gbase-t
+  - name: Ethernet21
+    type: 5gbase-t
+  - name: Ethernet22
+    type: 5gbase-t
+  - name: Ethernet23
+    type: 5gbase-t
+  - name: Ethernet24
+    type: 5gbase-t
+  - name: Ethernet25
+    type: 25gbase-x-sfp28
+  - name: Ethernet26
+    type: 25gbase-x-sfp28
+  - name: Ethernet27
+    type: 25gbase-x-sfp28
+  - name: Ethernet28
+    type: 25gbase-x-sfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: CCS-720XP-24ZY4
+  part_number: CCS-720XP-24ZY4
+  power-ports:
+  - allocated_draw: 164
+    maximum_draw: 177
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 164
+    maximum_draw: 177
+    name: PS2
+    type: iec-60320-c14
+  slug: ccs-720xp-24zy4
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-t
+  - name: Ethernet2
+    type: 10gbase-t
+  - name: Ethernet3
+    type: 10gbase-t
+  - name: Ethernet4
+    type: 10gbase-t
+  - name: Ethernet5
+    type: 10gbase-t
+  - name: Ethernet6
+    type: 10gbase-t
+  - name: Ethernet7
+    type: 10gbase-t
+  - name: Ethernet8
+    type: 10gbase-t
+  - name: Ethernet9
+    type: 10gbase-t
+  - name: Ethernet10
+    type: 10gbase-t
+  - name: Ethernet11
+    type: 10gbase-t
+  - name: Ethernet12
+    type: 10gbase-t
+  - name: Ethernet13
+    type: 10gbase-t
+  - name: Ethernet14
+    type: 10gbase-t
+  - name: Ethernet15
+    type: 10gbase-t
+  - name: Ethernet16
+    type: 10gbase-t
+  - name: Ethernet17
+    type: 10gbase-t
+  - name: Ethernet18
+    type: 10gbase-t
+  - name: Ethernet19
+    type: 10gbase-t
+  - name: Ethernet20
+    type: 10gbase-t
+  - name: Ethernet21
+    type: 10gbase-t
+  - name: Ethernet22
+    type: 10gbase-t
+  - name: Ethernet23
+    type: 10gbase-t
+  - name: Ethernet24
+    type: 10gbase-t
+  - name: Ethernet25
+    type: 10gbase-t
+  - name: Ethernet26
+    type: 10gbase-t
+  - name: Ethernet27
+    type: 10gbase-t
+  - name: Ethernet28
+    type: 10gbase-t
+  - name: Ethernet29
+    type: 10gbase-t
+  - name: Ethernet30
+    type: 10gbase-t
+  - name: Ethernet31
+    type: 10gbase-t
+  - name: Ethernet32
+    type: 10gbase-t
+  - name: Ethernet33
+    type: 10gbase-t
+  - name: Ethernet34
+    type: 10gbase-t
+  - name: Ethernet35
+    type: 10gbase-t
+  - name: Ethernet36
+    type: 10gbase-t
+  - name: Ethernet37
+    type: 10gbase-t
+  - name: Ethernet38
+    type: 10gbase-t
+  - name: Ethernet39
+    type: 10gbase-t
+  - name: Ethernet40
+    type: 10gbase-t
+  - name: Ethernet41
+    type: 10gbase-t
+  - name: Ethernet42
+    type: 10gbase-t
+  - name: Ethernet43
+    type: 10gbase-t
+  - name: Ethernet44
+    type: 10gbase-t
+  - name: Ethernet45
+    type: 10gbase-t
+  - name: Ethernet46
+    type: 10gbase-t
+  - name: Ethernet47
+    type: 10gbase-t
+  - name: Ethernet48
+    type: 10gbase-t
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7280TR-48C6
+  part_number: DCS-7280TR-48C6
+  power-ports:
+  - allocated_draw: 290
+    maximum_draw: 405
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 290
+    maximum_draw: 405
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7280tr-48c6
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 1000base-t
+  - name: Ethernet2
+    type: 1000base-t
+  - name: Ethernet3
+    type: 1000base-t
+  - name: Ethernet4
+    type: 1000base-t
+  - name: Ethernet5
+    type: 1000base-t
+  - name: Ethernet6
+    type: 1000base-t
+  - name: Ethernet7
+    type: 1000base-t
+  - name: Ethernet8
+    type: 1000base-t
+  - name: Ethernet9
+    type: 1000base-t
+  - name: Ethernet10
+    type: 1000base-t
+  - name: Ethernet11
+    type: 1000base-t
+  - name: Ethernet12
+    type: 1000base-t
+  - name: Ethernet13
+    type: 1000base-t
+  - name: Ethernet14
+    type: 1000base-t
+  - name: Ethernet15
+    type: 1000base-t
+  - name: Ethernet16
+    type: 1000base-t
+  - name: Ethernet17
+    type: 1000base-t
+  - name: Ethernet18
+    type: 1000base-t
+  - name: Ethernet19
+    type: 1000base-t
+  - name: Ethernet20
+    type: 1000base-t
+  - name: Ethernet21
+    type: 1000base-t
+  - name: Ethernet22
+    type: 1000base-t
+  - name: Ethernet23
+    type: 1000base-t
+  - name: Ethernet24
+    type: 1000base-t
+  - name: Ethernet25
+    type: 1000base-t
+  - name: Ethernet26
+    type: 1000base-t
+  - name: Ethernet27
+    type: 1000base-t
+  - name: Ethernet28
+    type: 1000base-t
+  - name: Ethernet29
+    type: 1000base-t
+  - name: Ethernet30
+    type: 1000base-t
+  - name: Ethernet31
+    type: 1000base-t
+  - name: Ethernet32
+    type: 1000base-t
+  - name: Ethernet33
+    type: 1000base-t
+  - name: Ethernet34
+    type: 1000base-t
+  - name: Ethernet35
+    type: 1000base-t
+  - name: Ethernet36
+    type: 1000base-t
+  - name: Ethernet37
+    type: 1000base-t
+  - name: Ethernet38
+    type: 1000base-t
+  - name: Ethernet39
+    type: 1000base-t
+  - name: Ethernet40
+    type: 1000base-t
+  - name: Ethernet41
+    type: 1000base-t
+  - name: Ethernet42
+    type: 1000base-t
+  - name: Ethernet43
+    type: 1000base-t
+  - name: Ethernet44
+    type: 1000base-t
+  - name: Ethernet45
+    type: 1000base-t
+  - name: Ethernet46
+    type: 1000base-t
+  - name: Ethernet47
+    type: 1000base-t
+  - name: Ethernet48
+    type: 1000base-t
+  - name: Ethernet49
+    type: 25gbase-x-sfp28
+  - name: Ethernet50
+    type: 25gbase-x-sfp28
+  - name: Ethernet51
+    type: 25gbase-x-sfp28
+  - name: Ethernet52
+    type: 25gbase-x-sfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7010TX-48
+  part_number: DCS-7010TX-48
+  power-ports:
+  - allocated_draw: 91
+    maximum_draw: 106
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 91
+    maximum_draw: 106
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7010tx-48
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Ethernet29
+    type: 10gbase-x-sfpp
+  - name: Ethernet30
+    type: 10gbase-x-sfpp
+  - name: Ethernet31
+    type: 10gbase-x-sfpp
+  - name: Ethernet32
+    type: 10gbase-x-sfpp
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Ethernet35
+    type: 10gbase-x-sfpp
+  - name: Ethernet36
+    type: 10gbase-x-sfpp
+  - name: Ethernet37
+    type: 10gbase-x-sfpp
+  - name: Ethernet38
+    type: 10gbase-x-sfpp
+  - name: Ethernet39
+    type: 10gbase-x-sfpp
+  - name: Ethernet40
+    type: 10gbase-x-sfpp
+  - name: Ethernet41
+    type: 10gbase-x-sfpp
+  - name: Ethernet42
+    type: 10gbase-x-sfpp
+  - name: Ethernet43
+    type: 10gbase-x-sfpp
+  - name: Ethernet44
+    type: 10gbase-x-sfpp
+  - name: Ethernet45
+    type: 10gbase-x-sfpp
+  - name: Ethernet46
+    type: 10gbase-x-sfpp
+  - name: Ethernet47
+    type: 10gbase-x-sfpp
+  - name: Ethernet48
+    type: 10gbase-x-sfpp
+  - name: Ethernet49/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet50/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet51/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet52/1
+    type: 40gbase-x-qsfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7050SX-64
+  power-ports:
+  - allocated_draw: 140
+    maximum_draw: 500
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 140
+    maximum_draw: 500
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7050sx-64
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 25gbase-x-sfp28
+  - name: Ethernet2
+    type: 25gbase-x-sfp28
+  - name: Ethernet3
+    type: 25gbase-x-sfp28
+  - name: Ethernet4
+    type: 25gbase-x-sfp28
+  - name: Ethernet5
+    type: 25gbase-x-sfp28
+  - name: Ethernet6
+    type: 25gbase-x-sfp28
+  - name: Ethernet7
+    type: 25gbase-x-sfp28
+  - name: Ethernet8
+    type: 25gbase-x-sfp28
+  - name: Ethernet9
+    type: 25gbase-x-sfp28
+  - name: Ethernet10
+    type: 25gbase-x-sfp28
+  - name: Ethernet11
+    type: 25gbase-x-sfp28
+  - name: Ethernet12
+    type: 25gbase-x-sfp28
+  - name: Ethernet13
+    type: 25gbase-x-sfp28
+  - name: Ethernet14
+    type: 25gbase-x-sfp28
+  - name: Ethernet15
+    type: 25gbase-x-sfp28
+  - name: Ethernet16
+    type: 25gbase-x-sfp28
+  - name: Ethernet17
+    type: 25gbase-x-sfp28
+  - name: Ethernet18
+    type: 25gbase-x-sfp28
+  - name: Ethernet19
+    type: 25gbase-x-sfp28
+  - name: Ethernet20
+    type: 25gbase-x-sfp28
+  - name: Ethernet21
+    type: 25gbase-x-sfp28
+  - name: Ethernet22
+    type: 25gbase-x-sfp28
+  - name: Ethernet23
+    type: 25gbase-x-sfp28
+  - name: Ethernet24
+    type: 25gbase-x-sfp28
+  - name: Ethernet25
+    type: 25gbase-x-sfp28
+  - name: Ethernet26
+    type: 25gbase-x-sfp28
+  - name: Ethernet27
+    type: 25gbase-x-sfp28
+  - name: Ethernet28
+    type: 25gbase-x-sfp28
+  - name: Ethernet29
+    type: 25gbase-x-sfp28
+  - name: Ethernet30
+    type: 25gbase-x-sfp28
+  - name: Ethernet31
+    type: 25gbase-x-sfp28
+  - name: Ethernet32
+    type: 25gbase-x-sfp28
+  - name: Ethernet33
+    type: 25gbase-x-sfp28
+  - name: Ethernet34
+    type: 25gbase-x-sfp28
+  - name: Ethernet35
+    type: 25gbase-x-sfp28
+  - name: Ethernet36
+    type: 25gbase-x-sfp28
+  - name: Ethernet37
+    type: 25gbase-x-sfp28
+  - name: Ethernet38
+    type: 25gbase-x-sfp28
+  - name: Ethernet39
+    type: 25gbase-x-sfp28
+  - name: Ethernet40
+    type: 25gbase-x-sfp28
+  - name: Ethernet41
+    type: 25gbase-x-sfp28
+  - name: Ethernet42
+    type: 25gbase-x-sfp28
+  - name: Ethernet43
+    type: 25gbase-x-sfp28
+  - name: Ethernet44
+    type: 25gbase-x-sfp28
+  - name: Ethernet45
+    type: 25gbase-x-sfp28
+  - name: Ethernet46
+    type: 25gbase-x-sfp28
+  - name: Ethernet47
+    type: 25gbase-x-sfp28
+  - name: Ethernet48
+    type: 25gbase-x-sfp28
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet55/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet56/1
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7050SX3-48YC8
+  part_number: DCS-7050SX3-48YC8
+  power-ports:
+  - allocated_draw: 124
+    maximum_draw: 301
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 124
+    maximum_draw: 301
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7050sx3-48yc8
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-t
+  - name: Ethernet2
+    type: 10gbase-t
+  - name: Ethernet3
+    type: 10gbase-t
+  - name: Ethernet4
+    type: 10gbase-t
+  - name: Ethernet5
+    type: 10gbase-t
+  - name: Ethernet6
+    type: 10gbase-t
+  - name: Ethernet7
+    type: 10gbase-t
+  - name: Ethernet8
+    type: 10gbase-t
+  - name: Ethernet9
+    type: 10gbase-t
+  - name: Ethernet10
+    type: 10gbase-t
+  - name: Ethernet11
+    type: 10gbase-t
+  - name: Ethernet12
+    type: 10gbase-t
+  - name: Ethernet13
+    type: 10gbase-t
+  - name: Ethernet14
+    type: 10gbase-t
+  - name: Ethernet15
+    type: 10gbase-t
+  - name: Ethernet16
+    type: 10gbase-t
+  - name: Ethernet17
+    type: 10gbase-t
+  - name: Ethernet18
+    type: 10gbase-t
+  - name: Ethernet19
+    type: 10gbase-t
+  - name: Ethernet20
+    type: 10gbase-t
+  - name: Ethernet21
+    type: 10gbase-t
+  - name: Ethernet22
+    type: 10gbase-t
+  - name: Ethernet23
+    type: 10gbase-t
+  - name: Ethernet24
+    type: 10gbase-t
+  - name: Ethernet25
+    type: 10gbase-t
+  - name: Ethernet26
+    type: 10gbase-t
+  - name: Ethernet27
+    type: 10gbase-t
+  - name: Ethernet28
+    type: 10gbase-t
+  - name: Ethernet29
+    type: 10gbase-t
+  - name: Ethernet30
+    type: 10gbase-t
+  - name: Ethernet31
+    type: 10gbase-t
+  - name: Ethernet32
+    type: 10gbase-t
+  - name: Ethernet33
+    type: 10gbase-t
+  - name: Ethernet34
+    type: 10gbase-t
+  - name: Ethernet35
+    type: 10gbase-t
+  - name: Ethernet36
+    type: 10gbase-t
+  - name: Ethernet37
+    type: 10gbase-t
+  - name: Ethernet38
+    type: 10gbase-t
+  - name: Ethernet39
+    type: 10gbase-t
+  - name: Ethernet40
+    type: 10gbase-t
+  - name: Ethernet41
+    type: 10gbase-t
+  - name: Ethernet42
+    type: 10gbase-t
+  - name: Ethernet43
+    type: 10gbase-t
+  - name: Ethernet44
+    type: 10gbase-t
+  - name: Ethernet45
+    type: 10gbase-t
+  - name: Ethernet46
+    type: 10gbase-t
+  - name: Ethernet47
+    type: 10gbase-t
+  - name: Ethernet48
+    type: 10gbase-t
+  - name: Ethernet49
+    type: 10gbase-x-sfpp
+  - name: Ethernet50
+    type: 10gbase-x-sfpp
+  - name: Ethernet51
+    type: 10gbase-x-sfpp
+  - name: Ethernet52
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7050T-52
+  power-ports:
+  - allocated_draw: 301
+    maximum_draw: 460
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 301
+    maximum_draw: 460
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7050t-52
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Ethernet29
+    type: 10gbase-x-sfpp
+  - name: Ethernet30
+    type: 10gbase-x-sfpp
+  - name: Ethernet31
+    type: 10gbase-x-sfpp
+  - name: Ethernet32
+    type: 10gbase-x-sfpp
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Ethernet35
+    type: 10gbase-x-sfpp
+  - name: Ethernet36
+    type: 10gbase-x-sfpp
+  - name: Ethernet37
+    type: 10gbase-x-sfpp
+  - name: Ethernet38
+    type: 10gbase-x-sfpp
+  - name: Ethernet39
+    type: 10gbase-x-sfpp
+  - name: Ethernet40
+    type: 10gbase-x-sfpp
+  - name: Ethernet41
+    type: 10gbase-x-sfpp
+  - name: Ethernet42
+    type: 10gbase-x-sfpp
+  - name: Ethernet43
+    type: 10gbase-x-sfpp
+  - name: Ethernet44
+    type: 10gbase-x-sfpp
+  - name: Ethernet45
+    type: 10gbase-x-sfpp
+  - name: Ethernet46
+    type: 10gbase-x-sfpp
+  - name: Ethernet47
+    type: 10gbase-x-sfpp
+  - name: Ethernet48
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7148SX
+  part_number: DCS-7148SX
+  power-ports:
+  - allocated_draw: 360
+    maximum_draw: 760
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 360
+    maximum_draw: 760
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7148sx
+  u_height: 1
+- comments: '[Arista 7368X4 Series 100/200/400G Data Center Switches](https://www.arista.com/assets/data/pdf/Datasheets/7368X4-Datasheet.pdf'
+  is_full_depth: false
+  manufacturer: Arista
+  model: DCS-7368
+  module-bays:
+  - label: Supervisor
+    name: Slot 1
+    position: '1'
+  - label: Line Card
+    name: Slot 2
+    position: '2'
+  - label: Line Card
+    name: Slot 3
+    position: '3'
+  - label: Line Card
+    name: Slot 4
+    position: '4'
+  - label: Line Card
+    name: Slot 5
+    position: '5'
+  - label: Line Card
+    name: Slot 6
+    position: '6'
+  - label: Line Card
+    name: Slot 7
+    position: '7'
+  - label: Line Card
+    name: Slot 8
+    position: '8'
+  - label: Line Card
+    name: Slot 9
+    position: '9'
+  part_number: DCS-7368
+  power-ports:
+  - maximum_draw: 2000
+    name: PS1
+    type: iec-60320-c20
+  - maximum_draw: 2000
+    name: PS2
+    type: iec-60320-c20
+  - maximum_draw: 2000
+    name: PS3
+    type: iec-60320-c20
+  - maximum_draw: 2000
+    name: PS4
+    type: iec-60320-c20
+  slug: dcs-7368
+  u_height: 4
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Ethernet1
+    type: 10gbase-t
+  - name: Ethernet2
+    type: 10gbase-t
+  - name: Ethernet3
+    type: 10gbase-t
+  - name: Ethernet4
+    type: 10gbase-t
+  - name: Ethernet5
+    type: 10gbase-t
+  - name: Ethernet6
+    type: 10gbase-t
+  - name: Ethernet7
+    type: 10gbase-t
+  - name: Ethernet8
+    type: 10gbase-t
+  - name: Ethernet9
+    type: 10gbase-t
+  - name: Ethernet10
+    type: 10gbase-t
+  - name: Ethernet11
+    type: 10gbase-t
+  - name: Ethernet12
+    type: 10gbase-t
+  - name: Ethernet13
+    type: 10gbase-t
+  - name: Ethernet14
+    type: 10gbase-t
+  - name: Ethernet15
+    type: 10gbase-t
+  - name: Ethernet16
+    type: 10gbase-t
+  - name: Ethernet17
+    type: 10gbase-t
+  - name: Ethernet18
+    type: 10gbase-t
+  - name: Ethernet19
+    type: 10gbase-t
+  - name: Ethernet20
+    type: 10gbase-t
+  - name: Ethernet21
+    type: 10gbase-t
+  - name: Ethernet22
+    type: 10gbase-t
+  - name: Ethernet23
+    type: 10gbase-t
+  - name: Ethernet24
+    type: 10gbase-t
+  - name: Ethernet25
+    type: 10gbase-t
+  - name: Ethernet26
+    type: 10gbase-t
+  - name: Ethernet27
+    type: 10gbase-t
+  - name: Ethernet28
+    type: 10gbase-t
+  - name: Ethernet29
+    type: 10gbase-t
+  - name: Ethernet30
+    type: 10gbase-t
+  - name: Ethernet31
+    type: 10gbase-t
+  - name: Ethernet32
+    type: 10gbase-t
+  - name: Ethernet33
+    type: 10gbase-t
+  - name: Ethernet34
+    type: 10gbase-t
+  - name: Ethernet35
+    type: 10gbase-t
+  - name: Ethernet36
+    type: 10gbase-t
+  - name: Ethernet37
+    type: 10gbase-t
+  - name: Ethernet38
+    type: 10gbase-t
+  - name: Ethernet39
+    type: 10gbase-t
+  - name: Ethernet40
+    type: 10gbase-t
+  - name: Ethernet41
+    type: 10gbase-t
+  - name: Ethernet42
+    type: 10gbase-t
+  - name: Ethernet43
+    type: 10gbase-t
+  - name: Ethernet44
+    type: 10gbase-t
+  - name: Ethernet45
+    type: 10gbase-t
+  - name: Ethernet46
+    type: 10gbase-t
+  - name: Ethernet47
+    type: 10gbase-t
+  - name: Ethernet48
+    type: 10gbase-t
+  - name: Ethernet49
+    type: 40gbase-x-qsfpp
+  - name: Ethernet50
+    type: 40gbase-x-qsfpp
+  - name: Ethernet51
+    type: 40gbase-x-qsfpp
+  - name: Ethernet52
+    type: 40gbase-x-qsfpp
+  - mgmt_only: true
+    name: Management1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Arista
+  model: DCS-7050T-64
+  power-ports:
+  - allocated_draw: 301
+    maximum_draw: 460
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 301
+    maximum_draw: 460
+    name: PS2
+    type: iec-60320-c14
+  slug: dcs-7050t-64
+  u_height: 1

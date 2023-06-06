@@ -1,0 +1,26 @@
+keywords:
+- Cordex CXC
+- CXC
+- Cordex CXCM1 HP
+- CXCM1-HP
+models:
+- interfaces:
+  - name: Ethernet
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Alpha
+  model: Cordex CXC
+  part_number: CXC
+  slug: cxc
+  subdevice_role: child
+  u_height: 0
+- interfaces:
+  - name: Ethernet/Front (1)
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Alpha
+  model: Cordex CXCM1 HP
+  part_number: CXCM1-HP
+  slug: cxcm1-hp
+  subdevice_role: child
+  u_height: 0

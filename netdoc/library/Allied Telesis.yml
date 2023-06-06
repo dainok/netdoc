@@ -1,0 +1,5959 @@
+keywords:
+- x530L-10GHXm
+- AT-x530L-10GHXm
+- x510L-28GT
+- AT-x510L-28GT
+- AR2010V
+- AT-AR2010V
+- SwitchBlade x908 Gen2
+- AT-SBx908GEN2
+- IE200-6FP
+- AT-IE200-6FP
+- x230-28GT
+- AT-x230-28GT
+- x950-52XSQ
+- AT-x950-52XSQ
+- x530DP-28GHXm
+- AT-x530DP-28GHXm
+- x510L-52GP
+- AT-x510L-52GP
+- x530L-52GPX
+- AT-x530L-52GPX
+- x230L-17GT
+- AT-x230L-17GT
+- AR4050S
+- AT-AR4050S
+- x510-52GTX
+- AT-x510-52GTX
+- x230-10GP
+- AT-x230-10Gp
+- x950-52XTQm
+- AT-x950-52XTQm
+- AR3050S
+- AT-AR3050S
+- x510-28GSX
+- AT-x510-28GSX
+- x530-18GHXm
+- AT-x530-18GHXm
+- x230L-26GT
+- AT-x230L-26GT
+- x530-10GHXm
+- AT-x530-10GHXm
+- GS980MX/28
+- AT-GS980MX/28
+- x510L-52GT
+- AT-x510L-52GT
+- AR1050V
+- AT-AR1050V
+- SwitchBlade x8106
+- AT-SBx8106
+- x930-52GPX
+- AT-x930-52GPX
+- GS980MX/52
+- AT-GS980MX/52
+- x230-28GP
+- AT-x230-28GP
+- x230-10GT
+- AT-x230-10GT
+- x230-18GT
+- AT-x230-18GT
+- AT-MCR12
+- AT-MCR12
+- x510-28GTX
+- AT-x510-28GTX
+- x930-28GTX
+- AT-x930-28GTX
+- x930-52GTX
+- AT-x930-52GTX
+- GS980MX/10HSm
+- AT-GS980MX/10HSm
+- IE300-12GT
+- AT-IE300-12GT
+- IE200-6FT
+- AT-IE200-6FT
+- x530-28GPXm
+- AT-x530-28GPXm
+- x930-28GSTX
+- AT-x930-28GSTX
+- IE340-12GP
+- AT-IE340-12GP
+- x530-52GTXm
+- AT-x530-52GTXm
+- x530-28GTXm
+- AT-x530-28GTXm
+- x530-52GPXm
+- AT-x530-52GPXm
+- x510-52GPX
+- AT-x510-52GPX
+- x950-28XTQm
+- AT-x950-28XTQm
+- x930-28GPX
+- AT-x930-28GPx
+- IE200-6GT
+- AT-IE200-6GT
+- IE200-6GP
+- AT-IE200-6GP
+- x530L-28GTX
+- AT-x530L-28GTX
+- IE300-12GP
+- AT-IE300-12GP
+- x950-28XSQ
+- AT-x950-28XSQ
+- x530L-18GHXm
+- AT-x530L-18GHXm
+- GS980MX/52PSm
+- AT-GS980MX/52PSm
+- GS980MX/28PSm
+- AT-GS980MX/28PSm
+- x530L-28GPX
+- AT-x530L-28GPX
+- IE340-12GT
+- AT-IE340-12GT
+- IE340L-18GP
+- AT-IE340L-18GP
+- GS980MX/18HSm
+- AT-GS980MX/18HSm
+- x530DP-52GHXm
+- AT-x530DP-52GHXm
+- IE340-20GP
+- AT-IE340-20GP
+- x510-28GPX
+- AT-x510-28GPX
+- x530L-52GTX
+- AT-x530L-52GTX
+- SwitchBlade x8112
+- AT-SBx8112
+- AR2050V
+- AT-AR2050V
+- x230-18GP
+- AT-x230-18GP
+- x510L-28GP
+- AT-x510L-28GP
+models:
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.9
+    type: 10gbase-x-sfpp
+  - name: port1.0.10
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x530L-10GHXm
+  part_number: AT-x530L-10GHXm
+  power-ports:
+  - maximum_draw: 605
+    name: PSU 1
+    type: iec-60320-c14
+  slug: x530l-10ghxm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 1000base-t
+  - name: port1.0.22
+    type: 1000base-t
+  - name: port1.0.23
+    type: 1000base-t
+  - name: port1.0.24
+    type: 1000base-t
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x510L-28GT
+  part_number: AT-x510L-28GT
+  power-ports:
+  - maximum_draw: 52
+    name: PSU 1
+    type: iec-60320-c14
+  slug: x510l-28gt
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: AR2010V
+  part_number: AT-AR2010V
+  power-ports:
+  - maximum_draw: 13
+    name: PSU
+    type: dc-terminal
+  slug: ar2010v
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  inventory-items:
+  - manufacturer: Allied Telesis
+    name: Fan-Module A
+    part_id: AT-FAN08
+  - manufacturer: Allied Telesis
+    name: Fan-Module B
+    part_id: AT-FAN08
+  is_full_depth: true
+  manufacturer: Allied Telesis
+  model: SwitchBlade x908 Gen2
+  module-bays:
+  - label: PSU 1
+    name: PSU Slot A
+    position: A
+  - label: PSU 2
+    name: PSU Slot B
+    position: B
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'
+  - name: Slot 7
+    position: '7'
+  - name: Slot 8
+    position: '8'
+  part_number: AT-SBx908GEN2
+  slug: sbx908-gen2
+  u_height: 3
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 100base-tx
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 100base-tx
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 100base-tx
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 100base-tx
+  - name: port1.0.5
+    type: 1000base-x-sfp
+  - name: port1.0.6
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: IE200-6FP
+  part_number: AT-IE200-6FP
+  power-ports:
+  - maximum_draw: 144
+    name: PWR 1
+    type: dc-terminal
+  - maximum_draw: 144
+    name: PWR 2
+    type: dc-terminal
+  slug: ie200-6fp
+  u_height: 0
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 1000base-t
+  - name: port1.0.22
+    type: 1000base-t
+  - name: port1.0.23
+    type: 1000base-t
+  - name: port1.0.24
+    type: 1000base-t
+  - name: port1.0.25
+    type: 1000base-x-sfp
+  - name: port1.0.26
+    type: 1000base-x-sfp
+  - name: port1.0.27
+    type: 1000base-x-sfp
+  - name: port1.0.28
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x230-28GT
+  part_number: AT-x230-28GT
+  power-ports:
+  - maximum_draw: 26
+    name: PSU
+    type: iec-60320-c14
+  slug: x230-28gt
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 10gbase-x-sfpp
+  - name: port1.0.2
+    type: 10gbase-x-sfpp
+  - name: port1.0.3
+    type: 10gbase-x-sfpp
+  - name: port1.0.4
+    type: 10gbase-x-sfpp
+  - name: port1.0.5
+    type: 10gbase-x-sfpp
+  - name: port1.0.6
+    type: 10gbase-x-sfpp
+  - name: port1.0.7
+    type: 10gbase-x-sfpp
+  - name: port1.0.8
+    type: 10gbase-x-sfpp
+  - name: port1.0.9
+    type: 10gbase-x-sfpp
+  - name: port1.0.10
+    type: 10gbase-x-sfpp
+  - name: port1.0.11
+    type: 10gbase-x-sfpp
+  - name: port1.0.12
+    type: 10gbase-x-sfpp
+  - name: port1.0.13
+    type: 10gbase-x-sfpp
+  - name: port1.0.14
+    type: 10gbase-x-sfpp
+  - name: port1.0.15
+    type: 10gbase-x-sfpp
+  - name: port1.0.16
+    type: 10gbase-x-sfpp
+  - name: port1.0.17
+    type: 10gbase-x-sfpp
+  - name: port1.0.18
+    type: 10gbase-x-sfpp
+  - name: port1.0.19
+    type: 10gbase-x-sfpp
+  - name: port1.0.20
+    type: 10gbase-x-sfpp
+  - name: port1.0.21
+    type: 10gbase-x-sfpp
+  - name: port1.0.22
+    type: 10gbase-x-sfpp
+  - name: port1.0.23
+    type: 10gbase-x-sfpp
+  - name: port1.0.24
+    type: 10gbase-x-sfpp
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  - name: port1.0.29
+    type: 10gbase-x-sfpp
+  - name: port1.0.30
+    type: 10gbase-x-sfpp
+  - name: port1.0.31
+    type: 10gbase-x-sfpp
+  - name: port1.0.32
+    type: 10gbase-x-sfpp
+  - name: port1.0.33
+    type: 10gbase-x-sfpp
+  - name: port1.0.34
+    type: 10gbase-x-sfpp
+  - name: port1.0.35
+    type: 10gbase-x-sfpp
+  - name: port1.0.36
+    type: 10gbase-x-sfpp
+  - name: port1.0.37
+    type: 10gbase-x-sfpp
+  - name: port1.0.38
+    type: 10gbase-x-sfpp
+  - name: port1.0.39
+    type: 10gbase-x-sfpp
+  - name: port1.0.40
+    type: 10gbase-x-sfpp
+  - name: port1.0.41
+    type: 10gbase-x-sfpp
+  - name: port1.0.42
+    type: 10gbase-x-sfpp
+  - name: port1.0.43
+    type: 10gbase-x-sfpp
+  - name: port1.0.44
+    type: 10gbase-x-sfpp
+  - name: port1.0.45
+    type: 10gbase-x-sfpp
+  - name: port1.0.46
+    type: 10gbase-x-sfpp
+  - name: port1.0.47
+    type: 10gbase-x-sfpp
+  - name: port1.0.48
+    type: 10gbase-x-sfpp
+  - name: port1.0.49
+    type: 100gbase-x-qsfp28
+  - name: port1.0.53
+    type: 100gbase-x-qsfp28
+  - name: port1.0.57
+    type: 100gbase-x-qsfp28
+  - name: port1.0.61
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  inventory-items:
+  - manufacturer: Allied Telesis
+    name: Fan-Module A
+    part_id: AT-SBxFAN05
+  - manufacturer: Allied Telesis
+    name: Fan-Module B
+    part_id: AT-SBxFAN05
+  is_full_depth: true
+  manufacturer: Allied Telesis
+  model: x950-52XSQ
+  module-bays:
+  - name: PSU A
+    position: A
+  - name: PSU B
+    position: B
+  part_number: AT-x950-52XSQ
+  slug: x950-52xsq
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  inventory-items:
+  - manufacturer: Allied Telesis
+    name: Fan-Module
+    part_id: AT-FAN10
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x530DP-28GHXm
+  module-bays:
+  - name: PSU A
+    position: A
+  - name: PSU B
+    position: B
+  part_number: AT-x530DP-28GHXm
+  slug: x530dp-28ghxm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.25
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.26
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.27
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.28
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.29
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.30
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.31
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.32
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.33
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.34
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.35
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.36
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.37
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.38
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.39
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.40
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.41
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.42
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.43
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.44
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.45
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.46
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.47
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.48
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.49
+    type: 10gbase-x-sfpp
+  - name: port1.0.50
+    type: 10gbase-x-sfpp
+  - name: port1.0.51
+    type: 10gbase-x-sfpp
+  - name: port1.0.52
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x510L-52GP
+  part_number: AT-x510L-52GP
+  power-ports:
+  - maximum_draw: 320
+    name: PSU 1
+    type: iec-60320-c14
+  slug: x510l-52gp
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.25
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.26
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.27
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.28
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.29
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.30
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.31
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.32
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.33
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.34
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.35
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.36
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.37
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.38
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.39
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.40
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.41
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.42
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.43
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.44
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.45
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.46
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.47
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.48
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.49
+    type: 10gbase-x-sfpp
+  - name: port1.0.50
+    type: 10gbase-x-sfpp
+  - name: port1.0.51
+    type: 10gbase-x-sfpp
+  - name: port1.0.52
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x530L-52GPX
+  part_number: AT-x530L-52GPX
+  power-ports:
+  - maximum_draw: 490
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 490
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x530l-52gpx
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x230L-17GT
+  part_number: AT-x230L-17GT
+  power-ports:
+  - maximum_draw: 15
+    name: PSU
+    type: iec-60320-c14
+  slug: x230l-17gt
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth1_bypass
+    type: 1000base-t
+  - name: eth2_bypass
+    type: 1000base-t
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: AR4050S
+  part_number: AT-AR4050S
+  power-ports:
+  - maximum_draw: 27
+    name: PSU
+    type: iec-60320-c14
+  slug: ar4050s
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 1000base-t
+  - name: port1.0.22
+    type: 1000base-t
+  - name: port1.0.23
+    type: 1000base-t
+  - name: port1.0.24
+    type: 1000base-t
+  - name: port1.0.25
+    type: 1000base-t
+  - name: port1.0.26
+    type: 1000base-t
+  - name: port1.0.27
+    type: 1000base-t
+  - name: port1.0.28
+    type: 1000base-t
+  - name: port1.0.29
+    type: 1000base-t
+  - name: port1.0.30
+    type: 1000base-t
+  - name: port1.0.31
+    type: 1000base-t
+  - name: port1.0.32
+    type: 1000base-t
+  - name: port1.0.33
+    type: 1000base-t
+  - name: port1.0.34
+    type: 1000base-t
+  - name: port1.0.35
+    type: 1000base-t
+  - name: port1.0.36
+    type: 1000base-t
+  - name: port1.0.37
+    type: 1000base-t
+  - name: port1.0.38
+    type: 1000base-t
+  - name: port1.0.39
+    type: 1000base-t
+  - name: port1.0.40
+    type: 1000base-t
+  - name: port1.0.41
+    type: 1000base-t
+  - name: port1.0.42
+    type: 1000base-t
+  - name: port1.0.43
+    type: 1000base-t
+  - name: port1.0.44
+    type: 1000base-t
+  - name: port1.0.45
+    type: 1000base-t
+  - name: port1.0.46
+    type: 1000base-t
+  - name: port1.0.47
+    type: 1000base-t
+  - name: port1.0.48
+    type: 1000base-t
+  - name: port1.0.49
+    type: 10gbase-x-sfpp
+  - name: port1.0.50
+    type: 10gbase-x-sfpp
+  - name: port1.0.51
+    type: 10gbase-x-sfpp
+  - name: port1.0.52
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x510-52GTX
+  part_number: AT-x510-52GTX
+  power-ports:
+  - maximum_draw: 86
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 86
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x510-52gtx
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-x-sfp
+  - name: port1.0.10
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x230-10GP
+  part_number: AT-x230-10Gp
+  power-ports:
+  - maximum_draw: 180
+    name: PSU
+    type: iec-60320-c14
+  slug: x230-10gp
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 10gbase-t
+  - name: port1.0.2
+    type: 10gbase-t
+  - name: port1.0.3
+    type: 10gbase-t
+  - name: port1.0.4
+    type: 10gbase-t
+  - name: port1.0.5
+    type: 10gbase-t
+  - name: port1.0.6
+    type: 10gbase-t
+  - name: port1.0.7
+    type: 10gbase-t
+  - name: port1.0.8
+    type: 10gbase-t
+  - name: port1.0.9
+    type: 10gbase-t
+  - name: port1.0.10
+    type: 10gbase-t
+  - name: port1.0.11
+    type: 10gbase-t
+  - name: port1.0.12
+    type: 10gbase-t
+  - name: port1.0.13
+    type: 10gbase-t
+  - name: port1.0.14
+    type: 10gbase-t
+  - name: port1.0.15
+    type: 10gbase-t
+  - name: port1.0.16
+    type: 10gbase-t
+  - name: port1.0.17
+    type: 10gbase-t
+  - name: port1.0.18
+    type: 10gbase-t
+  - name: port1.0.19
+    type: 10gbase-t
+  - name: port1.0.20
+    type: 10gbase-t
+  - name: port1.0.21
+    type: 10gbase-t
+  - name: port1.0.22
+    type: 10gbase-t
+  - name: port1.0.23
+    type: 10gbase-t
+  - name: port1.0.24
+    type: 10gbase-t
+  - name: port1.0.25
+    type: 10gbase-t
+  - name: port1.0.26
+    type: 10gbase-t
+  - name: port1.0.27
+    type: 10gbase-t
+  - name: port1.0.28
+    type: 10gbase-t
+  - name: port1.0.29
+    type: 10gbase-t
+  - name: port1.0.30
+    type: 10gbase-t
+  - name: port1.0.31
+    type: 10gbase-t
+  - name: port1.0.32
+    type: 10gbase-t
+  - name: port1.0.33
+    type: 10gbase-t
+  - name: port1.0.34
+    type: 10gbase-t
+  - name: port1.0.35
+    type: 10gbase-t
+  - name: port1.0.36
+    type: 10gbase-t
+  - name: port1.0.37
+    type: 10gbase-t
+  - name: port1.0.38
+    type: 10gbase-t
+  - name: port1.0.39
+    type: 10gbase-t
+  - name: port1.0.40
+    type: 10gbase-t
+  - name: port1.0.41
+    type: 10gbase-t
+  - name: port1.0.42
+    type: 10gbase-t
+  - name: port1.0.43
+    type: 10gbase-t
+  - name: port1.0.44
+    type: 10gbase-t
+  - name: port1.0.45
+    type: 10gbase-t
+  - name: port1.0.46
+    type: 10gbase-t
+  - name: port1.0.47
+    type: 10gbase-t
+  - name: port1.0.48
+    type: 10gbase-t
+  - name: port1.0.49
+    type: 100gbase-x-qsfp28
+  - name: port1.0.53
+    type: 100gbase-x-qsfp28
+  - name: port1.0.57
+    type: 100gbase-x-qsfp28
+  - name: port1.0.61
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  inventory-items:
+  - manufacturer: Allied Telesis
+    name: Fan-Module A
+    part_id: AT-SBxFAN05
+  - manufacturer: Allied Telesis
+    name: Fan-Module B
+    part_id: AT-SBxFAN05
+  is_full_depth: true
+  manufacturer: Allied Telesis
+  model: x950-52XTQm
+  module-bays:
+  - name: PSU A
+    position: A
+  - name: PSU B
+    position: B
+  part_number: AT-x950-52XTQm
+  slug: x950-52xtqm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth1_bypass
+    type: 1000base-t
+  - name: eth2_bypass
+    type: 1000base-t
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: AR3050S
+  part_number: AT-AR3050S
+  power-ports:
+  - maximum_draw: 23
+    name: PSU
+    type: iec-60320-c14
+  slug: ar3050s
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-x-sfp
+  - name: port1.0.2
+    type: 1000base-x-sfp
+  - name: port1.0.3
+    type: 1000base-x-sfp
+  - name: port1.0.4
+    type: 1000base-x-sfp
+  - name: port1.0.5
+    type: 1000base-x-sfp
+  - name: port1.0.6
+    type: 1000base-x-sfp
+  - name: port1.0.7
+    type: 1000base-x-sfp
+  - name: port1.0.8
+    type: 1000base-x-sfp
+  - name: port1.0.9
+    type: 1000base-x-sfp
+  - name: port1.0.10
+    type: 1000base-x-sfp
+  - name: port1.0.11
+    type: 1000base-x-sfp
+  - name: port1.0.12
+    type: 1000base-x-sfp
+  - name: port1.0.13
+    type: 1000base-x-sfp
+  - name: port1.0.14
+    type: 1000base-x-sfp
+  - name: port1.0.15
+    type: 1000base-x-sfp
+  - name: port1.0.16
+    type: 1000base-x-sfp
+  - name: port1.0.17
+    type: 1000base-x-sfp
+  - name: port1.0.18
+    type: 1000base-x-sfp
+  - name: port1.0.19
+    type: 1000base-x-sfp
+  - name: port1.0.20
+    type: 1000base-x-sfp
+  - name: port1.0.21
+    type: 1000base-x-sfp
+  - name: port1.0.22
+    type: 1000base-x-sfp
+  - name: port1.0.23
+    type: 1000base-x-sfp
+  - name: port1.0.24
+    type: 1000base-x-sfp
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x510-28GSX
+  part_number: AT-x510-28GSX
+  power-ports:
+  - maximum_draw: 74
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 74
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x510-28gsx
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.17
+    type: 10gbase-x-sfpp
+  - name: port1.0.18
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x530-18GHXm
+  part_number: AT-x530-18GHXm
+  power-ports:
+  - maximum_draw: 700
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 700
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x530-18ghxm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 1000base-t
+  - name: port1.0.22
+    type: 1000base-t
+  - name: port1.0.23
+    type: 1000base-t
+  - name: port1.0.24
+    type: 1000base-t
+  - name: port1.0.25
+    type: 1000base-x-sfp
+  - name: port1.0.26
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x230L-26GT
+  part_number: AT-x230L-26GT
+  power-ports:
+  - maximum_draw: 21
+    name: PSU
+    type: iec-60320-c14
+  slug: x230l-26gt
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.9
+    type: 10gbase-x-sfpp
+  - name: port1.0.10
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x530-10GHXm
+  part_number: AT-x530-10GHXm
+  power-ports:
+  - maximum_draw: 485
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 485
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x530-10ghxm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 1000base-t
+  - name: port1.0.22
+    type: 1000base-t
+  - name: port1.0.23
+    type: 1000base-t
+  - name: port1.0.24
+    type: 1000base-t
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: GS980MX/28
+  part_number: AT-GS980MX/28
+  power-ports:
+  - maximum_draw: 39
+    name: PSU 1
+    type: iec-60320-c14
+  slug: gs980mx-28
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 1000base-t
+  - name: port1.0.22
+    type: 1000base-t
+  - name: port1.0.23
+    type: 1000base-t
+  - name: port1.0.24
+    type: 1000base-t
+  - name: port1.0.25
+    type: 1000base-t
+  - name: port1.0.26
+    type: 1000base-t
+  - name: port1.0.27
+    type: 1000base-t
+  - name: port1.0.28
+    type: 1000base-t
+  - name: port1.0.29
+    type: 1000base-t
+  - name: port1.0.30
+    type: 1000base-t
+  - name: port1.0.31
+    type: 1000base-t
+  - name: port1.0.32
+    type: 1000base-t
+  - name: port1.0.33
+    type: 1000base-t
+  - name: port1.0.34
+    type: 1000base-t
+  - name: port1.0.35
+    type: 1000base-t
+  - name: port1.0.36
+    type: 1000base-t
+  - name: port1.0.37
+    type: 1000base-t
+  - name: port1.0.38
+    type: 1000base-t
+  - name: port1.0.39
+    type: 1000base-t
+  - name: port1.0.40
+    type: 1000base-t
+  - name: port1.0.41
+    type: 1000base-t
+  - name: port1.0.42
+    type: 1000base-t
+  - name: port1.0.43
+    type: 1000base-t
+  - name: port1.0.44
+    type: 1000base-t
+  - name: port1.0.45
+    type: 1000base-t
+  - name: port1.0.46
+    type: 1000base-t
+  - name: port1.0.47
+    type: 1000base-t
+  - name: port1.0.48
+    type: 1000base-t
+  - name: port1.0.49
+    type: 10gbase-x-sfpp
+  - name: port1.0.50
+    type: 10gbase-x-sfpp
+  - name: port1.0.51
+    type: 10gbase-x-sfpp
+  - name: port1.0.52
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x510L-52GT
+  part_number: AT-x510L-52GT
+  power-ports:
+  - maximum_draw: 86
+    name: PSU 1
+    type: iec-60320-c14
+  slug: x510l-52gt
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth1
+    type: 1000base-t
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: AR1050V
+  part_number: AT-AR1050V
+  power-ports:
+  - maximum_draw: 13
+    name: PSU
+    type: dc-terminal
+  slug: ar1050v
+  u_height: 1
+- inventory-items:
+  - manufacturer: Allied Telesis
+    name: Fan-Module
+    part_id: AT-SBxFAN06
+  is_full_depth: true
+  manufacturer: Allied Telesis
+  model: SwitchBlade x8106
+  module-bays:
+  - label: PoE PSU 1
+    name: PSU Slot A
+    position: A
+  - label: PoE PSU 2
+    name: PSU Slot B
+    position: B
+  - label: System PSU 1
+    name: PSU Slot C
+    position: C
+  - label: System PSU 2
+    name: PSU Slot D
+    position: D
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'
+  part_number: AT-SBx8106
+  slug: sbx8106
+  u_height: 4
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.25
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.26
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.27
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.28
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.29
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.30
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.31
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.32
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.33
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.34
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.35
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.36
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.37
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.38
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.39
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.40
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.41
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.42
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.43
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.44
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.45
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.46
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.47
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.48
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.49
+    type: 10gbase-x-sfpp
+  - name: port1.0.50
+    type: 10gbase-x-sfpp
+  - name: port1.0.51
+    type: 10gbase-x-sfpp
+  - name: port1.0.52
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x930-52GPX
+  module-bays:
+  - name: PSU A
+    position: A
+  - name: PSU B
+    position: B
+  - name: Rear Slot
+    position: '1'
+  part_number: AT-x930-52GPX
+  slug: x930-52gpx
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 1000base-t
+  - name: port1.0.22
+    type: 1000base-t
+  - name: port1.0.23
+    type: 1000base-t
+  - name: port1.0.24
+    type: 1000base-t
+  - name: port1.0.25
+    type: 1000base-t
+  - name: port1.0.26
+    type: 1000base-t
+  - name: port1.0.27
+    type: 1000base-t
+  - name: port1.0.28
+    type: 1000base-t
+  - name: port1.0.29
+    type: 1000base-t
+  - name: port1.0.30
+    type: 1000base-t
+  - name: port1.0.31
+    type: 1000base-t
+  - name: port1.0.32
+    type: 1000base-t
+  - name: port1.0.33
+    type: 1000base-t
+  - name: port1.0.34
+    type: 1000base-t
+  - name: port1.0.35
+    type: 1000base-t
+  - name: port1.0.36
+    type: 1000base-t
+  - name: port1.0.37
+    type: 1000base-t
+  - name: port1.0.38
+    type: 1000base-t
+  - name: port1.0.39
+    type: 1000base-t
+  - name: port1.0.40
+    type: 1000base-t
+  - name: port1.0.41
+    type: 1000base-t
+  - name: port1.0.42
+    type: 1000base-t
+  - name: port1.0.43
+    type: 1000base-t
+  - name: port1.0.44
+    type: 1000base-t
+  - name: port1.0.45
+    type: 1000base-t
+  - name: port1.0.46
+    type: 1000base-t
+  - name: port1.0.47
+    type: 1000base-t
+  - name: port1.0.48
+    type: 1000base-t
+  - name: port1.0.49
+    type: 10gbase-x-sfpp
+  - name: port1.0.50
+    type: 10gbase-x-sfpp
+  - name: port1.0.51
+    type: 10gbase-x-sfpp
+  - name: port1.0.52
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: GS980MX/52
+  part_number: AT-GS980MX/52
+  power-ports:
+  - maximum_draw: 60
+    name: PSU 1
+    type: iec-60320-c14
+  slug: gs980mx-52
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.25
+    type: 1000base-x-sfp
+  - name: port1.0.26
+    type: 1000base-x-sfp
+  - name: port1.0.27
+    type: 1000base-x-sfp
+  - name: port1.0.28
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x230-28GP
+  part_number: AT-x230-28GP
+  power-ports:
+  - maximum_draw: 520
+    name: PSU
+    type: iec-60320-c14
+  slug: x230-28gp
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-x-sfp
+  - name: port1.0.10
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x230-10GT
+  part_number: AT-x230-10GT
+  power-ports:
+  - maximum_draw: 18
+    name: PSU
+    type: iec-60320-c14
+  slug: x230-10gt
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-x-sfp
+  - name: port1.0.18
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x230-18GT
+  part_number: AT-x230-18GT
+  power-ports:
+  - maximum_draw: 18
+    name: PSU
+    type: iec-60320-c14
+  slug: x230-18gt
+  u_height: 1
+- airflow: passive
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: AT-MCR12
+  module-bays:
+  - label: PSU 1
+    name: Power Supply A
+    position: A
+  - label: PSU 2
+    name: Power Supply B
+    position: B
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'
+  - name: Slot 7
+    position: '7'
+  - name: Slot 8
+    position: '8'
+  - name: Slot 9
+    position: '9'
+  - name: Slot 10
+    position: '10'
+  - name: Slot 11
+    position: '11'
+  - name: Slot 12
+    position: '12'
+  part_number: AT-MCR12
+  slug: allied-telesis-mcr12
+  u_height: 3
+  weight: 9.5
+  weight_unit: lb
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 1000base-t
+  - name: port1.0.22
+    type: 1000base-t
+  - name: port1.0.23
+    type: 1000base-t
+  - name: port1.0.24
+    type: 1000base-t
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x510-28GTX
+  part_number: AT-x510-28GTX
+  power-ports:
+  - maximum_draw: 52
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 52
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x510-28gtx
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 1000base-t
+  - name: port1.0.22
+    type: 1000base-t
+  - name: port1.0.23
+    type: 1000base-t
+  - name: port1.0.24
+    type: 1000base-t
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x930-28GTX
+  module-bays:
+  - name: PSU A
+    position: A
+  - name: PSU B
+    position: B
+  - name: Rear Slot
+    position: '1'
+  part_number: AT-x930-28GTX
+  slug: x930-28gtx
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 1000base-t
+  - name: port1.0.22
+    type: 1000base-t
+  - name: port1.0.23
+    type: 1000base-t
+  - name: port1.0.24
+    type: 1000base-t
+  - name: port1.0.25
+    type: 1000base-t
+  - name: port1.0.26
+    type: 1000base-t
+  - name: port1.0.27
+    type: 1000base-t
+  - name: port1.0.28
+    type: 1000base-t
+  - name: port1.0.29
+    type: 1000base-t
+  - name: port1.0.30
+    type: 1000base-t
+  - name: port1.0.31
+    type: 1000base-t
+  - name: port1.0.32
+    type: 1000base-t
+  - name: port1.0.33
+    type: 1000base-t
+  - name: port1.0.34
+    type: 1000base-t
+  - name: port1.0.35
+    type: 1000base-t
+  - name: port1.0.36
+    type: 1000base-t
+  - name: port1.0.37
+    type: 1000base-t
+  - name: port1.0.38
+    type: 1000base-t
+  - name: port1.0.39
+    type: 1000base-t
+  - name: port1.0.40
+    type: 1000base-t
+  - name: port1.0.41
+    type: 1000base-t
+  - name: port1.0.42
+    type: 1000base-t
+  - name: port1.0.43
+    type: 1000base-t
+  - name: port1.0.44
+    type: 1000base-t
+  - name: port1.0.45
+    type: 1000base-t
+  - name: port1.0.46
+    type: 1000base-t
+  - name: port1.0.47
+    type: 1000base-t
+  - name: port1.0.48
+    type: 1000base-t
+  - name: port1.0.49
+    type: 10gbase-x-sfpp
+  - name: port1.0.50
+    type: 10gbase-x-sfpp
+  - name: port1.0.51
+    type: 10gbase-x-sfpp
+  - name: port1.0.52
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x930-52GTX
+  module-bays:
+  - name: PSU A
+    position: A
+  - name: PSU B
+    position: B
+  - name: Rear Slot
+    position: '1'
+  part_number: AT-x930-52GTX
+  slug: x930-52gtx
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.9
+    type: 10gbase-x-sfpp
+  - name: port1.0.10
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: GS980MX/10HSm
+  part_number: AT-GS980MX/10HSm
+  power-ports:
+  - maximum_draw: 605
+    name: PSU 1
+    type: iec-60320-c14
+  slug: gs980mx-10hsm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-x-sfp
+  - name: port1.0.10
+    type: 1000base-x-sfp
+  - name: port1.0.11
+    type: 1000base-x-sfp
+  - name: port1.0.12
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: IE300-12GT
+  part_number: AT-IE300-12GT
+  power-ports:
+  - maximum_draw: 30
+    name: PWR 1
+    type: dc-terminal
+  - maximum_draw: 30
+    name: PWR 2
+    type: dc-terminal
+  slug: ie300-12gt
+  u_height: 0
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 100base-tx
+  - name: port1.0.2
+    type: 100base-tx
+  - name: port1.0.3
+    type: 100base-tx
+  - name: port1.0.4
+    type: 100base-tx
+  - name: port1.0.5
+    type: 1000base-x-sfp
+  - name: port1.0.6
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: IE200-6FT
+  part_number: AT-IE200-6FT
+  power-ports:
+  - maximum_draw: 10
+    name: PWR 1
+    type: dc-terminal
+  - maximum_draw: 10
+    name: PWR 2
+    type: dc-terminal
+  slug: ie200-6ft
+  u_height: 0
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x530-28GPXm
+  part_number: AT-x530-28GPXm
+  power-ports:
+  - maximum_draw: 450
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 450
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x530-28gpxm
+  u_height: 1
+- comments: Every physical front port is a 1000BASE-T/SFP combo port
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 1000base-t
+  - name: port1.0.22
+    type: 1000base-t
+  - name: port1.0.23
+    type: 1000base-t
+  - name: port1.0.24
+    type: 1000base-t
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x930-28GSTX
+  module-bays:
+  - name: PSU A
+    position: A
+  - name: PSU B
+    position: B
+  - name: Rear Slot
+    position: '1'
+  part_number: AT-x930-28GSTX
+  slug: x930-28gstx
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-x-sfp
+  - name: port1.0.10
+    type: 1000base-x-sfp
+  - name: port1.0.11
+    type: 1000base-x-sfp
+  - name: port1.0.12
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: IE340-12GP
+  part_number: AT-IE340-12GP
+  power-ports:
+  - maximum_draw: 271
+    name: PWR 1
+    type: dc-terminal
+  - maximum_draw: 271
+    name: PWR 2
+    type: dc-terminal
+  slug: ie340-12gp
+  u_height: 0
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 1000base-t
+  - name: port1.0.22
+    type: 1000base-t
+  - name: port1.0.23
+    type: 1000base-t
+  - name: port1.0.24
+    type: 1000base-t
+  - name: port1.0.25
+    type: 1000base-t
+  - name: port1.0.26
+    type: 1000base-t
+  - name: port1.0.27
+    type: 1000base-t
+  - name: port1.0.28
+    type: 1000base-t
+  - name: port1.0.29
+    type: 1000base-t
+  - name: port1.0.30
+    type: 1000base-t
+  - name: port1.0.31
+    type: 1000base-t
+  - name: port1.0.32
+    type: 1000base-t
+  - name: port1.0.33
+    type: 1000base-t
+  - name: port1.0.34
+    type: 1000base-t
+  - name: port1.0.35
+    type: 1000base-t
+  - name: port1.0.36
+    type: 1000base-t
+  - name: port1.0.37
+    type: 1000base-t
+  - name: port1.0.38
+    type: 1000base-t
+  - name: port1.0.39
+    type: 1000base-t
+  - name: port1.0.40
+    type: 1000base-t
+  - name: port1.0.41
+    type: 5gbase-t
+  - name: port1.0.42
+    type: 5gbase-t
+  - name: port1.0.43
+    type: 5gbase-t
+  - name: port1.0.44
+    type: 5gbase-t
+  - name: port1.0.45
+    type: 5gbase-t
+  - name: port1.0.46
+    type: 5gbase-t
+  - name: port1.0.47
+    type: 5gbase-t
+  - name: port1.0.48
+    type: 5gbase-t
+  - name: port1.0.49
+    type: 10gbase-x-sfpp
+  - name: port1.0.50
+    type: 10gbase-x-sfpp
+  - name: port1.0.51
+    type: 10gbase-x-sfpp
+  - name: port1.0.52
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x530-52GTXm
+  part_number: AT-x530-52GTXm
+  power-ports:
+  - maximum_draw: 85
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 85
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x530-52gtxm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 5gbase-t
+  - name: port1.0.22
+    type: 5gbase-t
+  - name: port1.0.23
+    type: 5gbase-t
+  - name: port1.0.24
+    type: 5gbase-t
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x530-28GTXm
+  part_number: AT-x530-28GTXm
+  power-ports:
+  - maximum_draw: 55
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 55
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x530-28gtxm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.25
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.26
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.27
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.28
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.29
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.30
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.31
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.32
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.33
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.34
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.35
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.36
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.37
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.38
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.39
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.40
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.41
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.42
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.43
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.44
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.45
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.46
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.47
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.48
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.49
+    type: 10gbase-x-sfpp
+  - name: port1.0.50
+    type: 10gbase-x-sfpp
+  - name: port1.0.51
+    type: 10gbase-x-sfpp
+  - name: port1.0.52
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x530-52GPXm
+  part_number: AT-x530-52GPXm
+  power-ports:
+  - maximum_draw: 490
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 490
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x530-52gpxm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.25
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.26
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.27
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.28
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.29
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.30
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.31
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.32
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.33
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.34
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.35
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.36
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.37
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.38
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.39
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.40
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.41
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.42
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.43
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.44
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.45
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.46
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.47
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.48
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.49
+    type: 10gbase-x-sfpp
+  - name: port1.0.50
+    type: 10gbase-x-sfpp
+  - name: port1.0.51
+    type: 10gbase-x-sfpp
+  - name: port1.0.52
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x510-52GPX
+  part_number: AT-x510-52GPX
+  power-ports:
+  - maximum_draw: 290
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 290
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x510-52gpx
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 10gbase-t
+  - name: port1.0.2
+    type: 10gbase-t
+  - name: port1.0.3
+    type: 10gbase-t
+  - name: port1.0.4
+    type: 10gbase-t
+  - name: port1.0.5
+    type: 10gbase-t
+  - name: port1.0.6
+    type: 10gbase-t
+  - name: port1.0.7
+    type: 10gbase-t
+  - name: port1.0.8
+    type: 10gbase-t
+  - name: port1.0.9
+    type: 10gbase-t
+  - name: port1.0.10
+    type: 10gbase-t
+  - name: port1.0.11
+    type: 10gbase-t
+  - name: port1.0.12
+    type: 10gbase-t
+  - name: port1.0.13
+    type: 10gbase-t
+  - name: port1.0.14
+    type: 10gbase-t
+  - name: port1.0.15
+    type: 10gbase-t
+  - name: port1.0.16
+    type: 10gbase-t
+  - name: port1.0.17
+    type: 10gbase-t
+  - name: port1.0.18
+    type: 10gbase-t
+  - name: port1.0.19
+    type: 10gbase-t
+  - name: port1.0.20
+    type: 10gbase-t
+  - name: port1.0.21
+    type: 10gbase-t
+  - name: port1.0.22
+    type: 10gbase-t
+  - name: port1.0.23
+    type: 10gbase-t
+  - name: port1.0.24
+    type: 10gbase-t
+  - name: port1.0.25
+    type: 100gbase-x-qsfp28
+  - name: port1.0.29
+    type: 100gbase-x-qsfp28
+  - name: port1.0.33
+    type: 100gbase-x-qsfp28
+  - name: port1.0.37
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  inventory-items:
+  - manufacturer: Allied Telesis
+    name: Fan-Module A
+    part_id: AT-SBxFAN05
+  - manufacturer: Allied Telesis
+    name: Fan-Module B
+    part_id: AT-SBxFAN05
+  is_full_depth: true
+  manufacturer: Allied Telesis
+  model: x950-28XTQm
+  module-bays:
+  - name: PSU A
+    position: A
+  - name: PSU B
+    position: B
+  - name: Slot 1
+    position: '1'
+  part_number: AT-x950-28XTQm
+  slug: x950-28xtqm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x930-28GPX
+  module-bays:
+  - name: PSU A
+    position: A
+  - name: PSU B
+    position: B
+  - name: Rear Slot
+    position: '1'
+  part_number: AT-x930-28GPx
+  slug: x930-28gpx
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-x-sfp
+  - name: port1.0.6
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: IE200-6GT
+  part_number: AT-IE200-6GT
+  power-ports:
+  - maximum_draw: 10
+    name: PWR 1
+    type: dc-terminal
+  - maximum_draw: 10
+    name: PWR 2
+    type: dc-terminal
+  slug: ie200-6gt
+  u_height: 0
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-x-sfp
+  - name: port1.0.6
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: IE200-6GP
+  part_number: AT-IE200-6GP
+  power-ports:
+  - maximum_draw: 144
+    name: PWR 1
+    type: dc-terminal
+  - maximum_draw: 144
+    name: PWR 2
+    type: dc-terminal
+  slug: ie200-6gp
+  u_height: 0
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 1000base-t
+  - name: port1.0.22
+    type: 1000base-t
+  - name: port1.0.23
+    type: 1000base-t
+  - name: port1.0.24
+    type: 1000base-t
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x530L-28GTX
+  part_number: AT-x530L-28GTX
+  power-ports:
+  - maximum_draw: 39
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 39
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x530l-28gtx
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-x-sfp
+  - name: port1.0.10
+    type: 1000base-x-sfp
+  - name: port1.0.11
+    type: 1000base-x-sfp
+  - name: port1.0.12
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: IE300-12GP
+  part_number: AT-IE300-12GP
+  power-ports:
+  - maximum_draw: 320
+    name: PWR 1
+    type: dc-terminal
+  - maximum_draw: 320
+    name: PWR 2
+    type: dc-terminal
+  slug: ie300-12gp
+  u_height: 0
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 10gbase-x-sfpp
+  - name: port1.0.2
+    type: 10gbase-x-sfpp
+  - name: port1.0.3
+    type: 10gbase-x-sfpp
+  - name: port1.0.4
+    type: 10gbase-x-sfpp
+  - name: port1.0.5
+    type: 10gbase-x-sfpp
+  - name: port1.0.6
+    type: 10gbase-x-sfpp
+  - name: port1.0.7
+    type: 10gbase-x-sfpp
+  - name: port1.0.8
+    type: 10gbase-x-sfpp
+  - name: port1.0.9
+    type: 10gbase-x-sfpp
+  - name: port1.0.10
+    type: 10gbase-x-sfpp
+  - name: port1.0.11
+    type: 10gbase-x-sfpp
+  - name: port1.0.12
+    type: 10gbase-x-sfpp
+  - name: port1.0.13
+    type: 10gbase-x-sfpp
+  - name: port1.0.14
+    type: 10gbase-x-sfpp
+  - name: port1.0.15
+    type: 10gbase-x-sfpp
+  - name: port1.0.16
+    type: 10gbase-x-sfpp
+  - name: port1.0.17
+    type: 10gbase-x-sfpp
+  - name: port1.0.18
+    type: 10gbase-x-sfpp
+  - name: port1.0.19
+    type: 10gbase-x-sfpp
+  - name: port1.0.20
+    type: 10gbase-x-sfpp
+  - name: port1.0.21
+    type: 10gbase-x-sfpp
+  - name: port1.0.22
+    type: 10gbase-x-sfpp
+  - name: port1.0.23
+    type: 10gbase-x-sfpp
+  - name: port1.0.24
+    type: 10gbase-x-sfpp
+  - name: port1.0.25
+    type: 100gbase-x-qsfp28
+  - name: port1.0.29
+    type: 100gbase-x-qsfp28
+  - name: port1.0.33
+    type: 100gbase-x-qsfp28
+  - name: port1.0.37
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  inventory-items:
+  - manufacturer: Allied Telesis
+    name: Fan-Module A
+    part_id: AT-SBxFAN05
+  - manufacturer: Allied Telesis
+    name: Fan-Module B
+    part_id: AT-SBxFAN05
+  is_full_depth: true
+  manufacturer: Allied Telesis
+  model: x950-28XSQ
+  module-bays:
+  - name: PSU A
+    position: A
+  - name: PSU B
+    position: B
+  - name: Slot 1
+    position: '1'
+  part_number: AT-x950-28XSQ
+  slug: x950-28xsq
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.17
+    type: 10gbase-x-sfpp
+  - name: port1.0.18
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x530L-18GHXm
+  part_number: AT-x530L-18GHXm
+  power-ports:
+  - maximum_draw: 970
+    name: PSU 1
+    type: iec-60320-c14
+  slug: x530l-18ghxm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.25
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.26
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.27
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.28
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.29
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.30
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.31
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.32
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.33
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.34
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.35
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.36
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.37
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.38
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.39
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.40
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.41
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.42
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.43
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.44
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.45
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.46
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.47
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.48
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.49
+    type: 10gbase-x-sfpp
+  - name: port1.0.50
+    type: 10gbase-x-sfpp
+  - name: port1.0.51
+    type: 10gbase-x-sfpp
+  - name: port1.0.52
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: GS980MX/52PSm
+  part_number: AT-GS980MX/52PSm
+  power-ports:
+  - maximum_draw: 530
+    name: PSU 1
+    type: iec-60320-c14
+  slug: gs980mx-52psm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 5gbase-t
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: GS980MX/28PSm
+  part_number: AT-GS980MX/28PSm
+  power-ports:
+  - maximum_draw: 510
+    name: PSU 1
+    type: iec-60320-c14
+  slug: gs980mx-28psm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x530L-28GPX
+  part_number: AT-x530L-28GPX
+  power-ports:
+  - maximum_draw: 490
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 490
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x530l-28gpx
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-x-sfp
+  - name: port1.0.10
+    type: 1000base-x-sfp
+  - name: port1.0.11
+    type: 1000base-x-sfp
+  - name: port1.0.12
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: IE340-12GT
+  part_number: AT-IE340-12GT
+  power-ports:
+  - maximum_draw: 24
+    name: PWR 1
+    type: dc-terminal
+  - maximum_draw: 24
+    name: PWR 2
+    type: dc-terminal
+  slug: ie340-12gt
+  u_height: 0
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-x-sfp
+  - name: port1.0.18
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: IE340L-18GP
+  part_number: AT-IE340L-18GP
+  power-ports:
+  - maximum_draw: 271
+    name: PWR 1
+    type: dc-terminal
+  - maximum_draw: 271
+    name: PWR 2
+    type: dc-terminal
+  slug: ie340l-18gp
+  u_height: 0
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.17
+    type: 10gbase-x-sfpp
+  - name: port1.0.18
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: GS980MX/18HSm
+  part_number: AT-GS980MX/18HSm
+  power-ports:
+  - maximum_draw: 970
+    name: PSU 1
+    type: iec-60320-c14
+  slug: gs980mx-18hsm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.25
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.26
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.27
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.28
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.29
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.30
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.31
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.32
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.33
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.34
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.35
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.36
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.37
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.38
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.39
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.40
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: port1.0.41
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.42
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.43
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.44
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.45
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.46
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.47
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.48
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 5gbase-t
+  - name: port1.0.49
+    type: 10gbase-x-sfpp
+  - name: port1.0.50
+    type: 10gbase-x-sfpp
+  - name: port1.0.51
+    type: 10gbase-x-sfpp
+  - name: port1.0.52
+    type: 10gbase-x-sfpp
+  inventory-items:
+  - manufacturer: Allied Telesis
+    name: Fan-Module
+    part_id: AT-FAN10
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x530DP-52GHXm
+  module-bays:
+  - name: PSU A
+    position: A
+  - name: PSU B
+    position: B
+  part_number: AT-x530DP-52GHXm
+  slug: x530dp-52ghxm
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-x-sfp
+  - name: port1.0.18
+    type: 1000base-x-sfp
+  - name: port1.0.19
+    type: 1000base-x-sfp
+  - name: port1.0.20
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: IE340-20GP
+  part_number: AT-IE340-20GP
+  power-ports:
+  - maximum_draw: 271
+    name: PWR 1
+    type: dc-terminal
+  - maximum_draw: 271
+    name: PWR 2
+    type: dc-terminal
+  slug: ie340-20gp
+  u_height: 0
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x510-28GPX
+  part_number: AT-x510-28GPX
+  power-ports:
+  - maximum_draw: 290
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 290
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x510-28gpx
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  - name: port1.0.5
+    type: 1000base-t
+  - name: port1.0.6
+    type: 1000base-t
+  - name: port1.0.7
+    type: 1000base-t
+  - name: port1.0.8
+    type: 1000base-t
+  - name: port1.0.9
+    type: 1000base-t
+  - name: port1.0.10
+    type: 1000base-t
+  - name: port1.0.11
+    type: 1000base-t
+  - name: port1.0.12
+    type: 1000base-t
+  - name: port1.0.13
+    type: 1000base-t
+  - name: port1.0.14
+    type: 1000base-t
+  - name: port1.0.15
+    type: 1000base-t
+  - name: port1.0.16
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-t
+  - name: port1.0.18
+    type: 1000base-t
+  - name: port1.0.19
+    type: 1000base-t
+  - name: port1.0.20
+    type: 1000base-t
+  - name: port1.0.21
+    type: 1000base-t
+  - name: port1.0.22
+    type: 1000base-t
+  - name: port1.0.23
+    type: 1000base-t
+  - name: port1.0.24
+    type: 1000base-t
+  - name: port1.0.25
+    type: 1000base-t
+  - name: port1.0.26
+    type: 1000base-t
+  - name: port1.0.27
+    type: 1000base-t
+  - name: port1.0.28
+    type: 1000base-t
+  - name: port1.0.29
+    type: 1000base-t
+  - name: port1.0.30
+    type: 1000base-t
+  - name: port1.0.31
+    type: 1000base-t
+  - name: port1.0.32
+    type: 1000base-t
+  - name: port1.0.33
+    type: 1000base-t
+  - name: port1.0.34
+    type: 1000base-t
+  - name: port1.0.35
+    type: 1000base-t
+  - name: port1.0.36
+    type: 1000base-t
+  - name: port1.0.37
+    type: 1000base-t
+  - name: port1.0.38
+    type: 1000base-t
+  - name: port1.0.39
+    type: 1000base-t
+  - name: port1.0.40
+    type: 1000base-t
+  - name: port1.0.41
+    type: 1000base-t
+  - name: port1.0.42
+    type: 1000base-t
+  - name: port1.0.43
+    type: 1000base-t
+  - name: port1.0.44
+    type: 1000base-t
+  - name: port1.0.45
+    type: 1000base-t
+  - name: port1.0.46
+    type: 1000base-t
+  - name: port1.0.47
+    type: 1000base-t
+  - name: port1.0.48
+    type: 1000base-t
+  - name: port1.0.49
+    type: 10gbase-x-sfpp
+  - name: port1.0.50
+    type: 10gbase-x-sfpp
+  - name: port1.0.51
+    type: 10gbase-x-sfpp
+  - name: port1.0.52
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x530L-52GTX
+  part_number: AT-x530L-52GTX
+  power-ports:
+  - maximum_draw: 60
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 60
+    name: PSU 2
+    type: iec-60320-c14
+  slug: x530l-52gtx
+  u_height: 1
+- inventory-items:
+  - manufacturer: Allied Telesis
+    name: Fan-Module
+    part_id: AT-SBxFAN12
+  is_full_depth: true
+  manufacturer: Allied Telesis
+  model: SwitchBlade x8112
+  module-bays:
+  - label: PoE PSU 1
+    name: PSU Slot A
+    position: A
+  - label: PoE PSU 2
+    name: PSU Slot B
+    position: B
+  - label: System PSU 1
+    name: PSU Slot C
+    position: C
+  - label: System PSU 2
+    name: PSU Slot D
+    position: D
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'
+  - name: Slot 7
+    position: '7'
+  - name: Slot 8
+    position: '8'
+  - name: Slot 9
+    position: '9'
+  - name: Slot 10
+    position: '10'
+  - name: Slot 11
+    position: '11'
+  - name: Slot 12
+    position: '12'
+  part_number: AT-SBx8112
+  slug: sbx8112
+  u_height: 7
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth1
+    type: 1000base-t
+  - name: eth1_bypass
+    type: 1000base-t
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: AR2050V
+  part_number: AT-AR2050V
+  power-ports:
+  - maximum_draw: 14
+    name: PSU
+    type: iec-60320-c14
+  slug: ar2050v
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    type: 1000base-x-sfp
+  - name: port1.0.18
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x230-18GP
+  part_number: AT-x230-18GP
+  power-ports:
+  - maximum_draw: 330
+    name: PSU
+    type: iec-60320-c14
+  slug: x230-18gp
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1.0.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.0.25
+    type: 10gbase-x-sfpp
+  - name: port1.0.26
+    type: 10gbase-x-sfpp
+  - name: port1.0.27
+    type: 10gbase-x-sfpp
+  - name: port1.0.28
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Allied Telesis
+  model: x510L-28GP
+  part_number: AT-x510L-28GP
+  power-ports:
+  - maximum_draw: 290
+    name: PSU 1
+    type: iec-60320-c14
+  slug: x510l-28gp
+  u_height: 1

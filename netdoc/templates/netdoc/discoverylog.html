@@ -1,0 +1,132 @@
+{% extends "generic/object.html" %}
+{% load render_table from django_tables2 %}
+{% load buttons %}
+{% load custom_links %}
+{% load helpers %}
+{% load perms %}
+{% load plugins %}
+{% load netdoc_buttons %}
+{% comment %}
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2022, Andrea Dainese"
+__license__ = "GPLv3"
+{% endcomment %}
+{% block controls %}
+    {# Clone/Edit/Delete Buttons #}
+    <div class="controls">
+        <div class="control-group">
+            {% plugin_buttons object %}
+            {# Extra buttons #}
+            {% block extra_controls %}
+                {% if request.user|can_change:object %}
+                    {% export_button object %}
+                {% endif %}
+            {% endblock extra_controls %}
+            {% if request.user|can_delete:object %}
+                {% delete_button object %}
+            {% endif %}
+        </div>
+        <div class="control-group">{% custom_links object %}</div>
+    </div>
+{% endblock controls %}
+{% block content %}
+    <div class="row mb-3">
+        <div class="col col-md-6">
+            <div class="card">
+                <h5 class="card-header">Discovery log</h5>
+                <div class="card-body">
+                    <table class="table table-hover attr-table">
+                        <tr>
+                            <th scope="row">Created at</th>
+                            <td>{{ object.created }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Discoverable</th>
+                            <td>
+                                <a href="{% url "plugins:netdoc:discoverable" object.discoverable.pk %}">{{ object.discoverable }}</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Device</th>
+                            <td>
+                                {% if object.discoverable.device %}
+                                    <a href="{% url "dcim:device" object.discoverable.device.pk %}">{{ object.discoverable.device }}</a>
+                                {% else %}
+                                    {{ object.ip_address }}
+                                {% endif %}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Template (to parse raw output)</th>
+                            <td>{{ object.template }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Command</th>
+                            <td>{{ object.command }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Contains configuration?</th>
+                            <td>{{ object.configuration }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Command executed successfully?</th>
+                            <td>{{ object.success }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Command output parsed successfully?</th>
+                            <td>{{ object.parsed }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Parsed output ingested successfully?</th>
+                            <td>{{ object.ingested }}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            {% include "inc/panels/custom_fields.html" %}
+        </div>
+        <div class="col col-md-6">
+            {% include "inc/panels/tags.html" %}
+            {% include "inc/panels/comments.html" %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-md-12">
+            <div class="card">
+                <h5 class="card-header">Task parameters</h5>
+                <div class="card-body table-responsive">
+                    <pre>{{ object.details }}</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col col-md-12">
+            <div class="card">
+                <h5 class="card-header">Raw output</h5>
+                <div class="card-body table-responsive">
+                    <pre>{{ object.raw_output }}</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% if object.parsed_output %}
+        <div class="row mt-3">
+            <div class="col col-md-12">
+                <div class="card">
+                    <h5 class="card-header">
+                        {% if object.parsed %}
+                            Parsed output
+                        {% else %}
+                            Parsing errors
+                        {% endif %}
+                    </h5>
+                    <div class="card-body table-responsive">
+                        <pre>{{ object.parsed_output|pprint }}</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endblock content %}

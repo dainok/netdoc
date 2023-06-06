@@ -1,0 +1,79 @@
+Syslog logging: enabled (0 messages dropped, 4 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 48 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 0 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 52 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (8192 bytes)
+    Count and timestamp logging messages: disabled
+    Persistent logging: disabled
+    Trap logging: level informational, 54 message lines logged
+        Logging Source-Interface:       VRF Name:
+
+Log Buffer (8192 bytes):
+
+*Mar  1 00:00:00.414: %ATA-6-DEV_FOUND: device 0x1F0
+*Mar  1 00:00:00.718: %NVRAM-5-CONFIG_NVRAM_READ_OK: NVRAM configuration 'flash:/nvram' was read from disk.
+*Apr 26 10:31:35.768: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for type vlan
+*Apr 26 10:31:37.294: %LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to reset
+*Apr 26 10:31:37.294: %LINK-5-CHANGED: Interface GigabitEthernet0/1, changed state to reset
+*Apr 26 10:31:37.294: %LINK-5-CHANGED: Interface GigabitEthernet0/2, changed state to reset
+*Apr 26 10:31:37.294: %LINK-5-CHANGED: Interface GigabitEthernet0/3, changed state to reset
+*Apr 26 10:31:37.294: %LINK-5-CHANGED: Interface GigabitEthernet1/0, changed state to reset
+*Apr 26 10:31:37.294: %LINK-5-CHANGED: Interface GigabitEthernet1/1, changed state to reset
+*Apr 26 10:31:37.294: %LINK-5-CHANGED: Interface GigabitEthernet1/2, changed state to reset
+*Apr 26 10:31:37.294: %LINK-5-CHANGED: Interface GigabitEthernet1/3, changed state to reset
+*Apr 26 10:31:37.997: %SYS-5-CONFIG_I: Configured from memory by console
+*Apr 26 10:31:38.055: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Version 15.2(4.0.55)E, TEST ENGINEERING ESTG_WEEKLY BUILD, synced to  END_OF_FLO_ISP
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Tue 28-Jul-15 18:52 by sasyamal
+*Apr 26 10:31:38.071: %SSH-5-ENABLED: SSH 2.0 has been enabled
+*Apr 26 10:31:38.394: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+*Apr 26 10:31:38.394: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+*Apr 26 10:31:38.394: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to down
+*Apr 26 10:31:38.394: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to down
+*Apr 26 10:31:38.395: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/1, changed state to down
+*Apr 26 10:31:38.395: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/2, changed state to down
+*Apr 26 10:31:38.395: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/3, changed state to down
+*Apr 26 10:31:39.443: %LINK-3-UPDOWN: Interface GigabitEthernet1/3, changed state to down
+*Apr 26 10:31:39.443: %LINK-3-UPDOWN: Interface GigabitEthernet1/2, changed state to down
+*Apr 26 10:31:39.443: %LINK-3-UPDOWN: Interface GigabitEthernet1/1, changed state to down
+*Apr 26 10:31:39.443: %LINK-3-UPDOWN: Interface GigabitEthernet1/0, changed state to down
+*Apr 26 10:31:39.443: %LINK-3-UPDOWN: Interface GigabitEthernet0/3, changed state to down
+*Apr 26 10:31:39.443: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+*Apr 26 10:31:39.444: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*Apr 26 10:31:39.891: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+*Apr 26 10:31:40.928: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*Apr 26 10:31:46.508: %EC-5-L3DONTBNDL2: Gi0/1 suspended: LACP currently not enabled on the remote port.
+*Apr 26 10:31:46.509: %EC-5-L3DONTBNDL2: Gi0/2 suspended: LACP currently not enabled on the remote port.
+*Apr 26 10:31:55.556: %PLATFORM-5-SIGNATURE_VERIFIED: Image 'flash0:/vios_l2-adventerprisek9-m' passed code signing verification
+*Apr 26 10:37:56.015: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/2 (not full duplex), with NXOS12.example.com(9D4RFH3U8OX) Ethernet1/4 (full duplex).
+*Apr 26 10:37:56.120: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/1 (not full duplex), with NXOS11.example.com(98PSTACZVUU) Ethernet1/4 (full duplex).
+*Apr 26 10:37:57.016: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/2 (not full duplex), with NXOS12.example.com(9D4RFH3U8OX) Ethernet1/4 (full duplex).
+*Apr 26 10:37:57.118: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/1 (not full duplex), with NXOS11.example.com(98PSTACZVUU) Ethernet1/4 (full duplex).
+*Apr 26 10:37:58.017: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/2 (not full duplex), with NXOS12.example.com(9D4RFH3U8OX) Ethernet1/4 (full duplex).
+*Apr 26 10:37:58.120: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/1 (not full duplex), with NXOS11.example.com(98PSTACZVUU) Ethernet1/4 (full duplex).
+*Apr 26 10:38:01.990: %SPANTREE-7-RECV_1Q_NON_TRUNK: Received 802.1Q BPDU on non trunk Port-channel2 VLAN1.
+*Apr 26 10:38:01.990: %SPANTREE-7-BLOCK_PORT_TYPE: Blocking Port-channel2 on VLAN0001. Inconsistent port type.
+*Apr 26 10:38:03.846: %LINEPROTO-5-UPDOWN: Line protocol on Interface Port-channel2, changed state to up
+*Apr 26 10:40:06.114: %SYS-5-CONFIG_I: Configured from console by console
+*Apr 26 10:40:07.378: %LINK-3-UPDOWN: Interface Port-channel2, changed state to down
+*Apr 26 10:40:08.378: %LINEPROTO-5-UPDOWN: Line protocol on Interface Port-channel2, changed state to down
+*Apr 26 10:40:12.380: %LINK-3-UPDOWN: Interface Port-channel2, changed state to up
+*Apr 26 10:40:12.752: %LINK-3-UPDOWN: Interface Vlan4, changed state to up
+*Apr 26 10:40:13.380: %LINEPROTO-5-UPDOWN: Line protocol on Interface Port-channel2, changed state to up
+*Apr 26 10:40:13.752: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan4, changed state to up
+*Apr 26 10:40:38.702: %SYS-5-CONFIG_I: Configured from console by console
+*Apr 26 10:40:41.119: %GRUB-5-CONFIG_WRITING: GRUB configuration is being updated on disk. Please wait...
+*Apr 26 10:40:41.977: %GRUB-5-CONFIG_WRITTEN: GRUB configuration was written to disk successfully.

@@ -1,0 +1,5 @@
+  Name                             Default RD            Protocols   Interfaces
+  blue                             <not set>             ipv4        Et0/3
+  management                       <not set>             ipv4        Et0/0
+  red                              <not set>             ipv4        Vl1
+                                                                     Vl100

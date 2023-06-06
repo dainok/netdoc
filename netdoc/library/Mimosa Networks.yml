@@ -1,0 +1,128 @@
+keywords:
+- A5c
+- a5c
+- B5X
+- b5x
+- A5x
+- a5x
+- C5c
+- C5c
+- A5
+- a5
+- C6x
+- C6x
+- B5c
+- b5c
+- C5x
+- C5x
+models:
+- interfaces:
+  - label: Ethernet
+    name: eth1_emac1
+    type: 1000base-t
+  - label: Wireless
+    name: wifi0
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: Mimosa Networks
+  model: A5c
+  part_number: a5c
+  slug: a5c
+  u_height: 0
+- interfaces:
+  - label: Ethernet
+    name: eth1_emac1
+    type: 1000base-t
+  - label: Wireless
+    name: wifi0
+    type: ieee802.11ax
+  - label: Wireless
+    name: wifi1
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: Mimosa Networks
+  model: B5X
+  part_number: b5x
+  slug: b5x
+  u_height: 0
+- interfaces:
+  - label: Ethernet
+    name: eth1_emac1
+    type: 1000base-t
+  - label: Wireless
+    name: wifi0
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: Mimosa Networks
+  model: A5x
+  part_number: a5x
+  slug: a5x
+  u_height: 0
+- interfaces:
+  - label: Ethernet
+    name: eth1_emac1
+    type: 1000base-t
+  - label: Wireless
+    name: wifi0
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: Mimosa Networks
+  model: C5c
+  part_number: C5c
+  slug: c5c
+  u_height: 0
+- interfaces:
+  - label: Ethernet
+    name: eth1_emac1
+    type: 1000base-t
+  - label: Wireless
+    name: wifi0
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: Mimosa Networks
+  model: A5
+  part_number: a5
+  slug: a5
+  u_height: 0
+- interfaces:
+  - label: Ethernet
+    name: eth1_emac1
+    type: 1000base-t
+  - label: Wireless
+    name: wifi0
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: Mimosa Networks
+  model: C6x
+  part_number: C6x
+  slug: c6x
+  u_height: 0
+- interfaces:
+  - label: Ethernet
+    name: eth1_emac1
+    type: 1000base-t
+  - label: Wireless
+    name: wifi0
+    type: ieee802.11ax
+  - label: Wireless
+    name: wifi1
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: Mimosa Networks
+  model: B5c
+  part_number: b5c
+  slug: b5c
+  u_height: 0
+- interfaces:
+  - label: Ethernet
+    name: eth1_emac1
+    type: 1000base-t
+  - label: Wireless
+    name: wifi0
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: Mimosa Networks
+  model: C5x
+  part_number: C5x
+  slug: c5x
+  u_height: 0

@@ -1,0 +1,13 @@
+Vlan1 - Group 1
+  State is Active
+    2 state changes, last state change 3d01h
+  Virtual IP address is 10.0.1.254
+  Active virtual MAC address is 0000.0c07.ac01 (MAC In Use)
+    Local virtual MAC address is 0000.0c07.ac01 (v1 default)
+  Hello time 3 sec, hold time 10 sec
+    Next hello sent in 2.288 secs
+  Preemption disabled
+  Active router is local
+  Standby router is 10.0.1.2, priority 90 (expires in 9.712 sec)
+  Priority 110 (configured 110)
+  Group name is "hsrp-Vl1-1" (default)

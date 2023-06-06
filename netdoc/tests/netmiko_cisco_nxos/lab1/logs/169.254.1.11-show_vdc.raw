@@ -1,0 +1,5 @@
+
+vdc_id  vdc_name                          state               mac                 type        lc      
+------  --------                          -----               ----------          ---------   ------  
+1       NXOS11                            active              50:16:00:00:1b:08   Ethernet    None    
+

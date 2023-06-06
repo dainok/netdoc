@@ -1,0 +1,1298 @@
+keywords:
+- Tripp Lite SMART1500RMXL2UA
+- '037332120403'
+- Tripp Lite B064-016-02-IPG
+- '037332151513'
+- CBL2OUT32
+- CBL2OUT32
+- 9PX Extended Battery Module 180
+- 9PXEBM180
+- ESWB22
+- ESWB22
+- 9PX Extended Battery Module, 72V
+- 9PXEBM72RT2U
+- 5PX3000RTN
+- EMAT09-10
+- '743172082664'
+- 9PX5KIRTN
+- Tripp Lite B096-032
+- 037332181183
+- SMART1500LCD
+- '037332126146'
+- PW103BA1U405
+- PW103BA1U405
+- Tripp Lite SMART2200CRMXL
+- 037332142368
+- 9PX 3000i RT 2U
+- 9PX3000iRT2U
+- PDUMH20HVAT
+- 037332156488
+- Tripp Lite ULTRABLOK
+- '037332010476'
+- EMA107-10
+- '743172069184'
+- Tripp Lite PDUMH15AT
+- 037332126658
+- Tripp Lite B096-016
+- 037332148902
+- Tripp Lite B097-016
+- 037332218025
+- ESWB05
+- ESWB05
+- 5PX2200IRT
+- 920-7374-00P
+- 9PX6K
+models:
+- comments: 'Battery-backed power supply feeding 8 Nema-5-15R receptables
+
+
+    Dimensions: 3.45" x 17.3" x 13.45" Weight: 21.09 kg/46.5 lbs
+
+    '
+  console-ports:
+  - name: RS232
+    type: de-9
+  - name: USB
+    type: usb-b
+  is_full_depth: true
+  manufacturer: Eaton
+  model: Tripp Lite SMART1500RMXL2UA
+  part_number: '037332120403'
+  power-outlets:
+  - name: '1'
+    type: nema-5-15r
+  - name: '2'
+    type: nema-5-15r
+  - name: '3'
+    type: nema-5-15r
+  - name: '4'
+    type: nema-5-15r
+  - name: '5'
+    type: nema-5-15r
+  - name: '6'
+    type: nema-5-15r
+  - name: '7'
+    type: nema-5-15r
+  - name: '8'
+    type: nema-5-15r
+  power-ports:
+  - maximum_draw: 1350
+    name: Primary
+    type: nema-5-15p
+  slug: eaton-tripp-lite-smart1500rmxl2ua
+  u_height: 2
+  weight: 46.5
+  weight_unit: lb
+- comments: '[Datasheet](https://assets.tripplite.com/product-pdfs/en/b06401602ipg.pdf)'
+  console-ports:
+  - name: '1'
+    type: de-9
+  console-server-ports:
+  - name: '1'
+    type: rj-45
+  - name: '2'
+    type: rj-45
+  - name: '3'
+    type: rj-45
+  - name: '4'
+    type: rj-45
+  - name: '5'
+    type: rj-45
+  - name: '6'
+    type: rj-45
+  - name: '7'
+    type: rj-45
+  - name: '8'
+    type: rj-45
+  - name: '9'
+    type: rj-45
+  - name: '10'
+    type: rj-45
+  - name: '11'
+    type: rj-45
+  - name: '12'
+    type: rj-45
+  - name: '13'
+    type: rj-45
+  - name: '14'
+    type: rj-45
+  - name: '15'
+    type: rj-45
+  - name: '16'
+    type: rj-45
+  - name: '17'
+    type: usb-a
+  - name: '18'
+    type: usb-a
+  interfaces:
+  - label: LAN 1
+    mgmt_only: true
+    name: eth0_wan
+    type: 100base-tx
+  - label: LAN 2
+    mgmt_only: true
+    name: eth1_lan
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Eaton
+  model: Tripp Lite B064-016-02-IPG
+  part_number: '037332151513'
+  power-ports:
+  - allocated_draw: 15
+    maximum_draw: 30
+    name: '1'
+    type: iec-60320-c14
+  - allocated_draw: 15
+    maximum_draw: 30
+    name: '2'
+    type: iec-60320-c14
+  slug: eaton-tripp-lite-b064-016-02-ipg
+  u_height: 1
+  weight: 17
+  weight_unit: lb
+- comments: Eaton Rack PDU Output cable 32A, Hardwired 2 x 32A EN60309, plug 0,75M
+  is_full_depth: false
+  manufacturer: Eaton
+  model: CBL2OUT32
+  part_number: CBL2OUT32
+  power-outlets:
+  - name: Outlet 1
+    power_port: Power Port 1
+    type: iec-60309-p-n-e-6h
+  - name: Outlet 2
+    power_port: Power Port 1
+    type: iec-60309-p-n-e-6h
+  power-ports:
+  - name: Power Port 1
+    type: hardwired
+  slug: eaton-cbl2out32
+  u_height: 0
+- airflow: front-to-rear
+  comments: 9PX 5-6kVA Series [Manual](https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/backup-power-ups/eaton-9px-ups/eaton-9sx-9px-ups-5-6-kva-ebm-180v-installation-and-user-manual.pdf)
+  interfaces:
+  - name: Battery connector, top
+    type: other
+  - label: Batt detection
+    name: Battery detection, left
+    type: other
+  - name: Battery connector, down
+    type: other
+  - label: Batt detection
+    name: Battery detection, right
+    type: other
+  is_full_depth: true
+  manufacturer: Eaton
+  model: 9PX Extended Battery Module 180
+  part_number: 9PXEBM180
+  slug: eaton-9pxebm180
+  u_height: 3
+- comments: Eaton Switched Rack PDU, ZeroU, 3,84 kW, 200-240V, (20) C13 & (4) C19
+  console-ports:
+  - name: Serial or EMP
+    type: rj-45
+  - name: Daisy Chain
+    type: rj-45
+  - name: USB management
+    type: usb-a
+  interfaces:
+  - mgmt_only: true
+    name: Network
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Eaton
+  model: ESWB22
+  part_number: ESWB22
+  power-outlets:
+  - feed_leg: A
+    name: A1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A8
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: A9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A12
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: B
+    name: B1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B8
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: B
+    name: B9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B12
+    power_port: Power Port 1
+    type: iec-60320-c19
+  power-ports:
+  - name: Power Port 1
+    type: iec-60320-c20
+  slug: eaton-eswb22
+  u_height: 0
+- airflow: front-to-rear
+  comments: 9PX 1-3kVA Series [Manual](https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/backup-power-ups/eaton-9px-ups/eaton-9px-1-3kva-ups-manual.pdf)
+  interfaces:
+  - label: 72V DC 40A
+    name: Battery connector, left
+    type: other
+  - label: Batt detection
+    name: Battery detection, left
+    type: other
+  - label: 72V DC 40A
+    name: Battery connector, right
+    type: other
+  - label: Batt detection
+    name: Battery detection, right
+    type: other
+  is_full_depth: true
+  manufacturer: Eaton
+  model: 9PX Extended Battery Module, 72V
+  part_number: 9PXEBM72RT2U
+  slug: eaton-9pxebm72rt2u
+  u_height: 2
+- interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Eaton
+  model: 5PX3000RTN
+  power-outlets:
+  - name: Group1 - Outlet1
+    type: nema-5-20r
+  - name: Group1 - Outlet2
+    type: nema-5-20r
+  - name: Group2 - Outlet1
+    type: nema-5-20r
+  - name: Group2 - Outlet2
+    type: nema-5-20r
+  - name: Primary Group - Outlet1
+    type: nema-5-20r
+  - name: Primary Group - Outlet2
+    type: nema-5-20r
+  - name: L5-30R
+    type: nema-5-30r
+  power-ports:
+  - name: L530R
+    type: nema-5-30p
+  slug: eaton-5px3000rtn
+  u_height: 2
+- airflow: passive
+  console-ports:
+  - name: Serial
+    type: rj-45
+  - name: Daisy Chain
+    type: rj-45
+  - name: USB management
+    type: usb-a
+  interfaces:
+  - mgmt_only: true
+    name: Network
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Eaton
+  model: EMAT09-10
+  part_number: '743172082664'
+  power-outlets:
+  - name: A1
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: A2
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: A3
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: A4
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: A5
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: A6
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: A7
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: A8
+    power_port: Power Port 1
+    type: nema-5-20r
+  power-ports:
+  - name: Power Port 1
+    type: nema-l5-20p
+  slug: eaton-emat09-10
+  u_height: 1
+  weight: 7.1
+  weight_unit: lb
+- comments: 9PX5KIRTN 5kVA 230V Tower/Rack Mountable UPS [Manual](https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/backup-power-ups/eaton-9px-ups/eaton-9sx-9px-ups-5-6-kva-ebm-180v-installation-and-user-manual.pdf)
+  console-ports:
+  - name: Serial
+    type: de-9
+  - name: USB management
+    type: usb-b
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  - name: Battery connector
+    type: other
+  - name: Battery detection
+    type: other
+  is_full_depth: true
+  manufacturer: Eaton
+  model: 9PX5KIRTN
+  power-outlets:
+  - name: Primary Group Hardwired
+    power_port: AC Source
+    type: hardwired
+  - name: Primary Group - Output 1
+    power_port: AC Source
+    type: iec-60320-c19
+  - name: Primary Group - Output 2
+    power_port: AC Source
+    type: iec-60320-c19
+  - name: Group 1 - Output 1
+    power_port: AC Source
+    type: iec-60320-c13
+  - name: Group 1 - Output 2
+    power_port: AC Source
+    type: iec-60320-c13
+  - name: Group 1 - Output 3
+    power_port: AC Source
+    type: iec-60320-c13
+  - name: Group 1 - Output 4
+    power_port: AC Source
+    type: iec-60320-c13
+  - name: Group 2 - Output 1
+    power_port: AC Source
+    type: iec-60320-c13
+  - name: Group 2 - Output 2
+    power_port: AC Source
+    type: iec-60320-c13
+  - name: Group 2 - Output 3
+    power_port: AC Source
+    type: iec-60320-c13
+  - name: Group 2 - Output 4
+    power_port: AC Source
+    type: iec-60320-c13
+  power-ports:
+  - name: AC Source
+    type: hardwired
+  slug: eaton-9px5kirtn
+  u_height: 3
+- console-ports:
+  - name: '1'
+    type: de-9
+  console-server-ports:
+  - name: '1'
+    type: rj-45
+  - name: '2'
+    type: rj-45
+  - name: '3'
+    type: rj-45
+  - name: '4'
+    type: rj-45
+  - name: '5'
+    type: rj-45
+  - name: '6'
+    type: rj-45
+  - name: '7'
+    type: rj-45
+  - name: '8'
+    type: rj-45
+  - name: '9'
+    type: rj-45
+  - name: '10'
+    type: rj-45
+  - name: '11'
+    type: rj-45
+  - name: '12'
+    type: rj-45
+  - name: '13'
+    type: rj-45
+  - name: '14'
+    type: rj-45
+  - name: '15'
+    type: rj-45
+  - name: '16'
+    type: rj-45
+  - name: '17'
+    type: rj-45
+  - name: '18'
+    type: rj-45
+  - name: '19'
+    type: rj-45
+  - name: '20'
+    type: rj-45
+  - name: '21'
+    type: rj-45
+  - name: '22'
+    type: rj-45
+  - name: '23'
+    type: rj-45
+  - name: '24'
+    type: rj-45
+  - name: '25'
+    type: rj-45
+  - name: '26'
+    type: rj-45
+  - name: '27'
+    type: rj-45
+  - name: '28'
+    type: rj-45
+  - name: '29'
+    type: rj-45
+  - name: '30'
+    type: rj-45
+  - name: '31'
+    type: rj-45
+  - name: '32'
+    type: rj-45
+  - name: '33'
+    type: usb-a
+  - name: '34'
+    type: usb-a
+  interfaces:
+  - mgmt_only: true
+    name: eth0_wan
+    type: 100base-tx
+  - mgmt_only: true
+    name: eth1_lan
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Eaton
+  model: Tripp Lite B096-032
+  part_number: 037332181183
+  power-ports:
+  - allocated_draw: 20
+    maximum_draw: 30
+    name: '1'
+    type: iec-60320-c14
+  - allocated_draw: 20
+    maximum_draw: 30
+    name: '2'
+    type: iec-60320-c14
+  slug: eaton-tripp-lite-b096-032
+  u_height: 1
+  weight: 8.7
+  weight_unit: lb
+- comments: 'Battery-backed power supply feeding 8 Nema-5-15R receptables
+
+
+    Dimensions: 438 x 89 x 267 mm (17.25" x 3.5" x 10.5") Weight: 13.6 kg
+
+    '
+  console-ports:
+  - name: RS232
+    type: de-9
+  - name: USB
+    type: usb-b
+  is_full_depth: false
+  manufacturer: Eaton
+  model: SMART1500LCD
+  part_number: '037332126146'
+  power-outlets:
+  - name: '1'
+    type: nema-5-15r
+  - name: '2'
+    type: nema-5-15r
+  - name: '3'
+    type: nema-5-15r
+  - name: '4'
+    type: nema-5-15r
+  - name: '5'
+    type: nema-5-15r
+  - name: '6'
+    type: nema-5-15r
+  - name: '7'
+    type: nema-5-15r
+  - name: '8'
+    type: nema-5-15r
+  power-ports:
+  - maximum_draw: 1000
+    name: Primary
+    type: nema-5-15p
+  slug: eaton-tripp-lite-smart1500lcd
+  u_height: 2
+  weight: 30
+  weight_unit: lb
+- comments: Rack PDU, Basic, 1U, 3.33kW, 208V, (16) C13.  Bank J1 is on front. Banks
+    J2-4 are on back.
+  is_full_depth: false
+  manufacturer: Eaton
+  model: PW103BA1U405
+  part_number: PW103BA1U405
+  power-outlets:
+  - name: J1-1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J1-2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J1-3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J1-4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J2-1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J2-2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J2-3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J2-4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J3-1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J3-2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J3-3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J3-4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J4-1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J4-2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J4-3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: J4-4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  power-ports:
+  - name: Power Port 1
+    type: iec-60320-c20
+  slug: eaton-pw103ba1u405
+  u_height: 1
+- comments: Battery-backed power supply feeding 8 Nema-5-20R receptables
+  console-ports:
+  - name: COM 1
+    type: usb-b
+  - name: COM 2
+    type: de-9
+  is_full_depth: true
+  manufacturer: Eaton
+  model: Tripp Lite SMART2200CRMXL
+  module-bays:
+  - name: Accessory Slot
+  part_number: 037332142368
+  power-outlets:
+  - description: Output Power Breaker 1
+    name: Load 1
+    type: nema-5-20r
+  - description: Output Power Breaker 1
+    name: Load 2
+    type: nema-5-20r
+  - description: Output Power Breaker 2
+    name: Load 3
+    type: nema-5-20r
+  - description: Output Power Breaker 1
+    name: Load 4 Unswitched 1
+    type: nema-5-20r
+  - description: Output Power Breaker 1
+    name: Load 4 Unswitched 2
+    type: nema-5-20r
+  - description: Output Power Breaker 2
+    name: Load 4 Unswitched 3
+    type: nema-5-20r
+  - description: Output Power Breaker 2
+    name: Load 4 Unswitched 4
+    type: nema-5-20r
+  - description: Output Power Breaker 2
+    name: Load 4 Unswitched 5
+    type: nema-5-20r
+  power-ports:
+  - maximum_draw: 1920
+    name: Primary
+    type: nema-5-20p
+  slug: eaton-tripp-lite-smart2200crmxl
+  u_height: 4
+  weight: 100.3
+  weight_unit: lb
+- airflow: front-to-rear
+  comments: 9PX 1-3kVA Series [Manual](https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/backup-power-ups/eaton-9px-ups/eaton-9px-1-3kva-ups-manual.pdf)
+  console-ports:
+  - label: RS232
+    name: Serial
+    type: de-9
+  - label: USB
+    name: USB Console
+    type: usb-b
+  interfaces:
+  - label: 72V DC 40A
+    name: Battery connector
+    type: other
+  - label: Batt detection
+    name: Battery detection
+    type: other
+  is_full_depth: true
+  manufacturer: Eaton
+  model: 9PX 3000i RT 2U
+  module-bays:
+  - name: Communication card slot
+  - name: Environmental Sensor 1
+  - name: Environmental Sensor 2
+  - name: Environmental Sensor 3
+  part_number: 9PX3000iRT2U
+  power-outlets:
+  - label: Output
+    name: Group 1 - Output 1
+    power_port: Mains Utility
+    type: iec-60320-c19
+  - label: Output 10A
+    name: Group 1 - Output 2
+    power_port: Mains Utility
+    type: iec-60320-c13
+  - label: Output 10A
+    name: Group 1 - Output 3
+    power_port: Mains Utility
+    type: iec-60320-c13
+  - label: Output 10A
+    name: Group 2 - Output 1
+    power_port: Mains Utility
+    type: iec-60320-c13
+  - label: Output 10A
+    name: Group 2 - Output 2
+    power_port: Mains Utility
+    type: iec-60320-c13
+  - label: Output
+    name: Primary Group - Output 1
+    power_port: Mains Utility
+    type: iec-60320-c19
+  - label: Output 10A
+    name: Primary Group - Output 2
+    power_port: Mains Utility
+    type: iec-60320-c13
+  - label: Output 10A
+    name: Primary Group - Output 3
+    power_port: Mains Utility
+    type: iec-60320-c13
+  - label: Output 10A
+    name: Primary Group - Output 4
+    power_port: Mains Utility
+    type: iec-60320-c13
+  - label: Output 10A
+    name: Primary Group - Output 5
+    power_port: Mains Utility
+    type: iec-60320-c13
+  power-ports:
+  - label: Input 16A
+    maximum_draw: 3000
+    name: Mains Utility
+    type: iec-60320-c20
+  slug: eaton-9px3000irt2u
+  u_height: 2
+- console-ports:
+  - name: RS232
+    type: de-9
+  is_full_depth: false
+  manufacturer: Eaton
+  model: PDUMH20HVAT
+  part_number: 037332156488
+  power-outlets:
+  - name: '1'
+    type: iec-60320-c13
+  - name: '2'
+    type: iec-60320-c13
+  - name: '3'
+    type: iec-60320-c13
+  - name: '4'
+    type: iec-60320-c13
+  - name: '5'
+    type: iec-60320-c13
+  - name: '6'
+    type: iec-60320-c13
+  - name: '7'
+    type: iec-60320-c13
+  - name: '8'
+    type: iec-60320-c13
+  - name: '9'
+    type: iec-60320-c19
+  - name: '10'
+    type: iec-60320-c19
+  power-ports:
+  - maximum_draw: 3840
+    name: Primary
+    type: iec-60320-c20
+  - maximum_draw: 3840
+    name: Secondary
+    type: iec-60320-c20
+  slug: eaton-tripp-lite-pdumh20hvat
+  u_height: 1
+  weight: 10.3
+  weight_unit: lb
+- is_full_depth: false
+  manufacturer: Eaton
+  model: Tripp Lite ULTRABLOK
+  part_number: '037332010476'
+  power-outlets:
+  - name: Top
+    type: nema-5-15r
+  - name: Bottom
+    type: nema-5-15r
+  power-ports:
+  - maximum_draw: 1800
+    name: Plug
+    type: nema-5-15p
+  slug: eaton-tripp-lite-ultrablok
+  u_height: 0
+  weight: 0.8
+  weight_unit: lb
+- airflow: passive
+  comments: Rack PDU, Metered, ZeroU, 5.76kW, 208V, (20) C13 & (4) C19
+  console-ports:
+  - name: Serial
+    type: rj-45
+  - name: Daisy Chain
+    type: rj-45
+  - name: USB management
+    type: usb-a
+  interfaces:
+  - mgmt_only: true
+    name: Network
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Eaton
+  model: EMA107-10
+  part_number: '743172069184'
+  power-outlets:
+  - feed_leg: A
+    name: A1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A8
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: A9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A12
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: B
+    name: B1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B8
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: B
+    name: B9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B12
+    power_port: Power Port 1
+    type: iec-60320-c19
+  power-ports:
+  - name: Power Port 1
+    type: nema-l6-30p
+  slug: eaton-ema107-10
+  u_height: 0
+  weight: 17.3
+  weight_unit: lb
+- console-ports:
+  - name: RS232
+    type: de-9
+  is_full_depth: false
+  manufacturer: Eaton
+  model: Tripp Lite PDUMH15AT
+  part_number: 037332126658
+  power-outlets:
+  - name: '1'
+    type: nema-5-15r
+  - name: '2'
+    type: nema-5-15r
+  - name: '3'
+    type: nema-5-15r
+  - name: '4'
+    type: nema-5-15r
+  - name: '5'
+    type: nema-5-15r
+  - name: '6'
+    type: nema-5-15r
+  - name: '7'
+    type: nema-5-15r
+  - name: '8'
+    type: nema-5-15r
+  power-ports:
+  - maximum_draw: 1400
+    name: Primary
+    type: nema-5-15p
+  - maximum_draw: 1400
+    name: Secondary
+    type: iec-60320-c14
+  slug: eaton-tripp-lite-pdumh15at
+  u_height: 1
+  weight: 11
+  weight_unit: lb
+- comments: '[Datasheet](https://assets.tripplite.com/product-pdfs/en/b096016.pdf)'
+  console-ports:
+  - name: '1'
+    type: de-9
+  console-server-ports:
+  - name: '1'
+    type: rj-45
+  - name: '2'
+    type: rj-45
+  - name: '3'
+    type: rj-45
+  - name: '4'
+    type: rj-45
+  - name: '5'
+    type: rj-45
+  - name: '6'
+    type: rj-45
+  - name: '7'
+    type: rj-45
+  - name: '8'
+    type: rj-45
+  - name: '9'
+    type: rj-45
+  - name: '10'
+    type: rj-45
+  - name: '11'
+    type: rj-45
+  - name: '12'
+    type: rj-45
+  - name: '13'
+    type: rj-45
+  - name: '14'
+    type: rj-45
+  - name: '15'
+    type: rj-45
+  - name: '16'
+    type: rj-45
+  - name: '17'
+    type: usb-a
+  - name: '18'
+    type: usb-a
+  interfaces:
+  - mgmt_only: true
+    name: eth0_wan
+    type: 100base-tx
+  - mgmt_only: true
+    name: eth1_lan
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Eaton
+  model: Tripp Lite B096-016
+  part_number: 037332148902
+  power-ports:
+  - allocated_draw: 15
+    maximum_draw: 30
+    name: '1'
+    type: iec-60320-c14
+  - allocated_draw: 15
+    maximum_draw: 30
+    name: '2'
+    type: iec-60320-c14
+  slug: eaton-tripp-lite-b096-016
+  u_height: 1
+  weight: 11
+  weight_unit: lb
+- console-ports:
+  - name: '1'
+    type: rj-45
+  console-server-ports:
+  - name: '1'
+    type: rj-45
+  - name: '2'
+    type: rj-45
+  - name: '3'
+    type: rj-45
+  - name: '4'
+    type: rj-45
+  - name: '5'
+    type: rj-45
+  - name: '6'
+    type: rj-45
+  - name: '7'
+    type: rj-45
+  - name: '8'
+    type: rj-45
+  - name: '9'
+    type: rj-45
+  - name: '10'
+    type: rj-45
+  - name: '11'
+    type: rj-45
+  - name: '12'
+    type: rj-45
+  - name: '13'
+    type: rj-45
+  - name: '14'
+    type: rj-45
+  - name: '15'
+    type: rj-45
+  - name: '16'
+    type: rj-45
+  - name: '17'
+    type: usb-a
+  - name: '18'
+    type: usb-a
+  interfaces:
+  - mgmt_only: true
+    name: eth0_wan
+    type: 1000base-t
+  - mgmt_only: true
+    name: eth1_lan
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Eaton
+  model: Tripp Lite B097-016
+  part_number: 037332218025
+  power-ports:
+  - allocated_draw: 25
+    maximum_draw: 30
+    name: '1'
+    type: iec-60320-c14
+  - allocated_draw: 25
+    maximum_draw: 30
+    name: '2'
+    type: iec-60320-c14
+  slug: eaton-tripp-lite-b097-016
+  u_height: 1
+  weight: 7.6
+  weight_unit: lb
+- comments: Eaton Switched Rack PDU, ZeroU, 7.4 kW, 200-240V, (20) C13 & (4) C19
+  console-ports:
+  - name: Serial or EMP
+    type: rj-45
+  - name: Daisy Chain
+    type: rj-45
+  - name: USB management
+    type: usb-a
+  interfaces:
+  - mgmt_only: true
+    name: Network
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Eaton
+  model: ESWB05
+  part_number: ESWB05
+  power-outlets:
+  - feed_leg: A
+    name: A1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A8
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: A9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: A12
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: B
+    name: B1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B8
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: B
+    name: B9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: B12
+    power_port: Power Port 1
+    type: iec-60320-c19
+  power-ports:
+  - name: Power Port 1
+    type: iec-60309-p-n-e-6h
+  slug: eaton-eswb05
+  u_height: 0
+- comments: Eaton 5PX UPS, 2200 VA, 1980 W, Input C20, Outputs 8 C13, 1 C19, Rack/tower
+    2U [Product Page](https://www.eaton.com/us/en-us/skuPage.5PX2200IRT.html)
+  console-ports:
+  - name: USB
+    type: usb-b
+  - name: RS232
+    type: rj-45
+  is_full_depth: true
+  manufacturer: Eaton
+  model: 5PX2200IRT
+  part_number: 920-7374-00P
+  power-outlets:
+  - name: Power Outlet 1
+    type: iec-60320-c13
+  - name: Power Outlet 2
+    type: iec-60320-c13
+  - name: Power Outlet 3
+    type: iec-60320-c13
+  - name: Power Outlet 4
+    type: iec-60320-c13
+  - name: Power Outlet 5
+    type: iec-60320-c13
+  - name: Power Outlet 6
+    type: iec-60320-c13
+  - name: Power Outlet 7
+    type: iec-60320-c13
+  - name: Power Outlet 8
+    type: iec-60320-c13
+  - name: Power Outlet C19
+    type: iec-60320-c19
+  power-ports:
+  - maximum_draw: 1980
+    name: Input Power
+    type: iec-60320-c20
+  slug: 5px2200irt
+  u_height: 2
+  weight: 28.5
+  weight_unit: kg
+- comments: 9PX6K 6kVA 208V Tower/Rack Mountable UPS
+  console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB management
+    type: usb-b
+  - name: Mgmt Card Debug - "AUX"
+    type: usb-a
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Eaton
+  model: 9PX6K
+  power-outlets:
+  - name: Outlet 1
+    type: nema-6-20r
+  - name: Outlet 2
+    type: nema-6-20r
+  - name: Outlet 3
+    type: nema-6-30r
+  - name: Outlet 4
+    type: nema-6-30r
+  power-ports:
+  - name: L630R
+    type: nema-6-30p
+  slug: eaton-9px6k
+  u_height: 3

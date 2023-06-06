@@ -1,0 +1,14 @@
+
+Flags: * - Adjacencies learnt on non-active FHRP router
+       + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+       CP - Added via L2RIB, Control plane Adjacencies
+       PS - Added via L2RIB, Peer Sync
+       RO - Re-Originated Peer Sync Entry
+       D - Static Adjacencies attached to down interface
+
+IP ARP Table for context default
+Total number of entries: 3
+Address         Age       MAC Address     Interface       Flags
+192.168.1.1     00:05:16  5001.0018.8004  Vlan4           *        
+192.168.1.254   00:05:14  0000.0c07.ac04  Vlan4                    

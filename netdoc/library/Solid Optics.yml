@@ -1,0 +1,211 @@
+keywords:
+- SO-DWDM-MUX-8CH+UPG
+- SO-DWDM-MUX-CH20-35+UPG+MON
+- SO-MOD4-3xMPO/MMF-24xLC
+- SO-CHASSIS-MOD4
+models:
+- front-ports:
+  - name: C20
+    rear_port: COM
+    rear_port_position: 1
+    type: lc
+  - name: C21
+    rear_port: COM
+    rear_port_position: 2
+    type: lc
+  - name: C22
+    rear_port: COM
+    rear_port_position: 3
+    type: lc
+  - name: C23
+    rear_port: COM
+    rear_port_position: 4
+    type: lc
+  - name: C24
+    rear_port: COM
+    rear_port_position: 5
+    type: lc
+  - name: C25
+    rear_port: COM
+    rear_port_position: 6
+    type: lc
+  - name: C26
+    rear_port: COM
+    rear_port_position: 7
+    type: lc
+  - name: C27
+    rear_port: COM
+    rear_port_position: 8
+    type: lc
+  - name: UPG
+    rear_port: COM
+    rear_port_position: 9
+    type: lc
+  is_full_depth: false
+  manufacturer: Solid Optics
+  model: SO-DWDM-MUX-8CH+UPG
+  rear-ports:
+  - name: COM
+    positions: 9
+    type: lc
+  slug: so-dwdm-mux-8chupg
+  u_height: 1
+- front-ports:
+  - name: C20
+    rear_port: COM
+    rear_port_position: 2
+    type: lc
+  - name: C21
+    rear_port: COM
+    rear_port_position: 3
+    type: lc
+  - name: C22
+    rear_port: COM
+    rear_port_position: 4
+    type: lc
+  - name: C23
+    rear_port: COM
+    rear_port_position: 5
+    type: lc
+  - name: C24
+    rear_port: COM
+    rear_port_position: 6
+    type: lc
+  - name: C25
+    rear_port: COM
+    rear_port_position: 7
+    type: lc
+  - name: C26
+    rear_port: COM
+    rear_port_position: 8
+    type: lc
+  - name: C27
+    rear_port: COM
+    rear_port_position: 9
+    type: lc
+  - name: C28
+    rear_port: COM
+    rear_port_position: 10
+    type: lc
+  - name: C29
+    rear_port: COM
+    rear_port_position: 11
+    type: lc
+  - name: C30
+    rear_port: COM
+    rear_port_position: 12
+    type: lc
+  - name: C31
+    rear_port: COM
+    rear_port_position: 13
+    type: lc
+  - name: C32
+    rear_port: COM
+    rear_port_position: 14
+    type: lc
+  - name: C33
+    rear_port: COM
+    rear_port_position: 15
+    type: lc
+  - name: C34
+    rear_port: COM
+    rear_port_position: 16
+    type: lc
+  - name: C35
+    rear_port: COM
+    rear_port_position: 17
+    type: lc
+  - name: MON
+    rear_port: COM
+    rear_port_position: 1
+    type: lc
+  - name: UPG
+    rear_port: COM
+    rear_port_position: 18
+    type: lc
+  is_full_depth: false
+  manufacturer: Solid Optics
+  model: SO-DWDM-MUX-CH20-35+UPG+MON
+  rear-ports:
+  - name: COM
+    positions: 18
+    type: lc
+  slug: so-dwdm-mux-ch20-35upgmon
+  u_height: 1
+- front-ports:
+  - name: A1
+    rear_port: A
+    rear_port_position: 1
+    type: lc
+  - name: A2
+    rear_port: A
+    rear_port_position: 2
+    type: lc
+  - name: A3
+    rear_port: A
+    rear_port_position: 3
+    type: lc
+  - name: A4
+    rear_port: A
+    rear_port_position: 4
+    type: lc
+  - name: B1
+    rear_port: B
+    rear_port_position: 1
+    type: lc
+  - name: B2
+    rear_port: B
+    rear_port_position: 2
+    type: lc
+  - name: B3
+    rear_port: B
+    rear_port_position: 3
+    type: lc
+  - name: B4
+    rear_port: B
+    rear_port_position: 4
+    type: lc
+  - name: C1
+    rear_port: C
+    rear_port_position: 1
+    type: lc
+  - name: C2
+    rear_port: C
+    rear_port_position: 2
+    type: lc
+  - name: C3
+    rear_port: C
+    rear_port_position: 3
+    type: lc
+  - name: C4
+    rear_port: C
+    rear_port_position: 4
+    type: lc
+  is_full_depth: false
+  manufacturer: Solid Optics
+  model: SO-MOD4-3xMPO/MMF-24xLC
+  rear-ports:
+  - name: A
+    positions: 4
+    type: mpo
+  - name: B
+    positions: 4
+    type: mpo
+  - name: C
+    positions: 4
+    type: mpo
+  slug: so-mod4-3xmpommf-24xlc
+  subdevice_role: child
+  u_height: 0
+- comments: 4 Slot LGX Chassis 1RU, 19" Suitable for MOD4 Mux
+  device-bays:
+  - name: Lower Left
+  - name: Lower Right
+  - name: Upper left
+  - name: Upper Right
+  is_full_depth: false
+  manufacturer: Solid Optics
+  model: SO-CHASSIS-MOD4
+  slug: so-chassis-mod4
+  subdevice_role: parent
+  u_height: 1

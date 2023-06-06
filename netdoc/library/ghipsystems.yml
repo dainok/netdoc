@@ -1,0 +1,32 @@
+keywords:
+- GS5104-1471-EC
+- GS5104-1471-EC
+models:
+- comments: '[4 Channels 1471-1531nm, LC/UPC, Dual Fiber, CWDM](https://ghipsystems.com/cms/en/wdm-catalogue/express-cwdm/)'
+  front-ports:
+  - name: '1471'
+    rear_port: Network
+    rear_port_position: 1
+    type: lc
+  - name: '1491'
+    rear_port: Network
+    rear_port_position: 2
+    type: lc
+  - name: '1511'
+    rear_port: Network
+    rear_port_position: 3
+    type: lc
+  - name: '1531'
+    rear_port: Network
+    rear_port_position: 4
+    type: lc
+  is_full_depth: false
+  manufacturer: ghipsystems
+  model: GS5104-1471-EC
+  part_number: GS5104-1471-EC
+  rear-ports:
+  - name: Network
+    positions: 4
+    type: lc
+  slug: gs5104-1471-ec
+  u_height: 1

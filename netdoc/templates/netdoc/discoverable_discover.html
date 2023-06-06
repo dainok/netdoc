@@ -1,0 +1,18 @@
+{% extends "base/layout.html" %}
+{% load helpers %}
+{% load form_helpers %}
+{% comment %}
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2022, Andrea Dainese"
+__license__ = "GPLv3"
+{% endcomment %}
+{% block title %}Discover {{ object|meta:"verbose_name" }}?{% endblock title %}
+{% block header %}{% endblock header %}
+{% block content %}
+    <div class="modal" tabindex="-1" style="display: block; position: static">
+        <div class="modal-dialog">
+            <div class="modal-content">{% include "netdoc/htmx/discover_form.html" %}</div>
+        </div>
+    </div>
+{% endblock content %}

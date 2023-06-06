@@ -1,0 +1,26 @@
+---
+- device: NXOS11
+  interface: po2
+  vlan: 4
+  mac_address: 50:01:00:18:80:04
+  vendor: null
+- device: NXOS12
+  interface: po2
+  vlan: 4
+  mac_address: 50:01:00:18:80:04
+  vendor: null
+- device: SW1
+  interface: gi0/1
+  vlan: 4
+  mac_address: 00:00:0C:07:AC:04
+  vendor: Cisco Systems, Inc
+- device: SW1
+  interface: gi0/1
+  vlan: 4
+  mac_address: 50:16:00:00:1B:08
+  vendor: null
+- device: SW1
+  interface: gi0/2
+  vlan: 4
+  mac_address: 50:17:00:00:1B:08
+  vendor: null

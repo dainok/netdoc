@@ -1,0 +1,38 @@
+{% extends "generic/object.html" %}
+{% load static %}
+{% load netdoc_buttons %}
+{% comment %}
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2022, Andrea Dainese"
+__license__ = "GPLv3"
+{% endcomment %}
+{% block head %}
+    <link rel="stylesheet" href="{% static "netdoc/css/vis-network.min.css" %}" />
+{% endblock head %}
+{% block title %}Diagram {{ object.name }}{% endblock title %}
+{% block extra_controls %}
+    <a id="btnToggleDiagramMode" class="btn btn-sm btn-secondary" href="#"></a>
+    <a id="btnSaveDiagram" class="btn btn-sm btn-primary" href="#">
+        <i class="mdi mdi-upload"></i>
+        Save
+    </a>
+    {% export_button object %}
+{% endblock extra_controls %}
+{% block tabs %}
+{% endblock tabs %}
+{% block content-wrapper %}
+    <div class="content h-100 p-0">
+        <!-- djlint:off -->
+        <div id="visgraph" class="" style="height: 70vh;"></div>
+        <!-- djlint:on -->
+    </div>
+{% endblock content-wrapper %}
+{% block javascript %}
+    {{ topology_details|json_script:"topology_details_json" }}
+    {{ topology_data|json_script:"topology_data_json" }}
+    <script type="text/javascript"
+            src="{% static "netdoc/js/vis-network.min.js" %}"></script>
+    <script type="text/javascript" src="{% static "netdoc/js/netdoc.js" %}"></script>
+    <script type="text/javascript" src="{% static "netdoc/js/diagram.js" %}"></script>
+{% endblock javascript %}

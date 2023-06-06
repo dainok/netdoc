@@ -1,0 +1,237 @@
+keywords:
+- System x3250 M6
+- '3633'
+- ThinkSystem SR530
+- 7X07
+- ThinkSystem SR550
+- 7X04
+- System x3750 M4
+- 8722C1U
+- SR630
+- 7X02
+- Flex system
+- 8721W3X
+- ThinkSystem 10Gb 2-port SFP+ LOM
+- 7ZT7A00546
+- ThinkSystem 10Gb 4-port SFP+ LOM
+- 7ZT7A00547
+- ThinkSystem SR650
+- 7X06
+- System x3550 M5
+- 5463AC1
+models:
+- comments: '[Lenovo System x3250 M6 product guide](https://lenovopress.lenovo.com/lp0096.pdf)'
+  interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Lenovo
+  model: System x3250 M6
+  part_number: '3633'
+  power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
+  slug: system_x3250_m6
+  u_height: 1
+- comments: '[Lenovo ThinkSystem SR530 product guide](https://lenovopress.lenovo.com/lp1045.pdf)'
+  interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - mgmt_only: true
+    name: XCC
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Lenovo
+  model: ThinkSystem SR530
+  part_number: 7X07
+  power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+  - name: PSU1
+    type: iec-60320-c14
+  slug: sr530
+  subdevice_role: parent
+  u_height: 1
+- comments: '[Lenovo ThinkSystem SR550 product guide](https://lenovopress.lenovo.com/lp1046.pdf)'
+  interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - mgmt_only: true
+    name: XCC
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Lenovo
+  model: ThinkSystem SR550
+  part_number: 7X04
+  power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+  - name: PSU1
+    type: iec-60320-c14
+  slug: sr550
+  subdevice_role: parent
+  u_height: 2
+- comments: '[Lenovo System x3750 M4 product guide](https://lenovopress.com/tips0881.pdf)'
+  console-ports:
+  - name: Rear VGA
+    type: other
+  interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - mgmt_only: true
+    name: IMM
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Lenovo
+  model: System x3750 M4
+  part_number: 8722C1U
+  power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
+  slug: system_x3750_m4
+  u_height: 2
+- interfaces:
+  - mgmt_only: true
+    name: XCC
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Lenovo
+  model: SR630
+  part_number: 7X02
+  power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+  - name: PSU1
+    type: iec-60320-c14
+  slug: sr630
+  subdevice_role: parent
+- device-bays:
+  - name: Bay 1
+  - name: Bay 2
+  - name: Bay 3
+  - name: Bay 4
+  - name: Bay 5
+  - name: Bay 6
+  - name: Bay 7
+  - name: Bay 8
+  - name: Bay 9
+  - name: Bay 10
+  - name: Bay 11
+  - name: Bay 12
+  - name: Bay 13
+  - name: Bay 14
+  interfaces:
+  - mgmt_only: true
+    name: CMM
+    type: 1000base-t
+  manufacturer: Lenovo
+  model: Flex system
+  part_number: 8721W3X
+  power-ports:
+  - name: PSU0
+    type: iec-60320-c20
+  - name: PSU1
+    type: iec-60320-c20
+  - name: PSU2
+    type: iec-60320-c20
+  - name: PSU3
+    type: iec-60320-c20
+  - name: PSU4
+    type: iec-60320-c20
+  - name: PSU5
+    type: iec-60320-c20
+  slug: flex-system
+  subdevice_role: parent
+  u_height: 10
+- interfaces:
+  - label: '1'
+    name: '1'
+    type: 10gbase-x-sfpp
+  - label: '2'
+    name: '2'
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Lenovo
+  model: ThinkSystem 10Gb 2-port SFP+ LOM
+  part_number: 7ZT7A00546
+  slug: thinksystem-10gb-2sfpp
+  subdevice_role: child
+  u_height: 0
+- interfaces:
+  - label: '1'
+    name: '1'
+    type: 10gbase-x-sfpp
+  - label: '2'
+    name: '2'
+    type: 10gbase-x-sfpp
+  - label: '3'
+    name: '3'
+    type: 10gbase-x-sfpp
+  - label: '4'
+    name: '4'
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Lenovo
+  model: ThinkSystem 10Gb 4-port SFP+ LOM
+  part_number: 7ZT7A00547
+  slug: thinksystem-10gb-4sfpp
+  subdevice_role: child
+  u_height: 0
+- comments: '[Lenovo System SR650 product guide](https://lenovopress.lenovo.com/lp1050.pdf)'
+  interfaces:
+  - mgmt_only: true
+    name: XCC
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Lenovo
+  model: ThinkSystem SR650
+  part_number: 7X06
+  power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+  - name: PSU1
+    type: iec-60320-c14
+  slug: sr650
+  subdevice_role: parent
+  u_height: 2
+- comments: '[Lenovo System x3550 M5 product guide](https://lenovopress.com/tips1194.pdf)'
+  console-ports:
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+  interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Ethernet 3
+    type: 1000base-t
+  - name: Ethernet 4
+    type: 1000base-t
+  - mgmt_only: true
+    name: IMM
+    type: 100base-tx
+  is_full_depth: true
+  manufacturer: Lenovo
+  model: System x3550 M5
+  part_number: 5463AC1
+  power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
+  slug: system_x3550_m5
+  u_height: 1

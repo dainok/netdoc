@@ -1,0 +1,13 @@
+Vlan4 - Group 4 (HSRP-V1) (IPv4)
+  Local state is Active, priority 110 (Cfged 110), may preempt
+    Forwarding threshold(for vPC), lower: 0 upper: 110 
+  Hellotime 3 sec, holdtime 10 sec
+  Next hello sent in 1.103000 sec(s)
+  Virtual IP address is 192.168.1.254 (Cfged)
+  Active router is local
+  Standby router is 192.168.1.12 , priority 90 expires in 7.764000 sec(s)
+  Authentication text "cisco"
+  Virtual mac address is 0000.0c07.ac04 (Default MAC)
+  2 state changes, last state change 00:08:21
+  IP redundancy name is hsrp-Vlan4-4 (default)
+

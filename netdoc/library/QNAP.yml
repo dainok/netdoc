@@ -1,0 +1,489 @@
+keywords:
+- TS-EC1280U
+- TS-EC1280U
+- TS-459pro+
+- TS-459pro+
+- TS-212
+- TS-212
+- TS-453D
+- TS-453d
+- TS-1263U-RP
+- TS-1263U-RP-4G
+- TS-469U-RP
+- TS-469U-RP
+- TS-879U-RP
+- TS-879U-RP
+- TS-1283XU-RP
+- TS-1283XU-RP
+- TS-1683XU-RP
+- TS-1683XU-RP
+- TS-453B
+- TS-453B
+- TS-453mini
+- TS-453mini
+- TS-412
+- TS-412
+- TS-h1886XU-RP
+- TS-h1886XU-RP
+- TS-431XeU
+- TS-431XeU
+- TS-453U-RP
+- TS-453U-RP
+- TS-469L
+- TS-469L
+- TS-873
+- TS-873
+models:
+- airflow: front-to-rear
+  comments: '[TS-EC1280U product page](https://www.qnap.com/en/product/ts-ec1280u)'
+  interfaces:
+  - name: Adapter 1
+    type: 1000base-t
+  - name: Adapter 2
+    type: 1000base-t
+  - name: Adapter 3
+    type: 1000base-t
+  - name: Adapter 4
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: QNAP
+  model: TS-EC1280U
+  module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  part_number: TS-EC1280U
+  slug: qnap-ts-ec1280u
+  u_height: 2
+  weight: 14.18
+  weight_unit: kg
+- comments: '[TS-459pro+ Series Datasheet](https://www.qnap.com/en/product/ts-459%20pro+/specs/hardware)'
+  console-ports:
+  - name: VGA
+    type: other
+  interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: QNAP
+  model: TS-459pro+
+  part_number: TS-459pro+
+  power-ports:
+  - maximum_draw: 35
+    name: PSU 1
+    type: iec-60320-c14
+  slug: ts-459proplus
+  u_height: 0
+- comments: '[TS-212 | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-212/specs/hardware)'
+  device-bays:
+  - name: Disk 1
+  - name: Disk 2
+  interfaces:
+  - label: LAN
+    name: eth0
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: QNAP
+  model: TS-212
+  part_number: TS-212
+  power-ports:
+  - allocated_draw: 13
+    label: DC 12V
+    maximum_draw: 60
+    name: Power
+    type: dc-terminal
+  slug: ts-212
+  subdevice_role: parent
+- airflow: side-to-rear
+  comments: '[TS-453B | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-453d/specs/hardware)'
+  interfaces:
+  - label: '1'
+    name: eth0
+    type: 2.5gbase-t
+  - label: '2'
+    name: eth1
+    type: 2.5gbase-t
+  is_full_depth: false
+  manufacturer: QNAP
+  model: TS-453D
+  part_number: TS-453d
+  power-ports:
+  - allocated_draw: 26
+    maximum_draw: 90
+    name: Power
+    type: dc-terminal
+  slug: qnap-ts-453d
+  u_height: 0
+  weight: 3.6
+  weight_unit: kg
+- airflow: front-to-rear
+  interfaces:
+  - label: LAN1
+    name: eth0
+    type: 1000base-t
+  - label: LAN2
+    name: eth1
+    type: 1000base-t
+  - label: LAN3
+    name: eth2
+    type: 1000base-t
+  - label: LAN4
+    name: eth3
+    type: 1000base-t
+  - label: SFP+
+    name: eth4
+    type: 10gbase-x-sfpp
+  is_full_depth: true
+  manufacturer: QNAP
+  model: TS-1263U-RP
+  part_number: TS-1263U-RP-4G
+  power-ports:
+  - allocated_draw: 80
+    maximum_draw: 250
+    name: PSU 1
+    type: iec-60320-c14
+  - allocated_draw: 80
+    maximum_draw: 250
+    name: PSU 2
+    type: iec-60320-c14
+  slug: ts-1263u-rp
+  u_height: 2
+- airflow: front-to-rear
+  comments: '[TS-469U-RP | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-469u-rp/specs/hardware)'
+  device-bays:
+  - name: Disk 1
+  - name: Disk 2
+  - name: Disk 3
+  - name: Disk 4
+  interfaces:
+  - label: '1'
+    name: eth0
+    type: 1000base-t
+  - label: '2'
+    name: eth1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: QNAP
+  model: TS-469U-RP
+  part_number: TS-469U-RP
+  power-ports:
+  - allocated_draw: 52
+    maximum_draw: 250
+    name: PSU1
+    type: iec-60320-c14
+  - allocated_draw: 52
+    maximum_draw: 250
+    name: PSU2
+    type: iec-60320-c14
+  slug: ts-469u-rp
+  subdevice_role: parent
+  u_height: 1
+- airflow: front-to-rear
+  comments: '[TS-879U-RP product page](https://www.qnap.com/en/product/ts-879u-rp)'
+  interfaces:
+  - name: Adapter 1
+    type: 1000base-t
+  - name: Adapter 2
+    type: 1000base-t
+  - name: Adapter 3
+    type: 1000base-t
+  - name: Adapter 4
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: QNAP
+  model: TS-879U-RP
+  module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  part_number: TS-879U-RP
+  slug: qnap-ts-879u-rp
+  u_height: 2
+  weight: 12.52
+  weight_unit: kg
+- comments: '[TS-1283XU-RP | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-1283xu-rp/specs/hardware)'
+  interfaces:
+  - name: Adapter 1
+    type: 1000base-t
+  - name: Adapter 2
+    type: 1000base-t
+  - name: Adapter 3
+    type: 1000base-t
+  - name: Adapter 4
+    type: 1000base-t
+  - name: Adapter 5
+    type: 10gbase-x-sfpp
+  - name: Adapter 6
+    type: 10gbase-x-sfpp
+  is_full_depth: true
+  manufacturer: QNAP
+  model: TS-1283XU-RP
+  part_number: TS-1283XU-RP
+  power-ports:
+  - allocated_draw: 105
+    maximum_draw: 300
+    name: PSU 1
+    type: iec-60320-c14
+  - allocated_draw: 105
+    maximum_draw: 300
+    name: PSU 2
+    type: iec-60320-c14
+  slug: ts-1283xu-rp
+  u_height: 2
+- comments: '[TS-1683XU-RP | Hardware Specs | QNAP](https://qnap.ru/ts-1683xu-rp)'
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 10gbase-x-sfpp
+  - name: eth5
+    type: 10gbase-x-sfpp
+  is_full_depth: true
+  manufacturer: QNAP
+  model: TS-1683XU-RP
+  part_number: TS-1683XU-RP
+  power-ports:
+  - allocated_draw: 150
+    maximum_draw: 500
+    name: PSU 1
+    type: iec-60320-c14
+  - allocated_draw: 150
+    maximum_draw: 500
+    name: PSU 2
+    type: iec-60320-c14
+  slug: ts-1683xu-rp
+  u_height: 3
+- airflow: side-to-rear
+  comments: '[TS-453B | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-453b/specs/hardware)'
+  interfaces:
+  - label: '1'
+    name: eth0
+    type: 1000base-t
+  - label: '2'
+    name: eth1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: QNAP
+  model: TS-453B
+  part_number: TS-453B
+  power-ports:
+  - allocated_draw: 30
+    maximum_draw: 90
+    name: Power
+    type: dc-terminal
+  slug: qnap-ts-453b
+  u_height: 0
+- airflow: side-to-rear
+  comments: '[TS-453mini | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-453mini/specs/hardware)'
+  device-bays:
+  - name: Disk 1
+  - name: Disk 2
+  - name: Disk 3
+  - name: Disk 4
+  interfaces:
+  - label: '1'
+    name: eth0
+    type: 1000base-t
+  - label: '2'
+    name: eth1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: QNAP
+  model: TS-453mini
+  part_number: TS-453mini
+  power-ports:
+  - allocated_draw: 30
+    maximum_draw: 90
+    name: Power
+    type: dc-terminal
+  slug: ts-453mini
+  subdevice_role: parent
+- comments: '[TS-412 | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-412/specs/hardware)'
+  device-bays:
+  - name: Disk 1
+  - name: Disk 2
+  - name: Disk 3
+  - name: Disk 4
+  interfaces:
+  - label: '1'
+    name: eth0
+    type: 1000base-t
+  - label: '2'
+    name: eth1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: QNAP
+  model: TS-412
+  part_number: TS-412
+  power-ports:
+  - allocated_draw: 26
+    label: DC 12V
+    maximum_draw: 90
+    name: Power
+    type: dc-terminal
+  slug: ts-412
+  subdevice_role: parent
+- comments: '[TS-h1886XU-RP | Hardware Specs | QNAP](https://qnap.ru/ts-h1886xu-rp)'
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 10gbase-x-sfpp
+  - name: eth5
+    type: 10gbase-x-sfpp
+  is_full_depth: true
+  manufacturer: QNAP
+  model: TS-h1886XU-RP
+  part_number: TS-h1886XU-RP
+  power-ports:
+  - allocated_draw: 118
+    maximum_draw: 550
+    name: PSU 1
+    type: iec-60320-c14
+  - allocated_draw: 118
+    maximum_draw: 550
+    name: PSU 2
+    type: iec-60320-c14
+  slug: ts-h1886xu-rp
+  u_height: 2
+- comments: '[TS-431XeU Series Datasheet](https://www.qnap.com/en/product/ts-431xeu/specs/hardware)'
+  interfaces:
+  - name: Adapter 1
+    type: 1000base-t
+  - name: Adapter 2
+    type: 1000base-t
+  - name: Adapter 3
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: QNAP
+  model: TS-431XeU
+  part_number: TS-431XeU
+  power-ports:
+  - maximum_draw: 40
+    name: PSU 1
+    type: iec-60320-c14
+  slug: ts-431xeu
+  u_height: 1
+- airflow: front-to-rear
+  comments: '[TS-453U-RP | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-453u-rp/specs/hardware)'
+  device-bays:
+  - name: Disk 1
+  - name: Disk 2
+  - name: Disk 3
+  - name: Disk 4
+  interfaces:
+  - label: '1'
+    name: eth0
+    type: 1000base-t
+  - label: '2'
+    name: eth1
+    type: 1000base-t
+  - label: '3'
+    name: eth2
+    type: 1000base-t
+  - label: '4'
+    name: eth3
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: QNAP
+  model: TS-453U-RP
+  part_number: TS-453U-RP
+  power-ports:
+  - allocated_draw: 40
+    maximum_draw: 250
+    name: PSU1
+    type: iec-60320-c14
+  - allocated_draw: 40
+    maximum_draw: 250
+    name: PSU2
+    type: iec-60320-c14
+  slug: ts-453u-rp
+  subdevice_role: parent
+  u_height: 1
+- comments: '[TS-469L | Hardware Specs | QNAP](https://www.qnap.com/en-me/product/ts-469l/specs/hardware)'
+  device-bays:
+  - name: Disk 1
+  - name: Disk 2
+  - name: Disk 3
+  - name: Disk 4
+  interfaces:
+  - label: '1'
+    name: eth0
+    type: 1000base-t
+  - label: '2'
+    name: eth1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: QNAP
+  model: TS-469L
+  part_number: TS-469L
+  power-ports:
+  - allocated_draw: 43
+    maximum_draw: 250
+    name: PSU
+    type: iec-60320-c14
+  slug: ts-469l
+  subdevice_role: parent
+- comments: '[TS-873 | Hardware Specs | QNAP](https://www.qnap.com/en-me/product/ts-873/specs/hardware)'
+  device-bays:
+  - name: Disk 1
+  - name: Disk 2
+  - name: Disk 3
+  - name: Disk 4
+  - name: Disk 5
+  - name: Disk 6
+  - name: Disk 7
+  - name: Disk 8
+  interfaces:
+  - label: '1'
+    name: eth0
+    type: 1000base-t
+  - label: '2'
+    name: eth1
+    type: 1000base-t
+  - label: '3'
+    name: eth2
+    type: 1000base-t
+  - label: '4'
+    name: eth3
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: QNAP
+  model: TS-873
+  module-bays:
+  - name: Slot 1
+    position: rear
+  - name: Slot 2
+    position: rear
+  part_number: TS-873
+  power-ports:
+  - allocated_draw: 70
+    maximum_draw: 250
+    name: PSU
+    type: iec-60320-c14
+  slug: ts-873
+  subdevice_role: parent

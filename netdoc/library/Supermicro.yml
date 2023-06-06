@@ -1,0 +1,115 @@
+keywords:
+- AS-1114S-WN10RT
+- SYS-1019P-WTR
+- SYS-2028U-E1CNR4T+
+- AS-1123US-TR4
+models:
+- console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+  interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - mgmt_only: true
+    name: Gig-E 2
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Supermicro
+  model: AS-1114S-WN10RT
+  power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
+  slug: as-1114s-wn10rt
+  u_height: 1
+- airflow: front-to-rear
+  comments: 'Specification: [https://www.supermicro.com/en/products/system/1U/1019/SYS-1019P-WTR.cfm](https://www.supermicro.com/en/products/system/1U/1019/SYS-1019P-WTR.cfm)'
+  console-ports:
+  - label: Rear
+    name: COM1
+    type: de-9
+  - description: Header
+    name: COM2
+    type: de-9
+  interfaces:
+  - name: Gig-E 1
+    type: 10gbase-t
+  - name: Gig-E 2
+    type: 10gbase-t
+  - description: Dedicated IPMI LAN port
+    mgmt_only: true
+    name: Gig-E 3
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Supermicro
+  model: SYS-1019P-WTR
+  slug: sys-1019-wtr
+  u_height: 1
+- console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+  interfaces:
+  - name: Te1
+    type: 10gbase-t
+  - name: Te2
+    type: 10gbase-t
+  - name: Te3
+    type: 10gbase-t
+  - name: Te4
+    type: 10gbase-t
+  - mgmt_only: true
+    name: BMC
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Supermicro
+  model: SYS-2028U-E1CNR4T+
+  module-bays:
+  - name: PCI-E 1
+    position: '1'
+  - name: PCI-E 2
+    position: '2'
+  - name: PCI-E 3
+    position: '3'
+  - name: PCI-E 4
+    position: '4'
+  - name: PCI-E LP 1
+    position: '5'
+  power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
+  slug: sys-2028u-e1cnr4tplus
+  u_height: 2
+- console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+  interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - mgmt_only: true
+    name: BMC
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Supermicro
+  model: AS-1123US-TR4
+  power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
+  slug: as-1123us-tr4
+  u_height: 1

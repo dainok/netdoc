@@ -1,0 +1,5 @@
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  192.168.1.1             -   5001.0018.8004  ARPA   Vlan4
+Internet  192.168.1.11            5   5016.0000.1b08  ARPA   Vlan4
+Internet  192.168.1.12            4   5017.0000.1b08  ARPA   Vlan4
+Internet  192.168.1.254           4   0000.0c07.ac04  ARPA   Vlan4

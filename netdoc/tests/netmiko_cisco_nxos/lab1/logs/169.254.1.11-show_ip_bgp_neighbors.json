@@ -1,0 +1,16 @@
+{
+    "configuration": false,
+    "details": {
+        "command": "show ip bgp neighbors",
+        "enable": true,
+        "order": 128,
+        "supported": false,
+        "template": "show ip bgp neighbors"
+    },
+    "discoverable__mode": "netmiko_cisco_nxos",
+    "ingested": false,
+    "parsed": false,
+    "parsed_output": "",
+    "raw_output": "",
+    "success": true
+}

@@ -1,0 +1,50 @@
+keywords:
+- imageRUNNER ADVANCE C3520
+- imageRUNNER ADVANCE C3530 III
+- imageRunner ADVANCE DX C3720
+- imageRUNNER ADVANCE C3530
+models:
+- comments: '[Color Laser Multifunctional](https://oip.manual.canon/USRMA-3350-zz-CS-3500-enUV/)'
+  interfaces:
+  - name: eth
+    type: 1000base-t
+  manufacturer: Canon
+  model: imageRUNNER ADVANCE C3520
+  power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  slug: canon-ir-adv-c3520
+  u_height: 0
+- comments: '[Color Laser Multifunctional](https://oip.manual.canon/USRMA-3763-zz-CS-3500-enUS/)'
+  interfaces:
+  - name: eth
+    type: 1000base-t
+  manufacturer: Canon
+  model: imageRUNNER ADVANCE C3530 III
+  power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  slug: canon-ir-adv-c3530-iii
+  u_height: 0
+- comments: '[Color Laser Multifunctional](https://oip.manual.canon/USRMA-4706-zz-CS-3700-enUV)'
+  interfaces:
+  - name: eth
+    type: 1000base-t
+  manufacturer: Canon
+  model: imageRunner ADVANCE DX C3720
+  power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  slug: canon-ir-adv-c3720
+  u_height: 0
+- comments: '[Color Laser Multifunctional](https://oip.manual.canon/USRMA-1814-zz-CS-3500-enUS/)'
+  interfaces:
+  - name: eth
+    type: 1000base-t
+  manufacturer: Canon
+  model: imageRUNNER ADVANCE C3530
+  power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  slug: canon-ir-adv-c3530
+  u_height: 0

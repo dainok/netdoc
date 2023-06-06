@@ -1,0 +1,63 @@
+keywords:
+- NGATE-320
+- NGATE-600
+models:
+- console-ports:
+  - label: CONSOLE
+    name: ttyS0
+    type: rj-45
+  - name: VGA
+    type: other
+  interfaces:
+  - label: '1'
+    name: enp1s0
+    type: 1000base-t
+  - label: '2'
+    name: enp2s0
+    type: 1000base-t
+  - label: '3'
+    name: enp3s0
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: CryptoPro
+  model: NGATE-320
+  power-ports:
+  - maximum_draw: 36
+    name: PSU0
+    type: dc-terminal
+  slug: cp-ngate-320
+  u_height: 1
+- console-ports:
+  - label: CONSOLE
+    name: ttyS0
+    type: rj-45
+  - name: VGA
+    type: other
+  interfaces:
+  - label: '1'
+    name: enp0f20s0
+    type: 1000base-t
+  - label: '2'
+    name: enp0f20s1
+    type: 1000base-t
+  - label: '3'
+    name: enp0f20s2
+    type: 1000base-t
+  - label: '4'
+    name: enp0f20s3
+    type: 1000base-t
+  - label: '5'
+    name: enp1s0
+    type: 1000base-t
+  - label: '6'
+    name: enp2s0
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: CryptoPro
+  model: NGATE-600
+  power-ports:
+  - maximum_draw: 150
+    name: PSU0
+    type: iec-60320-c14
+  slug: cp-ngate-600
+  u_height: 1

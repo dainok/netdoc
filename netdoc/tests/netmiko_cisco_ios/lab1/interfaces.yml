@@ -1,0 +1,297 @@
+---
+SW1:
+  - name: Ethernet0/0
+    label: e0/0
+    type: other
+    speed: 10000
+    duplex: full
+    mtu: 1500
+    enabled: True
+    description: Management
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "AA:BB:CC:00:14:00"
+    vrf: management
+    ip_addresses:
+      - 172.25.82.41/24
+    connected_device: null
+    connected_interface_label: null
+  - name: Ethernet0/1
+    label: e0/1
+    type: other
+    speed: 10000
+    duplex: full
+    mtu: 1500
+    enabled: True
+    description: Channel 1
+    mode: tagged-all
+    untagged_vlan: 1
+    tagged_vlans: []
+    parent: null
+    lag: po1
+    mac_address: "AA:BB:CC:00:14:10"
+    vrf: null
+    ip_addresses: []
+    connected_device: SW2
+    connected_interface_label: e0/1
+  - name: Ethernet0/2
+    label: e0/2
+    type: other
+    speed: 10000
+    duplex: full
+    mtu: 1500
+    enabled: True
+    description: Channel 2
+    mode: tagged-all
+    untagged_vlan: 1
+    tagged_vlans: []
+    parent: null
+    lag: po1
+    mac_address: "AA:BB:CC:00:14:20"
+    vrf: null
+    ip_addresses: []
+    connected_device: SW2
+    connected_interface_label: e0/2
+  - name: Ethernet0/3
+    label: e0/3
+    type: other
+    speed: 10000
+    duplex: full
+    mtu: 1500
+    enabled: True
+    description: Routed
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "AA:BB:CC:00:14:30"
+    vrf: blue
+    ip_addresses:
+      - "10.0.2.1/24"
+    connected_device: SW2
+    connected_interface_label: e0/3
+  - name: Ethernet1/0
+    label: e1/0
+    type: other
+    speed: 10000
+    duplex: full
+    mtu: 1500
+    enabled: True
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "AA:BB:CC:00:14:01"
+    vrf: null
+    ip_addresses:
+      - "192.168.0.1/24"
+    connected_device: SW2
+    connected_interface_label: e1/0
+  - name: Ethernet1/0.7
+    label: e1/0.7
+    type: virtual
+    speed: 10000
+    duplex: null
+    mtu: 1500
+    enabled: True
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: e1/0
+    lag: null
+    mac_address: "AA:BB:CC:00:14:01"
+    vrf: null
+    ip_addresses:
+      - "192.168.3.1/24"
+    connected_device: null
+    connected_interface_label: null
+  - name: Ethernet1/1
+    label: e1/1
+    type: other
+    speed: 10000
+    duplex: auto
+    mtu: 1500
+    enabled: False
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "AA:BB:CC:00:14:11"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
+  - name: Ethernet1/2
+    label: e1/2
+    type: other
+    speed: 10000
+    duplex: auto
+    mtu: 1500
+    enabled: False
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "AA:BB:CC:00:14:21"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
+  - name: Ethernet1/3
+    label: e1/3
+    type: other
+    speed: 10000
+    duplex: auto
+    mtu: 1500
+    enabled: False
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "AA:BB:CC:00:14:31"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
+  - name: Port-channel1
+    label: po1
+    type: lag
+    speed: 20000
+    duplex: full
+    mtu: 1500
+    enabled: True
+    description: Main Link
+    mode: tagged-all
+    untagged_vlan: 1
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "AA:BB:CC:00:14:20"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
+  - name: Vlan1
+    label: vl1
+    type: bridge
+    speed: 1000000
+    duplex: null
+    mtu: 1500
+    enabled: True
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "AA:BB:CC:80:14:00"
+    vrf: red
+    ip_addresses:
+      - "10.0.1.1/24"
+    connected_device: null
+    connected_interface_label: null
+  - name: Vlan100
+    label: vl100
+    type: bridge
+    speed: 1000000
+    duplex: null
+    mtu: 1500
+    enabled: True
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "AA:BB:CC:80:14:00"
+    vrf: red
+    ip_addresses:
+      - "192.168.100.1/24"
+    connected_device: null
+    connected_interface_label: null
+SW2:
+  - name: null
+    label: e0/1
+    type: other
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: True
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: null
+    vrf: null
+    ip_addresses: []
+    connected_device: SW1
+    connected_interface_label: e0/1
+  - name: null
+    label: e0/2
+    type: other
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: True
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: null
+    vrf: null
+    ip_addresses: []
+    connected_device: SW1
+    connected_interface_label: e0/2
+  - name: null
+    label: e0/3
+    type: other
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: True
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: null
+    vrf: null
+    ip_addresses: []
+    connected_device: SW1
+    connected_interface_label: e0/3
+  - name: null
+    label: e1/0
+    type: other
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: True
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: null
+    vrf: null
+    ip_addresses: []
+    connected_device: SW1
+    connected_interface_label: e1/0

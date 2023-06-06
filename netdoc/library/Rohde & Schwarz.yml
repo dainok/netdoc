@@ -1,0 +1,326 @@
+keywords:
+- SITLine ETH-S 1G
+- 5414.6260.22
+- TrustedVPN-L VS-NfD
+- 3630.1751.13
+- SITLine ETH40G
+- 5414.6130.02
+- SITLine ETH-L 4x10G
+- 5414.6282.24
+- SITLine ETH-S 10G
+- 5414.6260.23
+- SITLine ETH-L 10G
+- 5414.6282.23
+- SITLine ETH4G
+- 5414.7766.02
+- TrustedVPN-L
+- 3630.1751.02
+- SITLine ETH-L 4x1G
+- 5414.6282.25
+- TrustedVPN-XL
+- 3630.1768.02
+models:
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: A1
+    type: 1000base-x-sfp
+  - name: X1
+    type: 1000base-x-sfp
+  - mgmt_only: true
+    name: MGMT
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rohde & Schwarz
+  model: SITLine ETH-S 1G
+  part_number: 5414.6260.22
+  power-ports:
+  - allocated_draw: 20
+    label: DC-A
+    maximum_draw: 20
+    name: DC-Input-A
+    type: dc-terminal
+  - allocated_draw: 20
+    label: DC-B
+    maximum_draw: 20
+    name: DC-Input-B
+    type: dc-terminal
+  slug: sitline-eth-s-1g
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-t
+  - name: eth7
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rohde & Schwarz
+  model: TrustedVPN-L VS-NfD
+  part_number: 3630.1751.13
+  power-ports:
+  - maximum_draw: 150
+    name: PS1
+    type: iec-60320-c14
+  slug: trustedvpn-l-vsnfd
+  u_height: 1
+- interfaces:
+  - name: A1
+    type: 10gbase-x-sfpp
+  - name: A2
+    type: 10gbase-x-sfpp
+  - name: A3
+    type: 10gbase-x-sfpp
+  - name: A4
+    type: 10gbase-x-sfpp
+  - name: X1
+    type: 10gbase-x-sfpp
+  - name: X2
+    type: 10gbase-x-sfpp
+  - name: X3
+    type: 10gbase-x-sfpp
+  - name: X4
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: SMS
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Rohde & Schwarz
+  model: SITLine ETH40G
+  part_number: 5414.6130.02
+  power-ports:
+  - allocated_draw: 80
+    maximum_draw: 100
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 80
+    maximum_draw: 100
+    name: PS2
+    type: iec-60320-c14
+  slug: sitline-eth40g
+  u_height: 1
+- interfaces:
+  - name: A1
+    type: 10gbase-x-sfpp
+  - name: A2
+    type: 10gbase-x-sfpp
+  - name: A3
+    type: 10gbase-x-sfpp
+  - name: A4
+    type: 10gbase-x-sfpp
+  - name: X1
+    type: 10gbase-x-sfpp
+  - name: X2
+    type: 10gbase-x-sfpp
+  - name: X3
+    type: 10gbase-x-sfpp
+  - name: X4
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: MGMT
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Rohde & Schwarz
+  model: SITLine ETH-L 4x10G
+  part_number: 5414.6282.24
+  power-ports:
+  - allocated_draw: 80
+    maximum_draw: 100
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 80
+    maximum_draw: 100
+    name: PS2
+    type: iec-60320-c14
+  slug: sitline-eth-l-4x10g
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: A1
+    type: 10gbase-x-sfpp
+  - name: X1
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: MGMT
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rohde & Schwarz
+  model: SITLine ETH-S 10G
+  part_number: 5414.6260.23
+  power-ports:
+  - allocated_draw: 20
+    label: DC-A
+    maximum_draw: 20
+    name: DC-Input-A
+    type: dc-terminal
+  - allocated_draw: 20
+    label: DC-B
+    maximum_draw: 20
+    name: DC-Input-B
+    type: dc-terminal
+  slug: sitline-eth-s-10g
+  u_height: 1
+- interfaces:
+  - name: A1
+    type: 10gbase-x-sfpp
+  - name: X1
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: MGMT
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Rohde & Schwarz
+  model: SITLine ETH-L 10G
+  part_number: 5414.6282.23
+  power-ports:
+  - allocated_draw: 80
+    maximum_draw: 100
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 80
+    maximum_draw: 100
+    name: PS2
+    type: iec-60320-c14
+  slug: sitline-eth-l-10g
+  u_height: 1
+- interfaces:
+  - name: A1
+    type: 1000base-x-sfp
+  - name: A2
+    type: 1000base-x-sfp
+  - name: A3
+    type: 1000base-x-sfp
+  - name: A4
+    type: 1000base-x-sfp
+  - name: X1
+    type: 1000base-x-sfp
+  - name: X2
+    type: 1000base-x-sfp
+  - name: X3
+    type: 1000base-x-sfp
+  - name: X4
+    type: 1000base-x-sfp
+  - mgmt_only: true
+    name: SMS
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Rohde & Schwarz
+  model: SITLine ETH4G
+  part_number: 5414.7766.02
+  power-ports:
+  - allocated_draw: 65
+    maximum_draw: 100
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 65
+    maximum_draw: 100
+    name: PS2
+    type: iec-60320-c14
+  slug: sitline-eth4g
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-t
+  - name: eth7
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rohde & Schwarz
+  model: TrustedVPN-L
+  part_number: 3630.1751.02
+  power-ports:
+  - maximum_draw: 150
+    name: PS1
+    type: iec-60320-c14
+  slug: trustedvpn-l
+  u_height: 1
+- interfaces:
+  - name: A1
+    type: 1000base-x-sfp
+  - name: A2
+    type: 1000base-x-sfp
+  - name: A3
+    type: 1000base-x-sfp
+  - name: A4
+    type: 1000base-x-sfp
+  - name: X1
+    type: 1000base-x-sfp
+  - name: X2
+    type: 1000base-x-sfp
+  - name: X3
+    type: 1000base-x-sfp
+  - name: X4
+    type: 1000base-x-sfp
+  - mgmt_only: true
+    name: MGMT
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Rohde & Schwarz
+  model: SITLine ETH-L 4x1G
+  part_number: 5414.6282.25
+  power-ports:
+  - allocated_draw: 80
+    maximum_draw: 100
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 80
+    maximum_draw: 100
+    name: PS2
+    type: iec-60320-c14
+  slug: sitline-eth-l-4x1g
+  u_height: 1
+- console-ports:
+  - name: VGA
+    type: other
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rohde & Schwarz
+  model: TrustedVPN-XL
+  part_number: 3630.1768.02
+  power-ports:
+  - maximum_draw: 500
+    name: PSU1
+    type: iec-60320-c14
+  - maximum_draw: 500
+    name: PSU2
+    type: iec-60320-c14
+  slug: trustedvpn-xl
+  u_height: 1

@@ -1,0 +1,41 @@
+---
+# Manually run with:
+#   - source /opt/netbox/venv/bin/activate
+#   - pre-commit install
+#   - pre-commit run --all-files
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: \.raw|migrations
+      - id: end-of-file-fixer
+        exclude: \.raw|migrations
+      - id: check-yaml
+      - id: check-added-large-files
+  - repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+      - id: black
+        exclude: \.raw|migrations
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.5
+    hooks:
+      - id: bandit
+        exclude: \.raw|migrations
+  - repo: https://github.com/PyCQA/flake8
+    rev: 6.0.0
+    hooks:
+      - id: flake8
+        exclude: \.raw|migrations
+  - repo: https://github.com/PyCQA/pydocstyle
+    rev: 6.3.0
+    hooks:
+      - id: pydocstyle
+        exclude: \.raw|migrations
+  - repo: https://github.com/Riverside-Healthcare/djLint
+    rev: v1.19.17
+    hooks:
+      - id: djlint-django
+        files: "netdoc/templates"

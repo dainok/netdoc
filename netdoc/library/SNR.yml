@@ -1,0 +1,76 @@
+keywords:
+- SNR-PDU-08A-W2
+- SNR-PDU-08A-W2
+- SNR-PDU-08S-W2
+- SNR-PDU-08S-W2
+models:
+- comments: Rack PDU, 1U, 16A, 230V, (8) C13
+  is_full_depth: false
+  manufacturer: SNR
+  model: SNR-PDU-08A-W2
+  part_number: SNR-PDU-08A-W2
+  power-outlets:
+  - name: Outlet 1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 8
+    power_port: Power Port 1
+    type: iec-60320-c13
+  power-ports:
+  - name: Power Port 1
+    type: iec-60320-c14
+  slug: snr-pdu-08a-w2
+  u_height: 1
+- comments: Rack PDU, 1U, 16A, 230V, (8)Schuko
+  is_full_depth: false
+  manufacturer: SNR
+  model: SNR-PDU-08S-W2
+  part_number: SNR-PDU-08S-W2
+  power-outlets:
+  - name: Outlet 1
+    power_port: Power Port 1
+    type: ita-f
+  - name: Outlet 2
+    power_port: Power Port 1
+    type: ita-f
+  - name: Outlet 3
+    power_port: Power Port 1
+    type: ita-f
+  - name: Outlet 4
+    power_port: Power Port 1
+    type: ita-f
+  - name: Outlet 5
+    power_port: Power Port 1
+    type: ita-f
+  - name: Outlet 6
+    power_port: Power Port 1
+    type: ita-f
+  - name: Outlet 7
+    power_port: Power Port 1
+    type: ita-f
+  - name: Outlet 8
+    power_port: Power Port 1
+    type: ita-f
+  power-ports:
+  - name: Power Port 1
+    type: iec-60320-c14
+  slug: snr-pdu-08s-w2
+  u_height: 1

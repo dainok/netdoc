@@ -1,0 +1,32 @@
+keywords:
+- V1600D2
+models:
+- console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - name: gigabitethernet 0/1
+    type: 1000base-x-sfp
+  - name: gigabitethernet 0/2
+    type: 1000base-x-sfp
+  - name: gigabitethernet 0/3
+    type: 1000base-t
+  - name: gigabitethernet 0/4
+    type: 1000base-t
+  - name: epon 0/1
+    type: 1000base-x-sfp
+  - name: epon 0/2
+    type: 1000base-x-sfp
+  - mgmt_only: true
+    name: aux
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: V-Solution
+  model: V1600D2
+  power-ports:
+  - allocated_draw: 20
+    maximum_draw: 25
+    name: PSU
+    type: iec-60320-c14
+  slug: v1600d2
+  u_height: 1

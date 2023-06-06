@@ -1,0 +1,93 @@
+---
+# Set on GitHub -> Settings -> Secrets and variables -> Actions -> Variables:
+#   - LINUX_VERSION: "ubuntu-22.04"
+#   - NETBOX_VERSION: "v3.4.4"
+name: "CI"
+concurrency:
+  # Cancel any existing runs of this workflow for this same PR
+  group: "${{ github.workflow }}-${{ github.ref }}"
+  cancel-in-progress: true
+on:
+  push:
+    branches:
+      - "master"
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+
+  lint:
+    runs-on: "${{ vars.LINUX_VERSION }}"
+    steps:
+      - name: "Setup Python3"
+        uses: actions/setup-python@v3
+      - name: "Check out NetDoc repository code"
+        uses: actions/checkout@v3
+      - name: "Install and run pre-commit"
+        uses: pre-commit/action@v3.0.0
+
+  test:
+    runs-on: "${{ vars.LINUX_VERSION }}"
+    needs:
+      - lint
+    steps:
+      - name: "Updating APT cache"
+        run: "sudo apt-get update"
+      - name: "Installing PostgreSQL"
+        run: "sudo apt-get install -y postgresql redis"
+      - name: "Starting Redis"
+        run: "sudo systemctl start redis-server"
+      - name: "Starting PostgreSQL"
+        run: "sudo systemctl start postgresql"
+      - name: "Adding PostgreSQL database"
+        run: "sudo su - postgres -c 'psql -c \"create database netbox\"'"
+      - name: "Adding PostgreSQL username"
+        run: sudo su - postgres -c "psql -c \"create user netbox with password '0123456789abcdef'\""
+      - name: "Setting PostgreSQL database privileges"
+        run: "sudo su - postgres -c 'psql -c \"grant all privileges on database netbox to netbox\"'"
+      - name: "Setting PostgreSQL administrative privileges"
+        run: "sudo su - postgres -c 'psql -c \"alter user netbox createdb\"'"
+      - name: "Setup Python3"
+        uses: actions/setup-python@v3
+      - name: "Check out NetDoc repository code"
+        uses: actions/checkout@v3
+        with:
+          path: "netdoc"
+          fetch-depth: "0"
+      - name: "Check out Netbox repository code"
+        uses: actions/checkout@v3
+        with:
+          repository: "netbox-community/netbox"
+          ref: "${{ vars.NETBOX_VERSION }}"
+          path: "netbox"
+          fetch-depth: "0"
+      - name: "Check out NTC-Templates repository code"
+        uses: actions/checkout@v3
+        with:
+          repository: "networktocode/ntc-templates"
+          path: "ntc-templates"
+          fetch-depth: "0"
+      - name: "Cloning Netbox example configuration"
+        run: "cp -a netbox/netbox/netbox/configuration_example.py netbox/netbox/netbox/configuration.py"
+      - name: "Setting PostgreSQL username on Netbox configuration"
+        run: "sed -i \"s/.*PostgreSQL username.*/    'USER': 'netbox',/\" netbox/netbox/netbox/configuration.py"
+      - name: "Setting PostgreSQL password on Netbox configuration"
+        run: "sed -i \"s/.*PostgreSQL password.*/    'PASSWORD': '0123456789abcdef',/\" netbox/netbox/netbox/configuration.py"
+      - name: "Setting Django secret key"
+        run: "sed -i \"s/.*SECRET_KEY.*/SECRET_KEY = '01234567890123456789012345678901234567890123456789'/\" netbox/netbox/netbox/configuration.py"
+      - name: "Enabling NetDoc plugin on Netbox configuration"
+        run: "sed -i \"s/PLUGINS =.*/PLUGINS = ['netdoc']/\" netbox/netbox/netbox/configuration.py"
+      - name: "Configuring NetDoc plugin on Netbox"
+        run: "echo \"PLUGINS_CONFIG = {'netdoc': {'NTC_TEMPLATES_DIR': '${PWD}/ntc-templates/ntc_templates/templates'}}\" >> netbox/netbox/netbox/configuration.py"
+      - name: "Setting NetDoc requirements"
+        run: echo "-e $PWD/netdoc" >> netbox/local_requirements.txt
+      - name: "Upgrade Netbox"
+        run: "netbox/upgrade.sh"
+      - name: "Migrating NetDoc database"
+        run: "netbox/venv/bin/python3 netbox/netbox/manage.py migrate netdoc"
+      - name: "Install PyLint"
+        run: "netbox/venv/bin/pip install pylint"
+      - name: "Run Pylint"
+        run: "cd netdoc && ../netbox/venv/bin/pylint --rcfile=.pylintrc netdoc && cd .."
+      - name: "Testing scenarios"
+        run: "netbox/venv/bin/python3 netbox/netbox/manage.py test netdoc --keepdb"

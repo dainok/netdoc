@@ -1,0 +1,71 @@
+{% extends "generic/object.html" %}
+{% load render_table from django_tables2 %}
+{% load helpers %}
+{% load perms %}
+{% load plugins %}
+{% load netdoc_buttons %}
+{% comment %}
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2022, Andrea Dainese"
+__license__ = "GPLv3"
+{% endcomment %}
+{% block extra_controls %}
+    {% if request.user|can_change:object %}
+        {% discover_button object %}
+    {% endif %}
+{% endblock extra_controls %}
+{% block content %}
+    <div class="row mb-3">
+        <div class="col col-md-6">
+            <div class="card">
+                <h5 class="card-header">Discoverable</h5>
+                <div class="card-body">
+                    <table class="table table-hover attr-table">
+                        <tr>
+                            <th scope="row">Address</th>
+                            <td>{{ object.address }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Mode</th>
+                            <td>{{ object.mode }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Device</th>
+                            <td>
+                                {% if object.device %}
+                                    <a href="{% url "dcim:device" object.device.pk %}">{{ object.device }}</a>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Site</th>
+                            <td>{{ object.site }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Credential</th>
+                            <td>{{ object.credential }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Total logs</th>
+                            <td>{{ object.discoverylogs_count }}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            {% include "inc/panels/custom_fields.html" %}
+        </div>
+        <div class="col col-md-6">
+            {% include "inc/panels/tags.html" %}
+            {% include "inc/panels/comments.html" %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-md-12">
+            <div class="card">
+                <h5 class="card-header">Discovery Logs</h5>
+                <div class="card-body table-responsive">{% render_table discoverylogs_table %}</div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

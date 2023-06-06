@@ -1,0 +1,3638 @@
+keywords:
+- FortiGate 300E
+- FG-300E
+- FortiGate 81E
+- FG-81E
+- FortiGate 80F
+- FG-80F
+- FortiSwitch 424E-FPOE
+- FS-424E-FPOE
+- FortiGate 1500D
+- FG-1500D
+- FortiGate 60F
+- FG-60F
+- FortiGate 601E
+- FG-601E
+- FortiGate 81F
+- FG-81F
+- FortiGate 200F
+- FG-200F
+- FortiGate 3000D
+- FG-3000D
+- FortiGate 601F
+- FG-601F
+- FortiGate 60E
+- FG-60E
+- FortiSwitch 448D-FPOE
+- FS-448D-FPOE
+- FortiGate 301E
+- FG-301E
+- FortiGate 80E-POE
+- FG-80E-POE
+- FortiGate 100EF
+- FG-100EF
+- FortiGate 2600F
+- FG-2600F
+- FortiSwitch 224E-POE
+- FS-224E-POE
+- FortiGate 200D
+- FG-200D
+- FortiGate 500E
+- FG-500E
+- FortiSwitch 1048E
+- FS-1048E
+- FortiGate 40F
+- FG-40F
+- FortiGate 101F
+- FG-101F
+- FortiGate 600E
+- FG-600E
+- FortiGate 201E
+- FG-201E
+- FortiGate 80E
+- FG-80E
+- FortiGate 90D
+- FG-90D
+- FortiGate 200E
+- FG-200E
+- FortiGate 81E-POE
+- FG-81E-POE
+- FortiGate 100D
+- FG-100D
+- FortiGate 100E
+- FG-100E
+- FortiWeb 2000E
+- FWB-2000E
+- FortiGate 1800F
+- FG-1800F
+- FortiGate 600F
+- FG-600F
+- FortiExtender 40D
+- FEX-40D
+- FortiGate 60D
+- FG-60D
+- FortiGate 1101E
+- FG-1101E
+- FortiGate 50E
+- FG-50E
+- FortiGate 300C
+- FG-300C
+- FortiGate 400E
+- FG-400E
+- FortiGate 2200E
+- FG-2200E
+- FortiGate 1100E
+- FG-1100E
+- FortiGate 1500DT
+- FG-1500DT
+- FortiGate 100F
+- FG-100F
+- FortiGate-600D
+- FG-600D
+- FortiSwitch 448D-POE
+- FS-448D-POE
+- FortiGate 140E-POE
+- FG-140E-POE
+- FortiSwitch 248E-FPOE
+- FS-248E-FPOE
+models:
+- comments: Same as FG-301E , but **WITHOUT** 2 x 240GB SSD on-board.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ha
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-x-sfp
+  - name: port18
+    type: 1000base-x-sfp
+  - name: port19
+    type: 1000base-x-sfp
+  - name: port20
+    type: 1000base-x-sfp
+  - name: port21
+    type: 1000base-x-sfp
+  - name: port22
+    type: 1000base-x-sfp
+  - name: port23
+    type: 1000base-x-sfp
+  - name: port24
+    type: 1000base-x-sfp
+  - name: port25
+    type: 1000base-x-sfp
+  - name: port26
+    type: 1000base-x-sfp
+  - name: port27
+    type: 1000base-x-sfp
+  - name: port28
+    type: 1000base-x-sfp
+  - name: s1
+    type: 1000base-x-sfp
+  - name: s2
+    type: 1000base-x-sfp
+  - name: vw1
+    type: 1000base-x-sfp
+  - name: vw2
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 300E
+  part_number: FG-300E
+  power-ports:
+  - allocated_draw: 95
+    maximum_draw: 180
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 95
+    maximum_draw: 180
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-300e
+  u_height: 1
+- comments: Same as FG-80E , but **WITH** a 128GB SSD on-board.  Has no POE.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: dmz
+    type: 1000base-t
+  - name: ha
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-x-sfp
+  - name: wan2
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 81E
+  part_number: FG-81E
+  power-ports:
+  - allocated_draw: 20
+    maximum_draw: 72
+    name: PS1
+    type: nema-5-15p
+  slug: fg-81e
+  u_height: 1
+- comments: Same as FGT-81F , but **WITHOUT** a 128GB SSD on-board.  Has no POE.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: internal1
+    type: 1000base-t
+  - name: internal2
+    type: 1000base-t
+  - name: internal3
+    type: 1000base-t
+  - name: internal4
+    type: 1000base-t
+  - name: internal5
+    type: 1000base-t
+  - name: internal6
+    type: 1000base-t
+  - name: A
+    type: 1000base-t
+  - name: B
+    type: 1000base-t
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: wan1
+    type: 1000base-t
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: wan2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 80F
+  part_number: FG-80F
+  power-ports:
+  - allocated_draw: 13
+    maximum_draw: 16
+    name: PS1
+    type: dc-terminal
+  - allocated_draw: 13
+    maximum_draw: 16
+    name: PS2
+    type: dc-terminal
+  slug: fg-80f
+  u_height: 1
+- airflow: side-to-rear
+  comments: '[Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-t
+  - name: port18
+    type: 1000base-t
+  - name: port19
+    type: 1000base-t
+  - name: port20
+    type: 1000base-t
+  - name: port21
+    type: 1000base-t
+  - name: port22
+    type: 1000base-t
+  - name: port23
+    type: 1000base-t
+  - name: port24
+    type: 1000base-t
+  - name: port25
+    type: 10gbase-x-sfpp
+  - name: port26
+    type: 10gbase-x-sfpp
+  - name: port27
+    type: 10gbase-x-sfpp
+  - name: port28
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiSwitch 424E-FPOE
+  part_number: FS-424E-FPOE
+  power-ports:
+  - allocated_draw: 281
+    maximum_draw: 283
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 281
+    maximum_draw: 283
+    name: PS2
+    type: iec-60320-c14
+  slug: fortinet-fs-424e-fpoe
+  u_height: 1
+  weight: 12.72
+  weight_unit: lb
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: mgmt1
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt2
+    type: 1000base-t
+  - name: port1
+    type: 1000base-x-sfp
+  - name: port2
+    type: 1000base-x-sfp
+  - name: port3
+    type: 1000base-x-sfp
+  - name: port4
+    type: 1000base-x-sfp
+  - name: port5
+    type: 1000base-x-sfp
+  - name: port6
+    type: 1000base-x-sfp
+  - name: port7
+    type: 1000base-x-sfp
+  - name: port8
+    type: 1000base-x-sfp
+  - name: port9
+    type: 1000base-x-sfp
+  - name: port10
+    type: 1000base-x-sfp
+  - name: port11
+    type: 1000base-x-sfp
+  - name: port12
+    type: 1000base-x-sfp
+  - name: port13
+    type: 1000base-x-sfp
+  - name: port14
+    type: 1000base-x-sfp
+  - name: port15
+    type: 1000base-x-sfp
+  - name: port16
+    type: 1000base-x-sfp
+  - name: port17
+    type: 1000base-t
+  - name: port18
+    type: 1000base-t
+  - name: port19
+    type: 1000base-t
+  - name: port20
+    type: 1000base-t
+  - name: port21
+    type: 1000base-t
+  - name: port22
+    type: 1000base-t
+  - name: port23
+    type: 1000base-t
+  - name: port24
+    type: 1000base-t
+  - name: port25
+    type: 1000base-t
+  - name: port26
+    type: 1000base-t
+  - name: port27
+    type: 1000base-t
+  - name: port28
+    type: 1000base-t
+  - name: port29
+    type: 1000base-t
+  - name: port30
+    type: 1000base-t
+  - name: port31
+    type: 1000base-t
+  - name: port32
+    type: 1000base-t
+  - name: port33
+    type: 10gbase-x-sfpp
+  - name: port34
+    type: 10gbase-x-sfpp
+  - name: port35
+    type: 10gbase-x-sfpp
+  - name: port36
+    type: 10gbase-x-sfpp
+  - name: port37
+    type: 10gbase-x-sfpp
+  - name: port38
+    type: 10gbase-x-sfpp
+  - name: port39
+    type: 10gbase-x-sfpp
+  - name: port40
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 1500D
+  part_number: FG-1500D
+  power-ports:
+  - allocated_draw: 336
+    maximum_draw: 403
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 336
+    maximum_draw: 403
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-1500d
+  u_height: 2
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: internal1
+    type: 1000base-t
+  - name: internal2
+    type: 1000base-t
+  - name: internal3
+    type: 1000base-t
+  - name: internal4
+    type: 1000base-t
+  - name: internal5
+    type: 1000base-t
+  - name: A
+    type: 1000base-t
+  - name: B
+    type: 1000base-t
+  - name: dmz
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 60F
+  part_number: FG-60F
+  power-ports:
+  - allocated_draw: 17
+    maximum_draw: 19
+    name: PS1
+    type: dc-terminal
+  slug: fg-60f
+  u_height: 1
+- comments: Same as FG-600E , but **WITH** 2 x 240GB SSDs on-board.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ha
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-x-sfp
+  - name: port10
+    type: 1000base-x-sfp
+  - name: port11
+    type: 1000base-x-sfp
+  - name: port12
+    type: 1000base-x-sfp
+  - name: s1
+    type: 1000base-x-sfp
+  - name: s2
+    type: 1000base-x-sfp
+  - name: vw1
+    type: 1000base-x-sfp
+  - name: vw2
+    type: 1000base-x-sfp
+  - name: x1
+    type: 10gbase-x-sfpp
+  - name: x2
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 601E
+  part_number: FG-601E
+  power-ports:
+  - allocated_draw: 129
+    maximum_draw: 244
+    name: PS1
+    type: iec-60320-c14
+  slug: fg-601e
+  u_height: 1
+- comments: Same as FGT-80F , but **WITH** a 128GB SSD on-board.  Has no POE.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: internal1
+    type: 1000base-t
+  - name: internal2
+    type: 1000base-t
+  - name: internal3
+    type: 1000base-t
+  - name: internal4
+    type: 1000base-t
+  - name: internal5
+    type: 1000base-t
+  - name: internal6
+    type: 1000base-t
+  - name: A
+    type: 1000base-t
+  - name: B
+    type: 1000base-t
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: wan1
+    type: 1000base-t
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: wan2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 81F
+  part_number: FG-81F
+  power-ports:
+  - allocated_draw: 13
+    maximum_draw: 16
+    name: PS1
+    type: dc-terminal
+  - allocated_draw: 13
+    maximum_draw: 16
+    name: PS2
+    type: dc-terminal
+  slug: fg-81f
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ha
+    type: 1000base-t
+  - name: mgmt
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: x1
+    type: 10gbase-x-sfpp
+  - name: x2
+    type: 10gbase-x-sfpp
+  - name: x3
+    type: 10gbase-x-sfpp
+  - name: x4
+    type: 10gbase-x-sfpp
+  - name: port17
+    type: 1000base-x-sfp
+  - name: port18
+    type: 1000base-x-sfp
+  - name: port19
+    type: 1000base-x-sfp
+  - name: port20
+    type: 1000base-x-sfp
+  - name: port21
+    type: 1000base-x-sfp
+  - name: port22
+    type: 1000base-x-sfp
+  - name: port23
+    type: 1000base-x-sfp
+  - name: port24
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 200F
+  part_number: FG-200F
+  power-ports:
+  - allocated_draw: 102
+    maximum_draw: 119
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 102
+    maximum_draw: 119
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-200f
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: mgmt1
+    type: 1000base-t
+  - name: mgmt2
+    type: 1000base-t
+  - name: port1
+    type: 10gbase-x-sfpp
+  - name: port2
+    type: 10gbase-x-sfpp
+  - name: port3
+    type: 10gbase-x-sfpp
+  - name: port4
+    type: 10gbase-x-sfpp
+  - name: port5
+    type: 10gbase-x-sfpp
+  - name: port6
+    type: 10gbase-x-sfpp
+  - name: port7
+    type: 10gbase-x-sfpp
+  - name: port8
+    type: 10gbase-x-sfpp
+  - name: port9
+    type: 10gbase-x-sfpp
+  - name: port10
+    type: 10gbase-x-sfpp
+  - name: port11
+    type: 10gbase-x-sfpp
+  - name: port12
+    type: 10gbase-x-sfpp
+  - name: port13
+    type: 10gbase-x-sfpp
+  - name: port14
+    type: 10gbase-x-sfpp
+  - name: port15
+    type: 10gbase-x-sfpp
+  - name: port16
+    type: 10gbase-x-sfpp
+  is_full_depth: true
+  manufacturer: Fortinet
+  model: FortiGate 3000D
+  part_number: FG-3000D
+  power-ports:
+  - allocated_draw: 310
+    maximum_draw: 427
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 310
+    maximum_draw: 427
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-3000d
+  u_height: 2
+- comments: Same as FG-600F, but **WITH** 2 x 240GB SSDs on-board.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ha
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-x-sfp
+  - name: port18
+    type: 1000base-x-sfp
+  - name: port19
+    type: 1000base-x-sfp
+  - name: port20
+    type: 1000base-x-sfp
+  - name: port21
+    type: 1000base-x-sfp
+  - name: port22
+    type: 1000base-x-sfp
+  - name: port23
+    type: 1000base-x-sfp
+  - name: port24
+    type: 1000base-x-sfp
+  - name: x1
+    type: 10gbase-x-sfpp
+  - name: x2
+    type: 10gbase-x-sfpp
+  - name: x3
+    type: 10gbase-x-sfpp
+  - name: x4
+    type: 10gbase-x-sfpp
+  - name: x5
+    type: 25gbase-x-sfp28
+  - name: x6
+    type: 25gbase-x-sfp28
+  - name: x7
+    type: 25gbase-x-sfp28
+  - name: x8
+    type: 25gbase-x-sfp28
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 601F
+  part_number: FG-601F
+  power-ports:
+  - allocated_draw: 169
+    maximum_draw: 255
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 169
+    maximum_draw: 255
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-601f
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: dmz
+    type: 1000base-t
+  - name: internal1
+    type: 1000base-t
+  - name: internal2
+    type: 1000base-t
+  - name: internal3
+    type: 1000base-t
+  - name: internal4
+    type: 1000base-t
+  - name: internal5
+    type: 1000base-t
+  - name: internal6
+    type: 1000base-t
+  - name: internal7
+    type: 1000base-t
+  - name: internal8
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 60E
+  part_number: FG-60E
+  power-ports:
+  - allocated_draw: 12
+    maximum_draw: 14
+    name: PS1
+    type: nema-5-15p
+  slug: fg-60e
+  u_height: 1
+- airflow: side-to-rear
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-t
+  - name: port18
+    type: 1000base-t
+  - name: port19
+    type: 1000base-t
+  - name: port20
+    type: 1000base-t
+  - name: port21
+    type: 1000base-t
+  - name: port22
+    type: 1000base-t
+  - name: port23
+    type: 1000base-t
+  - name: port24
+    type: 1000base-t
+  - name: port25
+    type: 1000base-t
+  - name: port26
+    type: 1000base-t
+  - name: port27
+    type: 1000base-t
+  - name: port28
+    type: 1000base-t
+  - name: port29
+    type: 1000base-t
+  - name: port30
+    type: 1000base-t
+  - name: port31
+    type: 1000base-t
+  - name: port32
+    type: 1000base-t
+  - name: port33
+    type: 1000base-t
+  - name: port34
+    type: 1000base-t
+  - name: port35
+    type: 1000base-t
+  - name: port36
+    type: 1000base-t
+  - name: port37
+    type: 1000base-t
+  - name: port38
+    type: 1000base-t
+  - name: port39
+    type: 1000base-t
+  - name: port40
+    type: 1000base-t
+  - name: port41
+    type: 1000base-t
+  - name: port42
+    type: 1000base-t
+  - name: port43
+    type: 1000base-t
+  - name: port44
+    type: 1000base-t
+  - name: port45
+    type: 1000base-t
+  - name: port46
+    type: 1000base-t
+  - name: port47
+    type: 1000base-t
+  - name: port48
+    type: 1000base-t
+  - name: port49
+    type: 10gbase-x-sfpp
+  - name: port50
+    type: 10gbase-x-sfpp
+  - name: port51
+    type: 10gbase-x-sfpp
+  - name: port52
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiSwitch 448D-FPOE
+  module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  part_number: FS-448D-FPOE
+  slug: fortinet-fs-448d-fpoe
+  u_height: 1
+  weight: 15.45
+  weight_unit: lb
+- comments: Same as FG-300E , but **WITH** 2 x 240GB SSD on-board.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ha
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-x-sfp
+  - name: port18
+    type: 1000base-x-sfp
+  - name: port19
+    type: 1000base-x-sfp
+  - name: port20
+    type: 1000base-x-sfp
+  - name: port21
+    type: 1000base-x-sfp
+  - name: port22
+    type: 1000base-x-sfp
+  - name: port23
+    type: 1000base-x-sfp
+  - name: port24
+    type: 1000base-x-sfp
+  - name: port25
+    type: 1000base-x-sfp
+  - name: port26
+    type: 1000base-x-sfp
+  - name: port27
+    type: 1000base-x-sfp
+  - name: port28
+    type: 1000base-x-sfp
+  - name: s1
+    type: 1000base-x-sfp
+  - name: s2
+    type: 1000base-x-sfp
+  - name: vw1
+    type: 1000base-x-sfp
+  - name: vw2
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 301E
+  part_number: FG-301E
+  power-ports:
+  - allocated_draw: 95
+    maximum_draw: 180
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 95
+    maximum_draw: 180
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-301e
+  u_height: 1
+- comments: Same as FG-81E-poe , but **WITHOUT** a 128GB SSD on-board.  Has 12 x 1G
+    POE.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: dmz
+    type: 1000base-t
+  - name: ha
+    type: 1000base-t
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: wan1
+    type: 1000base-x-sfp
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: wan2
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 80E-POE
+  part_number: FG-80E-POE
+  power-ports:
+  - allocated_draw: 20
+    maximum_draw: 137
+    name: PS1
+    type: dc-terminal
+  slug: fg-80e-poe
+  u_height: 1
+- airflow: front-to-rear
+  comments: '[FortiGate 100E Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_100E_Series.pdf)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: dmz
+    type: 1000base-t
+  - name: mgmt
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  - name: ha1
+    type: 1000base-t
+  - name: ha2
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-x-sfp
+  - name: port10
+    type: 1000base-x-sfp
+  - name: port11
+    type: 1000base-x-sfp
+  - name: port12
+    type: 1000base-x-sfp
+  - name: port13
+    type: 1000base-x-sfp
+  - name: port14
+    type: 1000base-x-sfp
+  - name: port15
+    type: 1000base-x-sfp
+  - name: port16
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 100EF
+  part_number: FG-100EF
+  power-ports:
+  - allocated_draw: 23
+    maximum_draw: 29
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 23
+    maximum_draw: 29
+    name: DC Input for RPS
+    type: dc-terminal
+  slug: fortinet-fg-100ef
+  u_height: 1
+  weight: 7.28
+  weight_unit: lb
+- airflow: front-to-rear
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: mgmt1
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt2
+    type: 1000base-t
+  - name: ha1
+    type: 1000base-t
+  - name: ha2
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 25gbase-x-sfp28
+  - name: port18
+    type: 25gbase-x-sfp28
+  - name: port19
+    type: 25gbase-x-sfp28
+  - name: port20
+    type: 25gbase-x-sfp28
+  - name: port21
+    type: 25gbase-x-sfp28
+  - name: port22
+    type: 25gbase-x-sfp28
+  - name: port23
+    type: 25gbase-x-sfp28
+  - name: port24
+    type: 25gbase-x-sfp28
+  - name: port25
+    type: 25gbase-x-sfp28
+  - name: port26
+    type: 25gbase-x-sfp28
+  - name: port27
+    type: 25gbase-x-sfp28
+  - name: port28
+    type: 25gbase-x-sfp28
+  - name: port29
+    type: 25gbase-x-sfp28
+  - name: port30
+    type: 25gbase-x-sfp28
+  - name: port31
+    type: 25gbase-x-sfp28
+  - name: port32
+    type: 25gbase-x-sfp28
+  - name: port33
+    type: 100gbase-x-qsfp28
+  - name: port34
+    type: 100gbase-x-qsfp28
+  - name: port35
+    type: 100gbase-x-qsfp28
+  - name: port36
+    type: 100gbase-x-qsfp28
+  is_full_depth: true
+  manufacturer: Fortinet
+  model: FortiGate 2600F
+  module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  part_number: FG-2600F
+  slug: fortinet-fg-2600f
+  u_height: 2
+  weight: 13.9
+  weight_unit: kg
+- airflow: side-to-rear
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-t
+  - name: port18
+    type: 1000base-t
+  - name: port19
+    type: 1000base-t
+  - name: port20
+    type: 1000base-t
+  - name: port21
+    type: 1000base-t
+  - name: port22
+    type: 1000base-t
+  - name: port23
+    type: 1000base-t
+  - name: port24
+    type: 1000base-t
+  - name: port25
+    type: 1000base-x-sfp
+  - name: port26
+    type: 1000base-x-sfp
+  - name: port27
+    type: 1000base-x-sfp
+  - name: port28
+    type: 1000base-x-sfp
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiSwitch 224E-POE
+  part_number: FS-224E-POE
+  power-ports:
+  - allocated_draw: 220
+    maximum_draw: 223
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 220
+    maximum_draw: 223
+    name: RPScon
+    type: dc-terminal
+  slug: fortinet-fs-224e-poe
+  u_height: 1
+  weight: 5.37
+  weight_unit: lb
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: dmz1
+    type: 1000base-x-sfp
+  - name: dmz2
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 200D
+  part_number: FG-200D
+  power-ports:
+  - allocated_draw: 55
+    maximum_draw: 79
+    name: PS1
+    type: iec-60320-c14
+  slug: fg-200d
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ha
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-x-sfp
+  - name: port10
+    type: 1000base-x-sfp
+  - name: port11
+    type: 1000base-x-sfp
+  - name: port12
+    type: 1000base-x-sfp
+  - name: s1
+    type: 1000base-x-sfp
+  - name: s2
+    type: 1000base-x-sfp
+  - name: vw1
+    type: 1000base-x-sfp
+  - name: vw2
+    type: 1000base-x-sfp
+  - name: x1
+    type: 10gbase-x-sfpp
+  - name: x2
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 500E
+  part_number: FG-500E
+  power-ports:
+  - allocated_draw: 95
+    maximum_draw: 193
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 95
+    maximum_draw: 193
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-500e
+  u_height: 1
+- airflow: front-to-rear
+  comments: '[Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Data_Center_Series.pdf)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1
+    type: 1000base-x-sfp
+  - name: port2
+    type: 1000base-x-sfp
+  - name: port3
+    type: 1000base-x-sfp
+  - name: port4
+    type: 1000base-x-sfp
+  - name: port5
+    type: 1000base-x-sfp
+  - name: port6
+    type: 1000base-x-sfp
+  - name: port7
+    type: 1000base-x-sfp
+  - name: port8
+    type: 1000base-x-sfp
+  - name: port9
+    type: 1000base-x-sfp
+  - name: port10
+    type: 1000base-x-sfp
+  - name: port11
+    type: 1000base-x-sfp
+  - name: port12
+    type: 1000base-x-sfp
+  - name: port13
+    type: 1000base-x-sfp
+  - name: port14
+    type: 1000base-x-sfp
+  - name: port15
+    type: 1000base-x-sfp
+  - name: port16
+    type: 1000base-x-sfp
+  - name: port17
+    type: 1000base-x-sfp
+  - name: port18
+    type: 1000base-x-sfp
+  - name: port19
+    type: 1000base-x-sfp
+  - name: port20
+    type: 1000base-x-sfp
+  - name: port21
+    type: 1000base-x-sfp
+  - name: port22
+    type: 1000base-x-sfp
+  - name: port23
+    type: 1000base-x-sfp
+  - name: port24
+    type: 1000base-x-sfp
+  - name: port25
+    type: 1000base-x-sfp
+  - name: port26
+    type: 1000base-x-sfp
+  - name: port27
+    type: 1000base-x-sfp
+  - name: port28
+    type: 1000base-x-sfp
+  - name: port29
+    type: 1000base-x-sfp
+  - name: port30
+    type: 1000base-x-sfp
+  - name: port31
+    type: 1000base-x-sfp
+  - name: port32
+    type: 1000base-x-sfp
+  - name: port33
+    type: 1000base-x-sfp
+  - name: port34
+    type: 1000base-x-sfp
+  - name: port35
+    type: 1000base-x-sfp
+  - name: port36
+    type: 1000base-x-sfp
+  - name: port37
+    type: 1000base-x-sfp
+  - name: port38
+    type: 1000base-x-sfp
+  - name: port39
+    type: 1000base-x-sfp
+  - name: port40
+    type: 1000base-x-sfp
+  - name: port41
+    type: 1000base-x-sfp
+  - name: port42
+    type: 1000base-x-sfp
+  - name: port43
+    type: 1000base-x-sfp
+  - name: port44
+    type: 1000base-x-sfp
+  - name: port45
+    type: 1000base-x-sfp
+  - name: port46
+    type: 1000base-x-sfp
+  - name: port47
+    type: 1000base-x-sfp
+  - name: port48
+    type: 1000base-x-sfp
+  - name: port49
+    type: 100gbase-x-qsfp28
+  - name: port50
+    type: 100gbase-x-qsfp28
+  - name: port51
+    type: 100gbase-x-qsfp28
+  - name: port52
+    type: 100gbase-x-qsfp28
+  - name: port53
+    type: 40gbase-x-qsfpp
+  - name: port54
+    type: 40gbase-x-qsfpp
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiSwitch 1048E
+  module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  part_number: FS-1048E
+  slug: fortinet-fs-1048e
+  u_height: 1
+  weight: 18.96
+  weight_unit: lb
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: wan1
+    type: 1000base-t
+  - name: A
+    type: 1000base-t
+  - name: internal1
+    type: 1000base-t
+  - name: internal2
+    type: 1000base-t
+  - name: internal3
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 40F
+  part_number: FG-40F
+  power-ports:
+  - allocated_draw: 12
+    maximum_draw: 14
+    name: PS1
+    type: nema-5-15p
+  slug: fg-40f
+  u_height: 1
+- comments: Same as FG-100F , but **WITH** a 480GB SSD on-board.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: dmz
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  - name: ha1
+    type: 1000base-t
+  - name: ha2
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: x1
+    type: 10gbase-x-sfpp
+  - name: x2
+    type: 10gbase-x-sfpp
+  - name: port13
+    type: 1000base-x-sfp
+  - name: port14
+    type: 1000base-x-sfp
+  - name: port15
+    type: 1000base-x-sfp
+  - name: port16
+    type: 1000base-x-sfp
+  - name: port17
+    type: 1000base-x-sfp
+  - name: port18
+    type: 1000base-x-sfp
+  - name: port19
+    type: 1000base-x-sfp
+  - name: port20
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 101F
+  part_number: FG-101F
+  power-ports:
+  - allocated_draw: 35
+    maximum_draw: 39
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 35
+    maximum_draw: 39
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-101f
+  u_height: 1
+- comments: Same as FG-601E , but **WITHOUT** 2 x 240GB SSDs on-board.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ha
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-x-sfp
+  - name: port10
+    type: 1000base-x-sfp
+  - name: port11
+    type: 1000base-x-sfp
+  - name: port12
+    type: 1000base-x-sfp
+  - name: s1
+    type: 1000base-x-sfp
+  - name: s2
+    type: 1000base-x-sfp
+  - name: vw1
+    type: 1000base-x-sfp
+  - name: vw2
+    type: 1000base-x-sfp
+  - name: x1
+    type: 10gbase-x-sfpp
+  - name: x2
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 600E
+  part_number: FG-600E
+  power-ports:
+  - allocated_draw: 129
+    maximum_draw: 244
+    name: PS1
+    type: iec-60320-c14
+  slug: fg-600e
+  u_height: 1
+- comments: Same as FG-200E , but **WITH** 1 x 480GB SSD on-board.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ha
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-x-sfp
+  - name: port16
+    type: 1000base-x-sfp
+  - name: port17
+    type: 1000base-x-sfp
+  - name: port18
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 201E
+  part_number: FG-201E
+  power-ports:
+  - allocated_draw: 71
+    maximum_draw: 110
+    name: PS1
+    type: iec-60320-c14
+  slug: fg-201e
+  u_height: 1
+- comments: Same as FG-81E , but **WITHOUT** a 128GB SSD on-board.  Has no POE.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: dmz
+    type: 1000base-t
+  - name: ha
+    type: 1000base-t
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: wan1
+    type: 1000base-x-sfp
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: wan2
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 80E
+  part_number: FG-80E
+  power-ports:
+  - allocated_draw: 18
+    maximum_draw: 25
+    name: PS1
+    type: dc-terminal
+  slug: fg-80e
+  u_height: 1
+- comments: Has no POE.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-x-sfp
+  - name: wan2
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 90D
+  part_number: FG-90D
+  power-ports:
+  - allocated_draw: 18
+    maximum_draw: 22
+    name: PS1
+    type: nema-5-15p
+  slug: fg-90d
+  u_height: 1
+- comments: Same as FG-201E , but **WITHOUT** 1 x 480GB SSD on-board.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ha
+    type: 1000base-t
+  - name: mgmt
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-x-sfp
+  - name: port16
+    type: 1000base-x-sfp
+  - name: port17
+    type: 1000base-x-sfp
+  - name: port18
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 200E
+  part_number: FG-200E
+  power-ports:
+  - allocated_draw: 71
+    maximum_draw: 110
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 71
+    maximum_draw: 110
+    name: DC Input for RPS
+    type: dc-terminal
+  slug: fg-200e
+  u_height: 1
+- comments: Same as FG-80E-POE , but **WITH** a 128GB SSD on-board.  Has 12 x 1G POE.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: dmz
+    type: 1000base-t
+  - name: ha
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-x-sfp
+  - name: wan2
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 81E-POE
+  part_number: FG-81E-POE
+  power-ports:
+  - allocated_draw: 20
+    maximum_draw: 137
+    name: PS1
+    type: nema-5-15p
+  slug: fg-81e-poe
+  u_height: 1
+- airflow: front-to-rear
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: dmz
+    type: 1000base-t
+  - name: ha1
+    type: 1000base-t
+  - name: ha2
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: port15
+    type: 1000base-x-sfp
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: port16
+    type: 1000base-x-sfp
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 100D
+  part_number: FG-100D
+  power-ports:
+  - allocated_draw: 53
+    maximum_draw: 63
+    name: DC Input for RPS
+    type: dc-terminal
+  - allocated_draw: 53
+    maximum_draw: 63
+    name: PS1
+    type: iec-60320-c14
+  slug: fortinet-fg-100d
+  u_height: 1.0
+  weight: 4300
+  weight_unit: g
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: dmz
+    type: 1000base-t
+  - name: mgmt
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  - name: ha1
+    type: 1000base-t
+  - name: ha2
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: port15
+    type: 1000base-x-sfp
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: port16
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 100E
+  part_number: FG-100E
+  power-ports:
+  - allocated_draw: 23
+    maximum_draw: 29
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 23
+    maximum_draw: 29
+    name: DC Input for RPS
+    type: dc-terminal
+  slug: fg-100e
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: mgmt
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-x-sfp
+  - name: port6
+    type: 1000base-x-sfp
+  - name: port7
+    type: 1000base-x-sfp
+  - name: port8
+    type: 1000base-x-sfp
+  - name: port9
+    type: 10gbase-x-sfpp
+  - name: port10
+    type: 10gbase-x-sfpp
+  is_full_depth: true
+  manufacturer: Fortinet
+  model: FortiWeb 2000E
+  part_number: FWB-2000E
+  power-ports:
+  - allocated_draw: 200
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 200
+    name: PS2
+    type: iec-60320-c14
+  slug: fwb-2000e
+  u_height: 2
+- airflow: front-to-rear
+  comments: Same as FG-1801F , but **WITHOUT** 2 x 480GB SSDs on-board.
+  console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB
+    type: usb-a
+  interfaces:
+  - mgmt_only: true
+    name: mgmt1
+    type: 1000base-t
+  - mgmt_only: true
+    name: "mgm\xE9"
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-x-sfp
+  - name: port18
+    type: 1000base-x-sfp
+  - name: port19
+    type: 1000base-x-sfp
+  - name: port20
+    type: 1000base-x-sfp
+  - name: port21
+    type: 1000base-x-sfp
+  - name: port22
+    type: 1000base-x-sfp
+  - name: port23
+    type: 1000base-x-sfp
+  - name: port24
+    type: 1000base-x-sfp
+  - name: port25
+    type: 10gbase-x-sfpp
+  - name: port26
+    type: 10gbase-x-sfpp
+  - name: port27
+    type: 10gbase-x-sfpp
+  - name: port28
+    type: 10gbase-x-sfpp
+  - name: port29
+    type: 10gbase-x-sfpp
+  - name: port30
+    type: 10gbase-x-sfpp
+  - name: port31
+    type: 10gbase-x-sfpp
+  - name: port32
+    type: 10gbase-x-sfpp
+  - name: port33
+    type: 10gbase-x-sfpp
+  - name: port34
+    type: 10gbase-x-sfpp
+  - name: port35
+    type: 10gbase-x-sfpp
+  - name: port36
+    type: 10gbase-x-sfpp
+  - name: port37
+    type: 40gbase-x-qsfpp
+  - name: port38
+    type: 40gbase-x-qsfpp
+  - name: port39
+    type: 40gbase-x-qsfpp
+  - name: port40
+    type: 40gbase-x-qsfpp
+  is_full_depth: true
+  manufacturer: Fortinet
+  model: FortiGate 1800F
+  part_number: FG-1800F
+  power-ports:
+  - allocated_draw: 217
+    maximum_draw: 336
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 217
+    maximum_draw: 336
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-1800f
+  u_height: 2
+- comments: Same as FG-601F, but **WITHOUT** 2 x 240GB SSDs on-board.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ha
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-x-sfp
+  - name: port18
+    type: 1000base-x-sfp
+  - name: port19
+    type: 1000base-x-sfp
+  - name: port20
+    type: 1000base-x-sfp
+  - name: port21
+    type: 1000base-x-sfp
+  - name: port22
+    type: 1000base-x-sfp
+  - name: port23
+    type: 1000base-x-sfp
+  - name: port24
+    type: 1000base-x-sfp
+  - name: x1
+    type: 10gbase-x-sfpp
+  - name: x2
+    type: 10gbase-x-sfpp
+  - name: x3
+    type: 10gbase-x-sfpp
+  - name: x4
+    type: 10gbase-x-sfpp
+  - name: x5
+    type: 25gbase-x-sfp28
+  - name: x6
+    type: 25gbase-x-sfp28
+  - name: x7
+    type: 25gbase-x-sfp28
+  - name: x8
+    type: 25gbase-x-sfp28
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 600F
+  part_number: FG-600F
+  power-ports:
+  - allocated_draw: 169
+    maximum_draw: 255
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 169
+    maximum_draw: 255
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-600f
+  u_height: 1
+- comments: Built in LTE modem (2 antenna), PoE-capable, Wall-mount.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: LTE
+    type: lte
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiExtender 40D
+  part_number: FEX-40D
+  power-ports:
+  - name: PS1
+    type: dc-terminal
+  slug: fortinet-fex-40d
+  u_height: 0
+  weight: 0.83
+  weight_unit: lb
+- airflow: passive
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  - name: dmz
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 60D
+  part_number: FG-60D
+  power-ports:
+  - allocated_draw: 12
+    maximum_draw: 14
+    name: PS1
+    type: dc-terminal
+  slug: fortinet-fg-60d
+  u_height: 0
+  weight: 0.9
+  weight_unit: kg
+- comments: Same as FG-1100E , but **WITH** 2 x 480GB SSDs on-board.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ha
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-x-sfp
+  - name: port18
+    type: 1000base-x-sfp
+  - name: port19
+    type: 1000base-x-sfp
+  - name: port20
+    type: 1000base-x-sfp
+  - name: port21
+    type: 1000base-x-sfp
+  - name: port22
+    type: 1000base-x-sfp
+  - name: port23
+    type: 1000base-x-sfp
+  - name: port24
+    type: 1000base-x-sfp
+  - name: port25
+    type: 10gbase-x-sfpp
+  - name: port26
+    type: 10gbase-x-sfpp
+  - name: port27
+    type: 10gbase-x-sfpp
+  - name: port28
+    type: 10gbase-x-sfpp
+  - name: port29
+    type: 25gbase-x-sfp28
+  - name: port30
+    type: 25gbase-x-sfp28
+  - name: port31
+    type: 25gbase-x-sfp28
+  - name: port32
+    type: 25gbase-x-sfp28
+  - name: port33
+    type: 40gbase-x-qsfpp
+  - name: port34
+    type: 40gbase-x-qsfpp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 1101E
+  part_number: FG-1101E
+  power-ports:
+  - allocated_draw: 217
+    maximum_draw: 336
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 217
+    maximum_draw: 336
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-1101e
+  u_height: 2
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: lan1
+    type: 1000base-t
+  - name: lan2
+    type: 1000base-t
+  - name: lan3
+    type: 1000base-t
+  - name: lan4
+    type: 1000base-t
+  - name: lan5
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 50E
+  part_number: FG-50E
+  power-ports:
+  - allocated_draw: 18
+    maximum_draw: 25
+    name: PS1
+    type: nema-5-15p
+  slug: fg-50e
+  u_height: 1
+- airflow: front-to-rear
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 300C
+  part_number: FG-300C
+  power-ports:
+  - allocated_draw: 110
+    maximum_draw: 154
+    name: PS1
+    type: iec-60320-c14
+  slug: fortinet-fg-300c
+  u_height: 1
+  weight: 5.9
+  weight_unit: kg
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ha
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-x-sfp
+  - name: port18
+    type: 1000base-x-sfp
+  - name: port19
+    type: 1000base-x-sfp
+  - name: port20
+    type: 1000base-x-sfp
+  - name: port21
+    type: 1000base-x-sfp
+  - name: port22
+    type: 1000base-x-sfp
+  - name: port23
+    type: 1000base-x-sfp
+  - name: port24
+    type: 1000base-x-sfp
+  - name: port25
+    type: 1000base-x-sfp
+  - name: port26
+    type: 1000base-x-sfp
+  - name: port27
+    type: 1000base-x-sfp
+  - name: port28
+    type: 1000base-x-sfp
+  - name: s1
+    type: 1000base-x-sfp
+  - name: s2
+    type: 1000base-x-sfp
+  - name: vw1
+    type: 1000base-x-sfp
+  - name: vw2
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 400E
+  part_number: FG-400E
+  power-ports:
+  - allocated_draw: 109
+    maximum_draw: 214
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 109
+    maximum_draw: 214
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-400e
+  u_height: 1
+- airflow: front-to-rear
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: mgmt1
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt2
+    type: 1000base-t
+  - name: ha1
+    type: 25gbase-x-sfp28
+  - name: ha2
+    type: 25gbase-x-sfp28
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 25gbase-x-sfp28
+  - name: port14
+    type: 25gbase-x-sfp28
+  - name: port15
+    type: 25gbase-x-sfp28
+  - name: port16
+    type: 25gbase-x-sfp28
+  - name: port17
+    type: 25gbase-x-sfp28
+  - name: port18
+    type: 25gbase-x-sfp28
+  - name: port19
+    type: 25gbase-x-sfp28
+  - name: port20
+    type: 25gbase-x-sfp28
+  - name: port21
+    type: 25gbase-x-sfp28
+  - name: port22
+    type: 25gbase-x-sfp28
+  - name: port23
+    type: 25gbase-x-sfp28
+  - name: port24
+    type: 25gbase-x-sfp28
+  - name: port25
+    type: 25gbase-x-sfp28
+  - name: port26
+    type: 25gbase-x-sfp28
+  - name: port27
+    type: 25gbase-x-sfp28
+  - name: port28
+    type: 25gbase-x-sfp28
+  - name: port29
+    type: 25gbase-x-sfp28
+  - name: port30
+    type: 25gbase-x-sfp28
+  - name: port31
+    type: 40gbase-x-qsfpp
+  - name: port32
+    type: 40gbase-x-qsfpp
+  - name: port33
+    type: 40gbase-x-qsfpp
+  - name: port34
+    type: 40gbase-x-qsfpp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 2200E
+  module-bays:
+  - name: POWER1
+    position: '1'
+  - name: POWER2
+    position: '2'
+  part_number: FG-2200E
+  slug: fortinet-fg-2200e
+  u_height: 2
+  weight: 18.2
+  weight_unit: kg
+- comments: Same as FG-1101E , but **WITHOUT** 2 x 480GB SSDs on-board.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ha
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-x-sfp
+  - name: port18
+    type: 1000base-x-sfp
+  - name: port19
+    type: 1000base-x-sfp
+  - name: port20
+    type: 1000base-x-sfp
+  - name: port21
+    type: 1000base-x-sfp
+  - name: port22
+    type: 1000base-x-sfp
+  - name: port23
+    type: 1000base-x-sfp
+  - name: port24
+    type: 1000base-x-sfp
+  - name: port25
+    type: 10gbase-x-sfpp
+  - name: port26
+    type: 10gbase-x-sfpp
+  - name: port27
+    type: 10gbase-x-sfpp
+  - name: port28
+    type: 10gbase-x-sfpp
+  - name: port29
+    type: 25gbase-x-sfp28
+  - name: port30
+    type: 25gbase-x-sfp28
+  - name: port31
+    type: 25gbase-x-sfp28
+  - name: port32
+    type: 25gbase-x-sfp28
+  - name: port33
+    type: 40gbase-x-qsfpp
+  - name: port34
+    type: 40gbase-x-qsfpp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 1100E
+  part_number: FG-1100E
+  power-ports:
+  - allocated_draw: 217
+    maximum_draw: 336
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 217
+    maximum_draw: 336
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-1100e
+  u_height: 2
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: mgmt1
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt2
+    type: 1000base-t
+  - name: port1
+    type: 1000base-x-sfp
+  - name: port2
+    type: 1000base-x-sfp
+  - name: port3
+    type: 1000base-x-sfp
+  - name: port4
+    type: 1000base-x-sfp
+  - name: port5
+    type: 1000base-x-sfp
+  - name: port6
+    type: 1000base-x-sfp
+  - name: port7
+    type: 1000base-x-sfp
+  - name: port8
+    type: 1000base-x-sfp
+  - name: port9
+    type: 1000base-x-sfp
+  - name: port10
+    type: 1000base-x-sfp
+  - name: port11
+    type: 1000base-x-sfp
+  - name: port12
+    type: 1000base-x-sfp
+  - name: port13
+    type: 1000base-x-sfp
+  - name: port14
+    type: 1000base-x-sfp
+  - name: port15
+    type: 1000base-x-sfp
+  - name: port16
+    type: 1000base-x-sfp
+  - name: port17
+    type: 1000base-t
+  - name: port18
+    type: 1000base-t
+  - name: port19
+    type: 1000base-t
+  - name: port20
+    type: 1000base-t
+  - name: port21
+    type: 1000base-t
+  - name: port22
+    type: 1000base-t
+  - name: port23
+    type: 1000base-t
+  - name: port24
+    type: 1000base-t
+  - name: port25
+    type: 1000base-t
+  - name: port26
+    type: 1000base-t
+  - name: port27
+    type: 1000base-t
+  - name: port28
+    type: 1000base-t
+  - name: port29
+    type: 1000base-t
+  - name: port30
+    type: 1000base-t
+  - name: port31
+    type: 1000base-t
+  - name: port32
+    type: 1000base-t
+  - name: port33
+    type: 10gbase-t
+  - name: port34
+    type: 10gbase-t
+  - name: port35
+    type: 10gbase-t
+  - name: port36
+    type: 10gbase-t
+  - name: port37
+    type: 10gbase-x-sfpp
+  - name: port38
+    type: 10gbase-x-sfpp
+  - name: port39
+    type: 10gbase-x-sfpp
+  - name: port40
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 1500DT
+  part_number: FG-1500DT
+  power-ports:
+  - allocated_draw: 230
+    maximum_draw: 350
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 230
+    maximum_draw: 350
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-1500dt
+  u_height: 2
+- comments: Same as FG-101F , but **WITHOUT** a 480GB SSD on-board.
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: dmz
+    type: 1000base-t
+  - name: mgmt
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  - name: ha1
+    type: 1000base-t
+  - name: ha2
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: x1
+    type: 10gbase-x-sfpp
+  - name: x2
+    type: 10gbase-x-sfpp
+  - name: port13
+    type: 1000base-x-sfp
+  - name: port14
+    type: 1000base-x-sfp
+  - name: port15
+    type: 1000base-x-sfp
+  - name: port16
+    type: 1000base-x-sfp
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: port17
+    type: 1000base-x-sfp
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: port18
+    type: 1000base-x-sfp
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: port19
+    type: 1000base-x-sfp
+  - description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1
+      is 1000base-x-sfp & the other is 1000base-t.)
+    name: port20
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 100F
+  part_number: FG-100F
+  power-ports:
+  - allocated_draw: 35
+    maximum_draw: 39
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 35
+    maximum_draw: 39
+    name: PS2
+    type: iec-60320-c14
+  slug: fg-100f
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
+  interfaces:
+  - mgmt_only: true
+    name: mgmt1
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt2
+    type: 1000base-t
+  - name: port1
+    type: 1000base-x-sfp
+  - name: port2
+    type: 1000base-x-sfp
+  - name: port3
+    type: 1000base-x-sfp
+  - name: port4
+    type: 1000base-x-sfp
+  - name: port5
+    type: 1000base-x-sfp
+  - name: port6
+    type: 1000base-x-sfp
+  - name: port7
+    type: 1000base-x-sfp
+  - name: port8
+    type: 1000base-x-sfp
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 10gbase-x-sfpp
+  - name: port18
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate-600D
+  part_number: FG-600D
+  power-ports:
+  - allocated_draw: 121
+    maximum_draw: 191
+    name: PS1
+    type: iec-60320-c14
+  slug: fg-600d
+  u_height: 1
+- airflow: side-to-rear
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-t
+  - name: port18
+    type: 1000base-t
+  - name: port19
+    type: 1000base-t
+  - name: port20
+    type: 1000base-t
+  - name: port21
+    type: 1000base-t
+  - name: port22
+    type: 1000base-t
+  - name: port23
+    type: 1000base-t
+  - name: port24
+    type: 1000base-t
+  - name: port25
+    type: 1000base-t
+  - name: port26
+    type: 1000base-t
+  - name: port27
+    type: 1000base-t
+  - name: port28
+    type: 1000base-t
+  - name: port29
+    type: 1000base-t
+  - name: port30
+    type: 1000base-t
+  - name: port31
+    type: 1000base-t
+  - name: port32
+    type: 1000base-t
+  - name: port33
+    type: 1000base-t
+  - name: port34
+    type: 1000base-t
+  - name: port35
+    type: 1000base-t
+  - name: port36
+    type: 1000base-t
+  - name: port37
+    type: 1000base-t
+  - name: port38
+    type: 1000base-t
+  - name: port39
+    type: 1000base-t
+  - name: port40
+    type: 1000base-t
+  - name: port41
+    type: 1000base-t
+  - name: port42
+    type: 1000base-t
+  - name: port43
+    type: 1000base-t
+  - name: port44
+    type: 1000base-t
+  - name: port45
+    type: 1000base-t
+  - name: port46
+    type: 1000base-t
+  - name: port47
+    type: 1000base-t
+  - name: port48
+    type: 1000base-t
+  - name: port49
+    type: 10gbase-x-sfpp
+  - name: port50
+    type: 10gbase-x-sfpp
+  - name: port51
+    type: 10gbase-x-sfpp
+  - name: port52
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiSwitch 448D-POE
+  part_number: FS-448D-POE
+  power-ports:
+  - allocated_draw: 417
+    maximum_draw: 419
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 417
+    maximum_draw: 419
+    name: RPScon
+    type: dc-terminal
+  slug: fortinet-fs-448d-poe
+  u_height: 1
+  weight: 13.44
+  weight_unit: lb
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ha
+    type: 1000base-t
+  - name: mgmt
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port25
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port26
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port27
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port28
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port29
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port30
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port31
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port32
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port33
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port34
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port35
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port36
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port37
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port38
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: dmz1
+    type: 1000base-x-sfp
+  - name: dmz2
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiGate 140E-POE
+  part_number: FG-140E-POE
+  power-ports:
+  - allocated_draw: 477
+    maximum_draw: 500
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 477
+    maximum_draw: 500
+    name: RPScon
+    type: dc-terminal
+  slug: fg-140e-poe
+  u_height: 1
+- airflow: side-to-rear
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-t
+  - name: port18
+    type: 1000base-t
+  - name: port19
+    type: 1000base-t
+  - name: port20
+    type: 1000base-t
+  - name: port21
+    type: 1000base-t
+  - name: port22
+    type: 1000base-t
+  - name: port23
+    type: 1000base-t
+  - name: port24
+    type: 1000base-t
+  - name: port25
+    type: 1000base-t
+  - name: port26
+    type: 1000base-t
+  - name: port27
+    type: 1000base-t
+  - name: port28
+    type: 1000base-t
+  - name: port29
+    type: 1000base-t
+  - name: port30
+    type: 1000base-t
+  - name: port31
+    type: 1000base-t
+  - name: port32
+    type: 1000base-t
+  - name: port33
+    type: 1000base-t
+  - name: port34
+    type: 1000base-t
+  - name: port35
+    type: 1000base-t
+  - name: port36
+    type: 1000base-t
+  - name: port37
+    type: 1000base-t
+  - name: port38
+    type: 1000base-t
+  - name: port39
+    type: 1000base-t
+  - name: port40
+    type: 1000base-t
+  - name: port41
+    type: 1000base-t
+  - name: port42
+    type: 1000base-t
+  - name: port43
+    type: 1000base-t
+  - name: port44
+    type: 1000base-t
+  - name: port45
+    type: 1000base-t
+  - name: port46
+    type: 1000base-t
+  - name: port47
+    type: 1000base-t
+  - name: port48
+    type: 1000base-t
+  - name: port49
+    type: 1000base-x-sfp
+  - name: port50
+    type: 1000base-x-sfp
+  - name: port51
+    type: 1000base-x-sfp
+  - name: port52
+    type: 1000base-x-sfp
+  - mgmt_only: true
+    name: mgmt
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Fortinet
+  model: FortiSwitch 248E-FPOE
+  part_number: FS-248E-FPOE
+  power-ports:
+  - allocated_draw: 842
+    maximum_draw: 855
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 842
+    maximum_draw: 855
+    name: RPScon
+    type: dc-terminal
+  slug: fortinet-fs-248e-fpoe
+  u_height: 1
+  weight: 13.44
+  weight_unit: lb

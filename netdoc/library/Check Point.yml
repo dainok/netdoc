@@ -1,0 +1,154 @@
+keywords:
+- SG3600
+- CPAP-SG3600-SNBT
+- SG6400
+- CPAP-SG6400-SNBT
+- SG23800
+- CPAP-SG23800
+- Rack Mount kit for the 1500, 3600 and 3800 Security Gateways
+- CPAC-1500/3600/3800-RM-DUAL
+models:
+- console-ports:
+  - label: CONSOLE
+    name: ttyS0
+    type: rj-45
+  - label: CONSOLE
+    name: ttyS1
+    type: usb-c
+  interfaces:
+  - label: '1'
+    name: eth1
+    type: 1000base-t
+  - label: '2'
+    name: eth2
+    type: 1000base-t
+  - label: '3'
+    name: eth3
+    type: 1000base-t
+  - label: '4'
+    name: eth4
+    type: 1000base-t
+  - label: '5'
+    name: eth5
+    type: 1000base-t
+  - label: MGMT
+    name: Mgmt
+    type: 1000base-t
+  - label: LOM
+    mgmt_only: true
+    name: lom
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Check Point
+  model: SG3600
+  part_number: CPAP-SG3600-SNBT
+  power-ports:
+  - name: PS1
+    type: dc-terminal
+  - name: PS2
+    type: dc-terminal
+  slug: sg3600
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - label: CONSOLE
+    name: ttyS0
+    type: rj-45
+  - label: CONSOLE
+    name: ttyS1
+    type: usb-c
+  interfaces:
+  - label: '1'
+    name: eth1
+    type: 1000base-t
+  - label: '2'
+    name: eth2
+    type: 1000base-t
+  - label: '3'
+    name: eth3
+    type: 1000base-t
+  - label: '4'
+    name: eth4
+    type: 1000base-t
+  - label: '5'
+    name: eth5
+    type: 1000base-t
+  - label: '6'
+    name: eth6
+    type: 1000base-t
+  - label: '7'
+    name: eth7
+    type: 1000base-t
+  - label: '8'
+    name: eth8
+    type: 1000base-t
+  - label: SYNC
+    name: Sync
+    type: 1000base-t
+  - label: MGMT
+    name: Mgmt
+    type: 1000base-t
+  - label: LOM
+    mgmt_only: true
+    name: lom
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Check Point
+  model: SG6400
+  module-bays:
+  - name: Line card 1
+  part_number: CPAP-SG6400-SNBT
+  power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  - name: PS2
+    type: iec-60320-c14
+  slug: sg6400
+  subdevice_role: parent
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: LOM
+    type: 1000base-t
+  - mgmt_only: true
+    name: MGMT
+    type: 1000base-t
+  - name: SYNC
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Check Point
+  model: SG23800
+  module-bays:
+  - name: '1'
+    position: '1'
+  - name: '2'
+    position: '2'
+  - name: '3'
+    position: '3'
+  - name: '4'
+    position: '4'
+  - name: '5'
+    position: '5'
+  part_number: CPAP-SG23800
+  power-ports:
+  - maximum_draw: 394
+    name: PSU0
+    type: iec-60320-c14
+  - maximum_draw: 394
+    name: PSU1
+    type: iec-60320-c14
+  slug: cpap-sg23800
+  u_height: 2.0
+- device-bays:
+  - name: Left
+  - name: Right
+  is_full_depth: false
+  manufacturer: Check Point
+  model: Rack Mount kit for the 1500, 3600 and 3800 Security Gateways
+  part_number: CPAC-1500/3600/3800-RM-DUAL
+  slug: cpac-1500_3600_3800-rm-dual
+  subdevice_role: parent
+  u_height: 1

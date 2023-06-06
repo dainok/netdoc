@@ -1,0 +1,55 @@
+---
+# Set on GitHub -> Settings -> Secrets and variables -> Actions -> Secrets:
+#   - SECRET_TOKEN: GitHub token set on
+#     Users -> Settings -> Developer settings -> Personal access tokens (classic)
+#     select repo scope
+#   - PYPI_USERNAME: PyPI username
+#   - PYPI_PASSWORD: PyPI password
+# Set on GitHub -> Settings -> Environments:
+#   - add users who can review/approve on environment "release"
+name: "CD"
+concurrency:
+  # Cancel any existing runs of this workflow for this same PR
+  group: "${{ github.workflow }}-${{ github.ref }}"
+  cancel-in-progress: true
+on:
+  pull_request:
+    types: [ closed ]
+
+jobs:
+
+  release:
+    # Run only if the PR has been merged
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    environment: release
+    steps:
+      - name: "Setup Python3"
+        uses: actions/setup-python@v3
+      - name: "Install Twine"
+        run: pip install twine
+      - name: "Check out repository code"
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: "0"
+      - run: ls
+      - name: "Bump tag"
+        id: tag
+        uses: anothrNick/github-tag-action@1.66.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}
+          INITIAL_VERSION: 0.0.2
+          RELEASE_BRANCHES: master
+          DEFAULT_BUMP: patch
+          VERBOSE: false
+          BRANCH_HISTORY: last
+      - name: "Set new version"
+        run: sed -i "s/0.0.1-dev1/${{steps.tag.outputs.new_tag}}/" setup.py */__init__.py
+      - name: "Building the package"
+        run: "python3 setup.py sdist"
+      - name: "Publish to PyPI"
+        run: "twine upload dist/*"
+        env:
+          TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
+          TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}

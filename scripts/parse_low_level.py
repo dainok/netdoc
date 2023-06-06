@@ -1,0 +1,18 @@
+"""Parse a Netmiko log using low level functions.
+
+Usage:
+/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < parse_low_level.py
+"""
+import pprint
+from netmiko.utilities import get_structured_data
+
+from netdoc.models import DiscoveryLog
+
+LOG_ID = 3345  # DiscoveryLog ID
+
+log = DiscoveryLog.objects.get(id=LOG_ID)
+platform = "_".join(  # pylint: disable=invalid-name
+    log.discoverable.mode.split("_")[1:]
+)
+parsed_output = get_structured_data(log.raw_output, platform, log.template)
+pprint.pprint(parsed_output)

@@ -1,0 +1,20 @@
+keywords:
+- Jetson Xavier NX Developer Kit
+models:
+- comments: '[Jetson Xavier NX Developer Kit website](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/)'
+  console-ports:
+  - name: HDMI
+    type: other
+  - name: Display Port
+    type: other
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Nvidia
+  model: Jetson Xavier NX Developer Kit
+  power-ports:
+  - name: PSU
+    type: dc-terminal
+  slug: jetson-xavier-nx-developer-kit
+  u_height: 0

@@ -1,0 +1,16 @@
+{
+    "configuration": false,
+    "details": {
+        "command": "show interfaces trunk",
+        "enable": true,
+        "order": 128,
+        "supported": false,
+        "template": "show interfaces trunk"
+    },
+    "discoverable__mode": "netmiko_cisco_ios",
+    "ingested": false,
+    "parsed": false,
+    "parsed_output": "",
+    "raw_output": "",
+    "success": true
+}

@@ -1,0 +1,1199 @@
+keywords:
+- PA-500
+- PA-500
+- PA-5250
+- PA-5250
+- PA-3220
+- PA-3220
+- PA-220
+- PA-220
+- PA-3020
+- PA-3020
+- PA-7080
+- PA-7080
+- PA-5050
+- PA-5050
+- PA-3050
+- PA-3050
+- PA-5260
+- PA-5260
+- PA-5060
+- PA-5060
+- PA-3260
+- PA-3260
+- PA-5220
+- PA-5220
+- PA-820
+- PA-820
+- PA-3250
+- PA-3250
+- PA-3060
+- PA-3060
+- M-100
+- M-100
+- M-500
+- M-500
+- PA-200
+- PA-200
+- PA-850
+- PA-850
+- PA-5280
+- PA-5280
+models:
+- comments: '[PA-500 Series Datasheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-500-specsheet)'
+  console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  - name: loopback
+    type: virtual
+  is_full_depth: false
+  manufacturer: Palo Alto
+  model: PA-500
+  part_number: PA-500
+  power-ports:
+  - allocated_draw: 40
+    maximum_draw: 75
+    name: PS1
+    type: iec-60320-c14
+  slug: pa-500
+  u_height: 1
+- console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - name: ethernet1/1
+    type: 10gbase-t
+  - name: ethernet1/2
+    type: 10gbase-t
+  - name: ethernet1/3
+    type: 10gbase-t
+  - name: ethernet1/4
+    type: 10gbase-t
+  - name: ethernet1/5
+    type: 10gbase-x-sfpp
+  - name: ethernet1/6
+    type: 10gbase-x-sfpp
+  - name: ethernet1/7
+    type: 10gbase-x-sfpp
+  - name: ethernet1/8
+    type: 10gbase-x-sfpp
+  - name: ethernet1/9
+    type: 10gbase-x-sfpp
+  - name: ethernet1/10
+    type: 10gbase-x-sfpp
+  - name: ethernet1/11
+    type: 10gbase-x-sfpp
+  - name: ethernet1/12
+    type: 10gbase-x-sfpp
+  - name: ethernet1/13
+    type: 10gbase-x-sfpp
+  - name: ethernet1/14
+    type: 10gbase-x-sfpp
+  - name: ethernet1/15
+    type: 10gbase-x-sfpp
+  - name: ethernet1/16
+    type: 10gbase-x-sfpp
+  - name: ethernet1/17
+    type: 10gbase-x-sfpp
+  - name: ethernet1/18
+    type: 10gbase-x-sfpp
+  - name: ethernet1/19
+    type: 10gbase-x-sfpp
+  - name: ethernet1/20
+    type: 10gbase-x-sfpp
+  - name: ethernet1/21
+    type: 100gbase-x-qsfp28
+  - name: ethernet1/22
+    type: 100gbase-x-qsfp28
+  - name: ethernet1/23
+    type: 100gbase-x-qsfp28
+  - name: ethernet1/24
+    type: 100gbase-x-qsfp28
+  - name: aux-1
+    type: 10gbase-x-sfpp
+  - name: aux-2
+    type: 10gbase-x-sfpp
+  - name: ha1-a
+    type: 1000base-t
+  - name: ha1-b
+    type: 1000base-t
+  - name: hsci
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Palo Alto
+  model: PA-5250
+  part_number: PA-5250
+  power-ports:
+  - allocated_draw: 571
+    maximum_draw: 685
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 571
+    maximum_draw: 685
+    name: PS2
+    type: iec-60320-c14
+  slug: pa-5250
+  u_height: 3
+- console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: ethernet1/9
+    type: 1000base-t
+  - name: ethernet1/10
+    type: 1000base-t
+  - name: ethernet1/11
+    type: 1000base-t
+  - name: ethernet1/12
+    type: 1000base-t
+  - name: ethernet1/13
+    type: 1000base-x-sfp
+  - name: ethernet1/14
+    type: 1000base-x-sfp
+  - name: ethernet1/15
+    type: 1000base-x-sfp
+  - name: ethernet1/16
+    type: 1000base-x-sfp
+  - name: ethernet1/17
+    type: 10gbase-x-sfpp
+  - name: ethernet1/18
+    type: 10gbase-x-sfpp
+  - name: ethernet1/19
+    type: 10gbase-x-sfpp
+  - name: ethernet1/20
+    type: 10gbase-x-sfpp
+  - name: ha1-a
+    type: 1000base-t
+  - name: ha1-b
+    type: 1000base-t
+  - name: hsci
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Palo Alto
+  model: PA-3220
+  part_number: PA-3220
+  power-ports:
+  - allocated_draw: 240
+    maximum_draw: 650
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 240
+    maximum_draw: 650
+    name: PS2
+    type: iec-60320-c14
+  slug: pa-3220
+  u_height: 2
+- comments: '[PA-220 Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-220-specsheet)'
+  console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: loopback
+    type: virtual
+  is_full_depth: false
+  manufacturer: Palo Alto
+  model: PA-220
+  part_number: PA-220
+  power-ports:
+  - name: PS1
+    type: nema-1-15p
+  - name: PS2
+    type: nema-1-15p
+  slug: pa-220
+  u_height: 1
+- comments: '[PA-3020 Datasheet](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf)'
+  console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  - name: ha1
+    type: 1000base-t
+  - name: ha2
+    type: 1000base-t
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: ethernet1/9
+    type: 1000base-t
+  - name: ethernet1/10
+    type: 1000base-t
+  - name: ethernet1/11
+    type: 1000base-t
+  - name: ethernet1/12
+    type: 1000base-t
+  - name: ethernet1/13
+    type: 1000base-x-sfp
+  - name: ethernet1/14
+    type: 1000base-x-sfp
+  - name: ethernet1/15
+    type: 1000base-x-sfp
+  - name: ethernet1/16
+    type: 1000base-x-sfp
+  - name: ethernet1/17
+    type: 1000base-x-sfp
+  - name: ethernet1/18
+    type: 1000base-x-sfp
+  - name: ethernet1/19
+    type: 1000base-x-sfp
+  - name: ethernet1/20
+    type: 1000base-x-sfp
+  - name: loopback
+    type: virtual
+  is_full_depth: false
+  manufacturer: Palo Alto
+  model: PA-3020
+  part_number: PA-3020
+  power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  slug: pa-3020
+  u_height: 1
+- console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  - name: ha1-a
+    type: 1000base-t
+  - name: ha1-b
+    type: 1000base-t
+  - name: hsci
+    type: 10gbase-x-sfpp
+  is_full_depth: true
+  manufacturer: Palo Alto
+  model: PA-7080
+  part_number: PA-7080
+  power-ports:
+  - name: PS1
+    type: iec-60320-c20
+  - name: PS2
+    type: iec-60320-c20
+  - name: PS3
+    type: iec-60320-c20
+  - name: PS4
+    type: iec-60320-c20
+  - name: PS5
+    type: iec-60320-c20
+  - name: PS6
+    type: iec-60320-c20
+  - name: PS7
+    type: iec-60320-c20
+  - name: PS8
+    type: iec-60320-c20
+  slug: pa-7080
+  u_height: 19
+- comments: '[PA-5000 Series Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-5000-series-specsheet)'
+  console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  - name: dedicated-ha1
+    type: 1000base-t
+  - name: dedicated-ha2
+    type: 1000base-t
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: ethernet1/9
+    type: 1000base-t
+  - name: ethernet1/10
+    type: 1000base-t
+  - name: ethernet1/11
+    type: 1000base-t
+  - name: ethernet1/12
+    type: 1000base-t
+  - name: ethernet1/13
+    type: 1000base-x-sfp
+  - name: ethernet1/14
+    type: 1000base-x-sfp
+  - name: ethernet1/15
+    type: 1000base-x-sfp
+  - name: ethernet1/16
+    type: 1000base-x-sfp
+  - name: ethernet1/17
+    type: 1000base-x-sfp
+  - name: ethernet1/18
+    type: 1000base-x-sfp
+  - name: ethernet1/19
+    type: 1000base-x-sfp
+  - name: ethernet1/20
+    type: 1000base-x-sfp
+  - name: ethernet1/21
+    type: 10gbase-x-sfpp
+  - name: ethernet1/22
+    type: 10gbase-x-sfpp
+  - name: ethernet1/23
+    type: 10gbase-x-sfpp
+  - name: ethernet1/24
+    type: 10gbase-x-sfpp
+  - name: loopback
+    type: virtual
+  is_full_depth: true
+  manufacturer: Palo Alto
+  model: PA-5050
+  part_number: PA-5050
+  power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  - name: PS2
+    type: iec-60320-c14
+  slug: pa-5050
+  u_height: 2
+- comments: '[PA-3000 Series Datasheet](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf)'
+  console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: ethernet1/9
+    type: 1000base-t
+  - name: ethernet1/10
+    type: 1000base-t
+  - name: ethernet1/11
+    type: 1000base-t
+  - name: ethernet1/12
+    type: 1000base-t
+  - name: ethernet1/13
+    type: 1000base-x-sfp
+  - name: ethernet1/14
+    type: 1000base-x-sfp
+  - name: ethernet1/15
+    type: 1000base-x-sfp
+  - name: ethernet1/16
+    type: 1000base-x-sfp
+  - name: ethernet1/17
+    type: 1000base-x-sfp
+  - name: ethernet1/18
+    type: 1000base-x-sfp
+  - name: ethernet1/19
+    type: 1000base-x-sfp
+  - name: ethernet1/20
+    type: 1000base-x-sfp
+  - name: dedicated-ha1
+    type: 1000base-t
+  - name: dedicated-ha2
+    type: 1000base-t
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  - name: loopback
+    type: virtual
+  is_full_depth: false
+  manufacturer: Palo Alto
+  model: PA-3050
+  part_number: PA-3050
+  power-ports:
+  - allocated_draw: 150
+    maximum_draw: 200
+    name: PS1
+    type: iec-60320-c14
+  slug: pa-3050
+  u_height: 1
+- console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - name: ethernet1/1
+    type: 10gbase-t
+  - name: ethernet1/2
+    type: 10gbase-t
+  - name: ethernet1/3
+    type: 10gbase-t
+  - name: ethernet1/4
+    type: 10gbase-t
+  - name: ethernet1/5
+    type: 10gbase-x-sfpp
+  - name: ethernet1/6
+    type: 10gbase-x-sfpp
+  - name: ethernet1/7
+    type: 10gbase-x-sfpp
+  - name: ethernet1/8
+    type: 10gbase-x-sfpp
+  - name: ethernet1/9
+    type: 10gbase-x-sfpp
+  - name: ethernet1/10
+    type: 10gbase-x-sfpp
+  - name: ethernet1/11
+    type: 10gbase-x-sfpp
+  - name: ethernet1/12
+    type: 10gbase-x-sfpp
+  - name: ethernet1/13
+    type: 10gbase-x-sfpp
+  - name: ethernet1/14
+    type: 10gbase-x-sfpp
+  - name: ethernet1/15
+    type: 10gbase-x-sfpp
+  - name: ethernet1/16
+    type: 10gbase-x-sfpp
+  - name: ethernet1/17
+    type: 10gbase-x-sfpp
+  - name: ethernet1/18
+    type: 10gbase-x-sfpp
+  - name: ethernet1/19
+    type: 10gbase-x-sfpp
+  - name: ethernet1/20
+    type: 10gbase-x-sfpp
+  - name: ethernet1/21
+    type: 100gbase-x-qsfp28
+  - name: ethernet1/22
+    type: 100gbase-x-qsfp28
+  - name: ethernet1/23
+    type: 100gbase-x-qsfp28
+  - name: ethernet1/24
+    type: 100gbase-x-qsfp28
+  - name: aux-1
+    type: 10gbase-x-sfpp
+  - name: aux-2
+    type: 10gbase-x-sfpp
+  - name: ha1-a
+    type: 1000base-t
+  - name: ha1-b
+    type: 1000base-t
+  - name: hsci
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Palo Alto
+  model: PA-5260
+  part_number: PA-5260
+  power-ports:
+  - allocated_draw: 571
+    maximum_draw: 685
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 571
+    maximum_draw: 685
+    name: PS2
+    type: iec-60320-c14
+  slug: pa-5260
+  u_height: 3
+- comments: '[PA-5000 Series Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-5000-series-specsheet)'
+  console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  - name: dedicated-ha1
+    type: 1000base-t
+  - name: dedicated-ha2
+    type: 1000base-t
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: ethernet1/9
+    type: 1000base-t
+  - name: ethernet1/10
+    type: 1000base-t
+  - name: ethernet1/11
+    type: 1000base-t
+  - name: ethernet1/12
+    type: 1000base-t
+  - name: ethernet1/13
+    type: 1000base-x-sfp
+  - name: ethernet1/14
+    type: 1000base-x-sfp
+  - name: ethernet1/15
+    type: 1000base-x-sfp
+  - name: ethernet1/16
+    type: 1000base-x-sfp
+  - name: ethernet1/17
+    type: 1000base-x-sfp
+  - name: ethernet1/18
+    type: 1000base-x-sfp
+  - name: ethernet1/19
+    type: 1000base-x-sfp
+  - name: ethernet1/20
+    type: 1000base-x-sfp
+  - name: ethernet1/21
+    type: 10gbase-x-sfpp
+  - name: ethernet1/22
+    type: 10gbase-x-sfpp
+  - name: ethernet1/23
+    type: 10gbase-x-sfpp
+  - name: ethernet1/24
+    type: 10gbase-x-sfpp
+  - name: loopback
+    type: virtual
+  is_full_depth: true
+  manufacturer: Palo Alto
+  model: PA-5060
+  part_number: PA-5060
+  power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  - name: PS2
+    type: iec-60320-c14
+  slug: pa-5060
+  u_height: 2
+- console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: ethernet1/9
+    type: 1000base-t
+  - name: ethernet1/10
+    type: 1000base-t
+  - name: ethernet1/11
+    type: 1000base-t
+  - name: ethernet1/12
+    type: 1000base-t
+  - name: ethernet1/13
+    type: 10gbase-x-sfpp
+  - name: ethernet1/14
+    type: 10gbase-x-sfpp
+  - name: ethernet1/15
+    type: 10gbase-x-sfpp
+  - name: ethernet1/16
+    type: 10gbase-x-sfpp
+  - name: ethernet1/17
+    type: 10gbase-x-sfpp
+  - name: ethernet1/18
+    type: 10gbase-x-sfpp
+  - name: ethernet1/19
+    type: 10gbase-x-sfpp
+  - name: ethernet1/20
+    type: 10gbase-x-sfpp
+  - name: ethernet1/21
+    type: 40gbase-x-qsfpp
+  - name: ethernet1/22
+    type: 40gbase-x-qsfpp
+  - name: ethernet1/23
+    type: 40gbase-x-qsfpp
+  - name: ethernet1/24
+    type: 40gbase-x-qsfpp
+  - name: ha1-a
+    type: 1000base-t
+  - name: ha1-b
+    type: 1000base-t
+  - name: hsci
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Palo Alto
+  model: PA-3260
+  part_number: PA-3260
+  power-ports:
+  - maximum_draw: 650
+    name: PS1
+    type: iec-60320-c14
+  - maximum_draw: 650
+    name: PS2
+    type: iec-60320-c14
+  slug: pa-3260
+  u_height: 2
+- console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - name: ethernet1/1
+    type: 10gbase-t
+  - name: ethernet1/2
+    type: 10gbase-t
+  - name: ethernet1/3
+    type: 10gbase-t
+  - name: ethernet1/4
+    type: 10gbase-t
+  - name: ethernet1/5
+    type: 10gbase-x-sfpp
+  - name: ethernet1/6
+    type: 10gbase-x-sfpp
+  - name: ethernet1/7
+    type: 10gbase-x-sfpp
+  - name: ethernet1/8
+    type: 10gbase-x-sfpp
+  - name: ethernet1/9
+    type: 10gbase-x-sfpp
+  - name: ethernet1/10
+    type: 10gbase-x-sfpp
+  - name: ethernet1/11
+    type: 10gbase-x-sfpp
+  - name: ethernet1/12
+    type: 10gbase-x-sfpp
+  - name: ethernet1/13
+    type: 10gbase-x-sfpp
+  - name: ethernet1/14
+    type: 10gbase-x-sfpp
+  - name: ethernet1/15
+    type: 10gbase-x-sfpp
+  - name: ethernet1/16
+    type: 10gbase-x-sfpp
+  - name: ethernet1/17
+    type: 10gbase-x-sfpp
+  - name: ethernet1/18
+    type: 10gbase-x-sfpp
+  - name: ethernet1/19
+    type: 10gbase-x-sfpp
+  - name: ethernet1/20
+    type: 10gbase-x-sfpp
+  - name: ethernet1/21
+    type: 40gbase-x-qsfpp
+  - name: ethernet1/22
+    type: 40gbase-x-qsfpp
+  - name: ethernet1/23
+    type: 40gbase-x-qsfpp
+  - name: ethernet1/24
+    type: 40gbase-x-qsfpp
+  - name: aux-1
+    type: 10gbase-x-sfpp
+  - name: aux-2
+    type: 10gbase-x-sfpp
+  - name: ha1-a
+    type: 1000base-t
+  - name: ha1-b
+    type: 1000base-t
+  - name: hsci
+    type: 40gbase-x-qsfpp
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Palo Alto
+  model: PA-5220
+  part_number: PA-5220
+  power-ports:
+  - allocated_draw: 571
+    maximum_draw: 685
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 571
+    maximum_draw: 685
+    name: PS2
+    type: iec-60320-c14
+  slug: pa-5220
+  u_height: 3
+- console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  - name: dedicated-ha1
+    type: 1000base-t
+  - name: dedicated-ha2
+    type: 1000base-t
+  - name: loopback
+    type: virtual
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-x-sfp
+  - name: ethernet1/6
+    type: 1000base-x-sfp
+  - name: ethernet1/7
+    type: 1000base-x-sfp
+  - name: ethernet1/8
+    type: 1000base-x-sfp
+  - name: ethernet1/9
+    type: 1000base-x-sfp
+  - name: ethernet1/10
+    type: 1000base-x-sfp
+  - name: ethernet1/11
+    type: 1000base-x-sfp
+  - name: ethernet1/12
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Palo Alto
+  model: PA-820
+  part_number: PA-820
+  power-ports:
+  - maximum_draw: 200
+    name: PS1
+    type: iec-60320-c14
+  slug: pa-820
+  u_height: 1
+- console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: ethernet1/9
+    type: 1000base-t
+  - name: ethernet1/10
+    type: 1000base-t
+  - name: ethernet1/11
+    type: 1000base-t
+  - name: ethernet1/12
+    type: 1000base-t
+  - name: ethernet1/13
+    type: 1000base-x-sfp
+  - name: ethernet1/14
+    type: 1000base-x-sfp
+  - name: ethernet1/15
+    type: 1000base-x-sfp
+  - name: ethernet1/16
+    type: 1000base-x-sfp
+  - name: ethernet1/17
+    type: 10gbase-x-sfpp
+  - name: ethernet1/18
+    type: 10gbase-x-sfpp
+  - name: ethernet1/19
+    type: 10gbase-x-sfpp
+  - name: ethernet1/20
+    type: 10gbase-x-sfpp
+  - name: ha1-a
+    type: 1000base-t
+  - name: ha1-b
+    type: 1000base-t
+  - name: hsci
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Palo Alto
+  model: PA-3250
+  part_number: PA-3250
+  power-ports:
+  - allocated_draw: 240
+    maximum_draw: 650
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 240
+    maximum_draw: 650
+    name: PS2
+    type: iec-60320-c14
+  slug: pa-3250
+  u_height: 2
+- comments: '[PA-3000 Series Datasheet](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf)'
+  console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: ethernet1/9
+    type: 1000base-x-sfp
+  - name: ethernet1/10
+    type: 1000base-x-sfp
+  - name: ethernet1/11
+    type: 1000base-x-sfp
+  - name: ethernet1/12
+    type: 1000base-x-sfp
+  - name: ethernet1/13
+    type: 1000base-x-sfp
+  - name: ethernet1/14
+    type: 1000base-x-sfp
+  - name: ethernet1/15
+    type: 1000base-x-sfp
+  - name: ethernet1/16
+    type: 1000base-x-sfp
+  - name: ethernet1/17
+    type: 10gbase-x-sfpp
+  - name: ethernet1/18
+    type: 10gbase-x-sfpp
+  - name: dedicated-ha1
+    type: 1000base-t
+  - name: dedicated-ha2
+    type: 1000base-t
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  - name: loopback
+    type: virtual
+  is_full_depth: true
+  manufacturer: Palo Alto
+  model: PA-3060
+  part_number: PA-3060
+  power-ports:
+  - allocated_draw: 160
+    maximum_draw: 200
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 160
+    maximum_draw: 200
+    name: PS2
+    type: iec-60320-c14
+  slug: pa-3060
+  u_height: 2
+- console-ports:
+  - name: console
+    type: de-9
+  interfaces:
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Palo Alto
+  model: M-100
+  part_number: M-100
+  power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  slug: m-100
+  u_height: 1
+- console-ports:
+  - name: console
+    type: de-9
+  interfaces:
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 10gbase-x-sfpp
+  - name: ethernet1/5
+    type: 10gbase-x-sfpp
+  is_full_depth: true
+  manufacturer: Palo Alto
+  model: M-500
+  part_number: M-500
+  power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  - name: PS2
+    type: iec-60320-c14
+  slug: m-500
+  u_height: 2
+- comments: '[PA-200 Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-200-specsheet)'
+  console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: management
+    type: 100base-tx
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: loopback
+    type: virtual
+  is_full_depth: false
+  manufacturer: Palo Alto
+  model: PA-200
+  part_number: PA-200
+  power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  slug: pa-200
+  u_height: 1
+- airflow: front-to-rear
+  comments: '[PA-800 Series Datasheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-800-series-datasheet)'
+  console-ports:
+  - name: console
+    type: rj-45
+  - name: console USB
+    type: usb-micro-b
+  interfaces:
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  - name: dedicated-ha1
+    type: 1000base-t
+  - name: dedicated-ha2
+    type: 1000base-t
+  - name: loopback
+    type: virtual
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-x-sfp
+  - name: ethernet1/6
+    type: 1000base-x-sfp
+  - name: ethernet1/7
+    type: 1000base-x-sfp
+  - name: ethernet1/8
+    type: 1000base-x-sfp
+  - name: ethernet1/9
+    type: 1000base-x-sfp
+  - name: ethernet1/10
+    type: 1000base-x-sfp
+  - name: ethernet1/11
+    type: 1000base-x-sfp
+  - name: ethernet1/12
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Palo Alto
+  model: PA-850
+  module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  part_number: PA-850
+  slug: pa-850
+  u_height: 1
+  weight: 13.5
+  weight_unit: lb
+- console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - name: ethernet1/1
+    type: 10gbase-t
+  - name: ethernet1/2
+    type: 10gbase-t
+  - name: ethernet1/3
+    type: 10gbase-t
+  - name: ethernet1/4
+    type: 10gbase-t
+  - name: ethernet1/5
+    type: 10gbase-x-sfpp
+  - name: ethernet1/6
+    type: 10gbase-x-sfpp
+  - name: ethernet1/7
+    type: 10gbase-x-sfpp
+  - name: ethernet1/8
+    type: 10gbase-x-sfpp
+  - name: ethernet1/9
+    type: 10gbase-x-sfpp
+  - name: ethernet1/10
+    type: 10gbase-x-sfpp
+  - name: ethernet1/11
+    type: 10gbase-x-sfpp
+  - name: ethernet1/12
+    type: 10gbase-x-sfpp
+  - name: ethernet1/13
+    type: 10gbase-x-sfpp
+  - name: ethernet1/14
+    type: 10gbase-x-sfpp
+  - name: ethernet1/15
+    type: 10gbase-x-sfpp
+  - name: ethernet1/16
+    type: 10gbase-x-sfpp
+  - name: ethernet1/17
+    type: 10gbase-x-sfpp
+  - name: ethernet1/18
+    type: 10gbase-x-sfpp
+  - name: ethernet1/19
+    type: 10gbase-x-sfpp
+  - name: ethernet1/20
+    type: 10gbase-x-sfpp
+  - name: ethernet1/21
+    type: 100gbase-x-qsfp28
+  - name: ethernet1/22
+    type: 100gbase-x-qsfp28
+  - name: ethernet1/23
+    type: 100gbase-x-qsfp28
+  - name: ethernet1/24
+    type: 100gbase-x-qsfp28
+  - name: aux-1
+    type: 10gbase-x-sfpp
+  - name: aux-2
+    type: 10gbase-x-sfpp
+  - name: ha1-a
+    type: 1000base-t
+  - name: ha1-b
+    type: 1000base-t
+  - name: hsci
+    type: 100gbase-x-qsfp28
+  - mgmt_only: true
+    name: management
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Palo Alto
+  model: PA-5280
+  part_number: PA-5280
+  power-ports:
+  - allocated_draw: 571
+    maximum_draw: 685
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 571
+    maximum_draw: 685
+    name: PS2
+    type: iec-60320-c14
+  slug: pa-5280
+  u_height: 3

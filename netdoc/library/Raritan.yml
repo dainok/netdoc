@@ -1,0 +1,842 @@
+keywords:
+- PX3-5724V
+- PX3-5724V
+- PX2-2493
+- PX2-2493
+- PX3-5497V
+- PX3-5497V
+- PX3-5870V
+- PX3-5870V
+- PX3-5664U
+- PX3-5664U
+- PX3TS-5184CR
+- PX3TS-5184CR
+- PX3-5469R
+- PX3-5469R
+models:
+- comments: Rack PDU, Metered, Remote Switching, ZeroU, 8.6kVA, 208V, (24) C13 & (12)
+    C19
+  console-ports:
+  - name: Serial
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: Eth1
+    type: 1000base-t
+  - mgmt_only: true
+    name: Eth2
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Raritan
+  model: PX3-5724V
+  part_number: PX3-5724V
+  power-outlets:
+  - feed_leg: A
+    label: '1'
+    name: Outlet1
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    label: '2'
+    name: Outlet2
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    label: '3'
+    name: Outlet3
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    label: '4'
+    name: Outlet4
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    label: '5'
+    name: Outlet5
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    label: '6'
+    name: Outlet6
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    label: '7'
+    name: Outlet7
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    label: '8'
+    name: Outlet8
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    label: '9'
+    name: Outlet9
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    label: '10'
+    name: Outlet10
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    label: '11'
+    name: Outlet11
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    label: '12'
+    name: Outlet12
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    label: '13'
+    name: Outlet13
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: B
+    label: '14'
+    name: Outlet14
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: B
+    label: '15'
+    name: Outlet15
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    label: '16'
+    name: Outlet16
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    label: '17'
+    name: Outlet17
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    label: '18'
+    name: Outlet18
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    label: '19'
+    name: Outlet19
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: B
+    label: '20'
+    name: Outlet20
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: B
+    label: '21'
+    name: Outlet21
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    label: '22'
+    name: Outlet22
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    label: '23'
+    name: Outlet23
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    label: '24'
+    name: Outlet24
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    label: '25'
+    name: Outlet25
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: C
+    label: '26'
+    name: Outlet26
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: C
+    label: '27'
+    name: Outlet27
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    label: '28'
+    name: Outlet28
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    label: '29'
+    name: Outlet29
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    label: '30'
+    name: Outlet30
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    label: '31'
+    name: Outlet31
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: C
+    label: '32'
+    name: Outlet32
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: C
+    label: '33'
+    name: Outlet33
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    label: '34'
+    name: Outlet34
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    label: '35'
+    name: Outlet35
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    label: '36'
+    name: Outlet36
+    power_port: Inlet1
+    type: iec-60320-c13
+  power-ports:
+  - name: Inlet1
+    type: nema-l15-30p
+  slug: px3-5724v
+  u_height: 0
+- interfaces:
+  - mgmt_only: true
+    name: mgmt
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Raritan
+  model: PX2-2493
+  part_number: PX2-2493
+  power-outlets:
+  - name: Outlet 1
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 2
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 3
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 4
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 5
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 6
+    power_port: Inlet
+    type: iec-60320-c19
+  - name: Outlet 7
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 8
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 9
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 10
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 11
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 12
+    power_port: Inlet
+    type: iec-60320-c19
+  - name: Outlet 13
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 14
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 15
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 16
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 17
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 18
+    power_port: Inlet
+    type: iec-60320-c19
+  - name: Outlet 19
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 20
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 21
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 22
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 23
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 24
+    power_port: Inlet
+    type: iec-60320-c19
+  power-ports:
+  - name: Inlet
+    type: iec-60309-p-n-e-6h
+  slug: px2-2493
+  u_height: 0
+- comments: Rack PDU, Metered, Remote Switching, ZeroU, 5kVA, 208V, (20) C13 & (4)
+    C19
+  console-ports:
+  - name: Serial
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: Eth1
+    type: 1000base-t
+  - mgmt_only: true
+    name: Eth2
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Raritan
+  model: PX3-5497V
+  part_number: PX3-5497V
+  power-outlets:
+  - feed_leg: A
+    name: Outlet1
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet2
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet3
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet4
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet5
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet6
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Outlet7
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet8
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet9
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet10
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet11
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet12
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: B
+    name: Outlet13
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet14
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet15
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet16
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet17
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet18
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: B
+    name: Outlet19
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet20
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: C
+    name: Outlet21
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    name: Outlet22
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    name: Outlet23
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    name: Outlet24
+    power_port: Inlet1
+    type: iec-60320-c19
+  power-ports:
+  - name: Inlet1
+    type: nema-l6-30p
+  slug: px3-5497v
+  u_height: 0
+- comments: Rack PDU, Metered, Remote Switching, ZeroU, 8.6kVA, 208V, (24) C13 & (6)
+    C19
+  console-ports:
+  - name: Serial
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: Eth1
+    type: 1000base-t
+  - mgmt_only: true
+    name: Eth2
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Raritan
+  model: PX3-5870V
+  part_number: PX3-5870V
+  power-outlets:
+  - feed_leg: A
+    name: Outlet1
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Outlet2
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet3
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet4
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet5
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet6
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Outlet7
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet8
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet9
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet10
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet11
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Outlet12
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet13
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet14
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet15
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet16
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Outlet17
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet18
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet19
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet20
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet21
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Outlet22
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet23
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet24
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet25
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet26
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Outlet27
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet28
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet29
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet30
+    power_port: Inlet1
+    type: iec-60320-c13
+  power-ports:
+  - name: Inlet1
+    type: nema-l6-30p
+  slug: px3-5870v
+  u_height: 0
+- comments: Rack PDU, Metered, Remote Switching, ZeroU, 5kVA, 208V, (24) C13 & (6)
+    C19
+  console-ports:
+  - name: Serial
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: Eth1
+    type: 1000base-t
+  - mgmt_only: true
+    name: Eth2
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Raritan
+  model: PX3-5664U
+  part_number: PX3-5664U
+  power-outlets:
+  - feed_leg: A
+    name: Outlet1
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet2
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet3
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet4
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet5
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Outlet6
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet7
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet8
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet9
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet10
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: B
+    name: Outlet11
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet12
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet13
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet14
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet15
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: B
+    name: Outlet16
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet17
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet18
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet19
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Outlet20
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: C
+    name: Outlet21
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    name: Outlet22
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    name: Outlet23
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    name: Outlet24
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    name: Outlet25
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: C
+    name: Outlet26
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    name: Outlet27
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    name: Outlet28
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    name: Outlet29
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: C
+    name: Outlet30
+    power_port: Inlet1
+    type: iec-60320-c19
+  power-ports:
+  - name: Inlet1
+    type: nema-l21-30p
+  slug: px3-5664u
+  u_height: 0
+- comments: '[Rack Transfer Switch PDU, Metered, Remote Switching, (7) C13 & (1) C19](https://www.raritan.com/assets/ram/resources/data_sheets/raritan-ds-rack-transfer-switch.pdf)'
+  console-ports:
+  - name: Serial
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: Eth1
+    type: 1000base-t
+  - mgmt_only: true
+    name: Eth2
+    type: 100base-tx
+  is_full_depth: true
+  manufacturer: Raritan
+  model: PX3TS-5184CR
+  part_number: PX3TS-5184CR
+  power-outlets:
+  - feed_leg: A
+    name: Outlet1
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Outlet2
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet3
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet4
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet5
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet6
+    power_port: Inlet1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Outlet7
+    power_port: Inlet1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Outlet8
+    power_port: Inlet1
+    type: iec-60320-c13
+  power-ports:
+  - name: Inlet1
+    type: iec-60320-c20
+  - name: Inlet2
+    type: iec-60320-c20
+  slug: px3ts-5184cr
+  u_height: 1
+- comments: Rack PDU, Metered, Remote Switching, 7.4kVA, 230V, (16) C13 & (4) C19
+  console-ports:
+  - name: Serial
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: Eth1
+    type: 1000base-t
+  - mgmt_only: true
+    name: Eth2
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Raritan
+  model: PX3-5469R
+  part_number: PX3-5469R
+  power-outlets:
+  - name: Outlet 1
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 2
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 3
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 4
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 5
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 6
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 7
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 8
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 9
+    power_port: Inlet I1
+    type: iec-60320-c19
+  - name: Outlet 10
+    power_port: Inlet I1
+    type: iec-60320-c19
+  - name: Outlet 11
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 12
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 13
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 14
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 15
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 16
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 17
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 18
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Outlet 19
+    power_port: Inlet I1
+    type: iec-60320-c19
+  - name: Outlet 20
+    power_port: Inlet I1
+    type: iec-60320-c19
+  power-ports:
+  - name: Inlet I1
+    type: iec-60309-2p-e-6h
+  slug: px3-5469r
+  u_height: 2

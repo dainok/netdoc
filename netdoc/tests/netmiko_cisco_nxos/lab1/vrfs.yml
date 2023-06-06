@@ -1,0 +1,7 @@
+---
+- name: blue
+  rd: null
+- name: red
+  rd: null
+- name: management
+  rd: null

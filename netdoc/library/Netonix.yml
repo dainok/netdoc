@@ -1,0 +1,110 @@
+keywords:
+- WS-24-400A
+- WS-12-250-AC
+models:
+- console-ports:
+  - name: Console
+    type: de-9
+  interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+  - name: '9'
+    type: 1000base-t
+  - name: '10'
+    type: 1000base-t
+  - name: '11'
+    type: 1000base-t
+  - name: '12'
+    type: 1000base-t
+  - name: '13'
+    type: 1000base-t
+  - name: '14'
+    type: 1000base-t
+  - name: '15'
+    type: 1000base-t
+  - name: '16'
+    type: 1000base-t
+  - name: '17'
+    type: 1000base-t
+  - name: '18'
+    type: 1000base-t
+  - name: '19'
+    type: 1000base-t
+  - name: '20'
+    type: 1000base-t
+  - name: '21'
+    type: 1000base-x-sfp
+  - name: '22'
+    type: 1000base-x-sfp
+  - name: '23'
+    type: 1000base-x-sfp
+  - name: '24'
+    type: 1000base-x-sfp
+  - name: '25'
+    type: 1000base-x-sfp
+  - name: '26'
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Netonix
+  model: WS-24-400A
+  power-ports:
+  - maximum_draw: 400
+    name: PSU1
+    type: iec-60320-c14
+  slug: ws-24-400a
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: de-9
+  interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+  - name: '9'
+    type: 1000base-t
+  - name: '10'
+    type: 1000base-t
+  - name: '11'
+    type: 1000base-t
+  - name: '12'
+    type: 1000base-t
+  - name: '13'
+    type: 1000base-x-sfp
+  - name: '14'
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Netonix
+  model: WS-12-250-AC
+  power-ports:
+  - maximum_draw: 250
+    name: psu1
+    type: iec-60320-c14
+  slug: ws12-250-ac
+  u_height: 1

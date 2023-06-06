@@ -1,0 +1,8 @@
+[MAIN]
+
+; init-hook="from os.path import abspath; sys.path.append(os.path.abspath('../netbox/netbox'));"
+init-hook="from pylint.config import find_pylintrc; import os, sys; sys.path.append(os.path.dirname(find_pylintrc())); sys.path.append(os.path.abspath('../netbox/netbox'));"
+
+[MESSAGES CONTROL]
+disable=similarities,R0903,R0901,R0913,R0914,R0912,R0911,R0915,R1702
+ignore=migrations

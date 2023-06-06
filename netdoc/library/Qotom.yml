@@ -1,0 +1,23 @@
+keywords:
+- Q330G4
+models:
+- console-ports:
+  - name: Console
+    type: de-9
+  interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Ethernet 3
+    type: 1000base-t
+  - name: Ethernet 4
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Qotom
+  model: Q330G4
+  power-ports:
+  - name: Power
+    type: nema-5-15p
+  slug: q330g4
+  u_height: 0

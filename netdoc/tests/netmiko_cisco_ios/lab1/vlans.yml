@@ -1,0 +1,13 @@
+---
+- vid: 1
+  name: default
+- vid: 100
+  name: P2P
+- vid: 1002
+  name: fddi-default
+- vid: 1003
+  name: token-ring-default
+- vid: 1004
+  name: fddinet-default
+- vid: 1005
+  name: trnet-default

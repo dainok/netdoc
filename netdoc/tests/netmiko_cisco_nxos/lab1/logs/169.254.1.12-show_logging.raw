@@ -1,0 +1,299 @@
+
+Logging console:                enabled (Severity: critical)
+Logging monitor:                enabled (Severity: notifications)
+Logging linecard:               enabled (Severity: notifications)
+Logging timestamp:              Seconds
+Logging source-interface :      disabled
+Logging rate-limit:             enabled
+Logging server:                 disabled
+Logging origin_id :             disabled
+Logging RFC :                   disabled
+Logging logflash:               enabled (Severity: notifications)(threshold percentage: 0)
+Logging logfile:                enabled
+        Name - messages: Severity - notifications Size - 4194304
+
+
+Facility        Default Severity        Current Session Severity
+--------        ----------------        ------------------------
+aaa                     3                       3
+acllog                  2                       2
+aclmgr                  3                       3
+aclqos                  5                       5
+adbm                    2                       2
+arp                     3                       3
+auth                    0                       0
+authpriv                3                       3
+bootvar                 5                       5
+callhome                2                       2
+capability              2                       2
+cdp                     2                       2
+cert_enroll             2                       2
+cfs                     3                       3
+clis                    3                       3
+clk_mgr                 2                       2
+confcheck               2                       2
+copp                    2                       2
+core-dmon               3                       3
+cron                    3                       3
+daemon                  3                       3
+device_test             3                       3
+dhclient                2                       2
+diag_port_lb            2                       2
+diagclient              2                       2
+diagmgr                 2                       2
+ecp                     5                       5
+eltm                    2                       2
+eth_port_channel        5                       5
+ethpm                   5                       5
+evmc                    5                       5
+evms                    2                       2
+feature-mgr             2                       2
+fs-daemon               2                       2
+ftp                     3                       3
+hsrp_engine             3                       3
+icam                    5                       5
+ifmgr                   5                       5
+igmp_1                  5                       5
+interface-vlan          2                       2
+ip                      3                       3
+ipfib                   2                       2
+ipqosmgr                4                       4
+ipv6                    3                       3
+kern                    3                       3
+l2fm                    2                       2
+l2pt                    3                       3
+l3vm                    5                       5
+lacp                    2                       2
+licmgr                  6                       6
+lldp                    2                       2
+local0                  3                       3
+local1                  3                       3
+local2                  3                       3
+local3                  3                       3
+local4                  3                       3
+local5                  3                       3
+local6                  3                       3
+local7                  3                       3
+lpr                     3                       3
+m2rib                   2                       2
+m6rib                   5                       5
+mail                    3                       3
+mcm                     2                       2
+mfdm                    2                       2
+mmode                   2                       2
+module                  5                       5
+monitor                 3                       3
+mrib                    5                       5
+mvsh                    2                       2
+news                    3                       3
+ntp                     2                       2
+ospf_1                  5                       5
+otm                     3                       3
+pfstat                  2                       2
+pixm_gl                 4                       4
+pixm_vl                 4                       4
+platform                5                       5
+plcmgr                  2                       2
+plugin                  2                       2
+port-profile            2                       2
+radius                  3                       3
+res_mgr                 5                       5
+rpm                     5                       5
+sal                     2                       2
+securityd               3                       3
+sksd                    3                       3
+smm                     4                       4
+snmpd                   2                       2
+span                    3                       3
+spm                     2                       2
+stp                     3                       3
+syslog                  3                       3
+sysmgr                  3                       3
+tamnw                   2                       2
+template_manager        2                       2
+u6rib                   5                       5
+ufdm                    3                       3
+urib                    5                       5
+user                    3                       3
+uucp                    3                       3
+vdc_mgr                 6                       6
+virtual-service         5                       5
+vlan_mgr                2                       2
+vpc                     2                       2
+vshd                    5                       5
+xbar                    5                       5
+xmlma                   3                       3
+
+0(emergencies)          1(alerts)       2(critical)
+3(errors)               4(warnings)     5(notifications)
+6(information)          7(debugging
+
+
+2023 Apr 26 10:34:04 NXOS12  %USER-2-SYSTEM_MSG: <<%USBHSD-2-MOUNT>> logflash: online  - usbhsd
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [   35.310064] psdev: Drop pkt received on veth-fab-sup, h_proto 86dd, skb_protocol_get_inb is null - kernel
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [   35.986791] psdev: Drop pkt received on veth-fab-sup, h_proto 86dd, skb_protocol_get_inb is null - kernel
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [   36.293514] psdev: Drop pkt received on veth-fab-sup, h_proto 86dd, skb_protocol_get_inb is null - kernel
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [   37.377144] psdev: Drop pkt received on veth-fab-sup, h_proto 86dd, skb_protocol_get_inb is null - kernel
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [   37.377188] psdev: Drop pkt received on veth-fab-sup, h_proto 86dd, skb_protocol_get_inb is null - kernel
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [   38.096710] psdev: Drop pkt received on veth-fab-sup, h_proto 86dd, skb_protocol_get_inb is null - kernel
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [   41.383455] psdev: Drop pkt received on veth-fab-sup, h_proto 86dd, skb_protocol_get_inb is null - kernel
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [   45.396711] psdev: Drop pkt received on veth-fab-sup, h_proto 86dd, skb_protocol_get_inb is null - kernel
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [  107.234754] sysconf checkum failed expected 30 Got 0   - kernel
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [  107.234754]  read_from_sysconf: No Valid sysconf - kernel
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [  107.246248] sysconf checkum failed expected 30 Got 0   - kernel
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [  107.246248]  read_from_sysconf: No Valid sysconf - kernel
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [  107.252756] sysconf checkum failed expected 30 Got 0   - kernel
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [  107.252756]  read_from_sysconf: No Valid sysconf - kernel
+2023 Apr 26 10:34:04 NXOS12 %KERN-3-SYSTEM_MSG: [  124.536746] veobc for titan_eor veobc device on sup - kernel
+2023 Apr 26 10:34:06 NXOS12 %KERN-3-SYSTEM_MSG: [  149.403922] sysconf checkum failed expected 30 Got 0   - kernel
+2023 Apr 26 10:34:06 NXOS12 %KERN-3-SYSTEM_MSG: [  149.403922]  read_from_sysconf: No Valid sysconf - kernel
+2023 Apr 26 10:34:06 NXOS12 %KERN-3-SYSTEM_MSG: [  149.406659] sysconf checkum failed expected 30 Got 0   - kernel
+2023 Apr 26 10:34:06 NXOS12 %KERN-3-SYSTEM_MSG: [  149.406659]  read_from_sysconf: No Valid sysconf - kernel
+2023 Apr 26 10:34:06 NXOS12 %KERN-3-SYSTEM_MSG: [  149.429644] sysconf checkum failed expected 30 Got 0   - kernel
+2023 Apr 26 10:34:06 NXOS12 %KERN-3-SYSTEM_MSG: [  149.429644]  read_from_sysconf: No Valid sysconf - kernel
+2023 Apr 26 10:34:07 NXOS12  %DAEMON-2-SYSTEM_MSG: <<%ASCII-CFG-2-CONF_CONTROL>> Binary restore - ascii-cfg[30028]
+2023 Apr 26 10:34:07 NXOS12 %VDC_MGR-5-VDC_STATE_CHANGE: vdc 1 state changed to create pending 
+2023 Apr 26 10:34:09 NXOS12 %KERN-3-SYSTEM_MSG: [  152.124555] biosinfo checksum failed expected 0 Got ff   - kernel
+2023 Apr 26 10:34:09 NXOS12 %KERN-3-SYSTEM_MSG: [  152.124555]  read_from_biosinfo: No Valid biosinfo - kernel
+2023 Apr 26 10:34:12 NXOS12 netstack: Registration with cli server complete
+2023 Apr 26 10:34:30 NXOS12 %USER-1-SYSTEM_MSG: NXOS RPMs have been tampered in the booted image. Verify validity of the image. Remove tampered rpms from the device. Check /tmp/rpm.remove.list. - root
+2023 Apr 26 10:34:36 NXOS12 %USER-2-SYSTEM_MSG: ssnmgr_app_init called on ssnmgr up - aclmgr
+2023 Apr 26 10:34:51 NXOS12 %USER-0-SYSTEM_MSG: end of default policer - copp
+2023 Apr 26 10:34:59 NXOS12 %USER-3-SYSTEM_MSG: ERROR, the lower bound value of the dynamic range is higher that the upper bound value - pfm
+2023 Apr 26 10:34:59 NXOS12 %CARDCLIENT-2-FPGA_BOOT_GOLDEN: IOFPGA booted from Golden
+2023 Apr 26 10:34:59 NXOS12 %CARDCLIENT-5-MOD_BOOT_GOLDEN: Module 27 IOFPGA booted from Golden
+2023 Apr 26 10:34:59 NXOS12 %CARDCLIENT-5-MOD_BOOT_PRIMARY: Module 27 BIOS booted from Primary
+2023 Apr 26 10:34:59 NXOS12 %MODULE-5-ACTIVE_SUP_OK: Supervisor 27 is active (Serial number: 993VTW7ZCMS)
+2023 Apr 26 10:34:59 NXOS12 %VDC_MGR-5-VDC_STATE_CHANGE: vdc 1 state changed to create in progress 
+2023 Apr 26 10:34:59 NXOS12 %IM-5-IM_INTF_STATE: mgmt0 is DOWN in vdc 1
+2023 Apr 26 10:34:59 NXOS12 %PLATFORM-5-MOD_STATUS: SUP sub Module 27 current-status is MOD_STATUS_ONLINE/OK
+2023 Apr 26 10:34:59 NXOS12 %PLATFORM-2-MOD_PRESENT: Detected the presence of Module 1
+2023 Apr 26 10:35:01 NXOS12 %ETH_PORT_CHANNEL-5-CREATED: port-channel1 created
+2023 Apr 26 10:35:01 NXOS12 stp: Please note that spanning tree port type is changed to "network" port type on vPC peer-link. This will enable spanning tree Bridge Assurance on vPC peer-link provided the STP Bridge Assurance (which is enabled by default) is not disabled. 
+2023 Apr 26 10:35:01 NXOS12 %ETH_PORT_CHANNEL-5-CREATED: port-channel2 created
+2023 Apr 26 10:35:01 NXOS12 %ETHPORT-5-IF_UP: Interface loopback1 is up 
+2023 Apr 26 10:35:01 NXOS12 %ETHPORT-5-IF_UP: Interface loopback2 is up 
+2023 Apr 26 10:35:02 NXOS12 %VDC_MGR-5-VDC_STATE_CHANGE: vdc 1 state changed to active 
+2023 Apr 26 10:35:02 NXOS12 %VDC_MGR-2-VDC_ONLINE: vdc 1 has come online 
+2023 Apr 26 10:35:02 NXOS12 %VDC_MGR-5-VDC_HOSTNAME_CHANGE: vdc 1 hostname changed to NXOS12 
+2023 Apr 26 10:35:02 NXOS12 %PLATFORM-2-MOD_INSERTED: Module 1 inserted (Nexus 9000v 64 port Ethernet Module), 7 VNICs mapped
+2023 Apr 26 10:35:02 NXOS12 %ETHPORT-5-IF_DOWN_PORT_CHANNEL_MEMBERS_DOWN: Interface port-channel1 is down (No operational members)
+2023 Apr 26 10:35:02 NXOS12 %ETHPORT-5-IF_DOWN_NONE: Interface port-channel2 is down (None)
+2023 Apr 26 10:35:03 NXOS12 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by root on vsh.bin.317
+2023 Apr 26 10:35:03 NXOS12 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by root on vsh.bin.492
+2023 Apr 26 10:35:05 NXOS12 %LICMGR-2-LOG_LIC_MISSING_WARNING: A feature that requires LAN_ENTERPRISE_SERVICES_PKG license is not installed. System supports honor based licensing so feature will continue to be fully functional. Use 'show license usage <package-name>' to find features using missing license.
+2023 Apr 26 10:35:07 NXOS12 %IM-5-IM_INTF_STATE: mgmt0 is UP in vdc 1
+2023 Apr 26 10:35:19 NXOS12 %KERN-0-SYSTEM_MSG: [  221.901970] pci_rescan_init:  - kernel
+2023 Apr 26 10:35:19 NXOS12 %KERN-0-SYSTEM_MSG: [  221.902358] pci_rescan_proc_init:  - kernel
+2023 Apr 26 10:35:56 NXOS12 %PLATFORM-2-MOD_DETECT: Module 1 detected (Serial number 9MXEUMVSGW8) Module-Type Nexus 9000v 64 port Ethernet Module Model N9K-X9364v
+2023 Apr 26 10:35:56 NXOS12 %PLATFORM-2-MOD_PWRUP: Module 1 powered up (Serial number 9MXEUMVSGW8)
+2023 Apr 26 10:35:56 NXOS12 %PLATFORM-5-MOD_STATUS: Module 1 current-status is MOD_STATUS_POWERED_UP
+2023 Apr 26 10:36:01 NXOS12 %CARDCLIENT-5-MOD_BOOT_GOLDEN: Module 1 IOFPGA booted from Golden
+2023 Apr 26 10:36:01 NXOS12 %CARDCLIENT-5-MOD_BOOT_PRIMARY: Module 1 BIOS booted from Primary
+2023 Apr 26 10:36:35 NXOS12 %VDC_MGR-5-VDC_STATE_CHANGE: vdc 1 state changed to updating 
+2023 Apr 26 10:36:35 NXOS12 %VDC_MGR-5-VDC_STATE_CHANGE: vdc 1 state changed to active 
+2023 Apr 26 10:36:40 NXOS12 %ETHPORT-5-IF_DOWN_PARENT_DOWN: Interface Ethernet1/4 is down (Parent interface is down)
+2023 Apr 26 10:36:41 NXOS12 %MODULE-5-MOD_OK: Module 1 is online (Serial number: 9MXEUMVSGW8)
+2023 Apr 26 10:36:41 NXOS12 %PLATFORM-5-MOD_STATUS: LC sub Module 1 current-status is MOD_STATUS_ONLINE/OK
+2023 Apr 26 10:36:42 NXOS12 %ASCII-CFG-2-CONF_CONTROL: System ready
+2023 Apr 26 10:36:43 NXOS12 %ETHPORT-5-SPEED: Interface Ethernet1/1, operational speed changed to 1 Gbps
+2023 Apr 26 10:36:43 NXOS12 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/1, operational duplex mode changed to Full
+2023 Apr 26 10:36:43 NXOS12 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/1, operational Receive Flow Control state changed to off
+2023 Apr 26 10:36:43 NXOS12 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/1, operational Transmit Flow Control state changed to off
+2023 Apr 26 10:36:43 NXOS12 %ETHPORT-5-SPEED: Interface Ethernet1/2, operational speed changed to 1 Gbps
+2023 Apr 26 10:36:43 NXOS12 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/2, operational duplex mode changed to Full
+2023 Apr 26 10:36:43 NXOS12 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/2, operational Receive Flow Control state changed to off
+2023 Apr 26 10:36:43 NXOS12 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/2, operational Transmit Flow Control state changed to off
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-SPEED: Interface Ethernet1/5, operational speed changed to 1 Gbps
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/5, operational duplex mode changed to Full
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/5, operational Receive Flow Control state changed to off
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/5, operational Transmit Flow Control state changed to off
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-SPEED: Interface port-channel1, operational speed changed to 1 Gbps
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-IF_DUPLEX: Interface port-channel1, operational duplex mode changed to Full
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface port-channel1, operational Receive Flow Control state changed to off
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface port-channel1, operational Transmit Flow Control state changed to off
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-SPEED: Interface Ethernet1/6, operational speed changed to 1 Gbps
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/6, operational duplex mode changed to Full
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/6, operational Receive Flow Control state changed to off
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/6, operational Transmit Flow Control state changed to off
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-SPEED: Interface Ethernet1/7, operational speed changed to 1 Gbps
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/7, operational duplex mode changed to Full
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/7, operational Receive Flow Control state changed to off
+2023 Apr 26 10:36:44 NXOS12 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/7, operational Transmit Flow Control state changed to off
+2023 Apr 26 10:36:45 NXOS12 %ETHPORT-5-IF_UP: Interface Ethernet1/5 is up in mode access
+2023 Apr 26 10:36:45 NXOS12 %ETHPORT-5-IF_UP: Interface Ethernet1/6 is up in mode access
+2023 Apr 26 10:36:45 NXOS12 %ETHPORT-5-IF_UP: Interface Ethernet1/7 is up in mode access
+2023 Apr 26 10:36:47 NXOS12 %ETH_PORT_CHANNEL-5-PORT_UP: port-channel1: Ethernet1/1 is up
+2023 Apr 26 10:36:47 NXOS12 %ETH_PORT_CHANNEL-5-FOP_CHANGED: port-channel1: first operational port changed from none to Ethernet1/1
+2023 Apr 26 10:36:47 NXOS12 %ETH_PORT_CHANNEL-5-PORT_UP: port-channel1: Ethernet1/2 is up
+2023 Apr 26 10:36:47 NXOS12 %ETHPORT-5-IF_BANDWIDTH_CHANGE: Interface port-channel1,bandwidth changed to 1000000 Kbit
+2023 Apr 26 10:36:47 NXOS12 %ETHPORT-5-IF_UP: Interface Ethernet1/1 is up in mode trunk
+2023 Apr 26 10:36:47 NXOS12 %ETHPORT-3-IF_ERROR_VLANS_SUSPENDED: VLANs 1,4 on Interface port-channel1 are being suspended. (Reason: vPC peer is not reachable over cfs)
+2023 Apr 26 10:36:47 NXOS12 %ETHPORT-5-IF_UP: Interface port-channel1 is up in mode trunk
+2023 Apr 26 10:36:47 NXOS12 %ETHPORT-5-IF_BANDWIDTH_CHANGE: Interface port-channel1,bandwidth changed to 2000000 Kbit
+2023 Apr 26 10:36:47 NXOS12 %ETHPORT-5-IF_UP: Interface Ethernet1/2 is up in mode trunk
+2023 Apr 26 10:37:00 NXOS12 %ETHPORT-5-SPEED: Interface Ethernet1/3, operational speed changed to 1 Gbps
+2023 Apr 26 10:37:00 NXOS12 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/3, operational duplex mode changed to Full
+2023 Apr 26 10:37:00 NXOS12 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/3, operational Receive Flow Control state changed to off
+2023 Apr 26 10:37:00 NXOS12 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/3, operational Transmit Flow Control state changed to off
+2023 Apr 26 10:37:00 NXOS12 %ETHPORT-5-IF_UP: Interface Ethernet1/3 is up in Layer3
+2023 Apr 26 10:37:00 NXOS12 %ETHPORT-5-IF_UP: Interface Ethernet1/3.3 is up in Layer3
+2023 Apr 26 10:37:16 NXOS12 %ETHPORT-5-IF_DOWN_NONE: Interface Ethernet1/4 is down (None)
+2023 Apr 26 10:37:16 NXOS12 %ETHPORT-3-IF_ERROR_VLANS_REMOVED: VLANs 1,4 on Interface port-channel1 are removed from suspended state.
+2023 Apr 26 10:37:56 NXOS12 %ETHPORT-5-IF_DOWN_PORT_CHANNEL_MEMBERS_DOWN: Interface port-channel2 is down (No operational members)
+2023 Apr 26 10:37:56 NXOS12 %ETHPORT-5-SPEED: Interface Ethernet1/4, operational speed changed to 1 Gbps
+2023 Apr 26 10:37:56 NXOS12 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/4, operational duplex mode changed to Full
+2023 Apr 26 10:37:56 NXOS12 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/4, operational Receive Flow Control state changed to off
+2023 Apr 26 10:37:56 NXOS12 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/4, operational Transmit Flow Control state changed to off
+2023 Apr 26 10:37:56 NXOS12 %ETHPORT-5-SPEED: Interface port-channel2, operational speed changed to 1 Gbps
+2023 Apr 26 10:37:56 NXOS12 %ETHPORT-5-IF_DUPLEX: Interface port-channel2, operational duplex mode changed to Full
+2023 Apr 26 10:37:56 NXOS12 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface port-channel2, operational Receive Flow Control state changed to off
+2023 Apr 26 10:37:56 NXOS12 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface port-channel2, operational Transmit Flow Control state changed to off
+2023 Apr 26 10:38:01 NXOS12 %ETH_PORT_CHANNEL-5-PORT_UP: port-channel2: Ethernet1/4 is up
+2023 Apr 26 10:38:01 NXOS12 %ETH_PORT_CHANNEL-5-FOP_CHANGED: port-channel2: first operational port changed from none to Ethernet1/4
+2023 Apr 26 10:38:01 NXOS12 %ETHPORT-5-IF_BANDWIDTH_CHANGE: Interface port-channel2,bandwidth changed to 1000000 Kbit
+2023 Apr 26 10:38:01 NXOS12 %ETHPORT-5-IF_UP: Interface Ethernet1/4 is up in mode trunk
+2023 Apr 26 10:38:01 NXOS12 %ETHPORT-5-IF_UP: Interface port-channel2 is up in mode trunk
+2023 Apr 26 10:40:05 NXOS12 %ETH_PORT_CHANNEL-5-FOP_CHANGED: port-channel2: first operational port changed from Ethernet1/4 to none
+2023 Apr 26 10:40:05 NXOS12 %ETH_PORT_CHANNEL-5-PORT_DOWN: port-channel2: Ethernet1/4 is down
+2023 Apr 26 10:40:05 NXOS12 %ETHPORT-5-IF_DOWN_PORT_CHANNEL_MEMBERS_DOWN: Interface port-channel2 is down (No operational members)
+2023 Apr 26 10:40:05 NXOS12 %ETHPORT-5-IF_BANDWIDTH_CHANGE: Interface port-channel2,bandwidth changed to 100000 Kbit
+2023 Apr 26 10:40:05 NXOS12 %ETHPORT-5-IF_DOWN_INITIALIZING: Interface Ethernet1/4 is down (Initializing)
+2023 Apr 26 10:40:05 NXOS12 %ETHPORT-5-IF_DOWN_PORT_CHANNEL_MEMBERS_DOWN: Interface port-channel2 is down (No operational members)
+2023 Apr 26 10:40:05 NXOS12 %ETHPORT-5-SPEED: Interface port-channel2, operational speed changed to 1 Gbps
+2023 Apr 26 10:40:05 NXOS12 %ETHPORT-5-IF_DUPLEX: Interface port-channel2, operational duplex mode changed to Full
+2023 Apr 26 10:40:05 NXOS12 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface port-channel2, operational Receive Flow Control state changed to off
+2023 Apr 26 10:40:05 NXOS12 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface port-channel2, operational Transmit Flow Control state changed to off
+2023 Apr 26 10:40:12 NXOS12 %ETHPORT-5-IF_DOWN_INITIALIZING: Interface port-channel2 is down (Initializing)
+2023 Apr 26 10:40:12 NXOS12 %ETHPORT-5-IF_DOWN_INITIALIZING: Interface Ethernet1/4 is down (Initializing)
+2023 Apr 26 10:40:12 NXOS12 %ETHPORT-5-IF_DOWN_PORT_CHANNEL_MEMBERS_DOWN: Interface port-channel2 is down (No operational members)
+2023 Apr 26 10:40:12 NXOS12 %ETHPORT-5-SPEED: Interface Ethernet1/4, operational speed changed to 1 Gbps
+2023 Apr 26 10:40:12 NXOS12 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/4, operational duplex mode changed to Full
+2023 Apr 26 10:40:12 NXOS12 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/4, operational Receive Flow Control state changed to off
+2023 Apr 26 10:40:12 NXOS12 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/4, operational Transmit Flow Control state changed to off
+2023 Apr 26 10:40:12 NXOS12 %ETHPORT-5-SPEED: Interface port-channel2, operational speed changed to 1 Gbps
+2023 Apr 26 10:40:12 NXOS12 %ETHPORT-5-IF_DUPLEX: Interface port-channel2, operational duplex mode changed to Full
+2023 Apr 26 10:40:12 NXOS12 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface port-channel2, operational Receive Flow Control state changed to off
+2023 Apr 26 10:40:12 NXOS12 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface port-channel2, operational Transmit Flow Control state changed to off
+2023 Apr 26 10:40:15 NXOS12 %ETH_PORT_CHANNEL-5-PORT_UP: port-channel2: Ethernet1/4 is up
+2023 Apr 26 10:40:15 NXOS12 %ETH_PORT_CHANNEL-5-FOP_CHANGED: port-channel2: first operational port changed from none to Ethernet1/4
+2023 Apr 26 10:40:15 NXOS12 %ETHPORT-5-IF_BANDWIDTH_CHANGE: Interface port-channel2,bandwidth changed to 1000000 Kbit
+2023 Apr 26 10:40:15 NXOS12 %ETHPORT-5-IF_UP: Interface Ethernet1/4 is up in mode trunk
+2023 Apr 26 10:40:15 NXOS12 %ETHPORT-5-IF_UP: Interface port-channel2 is up in mode trunk
+2023 Apr 26 10:44:54 NXOS12 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by admin on console0
+2023 Apr 26 10:44:57 NXOS12 %KERN-3-SYSTEM_MSG: [  802.888961] biosinfo checksum failed expected 0 Got ff   - kernel
+2023 Apr 26 10:44:57 NXOS12 %KERN-3-SYSTEM_MSG: [  802.888961]  read_from_biosinfo: No Valid biosinfo - kernel
+2023 Apr 26 10:45:04 NXOS12 %KERN-3-SYSTEM_MSG: [  809.611833] sysconf checkum failed expected 30 Got 0   - kernel
+2023 Apr 26 10:45:04 NXOS12 %KERN-3-SYSTEM_MSG: [  809.611833]  read_from_sysconf: No Valid sysconf - kernel
+2023 Apr 26 10:45:04 NXOS12 %KERN-3-SYSTEM_MSG: [  809.612045] sysconf checkum failed expected 30 Got 0   - kernel
+2023 Apr 26 10:45:04 NXOS12 %KERN-3-SYSTEM_MSG: [  809.612045]  read_from_sysconf: No Valid sysconf - kernel
+2023 Apr 26 10:45:04 NXOS12 %KERN-3-SYSTEM_MSG: [  809.612265] sysconf checkum failed expected 30 Got 0   - kernel
+2023 Apr 26 10:45:04 NXOS12 %KERN-3-SYSTEM_MSG: [  809.612265]  read_from_sysconf: No Valid sysconf - kernel
+2023 Apr 26 10:45:04 NXOS12 %KERN-3-SYSTEM_MSG: [  809.612475] sysconf checkum failed expected 30 Got 0   - kernel
+2023 Apr 26 10:45:04 NXOS12 %KERN-3-SYSTEM_MSG: [  809.612475]  read_from_sysconf: No Valid sysconf - kernel
+2023 Apr 26 10:45:04 NXOS12 %KERN-3-SYSTEM_MSG: [  809.612689] sysconf checkum failed expected 30 Got 0   - kernel
+2023 Apr 26 10:45:04 NXOS12 %KERN-3-SYSTEM_MSG: [  809.612689]  read_from_sysconf: No Valid sysconf - kernel
+2023 Apr 26 10:45:04 NXOS12 %KERN-3-SYSTEM_MSG: [  809.612742] biosinfo checksum failed expected 0 Got ff   - kernel
+2023 Apr 26 10:45:04 NXOS12 %KERN-3-SYSTEM_MSG: [  809.612742]  read_from_biosinfo: No Valid biosinfo - kernel
+2023 Apr 26 10:45:05 NXOS12 %KERN-3-SYSTEM_MSG: [  810.536221] sysconf checkum failed expected 30 Got 0   - kernel
+2023 Apr 26 10:45:05 NXOS12 %KERN-3-SYSTEM_MSG: [  810.536221]  read_from_sysconf: No Valid sysconf - kernel

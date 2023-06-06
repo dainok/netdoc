@@ -1,0 +1,16 @@
+{% comment %}
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2022, Andrea Dainese"
+__license__ = "GPLv3"
+
+Used in templatetags/netdoc_buttons.py
+{% endcomment %}
+<a href="#"
+   hx-get="{{ url }}"
+   hx-target="#htmx-modal-content"
+   class="btn btn-sm btn-secondary"
+   data-bs-toggle="modal"
+   data-bs-target="#htmx-modal">
+    <span class="mdi mdi-refresh" aria-hidden="true"></span>&nbsp;Discover
+</a>

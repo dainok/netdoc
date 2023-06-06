@@ -1,0 +1,69 @@
+----------------------------------------
+Device ID:NXOS12.example.com(9D4RFH3U8OX)
+System Name: NXOS12
+
+Interface address(es): 1
+    IPv4 Address: 192.168.1.12
+Platform: N9K-C9300v, Capabilities: Router Switch IGMP Filtering Supports-STP-Dispute
+Interface: Ethernet1/1, Port ID (outgoing port): Ethernet1/1
+Holdtime: 165 sec
+
+Version:
+Cisco Nexus Operating System (NX-OS) Software, Version 9.3(8)
+
+Advertisement Version: 2
+
+Native VLAN: 1
+Duplex: full
+
+MTU: 1500
+Mgmt address(es):
+    IPv4 Address: 169.254.1.12
+Local Interface MAC: 50:16:00:00:01:01
+Remote Interface MAC: 00:00:00:00:00:00
+----------------------------------------
+Device ID:NXOS12.example.com(9D4RFH3U8OX)
+System Name: NXOS12
+
+Interface address(es): 1
+    IPv4 Address: 192.168.1.12
+Platform: N9K-C9300v, Capabilities: Router Switch IGMP Filtering Supports-STP-Dispute
+Interface: Ethernet1/2, Port ID (outgoing port): Ethernet1/2
+Holdtime: 165 sec
+
+Version:
+Cisco Nexus Operating System (NX-OS) Software, Version 9.3(8)
+
+Advertisement Version: 2
+
+Native VLAN: 1
+Duplex: full
+
+MTU: 1500
+Mgmt address(es):
+    IPv4 Address: 169.254.1.12
+Local Interface MAC: 50:16:00:00:01:02
+Remote Interface MAC: 00:00:00:00:00:00
+----------------------------------------
+Device ID:SW1.example.com
+
+Interface address(es): 1
+    IPv4 Address: 192.168.1.1
+Platform: Cisco , Capabilities: Router Switch IGMP Filtering 
+Interface: Ethernet1/4, Port ID (outgoing port): GigabitEthernet0/1
+Holdtime: 178 sec
+
+Version:
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Version 15.2(4.0.55)E, TEST ENGINEERING ESTG_WEEKLY BUILD, synced to  END_OF_FLO_ISP
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Tue 28-Jul-15 18:52 by sasyamal
+
+Advertisement Version: 2
+
+Native VLAN: 1
+Duplex: half
+Mgmt address(es):
+    IPv4 Address: 192.168.1.1
+Local Interface MAC: 50:16:00:00:01:04
+Remote Interface MAC: 50:01:00:18:00:01

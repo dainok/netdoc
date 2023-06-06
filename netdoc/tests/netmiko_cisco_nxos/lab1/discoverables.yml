@@ -1,0 +1,16 @@
+---
+- address: 169.254.1.1
+  device: SW1
+  site: test-site
+  credential: test-credential
+  mode: netmiko_cisco_ios
+- address: 169.254.1.11
+  device: NXOS11
+  site: test-site
+  credential: test-credential
+  mode: netmiko_cisco_nxos
+- address: 169.254.1.12
+  device: NXOS12
+  site: test-site
+  credential: test-credential
+  mode: netmiko_cisco_nxos

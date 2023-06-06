@@ -1,0 +1,13 @@
+---
+- name: SW1
+  site: test-site
+  model: Unknown Cisco device
+  manufacturer: Cisco
+  address: 172.25.82.41/24
+  serial: FF1045C5
+- name: SW2
+  site: test-site
+  model: Unknown device
+  manufacturer: Unknown
+  address: null
+  serial: ""

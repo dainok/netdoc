@@ -1,0 +1,140 @@
+
+!Command: show running-config
+!Running configuration last done at: Wed Apr 26 10:35:13 2023
+!Time: Wed Apr 26 10:45:56 2023
+
+version 9.3(8) Bios:version  
+hostname NXOS11
+vdc NXOS11 id 1
+  limit-resource vlan minimum 16 maximum 4094
+  limit-resource vrf minimum 2 maximum 4096
+  limit-resource port-channel minimum 0 maximum 511
+  limit-resource u4route-mem minimum 248 maximum 248
+  limit-resource u6route-mem minimum 96 maximum 96
+  limit-resource m4route-mem minimum 58 maximum 58
+  limit-resource m6route-mem minimum 8 maximum 8
+
+cfs eth distribute
+feature ospf
+feature interface-vlan
+feature hsrp
+feature lacp
+feature vpc
+feature lldp
+
+no password strength-check
+username admin password 5 $5$DOPIBA$.yAwRHWK5dfClJB6MPlm800X20eHElULKWMYIKindq.  role network-admin
+no ip domain-lookup
+ip domain-name example.com
+copp profile strict
+snmp-server user admin network-admin auth md5 3752CCEE1E63F800BBF9B856D2F43B7C3438 priv 207AF0D0740E8D40EEBAEF5CDFAB64773732 localizedV2key
+rmon event 1 log trap public description FATAL(1) owner PMON@FATAL
+rmon event 2 log trap public description CRITICAL(2) owner PMON@CRITICAL
+rmon event 3 log trap public description ERROR(3) owner PMON@ERROR
+rmon event 4 log trap public description WARNING(4) owner PMON@WARNING
+rmon event 5 log trap public description INFORMATION(5) owner PMON@INFO
+
+vlan 1,4
+vlan 4
+  name SERVER
+
+spanning-tree vlan 1 priority 24576
+spanning-tree vlan 2-3967 priority 0
+vrf context blue
+  address-family ipv4 unicast
+vrf context management
+vrf context red
+  address-family ipv4 unicast
+vpc domain 1
+  peer-switch
+  peer-keepalive destination 169.254.1.12 source 169.254.1.11
+  peer-gateway
+
+
+interface Vlan1
+  no ip redirects
+  no ipv6 redirects
+
+interface Vlan4
+  no shutdown
+  no ip redirects
+  ip address 192.168.1.11/24
+  no ipv6 redirects
+  hsrp 4 
+    preempt 
+    priority 110
+    ip 192.168.1.254
+
+interface port-channel1
+  switchport mode trunk
+  spanning-tree port type network
+  vpc peer-link
+
+interface port-channel2
+  switchport mode trunk
+  switchport trunk allowed vlan 1,4
+  vpc 2
+
+interface Ethernet1/1
+  switchport mode trunk
+  channel-group 1
+
+interface Ethernet1/2
+  switchport mode trunk
+  channel-group 1
+
+interface Ethernet1/3
+  no cdp enable
+  no switchport
+  vrf member blue
+  ip address 10.0.0.11/24
+  ip router ospf 1 area 0.0.0.0
+  no shutdown
+
+interface Ethernet1/3.3
+  encapsulation dot1q 3
+  vrf member red
+  ip address 10.0.0.11/24
+  ip router ospf 1 area 0.0.0.0
+  no shutdown
+
+interface Ethernet1/4
+  switchport mode trunk
+  switchport trunk allowed vlan 1,4
+  channel-group 2 mode active
+
+interface Ethernet1/5
+
+interface Ethernet1/6
+
+interface Ethernet1/7
+
+interface Ethernet1/8
+
+interface mgmt0
+  no lldp transmit
+  no lldp receive
+  no cdp enable
+  vrf member management
+  ip address 169.254.1.11/16
+
+interface loopback1
+  vrf member red
+  ip address 2.2.2.11/32
+  ip router ospf 1 area 0.0.0.0
+
+interface loopback2
+  vrf member blue
+  ip address 3.3.3.11/32
+  ip router ospf 1 area 0.0.0.0
+icam monitor scale
+
+line console
+line vty
+boot nxos bootflash:/nxos.9.3.8.bin sup-1
+router ospf 1
+  vrf blue
+  vrf red
+
+
+

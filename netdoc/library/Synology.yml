@@ -1,0 +1,321 @@
+keywords:
+- RS2421+
+- RS2421+
+- RS820+
+- RS820+
+- DS1618+
+- DS1618+
+- DS920+
+- DS920+
+- RS1219+
+- RS1219+
+- RS1221+
+- RS1221+
+- RS3617RPxs
+- RS3617RPxs
+- DS418
+- DS418
+- DS1821+
+- DS1821+
+- RS2421RP+
+- RS2421RP+
+- DS118
+- DS118
+- DS1817+
+- DS1817+
+- RS1619xs+
+- RS1619xs+
+- DS220+
+- DS220+
+- DS1522+
+- DS1522+
+models:
+- comments: '[RS2421 Series Datasheet](https://www.synology.com/en-us/products/RS2421+#specs)'
+  interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Ethernet 3
+    type: 1000base-t
+  - name: Ethernet 4
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Synology
+  model: RS2421+
+  part_number: RS2421+
+  power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  slug: synology-rs2421-plus
+  u_height: 2
+- comments: '[RS820 Series Datasheet](https://www.synology.com/en-us/products/RS820+#specs)'
+  console-ports:
+  - mgmt_only: true
+    name: Console
+    type: de-9
+  interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Ethernet 3
+    type: 1000base-t
+  - name: Ethernet 4
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Synology
+  model: RS820+
+  part_number: RS820+
+  power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  slug: synology-rs820-plus
+  u_height: 1
+- interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: LAN 3
+    type: 1000base-t
+  - name: LAN 4
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Synology
+  model: DS1618+
+  part_number: DS1618+
+  power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  slug: ds1628plus
+  u_height: 4
+- comments: '[Synology DS920+ Specs](https://www.synology.com/de-de/products/DS920+#specs)'
+  interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Synology
+  model: DS920+
+  part_number: DS920+
+  slug: ds920plus
+  u_height: 4
+- console-ports:
+  - name: Serial
+    type: de-9
+  interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: LAN 3
+    type: 1000base-t
+  - name: LAN 4
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Synology
+  model: RS1219+
+  part_number: RS1219+
+  power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  slug: rs1219plus
+  u_height: 2
+- console-ports:
+  - name: Serial
+    type: de-9
+  interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: LAN 3
+    type: 1000base-t
+  - name: LAN 4
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Synology
+  model: RS1221+
+  part_number: RS1221+
+  power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  slug: rs1221plus
+  u_height: 2
+- console-ports:
+  - mgmt_only: true
+    name: Console
+    type: de-9
+  interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Ethernet 3
+    type: 1000base-t
+  - name: Ethernet 4
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Synology
+  model: RS3617RPxs
+  part_number: RS3617RPxs
+  power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
+  slug: synology-rs3617rpxs
+  u_height: 2
+- comments: '[Synology DS418 Specs](https://www.synology.com/en-us/products/DS418#specs)'
+  interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Synology
+  model: DS418
+  part_number: DS418
+  power-ports:
+  - allocated_draw: 27
+    maximum_draw: 90
+    name: External PSU 1
+    type: dc-terminal
+  slug: ds418
+  u_height: 4
+- interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: LAN 3
+    type: 1000base-t
+  - name: LAN 4
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Synology
+  model: DS1821+
+  part_number: DS1821+
+  power-ports:
+  - allocated_draw: 60
+    maximum_draw: 250
+    name: PSU 1
+    type: iec-60320-c14
+  slug: synology-ds1821plus
+  u_height: 0
+  weight: 6
+  weight_unit: kg
+- comments: '[RS2421RP Series Datasheet](https://www.synology.com/en-us/products/RS2421+#specs)'
+  interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Ethernet 3
+    type: 1000base-t
+  - name: Ethernet 4
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Synology
+  model: RS2421RP+
+  part_number: RS2421RP+
+  power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
+  slug: synology-rs2421rp-plus
+  u_height: 2
+- comments: '[Synology DS118 Specs](https://www.synology.com/en-us/products/DS118#specs)'
+  interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Synology
+  model: DS118
+  part_number: DS118
+  power-ports:
+  - allocated_draw: 10
+    maximum_draw: 90
+    name: External PSU 1
+    type: dc-terminal
+  slug: synology-ds118
+  u_height: 4
+- interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: LAN 3
+    type: 1000base-t
+  - name: LAN 4
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Synology
+  model: DS1817+
+  part_number: DS1817+
+  power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  slug: ds1817plus
+  u_height: 4
+- airflow: front-to-rear
+  comments: '[RS1619xs+ Series Datasheet](https://www.synology.com/en-us/products/RS1619xs+#specs)'
+  console-ports:
+  - name: Serial
+    type: de-9
+  device-bays:
+  - name: PCIe-Gen3 1
+  interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: LAN 3
+    type: 1000base-t
+  - name: LAN 4
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Synology
+  model: RS1619xs+
+  part_number: RS1619xs+
+  power-ports:
+  - maximum_draw: 150
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 150
+    name: PSU 2
+    type: iec-60320-c14
+  slug: rs1219xsplus
+  subdevice_role: parent
+  u_height: 1
+- comments: '[Synology DS220+ Specs](https://www.synology.com/en-us/products/DS220+#specs)'
+  interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Synology
+  model: DS220+
+  part_number: DS220+
+  slug: ds220plus
+  u_height: 4
+- comments: '[Synology DS1522+ Specs](https://www.synology.com/en-us/products/DS1522+#specs)'
+  interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: LAN 3
+    type: 1000base-t
+  - name: LAN 4
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Synology
+  model: DS1522+
+  part_number: DS1522+
+  slug: ds1522plus
+  u_height: 4
