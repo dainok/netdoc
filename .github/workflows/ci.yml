@@ -1,6 +1,5 @@
 ---
 # Set on GitHub -> Settings -> Secrets and variables -> Actions -> Variables:
-#   - LINUX_VERSION: "ubuntu-22.04"
 #   - NETBOX_VERSION: "v3.4.4"
 name: "CI"
 concurrency:
@@ -17,7 +16,7 @@ on:
 jobs:
 
   lint:
-    runs-on: "${{ vars.LINUX_VERSION }}"
+    runs-on: ubuntu-latest
     steps:
       - name: "Setup Python3"
         uses: actions/setup-python@v3
@@ -27,7 +26,7 @@ jobs:
         uses: pre-commit/action@v3.0.0
 
   test:
-    runs-on: "${{ vars.LINUX_VERSION }}"
+    runs-on: ubuntu-latest
     needs:
       - lint
     steps:
