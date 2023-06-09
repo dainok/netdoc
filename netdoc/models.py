@@ -80,6 +80,7 @@ class RouteTypeChoices(ChoiceSet):
         ("b", "BGP"),
         ("c", "Connected"),
         ("s", "Static"),
+        ("u", "User-space"),
         ("r", "RIP"),
         ("e", "EIGRP"),
         ("ex", "EIGRP external"),
