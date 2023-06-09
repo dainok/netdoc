@@ -624,9 +624,12 @@ def normalize_route_type(route_type):
     if route_type in ["c", "direct", "local", "hsrp", "l"]:
         # Connected
         return "c"
-    if route_type in ["s", "static", "s*", "u"]:
+    if route_type in ["s", "static", "s*"]:
         # Static
         return "s"
+    if route_type in ["u"]:
+        # User-space Static
+        return "u"
     if route_type in ["r", "rip-10"]:
         # RIP
         return "r"
