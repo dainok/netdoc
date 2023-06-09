@@ -1,8 +1,5 @@
 ---
 # Set on GitHub -> Settings -> Secrets and variables -> Actions -> Secrets:
-#   - SECRET_TOKEN: GitHub token set on
-#     Users -> Settings -> Developer settings -> Personal access tokens (classic)
-#     select repo scope
 #   - PYPI_USERNAME: PyPI username
 #   - PYPI_PASSWORD: PyPI password
 # Set on GitHub -> Settings -> Environments:
@@ -38,7 +35,7 @@ jobs:
         id: tag
         uses: anothrNick/github-tag-action@1.66.0
         env:
-          GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           INITIAL_VERSION: 0.0.2
           RELEASE_BRANCHES: master
           DEFAULT_BUMP: patch
