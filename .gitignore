@@ -130,3 +130,6 @@ dmypy.json
 
 # Linux
 nohup.out
+
+# Don't ignore
+!docker/*
