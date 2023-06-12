@@ -8,10 +8,14 @@ import hashlib
 import ipaddress
 from N2G import drawio_diagram
 
-from jinja2 import Template
+from jinja2 import Template, select_autoescape
 
 from netdoc.models import DeviceImageChoices
 from netdoc.utils import DRAWIO_ROLE_MAP
+
+JINJA_AUTOESCAPE = select_autoescape(
+    enabled_extensions=["html"], default_for_string=True
+)
 
 NODE_TEMPLATE = """
 <table>
@@ -118,7 +122,9 @@ def get_l2_topology_data(queryset, details):
                 "role": device_role,
                 "image": image_url,
                 "shape": "image",
-                "title": Template(NODE_TEMPLATE).render(device=device_o),
+                "title": Template(NODE_TEMPLATE, autoescape=JINJA_AUTOESCAPE).render(
+                    device=device_o
+                ),
             }
             # Set position
             if "positions" in details and str(device_id) in details["positions"]:
@@ -143,7 +149,9 @@ def get_l2_topology_data(queryset, details):
                     "from_label": from_interface_o.label,
                     "to": to_interface_o.device.pk,
                     "to_label": to_interface_o.label,
-                    "title": Template(CABLE_TEMPLATE).render(
+                    "title": Template(
+                        CABLE_TEMPLATE, autoescape=JINJA_AUTOESCAPE
+                    ).render(
                         from_interface=from_interface_o, to_interface=to_interface_o
                     ),
                 }
@@ -221,7 +229,9 @@ def get_l3_topology_data(queryset, details):
                     "role": device_role,
                     "image": image_url,
                     "shape": "image",
-                    "title": Template(NODE_TEMPLATE).render(device=device_o),
+                    "title": Template(
+                        NODE_TEMPLATE, autoescape=JINJA_AUTOESCAPE
+                    ).render(device=device_o),
                 }
                 # Set position
                 if "positions" in details and str(device_id) in details["positions"]:
@@ -241,9 +251,9 @@ def get_l3_topology_data(queryset, details):
                     "id": network_id,
                     "name": network_o.compressed,
                     "label": network_o.compressed,
-                    "title": Template(NETWORK_TEMPLATE).render(
-                        network=network_o, vrf=address_o.vrf
-                    ),
+                    "title": Template(
+                        NETWORK_TEMPLATE, autoescape=JINJA_AUTOESCAPE
+                    ).render(network=network_o, vrf=address_o.vrf),
                     "shape": "box",
                     "borderWidth": 2,
                     "color": {
@@ -276,9 +286,9 @@ def get_l3_topology_data(queryset, details):
                     "from": device_id,
                     "from_label": str(address_o.address),
                     "to": network_id,
-                    "title": Template(NETWORK_TEMPLATE).render(
-                        interface=interface_o, address=address_o
-                    ),
+                    "title": Template(
+                        NETWORK_TEMPLATE, autoescape=JINJA_AUTOESCAPE
+                    ).render(interface=interface_o, address=address_o),
                 }
 
     return {
