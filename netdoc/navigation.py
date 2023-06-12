@@ -78,7 +78,7 @@ menu_tables = (
         permissions=["netdoc.view_macaddresstableentry"],
     ),
     PluginMenuItem(
-        link="plugins:netdoc:routingtable_list",
+        link="plugins:netdoc:routetableentry_list",
         link_text="Routing Table",
         permissions=["netdoc.view_routingtableentry"],
     ),

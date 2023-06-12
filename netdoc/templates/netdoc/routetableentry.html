@@ -1,0 +1,78 @@
+{% extends "generic/object.html" %}
+{% load render_table from django_tables2 %}
+{% comment %}
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2022, Andrea Dainese"
+__license__ = "GPLv3"
+{% endcomment %}
+{% block controls %}
+{% endblock controls %}
+{% block tabs %}
+{% endblock tabs %}
+{% block content %}
+    <div class="row mb-3">
+        <div class="col col-md-6">
+            <div class="card">
+                <h5 class="card-header">Routing table entry</h5>
+                <div class="card-body">
+                    <table class="table table-hover attr-table">
+                        <tr>
+                            <th scope="row">Device</th>
+                            <td>
+                                <a href="{% url "dcim:device" object.device.pk %}">{{ object.device.name }}</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Device role</th>
+                            <td>
+                                <a href="{% url "dcim:devicerole" object.device.device_role.pk %}">{{ object.device.device_role.name }}</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Next hop interface</th>
+                            <td>
+                                {% if object.nexthop_if %}
+                                    <a href="{% url "dcim:interface" object.nexthop_if.pk %}">{{ object.nexthop_if.name }}</a>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Next hop IP Address</th>
+                            <td>{{ object.nexthop_ip }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Route type (protocol)</th>
+                            <td>
+                                {{ object.protocol }}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Route metric</th>
+                            <td>
+                                {{ object.metric }}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Route distance</th>
+                            <td>
+                                {{ object.distance }}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">VRF</th>
+                            <td>
+                                {{ object.vrf }}
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            {% include "inc/panels/custom_fields.html" %}
+        </div>
+        <div class="col col-md-6">
+            {% include "inc/panels/tags.html" %}
+            {% include "inc/panels/comments.html" %}
+        </div>
+    </div>
+{% endblock content %}

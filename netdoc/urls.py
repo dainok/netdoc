@@ -178,6 +178,11 @@ urlpatterns = (
     path(
         "routingtable/",
         views.RouteTableEntryListView.as_view(),
-        name="routingtable_list",
+        name="routetableentry_list",
+    ),
+    path(
+        "routingtable/<int:pk>/",
+        views.RouteTableEntryView.as_view(),
+        name="routetableentry",
     ),
 )
