@@ -9,31 +9,31 @@ repos:
     rev: v4.4.0
     hooks:
       - id: trailing-whitespace
-        exclude: \.raw|migrations
+        exclude: \.raw|migrations|docker
       - id: end-of-file-fixer
-        exclude: \.raw|migrations
+        exclude: \.raw|migrations|docker
       - id: check-yaml
       - id: check-added-large-files
   - repo: https://github.com/psf/black
     rev: 23.3.0
     hooks:
       - id: black
-        exclude: \.raw|migrations
+        exclude: \.raw|migrations|docker
   - repo: https://github.com/PyCQA/bandit
     rev: 1.7.5
     hooks:
       - id: bandit
-        exclude: \.raw|migrations
+        exclude: \.raw|migrations|docker
   - repo: https://github.com/PyCQA/flake8
     rev: 6.0.0
     hooks:
       - id: flake8
-        exclude: \.raw|migrations
+        exclude: \.raw|migrations|docker
   - repo: https://github.com/PyCQA/pydocstyle
     rev: 6.3.0
     hooks:
       - id: pydocstyle
-        exclude: \.raw|migrations
+        exclude: \.raw|migrations|docker
   - repo: https://github.com/Riverside-Healthcare/djLint
     rev: v1.19.17
     hooks:

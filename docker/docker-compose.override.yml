@@ -1,0 +1,33 @@
+---
+# See
+#   - https://github.com/netbox-community/netbox-docker/blob/release/README.md
+#   - https://github.com/netbox-community/netbox-docker/wiki/Using-Netbox-Plugins
+# git clone https://github.com/netbox-community/netbox-docker/
+# Edit files
+# docker-compose build --no-cache
+# docker-compose up -d
+version: '3.4'
+services:
+
+
+  netbox:
+    ports:
+      - 8000:8080
+    build:
+      context: .
+      dockerfile: Dockerfile-Plugins
+    image: netbox:latest-plugins
+
+
+  netbox-worker:
+    image: netbox:latest-plugins
+    build:
+      context: .
+      dockerfile: Dockerfile-Plugins
+
+
+  netbox-housekeeping:
+    image: netbox:latest-plugins
+    build:
+      context: .
+      dockerfile: Dockerfile-Plugins
