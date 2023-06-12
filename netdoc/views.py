@@ -607,3 +607,10 @@ class RouteTableEntryListView(generic.ObjectListView):
     actions = [
         "export",
     ]
+
+
+class RouteTableEntryView(generic.ObjectView):
+    """Detailed route table entry view."""
+
+    queryset = models.RouteTableEntry.objects.all()
+    actions = []  # Read only table

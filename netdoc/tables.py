@@ -295,6 +295,7 @@ class MacAddressTableEntryTable(NetBoxTable):
 class RouteTableEntryTable(NetBoxTable):
     """Route list table used in RouteTableEntryListView."""
 
+    destination = tables.Column(linkify=True)
     device = tables.LinkColumn(
         "dcim:device",
         args=[tables.utils.A("device__pk")],
