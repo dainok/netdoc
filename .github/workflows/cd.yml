@@ -2,6 +2,8 @@
 # Set on GitHub -> Settings -> Secrets and variables -> Actions -> Secrets:
 #   - PYPI_USERNAME: PyPI username
 #   - PYPI_PASSWORD: PyPI password
+# Set on GitHub -> Settings -> Actions -> General -> Workflow permissions:
+#   - Read and write permissions
 # Set on GitHub -> Settings -> Environments:
 #   - add users who can review/approve on environment "release"
 name: "CD"
