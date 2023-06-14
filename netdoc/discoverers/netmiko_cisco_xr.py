@@ -15,7 +15,8 @@ from netdoc.schemas import discoverable, discoverylog
 def discovery(nrni):
     """Discovery Cisco XR devices."""
     platform = "cisco_xr"
-    filtered_devices = nrni.filter(platform=platform)
+    host_list = []
+    failed_host_list = []
 
     def multiple_tasks(task):
         """Define commands (in order) for the playbook."""
@@ -54,7 +55,7 @@ def discovery(nrni):
         )
 
     # Run the playbook
-    aggregated_results = filtered_devices.run(task=multiple_tasks)
+    aggregated_results = nrni.run(task=multiple_tasks)
 
     # Print the result
     print_result(aggregated_results)
@@ -71,7 +72,7 @@ def discovery(nrni):
                 continue
 
             address = result.host.dict().get("hostname")
-            discoverable_o = discoverable.get(address, discovered=True)
+            discoverable_o = discoverable.get(address)
             details = json.loads(result.name)
             discoverylog.create(
                 command=details.get("command"),
@@ -81,6 +82,12 @@ def discovery(nrni):
                 order=details.get("order"),
                 details=details,
             )
+
+            # Tracking hosts and failed hosts
+            if discoverable_o.address not in host_list:
+                host_list.append(discoverable_o.address)
+            if result.failed and discoverable_o.address not in failed_host_list:
+                failed_host_list.append(discoverable_o.address)
 
             # Save VRF list for later
             if details.get("command") == "show vrf":
@@ -175,3 +182,15 @@ def discovery(nrni):
                     order=details.get("order"),
                     details=details,
                 )
+
+                # Tracking hosts and failed hosts
+                if discoverable_o.address not in host_list:
+                    host_list.append(discoverable_o.address)
+                if result.failed and discoverable_o.address not in failed_host_list:
+                    failed_host_list.append(discoverable_o.address)
+
+    # Mark as discovered
+    for address in host_list:
+        if address not in failed_host_list:
+            discoverable_o = discoverable.get(address, discovered=True)
+            discoverable.update(discoverable_o)

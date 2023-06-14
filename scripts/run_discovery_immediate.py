@@ -6,8 +6,8 @@ Usage:
 
 from netdoc.tasks import discovery
 
-FILTERS = ["172.25.82.50"]
-FILTERS = []
+FILTERS = ["127.0.0.1"]
+# FILTERS = []
 
 
 def main():

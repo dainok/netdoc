@@ -250,6 +250,7 @@ class Discoverable(NetBoxModel):
     address = models.GenericIPAddressField()
     device = models.OneToOneField(
         to="dcim.Device",
+        editable=False,
         on_delete=models.SET_NULL,
         related_name="+",
         blank=True,
