@@ -136,7 +136,6 @@ class DiscoverableForm(NetBoxModelForm):
         required=True,
     )
     mode = forms.ChoiceField(choices=DiscoveryModeChoices, required=True)
-    device = DynamicModelChoiceField(queryset=Device.objects.all(), required=False)
     discoverable = forms.BooleanField(
         required=False,
         initial=True,
@@ -153,7 +152,6 @@ class DiscoverableForm(NetBoxModelForm):
         model = Discoverable
         fields = [
             "address",
-            "device",
             "credential",
             "mode",
             "discoverable",

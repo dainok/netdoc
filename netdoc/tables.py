@@ -229,7 +229,6 @@ class DiscoveryLogTable(NetBoxTable):
             "discoverable",
             "device",
             "command",
-            "order",
             "configuration",
             "supported",
             "success",

@@ -84,7 +84,7 @@ class AddDiscoverable(Script):
     credential = ObjectVar(
         model=Credential_m,
         description="Credential used to discover.",
-        required=False,
+        required=True,
     )
 
     # Discovery mode
