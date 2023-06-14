@@ -488,6 +488,9 @@ def normalize_interface_mode(mode):
     if "dynamic auto" in mode:
         # dynamic state normally in shutdown so return none
         return None
+    if "???" in mode:
+        # Unknown mode
+        return None
     if "down" in mode:
         # Ignore down interfaces
         return None

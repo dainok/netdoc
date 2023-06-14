@@ -6,7 +6,7 @@ __license__ = "GPLv3"
 
 from django import forms
 
-from dcim.models import Device, Site, DeviceRole
+from dcim.models import Site, DeviceRole
 from ipam.models import VRF
 
 from utilities.forms import (
