@@ -16,7 +16,8 @@ if FILTERS:
 else:
     logs = DiscoveryLog.objects.all().order_by("order")
 
-logs = logs.filter(parsed=True, id=605)
+logs = logs.filter(parsed=True)
+# logs = logs.filter(id=1308)
 # logs = logs.filter(ingested=False)
 # logs = logs.filter(id=3)
 # logs = logs.filter(command="show mac address-table dynamic")
