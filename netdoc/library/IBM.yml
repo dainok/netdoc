@@ -1,44 +1,10 @@
 keywords:
-- BladeCenter HS22 (Type 7870)
-- System x3550 (Type 7978)
 - BladeCenter H
-- eServer x226-[86482DG]-
+- System x3550
+- eServer x226
+- 86482DG
+- BladeCenter HS22
 models:
-- manufacturer: IBM
-  model: BladeCenter HS22 (Type 7870)
-  slug: ibm_bladecenter_hs22_type_7870
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: Front VGA
-    type: other
-  - name: Rear VGA
-    type: other
-  console-server-ports:
-  - name: Front USB1
-    type: usb-a
-  - name: Front USB2
-    type: usb-a
-  - name: Rear USB1
-    type: usb-a
-  - name: Rear USB2
-    type: usb-a
-  interfaces:
-  - name: TenGig-E 1
-    type: 10gbase-t
-  - name: TenGig-E 2
-    type: 10gbase-t
-  is_full_depth: true
-  manufacturer: IBM
-  model: System x3550 (Type 7978)
-  power-ports:
-  - maximum_draw: 670
-    name: Power 1
-    type: iec-60320-c14
-  slug: system_x3550_type_7978
-  u_height: 1
 - device-bays:
   - name: Server Bay 1
   - name: Server Bay 2
@@ -69,9 +35,39 @@ models:
   is_full_depth: true
   manufacturer: IBM
   model: BladeCenter H
-  slug: bladecenter_h
+  slug: ibm-bladecenter-h
   subdevice_role: parent
   u_height: 9
+- console-ports:
+  - name: Serial
+    type: de-9
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+  console-server-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  interfaces:
+  - name: TenGig-E 1
+    type: 10gbase-t
+  - name: TenGig-E 2
+    type: 10gbase-t
+  is_full_depth: true
+  manufacturer: IBM
+  model: System x3550
+  power-ports:
+  - maximum_draw: 670
+    name: Power 1
+    type: iec-60320-c14
+  slug: ibm-system-x3550
+  u_height: 1
 - console-ports:
   - name: Serial
     type: de-9
@@ -82,7 +78,8 @@ models:
     type: 1000base-t
   is_full_depth: true
   manufacturer: IBM
-  model: eServer x226-[86482DG]-
+  model: eServer x226
+  part_number: 86482DG
   power-ports:
   - maximum_draw: 514
     name: PSU1
@@ -90,5 +87,10 @@ models:
   - maximum_draw: 514
     name: PSU2
     type: iec-60320-c14
-  slug: ibm_eserver_x226_86482dg
+  slug: ibm-eserver-x226
   u_height: 5
+- manufacturer: IBM
+  model: BladeCenter HS22
+  slug: ibm-bladecenter-hs22
+  subdevice_role: child
+  u_height: 0

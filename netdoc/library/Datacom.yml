@@ -44,5 +44,5 @@ models:
   - label: '2'
     name: PSU2
     position: '2'
-  slug: dm4610_olt_4gpon-4gx-2xs
+  slug: datacom-dm4610-olt-4gpon-plus-4gx-plus-2xs
   u_height: 1.0

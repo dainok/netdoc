@@ -1,0 +1,54 @@
+keywords:
+- Luna K6
+- 808-000054-001
+- Luna-T7
+- 972-500080-001
+models:
+- airflow: front-to-rear
+  comments: SafeNet Luna Network HSM K6
+  console-ports:
+  - name: Console
+    type: de-9
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Thales
+  model: Luna K6
+  module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  part_number: 808-000054-001
+  slug: thales-luna-k6
+  u_height: 1
+- airflow: front-to-rear
+  comments: Luna Network HSM T-2000
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Thales
+  model: Luna-T7
+  module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  part_number: 972-500080-001
+  slug: thales-luna-t7
+  u_height: 1
+  weight: 28
+  weight_unit: lb

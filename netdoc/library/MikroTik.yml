@@ -1,138 +1,172 @@
 keywords:
-- CCR1016-12G
-- RB2011iL-RM
-- RB1100AHx4
-- CCR1016-12S-1S+
-- RB750Gr3
-- RB3011UiAS-RM
-- RB5009UG+S+IN
+- RB5009UPr+S+IN
+- CRS106-1C-5S
 - RB2011UiAS-RM
+- RB1100AHx4 Dude Edition
 - CCR2216-1G-12XS-2XQ
 - CCR2216-1G-12XS-2XQ
-- RB2011UiAS-IN
-- CRS226-24G-2S+RM
-- CRS125-24G-1S-RM
-- RB960PGS
-- CRS112-8P-4S-IN
-- CRS112-8P-4S
-- RB951G-2HnD
-- RB1100AHx2
-- CCR1009-7G-1C-1S+
 - hAP lite
 - RB941-2nD
-- RBLtAP-2HnD
-- RBLtAP-2HnD
-- CRS112-8G-4S-IN
 - CRS504-4XQ-IN
 - CRS504-4XQ-IN
-- RBLHGR&R11e-LTE6
-- RBLHGR&R11e-LTE6
-- CCR1036-12G-4S
-- CCR1036-8G-2S+
-- CRS106-1C-5S
-- CCR1009-7G-1C-PC
-- CRS326-24S+2Q+RM
-- CRS125-24G-1S-IN
-- CCR1072-1G-8S+
-- CRS326-24G-2S+RM
-- CRS326-24G-2S
-- CCR2004-16G-2S+
-- CCR2004-16G-2S+
+- CCR1016-12S-1S+
+- CCR1009-8G-1S-1S+
 - CCR1009-7G-1C-1S+PC
-- CCR2116-12G-4S+
-- CCR2116-12G-4S+
+- RB2011iL-RM
+- CRS112-8P-4S-IN
+- CRS112-8P-4S
+- CRS109-8G-1S-2HnD-IN
+- CRS109-8G-1S-2HnD-IN
+- RB951G-2HnD
 - CRS305-1G-4S+IN
 - CRS305-1G-4S+
-- RB750r3
-- RBLHGR&R11e-LTE-US
-- RBLHGR&R11e-LTE-US
-- CSS326-24G-2S+RM
-- CRS109-8G-1S-2HnD-IN
-- CRS109-8G-1S-2HnD-IN
-- RB760iGS
-- RB760iGS
+- CCR1036-12G-4S
 - CRS518-16XS-2XQ
 - CRS518-16XS-2XQ
-- CCR1009-8G-1S-1S+
-- CRS328-4C-20S-4S+RM
-- CRS212-1G-10S-1S+IN
-- CCR1036-12G-4S-EM
-- CRS354-48G-4S+2Q+RM
-- RB750r2
-- RB2011iLS-IN
-- RBSXTR&R11e-LTE6
-- RBSXTR&R11e-LTE6
-- RB260GS
-- CRS328-24P-4S+RM
-- CRS309-1G-8S+IN
-- CRS309-1G-8S+
-- RB260GSP
-- RB1200
-- RB1200
 - CRS317-1G-16S+RM
 - CRS317-1G-16S+
-- CRS354-48P-4S+2Q+RM
-- CRS354-48P-4S+2Q+RM
+- RB3011UiAS-RM
+- RB750Gr3
+- CCR1036-8G-2S+
+- CCR1009-7G-1C-1S+
+- CRS354-48G-4S+2Q+RM
+- CCR2116-12G-4S+
+- CCR2116-12G-4S+
+- CSS326-24G-2S+RM
+- CRS328-4C-20S-4S+RM
+- CCR2004-1G-12S+2XS
+- CCR2004-1G-12S+2XS
 - hAP lite TC
 - RB941-2nD-TC
-- RB1100AHx4 Dude Edition
-- CRS312-4C+8XG-RM
-- RB5009UPr+S+IN
-- CCR2004-1G-12S+2XS
-- CCR2004-1G-12S+2XS
+- RB260GSP
+- C52iG-5HaxD2HaxD-TC
+- CRS125-24G-1S-2HnD-IN
 - CRS310-1G-5S-4S+IN
 - CRS310-1G-5S-4S+
-- RB2011iL-IN
-- RB2011iL-IN
-- RB4011iGS+RM
-- RB4011iGS+RM
+- RB260GS
 - CCR1036-8G-2S+EM
-- CRS125-24G-1S-2HnD-IN
+- CRS125-24G-1S-IN
+- RB1200
+- RB1200
+- CCR1016-12G
+- CRS328-24P-4S+RM
+- CRS125-24G-1S-RM
+- RB1100AHx2
+- CRS354-48P-4S+2Q+RM
+- CRS354-48P-4S+2Q+RM
+- RB4011iGS+RM
+- RB4011iGS+RM
 - hAP
 - RB951Ui-2nD
+- CRS326-24S+2Q+RM
+- CCR2004-16G-2S+
+- CCR2004-16G-2S+
+- RBLtAP-2HnD
+- RBLtAP-2HnD
+- RBSXTR&R11e-LTE6
+- RBSXTR&R11e-LTE6
+- CRS326-24G-2S+RM
+- CRS326-24G-2S
+- CRS212-1G-10S-1S+IN
+- RB960PGS
+- CRS112-8G-4S-IN
+- C53UiG+5HPaxD2HPaxD
+- RB750r3
+- RB5009UG+S+IN
+- RBLHGR&R11e-LTE-US
+- RBLHGR&R11e-LTE-US
+- CCR1009-7G-1C-PC
+- CRS312-4C+8XG-RM
+- RB1100AHx4
+- RB2011iL-IN
+- RB2011iL-IN
+- CRS309-1G-8S+IN
+- CRS309-1G-8S+
+- RBLHGR&R11e-LTE6
+- RBLHGR&R11e-LTE6
+- CCR1036-12G-4S-EM
+- CCR1072-1G-8S+
+- RB760iGS
+- RB760iGS
+- RB2011UiAS-IN
+- RB2011iLS-IN
+- RB750r2
+- CRS226-24G-2S+RM
 models:
-- console-ports:
-  - name: serial0
-    type: rj-45
+- airflow: passive
+  comments: '[MikroTik RB5009UPr+S+IN Datasheet](https://mikrotik.com/product/rb5009upr_s_in)'
   interfaces:
   - name: ether1
-    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-48v-4pair
+    type: 2.5gbase-t
   - name: ether2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: ether3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: ether4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: ether5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: ether6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: ether7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: ether8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
     type: 1000base-t
-  - name: ether9
-    type: 1000base-t
-  - name: ether10
-    type: 1000base-t
-  - name: ether11
-    type: 1000base-t
-  - name: ether12
-    type: 1000base-t
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
   is_full_depth: false
   manufacturer: MikroTik
-  model: CCR1016-12G
+  model: RB5009UPr+S+IN
   power-ports:
-  - maximum_draw: 42
+  - allocated_draw: 15
+    maximum_draw: 150
     name: power1
-    type: iec-60320-c14
-  - maximum_draw: 42
+    type: dc-terminal
+  - allocated_draw: 15
+    maximum_draw: 150
     name: power2
-    type: iec-60320-c14
-  slug: ccr1016-12g
+    type: hardwired
+  slug: mikrotik-rb5009upr-plus-s-plus-in
+  u_height: 0
+- interfaces:
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: sfp2
+    type: 1000base-x-sfp
+  - name: sfp3
+    type: 1000base-x-sfp
+  - name: sfp4
+    type: 1000base-x-sfp
+  - name: sfp5
+    type: 1000base-x-sfp
+  - name: combo1
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CRS106-1C-5S
+  slug: mikrotik-crs106-1c-5s
   u_height: 1
 - airflow: passive
-  comments: '[RB2011iL-RM Datasheet](https://mikrotik.com/product/RB2011iL-RM)'
+  comments: '[RB2011UiAS-RM Datasheet](https://mikrotik.com/product/RB2011UiAS-RM)'
+  console-ports:
+  - name: serial0
+    type: rj-45
   interfaces:
   - name: ether1
     poe_mode: pd
@@ -158,15 +192,17 @@ models:
     poe_mode: pse
     poe_type: passive-24v-2pair
     type: 100base-tx
+  - name: sfp1
+    type: 1000base-x-sfp
   is_full_depth: false
   manufacturer: MikroTik
-  model: RB2011iL-RM
+  model: RB2011UiAS-RM
   power-ports:
   - allocated_draw: 6
-    maximum_draw: 16
+    maximum_draw: 28
     name: power1
     type: dc-terminal
-  slug: rb2011il-rm
+  slug: mikrotik-rb2011uias-rm
   u_height: 1
 - console-ports:
   - name: serial0
@@ -200,7 +236,7 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: MikroTik
-  model: RB1100AHx4
+  model: RB1100AHx4 Dude Edition
   power-ports:
   - maximum_draw: 20
     name: power1
@@ -208,7 +244,115 @@ models:
   - maximum_draw: 20
     name: power2
     type: iec-60320-c14
-  slug: rb1100ahx4
+  slug: mikrotik-rb1100ahx4-dude-edition
+  u_height: 1
+- comments: '[Mikrotik CCR2216-1G-12XS-2XQ ](https://mikrotik.com/product/ccr2216_1g_12xs_2xq)'
+  console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: sfp28-1
+    type: 25gbase-x-sfp28
+  - name: sfp28-2
+    type: 25gbase-x-sfp28
+  - name: sfp28-3
+    type: 25gbase-x-sfp28
+  - name: sfp28-4
+    type: 25gbase-x-sfp28
+  - name: sfp28-5
+    type: 25gbase-x-sfp28
+  - name: sfp28-6
+    type: 25gbase-x-sfp28
+  - name: sfp28-7
+    type: 25gbase-x-sfp28
+  - name: sfp28-8
+    type: 25gbase-x-sfp28
+  - name: sfp28-9
+    type: 25gbase-x-sfp28
+  - name: sfp28-10
+    type: 25gbase-x-sfp28
+  - name: sfp28-11
+    type: 25gbase-x-sfp28
+  - name: sfp28-12
+    type: 25gbase-x-sfp28
+  - name: qsfp28-1-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-2-1
+    type: 100gbase-x-qsfp28
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CCR2216-1G-12XS-2XQ
+  part_number: CCR2216-1G-12XS-2XQ
+  power-ports:
+  - maximum_draw: 128
+    name: power1
+    type: iec-60320-c14
+  - maximum_draw: 128
+    name: power2
+    type: iec-60320-c14
+  slug: mikrotik-ccr2216-1g-12xs-2xq
+  u_height: 1
+- comments: Low cost home wireless AP with dual chain 2.4GHz wireless, powered by
+    USB.
+  interfaces:
+  - label: '1'
+    name: ether1
+    type: 1000base-t
+  - label: '2'
+    name: ether2
+    type: 1000base-t
+  - label: '3'
+    name: ether3
+    type: 1000base-t
+  - label: '4'
+    name: ether4
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: hAP lite
+  part_number: RB941-2nD
+  power-ports:
+  - label: Power
+    maximum_draw: 4
+    name: psu1
+    type: usb-micro-b
+  slug: mikrotik-hap-lite
+  u_height: 0
+- airflow: front-to-rear
+  comments: Careful, there is only qsfp28-1-1, qsfp28-2-1, qsfp28-3-1 and qsfp28-4-1
+    interfaces for 100Gb, don't forget to add the other if you use breakout cables.
+  console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: ether1
+    type: 1000base-t
+  - name: qsfp28-1-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-2-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-3-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-4-1
+    type: 100gbase-x-qsfp28
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CRS504-4XQ-IN
+  part_number: CRS504-4XQ-IN
+  power-ports:
+  - maximum_draw: 41
+    name: power1
+    type: iec-60320-c14
+  - maximum_draw: 41
+    name: power2
+    type: iec-60320-c14
+  - maximum_draw: 41
+    name: power3
+    type: dc-terminal
+  slug: mikrotik-crs504-4xq-in
   u_height: 1
 - console-ports:
   - name: serial0
@@ -250,64 +394,17 @@ models:
   - maximum_draw: 48
     name: power2
     type: iec-60320-c14
-  slug: ccr1016-12s-1splus
+  slug: mikrotik-ccr1016-12s-1s-plus
   u_height: 1
-- comments: '[MikroTik RB750Gr3 Datasheet](https://mikrotik.com/product/RB750Gr3)'
+- comments: '[Product Data](https://mikrotik.com/product/CCR1009-8G-1S-1Splus)
+
+    '
+  console-ports:
+  - name: serial0
+    type: de-9
   interfaces:
   - name: ether1
-    poe_mode: pd
-    poe_type: passive-24v-2pair
     type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  manufacturer: MikroTik
-  model: RB750Gr3
-  power-ports:
-  - maximum_draw: 10
-    name: power1
-    type: dc-terminal
-  slug: rb750gr3
-- interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: ether9
-    type: 1000base-t
-  - name: ether10
-    type: 1000base-t
-  - name: sfp1
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: RB3011UiAS-RM
-  slug: rb3011uias-rm
-  u_height: 1
-- airflow: passive
-  comments: '[MikroTik RB5009UG+S+IN Datasheet](https://mikrotik.com/product/rb5009ug_s_in)'
-  interfaces:
-  - name: ether1
-    poe_mode: pd
-    poe_type: passive-48v-4pair
-    type: 2.5gbase-t
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -324,25 +421,49 @@ models:
     type: 1000base-t
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
+  - name: sfp1
+    type: 1000base-x-sfp
   is_full_depth: false
   manufacturer: MikroTik
-  model: RB5009UG+S+IN
-  power-ports:
-  - allocated_draw: 14
-    maximum_draw: 20
-    name: power1
-    type: dc-terminal
-  - allocated_draw: 14
-    maximum_draw: 20
-    name: power2
-    type: hardwired
-  slug: rb5009ug_s_in
-  u_height: 0
-- airflow: passive
-  comments: '[RB2011UiAS-RM Datasheet](https://mikrotik.com/product/RB2011UiAS-RM)'
+  model: CCR1009-8G-1S-1S+
+  slug: mikrotik-ccr1009-8g-1s-1s-plus
+  u_height: 1
+- airflow: front-to-rear
   console-ports:
   - name: serial0
-    type: rj-45
+    type: de-9
+  interfaces:
+  - name: ether1
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: combo1
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CCR1009-7G-1C-1S+PC
+  power-ports:
+  - maximum_draw: 35
+    name: power1
+    type: iec-60320-c14
+  slug: mikrotik-ccr1009-7g-1c-1s-plus-pc
+  u_height: 1
+- airflow: passive
+  comments: '[RB2011iL-RM Datasheet](https://mikrotik.com/product/RB2011iL-RM)'
   interfaces:
   - name: ether1
     poe_mode: pd
@@ -368,262 +489,16 @@ models:
     poe_mode: pse
     poe_type: passive-24v-2pair
     type: 100base-tx
-  - name: sfp1
-    type: 1000base-x-sfp
   is_full_depth: false
   manufacturer: MikroTik
-  model: RB2011UiAS-RM
+  model: RB2011iL-RM
   power-ports:
   - allocated_draw: 6
-    maximum_draw: 28
+    maximum_draw: 16
     name: power1
     type: dc-terminal
-  slug: rb2011uias-rm
+  slug: mikrotik-rb2011il-rm
   u_height: 1
-- comments: '[Mikrotik CCR2216-1G-12XS-2XQ ](https://mikrotik.com/product/ccr2216_1g_12xs_2xq)'
-  console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: sfp28-1
-    type: 25gbase-x-sfp28
-  - name: sfp28-2
-    type: 25gbase-x-sfp28
-  - name: sfp28-3
-    type: 25gbase-x-sfp28
-  - name: sfp28-4
-    type: 25gbase-x-sfp28
-  - name: sfp28-5
-    type: 25gbase-x-sfp28
-  - name: sfp28-6
-    type: 25gbase-x-sfp28
-  - name: sfp28-7
-    type: 25gbase-x-sfp28
-  - name: sfp28-8
-    type: 25gbase-x-sfp28
-  - name: sfp28-9
-    type: 25gbase-x-sfp28
-  - name: sfp28-10
-    type: 25gbase-x-sfp28
-  - name: sfp28-11
-    type: 25gbase-x-sfp28
-  - name: sfp28-12
-    type: 25gbase-x-sfp28
-  - name: sfp-sfpxq1
-    type: 100gbase-x-qsfp28
-  - name: sfp-sfpxq2
-    type: 100gbase-x-qsfp28
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CCR2216-1G-12XS-2XQ
-  part_number: CCR2216-1G-12XS-2XQ
-  power-ports:
-  - maximum_draw: 128
-    name: power1
-    type: iec-60320-c14
-  - maximum_draw: 128
-    name: power2
-    type: iec-60320-c14
-  slug: ccr2116-1g-12xs-2xq
-  u_height: 1
-- interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 100base-tx
-  - name: ether7
-    type: 100base-tx
-  - name: ether8
-    type: 100base-tx
-  - name: ether9
-    type: 100base-tx
-  - name: ether10
-    type: 100base-tx
-  - name: sfp1
-    type: 1000base-x-sfp
-  manufacturer: MikroTik
-  model: RB2011UiAS-IN
-  slug: rb2011uias-in
-- airflow: passive
-  comments: '[CRS226-24G-2S+RM Datasheet](https://mikrotik.com/product/CRS226-24G-2SplusRM)'
-  console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: ether1
-    poe_mode: pd
-    poe_type: passive-24v-2pair
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: ether9
-    type: 1000base-t
-  - name: ether10
-    type: 1000base-t
-  - name: ether11
-    type: 1000base-t
-  - name: ether12
-    type: 1000base-t
-  - name: ether13
-    type: 1000base-t
-  - name: ether14
-    type: 1000base-t
-  - name: ether15
-    type: 1000base-t
-  - name: ether16
-    type: 1000base-t
-  - name: ether17
-    type: 1000base-t
-  - name: ether18
-    type: 1000base-t
-  - name: ether19
-    type: 1000base-t
-  - name: ether20
-    type: 1000base-t
-  - name: ether21
-    type: 1000base-t
-  - name: ether22
-    type: 1000base-t
-  - name: ether23
-    type: 1000base-t
-  - name: ether24
-    type: 1000base-t
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CRS226-24G-2S+RM
-  power-ports:
-  - allocated_draw: 21
-    maximum_draw: 21
-    name: power1
-    type: dc-terminal
-  slug: crs226-24g-2splusrm
-  u_height: 1
-- console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: ether9
-    type: 1000base-t
-  - name: ether10
-    type: 1000base-t
-  - name: ether11
-    type: 1000base-t
-  - name: ether12
-    type: 1000base-t
-  - name: ether13
-    type: 1000base-t
-  - name: ether14
-    type: 1000base-t
-  - name: ether15
-    type: 1000base-t
-  - name: ether16
-    type: 1000base-t
-  - name: ether17
-    type: 1000base-t
-  - name: ether18
-    type: 1000base-t
-  - name: ether19
-    type: 1000base-t
-  - name: ether20
-    type: 1000base-t
-  - name: ether21
-    type: 1000base-t
-  - name: ether22
-    type: 1000base-t
-  - name: ether23
-    type: 1000base-t
-  - name: ether24
-    type: 1000base-t
-  - name: sfp1
-    type: 1000base-x-sfp
-  - name: usb1-0
-    type: other
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CRS125-24G-1S-RM
-  power-ports:
-  - maximum_draw: 15
-    name: DC-in
-    type: dc-terminal
-  slug: crs125-24g-1s-rm
-  u_height: 1
-- airflow: passive
-  comments: '[MikroTik RB960PGS Datasheet](https://mikrotik.com/product/RB960PGS)'
-  interfaces:
-  - name: ether1
-    poe_mode: pd
-    poe_type: passive-48v-4pair
-    type: 1000base-t
-  - name: ether2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: ether3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: ether4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: ether5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: sfp1
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: RB960PGS
-  power-ports:
-  - allocated_draw: 10
-    maximum_draw: 54
-    name: power1
-    type: dc-terminal
-  slug: rb960pgs
-  u_height: 0
 - comments: 8x Gigabit Ethernet Smart Switch with PoE-out, 4x SFP cages, 400MHz CPU,
     128MB RAM, desktop case, RouterOS L5
   console-ports:
@@ -680,883 +555,7 @@ models:
     maximum_draw: 160
     name: psu2
     type: dc-terminal
-  slug: crs112-8p-4s-in
-  u_height: 1
-- interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  manufacturer: MikroTik
-  model: RB951G-2HnD
-  power-ports:
-  - maximum_draw: 10
-    name: power8-30V
-    type: iec-60320-c14
-  slug: rb951g-2hnd
-  u_height: 0
-- console-ports:
-  - name: serial0
-    type: de-9
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: ether9
-    type: 1000base-t
-  - name: ether10
-    type: 1000base-t
-  - name: ether11
-    type: 1000base-t
-  - name: ether12
-    type: 1000base-t
-  - name: ether13
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: RB1100AHx2
-  power-ports:
-  - maximum_draw: 20
-    name: power1
-    type: iec-60320-c14
-  slug: rb1100ahx2
-  u_height: 1
-- airflow: front-to-rear
-  console-ports:
-  - name: serial0
-    type: de-9
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: combo1
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CCR1009-7G-1C-1S+
-  power-ports:
-  - maximum_draw: 20
-    name: power1
-    type: iec-60320-c14
-  - maximum_draw: 20
-    name: power2
-    type: iec-60320-c14
-  slug: ccr1009-7g-1c-1splus
-  u_height: 1
-- comments: Low cost home wireless AP with dual chain 2.4GHz wireless, powered by
-    USB.
-  interfaces:
-  - label: '1'
-    name: ether1
-    type: 1000base-t
-  - label: '2'
-    name: ether2
-    type: 1000base-t
-  - label: '3'
-    name: ether3
-    type: 1000base-t
-  - label: '4'
-    name: ether4
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: hAP lite
-  part_number: RB941-2nD
-  power-ports:
-  - label: Power
-    maximum_draw: 4
-    name: psu1
-    type: usb-micro-b
-  slug: rb941-2nd
-  u_height: 0
-- comments: "Outdoor LTE RouterBoard with R11e modem with 3 SIM Slots (MiniSIM) and\
-    \ 2.4 GHz WiFi.\nSupported Bands:\n  2G Category\tClass12\n  2G bands\t2 (1900MHz)\
-    \ / 3 (1800MHz) / 5 (850MHz) / 8 (900MHz)\n  3G Category\tR7 (21Mbps Downlinks,\
-    \ 5.76Mbps Uplink) / R8 (42.2Mbps Downlink, 5.76Mbps Uplink)\n  3G bands\t1 (2100MHz)\
-    \ / 2 (1900MHz) / 5 (850MHz) / 8 (900MHz)\n  LTE Category\t6 (300Mbit/s Downlink,\
-    \ 50Mbit/s Uplink)\n  LTE FDD bands\t1 (2100MHz) / 2 (1900MHz) / 3 (1800MHz) /\
-    \ 7 (2600MHz) / 8 (900 MHz) / 20 (800MHz) / 5 (850MHz) / 12 (700MHz) / 17 (700MHz)\
-    \ / 25 (1900MHz) / 26 (850MHz)\n  LTE TDD bands\t38 (2600MHz) / 40 (2300MHz) /\
-    \ 39 (1900MHz) / 41n (2500MHz)\n"
-  interfaces:
-  - name: ether1
-    type: 100base-tx
-  - name: lte1
-    type: lte
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: RBLtAP-2HnD
-  part_number: RBLtAP-2HnD
-  power-ports:
-  - maximum_draw: 24
-    name: power1
-    type: dc-terminal
-  - description: dc barrel jack
-    maximum_draw: 24
-    name: power2
-    type: dc-terminal
-  slug: rbltap-2hnd
-  u_height: 0
-- console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: sfp1
-    type: 1000base-x-sfp
-  - name: sfp2
-    type: 1000base-x-sfp
-  - name: sfp3
-    type: 1000base-x-sfp
-  - name: sfp4
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CRS112-8G-4S-IN
-  slug: crs112-8g-4s-in
-  u_height: 1
-- airflow: front-to-rear
-  comments: Careful, there is only qsfp28-1-1, qsfp28-2-1, qsfp28-3-1 and qsfp28-4-1
-    interfaces for 100Gb, don't forget to add the other if you use breakout cables.
-  console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: ether1
-    type: 1000base-t
-  - name: qsfp28-1-1
-    type: 100gbase-x-qsfp28
-  - name: qsfp28-2-1
-    type: 100gbase-x-qsfp28
-  - name: qsfp28-3-1
-    type: 100gbase-x-qsfp28
-  - name: qsfp28-4-1
-    type: 100gbase-x-qsfp28
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CRS504-4XQ-IN
-  part_number: CRS504-4XQ-IN
-  power-ports:
-  - maximum_draw: 41
-    name: power1
-    type: iec-60320-c14
-  - maximum_draw: 41
-    name: power2
-    type: iec-60320-c14
-  - maximum_draw: 41
-    name: power3
-    type: dc-terminal
-  slug: crs504-4xq-in
-  u_height: 1
-- comments: "17dBi dish LTE RouterBoard with R11e modem with 1 SIM Slot (MicroSIM).\n\
-    Supported Bands:\n  2G Category\tClass12\n  2G bands\t2 (1900MHz) / 3 (1800MHz)\
-    \ / 5 (850MHz) / 8 (900MHz)\n  3G Category\tR7 (21Mbps Downlinks, 5.76Mbps Uplink)\
-    \ / R8 (42.2Mbps Downlink, 5.76Mbps Uplink)\n  3G bands\t1 (2100MHz) / 2 (1900MHz)\
-    \ / 5 (850MHz) / 8 (900MHz)\n  LTE Category\t6 (300Mbit/s Downlink, 50Mbit/s Uplink)\n\
-    \  LTE FDD bands\t1 (2100MHz) / 2 (1900MHz) / 3 (1800MHz) / 7 (2600MHz) / 8 (900\
-    \ MHz) / 20 (800MHz) / 5 (850MHz) / 12 (700MHz) / 17 (700MHz) / 25 (1900MHz) /\
-    \ 26 (850MHz)\n  LTE TDD bands\t38 (2600MHz) / 40 (2300MHz) / 39 (1900MHz) / 41n\
-    \ (2500MHz)\n"
-  interfaces:
-  - name: ether1
-    type: 100base-tx
-  - name: lte1
-    type: lte
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: RBLHGR&R11e-LTE6
-  part_number: RBLHGR&R11e-LTE6
-  slug: rblhg-r11d-lte6
-  u_height: 0
-- console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: ether9
-    type: 1000base-t
-  - name: ether10
-    type: 1000base-t
-  - name: ether11
-    type: 1000base-t
-  - name: ether12
-    type: 1000base-t
-  - name: sfp1
-    type: 1000base-x-sfp
-  - name: sfp2
-    type: 1000base-x-sfp
-  - name: sfp3
-    type: 1000base-x-sfp
-  - name: sfp4
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CCR1036-12G-4S
-  power-ports:
-  - maximum_draw: 60
-    name: power1
-    type: iec-60320-c14
-  - maximum_draw: 60
-    name: power2
-    type: iec-60320-c14
-  slug: ccr1036-12g-4s
-  u_height: 1
-- airflow: front-to-rear
-  console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CCR1036-8G-2S+
-  power-ports:
-  - maximum_draw: 73
-    name: power1
-    type: iec-60320-c14
-  - maximum_draw: 73
-    name: power2
-    type: iec-60320-c14
-  slug: ccr1036-8g-2splus
-  u_height: 1
-- interfaces:
-  - name: sfp1
-    type: 1000base-x-sfp
-  - name: sfp2
-    type: 1000base-x-sfp
-  - name: sfp3
-    type: 1000base-x-sfp
-  - name: sfp4
-    type: 1000base-x-sfp
-  - name: sfp5
-    type: 1000base-x-sfp
-  - name: combo1
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CRS106-1C-5S
-  slug: crs106-1c-5s
-  u_height: 1
-- console-ports:
-  - name: serial0
-    type: de-9
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: combo1
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CCR1009-7G-1C-PC
-  slug: ccr1009-7g-1c-pc
-  u_height: 1
-- console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus3
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus4
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus5
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus6
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus7
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus8
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus9
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus10
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus11
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus12
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus13
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus14
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus15
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus16
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus17
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus18
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus19
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus20
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus21
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus22
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus23
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus24
-    type: 10gbase-x-sfpp
-  - name: qsfp-qsfpplus1
-    type: 40gbase-x-qsfpp
-  - name: qsfp-qsfpplus2
-    type: 40gbase-x-qsfpp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CRS326-24S+2Q+RM
-  power-ports:
-  - maximum_draw: 69
-    name: power1
-    type: iec-60320-c14
-  - maximum_draw: 69
-    name: power2
-    type: iec-60320-c14
-  slug: crs326-24splus-2qplus-rm
-  u_height: 1
-- console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: ether9
-    type: 1000base-t
-  - name: ether10
-    type: 1000base-t
-  - name: ether11
-    type: 1000base-t
-  - name: ether12
-    type: 1000base-t
-  - name: ether13
-    type: 1000base-t
-  - name: ether14
-    type: 1000base-t
-  - name: ether15
-    type: 1000base-t
-  - name: ether16
-    type: 1000base-t
-  - name: ether17
-    type: 1000base-t
-  - name: ether18
-    type: 1000base-t
-  - name: ether19
-    type: 1000base-t
-  - name: ether20
-    type: 1000base-t
-  - name: ether21
-    type: 1000base-t
-  - name: ether22
-    type: 1000base-t
-  - name: ether23
-    type: 1000base-t
-  - name: ether24
-    type: 1000base-t
-  - name: sfp1
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CRS125-24G-1S-IN
-  slug: crs125-24g-1s-in
-  u_height: 1
-- console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus3
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus4
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus5
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus6
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus7
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus8
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CCR1072-1G-8S+
-  power-ports:
-  - maximum_draw: 125
-    name: power1
-    type: iec-60320-c14
-  - maximum_draw: 125
-    name: power2
-    type: iec-60320-c14
-  slug: ccr1072-1g-8splus
-  u_height: 1
-- comments: 24x Gigabit Switch with 2x SFP+ Cages in 1U Rackmount Case
-  console-ports:
-  - label: CONSOLE
-    name: serial0
-    type: rj-45
-  interfaces:
-  - label: '1'
-    name: ether1
-    type: 1000base-t
-  - label: '2'
-    name: ether2
-    type: 1000base-t
-  - label: '3'
-    name: ether3
-    type: 1000base-t
-  - label: '4'
-    name: ether4
-    type: 1000base-t
-  - label: '5'
-    name: ether5
-    type: 1000base-t
-  - label: '6'
-    name: ether6
-    type: 1000base-t
-  - label: '7'
-    name: ether7
-    type: 1000base-t
-  - label: '8'
-    name: ether8
-    type: 1000base-t
-  - label: '9'
-    name: ether9
-    type: 1000base-t
-  - label: '10'
-    name: ether10
-    type: 1000base-t
-  - label: '11'
-    name: ether11
-    type: 1000base-t
-  - label: '12'
-    name: ether12
-    type: 1000base-t
-  - label: '13'
-    name: ether13
-    type: 1000base-t
-  - label: '14'
-    name: ether14
-    type: 1000base-t
-  - label: '15'
-    name: ether15
-    type: 1000base-t
-  - label: '16'
-    name: ether16
-    type: 1000base-t
-  - label: '17'
-    name: ether17
-    type: 1000base-t
-  - label: '18'
-    name: ether18
-    type: 1000base-t
-  - label: '19'
-    name: ether19
-    type: 1000base-t
-  - label: '20'
-    name: ether20
-    type: 1000base-t
-  - label: '21'
-    name: ether21
-    type: 1000base-t
-  - label: '22'
-    name: ether22
-    type: 1000base-t
-  - label: '23'
-    name: ether23
-    type: 1000base-t
-  - label: '24'
-    name: ether24
-    type: 1000base-t
-  - label: SFP+ 1
-    name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - label: SFP+ 2
-    name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CRS326-24G-2S+RM
-  part_number: CRS326-24G-2S
-  power-ports:
-  - label: DC 10-28V
-    maximum_draw: 24
-    name: psu1
-    type: dc-terminal
-  slug: crs326-24g-2splus-rm
-  u_height: 1
-- console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: ether9
-    type: 1000base-t
-  - name: ether10
-    type: 1000base-t
-  - name: ether11
-    type: 1000base-t
-  - name: ether12
-    type: 1000base-t
-  - name: ether13
-    type: 1000base-t
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CCR2004-16G-2S+
-  part_number: CCR2004-16G-2S+
-  power-ports:
-  - maximum_draw: 48
-    name: power1
-    type: iec-60320-c14
-  - maximum_draw: 48
-    name: power2
-    type: iec-60320-c14
-  slug: ccr2004-16g-2splus
-  u_height: 1
-- airflow: front-to-rear
-  console-ports:
-  - name: serial0
-    type: de-9
-  interfaces:
-  - name: ether1
-    poe_mode: pd
-    poe_type: passive-24v-2pair
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: combo1
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CCR1009-7G-1C-1S+PC
-  power-ports:
-  - maximum_draw: 35
-    name: power1
-    type: iec-60320-c14
-  slug: ccr1009-7g-1c-1spluspc
-  u_height: 1
-- console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: ether9
-    type: 1000base-t
-  - name: ether10
-    type: 1000base-t
-  - name: ether11
-    type: 1000base-t
-  - name: ether12
-    type: 1000base-t
-  - name: ether13
-    type: 1000base-t
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus3
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus4
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CCR2116-12G-4S+
-  part_number: CCR2116-12G-4S+
-  power-ports:
-  - maximum_draw: 72
-    name: power1
-    type: iec-60320-c14
-  - maximum_draw: 72
-    name: power2
-    type: iec-60320-c14
-  slug: ccr2116-12g-4splus
-  u_height: 1
-- comments: Five-port desktop switch with one Gigabit Ethernet port and four SFP+
-    10Gbps ports.
-  console-ports:
-  - description: header on board
-    name: serial0
-    type: other
-  interfaces:
-  - label: SFP+ 1
-    name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - label: SFP+ 2
-    name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  - label: SFP+ 3
-    name: sfp-sfpplus3
-    type: 10gbase-x-sfpp
-  - label: SFP+ 4
-    name: sfp-sfpplus4
-    type: 10gbase-x-sfpp
-  - label: ETH/BOOT
-    name: ether1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CRS305-1G-4S+IN
-  part_number: CRS305-1G-4S+
-  power-ports:
-  - label: DC1
-    maximum_draw: 18
-    name: psu1
-    type: dc-terminal
-  - label: DC2
-    maximum_draw: 18
-    name: psu2
-    type: dc-terminal
-  slug: crs305-1g-4splus-in
-  u_height: 1
-- interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  manufacturer: MikroTik
-  model: RB750r3
-  slug: rb750r3
-- comments: "17dBi dish LTE RouterBoard with R11e modem with 1 SIM Slot (MicroSIM).\n\
-    Supported Bands:\n  3G Category\tR7 (21Mbps Downlinks, 5.76Mbps Uplink) / R8 (42.2Mbps\
-    \ Downlink, 5.76Mbps Uplink)\n  3G bands\t2 (1900MHz) / 5 (850MHz)\n  LTE Category\t\
-    4 (150Mbps Downlink, 50Mbps Uplink)\n  LTE FDD bands\t2 (1900MHz) / 4 (1700MHz)\
-    \ / 5 (850MHz) / 12 (700MHz)\n"
-  interfaces:
-  - name: ether1
-    type: 100base-tx
-  - name: lte1
-    type: lte
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: RBLHGR&R11e-LTE-US
-  part_number: RBLHGR&R11e-LTE-US
-  slug: rblhg-r11e-lte-us
-  u_height: 0
-- airflow: passive
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: ether9
-    type: 1000base-t
-  - name: ether10
-    type: 1000base-t
-  - name: ether11
-    type: 1000base-t
-  - name: ether12
-    type: 1000base-t
-  - name: ether13
-    type: 1000base-t
-  - name: ether14
-    type: 1000base-t
-  - name: ether15
-    type: 1000base-t
-  - name: ether16
-    type: 1000base-t
-  - name: ether17
-    type: 1000base-t
-  - name: ether18
-    type: 1000base-t
-  - name: ether19
-    type: 1000base-t
-  - name: ether20
-    type: 1000base-t
-  - name: ether21
-    type: 1000base-t
-  - name: ether22
-    type: 1000base-t
-  - name: ether23
-    type: 1000base-t
-  - name: ether24
-    type: 1000base-t
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CSS326-24G-2S+RM
-  slug: css326-24g-2s-rm
+  slug: mikrotik-crs112-8p-4s-in
   u_height: 1
 - airflow: passive
   comments: '[CRS109-8G-1S-2HnD-IN Datasheet](https://mikrotik.com/product/CRS109-8G-1S-2HnD-IN)'
@@ -1609,9 +608,65 @@ models:
   u_height: 1
   weight: 0.9
   weight_unit: kg
-- airflow: passive
-  comments: "[Mikrotik Product Website](https://mikrotik.com/product/hex_s)\r\nMaximum\
-    \ CPU Network bandwidth is 2GBit/s, see block diagram on Website"
+- interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  manufacturer: MikroTik
+  model: RB951G-2HnD
+  power-ports:
+  - maximum_draw: 10
+    name: power8-30V
+    type: iec-60320-c14
+  slug: mikrotik-rb951g-2hnd
+  u_height: 0
+- comments: Five-port desktop switch with one Gigabit Ethernet port and four SFP+
+    10Gbps ports.
+  console-ports:
+  - description: header on board
+    name: serial0
+    type: other
+  interfaces:
+  - label: SFP+ 1
+    name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - label: SFP+ 2
+    name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  - label: SFP+ 3
+    name: sfp-sfpplus3
+    type: 10gbase-x-sfpp
+  - label: SFP+ 4
+    name: sfp-sfpplus4
+    type: 10gbase-x-sfpp
+  - label: ETH/BOOT
+    name: ether1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CRS305-1G-4S+IN
+  part_number: CRS305-1G-4S+
+  power-ports:
+  - label: DC1
+    maximum_draw: 18
+    name: psu1
+    type: dc-terminal
+  - label: DC2
+    maximum_draw: 18
+    name: psu2
+    type: dc-terminal
+  slug: mikrotik-crs305-1g-4s-plus-in
+  u_height: 1
+- console-ports:
+  - name: serial0
+    type: rj-45
   interfaces:
   - name: ether1
     type: 1000base-t
@@ -1623,19 +678,40 @@ models:
     type: 1000base-t
   - name: ether5
     type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: ether9
+    type: 1000base-t
+  - name: ether10
+    type: 1000base-t
+  - name: ether11
+    type: 1000base-t
+  - name: ether12
+    type: 1000base-t
   - name: sfp1
+    type: 1000base-x-sfp
+  - name: sfp2
+    type: 1000base-x-sfp
+  - name: sfp3
+    type: 1000base-x-sfp
+  - name: sfp4
     type: 1000base-x-sfp
   is_full_depth: false
   manufacturer: MikroTik
-  model: RB760iGS
-  part_number: RB760iGS
+  model: CCR1036-12G-4S
   power-ports:
-  - allocated_draw: 6
-    maximum_draw: 24
-    name: Input
-    type: dc-terminal
-  slug: rb760igs
-  u_height: 0
+  - maximum_draw: 60
+    name: power1
+    type: iec-60320-c14
+  - maximum_draw: 60
+    name: power2
+    type: iec-60320-c14
+  slug: mikrotik-ccr1036-12g-4s
+  u_height: 1
 - airflow: front-to-rear
   comments: Careful, there is only qsfp28-1-1 and qsfp28-2-1 interfaces for 100Gb,
     don't forget to add the other if you use breakout cables.
@@ -1695,149 +771,82 @@ models:
   - maximum_draw: 77
     name: power2
     type: iec-60320-c14
-  slug: crs518-16xs-2xq
+  slug: mikrotik-crs518-16xs-2xq
   u_height: 1
-- comments: '[Product Data](https://mikrotik.com/product/CCR1009-8G-1S-1Splus)
-
-    '
+- comments: Smart Switch, 1 x Gigabit LAN, 16 x SFP+ cages, Dual Core 800MHz CPU,
+    1GB RAM, 1U rackmount passive cooling case, Dual Power Supplies.
   console-ports:
-  - name: serial0
-    type: de-9
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: sfp1
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CCR1009-8G-1S-1S+
-  slug: ccr1009-8g-1s-1splus
-  u_height: 1
-- console-ports:
-  - name: serial0
+  - label: CONSOLE
+    name: serial0
     type: rj-45
   interfaces:
-  - name: sfp1
-    type: 1000base-x-sfp
-  - name: sfp2
-    type: 1000base-x-sfp
-  - name: sfp3
-    type: 1000base-x-sfp
-  - name: sfp4
-    type: 1000base-x-sfp
-  - name: sfp5
-    type: 1000base-x-sfp
-  - name: sfp6
-    type: 1000base-x-sfp
-  - name: sfp7
-    type: 1000base-x-sfp
-  - name: sfp8
-    type: 1000base-x-sfp
-  - name: sfp9
-    type: 1000base-x-sfp
-  - name: sfp10
-    type: 1000base-x-sfp
-  - name: sfp11
-    type: 1000base-x-sfp
-  - name: sfp12
-    type: 1000base-x-sfp
-  - name: sfp13
-    type: 1000base-x-sfp
-  - name: sfp14
-    type: 1000base-x-sfp
-  - name: sfp15
-    type: 1000base-x-sfp
-  - name: sfp16
-    type: 1000base-x-sfp
-  - name: sfp17
-    type: 1000base-x-sfp
-  - name: sfp18
-    type: 1000base-x-sfp
-  - name: sfp19
-    type: 1000base-x-sfp
-  - name: sfp20
-    type: 1000base-x-sfp
-  - name: sfp-sfpplus1
+  - label: SFP+ 1
+    name: sfp-sfpplus1
     type: 10gbase-x-sfpp
-  - name: sfp-sfpplus2
+  - label: SFP+ 2
+    name: sfp-sfpplus2
     type: 10gbase-x-sfpp
-  - name: sfp-sfpplus3
+  - label: SFP+ 3
+    name: sfp-sfpplus3
     type: 10gbase-x-sfpp
-  - name: sfp-sfpplus4
+  - label: SFP+ 4
+    name: sfp-sfpplus4
     type: 10gbase-x-sfpp
-  - name: combo1
-    type: 1000base-x-sfp
-  - name: combo2
-    type: 1000base-x-sfp
-  - name: combo3
-    type: 1000base-x-sfp
-  - name: combo4
-    type: 1000base-x-sfp
+  - label: SFP+ 5
+    name: sfp-sfpplus5
+    type: 10gbase-x-sfpp
+  - label: SFP+ 6
+    name: sfp-sfpplus6
+    type: 10gbase-x-sfpp
+  - label: SFP+ 7
+    name: sfp-sfpplus7
+    type: 10gbase-x-sfpp
+  - label: SFP+ 8
+    name: sfp-sfpplus8
+    type: 10gbase-x-sfpp
+  - label: SFP+ 9
+    name: sfp-sfpplus9
+    type: 10gbase-x-sfpp
+  - label: SFP+ 10
+    name: sfp-sfpplus10
+    type: 10gbase-x-sfpp
+  - label: SFP+ 11
+    name: sfp-sfpplus11
+    type: 10gbase-x-sfpp
+  - label: SFP+ 12
+    name: sfp-sfpplus12
+    type: 10gbase-x-sfpp
+  - label: SFP+ 13
+    name: sfp-sfpplus13
+    type: 10gbase-x-sfpp
+  - label: SFP+ 14
+    name: sfp-sfpplus14
+    type: 10gbase-x-sfpp
+  - label: SFP+ 15
+    name: sfp-sfpplus15
+    type: 10gbase-x-sfpp
+  - label: SFP+ 16
+    name: sfp-sfpplus16
+    type: 10gbase-x-sfpp
+  - label: ETH/BOOT
+    name: ether1
+    type: 1000base-t
   is_full_depth: false
   manufacturer: MikroTik
-  model: CRS328-4C-20S-4S+RM
+  model: CRS317-1G-16S+RM
+  part_number: CRS317-1G-16S+
   power-ports:
-  - maximum_draw: 43
+  - label: POWER 1
+    maximum_draw: 44
     name: power1
     type: iec-60320-c14
-  - maximum_draw: 43
+  - label: POWER 2
+    maximum_draw: 44
     name: power2
     type: iec-60320-c14
-  slug: crs328-4c-20s-4splus-rm
+  slug: mikrotik-crs317-1g-16s-plus-rm
   u_height: 1
-- console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: sfp1
-    type: 1000base-x-sfp
-  - name: sfp2
-    type: 1000base-x-sfp
-  - name: sfp3
-    type: 1000base-x-sfp
-  - name: sfp4
-    type: 1000base-x-sfp
-  - name: sfp5
-    type: 1000base-x-sfp
-  - name: sfp6
-    type: 1000base-x-sfp
-  - name: sfp7
-    type: 1000base-x-sfp
-  - name: sfp8
-    type: 1000base-x-sfp
-  - name: sfp9
-    type: 1000base-x-sfp
-  - name: sfp10
-    type: 1000base-x-sfp
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: ether1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CRS212-1G-10S-1S+IN
-  slug: crs212-1g-10s-1splus-in
-  u_height: 1
-- console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
+- interfaces:
   - name: ether1
     type: 1000base-t
   - name: ether2
@@ -1858,29 +867,105 @@ models:
     type: 1000base-t
   - name: ether10
     type: 1000base-t
-  - name: ether11
-    type: 1000base-t
-  - name: ether12
-    type: 1000base-t
   - name: sfp1
-    type: 1000base-x-sfp
-  - name: sfp2
-    type: 1000base-x-sfp
-  - name: sfp3
-    type: 1000base-x-sfp
-  - name: sfp4
     type: 1000base-x-sfp
   is_full_depth: false
   manufacturer: MikroTik
-  model: CCR1036-12G-4S-EM
+  model: RB3011UiAS-RM
+  slug: mikrotik-rb3011uias-rm
+  u_height: 1
+- comments: '[MikroTik RB750Gr3 Datasheet](https://mikrotik.com/product/RB750Gr3)'
+  interfaces:
+  - name: ether1
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  manufacturer: MikroTik
+  model: RB750Gr3
   power-ports:
-  - maximum_draw: 60
+  - maximum_draw: 10
+    name: power1
+    type: dc-terminal
+  slug: mikrotik-rb750gr3
+- airflow: front-to-rear
+  console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CCR1036-8G-2S+
+  power-ports:
+  - maximum_draw: 73
     name: power1
     type: iec-60320-c14
-  - maximum_draw: 60
+  - maximum_draw: 73
     name: power2
     type: iec-60320-c14
-  slug: ccr1036-12g-4s-em
+  slug: mikrotik-ccr1036-8g-2s-plus
+  u_height: 1
+- airflow: front-to-rear
+  console-ports:
+  - name: serial0
+    type: de-9
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: combo1
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CCR1009-7G-1C-1S+
+  power-ports:
+  - maximum_draw: 20
+    name: power1
+    type: iec-60320-c14
+  - maximum_draw: 20
+    name: power2
+    type: iec-60320-c14
+  slug: mikrotik-ccr1009-7g-1c-1s-plus
   u_height: 1
 - console-ports:
   - name: serial0
@@ -2004,33 +1089,12 @@ models:
   - maximum_draw: 50
     name: power2
     type: iec-60320-c14
-  slug: crs354-48g-4splus-2qplus-rm
+  slug: mikrotik-crs354-48g-4s-plus-2q-plus-rm
   u_height: 1
 - console-ports:
-  - name: Console
+  - name: serial0
     type: rj-45
   interfaces:
-  - name: ether1
-    type: 100base-tx
-  - name: ether2
-    type: 100base-tx
-  - name: ether3
-    type: 100base-tx
-  - name: ether4
-    type: 100base-tx
-  - name: ether5
-    type: 100base-tx
-  manufacturer: MikroTik
-  model: RB750r2
-  power-ports:
-  - maximum_draw: 350
-    name: DC
-    type: iec-60320-c14
-  - maximum_draw: 350
-    name: PSU1
-    type: iec-60320-c14
-  slug: rb750r2
-- interfaces:
   - name: ether1
     type: 1000base-t
   - name: ether2
@@ -2042,42 +1106,389 @@ models:
   - name: ether5
     type: 1000base-t
   - name: ether6
-    type: 100base-tx
+    type: 1000base-t
   - name: ether7
-    type: 100base-tx
+    type: 1000base-t
   - name: ether8
-    type: 100base-tx
+    type: 1000base-t
   - name: ether9
-    type: 100base-tx
+    type: 1000base-t
   - name: ether10
+    type: 1000base-t
+  - name: ether11
+    type: 1000base-t
+  - name: ether12
+    type: 1000base-t
+  - name: ether13
+    type: 1000base-t
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus3
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus4
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CCR2116-12G-4S+
+  part_number: CCR2116-12G-4S+
+  power-ports:
+  - maximum_draw: 72
+    name: power1
+    type: iec-60320-c14
+  - maximum_draw: 72
+    name: power2
+    type: iec-60320-c14
+  slug: mikrotik-ccr2116-12g-4s-plus
+  u_height: 1
+- airflow: passive
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: ether9
+    type: 1000base-t
+  - name: ether10
+    type: 1000base-t
+  - name: ether11
+    type: 1000base-t
+  - name: ether12
+    type: 1000base-t
+  - name: ether13
+    type: 1000base-t
+  - name: ether14
+    type: 1000base-t
+  - name: ether15
+    type: 1000base-t
+  - name: ether16
+    type: 1000base-t
+  - name: ether17
+    type: 1000base-t
+  - name: ether18
+    type: 1000base-t
+  - name: ether19
+    type: 1000base-t
+  - name: ether20
+    type: 1000base-t
+  - name: ether21
+    type: 1000base-t
+  - name: ether22
+    type: 1000base-t
+  - name: ether23
+    type: 1000base-t
+  - name: ether24
+    type: 1000base-t
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CSS326-24G-2S+RM
+  slug: mikrotik-css326-24g-2s-plus-rm
+  u_height: 1
+- console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: sfp2
+    type: 1000base-x-sfp
+  - name: sfp3
+    type: 1000base-x-sfp
+  - name: sfp4
+    type: 1000base-x-sfp
+  - name: sfp5
+    type: 1000base-x-sfp
+  - name: sfp6
+    type: 1000base-x-sfp
+  - name: sfp7
+    type: 1000base-x-sfp
+  - name: sfp8
+    type: 1000base-x-sfp
+  - name: sfp9
+    type: 1000base-x-sfp
+  - name: sfp10
+    type: 1000base-x-sfp
+  - name: sfp11
+    type: 1000base-x-sfp
+  - name: sfp12
+    type: 1000base-x-sfp
+  - name: sfp13
+    type: 1000base-x-sfp
+  - name: sfp14
+    type: 1000base-x-sfp
+  - name: sfp15
+    type: 1000base-x-sfp
+  - name: sfp16
+    type: 1000base-x-sfp
+  - name: sfp17
+    type: 1000base-x-sfp
+  - name: sfp18
+    type: 1000base-x-sfp
+  - name: sfp19
+    type: 1000base-x-sfp
+  - name: sfp20
+    type: 1000base-x-sfp
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus3
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus4
+    type: 10gbase-x-sfpp
+  - name: combo1
+    type: 1000base-x-sfp
+  - name: combo2
+    type: 1000base-x-sfp
+  - name: combo3
+    type: 1000base-x-sfp
+  - name: combo4
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CRS328-4C-20S-4S+RM
+  power-ports:
+  - maximum_draw: 43
+    name: power1
+    type: iec-60320-c14
+  - maximum_draw: 43
+    name: power2
+    type: iec-60320-c14
+  slug: mikrotik-crs328-4c-20s-4s-plus-rm
+  u_height: 1
+- console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus3
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus4
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus5
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus6
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus7
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus8
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus9
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus10
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus11
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus12
+    type: 10gbase-x-sfpp
+  - name: sfp28-1
+    type: 25gbase-x-sfp28
+  - name: sfp28-2
+    type: 25gbase-x-sfp28
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CCR2004-1G-12S+2XS
+  part_number: CCR2004-1G-12S+2XS
+  power-ports:
+  - maximum_draw: 49
+    name: power1
+    type: iec-60320-c14
+  - maximum_draw: 49
+    name: power2
+    type: iec-60320-c14
+  slug: mikrotik-ccr2004-1g-12s-plus-2xs
+  u_height: 1
+- airflow: passive
+  comments: '[RB941-2nD-TC Datasheet](https://mikrotik.com/product/RB941-2nD-TC)'
+  interfaces:
+  - name: Ether1
     type: 100base-tx
+  - name: Ether2
+    type: 100base-tx
+  - name: Ether3
+    type: 100base-tx
+  - name: Ether4
+    type: 100base-tx
+  - name: Wireless 2.4 GHz
+    type: ieee802.11g
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: hAP lite TC
+  part_number: RB941-2nD-TC
+  power-ports:
+  - maximum_draw: 3
+    name: Power
+    type: usb-micro-b
+  slug: mikrotik-hap-lite-tc
+  u_height: 0
+  weight: 0.35
+  weight_unit: kg
+- interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
   - name: sfp1
     type: 1000base-x-sfp
   manufacturer: MikroTik
-  model: RB2011iLS-IN
-  slug: rb2011ils-in
-- comments: "10.5dBi Outdoor LTE RouterBoard with LTE CAT6 RE-11 Modem with 2 sim\
-    \ slots (MicroSIM).\nSupported Bands:\n  2G Category\tClass12\n  2G bands\t2 (1900MHz)\
-    \ / 3 (1800MHz) / 5 (850MHz) / 8 (900MHz)\n  3G Category\tR7 (21Mbps Downlinks,\
-    \ 5.76Mbps Uplink) / R8 (42.2Mbps Downlink, 5.76Mbps Uplink)\n  3G bands\t1 (2100MHz)\
-    \ / 2 (1900MHz) / 5 (850MHz) / 8 (900MHz)\n  LTE Category\t6 (300Mbit/s Downlink,\
-    \ 50Mbit/s Uplink)\n  LTE FDD bands\t1 (2100MHz) / 2 (1900MHz) / 3 (1800MHz) /\
-    \ 7 (2600MHz) / 8 (900 MHz) / 20 (800MHz) / 5 (850MHz) / 12 (700MHz) / 17 (700MHz)\
-    \ / 25 (1900MHz) / 26 (850MHz)\n  LTE TDD bands\t38 (2600MHz) / 40 (2300MHz) /\
-    \ 39 (1900MHz) / 41n (2500MHz)\n"
-  interfaces:
+  model: RB260GSP
+  slug: mikrotik-rb260gsp
+- interfaces:
   - name: ether1
-    type: 100base-tx
+    type: 1000base-t
   - name: ether2
-    type: 100base-tx
-  - name: lte1
-    type: lte
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - description: 5ghz
+    name: wifi1
+    type: ieee802.11ax
+  - description: 2.4ghz
+    name: wifi2
+    type: ieee802.11ax
   is_full_depth: false
   manufacturer: MikroTik
-  model: RBSXTR&R11e-LTE6
-  part_number: RBSXTR&R11e-LTE6
-  slug: rbsxtr-r11e-lte6
-  u_height: 0
+  model: C52iG-5HaxD2HaxD-TC
+  power-ports:
+  - maximum_draw: 27
+    name: DC-in
+    type: dc-terminal
+  slug: mikrotik-c52ig-5haxd2haxd-tc
+  u_height: 1
+- console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: ether9
+    type: 1000base-t
+  - name: ether10
+    type: 1000base-t
+  - name: ether11
+    type: 1000base-t
+  - name: ether12
+    type: 1000base-t
+  - name: ether13
+    type: 1000base-t
+  - name: ether14
+    type: 1000base-t
+  - name: ether15
+    type: 1000base-t
+  - name: ether16
+    type: 1000base-t
+  - name: ether17
+    type: 1000base-t
+  - name: ether18
+    type: 1000base-t
+  - name: ether19
+    type: 1000base-t
+  - name: ether20
+    type: 1000base-t
+  - name: ether21
+    type: 1000base-t
+  - name: ether22
+    type: 1000base-t
+  - name: ether23
+    type: 1000base-t
+  - name: ether24
+    type: 1000base-t
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: wlan1
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CRS125-24G-1S-2HnD-IN
+  slug: mikrotik-crs125-24g-1s-2hnd-in
+  u_height: 1
+- comments: "10 Gigabit fibre connectivity way over a 100 meters \u2013 for small\
+    \ offices or ISPs. Hardware offloaded VLAN-filtering and even some L3 routing"
+  console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: sfp2
+    type: 1000base-x-sfp
+  - name: sfp3
+    type: 1000base-x-sfp
+  - name: sfp4
+    type: 1000base-x-sfp
+  - name: sfp5
+    type: 1000base-x-sfp
+  - label: SFP+ 1
+    name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - label: SFP+ 2
+    name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  - label: SFP+ 3
+    name: sfp-sfpplus3
+    type: 10gbase-x-sfpp
+  - label: SFP+ 4
+    name: sfp-sfpplus4
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CRS310-1G-5S-4S+IN
+  part_number: CRS310-1G-5S-4S+
+  power-ports:
+  - label: DC 18-57V
+    maximum_draw: 20
+    name: psu1
+    type: dc-terminal
+  slug: mikrotik-crs310-1g-5s-4s-plus-in
+  u_height: 1
 - interfaces:
   - name: ether1
     type: 1000base-t
@@ -2091,7 +1502,180 @@ models:
     type: 1000base-t
   manufacturer: MikroTik
   model: RB260GS
-  slug: rb260gs
+  slug: mikrotik-rb260gs
+- console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CCR1036-8G-2S+EM
+  power-ports:
+  - maximum_draw: 73
+    name: power1
+    type: iec-60320-c14
+  - maximum_draw: 73
+    name: power2
+    type: iec-60320-c14
+  slug: mikrotik-ccr1036-8g-2s-plus-em
+  u_height: 1
+- console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: ether9
+    type: 1000base-t
+  - name: ether10
+    type: 1000base-t
+  - name: ether11
+    type: 1000base-t
+  - name: ether12
+    type: 1000base-t
+  - name: ether13
+    type: 1000base-t
+  - name: ether14
+    type: 1000base-t
+  - name: ether15
+    type: 1000base-t
+  - name: ether16
+    type: 1000base-t
+  - name: ether17
+    type: 1000base-t
+  - name: ether18
+    type: 1000base-t
+  - name: ether19
+    type: 1000base-t
+  - name: ether20
+    type: 1000base-t
+  - name: ether21
+    type: 1000base-t
+  - name: ether22
+    type: 1000base-t
+  - name: ether23
+    type: 1000base-t
+  - name: ether24
+    type: 1000base-t
+  - name: sfp1
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CRS125-24G-1S-IN
+  slug: mikrotik-crs125-24g-1s-in
+  u_height: 1
+- airflow: passive
+  comments: '[RB1200 Datasheet](https://mikrotik.com/product/RB1200)'
+  console-ports:
+  - name: Serial
+    type: de-9
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: ether9
+    type: 1000base-t
+  - name: ether10
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: RB1200
+  part_number: RB1200
+  power-ports:
+  - maximum_draw: 23
+    name: Power
+    type: iec-60320-c14
+  slug: mikrotik-rb1200
+  u_height: 0
+  weight: 0.37
+  weight_unit: kg
+- console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: ether9
+    type: 1000base-t
+  - name: ether10
+    type: 1000base-t
+  - name: ether11
+    type: 1000base-t
+  - name: ether12
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CCR1016-12G
+  power-ports:
+  - maximum_draw: 42
+    name: power1
+    type: iec-60320-c14
+  - maximum_draw: 42
+    name: power2
+    type: iec-60320-c14
+  slug: mikrotik-ccr1016-12g
+  u_height: 1
 - console-ports:
   - name: serial0
     type: rj-45
@@ -2159,53 +1743,12 @@ models:
   - maximum_draw: 494
     name: power1
     type: iec-60320-c14
-  slug: crs328-24p-4splus-rm
+  slug: mikrotik-crs328-24p-4s-plus-rm
   u_height: 1
-- comments: Desktop switch with one Gigabit Ethernet port and eight SFP+ 10Gbps ports.
-  console-ports:
-  - label: CONSOLE
-    name: serial0
+- console-ports:
+  - name: serial0
     type: rj-45
   interfaces:
-  - label: SFP+ 1
-    name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - label: SFP+ 2
-    name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  - label: SFP+ 3
-    name: sfp-sfpplus3
-    type: 10gbase-x-sfpp
-  - label: SFP+ 4
-    name: sfp-sfpplus4
-    type: 10gbase-x-sfpp
-  - label: SFP+ 5
-    name: sfp-sfpplus5
-    type: 10gbase-x-sfpp
-  - label: SFP+ 6
-    name: sfp-sfpplus6
-    type: 10gbase-x-sfpp
-  - label: SFP+ 7
-    name: sfp-sfpplus7
-    type: 10gbase-x-sfpp
-  - label: SFP+ 8
-    name: sfp-sfpplus8
-    type: 10gbase-x-sfpp
-  - label: POE/BOOT
-    name: ether1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CRS309-1G-8S+IN
-  part_number: CRS309-1G-8S+
-  power-ports:
-  - label: DC 12-57V
-    maximum_draw: 23
-    name: psu1
-    type: dc-terminal
-  slug: crs309-1g-8splus-in
-  u_height: 1
-- interfaces:
   - name: ether1
     type: 1000base-t
   - name: ether2
@@ -2216,15 +1759,59 @@ models:
     type: 1000base-t
   - name: ether5
     type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: ether9
+    type: 1000base-t
+  - name: ether10
+    type: 1000base-t
+  - name: ether11
+    type: 1000base-t
+  - name: ether12
+    type: 1000base-t
+  - name: ether13
+    type: 1000base-t
+  - name: ether14
+    type: 1000base-t
+  - name: ether15
+    type: 1000base-t
+  - name: ether16
+    type: 1000base-t
+  - name: ether17
+    type: 1000base-t
+  - name: ether18
+    type: 1000base-t
+  - name: ether19
+    type: 1000base-t
+  - name: ether20
+    type: 1000base-t
+  - name: ether21
+    type: 1000base-t
+  - name: ether22
+    type: 1000base-t
+  - name: ether23
+    type: 1000base-t
+  - name: ether24
+    type: 1000base-t
   - name: sfp1
     type: 1000base-x-sfp
+  - name: usb1-0
+    type: other
+  is_full_depth: false
   manufacturer: MikroTik
-  model: RB260GSP
-  slug: rb260gsp
-- airflow: passive
-  comments: '[RB1200 Datasheet](https://mikrotik.com/product/RB1200)'
-  console-ports:
-  - name: Serial
+  model: CRS125-24G-1S-RM
+  power-ports:
+  - maximum_draw: 15
+    name: DC-in
+    type: dc-terminal
+  slug: mikrotik-crs125-24g-1s-rm
+  u_height: 1
+- console-ports:
+  - name: serial0
     type: de-9
   interfaces:
   - name: ether1
@@ -2247,90 +1834,20 @@ models:
     type: 1000base-t
   - name: ether10
     type: 1000base-t
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: RB1200
-  part_number: RB1200
-  power-ports:
-  - maximum_draw: 23
-    name: Power
-    type: iec-60320-c14
-  slug: mikrotik-rb1200
-  u_height: 0
-  weight: 0.37
-  weight_unit: kg
-- comments: Smart Switch, 1 x Gigabit LAN, 16 x SFP+ cages, Dual Core 800MHz CPU,
-    1GB RAM, 1U rackmount passive cooling case, Dual Power Supplies.
-  console-ports:
-  - label: CONSOLE
-    name: serial0
-    type: rj-45
-  interfaces:
-  - label: SFP+ 1
-    name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - label: SFP+ 2
-    name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  - label: SFP+ 3
-    name: sfp-sfpplus3
-    type: 10gbase-x-sfpp
-  - label: SFP+ 4
-    name: sfp-sfpplus4
-    type: 10gbase-x-sfpp
-  - label: SFP+ 5
-    name: sfp-sfpplus5
-    type: 10gbase-x-sfpp
-  - label: SFP+ 6
-    name: sfp-sfpplus6
-    type: 10gbase-x-sfpp
-  - label: SFP+ 7
-    name: sfp-sfpplus7
-    type: 10gbase-x-sfpp
-  - label: SFP+ 8
-    name: sfp-sfpplus8
-    type: 10gbase-x-sfpp
-  - label: SFP+ 9
-    name: sfp-sfpplus9
-    type: 10gbase-x-sfpp
-  - label: SFP+ 10
-    name: sfp-sfpplus10
-    type: 10gbase-x-sfpp
-  - label: SFP+ 11
-    name: sfp-sfpplus11
-    type: 10gbase-x-sfpp
-  - label: SFP+ 12
-    name: sfp-sfpplus12
-    type: 10gbase-x-sfpp
-  - label: SFP+ 13
-    name: sfp-sfpplus13
-    type: 10gbase-x-sfpp
-  - label: SFP+ 14
-    name: sfp-sfpplus14
-    type: 10gbase-x-sfpp
-  - label: SFP+ 15
-    name: sfp-sfpplus15
-    type: 10gbase-x-sfpp
-  - label: SFP+ 16
-    name: sfp-sfpplus16
-    type: 10gbase-x-sfpp
-  - label: ETH/BOOT
-    name: ether1
+  - name: ether11
+    type: 1000base-t
+  - name: ether12
+    type: 1000base-t
+  - name: ether13
     type: 1000base-t
   is_full_depth: false
   manufacturer: MikroTik
-  model: CRS317-1G-16S+RM
-  part_number: CRS317-1G-16S+
+  model: RB1100AHx2
   power-ports:
-  - label: POWER 1
-    maximum_draw: 44
+  - maximum_draw: 20
     name: power1
     type: iec-60320-c14
-  - label: POWER 2
-    maximum_draw: 44
-    name: power2
-    type: iec-60320-c14
-  slug: crs317-1g-16splus-rm
+  slug: mikrotik-rb1100ahx2
   u_height: 1
 - console-ports:
   - name: serial0
@@ -2452,290 +1969,8 @@ models:
   - maximum_draw: 800
     name: power1
     type: iec-60320-c14
-  slug: crs354-48p-4splus-2qplus-rm
+  slug: mikrotik-crs354-48p-4s-plus-2q-plus-rm
   u_height: 1
-- airflow: passive
-  comments: '[RB941-2nD-TC Datasheet](https://mikrotik.com/product/RB941-2nD-TC)'
-  interfaces:
-  - name: Ether1
-    type: 100base-tx
-  - name: Ether2
-    type: 100base-tx
-  - name: Ether3
-    type: 100base-tx
-  - name: Ether4
-    type: 100base-tx
-  - name: Wireless 2.4 GHz
-    type: ieee802.11g
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: hAP lite TC
-  part_number: RB941-2nD-TC
-  power-ports:
-  - maximum_draw: 3
-    name: Power
-    type: usb-micro-b
-  slug: mikrotik-hap-lite-tc
-  u_height: 0
-  weight: 0.35
-  weight_unit: kg
-- console-ports:
-  - name: serial0
-    type: de-9
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: ether9
-    type: 1000base-t
-  - name: ether10
-    type: 1000base-t
-  - name: ether11
-    type: 1000base-t
-  - name: ether12
-    type: 1000base-t
-  - name: ether13
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: RB1100AHx4 Dude Edition
-  power-ports:
-  - maximum_draw: 20
-    name: power1
-    type: iec-60320-c14
-  - maximum_draw: 20
-    name: power2
-    type: iec-60320-c14
-  slug: rb1100dx4
-  u_height: 1
-- console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: xether1
-    type: 10gbase-x-sfpp
-  - name: xether2
-    type: 10gbase-x-sfpp
-  - name: xether3
-    type: 10gbase-x-sfpp
-  - name: xether4
-    type: 10gbase-x-sfpp
-  - name: xether5
-    type: 10gbase-x-sfpp
-  - name: xether6
-    type: 10gbase-x-sfpp
-  - name: xether7
-    type: 10gbase-x-sfpp
-  - name: xether8
-    type: 10gbase-x-sfpp
-  - name: combo1
-    type: 10gbase-x-sfpp
-  - name: combo2
-    type: 10gbase-x-sfpp
-  - name: combo3
-    type: 10gbase-x-sfpp
-  - name: combo4
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CRS312-4C+8XG-RM
-  slug: crs312-4cplus-8xg-rm
-  u_height: 1
-- airflow: passive
-  comments: '[MikroTik RB5009UPr+S+IN Datasheet](https://mikrotik.com/product/rb5009upr_s_in)'
-  interfaces:
-  - name: ether1
-    poe_mode: pd
-    poe_type: passive-48v-4pair
-    type: 2.5gbase-t
-  - name: ether2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: ether3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: ether4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: ether5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: ether6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: ether7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: ether8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: RB5009UPr+S+IN
-  power-ports:
-  - allocated_draw: 15
-    maximum_draw: 150
-    name: power1
-    type: dc-terminal
-  - allocated_draw: 15
-    maximum_draw: 150
-    name: power2
-    type: hardwired
-  slug: rb5009upr_s_in
-  u_height: 0
-- console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus3
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus4
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus5
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus6
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus7
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus8
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus9
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus10
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus11
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus12
-    type: 10gbase-x-sfpp
-  - name: sfp28-1
-    type: 25gbase-x-sfp28
-  - name: sfp28-2
-    type: 25gbase-x-sfp28
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CCR2004-1G-12S+2XS
-  part_number: CCR2004-1G-12S+2XS
-  power-ports:
-  - maximum_draw: 49
-    name: power1
-    type: iec-60320-c14
-  - maximum_draw: 49
-    name: power2
-    type: iec-60320-c14
-  slug: ccr2004-1g-12s-plus2sx
-  u_height: 1
-- comments: "10 Gigabit fibre connectivity way over a 100 meters \u2013 for small\
-    \ offices or ISPs. Hardware offloaded VLAN-filtering and even some L3 routing"
-  console-ports:
-  - name: serial0
-    type: rj-45
-  interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: sfp1
-    type: 1000base-x-sfp
-  - name: sfp2
-    type: 1000base-x-sfp
-  - name: sfp3
-    type: 1000base-x-sfp
-  - name: sfp4
-    type: 1000base-x-sfp
-  - name: sfp5
-    type: 1000base-x-sfp
-  - label: SFP+ 1
-    name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - label: SFP+ 2
-    name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  - label: SFP+ 3
-    name: sfp-sfpplus3
-    type: 10gbase-x-sfpp
-  - label: SFP+ 4
-    name: sfp-sfpplus4
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: CRS310-1G-5S-4S+IN
-  part_number: CRS310-1G-5S-4S+
-  power-ports:
-  - label: DC 18-57V
-    maximum_draw: 20
-    name: psu1
-    type: dc-terminal
-  slug: crs310-1g-5s-4splus-in
-  u_height: 1
-- airflow: passive
-  comments: '[RB2011iL-IN Datasheet](https://mikrotik.com/product/RB2011iL-IN)'
-  interfaces:
-  - description: POE-IN
-    name: ether1
-    poe_mode: pd
-    poe_type: passive-24v-2pair
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 100base-tx
-  - name: ether7
-    type: 100base-tx
-  - name: ether8
-    type: 100base-tx
-  - name: ether9
-    type: 100base-tx
-  - description: POE-OUT
-    name: ether10
-    poe_mode: pd
-    poe_type: passive-24v-2pair
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: RB2011iL-IN
-  part_number: RB2011iL-IN
-  power-ports:
-  - allocated_draw: 7
-    description: DC 8-30 V - 500 mA
-    maximum_draw: 24
-    name: Power
-    type: dc-terminal
-  slug: mikrotik-rb2011il-in
-  u_height: 0
-  weight: 0.15
-  weight_unit: kg
 - comments: '[RB4011iGS+RM Datasheet](https://mikrotik.com/product/rb4011igs_rm)'
   console-ports:
   - label: CONSOLE
@@ -2782,6 +2017,112 @@ models:
     type: dc-terminal
   slug: mikrotik-rb4011igs-plus-rm
   u_height: 1
+- airflow: passive
+  comments: '[RB951Ui-2nD Datasheet](https://mikrotik.com/product/RB951Ui-2nD)'
+  console-ports:
+  - name: USB
+    type: usb-a
+  interfaces:
+  - description: POE-IN
+    name: Ether1
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    type: 100base-tx
+  - name: Ether2
+    type: 100base-tx
+  - name: Ether3
+    type: 100base-tx
+  - name: Ether4
+    type: 100base-tx
+  - description: POE-OUT
+    name: Ether5
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    type: 100base-tx
+  - name: Wireless 2.4 GHz
+    type: ieee802.11g
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: hAP
+  part_number: RB951Ui-2nD
+  power-ports:
+  - allocated_draw: 7
+    description: DC 8-30 V - 500 mA
+    maximum_draw: 24
+    name: Power
+    type: dc-terminal
+  slug: mikrotik-hap
+  u_height: 0
+  weight: 0.35
+  weight_unit: kg
+- console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus3
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus4
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus5
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus6
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus7
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus8
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus9
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus10
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus11
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus12
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus13
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus14
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus15
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus16
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus17
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus18
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus19
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus20
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus21
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus22
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus23
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus24
+    type: 10gbase-x-sfpp
+  - name: qsfp-qsfpplus1
+    type: 40gbase-x-qsfpp
+  - name: qsfp-qsfpplus2
+    type: 40gbase-x-qsfpp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CRS326-24S+2Q+RM
+  power-ports:
+  - maximum_draw: 69
+    name: power1
+    type: iec-60320-c14
+  - maximum_draw: 69
+    name: power2
+    type: iec-60320-c14
+  slug: mikrotik-crs326-24s-plus-2q-plus-rm
+  u_height: 1
 - console-ports:
   - name: serial0
     type: rj-45
@@ -2802,27 +2143,773 @@ models:
     type: 1000base-t
   - name: ether8
     type: 1000base-t
+  - name: ether9
+    type: 1000base-t
+  - name: ether10
+    type: 1000base-t
+  - name: ether11
+    type: 1000base-t
+  - name: ether12
+    type: 1000base-t
+  - name: ether13
+    type: 1000base-t
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus2
     type: 10gbase-x-sfpp
   is_full_depth: false
   manufacturer: MikroTik
-  model: CCR1036-8G-2S+EM
+  model: CCR2004-16G-2S+
+  part_number: CCR2004-16G-2S+
   power-ports:
-  - maximum_draw: 73
+  - maximum_draw: 48
     name: power1
     type: iec-60320-c14
-  - maximum_draw: 73
+  - maximum_draw: 48
     name: power2
     type: iec-60320-c14
-  slug: ccr1036-8g-2splus-em
+  slug: mikrotik-ccr2004-16g-2s-plus
+  u_height: 1
+- comments: "Outdoor LTE RouterBoard with R11e modem with 3 SIM Slots (MiniSIM) and\
+    \ 2.4 GHz WiFi.\nSupported Bands:\n  2G Category\tClass12\n  2G bands\t2 (1900MHz)\
+    \ / 3 (1800MHz) / 5 (850MHz) / 8 (900MHz)\n  3G Category\tR7 (21Mbps Downlinks,\
+    \ 5.76Mbps Uplink) / R8 (42.2Mbps Downlink, 5.76Mbps Uplink)\n  3G bands\t1 (2100MHz)\
+    \ / 2 (1900MHz) / 5 (850MHz) / 8 (900MHz)\n  LTE Category\t6 (300Mbit/s Downlink,\
+    \ 50Mbit/s Uplink)\n  LTE FDD bands\t1 (2100MHz) / 2 (1900MHz) / 3 (1800MHz) /\
+    \ 7 (2600MHz) / 8 (900 MHz) / 20 (800MHz) / 5 (850MHz) / 12 (700MHz) / 17 (700MHz)\
+    \ / 25 (1900MHz) / 26 (850MHz)\n  LTE TDD bands\t38 (2600MHz) / 40 (2300MHz) /\
+    \ 39 (1900MHz) / 41n (2500MHz)\n"
+  interfaces:
+  - name: ether1
+    type: 100base-tx
+  - name: lte1
+    type: lte
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: RBLtAP-2HnD
+  part_number: RBLtAP-2HnD
+  power-ports:
+  - maximum_draw: 24
+    name: power1
+    type: dc-terminal
+  - description: dc barrel jack
+    maximum_draw: 24
+    name: power2
+    type: dc-terminal
+  slug: mikrotik-rbltap-2hnd
+  u_height: 0
+- comments: "10.5dBi Outdoor LTE RouterBoard with LTE CAT6 RE-11 Modem with 2 sim\
+    \ slots (MicroSIM).\nSupported Bands:\n  2G Category\tClass12\n  2G bands\t2 (1900MHz)\
+    \ / 3 (1800MHz) / 5 (850MHz) / 8 (900MHz)\n  3G Category\tR7 (21Mbps Downlinks,\
+    \ 5.76Mbps Uplink) / R8 (42.2Mbps Downlink, 5.76Mbps Uplink)\n  3G bands\t1 (2100MHz)\
+    \ / 2 (1900MHz) / 5 (850MHz) / 8 (900MHz)\n  LTE Category\t6 (300Mbit/s Downlink,\
+    \ 50Mbit/s Uplink)\n  LTE FDD bands\t1 (2100MHz) / 2 (1900MHz) / 3 (1800MHz) /\
+    \ 7 (2600MHz) / 8 (900 MHz) / 20 (800MHz) / 5 (850MHz) / 12 (700MHz) / 17 (700MHz)\
+    \ / 25 (1900MHz) / 26 (850MHz)\n  LTE TDD bands\t38 (2600MHz) / 40 (2300MHz) /\
+    \ 39 (1900MHz) / 41n (2500MHz)\n"
+  interfaces:
+  - name: ether1
+    type: 100base-tx
+  - name: ether2
+    type: 100base-tx
+  - name: lte1
+    type: lte
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: RBSXTR&R11e-LTE6
+  part_number: RBSXTR&R11e-LTE6
+  slug: mikrotik-rbsxtr-and-r11e-lte6
+  u_height: 0
+- comments: 24x Gigabit Switch with 2x SFP+ Cages in 1U Rackmount Case
+  console-ports:
+  - label: CONSOLE
+    name: serial0
+    type: rj-45
+  interfaces:
+  - label: '1'
+    name: ether1
+    type: 1000base-t
+  - label: '2'
+    name: ether2
+    type: 1000base-t
+  - label: '3'
+    name: ether3
+    type: 1000base-t
+  - label: '4'
+    name: ether4
+    type: 1000base-t
+  - label: '5'
+    name: ether5
+    type: 1000base-t
+  - label: '6'
+    name: ether6
+    type: 1000base-t
+  - label: '7'
+    name: ether7
+    type: 1000base-t
+  - label: '8'
+    name: ether8
+    type: 1000base-t
+  - label: '9'
+    name: ether9
+    type: 1000base-t
+  - label: '10'
+    name: ether10
+    type: 1000base-t
+  - label: '11'
+    name: ether11
+    type: 1000base-t
+  - label: '12'
+    name: ether12
+    type: 1000base-t
+  - label: '13'
+    name: ether13
+    type: 1000base-t
+  - label: '14'
+    name: ether14
+    type: 1000base-t
+  - label: '15'
+    name: ether15
+    type: 1000base-t
+  - label: '16'
+    name: ether16
+    type: 1000base-t
+  - label: '17'
+    name: ether17
+    type: 1000base-t
+  - label: '18'
+    name: ether18
+    type: 1000base-t
+  - label: '19'
+    name: ether19
+    type: 1000base-t
+  - label: '20'
+    name: ether20
+    type: 1000base-t
+  - label: '21'
+    name: ether21
+    type: 1000base-t
+  - label: '22'
+    name: ether22
+    type: 1000base-t
+  - label: '23'
+    name: ether23
+    type: 1000base-t
+  - label: '24'
+    name: ether24
+    type: 1000base-t
+  - label: SFP+ 1
+    name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - label: SFP+ 2
+    name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CRS326-24G-2S+RM
+  part_number: CRS326-24G-2S
+  power-ports:
+  - label: DC 10-28V
+    maximum_draw: 24
+    name: psu1
+    type: dc-terminal
+  slug: mikrotik-crs326-24g-2s-plus-rm
+  u_height: 1
+- console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: sfp2
+    type: 1000base-x-sfp
+  - name: sfp3
+    type: 1000base-x-sfp
+  - name: sfp4
+    type: 1000base-x-sfp
+  - name: sfp5
+    type: 1000base-x-sfp
+  - name: sfp6
+    type: 1000base-x-sfp
+  - name: sfp7
+    type: 1000base-x-sfp
+  - name: sfp8
+    type: 1000base-x-sfp
+  - name: sfp9
+    type: 1000base-x-sfp
+  - name: sfp10
+    type: 1000base-x-sfp
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: ether1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CRS212-1G-10S-1S+IN
+  slug: mikrotik-crs212-1g-10s-1s-plus-in
+  u_height: 1
+- airflow: passive
+  comments: '[MikroTik RB960PGS Datasheet](https://mikrotik.com/product/RB960PGS)'
+  interfaces:
+  - name: ether1
+    poe_mode: pd
+    poe_type: passive-48v-4pair
+    type: 1000base-t
+  - name: ether2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: ether3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: ether4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: ether5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: sfp1
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: RB960PGS
+  power-ports:
+  - allocated_draw: 10
+    maximum_draw: 54
+    name: power1
+    type: dc-terminal
+  slug: mikrotik-rb960pgs
+  u_height: 0
+- console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: sfp2
+    type: 1000base-x-sfp
+  - name: sfp3
+    type: 1000base-x-sfp
+  - name: sfp4
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CRS112-8G-4S-IN
+  slug: mikrotik-crs112-8g-4s-in
+  u_height: 1
+- interfaces:
+  - name: ether1
+    type: 2.5gbase-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - description: 5ghz
+    name: wifi1
+    type: ieee802.11ax
+  - description: 2.4ghz
+    name: wifi2
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: C53UiG+5HPaxD2HPaxD
+  power-ports:
+  - maximum_draw: 38
+    name: DC-in
+    type: dc-terminal
+  slug: mikrotik-c53uig-plus-5hpaxd2hpaxd
+  u_height: 1
+- interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  manufacturer: MikroTik
+  model: RB750r3
+  slug: mikrotik-rb750r3
+- airflow: passive
+  comments: '[MikroTik RB5009UG+S+IN Datasheet](https://mikrotik.com/product/rb5009ug_s_in)'
+  interfaces:
+  - name: ether1
+    poe_mode: pd
+    poe_type: passive-48v-4pair
+    type: 2.5gbase-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: RB5009UG+S+IN
+  power-ports:
+  - allocated_draw: 14
+    maximum_draw: 20
+    name: power1
+    type: dc-terminal
+  - allocated_draw: 14
+    maximum_draw: 20
+    name: power2
+    type: hardwired
+  slug: mikrotik-rb5009ug-plus-s-plus-in
+  u_height: 0
+- comments: "17dBi dish LTE RouterBoard with R11e modem with 1 SIM Slot (MicroSIM).\n\
+    Supported Bands:\n  3G Category\tR7 (21Mbps Downlinks, 5.76Mbps Uplink) / R8 (42.2Mbps\
+    \ Downlink, 5.76Mbps Uplink)\n  3G bands\t2 (1900MHz) / 5 (850MHz)\n  LTE Category\t\
+    4 (150Mbps Downlink, 50Mbps Uplink)\n  LTE FDD bands\t2 (1900MHz) / 4 (1700MHz)\
+    \ / 5 (850MHz) / 12 (700MHz)\n"
+  interfaces:
+  - name: ether1
+    type: 100base-tx
+  - name: lte1
+    type: lte
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: RBLHGR&R11e-LTE-US
+  part_number: RBLHGR&R11e-LTE-US
+  slug: mikrotik-rblhgr-and-r11e-lte-us
+  u_height: 0
+- console-ports:
+  - name: serial0
+    type: de-9
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: combo1
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CCR1009-7G-1C-PC
+  slug: mikrotik-ccr1009-7g-1c-pc
+  u_height: 1
+- console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: xether1
+    type: 10gbase-x-sfpp
+  - name: xether2
+    type: 10gbase-x-sfpp
+  - name: xether3
+    type: 10gbase-x-sfpp
+  - name: xether4
+    type: 10gbase-x-sfpp
+  - name: xether5
+    type: 10gbase-x-sfpp
+  - name: xether6
+    type: 10gbase-x-sfpp
+  - name: xether7
+    type: 10gbase-x-sfpp
+  - name: xether8
+    type: 10gbase-x-sfpp
+  - name: combo1
+    type: 10gbase-x-sfpp
+  - name: combo2
+    type: 10gbase-x-sfpp
+  - name: combo3
+    type: 10gbase-x-sfpp
+  - name: combo4
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CRS312-4C+8XG-RM
+  slug: mikrotik-crs312-4c-plus-8xg-rm
+  u_height: 1
+- console-ports:
+  - name: serial0
+    type: de-9
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: ether9
+    type: 1000base-t
+  - name: ether10
+    type: 1000base-t
+  - name: ether11
+    type: 1000base-t
+  - name: ether12
+    type: 1000base-t
+  - name: ether13
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: RB1100AHx4
+  power-ports:
+  - maximum_draw: 20
+    name: power1
+    type: iec-60320-c14
+  - maximum_draw: 20
+    name: power2
+    type: iec-60320-c14
+  slug: mikrotik-rb1100ahx4
+  u_height: 1
+- airflow: passive
+  comments: '[RB2011iL-IN Datasheet](https://mikrotik.com/product/RB2011iL-IN)'
+  interfaces:
+  - description: POE-IN
+    name: ether1
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 100base-tx
+  - name: ether7
+    type: 100base-tx
+  - name: ether8
+    type: 100base-tx
+  - name: ether9
+    type: 100base-tx
+  - description: POE-OUT
+    name: ether10
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: RB2011iL-IN
+  part_number: RB2011iL-IN
+  power-ports:
+  - allocated_draw: 7
+    description: DC 8-30 V - 500 mA
+    maximum_draw: 24
+    name: Power
+    type: dc-terminal
+  slug: mikrotik-rb2011il-in
+  u_height: 0
+  weight: 0.15
+  weight_unit: kg
+- comments: Desktop switch with one Gigabit Ethernet port and eight SFP+ 10Gbps ports.
+  console-ports:
+  - label: CONSOLE
+    name: serial0
+    type: rj-45
+  interfaces:
+  - label: SFP+ 1
+    name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - label: SFP+ 2
+    name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  - label: SFP+ 3
+    name: sfp-sfpplus3
+    type: 10gbase-x-sfpp
+  - label: SFP+ 4
+    name: sfp-sfpplus4
+    type: 10gbase-x-sfpp
+  - label: SFP+ 5
+    name: sfp-sfpplus5
+    type: 10gbase-x-sfpp
+  - label: SFP+ 6
+    name: sfp-sfpplus6
+    type: 10gbase-x-sfpp
+  - label: SFP+ 7
+    name: sfp-sfpplus7
+    type: 10gbase-x-sfpp
+  - label: SFP+ 8
+    name: sfp-sfpplus8
+    type: 10gbase-x-sfpp
+  - label: POE/BOOT
+    name: ether1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CRS309-1G-8S+IN
+  part_number: CRS309-1G-8S+
+  power-ports:
+  - label: DC 12-57V
+    maximum_draw: 23
+    name: psu1
+    type: dc-terminal
+  slug: mikrotik-crs309-1g-8s-plus-in
+  u_height: 1
+- comments: "17dBi dish LTE RouterBoard with R11e modem with 1 SIM Slot (MicroSIM).\n\
+    Supported Bands:\n  2G Category\tClass12\n  2G bands\t2 (1900MHz) / 3 (1800MHz)\
+    \ / 5 (850MHz) / 8 (900MHz)\n  3G Category\tR7 (21Mbps Downlinks, 5.76Mbps Uplink)\
+    \ / R8 (42.2Mbps Downlink, 5.76Mbps Uplink)\n  3G bands\t1 (2100MHz) / 2 (1900MHz)\
+    \ / 5 (850MHz) / 8 (900MHz)\n  LTE Category\t6 (300Mbit/s Downlink, 50Mbit/s Uplink)\n\
+    \  LTE FDD bands\t1 (2100MHz) / 2 (1900MHz) / 3 (1800MHz) / 7 (2600MHz) / 8 (900\
+    \ MHz) / 20 (800MHz) / 5 (850MHz) / 12 (700MHz) / 17 (700MHz) / 25 (1900MHz) /\
+    \ 26 (850MHz)\n  LTE TDD bands\t38 (2600MHz) / 40 (2300MHz) / 39 (1900MHz) / 41n\
+    \ (2500MHz)\n"
+  interfaces:
+  - name: ether1
+    type: 100base-tx
+  - name: lte1
+    type: lte
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: RBLHGR&R11e-LTE6
+  part_number: RBLHGR&R11e-LTE6
+  slug: mikrotik-rblhgr-and-r11e-lte6
+  u_height: 0
+- console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: ether9
+    type: 1000base-t
+  - name: ether10
+    type: 1000base-t
+  - name: ether11
+    type: 1000base-t
+  - name: ether12
+    type: 1000base-t
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: sfp2
+    type: 1000base-x-sfp
+  - name: sfp3
+    type: 1000base-x-sfp
+  - name: sfp4
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CCR1036-12G-4S-EM
+  power-ports:
+  - maximum_draw: 60
+    name: power1
+    type: iec-60320-c14
+  - maximum_draw: 60
+    name: power2
+    type: iec-60320-c14
+  slug: mikrotik-ccr1036-12g-4s-em
   u_height: 1
 - console-ports:
   - name: serial0
     type: rj-45
   interfaces:
   - name: ether1
+    type: 1000base-t
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus3
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus4
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus5
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus6
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus7
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus8
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: CCR1072-1G-8S+
+  power-ports:
+  - maximum_draw: 125
+    name: power1
+    type: iec-60320-c14
+  - maximum_draw: 125
+    name: power2
+    type: iec-60320-c14
+  slug: mikrotik-ccr1072-1g-8s-plus
+  u_height: 1
+- airflow: passive
+  comments: "[Mikrotik Product Website](https://mikrotik.com/product/hex_s)\r\nMaximum\
+    \ CPU Network bandwidth is 2GBit/s, see block diagram on Website"
+  interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: sfp1
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: MikroTik
+  model: RB760iGS
+  part_number: RB760iGS
+  power-ports:
+  - allocated_draw: 6
+    maximum_draw: 24
+    name: Input
+    type: dc-terminal
+  slug: mikrotik-rb760igs
+  u_height: 0
+- interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 100base-tx
+  - name: ether7
+    type: 100base-tx
+  - name: ether8
+    type: 100base-tx
+  - name: ether9
+    type: 100base-tx
+  - name: ether10
+    type: 100base-tx
+  - name: sfp1
+    type: 1000base-x-sfp
+  manufacturer: MikroTik
+  model: RB2011UiAS-IN
+  slug: mikrotik-rb2011uias-in
+- interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 100base-tx
+  - name: ether7
+    type: 100base-tx
+  - name: ether8
+    type: 100base-tx
+  - name: ether9
+    type: 100base-tx
+  - name: ether10
+    type: 100base-tx
+  - name: sfp1
+    type: 1000base-x-sfp
+  manufacturer: MikroTik
+  model: RB2011iLS-IN
+  slug: mikrotik-rb2011ils-in
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: ether1
+    type: 100base-tx
+  - name: ether2
+    type: 100base-tx
+  - name: ether3
+    type: 100base-tx
+  - name: ether4
+    type: 100base-tx
+  - name: ether5
+    type: 100base-tx
+  manufacturer: MikroTik
+  model: RB750r2
+  power-ports:
+  - maximum_draw: 350
+    name: DC
+    type: iec-60320-c14
+  - maximum_draw: 350
+    name: PSU1
+    type: iec-60320-c14
+  slug: mikrotik-rb750r2
+- airflow: passive
+  comments: '[CRS226-24G-2S+RM Datasheet](https://mikrotik.com/product/CRS226-24G-2SplusRM)'
+  console-ports:
+  - name: serial0
+    type: rj-45
+  interfaces:
+  - name: ether1
+    poe_mode: pd
+    poe_type: passive-24v-2pair
     type: 1000base-t
   - name: ether2
     type: 1000base-t
@@ -2870,50 +2957,17 @@ models:
     type: 1000base-t
   - name: ether24
     type: 1000base-t
-  - name: sfp1
-    type: 1000base-x-sfp
-  - name: wlan1
-    type: ieee802.11n
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
   is_full_depth: false
   manufacturer: MikroTik
-  model: CRS125-24G-1S-2HnD-IN
-  slug: crs125-24g-1s-2hnd-in
-  u_height: 1
-- airflow: passive
-  comments: '[RB951Ui-2nD Datasheet](https://mikrotik.com/product/RB951Ui-2nD)'
-  console-ports:
-  - name: USB
-    type: usb-a
-  interfaces:
-  - description: POE-IN
-    name: Ether1
-    poe_mode: pd
-    poe_type: passive-24v-2pair
-    type: 100base-tx
-  - name: Ether2
-    type: 100base-tx
-  - name: Ether3
-    type: 100base-tx
-  - name: Ether4
-    type: 100base-tx
-  - description: POE-OUT
-    name: Ether5
-    poe_mode: pd
-    poe_type: passive-24v-2pair
-    type: 100base-tx
-  - name: Wireless 2.4 GHz
-    type: ieee802.11g
-  is_full_depth: false
-  manufacturer: MikroTik
-  model: hAP
-  part_number: RB951Ui-2nD
+  model: CRS226-24G-2S+RM
   power-ports:
-  - allocated_draw: 7
-    description: DC 8-30 V - 500 mA
-    maximum_draw: 24
-    name: Power
+  - allocated_draw: 21
+    maximum_draw: 21
+    name: power1
     type: dc-terminal
-  slug: mikrotik-hap
-  u_height: 0
-  weight: 0.35
-  weight_unit: kg
+  slug: mikrotik-crs226-24g-2s-plus-rm
+  u_height: 1

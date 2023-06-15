@@ -1,273 +1,14 @@
 keywords:
+- SN3700C
+- SN4600C
+- SN4700
+- SN2010
+- SN4600
 - SN2700
 - SB7800
-- SN4700
-- SN3700C
 - SN3700
-- SN2010
 - SX6036
-- SN4600C
-- SN4600
 models:
-- console-ports:
-  - name: con0
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - mgmt_only: true
-    name: eth1
-    type: 1000base-t
-  - name: swp1
-    type: 100gbase-x-qsfp28
-  - name: swp2
-    type: 100gbase-x-qsfp28
-  - name: swp3
-    type: 100gbase-x-qsfp28
-  - name: swp4
-    type: 100gbase-x-qsfp28
-  - name: swp5
-    type: 100gbase-x-qsfp28
-  - name: swp6
-    type: 100gbase-x-qsfp28
-  - name: swp7
-    type: 100gbase-x-qsfp28
-  - name: swp8
-    type: 100gbase-x-qsfp28
-  - name: swp9
-    type: 100gbase-x-qsfp28
-  - name: swp10
-    type: 100gbase-x-qsfp28
-  - name: swp11
-    type: 100gbase-x-qsfp28
-  - name: swp12
-    type: 100gbase-x-qsfp28
-  - name: swp13
-    type: 100gbase-x-qsfp28
-  - name: swp14
-    type: 100gbase-x-qsfp28
-  - name: swp15
-    type: 100gbase-x-qsfp28
-  - name: swp16
-    type: 100gbase-x-qsfp28
-  - name: swp17
-    type: 100gbase-x-qsfp28
-  - name: swp18
-    type: 100gbase-x-qsfp28
-  - name: swp19
-    type: 100gbase-x-qsfp28
-  - name: swp20
-    type: 100gbase-x-qsfp28
-  - name: swp21
-    type: 100gbase-x-qsfp28
-  - name: swp22
-    type: 100gbase-x-qsfp28
-  - name: swp23
-    type: 100gbase-x-qsfp28
-  - name: swp24
-    type: 100gbase-x-qsfp28
-  - name: swp25
-    type: 100gbase-x-qsfp28
-  - name: swp26
-    type: 100gbase-x-qsfp28
-  - name: swp27
-    type: 100gbase-x-qsfp28
-  - name: swp28
-    type: 100gbase-x-qsfp28
-  - name: swp29
-    type: 100gbase-x-qsfp28
-  - name: swp30
-    type: 100gbase-x-qsfp28
-  - name: swp31
-    type: 100gbase-x-qsfp28
-  - name: swp32
-    type: 100gbase-x-qsfp28
-  is_full_depth: true
-  manufacturer: Mellanox
-  model: SN2700
-  power-ports:
-  - name: psu0
-    type: iec-60320-c14
-  - name: psu1
-    type: iec-60320-c14
-  slug: sn2700
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: mgmt0
-    type: 1000base-t
-  - name: IB1/1
-    type: 100gbase-x-qsfp28
-  - name: IB1/2
-    type: 100gbase-x-qsfp28
-  - name: IB1/3
-    type: 100gbase-x-qsfp28
-  - name: IB1/4
-    type: 100gbase-x-qsfp28
-  - name: IB1/5
-    type: 100gbase-x-qsfp28
-  - name: IB1/6
-    type: 100gbase-x-qsfp28
-  - name: IB1/7
-    type: 100gbase-x-qsfp28
-  - name: IB1/8
-    type: 100gbase-x-qsfp28
-  - name: IB1/9
-    type: 100gbase-x-qsfp28
-  - name: IB1/10
-    type: 100gbase-x-qsfp28
-  - name: IB1/11
-    type: 100gbase-x-qsfp28
-  - name: IB1/12
-    type: 100gbase-x-qsfp28
-  - name: IB1/13
-    type: 100gbase-x-qsfp28
-  - name: IB1/14
-    type: 100gbase-x-qsfp28
-  - name: IB1/15
-    type: 100gbase-x-qsfp28
-  - name: IB1/16
-    type: 100gbase-x-qsfp28
-  - name: IB1/17
-    type: 100gbase-x-qsfp28
-  - name: IB1/18
-    type: 100gbase-x-qsfp28
-  - name: IB1/19
-    type: 100gbase-x-qsfp28
-  - name: IB1/20
-    type: 100gbase-x-qsfp28
-  - name: IB1/21
-    type: 100gbase-x-qsfp28
-  - name: IB1/22
-    type: 100gbase-x-qsfp28
-  - name: IB1/23
-    type: 100gbase-x-qsfp28
-  - name: IB1/24
-    type: 100gbase-x-qsfp28
-  - name: IB1/25
-    type: 100gbase-x-qsfp28
-  - name: IB1/26
-    type: 100gbase-x-qsfp28
-  - name: IB1/27
-    type: 100gbase-x-qsfp28
-  - name: IB1/28
-    type: 100gbase-x-qsfp28
-  - name: IB1/29
-    type: 100gbase-x-qsfp28
-  - name: IB1/30
-    type: 100gbase-x-qsfp28
-  - name: IB1/31
-    type: 100gbase-x-qsfp28
-  - name: IB1/32
-    type: 100gbase-x-qsfp28
-  - name: IB1/33
-    type: 100gbase-x-qsfp28
-  - name: IB1/34
-    type: 100gbase-x-qsfp28
-  - name: IB1/35
-    type: 100gbase-x-qsfp28
-  - name: IB1/36
-    type: 100gbase-x-qsfp28
-  is_full_depth: false
-  manufacturer: Mellanox
-  model: SB7800
-  power-ports:
-  - maximum_draw: 460
-    name: ps1
-    type: iec-60320-c14
-  - maximum_draw: 460
-    name: psu2
-    type: iec-60320-c14
-  slug: sb7800
-  u_height: 1
-- comments: 'Data sheet: https://network.nvidia.com/files/doc-2020/br-sn4000-series.pdf
-
-    '
-  console-ports:
-  - name: con0
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - name: swp1
-    type: 400gbase-x-qsfpdd
-  - name: swp2
-    type: 400gbase-x-qsfpdd
-  - name: swp3
-    type: 400gbase-x-qsfpdd
-  - name: swp4
-    type: 400gbase-x-qsfpdd
-  - name: swp5
-    type: 400gbase-x-qsfpdd
-  - name: swp6
-    type: 400gbase-x-qsfpdd
-  - name: swp7
-    type: 400gbase-x-qsfpdd
-  - name: swp8
-    type: 400gbase-x-qsfpdd
-  - name: swp9
-    type: 400gbase-x-qsfpdd
-  - name: swp10
-    type: 400gbase-x-qsfpdd
-  - name: swp11
-    type: 400gbase-x-qsfpdd
-  - name: swp12
-    type: 400gbase-x-qsfpdd
-  - name: swp13
-    type: 400gbase-x-qsfpdd
-  - name: swp14
-    type: 400gbase-x-qsfpdd
-  - name: swp15
-    type: 400gbase-x-qsfpdd
-  - name: swp16
-    type: 400gbase-x-qsfpdd
-  - name: swp17
-    type: 400gbase-x-qsfpdd
-  - name: swp18
-    type: 400gbase-x-qsfpdd
-  - name: swp19
-    type: 400gbase-x-qsfpdd
-  - name: swp20
-    type: 400gbase-x-qsfpdd
-  - name: swp21
-    type: 400gbase-x-qsfpdd
-  - name: swp22
-    type: 400gbase-x-qsfpdd
-  - name: swp23
-    type: 400gbase-x-qsfpdd
-  - name: swp24
-    type: 400gbase-x-qsfpdd
-  - name: swp25
-    type: 400gbase-x-qsfpdd
-  - name: swp26
-    type: 400gbase-x-qsfpdd
-  - name: swp27
-    type: 400gbase-x-qsfpdd
-  - name: swp28
-    type: 400gbase-x-qsfpdd
-  - name: swp29
-    type: 400gbase-x-qsfpdd
-  - name: swp30
-    type: 400gbase-x-qsfpdd
-  - name: swp31
-    type: 400gbase-x-qsfpdd
-  - name: swp32
-    type: 400gbase-x-qsfpdd
-  is_full_depth: true
-  manufacturer: Mellanox
-  model: SN4700
-  power-ports:
-  - name: psu0
-    type: iec-60320-c14
-  - name: psu1
-    type: iec-60320-c14
-  slug: sn4700
-  u_height: 1
 - console-ports:
   - name: con0
     type: rj-45
@@ -347,242 +88,7 @@ models:
     type: iec-60320-c14
   - name: psu1
     type: iec-60320-c14
-  slug: sn3700c
-  u_height: 1
-- console-ports:
-  - name: con0
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - name: swp1
-    type: 200gbase-x-qsfp56
-  - name: swp2
-    type: 200gbase-x-qsfp56
-  - name: swp3
-    type: 200gbase-x-qsfp56
-  - name: swp4
-    type: 200gbase-x-qsfp56
-  - name: swp5
-    type: 200gbase-x-qsfp56
-  - name: swp6
-    type: 200gbase-x-qsfp56
-  - name: swp7
-    type: 200gbase-x-qsfp56
-  - name: swp8
-    type: 200gbase-x-qsfp56
-  - name: swp9
-    type: 200gbase-x-qsfp56
-  - name: swp10
-    type: 200gbase-x-qsfp56
-  - name: swp11
-    type: 200gbase-x-qsfp56
-  - name: swp12
-    type: 200gbase-x-qsfp56
-  - name: swp13
-    type: 200gbase-x-qsfp56
-  - name: swp14
-    type: 200gbase-x-qsfp56
-  - name: swp15
-    type: 200gbase-x-qsfp56
-  - name: swp16
-    type: 200gbase-x-qsfp56
-  - name: swp17
-    type: 200gbase-x-qsfp56
-  - name: swp18
-    type: 200gbase-x-qsfp56
-  - name: swp19
-    type: 200gbase-x-qsfp56
-  - name: swp20
-    type: 200gbase-x-qsfp56
-  - name: swp21
-    type: 200gbase-x-qsfp56
-  - name: swp22
-    type: 200gbase-x-qsfp56
-  - name: swp23
-    type: 200gbase-x-qsfp56
-  - name: swp24
-    type: 200gbase-x-qsfp56
-  - name: swp25
-    type: 200gbase-x-qsfp56
-  - name: swp26
-    type: 200gbase-x-qsfp56
-  - name: swp27
-    type: 200gbase-x-qsfp56
-  - name: swp28
-    type: 200gbase-x-qsfp56
-  - name: swp29
-    type: 200gbase-x-qsfp56
-  - name: swp30
-    type: 200gbase-x-qsfp56
-  - name: swp31
-    type: 200gbase-x-qsfp56
-  - name: swp32
-    type: 200gbase-x-qsfp56
-  is_full_depth: true
-  manufacturer: Mellanox
-  model: SN3700
-  power-ports:
-  - name: psu0
-    type: iec-60320-c14
-  - name: psu1
-    type: iec-60320-c14
-  slug: sn3700
-  u_height: 1
-- console-ports:
-  - name: con0
-    type: rj-45
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: swp1
-    type: 25gbase-x-sfp28
-  - name: swp2
-    type: 25gbase-x-sfp28
-  - name: swp3
-    type: 25gbase-x-sfp28
-  - name: swp4
-    type: 25gbase-x-sfp28
-  - name: swp5
-    type: 25gbase-x-sfp28
-  - name: swp6
-    type: 25gbase-x-sfp28
-  - name: swp7
-    type: 25gbase-x-sfp28
-  - name: swp8
-    type: 25gbase-x-sfp28
-  - name: swp9
-    type: 25gbase-x-sfp28
-  - name: swp10
-    type: 25gbase-x-sfp28
-  - name: swp11
-    type: 25gbase-x-sfp28
-  - name: swp12
-    type: 25gbase-x-sfp28
-  - name: swp13
-    type: 25gbase-x-sfp28
-  - name: swp14
-    type: 25gbase-x-sfp28
-  - name: swp15
-    type: 25gbase-x-sfp28
-  - name: swp16
-    type: 25gbase-x-sfp28
-  - name: swp17
-    type: 25gbase-x-sfp28
-  - name: swp18
-    type: 25gbase-x-sfp28
-  - name: swp19
-    type: 100gbase-x-qsfp28
-  - name: swp20
-    type: 100gbase-x-qsfp28
-  - name: swp21
-    type: 100gbase-x-qsfp28
-  - name: swp22
-    type: 100gbase-x-qsfp28
-  is_full_depth: true
-  manufacturer: Mellanox
-  model: SN2010
-  power-ports:
-  - name: psu0
-    type: iec-60320-c14
-  - name: psu1
-    type: iec-60320-c14
-  slug: sn2010
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: mgmt0
-    type: 1000base-t
-  - mgmt_only: true
-    name: mgmt1
-    type: 1000base-t
-  - name: IB1/1
-    type: 40gbase-x-qsfpp
-  - name: IB1/2
-    type: 40gbase-x-qsfpp
-  - name: IB1/3
-    type: 40gbase-x-qsfpp
-  - name: IB1/4
-    type: 40gbase-x-qsfpp
-  - name: IB1/5
-    type: 40gbase-x-qsfpp
-  - name: IB1/6
-    type: 40gbase-x-qsfpp
-  - name: IB1/7
-    type: 40gbase-x-qsfpp
-  - name: IB1/8
-    type: 40gbase-x-qsfpp
-  - name: IB1/9
-    type: 40gbase-x-qsfpp
-  - name: IB1/10
-    type: 40gbase-x-qsfpp
-  - name: IB1/11
-    type: 40gbase-x-qsfpp
-  - name: IB1/12
-    type: 40gbase-x-qsfpp
-  - name: IB1/13
-    type: 40gbase-x-qsfpp
-  - name: IB1/14
-    type: 40gbase-x-qsfpp
-  - name: IB1/15
-    type: 40gbase-x-qsfpp
-  - name: IB1/16
-    type: 40gbase-x-qsfpp
-  - name: IB1/17
-    type: 40gbase-x-qsfpp
-  - name: IB1/18
-    type: 40gbase-x-qsfpp
-  - name: IB1/19
-    type: 40gbase-x-qsfpp
-  - name: IB1/20
-    type: 40gbase-x-qsfpp
-  - name: IB1/21
-    type: 40gbase-x-qsfpp
-  - name: IB1/22
-    type: 40gbase-x-qsfpp
-  - name: IB1/23
-    type: 40gbase-x-qsfpp
-  - name: IB1/24
-    type: 40gbase-x-qsfpp
-  - name: IB1/25
-    type: 40gbase-x-qsfpp
-  - name: IB1/26
-    type: 40gbase-x-qsfpp
-  - name: IB1/27
-    type: 40gbase-x-qsfpp
-  - name: IB1/28
-    type: 40gbase-x-qsfpp
-  - name: IB1/29
-    type: 40gbase-x-qsfpp
-  - name: IB1/30
-    type: 40gbase-x-qsfpp
-  - name: IB1/31
-    type: 40gbase-x-qsfpp
-  - name: IB1/32
-    type: 40gbase-x-qsfpp
-  - name: IB1/33
-    type: 40gbase-x-qsfpp
-  - name: IB1/34
-    type: 40gbase-x-qsfpp
-  - name: IB1/35
-    type: 40gbase-x-qsfpp
-  - name: IB1/36
-    type: 40gbase-x-qsfpp
-  is_full_depth: true
-  manufacturer: Mellanox
-  model: SX6036
-  power-ports:
-  - maximum_draw: 500
-    name: psu1
-    type: iec-60320-c14
-  - maximum_draw: 500
-    name: psu2
-    type: iec-60320-c14
-  slug: sx6036
+  slug: mellanox-sn3700c
   u_height: 1
 - comments: 'Data sheet: https://network.nvidia.com/files/doc-2020/br-sn4000-series.pdf
 
@@ -730,7 +236,151 @@ models:
     type: iec-60320-c14
   - name: psu1
     type: iec-60320-c14
-  slug: sn4600c
+  slug: mellanox-sn4600c
+  u_height: 1
+- comments: 'Data sheet: https://network.nvidia.com/files/doc-2020/br-sn4000-series.pdf
+
+    '
+  console-ports:
+  - name: con0
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  - name: swp1
+    type: 400gbase-x-qsfpdd
+  - name: swp2
+    type: 400gbase-x-qsfpdd
+  - name: swp3
+    type: 400gbase-x-qsfpdd
+  - name: swp4
+    type: 400gbase-x-qsfpdd
+  - name: swp5
+    type: 400gbase-x-qsfpdd
+  - name: swp6
+    type: 400gbase-x-qsfpdd
+  - name: swp7
+    type: 400gbase-x-qsfpdd
+  - name: swp8
+    type: 400gbase-x-qsfpdd
+  - name: swp9
+    type: 400gbase-x-qsfpdd
+  - name: swp10
+    type: 400gbase-x-qsfpdd
+  - name: swp11
+    type: 400gbase-x-qsfpdd
+  - name: swp12
+    type: 400gbase-x-qsfpdd
+  - name: swp13
+    type: 400gbase-x-qsfpdd
+  - name: swp14
+    type: 400gbase-x-qsfpdd
+  - name: swp15
+    type: 400gbase-x-qsfpdd
+  - name: swp16
+    type: 400gbase-x-qsfpdd
+  - name: swp17
+    type: 400gbase-x-qsfpdd
+  - name: swp18
+    type: 400gbase-x-qsfpdd
+  - name: swp19
+    type: 400gbase-x-qsfpdd
+  - name: swp20
+    type: 400gbase-x-qsfpdd
+  - name: swp21
+    type: 400gbase-x-qsfpdd
+  - name: swp22
+    type: 400gbase-x-qsfpdd
+  - name: swp23
+    type: 400gbase-x-qsfpdd
+  - name: swp24
+    type: 400gbase-x-qsfpdd
+  - name: swp25
+    type: 400gbase-x-qsfpdd
+  - name: swp26
+    type: 400gbase-x-qsfpdd
+  - name: swp27
+    type: 400gbase-x-qsfpdd
+  - name: swp28
+    type: 400gbase-x-qsfpdd
+  - name: swp29
+    type: 400gbase-x-qsfpdd
+  - name: swp30
+    type: 400gbase-x-qsfpdd
+  - name: swp31
+    type: 400gbase-x-qsfpdd
+  - name: swp32
+    type: 400gbase-x-qsfpdd
+  is_full_depth: true
+  manufacturer: Mellanox
+  model: SN4700
+  power-ports:
+  - name: psu0
+    type: iec-60320-c14
+  - name: psu1
+    type: iec-60320-c14
+  slug: mellanox-sn4700
+  u_height: 1
+- console-ports:
+  - name: con0
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: swp1
+    type: 25gbase-x-sfp28
+  - name: swp2
+    type: 25gbase-x-sfp28
+  - name: swp3
+    type: 25gbase-x-sfp28
+  - name: swp4
+    type: 25gbase-x-sfp28
+  - name: swp5
+    type: 25gbase-x-sfp28
+  - name: swp6
+    type: 25gbase-x-sfp28
+  - name: swp7
+    type: 25gbase-x-sfp28
+  - name: swp8
+    type: 25gbase-x-sfp28
+  - name: swp9
+    type: 25gbase-x-sfp28
+  - name: swp10
+    type: 25gbase-x-sfp28
+  - name: swp11
+    type: 25gbase-x-sfp28
+  - name: swp12
+    type: 25gbase-x-sfp28
+  - name: swp13
+    type: 25gbase-x-sfp28
+  - name: swp14
+    type: 25gbase-x-sfp28
+  - name: swp15
+    type: 25gbase-x-sfp28
+  - name: swp16
+    type: 25gbase-x-sfp28
+  - name: swp17
+    type: 25gbase-x-sfp28
+  - name: swp18
+    type: 25gbase-x-sfp28
+  - name: swp19
+    type: 100gbase-x-qsfp28
+  - name: swp20
+    type: 100gbase-x-qsfp28
+  - name: swp21
+    type: 100gbase-x-qsfp28
+  - name: swp22
+    type: 100gbase-x-qsfp28
+  is_full_depth: true
+  manufacturer: Mellanox
+  model: SN2010
+  power-ports:
+  - name: psu0
+    type: iec-60320-c14
+  - name: psu1
+    type: iec-60320-c14
+  slug: mellanox-sn2010
   u_height: 1
 - comments: 'Data sheet: https://network.nvidia.com/files/doc-2020/br-sn4000-series.pdf
 
@@ -878,5 +528,355 @@ models:
     type: iec-60320-c14
   - name: psu1
     type: iec-60320-c14
-  slug: sn4600
+  slug: mellanox-sn4600
+  u_height: 1
+- console-ports:
+  - name: con0
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  - mgmt_only: true
+    name: eth1
+    type: 1000base-t
+  - name: swp1
+    type: 100gbase-x-qsfp28
+  - name: swp2
+    type: 100gbase-x-qsfp28
+  - name: swp3
+    type: 100gbase-x-qsfp28
+  - name: swp4
+    type: 100gbase-x-qsfp28
+  - name: swp5
+    type: 100gbase-x-qsfp28
+  - name: swp6
+    type: 100gbase-x-qsfp28
+  - name: swp7
+    type: 100gbase-x-qsfp28
+  - name: swp8
+    type: 100gbase-x-qsfp28
+  - name: swp9
+    type: 100gbase-x-qsfp28
+  - name: swp10
+    type: 100gbase-x-qsfp28
+  - name: swp11
+    type: 100gbase-x-qsfp28
+  - name: swp12
+    type: 100gbase-x-qsfp28
+  - name: swp13
+    type: 100gbase-x-qsfp28
+  - name: swp14
+    type: 100gbase-x-qsfp28
+  - name: swp15
+    type: 100gbase-x-qsfp28
+  - name: swp16
+    type: 100gbase-x-qsfp28
+  - name: swp17
+    type: 100gbase-x-qsfp28
+  - name: swp18
+    type: 100gbase-x-qsfp28
+  - name: swp19
+    type: 100gbase-x-qsfp28
+  - name: swp20
+    type: 100gbase-x-qsfp28
+  - name: swp21
+    type: 100gbase-x-qsfp28
+  - name: swp22
+    type: 100gbase-x-qsfp28
+  - name: swp23
+    type: 100gbase-x-qsfp28
+  - name: swp24
+    type: 100gbase-x-qsfp28
+  - name: swp25
+    type: 100gbase-x-qsfp28
+  - name: swp26
+    type: 100gbase-x-qsfp28
+  - name: swp27
+    type: 100gbase-x-qsfp28
+  - name: swp28
+    type: 100gbase-x-qsfp28
+  - name: swp29
+    type: 100gbase-x-qsfp28
+  - name: swp30
+    type: 100gbase-x-qsfp28
+  - name: swp31
+    type: 100gbase-x-qsfp28
+  - name: swp32
+    type: 100gbase-x-qsfp28
+  is_full_depth: true
+  manufacturer: Mellanox
+  model: SN2700
+  power-ports:
+  - name: psu0
+    type: iec-60320-c14
+  - name: psu1
+    type: iec-60320-c14
+  slug: mellanox-sn2700
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: mgmt0
+    type: 1000base-t
+  - name: IB1/1
+    type: 100gbase-x-qsfp28
+  - name: IB1/2
+    type: 100gbase-x-qsfp28
+  - name: IB1/3
+    type: 100gbase-x-qsfp28
+  - name: IB1/4
+    type: 100gbase-x-qsfp28
+  - name: IB1/5
+    type: 100gbase-x-qsfp28
+  - name: IB1/6
+    type: 100gbase-x-qsfp28
+  - name: IB1/7
+    type: 100gbase-x-qsfp28
+  - name: IB1/8
+    type: 100gbase-x-qsfp28
+  - name: IB1/9
+    type: 100gbase-x-qsfp28
+  - name: IB1/10
+    type: 100gbase-x-qsfp28
+  - name: IB1/11
+    type: 100gbase-x-qsfp28
+  - name: IB1/12
+    type: 100gbase-x-qsfp28
+  - name: IB1/13
+    type: 100gbase-x-qsfp28
+  - name: IB1/14
+    type: 100gbase-x-qsfp28
+  - name: IB1/15
+    type: 100gbase-x-qsfp28
+  - name: IB1/16
+    type: 100gbase-x-qsfp28
+  - name: IB1/17
+    type: 100gbase-x-qsfp28
+  - name: IB1/18
+    type: 100gbase-x-qsfp28
+  - name: IB1/19
+    type: 100gbase-x-qsfp28
+  - name: IB1/20
+    type: 100gbase-x-qsfp28
+  - name: IB1/21
+    type: 100gbase-x-qsfp28
+  - name: IB1/22
+    type: 100gbase-x-qsfp28
+  - name: IB1/23
+    type: 100gbase-x-qsfp28
+  - name: IB1/24
+    type: 100gbase-x-qsfp28
+  - name: IB1/25
+    type: 100gbase-x-qsfp28
+  - name: IB1/26
+    type: 100gbase-x-qsfp28
+  - name: IB1/27
+    type: 100gbase-x-qsfp28
+  - name: IB1/28
+    type: 100gbase-x-qsfp28
+  - name: IB1/29
+    type: 100gbase-x-qsfp28
+  - name: IB1/30
+    type: 100gbase-x-qsfp28
+  - name: IB1/31
+    type: 100gbase-x-qsfp28
+  - name: IB1/32
+    type: 100gbase-x-qsfp28
+  - name: IB1/33
+    type: 100gbase-x-qsfp28
+  - name: IB1/34
+    type: 100gbase-x-qsfp28
+  - name: IB1/35
+    type: 100gbase-x-qsfp28
+  - name: IB1/36
+    type: 100gbase-x-qsfp28
+  is_full_depth: false
+  manufacturer: Mellanox
+  model: SB7800
+  power-ports:
+  - maximum_draw: 460
+    name: ps1
+    type: iec-60320-c14
+  - maximum_draw: 460
+    name: psu2
+    type: iec-60320-c14
+  slug: mellanox-sb7800
+  u_height: 1
+- console-ports:
+  - name: con0
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  - name: swp1
+    type: 200gbase-x-qsfp56
+  - name: swp2
+    type: 200gbase-x-qsfp56
+  - name: swp3
+    type: 200gbase-x-qsfp56
+  - name: swp4
+    type: 200gbase-x-qsfp56
+  - name: swp5
+    type: 200gbase-x-qsfp56
+  - name: swp6
+    type: 200gbase-x-qsfp56
+  - name: swp7
+    type: 200gbase-x-qsfp56
+  - name: swp8
+    type: 200gbase-x-qsfp56
+  - name: swp9
+    type: 200gbase-x-qsfp56
+  - name: swp10
+    type: 200gbase-x-qsfp56
+  - name: swp11
+    type: 200gbase-x-qsfp56
+  - name: swp12
+    type: 200gbase-x-qsfp56
+  - name: swp13
+    type: 200gbase-x-qsfp56
+  - name: swp14
+    type: 200gbase-x-qsfp56
+  - name: swp15
+    type: 200gbase-x-qsfp56
+  - name: swp16
+    type: 200gbase-x-qsfp56
+  - name: swp17
+    type: 200gbase-x-qsfp56
+  - name: swp18
+    type: 200gbase-x-qsfp56
+  - name: swp19
+    type: 200gbase-x-qsfp56
+  - name: swp20
+    type: 200gbase-x-qsfp56
+  - name: swp21
+    type: 200gbase-x-qsfp56
+  - name: swp22
+    type: 200gbase-x-qsfp56
+  - name: swp23
+    type: 200gbase-x-qsfp56
+  - name: swp24
+    type: 200gbase-x-qsfp56
+  - name: swp25
+    type: 200gbase-x-qsfp56
+  - name: swp26
+    type: 200gbase-x-qsfp56
+  - name: swp27
+    type: 200gbase-x-qsfp56
+  - name: swp28
+    type: 200gbase-x-qsfp56
+  - name: swp29
+    type: 200gbase-x-qsfp56
+  - name: swp30
+    type: 200gbase-x-qsfp56
+  - name: swp31
+    type: 200gbase-x-qsfp56
+  - name: swp32
+    type: 200gbase-x-qsfp56
+  is_full_depth: true
+  manufacturer: Mellanox
+  model: SN3700
+  power-ports:
+  - name: psu0
+    type: iec-60320-c14
+  - name: psu1
+    type: iec-60320-c14
+  slug: mellanox-sn3700
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: mgmt0
+    type: 1000base-t
+  - mgmt_only: true
+    name: mgmt1
+    type: 1000base-t
+  - name: IB1/1
+    type: 40gbase-x-qsfpp
+  - name: IB1/2
+    type: 40gbase-x-qsfpp
+  - name: IB1/3
+    type: 40gbase-x-qsfpp
+  - name: IB1/4
+    type: 40gbase-x-qsfpp
+  - name: IB1/5
+    type: 40gbase-x-qsfpp
+  - name: IB1/6
+    type: 40gbase-x-qsfpp
+  - name: IB1/7
+    type: 40gbase-x-qsfpp
+  - name: IB1/8
+    type: 40gbase-x-qsfpp
+  - name: IB1/9
+    type: 40gbase-x-qsfpp
+  - name: IB1/10
+    type: 40gbase-x-qsfpp
+  - name: IB1/11
+    type: 40gbase-x-qsfpp
+  - name: IB1/12
+    type: 40gbase-x-qsfpp
+  - name: IB1/13
+    type: 40gbase-x-qsfpp
+  - name: IB1/14
+    type: 40gbase-x-qsfpp
+  - name: IB1/15
+    type: 40gbase-x-qsfpp
+  - name: IB1/16
+    type: 40gbase-x-qsfpp
+  - name: IB1/17
+    type: 40gbase-x-qsfpp
+  - name: IB1/18
+    type: 40gbase-x-qsfpp
+  - name: IB1/19
+    type: 40gbase-x-qsfpp
+  - name: IB1/20
+    type: 40gbase-x-qsfpp
+  - name: IB1/21
+    type: 40gbase-x-qsfpp
+  - name: IB1/22
+    type: 40gbase-x-qsfpp
+  - name: IB1/23
+    type: 40gbase-x-qsfpp
+  - name: IB1/24
+    type: 40gbase-x-qsfpp
+  - name: IB1/25
+    type: 40gbase-x-qsfpp
+  - name: IB1/26
+    type: 40gbase-x-qsfpp
+  - name: IB1/27
+    type: 40gbase-x-qsfpp
+  - name: IB1/28
+    type: 40gbase-x-qsfpp
+  - name: IB1/29
+    type: 40gbase-x-qsfpp
+  - name: IB1/30
+    type: 40gbase-x-qsfpp
+  - name: IB1/31
+    type: 40gbase-x-qsfpp
+  - name: IB1/32
+    type: 40gbase-x-qsfpp
+  - name: IB1/33
+    type: 40gbase-x-qsfpp
+  - name: IB1/34
+    type: 40gbase-x-qsfpp
+  - name: IB1/35
+    type: 40gbase-x-qsfpp
+  - name: IB1/36
+    type: 40gbase-x-qsfpp
+  is_full_depth: true
+  manufacturer: Mellanox
+  model: SX6036
+  power-ports:
+  - maximum_draw: 500
+    name: psu1
+    type: iec-60320-c14
+  - maximum_draw: 500
+    name: psu2
+    type: iec-60320-c14
+  slug: mellanox-sx6036
   u_height: 1

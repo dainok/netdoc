@@ -124,7 +124,7 @@ models:
   - allocated_draw: 30
     name: PSU2
     type: iec-60320-c14
-  slug: nsc-t48r-stnd-dac
+  slug: zpe-nsc-t48r-stnd-dac
   u_height: 1
 - comments: ZPE Nodegrid Gate SR. 8X RJ45 Serial, 13X ETH (5 GbE, 4X PoE+, 2 SFP+)
   console-ports:

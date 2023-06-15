@@ -1,28 +1,9 @@
 keywords:
-- Dionis DPS-2004 (RM-4E)
-- RM-4E
-- Dionis DPS-3010 (RM-6E-4S)
+- Dionis DPS-3010
 - RM-6E-4S
+- Dionis DPS-2004
+- RM-4E
 models:
-- interfaces:
-  - name: ethernet 0
-    type: 1000base-t
-  - name: ethernet 1
-    type: 1000base-t
-  - name: ethernet 2
-    type: 1000base-t
-  - name: ethernet 3
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Factor-TS
-  model: Dionis DPS-2004 (RM-4E)
-  part_number: RM-4E
-  power-ports:
-  - maximum_draw: 50
-    name: PSU0
-    type: iec-60320-c14
-  slug: dionis-dps-2004-rm-4e
-  u_height: 1
 - interfaces:
   - name: ethernet 0
     type: 1000base-t
@@ -46,11 +27,30 @@ models:
     type: 1000base-x-sfp
   is_full_depth: true
   manufacturer: Factor-TS
-  model: Dionis DPS-3010 (RM-6E-4S)
+  model: Dionis DPS-3010
   part_number: RM-6E-4S
   power-ports:
   - maximum_draw: 50
     name: PSU0
     type: iec-60320-c14
-  slug: dionis-dps-3010-rm-6e-4s
+  slug: factor-ts-dionis-dps-3010-rm-6e-4s
+  u_height: 1
+- interfaces:
+  - name: ethernet 0
+    type: 1000base-t
+  - name: ethernet 1
+    type: 1000base-t
+  - name: ethernet 2
+    type: 1000base-t
+  - name: ethernet 3
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: Factor-TS
+  model: Dionis DPS-2004
+  part_number: RM-4E
+  power-ports:
+  - maximum_draw: 50
+    name: PSU0
+    type: iec-60320-c14
+  slug: factor-ts-dionis-dps-2004
   u_height: 1

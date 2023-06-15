@@ -34,7 +34,7 @@ models:
   - maximum_draw: 50
     name: psu0
     type: iec-60320-c14
-  slug: balance-305
+  slug: peplink-balance-305
   u_height: 1
 - comments: '[Peplink Balance 1350 Data Sheet](https://www.peplink.com/products/balance-1350/#datasheet--resources)
 
@@ -86,5 +86,5 @@ models:
   - maximum_draw: 70
     name: psu0
     type: iec-60320-c14
-  slug: balance-1350
+  slug: peplink-balance-1350
   u_height: 1

@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
 """Load latest Netbox devicetype-library."""
 
-from os import walk
+from os import walk, path
 import yaml
 from yaml.loader import SafeLoader
 
-SRC_DIR = "../devicetype-library/device-types/"
+SRC_DIR = "../devicetype-library/device-types/device-types"
 DST_DIR = "netdoc/library/"
+
+if not path.isdir(SRC_DIR):
+    print("Clone git repository with the following command:")
+    print(
+        f"git clone https://github.com/netbox-community/devicetype-library/ {SRC_DIR}"
+    )
 
 for dirpath, dirnames, filenames in walk(SRC_DIR):  # pylint: disable=unused-variable
     if not (dirpath and not dirnames and filenames):
@@ -19,6 +25,7 @@ for dirpath, dirnames, filenames in walk(SRC_DIR):  # pylint: disable=unused-var
 
     for model_file in filenames:
         # Reading all models
+        print(f"Reading {model_file}...")
         model_filepath = f"{dirpath}/{model_file}"
         with open(model_filepath) as fh:
             data = yaml.load(fh, Loader=SafeLoader)

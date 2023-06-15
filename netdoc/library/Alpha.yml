@@ -11,7 +11,7 @@ models:
   manufacturer: Alpha
   model: Cordex CXC
   part_number: CXC
-  slug: cxc
+  slug: alpha-cordex-cxc
   subdevice_role: child
   u_height: 0
 - interfaces:
@@ -21,6 +21,6 @@ models:
   manufacturer: Alpha
   model: Cordex CXCM1 HP
   part_number: CXCM1-HP
-  slug: cxcm1-hp
+  slug: alpha-cordex-cxcm1-hp
   subdevice_role: child
   u_height: 0

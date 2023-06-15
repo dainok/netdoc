@@ -1,15 +1,101 @@
 keywords:
-- FAS2700 Controller 10GBASE-T
-- X3219A
 - FAS8200 Controller
 - X3172A
-- FAS2700 Controller CNA
-- X3218A
+- FAS2750
+- FAS2750
 - FAS8200
 - FAS8200A
-- FAS2750
-- FAS2750
+- FAS2700 Controller CNA
+- X3218A
+- FAS2700 Controller 10GBASE-T
+- X3219A
 models:
+- console-ports:
+  - name: con0
+    type: rj-45
+  interfaces:
+  - name: e0a
+    type: 10gbase-x-sfpp
+  - name: e0b
+    type: 10gbase-x-sfpp
+  - name: e0c
+    type: 1000base-t
+  - name: e0d
+    type: 1000base-t
+  - name: e0e
+    type: 10gbase-x-sfpp
+  - name: e0f
+    type: 10gbase-x-sfpp
+  - name: e0g
+    type: 10gbase-x-sfpp
+  - name: e0h
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: e0m
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: NetApp
+  model: FAS8200 Controller
+  part_number: X3172A
+  slug: netapp-fas8200-controller
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: con0
+    type: rj-45
+  is_full_depth: true
+  manufacturer: NetApp
+  model: FAS2750
+  module-bays:
+  - name: A
+  - name: B
+  part_number: FAS2750
+  power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14
+  slug: netapp-fas2750
+  u_height: 2
+- is_full_depth: true
+  manufacturer: NetApp
+  model: FAS8200
+  module-bays:
+  - name: A
+  - name: B
+  part_number: FAS8200A
+  power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14
+  slug: netapp-fas8200
+  u_height: 3
+- console-ports:
+  - name: con0
+    type: rj-45
+  interfaces:
+  - name: e0a
+    type: 10gbase-x-sfpp
+  - name: e0b
+    type: 10gbase-x-sfpp
+  - name: e0c
+    type: 10gbase-x-sfpp
+  - name: e0d
+    type: 10gbase-x-sfpp
+  - name: e0e
+    type: 10gbase-x-sfpp
+  - name: e0f
+    type: 10gbase-x-sfpp
+  - name: e0m
+    type: 10gbase-x-sfpp
+  is_full_depth: true
+  manufacturer: NetApp
+  model: FAS2700 Controller CNA
+  part_number: X3218A
+  slug: netapp-fas2700-controller-cna
+  subdevice_role: child
+  u_height: 0
 - console-ports:
   - name: con0
     type: rj-45
@@ -42,92 +128,6 @@ models:
     type: iec-60320-c14
   - name: PSU4
     type: iec-60320-c14
-  slug: fas2700-controller-10gbase-t
+  slug: netapp-fas2700-controller-10gbase-t
   subdevice_role: child
   u_height: 0
-- console-ports:
-  - name: con0
-    type: rj-45
-  interfaces:
-  - name: e0a
-    type: 10gbase-x-sfpp
-  - name: e0b
-    type: 10gbase-x-sfpp
-  - name: e0c
-    type: 1000base-t
-  - name: e0d
-    type: 1000base-t
-  - name: e0e
-    type: 10gbase-x-sfpp
-  - name: e0f
-    type: 10gbase-x-sfpp
-  - name: e0g
-    type: 10gbase-x-sfpp
-  - name: e0h
-    type: 10gbase-x-sfpp
-  - mgmt_only: true
-    name: e0m
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: NetApp
-  model: FAS8200 Controller
-  part_number: X3172A
-  slug: fas8200-controller
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: con0
-    type: rj-45
-  interfaces:
-  - name: e0a
-    type: 10gbase-x-sfpp
-  - name: e0b
-    type: 10gbase-x-sfpp
-  - name: e0c
-    type: 10gbase-x-sfpp
-  - name: e0d
-    type: 10gbase-x-sfpp
-  - name: e0e
-    type: 10gbase-x-sfpp
-  - name: e0f
-    type: 10gbase-x-sfpp
-  - name: e0m
-    type: 10gbase-x-sfpp
-  is_full_depth: true
-  manufacturer: NetApp
-  model: FAS2700 Controller CNA
-  part_number: X3218A
-  slug: fas2700-controller-cna
-  subdevice_role: child
-  u_height: 0
-- is_full_depth: true
-  manufacturer: NetApp
-  model: FAS8200
-  module-bays:
-  - name: A
-  - name: B
-  part_number: FAS8200A
-  power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-  - name: PSU2
-    type: iec-60320-c14
-  slug: fas8200
-  u_height: 3
-- console-ports:
-  - name: con0
-    type: rj-45
-  is_full_depth: true
-  manufacturer: NetApp
-  model: FAS2750
-  module-bays:
-  - name: A
-  - name: B
-  part_number: FAS2750
-  power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-  - name: PSU2
-    type: iec-60320-c14
-  slug: fas2750
-  u_height: 2

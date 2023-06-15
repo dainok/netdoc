@@ -1,62 +1,104 @@
 keywords:
-- CPS-1220RMS
-- cps1220rms
+- OR2200LCDRT2U
+- OR1000LCDRM1U
+- or1000lcdrm1u
 - CP1500PFCLCD
 - cps1500pfclcd
 - CPS1215RMS
 - cps1215rms
-- OR2200LCDRT2U
 - PDU15M2F12R
-- OR1000LCDRM1U
-- or1000lcdrm1u
 - OR1500LCDRTXL2U
+- CPS-1220RMS
+- cps1220rms
 models:
-- is_full_depth: false
+- console-ports:
+  - name: Serial Port I
+    type: de-9
+  - name: Serial Port II
+    type: de-9
+  - name: USB
+    type: usb-b
+  is_full_depth: true
   manufacturer: CyberPower
-  model: CPS-1220RMS
-  part_number: cps1220rms
+  model: OR2200LCDRT2U
   power-outlets:
-  - name: Front Outlet 1
-    power_port: Power Port 1
+  - name: Right Top 1
+    power_port: AC Input
     type: nema-5-20r
-  - name: Front Outlet 2
-    power_port: Power Port 1
+  - name: Right Top 2
+    power_port: AC Input
     type: nema-5-20r
-  - name: Rear Outlet 1
-    power_port: Power Port 1
+  - name: Right Bottom 1
+    power_port: AC Input
     type: nema-5-20r
-  - name: Rear Outlet 2
-    power_port: Power Port 1
+  - name: Right Bottom 2
+    power_port: AC Input
     type: nema-5-20r
-  - name: Rear Outlet 3
-    power_port: Power Port 1
+  - name: Left Top 1
+    power_port: AC Input
     type: nema-5-20r
-  - name: Rear Outlet 4
-    power_port: Power Port 1
+  - name: Left Top 2
+    power_port: AC Input
     type: nema-5-20r
-  - name: Rear Outlet 5
-    power_port: Power Port 1
+  - name: Left Bottom 1
+    power_port: AC Input
     type: nema-5-20r
-  - name: Rear Outlet 6
-    power_port: Power Port 1
-    type: nema-5-20r
-  - name: Rear Outlet 7
-    power_port: Power Port 1
-    type: nema-5-20r
-  - name: Rear Outlet 8
-    power_port: Power Port 1
-    type: nema-5-20r
-  - name: Rear Outlet 9
-    power_port: Power Port 1
-    type: nema-5-20r
-  - name: Rear Outlet 10
-    power_port: Power Port 1
+  - name: Left Bottom 2
+    power_port: AC Input
     type: nema-5-20r
   power-ports:
-  - maximum_draw: 1800
-    name: Power Port 1
+  - maximum_draw: 1320
+    name: AC Input
     type: nema-5-20p
-  slug: cps-1220rms
+  slug: cyberpower-or2200lcdrt2u
+  u_height: 2
+- comments: Smart App LCD 1000va UPS
+  console-ports:
+  - name: Serial Port I
+    type: de-9
+  - name: Serial Port II
+    type: de-9
+  - name: USB
+    type: usb-b
+  interfaces:
+  - description: RMCARD205
+    mgmt_only: true
+    name: eth0
+    type: 100base-tx
+  is_full_depth: true
+  manufacturer: CyberPower
+  model: OR1000LCDRM1U
+  part_number: or1000lcdrm1u
+  power-outlets:
+  - description: battery+surge
+    name: power1
+    power_port: AC Input
+    type: nema-5-15r
+  - description: battery+surge
+    name: power2
+    power_port: AC Input
+    type: nema-5-15r
+  - description: battery+surge
+    name: power3
+    power_port: AC Input
+    type: nema-5-15r
+  - description: battery+surge
+    name: power4
+    power_port: AC Input
+    type: nema-5-15r
+  - description: surge-only
+    name: power5
+    power_port: AC Input
+    type: nema-5-15r
+  - description: surge-only
+    name: power6
+    power_port: AC Input
+    type: nema-5-15r
+  power-ports:
+  - maximum_draw: 600
+    name: AC Input
+    type: nema-5-15p
+  slug: cyberpower-or1000lcdrm1u
   u_height: 1
 - is_full_depth: false
   manufacturer: CyberPower
@@ -102,7 +144,7 @@ models:
   power-ports:
   - name: Power Port 1
     type: nema-5-15p
-  slug: cps1500pfclcd
+  slug: cyberpower-cps1500pfclcd
 - is_full_depth: false
   manufacturer: CyberPower
   model: CPS1215RMS
@@ -148,49 +190,8 @@ models:
   - maximum_draw: 1800
     name: Power Port 1
     type: nema-5-15p
-  slug: cps1215rms
+  slug: cyberpower-cps1215rms
   u_height: 1
-- console-ports:
-  - name: Serial Port I
-    type: de-9
-  - name: Serial Port II
-    type: de-9
-  - name: USB
-    type: usb-b
-  is_full_depth: true
-  manufacturer: CyberPower
-  model: OR2200LCDRT2U
-  power-outlets:
-  - name: Right Top 1
-    power_port: AC Input
-    type: nema-5-20r
-  - name: Right Top 2
-    power_port: AC Input
-    type: nema-5-20r
-  - name: Right Bottom 1
-    power_port: AC Input
-    type: nema-5-20r
-  - name: Right Bottom 2
-    power_port: AC Input
-    type: nema-5-20r
-  - name: Left Top 1
-    power_port: AC Input
-    type: nema-5-20r
-  - name: Left Top 2
-    power_port: AC Input
-    type: nema-5-20r
-  - name: Left Bottom 1
-    power_port: AC Input
-    type: nema-5-20r
-  - name: Left Bottom 2
-    power_port: AC Input
-    type: nema-5-20r
-  power-ports:
-  - maximum_draw: 1320
-    name: AC Input
-    type: nema-5-20p
-  slug: or2200lcdrt2u
-  u_height: 2
 - is_full_depth: false
   manufacturer: CyberPower
   model: PDU15M2F12R
@@ -241,55 +242,7 @@ models:
   - maximum_draw: 1800
     name: Power Port 1
     type: nema-5-15p
-  slug: pdu15m2f12r
-  u_height: 1
-- comments: Smart App LCD 1000va UPS
-  console-ports:
-  - name: Serial Port I
-    type: de-9
-  - name: Serial Port II
-    type: de-9
-  - name: USB
-    type: usb-b
-  interfaces:
-  - description: RMCARD205
-    mgmt_only: true
-    name: eth0
-    type: 100base-tx
-  is_full_depth: true
-  manufacturer: CyberPower
-  model: OR1000LCDRM1U
-  part_number: or1000lcdrm1u
-  power-outlets:
-  - description: battery+surge
-    name: power1
-    power_port: AC Input
-    type: nema-5-15r
-  - description: battery+surge
-    name: power2
-    power_port: AC Input
-    type: nema-5-15r
-  - description: battery+surge
-    name: power3
-    power_port: AC Input
-    type: nema-5-15r
-  - description: battery+surge
-    name: power4
-    power_port: AC Input
-    type: nema-5-15r
-  - description: surge-only
-    name: power5
-    power_port: AC Input
-    type: nema-5-15r
-  - description: surge-only
-    name: power6
-    power_port: AC Input
-    type: nema-5-15r
-  power-ports:
-  - maximum_draw: 600
-    name: AC Input
-    type: nema-5-15p
-  slug: or1000lcdrm1u
+  slug: cyberpower-pdu15m2f12r
   u_height: 1
 - console-ports:
   - name: Serial Port I
@@ -334,5 +287,52 @@ models:
   - maximum_draw: 1125
     name: AC Input
     type: nema-5-15p
-  slug: or1500lcdrtxl2u
+  slug: cyberpower-or1500lcdrtxl2u
   u_height: 2
+- is_full_depth: false
+  manufacturer: CyberPower
+  model: CPS-1220RMS
+  part_number: cps1220rms
+  power-outlets:
+  - name: Front Outlet 1
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: Front Outlet 2
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: Rear Outlet 1
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: Rear Outlet 2
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: Rear Outlet 3
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: Rear Outlet 4
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: Rear Outlet 5
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: Rear Outlet 6
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: Rear Outlet 7
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: Rear Outlet 8
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: Rear Outlet 9
+    power_port: Power Port 1
+    type: nema-5-20r
+  - name: Rear Outlet 10
+    power_port: Power Port 1
+    type: nema-5-20r
+  power-ports:
+  - maximum_draw: 1800
+    name: Power Port 1
+    type: nema-5-20p
+  slug: cyberpower-cps-1220rms
+  u_height: 1

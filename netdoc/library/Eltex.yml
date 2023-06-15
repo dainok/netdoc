@@ -121,5 +121,5 @@ models:
   - maximum_draw: 45
     name: PS1
     type: iec-60320-c14
-  slug: mes3348
+  slug: eltex-mes3348
   u_height: 1

@@ -16,5 +16,5 @@ models:
   power-ports:
   - name: PSU
     type: dc-terminal
-  slug: jetson-xavier-nx-developer-kit
+  slug: nvidia-jetson-xavier-nx-developer-kit
   u_height: 0

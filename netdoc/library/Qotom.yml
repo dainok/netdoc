@@ -19,5 +19,5 @@ models:
   power-ports:
   - name: Power
     type: nema-5-15p
-  slug: q330g4
+  slug: qotom-q330g4
   u_height: 0

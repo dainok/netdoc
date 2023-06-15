@@ -1,54 +1,23 @@
 keywords:
-- CX755
-- CX755
-- CX7055
-- CX7055
-- CX555
-- CX555
-- CX770
-- CX770
-- CX1555
-- CX1555
 - CX5055
 - CX5055
-- CX570
-- CX570
 - CX3070
 - CX3070
+- CX1555
+- CX1555
+- CX555
+- CX555
+- CX7055
+- CX7055
+- CX755
+- CX755
+- CX770
+- CX770
 - CX7070
 - CX7070
+- CX570
+- CX570
 models:
-- console-ports:
-  - name: Console
-    type: other
-  - name: USB0
-    type: usb-a
-  - name: USB1
-    type: usb-a
-  interfaces:
-  - name: LAN0_0
-    type: 1000base-t
-  - name: WAN0_0
-    type: 1000base-t
-  - name: LAN_0_1
-    type: 1000base-t
-  - name: WAN0_1
-    type: 1000base-t
-  - name: Primary
-    type: 1000base-t
-  - name: Aux
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Riverbed
-  model: CX755
-  part_number: CX755
-  power-ports:
-  - allocated_draw: 50
-    maximum_draw: 100
-    name: PS1
-    type: iec-60320-c14
-  slug: cx755
-  u_height: 1
 - console-ports:
   - name: Console
     type: rj-45
@@ -71,50 +40,19 @@ models:
     type: 1000base-t
   is_full_depth: true
   manufacturer: Riverbed
-  model: CX7055
-  part_number: CX7055
+  model: CX5055
+  part_number: CX5055
   power-ports:
-  - allocated_draw: 420
+  - allocated_draw: 375
     maximum_draw: 770
     name: PS1
     type: iec-60320-c14
-  - allocated_draw: 420
+  - allocated_draw: 375
     maximum_draw: 770
     name: PS2
     type: iec-60320-c14
-  slug: cx7055
+  slug: riverbed-cx5055
   u_height: 2
-- console-ports:
-  - name: Console
-    type: other
-  - name: USB0
-    type: usb-a
-  - name: USB1
-    type: usb-a
-  interfaces:
-  - name: LAN0_0
-    type: 1000base-t
-  - name: WAN0_0
-    type: 1000base-t
-  - name: LAN_0_1
-    type: 1000base-t
-  - name: WAN0_1
-    type: 1000base-t
-  - name: Primary
-    type: 1000base-t
-  - name: Aux
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Riverbed
-  model: CX555
-  part_number: CX555
-  power-ports:
-  - allocated_draw: 45
-    maximum_draw: 100
-    name: PS1
-    type: iec-60320-c14
-  slug: cx555
-  u_height: 1
 - console-ports:
   - name: Console
     type: rj-45
@@ -123,28 +61,32 @@ models:
   - name: USB1
     type: usb-a
   interfaces:
-  - name: LAN0_0
+  - name: LAN3_0
     type: 1000base-t
-  - name: WAN0_0
+  - name: WAN3_0
     type: 1000base-t
-  - name: LAN_0_1
+  - name: LAN3_1
     type: 1000base-t
-  - name: WAN0_1
+  - name: WAN3_1
     type: 1000base-t
   - name: Primary
     type: 1000base-t
   - name: Aux
     type: 1000base-t
-  is_full_depth: false
+  is_full_depth: true
   manufacturer: Riverbed
-  model: CX770
-  part_number: CX770
+  model: CX3070
+  part_number: CX3070
   power-ports:
-  - allocated_draw: 50
-    maximum_draw: 100
+  - allocated_draw: 422
+    maximum_draw: 527
     name: PS1
     type: iec-60320-c14
-  slug: cx770
+  - allocated_draw: 422
+    maximum_draw: 527
+    name: PS2
+    type: iec-60320-c14
+  slug: riverbed-cx3070
   u_height: 1
 - console-ports:
   - name: Console
@@ -179,7 +121,38 @@ models:
     maximum_draw: 450
     name: PS2
     type: iec-60320-c14
-  slug: cx1555
+  slug: riverbed-cx1555
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: other
+  - name: USB0
+    type: usb-a
+  - name: USB1
+    type: usb-a
+  interfaces:
+  - name: LAN0_0
+    type: 1000base-t
+  - name: WAN0_0
+    type: 1000base-t
+  - name: LAN_0_1
+    type: 1000base-t
+  - name: WAN0_1
+    type: 1000base-t
+  - name: Primary
+    type: 1000base-t
+  - name: Aux
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Riverbed
+  model: CX555
+  part_number: CX555
+  power-ports:
+  - allocated_draw: 45
+    maximum_draw: 100
+    name: PS1
+    type: iec-60320-c14
+  slug: riverbed-cx555
   u_height: 1
 - console-ports:
   - name: Console
@@ -203,19 +176,50 @@ models:
     type: 1000base-t
   is_full_depth: true
   manufacturer: Riverbed
-  model: CX5055
-  part_number: CX5055
+  model: CX7055
+  part_number: CX7055
   power-ports:
-  - allocated_draw: 375
+  - allocated_draw: 420
     maximum_draw: 770
     name: PS1
     type: iec-60320-c14
-  - allocated_draw: 375
+  - allocated_draw: 420
     maximum_draw: 770
     name: PS2
     type: iec-60320-c14
-  slug: cx5055
+  slug: riverbed-cx7055
   u_height: 2
+- console-ports:
+  - name: Console
+    type: other
+  - name: USB0
+    type: usb-a
+  - name: USB1
+    type: usb-a
+  interfaces:
+  - name: LAN0_0
+    type: 1000base-t
+  - name: WAN0_0
+    type: 1000base-t
+  - name: LAN_0_1
+    type: 1000base-t
+  - name: WAN0_1
+    type: 1000base-t
+  - name: Primary
+    type: 1000base-t
+  - name: Aux
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Riverbed
+  model: CX755
+  part_number: CX755
+  power-ports:
+  - allocated_draw: 50
+    maximum_draw: 100
+    name: PS1
+    type: iec-60320-c14
+  slug: riverbed-cx755
+  u_height: 1
 - console-ports:
   - name: Console
     type: rj-45
@@ -238,49 +242,14 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: Riverbed
-  model: CX570
-  part_number: CX570
+  model: CX770
+  part_number: CX770
   power-ports:
-  - allocated_draw: 45
+  - allocated_draw: 50
     maximum_draw: 100
     name: PS1
     type: iec-60320-c14
-  slug: cx570
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  - name: USB0
-    type: usb-a
-  - name: USB1
-    type: usb-a
-  interfaces:
-  - name: LAN3_0
-    type: 1000base-t
-  - name: WAN3_0
-    type: 1000base-t
-  - name: LAN3_1
-    type: 1000base-t
-  - name: WAN3_1
-    type: 1000base-t
-  - name: Primary
-    type: 1000base-t
-  - name: Aux
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Riverbed
-  model: CX3070
-  part_number: CX3070
-  power-ports:
-  - allocated_draw: 422
-    maximum_draw: 527
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 422
-    maximum_draw: 527
-    name: PS2
-    type: iec-60320-c14
-  slug: cx3070
+  slug: riverbed-cx770
   u_height: 1
 - console-ports:
   - name: Console
@@ -315,5 +284,36 @@ models:
     maximum_draw: 527
     name: PS2
     type: iec-60320-c14
-  slug: cx7070
+  slug: riverbed-cx7070
   u_height: 2
+- console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB0
+    type: usb-a
+  - name: USB1
+    type: usb-a
+  interfaces:
+  - name: LAN0_0
+    type: 1000base-t
+  - name: WAN0_0
+    type: 1000base-t
+  - name: LAN_0_1
+    type: 1000base-t
+  - name: WAN0_1
+    type: 1000base-t
+  - name: Primary
+    type: 1000base-t
+  - name: Aux
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Riverbed
+  model: CX570
+  part_number: CX570
+  power-ports:
+  - allocated_draw: 45
+    maximum_draw: 100
+    name: PS1
+    type: iec-60320-c14
+  slug: riverbed-cx570
+  u_height: 1

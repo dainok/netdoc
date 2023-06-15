@@ -1,41 +1,354 @@
 keywords:
-- PM10i-16A
-- DSRIQ-PS2
-- ACS 8008 Single-AC
-- ACS8008SAC-400
-- PM20-L20A
-- ACS16
-- PM10i-L30A
-- PM10-20A
-- ACS 8048 Single-AC
-- ACS8048SAC-400
-- PM3009H
 - PM10-L30A
+- DSRIQ-USB
+- PM10i-10A
+- DSR2035
 - ACS 8032 Single-AC
 - ACS8032SAC-400
-- PM10i-20A
-- PM20i-20A
-- PM20-20A
-- MPUIQ-SRL
-- 520-592-502
-- PM10-L20A
-- PM10i-15A
-- ACS 8016 Single-AC
-- ACS8016SAC-400
 - MPUIQ-VMCHS
 - 520-854-501
-- DSR2035
-- PM10i-10A
-- PM3000
-- PM20-L30A
-- DSRIQ-SRL
+- PM10i-16A
 - PM20i-L30A
-- DSRIQ-USB
-- Cyclades TS-1000
-- DSRIQ-VSN
+- PM20i-20A
+- PM10-20A
+- PM10i-L30A
+- PM3000
+- MPUIQ-SRL
+- 520-592-502
+- PM10i-15A
+- ACS 8048 Single-AC
+- ACS8048SAC-400
+- PM20-L20A
+- ACS 8016 Single-AC
+- ACS8016SAC-400
+- PM20-20A
+- PM3009H
+- DSRIQ-PS2
 - PM10-15A
+- Cyclades TS-1000
+- PM10-L20A
+- ACS16
+- PM10i-20A
+- ACS 8008 Single-AC
+- ACS8008SAC-400
+- DSRIQ-VSN
 - PM20i-16A
+- DSRIQ-SRL
+- PM20-L30A
 models:
+- comments: AlterPath PM10-L30A
+  console-ports:
+  - name: In
+    type: rj-45
+  - name: Out
+    type: rj-45
+  is_full_depth: false
+  manufacturer: Avocent
+  model: PM10-L30A
+  power-outlets:
+  - name: PM-1
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-2
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-3
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-4
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-5
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-6
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-7
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-8
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-9
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-10
+    power_port: Power Port 1
+    type: nema-5-15r
+  power-ports:
+  - maximum_draw: 3600
+    name: Power Port 1
+    type: nema-l5-30p
+  slug: avocent-pm10-l30a
+  u_height: 1
+- console-ports:
+  - name: DSR
+    type: rj-45
+  console-server-ports:
+  - name: VGA
+    type: other
+  - name: USB
+    type: usb-a
+  is_full_depth: false
+  manufacturer: Avocent
+  model: DSRIQ-USB
+  slug: avocent-dsriq-usb
+  u_height: 0
+- comments: AlterPath PM10i-10A
+  console-ports:
+  - name: In
+    type: rj-45
+  - name: Out
+    type: rj-45
+  is_full_depth: false
+  manufacturer: Avocent
+  model: PM10i-10A
+  power-outlets:
+  - name: PM-1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-8
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  power-ports:
+  - maximum_draw: 1200
+    name: Power Port 1
+    type: iec-60320-c14
+  slug: avocent-pm10i-10a
+  u_height: 1
+- console-ports:
+  - name: MODEM
+    type: rj-45
+  - name: SETUP
+    type: rj-45
+  - name: SPC 1
+    type: rj-45
+  - name: SPC 2
+    type: rj-45
+  - name: VGA
+    type: other
+  - name: Keyboard
+    type: other
+  - name: Mouse
+    type: other
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: Rear USB3
+    type: usb-a
+  - name: Rear USB4
+    type: usb-a
+  - name: Front USB
+    type: usb-a
+  console-server-ports:
+  - name: '1'
+    type: rj-45
+  - name: '2'
+    type: rj-45
+  - name: '3'
+    type: rj-45
+  - name: '4'
+    type: rj-45
+  - name: '5'
+    type: rj-45
+  - name: '6'
+    type: rj-45
+  - name: '7'
+    type: rj-45
+  - name: '8'
+    type: rj-45
+  - name: '9'
+    type: rj-45
+  - name: '10'
+    type: rj-45
+  - name: '11'
+    type: rj-45
+  - name: '12'
+    type: rj-45
+  - name: '13'
+    type: rj-45
+  - name: '14'
+    type: rj-45
+  - name: '15'
+    type: rj-45
+  - name: '16'
+    type: rj-45
+  - name: '17'
+    type: rj-45
+  - name: '18'
+    type: rj-45
+  - name: '19'
+    type: rj-45
+  - name: '20'
+    type: rj-45
+  - name: '21'
+    type: rj-45
+  - name: '22'
+    type: rj-45
+  - name: '23'
+    type: rj-45
+  - name: '24'
+    type: rj-45
+  - name: '25'
+    type: rj-45
+  - name: '26'
+    type: rj-45
+  - name: '27'
+    type: rj-45
+  - name: '28'
+    type: rj-45
+  - name: '29'
+    type: rj-45
+  - name: '30'
+    type: rj-45
+  - name: '31'
+    type: rj-45
+  - name: '32'
+    type: rj-45
+  interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Avocent
+  model: DSR2035
+  power-ports:
+  - maximum_draw: 40
+    name: ps1
+    type: iec-60320-c14
+  slug: avocent-dsr2035
+  u_height: 1
+- airflow: passive
+  comments: "[Avocent\xAE ACS 8000 Advanced Console Server Data Sheet](https://www.vertiv.com/4ae0c3/globalassets/products/monitoring-control-and-management/serial-consoles-and-gateways/avocent-acs-8000-advanced-console-server-data-sheet.pdf)"
+  console-ports:
+  - name: console
+    type: rj-45
+  console-server-ports:
+  - name: ttyS1
+    type: rj-45
+  - name: ttyS2
+    type: rj-45
+  - name: ttyS3
+    type: rj-45
+  - name: ttyS4
+    type: rj-45
+  - name: ttyS5
+    type: rj-45
+  - name: ttyS6
+    type: rj-45
+  - name: ttyS7
+    type: rj-45
+  - name: ttyS8
+    type: rj-45
+  - name: ttyS9
+    type: rj-45
+  - name: ttyS10
+    type: rj-45
+  - name: ttyS11
+    type: rj-45
+  - name: ttyS12
+    type: rj-45
+  - name: ttyS13
+    type: rj-45
+  - name: ttyS14
+    type: rj-45
+  - name: ttyS15
+    type: rj-45
+  - name: ttyS16
+    type: rj-45
+  - name: ttyS17
+    type: rj-45
+  - name: ttyS18
+    type: rj-45
+  - name: ttyS19
+    type: rj-45
+  - name: ttyS20
+    type: rj-45
+  - name: ttyS21
+    type: rj-45
+  - name: ttyS22
+    type: rj-45
+  - name: ttyS23
+    type: rj-45
+  - name: ttyS24
+    type: rj-45
+  - name: ttyS25
+    type: rj-45
+  - name: ttyS26
+    type: rj-45
+  - name: ttyS27
+    type: rj-45
+  - name: ttyS28
+    type: rj-45
+  - name: ttyS29
+    type: rj-45
+  - name: ttyS30
+    type: rj-45
+  - name: ttyS31
+    type: rj-45
+  - name: ttyS32
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Avocent
+  model: ACS 8032 Single-AC
+  part_number: ACS8032SAC-400
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 33
+    name: ps1
+    type: iec-60320-c14
+  slug: avocent-acs8032sac-400
+  u_height: 1
+  weight: 7.2
+  weight_unit: lb
+- airflow: passive
+  comments: MPU IQ Serial Adapter
+  console-ports:
+  - name: KVM
+    type: rj-45
+  console-server-ports:
+  - name: vga0
+    type: other
+  - name: usb0
+    type: usb-a
+  is_full_depth: false
+  manufacturer: Avocent
+  model: MPUIQ-VMCHS
+  part_number: 520-854-501
+  slug: avocent-mpuiq-vmchs
+  u_height: 0
 - comments: AlterPath PM10i-16A
   console-ports:
   - name: In
@@ -80,64 +393,9 @@ models:
   - maximum_draw: 1920
     name: Power Port 1
     type: iec-60320-c20
-  slug: pm10i_16a
+  slug: avocent-pm10i-16a
   u_height: 1
-- console-ports:
-  - name: DSR
-    type: rj-45
-  console-server-ports:
-  - name: VGA
-    type: other
-  - name: Keyboard
-    type: other
-  - name: Mouse
-    type: other
-  is_full_depth: false
-  manufacturer: Avocent
-  model: DSRIQ-PS2
-  slug: dsriq-ps2
-  u_height: 0
-- airflow: passive
-  comments: "[Avocent\xAE ACS 8000 Advanced Console Server Data Sheet](https://www.vertiv.com/4ae0c3/globalassets/products/monitoring-control-and-management/serial-consoles-and-gateways/avocent-acs-8000-advanced-console-server-data-sheet.pdf)"
-  console-ports:
-  - name: console
-    type: rj-45
-  console-server-ports:
-  - name: ttyS1
-    type: rj-45
-  - name: ttyS2
-    type: rj-45
-  - name: ttyS3
-    type: rj-45
-  - name: ttyS4
-    type: rj-45
-  - name: ttyS5
-    type: rj-45
-  - name: ttyS6
-    type: rj-45
-  - name: ttyS7
-    type: rj-45
-  - name: ttyS8
-    type: rj-45
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Avocent
-  model: ACS 8008 Single-AC
-  part_number: ACS8008SAC-400
-  power-ports:
-  - allocated_draw: 11
-    maximum_draw: 33
-    name: ps1
-    type: iec-60320-c14
-  slug: avocent-acs8008sac-400
-  u_height: 1
-  weight: 7.2
-  weight_unit: lb
-- comments: AlterPath PM20-L20A
+- comments: AlterPath PM20i-L30A
   console-ports:
   - name: In
     type: rj-45
@@ -145,7 +403,159 @@ models:
     type: rj-45
   is_full_depth: false
   manufacturer: Avocent
-  model: PM20-L20A
+  model: PM20i-L30A
+  power-outlets:
+  - name: PM-1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-8
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-12
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-13
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-14
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-15
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-16
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-17
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-18
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-19
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-20
+    power_port: Power Port 1
+    type: iec-60320-c13
+  power-ports:
+  - maximum_draw: 3600
+    name: Power Port 1
+    type: nema-l6-30p
+  slug: avocent-pm20i-l30a
+  u_height: 0
+- comments: AlterPath PM20i-20A
+  console-ports:
+  - name: In
+    type: rj-45
+  - name: Out
+    type: rj-45
+  is_full_depth: false
+  manufacturer: Avocent
+  model: PM20i-20A
+  power-outlets:
+  - name: PM-1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-8
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-12
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-13
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-14
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-15
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-16
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-17
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-18
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-19
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-20
+    power_port: Power Port 1
+    type: iec-60320-c13
+  power-ports:
+  - maximum_draw: 2400
+    name: Power Port 1
+    type: iec-60320-c20
+  slug: avocent-pm20i-20a
+  u_height: 0
+- comments: AlterPath PM10-20A
+  console-ports:
+  - name: In
+    type: rj-45
+  - name: Out
+    type: rj-45
+  is_full_depth: false
+  manufacturer: Avocent
+  model: PM10-20A
   power-outlets:
   - name: PM-1
     power_port: Power Port 1
@@ -177,89 +587,11 @@ models:
   - name: PM-10
     power_port: Power Port 1
     type: nema-5-15r
-  - name: PM-11
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-12
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-13
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-14
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-15
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-16
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-17
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-18
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-19
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-20
-    power_port: Power Port 1
-    type: nema-5-15r
   power-ports:
   - maximum_draw: 2400
     name: Power Port 1
-    type: nema-l5-20p
-  slug: pm20_l20a
-  u_height: 0
-- console-ports:
-  - name: Console
-    type: rj-45
-  console-server-ports:
-  - name: ttyS1
-    type: rj-45
-  - name: ttyS2
-    type: rj-45
-  - name: ttyS3
-    type: rj-45
-  - name: ttyS4
-    type: rj-45
-  - name: ttyS5
-    type: rj-45
-  - name: ttyS6
-    type: rj-45
-  - name: ttyS7
-    type: rj-45
-  - name: ttyS8
-    type: rj-45
-  - name: ttyS9
-    type: rj-45
-  - name: ttyS10
-    type: rj-45
-  - name: ttyS11
-    type: rj-45
-  - name: ttyS12
-    type: rj-45
-  - name: ttyS13
-    type: rj-45
-  - name: ttyS14
-    type: rj-45
-  - name: ttyS15
-    type: rj-45
-  - name: ttyS16
-    type: rj-45
-  interfaces:
-  - name: Ethernet
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: Avocent
-  model: ACS16
-  power-ports:
-  - maximum_draw: 35
-    name: ps1
-    type: iec-60320-c14
-  slug: acs16
+    type: nema-5-20p
+  slug: avocent-pm10-20a
   u_height: 1
 - comments: AlterPath PM10i-L30A
   console-ports:
@@ -305,9 +637,111 @@ models:
   - maximum_draw: 3600
     name: Power Port 1
     type: nema-l6-30p
-  slug: pm10i_l30a
+  slug: avocent-pm10i-l30a
   u_height: 1
-- comments: AlterPath PM10-20A
+- interfaces:
+  - mgmt_only: true
+    name: Link
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Avocent
+  model: PM3000
+  power-outlets:
+  - name: PM-1
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - name: PM-2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-8
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-9
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - name: PM-10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-12
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-13
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-14
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-15
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-16
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-17
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - name: PM-18
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-19
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-20
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-21
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-22
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-23
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-24
+    power_port: Power Port 1
+    type: iec-60320-c13
+  power-ports:
+  - maximum_draw: 5280
+    name: Power Port 1
+    type: iec-60320-c20
+  slug: avocent-pm3000
+  u_height: 0
+- airflow: passive
+  comments: MPU IQ Serial Adapter
+  console-ports:
+  - name: KVM
+    type: rj-45
+  console-server-ports:
+  - name: con0
+    type: rj-45
+  - name: usb0
+    type: usb-a
+  is_full_depth: false
+  manufacturer: Avocent
+  model: MPUIQ-SRL
+  part_number: 520-592-502
+  slug: avocent-mpuiq-srl
+  u_height: 0
+- comments: AlterPath PM10i-15A
   console-ports:
   - name: In
     type: rj-45
@@ -315,43 +749,43 @@ models:
     type: rj-45
   is_full_depth: false
   manufacturer: Avocent
-  model: PM10-20A
+  model: PM10i-15A
   power-outlets:
   - name: PM-1
     power_port: Power Port 1
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: PM-2
     power_port: Power Port 1
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: PM-3
     power_port: Power Port 1
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: PM-4
     power_port: Power Port 1
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: PM-5
     power_port: Power Port 1
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: PM-6
     power_port: Power Port 1
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: PM-7
     power_port: Power Port 1
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: PM-8
     power_port: Power Port 1
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: PM-9
     power_port: Power Port 1
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: PM-10
     power_port: Power Port 1
-    type: nema-5-15r
+    type: iec-60320-c13
   power-ports:
-  - maximum_draw: 2400
+  - maximum_draw: 1800
     name: Power Port 1
-    type: nema-5-20p
-  slug: pm10_20a
+    type: iec-60320-c14
+  slug: avocent-pm10i-15a
   u_height: 1
 - airflow: passive
   comments: "[Avocent\xAE ACS 8000 Advanced Console Server Data Sheet](https://www.vertiv.com/4ae0c3/globalassets/products/monitoring-control-and-management/serial-consoles-and-gateways/avocent-acs-8000-advanced-console-server-data-sheet.pdf)"
@@ -473,60 +907,7 @@ models:
   u_height: 1
   weight: 7.2
   weight_unit: lb
-- console-ports:
-  - name: In/Console
-    type: rj-45
-  - name: Out/Aux
-    type: rj-45
-  - name: Sensor 1
-    type: rj-45
-  - name: Sensor 2
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: Link
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Avocent
-  model: PM3009H
-  power-outlets:
-  - name: PM-1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-8
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-9
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-10
-    power_port: Power Port 1
-    type: iec-60320-c13
-  power-ports:
-  - maximum_draw: 1800
-    name: Power Port 1
-    type: iec-60320-c20
-  slug: pm3009h
-  u_height: 1
-- comments: AlterPath PM10-L30A
+- comments: AlterPath PM20-L20A
   console-ports:
   - name: In
     type: rj-45
@@ -534,7 +915,7 @@ models:
     type: rj-45
   is_full_depth: false
   manufacturer: Avocent
-  model: PM10-L30A
+  model: PM20-L20A
   power-outlets:
   - name: PM-1
     power_port: Power Port 1
@@ -566,12 +947,42 @@ models:
   - name: PM-10
     power_port: Power Port 1
     type: nema-5-15r
+  - name: PM-11
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-12
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-13
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-14
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-15
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-16
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-17
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-18
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-19
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-20
+    power_port: Power Port 1
+    type: nema-5-15r
   power-ports:
-  - maximum_draw: 3600
+  - maximum_draw: 2400
     name: Power Port 1
-    type: nema-l5-30p
-  slug: pm10_l30a
-  u_height: 1
+    type: nema-l5-20p
+  slug: avocent-pm20-l20a
+  u_height: 0
 - airflow: passive
   comments: "[Avocent\xAE ACS 8000 Advanced Console Server Data Sheet](https://www.vertiv.com/4ae0c3/globalassets/products/monitoring-control-and-management/serial-consoles-and-gateways/avocent-acs-8000-advanced-console-server-data-sheet.pdf)"
   console-ports:
@@ -610,38 +1021,6 @@ models:
     type: rj-45
   - name: ttyS16
     type: rj-45
-  - name: ttyS17
-    type: rj-45
-  - name: ttyS18
-    type: rj-45
-  - name: ttyS19
-    type: rj-45
-  - name: ttyS20
-    type: rj-45
-  - name: ttyS21
-    type: rj-45
-  - name: ttyS22
-    type: rj-45
-  - name: ttyS23
-    type: rj-45
-  - name: ttyS24
-    type: rj-45
-  - name: ttyS25
-    type: rj-45
-  - name: ttyS26
-    type: rj-45
-  - name: ttyS27
-    type: rj-45
-  - name: ttyS28
-    type: rj-45
-  - name: ttyS29
-    type: rj-45
-  - name: ttyS30
-    type: rj-45
-  - name: ttyS31
-    type: rj-45
-  - name: ttyS32
-    type: rj-45
   interfaces:
   - name: eth0
     type: 1000base-t
@@ -649,139 +1028,17 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: Avocent
-  model: ACS 8032 Single-AC
-  part_number: ACS8032SAC-400
+  model: ACS 8016 Single-AC
+  part_number: ACS8016SAC-400
   power-ports:
   - allocated_draw: 11
     maximum_draw: 33
     name: ps1
     type: iec-60320-c14
-  slug: avocent-acs8032sac-400
+  slug: avocent-acs8016sac-400
   u_height: 1
   weight: 7.2
   weight_unit: lb
-- comments: AlterPath PM10i-20A
-  console-ports:
-  - name: In
-    type: rj-45
-  - name: Out
-    type: rj-45
-  is_full_depth: false
-  manufacturer: Avocent
-  model: PM10i-20A
-  power-outlets:
-  - name: PM-1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-8
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-9
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-10
-    power_port: Power Port 1
-    type: iec-60320-c13
-  power-ports:
-  - maximum_draw: 2400
-    name: Power Port 1
-    type: iec-60320-c20
-  slug: pm10i_20a
-  u_height: 1
-- comments: AlterPath PM20i-20A
-  console-ports:
-  - name: In
-    type: rj-45
-  - name: Out
-    type: rj-45
-  is_full_depth: false
-  manufacturer: Avocent
-  model: PM20i-20A
-  power-outlets:
-  - name: PM-1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-8
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-9
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-10
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-11
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-12
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-13
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-14
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-15
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-16
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-17
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-18
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-19
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-20
-    power_port: Power Port 1
-    type: iec-60320-c13
-  power-ports:
-  - maximum_draw: 2400
-    name: Power Port 1
-    type: iec-60320-c20
-  slug: pm20i_20a
-  u_height: 0
 - comments: AlterPath PM20-20A
   console-ports:
   - name: In
@@ -856,24 +1113,169 @@ models:
   - maximum_draw: 2400
     name: Power Port 1
     type: nema-5-20p
-  slug: pm20_20a
+  slug: avocent-pm20-20a
   u_height: 0
-- airflow: passive
-  comments: MPU IQ Serial Adapter
-  console-ports:
-  - name: KVM
+- console-ports:
+  - name: In/Console
     type: rj-45
-  console-server-ports:
-  - name: con0
+  - name: Out/Aux
     type: rj-45
-  - name: usb0
-    type: usb-a
+  - name: Sensor 1
+    type: rj-45
+  - name: Sensor 2
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: Link
+    type: 1000base-t
   is_full_depth: false
   manufacturer: Avocent
-  model: MPUIQ-SRL
-  part_number: 520-592-502
-  slug: avocent-mpuiq-srl
+  model: PM3009H
+  power-outlets:
+  - name: PM-1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-8
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: PM-10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  power-ports:
+  - maximum_draw: 1800
+    name: Power Port 1
+    type: iec-60320-c20
+  slug: avocent-pm3009h
+  u_height: 1
+- console-ports:
+  - name: DSR
+    type: rj-45
+  console-server-ports:
+  - name: VGA
+    type: other
+  - name: Keyboard
+    type: other
+  - name: Mouse
+    type: other
+  is_full_depth: false
+  manufacturer: Avocent
+  model: DSRIQ-PS2
+  slug: avocent-dsriq-ps2
   u_height: 0
+- comments: AlterPath PM10-15A
+  console-ports:
+  - name: In
+    type: rj-45
+  - name: Out
+    type: rj-45
+  is_full_depth: false
+  manufacturer: Avocent
+  model: PM10-15A
+  power-outlets:
+  - name: PM-1
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-2
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-3
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-4
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-5
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-6
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-7
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-8
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-9
+    power_port: Power Port 1
+    type: nema-5-15r
+  - name: PM-10
+    power_port: Power Port 1
+    type: nema-5-15r
+  power-ports:
+  - maximum_draw: 2400
+    name: Power Port 1
+    type: nema-5-15p
+  slug: avocent-pm10-15a
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  console-server-ports:
+  - name: ttyS01
+    type: rj-45
+  - name: ttyS02
+    type: rj-45
+  - name: ttyS03
+    type: rj-45
+  - name: ttyS04
+    type: rj-45
+  - name: ttyS05
+    type: rj-45
+  - name: ttyS06
+    type: rj-45
+  - name: ttyS07
+    type: rj-45
+  - name: ttyS08
+    type: rj-45
+  - name: ttyS09
+    type: rj-45
+  - name: ttyS10
+    type: rj-45
+  - name: ttyS11
+    type: rj-45
+  - name: ttyS12
+    type: rj-45
+  - name: ttyS13
+    type: rj-45
+  - name: ttyS14
+    type: rj-45
+  - name: ttyS15
+    type: rj-45
+  - name: ttyS16
+    type: rj-45
+  interfaces:
+  - name: Ethernet
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Avocent
+  model: Cyclades TS-1000
+  power-ports:
+  - name: Power
+    type: iec-60320-c14
+  slug: avocent-cyclades-ts-1000
+  u_height: 1
 - comments: AlterPath PM10-L20A
   console-ports:
   - name: In
@@ -918,58 +1320,10 @@ models:
   - maximum_draw: 2400
     name: Power Port 1
     type: nema-l5-20p
-  slug: pm10_l20a
+  slug: avocent-pm10-l20a
   u_height: 1
-- comments: AlterPath PM10i-15A
-  console-ports:
-  - name: In
-    type: rj-45
-  - name: Out
-    type: rj-45
-  is_full_depth: false
-  manufacturer: Avocent
-  model: PM10i-15A
-  power-outlets:
-  - name: PM-1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-8
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-9
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-10
-    power_port: Power Port 1
-    type: iec-60320-c13
-  power-ports:
-  - maximum_draw: 1800
-    name: Power Port 1
-    type: iec-60320-c14
-  slug: pm10i_15a
-  u_height: 1
-- airflow: passive
-  comments: "[Avocent\xAE ACS 8000 Advanced Console Server Data Sheet](https://www.vertiv.com/4ae0c3/globalassets/products/monitoring-control-and-management/serial-consoles-and-gateways/avocent-acs-8000-advanced-console-server-data-sheet.pdf)"
-  console-ports:
-  - name: console
+- console-ports:
+  - name: Console
     type: rj-45
   console-server-ports:
   - name: ttyS1
@@ -1005,144 +1359,18 @@ models:
   - name: ttyS16
     type: rj-45
   interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
+  - name: Ethernet
+    type: 100base-tx
   is_full_depth: false
   manufacturer: Avocent
-  model: ACS 8016 Single-AC
-  part_number: ACS8016SAC-400
+  model: ACS16
   power-ports:
-  - allocated_draw: 11
-    maximum_draw: 33
+  - maximum_draw: 35
     name: ps1
     type: iec-60320-c14
-  slug: avocent-acs8016sac-400
+  slug: avocent-acs16
   u_height: 1
-  weight: 7.2
-  weight_unit: lb
-- airflow: passive
-  comments: MPU IQ Serial Adapter
-  console-ports:
-  - name: KVM
-    type: rj-45
-  console-server-ports:
-  - name: vga0
-    type: other
-  - name: usb0
-    type: usb-a
-  is_full_depth: false
-  manufacturer: Avocent
-  model: MPUIQ-VMCHS
-  part_number: 520-854-501
-  slug: avocent-mpuiq-vmchs
-  u_height: 0
-- console-ports:
-  - name: MODEM
-    type: rj-45
-  - name: SETUP
-    type: rj-45
-  - name: SPC 1
-    type: rj-45
-  - name: SPC 2
-    type: rj-45
-  - name: VGA
-    type: other
-  - name: Keyboard
-    type: other
-  - name: Mouse
-    type: other
-  - name: Rear USB1
-    type: usb-a
-  - name: Rear USB2
-    type: usb-a
-  - name: Rear USB3
-    type: usb-a
-  - name: Rear USB4
-    type: usb-a
-  - name: Front USB
-    type: usb-a
-  console-server-ports:
-  - name: '1'
-    type: rj-45
-  - name: '2'
-    type: rj-45
-  - name: '3'
-    type: rj-45
-  - name: '4'
-    type: rj-45
-  - name: '5'
-    type: rj-45
-  - name: '6'
-    type: rj-45
-  - name: '7'
-    type: rj-45
-  - name: '8'
-    type: rj-45
-  - name: '9'
-    type: rj-45
-  - name: '10'
-    type: rj-45
-  - name: '11'
-    type: rj-45
-  - name: '12'
-    type: rj-45
-  - name: '13'
-    type: rj-45
-  - name: '14'
-    type: rj-45
-  - name: '15'
-    type: rj-45
-  - name: '16'
-    type: rj-45
-  - name: '17'
-    type: rj-45
-  - name: '18'
-    type: rj-45
-  - name: '19'
-    type: rj-45
-  - name: '20'
-    type: rj-45
-  - name: '21'
-    type: rj-45
-  - name: '22'
-    type: rj-45
-  - name: '23'
-    type: rj-45
-  - name: '24'
-    type: rj-45
-  - name: '25'
-    type: rj-45
-  - name: '26'
-    type: rj-45
-  - name: '27'
-    type: rj-45
-  - name: '28'
-    type: rj-45
-  - name: '29'
-    type: rj-45
-  - name: '30'
-    type: rj-45
-  - name: '31'
-    type: rj-45
-  - name: '32'
-    type: rj-45
-  interfaces:
-  - name: LAN 1
-    type: 1000base-t
-  - name: LAN 2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Avocent
-  model: DSR2035
-  power-ports:
-  - maximum_draw: 40
-    name: ps1
-    type: iec-60320-c14
-  slug: dsr2035
-  u_height: 1
-- comments: AlterPath PM10i-10A
+- comments: AlterPath PM10i-20A
   console-ports:
   - name: In
     type: rj-45
@@ -1150,7 +1378,7 @@ models:
     type: rj-45
   is_full_depth: false
   manufacturer: Avocent
-  model: PM10i-10A
+  model: PM10i-20A
   power-outlets:
   - name: PM-1
     power_port: Power Port 1
@@ -1183,22 +1411,77 @@ models:
     power_port: Power Port 1
     type: iec-60320-c13
   power-ports:
-  - maximum_draw: 1200
+  - maximum_draw: 2400
     name: Power Port 1
-    type: iec-60320-c14
-  slug: pm10i_10a
+    type: iec-60320-c20
+  slug: avocent-pm10i-20a
   u_height: 1
-- interfaces:
-  - mgmt_only: true
-    name: Link
+- airflow: passive
+  comments: "[Avocent\xAE ACS 8000 Advanced Console Server Data Sheet](https://www.vertiv.com/4ae0c3/globalassets/products/monitoring-control-and-management/serial-consoles-and-gateways/avocent-acs-8000-advanced-console-server-data-sheet.pdf)"
+  console-ports:
+  - name: console
+    type: rj-45
+  console-server-ports:
+  - name: ttyS1
+    type: rj-45
+  - name: ttyS2
+    type: rj-45
+  - name: ttyS3
+    type: rj-45
+  - name: ttyS4
+    type: rj-45
+  - name: ttyS5
+    type: rj-45
+  - name: ttyS6
+    type: rj-45
+  - name: ttyS7
+    type: rj-45
+  - name: ttyS8
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
     type: 1000base-t
   is_full_depth: false
   manufacturer: Avocent
-  model: PM3000
+  model: ACS 8008 Single-AC
+  part_number: ACS8008SAC-400
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 33
+    name: ps1
+    type: iec-60320-c14
+  slug: avocent-acs8008sac-400
+  u_height: 1
+  weight: 7.2
+  weight_unit: lb
+- console-ports:
+  - name: DSR
+    type: rj-45
+  console-server-ports:
+  - name: VGA
+    type: other
+  - name: SUN
+    type: other
+  is_full_depth: false
+  manufacturer: Avocent
+  model: DSRIQ-VSN
+  slug: avocent-dsriq-vsn
+  u_height: 0
+- comments: AlterPath PM20i-16A
+  console-ports:
+  - name: In
+    type: rj-45
+  - name: Out
+    type: rj-45
+  is_full_depth: false
+  manufacturer: Avocent
+  model: PM20i-16A
   power-outlets:
   - name: PM-1
     power_port: Power Port 1
-    type: iec-60320-c19
+    type: iec-60320-c13
   - name: PM-2
     power_port: Power Port 1
     type: iec-60320-c13
@@ -1222,7 +1505,7 @@ models:
     type: iec-60320-c13
   - name: PM-9
     power_port: Power Port 1
-    type: iec-60320-c19
+    type: iec-60320-c13
   - name: PM-10
     power_port: Power Port 1
     type: iec-60320-c13
@@ -1246,7 +1529,7 @@ models:
     type: iec-60320-c13
   - name: PM-17
     power_port: Power Port 1
-    type: iec-60320-c19
+    type: iec-60320-c13
   - name: PM-18
     power_port: Power Port 1
     type: iec-60320-c13
@@ -1256,23 +1539,25 @@ models:
   - name: PM-20
     power_port: Power Port 1
     type: iec-60320-c13
-  - name: PM-21
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-22
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-23
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-24
-    power_port: Power Port 1
-    type: iec-60320-c13
   power-ports:
-  - maximum_draw: 5280
+  - maximum_draw: 1920
     name: Power Port 1
     type: iec-60320-c20
-  slug: pm3000
+  slug: avocent-pm20i-16a
+  u_height: 0
+- console-ports:
+  - name: DSR
+    type: rj-45
+  console-server-ports:
+  - name: DEVICE
+    type: de-9
+  is_full_depth: false
+  manufacturer: Avocent
+  model: DSRIQ-SRL
+  power-ports:
+  - name: Power
+    type: dc-terminal
+  slug: avocent-dsriq-srl
   u_height: 0
 - comments: AlterPath PM20-L30A
   console-ports:
@@ -1348,290 +1633,5 @@ models:
   - maximum_draw: 3600
     name: Power Port 1
     type: nema-l5-30p
-  slug: pm20_l30a
-  u_height: 0
-- console-ports:
-  - name: DSR
-    type: rj-45
-  console-server-ports:
-  - name: DEVICE
-    type: de-9
-  is_full_depth: false
-  manufacturer: Avocent
-  model: DSRIQ-SRL
-  power-ports:
-  - name: Power
-    type: dc-terminal
-  slug: dsriq-srl
-  u_height: 0
-- comments: AlterPath PM20i-L30A
-  console-ports:
-  - name: In
-    type: rj-45
-  - name: Out
-    type: rj-45
-  is_full_depth: false
-  manufacturer: Avocent
-  model: PM20i-L30A
-  power-outlets:
-  - name: PM-1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-8
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-9
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-10
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-11
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-12
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-13
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-14
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-15
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-16
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-17
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-18
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-19
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-20
-    power_port: Power Port 1
-    type: iec-60320-c13
-  power-ports:
-  - maximum_draw: 3600
-    name: Power Port 1
-    type: nema-l6-30p
-  slug: pm20i_l30a
-  u_height: 0
-- console-ports:
-  - name: DSR
-    type: rj-45
-  console-server-ports:
-  - name: VGA
-    type: other
-  - name: USB
-    type: usb-a
-  is_full_depth: false
-  manufacturer: Avocent
-  model: DSRIQ-USB
-  slug: dsriq-usb
-  u_height: 0
-- console-ports:
-  - name: Console
-    type: rj-45
-  console-server-ports:
-  - name: ttyS01
-    type: rj-45
-  - name: ttyS02
-    type: rj-45
-  - name: ttyS03
-    type: rj-45
-  - name: ttyS04
-    type: rj-45
-  - name: ttyS05
-    type: rj-45
-  - name: ttyS06
-    type: rj-45
-  - name: ttyS07
-    type: rj-45
-  - name: ttyS08
-    type: rj-45
-  - name: ttyS09
-    type: rj-45
-  - name: ttyS10
-    type: rj-45
-  - name: ttyS11
-    type: rj-45
-  - name: ttyS12
-    type: rj-45
-  - name: ttyS13
-    type: rj-45
-  - name: ttyS14
-    type: rj-45
-  - name: ttyS15
-    type: rj-45
-  - name: ttyS16
-    type: rj-45
-  interfaces:
-  - name: Ethernet
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: Avocent
-  model: Cyclades TS-1000
-  power-ports:
-  - name: Power
-    type: iec-60320-c14
-  slug: ts1000
-  u_height: 1
-- console-ports:
-  - name: DSR
-    type: rj-45
-  console-server-ports:
-  - name: VGA
-    type: other
-  - name: SUN
-    type: other
-  is_full_depth: false
-  manufacturer: Avocent
-  model: DSRIQ-VSN
-  slug: dsriq-vsn
-  u_height: 0
-- comments: AlterPath PM10-15A
-  console-ports:
-  - name: In
-    type: rj-45
-  - name: Out
-    type: rj-45
-  is_full_depth: false
-  manufacturer: Avocent
-  model: PM10-15A
-  power-outlets:
-  - name: PM-1
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-2
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-3
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-4
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-5
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-6
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-7
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-8
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-9
-    power_port: Power Port 1
-    type: nema-5-15r
-  - name: PM-10
-    power_port: Power Port 1
-    type: nema-5-15r
-  power-ports:
-  - maximum_draw: 2400
-    name: Power Port 1
-    type: nema-5-15p
-  slug: pm10_15a
-  u_height: 1
-- comments: AlterPath PM20i-16A
-  console-ports:
-  - name: In
-    type: rj-45
-  - name: Out
-    type: rj-45
-  is_full_depth: false
-  manufacturer: Avocent
-  model: PM20i-16A
-  power-outlets:
-  - name: PM-1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-8
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-9
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-10
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-11
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-12
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-13
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-14
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-15
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-16
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-17
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-18
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-19
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: PM-20
-    power_port: Power Port 1
-    type: iec-60320-c13
-  power-ports:
-  - maximum_draw: 1920
-    name: Power Port 1
-    type: iec-60320-c20
-  slug: pm20i_16a
+  slug: avocent-pm20-l30a
   u_height: 0

@@ -1,77 +1,257 @@
 keywords:
-- TZ370W
-- TZ370W
-- TZ570P
-- TZ570P
-- TZ350
-- TZ350
-- NSsp 13700
-- NSSP13700
 - TZ570
 - TZ570
-- TZ300W
-- TZ300W
-- NSa 5700
-- NSA5700
+- TZ270W
+- TZ270W
 - SOHOW
 - SOHOW
-- SOHO
-- SOHO
-- NSa 4700
-- NSA4700
-- TZ670
-- TZ670
-- TZ600
-- TZ600
-- NSa 2650
-- NSA2650
-- TZ470
-- TZ470
+- TZ350W
+- TZ350W
+- NSa 2700
+- NSA2700
+- TZ370W
+- TZ370W
+- TZ300
+- TZ300
 - TZ250W
 - TZ250W
 - NSa 3700
 - NSA3700
-- TZ470W
-- TZ470W
-- NSa 3650
-- NSA3650
-- TZ270W
-- TZ270W
-- TZ250
-- TZ250
 - NSa 4650
 - NSA4650
-- TZ500
-- TZ500
-- TZ400
-- TZ400
-- NSa 6700
-- NSA6700
+- TZ350
+- TZ350
+- TZ500W
+- TZ500W
+- SOHO
+- SOHO
+- TZ370
+- TZ370
+- NSsp 13700
+- NSSP13700
 - NSa 5650
 - NSA5650
-- TZ300P
-- TZ300P
+- TZ600P
+- TZ600P
+- TZ500
+- TZ500
+- TZ400W
+- TZ400W
+- NSa 5700
+- NSA5700
 - TZ570W
 - TZ570W
+- TZ300P
+- TZ300P
+- TZ470
+- TZ470
+- TZ670
+- TZ670
+- NSa 4700
+- NSA4700
+- TZ470W
+- TZ470W
 - NSsp 15700
 - NSSP15700
-- TZ500W
-- TZ500W
 - TZ270
 - TZ270
-- TZ300
-- TZ300
-- TZ350W
-- TZ350W
-- TZ370
-- TZ370
-- TZ600P
-- TZ600P
-- NSa 2700
-- NSA2700
-- TZ400W
-- TZ400W
+- NSa 6700
+- NSA6700
+- TZ250
+- TZ250
+- TZ600
+- TZ600
+- NSa 3650
+- NSA3650
+- TZ300W
+- TZ300W
+- TZ570P
+- TZ570P
+- TZ400
+- TZ400
+- NSa 2650
+- NSA2650
 models:
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  - name: X7
+    type: 1000base-t
+  - name: X8
+    type: 1000base-x-sfp
+  - name: X9
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: TZ570
+  part_number: TZ570
+  power-ports:
+  - maximum_draw: 60
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 60
+    name: PSU 2
+    type: iec-60320-c14
+  slug: sonicwall-tz570
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  - name: X7
+    type: 1000base-t
+  - name: W0
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: TZ270W
+  part_number: TZ270W
+  power-ports:
+  - maximum_draw: 36
+    name: PSU
+    type: iec-60320-c14
+  slug: sonicwall-tz270w
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: W0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: SOHOW
+  part_number: SOHOW
+  power-ports:
+  - maximum_draw: 24
+    name: PSU
+    type: iec-60320-c14
+  slug: sonicwall-sohow
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: W0
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: TZ350W
+  part_number: TZ350W
+  power-ports:
+  - maximum_draw: 24
+    name: PSU
+    type: iec-60320-c14
+  slug: sonicwall-tz350w
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: MGMT
+    type: 1000base-t
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  - name: X7
+    type: 1000base-t
+  - name: X8
+    type: 1000base-t
+  - name: X9
+    type: 1000base-t
+  - name: X10
+    type: 1000base-t
+  - name: X11
+    type: 1000base-t
+  - name: X12
+    type: 1000base-t
+  - name: X13
+    type: 1000base-t
+  - name: X14
+    type: 1000base-t
+  - name: X15
+    type: 1000base-t
+  - name: X16
+    type: 10gbase-x-sfpp
+  - name: X17
+    type: 10gbase-x-sfpp
+  - name: X18
+    type: 10gbase-x-sfpp
+  inventory-items:
+  - manufacturer: SonicWall
+    name: Storage-Module
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: NSa 2700
+  module-bays:
+  - name: PSU Slot 1
+    position: '1'
+  - name: PSU Slot 2
+    position: '2'
+  part_number: NSA2700
+  slug: sonicwall-nsa-2700
+  u_height: 1
 - console-ports:
   - name: Console
     type: rj-45
@@ -102,12 +282,65 @@ models:
   - maximum_draw: 36
     name: PSU
     type: iec-60320-c14
-  slug: tz370w
+  slug: sonicwall-tz370w
   u_height: 1
 - console-ports:
   - name: Console
     type: rj-45
   interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: TZ300
+  part_number: TZ300
+  power-ports:
+  - maximum_draw: 24
+    name: PSU
+    type: iec-60320-c14
+  slug: sonicwall-tz300
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: W0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: TZ250W
+  part_number: TZ250W
+  power-ports:
+  - maximum_draw: 24
+    name: PSU
+    type: iec-60320-c14
+  slug: sonicwall-tz250w
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: MGMT
+    type: 1000base-t
   - name: X0
     type: 1000base-t
   - name: X1
@@ -125,21 +358,148 @@ models:
   - name: X7
     type: 1000base-t
   - name: X8
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: X9
+    type: 1000base-t
+  - name: X10
+    type: 1000base-t
+  - name: X11
+    type: 1000base-t
+  - name: X12
+    type: 1000base-t
+  - name: X13
+    type: 1000base-t
+  - name: X14
+    type: 1000base-t
+  - name: X15
+    type: 1000base-t
+  - name: X16
+    type: 1000base-t
+  - name: X17
+    type: 1000base-t
+  - name: X18
+    type: 1000base-t
+  - name: X19
+    type: 1000base-t
+  - name: X20
+    type: 1000base-t
+  - name: X21
+    type: 1000base-t
+  - name: X22
+    type: 1000base-t
+  - name: X23
+    type: 1000base-t
+  - name: X24
     type: 1000base-x-sfp
+  - name: X25
+    type: 1000base-x-sfp
+  - name: X26
+    type: 1000base-x-sfp
+  - name: X27
+    type: 1000base-x-sfp
+  - name: X28
+    type: 10gbase-x-sfpp
+  - name: X29
+    type: 10gbase-x-sfpp
+  - name: X30
+    type: 10gbase-x-sfpp
+  - name: X31
+    type: 10gbase-x-sfpp
+  - name: X32
+    type: 10gbase-x-sfpp
+  - name: X33
+    type: 10gbase-x-sfpp
+  inventory-items:
+  - manufacturer: SonicWall
+    name: Storage-Module
   is_full_depth: false
   manufacturer: SonicWall
-  model: TZ570P
-  part_number: TZ570P
-  power-ports:
-  - maximum_draw: 180
-    name: PSU 1
-    type: iec-60320-c14
-  - maximum_draw: 180
-    name: PSU 2
-    type: iec-60320-c14
-  slug: tz570p
+  model: NSa 3700
+  module-bays:
+  - name: PSU Slot 1
+    position: '1'
+  - name: PSU Slot 2
+    position: '2'
+  part_number: NSA3700
+  slug: sonicwall-nsa-3700
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: MGMT
+    type: 1000base-t
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  - name: X7
+    type: 1000base-t
+  - name: X8
+    type: 1000base-t
+  - name: X9
+    type: 1000base-t
+  - name: X10
+    type: 1000base-t
+  - name: X11
+    type: 1000base-t
+  - name: X12
+    type: 1000base-t
+  - name: X13
+    type: 1000base-t
+  - name: X14
+    type: 1000base-t
+  - name: X15
+    type: 1000base-t
+  - name: X16
+    type: 2.5gbase-t
+  - name: X17
+    type: 2.5gbase-t
+  - name: X18
+    type: 2.5gbase-t
+  - name: X19
+    type: 2.5gbase-t
+  - name: X20
+    type: 1000base-x-sfp
+  - name: X21
+    type: 1000base-x-sfp
+  - name: X22
+    type: 1000base-x-sfp
+  - name: X23
+    type: 1000base-x-sfp
+  - name: X24
+    type: 10gbase-x-sfpp
+  - name: X25
+    type: 10gbase-x-sfpp
+  inventory-items:
+  - manufacturer: SonicWall
+    name: Storage-Module
+  - manufacturer: SonicWall
+    name: Fan-Module 1
+  - manufacturer: SonicWall
+    name: Fan-Module 2
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: NSa 4650
+  module-bays:
+  - name: PSU Slot 1
+    position: '1'
+  - name: PSU Slot 2
+    position: '2'
+  - name: Expansion Module
+  part_number: NSA4650
+  slug: sonicwall-nsa-4650
   u_height: 1
 - console-ports:
   - name: Console
@@ -163,7 +523,93 @@ models:
   - maximum_draw: 24
     name: PSU
     type: iec-60320-c14
-  slug: tz350
+  slug: sonicwall-tz350
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  - name: X7
+    type: 1000base-t
+  - name: W0
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: TZ500W
+  part_number: TZ500W
+  power-ports:
+  - maximum_draw: 36
+    name: PSU
+    type: iec-60320-c14
+  slug: sonicwall-tz500w
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: SOHO
+  part_number: SOHO
+  power-ports:
+  - maximum_draw: 24
+    name: PSU
+    type: iec-60320-c14
+  slug: sonicwall-soho
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  - name: X7
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: TZ370
+  part_number: TZ370
+  power-ports:
+  - maximum_draw: 36
+    name: PSU
+    type: iec-60320-c14
+  slug: sonicwall-tz370
   u_height: 1
 - console-ports:
   - name: Console
@@ -259,7 +705,89 @@ models:
     position: '2'
   - name: Expansion Module
   part_number: NSSP13700
-  slug: nssp-13700
+  slug: sonicwall-nssp-13700
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: MGMT
+    type: 1000base-t
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  - name: X7
+    type: 1000base-t
+  - name: X8
+    type: 1000base-t
+  - name: X9
+    type: 1000base-t
+  - name: X10
+    type: 1000base-t
+  - name: X11
+    type: 1000base-t
+  - name: X12
+    type: 1000base-t
+  - name: X13
+    type: 1000base-t
+  - name: X14
+    type: 1000base-t
+  - name: X15
+    type: 1000base-t
+  - name: X16
+    type: 2.5gbase-t
+  - name: X17
+    type: 2.5gbase-t
+  - name: X18
+    type: 2.5gbase-t
+  - name: X19
+    type: 2.5gbase-t
+  - name: X20
+    type: 1000base-x-sfp
+  - name: X21
+    type: 1000base-x-sfp
+  - name: X22
+    type: 1000base-x-sfp
+  - name: X23
+    type: 1000base-x-sfp
+  - name: X24
+    type: 10gbase-x-sfpp
+  - name: X25
+    type: 10gbase-x-sfpp
+  - name: X26
+    type: 10gbase-t
+  - name: X27
+    type: 10gbase-t
+  inventory-items:
+  - manufacturer: SonicWall
+    name: Storage-Module
+  - manufacturer: SonicWall
+    name: Fan-Module 1
+  - manufacturer: SonicWall
+    name: Fan-Module 2
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: NSa 5650
+  module-bays:
+  - name: PSU Slot 1
+    position: '1'
+  - name: PSU Slot 2
+    position: '2'
+  - name: Expansion Module
+  part_number: NSA5650
+  slug: sonicwall-nsa-5650
   u_height: 1
 - console-ports:
   - name: Console
@@ -282,21 +810,18 @@ models:
   - name: X7
     type: 1000base-t
   - name: X8
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: X9
-    type: 1000base-x-sfp
+    type: 1000base-t
   is_full_depth: false
   manufacturer: SonicWall
-  model: TZ570
-  part_number: TZ570
+  model: TZ600P
+  part_number: TZ600P
   power-ports:
-  - maximum_draw: 60
-    name: PSU 1
+  - maximum_draw: 180
+    name: PSU
     type: iec-60320-c14
-  - maximum_draw: 60
-    name: PSU 2
-    type: iec-60320-c14
-  slug: tz570
+  slug: sonicwall-tz600p
   u_height: 1
 - console-ports:
   - name: Console
@@ -312,17 +837,51 @@ models:
     type: 1000base-t
   - name: X4
     type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  - name: X7
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: TZ500
+  part_number: TZ500
+  power-ports:
+  - maximum_draw: 36
+    name: PSU
+    type: iec-60320-c14
+  slug: sonicwall-tz500
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
   - name: W0
     type: ieee802.11ac
   is_full_depth: false
   manufacturer: SonicWall
-  model: TZ300W
-  part_number: TZ300W
+  model: TZ400W
+  part_number: TZ400W
   power-ports:
   - maximum_draw: 24
     name: PSU
     type: iec-60320-c14
-  slug: tz300w
+  slug: sonicwall-tz400w
   u_height: 1
 - console-ports:
   - name: Console
@@ -412,7 +971,7 @@ models:
     position: '2'
   - name: Expansion Module
   part_number: NSA5700
-  slug: nsa-5700
+  slug: sonicwall-nsa-5700
   u_height: 1
 - console-ports:
   - name: Console
@@ -428,17 +987,30 @@ models:
     type: 1000base-t
   - name: X4
     type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  - name: X7
+    type: 1000base-t
+  - name: X8
+    type: 1000base-x-sfp
+  - name: X9
+    type: 1000base-x-sfp
   - name: W0
-    type: ieee802.11n
+    type: ieee802.11ac
   is_full_depth: false
   manufacturer: SonicWall
-  model: SOHOW
-  part_number: SOHOW
+  model: TZ570W
+  part_number: TZ570W
   power-ports:
-  - maximum_draw: 24
-    name: PSU
+  - maximum_draw: 60
+    name: PSU 1
     type: iec-60320-c14
-  slug: sohow
+  - maximum_draw: 60
+    name: PSU 2
+    type: iec-60320-c14
+  slug: sonicwall-tz570w
   u_height: 1
 - console-ports:
   - name: Console
@@ -456,13 +1028,84 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: SonicWall
-  model: SOHO
-  part_number: SOHO
+  model: TZ300P
+  part_number: TZ300P
   power-ports:
-  - maximum_draw: 24
+  - maximum_draw: 65
     name: PSU
     type: iec-60320-c14
-  slug: soho
+  slug: sonicwall-tz300p
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  - name: X7
+    type: 1000base-t
+  - name: X8
+    type: 1000base-x-sfp
+  - name: X9
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: TZ470
+  part_number: TZ470
+  power-ports:
+  - maximum_draw: 36
+    name: PSU
+    type: iec-60320-c14
+  slug: sonicwall-tz470
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  - name: X7
+    type: 1000base-t
+  - name: X8
+    type: 10gbase-x-sfpp
+  - name: X9
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: TZ670
+  part_number: TZ670
+  power-ports:
+  - maximum_draw: 60
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 60
+    name: PSU 2
+    type: iec-60320-c14
+  slug: sonicwall-tz670
   u_height: 1
 - console-ports:
   - name: Console
@@ -548,289 +1191,7 @@ models:
     position: '2'
   - name: Expansion Module
   part_number: NSA4700
-  slug: nsa-4700
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: X5
-    type: 1000base-t
-  - name: X6
-    type: 1000base-t
-  - name: X7
-    type: 1000base-t
-  - name: X8
-    type: 10gbase-x-sfpp
-  - name: X9
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: TZ670
-  part_number: TZ670
-  power-ports:
-  - maximum_draw: 60
-    name: PSU 1
-    type: iec-60320-c14
-  - maximum_draw: 60
-    name: PSU 2
-    type: iec-60320-c14
-  slug: tz670
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: X5
-    type: 1000base-t
-  - name: X6
-    type: 1000base-t
-  - name: X7
-    type: 1000base-t
-  - name: X8
-    type: 1000base-t
-  - name: X9
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: TZ600
-  part_number: TZ600
-  power-ports:
-  - maximum_draw: 60
-    name: PSU
-    type: iec-60320-c14
-  slug: tz600
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: MGMT
-    type: 1000base-t
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: X5
-    type: 1000base-t
-  - name: X6
-    type: 1000base-t
-  - name: X7
-    type: 1000base-t
-  - name: X8
-    type: 1000base-t
-  - name: X9
-    type: 1000base-t
-  - name: X10
-    type: 1000base-t
-  - name: X11
-    type: 1000base-t
-  - name: X12
-    type: 2.5gbase-t
-  - name: X13
-    type: 2.5gbase-t
-  - name: X14
-    type: 2.5gbase-t
-  - name: X15
-    type: 2.5gbase-t
-  - name: X16
-    type: 1000base-x-sfp
-  - name: X17
-    type: 1000base-x-sfp
-  - name: X18
-    type: 1000base-x-sfp
-  - name: X19
-    type: 1000base-x-sfp
-  inventory-items:
-  - manufacturer: SonicWall
-    name: Storage-Module
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: NSa 2650
-  module-bays:
-  - name: PSU Slot 1
-    position: '1'
-  - name: PSU Slot 2
-    position: '2'
-  - name: Expansion Module
-  part_number: NSA2650
-  slug: nsa-2650
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: X5
-    type: 1000base-t
-  - name: X6
-    type: 1000base-t
-  - name: X7
-    type: 1000base-t
-  - name: X8
-    type: 1000base-x-sfp
-  - name: X9
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: TZ470
-  part_number: TZ470
-  power-ports:
-  - maximum_draw: 36
-    name: PSU
-    type: iec-60320-c14
-  slug: tz470
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: W0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: TZ250W
-  part_number: TZ250W
-  power-ports:
-  - maximum_draw: 24
-    name: PSU
-    type: iec-60320-c14
-  slug: tz250w
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: MGMT
-    type: 1000base-t
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: X5
-    type: 1000base-t
-  - name: X6
-    type: 1000base-t
-  - name: X7
-    type: 1000base-t
-  - name: X8
-    type: 1000base-t
-  - name: X9
-    type: 1000base-t
-  - name: X10
-    type: 1000base-t
-  - name: X11
-    type: 1000base-t
-  - name: X12
-    type: 1000base-t
-  - name: X13
-    type: 1000base-t
-  - name: X14
-    type: 1000base-t
-  - name: X15
-    type: 1000base-t
-  - name: X16
-    type: 1000base-t
-  - name: X17
-    type: 1000base-t
-  - name: X18
-    type: 1000base-t
-  - name: X19
-    type: 1000base-t
-  - name: X20
-    type: 1000base-t
-  - name: X21
-    type: 1000base-t
-  - name: X22
-    type: 1000base-t
-  - name: X23
-    type: 1000base-t
-  - name: X24
-    type: 1000base-x-sfp
-  - name: X25
-    type: 1000base-x-sfp
-  - name: X26
-    type: 1000base-x-sfp
-  - name: X27
-    type: 1000base-x-sfp
-  - name: X28
-    type: 10gbase-x-sfpp
-  - name: X29
-    type: 10gbase-x-sfpp
-  - name: X30
-    type: 10gbase-x-sfpp
-  - name: X31
-    type: 10gbase-x-sfpp
-  - name: X32
-    type: 10gbase-x-sfpp
-  - name: X33
-    type: 10gbase-x-sfpp
-  inventory-items:
-  - manufacturer: SonicWall
-    name: Storage-Module
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: NSa 3700
-  module-bays:
-  - name: PSU Slot 1
-    position: '1'
-  - name: PSU Slot 2
-    position: '2'
-  part_number: NSA3700
-  slug: nsa-3700
+  slug: sonicwall-nsa-4700
   u_height: 1
 - console-ports:
   - name: Console
@@ -866,7 +1227,7 @@ models:
   - maximum_draw: 36
     name: PSU
     type: iec-60320-c14
-  slug: tz470w
+  slug: sonicwall-tz470w
   u_height: 1
 - console-ports:
   - name: Console
@@ -876,206 +1237,82 @@ models:
     name: MGMT
     type: 1000base-t
   - name: X0
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: X1
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: X2
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: X3
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: X4
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: X5
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: X6
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: X7
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: X8
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: X9
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: X10
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: X11
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: X12
-    type: 2.5gbase-t
+    type: 10gbase-x-sfpp
   - name: X13
-    type: 2.5gbase-t
+    type: 10gbase-x-sfpp
   - name: X14
-    type: 2.5gbase-t
+    type: 10gbase-x-sfpp
   - name: X15
-    type: 2.5gbase-t
+    type: 10gbase-x-sfpp
   - name: X16
-    type: 1000base-x-sfp
+    type: 40gbase-x-qsfpp
   - name: X17
-    type: 1000base-x-sfp
+    type: 40gbase-x-qsfpp
   - name: X18
-    type: 1000base-x-sfp
+    type: 40gbase-x-qsfpp
   - name: X19
-    type: 1000base-x-sfp
+    type: 40gbase-x-qsfpp
   - name: X20
-    type: 1000base-x-sfp
+    type: 100gbase-x-qsfp28
   - name: X21
-    type: 1000base-x-sfp
+    type: 100gbase-x-qsfp28
   - name: X22
-    type: 1000base-x-sfp
+    type: 100gbase-x-qsfp28
   - name: X23
-    type: 1000base-x-sfp
+    type: 100gbase-x-qsfp28
   - name: X24
-    type: 10gbase-x-sfpp
+    type: 100gbase-x-qsfp28
   - name: X25
-    type: 10gbase-x-sfpp
+    type: 100gbase-x-qsfp28
   inventory-items:
   - manufacturer: SonicWall
-    name: Storage-Module
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: NSa 3650
-  module-bays:
-  - name: PSU Slot 1
-    position: '1'
-  - name: PSU Slot 2
-    position: '2'
-  - name: Expansion Module
-  part_number: NSA3650
-  slug: nsa-3650
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: X5
-    type: 1000base-t
-  - name: X6
-    type: 1000base-t
-  - name: X7
-    type: 1000base-t
-  - name: W0
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: TZ270W
-  part_number: TZ270W
-  power-ports:
-  - maximum_draw: 36
-    name: PSU
-    type: iec-60320-c14
-  slug: tz270w
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: TZ250
-  part_number: TZ250
-  power-ports:
-  - maximum_draw: 24
-    name: PSU
-    type: iec-60320-c14
-  slug: tz250
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: MGMT
-    type: 1000base-t
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: X5
-    type: 1000base-t
-  - name: X6
-    type: 1000base-t
-  - name: X7
-    type: 1000base-t
-  - name: X8
-    type: 1000base-t
-  - name: X9
-    type: 1000base-t
-  - name: X10
-    type: 1000base-t
-  - name: X11
-    type: 1000base-t
-  - name: X12
-    type: 1000base-t
-  - name: X13
-    type: 1000base-t
-  - name: X14
-    type: 1000base-t
-  - name: X15
-    type: 1000base-t
-  - name: X16
-    type: 2.5gbase-t
-  - name: X17
-    type: 2.5gbase-t
-  - name: X18
-    type: 2.5gbase-t
-  - name: X19
-    type: 2.5gbase-t
-  - name: X20
-    type: 1000base-x-sfp
-  - name: X21
-    type: 1000base-x-sfp
-  - name: X22
-    type: 1000base-x-sfp
-  - name: X23
-    type: 1000base-x-sfp
-  - name: X24
-    type: 10gbase-x-sfpp
-  - name: X25
-    type: 10gbase-x-sfpp
-  inventory-items:
+    name: Storage-Module 1
   - manufacturer: SonicWall
-    name: Storage-Module
+    name: Storage-Module 2
+  - manufacturer: SonicWall
+    name: Storage-Module 3
+  - manufacturer: SonicWall
+    name: Storage-Module 4
   - manufacturer: SonicWall
     name: Fan-Module 1
   - manufacturer: SonicWall
     name: Fan-Module 2
-  is_full_depth: false
+  is_full_depth: true
   manufacturer: SonicWall
-  model: NSa 4650
+  model: NSsp 15700
   module-bays:
   - name: PSU Slot 1
     position: '1'
   - name: PSU Slot 2
     position: '2'
   - name: Expansion Module
-  part_number: NSA4650
-  slug: nsa-4650
-  u_height: 1
+  part_number: NSSP15700
+  slug: sonicwall-nssp-15700
+  u_height: 2
 - console-ports:
   - name: Console
     type: rj-45
@@ -1098,41 +1335,13 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: SonicWall
-  model: TZ500
-  part_number: TZ500
+  model: TZ270
+  part_number: TZ270
   power-ports:
   - maximum_draw: 36
     name: PSU
     type: iec-60320-c14
-  slug: tz500
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: X5
-    type: 1000base-t
-  - name: X6
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: TZ400
-  part_number: TZ400
-  power-ports:
-  - maximum_draw: 24
-    name: PSU
-    type: iec-60320-c14
-  slug: tz400
+  slug: sonicwall-tz270
   u_height: 1
 - console-ports:
   - name: Console
@@ -1228,7 +1437,65 @@ models:
     position: '2'
   - name: Expansion Module
   part_number: NSA6700
-  slug: nsa-6700
+  slug: sonicwall-nsa-6700
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: TZ250
+  part_number: TZ250
+  power-ports:
+  - maximum_draw: 24
+    name: PSU
+    type: iec-60320-c14
+  slug: sonicwall-tz250
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  - name: X7
+    type: 1000base-t
+  - name: X8
+    type: 1000base-t
+  - name: X9
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: TZ600
+  part_number: TZ600
+  power-ports:
+  - maximum_draw: 60
+    name: PSU
+    type: iec-60320-c14
+  slug: sonicwall-tz600
   u_height: 1
 - console-ports:
   - name: Console
@@ -1262,21 +1529,21 @@ models:
   - name: X11
     type: 1000base-t
   - name: X12
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: X13
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: X14
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: X15
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: X16
-    type: 2.5gbase-t
+    type: 1000base-x-sfp
   - name: X17
-    type: 2.5gbase-t
+    type: 1000base-x-sfp
   - name: X18
-    type: 2.5gbase-t
+    type: 1000base-x-sfp
   - name: X19
-    type: 2.5gbase-t
+    type: 1000base-x-sfp
   - name: X20
     type: 1000base-x-sfp
   - name: X21
@@ -1289,28 +1556,20 @@ models:
     type: 10gbase-x-sfpp
   - name: X25
     type: 10gbase-x-sfpp
-  - name: X26
-    type: 10gbase-t
-  - name: X27
-    type: 10gbase-t
   inventory-items:
   - manufacturer: SonicWall
     name: Storage-Module
-  - manufacturer: SonicWall
-    name: Fan-Module 1
-  - manufacturer: SonicWall
-    name: Fan-Module 2
   is_full_depth: false
   manufacturer: SonicWall
-  model: NSa 5650
+  model: NSa 3650
   module-bays:
   - name: PSU Slot 1
     position: '1'
   - name: PSU Slot 2
     position: '2'
   - name: Expansion Module
-  part_number: NSA5650
-  slug: nsa-5650
+  part_number: NSA3650
+  slug: sonicwall-nsa-3650
   u_height: 1
 - console-ports:
   - name: Console
@@ -1326,15 +1585,17 @@ models:
     type: 1000base-t
   - name: X4
     type: 1000base-t
+  - name: W0
+    type: ieee802.11ac
   is_full_depth: false
   manufacturer: SonicWall
-  model: TZ300P
-  part_number: TZ300P
+  model: TZ300W
+  part_number: TZ300W
   power-ports:
-  - maximum_draw: 65
+  - maximum_draw: 24
     name: PSU
     type: iec-60320-c14
-  slug: tz300p
+  slug: sonicwall-tz300w
   u_height: 1
 - console-ports:
   - name: Console
@@ -1360,280 +1621,46 @@ models:
     type: 1000base-x-sfp
   - name: X9
     type: 1000base-x-sfp
-  - name: W0
-    type: ieee802.11ac
   is_full_depth: false
   manufacturer: SonicWall
-  model: TZ570W
-  part_number: TZ570W
-  power-ports:
-  - maximum_draw: 60
-    name: PSU 1
-    type: iec-60320-c14
-  - maximum_draw: 60
-    name: PSU 2
-    type: iec-60320-c14
-  slug: tz570w
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: MGMT
-    type: 1000base-t
-  - name: X0
-    type: 10gbase-x-sfpp
-  - name: X1
-    type: 10gbase-x-sfpp
-  - name: X2
-    type: 10gbase-x-sfpp
-  - name: X3
-    type: 10gbase-x-sfpp
-  - name: X4
-    type: 10gbase-x-sfpp
-  - name: X5
-    type: 10gbase-x-sfpp
-  - name: X6
-    type: 10gbase-x-sfpp
-  - name: X7
-    type: 10gbase-x-sfpp
-  - name: X8
-    type: 10gbase-x-sfpp
-  - name: X9
-    type: 10gbase-x-sfpp
-  - name: X10
-    type: 10gbase-x-sfpp
-  - name: X11
-    type: 10gbase-x-sfpp
-  - name: X12
-    type: 10gbase-x-sfpp
-  - name: X13
-    type: 10gbase-x-sfpp
-  - name: X14
-    type: 10gbase-x-sfpp
-  - name: X15
-    type: 10gbase-x-sfpp
-  - name: X16
-    type: 40gbase-x-qsfpp
-  - name: X17
-    type: 40gbase-x-qsfpp
-  - name: X18
-    type: 40gbase-x-qsfpp
-  - name: X19
-    type: 40gbase-x-qsfpp
-  - name: X20
-    type: 100gbase-x-qsfp28
-  - name: X21
-    type: 100gbase-x-qsfp28
-  - name: X22
-    type: 100gbase-x-qsfp28
-  - name: X23
-    type: 100gbase-x-qsfp28
-  - name: X24
-    type: 100gbase-x-qsfp28
-  - name: X25
-    type: 100gbase-x-qsfp28
-  inventory-items:
-  - manufacturer: SonicWall
-    name: Storage-Module 1
-  - manufacturer: SonicWall
-    name: Storage-Module 2
-  - manufacturer: SonicWall
-    name: Storage-Module 3
-  - manufacturer: SonicWall
-    name: Storage-Module 4
-  - manufacturer: SonicWall
-    name: Fan-Module 1
-  - manufacturer: SonicWall
-    name: Fan-Module 2
-  is_full_depth: true
-  manufacturer: SonicWall
-  model: NSsp 15700
-  module-bays:
-  - name: PSU Slot 1
-    position: '1'
-  - name: PSU Slot 2
-    position: '2'
-  - name: Expansion Module
-  part_number: NSSP15700
-  slug: nssp-15700
-  u_height: 2
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: X5
-    type: 1000base-t
-  - name: X6
-    type: 1000base-t
-  - name: X7
-    type: 1000base-t
-  - name: W0
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: TZ500W
-  part_number: TZ500W
-  power-ports:
-  - maximum_draw: 36
-    name: PSU
-    type: iec-60320-c14
-  slug: tz500w
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: X5
-    type: 1000base-t
-  - name: X6
-    type: 1000base-t
-  - name: X7
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: TZ270
-  part_number: TZ270
-  power-ports:
-  - maximum_draw: 36
-    name: PSU
-    type: iec-60320-c14
-  slug: tz270
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: TZ300
-  part_number: TZ300
-  power-ports:
-  - maximum_draw: 24
-    name: PSU
-    type: iec-60320-c14
-  slug: tz300
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: W0
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: TZ350W
-  part_number: TZ350W
-  power-ports:
-  - maximum_draw: 24
-    name: PSU
-    type: iec-60320-c14
-  slug: tz350w
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: X5
-    type: 1000base-t
-  - name: X6
-    type: 1000base-t
-  - name: X7
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: TZ370
-  part_number: TZ370
-  power-ports:
-  - maximum_draw: 36
-    name: PSU
-    type: iec-60320-c14
-  slug: tz370
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: X5
-    type: 1000base-t
-  - name: X6
-    type: 1000base-t
-  - name: X7
-    type: 1000base-t
-  - name: X8
-    type: 1000base-t
-  - name: X9
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: TZ600P
-  part_number: TZ600P
+  model: TZ570P
+  part_number: TZ570P
   power-ports:
   - maximum_draw: 180
+    name: PSU 1
+    type: iec-60320-c14
+  - maximum_draw: 180
+    name: PSU 2
+    type: iec-60320-c14
+  slug: sonicwall-tz570p
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: SonicWall
+  model: TZ400
+  part_number: TZ400
+  power-ports:
+  - maximum_draw: 24
     name: PSU
     type: iec-60320-c14
-  slug: tz600p
+  slug: sonicwall-tz400
   u_height: 1
 - console-ports:
   - name: Console
@@ -1667,60 +1694,33 @@ models:
   - name: X11
     type: 1000base-t
   - name: X12
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: X13
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: X14
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: X15
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: X16
-    type: 10gbase-x-sfpp
+    type: 1000base-x-sfp
   - name: X17
-    type: 10gbase-x-sfpp
+    type: 1000base-x-sfp
   - name: X18
-    type: 10gbase-x-sfpp
+    type: 1000base-x-sfp
+  - name: X19
+    type: 1000base-x-sfp
   inventory-items:
   - manufacturer: SonicWall
     name: Storage-Module
   is_full_depth: false
   manufacturer: SonicWall
-  model: NSa 2700
+  model: NSa 2650
   module-bays:
   - name: PSU Slot 1
     position: '1'
   - name: PSU Slot 2
     position: '2'
-  part_number: NSA2700
-  slug: nsa-2700
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: X0
-    type: 1000base-t
-  - name: X1
-    type: 1000base-t
-  - name: X2
-    type: 1000base-t
-  - name: X3
-    type: 1000base-t
-  - name: X4
-    type: 1000base-t
-  - name: X5
-    type: 1000base-t
-  - name: X6
-    type: 1000base-t
-  - name: W0
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: SonicWall
-  model: TZ400W
-  part_number: TZ400W
-  power-ports:
-  - maximum_draw: 24
-    name: PSU
-    type: iec-60320-c14
-  slug: tz400w
+  - name: Expansion Module
+  part_number: NSA2650
+  slug: sonicwall-nsa-2650
   u_height: 1

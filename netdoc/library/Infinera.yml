@@ -47,5 +47,5 @@ models:
   - name: tx-mux0
     positions: 1
     type: lc
-  slug: cloud-xpress-2
+  slug: infinera-cloud-xpress-2
   u_height: 1

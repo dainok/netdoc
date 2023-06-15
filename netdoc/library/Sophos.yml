@@ -44,6 +44,6 @@ models:
     position: RF 2
   - name: Rear Fan 3
     position: RF 3
-  slug: xg-650
+  slug: sophos-xg-650
   subdevice_role: parent
   u_height: 2
