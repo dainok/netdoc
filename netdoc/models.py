@@ -68,6 +68,7 @@ class DiscoveryModeChoices(ChoiceSet):
         ("netmiko_cisco_nxos", "Netmiko Cisco NX-OS"),
         ("netmiko_cisco_xr", "Netmiko Cisco XR"),
         ("netmiko_hp_comware", "Netmiko HPE Comware"),
+        ("netmiko_juniper_junos", "Netmiko Juniper JUNOS"),
         ("netmiko_linux", "Netmiko Linux"),
     ]
 
