@@ -1,1250 +1,321 @@
 keywords:
-- CompactLogix 5380 L330ERM
-- 5069-L330ERM
-- ControlLogix Ethernet PRP Adapter K (EN2TP)
-- 1756-EN2TPK
-- 1783-HMS16TG4CGN
-- 1783-HMS16TG4CGN
-- 1783-BMS10CL
-- 1783-BMS10CL
-- GuardLogix 5580 L81ESK
-- 1756-L81ESK
-- CompactGuardLogix 5380 L330ERS2K
-- 5069-L330ERS2K
-- CompactGuardLogix 5380 L380ERS2
-- 5069-L380ERS2
-- ControlLogix 5580 L82E
-- 1756-L82E
-- CompactGuardLogix 5380 L3100ERMS3
-- 5069-L3100ERMS3
+- ControlLogix 5580 L83E-NSE
+- 1756-L83E-NSE
+- 1783-BMS06TL
+- 1783-BMS06TL
+- ControlLogix Ethernet Adapter K (EN4TR)
+- 1756-EN4TRK
+- ControlLogix Rack K - 10 Slot
+- 1756-A10K
+- CompactGuardLogix 5380 L330ERMS2K
+- 5069-L330ERMS2K
+- ControlLogix Fiber Ethernet Adapter K (EN2FK)
+- 1756-EN2FK
+- CompactGuardLogix 5380 L330ERMS3
+- 5069-L330ERMS3
+- GuardLogix 5580 L82ESK
+- 1756-L82ESK
+- ControlLogix 5580 L83EP
+- 1756-L83EP
 - Compact 5000 I/O Ethernet Adapter (AENTRK)
 - 5069-AENTRK
-- CompactGuardLogix 5380 L340ERS2
-- 5069-L340ERS2
-- ControlLogix Rack XT - 10 Slot
-- 1756-A10XT
+- 1783-BMS20CGL
+- 1783-BMS20CGL
+- CompactLogix 5380 L330ERMK
+- 5069-L330ERMK
+- ControlLogix Ethernet Adapter (EN2T)
+- 1756-EN2T
+- 1783-HMS4EG8CGN
+- 1783-HMS4EG8CGN
+- CompactGuardLogix 5380 L350ERMS3K
+- 5069-L350ERMS3K
+- 1783-HMS16T4CGN
+- 1783-HMS16T4CGN
+- CompactGuardLogix 5380 L306ERS2
+- 5069-L306ERS2
+- 1783-HMS4C4CGN
+- 1783-HMS4C4CGN
+- CompactGuardLogix 5380 L350ERS2K
+- 5069-L350ERS2K
+- ControlLogix Ethernet Adapter (EN3TR)
+- 1756-EN3TR
+- ControlLogix 5580 L84EK
+- 1756-L84EK
+- 1783-BMS10CGP
+- 1783-BMS10CGP
+- Compact 5000 I/O Ethernet Adapter (AEN2TR)
+- 5069-AEN2TR
+- Compact 5000 I/O Ethernet Adapter (AENTR)
+- 5069-AENTR
+- CompactLogix 5380 L350ERM
+- 5069-L350ERM
+- CompactLogix 5380 L340ERM
+- 5069-L340ERM
+- ControlLogix 5580 L85E-NSE
+- 1756-L85E-NSE
+- ControlLogix Rack - 4 Slot
+- 1756-a4
+- 1783-BMS06TA
+- 1783-BMS06TA
+- CompactLogix 5380 L340ER
+- 5069-L340ER
+- ControlLogix Rack - 13 Slot
+- 1756-A13
 - CompactLogix 5480 L4100ERMW
 - 5069-L4100ERMW
-- CompactGuardLogix 5380 L3100ERS2
-- 5069-L3100ERS2
+- CompactGuardLogix 5380 L330ERMS2
+- 5069-L330ERMS2
+- GuardLogix 5580 L83ESK
+- 1756-L83ESK
+- ControlLogix 5580 L81EP
+- 1756-L81EP
+- CompactGuardLogix 5380 L310ERS2
+- 5069-L310ERS2
+- 1783-HMS8SG4CGR
+- 1783-HMS8SG4CGR
+- GuardLogix 5580 L84ES
+- 1756-L84ES
+- CompactLogix 5380 L350ERMK
+- 5069-L350ERMK
+- CompactGuardLogix 5380 L310ERMS3
+- 5069-L310ERMS3
+- ControlLogix 5580 L82EK
+- 1756-L82EK
+- 1783-BMS06SGA
+- 1783-BMS06SGA
+- ControlLogix 5580 L82E-NSE
+- 1756-L82E-NSE
+- 1783-HMS4SG8EG4CGN
+- 1783-HMS4SG8EG4CGN
+- CompactGuardLogix 5380 L340ERMS2
+- 5069-L340ERMS2
+- ControlLogix Ethernet PRP Adapter (EN2TP)
+- 1756-EN2TP
+- CompactLogix 5380 L320ERM
+- 5069-L320ERM
+- CompactLogix 5380 L330ERM
+- 5069-L330ERM
+- CompactGuardLogix 5380 L350ERMS2K
+- 5069-L350ERMS2K
 - ControlLogix Rack K - 13 Slot
 - 1756-A13K
 - CompactGuardLogix 5380 L330ERMS3K
 - 5069-L330ERMS3K
-- CompactGuardLogix 5380 L350ERMS3K
-- 5069-L350ERMS3K
-- 1783-BMS10CGP
-- 1783-BMS10CGP
-- CompactLogix 5380 L310ER-NSE
-- 5069-L310ER-NSE
-- CompactGuardLogix 5380 L350ERMS2K
-- 5069-L350ERMS2K
-- CompactGuardLogix 5380 L306ERMS2
-- 5069-L306ERMS2
-- CompactLogix 5380 L306ER
-- 5069-L306ER
-- ControlLogix 5580 L85EP
-- 1756-L85EP
-- ControlLogix Rack - 7 Slot
-- 1756-A7
-- 1783-HMS4EG8CGR
-- 1783-HMS4EG8CGR
-- CompactLogix 5380 L350ERM
-- 5069-L350ERM
-- CompactLogix 5480 L430ERMW
-- 5069-L430ERMW
-- ControlLogix 5580 L81E
-- 1756-L81E
-- CompactLogix 5380 L320ERP
-- 5069-L320ERP
-- GuardLogix 5580 L84ESK
-- 1756-L84ESK
-- ControlLogix Rack XT - 7 Slot
-- 1756-A7XT
-- ControlLogix 5580 L81EK
-- 1756-L81EK
-- 1783-BMS10CA
-- 1783-BMS10CA
-- 1783-HMS8TG4CGR
-- 1783-HMS8TG4CGR
-- 1783-HMS4T4E4CGN
-- 1783-HMS4T4E4CGN
-- CompactGuardLogix 5380 L340ERMS3
-- 5069-L340ERMS3
-- GuardLogix 5580 L83ESK
-- 1756-L83ESK
-- CompactLogix 5380 L320ER
-- 5069-L320ER
-- ControlLogix Fiber Ethernet Adapter K (EN2FK)
-- 1756-EN2FK
-- 1783-BMS06TL
-- 1783-BMS06TL
-- GuardLogix 5580 L83ES
-- 1756-L83ES
-- 1783-HMS16T4CGN
-- 1783-HMS16T4CGN
-- 1783-HMS8TG4CGN
-- 1783-HMS8TG4CGN
-- 1783-BMS20CGN
-- 1783-BMS20CGN
-- Compact 5000 I/O Ethernet Adapter (AEN2TR)
-- 5069-AEN2TR
-- CompactGuardLogix 5380 L330ERMS2
-- 5069-L330ERMS2
-- ControlLogix Rack K - 7 Slot
-- 1756-a7k
-- CompactGuardLogix 5380 L3100ERMS2
-- 5069-L3100ERMS2
-- ControlLogix Ethernet Adapter K (EN2TK)
-- 1756-EN2TK
-- GuardLogix 5580 L82ESK
-- 1756-L82ESK
-- CompactGuardLogix 5380 L306ERMS3
-- 5069-L306ERMS3
-- 1783-BMS20CGP
-- 1783-BMS20CGP
-- CompactLogix 5480 L4200ERMW
-- 5069-L4200ERMW
-- CompactGuardLogix 5380 L306ERS2
-- 5069-L306ERS2
-- 1783-BMS4S2SGL
-- 1783-BMS4S2SGL
-- CompactGuardLogix 5380 L310ERMS2
-- 5069-L310ERMS2
-- 1783-BMS4S2SGA
-- 1783-BMS4S2SGA
-- ControlLogix Ethernet Adapter (EN2TR)
-- 1756-EN2TR
-- 1783-BMS20CGPK
-- 1783-BMS20CGPK
-- CompactLogix 5380 L330ERMK
-- 5069-L330ERMK
-- CompactLogix 5380 L350ERMK
-- 5069-L350ERMK
-- ControlLogix Ethernet PRP Adapter (EN2TP)
-- 1756-EN2TP
-- ControlLogix 5580 L85EK
-- 1756-L85EK
-- CompactGuardLogix 5380 L310ERMS3
-- 5069-L310ERMS3
-- ControlLogix 5580 L83E
-- 1756-L83E
-- CompactGuardLogix 5380 L330ERMS3
-- 5069-L330ERMS3
-- ControlLogix Ethernet Adapter (EN3TR)
-- 1756-EN3TR
-- 1783-BMS06SGA
-- 1783-BMS06SGA
-- 1783-HMS8SG4CGN
-- 1783-HMS8SG4CGN
-- CompactLogix 5380 L310ER
-- 5069-L310ER
-- CompactGuardLogix 5380 L320ERMS3
-- 5069-L320ERMS3
-- ControlLogix Compute - Linux
-- 1756-CMS1C1
-- CompactGuardLogix 5380 L380ERMS2
-- 5069-L380ERMS2
-- 1783-HMS4EG8CGN
-- 1783-HMS4EG8CGN
-- 1783-BMS06SL
-- 1783-BMS06SL
-- CompactLogix 5380 L330ER
-- 5069-L330ER
-- 1783-BMS06SA
-- 1783-BMS06SA
-- CompactGuardLogix 5380 L310ERS2
-- 5069-L310ERS2
-- ControlLogix 5580 L82EK
-- 1756-L82EK
-- CompactGuardLogix 5380 L350ERMS3
-- 5069-L350ERMS3
-- ControlLogix 5580 L82E-NSE
-- 1756-L82E-NSE
-- CompactGuardLogix 5380 L340ERMS2
-- 5069-L340ERMS2
-- 1783-BMS10CGA
-- 1783-BMS10CGA
-- ControlLogix Rack K - 4 Slot
-- 1756-A4K
-- ControlLogix Fiber Ethernet Adapter (EN2F)
-- 1756-EN2F
-- CompactGuardLogix 5380 L320ERMS2
-- 5069-L320ERMS2
-- Compact 5000 I/O Ethernet Adapter (AENTR)
-- 5069-AENTR
-- 1783-BMS10CGL
-- 1783-BMS10CGL
-- CompactLogix 5380 L306ERM
-- 5069-L306ERM
-- 1783-HMS8TG8EG4CGN
-- 1783-HMS8TG8EG4CGN
-- ControlLogix 5580 L81E-NSE
-- 1756-L81E-NSE
-- ControlLogix Rack K - 10 Slot
-- 1756-A10K
-- ControlLogix 5580 L84E
-- 1756-L84E
-- CompactGuardLogix 5380 L350ERS2
-- 5069-L350ERS2
-- CompactLogix 5380 L3100ERM
-- 5069-L3100ERM
-- ControlLogix Rack - 13 Slot
-- 1756-A13
-- 1783-HMS8TG8EG4CGR
-- 1783-HMS8TG8EG4CGR
-- CompactGuardLogix 5380 L330ERS2
-- 5069-L330ERS2
-- CompactLogix 5380 L320ERM
-- 5069-L320ERM
-- 1783-BMS20CA
-- 1783-BMS20CA
-- 1783-BMS06TGL
-- 1783-BMS06TGL
-- ControlLogix Ethernet Adapter (EN2T)
-- 1756-EN2T
-- GuardLogix 5580 L84ES
-- 1756-L84ES
-- ControlLogix 5580 L83EK
-- 1756-L83EK
-- ControlLogix Ethernet Adapter K (ENBT)
-- 1756-ENBTK
-- GuardLogix 5580 L81ES
-- 1756-L81ES
-- ControlLogix Ethernet Adapter K (EN2TR)
-- 1756-EN2TRK
-- CompactGuardLogix 5380 L320ERS2
-- 5069-L320ERS2
-- ControlLogix Ethernet Adapter K (EN3TR)
-- 1756-EN3TRK
-- 1783-HMS8T4CGN
-- 1783-HMS8T4CGN
-- CompactLogix 5380 L340ERM
-- 5069-L340ERM
-- 1783-HMS4C4CGN
-- 1783-HMS4C4CGN
-- CompactGuardLogix 5380 L350ERMS2
-- 5069-L350ERMS2
-- ControlLogix Rack - 17 Slot
-- 1756-A17
-- CompactLogix 5480 L450ERMW
-- 5069-L450ERMW
-- 1783-HMS8S4CGN
-- 1783-HMS8S4CGN
-- ControlLogix Ethernet Adapter (ENBT)
-- 1756-ENBT
-- ControlLogix 5580 L85E-NSE
-- 1756-L85E-NSE
-- ControlLogix Compute - Windows
-- 1756-CMS1B1
-- CompactGuardLogix 5380 L380ERMS3
-- 5069-L380ERMS3
-- 1783-HMS16TG4CGR
-- 1783-HMS16TG4CGR
-- ControlLogix 5580 L83E-NSE
-- 1756-L83E-NSE
-- CompactLogix 5380 L340ER
-- 5069-L340ER
-- CompactGuardLogix 5380 L320ERS2K
-- 5069-L320ERS2K
-- ControlLogix 5580 L83EP
-- 1756-L83EP
 - CompactLogix 5380 L320ERMK
 - 5069-L320ERMK
-- ControlLogix 5580 L84EK
-- 1756-L84EK
-- 1783-BMS06TA
-- 1783-BMS06TA
-- CompactGuardLogix 5380 L350ERS2K
-- 5069-L350ERS2K
-- ControlLogix Ethernet Adapter (EN4TR)
-- 1756-EN4TR
-- ControlLogix Rack - 10 Slot
-- 1756-A10
-- 1783-BMS10CGN
-- 1783-BMS10CGN
-- ControlLogix Ethernet Adapter K (EN4TR)
-- 1756-EN4TRK
-- 1783-BMS06SGL
-- 1783-BMS06SGL
-- CompactGuardLogix 5380 L320ERMS3K
-- 5069-L320ERMS3K
-- ControlLogix 5580 L85E
-- 1756-L85E
-- 1783-HMS4SG8EG4CGR
-- 1783-HMS4SG8EG4CGR
-- ControlLogix 5580 L81EP
-- 1756-L81EP
-- 1783-BMS06TGA
-- 1783-BMS06TGA
-- GuardLogix 5580 L82ES
-- 1756-L82ES
-- ControlLogix 5580 L84E-NSE
-- 1756-L84E-NSE
-- 1783-BMS20CGL
-- 1783-BMS20CGL
-- 1783-BMS20CL
-- 1783-BMS20CL
-- CompactLogix 5380 L310ERM
-- 5069-L310ERM
+- 1783-HMS8TG4CGR
+- 1783-HMS8TG4CGR
+- CompactGuardLogix 5380 L3100ERMS2
+- 5069-L3100ERMS2
+- 1783-HMS8TG8EG4CGR
+- 1783-HMS8TG8EG4CGR
+- CompactLogix 5380 L306ERM
+- 5069-L306ERM
+- ControlLogix 5580 L85EP
+- 1756-L85EP
+- 1783-BMS06SA
+- 1783-BMS06SA
+- GuardLogix 5580 L81ESK
+- 1756-L81ESK
 - CompactLogix 5380 L380ERM
 - 5069-L380ERM
-- CompactGuardLogix 5380 L320ERMS2K
-- 5069-L320ERMS2K
-- 1783-HMS4SG8EG4CGN
-- 1783-HMS4SG8EG4CGN
-- CompactLogix 5380 L340ERP
-- 5069-L340ERP
-- 1783-HMS8SG4CGR
-- 1783-HMS8SG4CGR
-- ControlLogix Rack - 4 Slot
-- 1756-a4
-- 1783-HMS4S8E4CGN
-- 1783-HMS4S8E4CGN
+- CompactGuardLogix 5380 L320ERS2K
+- 5069-L320ERS2K
+- GuardLogix 5580 L82ES
+- 1756-L82ES
+- 1783-BMS06SGL
+- 1783-BMS06SGL
+- CompactGuardLogix 5380 L3100ERMS3
+- 5069-L3100ERMS3
+- 1783-BMS10CGN
+- 1783-BMS10CGN
+- ControlLogix 5580 L84E-NSE
+- 1756-L84E-NSE
+- 1783-HMS16TG4CGR
+- 1783-HMS16TG4CGR
+- 1783-BMS06SL
+- 1783-BMS06SL
 - ControlLogix Rack K - 17 Slot
 - 1756-A17K
-- ControlLogix Web Module (EWEB)
+- CompactGuardLogix 5380 L340ERMS3
+- 5069-L340ERMS3
+- ControlLogix Fiber Ethernet Adapter (EN2F)
+- 1756-EN2F
+- ControlLogix Rack XT - 10 Slot
+- 1756-A10XT
+- CompactGuardLogix 5380 L310ERMS2
+- 5069-L310ERMS2
+- CompactLogix 5380 L310ER-NSE
+- 5069-L310ER-NSE
+- CompactLogix 5380 L320ER
+- 5069-L320ER
+- 1783-BMS20CGPK
+- 1783-BMS20CGPK
+- 1783-HMS8SG4CGN
+- 1783-HMS8SG4CGN
+- ControlLogix 5580 L85EK
+- 1756-L85EK
+- 1783-BMS06TGA
+- 1783-BMS06TGA
+- ControlLogix Ethernet Adapter (EN2TR)
+- 1756-EN2TR
+- ControlLogix 5580 L81E-NSE
+- 1756-L81E-NSE
+- 1783-BMS10CGA
+- 1783-BMS10CGA
+- CompactGuardLogix 5380 L380ERS2
+- 5069-L380ERS2
+- CompactGuardLogix 5380 L320ERMS2
+- 5069-L320ERMS2
+- 1783-BMS10CL
+- 1783-BMS10CL
+- 1783-HMS4S8E4CGN
+- 1783-HMS4S8E4CGN
+- ControlLogix Ethernet Adapter K (EN3TR)
+- 1756-EN3TRK
+- ControlLogix 5580 L85E
+- 1756-L85E
+- 1783-BMS4S2SGL
+- 1783-BMS4S2SGL
+- ControlLogix Ethernet Adapter K (EN2TK)
+- 1756-EN2TK
+- CompactGuardLogix 5380 L350ERS2
+- 5069-L350ERS2
+- ControlLogix 5580 L81E
+- 1756-L81E
+- 1783-BMS10CGL
+- 1783-BMS10CGL
+- GuardLogix 5580 L84ESK
+- 1756-L84ESK
+- CompactLogix 5380 L3100ERM
+- 5069-L3100ERM
+- 1783-HMS4EG8CGR
+- 1783-HMS4EG8CGR
+- ControlLogix Ethernet Adapter (ENBT)
+- 1756-ENBT
+- 1783-BMS06TGL
+- 1783-BMS06TGL
+- ControlLogix Ethernet Adapter K (EN2TR)
+- 1756-EN2TRK
+- CompactLogix 5380 L340ERP
+- 5069-L340ERP
+- ControlLogix Compute - Linux
+- 1756-CMS1C1
+- ControlLogix Rack - 17 Slot
+- 1756-A17
+- CompactGuardLogix 5380 L320ERMS3
+- 5069-L320ERMS3
+- ControlLogix Rack K - 4 Slot
+- 1756-A4K
+- 1783-BMS20CGP
+- 1783-BMS20CGP
+- CompactLogix 5380 L330ER
+- 5069-L330ER
+- ControlLogix Web Module
 - 1756-EWEB
-- CompactGuardLogix 5380 L330ERMS2K
-- 5069-L330ERMS2K
+- 1783-HMS8S4CGN
+- 1783-HMS8S4CGN
+- CompactGuardLogix 5380 L330ERS2
+- 5069-L330ERS2
+- 1783-BMS4S2SGA
+- 1783-BMS4S2SGA
+- ControlLogix Ethernet Adapter K (ENBT)
+- 1756-ENBTK
+- ControlLogix Ethernet PRP Adapter K (EN2TP)
+- 1756-EN2TPK
+- 1783-BMS10CA
+- 1783-BMS10CA
+- CompactGuardLogix 5380 L320ERMS2K
+- 5069-L320ERMS2K
+- CompactLogix 5380 L306ER
+- 5069-L306ER
+- 1783-HMS4T4E4CGN
+- 1783-HMS4T4E4CGN
+- ControlLogix 5580 L83E
+- 1756-L83E
+- 1783-BMS20CL
+- 1783-BMS20CL
+- ControlLogix Rack - 10 Slot
+- 1756-A10
+- CompactGuardLogix 5380 L380ERMS3
+- 5069-L380ERMS3
+- CompactGuardLogix 5380 L330ERS2K
+- 5069-L330ERS2K
+- CompactLogix 5380 L320ERP
+- 5069-L320ERP
+- GuardLogix 5580 L81ES
+- 1756-L81ES
+- CompactGuardLogix 5380 L306ERMS3
+- 5069-L306ERMS3
+- 1783-HMS16TG4CGN
+- 1783-HMS16TG4CGN
+- ControlLogix 5580 L84E
+- 1756-L84E
+- 1783-HMS8T4CGN
+- 1783-HMS8T4CGN
+- CompactGuardLogix 5380 L350ERMS3
+- 5069-L350ERMS3
+- CompactLogix 5480 L430ERMW
+- 5069-L430ERMW
+- CompactLogix 5480 L4200ERMW
+- 5069-L4200ERMW
+- CompactLogix 5380 L310ER
+- 5069-L310ER
+- CompactGuardLogix 5380 L3100ERS2
+- 5069-L3100ERS2
+- CompactGuardLogix 5380 L340ERS2
+- 5069-L340ERS2
+- 1783-BMS20CGN
+- 1783-BMS20CGN
+- ControlLogix Rack - 7 Slot
+- 1756-A7
+- ControlLogix Ethernet Adapter (EN4TR)
+- 1756-EN4TR
+- ControlLogix 5580 L83EK
+- 1756-L83EK
+- ControlLogix Rack K - 7 Slot
+- 1756-a7k
+- 1783-HMS8TG8EG4CGN
+- 1783-HMS8TG8EG4CGN
+- ControlLogix 5580 L81EK
+- 1756-L81EK
+- ControlLogix 5580 L82E
+- 1756-L82E
+- ControlLogix Rack XT - 7 Slot
+- 1756-A7XT
+- CompactGuardLogix 5380 L320ERMS3K
+- 5069-L320ERMS3K
+- CompactGuardLogix 5380 L350ERMS2
+- 5069-L350ERMS2
+- 1783-BMS20CA
+- 1783-BMS20CA
+- 1783-HMS8TG4CGN
+- 1783-HMS8TG4CGN
+- CompactGuardLogix 5380 L320ERS2
+- 5069-L320ERS2
+- CompactGuardLogix 5380 L306ERMS2
+- 5069-L306ERMS2
+- CompactGuardLogix 5380 L380ERMS2
+- 5069-L380ERMS2
+- 1783-HMS4SG8EG4CGR
+- 1783-HMS4SG8EG4CGR
+- CompactLogix 5380 L310ERM
+- 5069-L310ERM
+- ControlLogix Compute - Windows
+- 1756-CMS1B1
+- GuardLogix 5580 L83ES
+- 1756-L83ES
+- CompactLogix 5480 L450ERMW
+- 5069-L450ERMW
 models:
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L330ERM
-  part_number: 5069-L330ERM
-  power-ports:
-  - allocated_draw: 11
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l330erm
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 100base-tx
-  - name: A2
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Ethernet PRP Adapter K (EN2TP)
-  part_number: 1756-EN2TPK
-  slug: 1756-en2tpk
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: GigabitEthernet1/5
-    type: 1000base-t
-  - name: GigabitEthernet1/6
-    type: 1000base-t
-  - name: GigabitEthernet1/7
-    type: 1000base-t
-  - name: GigabitEthernet1/8
-    type: 1000base-t
-  - name: GigabitEthernet1/9
-    type: 1000base-t
-  - name: GigabitEthernet1/10
-    type: 1000base-t
-  - name: GigabitEthernet1/11
-    type: 1000base-t
-  - name: GigabitEthernet1/12
-    type: 1000base-t
-  - name: GigabitEthernet1/13
-    type: 1000base-t
-  - name: GigabitEthernet1/14
-    type: 1000base-t
-  - name: GigabitEthernet1/15
-    type: 1000base-t
-  - name: GigabitEthernet1/16
-    type: 1000base-t
-  - name: GigabitEthernet1/17
-    type: 1000base-t
-  - name: GigabitEthernet1/18
-    type: 1000base-t
-  - name: GigabitEthernet1/19
-    type: 1000base-t
-  - name: GigabitEthernet1/20
-    type: 1000base-t
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-HMS16TG4CGN
-  part_number: 1783-HMS16TG4CGN
-  power-ports:
-  - allocated_draw: 40
-    maximum_draw: 104
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 40
-    maximum_draw: 104
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-hms16tg4cgn
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: FastEthernet1/9
-    type: 100base-tx
-  - name: FastEthernet1/10
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS10CL
-  part_number: 1783-BMS10CL
-  power-ports:
-  - allocated_draw: 13
-    maximum_draw: 17
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 13
-    maximum_draw: 17
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms10cl
-  u_height: 3
 - interfaces:
   - name: A1
     type: 1000base-t
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: GuardLogix 5580 L81ESK
-  part_number: 1756-L81ESK
-  slug: 1756-l81esk
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L330ERS2K
-  part_number: 5069-L330ERS2K
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l330ers2k
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L380ERS2
-  part_number: 5069-L380ERS2
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l380ers2
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L82E
-  part_number: 1756-L82E
-  slug: 1756-l82e
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L3100ERMS3
-  part_number: 5069-L3100ERMS3
-  power-ports:
-  - allocated_draw: 18
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 18
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l3100erms3
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: Compact 5000 I/O Ethernet Adapter (AENTRK)
-  part_number: 5069-AENTRK
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-aentrk
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L340ERS2
-  part_number: 5069-L340ERS2
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l340ers2
-  u_height: 3
-- device-bays:
-  - name: Power Supply
-  - name: Slot 0
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  - name: Slot 4
-  - name: Slot 5
-  - name: Slot 6
-  - name: Slot 7
-  - name: Slot 8
-  - name: Slot 9
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Rack XT - 10 Slot
-  part_number: 1756-A10XT
-  slug: 1756-a10xt
-  subdevice_role: parent
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  - name: B1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5480 L4100ERMW
-  part_number: 5069-L4100ERMW
-  power-ports:
-  - allocated_draw: 72
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 72
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l4100ermw
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L3100ERS2
-  part_number: 5069-L3100ERS2
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l3100ers2
-  u_height: 3
-- device-bays:
-  - name: Power Supply
-  - name: Slot 0
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  - name: Slot 4
-  - name: Slot 5
-  - name: Slot 6
-  - name: Slot 7
-  - name: Slot 8
-  - name: Slot 9
-  - name: Slot 10
-  - name: Slot 11
-  - name: Slot 12
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Rack K - 13 Slot
-  part_number: 1756-A13K
-  slug: 1756-a13k
-  subdevice_role: parent
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L330ERMS3K
-  part_number: 5069-L330ERMS3K
-  power-ports:
-  - allocated_draw: 18
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 18
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l330erms3k
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L350ERMS3K
-  part_number: 5069-L350ERMS3K
-  power-ports:
-  - allocated_draw: 18
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 18
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l350erms3k
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS10CGP
-  part_number: 1783-BMS10CGP
-  power-ports:
-  - allocated_draw: 15
-    maximum_draw: 20
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 15
-    maximum_draw: 20
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms10cgp
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L310ER-NSE
-  part_number: 5069-L310ER-NSE
-  power-ports:
-  - allocated_draw: 11
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l310er-nse
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L350ERMS2K
-  part_number: 5069-L350ERMS2K
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l350erms2k
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L306ERMS2
-  part_number: 5069-L306ERMS2
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l306erms2
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L306ER
-  part_number: 5069-L306ER
-  power-ports:
-  - allocated_draw: 11
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l306er
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L85EP
-  part_number: 1756-L85EP
-  slug: 1756-l85ep
-  subdevice_role: child
-  u_height: 0
-- device-bays:
-  - name: Power Supply
-  - name: Slot 0
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  - name: Slot 4
-  - name: Slot 5
-  - name: Slot 6
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Rack - 7 Slot
-  part_number: 1756-A7
-  slug: 1756-a7
-  subdevice_role: parent
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: GigabitEthernet1/5
-    type: 1000base-t
-  - name: GigabitEthernet1/6
-    type: 1000base-t
-  - name: GigabitEthernet1/7
-    type: 1000base-t
-  - name: GigabitEthernet1/8
-    type: 1000base-t
-  - name: GigabitEthernet1/9
-    type: 1000base-t
-  - name: GigabitEthernet1/10
-    type: 1000base-t
-  - name: GigabitEthernet1/11
-    type: 1000base-t
-  - name: GigabitEthernet1/12
-    type: 1000base-t
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-HMS4EG8CGR
-  part_number: 1783-HMS4EG8CGR
-  power-ports:
-  - allocated_draw: 164
-    maximum_draw: 224
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 164
-    maximum_draw: 224
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-hms4eg8cgr
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L350ERM
-  part_number: 5069-L350ERM
-  power-ports:
-  - allocated_draw: 11
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l350erm
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  - name: B1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5480 L430ERMW
-  part_number: 5069-L430ERMW
-  power-ports:
-  - allocated_draw: 72
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 72
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l430ermw
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L81E
-  part_number: 1756-L81E
-  slug: 1756-l81e
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L320ERP
-  part_number: 5069-L320ERP
-  power-ports:
-  - allocated_draw: 11
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l320erp
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: GuardLogix 5580 L84ESK
-  part_number: 1756-L84ESK
-  slug: 1756-l84esk
-  subdevice_role: child
-  u_height: 0
-- device-bays:
-  - name: Power Supply
-  - name: Slot 0
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  - name: Slot 4
-  - name: Slot 5
-  - name: Slot 6
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Rack XT - 7 Slot
-  part_number: 1756-A7XT
-  slug: 1756-a7xt
-  subdevice_role: parent
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L81EK
-  part_number: 1756-L81EK
-  slug: 1756-l81ek
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: FastEthernet1/9
-    type: 100base-tx
-  - name: FastEthernet1/10
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS10CA
-  part_number: 1783-BMS10CA
-  power-ports:
-  - allocated_draw: 13
-    maximum_draw: 17
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 13
-    maximum_draw: 17
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms10ca
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: GigabitEthernet1/5
-    type: 1000base-t
-  - name: GigabitEthernet1/6
-    type: 1000base-t
-  - name: GigabitEthernet1/7
-    type: 1000base-t
-  - name: GigabitEthernet1/8
-    type: 1000base-t
-  - name: GigabitEthernet1/9
-    type: 1000base-t
-  - name: GigabitEthernet1/10
-    type: 1000base-t
-  - name: GigabitEthernet1/11
-    type: 1000base-t
-  - name: GigabitEthernet1/12
-    type: 1000base-t
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-HMS8TG4CGR
-  part_number: 1783-HMS8TG4CGR
-  power-ports:
-  - allocated_draw: 35
-    maximum_draw: 89
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 35
-    maximum_draw: 89
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-hms8tg4cgr
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: FastEthernet1/9
-    type: 100base-tx
-  - name: FastEthernet1/10
-    type: 100base-tx
-  - name: FastEthernet1/11
-    type: 100base-tx
-  - name: FastEthernet1/12
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-HMS4T4E4CGN
-  part_number: 1783-HMS4T4E4CGN
-  power-ports:
-  - allocated_draw: 35
-    maximum_draw: 193
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 35
-    maximum_draw: 193
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-hms4t4e4cgn
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L340ERMS3
-  part_number: 5069-L340ERMS3
-  power-ports:
-  - allocated_draw: 18
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 18
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l340erms3
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: GuardLogix 5580 L83ESK
-  part_number: 1756-L83ESK
-  slug: 1756-l83esk
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L320ER
-  part_number: 5069-L320ER
-  power-ports:
-  - allocated_draw: 11
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l320er
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Fiber Ethernet Adapter K (EN2FK)
-  part_number: 1756-EN2FK
-  slug: 1756-en2fk
+  model: ControlLogix 5580 L83E-NSE
+  part_number: 1756-L83E-NSE
+  slug: rockwell-automation-1756-l83e-nse
   subdevice_role: child
   u_height: 0
 - console-ports:
@@ -1280,18 +351,304 @@ models:
     maximum_draw: 15
     name: Pwr-B
     type: dc-terminal
-  slug: 1783-bms06tl
+  slug: rockwell-automation-1783-bms06tl
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Ethernet Adapter K (EN4TR)
+  part_number: 1756-EN4TRK
+  slug: rockwell-automation-1756-en4trk
+  subdevice_role: child
+  u_height: 0
+- device-bays:
+  - name: Power Supply
+  - name: Slot 0
+  - name: Slot 1
+  - name: Slot 2
+  - name: Slot 3
+  - name: Slot 4
+  - name: Slot 5
+  - name: Slot 6
+  - name: Slot 7
+  - name: Slot 8
+  - name: Slot 9
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Rack K - 10 Slot
+  part_number: 1756-A10K
+  slug: rockwell-automation-1756-a10k
+  subdevice_role: parent
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L330ERMS2K
+  part_number: 5069-L330ERMS2K
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l330erms2k
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Fiber Ethernet Adapter K (EN2FK)
+  part_number: 1756-EN2FK
+  slug: rockwell-automation-1756-en2fk
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L330ERMS3
+  part_number: 5069-L330ERMS3
+  power-ports:
+  - allocated_draw: 18
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 18
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l330erms3
   u_height: 3
 - interfaces:
   - name: A1
     type: 1000base-t
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: GuardLogix 5580 L83ES
-  part_number: 1756-L83ES
-  slug: 1756-l83es
+  model: GuardLogix 5580 L82ESK
+  part_number: 1756-L82ESK
+  slug: rockwell-automation-1756-l82esk
   subdevice_role: child
   u_height: 0
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L83EP
+  part_number: 1756-L83EP
+  slug: rockwell-automation-1756-l83ep
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: Compact 5000 I/O Ethernet Adapter (AENTRK)
+  part_number: 5069-AENTRK
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-aentrk
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: FastEthernet1/11
+    type: 100base-tx
+  - name: FastEthernet1/12
+    type: 100base-tx
+  - name: FastEthernet1/13
+    type: 100base-tx
+  - name: FastEthernet1/14
+    type: 100base-tx
+  - name: FastEthernet1/15
+    type: 100base-tx
+  - name: FastEthernet1/16
+    type: 100base-tx
+  - name: FastEthernet1/17
+    type: 100base-tx
+  - name: FastEthernet1/18
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS20CGL
+  part_number: 1783-BMS20CGL
+  power-ports:
+  - allocated_draw: 21
+    maximum_draw: 30
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 21
+    maximum_draw: 30
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms20cgl
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L330ERMK
+  part_number: 5069-L330ERMK
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l330ermk
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Ethernet Adapter (EN2T)
+  part_number: 1756-EN2T
+  slug: rockwell-automation-1756-en2t
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: GigabitEthernet1/5
+    type: 1000base-t
+  - name: GigabitEthernet1/6
+    type: 1000base-t
+  - name: GigabitEthernet1/7
+    type: 1000base-t
+  - name: GigabitEthernet1/8
+    type: 1000base-t
+  - name: GigabitEthernet1/9
+    type: 1000base-t
+  - name: GigabitEthernet1/10
+    type: 1000base-t
+  - name: GigabitEthernet1/11
+    type: 1000base-t
+  - name: GigabitEthernet1/12
+    type: 1000base-t
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-HMS4EG8CGN
+  part_number: 1783-HMS4EG8CGN
+  power-ports:
+  - allocated_draw: 164
+    maximum_draw: 224
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 164
+    maximum_draw: 224
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-hms4eg8cgn
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L350ERMS3K
+  part_number: 5069-L350ERMS3K
+  power-ports:
+  - allocated_draw: 18
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 18
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l350erms3k
+  u_height: 3
 - console-ports:
   - name: usb
     type: usb-mini-b
@@ -1353,333 +710,7 @@ models:
     maximum_draw: 89
     name: Pwr-B
     type: dc-terminal
-  slug: 1783-hms16t4cgn
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: GigabitEthernet1/5
-    type: 1000base-t
-  - name: GigabitEthernet1/6
-    type: 1000base-t
-  - name: GigabitEthernet1/7
-    type: 1000base-t
-  - name: GigabitEthernet1/8
-    type: 1000base-t
-  - name: GigabitEthernet1/9
-    type: 1000base-t
-  - name: GigabitEthernet1/10
-    type: 1000base-t
-  - name: GigabitEthernet1/11
-    type: 1000base-t
-  - name: GigabitEthernet1/12
-    type: 1000base-t
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-HMS8TG4CGN
-  part_number: 1783-HMS8TG4CGN
-  power-ports:
-  - allocated_draw: 35
-    maximum_draw: 89
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 35
-    maximum_draw: 89
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-hms8tg4cgn
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: FastEthernet1/9
-    type: 100base-tx
-  - name: FastEthernet1/10
-    type: 100base-tx
-  - name: FastEthernet1/11
-    type: 100base-tx
-  - name: FastEthernet1/12
-    type: 100base-tx
-  - name: FastEthernet1/13
-    type: 100base-tx
-  - name: FastEthernet1/14
-    type: 100base-tx
-  - name: FastEthernet1/15
-    type: 100base-tx
-  - name: FastEthernet1/16
-    type: 100base-tx
-  - name: FastEthernet1/17
-    type: 100base-tx
-  - name: FastEthernet1/18
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS20CGN
-  part_number: 1783-BMS20CGN
-  power-ports:
-  - allocated_draw: 21
-    maximum_draw: 30
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 21
-    maximum_draw: 30
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms20cgn
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: Compact 5000 I/O Ethernet Adapter (AEN2TR)
-  part_number: 5069-AEN2TR
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-aen2tr
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L330ERMS2
-  part_number: 5069-L330ERMS2
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l330erms2
-  u_height: 3
-- device-bays:
-  - name: Power Supply
-  - name: Slot 0
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  - name: Slot 4
-  - name: Slot 5
-  - name: Slot 6
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Rack K - 7 Slot
-  part_number: 1756-a7k
-  slug: 1756-a7k
-  subdevice_role: parent
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L3100ERMS2
-  part_number: 5069-L3100ERMS2
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l3100erms2
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Ethernet Adapter K (EN2TK)
-  part_number: 1756-EN2TK
-  slug: 1756-en2tk
-  subdevice_role: child
-  u_height: 0
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: GuardLogix 5580 L82ESK
-  part_number: 1756-L82ESK
-  slug: 1756-l82esk
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L306ERMS3
-  part_number: 5069-L306ERMS3
-  power-ports:
-  - allocated_draw: 18
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 18
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l306erms3
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: FastEthernet1/9
-    type: 100base-tx
-  - name: FastEthernet1/10
-    type: 100base-tx
-  - name: FastEthernet1/11
-    type: 100base-tx
-  - name: FastEthernet1/12
-    type: 100base-tx
-  - name: FastEthernet1/13
-    type: 100base-tx
-  - name: FastEthernet1/14
-    type: 100base-tx
-  - name: FastEthernet1/15
-    type: 100base-tx
-  - name: FastEthernet1/16
-    type: 100base-tx
-  - name: FastEthernet1/17
-    type: 100base-tx
-  - name: FastEthernet1/18
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS20CGP
-  part_number: 1783-BMS20CGP
-  power-ports:
-  - allocated_draw: 21
-    maximum_draw: 30
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 21
-    maximum_draw: 30
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms20cgp
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  - name: B1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5480 L4200ERMW
-  part_number: 5069-L4200ERMW
-  power-ports:
-  - allocated_draw: 72
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 72
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l4200ermw
+  slug: rockwell-automation-1783-hms16t4cgn
   u_height: 3
 - console-ports:
   - name: usb
@@ -1702,7 +733,7 @@ models:
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l306ers2
+  slug: rockwell-automation-5069-l306ers2
   u_height: 3
 - console-ports:
   - name: usb
@@ -1711,33 +742,37 @@ models:
     type: rj-45
   interfaces:
   - name: GigabitEthernet1/1
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
     type: 1000base-t
-  - name: FastEthernet1/1
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: FastEthernet1/5
     type: 100base-tx
-  - name: FastEthernet1/2
+  - name: FastEthernet1/6
     type: 100base-tx
-  - name: FastEthernet1/3
+  - name: FastEthernet1/7
     type: 100base-tx
-  - name: FastEthernet1/4
+  - name: FastEthernet1/8
     type: 100base-tx
-  - name: VLAN0
+  - name: SVI1
     type: virtual
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: 1783-BMS4S2SGL
-  part_number: 1783-BMS4S2SGL
+  model: 1783-HMS4C4CGN
+  part_number: 1783-HMS4C4CGN
   power-ports:
-  - allocated_draw: 13
-    maximum_draw: 14
+  - allocated_draw: 40
+    maximum_draw: 103
     name: Pwr-A
     type: dc-terminal
-  - allocated_draw: 13
-    maximum_draw: 14
+  - allocated_draw: 40
+    maximum_draw: 103
     name: Pwr-B
     type: dc-terminal
-  slug: 1783-bms4s2sgl
+  slug: rockwell-automation-1783-hms4c4cgn
   u_height: 3
 - console-ports:
   - name: usb
@@ -1749,8 +784,8 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L310ERMS2
-  part_number: 5069-L310ERMS2
+  model: CompactGuardLogix 5380 L350ERS2K
+  part_number: 5069-L350ERS2K
   power-ports:
   - allocated_draw: 9
     maximum_draw: 120
@@ -1760,42 +795,7 @@ models:
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l310erms2
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS4S2SGA
-  part_number: 1783-BMS4S2SGA
-  power-ports:
-  - allocated_draw: 13
-    maximum_draw: 14
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 13
-    maximum_draw: 14
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms4s2sga
+  slug: rockwell-automation-5069-l350ers2k
   u_height: 3
 - interfaces:
   - name: A1
@@ -1804,9 +804,19 @@ models:
     type: 100base-tx
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: ControlLogix Ethernet Adapter (EN2TR)
-  part_number: 1756-EN2TR
-  slug: 1756-en2tr
+  model: ControlLogix Ethernet Adapter (EN3TR)
+  part_number: 1756-EN3TR
+  slug: rockwell-automation-1756-en3tr
+  subdevice_role: child
+  u_height: 0
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L84EK
+  part_number: 1756-L84EK
+  slug: rockwell-automation-1756-l84ek
   subdevice_role: child
   u_height: 0
 - console-ports:
@@ -1835,42 +845,22 @@ models:
     type: 100base-tx
   - name: FastEthernet1/8
     type: 100base-tx
-  - name: FastEthernet1/9
-    type: 100base-tx
-  - name: FastEthernet1/10
-    type: 100base-tx
-  - name: FastEthernet1/11
-    type: 100base-tx
-  - name: FastEthernet1/12
-    type: 100base-tx
-  - name: FastEthernet1/13
-    type: 100base-tx
-  - name: FastEthernet1/14
-    type: 100base-tx
-  - name: FastEthernet1/15
-    type: 100base-tx
-  - name: FastEthernet1/16
-    type: 100base-tx
-  - name: FastEthernet1/17
-    type: 100base-tx
-  - name: FastEthernet1/18
-    type: 100base-tx
   - name: SVI1
     type: virtual
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: 1783-BMS20CGPK
-  part_number: 1783-BMS20CGPK
+  model: 1783-BMS10CGP
+  part_number: 1783-BMS10CGP
   power-ports:
-  - allocated_draw: 21
-    maximum_draw: 30
+  - allocated_draw: 15
+    maximum_draw: 20
     name: Pwr-A
     type: dc-terminal
-  - allocated_draw: 21
-    maximum_draw: 30
+  - allocated_draw: 15
+    maximum_draw: 20
     name: Pwr-B
     type: dc-terminal
-  slug: 1783-bms20cgpk
+  slug: rockwell-automation-1783-bms10cgp
   u_height: 3
 - console-ports:
   - name: usb
@@ -1882,8 +872,54 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L330ERMK
-  part_number: 5069-L330ERMK
+  model: Compact 5000 I/O Ethernet Adapter (AEN2TR)
+  part_number: 5069-AEN2TR
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-aen2tr
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: Compact 5000 I/O Ethernet Adapter (AENTR)
+  part_number: 5069-AENTR
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-aentr
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L350ERM
+  part_number: 5069-L350ERM
   power-ports:
   - allocated_draw: 11
     maximum_draw: 240
@@ -1893,8 +929,282 @@ models:
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l330ermk
+  slug: rockwell-automation-5069-l350erm
   u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L340ERM
+  part_number: 5069-L340ERM
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l340erm
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L85E-NSE
+  part_number: 1756-L85E-NSE
+  slug: rockwell-automation-1756-l85e-nse
+  subdevice_role: child
+  u_height: 0
+- device-bays:
+  - name: Power Supply
+  - name: Slot 0
+  - name: Slot 1
+  - name: Slot 2
+  - name: Slot 3
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Rack - 4 Slot
+  part_number: 1756-a4
+  slug: rockwell-automation-1756-a4
+  subdevice_role: parent
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS06TA
+  part_number: 1783-BMS06TA
+  power-ports:
+  - allocated_draw: 10
+    maximum_draw: 15
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 10
+    maximum_draw: 15
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms06ta
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L340ER
+  part_number: 5069-L340ER
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l340er
+  u_height: 3
+- device-bays:
+  - name: Power Supply
+  - name: Slot 0
+  - name: Slot 1
+  - name: Slot 2
+  - name: Slot 3
+  - name: Slot 4
+  - name: Slot 5
+  - name: Slot 6
+  - name: Slot 7
+  - name: Slot 8
+  - name: Slot 9
+  - name: Slot 10
+  - name: Slot 11
+  - name: Slot 12
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Rack - 13 Slot
+  part_number: 1756-A13
+  slug: rockwell-automation-1756-a13
+  subdevice_role: parent
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  - name: B1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5480 L4100ERMW
+  part_number: 5069-L4100ERMW
+  power-ports:
+  - allocated_draw: 72
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 72
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l4100ermw
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L330ERMS2
+  part_number: 5069-L330ERMS2
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l330erms2
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: GuardLogix 5580 L83ESK
+  part_number: 1756-L83ESK
+  slug: rockwell-automation-1756-l83esk
+  subdevice_role: child
+  u_height: 0
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L81EP
+  part_number: 1756-L81EP
+  slug: rockwell-automation-1756-l81ep
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L310ERS2
+  part_number: 5069-L310ERS2
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l310ers2
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/4
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/5
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/6
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/7
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/8
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/9
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/10
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/11
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/12
+    type: 1000base-x-sfp
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-HMS8SG4CGR
+  part_number: 1783-HMS8SG4CGR
+  power-ports:
+  - allocated_draw: 42
+    maximum_draw: 120
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 42
+    maximum_draw: 120
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-hms8sg4cgr
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: GuardLogix 5580 L84ES
+  part_number: 1756-L84ES
+  slug: rockwell-automation-1756-l84es
+  subdevice_role: child
+  u_height: 0
 - console-ports:
   - name: usb
     type: usb-b
@@ -1916,30 +1226,8 @@ models:
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l350ermk
+  slug: rockwell-automation-5069-l350ermk
   u_height: 3
-- interfaces:
-  - name: A1
-    type: 100base-tx
-  - name: A2
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Ethernet PRP Adapter (EN2TP)
-  part_number: 1756-EN2TP
-  slug: 1756-en2tp
-  subdevice_role: child
-  u_height: 0
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L85EK
-  part_number: 1756-L85EK
-  slug: 1756-l85ek
-  subdevice_role: child
-  u_height: 0
 - console-ports:
   - name: usb
     type: usb-b
@@ -1961,51 +1249,16 @@ models:
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l310erms3
+  slug: rockwell-automation-5069-l310erms3
   u_height: 3
 - interfaces:
   - name: A1
     type: 1000base-t
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L83E
-  part_number: 1756-L83E
-  slug: 1756-l83e
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L330ERMS3
-  part_number: 5069-L330ERMS3
-  power-ports:
-  - allocated_draw: 18
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 18
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l330erms3
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 100base-tx
-  - name: A2
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Ethernet Adapter (EN3TR)
-  part_number: 1756-EN3TR
-  slug: 1756-en3tr
+  model: ControlLogix 5580 L82EK
+  part_number: 1756-L82EK
+  slug: rockwell-automation-1756-l82ek
   subdevice_role: child
   u_height: 0
 - console-ports:
@@ -2041,331 +1294,7 @@ models:
     maximum_draw: 15
     name: Pwr-B
     type: dc-terminal
-  slug: 1783-bms06sga
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/4
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/5
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/6
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/7
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/8
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/9
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/10
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/11
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/12
-    type: 1000base-x-sfp
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-HMS8SG4CGN
-  part_number: 1783-HMS8SG4CGN
-  power-ports:
-  - allocated_draw: 42
-    maximum_draw: 120
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 42
-    maximum_draw: 120
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-hms8sg4cgn
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L310ER
-  part_number: 5069-L310ER
-  power-ports:
-  - allocated_draw: 11
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l310er
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L320ERMS3
-  part_number: 5069-L320ERMS3
-  power-ports:
-  - allocated_draw: 18
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 18
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l320erms3
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Compute - Linux
-  part_number: 1756-CMS1C1
-  slug: 1756-cms1c1
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L380ERMS2
-  part_number: 5069-L380ERMS2
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l380erms2
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: GigabitEthernet1/5
-    type: 1000base-t
-  - name: GigabitEthernet1/6
-    type: 1000base-t
-  - name: GigabitEthernet1/7
-    type: 1000base-t
-  - name: GigabitEthernet1/8
-    type: 1000base-t
-  - name: GigabitEthernet1/9
-    type: 1000base-t
-  - name: GigabitEthernet1/10
-    type: 1000base-t
-  - name: GigabitEthernet1/11
-    type: 1000base-t
-  - name: GigabitEthernet1/12
-    type: 1000base-t
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-HMS4EG8CGN
-  part_number: 1783-HMS4EG8CGN
-  power-ports:
-  - allocated_draw: 164
-    maximum_draw: 224
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 164
-    maximum_draw: 224
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-hms4eg8cgn
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS06SL
-  part_number: 1783-BMS06SL
-  power-ports:
-  - allocated_draw: 10
-    maximum_draw: 15
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 10
-    maximum_draw: 15
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms06sl
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L330ER
-  part_number: 5069-L330ER
-  power-ports:
-  - allocated_draw: 11
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l330er
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS06SA
-  part_number: 1783-BMS06SA
-  power-ports:
-  - allocated_draw: 10
-    maximum_draw: 15
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 10
-    maximum_draw: 15
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms06sa
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L310ERS2
-  part_number: 5069-L310ERS2
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l310ers2
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L82EK
-  part_number: 1756-L82EK
-  slug: 1756-l82ek
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L350ERMS3
-  part_number: 5069-L350ERMS3
-  power-ports:
-  - allocated_draw: 18
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 18
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l350erms3
+  slug: rockwell-automation-1783-bms06sga
   u_height: 3
 - interfaces:
   - name: A1
@@ -2374,9 +1303,64 @@ models:
   manufacturer: Rockwell Automation
   model: ControlLogix 5580 L82E-NSE
   part_number: 1756-L82E-NSE
-  slug: 1756-l82e-nse
+  slug: rockwell-automation-1756-l82e-nse
   subdevice_role: child
   u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: GigabitEthernet1/5
+    type: 1000base-t
+  - name: GigabitEthernet1/6
+    type: 1000base-t
+  - name: GigabitEthernet1/7
+    type: 1000base-t
+  - name: GigabitEthernet1/8
+    type: 1000base-t
+  - name: GigabitEthernet1/9
+    type: 1000base-t
+  - name: GigabitEthernet1/10
+    type: 1000base-t
+  - name: GigabitEthernet1/11
+    type: 1000base-t
+  - name: GigabitEthernet1/12
+    type: 1000base-t
+  - name: GigabitEthernet1/13
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/14
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/15
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/16
+    type: 1000base-x-sfp
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-HMS4SG8EG4CGN
+  part_number: 1783-HMS4SG8EG4CGN
+  power-ports:
+  - allocated_draw: 164
+    maximum_draw: 224
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 164
+    maximum_draw: 224
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-hms4sg8eg4cgn
+  u_height: 3
 - console-ports:
   - name: usb
     type: usb-b
@@ -2398,72 +1382,18 @@ models:
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l340erms2
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS10CGA
-  part_number: 1783-BMS10CGA
-  power-ports:
-  - allocated_draw: 13
-    maximum_draw: 17
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 13
-    maximum_draw: 17
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms10cga
-  u_height: 3
-- device-bays:
-  - name: Power Supply
-  - name: Slot 0
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Rack K - 4 Slot
-  part_number: 1756-A4K
-  slug: 1756-a4k
-  subdevice_role: parent
+  slug: rockwell-automation-5069-l340erms2
   u_height: 3
 - interfaces:
   - name: A1
     type: 100base-tx
+  - name: A2
+    type: 100base-tx
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: ControlLogix Fiber Ethernet Adapter (EN2F)
-  part_number: 1756-EN2F
-  slug: 1756-en2f
+  model: ControlLogix Ethernet PRP Adapter (EN2TP)
+  part_number: 1756-EN2TP
+  slug: rockwell-automation-1756-en2tp
   subdevice_role: child
   u_height: 0
 - console-ports:
@@ -2476,97 +1406,8 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L320ERMS2
-  part_number: 5069-L320ERMS2
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l320erms2
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: Compact 5000 I/O Ethernet Adapter (AENTR)
-  part_number: 5069-AENTR
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-aentr
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS10CGL
-  part_number: 1783-BMS10CGL
-  power-ports:
-  - allocated_draw: 13
-    maximum_draw: 17
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 13
-    maximum_draw: 17
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms10cgl
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L306ERM
-  part_number: 5069-L306ERM
+  model: CompactLogix 5380 L320ERM
+  part_number: 5069-L320ERM
   power-ports:
   - allocated_draw: 11
     maximum_draw: 240
@@ -2576,132 +1417,7 @@ models:
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l306erm
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: GigabitEthernet1/5
-    type: 1000base-t
-  - name: GigabitEthernet1/6
-    type: 100base-tx
-  - name: GigabitEthernet1/7
-    type: 1000base-t
-  - name: GigabitEthernet1/8
-    type: 1000base-t
-  - name: GigabitEthernet1/9
-    type: 1000base-t
-  - name: GigabitEthernet1/10
-    type: 1000base-t
-  - name: GigabitEthernet1/11
-    type: 1000base-t
-  - name: GigabitEthernet1/12
-    type: 1000base-t
-  - name: GigabitEthernet1/13
-    type: 1000base-t
-  - name: GigabitEthernet1/14
-    type: 1000base-t
-  - name: GigabitEthernet1/15
-    type: 1000base-t
-  - name: GigabitEthernet1/16
-    type: 1000base-t
-  - name: GigabitEthernet1/17
-    type: 1000base-t
-  - name: GigabitEthernet1/18
-    type: 1000base-t
-  - name: GigabitEthernet1/19
-    type: 1000base-t
-  - name: GigabitEthernet1/20
-    type: 1000base-t
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-HMS8TG8EG4CGN
-  part_number: 1783-HMS8TG8EG4CGN
-  power-ports:
-  - allocated_draw: 164
-    maximum_draw: 224
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 164
-    maximum_draw: 224
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-hms8tg8ge4cgn
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L81E-NSE
-  part_number: 1756-L81E-NSE
-  slug: 1756-l81e-nse
-  subdevice_role: child
-  u_height: 0
-- device-bays:
-  - name: Power Supply
-  - name: Slot 0
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  - name: Slot 4
-  - name: Slot 5
-  - name: Slot 6
-  - name: Slot 7
-  - name: Slot 8
-  - name: Slot 9
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Rack K - 10 Slot
-  part_number: 1756-A10K
-  slug: 1756-a10k
-  subdevice_role: parent
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L84E
-  part_number: 1756-L84E
-  slug: 1756-l84e
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L350ERS2
-  part_number: 5069-L350ERS2
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l350ers2
+  slug: rockwell-automation-5069-l320erm
   u_height: 3
 - console-ports:
   - name: usb
@@ -2713,8 +1429,8 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L3100ERM
-  part_number: 5069-L3100ERM
+  model: CompactLogix 5380 L330ERM
+  part_number: 5069-L330ERM
   power-ports:
   - allocated_draw: 11
     maximum_draw: 240
@@ -2724,7 +1440,30 @@ models:
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l3100erm
+  slug: rockwell-automation-5069-l330erm
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L350ERMS2K
+  part_number: 5069-L350ERMS2K
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l350erms2k
   u_height: 3
 - device-bays:
   - name: Power Supply
@@ -2743,10 +1482,126 @@ models:
   - name: Slot 12
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: ControlLogix Rack - 13 Slot
-  part_number: 1756-A13
-  slug: 1756-a13
+  model: ControlLogix Rack K - 13 Slot
+  part_number: 1756-A13K
+  slug: rockwell-automation-1756-a13k
   subdevice_role: parent
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L330ERMS3K
+  part_number: 5069-L330ERMS3K
+  power-ports:
+  - allocated_draw: 18
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 18
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l330erms3k
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L320ERMK
+  part_number: 5069-L320ERMK
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l320ermk
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: GigabitEthernet1/5
+    type: 1000base-t
+  - name: GigabitEthernet1/6
+    type: 1000base-t
+  - name: GigabitEthernet1/7
+    type: 1000base-t
+  - name: GigabitEthernet1/8
+    type: 1000base-t
+  - name: GigabitEthernet1/9
+    type: 1000base-t
+  - name: GigabitEthernet1/10
+    type: 1000base-t
+  - name: GigabitEthernet1/11
+    type: 1000base-t
+  - name: GigabitEthernet1/12
+    type: 1000base-t
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-HMS8TG4CGR
+  part_number: 1783-HMS8TG4CGR
+  power-ports:
+  - allocated_draw: 35
+    maximum_draw: 89
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 35
+    maximum_draw: 89
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-hms8tg4cgr
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L3100ERMS2
+  part_number: 5069-L3100ERMS2
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l3100erms2
   u_height: 3
 - console-ports:
   - name: usb
@@ -2809,7 +1664,1381 @@ models:
     maximum_draw: 224
     name: Pwr-B
     type: dc-terminal
-  slug: 1783-hms8tg8ge4cgr
+  slug: rockwell-automation-1783-hms8tg8eg4cgr
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L306ERM
+  part_number: 5069-L306ERM
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l306erm
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L85EP
+  part_number: 1756-L85EP
+  slug: rockwell-automation-1756-l85ep
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS06SA
+  part_number: 1783-BMS06SA
+  power-ports:
+  - allocated_draw: 10
+    maximum_draw: 15
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 10
+    maximum_draw: 15
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms06sa
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: GuardLogix 5580 L81ESK
+  part_number: 1756-L81ESK
+  slug: rockwell-automation-1756-l81esk
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L380ERM
+  part_number: 5069-L380ERM
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l380erm
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L320ERS2K
+  part_number: 5069-L320ERS2K
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l320ers2k
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: GuardLogix 5580 L82ES
+  part_number: 1756-L82ES
+  slug: rockwell-automation-1756-l82es
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS06SGL
+  part_number: 1783-BMS06SGL
+  power-ports:
+  - allocated_draw: 10
+    maximum_draw: 15
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 10
+    maximum_draw: 15
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms06sgl
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L3100ERMS3
+  part_number: 5069-L3100ERMS3
+  power-ports:
+  - allocated_draw: 18
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 18
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l3100erms3
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS10CGN
+  part_number: 1783-BMS10CGN
+  power-ports:
+  - allocated_draw: 15
+    maximum_draw: 20
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 15
+    maximum_draw: 20
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms10cgn
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L84E-NSE
+  part_number: 1756-L84E-NSE
+  slug: rockwell-automation-1756-l84e-nse
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: GigabitEthernet1/5
+    type: 1000base-t
+  - name: GigabitEthernet1/6
+    type: 1000base-t
+  - name: GigabitEthernet1/7
+    type: 1000base-t
+  - name: GigabitEthernet1/8
+    type: 1000base-t
+  - name: GigabitEthernet1/9
+    type: 1000base-t
+  - name: GigabitEthernet1/10
+    type: 1000base-t
+  - name: GigabitEthernet1/11
+    type: 1000base-t
+  - name: GigabitEthernet1/12
+    type: 1000base-t
+  - name: GigabitEthernet1/13
+    type: 1000base-t
+  - name: GigabitEthernet1/14
+    type: 1000base-t
+  - name: GigabitEthernet1/15
+    type: 1000base-t
+  - name: GigabitEthernet1/16
+    type: 1000base-t
+  - name: GigabitEthernet1/17
+    type: 1000base-t
+  - name: GigabitEthernet1/18
+    type: 1000base-t
+  - name: GigabitEthernet1/19
+    type: 1000base-t
+  - name: GigabitEthernet1/20
+    type: 1000base-t
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-HMS16TG4CGR
+  part_number: 1783-HMS16TG4CGR
+  power-ports:
+  - allocated_draw: 40
+    maximum_draw: 104
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 40
+    maximum_draw: 104
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-hms16tg4cgr
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS06SL
+  part_number: 1783-BMS06SL
+  power-ports:
+  - allocated_draw: 10
+    maximum_draw: 15
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 10
+    maximum_draw: 15
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms06sl
+  u_height: 3
+- device-bays:
+  - name: Power Supply
+  - name: Slot 0
+  - name: Slot 1
+  - name: Slot 2
+  - name: Slot 3
+  - name: Slot 4
+  - name: Slot 5
+  - name: Slot 6
+  - name: Slot 7
+  - name: Slot 8
+  - name: Slot 9
+  - name: Slot 10
+  - name: Slot 11
+  - name: Slot 12
+  - name: Slot 13
+  - name: Slot 14
+  - name: Slot 15
+  - name: Slot 16
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Rack K - 17 Slot
+  part_number: 1756-A17K
+  slug: rockwell-automation-1756-a17k
+  subdevice_role: parent
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L340ERMS3
+  part_number: 5069-L340ERMS3
+  power-ports:
+  - allocated_draw: 18
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 18
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l340erms3
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Fiber Ethernet Adapter (EN2F)
+  part_number: 1756-EN2F
+  slug: rockwell-automation-1756-en2f
+  subdevice_role: child
+  u_height: 0
+- device-bays:
+  - name: Power Supply
+  - name: Slot 0
+  - name: Slot 1
+  - name: Slot 2
+  - name: Slot 3
+  - name: Slot 4
+  - name: Slot 5
+  - name: Slot 6
+  - name: Slot 7
+  - name: Slot 8
+  - name: Slot 9
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Rack XT - 10 Slot
+  part_number: 1756-A10XT
+  slug: rockwell-automation-1756-a10xt
+  subdevice_role: parent
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L310ERMS2
+  part_number: 5069-L310ERMS2
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l310erms2
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L310ER-NSE
+  part_number: 5069-L310ER-NSE
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l310er-nse
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L320ER
+  part_number: 5069-L320ER
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l320er
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: FastEthernet1/11
+    type: 100base-tx
+  - name: FastEthernet1/12
+    type: 100base-tx
+  - name: FastEthernet1/13
+    type: 100base-tx
+  - name: FastEthernet1/14
+    type: 100base-tx
+  - name: FastEthernet1/15
+    type: 100base-tx
+  - name: FastEthernet1/16
+    type: 100base-tx
+  - name: FastEthernet1/17
+    type: 100base-tx
+  - name: FastEthernet1/18
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS20CGPK
+  part_number: 1783-BMS20CGPK
+  power-ports:
+  - allocated_draw: 21
+    maximum_draw: 30
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 21
+    maximum_draw: 30
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms20cgpk
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/4
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/5
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/6
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/7
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/8
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/9
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/10
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/11
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/12
+    type: 1000base-x-sfp
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-HMS8SG4CGN
+  part_number: 1783-HMS8SG4CGN
+  power-ports:
+  - allocated_draw: 42
+    maximum_draw: 120
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 42
+    maximum_draw: 120
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-hms8sg4cgn
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L85EK
+  part_number: 1756-L85EK
+  slug: rockwell-automation-1756-l85ek
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS06TGA
+  part_number: 1783-BMS06TGA
+  power-ports:
+  - allocated_draw: 10
+    maximum_draw: 15
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 10
+    maximum_draw: 15
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms06tga
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 100base-tx
+  - name: A2
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Ethernet Adapter (EN2TR)
+  part_number: 1756-EN2TR
+  slug: rockwell-automation-1756-en2tr
+  subdevice_role: child
+  u_height: 0
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L81E-NSE
+  part_number: 1756-L81E-NSE
+  slug: rockwell-automation-1756-l81e-nse
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS10CGA
+  part_number: 1783-BMS10CGA
+  power-ports:
+  - allocated_draw: 13
+    maximum_draw: 17
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 13
+    maximum_draw: 17
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms10cga
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L380ERS2
+  part_number: 5069-L380ERS2
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l380ers2
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L320ERMS2
+  part_number: 5069-L320ERMS2
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l320erms2
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS10CL
+  part_number: 1783-BMS10CL
+  power-ports:
+  - allocated_draw: 13
+    maximum_draw: 17
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 13
+    maximum_draw: 17
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms10cl
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: FastEthernet1/11
+    type: 100base-tx
+  - name: FastEthernet1/12
+    type: 100base-tx
+  - name: FastEthernet1/13
+    type: 100base-tx
+  - name: FastEthernet1/14
+    type: 100base-tx
+  - name: FastEthernet1/15
+    type: 100base-tx
+  - name: FastEthernet1/16
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-HMS4S8E4CGN
+  part_number: 1783-HMS4S8E4CGN
+  power-ports:
+  - allocated_draw: 164
+    maximum_draw: 224
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 164
+    maximum_draw: 224
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-hms4s8e4cgn
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 100base-tx
+  - name: A2
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Ethernet Adapter K (EN3TR)
+  part_number: 1756-EN3TRK
+  slug: rockwell-automation-1756-en3trk
+  subdevice_role: child
+  u_height: 0
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L85E
+  part_number: 1756-L85E
+  slug: rockwell-automation-1756-l85e
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: VLAN0
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS4S2SGL
+  part_number: 1783-BMS4S2SGL
+  power-ports:
+  - allocated_draw: 13
+    maximum_draw: 14
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 13
+    maximum_draw: 14
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms4s2sgl
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Ethernet Adapter K (EN2TK)
+  part_number: 1756-EN2TK
+  slug: rockwell-automation-1756-en2tk
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L350ERS2
+  part_number: 5069-L350ERS2
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l350ers2
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L81E
+  part_number: 1756-L81E
+  slug: rockwell-automation-1756-l81e
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS10CGL
+  part_number: 1783-BMS10CGL
+  power-ports:
+  - allocated_draw: 13
+    maximum_draw: 17
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 13
+    maximum_draw: 17
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms10cgl
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: GuardLogix 5580 L84ESK
+  part_number: 1756-L84ESK
+  slug: rockwell-automation-1756-l84esk
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L3100ERM
+  part_number: 5069-L3100ERM
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l3100erm
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: GigabitEthernet1/5
+    type: 1000base-t
+  - name: GigabitEthernet1/6
+    type: 1000base-t
+  - name: GigabitEthernet1/7
+    type: 1000base-t
+  - name: GigabitEthernet1/8
+    type: 1000base-t
+  - name: GigabitEthernet1/9
+    type: 1000base-t
+  - name: GigabitEthernet1/10
+    type: 1000base-t
+  - name: GigabitEthernet1/11
+    type: 1000base-t
+  - name: GigabitEthernet1/12
+    type: 1000base-t
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-HMS4EG8CGR
+  part_number: 1783-HMS4EG8CGR
+  power-ports:
+  - allocated_draw: 164
+    maximum_draw: 224
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 164
+    maximum_draw: 224
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-hms4eg8cgr
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Ethernet Adapter (ENBT)
+  part_number: 1756-ENBT
+  slug: rockwell-automation-1756-enbt
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS06TGL
+  part_number: 1783-BMS06TGL
+  power-ports:
+  - allocated_draw: 10
+    maximum_draw: 15
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 10
+    maximum_draw: 15
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms06tgl
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 100base-tx
+  - name: A2
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Ethernet Adapter K (EN2TR)
+  part_number: 1756-EN2TRK
+  slug: rockwell-automation-1756-en2trk
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L340ERP
+  part_number: 5069-L340ERP
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l340erp
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Compute - Linux
+  part_number: 1756-CMS1C1
+  slug: rockwell-automation-1756-cms1c1
+  subdevice_role: child
+  u_height: 0
+- device-bays:
+  - name: Power Supply
+  - name: Slot 0
+  - name: Slot 1
+  - name: Slot 2
+  - name: Slot 3
+  - name: Slot 4
+  - name: Slot 5
+  - name: Slot 6
+  - name: Slot 7
+  - name: Slot 8
+  - name: Slot 9
+  - name: Slot 10
+  - name: Slot 11
+  - name: Slot 12
+  - name: Slot 13
+  - name: Slot 14
+  - name: Slot 15
+  - name: Slot 16
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Rack - 17 Slot
+  part_number: 1756-A17
+  slug: rockwell-automation-1756-a17
+  subdevice_role: parent
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L320ERMS3
+  part_number: 5069-L320ERMS3
+  power-ports:
+  - allocated_draw: 18
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 18
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l320erms3
+  u_height: 3
+- device-bays:
+  - name: Power Supply
+  - name: Slot 0
+  - name: Slot 1
+  - name: Slot 2
+  - name: Slot 3
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Rack K - 4 Slot
+  part_number: 1756-A4K
+  slug: rockwell-automation-1756-a4k
+  subdevice_role: parent
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: FastEthernet1/11
+    type: 100base-tx
+  - name: FastEthernet1/12
+    type: 100base-tx
+  - name: FastEthernet1/13
+    type: 100base-tx
+  - name: FastEthernet1/14
+    type: 100base-tx
+  - name: FastEthernet1/15
+    type: 100base-tx
+  - name: FastEthernet1/16
+    type: 100base-tx
+  - name: FastEthernet1/17
+    type: 100base-tx
+  - name: FastEthernet1/18
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS20CGP
+  part_number: 1783-BMS20CGP
+  power-ports:
+  - allocated_draw: 21
+    maximum_draw: 30
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 21
+    maximum_draw: 30
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms20cgp
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L330ER
+  part_number: 5069-L330ER
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l330er
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Web Module
+  part_number: 1756-EWEB
+  slug: rockwell-automation-controllogix-web-module
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: FastEthernet1/11
+    type: 100base-tx
+  - name: FastEthernet1/12
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-HMS8S4CGN
+  part_number: 1783-HMS8S4CGN
+  power-ports:
+  - allocated_draw: 42
+    maximum_draw: 120
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 42
+    maximum_draw: 120
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-hms8s4cgn
   u_height: 3
 - console-ports:
   - name: usb
@@ -2832,7 +3061,107 @@ models:
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l330ers2
+  slug: rockwell-automation-5069-l330ers2
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS4S2SGA
+  part_number: 1783-BMS4S2SGA
+  power-ports:
+  - allocated_draw: 13
+    maximum_draw: 14
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 13
+    maximum_draw: 14
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms4s2sga
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Ethernet Adapter K (ENBT)
+  part_number: 1756-ENBTK
+  slug: rockwell-automation-1756-enbtk
+  subdevice_role: child
+  u_height: 0
+- interfaces:
+  - name: A1
+    type: 100base-tx
+  - name: A2
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Ethernet PRP Adapter K (EN2TP)
+  part_number: 1756-EN2TPK
+  slug: rockwell-automation-1756-en2tpk
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS10CA
+  part_number: 1783-BMS10CA
+  power-ports:
+  - allocated_draw: 13
+    maximum_draw: 17
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 13
+    maximum_draw: 17
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms10ca
   u_height: 3
 - console-ports:
   - name: usb
@@ -2844,8 +3173,31 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L320ERM
-  part_number: 5069-L320ERM
+  model: CompactGuardLogix 5380 L320ERMS2K
+  part_number: 5069-L320ERMS2K
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l320erms2k
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L306ER
+  part_number: 5069-L306ER
   power-ports:
   - allocated_draw: 11
     maximum_draw: 240
@@ -2855,7 +3207,772 @@ models:
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l320erm
+  slug: rockwell-automation-5069-l306er
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: FastEthernet1/11
+    type: 100base-tx
+  - name: FastEthernet1/12
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-HMS4T4E4CGN
+  part_number: 1783-HMS4T4E4CGN
+  power-ports:
+  - allocated_draw: 35
+    maximum_draw: 193
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 35
+    maximum_draw: 193
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-hms4t4e4cgn
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L83E
+  part_number: 1756-L83E
+  slug: rockwell-automation-1756-l83e
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: FastEthernet1/11
+    type: 100base-tx
+  - name: FastEthernet1/12
+    type: 100base-tx
+  - name: FastEthernet1/13
+    type: 100base-tx
+  - name: FastEthernet1/14
+    type: 100base-tx
+  - name: FastEthernet1/15
+    type: 100base-tx
+  - name: FastEthernet1/16
+    type: 100base-tx
+  - name: FastEthernet1/17
+    type: 100base-tx
+  - name: FastEthernet1/18
+    type: 100base-tx
+  - name: FastEthernet1/19
+    type: 100base-tx
+  - name: FastEthernet1/20
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS20CL
+  part_number: 1783-BMS20CL
+  power-ports:
+  - allocated_draw: 21
+    maximum_draw: 30
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 21
+    maximum_draw: 30
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms20cl
+  u_height: 3
+- device-bays:
+  - name: Power Supply
+  - name: Slot 0
+  - name: Slot 1
+  - name: Slot 2
+  - name: Slot 3
+  - name: Slot 4
+  - name: Slot 5
+  - name: Slot 6
+  - name: Slot 7
+  - name: Slot 8
+  - name: Slot 9
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Rack - 10 Slot
+  part_number: 1756-A10
+  slug: rockwell-automation-1756-a10
+  subdevice_role: parent
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L380ERMS3
+  part_number: 5069-L380ERMS3
+  power-ports:
+  - allocated_draw: 18
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 18
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l380erms3
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L330ERS2K
+  part_number: 5069-L330ERS2K
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l330ers2k
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L320ERP
+  part_number: 5069-L320ERP
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l320erp
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: GuardLogix 5580 L81ES
+  part_number: 1756-L81ES
+  slug: rockwell-automation-1756-l81es
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L306ERMS3
+  part_number: 5069-L306ERMS3
+  power-ports:
+  - allocated_draw: 18
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 18
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l306erms3
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: GigabitEthernet1/5
+    type: 1000base-t
+  - name: GigabitEthernet1/6
+    type: 1000base-t
+  - name: GigabitEthernet1/7
+    type: 1000base-t
+  - name: GigabitEthernet1/8
+    type: 1000base-t
+  - name: GigabitEthernet1/9
+    type: 1000base-t
+  - name: GigabitEthernet1/10
+    type: 1000base-t
+  - name: GigabitEthernet1/11
+    type: 1000base-t
+  - name: GigabitEthernet1/12
+    type: 1000base-t
+  - name: GigabitEthernet1/13
+    type: 1000base-t
+  - name: GigabitEthernet1/14
+    type: 1000base-t
+  - name: GigabitEthernet1/15
+    type: 1000base-t
+  - name: GigabitEthernet1/16
+    type: 1000base-t
+  - name: GigabitEthernet1/17
+    type: 1000base-t
+  - name: GigabitEthernet1/18
+    type: 1000base-t
+  - name: GigabitEthernet1/19
+    type: 1000base-t
+  - name: GigabitEthernet1/20
+    type: 1000base-t
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-HMS16TG4CGN
+  part_number: 1783-HMS16TG4CGN
+  power-ports:
+  - allocated_draw: 40
+    maximum_draw: 104
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 40
+    maximum_draw: 104
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-hms16tg4cgn
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L84E
+  part_number: 1756-L84E
+  slug: rockwell-automation-1756-l84e
+  subdevice_role: child
+  u_height: 0
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: FastEthernet1/11
+    type: 100base-tx
+  - name: FastEthernet1/12
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-HMS8T4CGN
+  part_number: 1783-HMS8T4CGN
+  power-ports:
+  - allocated_draw: 35
+    maximum_draw: 89
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 35
+    maximum_draw: 89
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-hms8t4cgn
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L350ERMS3
+  part_number: 5069-L350ERMS3
+  power-ports:
+  - allocated_draw: 18
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 18
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l350erms3
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  - name: B1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5480 L430ERMW
+  part_number: 5069-L430ERMW
+  power-ports:
+  - allocated_draw: 72
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 72
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l430ermw
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  - name: B1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5480 L4200ERMW
+  part_number: 5069-L4200ERMW
+  power-ports:
+  - allocated_draw: 72
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 72
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l4200ermw
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactLogix 5380 L310ER
+  part_number: 5069-L310ER
+  power-ports:
+  - allocated_draw: 11
+    maximum_draw: 240
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l310er
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L3100ERS2
+  part_number: 5069-L3100ERS2
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l3100ers2
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L340ERS2
+  part_number: 5069-L340ERS2
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l340ers2
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: FastEthernet1/11
+    type: 100base-tx
+  - name: FastEthernet1/12
+    type: 100base-tx
+  - name: FastEthernet1/13
+    type: 100base-tx
+  - name: FastEthernet1/14
+    type: 100base-tx
+  - name: FastEthernet1/15
+    type: 100base-tx
+  - name: FastEthernet1/16
+    type: 100base-tx
+  - name: FastEthernet1/17
+    type: 100base-tx
+  - name: FastEthernet1/18
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-BMS20CGN
+  part_number: 1783-BMS20CGN
+  power-ports:
+  - allocated_draw: 21
+    maximum_draw: 30
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 21
+    maximum_draw: 30
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-bms20cgn
+  u_height: 3
+- device-bays:
+  - name: Power Supply
+  - name: Slot 0
+  - name: Slot 1
+  - name: Slot 2
+  - name: Slot 3
+  - name: Slot 4
+  - name: Slot 5
+  - name: Slot 6
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Rack - 7 Slot
+  part_number: 1756-A7
+  slug: rockwell-automation-1756-a7
+  subdevice_role: parent
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Ethernet Adapter (EN4TR)
+  part_number: 1756-EN4TR
+  slug: rockwell-automation-1756-en4tr
+  subdevice_role: child
+  u_height: 0
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L83EK
+  part_number: 1756-L83EK
+  slug: rockwell-automation-1756-l83ek
+  subdevice_role: child
+  u_height: 0
+- device-bays:
+  - name: Power Supply
+  - name: Slot 0
+  - name: Slot 1
+  - name: Slot 2
+  - name: Slot 3
+  - name: Slot 4
+  - name: Slot 5
+  - name: Slot 6
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Rack K - 7 Slot
+  part_number: 1756-a7k
+  slug: rockwell-automation-1756-a7k
+  subdevice_role: parent
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: GigabitEthernet1/5
+    type: 1000base-t
+  - name: GigabitEthernet1/6
+    type: 100base-tx
+  - name: GigabitEthernet1/7
+    type: 1000base-t
+  - name: GigabitEthernet1/8
+    type: 1000base-t
+  - name: GigabitEthernet1/9
+    type: 1000base-t
+  - name: GigabitEthernet1/10
+    type: 1000base-t
+  - name: GigabitEthernet1/11
+    type: 1000base-t
+  - name: GigabitEthernet1/12
+    type: 1000base-t
+  - name: GigabitEthernet1/13
+    type: 1000base-t
+  - name: GigabitEthernet1/14
+    type: 1000base-t
+  - name: GigabitEthernet1/15
+    type: 1000base-t
+  - name: GigabitEthernet1/16
+    type: 1000base-t
+  - name: GigabitEthernet1/17
+    type: 1000base-t
+  - name: GigabitEthernet1/18
+    type: 1000base-t
+  - name: GigabitEthernet1/19
+    type: 1000base-t
+  - name: GigabitEthernet1/20
+    type: 1000base-t
+  - name: SVI1
+    type: virtual
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: 1783-HMS8TG8EG4CGN
+  part_number: 1783-HMS8TG8EG4CGN
+  power-ports:
+  - allocated_draw: 164
+    maximum_draw: 224
+    name: Pwr-A
+    type: dc-terminal
+  - allocated_draw: 164
+    maximum_draw: 224
+    name: Pwr-B
+    type: dc-terminal
+  slug: rockwell-automation-1783-hms8tg8eg4cgn
+  u_height: 3
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L81EK
+  part_number: 1756-L81EK
+  slug: rockwell-automation-1756-l81ek
+  subdevice_role: child
+  u_height: 0
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix 5580 L82E
+  part_number: 1756-L82E
+  slug: rockwell-automation-1756-l82e
+  subdevice_role: child
+  u_height: 0
+- device-bays:
+  - name: Power Supply
+  - name: Slot 0
+  - name: Slot 1
+  - name: Slot 2
+  - name: Slot 3
+  - name: Slot 4
+  - name: Slot 5
+  - name: Slot 6
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: ControlLogix Rack XT - 7 Slot
+  part_number: 1756-A7XT
+  slug: rockwell-automation-1756-a7xt
+  subdevice_role: parent
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L320ERMS3K
+  part_number: 5069-L320ERMS3K
+  power-ports:
+  - allocated_draw: 18
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 18
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l320erms3k
+  u_height: 3
+- console-ports:
+  - name: usb
+    type: usb-b
+  interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: CompactGuardLogix 5380 L350ERMS2
+  part_number: 5069-L350ERMS2
+  power-ports:
+  - allocated_draw: 9
+    maximum_draw: 120
+    name: MOD
+    type: dc-terminal
+  - allocated_draw: 9
+    maximum_draw: 240
+    name: SA
+    type: dc-terminal
+  slug: rockwell-automation-5069-l350erms2
   u_height: 3
 - console-ports:
   - name: usb
@@ -2918,424 +4035,7 @@ models:
     maximum_draw: 30
     name: Pwr-B
     type: dc-terminal
-  slug: 1783-bms20ca
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS06TGL
-  part_number: 1783-BMS06TGL
-  power-ports:
-  - allocated_draw: 10
-    maximum_draw: 15
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 10
-    maximum_draw: 15
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms06tgl
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Ethernet Adapter (EN2T)
-  part_number: 1756-EN2T
-  slug: 1756-en2t
-  subdevice_role: child
-  u_height: 0
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: GuardLogix 5580 L84ES
-  part_number: 1756-L84ES
-  slug: 1756-l84es
-  subdevice_role: child
-  u_height: 0
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L83EK
-  part_number: 1756-L83EK
-  slug: 1756-l83ek
-  subdevice_role: child
-  u_height: 0
-- interfaces:
-  - name: A1
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Ethernet Adapter K (ENBT)
-  part_number: 1756-ENBTK
-  slug: 1756-enbtk
-  subdevice_role: child
-  u_height: 0
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: GuardLogix 5580 L81ES
-  part_number: 1756-L81ES
-  slug: 1756-l81es
-  subdevice_role: child
-  u_height: 0
-- interfaces:
-  - name: A1
-    type: 100base-tx
-  - name: A2
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Ethernet Adapter K (EN2TR)
-  part_number: 1756-EN2TRK
-  slug: 1756-en2trk
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L320ERS2
-  part_number: 5069-L320ERS2
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l320ers2
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 100base-tx
-  - name: A2
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Ethernet Adapter K (EN3TR)
-  part_number: 1756-EN3TRK
-  slug: 1756-en3trk
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: FastEthernet1/9
-    type: 100base-tx
-  - name: FastEthernet1/10
-    type: 100base-tx
-  - name: FastEthernet1/11
-    type: 100base-tx
-  - name: FastEthernet1/12
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-HMS8T4CGN
-  part_number: 1783-HMS8T4CGN
-  power-ports:
-  - allocated_draw: 35
-    maximum_draw: 89
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 35
-    maximum_draw: 89
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-hms8t4cgn
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L340ERM
-  part_number: 5069-L340ERM
-  power-ports:
-  - allocated_draw: 11
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l340erm
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-HMS4C4CGN
-  part_number: 1783-HMS4C4CGN
-  power-ports:
-  - allocated_draw: 40
-    maximum_draw: 103
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 40
-    maximum_draw: 103
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-hms4c4cgn
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L350ERMS2
-  part_number: 5069-L350ERMS2
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l350erms2
-  u_height: 3
-- device-bays:
-  - name: Power Supply
-  - name: Slot 0
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  - name: Slot 4
-  - name: Slot 5
-  - name: Slot 6
-  - name: Slot 7
-  - name: Slot 8
-  - name: Slot 9
-  - name: Slot 10
-  - name: Slot 11
-  - name: Slot 12
-  - name: Slot 13
-  - name: Slot 14
-  - name: Slot 15
-  - name: Slot 16
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Rack - 17 Slot
-  part_number: 1756-A17
-  slug: 1756-a17
-  subdevice_role: parent
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  - name: B1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5480 L450ERMW
-  part_number: 5069-L450ERMW
-  power-ports:
-  - allocated_draw: 72
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 72
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l450ermw
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: FastEthernet1/9
-    type: 100base-tx
-  - name: FastEthernet1/10
-    type: 100base-tx
-  - name: FastEthernet1/11
-    type: 100base-tx
-  - name: FastEthernet1/12
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-HMS8S4CGN
-  part_number: 1783-HMS8S4CGN
-  power-ports:
-  - allocated_draw: 42
-    maximum_draw: 120
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 42
-    maximum_draw: 120
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-hms8s4cgn
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Ethernet Adapter (ENBT)
-  part_number: 1756-ENBT
-  slug: 1756-enbt
-  subdevice_role: child
-  u_height: 0
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L85E-NSE
-  part_number: 1756-L85E-NSE
-  slug: 1756-l85e-nse
-  subdevice_role: child
-  u_height: 0
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Compute - Windows
-  part_number: 1756-CMS1B1
-  slug: 1756-cms1b1
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L380ERMS3
-  part_number: 5069-L380ERMS3
-  power-ports:
-  - allocated_draw: 18
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 18
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l380erms3
+  slug: rockwell-automation-1783-bms20ca
   u_height: 3
 - console-ports:
   - name: usb
@@ -3367,71 +4067,22 @@ models:
     type: 1000base-t
   - name: GigabitEthernet1/12
     type: 1000base-t
-  - name: GigabitEthernet1/13
-    type: 1000base-t
-  - name: GigabitEthernet1/14
-    type: 1000base-t
-  - name: GigabitEthernet1/15
-    type: 1000base-t
-  - name: GigabitEthernet1/16
-    type: 1000base-t
-  - name: GigabitEthernet1/17
-    type: 1000base-t
-  - name: GigabitEthernet1/18
-    type: 1000base-t
-  - name: GigabitEthernet1/19
-    type: 1000base-t
-  - name: GigabitEthernet1/20
-    type: 1000base-t
   - name: SVI1
     type: virtual
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: 1783-HMS16TG4CGR
-  part_number: 1783-HMS16TG4CGR
+  model: 1783-HMS8TG4CGN
+  part_number: 1783-HMS8TG4CGN
   power-ports:
-  - allocated_draw: 40
-    maximum_draw: 104
+  - allocated_draw: 35
+    maximum_draw: 89
     name: Pwr-A
     type: dc-terminal
-  - allocated_draw: 40
-    maximum_draw: 104
+  - allocated_draw: 35
+    maximum_draw: 89
     name: Pwr-B
     type: dc-terminal
-  slug: 1783-hms16tg4cgr
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L83E-NSE
-  part_number: 1756-L83E-NSE
-  slug: 1756-l83e-nse
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L340ER
-  part_number: 5069-L340ER
-  power-ports:
-  - allocated_draw: 11
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l340er
+  slug: rockwell-automation-1783-hms8tg4cgn
   u_height: 3
 - console-ports:
   - name: usb
@@ -3443,8 +4094,8 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L320ERS2K
-  part_number: 5069-L320ERS2K
+  model: CompactGuardLogix 5380 L320ERS2
+  part_number: 5069-L320ERS2
   power-ports:
   - allocated_draw: 9
     maximum_draw: 120
@@ -3454,85 +4105,7 @@ models:
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l320ers2k
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L83EP
-  part_number: 1756-L83EP
-  slug: 1756-l83ep
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L320ERMK
-  part_number: 5069-L320ERMK
-  power-ports:
-  - allocated_draw: 11
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l320ermk
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L84EK
-  part_number: 1756-L84EK
-  slug: 1756-l84ek
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS06TA
-  part_number: 1783-BMS06TA
-  power-ports:
-  - allocated_draw: 10
-    maximum_draw: 15
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 10
-    maximum_draw: 15
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms06ta
+  slug: rockwell-automation-5069-l320ers2
   u_height: 3
 - console-ports:
   - name: usb
@@ -3544,8 +4117,8 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L350ERS2K
-  part_number: 5069-L350ERS2K
+  model: CompactGuardLogix 5380 L306ERMS2
+  part_number: 5069-L306ERMS2
   power-ports:
   - allocated_draw: 9
     maximum_draw: 120
@@ -3555,128 +4128,7 @@ models:
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l350ers2k
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Ethernet Adapter (EN4TR)
-  part_number: 1756-EN4TR
-  slug: 1756-en4tr
-  subdevice_role: child
-  u_height: 0
-- device-bays:
-  - name: Power Supply
-  - name: Slot 0
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  - name: Slot 4
-  - name: Slot 5
-  - name: Slot 6
-  - name: Slot 7
-  - name: Slot 8
-  - name: Slot 9
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Rack - 10 Slot
-  part_number: 1756-A10
-  slug: 1756-a10
-  subdevice_role: parent
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS10CGN
-  part_number: 1783-BMS10CGN
-  power-ports:
-  - allocated_draw: 15
-    maximum_draw: 20
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 15
-    maximum_draw: 20
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms10cgn
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Ethernet Adapter K (EN4TR)
-  part_number: 1756-EN4TRK
-  slug: 1756-en4trk
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS06SGL
-  part_number: 1783-BMS06SGL
-  power-ports:
-  - allocated_draw: 10
-    maximum_draw: 15
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 10
-    maximum_draw: 15
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms06sgl
+  slug: rockwell-automation-5069-l306erms2
   u_height: 3
 - console-ports:
   - name: usb
@@ -3688,29 +4140,19 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L320ERMS3K
-  part_number: 5069-L320ERMS3K
+  model: CompactGuardLogix 5380 L380ERMS2
+  part_number: 5069-L380ERMS2
   power-ports:
-  - allocated_draw: 18
+  - allocated_draw: 9
     maximum_draw: 120
     name: MOD
     type: dc-terminal
-  - allocated_draw: 18
+  - allocated_draw: 9
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l320erms3k
+  slug: rockwell-automation-5069-l380erms2
   u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L85E
-  part_number: 1756-L85E
-  slug: 1756-l85e
-  subdevice_role: child
-  u_height: 0
 - console-ports:
   - name: usb
     type: usb-mini-b
@@ -3764,198 +4206,7 @@ models:
     maximum_draw: 224
     name: Pwr-B
     type: dc-terminal
-  slug: 1783-hms4sg8ge4cgr
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L81EP
-  part_number: 1756-L81EP
-  slug: 1756-l81ep
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS06TGA
-  part_number: 1783-BMS06TGA
-  power-ports:
-  - allocated_draw: 10
-    maximum_draw: 15
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 10
-    maximum_draw: 15
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms06tga
-  u_height: 3
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: GuardLogix 5580 L82ES
-  part_number: 1756-L82ES
-  slug: 1756-l82es
-  subdevice_role: child
-  u_height: 0
-- interfaces:
-  - name: A1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix 5580 L84E-NSE
-  part_number: 1756-L84E-NSE
-  slug: 1756-l84e-nse
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: FastEthernet1/9
-    type: 100base-tx
-  - name: FastEthernet1/10
-    type: 100base-tx
-  - name: FastEthernet1/11
-    type: 100base-tx
-  - name: FastEthernet1/12
-    type: 100base-tx
-  - name: FastEthernet1/13
-    type: 100base-tx
-  - name: FastEthernet1/14
-    type: 100base-tx
-  - name: FastEthernet1/15
-    type: 100base-tx
-  - name: FastEthernet1/16
-    type: 100base-tx
-  - name: FastEthernet1/17
-    type: 100base-tx
-  - name: FastEthernet1/18
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS20CGL
-  part_number: 1783-BMS20CGL
-  power-ports:
-  - allocated_draw: 21
-    maximum_draw: 30
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 21
-    maximum_draw: 30
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms20cgl
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: FastEthernet1/9
-    type: 100base-tx
-  - name: FastEthernet1/10
-    type: 100base-tx
-  - name: FastEthernet1/11
-    type: 100base-tx
-  - name: FastEthernet1/12
-    type: 100base-tx
-  - name: FastEthernet1/13
-    type: 100base-tx
-  - name: FastEthernet1/14
-    type: 100base-tx
-  - name: FastEthernet1/15
-    type: 100base-tx
-  - name: FastEthernet1/16
-    type: 100base-tx
-  - name: FastEthernet1/17
-    type: 100base-tx
-  - name: FastEthernet1/18
-    type: 100base-tx
-  - name: FastEthernet1/19
-    type: 100base-tx
-  - name: FastEthernet1/20
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-BMS20CL
-  part_number: 1783-BMS20CL
-  power-ports:
-  - allocated_draw: 21
-    maximum_draw: 30
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 21
-    maximum_draw: 30
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-bms20cl
+  slug: rockwell-automation-1783-hms4sg8eg4cgr
   u_height: 3
 - console-ports:
   - name: usb
@@ -3978,281 +4229,28 @@ models:
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l310erm
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L380ERM
-  part_number: 5069-L380ERM
-  power-ports:
-  - allocated_draw: 11
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l380erm
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L320ERMS2K
-  part_number: 5069-L320ERMS2K
-  power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l320erms2k
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: GigabitEthernet1/5
-    type: 1000base-t
-  - name: GigabitEthernet1/6
-    type: 1000base-t
-  - name: GigabitEthernet1/7
-    type: 1000base-t
-  - name: GigabitEthernet1/8
-    type: 1000base-t
-  - name: GigabitEthernet1/9
-    type: 1000base-t
-  - name: GigabitEthernet1/10
-    type: 1000base-t
-  - name: GigabitEthernet1/11
-    type: 1000base-t
-  - name: GigabitEthernet1/12
-    type: 1000base-t
-  - name: GigabitEthernet1/13
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/14
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/15
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/16
-    type: 1000base-x-sfp
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-HMS4SG8EG4CGN
-  part_number: 1783-HMS4SG8EG4CGN
-  power-ports:
-  - allocated_draw: 164
-    maximum_draw: 224
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 164
-    maximum_draw: 224
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-hms4sg8ge4cgn
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-b
-  interfaces:
-  - name: A1
-    type: 1000base-t
-  - name: A2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: CompactLogix 5380 L340ERP
-  part_number: 5069-L340ERP
-  power-ports:
-  - allocated_draw: 11
-    maximum_draw: 240
-    name: MOD
-    type: dc-terminal
-  - allocated_draw: 9
-    maximum_draw: 240
-    name: SA
-    type: dc-terminal
-  slug: 5069-l340erp
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/4
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/5
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/6
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/7
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/8
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/9
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/10
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/11
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/12
-    type: 1000base-x-sfp
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-HMS8SG4CGR
-  part_number: 1783-HMS8SG4CGR
-  power-ports:
-  - allocated_draw: 42
-    maximum_draw: 120
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 42
-    maximum_draw: 120
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-hms8sg4cgr
-  u_height: 3
-- device-bays:
-  - name: Power Supply
-  - name: Slot 0
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Rack - 4 Slot
-  part_number: 1756-a4
-  slug: 1756-a4
-  subdevice_role: parent
-  u_height: 3
-- console-ports:
-  - name: usb
-    type: usb-mini-b
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: FastEthernet1/5
-    type: 100base-tx
-  - name: FastEthernet1/6
-    type: 100base-tx
-  - name: FastEthernet1/7
-    type: 100base-tx
-  - name: FastEthernet1/8
-    type: 100base-tx
-  - name: FastEthernet1/9
-    type: 100base-tx
-  - name: FastEthernet1/10
-    type: 100base-tx
-  - name: FastEthernet1/11
-    type: 100base-tx
-  - name: FastEthernet1/12
-    type: 100base-tx
-  - name: FastEthernet1/13
-    type: 100base-tx
-  - name: FastEthernet1/14
-    type: 100base-tx
-  - name: FastEthernet1/15
-    type: 100base-tx
-  - name: FastEthernet1/16
-    type: 100base-tx
-  - name: SVI1
-    type: virtual
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: 1783-HMS4S8E4CGN
-  part_number: 1783-HMS4S8E4CGN
-  power-ports:
-  - allocated_draw: 164
-    maximum_draw: 224
-    name: Pwr-A
-    type: dc-terminal
-  - allocated_draw: 164
-    maximum_draw: 224
-    name: Pwr-B
-    type: dc-terminal
-  slug: 1783-hms4s8e4cgn
-  u_height: 3
-- device-bays:
-  - name: Power Supply
-  - name: Slot 0
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  - name: Slot 4
-  - name: Slot 5
-  - name: Slot 6
-  - name: Slot 7
-  - name: Slot 8
-  - name: Slot 9
-  - name: Slot 10
-  - name: Slot 11
-  - name: Slot 12
-  - name: Slot 13
-  - name: Slot 14
-  - name: Slot 15
-  - name: Slot 16
-  is_full_depth: false
-  manufacturer: Rockwell Automation
-  model: ControlLogix Rack K - 17 Slot
-  part_number: 1756-A17K
-  slug: 1756-a17k
-  subdevice_role: parent
+  slug: rockwell-automation-5069-l310erm
   u_height: 3
 - interfaces:
   - name: A1
-    type: 100base-tx
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: ControlLogix Web Module (EWEB)
-  part_number: 1756-EWEB
-  slug: 1756-enweb
+  model: ControlLogix Compute - Windows
+  part_number: 1756-CMS1B1
+  slug: rockwell-automation-1756-cms1b1
+  subdevice_role: child
+  u_height: 0
+- interfaces:
+  - name: A1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Rockwell Automation
+  model: GuardLogix 5580 L83ES
+  part_number: 1756-L83ES
+  slug: rockwell-automation-1756-l83es
   subdevice_role: child
   u_height: 0
 - console-ports:
@@ -4263,18 +4261,20 @@ models:
     type: 1000base-t
   - name: A2
     type: 1000base-t
+  - name: B1
+    type: 1000base-t
   is_full_depth: false
   manufacturer: Rockwell Automation
-  model: CompactGuardLogix 5380 L330ERMS2K
-  part_number: 5069-L330ERMS2K
+  model: CompactLogix 5480 L450ERMW
+  part_number: 5069-L450ERMW
   power-ports:
-  - allocated_draw: 9
-    maximum_draw: 120
+  - allocated_draw: 72
+    maximum_draw: 240
     name: MOD
     type: dc-terminal
-  - allocated_draw: 9
+  - allocated_draw: 72
     maximum_draw: 240
     name: SA
     type: dc-terminal
-  slug: 5069-l330erms2k
+  slug: rockwell-automation-5069-l450ermw
   u_height: 3

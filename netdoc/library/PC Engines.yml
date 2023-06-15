@@ -1,55 +1,11 @@
 keywords:
-- APU
-- apu1
-- APU2
-- apu2
 - APU4
 - apu4
+- APU2
+- apu2
+- APU
+- apu1
 models:
-- comments: 'Dimensions: 168 x 157 x 30 mm (6.61 x 6.18 x 1.18")
-
-    '
-  console-ports:
-  - name: ttyS0
-    type: de-9
-  interfaces:
-  - name: re0
-    type: 1000base-t
-  - name: re1
-    type: 1000base-t
-  - name: re2
-    type: 1000base-t
-  manufacturer: PC Engines
-  model: APU
-  part_number: apu1
-  power-ports:
-  - allocated_draw: 6
-    maximum_draw: 12
-    name: Input
-    type: dc-terminal
-  slug: apu1
-- comments: 'Dimensions: 168 x 157 x 30 mm (6.61 x 6.18 x 1.18")
-
-    '
-  console-ports:
-  - name: ttyS0
-    type: de-9
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  manufacturer: PC Engines
-  model: APU2
-  part_number: apu2
-  power-ports:
-  - allocated_draw: 6
-    maximum_draw: 12
-    name: Input
-    type: dc-terminal
-  slug: apu2
 - comments: 'Dimensions: 168 x 157 x 30 mm (6.61 x 6.18 x 1.18")
 
     '
@@ -73,4 +29,48 @@ models:
     maximum_draw: 12
     name: Input
     type: dc-terminal
-  slug: apu4
+  slug: pc-engines-apu4
+- comments: 'Dimensions: 168 x 157 x 30 mm (6.61 x 6.18 x 1.18")
+
+    '
+  console-ports:
+  - name: ttyS0
+    type: de-9
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  manufacturer: PC Engines
+  model: APU2
+  part_number: apu2
+  power-ports:
+  - allocated_draw: 6
+    maximum_draw: 12
+    name: Input
+    type: dc-terminal
+  slug: pc-engines-apu2
+- comments: 'Dimensions: 168 x 157 x 30 mm (6.61 x 6.18 x 1.18")
+
+    '
+  console-ports:
+  - name: ttyS0
+    type: de-9
+  interfaces:
+  - name: re0
+    type: 1000base-t
+  - name: re1
+    type: 1000base-t
+  - name: re2
+    type: 1000base-t
+  manufacturer: PC Engines
+  model: APU
+  part_number: apu1
+  power-ports:
+  - allocated_draw: 6
+    maximum_draw: 12
+    name: Input
+    type: dc-terminal
+  slug: pc-engines-apu1

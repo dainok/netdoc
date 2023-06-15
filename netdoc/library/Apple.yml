@@ -1,44 +1,15 @@
 keywords:
-- AppleTV3,2
-- A1469
-- AppleTV5,3
-- A1625
 - AppleTV3,1
 - A1427
 - AppleTV11,1
 - A2169
 - AppleTV6,2
 - A1842
+- AppleTV5,3
+- A1625
+- AppleTV3,2
+- A1469
 models:
-- comments: "- Order Number: MD199LL/A\r\n- Model Number: A1469\r\n- EMC: 2633\r\n\
-    - Edition: 3th Gen\r\n- Processor Speed: 1 GHz\r\n- Processor Type: Apple A5\r\
-    \n- Processors (Cores): 1\r\n- Hard Drive: 8 GB NAND flash\r\n- RAM: 512 MB\r\n\
-    - Input: Apple Remote (aluminum)\r\n- Release Date: March 7, 2012"
-  interfaces:
-  - name: eth
-    type: 100base-tx
-  - name: wireless
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Apple
-  model: AppleTV3,2
-  part_number: A1469
-  slug: appletv32
-- comments: "- Order Number: MGY52LL/A\r\n- Model Number: A1625\r\n- EMC: 2907\r\n\
-    - Edition: 4th Gen\r\n- Processor Speed: 1.4GHz\r\n- Processor Type: Apple A8\r\
-    \n- Processors (Cores): 1\r\n- Hard Drive: 32GB\r\n- RAM: 2GB\r\n- Input: Siri\
-    \ Remote\r\n- Release Date: September 9th 2015"
-  interfaces:
-  - name: eth
-    type: 1000base-t
-  - name: wireless
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Apple
-  model: AppleTV5,3
-  part_number: A1625
-  slug: appletv53
-  u_height: 0
 - comments: "- Order Number: MD199LL/A\r\n- Model Number: A1427\r\n- EMC: 2633\r\n\
     - Edition: 3th Gen\r\n- Processor Speed: 1 GHz\r\n- Processor Type: Apple A5\r\
     \n- Processors (Cores): 1\r\n- Hard Drive: 8 GB NAND flash\r\n- RAM: 512 MB\r\n\
@@ -52,7 +23,7 @@ models:
   manufacturer: Apple
   model: AppleTV3,1
   part_number: A1427
-  slug: appletv31
+  slug: apple-appletv31
 - comments: "- Order Number: \tMXGY2LL/A\r\n- Model Number: A2169\r\n- EMC: 3111\r\
     \n- Edition: 4K (2nd Gen)\r\n- Processor Speed: 2.49 GHz\r\n- Processor Type:\
     \ A12 Bionic\r\n- Processors (Cores): 1\r\n- Hard Drive: \t32, 64 GB\r\n- RAM:\
@@ -66,7 +37,7 @@ models:
   manufacturer: Apple
   model: AppleTV11,1
   part_number: A2169
-  slug: appletv111
+  slug: apple-appletv111
   u_height: 0
 - comments: "- Order Number: \tMQD22LL/A\r\n- Model Number: A1842\r\n- EMC: 2907\r\
     \n- Edition: 4K\r\n- Processor Speed: 2.3 GHz\r\n- Processor Type: A10X Fusion\r\
@@ -81,5 +52,34 @@ models:
   manufacturer: Apple
   model: AppleTV6,2
   part_number: A1842
-  slug: appletv62
+  slug: apple-appletv62
   u_height: 0
+- comments: "- Order Number: MGY52LL/A\r\n- Model Number: A1625\r\n- EMC: 2907\r\n\
+    - Edition: 4th Gen\r\n- Processor Speed: 1.4GHz\r\n- Processor Type: Apple A8\r\
+    \n- Processors (Cores): 1\r\n- Hard Drive: 32GB\r\n- RAM: 2GB\r\n- Input: Siri\
+    \ Remote\r\n- Release Date: September 9th 2015"
+  interfaces:
+  - name: eth
+    type: 1000base-t
+  - name: wireless
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Apple
+  model: AppleTV5,3
+  part_number: A1625
+  slug: apple-appletv53
+  u_height: 0
+- comments: "- Order Number: MD199LL/A\r\n- Model Number: A1469\r\n- EMC: 2633\r\n\
+    - Edition: 3th Gen\r\n- Processor Speed: 1 GHz\r\n- Processor Type: Apple A5\r\
+    \n- Processors (Cores): 1\r\n- Hard Drive: 8 GB NAND flash\r\n- RAM: 512 MB\r\n\
+    - Input: Apple Remote (aluminum)\r\n- Release Date: March 7, 2012"
+  interfaces:
+  - name: eth
+    type: 100base-tx
+  - name: wireless
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Apple
+  model: AppleTV3,2
+  part_number: A1469
+  slug: apple-appletv32

@@ -1,5 +1,5 @@
 keywords:
-- D51B-2U (dual 1G LoM)
+- QuantaGrid D51B-2U
 models:
 - console-ports:
   - name: Serial
@@ -16,7 +16,7 @@ models:
     type: 1000base-t
   is_full_depth: true
   manufacturer: QCT
-  model: D51B-2U (dual 1G LoM)
+  model: QuantaGrid D51B-2U
   power-ports:
   - maximum_draw: 1200
     name: PSU1
@@ -24,5 +24,5 @@ models:
   - maximum_draw: 1200
     name: PSU2
     type: iec-60320-c14
-  slug: qct_d51b_2u_dual_1g_lom
+  slug: qct-quantagrid-d51b-2u
   u_height: 2

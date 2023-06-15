@@ -1,17 +1,20 @@
 keywords:
 - GS105E
-- GS108PEv3
-- GS108PEv3
-- GS105
-- GS108E
-- JGS524
-- GS116Ev2
-- ProSAFE GS752TP V1H1
-- GS752TP V1H1
-- M4300-12X12F
-- GS108
-- GS116
+- GS110EMX
 - D6220
+- GS116
+- GS308T
+- JGS524
+- M4300-12X12F
+- GS108E
+- GS308E
+- GS108
+- ProSafe GS752TP
+- GS752TP
+- GS108PEv3
+- GS108PEv3
+- GS116Ev2
+- GS105
 models:
 - comments: '[Gigabit Plus Switch Series GS105E](https://www.netgear.com/business/wired/switches/plus/gs105ev2/)'
   interfaces:
@@ -28,26 +31,18 @@ models:
   is_full_depth: false
   manufacturer: Netgear
   model: GS105E
-  slug: gs105e
+  slug: netgear-gs105e
   u_height: 1
 - airflow: passive
-  comments: '[Product Page](https://www.netgear.com/support/product/gs108pev3#docs)'
+  comments: '[10-Gigabit/Multi-Gigabit Plus (GS110EMX)](https://www.netgear.com/business/wired/switches/plus/gs110emx/)'
   interfaces:
   - name: GigabitEthernet/1
-    poe_mode: pse
-    poe_type: type1-ieee802.3af
     type: 1000base-t
   - name: GigabitEthernet/2
-    poe_mode: pse
-    poe_type: type1-ieee802.3af
     type: 1000base-t
   - name: GigabitEthernet/3
-    poe_mode: pse
-    poe_type: type1-ieee802.3af
     type: 1000base-t
   - name: GigabitEthernet/4
-    poe_mode: pse
-    poe_type: type1-ieee802.3af
     type: 1000base-t
   - name: GigabitEthernet/5
     type: 1000base-t
@@ -57,19 +52,52 @@ models:
     type: 1000base-t
   - name: GigabitEthernet/8
     type: 1000base-t
+  - name: TenGigabitEthernet/9
+    type: 10gbase-t
+  - name: TenGigabitEthernet/10
+    type: 10gbase-t
   is_full_depth: false
   manufacturer: Netgear
-  model: GS108PEv3
-  part_number: GS108PEv3
-  power-ports:
-  - maximum_draw: 60
-    name: PSU
-    type: dc-terminal
-  slug: netgear-gs108pev3
-  u_height: 0
-  weight: 0.54
+  model: GS110EMX
+  slug: netgear-gs110emx
+  u_height: 1.0
+  weight: 0.75
   weight_unit: kg
-- comments: '[Gigabit Unmanaged Switch Series GS105](https://www.netgear.com/business/wired/switches/unmanaged/gs105/)'
+- airflow: passive
+  comments: 'WiFi VDSL2/ADSL2+ Modem Router\r\nSpecifications: [D6220](https://www.netgear.com/support/product/d6220)'
+  interfaces:
+  - label: DSL
+    name: DSL
+    type: xdsl
+  - label: '1'
+    name: LAN1
+    type: 1000base-t
+  - label: '2'
+    name: LAN2
+    type: 1000base-t
+  - label: '3'
+    name: LAN3
+    type: 1000base-t
+  - label: '4'
+    name: LAN4
+    type: 1000base-t
+  - label: Internet
+    name: Internet
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Netgear
+  model: D6220
+  power-ports:
+  - maximum_draw: 30
+    name: DC
+    type: dc-terminal
+  slug: netgear-d6220
+  u_height: 0
+  weight: 341
+  weight_unit: g
+- comments: '[Gigabit Unmanaged Switch Series GS116](https://www.netgear.com/business/wired/switches/unmanaged/gs116/)'
   interfaces:
   - name: GigabitEthernet/1
     type: 1000base-t
@@ -81,12 +109,39 @@ models:
     type: 1000base-t
   - name: GigabitEthernet/5
     type: 1000base-t
+  - name: GigabitEthernet/6
+    type: 1000base-t
+  - name: GigabitEthernet/7
+    type: 1000base-t
+  - name: GigabitEthernet/8
+    type: 1000base-t
+  - name: GigabitEthernet/9
+    type: 1000base-t
+  - name: GigabitEthernet/10
+    type: 1000base-t
+  - name: GigabitEthernet/11
+    type: 1000base-t
+  - name: GigabitEthernet/12
+    type: 1000base-t
+  - name: GigabitEthernet/13
+    type: 1000base-t
+  - name: GigabitEthernet/14
+    type: 1000base-t
+  - name: GigabitEthernet/15
+    type: 1000base-t
+  - name: GigabitEthernet/16
+    type: 1000base-t
   is_full_depth: false
   manufacturer: Netgear
-  model: GS105
-  slug: gs105
+  model: GS116
+  power-ports:
+  - maximum_draw: 10
+    name: PSU1
+    type: dc-terminal
+  slug: netgear-gs116
   u_height: 1
-- comments: '[Gigabit Plus Switch Series GS108E](https://www.netgear.com/business/wired/switches/plus/gs108e/)'
+- airflow: passive
+  comments: '[S350 Smart Switches (GS308T)](https://www.netgear.com/business/wired/switches/smart/gs308t/)'
   interfaces:
   - name: GigabitEthernet/1
     type: 1000base-t
@@ -106,9 +161,15 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: Netgear
-  model: GS108E
-  slug: gs108e
-  u_height: 1
+  model: GS308T
+  power-ports:
+  - maximum_draw: 7
+    name: PS
+    type: dc-terminal
+  slug: netgear-gs308t
+  u_height: 0.0
+  weight: 0.41
+  weight_unit: kg
 - comments: '[Gigabit Unmanaged Switch Series JGS524](https://www.netgear.com/business/wired/switches/unmanaged/jgs524/)'
   interfaces:
   - name: GigabitEthernet/1
@@ -166,9 +227,23 @@ models:
   - maximum_draw: 18
     name: PSU1
     type: iec-60320-c14
-  slug: jgs524
+  slug: netgear-jgs524
   u_height: 1
-- comments: '[Gigabit Unmanaged Switch Series GS116Ev2](https://www.netgear.com/support/product/GS116Ev2.aspx)'
+- airflow: front-to-rear
+  comments: 'Documentation: [https://www.netgear.it/support/product/m4300-12x12f.aspx](https://www.netgear.it/support/product/m4300-12x12f.aspx)'
+  manufacturer: Netgear
+  model: M4300-12X12F
+  module-bays:
+  - description: Switch card
+    name: unit-1
+    position: '1'
+  - description: Switch card
+    name: unit-2
+    position: '2'
+  slug: netgear-m4300-12x12f
+  subdevice_role: parent
+  u_height: 1
+- comments: '[Gigabit Plus Switch Series GS108E](https://www.netgear.com/business/wired/switches/plus/gs108e/)'
   interfaces:
   - name: GigabitEthernet/1
     type: 1000base-t
@@ -186,30 +261,63 @@ models:
     type: 1000base-t
   - name: GigabitEthernet/8
     type: 1000base-t
-  - name: GigabitEthernet/9
+  is_full_depth: false
+  manufacturer: Netgear
+  model: GS108E
+  slug: netgear-gs108e
+  u_height: 1
+- airflow: passive
+  comments: '[300 Series SOHO Plus (GS308E)](https://www.netgear.com/business/wired/switches/plus/gs308e/)'
+  interfaces:
+  - name: GigabitEthernet/1
     type: 1000base-t
-  - name: GigabitEthernet/10
+  - name: GigabitEthernet/2
     type: 1000base-t
-  - name: GigabitEthernet/11
+  - name: GigabitEthernet/3
     type: 1000base-t
-  - name: GigabitEthernet/12
+  - name: GigabitEthernet/4
     type: 1000base-t
-  - name: GigabitEthernet/13
+  - name: GigabitEthernet/5
     type: 1000base-t
-  - name: GigabitEthernet/14
+  - name: GigabitEthernet/6
     type: 1000base-t
-  - name: GigabitEthernet/15
+  - name: GigabitEthernet/7
     type: 1000base-t
-  - name: GigabitEthernet/16
+  - name: GigabitEthernet/8
     type: 1000base-t
   is_full_depth: false
   manufacturer: Netgear
-  model: GS116Ev2
+  model: GS308E
   power-ports:
-  - maximum_draw: 10
-    name: PSU1
+  - maximum_draw: 5
+    name: PS
     type: dc-terminal
-  slug: gs116ev2
+  slug: netgear-gs308e
+  u_height: 0.0
+  weight: 0.5
+  weight_unit: kg
+- comments: '[Gigabit Unmanaged Switch Series GS108](https://www.netgear.com/business/wired/switches/unmanaged/gs108/)'
+  interfaces:
+  - name: GigabitEthernet/1
+    type: 1000base-t
+  - name: GigabitEthernet/2
+    type: 1000base-t
+  - name: GigabitEthernet/3
+    type: 1000base-t
+  - name: GigabitEthernet/4
+    type: 1000base-t
+  - name: GigabitEthernet/5
+    type: 1000base-t
+  - name: GigabitEthernet/6
+    type: 1000base-t
+  - name: GigabitEthernet/7
+    type: 1000base-t
+  - name: GigabitEthernet/8
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Netgear
+  model: GS108
+  slug: netgear-gs108
   u_height: 1
 - comments: '[52-Port Gigabit Ethernet Smart Switch with 4 SFP Ports (40 PoE, 8 PoE+)](https://www.netgear.com/support/product/GS752TP.aspx)'
   interfaces:
@@ -319,37 +427,32 @@ models:
     type: 1000base-x-sfp
   is_full_depth: false
   manufacturer: Netgear
-  model: ProSAFE GS752TP V1H1
-  part_number: GS752TP V1H1
+  model: ProSafe GS752TP
+  part_number: GS752TP
   power-ports:
   - maximum_draw: 513
     name: Power
     type: iec-60320-c14
-  slug: gs752tpv1h1
+  slug: netgear-prosafe-gs752tp
   u_height: 1
-- airflow: front-to-rear
-  comments: 'Documentation: [https://www.netgear.it/support/product/m4300-12x12f.aspx](https://www.netgear.it/support/product/m4300-12x12f.aspx)'
-  manufacturer: Netgear
-  model: M4300-12X12F
-  module-bays:
-  - description: Switch card
-    name: unit-1
-    position: '1'
-  - description: Switch card
-    name: unit-2
-    position: '2'
-  slug: m4300-12x12f
-  subdevice_role: parent
-  u_height: 1
-- comments: '[Gigabit Unmanaged Switch Series GS108](https://www.netgear.com/business/wired/switches/unmanaged/gs108/)'
+- airflow: passive
+  comments: '[Product Page](https://www.netgear.com/support/product/gs108pev3#docs)'
   interfaces:
   - name: GigabitEthernet/1
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
     type: 1000base-t
   - name: GigabitEthernet/2
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
     type: 1000base-t
   - name: GigabitEthernet/3
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
     type: 1000base-t
   - name: GigabitEthernet/4
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
     type: 1000base-t
   - name: GigabitEthernet/5
     type: 1000base-t
@@ -361,10 +464,17 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: Netgear
-  model: GS108
-  slug: gs108
-  u_height: 1
-- comments: '[Gigabit Unmanaged Switch Series GS116](https://www.netgear.com/business/wired/switches/unmanaged/gs116/)'
+  model: GS108PEv3
+  part_number: GS108PEv3
+  power-ports:
+  - maximum_draw: 60
+    name: PSU
+    type: dc-terminal
+  slug: netgear-gs108pev3
+  u_height: 0
+  weight: 0.54
+  weight_unit: kg
+- comments: '[Gigabit Unmanaged Switch Series GS116Ev2](https://www.netgear.com/support/product/GS116Ev2.aspx)'
   interfaces:
   - name: GigabitEthernet/1
     type: 1000base-t
@@ -400,44 +510,27 @@ models:
     type: 1000base-t
   is_full_depth: false
   manufacturer: Netgear
-  model: GS116
+  model: GS116Ev2
   power-ports:
   - maximum_draw: 10
     name: PSU1
     type: dc-terminal
-  slug: gs116
+  slug: netgear-gs116ev2
   u_height: 1
-- airflow: passive
-  comments: 'WiFi VDSL2/ADSL2+ Modem Router\r\nSpecifications: [D6220](https://www.netgear.com/support/product/d6220)'
+- comments: '[Gigabit Unmanaged Switch Series GS105](https://www.netgear.com/business/wired/switches/unmanaged/gs105/)'
   interfaces:
-  - label: DSL
-    name: DSL
-    type: xdsl
-  - label: '1'
-    name: LAN1
+  - name: GigabitEthernet/1
     type: 1000base-t
-  - label: '2'
-    name: LAN2
+  - name: GigabitEthernet/2
     type: 1000base-t
-  - label: '3'
-    name: LAN3
+  - name: GigabitEthernet/3
     type: 1000base-t
-  - label: '4'
-    name: LAN4
+  - name: GigabitEthernet/4
     type: 1000base-t
-  - label: Internet
-    name: Internet
+  - name: GigabitEthernet/5
     type: 1000base-t
-  - name: WiFi
-    type: ieee802.11ac
   is_full_depth: false
   manufacturer: Netgear
-  model: D6220
-  power-ports:
-  - maximum_draw: 30
-    name: DC
-    type: dc-terminal
-  slug: netgear-d6220
-  u_height: 0
-  weight: 341
-  weight_unit: g
+  model: GS105
+  slug: netgear-gs105
+  u_height: 1

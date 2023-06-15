@@ -1,45 +1,721 @@
 keywords:
+- ACM7008-2-M
+- ACM7008-2-M
+- IM7216-2-DAC-US
+- IM7216-2-DAC-US
+- IM7248-2-DAC-US
+- IM7248-2-DAC-US
+- OM2248-L-EU
+- OM2248-L-EU
+- CM7148-2-DAC-US
+- CM7148-2-DAC-US
+- CM7116-2-DAC-US
+- CM7116-2-DAC-US
+- IM7248-2-DAC-LR
+- IM7248-2-DAC-LR
 - CM7196-2-DAC-US
 - CM7196-2-DAC-US
+- IM4248-2
+- IM4248-2
+- CM7132-2-DAC-US
+- CM7132-2-DAC-US
 - IM7248-2-DAC-LMA
 - IM7248-2-DAC-LMA
-- IM7248-2-DAC
-- IM7248-2-DAC
-- CM7116-2-SAC-US
-- CM7116-2-SAC-US
-- IM7248-2-DAC-LMV
-- IM7248-2-DAC-LMV
+- IM7232-2-DAC-US
+- IM7232-2-DAC-US
+- IM4232-2
+- IM4232-2
 - OM2248-L
 - OM2248-L-EU
-- ACM7008-2-M
-- ACM7008-2-M
-- IM4232-2
-- IM4232-2
-- OM2248-L-EU
-- OM2248-L-EU
-- CM7148-2-DAC-US
-- CM7148-2-DAC-US
-- IM4248-2
-- IM4248-2
-- CM7132-2-DAC-US
-- CM7132-2-DAC-US
-- IM7232-2-DAC-US
-- IM7232-2-DAC-US
-- IM7248-2-DAC-US
-- IM7248-2-DAC-US
 - IM4216-2
 - IM4248-2
 - CM7148-2-SAC-US
 - CM7148-2-SAC-US
-- IM7216-2-DAC-US
-- IM7216-2-DAC-US
-- IM7248-2-DAC-LR
-- IM7248-2-DAC-LR
+- CM7116-2-SAC-US
+- CM7116-2-SAC-US
+- IM7248-2-DAC-LMV
+- IM7248-2-DAC-LMV
 - IM7248-2-DAC-LMP
 - IM7248-2-DAC-LMP
-- CM7116-2-DAC-US
-- CM7116-2-DAC-US
+- IM7248-2-DAC
+- IM7248-2-DAC
 models:
+- comments: ACM7008 Console Server with 8 Console Ports on the rear of the device.
+  console-server-ports:
+  - name: Port 1
+    type: rj-45
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+  interfaces:
+  - name: net1_copper
+    type: 1000base-t
+  - name: net1_sfp
+    type: 1000base-x-sfp
+  - name: net2_copper
+    type: 1000base-t
+  - name: net2_sfp
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Opengear
+  model: ACM7008-2-M
+  part_number: ACM7008-2-M
+  power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  slug: opengear-acm7008-2-m
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  console-server-ports:
+  - name: Port 1
+    type: rj-45
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+  - name: Port 9
+    type: rj-45
+  - name: Port 10
+    type: rj-45
+  - name: Port 11
+    type: rj-45
+  - name: Port 12
+    type: rj-45
+  - name: Port 13
+    type: rj-45
+  - name: Port 14
+    type: rj-45
+  - name: Port 15
+    type: rj-45
+  - name: Port 16
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  - mgmt_only: true
+    name: eth1
+    type: 1000base-t
+  - mgmt_only: true
+    name: wlan0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: Opengear
+  model: IM7216-2-DAC-US
+  part_number: IM7216-2-DAC-US
+  power-ports:
+  - allocated_draw: 30
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 30
+    name: PS2
+    type: iec-60320-c14
+  slug: opengear-im7216-2-dac-us
+  u_height: 1
+- comments: 48 serial software selectable, dual AC, Dual 1 GbE Ethernet or fiber SFP,
+    16GB flash, v.92 modem, - US Power Cord
+  console-ports:
+  - name: Console
+    type: rj-45
+  console-server-ports:
+  - name: Port 1
+    type: rj-45
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+  - name: Port 9
+    type: rj-45
+  - name: Port 10
+    type: rj-45
+  - name: Port 11
+    type: rj-45
+  - name: Port 12
+    type: rj-45
+  - name: Port 13
+    type: rj-45
+  - name: Port 14
+    type: rj-45
+  - name: Port 15
+    type: rj-45
+  - name: Port 16
+    type: rj-45
+  - name: Port 17
+    type: rj-45
+  - name: Port 18
+    type: rj-45
+  - name: Port 19
+    type: rj-45
+  - name: Port 20
+    type: rj-45
+  - name: Port 21
+    type: rj-45
+  - name: Port 22
+    type: rj-45
+  - name: Port 23
+    type: rj-45
+  - name: Port 24
+    type: rj-45
+  - name: Port 25
+    type: rj-45
+  - name: Port 26
+    type: rj-45
+  - name: Port 27
+    type: rj-45
+  - name: Port 28
+    type: rj-45
+  - name: Port 29
+    type: rj-45
+  - name: Port 30
+    type: rj-45
+  - name: Port 31
+    type: rj-45
+  - name: Port 32
+    type: rj-45
+  - name: Port 33
+    type: rj-45
+  - name: Port 34
+    type: rj-45
+  - name: Port 35
+    type: rj-45
+  - name: Port 36
+    type: rj-45
+  - name: Port 37
+    type: rj-45
+  - name: Port 38
+    type: rj-45
+  - name: Port 39
+    type: rj-45
+  - name: Port 40
+    type: rj-45
+  - name: Port 41
+    type: rj-45
+  - name: Port 42
+    type: rj-45
+  - name: Port 43
+    type: rj-45
+  - name: Port 44
+    type: rj-45
+  - name: Port 45
+    type: rj-45
+  - name: Port 46
+    type: rj-45
+  - name: Port 47
+    type: rj-45
+  - name: Port 48
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  - mgmt_only: true
+    name: eth1
+    type: 1000base-t
+  - mgmt_only: true
+    name: wlan0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: Opengear
+  model: IM7248-2-DAC-US
+  part_number: IM7248-2-DAC-US
+  power-ports:
+  - allocated_draw: 30
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 30
+    name: PS2
+    type: iec-60320-c14
+  slug: opengear-im7248-2-dac-us
+  u_height: 1
+- comments: Operations Manager OM2200 - Europe LTE
+  console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB Console
+    type: usb-mini-b
+  console-server-ports:
+  - name: Port 1
+    type: rj-45
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+  - name: Port 9
+    type: rj-45
+  - name: Port 10
+    type: rj-45
+  - name: Port 11
+    type: rj-45
+  - name: Port 12
+    type: rj-45
+  - name: Port 13
+    type: rj-45
+  - name: Port 14
+    type: rj-45
+  - name: Port 15
+    type: rj-45
+  - name: Port 16
+    type: rj-45
+  - name: Port 17
+    type: rj-45
+  - name: Port 18
+    type: rj-45
+  - name: Port 19
+    type: rj-45
+  - name: Port 20
+    type: rj-45
+  - name: Port 21
+    type: rj-45
+  - name: Port 22
+    type: rj-45
+  - name: Port 23
+    type: rj-45
+  - name: Port 24
+    type: rj-45
+  - name: Port 25
+    type: rj-45
+  - name: Port 26
+    type: rj-45
+  - name: Port 27
+    type: rj-45
+  - name: Port 28
+    type: rj-45
+  - name: Port 29
+    type: rj-45
+  - name: Port 30
+    type: rj-45
+  - name: Port 31
+    type: rj-45
+  - name: Port 32
+    type: rj-45
+  - name: Port 33
+    type: rj-45
+  - name: Port 34
+    type: rj-45
+  - name: Port 35
+    type: rj-45
+  - name: Port 36
+    type: rj-45
+  - name: Port 37
+    type: rj-45
+  - name: Port 38
+    type: rj-45
+  - name: Port 39
+    type: rj-45
+  - name: Port 40
+    type: rj-45
+  - name: Port 41
+    type: rj-45
+  - name: Port 42
+    type: rj-45
+  - name: Port 43
+    type: rj-45
+  - name: Port 44
+    type: rj-45
+  - name: Port 45
+    type: rj-45
+  - name: Port 46
+    type: rj-45
+  - name: Port 47
+    type: rj-45
+  - name: Port 48
+    type: rj-45
+  - name: USB A
+    type: usb-a
+  - name: USB B
+    type: usb-a
+  - name: USB C
+    type: usb-a
+  - name: USB D
+    type: usb-a
+  - name: USB E
+    type: usb-a
+  - name: USB F
+    type: usb-a
+  - name: USB G
+    type: usb-a
+  - name: USB H
+    type: usb-a
+  - name: Front Upper USB
+    type: usb-a
+  - name: Front Lower USB
+    type: usb-a
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  - mgmt_only: true
+    name: eth1
+    type: 1000base-t
+  - mgmt_only: true
+    name: Cellular Interface (LTE)
+    type: lte
+  is_full_depth: false
+  manufacturer: Opengear
+  model: OM2248-L-EU
+  part_number: OM2248-L-EU
+  power-ports:
+  - allocated_draw: 30
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 30
+    name: PS2
+    type: iec-60320-c14
+  slug: opengear-om2248-l-eu
+  u_height: 1
+- comments: CM7148 with built-in Dual Power Supplies
+  console-ports:
+  - name: Console
+    type: rj-45
+  console-server-ports:
+  - name: Port 1
+    type: rj-45
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+  - name: Port 9
+    type: rj-45
+  - name: Port 10
+    type: rj-45
+  - name: Port 11
+    type: rj-45
+  - name: Port 12
+    type: rj-45
+  - name: Port 13
+    type: rj-45
+  - name: Port 14
+    type: rj-45
+  - name: Port 15
+    type: rj-45
+  - name: Port 16
+    type: rj-45
+  - name: Port 17
+    type: rj-45
+  - name: Port 18
+    type: rj-45
+  - name: Port 19
+    type: rj-45
+  - name: Port 20
+    type: rj-45
+  - name: Port 21
+    type: rj-45
+  - name: Port 22
+    type: rj-45
+  - name: Port 23
+    type: rj-45
+  - name: Port 24
+    type: rj-45
+  - name: Port 25
+    type: rj-45
+  - name: Port 26
+    type: rj-45
+  - name: Port 27
+    type: rj-45
+  - name: Port 28
+    type: rj-45
+  - name: Port 29
+    type: rj-45
+  - name: Port 30
+    type: rj-45
+  - name: Port 31
+    type: rj-45
+  - name: Port 32
+    type: rj-45
+  - name: Port 33
+    type: rj-45
+  - name: Port 34
+    type: rj-45
+  - name: Port 35
+    type: rj-45
+  - name: Port 36
+    type: rj-45
+  - name: Port 37
+    type: rj-45
+  - name: Port 38
+    type: rj-45
+  - name: Port 39
+    type: rj-45
+  - name: Port 40
+    type: rj-45
+  - name: Port 41
+    type: rj-45
+  - name: Port 42
+    type: rj-45
+  - name: Port 43
+    type: rj-45
+  - name: Port 44
+    type: rj-45
+  - name: Port 45
+    type: rj-45
+  - name: Port 46
+    type: rj-45
+  - name: Port 47
+    type: rj-45
+  - name: Port 48
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: lan
+    type: 1000base-t
+  - mgmt_only: true
+    name: wan
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Opengear
+  model: CM7148-2-DAC-US
+  part_number: CM7148-2-DAC-US
+  power-ports:
+  - allocated_draw: 20
+    maximum_draw: 25
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 20
+    maximum_draw: 25
+    name: PS2
+    type: iec-60320-c14
+  slug: opengear-cm7148-2-dac-us
+  u_height: 1
+- comments: CM7116 with built-in Dual Power Supplies
+  console-ports:
+  - name: Console
+    type: rj-45
+  console-server-ports:
+  - name: Port 1
+    type: rj-45
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+  - name: Port 9
+    type: rj-45
+  - name: Port 10
+    type: rj-45
+  - name: Port 11
+    type: rj-45
+  - name: Port 12
+    type: rj-45
+  - name: Port 13
+    type: rj-45
+  - name: Port 14
+    type: rj-45
+  - name: Port 15
+    type: rj-45
+  - name: Port 16
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: lan
+    type: 1000base-t
+  - mgmt_only: true
+    name: wan
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Opengear
+  model: CM7116-2-DAC-US
+  part_number: CM7116-2-DAC-US
+  power-ports:
+  - allocated_draw: 20
+    maximum_draw: 25
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 20
+    maximum_draw: 25
+    name: PS2
+    type: iec-60320-c14
+  slug: opengear-cm7116-2-dac-us
+  u_height: 1
+- comments: 48 serial software selectable, dual AC, Dual 1 GbE Ethernet or fiber SFP,
+    16GB flash, 4G LTE cellular multi carrier, v.92 modem, -No Power Cord
+  console-ports:
+  - name: Console
+    type: rj-45
+  console-server-ports:
+  - name: Port 1
+    type: rj-45
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+  - name: Port 9
+    type: rj-45
+  - name: Port 10
+    type: rj-45
+  - name: Port 11
+    type: rj-45
+  - name: Port 12
+    type: rj-45
+  - name: Port 13
+    type: rj-45
+  - name: Port 14
+    type: rj-45
+  - name: Port 15
+    type: rj-45
+  - name: Port 16
+    type: rj-45
+  - name: Port 17
+    type: rj-45
+  - name: Port 18
+    type: rj-45
+  - name: Port 19
+    type: rj-45
+  - name: Port 20
+    type: rj-45
+  - name: Port 21
+    type: rj-45
+  - name: Port 22
+    type: rj-45
+  - name: Port 23
+    type: rj-45
+  - name: Port 24
+    type: rj-45
+  - name: Port 25
+    type: rj-45
+  - name: Port 26
+    type: rj-45
+  - name: Port 27
+    type: rj-45
+  - name: Port 28
+    type: rj-45
+  - name: Port 29
+    type: rj-45
+  - name: Port 30
+    type: rj-45
+  - name: Port 31
+    type: rj-45
+  - name: Port 32
+    type: rj-45
+  - name: Port 33
+    type: rj-45
+  - name: Port 34
+    type: rj-45
+  - name: Port 35
+    type: rj-45
+  - name: Port 36
+    type: rj-45
+  - name: Port 37
+    type: rj-45
+  - name: Port 38
+    type: rj-45
+  - name: Port 39
+    type: rj-45
+  - name: Port 40
+    type: rj-45
+  - name: Port 41
+    type: rj-45
+  - name: Port 42
+    type: rj-45
+  - name: Port 43
+    type: rj-45
+  - name: Port 44
+    type: rj-45
+  - name: Port 45
+    type: rj-45
+  - name: Port 46
+    type: rj-45
+  - name: Port 47
+    type: rj-45
+  - name: Port 48
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  - mgmt_only: true
+    name: eth1
+    type: 1000base-t
+  - mgmt_only: true
+    name: eth2
+    type: lte
+  - mgmt_only: true
+    name: wlan0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: Opengear
+  model: IM7248-2-DAC-LR
+  part_number: IM7248-2-DAC-LR
+  power-ports:
+  - allocated_draw: 15
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 15
+    name: PS2
+    type: iec-60320-c14
+  slug: opengear-im7248-2-dac-lr
+  u_height: 1
 - comments: CM7196 with built-in Dual Power Supplies.  48 console ports on the front
     and 48 console ports on the back of the appliance.
   console-ports:
@@ -258,7 +934,214 @@ models:
     maximum_draw: 50
     name: PS2
     type: iec-60320-c14
-  slug: cm7196-2-dac-us
+  slug: opengear-cm7196-2-dac-us
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  console-server-ports:
+  - name: Port 1
+    type: rj-45
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+  - name: Port 9
+    type: rj-45
+  - name: Port 10
+    type: rj-45
+  - name: Port 11
+    type: rj-45
+  - name: Port 12
+    type: rj-45
+  - name: Port 13
+    type: rj-45
+  - name: Port 14
+    type: rj-45
+  - name: Port 15
+    type: rj-45
+  - name: Port 16
+    type: rj-45
+  - name: Port 17
+    type: rj-45
+  - name: Port 18
+    type: rj-45
+  - name: Port 19
+    type: rj-45
+  - name: Port 20
+    type: rj-45
+  - name: Port 21
+    type: rj-45
+  - name: Port 22
+    type: rj-45
+  - name: Port 23
+    type: rj-45
+  - name: Port 24
+    type: rj-45
+  - name: Port 25
+    type: rj-45
+  - name: Port 26
+    type: rj-45
+  - name: Port 27
+    type: rj-45
+  - name: Port 28
+    type: rj-45
+  - name: Port 29
+    type: rj-45
+  - name: Port 30
+    type: rj-45
+  - name: Port 31
+    type: rj-45
+  - name: Port 32
+    type: rj-45
+  - name: Port 33
+    type: rj-45
+  - name: Port 34
+    type: rj-45
+  - name: Port 35
+    type: rj-45
+  - name: Port 36
+    type: rj-45
+  - name: Port 37
+    type: rj-45
+  - name: Port 38
+    type: rj-45
+  - name: Port 39
+    type: rj-45
+  - name: Port 40
+    type: rj-45
+  - name: Port 41
+    type: rj-45
+  - name: Port 42
+    type: rj-45
+  - name: Port 43
+    type: rj-45
+  - name: Port 44
+    type: rj-45
+  - name: Port 45
+    type: rj-45
+  - name: Port 46
+    type: rj-45
+  - name: Port 47
+    type: rj-45
+  - name: Port 48
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  - mgmt_only: true
+    name: eth1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Opengear
+  model: IM4248-2
+  part_number: IM4248-2
+  power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  slug: opengear-im4248-2
+  u_height: 1
+- comments: CM7132 with built-in Dual Power Supplies
+  console-ports:
+  - name: Console
+    type: rj-45
+  console-server-ports:
+  - name: Port 1
+    type: rj-45
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+  - name: Port 9
+    type: rj-45
+  - name: Port 10
+    type: rj-45
+  - name: Port 11
+    type: rj-45
+  - name: Port 12
+    type: rj-45
+  - name: Port 13
+    type: rj-45
+  - name: Port 14
+    type: rj-45
+  - name: Port 15
+    type: rj-45
+  - name: Port 16
+    type: rj-45
+  - name: Port 17
+    type: rj-45
+  - name: Port 18
+    type: rj-45
+  - name: Port 19
+    type: rj-45
+  - name: Port 20
+    type: rj-45
+  - name: Port 21
+    type: rj-45
+  - name: Port 22
+    type: rj-45
+  - name: Port 23
+    type: rj-45
+  - name: Port 24
+    type: rj-45
+  - name: Port 25
+    type: rj-45
+  - name: Port 26
+    type: rj-45
+  - name: Port 27
+    type: rj-45
+  - name: Port 28
+    type: rj-45
+  - name: Port 29
+    type: rj-45
+  - name: Port 30
+    type: rj-45
+  - name: Port 31
+    type: rj-45
+  - name: Port 32
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: lan
+    type: 1000base-t
+  - mgmt_only: true
+    name: wan
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Opengear
+  model: CM7132-2-DAC-US
+  part_number: CM7132-2-DAC-US
+  power-ports:
+  - allocated_draw: 20
+    maximum_draw: 25
+    name: PS1
+    type: iec-60320-c14
+  - allocated_draw: 20
+    maximum_draw: 25
+    name: PS2
+    type: iec-60320-c14
+  slug: opengear-cm7132-2-dac-us
   u_height: 1
 - comments: 48 serial software selectable, dual AC, Dual 1 GbE Ethernet or fiber SFP,
     16GB flash, AT&T 4G LTE cellular, v.92 modem, - No Power Cord
@@ -386,11 +1269,9 @@ models:
   - allocated_draw: 15
     name: PS2
     type: iec-60320-c14
-  slug: im7248-2-dac-lma
+  slug: opengear-im7248-2-dac-lma
   u_height: 1
-- comments: 48 serial software selectable, dual AC, Dual 1 GbE Ethernet or fiber SFP,
-    16GB flash, v.92 modem, - No Power Cord
-  console-ports:
+- console-ports:
   - name: Console
     type: rj-45
   console-server-ports:
@@ -458,38 +1339,6 @@ models:
     type: rj-45
   - name: Port 32
     type: rj-45
-  - name: Port 33
-    type: rj-45
-  - name: Port 34
-    type: rj-45
-  - name: Port 35
-    type: rj-45
-  - name: Port 36
-    type: rj-45
-  - name: Port 37
-    type: rj-45
-  - name: Port 38
-    type: rj-45
-  - name: Port 39
-    type: rj-45
-  - name: Port 40
-    type: rj-45
-  - name: Port 41
-    type: rj-45
-  - name: Port 42
-    type: rj-45
-  - name: Port 43
-    type: rj-45
-  - name: Port 44
-    type: rj-45
-  - name: Port 45
-    type: rj-45
-  - name: Port 46
-    type: rj-45
-  - name: Port 47
-    type: rj-45
-  - name: Port 48
-    type: rj-45
   interfaces:
   - mgmt_only: true
     name: eth0
@@ -502,75 +1351,18 @@ models:
     type: ieee802.11n
   is_full_depth: false
   manufacturer: Opengear
-  model: IM7248-2-DAC
-  part_number: IM7248-2-DAC
+  model: IM7232-2-DAC-US
+  part_number: IM7232-2-DAC-US
   power-ports:
-  - allocated_draw: 15
+  - allocated_draw: 30
     name: PS1
     type: iec-60320-c14
-  - allocated_draw: 15
+  - allocated_draw: 30
     name: PS2
     type: iec-60320-c14
-  slug: im7248-2-dac
+  slug: opengear-im7232-2-dac-us
   u_height: 1
-- comments: CM7116 with built-in Single Power Supply
-  console-ports:
-  - name: Console
-    type: rj-45
-  console-server-ports:
-  - name: Port 1
-    type: rj-45
-  - name: Port 2
-    type: rj-45
-  - name: Port 3
-    type: rj-45
-  - name: Port 4
-    type: rj-45
-  - name: Port 5
-    type: rj-45
-  - name: Port 6
-    type: rj-45
-  - name: Port 7
-    type: rj-45
-  - name: Port 8
-    type: rj-45
-  - name: Port 9
-    type: rj-45
-  - name: Port 10
-    type: rj-45
-  - name: Port 11
-    type: rj-45
-  - name: Port 12
-    type: rj-45
-  - name: Port 13
-    type: rj-45
-  - name: Port 14
-    type: rj-45
-  - name: Port 15
-    type: rj-45
-  - name: Port 16
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: lan
-    type: 1000base-t
-  - mgmt_only: true
-    name: wan
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Opengear
-  model: CM7116-2-SAC-US
-  part_number: CM7116-2-SAC-US
-  power-ports:
-  - allocated_draw: 20
-    maximum_draw: 25
-    name: PS1
-    type: iec-60320-c14
-  slug: cm7116-2-sac-us
-  u_height: 1
-- comments: 48 serial software selectable, dual AC, Dual 1 GbE Ethernet or fiber SFP,
-    16GB flash, Verizon 4G LTE cellular, v.92 modem, - No Power Cord
-  console-ports:
+- console-ports:
   - name: Console
     type: rj-45
   console-server-ports:
@@ -638,38 +1430,6 @@ models:
     type: rj-45
   - name: Port 32
     type: rj-45
-  - name: Port 33
-    type: rj-45
-  - name: Port 34
-    type: rj-45
-  - name: Port 35
-    type: rj-45
-  - name: Port 36
-    type: rj-45
-  - name: Port 37
-    type: rj-45
-  - name: Port 38
-    type: rj-45
-  - name: Port 39
-    type: rj-45
-  - name: Port 40
-    type: rj-45
-  - name: Port 41
-    type: rj-45
-  - name: Port 42
-    type: rj-45
-  - name: Port 43
-    type: rj-45
-  - name: Port 44
-    type: rj-45
-  - name: Port 45
-    type: rj-45
-  - name: Port 46
-    type: rj-45
-  - name: Port 47
-    type: rj-45
-  - name: Port 48
-    type: rj-45
   interfaces:
   - mgmt_only: true
     name: eth0
@@ -677,24 +1437,14 @@ models:
   - mgmt_only: true
     name: eth1
     type: 1000base-t
-  - mgmt_only: true
-    name: eth2
-    type: lte
-  - mgmt_only: true
-    name: wlan0
-    type: ieee802.11n
   is_full_depth: false
   manufacturer: Opengear
-  model: IM7248-2-DAC-LMV
-  part_number: IM7248-2-DAC-LMV
+  model: IM4232-2
+  part_number: IM4232-2
   power-ports:
-  - allocated_draw: 15
-    name: PS1
+  - name: PS1
     type: iec-60320-c14
-  - allocated_draw: 15
-    name: PS2
-    type: iec-60320-c14
-  slug: im7248-2-dac-lmv
+  slug: opengear-im4232-2
   u_height: 1
 - comments: Operations Manager OM2200 - Americas LTE
   console-ports:
@@ -840,819 +1590,7 @@ models:
   - allocated_draw: 30
     name: PS2
     type: iec-60320-c14
-  slug: om2248-l
-  u_height: 1
-- comments: ACM7008 Console Server with 8 Console Ports on the rear of the device.
-  console-server-ports:
-  - name: Port 1
-    type: rj-45
-  - name: Port 2
-    type: rj-45
-  - name: Port 3
-    type: rj-45
-  - name: Port 4
-    type: rj-45
-  - name: Port 5
-    type: rj-45
-  - name: Port 6
-    type: rj-45
-  - name: Port 7
-    type: rj-45
-  - name: Port 8
-    type: rj-45
-  interfaces:
-  - name: net1_copper
-    type: 1000base-t
-  - name: net1_sfp
-    type: 1000base-x-sfp
-  - name: net2_copper
-    type: 1000base-t
-  - name: net2_sfp
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Opengear
-  model: ACM7008-2-M
-  part_number: ACM7008-2-M
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  slug: acm7008-2-m
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  console-server-ports:
-  - name: Port 1
-    type: rj-45
-  - name: Port 2
-    type: rj-45
-  - name: Port 3
-    type: rj-45
-  - name: Port 4
-    type: rj-45
-  - name: Port 5
-    type: rj-45
-  - name: Port 6
-    type: rj-45
-  - name: Port 7
-    type: rj-45
-  - name: Port 8
-    type: rj-45
-  - name: Port 9
-    type: rj-45
-  - name: Port 10
-    type: rj-45
-  - name: Port 11
-    type: rj-45
-  - name: Port 12
-    type: rj-45
-  - name: Port 13
-    type: rj-45
-  - name: Port 14
-    type: rj-45
-  - name: Port 15
-    type: rj-45
-  - name: Port 16
-    type: rj-45
-  - name: Port 17
-    type: rj-45
-  - name: Port 18
-    type: rj-45
-  - name: Port 19
-    type: rj-45
-  - name: Port 20
-    type: rj-45
-  - name: Port 21
-    type: rj-45
-  - name: Port 22
-    type: rj-45
-  - name: Port 23
-    type: rj-45
-  - name: Port 24
-    type: rj-45
-  - name: Port 25
-    type: rj-45
-  - name: Port 26
-    type: rj-45
-  - name: Port 27
-    type: rj-45
-  - name: Port 28
-    type: rj-45
-  - name: Port 29
-    type: rj-45
-  - name: Port 30
-    type: rj-45
-  - name: Port 31
-    type: rj-45
-  - name: Port 32
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - mgmt_only: true
-    name: eth1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Opengear
-  model: IM4232-2
-  part_number: IM4232-2
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  slug: im4232-2
-  u_height: 1
-- comments: Operations Manager OM2200 - Europe LTE
-  console-ports:
-  - name: Console
-    type: rj-45
-  - name: USB Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: Port 1
-    type: rj-45
-  - name: Port 2
-    type: rj-45
-  - name: Port 3
-    type: rj-45
-  - name: Port 4
-    type: rj-45
-  - name: Port 5
-    type: rj-45
-  - name: Port 6
-    type: rj-45
-  - name: Port 7
-    type: rj-45
-  - name: Port 8
-    type: rj-45
-  - name: Port 9
-    type: rj-45
-  - name: Port 10
-    type: rj-45
-  - name: Port 11
-    type: rj-45
-  - name: Port 12
-    type: rj-45
-  - name: Port 13
-    type: rj-45
-  - name: Port 14
-    type: rj-45
-  - name: Port 15
-    type: rj-45
-  - name: Port 16
-    type: rj-45
-  - name: Port 17
-    type: rj-45
-  - name: Port 18
-    type: rj-45
-  - name: Port 19
-    type: rj-45
-  - name: Port 20
-    type: rj-45
-  - name: Port 21
-    type: rj-45
-  - name: Port 22
-    type: rj-45
-  - name: Port 23
-    type: rj-45
-  - name: Port 24
-    type: rj-45
-  - name: Port 25
-    type: rj-45
-  - name: Port 26
-    type: rj-45
-  - name: Port 27
-    type: rj-45
-  - name: Port 28
-    type: rj-45
-  - name: Port 29
-    type: rj-45
-  - name: Port 30
-    type: rj-45
-  - name: Port 31
-    type: rj-45
-  - name: Port 32
-    type: rj-45
-  - name: Port 33
-    type: rj-45
-  - name: Port 34
-    type: rj-45
-  - name: Port 35
-    type: rj-45
-  - name: Port 36
-    type: rj-45
-  - name: Port 37
-    type: rj-45
-  - name: Port 38
-    type: rj-45
-  - name: Port 39
-    type: rj-45
-  - name: Port 40
-    type: rj-45
-  - name: Port 41
-    type: rj-45
-  - name: Port 42
-    type: rj-45
-  - name: Port 43
-    type: rj-45
-  - name: Port 44
-    type: rj-45
-  - name: Port 45
-    type: rj-45
-  - name: Port 46
-    type: rj-45
-  - name: Port 47
-    type: rj-45
-  - name: Port 48
-    type: rj-45
-  - name: USB A
-    type: usb-a
-  - name: USB B
-    type: usb-a
-  - name: USB C
-    type: usb-a
-  - name: USB D
-    type: usb-a
-  - name: USB E
-    type: usb-a
-  - name: USB F
-    type: usb-a
-  - name: USB G
-    type: usb-a
-  - name: USB H
-    type: usb-a
-  - name: Front Upper USB
-    type: usb-a
-  - name: Front Lower USB
-    type: usb-a
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - mgmt_only: true
-    name: eth1
-    type: 1000base-t
-  - mgmt_only: true
-    name: Cellular Interface (LTE)
-    type: lte
-  is_full_depth: false
-  manufacturer: Opengear
-  model: OM2248-L-EU
-  part_number: OM2248-L-EU
-  power-ports:
-  - allocated_draw: 30
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 30
-    name: PS2
-    type: iec-60320-c14
-  slug: om2248-l-eu
-  u_height: 1
-- comments: CM7148 with built-in Dual Power Supplies
-  console-ports:
-  - name: Console
-    type: rj-45
-  console-server-ports:
-  - name: Port 1
-    type: rj-45
-  - name: Port 2
-    type: rj-45
-  - name: Port 3
-    type: rj-45
-  - name: Port 4
-    type: rj-45
-  - name: Port 5
-    type: rj-45
-  - name: Port 6
-    type: rj-45
-  - name: Port 7
-    type: rj-45
-  - name: Port 8
-    type: rj-45
-  - name: Port 9
-    type: rj-45
-  - name: Port 10
-    type: rj-45
-  - name: Port 11
-    type: rj-45
-  - name: Port 12
-    type: rj-45
-  - name: Port 13
-    type: rj-45
-  - name: Port 14
-    type: rj-45
-  - name: Port 15
-    type: rj-45
-  - name: Port 16
-    type: rj-45
-  - name: Port 17
-    type: rj-45
-  - name: Port 18
-    type: rj-45
-  - name: Port 19
-    type: rj-45
-  - name: Port 20
-    type: rj-45
-  - name: Port 21
-    type: rj-45
-  - name: Port 22
-    type: rj-45
-  - name: Port 23
-    type: rj-45
-  - name: Port 24
-    type: rj-45
-  - name: Port 25
-    type: rj-45
-  - name: Port 26
-    type: rj-45
-  - name: Port 27
-    type: rj-45
-  - name: Port 28
-    type: rj-45
-  - name: Port 29
-    type: rj-45
-  - name: Port 30
-    type: rj-45
-  - name: Port 31
-    type: rj-45
-  - name: Port 32
-    type: rj-45
-  - name: Port 33
-    type: rj-45
-  - name: Port 34
-    type: rj-45
-  - name: Port 35
-    type: rj-45
-  - name: Port 36
-    type: rj-45
-  - name: Port 37
-    type: rj-45
-  - name: Port 38
-    type: rj-45
-  - name: Port 39
-    type: rj-45
-  - name: Port 40
-    type: rj-45
-  - name: Port 41
-    type: rj-45
-  - name: Port 42
-    type: rj-45
-  - name: Port 43
-    type: rj-45
-  - name: Port 44
-    type: rj-45
-  - name: Port 45
-    type: rj-45
-  - name: Port 46
-    type: rj-45
-  - name: Port 47
-    type: rj-45
-  - name: Port 48
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: lan
-    type: 1000base-t
-  - mgmt_only: true
-    name: wan
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Opengear
-  model: CM7148-2-DAC-US
-  part_number: CM7148-2-DAC-US
-  power-ports:
-  - allocated_draw: 20
-    maximum_draw: 25
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 20
-    maximum_draw: 25
-    name: PS2
-    type: iec-60320-c14
-  slug: cm7148-2-dac-us
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  console-server-ports:
-  - name: Port 1
-    type: rj-45
-  - name: Port 2
-    type: rj-45
-  - name: Port 3
-    type: rj-45
-  - name: Port 4
-    type: rj-45
-  - name: Port 5
-    type: rj-45
-  - name: Port 6
-    type: rj-45
-  - name: Port 7
-    type: rj-45
-  - name: Port 8
-    type: rj-45
-  - name: Port 9
-    type: rj-45
-  - name: Port 10
-    type: rj-45
-  - name: Port 11
-    type: rj-45
-  - name: Port 12
-    type: rj-45
-  - name: Port 13
-    type: rj-45
-  - name: Port 14
-    type: rj-45
-  - name: Port 15
-    type: rj-45
-  - name: Port 16
-    type: rj-45
-  - name: Port 17
-    type: rj-45
-  - name: Port 18
-    type: rj-45
-  - name: Port 19
-    type: rj-45
-  - name: Port 20
-    type: rj-45
-  - name: Port 21
-    type: rj-45
-  - name: Port 22
-    type: rj-45
-  - name: Port 23
-    type: rj-45
-  - name: Port 24
-    type: rj-45
-  - name: Port 25
-    type: rj-45
-  - name: Port 26
-    type: rj-45
-  - name: Port 27
-    type: rj-45
-  - name: Port 28
-    type: rj-45
-  - name: Port 29
-    type: rj-45
-  - name: Port 30
-    type: rj-45
-  - name: Port 31
-    type: rj-45
-  - name: Port 32
-    type: rj-45
-  - name: Port 33
-    type: rj-45
-  - name: Port 34
-    type: rj-45
-  - name: Port 35
-    type: rj-45
-  - name: Port 36
-    type: rj-45
-  - name: Port 37
-    type: rj-45
-  - name: Port 38
-    type: rj-45
-  - name: Port 39
-    type: rj-45
-  - name: Port 40
-    type: rj-45
-  - name: Port 41
-    type: rj-45
-  - name: Port 42
-    type: rj-45
-  - name: Port 43
-    type: rj-45
-  - name: Port 44
-    type: rj-45
-  - name: Port 45
-    type: rj-45
-  - name: Port 46
-    type: rj-45
-  - name: Port 47
-    type: rj-45
-  - name: Port 48
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - mgmt_only: true
-    name: eth1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Opengear
-  model: IM4248-2
-  part_number: IM4248-2
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  slug: im4248-2
-  u_height: 1
-- comments: CM7132 with built-in Dual Power Supplies
-  console-ports:
-  - name: Console
-    type: rj-45
-  console-server-ports:
-  - name: Port 1
-    type: rj-45
-  - name: Port 2
-    type: rj-45
-  - name: Port 3
-    type: rj-45
-  - name: Port 4
-    type: rj-45
-  - name: Port 5
-    type: rj-45
-  - name: Port 6
-    type: rj-45
-  - name: Port 7
-    type: rj-45
-  - name: Port 8
-    type: rj-45
-  - name: Port 9
-    type: rj-45
-  - name: Port 10
-    type: rj-45
-  - name: Port 11
-    type: rj-45
-  - name: Port 12
-    type: rj-45
-  - name: Port 13
-    type: rj-45
-  - name: Port 14
-    type: rj-45
-  - name: Port 15
-    type: rj-45
-  - name: Port 16
-    type: rj-45
-  - name: Port 17
-    type: rj-45
-  - name: Port 18
-    type: rj-45
-  - name: Port 19
-    type: rj-45
-  - name: Port 20
-    type: rj-45
-  - name: Port 21
-    type: rj-45
-  - name: Port 22
-    type: rj-45
-  - name: Port 23
-    type: rj-45
-  - name: Port 24
-    type: rj-45
-  - name: Port 25
-    type: rj-45
-  - name: Port 26
-    type: rj-45
-  - name: Port 27
-    type: rj-45
-  - name: Port 28
-    type: rj-45
-  - name: Port 29
-    type: rj-45
-  - name: Port 30
-    type: rj-45
-  - name: Port 31
-    type: rj-45
-  - name: Port 32
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: lan
-    type: 1000base-t
-  - mgmt_only: true
-    name: wan
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Opengear
-  model: CM7132-2-DAC-US
-  part_number: CM7132-2-DAC-US
-  power-ports:
-  - allocated_draw: 20
-    maximum_draw: 25
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 20
-    maximum_draw: 25
-    name: PS2
-    type: iec-60320-c14
-  slug: cm7132-2-dac-us
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  console-server-ports:
-  - name: Port 1
-    type: rj-45
-  - name: Port 2
-    type: rj-45
-  - name: Port 3
-    type: rj-45
-  - name: Port 4
-    type: rj-45
-  - name: Port 5
-    type: rj-45
-  - name: Port 6
-    type: rj-45
-  - name: Port 7
-    type: rj-45
-  - name: Port 8
-    type: rj-45
-  - name: Port 9
-    type: rj-45
-  - name: Port 10
-    type: rj-45
-  - name: Port 11
-    type: rj-45
-  - name: Port 12
-    type: rj-45
-  - name: Port 13
-    type: rj-45
-  - name: Port 14
-    type: rj-45
-  - name: Port 15
-    type: rj-45
-  - name: Port 16
-    type: rj-45
-  - name: Port 17
-    type: rj-45
-  - name: Port 18
-    type: rj-45
-  - name: Port 19
-    type: rj-45
-  - name: Port 20
-    type: rj-45
-  - name: Port 21
-    type: rj-45
-  - name: Port 22
-    type: rj-45
-  - name: Port 23
-    type: rj-45
-  - name: Port 24
-    type: rj-45
-  - name: Port 25
-    type: rj-45
-  - name: Port 26
-    type: rj-45
-  - name: Port 27
-    type: rj-45
-  - name: Port 28
-    type: rj-45
-  - name: Port 29
-    type: rj-45
-  - name: Port 30
-    type: rj-45
-  - name: Port 31
-    type: rj-45
-  - name: Port 32
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - mgmt_only: true
-    name: eth1
-    type: 1000base-t
-  - mgmt_only: true
-    name: wlan0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: Opengear
-  model: IM7232-2-DAC-US
-  part_number: IM7232-2-DAC-US
-  power-ports:
-  - allocated_draw: 30
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 30
-    name: PS2
-    type: iec-60320-c14
-  slug: im7232-2-dac-us
-  u_height: 1
-- comments: 48 serial software selectable, dual AC, Dual 1 GbE Ethernet or fiber SFP,
-    16GB flash, v.92 modem, - US Power Cord
-  console-ports:
-  - name: Console
-    type: rj-45
-  console-server-ports:
-  - name: Port 1
-    type: rj-45
-  - name: Port 2
-    type: rj-45
-  - name: Port 3
-    type: rj-45
-  - name: Port 4
-    type: rj-45
-  - name: Port 5
-    type: rj-45
-  - name: Port 6
-    type: rj-45
-  - name: Port 7
-    type: rj-45
-  - name: Port 8
-    type: rj-45
-  - name: Port 9
-    type: rj-45
-  - name: Port 10
-    type: rj-45
-  - name: Port 11
-    type: rj-45
-  - name: Port 12
-    type: rj-45
-  - name: Port 13
-    type: rj-45
-  - name: Port 14
-    type: rj-45
-  - name: Port 15
-    type: rj-45
-  - name: Port 16
-    type: rj-45
-  - name: Port 17
-    type: rj-45
-  - name: Port 18
-    type: rj-45
-  - name: Port 19
-    type: rj-45
-  - name: Port 20
-    type: rj-45
-  - name: Port 21
-    type: rj-45
-  - name: Port 22
-    type: rj-45
-  - name: Port 23
-    type: rj-45
-  - name: Port 24
-    type: rj-45
-  - name: Port 25
-    type: rj-45
-  - name: Port 26
-    type: rj-45
-  - name: Port 27
-    type: rj-45
-  - name: Port 28
-    type: rj-45
-  - name: Port 29
-    type: rj-45
-  - name: Port 30
-    type: rj-45
-  - name: Port 31
-    type: rj-45
-  - name: Port 32
-    type: rj-45
-  - name: Port 33
-    type: rj-45
-  - name: Port 34
-    type: rj-45
-  - name: Port 35
-    type: rj-45
-  - name: Port 36
-    type: rj-45
-  - name: Port 37
-    type: rj-45
-  - name: Port 38
-    type: rj-45
-  - name: Port 39
-    type: rj-45
-  - name: Port 40
-    type: rj-45
-  - name: Port 41
-    type: rj-45
-  - name: Port 42
-    type: rj-45
-  - name: Port 43
-    type: rj-45
-  - name: Port 44
-    type: rj-45
-  - name: Port 45
-    type: rj-45
-  - name: Port 46
-    type: rj-45
-  - name: Port 47
-    type: rj-45
-  - name: Port 48
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - mgmt_only: true
-    name: eth1
-    type: 1000base-t
-  - mgmt_only: true
-    name: wlan0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: Opengear
-  model: IM7248-2-DAC-US
-  part_number: IM7248-2-DAC-US
-  power-ports:
-  - allocated_draw: 30
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 30
-    name: PS2
-    type: iec-60320-c14
-  slug: im7248-2-dac-us
+  slug: opengear-om2248-l
   u_height: 1
 - console-ports:
   - name: Console
@@ -1704,7 +1642,7 @@ models:
   power-ports:
   - name: PS1
     type: iec-60320-c14
-  slug: im4216-2
+  slug: opengear-im4216-2
   u_height: 1
 - comments: CM7148 with built-in Single Power Supply
   console-ports:
@@ -1823,9 +1761,10 @@ models:
     maximum_draw: 25
     name: PS1
     type: iec-60320-c14
-  slug: cm7148-2-sac-us
+  slug: opengear-cm7148-2-sac-us
   u_height: 1
-- console-ports:
+- comments: CM7116 with built-in Single Power Supply
+  console-ports:
   - name: Console
     type: rj-45
   console-server-ports:
@@ -1863,29 +1802,24 @@ models:
     type: rj-45
   interfaces:
   - mgmt_only: true
-    name: eth0
+    name: lan
     type: 1000base-t
   - mgmt_only: true
-    name: eth1
+    name: wan
     type: 1000base-t
-  - mgmt_only: true
-    name: wlan0
-    type: ieee802.11n
   is_full_depth: false
   manufacturer: Opengear
-  model: IM7216-2-DAC-US
-  part_number: IM7216-2-DAC-US
+  model: CM7116-2-SAC-US
+  part_number: CM7116-2-SAC-US
   power-ports:
-  - allocated_draw: 30
+  - allocated_draw: 20
+    maximum_draw: 25
     name: PS1
     type: iec-60320-c14
-  - allocated_draw: 30
-    name: PS2
-    type: iec-60320-c14
-  slug: im7216-2-dac-us
+  slug: opengear-cm7116-2-sac-us
   u_height: 1
 - comments: 48 serial software selectable, dual AC, Dual 1 GbE Ethernet or fiber SFP,
-    16GB flash, 4G LTE cellular multi carrier, v.92 modem, -No Power Cord
+    16GB flash, Verizon 4G LTE cellular, v.92 modem, - No Power Cord
   console-ports:
   - name: Console
     type: rj-45
@@ -2001,8 +1935,8 @@ models:
     type: ieee802.11n
   is_full_depth: false
   manufacturer: Opengear
-  model: IM7248-2-DAC-LR
-  part_number: IM7248-2-DAC-LR
+  model: IM7248-2-DAC-LMV
+  part_number: IM7248-2-DAC-LMV
   power-ports:
   - allocated_draw: 15
     name: PS1
@@ -2010,7 +1944,7 @@ models:
   - allocated_draw: 15
     name: PS2
     type: iec-60320-c14
-  slug: im7248-2-dac-lr
+  slug: opengear-im7248-2-dac-lmv
   u_height: 1
 - comments: 48 serial software selectable, dual AC, Dual 1 GbE Ethernet or fiber SFP,
     16GB flash, 4G LTE cellular multi carrier, v.92 modem,- No Power Cord
@@ -2138,9 +2072,10 @@ models:
   - allocated_draw: 15
     name: PS2
     type: iec-60320-c14
-  slug: im7248-2-dac-lmp
+  slug: opengear-im7248-2-dac-lmp
   u_height: 1
-- comments: CM7116 with built-in Dual Power Supplies
+- comments: 48 serial software selectable, dual AC, Dual 1 GbE Ethernet or fiber SFP,
+    16GB flash, v.92 modem, - No Power Cord
   console-ports:
   - name: Console
     type: rj-45
@@ -2177,25 +2112,90 @@ models:
     type: rj-45
   - name: Port 16
     type: rj-45
+  - name: Port 17
+    type: rj-45
+  - name: Port 18
+    type: rj-45
+  - name: Port 19
+    type: rj-45
+  - name: Port 20
+    type: rj-45
+  - name: Port 21
+    type: rj-45
+  - name: Port 22
+    type: rj-45
+  - name: Port 23
+    type: rj-45
+  - name: Port 24
+    type: rj-45
+  - name: Port 25
+    type: rj-45
+  - name: Port 26
+    type: rj-45
+  - name: Port 27
+    type: rj-45
+  - name: Port 28
+    type: rj-45
+  - name: Port 29
+    type: rj-45
+  - name: Port 30
+    type: rj-45
+  - name: Port 31
+    type: rj-45
+  - name: Port 32
+    type: rj-45
+  - name: Port 33
+    type: rj-45
+  - name: Port 34
+    type: rj-45
+  - name: Port 35
+    type: rj-45
+  - name: Port 36
+    type: rj-45
+  - name: Port 37
+    type: rj-45
+  - name: Port 38
+    type: rj-45
+  - name: Port 39
+    type: rj-45
+  - name: Port 40
+    type: rj-45
+  - name: Port 41
+    type: rj-45
+  - name: Port 42
+    type: rj-45
+  - name: Port 43
+    type: rj-45
+  - name: Port 44
+    type: rj-45
+  - name: Port 45
+    type: rj-45
+  - name: Port 46
+    type: rj-45
+  - name: Port 47
+    type: rj-45
+  - name: Port 48
+    type: rj-45
   interfaces:
   - mgmt_only: true
-    name: lan
+    name: eth0
     type: 1000base-t
   - mgmt_only: true
-    name: wan
+    name: eth1
     type: 1000base-t
+  - mgmt_only: true
+    name: wlan0
+    type: ieee802.11n
   is_full_depth: false
   manufacturer: Opengear
-  model: CM7116-2-DAC-US
-  part_number: CM7116-2-DAC-US
+  model: IM7248-2-DAC
+  part_number: IM7248-2-DAC
   power-ports:
-  - allocated_draw: 20
-    maximum_draw: 25
+  - allocated_draw: 15
     name: PS1
     type: iec-60320-c14
-  - allocated_draw: 20
-    maximum_draw: 25
+  - allocated_draw: 15
     name: PS2
     type: iec-60320-c14
-  slug: cm7116-2-dac-us
+  slug: opengear-im7248-2-dac
   u_height: 1

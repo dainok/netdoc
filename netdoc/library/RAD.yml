@@ -41,5 +41,5 @@ models:
   - maximum_draw: 90
     name: power
     type: iec-60320-c14
-  slug: etx-2i-10g
+  slug: rad-etx-2i-10g
   u_height: 1

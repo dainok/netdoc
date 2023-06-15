@@ -309,6 +309,10 @@ def find_model(manufacturer=None, keyword=None):
 
     See: https://github.com/netbox-community/devicetype-library
     """
+    if manufacturer == "Unknown":
+        # Skip Unknown manufacturer
+        return None
+
     netdoc_directory = path.dirname(path.realpath(__file__))
     library_file = f"{netdoc_directory}/library/{manufacturer}.yml"
 

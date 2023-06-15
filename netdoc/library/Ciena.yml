@@ -1,18 +1,18 @@
 keywords:
 - '5142'
 - 170-5142-900
-- '3926'
-- 170-3926-900
-- '5170'
-- 170-5170-900
-- '5160'
-- 170-5160-900
 - 3928AC
 - 170-3928-910
+- '3926'
+- 170-3926-900
 - '3930'
 - 170-3930-900
+- '5170'
+- 170-5170-900
 - '5171'
 - 170-5171-910
+- '5160'
+- 170-5160-900
 models:
 - console-ports:
   - name: CONSOLE
@@ -82,7 +82,53 @@ models:
     maximum_draw: 150
     name: PSB
     type: iec-60320-c14
-  slug: '5142'
+  slug: ciena-5142
+  u_height: 1
+- console-ports:
+  - name: CONSOLE
+    type: rj-45
+  - name: USB
+    type: usb-a
+  interfaces:
+  - name: '1'
+    type: 1000base-x-sfp
+  - name: '2'
+    type: 1000base-x-sfp
+  - name: '3'
+    type: 1000base-x-sfp
+  - name: '4'
+    type: 1000base-x-sfp
+  - name: '5'
+    type: 1000base-x-sfp
+  - name: '6'
+    type: 1000base-x-sfp
+  - name: '7'
+    type: 1000base-x-sfp
+  - name: '8'
+    type: 1000base-x-sfp
+  - name: '9'
+    type: 10gbase-x-sfpp
+  - name: '10'
+    type: 10gbase-x-sfpp
+  - name: '11'
+    type: 10gbase-x-sfpp
+  - name: '12'
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: MGMT
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ciena
+  model: 3928AC
+  part_number: 170-3928-910
+  power-ports:
+  - maximum_draw: 96
+    name: PSA
+    type: iec-60320-c14
+  - maximum_draw: 96
+    name: PSB
+    type: iec-60320-c14
+  slug: ciena-3928ac
   u_height: 1
 - console-ports:
   - name: CONSOLE
@@ -120,7 +166,45 @@ models:
     maximum_draw: 150
     name: PSB
     type: iec-60320-c14
-  slug: '3926'
+  slug: ciena-3926
+  u_height: 1
+- console-ports:
+  - name: CONSOLE
+    type: rj-45
+  interfaces:
+  - name: '1'
+    type: 1000base-x-sfp
+  - name: '2'
+    type: 1000base-x-sfp
+  - name: '3'
+    type: 1000base-x-sfp
+  - name: '4'
+    type: 1000base-x-sfp
+  - name: '5'
+    type: 1000base-x-sfp
+  - name: '6'
+    type: 1000base-x-sfp
+  - name: '7'
+    type: 1000base-x-sfp
+  - name: '8'
+    type: 1000base-x-sfp
+  - name: '9'
+    type: 10gbase-x-sfpp
+  - name: '10'
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: MGMT
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ciena
+  model: '3930'
+  part_number: 170-3930-900
+  power-ports:
+  - name: PSA
+    type: iec-60320-c14
+  - name: PSB
+    type: iec-60320-c14
+  slug: ciena-3930
   u_height: 1
 - console-ports:
   - name: CONSOLE
@@ -230,161 +314,7 @@ models:
     maximum_draw: 360
     name: PSB
     type: iec-60320-c14
-  slug: '5170'
-  u_height: 1
-- console-ports:
-  - name: CONSOLE
-    type: rj-45
-  interfaces:
-  - name: '1'
-    type: 10gbase-x-sfpp
-  - name: '2'
-    type: 10gbase-x-sfpp
-  - name: '3'
-    type: 10gbase-x-sfpp
-  - name: '4'
-    type: 10gbase-x-sfpp
-  - name: '5'
-    type: 10gbase-x-sfpp
-  - name: '6'
-    type: 10gbase-x-sfpp
-  - name: '7'
-    type: 10gbase-x-sfpp
-  - name: '8'
-    type: 10gbase-x-sfpp
-  - name: '9'
-    type: 10gbase-x-sfpp
-  - name: '10'
-    type: 10gbase-x-sfpp
-  - name: '11'
-    type: 10gbase-x-sfpp
-  - name: '12'
-    type: 10gbase-x-sfpp
-  - name: '13'
-    type: 10gbase-x-sfpp
-  - name: '14'
-    type: 10gbase-x-sfpp
-  - name: '15'
-    type: 10gbase-x-sfpp
-  - name: '16'
-    type: 10gbase-x-sfpp
-  - name: '17'
-    type: 10gbase-x-sfpp
-  - name: '18'
-    type: 10gbase-x-sfpp
-  - name: '19'
-    type: 10gbase-x-sfpp
-  - name: '20'
-    type: 10gbase-x-sfpp
-  - name: '21'
-    type: 10gbase-x-sfpp
-  - name: '22'
-    type: 10gbase-x-sfpp
-  - name: '23'
-    type: 10gbase-x-sfpp
-  - name: '24'
-    type: 10gbase-x-sfpp
-  - mgmt_only: true
-    name: MGMT
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ciena
-  model: '5160'
-  part_number: 170-5160-900
-  power-ports:
-  - allocated_draw: 50
-    maximum_draw: 175
-    name: PSA
-    type: iec-60320-c14
-  - allocated_draw: 50
-    maximum_draw: 175
-    name: PSB
-    type: iec-60320-c14
-  slug: '5160'
-  u_height: 1
-- console-ports:
-  - name: CONSOLE
-    type: rj-45
-  - name: USB
-    type: usb-a
-  interfaces:
-  - name: '1'
-    type: 1000base-x-sfp
-  - name: '2'
-    type: 1000base-x-sfp
-  - name: '3'
-    type: 1000base-x-sfp
-  - name: '4'
-    type: 1000base-x-sfp
-  - name: '5'
-    type: 1000base-x-sfp
-  - name: '6'
-    type: 1000base-x-sfp
-  - name: '7'
-    type: 1000base-x-sfp
-  - name: '8'
-    type: 1000base-x-sfp
-  - name: '9'
-    type: 10gbase-x-sfpp
-  - name: '10'
-    type: 10gbase-x-sfpp
-  - name: '11'
-    type: 10gbase-x-sfpp
-  - name: '12'
-    type: 10gbase-x-sfpp
-  - mgmt_only: true
-    name: MGMT
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ciena
-  model: 3928AC
-  part_number: 170-3928-910
-  power-ports:
-  - maximum_draw: 96
-    name: PSA
-    type: iec-60320-c14
-  - maximum_draw: 96
-    name: PSB
-    type: iec-60320-c14
-  slug: 3928ac
-  u_height: 1
-- console-ports:
-  - name: CONSOLE
-    type: rj-45
-  interfaces:
-  - name: '1'
-    type: 1000base-x-sfp
-  - name: '2'
-    type: 1000base-x-sfp
-  - name: '3'
-    type: 1000base-x-sfp
-  - name: '4'
-    type: 1000base-x-sfp
-  - name: '5'
-    type: 1000base-x-sfp
-  - name: '6'
-    type: 1000base-x-sfp
-  - name: '7'
-    type: 1000base-x-sfp
-  - name: '8'
-    type: 1000base-x-sfp
-  - name: '9'
-    type: 10gbase-x-sfpp
-  - name: '10'
-    type: 10gbase-x-sfpp
-  - mgmt_only: true
-    name: MGMT
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ciena
-  model: '3930'
-  part_number: 170-3930-900
-  power-ports:
-  - name: PSA
-    type: iec-60320-c14
-  - name: PSB
-    type: iec-60320-c14
-  slug: '3930'
+  slug: ciena-5170
   u_height: 1
 - console-ports:
   - name: CONSOLE
@@ -491,6 +421,76 @@ models:
     maximum_draw: 800
     name: PSB
     type: iec-60320-c14
-  slug: '5171'
+  slug: ciena-5171
   subdevice_role: parent
   u_height: 2
+- console-ports:
+  - name: CONSOLE
+    type: rj-45
+  interfaces:
+  - name: '1'
+    type: 10gbase-x-sfpp
+  - name: '2'
+    type: 10gbase-x-sfpp
+  - name: '3'
+    type: 10gbase-x-sfpp
+  - name: '4'
+    type: 10gbase-x-sfpp
+  - name: '5'
+    type: 10gbase-x-sfpp
+  - name: '6'
+    type: 10gbase-x-sfpp
+  - name: '7'
+    type: 10gbase-x-sfpp
+  - name: '8'
+    type: 10gbase-x-sfpp
+  - name: '9'
+    type: 10gbase-x-sfpp
+  - name: '10'
+    type: 10gbase-x-sfpp
+  - name: '11'
+    type: 10gbase-x-sfpp
+  - name: '12'
+    type: 10gbase-x-sfpp
+  - name: '13'
+    type: 10gbase-x-sfpp
+  - name: '14'
+    type: 10gbase-x-sfpp
+  - name: '15'
+    type: 10gbase-x-sfpp
+  - name: '16'
+    type: 10gbase-x-sfpp
+  - name: '17'
+    type: 10gbase-x-sfpp
+  - name: '18'
+    type: 10gbase-x-sfpp
+  - name: '19'
+    type: 10gbase-x-sfpp
+  - name: '20'
+    type: 10gbase-x-sfpp
+  - name: '21'
+    type: 10gbase-x-sfpp
+  - name: '22'
+    type: 10gbase-x-sfpp
+  - name: '23'
+    type: 10gbase-x-sfpp
+  - name: '24'
+    type: 10gbase-x-sfpp
+  - mgmt_only: true
+    name: MGMT
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ciena
+  model: '5160'
+  part_number: 170-5160-900
+  power-ports:
+  - allocated_draw: 50
+    maximum_draw: 175
+    name: PSA
+    type: iec-60320-c14
+  - allocated_draw: 50
+    maximum_draw: 175
+    name: PSB
+    type: iec-60320-c14
+  slug: ciena-5160
+  u_height: 1

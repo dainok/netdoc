@@ -1,13 +1,120 @@
 keywords:
-- ACS8048DAC
-- ACS8016SAC
+- ACS8016DAC
 - MPUIQ-VMCHS
 - 520-854-504
-- ACS8048SAC
 - ACS8008SAC
-- ACS8016DAC
+- ACS8048DAC
+- ACS8016SAC
 - ACS8032SAC
+- ACS8048SAC
 models:
+- console-ports:
+  - name: console
+    type: rj-45
+  console-server-ports:
+  - name: ttyS1
+    type: rj-45
+  - name: ttyS2
+    type: rj-45
+  - name: ttyS3
+    type: rj-45
+  - name: ttyS4
+    type: rj-45
+  - name: ttyS5
+    type: rj-45
+  - name: ttyS6
+    type: rj-45
+  - name: ttyS7
+    type: rj-45
+  - name: ttyS8
+    type: rj-45
+  - name: ttyS9
+    type: rj-45
+  - name: ttyS10
+    type: rj-45
+  - name: ttyS11
+    type: rj-45
+  - name: ttyS12
+    type: rj-45
+  - name: ttyS13
+    type: rj-45
+  - name: ttyS14
+    type: rj-45
+  - name: ttyS15
+    type: rj-45
+  - name: ttyS16
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  - mgmt_only: true
+    name: eth1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Vertiv
+  model: ACS8016DAC
+  power-ports:
+  - maximum_draw: 35
+    name: ps1
+    type: iec-60320-c14
+  - maximum_draw: 35
+    name: ps2
+    type: iec-60320-c14
+  slug: vertiv-acs8016dac
+  u_height: 1
+- airflow: passive
+  comments: MPU IQ Serial Adapter
+  console-ports:
+  - name: KVM
+    type: rj-45
+  console-server-ports:
+  - name: vga0
+    type: other
+  - name: usb0
+    type: usb-a
+  is_full_depth: false
+  manufacturer: Vertiv
+  model: MPUIQ-VMCHS
+  part_number: 520-854-504
+  slug: vertiv-mpuiq-vmchs
+  u_height: 0
+- console-ports:
+  - name: console
+    type: rj-45
+  console-server-ports:
+  - name: ttyS1
+    type: rj-45
+  - name: ttyS2
+    type: rj-45
+  - name: ttyS3
+    type: rj-45
+  - name: ttyS4
+    type: rj-45
+  - name: ttyS5
+    type: rj-45
+  - name: ttyS6
+    type: rj-45
+  - name: ttyS7
+    type: rj-45
+  - name: ttyS8
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  - mgmt_only: true
+    name: eth1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Vertiv
+  model: ACS8008SAC
+  power-ports:
+  - maximum_draw: 35
+    name: ps1
+    type: iec-60320-c14
+  slug: vertiv-acs8008sac
+  u_height: 1
 - console-ports:
   - name: console
     type: rj-45
@@ -125,7 +232,7 @@ models:
   - maximum_draw: 35
     name: ps2
     type: iec-60320-c14
-  slug: acs8048dac
+  slug: vertiv-acs8048dac
   u_height: 1
 - console-ports:
   - name: console
@@ -177,24 +284,92 @@ models:
   - maximum_draw: 35
     name: ps1
     type: iec-60320-c14
-  slug: acs8016sac
+  slug: vertiv-acs8016sac
   u_height: 1
-- airflow: passive
-  comments: MPU IQ Serial Adapter
-  console-ports:
-  - name: KVM
+- console-ports:
+  - name: console
     type: rj-45
   console-server-ports:
-  - name: vga0
-    type: other
-  - name: usb0
-    type: usb-a
+  - name: ttyS1
+    type: rj-45
+  - name: ttyS2
+    type: rj-45
+  - name: ttyS3
+    type: rj-45
+  - name: ttyS4
+    type: rj-45
+  - name: ttyS5
+    type: rj-45
+  - name: ttyS6
+    type: rj-45
+  - name: ttyS7
+    type: rj-45
+  - name: ttyS8
+    type: rj-45
+  - name: ttyS9
+    type: rj-45
+  - name: ttyS10
+    type: rj-45
+  - name: ttyS11
+    type: rj-45
+  - name: ttyS12
+    type: rj-45
+  - name: ttyS13
+    type: rj-45
+  - name: ttyS14
+    type: rj-45
+  - name: ttyS15
+    type: rj-45
+  - name: ttyS16
+    type: rj-45
+  - name: ttyS17
+    type: rj-45
+  - name: ttyS18
+    type: rj-45
+  - name: ttyS19
+    type: rj-45
+  - name: ttyS20
+    type: rj-45
+  - name: ttyS21
+    type: rj-45
+  - name: ttyS22
+    type: rj-45
+  - name: ttyS23
+    type: rj-45
+  - name: ttyS24
+    type: rj-45
+  - name: ttyS25
+    type: rj-45
+  - name: ttyS26
+    type: rj-45
+  - name: ttyS27
+    type: rj-45
+  - name: ttyS28
+    type: rj-45
+  - name: ttyS29
+    type: rj-45
+  - name: ttyS30
+    type: rj-45
+  - name: ttyS31
+    type: rj-45
+  - name: ttyS32
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  - mgmt_only: true
+    name: eth1
+    type: 1000base-t
   is_full_depth: false
   manufacturer: Vertiv
-  model: MPUIQ-VMCHS
-  part_number: 520-854-504
-  slug: vertiv-mpuiq-vmchs
-  u_height: 0
+  model: ACS8032SAC
+  power-ports:
+  - maximum_draw: 35
+    name: ps1
+    type: iec-60320-c14
+  slug: vertiv-acs8032sac
+  u_height: 1
 - console-ports:
   - name: console
     type: rj-45
@@ -309,180 +484,5 @@ models:
   - maximum_draw: 35
     name: ps1
     type: iec-60320-c14
-  slug: acs8048sac
-  u_height: 1
-- console-ports:
-  - name: console
-    type: rj-45
-  console-server-ports:
-  - name: ttyS1
-    type: rj-45
-  - name: ttyS2
-    type: rj-45
-  - name: ttyS3
-    type: rj-45
-  - name: ttyS4
-    type: rj-45
-  - name: ttyS5
-    type: rj-45
-  - name: ttyS6
-    type: rj-45
-  - name: ttyS7
-    type: rj-45
-  - name: ttyS8
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - mgmt_only: true
-    name: eth1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Vertiv
-  model: ACS8008SAC
-  power-ports:
-  - maximum_draw: 35
-    name: ps1
-    type: iec-60320-c14
-  slug: acs8008sac
-  u_height: 1
-- console-ports:
-  - name: console
-    type: rj-45
-  console-server-ports:
-  - name: ttyS1
-    type: rj-45
-  - name: ttyS2
-    type: rj-45
-  - name: ttyS3
-    type: rj-45
-  - name: ttyS4
-    type: rj-45
-  - name: ttyS5
-    type: rj-45
-  - name: ttyS6
-    type: rj-45
-  - name: ttyS7
-    type: rj-45
-  - name: ttyS8
-    type: rj-45
-  - name: ttyS9
-    type: rj-45
-  - name: ttyS10
-    type: rj-45
-  - name: ttyS11
-    type: rj-45
-  - name: ttyS12
-    type: rj-45
-  - name: ttyS13
-    type: rj-45
-  - name: ttyS14
-    type: rj-45
-  - name: ttyS15
-    type: rj-45
-  - name: ttyS16
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - mgmt_only: true
-    name: eth1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Vertiv
-  model: ACS8016DAC
-  power-ports:
-  - maximum_draw: 35
-    name: ps1
-    type: iec-60320-c14
-  - maximum_draw: 35
-    name: ps2
-    type: iec-60320-c14
-  slug: acs8016dac
-  u_height: 1
-- console-ports:
-  - name: console
-    type: rj-45
-  console-server-ports:
-  - name: ttyS1
-    type: rj-45
-  - name: ttyS2
-    type: rj-45
-  - name: ttyS3
-    type: rj-45
-  - name: ttyS4
-    type: rj-45
-  - name: ttyS5
-    type: rj-45
-  - name: ttyS6
-    type: rj-45
-  - name: ttyS7
-    type: rj-45
-  - name: ttyS8
-    type: rj-45
-  - name: ttyS9
-    type: rj-45
-  - name: ttyS10
-    type: rj-45
-  - name: ttyS11
-    type: rj-45
-  - name: ttyS12
-    type: rj-45
-  - name: ttyS13
-    type: rj-45
-  - name: ttyS14
-    type: rj-45
-  - name: ttyS15
-    type: rj-45
-  - name: ttyS16
-    type: rj-45
-  - name: ttyS17
-    type: rj-45
-  - name: ttyS18
-    type: rj-45
-  - name: ttyS19
-    type: rj-45
-  - name: ttyS20
-    type: rj-45
-  - name: ttyS21
-    type: rj-45
-  - name: ttyS22
-    type: rj-45
-  - name: ttyS23
-    type: rj-45
-  - name: ttyS24
-    type: rj-45
-  - name: ttyS25
-    type: rj-45
-  - name: ttyS26
-    type: rj-45
-  - name: ttyS27
-    type: rj-45
-  - name: ttyS28
-    type: rj-45
-  - name: ttyS29
-    type: rj-45
-  - name: ttyS30
-    type: rj-45
-  - name: ttyS31
-    type: rj-45
-  - name: ttyS32
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - mgmt_only: true
-    name: eth1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Vertiv
-  model: ACS8032SAC
-  power-ports:
-  - maximum_draw: 35
-    name: ps1
-    type: iec-60320-c14
-  slug: acs8032sac
+  slug: vertiv-acs8048sac
   u_height: 1

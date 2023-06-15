@@ -1,199 +1,160 @@
 keywords:
-- BN450M
-- Smart-UPS SRT 5000VA RM 230V
-- SRT5KRMXLI
-- SMX120BP
-- SMX120BP
-- SMT1000I
-- SMT1000I
-- SMT2200I
-- SMT2200I
-- SMT3000RMI2UC
-- SMT3000RMI2UC
-- Smart-UPS SRT 6000VA RM 230V
-- SRT6KRMXLI
-- Smart-UPS SRT5KRMXLT
-- SRT5KRMXLT
-- Smart-UPS SRT3000RMXLT
-- SRT3000RMXLT
-- ATS AP7723
-- ATS-AP7723
-- SURT20KRMXLT
-- SURT20KRMXLT
-- AR8425A
-- AR8425A
-- Smart-UPS SRT 5000VA RM 208V IEC
-- SRT5KRMXLT-IEC
-- AP7921B
-- AP7921B
-- AP8953
-- AP8953
-- Smart-UPS X 1000VA, Rack Mount, LCD 230V
-- SMX1000I
-- BR1500GI
-- BR1500GI
-- Smart-UPS SRT 8000VA RM 208V
-- SRT8KRMXLT
-- AP7941
-- AP7941
-- AP4431
-- AP4431
-- SUA1500RMI2U
-- SUA1500RMI2U
-- AP8886
-- AP8886
-- Smart-UPS SRT 5000VA RM 208/230V HW
-- SRT5KRMXLW-HW
-- AP7854
-- AP7854
-- AP8932
-- AP8932
-- Smart-UPS SMT1500RM2U
-- SMT1500RM2U
-- SMT1000
-- SMT1000
-- AP8865
-- AP8865
-- SMT750IC
-- SMT750IC
-- AP8959EU3
-- AP8959EU3
-- Smart-UPS SMT1500
-- SMT1500
-- AP8958
-- AP8958
-- SMT1500RMI2U
-- SMT1500RMI2U
-- AP8965
-- AP8965
-- AP8853
-- AP8853
-- AP8641
-- AP8641
-- AP7901B
-- AP7901B
-- SMX3000HV
-- SMX3000HV
-- SMC1500I
-- SMC1500I
-- AP9319
-- AP9319
 - APTF10KT01
 - APTF10KT01
-- Smart-UPS RT 2000VA RM
-- SURT2000RMXLI
+- SMT750IC
+- SMT750IC
+- SMX2200HV
+- SMX2200HV
+- AR8425A
+- AR8425A
+- SURT20KRMXLT
+- SURT20KRMXLT
+- AP7922B
+- AP7922B
+- AP8959
+- AP8959
 - Smart-UPS 1500VA, Rack Mount, LCD 120V with SmartConnect Port
 - SMT1500RM2UC
-- SURT192RMXLBP2
-- SURT192RMXLBP2
-- AP7830
-- AP7830
+- AP8958
+- AP8958
+- SMT2200I
+- SMT2200I
+- EPDU1016b
+- EPDU1016b
+- AP8932
+- AP8932
+- AP8965
+- AP8965
+- AP9319
+- AP9319
+- AP8959EU3
+- AP8959EU3
+- AP7921B
+- AP7921B
+- AP8953
+- AP8953
 - Smart-UPS SRT 5000VA 200V
 - SRT5KXLJ
-- Smart-UPS SRT 2200VA RM
-- SRT2200RMXLI
-- AP7723
-- AP7723
-- AP7821
-- AP7821
-- SMX2200HV
-- SMX2200HV
-- AP8959
-- AP8959
-- AP8868
-- AP8868
+- AP7901B
+- AP7901B
+- AP7920
+- AP7920
+- Smart-UPS SMT1500RM2U
+- SMT1500RM2U
+- AP7721
+- AP7721
+- SMX3000HV
+- SMX3000HV
+- AP8641
+- AP8641
+- SMT1000
+- SMT1000
+- Smart-UPS SRT 5000VA RM 230V
+- SRT5KRMXLI
+- Smart-UPS SRT 5000VA RM 208V IEC
+- SRT5KRMXLT-IEC
+- ATS AP7723
+- ATS-AP7723
+- SMT1500RMI2U
+- SMT1500RMI2U
+- Smart-UPS RT 2000VA RM
+- SURT2000RMXLI
+- SMX120BP
+- SMX120BP
+- AP7941
+- AP7941
 - ATS AP4421
 - ATS-AP4421
-- AP7920
-- AP7920
-- AP7721
-- AP7721
-- APDU9941
-- APDU9941
-- SMT750I
-- SMT750I
+- Smart-UPS SRT 5000VA RM 208/230V HW
+- SRT5KRMXLW-HW
+- Smart-UPS SMT1500
+- SMT1500
+- SMC1500I
+- SMC1500I
+- Smart-UPS SRT3000RMXLT
+- SRT3000RMXLT
+- BN450M
+- SMT3000RMI2UC
+- SMT3000RMI2UC
+- SURT192RMXLBP2
+- SURT192RMXLBP2
+- AP7854
+- AP7854
+- Smart-UPS SRT 6000VA RM 230V
+- SRT6KRMXLI
+- AP7723
+- AP7723
+- Smart-UPS X 1000VA, Rack Mount, LCD 230V
+- SMX1000I
 - SMT2200RMI2UNC
 - SMT2200RMI2UNC
-- EPDU1016b
-- EPDU1016b
-- AP7922B
-- AP7922B
+- AP7830
+- AP7830
+- APDU9941
+- APDU9941
+- AP7821
+- AP7821
+- SUA1500RMI2U
+- SUA1500RMI2U
 - AP8941
 - AP8941
+- AP4431
+- AP4431
+- AP8853
+- AP8853
+- AP8886
+- AP8886
+- AP8865
+- AP8865
+- Smart-UPS SRT 2200VA RM
+- SRT2200RMXLI
+- Smart-UPS SRT 8000VA RM 208V
+- SRT8KRMXLT
+- SMT750I
+- SMT750I
+- Smart-UPS SRT5KRMXLT
+- SRT5KRMXLT
+- AP8868
+- AP8868
+- BR1500GI
+- BR1500GI
+- SMT1000I
+- SMT1000I
 models:
-- comments: '[APC BN450M Datasheet](https://www.se.com/ww/en/product/download-pdf/BN450M)'
-  is_full_depth: false
+- comments: APC 208V/120V 10KVA Step down Transformer
+  is_full_depth: true
   manufacturer: APC
-  model: BN450M
+  model: APTF10KT01
+  part_number: APTF10KT01
   power-outlets:
-  - name: Batery + Surge - Outlet 1
-    type: nema-5-15r
-  - name: Batery + Surge - Outlet 2
-    type: nema-5-15r
-  - name: Batery + Surge - Outlet 3
-    type: nema-5-15r
-  - name: Batery + Surge - Outlet 4
-    type: nema-5-15r
-  - name: Batery + Surge - Outlet 5
-    type: nema-5-15r
-  - name: Surge - Outlet 1
-    type: nema-5-15r
-  - name: Surge - Outlet 2
-    type: nema-5-15r
-  slug: bn450m
-  u_height: 3
-- comments: Hard wire 3-wire (1P + N + E) power port
+  - name: Hard Wire Output
+    type: hardwired
+  - name: Outlet 1
+    type: nema-l14-30r
+  - name: Outlet 2
+    type: nema-l14-30r
+  - name: Outlet 3
+    type: nema-l5-20r
+  - name: Outlet 4
+    type: nema-l5-20r
+  power-ports:
+  - name: Source
+    type: hardwired
+  slug: apc-aptf10kt01
+  u_height: 4
+- comments: '[APC Smart-UPS, Line Interactive, 750VA, Tower, 230V, 6x IEC C13 outlets](https://www.apc.com/shop/no/en/products/APC-Smart-UPS-Line-Interactive-750VA-Tower-230V-6x-IEC-C13-outlets-SmartConnect-Port-SmartSlot-AVR-LCD/P-SMT750IC'
   console-ports:
+  - name: USB
+    type: usb-a
   - name: Serial
     type: rj-45
   interfaces:
-  - mgmt_only: true
-    name: Ethernet
-    type: 100base-tx
-  is_full_depth: true
-  manufacturer: APC
-  model: Smart-UPS SRT 5000VA RM 230V
-  part_number: SRT5KRMXLI
-  power-outlets:
-  - name: Group 1 Outlet 1
-    type: iec-60320-c13
-  - name: Group 1 Outlet 2
-    type: iec-60320-c13
-  - name: Group 1 Outlet 3
-    type: iec-60320-c13
-  - name: Group 1 Outlet 4
-    type: iec-60320-c13
-  - name: Group 1 Outlet 5
-    type: iec-60320-c13
-  - name: Group 1 Outlet 6
-    type: iec-60320-c13
-  - name: Group 2 Outlet 1
-    type: iec-60320-c19
-  - name: Group 2 Outlet 2
-    type: iec-60320-c19
-  - name: Group 2 Outlet 3
-    type: iec-60320-c19
-  - name: Group 2 Outlet 4
-    type: iec-60320-c19
-  slug: smart-ups-srt-5000va-rm-230v
-  u_height: 3
-- comments: APC Smart-UPS X 120V External Battery Pack Rack/Tower
-  is_full_depth: true
-  manufacturer: APC
-  model: SMX120BP
-  part_number: SMX120BP
-  slug: smx120bp
-  u_height: 4
-- comments: '[APC Smart-UPS, Line Interactive, 1000VA, Tower, 230V, 8x IEC C13 outlets](https://www.apc.com/shop/hr/en/products/APC-Smart-UPS-Line-Interactive-1000VA-Tower-230V-8x-IEC-C13-outlets-SmartSlot-AVR-LCD/P-SMT1000I'
-  console-ports:
-  - name: USB
-    type: usb-b
-  - name: Serial
-    type: rj-45
+  - name: Network
+    type: 1000base-t
   is_full_depth: false
   manufacturer: APC
-  model: SMT1000I
-  part_number: SMT1000I
+  model: SMT750IC
+  part_number: SMT750IC
   power-outlets:
   - name: Power Outlet 1
     type: iec-60320-c13
@@ -207,18 +168,360 @@ models:
     type: iec-60320-c13
   - name: Power Outlet 6
     type: iec-60320-c13
-  - name: Power Outlet 7
-    type: iec-60320-c13
-  - name: Power Outlet 8
-    type: iec-60320-c13
   power-ports:
-  - maximum_draw: 700
+  - maximum_draw: 500
     name: Power Port 1
     type: iec-60320-c14
-  slug: apc-smt1000i
+  slug: apc-smt750ic
   u_height: 0
-  weight: 18.86
+  weight: 11.8
   weight_unit: kg
+- comments: "APC Smart-UPS X, Line Interactive, 2200VA, Rack/tower convertible 4U,\
+    \ 208V-230V, 8x C13+1x C19 IEC, SmartSlot, Extended runtime\n \n | RBC Information\
+    \ |             |\n | --------------- | ----------- |\n | RBC Replacement | APCRBC143US\
+    \ |\n | RBC Quantity    | 1           |"
+  console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+  is_full_depth: true
+  manufacturer: APC
+  model: SMX2200HV
+  module-bays:
+  - name: SmartSlot
+  part_number: SMX2200HV
+  power-outlets:
+  - name: Group 1 Outlet 1
+    type: iec-60320-c13
+  - name: Group 1 Outlet 2
+    type: iec-60320-c13
+  - name: Group 1 Outlet 3
+    type: iec-60320-c13
+  - name: Group 1 Outlet 4
+    type: iec-60320-c13
+  - name: Group 2 Outlet 1
+    type: iec-60320-c13
+  - name: Group 2 Outlet 2
+    type: iec-60320-c13
+  - name: Group 2 Outlet 3
+    type: iec-60320-c19
+  - name: Group 3 Outlet 1
+    type: iec-60320-c13
+  - name: Group 3 Outlet 2
+    type: iec-60320-c13
+  - name: Group 3 Outlet 3
+    type: iec-60320-c19
+  power-ports:
+  - name: Source
+    type: iec-60320-c20
+  - name: XLBP Source
+    type: dc-terminal
+  slug: apc-smx2200hv
+  u_height: 4
+- airflow: passive
+  is_full_depth: false
+  manufacturer: APC
+  model: AR8425A
+  part_number: AR8425A
+  slug: apc-ar8425a
+  u_height: 1
+- comments: "APC Smart-UPS RT 20kVA, 208V, LCD, rackmount, 12U, 4x NEMA L6-20R & 2x\
+    \ NEMA L6-30R outlets\n \n | RBC Information |           |\n | ---------------\
+    \ | --------- |\n | RBC Replacement | APCRBC140 |\n | RBC Quantity    | 4    \
+    \     |"
+  console-ports:
+  - name: Serial
+    type: rj-45
+  is_full_depth: true
+  manufacturer: APC
+  model: SURT20KRMXLT
+  module-bays:
+  - name: SmartSlot
+  part_number: SURT20KRMXLT
+  power-outlets:
+  - name: Hard Wire Output
+    type: hardwired
+  - name: PDU Panel 1 Group 1 Outlet 1
+    type: nema-l6-30r
+  - name: PDU Panel 1 Group 2 Outlet 1
+    type: nema-l6-20r
+  - name: PDU Panel 1 Group 2 Outlet 2
+    type: nema-l6-20r
+  - name: PDU Panel 2 Group 1 Outlet 1
+    type: nema-l6-30r
+  - name: PDU Panel 2 Group 2 Outlet 1
+    type: nema-l6-20r
+  - name: PDU Panel 2 Group 2 Outlet 2
+    type: nema-l6-20r
+  power-ports:
+  - name: Source
+    type: hardwired
+  - name: XLBP Source
+    type: dc-terminal
+  slug: apc-surt20krmxlt
+  u_height: 12
+- comments: Rack PDU, Switched, 2U, 32A, 230V, (16)C13
+  console-ports:
+  - name: Serial
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: Ethernet
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP7922B
+  part_number: AP7922B
+  power-outlets:
+  - name: Outlet 1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 8
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 12
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 13
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 14
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 15
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 16
+    power_port: Power Port 1
+    type: iec-60320-c13
+  power-ports:
+  - name: Power Port 1
+    type: iec-60309-2p-e-6h
+  slug: apc-ap7922b
+  u_height: 2
+- comments: Rack PDU 2G, Switched, ZeroU, 16A, 230V, (21) C13 & (3) C19
+  console-ports:
+  - name: Serial
+    type: rj-12
+  interfaces:
+  - mgmt_only: true
+    name: Network
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP8959
+  part_number: AP8959
+  power-outlets:
+  - feed_leg: A
+    name: Power Outlet 1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 8
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Power Outlet 9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 12
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 13
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 14
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 15
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 16
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Power Outlet 17
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 18
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 19
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 20
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 21
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 22
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 23
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 24
+    power_port: Power Port 1
+    type: iec-60320-c19
+  power-ports:
+  - name: Power Port 1
+    type: iec-60320-c20
+  slug: apc-ap8959
+  u_height: 0
+- console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+  interfaces:
+  - mgmt_only: true
+    name: Ethernet
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: APC
+  model: Smart-UPS 1500VA, Rack Mount, LCD 120V with SmartConnect Port
+  part_number: SMT1500RM2UC
+  power-outlets:
+  - name: Group 1 Outlet 1
+    type: nema-5-15r
+  - name: Group 1 Outlet 2
+    type: nema-5-15r
+  - name: Group 1 Outlet 3
+    type: nema-5-15r
+  - name: Group 2 Outlet 1
+    type: nema-5-15r
+  - name: Group 2 Outlet 2
+    type: nema-5-15r
+  - name: Group 2 Outlet 3
+    type: nema-5-15r
+  power-ports:
+  - name: Source
+    type: nema-5-15p
+  slug: apc-smart-ups-1500va-rack-mount-lcd-120v-with-smartconnect-port
+  u_height: 2
+- comments: Rack PDU 2G, Switched, ZeroU, 16A, 230V, (7) C13 & (1) C19
+  console-ports:
+  - name: Serial
+    type: rj-12
+  interfaces:
+  - mgmt_only: true
+    name: Network
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP8958
+  part_number: AP8958
+  power-outlets:
+  - feed_leg: A
+    name: Power Outlet 1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 8
+    power_port: Power Port 1
+    type: iec-60320-c19
+  power-ports:
+  - name: Power Port 1
+    type: iec-60320-c20
+  slug: apc-ap8958
+  u_height: 0
 - comments: '[APC Smart-UPS, Line Interactive, 2200VA, Tower, 230V, 8x IEC C13+1x
     IEC C19 outlets](https://www.apc.com/shop/hr/en/products/APC-Smart-UPS-Line-Interactive-2200VA-Tower-230V-8x-IEC-C13-1x-IEC-C19-outlets-SmartSlot-AVR-LCD/P-SMT2200I'
   console-ports:
@@ -257,272 +560,364 @@ models:
   u_height: 0
   weight: 48.8
   weight_unit: kg
-- airflow: front-to-rear
-  comments: APC Smart-UPS, Line Interactive, 3000VA, Rackmount 2U, 230V, 6x IEC C13
-    outlets, SmartSlot, AVR, LCD
-  console-ports:
-  - name: Serial
-    type: rj-45
-  - name: USB
-    type: usb-b
-  interfaces:
-  - mgmt_only: true
-    name: Ethernet
-    type: 1000base-t
-  is_full_depth: true
+- is_full_depth: false
   manufacturer: APC
-  model: SMT3000RMI2UC
-  module-bays:
-  - name: SmartSlot
-  part_number: SMT3000RMI2UC
+  model: EPDU1016b
+  part_number: EPDU1016b
   power-outlets:
-  - name: Group 1 Outlet 1
-    power_port: Source
+  - name: Outlet 1
     type: iec-60320-c13
-  - name: Group 1 Outlet 2
-    power_port: Source
+  - name: Outlet 2
     type: iec-60320-c13
-  - name: Group 1 Outlet 3
-    power_port: Source
+  - name: Outlet 3
     type: iec-60320-c13
-  - name: Group 2 Outlet 1
-    power_port: Source
+  - name: Outlet 4
     type: iec-60320-c13
-  - name: Group 2 Outlet 2
-    power_port: Source
+  - name: Outlet 5
     type: iec-60320-c13
-  - name: Group 2 Outlet 3
-    power_port: Source
+  - name: Outlet 6
     type: iec-60320-c13
-  power-ports:
-  - maximum_draw: 3600
-    name: Source
-    type: iec-60320-c14
-  slug: smt3000rmi2uc
-  u_height: 2
-- comments: Hard wire 3-wire (1P + N + E) power port
-  console-ports:
-  - name: Serial
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: Ethernet
-    type: 100base-tx
-  is_full_depth: true
-  manufacturer: APC
-  model: Smart-UPS SRT 6000VA RM 230V
-  part_number: SRT6KRMXLI
-  power-outlets:
-  - name: Group 1 Outlet 1
+  - name: Outlet 7
     type: iec-60320-c13
-  - name: Group 1 Outlet 2
-    type: iec-60320-c13
-  - name: Group 1 Outlet 3
-    type: iec-60320-c13
-  - name: Group 1 Outlet 4
-    type: iec-60320-c13
-  - name: Group 1 Outlet 5
-    type: iec-60320-c13
-  - name: Group 1 Outlet 6
-    type: iec-60320-c13
-  - name: Group 2 Outlet 1
-    type: iec-60320-c19
-  - name: Group 2 Outlet 2
-    type: iec-60320-c19
-  - name: Group 3 Outlet 1
-    type: iec-60320-c19
-  - name: Group 3 Outlet 2
-    type: iec-60320-c19
-  slug: smart-ups-srt-6000va-rm-230v
-  u_height: 4
-- comments: APC Smart-UPS On-Line, 5.4kVA, Rackmount 3U, 208V, 2x L6-20R+2x L6-30R
-    NEMA outlets, Network Card+SmartSlot, Extended runtime, W/ rail kit
-  console-ports:
-  - name: Serial
-    type: rj-45
-  interfaces:
-  - label: NMC
-    mgmt_only: true
-    name: Ethernet
-    type: 100base-tx
-  - label: RJ-45
-    name: Universal I/O 1
-    type: other
-  is_full_depth: true
-  manufacturer: APC
-  model: Smart-UPS SRT5KRMXLT
-  module-bays:
-  - name: SmartSlot
-    position: Rear
-  part_number: SRT5KRMXLT
-  power-outlets:
-  - name: Group 1 Outlet 1
-    power_port: Source
-    type: nema-l6-20r
-  - name: Group 1 Outlet 2
-    power_port: Source
-    type: nema-l6-20r
-  - name: Group 2 Outlet 1
-    power_port: Source
-    type: nema-l6-30r
-  - name: Group 2 Outlet 2
-    power_port: Source
-    type: nema-l6-30r
-  power-ports:
-  - name: Source
-    type: nema-l6-30p
-  - name: XLBP Source
-    type: dc-terminal
-  slug: srt5krmxlt
-  u_height: 3
-- comments: "APC Smart-UPS On-Line, 3kVA, Rackmount 2U, 208V, 2x L6-20R+1x L6-30R\
-    \ NEMA outlets, SmartSlot, Extended runtime, W/ rail kit\n \n | RBC Information\
-    \ |           |\n | --------------- | --------- |\n | RBC Replacement | APCRBC152\
-    \ |\n | RBC Quantity    | 1         |"
-  console-ports:
-  - name: Serial
-    type: rj-45
-  is_full_depth: true
-  manufacturer: APC
-  model: Smart-UPS SRT3000RMXLT
-  module-bays:
-  - name: SmartSlot
-    position: Rear
-  part_number: SRT3000RMXLT
-  power-outlets:
-  - name: Group 1 Outlet 1
-    type: nema-l6-30r
-  - name: Group 2 Outlet 1
-    type: nema-l6-20r
-  - name: Group 2 Outlet 2
-    type: nema-l6-20r
-  power-ports:
-  - name: Source
-    type: nema-l6-20p
-  - name: XLBP Source
-    type: dc-terminal
-  slug: srt3000rmxlt
-  u_height: 2
-- console-ports:
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth 1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: APC
-  model: ATS AP7723
-  part_number: ATS-AP7723
-  power-outlets:
-  - name: 16A Outlet
-    type: iec-60320-c19
-  - name: Group 1 Outlet 1
-    type: iec-60320-c13
-  - name: Group 1 Outlet 2
-    type: iec-60320-c13
-  - name: Group 1 Outlet 3
-    type: iec-60320-c13
-  - name: Group 1 Outlet 4
-    type: iec-60320-c13
-  - name: Group 2 Outlet 1
-    type: iec-60320-c13
-  - name: Group 2 Outlet 2
-    type: iec-60320-c13
-  - name: Group 2 Outlet 3
-    type: iec-60320-c13
-  - name: Group 2 Outlet 4
+  - name: Outlet 8
     type: iec-60320-c13
   power-ports:
   - name: 16A Inlet 1
     type: iec-60320-c20
-  - name: 16A Inlet 2
-    type: iec-60320-c20
-  slug: ats-ap7723
+  slug: apc-epdu1016b
   u_height: 1
-- comments: "APC Smart-UPS RT 20kVA, 208V, LCD, rackmount, 12U, 4x NEMA L6-20R & 2x\
-    \ NEMA L6-30R outlets\n \n | RBC Information |           |\n | ---------------\
-    \ | --------- |\n | RBC Replacement | APCRBC140 |\n | RBC Quantity    | 4    \
-    \     |"
+- comments: Rack PDU 2G, Switched, ZeroU, 30A, 100-120V, (24) 5-20R
   console-ports:
   - name: Serial
-    type: rj-45
-  is_full_depth: true
-  manufacturer: APC
-  model: SURT20KRMXLT
-  module-bays:
-  - name: SmartSlot
-  part_number: SURT20KRMXLT
-  power-outlets:
-  - name: Hard Wire Output
-    type: hardwired
-  - name: PDU Panel 1 Group 1 Outlet 1
-    type: nema-l6-30r
-  - name: PDU Panel 1 Group 2 Outlet 1
-    type: nema-l6-20r
-  - name: PDU Panel 1 Group 2 Outlet 2
-    type: nema-l6-20r
-  - name: PDU Panel 2 Group 1 Outlet 1
-    type: nema-l6-30r
-  - name: PDU Panel 2 Group 2 Outlet 1
-    type: nema-l6-20r
-  - name: PDU Panel 2 Group 2 Outlet 2
-    type: nema-l6-20r
-  power-ports:
-  - name: Source
-    type: hardwired
-  - name: XLBP Source
-    type: dc-terminal
-  slug: surt20krmxlt
-  u_height: 12
-- airflow: passive
-  is_full_depth: false
-  manufacturer: APC
-  model: AR8425A
-  part_number: AR8425A
-  slug: ar8425a
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: rj-45
+    type: rj-12
   interfaces:
   - mgmt_only: true
-    name: Ethernet
+    name: Network
     type: 100base-tx
-  is_full_depth: true
+  is_full_depth: false
   manufacturer: APC
-  model: Smart-UPS SRT 5000VA RM 208V IEC
-  part_number: SRT5KRMXLT-IEC
+  model: AP8932
+  part_number: AP8932
   power-outlets:
-  - name: Group 1 Outlet 1
-    power_port: Inlet I1
+  - feed_leg: A
+    name: Power Outlet 1
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 2
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 3
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 4
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 5
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 6
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 7
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 8
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 9
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 10
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 11
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 12
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 13
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 14
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 15
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 16
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 17
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 18
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 19
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 20
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 21
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 22
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 23
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 24
+    power_port: Power Port 1
+    type: nema-5-20r
+  power-ports:
+  - name: Power Port 1
+    type: nema-l5-30p
+  slug: apc-ap8932
+  u_height: 0
+- comments: Rack PDU 2G, Switched, 30A, 208V, (21) C13 & (3) C19
+  console-ports:
+  - name: Serial
+    type: rj-11
+  interfaces:
+  - mgmt_only: true
+    name: Management
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP8965
+  part_number: AP8965
+  power-outlets:
+  - feed_leg: A
+    name: power outlet 1
     type: iec-60320-c13
-  - name: Group 1 Outlet 2
-    power_port: Inlet I1
+  - feed_leg: A
+    name: power outlet 2
     type: iec-60320-c13
-  - name: Group 1 Outlet 3
-    power_port: Inlet I1
+  - feed_leg: A
+    name: power outlet 3
     type: iec-60320-c13
-  - name: Group 1 Outlet 4
-    power_port: Inlet I1
+  - feed_leg: A
+    name: power outlet 4
     type: iec-60320-c13
-  - name: Group 2 Outlet 1
-    power_port: Inlet I1
+  - feed_leg: A
+    name: power outlet 5
+    type: iec-60320-c13
+  - feed_leg: A
+    name: power outlet 6
+    type: iec-60320-c13
+  - feed_leg: A
+    name: power outlet 7
+    type: iec-60320-c13
+  - feed_leg: A
+    name: power outlet 8
     type: iec-60320-c19
-  - name: Group 2 Outlet 2
-    power_port: Inlet I1
+  - feed_leg: B
+    name: power outlet 9
+    type: iec-60320-c13
+  - feed_leg: B
+    name: power outlet 10
+    type: iec-60320-c13
+  - feed_leg: B
+    name: power outlet 11
+    type: iec-60320-c13
+  - feed_leg: B
+    name: power outlet 12
+    type: iec-60320-c13
+  - feed_leg: B
+    name: power outlet 13
+    type: iec-60320-c13
+  - feed_leg: B
+    name: power outlet 14
+    type: iec-60320-c13
+  - feed_leg: B
+    name: power outlet 15
+    type: iec-60320-c13
+  - feed_leg: B
+    name: power outlet 16
     type: iec-60320-c19
-  - name: Group 2 Outlet 3
-    power_port: Inlet I1
-    type: iec-60320-c19
-  - name: Group 2 Outlet 4
-    power_port: Inlet I1
+  - feed_leg: C
+    name: power outlet 17
+    type: iec-60320-c13
+  - feed_leg: C
+    name: power outlet 18
+    type: iec-60320-c13
+  - feed_leg: C
+    name: power outlet 19
+    type: iec-60320-c13
+  - feed_leg: C
+    name: power outlet 20
+    type: iec-60320-c13
+  - feed_leg: C
+    name: power outlet 21
+    type: iec-60320-c13
+  - feed_leg: C
+    name: power outlet 22
+    type: iec-60320-c13
+  - feed_leg: C
+    name: power outlet 23
+    type: iec-60320-c13
+  - feed_leg: C
+    name: power outlet 24
     type: iec-60320-c19
   power-ports:
-  - name: Inlet I1
-    type: nema-l6-30p
-  slug: smart-ups-srt-5000va-rm-208v-iec
-  u_height: 3
+  - name: power whip
+    type: nema-l21-30p
+  slug: apc-ap8965
+  u_height: 0
+- comments: Remote Monitoring Unit for High-Density Cooling Enclosure
+  interfaces:
+  - mgmt_only: true
+    name: Network
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP9319
+  part_number: AP9319
+  power-ports:
+  - name: Power Port 1
+    type: nema-1-15p
+  slug: apc-ap9319
+  u_height: 0
+- comments: Rack PDU 2G, Switched, ZeroU, 16A, 230V, (21) C13 & (3) C19, 2p-e-6h
+  console-ports:
+  - name: Serial
+    type: rj-12
+  interfaces:
+  - mgmt_only: true
+    name: Network
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP8959EU3
+  part_number: AP8959EU3
+  power-outlets:
+  - feed_leg: A
+    name: Power Outlet 1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 8
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Power Outlet 9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 12
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 13
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 14
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 15
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 16
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Power Outlet 17
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 18
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 19
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 20
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 21
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 22
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 23
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 24
+    power_port: Power Port 1
+    type: iec-60320-c19
+  power-ports:
+  - name: Power Port 1
+    type: iec-60309-2p-e-6h
+  slug: apc-ap8959eu3
+  u_height: 0
 - comments: Rack PDU, Switched, 1U, 16A, 208/230V, (8)C13
   console-ports:
   - name: Serial
@@ -563,7 +958,7 @@ models:
   power-ports:
   - name: Power Port 1
     type: iec-60320-c20
-  slug: ap7921b
+  slug: apc-ap7921b
   u_height: 1
 - comments: Rack PDU 2G, Switched, ZeroU, 32A, 230V, (21) C13 & (3) C19
   console-ports:
@@ -677,21 +1072,375 @@ models:
   power-ports:
   - name: Power Port 1
     type: iec-60309-2p-e-6h
-  slug: ap8953
+  slug: apc-ap8953
   u_height: 0
-- console-ports:
+- comments: Tower or rackable
+  console-ports:
   - name: Serial
     type: rj-45
-  - name: USB
-    type: usb-b
   interfaces:
   - mgmt_only: true
     name: Ethernet
     type: 100base-tx
   is_full_depth: true
   manufacturer: APC
-  model: Smart-UPS X 1000VA, Rack Mount, LCD 230V
-  part_number: SMX1000I
+  model: Smart-UPS SRT 5000VA 200V
+  part_number: SRT5KXLJ
+  power-outlets:
+  - name: Group 1 Outlet 1
+    power_port: Inlet I1
+    type: nema-l6-20r
+  - name: Group 1 Outlet 2
+    power_port: Inlet I1
+    type: nema-l6-20r
+  - name: Group 2 Outlet 1
+    power_port: Inlet I1
+    type: nema-l6-30r
+  - name: Group 2 Outlet 2
+    power_port: Inlet I1
+    type: nema-l6-30r
+  power-ports:
+  - name: Inlet I1
+    type: nema-l6-30p
+  slug: apc-smart-ups-srt-5000va-200v
+  u_height: 3
+- comments: Rack PDU, Switched, 1U, 20A, 120V, (8)5-20
+  console-ports:
+  - name: Serial
+    type: rj-12
+  interfaces:
+  - mgmt_only: true
+    name: Management
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP7901B
+  part_number: AP7901B
+  power-outlets:
+  - feed_leg: A
+    name: Power Outlet 1
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 2
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 3
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 4
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 5
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 6
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 7
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 8
+    power_port: Power Port 1
+    type: nema-5-20r
+  power-ports:
+  - name: Power Port 1
+    type: nema-l5-20p
+  slug: apc-ap7901b
+  u_height: 1
+- comments: Rack PDU, Switched, 1U, 10A, 208/230V, (8)C13
+  console-ports:
+  - name: Serial
+    type: rj-12
+  interfaces:
+  - mgmt_only: true
+    name: Ethernet
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP7920
+  part_number: AP7920
+  power-outlets:
+  - name: Outlet 1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 8
+    power_port: Power Port 1
+    type: iec-60320-c13
+  power-ports:
+  - name: Power Port 1
+    type: iec-60320-c14
+  slug: apc-ap7920
+  u_height: 1
+- comments: "APC Smart-UPS, Line Interactive, 1500VA, Rackmount 2U, 120V, 6x NEMA\
+    \ 5-15R outlets, SmartSlot, AVR, LCD\n \n | RBC Information |           |\n |\
+    \ --------------- | --------- |\n | RBC Replacement | APCRBC133 |\n | RBC Quantity\
+    \    | 1         |"
+  console-ports:
+  - name: Serial
+    type: rj-45
+  is_full_depth: true
+  manufacturer: APC
+  model: Smart-UPS SMT1500RM2U
+  module-bays:
+  - name: SmartSlot
+    position: Rear
+  part_number: SMT1500RM2U
+  power-outlets:
+  - name: Main Outlet 1
+    type: nema-5-15r
+  - name: Main Outlet 2
+    type: nema-5-15r
+  - name: Main Outlet 3
+    type: nema-5-15r
+  - name: Group 1 Outlet 1
+    type: nema-5-15r
+  - name: Group 1 Outlet 2
+    type: nema-5-15r
+  - name: Group 1 Outlet 3
+    type: nema-5-15r
+  power-ports:
+  - name: Source
+    type: nema-5-15p
+  slug: apc-smt1500rm2u
+  u_height: 2
+- comments: RACK ATS, 10A/230V, 12A/208V, C14 IN, (12) C13 OUT
+  console-ports:
+  - name: Serial
+    type: rj-12
+  interfaces:
+  - mgmt_only: true
+    name: Management
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP7721
+  part_number: AP7721
+  power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+  - name: Outlet 2
+    type: iec-60320-c13
+  - name: Outlet 3
+    type: iec-60320-c13
+  - name: Outlet 4
+    type: iec-60320-c13
+  - name: Outlet 5
+    type: iec-60320-c13
+  - name: Outlet 6
+    type: iec-60320-c13
+  - name: Outlet 7
+    type: iec-60320-c13
+  - name: Outlet 8
+    type: iec-60320-c13
+  - name: Outlet 9
+    type: iec-60320-c13
+  - name: Outlet 10
+    type: iec-60320-c13
+  - name: Outlet 11
+    type: iec-60320-c13
+  - name: Outlet 12
+    type: iec-60320-c13
+  power-ports:
+  - name: Source A
+    type: iec-60320-c14
+  - name: Source B
+    type: iec-60320-c14
+  slug: apc-ap7721
+  u_height: 1
+- comments: APC Smart-UPS X, Line Interactive, 3000VA, Rack/tower convertible 4U,
+    208V-230V, 8x C13+1x C19 IEC, SmartSlot, Extended runtime
+  console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+  is_full_depth: true
+  manufacturer: APC
+  model: SMX3000HV
+  module-bays:
+  - name: SmartSlot
+  part_number: SMX3000HV
+  power-outlets:
+  - name: Group 1 Outlet 1
+    type: iec-60320-c13
+  - name: Group 1 Outlet 2
+    type: iec-60320-c13
+  - name: Group 1 Outlet 3
+    type: iec-60320-c13
+  - name: Group 1 Outlet 4
+    type: iec-60320-c13
+  - name: Group 2 Outlet 1
+    type: iec-60320-c13
+  - name: Group 2 Outlet 2
+    type: iec-60320-c13
+  - name: Group 2 Outlet 3
+    type: iec-60320-c19
+  - name: Group 3 Outlet 1
+    type: iec-60320-c13
+  - name: Group 3 Outlet 2
+    type: iec-60320-c13
+  - name: Group 3 Outlet 3
+    type: iec-60320-c19
+  power-ports:
+  - name: Source
+    type: iec-60320-c20
+  - name: XLBP Source
+    type: dc-terminal
+  slug: apc-smx3000hv
+  u_height: 4
+- comments: Rack PDU 2G, Switched Plus, ZeroU, 30A, 200/208V, (21) C13 & (3) C19
+  console-ports:
+  - name: Serial
+    type: rj-12
+  interfaces:
+  - mgmt_only: true
+    name: Network
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP8641
+  part_number: AP8641
+  power-outlets:
+  - feed_leg: A
+    name: Bank 1 Outlet 1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 1 Outlet 2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 1 Outlet 3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 1 Outlet 4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 1 Outlet 5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 1 Outlet 6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 1 Outlet 7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 1 Outlet 8
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Bank 1 Outlet 9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 1 Outlet 10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 1 Outlet 11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 1 Outlet 12
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 2 Outlet 13
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 2 Outlet 14
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 2 Outlet 15
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 2 Outlet 16
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Bank 2 Outlet 17
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 2 Outlet 18
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 2 Outlet 19
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 2 Outlet 20
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 2 Outlet 21
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 2 Outlet 22
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 2 Outlet 23
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Bank 2 Outlet 24
+    power_port: Power Port 1
+    type: iec-60320-c19
+  power-ports:
+  - name: Power Port 1
+    type: nema-6-30p
+  slug: apc-ap8641
+  u_height: 0
+- comments: "APC Smart-UPS, Line Interactive, 1000VA, Tower, 120V, 8x NEMA 5-15R outlets,\
+    \ SmartSlot, AVR, LCD\n \n | RBC Information |      |\n | --------------- | ----\
+    \ |\n | RBC Replacement | RBC6 |\n | RBC Quantity    | 1    |"
+  console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+  is_full_depth: true
+  manufacturer: APC
+  model: SMT1000
+  module-bays:
+  - name: SmartSlot
+  part_number: SMT1000
   power-outlets:
   - name: Group 1 Outlet 1
     type: nema-5-15r
@@ -708,49 +1457,9 @@ models:
   power-ports:
   - name: Source
     type: nema-5-15p
-  slug: smart-ups-x-1000va-rack-mount-lcd-230v
-  u_height: 2
-- comments: '[APC Back-UPS Pro, 1500VA/865W, Tower, 230V, 10x IEC C13 outlets](https://www.apc.com/shop/hr/en/products/APC-Back-UPS-Pro-1500VA-865W-Tower-230V-10x-IEC-C13-outlets-AVR-LCD-User-Replaceable-Battery/P-BR1500GI'
-  console-ports:
-  - name: USB
-    type: rj-45
-  is_full_depth: false
-  manufacturer: APC
-  model: BR1500GI
-  part_number: BR1500GI
-  power-outlets:
-  - name: Power Outlet Surge Protection 1
-    type: iec-60320-c13
-  - name: Power Outlet Surge Protection 2
-    type: iec-60320-c13
-  - name: Power Outlet Surge Protection 3
-    type: iec-60320-c13
-  - name: Power Outlet Surge Protection 4
-    type: iec-60320-c13
-  - name: Power Outlet Surge Protection 5
-    type: iec-60320-c13
-  - name: Power Outlet Battery Backup IEC Jumpers 1
-    type: iec-60320-c13
-  - name: Power Outlet Battery Backup IEC Jumpers 2
-    type: iec-60320-c13
-  - name: Power Outlet Battery Backup 1
-    type: iec-60320-c13
-  - name: Power Outlet Battery Backup 2
-    type: iec-60320-c13
-  - name: Power Outlet Battery Backup 3
-    type: iec-60320-c13
-  - name: Power Outlet Battery Backup 4
-    type: iec-60320-c13
-  - name: Power Outlet Battery Backup 5
-    type: iec-60320-c13
-  power-ports:
-  - name: Power Port 1
-    type: iec-60320-c14
-  slug: apc-br1500gi
+  slug: apc-smt1000
   u_height: 0
-  weight: 12.7
-  weight_unit: kg
-- comments: Hard wire 3-wire (2P + E) power port
+- comments: Hard wire 3-wire (1P + N + E) power port
   console-ports:
   - name: Serial
     type: rj-45
@@ -760,23 +1469,184 @@ models:
     type: 100base-tx
   is_full_depth: true
   manufacturer: APC
-  model: Smart-UPS SRT 8000VA RM 208V
-  part_number: SRT8KRMXLT
+  model: Smart-UPS SRT 5000VA RM 230V
+  part_number: SRT5KRMXLI
   power-outlets:
   - name: Group 1 Outlet 1
-    type: nema-l6-20r
+    type: iec-60320-c13
   - name: Group 1 Outlet 2
-    type: nema-l6-20r
+    type: iec-60320-c13
+  - name: Group 1 Outlet 3
+    type: iec-60320-c13
+  - name: Group 1 Outlet 4
+    type: iec-60320-c13
+  - name: Group 1 Outlet 5
+    type: iec-60320-c13
+  - name: Group 1 Outlet 6
+    type: iec-60320-c13
   - name: Group 2 Outlet 1
-    type: nema-l6-20r
+    type: iec-60320-c19
   - name: Group 2 Outlet 2
-    type: nema-l6-20r
-  - name: Group 3 Outlet 1
-    type: nema-l6-30r
-  - name: Group 3 Outlet 2
-    type: nema-l6-30r
-  slug: smart-ups-srt-8000va-rm-208v
-  u_height: 6
+    type: iec-60320-c19
+  - name: Group 2 Outlet 3
+    type: iec-60320-c19
+  - name: Group 2 Outlet 4
+    type: iec-60320-c19
+  slug: apc-smart-ups-srt-5000va-rm-230v
+  u_height: 3
+- console-ports:
+  - name: Serial
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: Ethernet
+    type: 100base-tx
+  is_full_depth: true
+  manufacturer: APC
+  model: Smart-UPS SRT 5000VA RM 208V IEC
+  part_number: SRT5KRMXLT-IEC
+  power-outlets:
+  - name: Group 1 Outlet 1
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Group 1 Outlet 2
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Group 1 Outlet 3
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Group 1 Outlet 4
+    power_port: Inlet I1
+    type: iec-60320-c13
+  - name: Group 2 Outlet 1
+    power_port: Inlet I1
+    type: iec-60320-c19
+  - name: Group 2 Outlet 2
+    power_port: Inlet I1
+    type: iec-60320-c19
+  - name: Group 2 Outlet 3
+    power_port: Inlet I1
+    type: iec-60320-c19
+  - name: Group 2 Outlet 4
+    power_port: Inlet I1
+    type: iec-60320-c19
+  power-ports:
+  - name: Inlet I1
+    type: nema-l6-30p
+  slug: apc-smart-ups-srt-5000va-rm-208v-iec
+  u_height: 3
+- console-ports:
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: eth 1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: APC
+  model: ATS AP7723
+  part_number: ATS-AP7723
+  power-outlets:
+  - name: 16A Outlet
+    type: iec-60320-c19
+  - name: Group 1 Outlet 1
+    type: iec-60320-c13
+  - name: Group 1 Outlet 2
+    type: iec-60320-c13
+  - name: Group 1 Outlet 3
+    type: iec-60320-c13
+  - name: Group 1 Outlet 4
+    type: iec-60320-c13
+  - name: Group 2 Outlet 1
+    type: iec-60320-c13
+  - name: Group 2 Outlet 2
+    type: iec-60320-c13
+  - name: Group 2 Outlet 3
+    type: iec-60320-c13
+  - name: Group 2 Outlet 4
+    type: iec-60320-c13
+  power-ports:
+  - name: 16A Inlet 1
+    type: iec-60320-c20
+  - name: 16A Inlet 2
+    type: iec-60320-c20
+  slug: apc-ats-ap7723
+  u_height: 1
+- airflow: front-to-rear
+  comments: "APC Smart-UPS, Line Interactive, 1500VA, Rackmount 2U, 230V, 4x IEC C13\
+    \ outlets, SmartSlot, AVR, LCD\n Battery SKU: RBC133"
+  console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+  is_full_depth: true
+  manufacturer: APC
+  model: SMT1500RMI2U
+  module-bays:
+  - name: SmartSlot
+  part_number: SMT1500RMI2U
+  power-outlets:
+  - name: Group 1 Outlet 1
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 1 Outlet 2
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 2 Outlet 1
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 2 Outlet 2
+    power_port: Source
+    type: iec-60320-c13
+  power-ports:
+  - maximum_draw: 2300
+    name: Source
+    type: iec-60320-c14
+  slug: apc-smt1500rmi2u
+  u_height: 2
+- console-ports:
+  - name: Serial
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: Ethernet
+    type: 100base-tx
+  is_full_depth: true
+  manufacturer: APC
+  model: Smart-UPS RT 2000VA RM
+  part_number: SURT2000RMXLI
+  power-outlets:
+  - name: Outlet 1
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 2
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 3
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 4
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 5
+    power_port: Inlet
+    type: iec-60320-c13
+  - name: Outlet 6
+    power_port: Inlet
+    type: iec-60320-c13
+  power-ports:
+  - name: Inlet
+    type: iec-60320-c20
+  slug: apc-smart-ups-rt-2000va-rm
+  u_height: 2
+- comments: APC Smart-UPS X 120V External Battery Pack Rack/Tower
+  is_full_depth: true
+  manufacturer: APC
+  model: SMX120BP
+  part_number: SMX120BP
+  slug: apc-smx120bp
+  u_height: 4
 - comments: 'Rack PDU 2G, Switched, ZeroU, 30A, 200/208V, (21) C13 & (3) C19
 
 
@@ -894,32 +1764,778 @@ models:
   power-ports:
   - name: Power Port 1
     type: nema-l6-30p
-  slug: ap7941
+  slug: apc-ap7941
   u_height: 0
-- comments: Rack ATS, 208V, 30A, (2) L6-30P in, (1) L6-30R Out
+- console-ports:
+  - name: con 0
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: eth 1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: APC
+  model: ATS AP4421
+  part_number: ATS-AP4421
+  power-outlets:
+  - name: Group 1 Outlet 1
+    type: iec-60320-c13
+  - name: Group 1 Outlet 2
+    type: iec-60320-c13
+  - name: Group 1 Outlet 3
+    type: iec-60320-c13
+  - name: Group 1 Outlet 4
+    type: iec-60320-c13
+  - name: Group 2 Outlet 1
+    type: iec-60320-c13
+  - name: Group 2 Outlet 2
+    type: iec-60320-c13
+  - name: Group 2 Outlet 3
+    type: iec-60320-c13
+  - name: Group 2 Outlet 4
+    type: iec-60320-c13
+  - name: Group 3 Outlet 1
+    type: iec-60320-c13
+  - name: Group 3 Outlet 2
+    type: iec-60320-c13
+  - name: Group 3 Outlet 3
+    type: iec-60320-c13
+  - name: Group 3 Outlet 4
+    type: iec-60320-c13
+  power-ports:
+  - name: 16A Inlet 1
+    type: iec-60320-c20
+  - name: 16A Inlet 2
+    type: iec-60320-c20
+  slug: apc-ats-ap4421
+  u_height: 1
+- comments: All power ports and outlets are hardwired
+  console-ports:
+  - name: Serial
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: Ethernet
+    type: 100base-tx
+  is_full_depth: true
+  manufacturer: APC
+  model: Smart-UPS SRT 5000VA RM 208/230V HW
+  part_number: SRT5KRMXLW-HW
+  slug: apc-smart-ups-srt-5000va-rm-208-230v-hw
+  u_height: 3
+- comments: "APC Smart-UPS, Line Interactive, 1500VA, Tower, 120V, 8x NEMA 5-15R outlets,\
+    \ SmartSlot, AVR, LCD\n \n | RBC Information |      |\n | --------------- | ----\
+    \ |\n | RBC Replacement | RBC7 |\n | RBC Quantity    | 1    |"
+  console-ports:
+  - name: Serial
+    type: rj-45
+  is_full_depth: true
+  manufacturer: APC
+  model: Smart-UPS SMT1500
+  module-bays:
+  - name: SmartSlot
+    position: Rear
+  part_number: SMT1500
+  power-outlets:
+  - name: Main Outlet 1
+    type: nema-5-15r
+  - name: Main Outlet 2
+    type: nema-5-15r
+  - name: Main Outlet 3
+    type: nema-5-15r
+  - name: Main Outlet 4
+    type: nema-5-15r
+  - name: Group 1 Outlet 1
+    type: nema-5-15r
+  - name: Group 1 Outlet 2
+    type: nema-5-15r
+  - name: Group 1 Outlet 3
+    type: nema-5-15r
+  - name: Group 1 Outlet 4
+    type: nema-5-15r
+  power-ports:
+  - name: Source
+    type: nema-5-15p
+  slug: apc-smt1500
+  u_height: 0
+- comments: '[APC Smart-UPS C, Line Interactive, 1500VA, Tower, 230V, 8x IEC C13 outlets,
+    900 Watts / 1.5kVA, 230V](https://www.apc.com/shop/mk/en/products/APC-Smart-UPS-C-Line-Interactive-1500VA-Tower-230V-8x-IEC-C13-outlets-USB-and-Serial-communication-AVR-Graphic-LCD/P-SMC1500I)'
+  console-ports:
+  - name: USB
+    type: usb-b
+  - name: Serial
+    type: rj-45
+  is_full_depth: false
+  manufacturer: APC
+  model: SMC1500I
+  part_number: SMC1500I
+  power-outlets:
+  - name: Power Outlet 1
+    type: iec-60320-c13
+  - name: Power Outlet 2
+    type: iec-60320-c13
+  - name: Power Outlet 3
+    type: iec-60320-c13
+  - name: Power Outlet 4
+    type: iec-60320-c13
+  - name: Power Outlet 5
+    type: iec-60320-c13
+  - name: Power Outlet 6
+    type: iec-60320-c13
+  - name: Power Outlet 7
+    type: iec-60320-c13
+  - name: Power Outlet 8
+    type: iec-60320-c13
+  power-ports:
+  - name: Power Port 1
+    type: iec-60320-c14
+  slug: apc-smc1500i
+  u_height: 0
+  weight: 24.09
+  weight_unit: kg
+- comments: "APC Smart-UPS On-Line, 3kVA, Rackmount 2U, 208V, 2x L6-20R+1x L6-30R\
+    \ NEMA outlets, SmartSlot, Extended runtime, W/ rail kit\n \n | RBC Information\
+    \ |           |\n | --------------- | --------- |\n | RBC Replacement | APCRBC152\
+    \ |\n | RBC Quantity    | 1         |"
+  console-ports:
+  - name: Serial
+    type: rj-45
+  is_full_depth: true
+  manufacturer: APC
+  model: Smart-UPS SRT3000RMXLT
+  module-bays:
+  - name: SmartSlot
+    position: Rear
+  part_number: SRT3000RMXLT
+  power-outlets:
+  - name: Group 1 Outlet 1
+    type: nema-l6-30r
+  - name: Group 2 Outlet 1
+    type: nema-l6-20r
+  - name: Group 2 Outlet 2
+    type: nema-l6-20r
+  power-ports:
+  - name: Source
+    type: nema-l6-20p
+  - name: XLBP Source
+    type: dc-terminal
+  slug: apc-srt3000rmxlt
+  u_height: 2
+- comments: '[APC BN450M Datasheet](https://www.se.com/ww/en/product/download-pdf/BN450M)'
+  is_full_depth: false
+  manufacturer: APC
+  model: BN450M
+  power-outlets:
+  - name: Batery + Surge - Outlet 1
+    type: nema-5-15r
+  - name: Batery + Surge - Outlet 2
+    type: nema-5-15r
+  - name: Batery + Surge - Outlet 3
+    type: nema-5-15r
+  - name: Batery + Surge - Outlet 4
+    type: nema-5-15r
+  - name: Batery + Surge - Outlet 5
+    type: nema-5-15r
+  - name: Surge - Outlet 1
+    type: nema-5-15r
+  - name: Surge - Outlet 2
+    type: nema-5-15r
+  slug: apc-bn450m
+  u_height: 3
+- airflow: front-to-rear
+  comments: APC Smart-UPS, Line Interactive, 3000VA, Rackmount 2U, 230V, 6x IEC C13
+    outlets, SmartSlot, AVR, LCD
+  console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+  interfaces:
+  - mgmt_only: true
+    name: Ethernet
+    type: 1000base-t
+  is_full_depth: true
+  manufacturer: APC
+  model: SMT3000RMI2UC
+  module-bays:
+  - name: SmartSlot
+  part_number: SMT3000RMI2UC
+  power-outlets:
+  - name: Group 1 Outlet 1
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 1 Outlet 2
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 1 Outlet 3
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 2 Outlet 1
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 2 Outlet 2
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 2 Outlet 3
+    power_port: Source
+    type: iec-60320-c13
+  power-ports:
+  - maximum_draw: 3600
+    name: Source
+    type: iec-60320-c14
+  slug: apc-smt3000rmi2uc
+  u_height: 2
+- comments: "APC Smart-UPS RT192V RM Battery Pack 2 Rows\n \n | RBC Information |\
+    \           |\n | --------------- | --------- |\n | RBC Replacement | APCRBC140\
+    \ |\n | RBC Quantity    | 4         |"
+  is_full_depth: true
+  manufacturer: APC
+  model: SURT192RMXLBP2
+  part_number: SURT192RMXLBP2
+  power-outlets:
+  - name: XLBP Output
+    type: dc-terminal
+  power-ports:
+  - name: XLBP Source
+    type: dc-terminal
+  slug: apc-surt192rmxlbp2
+  u_height: 6
+- comments: Rack PDU 2G, Switched, ZeroU, 32A, 230V, (21) C13 & (3) C19
   console-ports:
   - name: Serial
     type: rj-12
-  - name: usb
-    type: usb-a
+  interfaces:
+  - mgmt_only: true
+    name: Network
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP7854
+  part_number: AP7854
+  power-outlets:
+  - feed_leg: A
+    name: Power Outlet 1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 8
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Power Outlet 9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 12
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 13
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 14
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 15
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 16
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Power Outlet 17
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 18
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 19
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 20
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 21
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 22
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 23
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 24
+    power_port: Power Port 1
+    type: iec-60320-c19
+  power-ports:
+  - name: Power Port 1
+    type: iec-60309-2p-e-6h
+  slug: apc-ap7854
+  u_height: 0
+- comments: Hard wire 3-wire (1P + N + E) power port
+  console-ports:
+  - name: Serial
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: Ethernet
+    type: 100base-tx
+  is_full_depth: true
+  manufacturer: APC
+  model: Smart-UPS SRT 6000VA RM 230V
+  part_number: SRT6KRMXLI
+  power-outlets:
+  - name: Group 1 Outlet 1
+    type: iec-60320-c13
+  - name: Group 1 Outlet 2
+    type: iec-60320-c13
+  - name: Group 1 Outlet 3
+    type: iec-60320-c13
+  - name: Group 1 Outlet 4
+    type: iec-60320-c13
+  - name: Group 1 Outlet 5
+    type: iec-60320-c13
+  - name: Group 1 Outlet 6
+    type: iec-60320-c13
+  - name: Group 2 Outlet 1
+    type: iec-60320-c19
+  - name: Group 2 Outlet 2
+    type: iec-60320-c19
+  - name: Group 3 Outlet 1
+    type: iec-60320-c19
+  - name: Group 3 Outlet 2
+    type: iec-60320-c19
+  slug: apc-smart-ups-srt-6000va-rm-230v
+  u_height: 4
+- comments: RACK ATS, 16A/230V, C20 IN, (8) C13 + (1) C19 OUT
+  console-ports:
+  - name: Serial
+    type: rj-12
   interfaces:
   - mgmt_only: true
     name: Management
     type: 100base-tx
   is_full_depth: false
   manufacturer: APC
-  model: AP4431
-  part_number: AP4431
+  model: AP7723
+  part_number: AP7723
   power-outlets:
-  - name: Outlet
-    type: nema-l6-30r
+  - name: Outlet 1
+    type: iec-60320-c19
+  - name: Outlet 2
+    type: iec-60320-c13
+  - name: Outlet 3
+    type: iec-60320-c13
+  - name: Outlet 4
+    type: iec-60320-c13
+  - name: Outlet 5
+    type: iec-60320-c13
+  - name: Outlet 6
+    type: iec-60320-c13
+  - name: Outlet 7
+    type: iec-60320-c13
+  - name: Outlet 8
+    type: iec-60320-c13
+  - name: Outlet 9
+    type: iec-60320-c13
   power-ports:
   - name: Source A
-    type: nema-l6-30p
+    type: iec-60320-c20
   - name: Source B
-    type: nema-l6-30p
-  slug: ap4431
+    type: iec-60320-c20
+  slug: apc-ap7723
+  u_height: 1
+- console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+  interfaces:
+  - mgmt_only: true
+    name: Ethernet
+    type: 100base-tx
+  is_full_depth: true
+  manufacturer: APC
+  model: Smart-UPS X 1000VA, Rack Mount, LCD 230V
+  part_number: SMX1000I
+  power-outlets:
+  - name: Group 1 Outlet 1
+    type: nema-5-15r
+  - name: Group 1 Outlet 2
+    type: nema-5-15r
+  - name: Group 1 Outlet 3
+    type: nema-5-15r
+  - name: Group 2 Outlet 1
+    type: nema-5-15r
+  - name: Group 2 Outlet 2
+    type: nema-5-15r
+  - name: Group 2 Outlet 3
+    type: nema-5-15r
+  power-ports:
+  - name: Source
+    type: nema-5-15p
+  slug: apc-smart-ups-x-1000va-rack-mount-lcd-230v
   u_height: 2
+- airflow: front-to-rear
+  comments: APC Smart-UPS, Line Interactive, 2200VA, Rackmount 2U, 230V, 8x IEC C13+2x
+    IEC C19 outlets, Network Card, AVR, LCD
+  console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+  is_full_depth: true
+  manufacturer: APC
+  model: SMT2200RMI2UNC
+  module-bays:
+  - name: SmartSlot
+  part_number: SMT2200RMI2UNC
+  power-outlets:
+  - name: Group 1 Outlet 1
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 1 Outlet 2
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 1 Outlet 3
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 1 Outlet 4
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 1 Outlet 5
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 1 Outlet 6
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 1 Outlet 7
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 1 Outlet 8
+    power_port: Source
+    type: iec-60320-c13
+  - name: Group 1 Outlet 9
+    power_port: Source
+    type: iec-60320-c19
+  power-ports:
+  - name: Source
+    type: iec-60320-c20
+  slug: apc-smt2200rmi2unc
+  u_height: 2
+- comments: Rack PDU, Metered, Zero U, 20A, 120V, (24) NEMA 5-20R
+  console-ports:
+  - name: Serial
+    type: rj-12
+  interfaces:
+  - mgmt_only: true
+    name: Network
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP7830
+  part_number: AP7830
+  power-outlets:
+  - feed_leg: A
+    name: Power Outlet 1
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 2
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 3
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 4
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 5
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 6
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 7
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 8
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 9
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 10
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 11
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 12
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 13
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 14
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 15
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 16
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 17
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 18
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 19
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 20
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 21
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 22
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 23
+    power_port: Power Port 1
+    type: nema-5-20r
+  - feed_leg: A
+    name: Power Outlet 24
+    power_port: Power Port 1
+    type: nema-5-20r
+  power-ports:
+  - name: Power Port 1
+    type: nema-l5-20p
+  slug: apc-ap7830
+  u_height: 0
+- comments: APC Rack PDU, 9000-series switched, 0U, 30A, 200V/208V, (21) C13 & (3)
+    C19 sockets
+  console-ports:
+  - name: Serial
+    type: usb-micro-a
+  interfaces:
+  - mgmt_only: true
+    name: Network
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: APC
+  model: APDU9941
+  part_number: APDU9941
+  power-outlets:
+  - feed_leg: A
+    name: Power Outlet 1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 8
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Power Outlet 9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 12
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 13
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 14
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 15
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 16
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Power Outlet 17
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 18
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 19
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 20
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 21
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 22
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 23
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 24
+    power_port: Power Port 1
+    type: iec-60320-c19
+  power-ports:
+  - name: Power Port 1
+    type: nema-l6-30p
+  slug: apc-apdu9941
+  u_height: 0
+- comments: Rack PDU, Metered, 1U, 16A, 208/230V, (8)C13
+  console-ports:
+  - name: Serial
+    type: rj-12
+  interfaces:
+  - mgmt_only: true
+    name: Management
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP7821
+  part_number: AP7821
+  power-outlets:
+  - name: Outlet 1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - name: Outlet 8
+    power_port: Power Port 1
+    type: iec-60320-c13
+  power-ports:
+  - name: Power Port 1
+    type: iec-60320-c20
+  slug: apc-ap7821
+  u_height: 1
 - airflow: front-to-rear
   comments: "APC Smart-UPS, Line Interactive, 1500VA, Rackmount 2U, 230V, 4x IEC C13\
     \ outlets, SmartSlot, AVR, LED\n Battery SKU: RBC24"
@@ -951,8 +2567,332 @@ models:
   - maximum_draw: 2300
     name: Source
     type: iec-60320-c14
-  slug: sua1500rmi2u
+  slug: apc-sua1500rmi2u
   u_height: 2
+- comments: Rack PDU 2G, Switched, ZeroU, 30A, 200/208V, (21) C13 & (3) C19
+  console-ports:
+  - name: Serial
+    type: rj-12
+  interfaces:
+  - mgmt_only: true
+    name: Network
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP8941
+  part_number: AP8941
+  power-outlets:
+  - feed_leg: A
+    name: Power Outlet 1
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 8
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Power Outlet 9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 12
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 13
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 14
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 15
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 16
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Power Outlet 17
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 18
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 19
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 20
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 21
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 22
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 23
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 24
+    power_port: Power Port 1
+    type: iec-60320-c19
+  power-ports:
+  - name: Power Port 1
+    type: nema-l6-30p
+  slug: apc-ap8941
+  u_height: 0
+- comments: Rack ATS, 208V, 30A, (2) L6-30P in, (1) L6-30R Out
+  console-ports:
+  - name: Serial
+    type: rj-12
+  - name: usb
+    type: usb-a
+  interfaces:
+  - mgmt_only: true
+    name: Management
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP4431
+  part_number: AP4431
+  power-outlets:
+  - name: Outlet
+    type: nema-l6-30r
+  power-ports:
+  - name: Source A
+    type: nema-l6-30p
+  - name: Source B
+    type: nema-l6-30p
+  slug: apc-ap4431
+  u_height: 2
+- comments: Rack PDU 2G, Metered, ZeroU, 32A, 230V, (36) C13 & (6) C19
+  console-ports:
+  - name: Serial
+    type: rj-12
+  interfaces:
+  - mgmt_only: true
+    name: Network
+    type: 100base-tx
+  is_full_depth: false
+  manufacturer: APC
+  model: AP8853
+  part_number: AP8853
+  power-outlets:
+  - feed_leg: A
+    name: Power Outlet 1
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Power Outlet 2
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 3
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 4
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 5
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 6
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 7
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 8
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Power Outlet 9
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 10
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 11
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 12
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 13
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 14
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 15
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: A
+    name: Power Outlet 16
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 17
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 18
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 19
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: A
+    name: Power Outlet 20
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 21
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: B
+    name: Power Outlet 22
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 23
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 24
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 25
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 26
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 27
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 28
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: B
+    name: Power Outlet 29
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 30
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 31
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 32
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 33
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 34
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 35
+    power_port: Power Port 1
+    type: iec-60320-c19
+  - feed_leg: B
+    name: Power Outlet 36
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 37
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 38
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 39
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 40
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 41
+    power_port: Power Port 1
+    type: iec-60320-c13
+  - feed_leg: B
+    name: Power Outlet 42
+    power_port: Power Port 1
+    type: iec-60320-c19
+  power-ports:
+  - name: Power Port 1
+    type: iec-60309-p-n-e-6h
+  slug: apc-ap8853
+  u_height: 0
 - comments: Rack PDU 2G, Metered, ZeroU, 22.0kW(32A) 17.3kW(24A), 230V, (30) C13 &
     (12) C19
   console-ports:
@@ -1138,313 +3078,7 @@ models:
   power-ports:
   - name: Power Port 1
     type: iec-60309-3p-n-e-9h
-  slug: ap8886
-  u_height: 0
-- comments: All power ports and outlets are hardwired
-  console-ports:
-  - name: Serial
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: Ethernet
-    type: 100base-tx
-  is_full_depth: true
-  manufacturer: APC
-  model: Smart-UPS SRT 5000VA RM 208/230V HW
-  part_number: SRT5KRMXLW-HW
-  slug: smart-ups-srt-5000va-rm-208-230v-hw
-  u_height: 3
-- comments: Rack PDU 2G, Switched, ZeroU, 32A, 230V, (21) C13 & (3) C19
-  console-ports:
-  - name: Serial
-    type: rj-12
-  interfaces:
-  - mgmt_only: true
-    name: Network
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP7854
-  part_number: AP7854
-  power-outlets:
-  - feed_leg: A
-    name: Power Outlet 1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 8
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Power Outlet 9
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 10
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 11
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 12
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 13
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 14
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 15
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 16
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Power Outlet 17
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 18
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 19
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 20
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 21
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 22
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 23
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 24
-    power_port: Power Port 1
-    type: iec-60320-c19
-  power-ports:
-  - name: Power Port 1
-    type: iec-60309-2p-e-6h
-  slug: ap7854
-  u_height: 0
-- comments: Rack PDU 2G, Switched, ZeroU, 30A, 100-120V, (24) 5-20R
-  console-ports:
-  - name: Serial
-    type: rj-12
-  interfaces:
-  - mgmt_only: true
-    name: Network
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP8932
-  part_number: AP8932
-  power-outlets:
-  - feed_leg: A
-    name: Power Outlet 1
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 2
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 3
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 4
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 5
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 6
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 7
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 8
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 9
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 10
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 11
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 12
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 13
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 14
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 15
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 16
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 17
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 18
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 19
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 20
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 21
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 22
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 23
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 24
-    power_port: Power Port 1
-    type: nema-5-20r
-  power-ports:
-  - name: Power Port 1
-    type: nema-l5-30p
-  slug: ap8932
-  u_height: 0
-- comments: "APC Smart-UPS, Line Interactive, 1500VA, Rackmount 2U, 120V, 6x NEMA\
-    \ 5-15R outlets, SmartSlot, AVR, LCD\n \n | RBC Information |           |\n |\
-    \ --------------- | --------- |\n | RBC Replacement | APCRBC133 |\n | RBC Quantity\
-    \    | 1         |"
-  console-ports:
-  - name: Serial
-    type: rj-45
-  is_full_depth: true
-  manufacturer: APC
-  model: Smart-UPS SMT1500RM2U
-  module-bays:
-  - name: SmartSlot
-    position: Rear
-  part_number: SMT1500RM2U
-  power-outlets:
-  - name: Main Outlet 1
-    type: nema-5-15r
-  - name: Main Outlet 2
-    type: nema-5-15r
-  - name: Main Outlet 3
-    type: nema-5-15r
-  - name: Group 1 Outlet 1
-    type: nema-5-15r
-  - name: Group 1 Outlet 2
-    type: nema-5-15r
-  - name: Group 1 Outlet 3
-    type: nema-5-15r
-  power-ports:
-  - name: Source
-    type: nema-5-15p
-  slug: smt1500rm2u
-  u_height: 2
-- comments: "APC Smart-UPS, Line Interactive, 1000VA, Tower, 120V, 8x NEMA 5-15R outlets,\
-    \ SmartSlot, AVR, LCD\n \n | RBC Information |      |\n | --------------- | ----\
-    \ |\n | RBC Replacement | RBC6 |\n | RBC Quantity    | 1    |"
-  console-ports:
-  - name: Serial
-    type: rj-45
-  - name: USB
-    type: usb-b
-  is_full_depth: true
-  manufacturer: APC
-  model: SMT1000
-  module-bays:
-  - name: SmartSlot
-  part_number: SMT1000
-  power-outlets:
-  - name: Group 1 Outlet 1
-    type: nema-5-15r
-  - name: Group 1 Outlet 2
-    type: nema-5-15r
-  - name: Group 1 Outlet 3
-    type: nema-5-15r
-  - name: Group 2 Outlet 1
-    type: nema-5-15r
-  - name: Group 2 Outlet 2
-    type: nema-5-15r
-  - name: Group 2 Outlet 3
-    type: nema-5-15r
-  power-ports:
-  - name: Source
-    type: nema-5-15p
-  slug: smt1000
+  slug: apc-ap8886
   u_height: 0
 - comments: Rack PDU 2G, Metered, ZeroU, 8.6kW, 208V, (36) C13 & (6) C19 & (2) 5-20
   console-ports:
@@ -1638,1050 +3272,8 @@ models:
   power-ports:
   - name: Power Port 1
     type: nema-l21-30p
-  slug: ap8865
+  slug: apc-ap8865
   u_height: 0
-- comments: '[APC Smart-UPS, Line Interactive, 750VA, Tower, 230V, 6x IEC C13 outlets](https://www.apc.com/shop/no/en/products/APC-Smart-UPS-Line-Interactive-750VA-Tower-230V-6x-IEC-C13-outlets-SmartConnect-Port-SmartSlot-AVR-LCD/P-SMT750IC'
-  console-ports:
-  - name: USB
-    type: usb-a
-  - name: Serial
-    type: rj-45
-  interfaces:
-  - name: Network
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: APC
-  model: SMT750IC
-  part_number: SMT750IC
-  power-outlets:
-  - name: Power Outlet 1
-    type: iec-60320-c13
-  - name: Power Outlet 2
-    type: iec-60320-c13
-  - name: Power Outlet 3
-    type: iec-60320-c13
-  - name: Power Outlet 4
-    type: iec-60320-c13
-  - name: Power Outlet 5
-    type: iec-60320-c13
-  - name: Power Outlet 6
-    type: iec-60320-c13
-  power-ports:
-  - maximum_draw: 500
-    name: Power Port 1
-    type: iec-60320-c14
-  slug: apc-smt750ic
-  u_height: 0
-  weight: 11.8
-  weight_unit: kg
-- comments: Rack PDU 2G, Switched, ZeroU, 16A, 230V, (21) C13 & (3) C19, 2p-e-6h
-  console-ports:
-  - name: Serial
-    type: rj-12
-  interfaces:
-  - mgmt_only: true
-    name: Network
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP8959EU3
-  part_number: AP8959EU3
-  power-outlets:
-  - feed_leg: A
-    name: Power Outlet 1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 8
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Power Outlet 9
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 10
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 11
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 12
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 13
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 14
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 15
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 16
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Power Outlet 17
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 18
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 19
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 20
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 21
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 22
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 23
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 24
-    power_port: Power Port 1
-    type: iec-60320-c19
-  power-ports:
-  - name: Power Port 1
-    type: iec-60309-2p-e-6h
-  slug: ap8959eu3
-  u_height: 0
-- comments: "APC Smart-UPS, Line Interactive, 1500VA, Tower, 120V, 8x NEMA 5-15R outlets,\
-    \ SmartSlot, AVR, LCD\n \n | RBC Information |      |\n | --------------- | ----\
-    \ |\n | RBC Replacement | RBC7 |\n | RBC Quantity    | 1    |"
-  console-ports:
-  - name: Serial
-    type: rj-45
-  is_full_depth: true
-  manufacturer: APC
-  model: Smart-UPS SMT1500
-  module-bays:
-  - name: SmartSlot
-    position: Rear
-  part_number: SMT1500
-  power-outlets:
-  - name: Main Outlet 1
-    type: nema-5-15r
-  - name: Main Outlet 2
-    type: nema-5-15r
-  - name: Main Outlet 3
-    type: nema-5-15r
-  - name: Main Outlet 4
-    type: nema-5-15r
-  - name: Group 1 Outlet 1
-    type: nema-5-15r
-  - name: Group 1 Outlet 2
-    type: nema-5-15r
-  - name: Group 1 Outlet 3
-    type: nema-5-15r
-  - name: Group 1 Outlet 4
-    type: nema-5-15r
-  power-ports:
-  - name: Source
-    type: nema-5-15p
-  slug: smt1500
-  u_height: 0
-- comments: Rack PDU 2G, Switched, ZeroU, 16A, 230V, (7) C13 & (1) C19
-  console-ports:
-  - name: Serial
-    type: rj-12
-  interfaces:
-  - mgmt_only: true
-    name: Network
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP8958
-  part_number: AP8958
-  power-outlets:
-  - feed_leg: A
-    name: Power Outlet 1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 8
-    power_port: Power Port 1
-    type: iec-60320-c19
-  power-ports:
-  - name: Power Port 1
-    type: iec-60320-c20
-  slug: ap8958
-  u_height: 0
-- airflow: front-to-rear
-  comments: "APC Smart-UPS, Line Interactive, 1500VA, Rackmount 2U, 230V, 4x IEC C13\
-    \ outlets, SmartSlot, AVR, LCD\n Battery SKU: RBC133"
-  console-ports:
-  - name: Serial
-    type: rj-45
-  - name: USB
-    type: usb-b
-  is_full_depth: true
-  manufacturer: APC
-  model: SMT1500RMI2U
-  module-bays:
-  - name: SmartSlot
-  part_number: SMT1500RMI2U
-  power-outlets:
-  - name: Group 1 Outlet 1
-    power_port: Source
-    type: iec-60320-c13
-  - name: Group 1 Outlet 2
-    power_port: Source
-    type: iec-60320-c13
-  - name: Group 2 Outlet 1
-    power_port: Source
-    type: iec-60320-c13
-  - name: Group 2 Outlet 2
-    power_port: Source
-    type: iec-60320-c13
-  power-ports:
-  - maximum_draw: 2300
-    name: Source
-    type: iec-60320-c14
-  slug: smt1500rmi2u
-  u_height: 2
-- comments: Rack PDU 2G, Switched, 30A, 208V, (21) C13 & (3) C19
-  console-ports:
-  - name: Serial
-    type: rj-11
-  interfaces:
-  - mgmt_only: true
-    name: Management
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP8965
-  part_number: AP8965
-  power-outlets:
-  - feed_leg: A
-    name: power outlet 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: power outlet 2
-    type: iec-60320-c13
-  - feed_leg: A
-    name: power outlet 3
-    type: iec-60320-c13
-  - feed_leg: A
-    name: power outlet 4
-    type: iec-60320-c13
-  - feed_leg: A
-    name: power outlet 5
-    type: iec-60320-c13
-  - feed_leg: A
-    name: power outlet 6
-    type: iec-60320-c13
-  - feed_leg: A
-    name: power outlet 7
-    type: iec-60320-c13
-  - feed_leg: A
-    name: power outlet 8
-    type: iec-60320-c19
-  - feed_leg: B
-    name: power outlet 9
-    type: iec-60320-c13
-  - feed_leg: B
-    name: power outlet 10
-    type: iec-60320-c13
-  - feed_leg: B
-    name: power outlet 11
-    type: iec-60320-c13
-  - feed_leg: B
-    name: power outlet 12
-    type: iec-60320-c13
-  - feed_leg: B
-    name: power outlet 13
-    type: iec-60320-c13
-  - feed_leg: B
-    name: power outlet 14
-    type: iec-60320-c13
-  - feed_leg: B
-    name: power outlet 15
-    type: iec-60320-c13
-  - feed_leg: B
-    name: power outlet 16
-    type: iec-60320-c19
-  - feed_leg: C
-    name: power outlet 17
-    type: iec-60320-c13
-  - feed_leg: C
-    name: power outlet 18
-    type: iec-60320-c13
-  - feed_leg: C
-    name: power outlet 19
-    type: iec-60320-c13
-  - feed_leg: C
-    name: power outlet 20
-    type: iec-60320-c13
-  - feed_leg: C
-    name: power outlet 21
-    type: iec-60320-c13
-  - feed_leg: C
-    name: power outlet 22
-    type: iec-60320-c13
-  - feed_leg: C
-    name: power outlet 23
-    type: iec-60320-c13
-  - feed_leg: C
-    name: power outlet 24
-    type: iec-60320-c19
-  power-ports:
-  - name: power whip
-    type: nema-l21-30p
-  slug: ap8965
-  u_height: 0
-- comments: Rack PDU 2G, Metered, ZeroU, 32A, 230V, (36) C13 & (6) C19
-  console-ports:
-  - name: Serial
-    type: rj-12
-  interfaces:
-  - mgmt_only: true
-    name: Network
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP8853
-  part_number: AP8853
-  power-outlets:
-  - feed_leg: A
-    name: Power Outlet 1
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Power Outlet 2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 8
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Power Outlet 9
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 10
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 11
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 12
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 13
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 14
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 15
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Power Outlet 16
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 17
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 18
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 19
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 20
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 21
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: B
-    name: Power Outlet 22
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 23
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 24
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 25
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 26
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 27
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 28
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: B
-    name: Power Outlet 29
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 30
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 31
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 32
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 33
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 34
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 35
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: B
-    name: Power Outlet 36
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 37
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 38
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 39
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 40
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 41
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: B
-    name: Power Outlet 42
-    power_port: Power Port 1
-    type: iec-60320-c19
-  power-ports:
-  - name: Power Port 1
-    type: iec-60309-p-n-e-6h
-  slug: ap8853
-  u_height: 0
-- comments: Rack PDU 2G, Switched Plus, ZeroU, 30A, 200/208V, (21) C13 & (3) C19
-  console-ports:
-  - name: Serial
-    type: rj-12
-  interfaces:
-  - mgmt_only: true
-    name: Network
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP8641
-  part_number: AP8641
-  power-outlets:
-  - feed_leg: A
-    name: Bank 1 Outlet 1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 1 Outlet 2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 1 Outlet 3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 1 Outlet 4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 1 Outlet 5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 1 Outlet 6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 1 Outlet 7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 1 Outlet 8
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Bank 1 Outlet 9
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 1 Outlet 10
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 1 Outlet 11
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 1 Outlet 12
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 2 Outlet 13
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 2 Outlet 14
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 2 Outlet 15
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 2 Outlet 16
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Bank 2 Outlet 17
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 2 Outlet 18
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 2 Outlet 19
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 2 Outlet 20
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 2 Outlet 21
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 2 Outlet 22
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 2 Outlet 23
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Bank 2 Outlet 24
-    power_port: Power Port 1
-    type: iec-60320-c19
-  power-ports:
-  - name: Power Port 1
-    type: nema-6-30p
-  slug: ap8641
-  u_height: 0
-- comments: Rack PDU, Switched, 1U, 20A, 120V, (8)5-20
-  console-ports:
-  - name: Serial
-    type: rj-12
-  interfaces:
-  - mgmt_only: true
-    name: Management
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP7901B
-  part_number: AP7901B
-  power-outlets:
-  - feed_leg: A
-    name: Power Outlet 1
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 2
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 3
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 4
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 5
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 6
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 7
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 8
-    power_port: Power Port 1
-    type: nema-5-20r
-  power-ports:
-  - name: Power Port 1
-    type: nema-l5-20p
-  slug: ap7901b
-  u_height: 1
-- comments: APC Smart-UPS X, Line Interactive, 3000VA, Rack/tower convertible 4U,
-    208V-230V, 8x C13+1x C19 IEC, SmartSlot, Extended runtime
-  console-ports:
-  - name: Serial
-    type: rj-45
-  - name: USB
-    type: usb-b
-  is_full_depth: true
-  manufacturer: APC
-  model: SMX3000HV
-  module-bays:
-  - name: SmartSlot
-  part_number: SMX3000HV
-  power-outlets:
-  - name: Group 1 Outlet 1
-    type: iec-60320-c13
-  - name: Group 1 Outlet 2
-    type: iec-60320-c13
-  - name: Group 1 Outlet 3
-    type: iec-60320-c13
-  - name: Group 1 Outlet 4
-    type: iec-60320-c13
-  - name: Group 2 Outlet 1
-    type: iec-60320-c13
-  - name: Group 2 Outlet 2
-    type: iec-60320-c13
-  - name: Group 2 Outlet 3
-    type: iec-60320-c19
-  - name: Group 3 Outlet 1
-    type: iec-60320-c13
-  - name: Group 3 Outlet 2
-    type: iec-60320-c13
-  - name: Group 3 Outlet 3
-    type: iec-60320-c19
-  power-ports:
-  - name: Source
-    type: iec-60320-c20
-  - name: XLBP Source
-    type: dc-terminal
-  slug: smx3000hv
-  u_height: 4
-- comments: '[APC Smart-UPS C, Line Interactive, 1500VA, Tower, 230V, 8x IEC C13 outlets,
-    900 Watts / 1.5kVA, 230V](https://www.apc.com/shop/mk/en/products/APC-Smart-UPS-C-Line-Interactive-1500VA-Tower-230V-8x-IEC-C13-outlets-USB-and-Serial-communication-AVR-Graphic-LCD/P-SMC1500I)'
-  console-ports:
-  - name: USB
-    type: usb-b
-  - name: Serial
-    type: rj-45
-  is_full_depth: false
-  manufacturer: APC
-  model: SMC1500I
-  part_number: SMC1500I
-  power-outlets:
-  - name: Power Outlet 1
-    type: iec-60320-c13
-  - name: Power Outlet 2
-    type: iec-60320-c13
-  - name: Power Outlet 3
-    type: iec-60320-c13
-  - name: Power Outlet 4
-    type: iec-60320-c13
-  - name: Power Outlet 5
-    type: iec-60320-c13
-  - name: Power Outlet 6
-    type: iec-60320-c13
-  - name: Power Outlet 7
-    type: iec-60320-c13
-  - name: Power Outlet 8
-    type: iec-60320-c13
-  power-ports:
-  - name: Power Port 1
-    type: iec-60320-c14
-  slug: apc-smc1500i
-  u_height: 0
-  weight: 24.09
-  weight_unit: kg
-- comments: Remote Monitoring Unit for High-Density Cooling Enclosure
-  interfaces:
-  - mgmt_only: true
-    name: Network
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP9319
-  part_number: AP9319
-  power-ports:
-  - name: Power Port 1
-    type: nema-1-15p
-  slug: ap9319
-  u_height: 0
-- comments: APC 208V/120V 10KVA Step down Transformer
-  is_full_depth: true
-  manufacturer: APC
-  model: APTF10KT01
-  part_number: APTF10KT01
-  power-outlets:
-  - name: Hard Wire Output
-    type: hardwired
-  - name: Outlet 1
-    type: nema-l14-30r
-  - name: Outlet 2
-    type: nema-l14-30r
-  - name: Outlet 3
-    type: nema-l5-20r
-  - name: Outlet 4
-    type: nema-l5-20r
-  power-ports:
-  - name: Source
-    type: hardwired
-  slug: aptf10kt01
-  u_height: 4
-- console-ports:
-  - name: Serial
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: Ethernet
-    type: 100base-tx
-  is_full_depth: true
-  manufacturer: APC
-  model: Smart-UPS RT 2000VA RM
-  part_number: SURT2000RMXLI
-  power-outlets:
-  - name: Outlet 1
-    power_port: Inlet
-    type: iec-60320-c13
-  - name: Outlet 2
-    power_port: Inlet
-    type: iec-60320-c13
-  - name: Outlet 3
-    power_port: Inlet
-    type: iec-60320-c13
-  - name: Outlet 4
-    power_port: Inlet
-    type: iec-60320-c13
-  - name: Outlet 5
-    power_port: Inlet
-    type: iec-60320-c13
-  - name: Outlet 6
-    power_port: Inlet
-    type: iec-60320-c13
-  power-ports:
-  - name: Inlet
-    type: iec-60320-c20
-  slug: smart-ups-rt-2000va-rm
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: rj-45
-  - name: USB
-    type: usb-b
-  interfaces:
-  - mgmt_only: true
-    name: Ethernet
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: APC
-  model: Smart-UPS 1500VA, Rack Mount, LCD 120V with SmartConnect Port
-  part_number: SMT1500RM2UC
-  power-outlets:
-  - name: Group 1 Outlet 1
-    type: nema-5-15r
-  - name: Group 1 Outlet 2
-    type: nema-5-15r
-  - name: Group 1 Outlet 3
-    type: nema-5-15r
-  - name: Group 2 Outlet 1
-    type: nema-5-15r
-  - name: Group 2 Outlet 2
-    type: nema-5-15r
-  - name: Group 2 Outlet 3
-    type: nema-5-15r
-  power-ports:
-  - name: Source
-    type: nema-5-15p
-  slug: smart-ups-1500va-rack-mount-lcd-120v-with-smartconnect-port
-  u_height: 2
-- comments: "APC Smart-UPS RT192V RM Battery Pack 2 Rows\n \n | RBC Information |\
-    \           |\n | --------------- | --------- |\n | RBC Replacement | APCRBC140\
-    \ |\n | RBC Quantity    | 4         |"
-  is_full_depth: true
-  manufacturer: APC
-  model: SURT192RMXLBP2
-  part_number: SURT192RMXLBP2
-  power-outlets:
-  - name: XLBP Output
-    type: dc-terminal
-  power-ports:
-  - name: XLBP Source
-    type: dc-terminal
-  slug: surt192rmxlbp2
-  u_height: 6
-- comments: Rack PDU, Metered, Zero U, 20A, 120V, (24) NEMA 5-20R
-  console-ports:
-  - name: Serial
-    type: rj-12
-  interfaces:
-  - mgmt_only: true
-    name: Network
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP7830
-  part_number: AP7830
-  power-outlets:
-  - feed_leg: A
-    name: Power Outlet 1
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 2
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 3
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 4
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 5
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 6
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 7
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 8
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 9
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 10
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 11
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 12
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 13
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 14
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 15
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 16
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 17
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 18
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 19
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 20
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 21
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 22
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 23
-    power_port: Power Port 1
-    type: nema-5-20r
-  - feed_leg: A
-    name: Power Outlet 24
-    power_port: Power Port 1
-    type: nema-5-20r
-  power-ports:
-  - name: Power Port 1
-    type: nema-l5-20p
-  slug: ap7830
-  u_height: 0
-- comments: Tower or rackable
-  console-ports:
-  - name: Serial
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: Ethernet
-    type: 100base-tx
-  is_full_depth: true
-  manufacturer: APC
-  model: Smart-UPS SRT 5000VA 200V
-  part_number: SRT5KXLJ
-  power-outlets:
-  - name: Group 1 Outlet 1
-    power_port: Inlet I1
-    type: nema-l6-20r
-  - name: Group 1 Outlet 2
-    power_port: Inlet I1
-    type: nema-l6-20r
-  - name: Group 2 Outlet 1
-    power_port: Inlet I1
-    type: nema-l6-30r
-  - name: Group 2 Outlet 2
-    power_port: Inlet I1
-    type: nema-l6-30r
-  power-ports:
-  - name: Inlet I1
-    type: nema-l6-30p
-  slug: smart-ups-srt-5000va-200v
-  u_height: 3
 - console-ports:
   - name: Serial
     type: rj-45
@@ -2727,245 +3319,106 @@ models:
   power-ports:
   - name: Inlet
     type: iec-60320-c20
-  slug: smart-ups-srt-2200va-rm
+  slug: apc-smart-ups-srt-2200va-rm
   u_height: 2
-- comments: RACK ATS, 16A/230V, C20 IN, (8) C13 + (1) C19 OUT
-  console-ports:
-  - name: Serial
-    type: rj-12
-  interfaces:
-  - mgmt_only: true
-    name: Management
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP7723
-  part_number: AP7723
-  power-outlets:
-  - name: Outlet 1
-    type: iec-60320-c19
-  - name: Outlet 2
-    type: iec-60320-c13
-  - name: Outlet 3
-    type: iec-60320-c13
-  - name: Outlet 4
-    type: iec-60320-c13
-  - name: Outlet 5
-    type: iec-60320-c13
-  - name: Outlet 6
-    type: iec-60320-c13
-  - name: Outlet 7
-    type: iec-60320-c13
-  - name: Outlet 8
-    type: iec-60320-c13
-  - name: Outlet 9
-    type: iec-60320-c13
-  power-ports:
-  - name: Source A
-    type: iec-60320-c20
-  - name: Source B
-    type: iec-60320-c20
-  slug: ap7723
-  u_height: 1
-- comments: Rack PDU, Metered, 1U, 16A, 208/230V, (8)C13
-  console-ports:
-  - name: Serial
-    type: rj-12
-  interfaces:
-  - mgmt_only: true
-    name: Management
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP7821
-  part_number: AP7821
-  power-outlets:
-  - name: Outlet 1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 8
-    power_port: Power Port 1
-    type: iec-60320-c13
-  power-ports:
-  - name: Power Port 1
-    type: iec-60320-c20
-  slug: ap7821
-  u_height: 1
-- comments: "APC Smart-UPS X, Line Interactive, 2200VA, Rack/tower convertible 4U,\
-    \ 208V-230V, 8x C13+1x C19 IEC, SmartSlot, Extended runtime\n \n | RBC Information\
-    \ |             |\n | --------------- | ----------- |\n | RBC Replacement | APCRBC143US\
-    \ |\n | RBC Quantity    | 1           |"
+- comments: Hard wire 3-wire (2P + E) power port
   console-ports:
   - name: Serial
     type: rj-45
-  - name: USB
-    type: usb-b
-  is_full_depth: true
-  manufacturer: APC
-  model: SMX2200HV
-  module-bays:
-  - name: SmartSlot
-  part_number: SMX2200HV
-  power-outlets:
-  - name: Group 1 Outlet 1
-    type: iec-60320-c13
-  - name: Group 1 Outlet 2
-    type: iec-60320-c13
-  - name: Group 1 Outlet 3
-    type: iec-60320-c13
-  - name: Group 1 Outlet 4
-    type: iec-60320-c13
-  - name: Group 2 Outlet 1
-    type: iec-60320-c13
-  - name: Group 2 Outlet 2
-    type: iec-60320-c13
-  - name: Group 2 Outlet 3
-    type: iec-60320-c19
-  - name: Group 3 Outlet 1
-    type: iec-60320-c13
-  - name: Group 3 Outlet 2
-    type: iec-60320-c13
-  - name: Group 3 Outlet 3
-    type: iec-60320-c19
-  power-ports:
-  - name: Source
-    type: iec-60320-c20
-  - name: XLBP Source
-    type: dc-terminal
-  slug: smx2200hv
-  u_height: 4
-- comments: Rack PDU 2G, Switched, ZeroU, 16A, 230V, (21) C13 & (3) C19
-  console-ports:
-  - name: Serial
-    type: rj-12
   interfaces:
   - mgmt_only: true
-    name: Network
+    name: Ethernet
     type: 100base-tx
+  is_full_depth: true
+  manufacturer: APC
+  model: Smart-UPS SRT 8000VA RM 208V
+  part_number: SRT8KRMXLT
+  power-outlets:
+  - name: Group 1 Outlet 1
+    type: nema-l6-20r
+  - name: Group 1 Outlet 2
+    type: nema-l6-20r
+  - name: Group 2 Outlet 1
+    type: nema-l6-20r
+  - name: Group 2 Outlet 2
+    type: nema-l6-20r
+  - name: Group 3 Outlet 1
+    type: nema-l6-30r
+  - name: Group 3 Outlet 2
+    type: nema-l6-30r
+  slug: apc-smart-ups-srt-8000va-rm-208v
+  u_height: 6
+- comments: '[APC Smart-UPS, Line Interactive, 750VA, Tower, 230V, 6x IEC C13 outlets](https://www.apc.com/shop/mk/en/products/APC-Smart-UPS-Line-Interactive-750VA-Tower-230V-6x-IEC-C13-outlets-SmartSlot-AVR-LCD/P-SMT750I'
+  console-ports:
+  - name: USB
+    type: usb-a
+  - name: Serial
+    type: rj-45
   is_full_depth: false
   manufacturer: APC
-  model: AP8959
-  part_number: AP8959
+  model: SMT750I
+  part_number: SMT750I
   power-outlets:
-  - feed_leg: A
-    name: Power Outlet 1
-    power_port: Power Port 1
+  - name: Power Outlet 1
     type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 2
-    power_port: Power Port 1
+  - name: Power Outlet 2
     type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 3
-    power_port: Power Port 1
+  - name: Power Outlet 3
     type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 4
-    power_port: Power Port 1
+  - name: Power Outlet 4
     type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 5
-    power_port: Power Port 1
+  - name: Power Outlet 5
     type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 6
-    power_port: Power Port 1
+  - name: Power Outlet 6
     type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 8
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Power Outlet 9
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 10
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 11
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 12
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 13
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 14
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 15
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 16
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Power Outlet 17
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 18
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 19
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 20
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 21
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 22
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 23
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 24
-    power_port: Power Port 1
-    type: iec-60320-c19
   power-ports:
-  - name: Power Port 1
-    type: iec-60320-c20
-  slug: ap8959
+  - maximum_draw: 500
+    name: Power Port 1
+    type: iec-60320-c14
+  slug: apc-smt750i
   u_height: 0
+  weight: 13.18
+  weight_unit: kg
+- comments: APC Smart-UPS On-Line, 5.4kVA, Rackmount 3U, 208V, 2x L6-20R+2x L6-30R
+    NEMA outlets, Network Card+SmartSlot, Extended runtime, W/ rail kit
+  console-ports:
+  - name: Serial
+    type: rj-45
+  interfaces:
+  - label: NMC
+    mgmt_only: true
+    name: Ethernet
+    type: 100base-tx
+  - label: RJ-45
+    name: Universal I/O 1
+    type: other
+  is_full_depth: true
+  manufacturer: APC
+  model: Smart-UPS SRT5KRMXLT
+  module-bays:
+  - name: SmartSlot
+    position: Rear
+  part_number: SRT5KRMXLT
+  power-outlets:
+  - name: Group 1 Outlet 1
+    power_port: Source
+    type: nema-l6-20r
+  - name: Group 1 Outlet 2
+    power_port: Source
+    type: nema-l6-20r
+  - name: Group 2 Outlet 1
+    power_port: Source
+    type: nema-l6-30r
+  - name: Group 2 Outlet 2
+    power_port: Source
+    type: nema-l6-30r
+  power-ports:
+  - name: Source
+    type: nema-l6-30p
+  - name: XLBP Source
+    type: dc-terminal
+  slug: apc-srt5krmxlt
+  u_height: 3
 - comments: Rack PDU 2G, Metered, ZeroU, 10.0kW, 208V, (36) C13 & (6) C19
   console-ports:
   - name: Serial
@@ -3150,262 +3603,58 @@ models:
   power-ports:
   - name: Power Port 1
     type: cs8365c
-  slug: ap8868
+  slug: apc-ap8868
   u_height: 0
-- console-ports:
-  - name: con 0
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth 1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: APC
-  model: ATS AP4421
-  part_number: ATS-AP4421
-  power-outlets:
-  - name: Group 1 Outlet 1
-    type: iec-60320-c13
-  - name: Group 1 Outlet 2
-    type: iec-60320-c13
-  - name: Group 1 Outlet 3
-    type: iec-60320-c13
-  - name: Group 1 Outlet 4
-    type: iec-60320-c13
-  - name: Group 2 Outlet 1
-    type: iec-60320-c13
-  - name: Group 2 Outlet 2
-    type: iec-60320-c13
-  - name: Group 2 Outlet 3
-    type: iec-60320-c13
-  - name: Group 2 Outlet 4
-    type: iec-60320-c13
-  - name: Group 3 Outlet 1
-    type: iec-60320-c13
-  - name: Group 3 Outlet 2
-    type: iec-60320-c13
-  - name: Group 3 Outlet 3
-    type: iec-60320-c13
-  - name: Group 3 Outlet 4
-    type: iec-60320-c13
-  power-ports:
-  - name: 16A Inlet 1
-    type: iec-60320-c20
-  - name: 16A Inlet 2
-    type: iec-60320-c20
-  slug: ats-ap4421
-  u_height: 1
-- comments: Rack PDU, Switched, 1U, 10A, 208/230V, (8)C13
-  console-ports:
-  - name: Serial
-    type: rj-12
-  interfaces:
-  - mgmt_only: true
-    name: Ethernet
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP7920
-  part_number: AP7920
-  power-outlets:
-  - name: Outlet 1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 8
-    power_port: Power Port 1
-    type: iec-60320-c13
-  power-ports:
-  - name: Power Port 1
-    type: iec-60320-c14
-  slug: ap7920
-  u_height: 1
-- comments: RACK ATS, 10A/230V, 12A/208V, C14 IN, (12) C13 OUT
-  console-ports:
-  - name: Serial
-    type: rj-12
-  interfaces:
-  - mgmt_only: true
-    name: Management
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP7721
-  part_number: AP7721
-  power-outlets:
-  - name: Outlet 1
-    type: iec-60320-c13
-  - name: Outlet 2
-    type: iec-60320-c13
-  - name: Outlet 3
-    type: iec-60320-c13
-  - name: Outlet 4
-    type: iec-60320-c13
-  - name: Outlet 5
-    type: iec-60320-c13
-  - name: Outlet 6
-    type: iec-60320-c13
-  - name: Outlet 7
-    type: iec-60320-c13
-  - name: Outlet 8
-    type: iec-60320-c13
-  - name: Outlet 9
-    type: iec-60320-c13
-  - name: Outlet 10
-    type: iec-60320-c13
-  - name: Outlet 11
-    type: iec-60320-c13
-  - name: Outlet 12
-    type: iec-60320-c13
-  power-ports:
-  - name: Source A
-    type: iec-60320-c14
-  - name: Source B
-    type: iec-60320-c14
-  slug: ap7721
-  u_height: 1
-- comments: APC Rack PDU, 9000-series switched, 0U, 30A, 200V/208V, (21) C13 & (3)
-    C19 sockets
-  console-ports:
-  - name: Serial
-    type: usb-micro-a
-  interfaces:
-  - mgmt_only: true
-    name: Network
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: APC
-  model: APDU9941
-  part_number: APDU9941
-  power-outlets:
-  - feed_leg: A
-    name: Power Outlet 1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 8
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Power Outlet 9
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 10
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 11
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 12
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 13
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 14
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 15
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 16
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Power Outlet 17
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 18
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 19
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 20
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 21
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 22
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 23
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 24
-    power_port: Power Port 1
-    type: iec-60320-c19
-  power-ports:
-  - name: Power Port 1
-    type: nema-l6-30p
-  slug: apdu9941
-  u_height: 0
-- comments: '[APC Smart-UPS, Line Interactive, 750VA, Tower, 230V, 6x IEC C13 outlets](https://www.apc.com/shop/mk/en/products/APC-Smart-UPS-Line-Interactive-750VA-Tower-230V-6x-IEC-C13-outlets-SmartSlot-AVR-LCD/P-SMT750I'
+- comments: '[APC Back-UPS Pro, 1500VA/865W, Tower, 230V, 10x IEC C13 outlets](https://www.apc.com/shop/hr/en/products/APC-Back-UPS-Pro-1500VA-865W-Tower-230V-10x-IEC-C13-outlets-AVR-LCD-User-Replaceable-Battery/P-BR1500GI'
   console-ports:
   - name: USB
-    type: usb-a
+    type: rj-45
+  is_full_depth: false
+  manufacturer: APC
+  model: BR1500GI
+  part_number: BR1500GI
+  power-outlets:
+  - name: Power Outlet Surge Protection 1
+    type: iec-60320-c13
+  - name: Power Outlet Surge Protection 2
+    type: iec-60320-c13
+  - name: Power Outlet Surge Protection 3
+    type: iec-60320-c13
+  - name: Power Outlet Surge Protection 4
+    type: iec-60320-c13
+  - name: Power Outlet Surge Protection 5
+    type: iec-60320-c13
+  - name: Power Outlet Battery Backup IEC Jumpers 1
+    type: iec-60320-c13
+  - name: Power Outlet Battery Backup IEC Jumpers 2
+    type: iec-60320-c13
+  - name: Power Outlet Battery Backup 1
+    type: iec-60320-c13
+  - name: Power Outlet Battery Backup 2
+    type: iec-60320-c13
+  - name: Power Outlet Battery Backup 3
+    type: iec-60320-c13
+  - name: Power Outlet Battery Backup 4
+    type: iec-60320-c13
+  - name: Power Outlet Battery Backup 5
+    type: iec-60320-c13
+  power-ports:
+  - name: Power Port 1
+    type: iec-60320-c14
+  slug: apc-br1500gi
+  u_height: 0
+  weight: 12.7
+  weight_unit: kg
+- comments: '[APC Smart-UPS, Line Interactive, 1000VA, Tower, 230V, 8x IEC C13 outlets](https://www.apc.com/shop/hr/en/products/APC-Smart-UPS-Line-Interactive-1000VA-Tower-230V-8x-IEC-C13-outlets-SmartSlot-AVR-LCD/P-SMT1000I'
+  console-ports:
+  - name: USB
+    type: usb-b
   - name: Serial
     type: rj-45
   is_full_depth: false
   manufacturer: APC
-  model: SMT750I
-  part_number: SMT750I
+  model: SMT1000I
+  part_number: SMT1000I
   power-outlets:
   - name: Power Outlet 1
     type: iec-60320-c13
@@ -3419,264 +3668,15 @@ models:
     type: iec-60320-c13
   - name: Power Outlet 6
     type: iec-60320-c13
+  - name: Power Outlet 7
+    type: iec-60320-c13
+  - name: Power Outlet 8
+    type: iec-60320-c13
   power-ports:
-  - maximum_draw: 500
+  - maximum_draw: 700
     name: Power Port 1
     type: iec-60320-c14
-  slug: apc-smt750i
+  slug: apc-smt1000i
   u_height: 0
-  weight: 13.18
+  weight: 18.86
   weight_unit: kg
-- airflow: front-to-rear
-  comments: APC Smart-UPS, Line Interactive, 2200VA, Rackmount 2U, 230V, 8x IEC C13+2x
-    IEC C19 outlets, Network Card, AVR, LCD
-  console-ports:
-  - name: Serial
-    type: rj-45
-  - name: USB
-    type: usb-b
-  is_full_depth: true
-  manufacturer: APC
-  model: SMT2200RMI2UNC
-  module-bays:
-  - name: SmartSlot
-  part_number: SMT2200RMI2UNC
-  power-outlets:
-  - name: Group 1 Outlet 1
-    power_port: Source
-    type: iec-60320-c13
-  - name: Group 1 Outlet 2
-    power_port: Source
-    type: iec-60320-c13
-  - name: Group 1 Outlet 3
-    power_port: Source
-    type: iec-60320-c13
-  - name: Group 1 Outlet 4
-    power_port: Source
-    type: iec-60320-c13
-  - name: Group 1 Outlet 5
-    power_port: Source
-    type: iec-60320-c13
-  - name: Group 1 Outlet 6
-    power_port: Source
-    type: iec-60320-c13
-  - name: Group 1 Outlet 7
-    power_port: Source
-    type: iec-60320-c13
-  - name: Group 1 Outlet 8
-    power_port: Source
-    type: iec-60320-c13
-  - name: Group 1 Outlet 9
-    power_port: Source
-    type: iec-60320-c19
-  power-ports:
-  - name: Source
-    type: iec-60320-c20
-  slug: smt2200rmi2unc
-  u_height: 2
-- is_full_depth: false
-  manufacturer: APC
-  model: EPDU1016b
-  part_number: EPDU1016b
-  power-outlets:
-  - name: Outlet 1
-    type: iec-60320-c13
-  - name: Outlet 2
-    type: iec-60320-c13
-  - name: Outlet 3
-    type: iec-60320-c13
-  - name: Outlet 4
-    type: iec-60320-c13
-  - name: Outlet 5
-    type: iec-60320-c13
-  - name: Outlet 6
-    type: iec-60320-c13
-  - name: Outlet 7
-    type: iec-60320-c13
-  - name: Outlet 8
-    type: iec-60320-c13
-  power-ports:
-  - name: 16A Inlet 1
-    type: iec-60320-c20
-  slug: epdu1016b
-  u_height: 1
-- comments: Rack PDU, Switched, 2U, 32A, 230V, (16)C13
-  console-ports:
-  - name: Serial
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: Ethernet
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP7922B
-  part_number: AP7922B
-  power-outlets:
-  - name: Outlet 1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 8
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 9
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 10
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 11
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 12
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 13
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 14
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 15
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - name: Outlet 16
-    power_port: Power Port 1
-    type: iec-60320-c13
-  power-ports:
-  - name: Power Port 1
-    type: iec-60309-2p-e-6h
-  slug: ap7922b
-  u_height: 2
-- comments: Rack PDU 2G, Switched, ZeroU, 30A, 200/208V, (21) C13 & (3) C19
-  console-ports:
-  - name: Serial
-    type: rj-12
-  interfaces:
-  - mgmt_only: true
-    name: Network
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: APC
-  model: AP8941
-  part_number: AP8941
-  power-outlets:
-  - feed_leg: A
-    name: Power Outlet 1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 4
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 5
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 6
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 7
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 8
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Power Outlet 9
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 10
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 11
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 12
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 13
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 14
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 15
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 16
-    power_port: Power Port 1
-    type: iec-60320-c19
-  - feed_leg: A
-    name: Power Outlet 17
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 18
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 19
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 20
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 21
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 22
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 23
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 24
-    power_port: Power Port 1
-    type: iec-60320-c19
-  power-ports:
-  - name: Power Port 1
-    type: nema-l6-30p
-  slug: ap8941
-  u_height: 0

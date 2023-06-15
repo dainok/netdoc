@@ -13,7 +13,7 @@ models:
   - name: slot 2
     position: '2'
   part_number: 000-00372
-  slug: e7-2
+  slug: calix-e7-2
   u_height: 1
 - interfaces:
   - mgmt_only: true
@@ -74,5 +74,5 @@ models:
   - name: slot B
     position: B
   part_number: 100-02089
-  slug: e7-20
+  slug: calix-e7-20
   u_height: 13

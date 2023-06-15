@@ -40,5 +40,5 @@ models:
   - maximum_draw: 1500
     name: Primary
     type: nema-5-15p
-  slug: pd1215-rm
+  slug: delta-pd1215-rm
   u_height: 1

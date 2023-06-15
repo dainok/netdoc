@@ -1,79 +1,2856 @@
 keywords:
-- TEST-1000
+- Wall box, 4 UTP plugs
+- 48-port UTP Patch Panel
+- LC-24-port Fiber Patch Panel
+- SC-24-double-port Fiber Patch Panel
+- shelf-2he
+- 24-port UTP Patch Panel Half Depth
+- LC-24-port Fiber Patch Panel Half Depth
+- Wall box, 3 UTP plugs
+- Wall box, 2 UTP plugs
+- cable-management-panel-2ru
+- 48-port UTP Patch Panel Half Depth
+- SC-24-port Fiber Patch Panel Half Depth
+- LC-12-port Fiber Patch Panel Half Depth
+- 24-port UTP Patch Panel
+- LC-48-port Fiber Patch Panel
+- Wall box, 6 UTP plugs
+- shelf-1he
+- SC-24-port Fiber Patch Panel
+- cable-management-panel-1ru
+- LC-12-port Fiber Patch Panel
+- SC-24-double-port Fiber Patch Panel Half Depth
+- LC-48-port Fiber Patch Panel Half Depth
 models:
-- console-ports:
-  - name: Console Port 1
-    type: de-9
-  - name: Console Port 2
-    type: de-9
-  - name: Console Port 3
-    type: de-9
-  console-server-ports:
-  - name: Console Server Port 1
-    type: rj-45
-  - name: Console Server Port 2
-    type: rj-45
-  - name: Console Server Port 3
-    type: rj-45
-  device-bays:
-  - name: Device Bay 1
-  - name: Device Bay 2
-  - name: Device Bay 3
-  front-ports:
-  - name: Front Port 1
-    rear_port: Rear Port 1
+- front-ports:
+  - name: Port 1
+    rear_port: Port 1
+    rear_port_position: 1
     type: 8p8c
-  - name: Front Port 2
-    rear_port: Rear Port 2
+  - name: Port 2
+    rear_port: Port 2
+    rear_port_position: 1
     type: 8p8c
-  - name: Front Port 3
-    rear_port: Rear Port 3
+  - name: Port 3
+    rear_port: Port 3
+    rear_port_position: 1
     type: 8p8c
-  interfaces:
-  - mgmt_only: true
-    name: Interface 1
-    type: 1000base-t
-  - name: Interface 2
-    type: 1000base-t
-  - name: Interface 3
-    type: 1000base-t
-  inventory-items:
-  - name: Inventory Item 1
-  - name: Inventory Item 2
-  - name: Inventory Item 3
+  - name: Port 4
+    rear_port: Port 4
+    rear_port_position: 1
+    type: 8p8c
+  is_full_depth: false
   manufacturer: Generic
-  model: TEST-1000
-  module-bays:
-  - name: Module Bay 1
-  - name: Module Bay 2
-  - name: Module Bay 3
-  power-outlets:
-  - feed_leg: A
-    name: Power Outlet 1
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 2
-    power_port: Power Port 1
-    type: iec-60320-c13
-  - feed_leg: A
-    name: Power Outlet 3
-    power_port: Power Port 1
-    type: iec-60320-c13
-  power-ports:
-  - name: Power Port 1
-    type: iec-60320-c14
-  - name: Power Port 2
-    type: iec-60320-c14
-  - name: Power Port 3
-    type: iec-60320-c14
+  model: Wall box, 4 UTP plugs
   rear-ports:
-  - name: Rear Port 1
+  - name: Port 1
+    positions: 1
     type: 8p8c
-  - name: Rear Port 2
+  - name: Port 2
+    positions: 1
     type: 8p8c
-  - name: Rear Port 3
+  - name: Port 3
+    positions: 1
     type: 8p8c
-  slug: test-1000
-  subdevice_role: parent
+  - name: Port 4
+    positions: 1
+    type: 8p8c
+  slug: generic-wall-box-4-utp-plugs
+  u_height: 0.0
+- airflow: passive
+  front-ports:
+  - name: Port 1
+    rear_port: Port 1
+    type: 8p8c
+  - name: Port 2
+    rear_port: Port 2
+    type: 8p8c
+  - name: Port 3
+    rear_port: Port 3
+    type: 8p8c
+  - name: Port 4
+    rear_port: Port 4
+    type: 8p8c
+  - name: Port 5
+    rear_port: Port 5
+    type: 8p8c
+  - name: Port 6
+    rear_port: Port 6
+    type: 8p8c
+  - name: Port 7
+    rear_port: Port 7
+    type: 8p8c
+  - name: Port 8
+    rear_port: Port 8
+    type: 8p8c
+  - name: Port 9
+    rear_port: Port 9
+    type: 8p8c
+  - name: Port 10
+    rear_port: Port 10
+    type: 8p8c
+  - name: Port 11
+    rear_port: Port 11
+    type: 8p8c
+  - name: Port 12
+    rear_port: Port 12
+    type: 8p8c
+  - name: Port 13
+    rear_port: Port 13
+    type: 8p8c
+  - name: Port 14
+    rear_port: Port 14
+    type: 8p8c
+  - name: Port 15
+    rear_port: Port 15
+    type: 8p8c
+  - name: Port 16
+    rear_port: Port 16
+    type: 8p8c
+  - name: Port 17
+    rear_port: Port 17
+    type: 8p8c
+  - name: Port 18
+    rear_port: Port 18
+    type: 8p8c
+  - name: Port 19
+    rear_port: Port 19
+    type: 8p8c
+  - name: Port 20
+    rear_port: Port 20
+    type: 8p8c
+  - name: Port 21
+    rear_port: Port 21
+    type: 8p8c
+  - name: Port 22
+    rear_port: Port 22
+    type: 8p8c
+  - name: Port 23
+    rear_port: Port 23
+    type: 8p8c
+  - name: Port 24
+    rear_port: Port 24
+    type: 8p8c
+  - name: Port 25
+    rear_port: Port 25
+    type: 8p8c
+  - name: Port 26
+    rear_port: Port 26
+    type: 8p8c
+  - name: Port 27
+    rear_port: Port 27
+    type: 8p8c
+  - name: Port 28
+    rear_port: Port 28
+    type: 8p8c
+  - name: Port 29
+    rear_port: Port 29
+    type: 8p8c
+  - name: Port 30
+    rear_port: Port 30
+    type: 8p8c
+  - name: Port 31
+    rear_port: Port 31
+    type: 8p8c
+  - name: Port 32
+    rear_port: Port 32
+    type: 8p8c
+  - name: Port 33
+    rear_port: Port 33
+    type: 8p8c
+  - name: Port 34
+    rear_port: Port 34
+    type: 8p8c
+  - name: Port 35
+    rear_port: Port 35
+    type: 8p8c
+  - name: Port 36
+    rear_port: Port 36
+    type: 8p8c
+  - name: Port 37
+    rear_port: Port 37
+    type: 8p8c
+  - name: Port 38
+    rear_port: Port 38
+    type: 8p8c
+  - name: Port 39
+    rear_port: Port 39
+    type: 8p8c
+  - name: Port 40
+    rear_port: Port 40
+    type: 8p8c
+  - name: Port 41
+    rear_port: Port 41
+    type: 8p8c
+  - name: Port 42
+    rear_port: Port 42
+    type: 8p8c
+  - name: Port 43
+    rear_port: Port 43
+    type: 8p8c
+  - name: Port 44
+    rear_port: Port 44
+    type: 8p8c
+  - name: Port 45
+    rear_port: Port 45
+    type: 8p8c
+  - name: Port 46
+    rear_port: Port 46
+    type: 8p8c
+  - name: Port 47
+    rear_port: Port 47
+    type: 8p8c
+  - name: Port 48
+    rear_port: Port 48
+    type: 8p8c
+  manufacturer: Generic
+  model: 48-port UTP Patch Panel
+  rear-ports:
+  - name: Port 1
+    type: 8p8c
+  - name: Port 2
+    type: 8p8c
+  - name: Port 3
+    type: 8p8c
+  - name: Port 4
+    type: 8p8c
+  - name: Port 5
+    type: 8p8c
+  - name: Port 6
+    type: 8p8c
+  - name: Port 7
+    type: 8p8c
+  - name: Port 8
+    type: 8p8c
+  - name: Port 9
+    type: 8p8c
+  - name: Port 10
+    type: 8p8c
+  - name: Port 11
+    type: 8p8c
+  - name: Port 12
+    type: 8p8c
+  - name: Port 13
+    type: 8p8c
+  - name: Port 14
+    type: 8p8c
+  - name: Port 15
+    type: 8p8c
+  - name: Port 16
+    type: 8p8c
+  - name: Port 17
+    type: 8p8c
+  - name: Port 18
+    type: 8p8c
+  - name: Port 19
+    type: 8p8c
+  - name: Port 20
+    type: 8p8c
+  - name: Port 21
+    type: 8p8c
+  - name: Port 22
+    type: 8p8c
+  - name: Port 23
+    type: 8p8c
+  - name: Port 24
+    type: 8p8c
+  - name: Port 25
+    type: 8p8c
+  - name: Port 26
+    type: 8p8c
+  - name: Port 27
+    type: 8p8c
+  - name: Port 28
+    type: 8p8c
+  - name: Port 29
+    type: 8p8c
+  - name: Port 30
+    type: 8p8c
+  - name: Port 31
+    type: 8p8c
+  - name: Port 32
+    type: 8p8c
+  - name: Port 33
+    type: 8p8c
+  - name: Port 34
+    type: 8p8c
+  - name: Port 35
+    type: 8p8c
+  - name: Port 36
+    type: 8p8c
+  - name: Port 37
+    type: 8p8c
+  - name: Port 38
+    type: 8p8c
+  - name: Port 39
+    type: 8p8c
+  - name: Port 40
+    type: 8p8c
+  - name: Port 41
+    type: 8p8c
+  - name: Port 42
+    type: 8p8c
+  - name: Port 43
+    type: 8p8c
+  - name: Port 44
+    type: 8p8c
+  - name: Port 45
+    type: 8p8c
+  - name: Port 46
+    type: 8p8c
+  - name: Port 47
+    type: 8p8c
+  - name: Port 48
+    type: 8p8c
+  slug: generic-48-port-utp-patch-panel
+  u_height: 2
+- airflow: passive
+  front-ports:
+  - name: Port 1
+    rear_port: Port 1
+    type: lc
+  - name: Port 2
+    rear_port: Port 2
+    type: lc
+  - name: Port 3
+    rear_port: Port 3
+    type: lc
+  - name: Port 4
+    rear_port: Port 4
+    type: lc
+  - name: Port 5
+    rear_port: Port 5
+    type: lc
+  - name: Port 6
+    rear_port: Port 6
+    type: lc
+  - name: Port 7
+    rear_port: Port 7
+    type: lc
+  - name: Port 8
+    rear_port: Port 8
+    type: lc
+  - name: Port 9
+    rear_port: Port 9
+    type: lc
+  - name: Port 10
+    rear_port: Port 10
+    type: lc
+  - name: Port 11
+    rear_port: Port 11
+    type: lc
+  - name: Port 12
+    rear_port: Port 12
+    type: lc
+  - name: Port 13
+    rear_port: Port 13
+    type: lc
+  - name: Port 14
+    rear_port: Port 14
+    type: lc
+  - name: Port 15
+    rear_port: Port 15
+    type: lc
+  - name: Port 16
+    rear_port: Port 16
+    type: lc
+  - name: Port 17
+    rear_port: Port 17
+    type: lc
+  - name: Port 18
+    rear_port: Port 18
+    type: lc
+  - name: Port 19
+    rear_port: Port 19
+    type: lc
+  - name: Port 20
+    rear_port: Port 20
+    type: lc
+  - name: Port 21
+    rear_port: Port 21
+    type: lc
+  - name: Port 22
+    rear_port: Port 22
+    type: lc
+  - name: Port 23
+    rear_port: Port 23
+    type: lc
+  - name: Port 24
+    rear_port: Port 24
+    type: lc
+  manufacturer: Generic
+  model: LC-24-port Fiber Patch Panel
+  rear-ports:
+  - name: Port 1
+    type: lc
+  - name: Port 2
+    type: lc
+  - name: Port 3
+    type: lc
+  - name: Port 4
+    type: lc
+  - name: Port 5
+    type: lc
+  - name: Port 6
+    type: lc
+  - name: Port 7
+    type: lc
+  - name: Port 8
+    type: lc
+  - name: Port 9
+    type: lc
+  - name: Port 10
+    type: lc
+  - name: Port 11
+    type: lc
+  - name: Port 12
+    type: lc
+  - name: Port 13
+    type: lc
+  - name: Port 14
+    type: lc
+  - name: Port 15
+    type: lc
+  - name: Port 16
+    type: lc
+  - name: Port 17
+    type: lc
+  - name: Port 18
+    type: lc
+  - name: Port 19
+    type: lc
+  - name: Port 20
+    type: lc
+  - name: Port 21
+    type: lc
+  - name: Port 22
+    type: lc
+  - name: Port 23
+    type: lc
+  - name: Port 24
+    type: lc
+  slug: generic-lc-24-port-fiber-patch-panel
+  u_height: 1
+- airflow: passive
+  front-ports:
+  - name: '1.1'
+    rear_port: '1.1'
+    rear_port_position: 1
+    type: sc
+  - name: '2.1'
+    rear_port: '2.1'
+    rear_port_position: 1
+    type: sc
+  - name: '3.1'
+    rear_port: '3.1'
+    rear_port_position: 1
+    type: sc
+  - name: '4.1'
+    rear_port: '4.1'
+    rear_port_position: 1
+    type: sc
+  - name: '5.1'
+    rear_port: '5.1'
+    rear_port_position: 1
+    type: sc
+  - name: '6.1'
+    rear_port: '6.1'
+    rear_port_position: 1
+    type: sc
+  - name: '7.1'
+    rear_port: '7.1'
+    rear_port_position: 1
+    type: sc
+  - name: '8.1'
+    rear_port: '8.1'
+    rear_port_position: 1
+    type: sc
+  - name: '9.1'
+    rear_port: '9.1'
+    rear_port_position: 1
+    type: sc
+  - name: '10.1'
+    rear_port: '10.1'
+    rear_port_position: 1
+    type: sc
+  - name: '11.1'
+    rear_port: '11.1'
+    rear_port_position: 1
+    type: sc
+  - name: '12.1'
+    rear_port: '12.1'
+    rear_port_position: 1
+    type: sc
+  - name: '13.1'
+    rear_port: '13.1'
+    rear_port_position: 1
+    type: sc
+  - name: '14.1'
+    rear_port: '14.1'
+    rear_port_position: 1
+    type: sc
+  - name: '15.1'
+    rear_port: '15.1'
+    rear_port_position: 1
+    type: sc
+  - name: '16.1'
+    rear_port: '16.1'
+    rear_port_position: 1
+    type: sc
+  - name: '17.1'
+    rear_port: '17.1'
+    rear_port_position: 1
+    type: sc
+  - name: '18.1'
+    rear_port: '18.1'
+    rear_port_position: 1
+    type: sc
+  - name: '19.1'
+    rear_port: '19.1'
+    rear_port_position: 1
+    type: sc
+  - name: '20.1'
+    rear_port: '20.1'
+    rear_port_position: 1
+    type: sc
+  - name: '21.1'
+    rear_port: '21.1'
+    rear_port_position: 1
+    type: sc
+  - name: '22.1'
+    rear_port: '22.1'
+    rear_port_position: 1
+    type: sc
+  - name: '23.1'
+    rear_port: '23.1'
+    rear_port_position: 1
+    type: sc
+  - name: '24.1'
+    rear_port: '24.1'
+    rear_port_position: 1
+    type: sc
+  - name: '1.2'
+    rear_port: '1.2'
+    rear_port_position: 1
+    type: sc
+  - name: '2.2'
+    rear_port: '2.2'
+    rear_port_position: 1
+    type: sc
+  - name: '3.2'
+    rear_port: '3.2'
+    rear_port_position: 1
+    type: sc
+  - name: '4.2'
+    rear_port: '4.2'
+    rear_port_position: 1
+    type: sc
+  - name: '5.2'
+    rear_port: '5.2'
+    rear_port_position: 1
+    type: sc
+  - name: '6.2'
+    rear_port: '6.2'
+    rear_port_position: 1
+    type: sc
+  - name: '7.2'
+    rear_port: '7.2'
+    rear_port_position: 1
+    type: sc
+  - name: '8.2'
+    rear_port: '8.2'
+    rear_port_position: 1
+    type: sc
+  - name: '9.2'
+    rear_port: '9.2'
+    rear_port_position: 1
+    type: sc
+  - name: '10.2'
+    rear_port: '10.2'
+    rear_port_position: 1
+    type: sc
+  - name: '11.2'
+    rear_port: '11.2'
+    rear_port_position: 1
+    type: sc
+  - name: '12.2'
+    rear_port: '12.2'
+    rear_port_position: 1
+    type: sc
+  - name: '13.2'
+    rear_port: '13.2'
+    rear_port_position: 1
+    type: sc
+  - name: '14.2'
+    rear_port: '14.2'
+    rear_port_position: 1
+    type: sc
+  - name: '15.2'
+    rear_port: '15.2'
+    rear_port_position: 1
+    type: sc
+  - name: '16.2'
+    rear_port: '16.2'
+    rear_port_position: 1
+    type: sc
+  - name: '17.2'
+    rear_port: '17.2'
+    rear_port_position: 1
+    type: sc
+  - name: '18.2'
+    rear_port: '18.2'
+    rear_port_position: 1
+    type: sc
+  - name: '19.2'
+    rear_port: '19.2'
+    rear_port_position: 1
+    type: sc
+  - name: '20.2'
+    rear_port: '20.2'
+    rear_port_position: 1
+    type: sc
+  - name: '21.2'
+    rear_port: '21.2'
+    rear_port_position: 1
+    type: sc
+  - name: '22.2'
+    rear_port: '22.2'
+    rear_port_position: 1
+    type: sc
+  - name: '23.2'
+    rear_port: '23.2'
+    rear_port_position: 1
+    type: sc
+  - name: '24.2'
+    rear_port: '24.2'
+    rear_port_position: 1
+    type: sc
+  is_full_depth: true
+  manufacturer: Generic
+  model: SC-24-double-port Fiber Patch Panel
+  rear-ports:
+  - name: '1.1'
+    positions: 1
+    type: sc
+  - name: '2.1'
+    positions: 1
+    type: sc
+  - name: '3.1'
+    positions: 1
+    type: sc
+  - name: '4.1'
+    positions: 1
+    type: sc
+  - name: '5.1'
+    positions: 1
+    type: sc
+  - name: '6.1'
+    positions: 1
+    type: sc
+  - name: '7.1'
+    positions: 1
+    type: sc
+  - name: '8.1'
+    positions: 1
+    type: sc
+  - name: '9.1'
+    positions: 1
+    type: sc
+  - name: '10.1'
+    positions: 1
+    type: sc
+  - name: '11.1'
+    positions: 1
+    type: sc
+  - name: '12.1'
+    positions: 1
+    type: sc
+  - name: '13.1'
+    positions: 1
+    type: sc
+  - name: '14.1'
+    positions: 1
+    type: sc
+  - name: '15.1'
+    positions: 1
+    type: sc
+  - name: '16.1'
+    positions: 1
+    type: sc
+  - name: '17.1'
+    positions: 1
+    type: sc
+  - name: '18.1'
+    positions: 1
+    type: sc
+  - name: '19.1'
+    positions: 1
+    type: sc
+  - name: '20.1'
+    positions: 1
+    type: sc
+  - name: '21.1'
+    positions: 1
+    type: sc
+  - name: '22.1'
+    positions: 1
+    type: sc
+  - name: '23.1'
+    positions: 1
+    type: sc
+  - name: '24.1'
+    positions: 1
+    type: sc
+  - name: '1.2'
+    positions: 1
+    type: sc
+  - name: '2.2'
+    positions: 1
+    type: sc
+  - name: '3.2'
+    positions: 1
+    type: sc
+  - name: '4.2'
+    positions: 1
+    type: sc
+  - name: '5.2'
+    positions: 1
+    type: sc
+  - name: '6.2'
+    positions: 1
+    type: sc
+  - name: '7.2'
+    positions: 1
+    type: sc
+  - name: '8.2'
+    positions: 1
+    type: sc
+  - name: '9.2'
+    positions: 1
+    type: sc
+  - name: '10.2'
+    positions: 1
+    type: sc
+  - name: '11.2'
+    positions: 1
+    type: sc
+  - name: '12.2'
+    positions: 1
+    type: sc
+  - name: '13.2'
+    positions: 1
+    type: sc
+  - name: '14.2'
+    positions: 1
+    type: sc
+  - name: '15.2'
+    positions: 1
+    type: sc
+  - name: '16.2'
+    positions: 1
+    type: sc
+  - name: '17.2'
+    positions: 1
+    type: sc
+  - name: '18.2'
+    positions: 1
+    type: sc
+  - name: '19.2'
+    positions: 1
+    type: sc
+  - name: '20.2'
+    positions: 1
+    type: sc
+  - name: '21.2'
+    positions: 1
+    type: sc
+  - name: '22.2'
+    positions: 1
+    type: sc
+  - name: '23.2'
+    positions: 1
+    type: sc
+  - name: '24.2'
+    positions: 1
+    type: sc
+  slug: generic-sc-24-double-port-fiber-patch-panel
+  u_height: 1
+- airflow: passive
+  is_full_depth: false
+  manufacturer: Generic
+  model: shelf-2he
+  slug: generic-shelf-2he
+  u_height: 2
+- airflow: passive
+  front-ports:
+  - name: Port 1
+    rear_port: Port 1
+    type: 8p8c
+  - name: Port 2
+    rear_port: Port 2
+    type: 8p8c
+  - name: Port 3
+    rear_port: Port 3
+    type: 8p8c
+  - name: Port 4
+    rear_port: Port 4
+    type: 8p8c
+  - name: Port 5
+    rear_port: Port 5
+    type: 8p8c
+  - name: Port 6
+    rear_port: Port 6
+    type: 8p8c
+  - name: Port 7
+    rear_port: Port 7
+    type: 8p8c
+  - name: Port 8
+    rear_port: Port 8
+    type: 8p8c
+  - name: Port 9
+    rear_port: Port 9
+    type: 8p8c
+  - name: Port 10
+    rear_port: Port 10
+    type: 8p8c
+  - name: Port 11
+    rear_port: Port 11
+    type: 8p8c
+  - name: Port 12
+    rear_port: Port 12
+    type: 8p8c
+  - name: Port 13
+    rear_port: Port 13
+    type: 8p8c
+  - name: Port 14
+    rear_port: Port 14
+    type: 8p8c
+  - name: Port 15
+    rear_port: Port 15
+    type: 8p8c
+  - name: Port 16
+    rear_port: Port 16
+    type: 8p8c
+  - name: Port 17
+    rear_port: Port 17
+    type: 8p8c
+  - name: Port 18
+    rear_port: Port 18
+    type: 8p8c
+  - name: Port 19
+    rear_port: Port 19
+    type: 8p8c
+  - name: Port 20
+    rear_port: Port 20
+    type: 8p8c
+  - name: Port 21
+    rear_port: Port 21
+    type: 8p8c
+  - name: Port 22
+    rear_port: Port 22
+    type: 8p8c
+  - name: Port 23
+    rear_port: Port 23
+    type: 8p8c
+  - name: Port 24
+    rear_port: Port 24
+    type: 8p8c
+  is_full_depth: false
+  manufacturer: Generic
+  model: 24-port UTP Patch Panel Half Depth
+  rear-ports:
+  - name: Port 1
+    type: 8p8c
+  - name: Port 2
+    type: 8p8c
+  - name: Port 3
+    type: 8p8c
+  - name: Port 4
+    type: 8p8c
+  - name: Port 5
+    type: 8p8c
+  - name: Port 6
+    type: 8p8c
+  - name: Port 7
+    type: 8p8c
+  - name: Port 8
+    type: 8p8c
+  - name: Port 9
+    type: 8p8c
+  - name: Port 10
+    type: 8p8c
+  - name: Port 11
+    type: 8p8c
+  - name: Port 12
+    type: 8p8c
+  - name: Port 13
+    type: 8p8c
+  - name: Port 14
+    type: 8p8c
+  - name: Port 15
+    type: 8p8c
+  - name: Port 16
+    type: 8p8c
+  - name: Port 17
+    type: 8p8c
+  - name: Port 18
+    type: 8p8c
+  - name: Port 19
+    type: 8p8c
+  - name: Port 20
+    type: 8p8c
+  - name: Port 21
+    type: 8p8c
+  - name: Port 22
+    type: 8p8c
+  - name: Port 23
+    type: 8p8c
+  - name: Port 24
+    type: 8p8c
+  slug: generic-24-port-utp-patch-panel-half-depth
+  u_height: 1
+- airflow: passive
+  front-ports:
+  - name: Port 1
+    rear_port: Port 1
+    type: lc
+  - name: Port 2
+    rear_port: Port 2
+    type: lc
+  - name: Port 3
+    rear_port: Port 3
+    type: lc
+  - name: Port 4
+    rear_port: Port 4
+    type: lc
+  - name: Port 5
+    rear_port: Port 5
+    type: lc
+  - name: Port 6
+    rear_port: Port 6
+    type: lc
+  - name: Port 7
+    rear_port: Port 7
+    type: lc
+  - name: Port 8
+    rear_port: Port 8
+    type: lc
+  - name: Port 9
+    rear_port: Port 9
+    type: lc
+  - name: Port 10
+    rear_port: Port 10
+    type: lc
+  - name: Port 11
+    rear_port: Port 11
+    type: lc
+  - name: Port 12
+    rear_port: Port 12
+    type: lc
+  - name: Port 13
+    rear_port: Port 13
+    type: lc
+  - name: Port 14
+    rear_port: Port 14
+    type: lc
+  - name: Port 15
+    rear_port: Port 15
+    type: lc
+  - name: Port 16
+    rear_port: Port 16
+    type: lc
+  - name: Port 17
+    rear_port: Port 17
+    type: lc
+  - name: Port 18
+    rear_port: Port 18
+    type: lc
+  - name: Port 19
+    rear_port: Port 19
+    type: lc
+  - name: Port 20
+    rear_port: Port 20
+    type: lc
+  - name: Port 21
+    rear_port: Port 21
+    type: lc
+  - name: Port 22
+    rear_port: Port 22
+    type: lc
+  - name: Port 23
+    rear_port: Port 23
+    type: lc
+  - name: Port 24
+    rear_port: Port 24
+    type: lc
+  is_full_depth: false
+  manufacturer: Generic
+  model: LC-24-port Fiber Patch Panel Half Depth
+  rear-ports:
+  - name: Port 1
+    type: lc
+  - name: Port 2
+    type: lc
+  - name: Port 3
+    type: lc
+  - name: Port 4
+    type: lc
+  - name: Port 5
+    type: lc
+  - name: Port 6
+    type: lc
+  - name: Port 7
+    type: lc
+  - name: Port 8
+    type: lc
+  - name: Port 9
+    type: lc
+  - name: Port 10
+    type: lc
+  - name: Port 11
+    type: lc
+  - name: Port 12
+    type: lc
+  - name: Port 13
+    type: lc
+  - name: Port 14
+    type: lc
+  - name: Port 15
+    type: lc
+  - name: Port 16
+    type: lc
+  - name: Port 17
+    type: lc
+  - name: Port 18
+    type: lc
+  - name: Port 19
+    type: lc
+  - name: Port 20
+    type: lc
+  - name: Port 21
+    type: lc
+  - name: Port 22
+    type: lc
+  - name: Port 23
+    type: lc
+  - name: Port 24
+    type: lc
+  slug: generic-lc-24-port-fiber-patch-panel-half-depth
+  u_height: 1
+- front-ports:
+  - name: Port 1
+    rear_port: Port 1
+    rear_port_position: 1
+    type: 8p8c
+  - name: Port 2
+    rear_port: Port 2
+    rear_port_position: 1
+    type: 8p8c
+  - name: Port 3
+    rear_port: Port 3
+    rear_port_position: 1
+    type: 8p8c
+  is_full_depth: false
+  manufacturer: Generic
+  model: Wall box, 3 UTP plugs
+  rear-ports:
+  - name: Port 1
+    positions: 1
+    type: 8p8c
+  - name: Port 2
+    positions: 1
+    type: 8p8c
+  - name: Port 3
+    positions: 1
+    type: 8p8c
+  slug: generic-wall-box-3-utp-plugs
+  u_height: 0.0
+- front-ports:
+  - name: Port 1
+    rear_port: Port 1
+    rear_port_position: 1
+    type: 8p8c
+  - name: Port 2
+    rear_port: Port 2
+    rear_port_position: 1
+    type: 8p8c
+  is_full_depth: false
+  manufacturer: Generic
+  model: Wall box, 2 UTP plugs
+  rear-ports:
+  - name: Port 1
+    positions: 1
+    type: 8p8c
+  - name: Port 2
+    positions: 1
+    type: 8p8c
+  slug: generic-wall-box-2-utp-plugs
+  u_height: 0.0
+- airflow: passive
+  is_full_depth: false
+  manufacturer: Generic
+  model: cable-management-panel-2ru
+  slug: generic-cable-management-panel-2ru
+  u_height: 2
+- airflow: passive
+  front-ports:
+  - name: Port 1
+    rear_port: Port 1
+    type: 8p8c
+  - name: Port 2
+    rear_port: Port 2
+    type: 8p8c
+  - name: Port 3
+    rear_port: Port 3
+    type: 8p8c
+  - name: Port 4
+    rear_port: Port 4
+    type: 8p8c
+  - name: Port 5
+    rear_port: Port 5
+    type: 8p8c
+  - name: Port 6
+    rear_port: Port 6
+    type: 8p8c
+  - name: Port 7
+    rear_port: Port 7
+    type: 8p8c
+  - name: Port 8
+    rear_port: Port 8
+    type: 8p8c
+  - name: Port 9
+    rear_port: Port 9
+    type: 8p8c
+  - name: Port 10
+    rear_port: Port 10
+    type: 8p8c
+  - name: Port 11
+    rear_port: Port 11
+    type: 8p8c
+  - name: Port 12
+    rear_port: Port 12
+    type: 8p8c
+  - name: Port 13
+    rear_port: Port 13
+    type: 8p8c
+  - name: Port 14
+    rear_port: Port 14
+    type: 8p8c
+  - name: Port 15
+    rear_port: Port 15
+    type: 8p8c
+  - name: Port 16
+    rear_port: Port 16
+    type: 8p8c
+  - name: Port 17
+    rear_port: Port 17
+    type: 8p8c
+  - name: Port 18
+    rear_port: Port 18
+    type: 8p8c
+  - name: Port 19
+    rear_port: Port 19
+    type: 8p8c
+  - name: Port 20
+    rear_port: Port 20
+    type: 8p8c
+  - name: Port 21
+    rear_port: Port 21
+    type: 8p8c
+  - name: Port 22
+    rear_port: Port 22
+    type: 8p8c
+  - name: Port 23
+    rear_port: Port 23
+    type: 8p8c
+  - name: Port 24
+    rear_port: Port 24
+    type: 8p8c
+  - name: Port 25
+    rear_port: Port 25
+    type: 8p8c
+  - name: Port 26
+    rear_port: Port 26
+    type: 8p8c
+  - name: Port 27
+    rear_port: Port 27
+    type: 8p8c
+  - name: Port 28
+    rear_port: Port 28
+    type: 8p8c
+  - name: Port 29
+    rear_port: Port 29
+    type: 8p8c
+  - name: Port 30
+    rear_port: Port 30
+    type: 8p8c
+  - name: Port 31
+    rear_port: Port 31
+    type: 8p8c
+  - name: Port 32
+    rear_port: Port 32
+    type: 8p8c
+  - name: Port 33
+    rear_port: Port 33
+    type: 8p8c
+  - name: Port 34
+    rear_port: Port 34
+    type: 8p8c
+  - name: Port 35
+    rear_port: Port 35
+    type: 8p8c
+  - name: Port 36
+    rear_port: Port 36
+    type: 8p8c
+  - name: Port 37
+    rear_port: Port 37
+    type: 8p8c
+  - name: Port 38
+    rear_port: Port 38
+    type: 8p8c
+  - name: Port 39
+    rear_port: Port 39
+    type: 8p8c
+  - name: Port 40
+    rear_port: Port 40
+    type: 8p8c
+  - name: Port 41
+    rear_port: Port 41
+    type: 8p8c
+  - name: Port 42
+    rear_port: Port 42
+    type: 8p8c
+  - name: Port 43
+    rear_port: Port 43
+    type: 8p8c
+  - name: Port 44
+    rear_port: Port 44
+    type: 8p8c
+  - name: Port 45
+    rear_port: Port 45
+    type: 8p8c
+  - name: Port 46
+    rear_port: Port 46
+    type: 8p8c
+  - name: Port 47
+    rear_port: Port 47
+    type: 8p8c
+  - name: Port 48
+    rear_port: Port 48
+    type: 8p8c
+  is_full_depth: false
+  manufacturer: Generic
+  model: 48-port UTP Patch Panel Half Depth
+  rear-ports:
+  - name: Port 1
+    type: 8p8c
+  - name: Port 2
+    type: 8p8c
+  - name: Port 3
+    type: 8p8c
+  - name: Port 4
+    type: 8p8c
+  - name: Port 5
+    type: 8p8c
+  - name: Port 6
+    type: 8p8c
+  - name: Port 7
+    type: 8p8c
+  - name: Port 8
+    type: 8p8c
+  - name: Port 9
+    type: 8p8c
+  - name: Port 10
+    type: 8p8c
+  - name: Port 11
+    type: 8p8c
+  - name: Port 12
+    type: 8p8c
+  - name: Port 13
+    type: 8p8c
+  - name: Port 14
+    type: 8p8c
+  - name: Port 15
+    type: 8p8c
+  - name: Port 16
+    type: 8p8c
+  - name: Port 17
+    type: 8p8c
+  - name: Port 18
+    type: 8p8c
+  - name: Port 19
+    type: 8p8c
+  - name: Port 20
+    type: 8p8c
+  - name: Port 21
+    type: 8p8c
+  - name: Port 22
+    type: 8p8c
+  - name: Port 23
+    type: 8p8c
+  - name: Port 24
+    type: 8p8c
+  - name: Port 25
+    type: 8p8c
+  - name: Port 26
+    type: 8p8c
+  - name: Port 27
+    type: 8p8c
+  - name: Port 28
+    type: 8p8c
+  - name: Port 29
+    type: 8p8c
+  - name: Port 30
+    type: 8p8c
+  - name: Port 31
+    type: 8p8c
+  - name: Port 32
+    type: 8p8c
+  - name: Port 33
+    type: 8p8c
+  - name: Port 34
+    type: 8p8c
+  - name: Port 35
+    type: 8p8c
+  - name: Port 36
+    type: 8p8c
+  - name: Port 37
+    type: 8p8c
+  - name: Port 38
+    type: 8p8c
+  - name: Port 39
+    type: 8p8c
+  - name: Port 40
+    type: 8p8c
+  - name: Port 41
+    type: 8p8c
+  - name: Port 42
+    type: 8p8c
+  - name: Port 43
+    type: 8p8c
+  - name: Port 44
+    type: 8p8c
+  - name: Port 45
+    type: 8p8c
+  - name: Port 46
+    type: 8p8c
+  - name: Port 47
+    type: 8p8c
+  - name: Port 48
+    type: 8p8c
+  slug: generic-48-port-utp-patch-panel-half-depth
+  u_height: 2
+- airflow: passive
+  front-ports:
+  - name: '1'
+    rear_port: '1'
+    rear_port_position: 1
+    type: sc
+  - name: '2'
+    rear_port: '2'
+    rear_port_position: 1
+    type: sc
+  - name: '3'
+    rear_port: '3'
+    rear_port_position: 1
+    type: sc
+  - name: '4'
+    rear_port: '4'
+    rear_port_position: 1
+    type: sc
+  - name: '5'
+    rear_port: '5'
+    rear_port_position: 1
+    type: sc
+  - name: '6'
+    rear_port: '6'
+    rear_port_position: 1
+    type: sc
+  - name: '7'
+    rear_port: '7'
+    rear_port_position: 1
+    type: sc
+  - name: '8'
+    rear_port: '8'
+    rear_port_position: 1
+    type: sc
+  - name: '9'
+    rear_port: '9'
+    rear_port_position: 1
+    type: sc
+  - name: '10'
+    rear_port: '10'
+    rear_port_position: 1
+    type: sc
+  - name: '11'
+    rear_port: '11'
+    rear_port_position: 1
+    type: sc
+  - name: '12'
+    rear_port: '12'
+    rear_port_position: 1
+    type: sc
+  - name: '13'
+    rear_port: '13'
+    rear_port_position: 1
+    type: sc
+  - name: '14'
+    rear_port: '14'
+    rear_port_position: 1
+    type: sc
+  - name: '15'
+    rear_port: '15'
+    rear_port_position: 1
+    type: sc
+  - name: '16'
+    rear_port: '16'
+    rear_port_position: 1
+    type: sc
+  - name: '17'
+    rear_port: '17'
+    rear_port_position: 1
+    type: sc
+  - name: '18'
+    rear_port: '18'
+    rear_port_position: 1
+    type: sc
+  - name: '19'
+    rear_port: '19'
+    rear_port_position: 1
+    type: sc
+  - name: '20'
+    rear_port: '20'
+    rear_port_position: 1
+    type: sc
+  - name: '21'
+    rear_port: '21'
+    rear_port_position: 1
+    type: sc
+  - name: '22'
+    rear_port: '22'
+    rear_port_position: 1
+    type: sc
+  - name: '23'
+    rear_port: '23'
+    rear_port_position: 1
+    type: sc
+  - name: '24'
+    rear_port: '24'
+    rear_port_position: 1
+    type: sc
+  is_full_depth: false
+  manufacturer: Generic
+  model: SC-24-port Fiber Patch Panel Half Depth
+  rear-ports:
+  - name: '1'
+    positions: 1
+    type: sc
+  - name: '2'
+    positions: 1
+    type: sc
+  - name: '3'
+    positions: 1
+    type: sc
+  - name: '4'
+    positions: 1
+    type: sc
+  - name: '5'
+    positions: 1
+    type: sc
+  - name: '6'
+    positions: 1
+    type: sc
+  - name: '7'
+    positions: 1
+    type: sc
+  - name: '8'
+    positions: 1
+    type: sc
+  - name: '9'
+    positions: 1
+    type: sc
+  - name: '10'
+    positions: 1
+    type: sc
+  - name: '11'
+    positions: 1
+    type: sc
+  - name: '12'
+    positions: 1
+    type: sc
+  - name: '13'
+    positions: 1
+    type: sc
+  - name: '14'
+    positions: 1
+    type: sc
+  - name: '15'
+    positions: 1
+    type: sc
+  - name: '16'
+    positions: 1
+    type: sc
+  - name: '17'
+    positions: 1
+    type: sc
+  - name: '18'
+    positions: 1
+    type: sc
+  - name: '19'
+    positions: 1
+    type: sc
+  - name: '20'
+    positions: 1
+    type: sc
+  - name: '21'
+    positions: 1
+    type: sc
+  - name: '22'
+    positions: 1
+    type: sc
+  - name: '23'
+    positions: 1
+    type: sc
+  - name: '24'
+    positions: 1
+    type: sc
+  slug: generic-sc-24-port-fiber-patch-panel-half-depth
+  u_height: 1
+- airflow: passive
+  front-ports:
+  - name: Port 1
+    rear_port: Port 1
+    type: lc
+  - name: Port 2
+    rear_port: Port 2
+    type: lc
+  - name: Port 3
+    rear_port: Port 3
+    type: lc
+  - name: Port 4
+    rear_port: Port 4
+    type: lc
+  - name: Port 5
+    rear_port: Port 5
+    type: lc
+  - name: Port 6
+    rear_port: Port 6
+    type: lc
+  - name: Port 7
+    rear_port: Port 7
+    type: lc
+  - name: Port 8
+    rear_port: Port 8
+    type: lc
+  - name: Port 9
+    rear_port: Port 9
+    type: lc
+  - name: Port 10
+    rear_port: Port 10
+    type: lc
+  - name: Port 11
+    rear_port: Port 11
+    type: lc
+  - name: Port 12
+    rear_port: Port 12
+    type: lc
+  is_full_depth: false
+  manufacturer: Generic
+  model: LC-12-port Fiber Patch Panel Half Depth
+  rear-ports:
+  - name: Port 1
+    type: lc
+  - name: Port 2
+    type: lc
+  - name: Port 3
+    type: lc
+  - name: Port 4
+    type: lc
+  - name: Port 5
+    type: lc
+  - name: Port 6
+    type: lc
+  - name: Port 7
+    type: lc
+  - name: Port 8
+    type: lc
+  - name: Port 9
+    type: lc
+  - name: Port 10
+    type: lc
+  - name: Port 11
+    type: lc
+  - name: Port 12
+    type: lc
+  slug: generic-lc-12-port-fiber-patch-panel-half-depth
+  u_height: 1
+- airflow: passive
+  front-ports:
+  - name: Port 1
+    rear_port: Port 1
+    type: 8p8c
+  - name: Port 2
+    rear_port: Port 2
+    type: 8p8c
+  - name: Port 3
+    rear_port: Port 3
+    type: 8p8c
+  - name: Port 4
+    rear_port: Port 4
+    type: 8p8c
+  - name: Port 5
+    rear_port: Port 5
+    type: 8p8c
+  - name: Port 6
+    rear_port: Port 6
+    type: 8p8c
+  - name: Port 7
+    rear_port: Port 7
+    type: 8p8c
+  - name: Port 8
+    rear_port: Port 8
+    type: 8p8c
+  - name: Port 9
+    rear_port: Port 9
+    type: 8p8c
+  - name: Port 10
+    rear_port: Port 10
+    type: 8p8c
+  - name: Port 11
+    rear_port: Port 11
+    type: 8p8c
+  - name: Port 12
+    rear_port: Port 12
+    type: 8p8c
+  - name: Port 13
+    rear_port: Port 13
+    type: 8p8c
+  - name: Port 14
+    rear_port: Port 14
+    type: 8p8c
+  - name: Port 15
+    rear_port: Port 15
+    type: 8p8c
+  - name: Port 16
+    rear_port: Port 16
+    type: 8p8c
+  - name: Port 17
+    rear_port: Port 17
+    type: 8p8c
+  - name: Port 18
+    rear_port: Port 18
+    type: 8p8c
+  - name: Port 19
+    rear_port: Port 19
+    type: 8p8c
+  - name: Port 20
+    rear_port: Port 20
+    type: 8p8c
+  - name: Port 21
+    rear_port: Port 21
+    type: 8p8c
+  - name: Port 22
+    rear_port: Port 22
+    type: 8p8c
+  - name: Port 23
+    rear_port: Port 23
+    type: 8p8c
+  - name: Port 24
+    rear_port: Port 24
+    type: 8p8c
+  manufacturer: Generic
+  model: 24-port UTP Patch Panel
+  rear-ports:
+  - name: Port 1
+    type: 8p8c
+  - name: Port 2
+    type: 8p8c
+  - name: Port 3
+    type: 8p8c
+  - name: Port 4
+    type: 8p8c
+  - name: Port 5
+    type: 8p8c
+  - name: Port 6
+    type: 8p8c
+  - name: Port 7
+    type: 8p8c
+  - name: Port 8
+    type: 8p8c
+  - name: Port 9
+    type: 8p8c
+  - name: Port 10
+    type: 8p8c
+  - name: Port 11
+    type: 8p8c
+  - name: Port 12
+    type: 8p8c
+  - name: Port 13
+    type: 8p8c
+  - name: Port 14
+    type: 8p8c
+  - name: Port 15
+    type: 8p8c
+  - name: Port 16
+    type: 8p8c
+  - name: Port 17
+    type: 8p8c
+  - name: Port 18
+    type: 8p8c
+  - name: Port 19
+    type: 8p8c
+  - name: Port 20
+    type: 8p8c
+  - name: Port 21
+    type: 8p8c
+  - name: Port 22
+    type: 8p8c
+  - name: Port 23
+    type: 8p8c
+  - name: Port 24
+    type: 8p8c
+  slug: generic-24-port-utp-patch-panel
+  u_height: 1
+- airflow: passive
+  front-ports:
+  - name: Port 1
+    rear_port: Port 1
+    type: lc
+  - name: Port 2
+    rear_port: Port 2
+    type: lc
+  - name: Port 3
+    rear_port: Port 3
+    type: lc
+  - name: Port 4
+    rear_port: Port 4
+    type: lc
+  - name: Port 5
+    rear_port: Port 5
+    type: lc
+  - name: Port 6
+    rear_port: Port 6
+    type: lc
+  - name: Port 7
+    rear_port: Port 7
+    type: lc
+  - name: Port 8
+    rear_port: Port 8
+    type: lc
+  - name: Port 9
+    rear_port: Port 9
+    type: lc
+  - name: Port 10
+    rear_port: Port 10
+    type: lc
+  - name: Port 11
+    rear_port: Port 11
+    type: lc
+  - name: Port 12
+    rear_port: Port 12
+    type: lc
+  - name: Port 13
+    rear_port: Port 13
+    type: lc
+  - name: Port 14
+    rear_port: Port 14
+    type: lc
+  - name: Port 15
+    rear_port: Port 15
+    type: lc
+  - name: Port 16
+    rear_port: Port 16
+    type: lc
+  - name: Port 17
+    rear_port: Port 17
+    type: lc
+  - name: Port 18
+    rear_port: Port 18
+    type: lc
+  - name: Port 19
+    rear_port: Port 19
+    type: lc
+  - name: Port 20
+    rear_port: Port 20
+    type: lc
+  - name: Port 21
+    rear_port: Port 21
+    type: lc
+  - name: Port 22
+    rear_port: Port 22
+    type: lc
+  - name: Port 23
+    rear_port: Port 23
+    type: lc
+  - name: Port 24
+    rear_port: Port 24
+    type: lc
+  - name: Port 25
+    rear_port: Port 25
+    type: lc
+  - name: Port 26
+    rear_port: Port 26
+    type: lc
+  - name: Port 27
+    rear_port: Port 27
+    type: lc
+  - name: Port 28
+    rear_port: Port 28
+    type: lc
+  - name: Port 29
+    rear_port: Port 29
+    type: lc
+  - name: Port 30
+    rear_port: Port 30
+    type: lc
+  - name: Port 31
+    rear_port: Port 31
+    type: lc
+  - name: Port 32
+    rear_port: Port 32
+    type: lc
+  - name: Port 33
+    rear_port: Port 33
+    type: lc
+  - name: Port 34
+    rear_port: Port 34
+    type: lc
+  - name: Port 35
+    rear_port: Port 35
+    type: lc
+  - name: Port 36
+    rear_port: Port 36
+    type: lc
+  - name: Port 37
+    rear_port: Port 37
+    type: lc
+  - name: Port 38
+    rear_port: Port 38
+    type: lc
+  - name: Port 39
+    rear_port: Port 39
+    type: lc
+  - name: Port 40
+    rear_port: Port 40
+    type: lc
+  - name: Port 41
+    rear_port: Port 41
+    type: lc
+  - name: Port 42
+    rear_port: Port 42
+    type: lc
+  - name: Port 43
+    rear_port: Port 43
+    type: lc
+  - name: Port 44
+    rear_port: Port 44
+    type: lc
+  - name: Port 45
+    rear_port: Port 45
+    type: lc
+  - name: Port 46
+    rear_port: Port 46
+    type: lc
+  - name: Port 47
+    rear_port: Port 47
+    type: lc
+  - name: Port 48
+    rear_port: Port 48
+    type: lc
+  manufacturer: Generic
+  model: LC-48-port Fiber Patch Panel
+  rear-ports:
+  - name: Port 1
+    type: lc
+  - name: Port 2
+    type: lc
+  - name: Port 3
+    type: lc
+  - name: Port 4
+    type: lc
+  - name: Port 5
+    type: lc
+  - name: Port 6
+    type: lc
+  - name: Port 7
+    type: lc
+  - name: Port 8
+    type: lc
+  - name: Port 9
+    type: lc
+  - name: Port 10
+    type: lc
+  - name: Port 11
+    type: lc
+  - name: Port 12
+    type: lc
+  - name: Port 13
+    type: lc
+  - name: Port 14
+    type: lc
+  - name: Port 15
+    type: lc
+  - name: Port 16
+    type: lc
+  - name: Port 17
+    type: lc
+  - name: Port 18
+    type: lc
+  - name: Port 19
+    type: lc
+  - name: Port 20
+    type: lc
+  - name: Port 21
+    type: lc
+  - name: Port 22
+    type: lc
+  - name: Port 23
+    type: lc
+  - name: Port 24
+    type: lc
+  - name: Port 25
+    type: lc
+  - name: Port 26
+    type: lc
+  - name: Port 27
+    type: lc
+  - name: Port 28
+    type: lc
+  - name: Port 29
+    type: lc
+  - name: Port 30
+    type: lc
+  - name: Port 31
+    type: lc
+  - name: Port 32
+    type: lc
+  - name: Port 33
+    type: lc
+  - name: Port 34
+    type: lc
+  - name: Port 35
+    type: lc
+  - name: Port 36
+    type: lc
+  - name: Port 37
+    type: lc
+  - name: Port 38
+    type: lc
+  - name: Port 39
+    type: lc
+  - name: Port 40
+    type: lc
+  - name: Port 41
+    type: lc
+  - name: Port 42
+    type: lc
+  - name: Port 43
+    type: lc
+  - name: Port 44
+    type: lc
+  - name: Port 45
+    type: lc
+  - name: Port 46
+    type: lc
+  - name: Port 47
+    type: lc
+  - name: Port 48
+    type: lc
+  slug: generic-lc-48-port-fiber-patch-panel
+  u_height: 2
+- front-ports:
+  - name: Port 1
+    rear_port: Port 1
+    rear_port_position: 1
+    type: 8p8c
+  - name: Port 2
+    rear_port: Port 2
+    rear_port_position: 1
+    type: 8p8c
+  - name: Port 3
+    rear_port: Port 3
+    rear_port_position: 1
+    type: 8p8c
+  - name: Port 4
+    rear_port: Port 4
+    rear_port_position: 1
+    type: 8p8c
+  - name: Port 5
+    rear_port: Port 5
+    rear_port_position: 1
+    type: 8p8c
+  - name: Port 6
+    rear_port: Port 6
+    rear_port_position: 1
+    type: 8p8c
+  is_full_depth: false
+  manufacturer: Generic
+  model: Wall box, 6 UTP plugs
+  rear-ports:
+  - name: Port 1
+    positions: 1
+    type: 8p8c
+  - name: Port 2
+    positions: 1
+    type: 8p8c
+  - name: Port 3
+    positions: 1
+    type: 8p8c
+  - name: Port 4
+    positions: 1
+    type: 8p8c
+  - name: Port 5
+    positions: 1
+    type: 8p8c
+  - name: Port 6
+    positions: 1
+    type: 8p8c
+  slug: generic-wall-box-6-utp-plugs
+  u_height: 0.0
+- airflow: passive
+  is_full_depth: false
+  manufacturer: Generic
+  model: shelf-1he
+  slug: generic-shelf-1he
+  u_height: 1
+- airflow: passive
+  front-ports:
+  - name: '1'
+    rear_port: '1'
+    rear_port_position: 1
+    type: sc
+  - name: '2'
+    rear_port: '2'
+    rear_port_position: 1
+    type: sc
+  - name: '3'
+    rear_port: '3'
+    rear_port_position: 1
+    type: sc
+  - name: '4'
+    rear_port: '4'
+    rear_port_position: 1
+    type: sc
+  - name: '5'
+    rear_port: '5'
+    rear_port_position: 1
+    type: sc
+  - name: '6'
+    rear_port: '6'
+    rear_port_position: 1
+    type: sc
+  - name: '7'
+    rear_port: '7'
+    rear_port_position: 1
+    type: sc
+  - name: '8'
+    rear_port: '8'
+    rear_port_position: 1
+    type: sc
+  - name: '9'
+    rear_port: '9'
+    rear_port_position: 1
+    type: sc
+  - name: '10'
+    rear_port: '10'
+    rear_port_position: 1
+    type: sc
+  - name: '11'
+    rear_port: '11'
+    rear_port_position: 1
+    type: sc
+  - name: '12'
+    rear_port: '12'
+    rear_port_position: 1
+    type: sc
+  - name: '13'
+    rear_port: '13'
+    rear_port_position: 1
+    type: sc
+  - name: '14'
+    rear_port: '14'
+    rear_port_position: 1
+    type: sc
+  - name: '15'
+    rear_port: '15'
+    rear_port_position: 1
+    type: sc
+  - name: '16'
+    rear_port: '16'
+    rear_port_position: 1
+    type: sc
+  - name: '17'
+    rear_port: '17'
+    rear_port_position: 1
+    type: sc
+  - name: '18'
+    rear_port: '18'
+    rear_port_position: 1
+    type: sc
+  - name: '19'
+    rear_port: '19'
+    rear_port_position: 1
+    type: sc
+  - name: '20'
+    rear_port: '20'
+    rear_port_position: 1
+    type: sc
+  - name: '21'
+    rear_port: '21'
+    rear_port_position: 1
+    type: sc
+  - name: '22'
+    rear_port: '22'
+    rear_port_position: 1
+    type: sc
+  - name: '23'
+    rear_port: '23'
+    rear_port_position: 1
+    type: sc
+  - name: '24'
+    rear_port: '24'
+    rear_port_position: 1
+    type: sc
+  is_full_depth: true
+  manufacturer: Generic
+  model: SC-24-port Fiber Patch Panel
+  rear-ports:
+  - name: '1'
+    positions: 1
+    type: sc
+  - name: '2'
+    positions: 1
+    type: sc
+  - name: '3'
+    positions: 1
+    type: sc
+  - name: '4'
+    positions: 1
+    type: sc
+  - name: '5'
+    positions: 1
+    type: sc
+  - name: '6'
+    positions: 1
+    type: sc
+  - name: '7'
+    positions: 1
+    type: sc
+  - name: '8'
+    positions: 1
+    type: sc
+  - name: '9'
+    positions: 1
+    type: sc
+  - name: '10'
+    positions: 1
+    type: sc
+  - name: '11'
+    positions: 1
+    type: sc
+  - name: '12'
+    positions: 1
+    type: sc
+  - name: '13'
+    positions: 1
+    type: sc
+  - name: '14'
+    positions: 1
+    type: sc
+  - name: '15'
+    positions: 1
+    type: sc
+  - name: '16'
+    positions: 1
+    type: sc
+  - name: '17'
+    positions: 1
+    type: sc
+  - name: '18'
+    positions: 1
+    type: sc
+  - name: '19'
+    positions: 1
+    type: sc
+  - name: '20'
+    positions: 1
+    type: sc
+  - name: '21'
+    positions: 1
+    type: sc
+  - name: '22'
+    positions: 1
+    type: sc
+  - name: '23'
+    positions: 1
+    type: sc
+  - name: '24'
+    positions: 1
+    type: sc
+  slug: generic-sc-24-port-fiber-patch-panel
+  u_height: 1
+- airflow: passive
+  is_full_depth: false
+  manufacturer: Generic
+  model: cable-management-panel-1ru
+  slug: generic-cable-management-panel-1ru
+  u_height: 1
+- airflow: passive
+  front-ports:
+  - name: Port 1
+    rear_port: Port 1
+    type: lc
+  - name: Port 2
+    rear_port: Port 2
+    type: lc
+  - name: Port 3
+    rear_port: Port 3
+    type: lc
+  - name: Port 4
+    rear_port: Port 4
+    type: lc
+  - name: Port 5
+    rear_port: Port 5
+    type: lc
+  - name: Port 6
+    rear_port: Port 6
+    type: lc
+  - name: Port 7
+    rear_port: Port 7
+    type: lc
+  - name: Port 8
+    rear_port: Port 8
+    type: lc
+  - name: Port 9
+    rear_port: Port 9
+    type: lc
+  - name: Port 10
+    rear_port: Port 10
+    type: lc
+  - name: Port 11
+    rear_port: Port 11
+    type: lc
+  - name: Port 12
+    rear_port: Port 12
+    type: lc
+  manufacturer: Generic
+  model: LC-12-port Fiber Patch Panel
+  rear-ports:
+  - name: Port 1
+    type: lc
+  - name: Port 2
+    type: lc
+  - name: Port 3
+    type: lc
+  - name: Port 4
+    type: lc
+  - name: Port 5
+    type: lc
+  - name: Port 6
+    type: lc
+  - name: Port 7
+    type: lc
+  - name: Port 8
+    type: lc
+  - name: Port 9
+    type: lc
+  - name: Port 10
+    type: lc
+  - name: Port 11
+    type: lc
+  - name: Port 12
+    type: lc
+  slug: generic-lc-12-port-fiber-patch-panel
+  u_height: 1
+- airflow: passive
+  front-ports:
+  - name: '1.1'
+    rear_port: '1.1'
+    rear_port_position: 1
+    type: sc
+  - name: '2.1'
+    rear_port: '2.1'
+    rear_port_position: 1
+    type: sc
+  - name: '3.1'
+    rear_port: '3.1'
+    rear_port_position: 1
+    type: sc
+  - name: '4.1'
+    rear_port: '4.1'
+    rear_port_position: 1
+    type: sc
+  - name: '5.1'
+    rear_port: '5.1'
+    rear_port_position: 1
+    type: sc
+  - name: '6.1'
+    rear_port: '6.1'
+    rear_port_position: 1
+    type: sc
+  - name: '7.1'
+    rear_port: '7.1'
+    rear_port_position: 1
+    type: sc
+  - name: '8.1'
+    rear_port: '8.1'
+    rear_port_position: 1
+    type: sc
+  - name: '9.1'
+    rear_port: '9.1'
+    rear_port_position: 1
+    type: sc
+  - name: '10.1'
+    rear_port: '10.1'
+    rear_port_position: 1
+    type: sc
+  - name: '11.1'
+    rear_port: '11.1'
+    rear_port_position: 1
+    type: sc
+  - name: '12.1'
+    rear_port: '12.1'
+    rear_port_position: 1
+    type: sc
+  - name: '13.1'
+    rear_port: '13.1'
+    rear_port_position: 1
+    type: sc
+  - name: '14.1'
+    rear_port: '14.1'
+    rear_port_position: 1
+    type: sc
+  - name: '15.1'
+    rear_port: '15.1'
+    rear_port_position: 1
+    type: sc
+  - name: '16.1'
+    rear_port: '16.1'
+    rear_port_position: 1
+    type: sc
+  - name: '17.1'
+    rear_port: '17.1'
+    rear_port_position: 1
+    type: sc
+  - name: '18.1'
+    rear_port: '18.1'
+    rear_port_position: 1
+    type: sc
+  - name: '19.1'
+    rear_port: '19.1'
+    rear_port_position: 1
+    type: sc
+  - name: '20.1'
+    rear_port: '20.1'
+    rear_port_position: 1
+    type: sc
+  - name: '21.1'
+    rear_port: '21.1'
+    rear_port_position: 1
+    type: sc
+  - name: '22.1'
+    rear_port: '22.1'
+    rear_port_position: 1
+    type: sc
+  - name: '23.1'
+    rear_port: '23.1'
+    rear_port_position: 1
+    type: sc
+  - name: '24.1'
+    rear_port: '24.1'
+    rear_port_position: 1
+    type: sc
+  - name: '1.2'
+    rear_port: '1.2'
+    rear_port_position: 1
+    type: sc
+  - name: '2.2'
+    rear_port: '2.2'
+    rear_port_position: 1
+    type: sc
+  - name: '3.2'
+    rear_port: '3.2'
+    rear_port_position: 1
+    type: sc
+  - name: '4.2'
+    rear_port: '4.2'
+    rear_port_position: 1
+    type: sc
+  - name: '5.2'
+    rear_port: '5.2'
+    rear_port_position: 1
+    type: sc
+  - name: '6.2'
+    rear_port: '6.2'
+    rear_port_position: 1
+    type: sc
+  - name: '7.2'
+    rear_port: '7.2'
+    rear_port_position: 1
+    type: sc
+  - name: '8.2'
+    rear_port: '8.2'
+    rear_port_position: 1
+    type: sc
+  - name: '9.2'
+    rear_port: '9.2'
+    rear_port_position: 1
+    type: sc
+  - name: '10.2'
+    rear_port: '10.2'
+    rear_port_position: 1
+    type: sc
+  - name: '11.2'
+    rear_port: '11.2'
+    rear_port_position: 1
+    type: sc
+  - name: '12.2'
+    rear_port: '12.2'
+    rear_port_position: 1
+    type: sc
+  - name: '13.2'
+    rear_port: '13.2'
+    rear_port_position: 1
+    type: sc
+  - name: '14.2'
+    rear_port: '14.2'
+    rear_port_position: 1
+    type: sc
+  - name: '15.2'
+    rear_port: '15.2'
+    rear_port_position: 1
+    type: sc
+  - name: '16.2'
+    rear_port: '16.2'
+    rear_port_position: 1
+    type: sc
+  - name: '17.2'
+    rear_port: '17.2'
+    rear_port_position: 1
+    type: sc
+  - name: '18.2'
+    rear_port: '18.2'
+    rear_port_position: 1
+    type: sc
+  - name: '19.2'
+    rear_port: '19.2'
+    rear_port_position: 1
+    type: sc
+  - name: '20.2'
+    rear_port: '20.2'
+    rear_port_position: 1
+    type: sc
+  - name: '21.2'
+    rear_port: '21.2'
+    rear_port_position: 1
+    type: sc
+  - name: '22.2'
+    rear_port: '22.2'
+    rear_port_position: 1
+    type: sc
+  - name: '23.2'
+    rear_port: '23.2'
+    rear_port_position: 1
+    type: sc
+  - name: '24.2'
+    rear_port: '24.2'
+    rear_port_position: 1
+    type: sc
+  is_full_depth: false
+  manufacturer: Generic
+  model: SC-24-double-port Fiber Patch Panel Half Depth
+  rear-ports:
+  - name: '1.1'
+    positions: 1
+    type: sc
+  - name: '2.1'
+    positions: 1
+    type: sc
+  - name: '3.1'
+    positions: 1
+    type: sc
+  - name: '4.1'
+    positions: 1
+    type: sc
+  - name: '5.1'
+    positions: 1
+    type: sc
+  - name: '6.1'
+    positions: 1
+    type: sc
+  - name: '7.1'
+    positions: 1
+    type: sc
+  - name: '8.1'
+    positions: 1
+    type: sc
+  - name: '9.1'
+    positions: 1
+    type: sc
+  - name: '10.1'
+    positions: 1
+    type: sc
+  - name: '11.1'
+    positions: 1
+    type: sc
+  - name: '12.1'
+    positions: 1
+    type: sc
+  - name: '13.1'
+    positions: 1
+    type: sc
+  - name: '14.1'
+    positions: 1
+    type: sc
+  - name: '15.1'
+    positions: 1
+    type: sc
+  - name: '16.1'
+    positions: 1
+    type: sc
+  - name: '17.1'
+    positions: 1
+    type: sc
+  - name: '18.1'
+    positions: 1
+    type: sc
+  - name: '19.1'
+    positions: 1
+    type: sc
+  - name: '20.1'
+    positions: 1
+    type: sc
+  - name: '21.1'
+    positions: 1
+    type: sc
+  - name: '22.1'
+    positions: 1
+    type: sc
+  - name: '23.1'
+    positions: 1
+    type: sc
+  - name: '24.1'
+    positions: 1
+    type: sc
+  - name: '1.2'
+    positions: 1
+    type: sc
+  - name: '2.2'
+    positions: 1
+    type: sc
+  - name: '3.2'
+    positions: 1
+    type: sc
+  - name: '4.2'
+    positions: 1
+    type: sc
+  - name: '5.2'
+    positions: 1
+    type: sc
+  - name: '6.2'
+    positions: 1
+    type: sc
+  - name: '7.2'
+    positions: 1
+    type: sc
+  - name: '8.2'
+    positions: 1
+    type: sc
+  - name: '9.2'
+    positions: 1
+    type: sc
+  - name: '10.2'
+    positions: 1
+    type: sc
+  - name: '11.2'
+    positions: 1
+    type: sc
+  - name: '12.2'
+    positions: 1
+    type: sc
+  - name: '13.2'
+    positions: 1
+    type: sc
+  - name: '14.2'
+    positions: 1
+    type: sc
+  - name: '15.2'
+    positions: 1
+    type: sc
+  - name: '16.2'
+    positions: 1
+    type: sc
+  - name: '17.2'
+    positions: 1
+    type: sc
+  - name: '18.2'
+    positions: 1
+    type: sc
+  - name: '19.2'
+    positions: 1
+    type: sc
+  - name: '20.2'
+    positions: 1
+    type: sc
+  - name: '21.2'
+    positions: 1
+    type: sc
+  - name: '22.2'
+    positions: 1
+    type: sc
+  - name: '23.2'
+    positions: 1
+    type: sc
+  - name: '24.2'
+    positions: 1
+    type: sc
+  slug: generic-sc-24-double-port-fiber-patch-panel-half-depth
+  u_height: 1
+- airflow: passive
+  front-ports:
+  - name: Port 1
+    rear_port: Port 1
+    type: lc
+  - name: Port 2
+    rear_port: Port 2
+    type: lc
+  - name: Port 3
+    rear_port: Port 3
+    type: lc
+  - name: Port 4
+    rear_port: Port 4
+    type: lc
+  - name: Port 5
+    rear_port: Port 5
+    type: lc
+  - name: Port 6
+    rear_port: Port 6
+    type: lc
+  - name: Port 7
+    rear_port: Port 7
+    type: lc
+  - name: Port 8
+    rear_port: Port 8
+    type: lc
+  - name: Port 9
+    rear_port: Port 9
+    type: lc
+  - name: Port 10
+    rear_port: Port 10
+    type: lc
+  - name: Port 11
+    rear_port: Port 11
+    type: lc
+  - name: Port 12
+    rear_port: Port 12
+    type: lc
+  - name: Port 13
+    rear_port: Port 13
+    type: lc
+  - name: Port 14
+    rear_port: Port 14
+    type: lc
+  - name: Port 15
+    rear_port: Port 15
+    type: lc
+  - name: Port 16
+    rear_port: Port 16
+    type: lc
+  - name: Port 17
+    rear_port: Port 17
+    type: lc
+  - name: Port 18
+    rear_port: Port 18
+    type: lc
+  - name: Port 19
+    rear_port: Port 19
+    type: lc
+  - name: Port 20
+    rear_port: Port 20
+    type: lc
+  - name: Port 21
+    rear_port: Port 21
+    type: lc
+  - name: Port 22
+    rear_port: Port 22
+    type: lc
+  - name: Port 23
+    rear_port: Port 23
+    type: lc
+  - name: Port 24
+    rear_port: Port 24
+    type: lc
+  - name: Port 25
+    rear_port: Port 25
+    type: lc
+  - name: Port 26
+    rear_port: Port 26
+    type: lc
+  - name: Port 27
+    rear_port: Port 27
+    type: lc
+  - name: Port 28
+    rear_port: Port 28
+    type: lc
+  - name: Port 29
+    rear_port: Port 29
+    type: lc
+  - name: Port 30
+    rear_port: Port 30
+    type: lc
+  - name: Port 31
+    rear_port: Port 31
+    type: lc
+  - name: Port 32
+    rear_port: Port 32
+    type: lc
+  - name: Port 33
+    rear_port: Port 33
+    type: lc
+  - name: Port 34
+    rear_port: Port 34
+    type: lc
+  - name: Port 35
+    rear_port: Port 35
+    type: lc
+  - name: Port 36
+    rear_port: Port 36
+    type: lc
+  - name: Port 37
+    rear_port: Port 37
+    type: lc
+  - name: Port 38
+    rear_port: Port 38
+    type: lc
+  - name: Port 39
+    rear_port: Port 39
+    type: lc
+  - name: Port 40
+    rear_port: Port 40
+    type: lc
+  - name: Port 41
+    rear_port: Port 41
+    type: lc
+  - name: Port 42
+    rear_port: Port 42
+    type: lc
+  - name: Port 43
+    rear_port: Port 43
+    type: lc
+  - name: Port 44
+    rear_port: Port 44
+    type: lc
+  - name: Port 45
+    rear_port: Port 45
+    type: lc
+  - name: Port 46
+    rear_port: Port 46
+    type: lc
+  - name: Port 47
+    rear_port: Port 47
+    type: lc
+  - name: Port 48
+    rear_port: Port 48
+    type: lc
+  is_full_depth: false
+  manufacturer: Generic
+  model: LC-48-port Fiber Patch Panel Half Depth
+  rear-ports:
+  - name: Port 1
+    type: lc
+  - name: Port 2
+    type: lc
+  - name: Port 3
+    type: lc
+  - name: Port 4
+    type: lc
+  - name: Port 5
+    type: lc
+  - name: Port 6
+    type: lc
+  - name: Port 7
+    type: lc
+  - name: Port 8
+    type: lc
+  - name: Port 9
+    type: lc
+  - name: Port 10
+    type: lc
+  - name: Port 11
+    type: lc
+  - name: Port 12
+    type: lc
+  - name: Port 13
+    type: lc
+  - name: Port 14
+    type: lc
+  - name: Port 15
+    type: lc
+  - name: Port 16
+    type: lc
+  - name: Port 17
+    type: lc
+  - name: Port 18
+    type: lc
+  - name: Port 19
+    type: lc
+  - name: Port 20
+    type: lc
+  - name: Port 21
+    type: lc
+  - name: Port 22
+    type: lc
+  - name: Port 23
+    type: lc
+  - name: Port 24
+    type: lc
+  - name: Port 25
+    type: lc
+  - name: Port 26
+    type: lc
+  - name: Port 27
+    type: lc
+  - name: Port 28
+    type: lc
+  - name: Port 29
+    type: lc
+  - name: Port 30
+    type: lc
+  - name: Port 31
+    type: lc
+  - name: Port 32
+    type: lc
+  - name: Port 33
+    type: lc
+  - name: Port 34
+    type: lc
+  - name: Port 35
+    type: lc
+  - name: Port 36
+    type: lc
+  - name: Port 37
+    type: lc
+  - name: Port 38
+    type: lc
+  - name: Port 39
+    type: lc
+  - name: Port 40
+    type: lc
+  - name: Port 41
+    type: lc
+  - name: Port 42
+    type: lc
+  - name: Port 43
+    type: lc
+  - name: Port 44
+    type: lc
+  - name: Port 45
+    type: lc
+  - name: Port 46
+    type: lc
+  - name: Port 47
+    type: lc
+  - name: Port 48
+    type: lc
+  slug: generic-lc-48-port-fiber-patch-panel-half-depth
   u_height: 2

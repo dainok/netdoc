@@ -1,363 +1,27 @@
 keywords:
-- T2600G-28TS
-- T2600G-28TS
-- T2500G-10TS
-- T2500G-10TS
-- TL-SG105E
-- TL-SG105E
-- TL-SG1016PE
-- TL-SG1016PE
-- TL-SG3428MP
-- TL-SG3428MP
-- TL-SG108E
-- TL-SG108E
-- TL-SG108PE
-- TL-SG108PE
 - TL-SG3424P
 - TL-SG3424P
-- T2600G-28MPS
-- T2600G-28MPS
+- T2600G-28TS
+- T2600G-28TS
 - TL-SG1005D
 - TL-SG105D
+- TL-SG108PE
+- TL-SG108PE
+- TL-SG3428MP
+- TL-SG3428MP
 - TL-SG1024D
 - TL-SG1024D
+- TL-SG1016PE
+- TL-SG1016PE
+- TL-SG108E
+- TL-SG108E
+- T2600G-28MPS
+- T2600G-28MPS
+- T2500G-10TS
+- T2500G-10TS
+- TL-SG105E
+- TL-SG105E
 models:
-- airflow: passive
-  comments: '[TP-Link T2600G-28TS Datasheet](https://www.tp-link.com/us/business-networking/managed-switch/t2600g-28ts/#specifications)'
-  console-ports:
-  - name: console
-    type: rj-45
-  - name: console-usb
-    type: usb-micro-b
-  interfaces:
-  - name: '1'
-    type: 1000base-t
-  - name: '2'
-    type: 1000base-t
-  - name: '3'
-    type: 1000base-t
-  - name: '4'
-    type: 1000base-t
-  - name: '5'
-    type: 1000base-t
-  - name: '6'
-    type: 1000base-t
-  - name: '7'
-    type: 1000base-t
-  - name: '8'
-    type: 1000base-t
-  - name: '9'
-    type: 1000base-t
-  - name: '10'
-    type: 1000base-t
-  - name: '11'
-    type: 1000base-t
-  - name: '12'
-    type: 1000base-t
-  - name: '13'
-    type: 1000base-t
-  - name: '14'
-    type: 1000base-t
-  - name: '15'
-    type: 1000base-t
-  - name: '16'
-    type: 1000base-t
-  - name: '17'
-    type: 1000base-t
-  - name: '18'
-    type: 1000base-t
-  - name: '19'
-    type: 1000base-t
-  - name: '20'
-    type: 1000base-t
-  - name: '21'
-    type: 1000base-t
-  - name: '22'
-    type: 1000base-t
-  - name: '23'
-    type: 1000base-t
-  - name: '24'
-    type: 1000base-t
-  - name: '25'
-    type: 1000base-x-sfp
-  - name: '26'
-    type: 1000base-x-sfp
-  - name: '27'
-    type: 1000base-x-sfp
-  - name: '28'
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: TP-Link
-  model: T2600G-28TS
-  part_number: T2600G-28TS
-  power-ports:
-  - allocated_draw: 10
-    maximum_draw: 15
-    name: PS1
-    type: iec-60320-c14
-  slug: t2600g-28ts
-  u_height: 1
-- comments: '[TP-Link T2500G-10TS Datasheet](https://www.tp-link.com/us/business-networking/managed-switch/t2500g-10ts/#specifications)'
-  console-ports:
-  - name: console
-    type: rj-45
-  - name: console-usb
-    type: usb-micro-b
-  interfaces:
-  - name: '1'
-    type: 1000base-t
-  - name: '2'
-    type: 1000base-t
-  - name: '3'
-    type: 1000base-t
-  - name: '4'
-    type: 1000base-t
-  - name: '5'
-    type: 1000base-t
-  - name: '6'
-    type: 1000base-t
-  - name: '7'
-    type: 1000base-t
-  - name: '8'
-    type: 1000base-t
-  - name: '9'
-    type: 1000base-x-sfp
-  - name: '10'
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: TP-Link
-  model: T2500G-10TS
-  part_number: T2500G-10TS
-  power-ports:
-  - allocated_draw: 29
-    maximum_draw: 469
-    name: PS1
-    type: iec-60320-c14
-  slug: t2500g-10ts
-  u_height: 1
-- airflow: passive
-  comments: '[TP-Link TL-SG105E](https://www.tp-link.com/us/home-networking/5-port-switch/tl-sg105e/#specifications)'
-  interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: TP-Link
-  model: TL-SG105E
-  part_number: TL-SG105E
-  power-ports:
-  - maximum_draw: 4
-    name: External Power Adapter
-    type: dc-terminal
-  slug: tl-sg105e
-  u_height: 0
-- airflow: right-to-left
-  comments: '[TP-Link TL-SG1016PE](https://www.tp-link.com/us/business-networking/surveillance-switch/tl-sg1016pe/v2/#specifications)'
-  interfaces:
-  - name: Port 1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 9
-    type: 1000base-t
-  - name: Port 10
-    type: 1000base-t
-  - name: Port 11
-    type: 1000base-t
-  - name: Port 12
-    type: 1000base-t
-  - name: Port 13
-    type: 1000base-t
-  - name: Port 14
-    type: 1000base-t
-  - name: Port 15
-    type: 1000base-t
-  - name: Port 16
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: TP-Link
-  model: TL-SG1016PE
-  part_number: TL-SG1016PE
-  power-ports:
-  - maximum_draw: 178
-    name: PS1
-    type: iec-60320-c14
-  slug: tp-link-tl-sg1016pe
-  u_height: 1
-- comments: '[TP-Link SG3428MP Datasheet](https://www.tp-link.com/es/business-networking/managed-switch/tl-sg3428mp/#specifications)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  - name: Serial
-    type: usb-micro-b
-  interfaces:
-  - name: '1'
-    type: 1000base-t
-  - name: '2'
-    type: 1000base-t
-  - name: '3'
-    type: 1000base-t
-  - name: '4'
-    type: 1000base-t
-  - name: '5'
-    type: 1000base-t
-  - name: '6'
-    type: 1000base-t
-  - name: '7'
-    type: 1000base-t
-  - name: '8'
-    type: 1000base-t
-  - name: '9'
-    type: 1000base-t
-  - name: '10'
-    type: 1000base-t
-  - name: '11'
-    type: 1000base-t
-  - name: '12'
-    type: 1000base-t
-  - name: '13'
-    type: 1000base-t
-  - name: '14'
-    type: 1000base-t
-  - name: '15'
-    type: 1000base-t
-  - name: '16'
-    type: 1000base-t
-  - name: '17'
-    type: 1000base-t
-  - name: '18'
-    type: 1000base-t
-  - name: '19'
-    type: 1000base-t
-  - name: '20'
-    type: 1000base-t
-  - name: '21'
-    type: 1000base-t
-  - name: '22'
-    type: 1000base-t
-  - name: '23'
-    type: 1000base-t
-  - name: '24'
-    type: 1000base-t
-  - name: '25'
-    type: 10gbase-x-sfpp
-  - name: '26'
-    type: 10gbase-x-sfpp
-  - name: '27'
-    type: 10gbase-x-sfpp
-  - name: '28'
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: TP-Link
-  model: TL-SG3428MP
-  part_number: TL-SG3428MP
-  power-ports:
-  - maximum_draw: 442
-    name: Power
-    type: iec-60320-c14
-  slug: tl-sg3428mp
-  u_height: 1
-- airflow: passive
-  comments: '[TP-Link TL-SG108E](https://www.tp-link.com/us/home-networking/8-port-switch/tl-sg108e/#specifications)'
-  interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  - name: Port 6
-    type: 1000base-t
-  - name: Port 7
-    type: 1000base-t
-  - name: Port 8
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: TP-Link
-  model: TL-SG108E
-  part_number: TL-SG108E
-  power-ports:
-  - maximum_draw: 4
-    name: External Power Adapter
-    type: dc-terminal
-  slug: tl-sg108e
-  u_height: 0
-- airflow: passive
-  comments: '[TP-Link TL-SG108PE](https://www.tp-link.com/us/business-networking/easy-smart-switch/tl-sg108pe/)'
-  interfaces:
-  - name: Port 1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  - name: Port 6
-    type: 1000base-t
-  - name: Port 7
-    type: 1000base-t
-  - name: Port 8
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: TP-Link
-  model: TL-SG108PE
-  part_number: TL-SG108PE
-  power-ports:
-  - maximum_draw: 75
-    name: External Power Adapter
-    type: dc-terminal
-  slug: tp-link-tl-sg108pe
-  u_height: 0
 - comments: '[TP-Link tl-sg3424p](https://www.tp-link.com/us/business-networking/managed-switch/tl-sg3424p/#specifications)'
   console-ports:
   - name: console
@@ -435,8 +99,364 @@ models:
   - maximum_draw: 47
     name: PS1
     type: iec-60320-c14
-  slug: tl-sg3424p
+  slug: tp-link-tl-sg3424p
   u_height: 1
+- airflow: passive
+  comments: '[TP-Link T2600G-28TS Datasheet](https://www.tp-link.com/us/business-networking/managed-switch/t2600g-28ts/#specifications)'
+  console-ports:
+  - name: console
+    type: rj-45
+  - name: console-usb
+    type: usb-micro-b
+  interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+  - name: '9'
+    type: 1000base-t
+  - name: '10'
+    type: 1000base-t
+  - name: '11'
+    type: 1000base-t
+  - name: '12'
+    type: 1000base-t
+  - name: '13'
+    type: 1000base-t
+  - name: '14'
+    type: 1000base-t
+  - name: '15'
+    type: 1000base-t
+  - name: '16'
+    type: 1000base-t
+  - name: '17'
+    type: 1000base-t
+  - name: '18'
+    type: 1000base-t
+  - name: '19'
+    type: 1000base-t
+  - name: '20'
+    type: 1000base-t
+  - name: '21'
+    type: 1000base-t
+  - name: '22'
+    type: 1000base-t
+  - name: '23'
+    type: 1000base-t
+  - name: '24'
+    type: 1000base-t
+  - name: '25'
+    type: 1000base-x-sfp
+  - name: '26'
+    type: 1000base-x-sfp
+  - name: '27'
+    type: 1000base-x-sfp
+  - name: '28'
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: TP-Link
+  model: T2600G-28TS
+  part_number: T2600G-28TS
+  power-ports:
+  - allocated_draw: 10
+    maximum_draw: 15
+    name: PS1
+    type: iec-60320-c14
+  slug: tp-link-t2600g-28ts
+  u_height: 1
+- airflow: passive
+  comments: '[TP-Link TL-SG1005D](https://www.tp-link.com/us/home-networking/5-port-switch/tl-sg1005d/#specifications)'
+  interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: TP-Link
+  model: TL-SG1005D
+  part_number: TL-SG105D
+  power-ports:
+  - maximum_draw: 2
+    name: PS1
+    type: dc-terminal
+  slug: tp-link-tl-sg1005d
+  u_height: 0
+- airflow: passive
+  comments: '[TP-Link TL-SG108PE](https://www.tp-link.com/us/business-networking/easy-smart-switch/tl-sg108pe/)'
+  interfaces:
+  - name: Port 1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: TP-Link
+  model: TL-SG108PE
+  part_number: TL-SG108PE
+  power-ports:
+  - maximum_draw: 75
+    name: External Power Adapter
+    type: dc-terminal
+  slug: tp-link-tl-sg108pe
+  u_height: 0
+- comments: '[TP-Link SG3428MP Datasheet](https://www.tp-link.com/es/business-networking/managed-switch/tl-sg3428mp/#specifications)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  - name: Serial
+    type: usb-micro-b
+  interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+  - name: '9'
+    type: 1000base-t
+  - name: '10'
+    type: 1000base-t
+  - name: '11'
+    type: 1000base-t
+  - name: '12'
+    type: 1000base-t
+  - name: '13'
+    type: 1000base-t
+  - name: '14'
+    type: 1000base-t
+  - name: '15'
+    type: 1000base-t
+  - name: '16'
+    type: 1000base-t
+  - name: '17'
+    type: 1000base-t
+  - name: '18'
+    type: 1000base-t
+  - name: '19'
+    type: 1000base-t
+  - name: '20'
+    type: 1000base-t
+  - name: '21'
+    type: 1000base-t
+  - name: '22'
+    type: 1000base-t
+  - name: '23'
+    type: 1000base-t
+  - name: '24'
+    type: 1000base-t
+  - name: '25'
+    type: 10gbase-x-sfpp
+  - name: '26'
+    type: 10gbase-x-sfpp
+  - name: '27'
+    type: 10gbase-x-sfpp
+  - name: '28'
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: TP-Link
+  model: TL-SG3428MP
+  part_number: TL-SG3428MP
+  power-ports:
+  - maximum_draw: 442
+    name: Power
+    type: iec-60320-c14
+  slug: tp-link-tl-sg3428mp
+  u_height: 1
+- interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+  - name: '9'
+    type: 1000base-t
+  - name: '10'
+    type: 1000base-t
+  - name: '11'
+    type: 1000base-t
+  - name: '12'
+    type: 1000base-t
+  - name: '13'
+    type: 1000base-t
+  - name: '14'
+    type: 1000base-t
+  - name: '15'
+    type: 1000base-t
+  - name: '16'
+    type: 1000base-t
+  - name: '17'
+    type: 1000base-t
+  - name: '18'
+    type: 1000base-t
+  - name: '19'
+    type: 1000base-t
+  - name: '20'
+    type: 1000base-t
+  - name: '21'
+    type: 1000base-t
+  - name: '22'
+    type: 1000base-t
+  - name: '23'
+    type: 1000base-t
+  - name: '24'
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: TP-Link
+  model: TL-SG1024D
+  part_number: TL-SG1024D
+  power-ports:
+  - name: Power
+    type: iec-60320-c14
+  slug: tp-link-tl-sg1024d
+  u_height: 1
+- airflow: right-to-left
+  comments: '[TP-Link TL-SG1016PE](https://www.tp-link.com/us/business-networking/surveillance-switch/tl-sg1016pe/v2/#specifications)'
+  interfaces:
+  - name: Port 1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 9
+    type: 1000base-t
+  - name: Port 10
+    type: 1000base-t
+  - name: Port 11
+    type: 1000base-t
+  - name: Port 12
+    type: 1000base-t
+  - name: Port 13
+    type: 1000base-t
+  - name: Port 14
+    type: 1000base-t
+  - name: Port 15
+    type: 1000base-t
+  - name: Port 16
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: TP-Link
+  model: TL-SG1016PE
+  part_number: TL-SG1016PE
+  power-ports:
+  - maximum_draw: 178
+    name: PS1
+    type: iec-60320-c14
+  slug: tp-link-tl-sg1016pe
+  u_height: 1
+- airflow: passive
+  comments: '[TP-Link TL-SG108E](https://www.tp-link.com/us/home-networking/8-port-switch/tl-sg108e/#specifications)'
+  interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: TP-Link
+  model: TL-SG108E
+  part_number: TL-SG108E
+  power-ports:
+  - maximum_draw: 4
+    name: External Power Adapter
+    type: dc-terminal
+  slug: tp-link-tl-sg108e
+  u_height: 0
 - comments: '[TP-Link T2600G-28MPS Datasheet](https://www.tp-link.com/us/business-networking/poe-switch/t2600g-28mps/#specifications)'
   console-ports:
   - name: console
@@ -509,32 +529,15 @@ models:
     maximum_draw: 469
     name: PS1
     type: iec-60320-c14
-  slug: t2600g-28mps
+  slug: tp-link-t2600g-28mps
   u_height: 1
-- airflow: passive
-  comments: '[TP-Link TL-SG1005D](https://www.tp-link.com/us/home-networking/5-port-switch/tl-sg1005d/#specifications)'
+- comments: '[TP-Link T2500G-10TS Datasheet](https://www.tp-link.com/us/business-networking/managed-switch/t2500g-10ts/#specifications)'
+  console-ports:
+  - name: console
+    type: rj-45
+  - name: console-usb
+    type: usb-micro-b
   interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: TP-Link
-  model: TL-SG1005D
-  part_number: TL-SG105D
-  power-ports:
-  - maximum_draw: 2
-    name: PS1
-    type: dc-terminal
-  slug: tplink-tl-sg1005d
-  u_height: 0
-- interfaces:
   - name: '1'
     type: 1000base-t
   - name: '2'
@@ -552,43 +555,40 @@ models:
   - name: '8'
     type: 1000base-t
   - name: '9'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '10'
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: TP-Link
+  model: T2500G-10TS
+  part_number: T2500G-10TS
+  power-ports:
+  - allocated_draw: 29
+    maximum_draw: 469
+    name: PS1
+    type: iec-60320-c14
+  slug: tp-link-t2500g-10ts
+  u_height: 1
+- airflow: passive
+  comments: '[TP-Link TL-SG105E](https://www.tp-link.com/us/home-networking/5-port-switch/tl-sg105e/#specifications)'
+  interfaces:
+  - name: Port 1
     type: 1000base-t
-  - name: '11'
+  - name: Port 2
     type: 1000base-t
-  - name: '12'
+  - name: Port 3
     type: 1000base-t
-  - name: '13'
+  - name: Port 4
     type: 1000base-t
-  - name: '14'
-    type: 1000base-t
-  - name: '15'
-    type: 1000base-t
-  - name: '16'
-    type: 1000base-t
-  - name: '17'
-    type: 1000base-t
-  - name: '18'
-    type: 1000base-t
-  - name: '19'
-    type: 1000base-t
-  - name: '20'
-    type: 1000base-t
-  - name: '21'
-    type: 1000base-t
-  - name: '22'
-    type: 1000base-t
-  - name: '23'
-    type: 1000base-t
-  - name: '24'
+  - name: Port 5
     type: 1000base-t
   is_full_depth: false
   manufacturer: TP-Link
-  model: TL-SG1024D
-  part_number: TL-SG1024D
+  model: TL-SG105E
+  part_number: TL-SG105E
   power-ports:
-  - name: Power
-    type: iec-60320-c14
-  slug: tl-sg1024d
-  u_height: 1
+  - maximum_draw: 4
+    name: External Power Adapter
+    type: dc-terminal
+  slug: tp-link-tl-sg105e
+  u_height: 0

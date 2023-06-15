@@ -1,1372 +1,225 @@
 keywords:
-- UniFi Switch Flex Mini
-- USW-Flex-Mini
-- UniFi U6 In-Wall Access Point
-- u6-iw-us
-- EdgeRouter Pro
-- ERPro-8
-- UniFi Switch 48 Gen2
-- USW-48
-- LiteAP 120
-- UniFi Switch 48 Pro
-- USW-Pro-48
-- UISP Wave LR
-- Wave-LR
-- US-8-150W
-- ER-X
-- UniFi Switch 48 Pro PoE Gen2
-- USW-PRO-48-POE
-- NanoBeam 5AC Gen2
-- NBE-5AC-Ge2n
-- UniFi Switch 24 PoE 500W Gen1
-- US-24-500W
-- UniFi Switch XG 6PoE
-- US-XG-6POE
-- EdgeSwitch 24 Lite
-- ES-24-LITE
-- NanoStation LOCO M900
-- nanostation loco m900
-- EdgeSwitch 16 XG
-- ES-16-XG
-- airCube-AC
-- aircube-ac
-- Unifi U6 Access Point Professional
-- U6-PRO-US
-- U6-Lite
-- EdgeRouter 4
-- ER-4
-- Rocket Prism 5AC Gen2
-- RP-5AC-Gen2
-- UniFi Dream Machine Pro
-- UDM-Pro
-- UniFi Switch 48 PoE 500W Gen1
-- US-48-500W
 - Surge Protector
 - ETH-SP-G2
-- EdgeRouter PoE 5-Port
-- ERPoe-5
-- UniFi Switch 48 PoE 750W Gen1
-- US-48-750W
-- Bullet M2
-- bullet m2
-- NBE-2AC-13
-- NBE-2AC-13
-- UniFi Switch 24 Gen2
-- USW-24
-- "8\u2011Port GPON Optical Line Terminal"
-- UF-OLT
-- EdgeSwitch 48 Lite
-- ES-48-LITE
-- NanoStation LOCO M5
-- nanostation loco m5
-- NanoStation M2
-- nanostation m2
-- PowerBeam 5AC 500
-- PBE-5AC-500
-- UAP-FlexHD
-- UniFi Switch 24 Pro PoE Gen2
-- USW-PRO-24-POE
-- UAP-AC-LR
-- UniFi Security Gateway Pro
-- USG-PRO-4
-- U6-LR
-- airFiber 60 LR
-- AF60-LR
-- LiteBeam 5AC Gen2
-- LBE-5AC-Gen2
-- UniFi Dream Machine
-- UDM
-- ES-12F
-- USG
-- USW-PRO-24
-- Unifi AC Mesh Pro
-- UAP-AC-M-Pro
-- NanoStation m5
-- nanostation m5
-- ES-10X
-- UniFi Switch 16 PoE Gen2
-- USW-16-POE
-- airFiber AF-5XHD
-- AF-5XHD
-- UniFi Protect Network Video Recorder
-- UNVR
-- UniFi SmartPower RPS
-- USP-RPS
-- Instant PoE 802.3af Gigabit Adapter
-- INS-3AF-O-G
 - Rocket M5
 - Rocket M5
 - EdgeSwitch 16 150W
 - ES-16-150W
-- EdgePoint Router 8-Port
-- EP-R8
-- NanoStation LOCO M2
-- nanostation loco m2
-- UniFi U6 Access Point Enterprise
-- U6-Enterprise
-- Rocket 2AC Prism
-- R2AC-PRISM
-- airFiber 60 HD
-- AF60-HD
-- ER-X-SFP
-- LiteBeam 5AC 23
-- LBE-5AC-23
-- EdgeRouter 12
-- ER-12
-- PowerBeam 2AC 400
-- PBE-2AC-400
-- Rocket M900
-- rocket m900
-- Nano Station LOCO 5AC
-- LOCO5AC
-- NanoBeam 5AC 19
-- NBE-5AC-19
-- EdgeRouter 10X
-- ER-10X
-- UniFi Switch 8 PoE 60W Gen1
-- US-8-60W
-- UniFi Switch Flex
-- USW-Flex
-- EdgeSwitch 48 750W
-- ES-48-750W
-- Nanostation 5AC
-- NS-5AC
-- PicoStation M2
-- picostation m2
-- NanoBeam M5 19
-- NBE-M5-19
-- EdgeSwitch 24 250W
-- ES-24-250W
-- EdgeRouter 12P
-- ER-12P
-- ES-10XP
-- Unifi AC Mesh
-- UAP-AC-M
-- PowerBeam 5AC Gen2
-- PBE-5AC-Gen2
-- UniFi Switch 16 XG
-- US-16-XG
-- UAP pro
-- UAP-Pro
-- UniFi Switch Lite 8 PoE
-- USW-Lite-8-PoE
-- EdgeRouter 8
-- ER-8
-- UniFi Dream Machine Pro Special Edition
-- UDM-SE
-- UniFi Switch 8 Gen1
-- US-8
-- UniFi Application Server
-- UAS-XG
-- Rocket M2 Titanium
-- Rocket M2 Titanium
-- PowerBeam M2 400
-- PBE-M2-400
-- Unifi U6 Mesh Access Point
-- U6-Mesh-US
-- UniFi Switch Aggregation
-- USW-Aggregation
 - UniFi Switch Lite 16 PoE
 - USW-Lite-16-PoE
+- UniFi Application Server
+- UAS-XG
 - UniFi Switch 48 PoE Gen2
 - USW-48-POE
-- Cloud Key Gen2 Plus
-- uck-g2-plus
-- UAP-AC-LITE
-- airCube-ISP
-- aircube-isp
-- EdgeRouter 6P
-- ER-6P
 - UniFi Switch Enterprise 24 PoE
 - USW-Enterprise-24-PoE
-- EdgePoint Router 6-Port
-- EP-R6
-- Rocket M2
-- Rocket M2
-- UniFi UAP InWall HD
-- UAP-IW-HD
-- UniFi Switch Pro Aggregation
-- USW-Pro-Aggregation
-- UniFi Switch 24 PoE 250W Gen1
-- US-24-250W
-- UniFi Switch Enterprise 48 PoE
-- USW-Enterprise-48-PoE
-- UniFi Cloud Key
-- uc-ck
-- EdgeSwitch 48 500W
-- ES-48-500W
-- UAP AC Pro
-- UAP-AC-Pro
-- UniFi Switch 48 Gen1
-- US-48
+- Rocket 2AC Prism
+- R2AC-PRISM
+- UniFi Switch 16 XG
+- US-16-XG
+- EdgeRouter PoE 5-Port
+- ERPoe-5
+- UniFi Switch XG 6PoE
+- US-XG-6POE
+- UniFi Switch 48 PoE 500W Gen1
+- US-48-500W
+- Unifi AC Mesh
+- UAP-AC-M
+- LiteBeam 5AC Gen2
+- LBE-5AC-Gen2
+- airCube-AC
+- aircube-ac
+- UniFi Switch 16 PoE Gen2
+- USW-16-POE
+- PowerBeam 2AC 400
+- PBE-2AC-400
+- EdgeRouter 12
+- ER-12
+- airCube-ISP
+- aircube-isp
+- ES-10XP
+- UniFi Switch Flex
+- USW-Flex
+- UniFi SmartPower RPS
+- USP-RPS
+- U6-LR
+- EdgeSwitch 24 250W
+- ES-24-250W
+- UAP-AC-LR
 - Cloud Key Gen2
 - uck-g2
-- EdgeSwitch 24 500W
-- ES-24-500W
-- PowerBeam 5AC 300
-- PBE-5AC-300
-- EdgePoint EP-S16
-- EP-S16
-- UniFi Switch 24 Gen1
-- US-24
-- UniFi Switch 16 PoE 150W Gen1
-- US-16-150W
+- UniFi Switch Enterprise 48 PoE
+- USW-Enterprise-48-PoE
+- EdgeSwitch 48 750W
+- ES-48-750W
 - UniFi Switch 24 PoE Gen2
 - USW-24-POE
+- Nano Station LOCO 5AC
+- LOCO5AC
+- Rocket Prism 5AC Gen2
+- RP-5AC-Gen2
+- USW-PRO-24
+- LiteBeam 5AC 23
+- LBE-5AC-23
+- Instant PoE 802.3af Gigabit Adapter
+- INS-3AF-O-G
+- UniFi Switch Flex Mini
+- USW-Flex-Mini
+- EdgeSwitch 24 500W
+- ES-24-500W
+- EdgeRouter 6P
+- ER-6P
+- Rocket M2 Titanium
+- Rocket M2 Titanium
+- "8\u2011Port GPON Optical Line Terminal"
+- UF-OLT
+- U6-Lite
+- EdgePoint Router 8-Port
+- EP-R8
+- UniFi Cloud Key
+- uc-ck
+- ER-X-SFP
+- UniFi Dream Machine
+- UDM
+- ER-X
+- UniFi UAP InWall HD
+- UAP-IW-HD
+- UISP Wave LR
+- Wave-LR
+- PowerBeam 5AC Gen2
+- PBE-5AC-Gen2
+- Rocket M2
+- Rocket M2
+- UniFi U6 Access Point Enterprise
+- U6-Enterprise
+- airFiber 5XHD
+- AF-5XHD
+- EdgeSwitch 16 XG
+- ES-16-XG
+- EdgeRouter Pro
+- ERPro-8
+- EdgeRouter 12P
+- ER-12P
+- airFiber 60 LR
+- AF60-LR
+- Cloud Key Gen2 Plus
+- uck-g2-plus
+- EdgePoint EP-S16
+- EP-S16
 - UISP Router
 - UISP-R
-- EdgeRouter Lite
-- ERLite-3
+- UniFi Switch 48 Pro
+- USW-Pro-48
+- EdgeSwitch 48 Lite
+- ES-48-LITE
+- UAP-AC-LITE
+- UniFi Security Gateway Pro
+- USG-PRO-4
+- UniFi Protect Network Video Recorder
+- UNVR
+- PowerBeam 5AC 300
+- PBE-5AC-300
+- ES-12F
+- UniFi Switch 24 Pro PoE Gen2
+- USW-PRO-24-POE
+- US-8-150W
+- NanoStation LOCO M5
+- nanostation loco m5
+- USG
+- UAP AC Pro
+- UAP-AC-Pro
+- UAP-FlexHD
+- EdgeRouter 4
+- ER-4
+- UniFi Switch 24 PoE 500W Gen1
+- US-24-500W
+- NanoStation m5
+- nanostation m5
+- UniFi Switch 48 PoE 750W Gen1
+- US-48-750W
+- UniFi Switch Pro Aggregation
+- USW-Pro-Aggregation
+- UniFi Switch Lite 8 PoE
+- USW-Lite-8-PoE
+- EdgePoint Router 6-Port
+- EP-R6
+- EdgeRouter 8
+- ER-8
+- Nanostation 5AC
+- NS-5AC
+- UniFi Switch 24 PoE 250W Gen1
+- US-24-250W
+- UniFi Dream Machine Pro
+- UDM-Pro
+- PowerBeam M2 400
+- PBE-M2-400
+- PicoStation M2
+- picostation m2
+- UAP pro
+- UAP-Pro
+- Unifi U6 Access Point Professional
+- U6-PRO
+- UniFi Switch 48 Gen2
+- USW-48
+- LiteAP 120
 - airFiber 60
 - AF-60
+- UniFi Switch 48 Pro PoE Gen2
+- USW-PRO-48-POE
+- Rocket M900
+- rocket m900
+- EdgeRouter Lite
+- ERLite-3
+- PowerBeam 5AC 500
+- PBE-5AC-500
+- UniFi Switch 48 Gen1
+- US-48
+- NanoBeam 2AC-13
+- NBE-2AC-13
+- EdgeSwitch 48 500W
+- ES-48-500W
+- UniFi Switch 8 Gen1
+- US-8
+- NanoStation M2
+- nanostation m2
+- NanoBeam 5AC Gen2
+- NBE-5AC-Ge2n
+- ES-10X
+- EdgeRouter 10X
+- ER-10X
+- NanoStation LOCO M900
+- nanostation loco m900
+- UniFi Switch 24 Gen1
+- US-24
+- airFiber 60 HD
+- AF60-HD
+- Bullet M2
+- bullet m2
+- Unifi AC Mesh Pro
+- UAP-AC-M-Pro
+- UniFi Switch 16 PoE 150W Gen1
+- US-16-150W
+- NanoBeam M5 19
+- NBE-M5-19
+- UniFi U6 In-Wall Access Point
+- u6-iw
+- EdgeSwitch 24 Lite
+- ES-24-LITE
+- NanoBeam 5AC 19
+- NBE-5AC-19
+- Unifi U6 Mesh Access Point
+- U6-Mesh
+- NanoStation LOCO M2
+- nanostation loco m2
+- UniFi Switch 24 Gen2
+- USW-24
+- UniFi Switch Aggregation
+- USW-Aggregation
+- UniFi Switch 8 PoE 60W Gen1
+- US-8-60W
+- UniFi Dream Machine Pro Special Edition
+- UDM-SE
 models:
-- comments: '107.16 x 70.15 x 21.17 mm (4.22 x 2.76 x 0.83")
-
-    '
-  interfaces:
-  - name: Port 1 (PoE IN)
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Switch Flex Mini
-  part_number: USW-Flex-Mini
-  slug: unifi-usw-flex-mini
-  u_height: 0
-- comments: '[UniFi 6 In-Wall Access Point](https://store.ui.com/products/access-point-wifi-6-in-wall)'
-  interfaces:
-  - name: Port 1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: Port 5
-    poe_mode: pd
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Wlan 0
-    type: ieee802.11n
-  - name: Wlan 1
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi U6 In-Wall Access Point
-  part_number: u6-iw-us
-  slug: u6-iw
-  u_height: 0
-- comments: '[EdgeRouter Pro](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: eth2
-    type: 1000base-t
-  - name: eth3
-    type: 1000base-t
-  - name: eth4
-    type: 1000base-t
-  - name: eth5
-    type: 1000base-t
-  - name: eth6
-    type: 1000base-x-sfp
-  - name: eth7
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgeRouter Pro
-  part_number: ERPro-8
-  power-ports:
-  - maximum_draw: 40
-    name: PS
-    type: iec-60320-c6
-  slug: edgerouter-pro
-  u_height: 1
-- comments: 'UniFi Switch 48 PoE (40W), Gen2, (48) Gigabit, (1-32) Gigabit (4) 1G
-    SFP
-
-
-    Dimensions: 442.4 x 285 x 43.7 mm (17.42 x 11.22 x 1.72")
-
-    '
-  interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  - name: Port 6
-    type: 1000base-t
-  - name: Port 7
-    type: 1000base-t
-  - name: Port 8
-    type: 1000base-t
-  - name: Port 9
-    type: 1000base-t
-  - name: Port 10
-    type: 1000base-t
-  - name: Port 11
-    type: 1000base-t
-  - name: Port 12
-    type: 1000base-t
-  - name: Port 13
-    type: 1000base-t
-  - name: Port 14
-    type: 1000base-t
-  - name: Port 15
-    type: 1000base-t
-  - name: Port 16
-    type: 1000base-t
-  - name: Port 17
-    type: 1000base-t
-  - name: Port 18
-    type: 1000base-t
-  - name: Port 19
-    type: 1000base-t
-  - name: Port 20
-    type: 1000base-t
-  - name: Port 21
-    type: 1000base-t
-  - name: Port 22
-    type: 1000base-t
-  - name: Port 23
-    type: 1000base-t
-  - name: Port 24
-    type: 1000base-t
-  - name: Port 25
-    type: 1000base-t
-  - name: Port 26
-    type: 1000base-t
-  - name: Port 27
-    type: 1000base-t
-  - name: Port 28
-    type: 1000base-t
-  - name: Port 29
-    type: 1000base-t
-  - name: Port 30
-    type: 1000base-t
-  - name: Port 31
-    type: 1000base-t
-  - name: Port 32
-    type: 1000base-t
-  - name: Port 33
-    type: 1000base-t
-  - name: Port 34
-    type: 1000base-t
-  - name: Port 35
-    type: 1000base-t
-  - name: Port 36
-    type: 1000base-t
-  - name: Port 37
-    type: 1000base-t
-  - name: Port 38
-    type: 1000base-t
-  - name: Port 39
-    type: 1000base-t
-  - name: Port 40
-    type: 1000base-t
-  - name: Port 41
-    type: 1000base-t
-  - name: Port 42
-    type: 1000base-t
-  - name: Port 43
-    type: 1000base-t
-  - name: Port 44
-    type: 1000base-t
-  - name: Port 45
-    type: 1000base-t
-  - name: Port 46
-    type: 1000base-t
-  - name: Port 47
-    type: 1000base-t
-  - name: Port 48
-    type: 1000base-t
-  - name: SFP 49
-    type: 1000base-x-sfp
-  - name: SFP 50
-    type: 1000base-x-sfp
-  - name: SFP 51
-    type: 1000base-x-sfp
-  - name: SFP 52
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Switch 48 Gen2
-  part_number: USW-48
-  power-ports:
-  - maximum_draw: 40
-    name: Input
-    type: iec-60320-c14
-  slug: unifi-switch-48-gen2
-  u_height: 1
-- comments: '[LiteAP AC](https://www.ui.com/airmax/liteap-ac/)'
-  interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: LiteAP 120
-  slug: lap-120
-  u_height: 0
-- comments: 'UniFi Switch 48 Pro, Gen2, (48) Gigabit, (4) SFP+
-
-
-    Dimensions: 442.4 x 285.4 x 43.7 mm (17.42 x 15.73 x 1.72")
-
-    '
-  interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  - name: Port 6
-    type: 1000base-t
-  - name: Port 7
-    type: 1000base-t
-  - name: Port 8
-    type: 1000base-t
-  - name: Port 9
-    type: 1000base-t
-  - name: Port 10
-    type: 1000base-t
-  - name: Port 11
-    type: 1000base-t
-  - name: Port 12
-    type: 1000base-t
-  - name: Port 13
-    type: 1000base-t
-  - name: Port 14
-    type: 1000base-t
-  - name: Port 15
-    type: 1000base-t
-  - name: Port 16
-    type: 1000base-t
-  - name: Port 17
-    type: 1000base-t
-  - name: Port 18
-    type: 1000base-t
-  - name: Port 19
-    type: 1000base-t
-  - name: Port 20
-    type: 1000base-t
-  - name: Port 21
-    type: 1000base-t
-  - name: Port 22
-    type: 1000base-t
-  - name: Port 23
-    type: 1000base-t
-  - name: Port 24
-    type: 1000base-t
-  - name: Port 25
-    type: 1000base-t
-  - name: Port 26
-    type: 1000base-t
-  - name: Port 27
-    type: 1000base-t
-  - name: Port 28
-    type: 1000base-t
-  - name: Port 29
-    type: 1000base-t
-  - name: Port 30
-    type: 1000base-t
-  - name: Port 31
-    type: 1000base-t
-  - name: Port 32
-    type: 1000base-t
-  - name: Port 33
-    type: 1000base-t
-  - name: Port 34
-    type: 1000base-t
-  - name: Port 35
-    type: 1000base-t
-  - name: Port 36
-    type: 1000base-t
-  - name: Port 37
-    type: 1000base-t
-  - name: Port 38
-    type: 1000base-t
-  - name: Port 39
-    type: 1000base-t
-  - name: Port 40
-    type: 1000base-t
-  - name: Port 41
-    type: 1000base-t
-  - name: Port 42
-    type: 1000base-t
-  - name: Port 43
-    type: 1000base-t
-  - name: Port 44
-    type: 1000base-t
-  - name: Port 45
-    type: 1000base-t
-  - name: Port 46
-    type: 1000base-t
-  - name: Port 47
-    type: 1000base-t
-  - name: Port 48
-    type: 1000base-t
-  - name: SFP+ 49
-    type: 10gbase-x-sfpp
-  - name: SFP+ 50
-    type: 10gbase-x-sfpp
-  - name: SFP+ 51
-    type: 10gbase-x-sfpp
-  - name: SFP+ 52
-    type: 10gbase-x-sfpp
-  is_full_depth: true
-  manufacturer: Ubiquiti
-  model: UniFi Switch 48 Pro
-  part_number: USW-Pro-48
-  power-ports:
-  - maximum_draw: 60
-    name: Input
-    type: iec-60320-c14
-  slug: unifi-switch-48-pro
-  u_height: 1
-- comments: The eth0 and prs0 are permanently bridged as this is a L2 bridge device.
-    [](https://dl.ui.com/ds/wave-lr_ds.pdf)
-  interfaces:
-  - mgmt_only: true
-    name: br0
-    type: bridge
-  - label: Ethernet
-    name: eth0
-    type: 1000base-t
-  - label: Wireless
-    name: prs0
-    type: ieee802.11ax
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UISP Wave LR
-  part_number: Wave-LR
-  slug: ubiquiti-wave-lr
-  u_height: 0
-  weight: 5.7
-  weight_unit: lb
-- comments: '[UniFi Switch PoE 8 (150W)](https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-8-150w)
-    (20W + max. 130W PoE), Gen1, (8) Gigabit PoE+ IEEE 802.3af/at and 24V Passive
-    PoE, (2) SFP
-
-
-    Dimensions: 235 x 43 x 204 mm (9.25 x 1.69 x 8.03")
-
-    '
-  interfaces:
-  - name: Port 1 (PoE)
-    type: 1000base-t
-  - name: Port 2 (PoE)
-    type: 1000base-t
-  - name: Port 3 (PoE)
-    type: 1000base-t
-  - name: Port 4 (PoE)
-    type: 1000base-t
-  - name: Port 5 (PoE)
-    type: 1000base-t
-  - name: Port 6 (PoE)
-    type: 1000base-t
-  - name: Port 7 (PoE)
-    type: 1000base-t
-  - name: Port 8 (PoE)
-    type: 1000base-t
-  - name: SFP 1
-    type: 1000base-x-sfp
-  - name: SFP 2
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: US-8-150W
-  power-ports:
-  - maximum_draw: 150
-    name: Input
-    type: iec-60320-c14
-  slug: us-8-150w
-  u_height: 0
-- comments: '[EdgeRouter X - Advanced Gigabit Ethernet Router](https://dl.ui.com/datasheets/edgemax/EdgeRouter_X_DS.pdf)'
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: eth2
-    type: 1000base-t
-  - name: eth3
-    type: 1000base-t
-  - name: eth4
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: ER-X
-  power-ports:
-  - maximum_draw: 5
-    name: 12VDC
-    type: dc-terminal
-  slug: er-x
-  u_height: 1
-  weight: 215
-  weight_unit: g
-- comments: 'UniFi Switch 48 Pro PoE (60W + max. 600W PoE), Gen2, (48) Gigabit, (1-40)
-    Gigabit PoE+ IEEE 802.3af/at, (41-48) 60W PoE++ IEEE 802.3bt, (4) SFP+
-
-
-    Dimensions: 442.4 x 399.6 x 43.7 mm (17.42 x 15.73 x 1.72")
-
-    '
-  interfaces:
-  - name: Port 1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 9
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 10
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 11
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 12
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 13
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 14
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 15
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 16
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 17
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 18
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 19
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 20
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 21
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 22
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 23
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 24
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 25
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 26
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 27
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 28
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 29
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 30
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 31
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 32
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 33
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 34
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 35
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 36
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 37
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 38
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 39
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 40
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 41
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: Port 42
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: Port 43
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: Port 44
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: Port 45
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: Port 46
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: Port 47
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: Port 48
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: SFP+ 49
-    type: 10gbase-x-sfpp
-  - name: SFP+ 50
-    type: 10gbase-x-sfpp
-  - name: SFP+ 51
-    type: 10gbase-x-sfpp
-  - name: SFP+ 52
-    type: 10gbase-x-sfpp
-  is_full_depth: true
-  manufacturer: Ubiquiti
-  model: UniFi Switch 48 Pro PoE Gen2
-  part_number: USW-PRO-48-POE
-  power-ports:
-  - maximum_draw: 660
-    name: Input
-    type: iec-60320-c14
-  slug: unifi-switch-48-pro-poe-gen2
-  u_height: 1
-- comments: '[NanoBeam AC Gen2](https://www.ui.com/airmax/nanobeam-ac-gen2/)'
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: NanoBeam 5AC Gen2
-  part_number: NBE-5AC-Ge2n
-  slug: nbe-5ac-gen2
-  u_height: 0
-- comments: 'UniFi Switch 24 PoE 500W (30W + max. 470W PoE), Gen1, (24) Gigabit PoE+
-    IEEE 802.3af/at and 24V Passive PoE, (2) SFP
-
-
-    Dimensions: 485 x 43.7 x 285.4 mm (19.09 x 1.72 x 11.24")
-
-    '
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Port 1 (PoE)
-    type: 1000base-t
-  - name: Port 2 (PoE)
-    type: 1000base-t
-  - name: Port 3 (PoE)
-    type: 1000base-t
-  - name: Port 4 (PoE)
-    type: 1000base-t
-  - name: Port 5 (PoE)
-    type: 1000base-t
-  - name: Port 6 (PoE)
-    type: 1000base-t
-  - name: Port 7 (PoE)
-    type: 1000base-t
-  - name: Port 8 (PoE)
-    type: 1000base-t
-  - name: Port 9 (PoE)
-    type: 1000base-t
-  - name: Port 10 (PoE)
-    type: 1000base-t
-  - name: Port 11 (PoE)
-    type: 1000base-t
-  - name: Port 12 (PoE)
-    type: 1000base-t
-  - name: Port 13 (PoE)
-    type: 1000base-t
-  - name: Port 14 (PoE)
-    type: 1000base-t
-  - name: Port 15 (PoE)
-    type: 1000base-t
-  - name: Port 16 (PoE)
-    type: 1000base-t
-  - name: Port 17 (PoE)
-    type: 1000base-t
-  - name: Port 18 (PoE)
-    type: 1000base-t
-  - name: Port 19 (PoE)
-    type: 1000base-t
-  - name: Port 20 (PoE)
-    type: 1000base-t
-  - name: Port 21 (PoE)
-    type: 1000base-t
-  - name: Port 22 (PoE)
-    type: 1000base-t
-  - name: Port 23 (PoE)
-    type: 1000base-t
-  - name: Port 24 (PoE)
-    type: 1000base-t
-  - name: SFP 1
-    type: 1000base-x-sfp
-  - name: SFP 2
-    type: 1000base-x-sfp
-  is_full_depth: true
-  manufacturer: Ubiquiti
-  model: UniFi Switch 24 PoE 500W Gen1
-  part_number: US-24-500W
-  power-ports:
-  - maximum_draw: 500
-    name: Input
-    type: iec-60320-c14
-  slug: unifi-switch-24-poe-500w-gen1
-  u_height: 1
-- comments: 'UniFi Switch XG 6PoE, 10G 6-Port Switch with 802.3bt PoE++, (40W w/o
-    PoE) External VDC PSU (4) 1/10 Gigabit 60W PoE++ IEEE 802.3bt, (2) SFP+
-
-
-    Dimensions: 165 x 268.1 x 31.8 mm (6.50 x 10.56 x 1.25")
-
-    '
-  console-ports:
-  - name: Console
-    type: rj-45
-  - name: Console (USB)
-    type: usb-c
-  interfaces:
-  - name: RJ45 1 (PoE)
-    type: 10gbase-t
-  - name: RJ45 2 (PoE)
-    type: 10gbase-t
-  - name: RJ45 3 (PoE)
-    type: 10gbase-t
-  - name: RJ45 4 (PoE)
-    type: 10gbase-t
-  - name: SFP+ 5
-    type: 10gbase-x-sfpp
-  - name: SFP+ 6
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Switch XG 6PoE
-  part_number: US-XG-6POE
-  power-ports:
-  - maximum_draw: 210
-    name: 54VDC IN
-    type: iec-60320-c20
-  - maximum_draw: 210
-    name: 54VDC (external)
-    type: iec-60320-c20
-  slug: unifi-switch-xg-6poe
-  u_height: 1
-- comments: '[EdgeSwitch Lite](https://www.ui.com/edgemax/edgeswitch-lite/)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: interface 0/1
-    type: 1000base-t
-  - name: interface 0/2
-    type: 1000base-t
-  - name: interface 0/3
-    type: 1000base-t
-  - name: interface 0/4
-    type: 1000base-t
-  - name: interface 0/5
-    type: 1000base-t
-  - name: interface 0/6
-    type: 1000base-t
-  - name: interface 0/7
-    type: 1000base-t
-  - name: interface 0/8
-    type: 1000base-t
-  - name: interface 0/9
-    type: 1000base-t
-  - name: interface 0/10
-    type: 1000base-t
-  - name: interface 0/11
-    type: 1000base-t
-  - name: interface 0/12
-    type: 1000base-t
-  - name: interface 0/13
-    type: 1000base-t
-  - name: interface 0/14
-    type: 1000base-t
-  - name: interface 0/15
-    type: 1000base-t
-  - name: interface 0/16
-    type: 1000base-t
-  - name: interface 0/17
-    type: 1000base-t
-  - name: interface 0/18
-    type: 1000base-t
-  - name: interface 0/19
-    type: 1000base-t
-  - name: interface 0/20
-    type: 1000base-t
-  - name: interface 0/21
-    type: 1000base-t
-  - name: interface 0/22
-    type: 1000base-t
-  - name: interface 0/23
-    type: 1000base-t
-  - name: interface 0/24
-    type: 1000base-t
-  - name: interface 0/25
-    type: 1000base-x-sfp
-  - name: interface 0/26
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgeSwitch 24 Lite
-  part_number: ES-24-LITE
-  power-ports:
-  - maximum_draw: 25
-    name: Power
-    type: iec-60320-c14
-  slug: es-24-lite
-  u_height: 1
-- interfaces:
-  - name: eth0
-    type: 100base-tx
-  - description: 900MHz
-    name: wlan0
-    type: virtual
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: NanoStation LOCO M900
-  part_number: nanostation loco m900
-  slug: nanostation-loco-m900
-  u_height: 0
-- comments: '[EdgeSwitch 16 XG](https://www.ui.com/edgemax/edgeswitch-16-xg/)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: interface 0/1
-    type: 10gbase-x-sfpp
-  - name: interface 0/2
-    type: 10gbase-x-sfpp
-  - name: interface 0/3
-    type: 10gbase-x-sfpp
-  - name: interface 0/4
-    type: 10gbase-x-sfpp
-  - name: interface 0/5
-    type: 10gbase-x-sfpp
-  - name: interface 0/6
-    type: 10gbase-x-sfpp
-  - name: interface 0/7
-    type: 10gbase-x-sfpp
-  - name: interface 0/8
-    type: 10gbase-x-sfpp
-  - name: interface 0/9
-    type: 10gbase-x-sfpp
-  - name: interface 0/10
-    type: 10gbase-x-sfpp
-  - name: interface 0/11
-    type: 10gbase-x-sfpp
-  - name: interface 0/12
-    type: 10gbase-x-sfpp
-  - name: interface 0/13
-    type: 10gbase-t
-  - name: interface 0/14
-    type: 10gbase-t
-  - name: interface 0/15
-    type: 10gbase-t
-  - name: interface 0/16
-    type: 10gbase-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgeSwitch 16 XG
-  part_number: ES-16-XG
-  power-ports:
-  - maximum_draw: 36
-    name: Power
-    type: iec-60320-c14
-  slug: es-16-xg
-  u_height: 1
-- comments: '24VDC, 0.83A or PoE 24V In on LAN Port 1
-
-
-    Controllable 24V PoE Out (+4, 5; -7, 8) on WAN Port
-
-    '
-  interfaces:
-  - name: lan1
-    type: 1000base-t
-  - name: lan2
-    type: 1000base-t
-  - name: lan3
-    type: 1000base-t
-  - name: wan1
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  - name: wlan1
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: airCube-AC
-  part_number: aircube-ac
-  slug: aircube-ac
-  u_height: 0
-- comments: '[UniFi 6 Professional Access Point](https://store.ui.com/products/unifi-ap6-professional)'
-  interfaces:
-  - mgmt_only: true
-    name: Port 1
-    poe_mode: pd
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Wlan 0
-    type: ieee802.11n
-  - name: Wlan 1
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: Unifi U6 Access Point Professional
-  part_number: U6-PRO-US
-  slug: u6-pro
-  u_height: 0
-- comments: '[UniFi 6 Lite Access Point](https://store.ui.com/products/unifi-ap-6-lite)'
-  interfaces:
-  - name: lan0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: U6-Lite
-  slug: u6-lite
-  u_height: 0
-- comments: '[EdgeRouter 4](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: eth2
-    type: 1000base-t
-  - name: eth3
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgeRouter 4
-  part_number: ER-4
-  power-ports:
-  - description: 100-240VAC/50-60 Hz
-    maximum_draw: 13
-    name: AC
-    type: iec-60320-c14
-  slug: er-4
-  u_height: 1
-- comments: '[Rocket Prism 5AC Gen2](https://dl.ubnt.com/datasheets/RocketAC/Rocket_Prism_AC_Gen2_DS.pdf)'
-  interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: Rocket Prism 5AC Gen2
-  part_number: RP-5AC-Gen2
-  slug: rp-5ac-gen2
-  u_height: 0
-- airflow: front-to-rear
-  comments: '[UniFi Dream Machine Pro](https://store.ui.com/products/udm-pro)
-
-
-    Enterprise Security Gateway and Network Appliance with 10G SFP+, (8) 1G LAN, (1)
-    1G WAN, (1) 1/10G SFP+ LAN, (1) 1/10G SFP+ WAN
-
-
-    Dimensions: 442.4 x 43.7 x 285.6 mm (17.42 x 1.72 x 11.24")
-
-    '
-  interfaces:
-  - label: Port 1 - LAN
-    name: port.1
-    type: 1000base-t
-  - label: Port 2 - LAN
-    name: port.2
-    type: 1000base-t
-  - label: Port 3 - LAN
-    name: port.3
-    type: 1000base-t
-  - label: Port 4 - LAN
-    name: port.4
-    type: 1000base-t
-  - label: Port 5 - LAN
-    name: port.5
-    type: 1000base-t
-  - label: Port 6 - LAN
-    name: port.6
-    type: 1000base-t
-  - label: Port 7 - LAN
-    name: port.7
-    type: 1000base-t
-  - label: Port 8 - LAN
-    name: port.8
-    type: 1000base-t
-  - label: Port 9 - WAN 1
-    name: port.9
-    type: 1000base-t
-  - label: Port 10 - SFP+ WAN 2
-    name: port.10
-    type: 10gbase-x-sfpp
-  - name: port.11
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Dream Machine Pro
-  part_number: UDM-Pro
-  power-ports:
-  - description: 100-240VAC/50-60 Hz
-    maximum_draw: 33
-    name: ps1
-    type: iec-60320-c14
-  slug: unifi-dream-machine-pro
-  u_height: 1
-- comments: 'UniFi Switch 48 PoE 500W (64W + max. 436W PoE) Gen1, (48) Gigabit PoE+
-    IEEE 802.3af/at and 24V Passive PoE, (2) SFP+, (2) SFP
-
-
-    Dimensions: 485 x 43.7 x 374.6 mm (19.09 x 1.72 x 14.75")
-
-    '
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Port 1 (PoE)
-    type: 1000base-t
-  - name: Port 2 (PoE)
-    type: 1000base-t
-  - name: Port 3 (PoE)
-    type: 1000base-t
-  - name: Port 4 (PoE)
-    type: 1000base-t
-  - name: Port 5 (PoE)
-    type: 1000base-t
-  - name: Port 6 (PoE)
-    type: 1000base-t
-  - name: Port 7 (PoE)
-    type: 1000base-t
-  - name: Port 8 (PoE)
-    type: 1000base-t
-  - name: Port 9 (PoE)
-    type: 1000base-t
-  - name: Port 10 (PoE)
-    type: 1000base-t
-  - name: Port 11 (PoE)
-    type: 1000base-t
-  - name: Port 12 (PoE)
-    type: 1000base-t
-  - name: Port 13 (PoE)
-    type: 1000base-t
-  - name: Port 14 (PoE)
-    type: 1000base-t
-  - name: Port 15 (PoE)
-    type: 1000base-t
-  - name: Port 16 (PoE)
-    type: 1000base-t
-  - name: Port 17 (PoE)
-    type: 1000base-t
-  - name: Port 18 (PoE)
-    type: 1000base-t
-  - name: Port 19 (PoE)
-    type: 1000base-t
-  - name: Port 20 (PoE)
-    type: 1000base-t
-  - name: Port 21 (PoE)
-    type: 1000base-t
-  - name: Port 22 (PoE)
-    type: 1000base-t
-  - name: Port 23 (PoE)
-    type: 1000base-t
-  - name: Port 24 (PoE)
-    type: 1000base-t
-  - name: Port 25 (PoE)
-    type: 1000base-t
-  - name: Port 26 (PoE)
-    type: 1000base-t
-  - name: Port 27 (PoE)
-    type: 1000base-t
-  - name: Port 28 (PoE)
-    type: 1000base-t
-  - name: Port 29 (PoE)
-    type: 1000base-t
-  - name: Port 30 (PoE)
-    type: 1000base-t
-  - name: Port 31 (PoE)
-    type: 1000base-t
-  - name: Port 32 (PoE)
-    type: 1000base-t
-  - name: Port 33 (PoE)
-    type: 1000base-t
-  - name: Port 34 (PoE)
-    type: 1000base-t
-  - name: Port 35 (PoE)
-    type: 1000base-t
-  - name: Port 36 (PoE)
-    type: 1000base-t
-  - name: Port 37 (PoE)
-    type: 1000base-t
-  - name: Port 38 (PoE)
-    type: 1000base-t
-  - name: Port 39 (PoE)
-    type: 1000base-t
-  - name: Port 40 (PoE)
-    type: 1000base-t
-  - name: Port 41 (PoE)
-    type: 1000base-t
-  - name: Port 42 (PoE)
-    type: 1000base-t
-  - name: Port 43 (PoE)
-    type: 1000base-t
-  - name: Port 44 (PoE)
-    type: 1000base-t
-  - name: Port 45 (PoE)
-    type: 1000base-t
-  - name: Port 46 (PoE)
-    type: 1000base-t
-  - name: Port 47 (PoE)
-    type: 1000base-t
-  - name: Port 48 (PoE)
-    type: 1000base-t
-  - name: SFP+ 1
-    type: 10gbase-x-sfpp
-  - name: SFP+ 2
-    type: 10gbase-x-sfpp
-  - name: SFP 1
-    type: 1000base-x-sfp
-  - name: SFP 2
-    type: 1000base-x-sfp
-  is_full_depth: true
-  manufacturer: Ubiquiti
-  model: UniFi Switch 48 PoE 500W Gen1
-  part_number: US-48-500W
-  power-ports:
-  - maximum_draw: 500
-    name: Input
-    type: iec-60320-c14
-  slug: unifi-switch-48-poe-500w-gen1
-  u_height: 1
 - comments: '[Ethernet Surge Protector](https://www.ui.com/accessories/ethernet-surge-protector/)'
   front-ports:
   - name: '1'
@@ -1381,1072 +234,8 @@ models:
   - name: '1'
     positions: 1
     type: 8p8c
-  slug: surge-protector
+  slug: ubiquiti-surge-protector
   u_height: 0
-- console-ports:
-  - name: ttyS1
-    type: rj-45
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: eth2
-    type: 1000base-t
-  - name: eth3
-    type: 1000base-t
-  - name: eth4
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgeRouter PoE 5-Port
-  part_number: ERPoe-5
-  power-ports:
-  - maximum_draw: 60
-    name: 48V Power Supply
-    type: ita-g
-  slug: erpoe-5
-  u_height: 1
-- comments: 'UniFi Switch 48 PoE 750W (64W + max. 686W PoE) Gen1, (48) Gigabit PoE+
-    IEEE 802.3af/at and 24V Passive PoE, (2) SFP+, (2) SFP
-
-
-    Dimensions: 485 x 43.7 x 374.6 mm (19.09 x 1.72 x 14.75")
-
-    '
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Port 1 (PoE)
-    type: 1000base-t
-  - name: Port 2 (PoE)
-    type: 1000base-t
-  - name: Port 3 (PoE)
-    type: 1000base-t
-  - name: Port 4 (PoE)
-    type: 1000base-t
-  - name: Port 5 (PoE)
-    type: 1000base-t
-  - name: Port 6 (PoE)
-    type: 1000base-t
-  - name: Port 7 (PoE)
-    type: 1000base-t
-  - name: Port 8 (PoE)
-    type: 1000base-t
-  - name: Port 9 (PoE)
-    type: 1000base-t
-  - name: Port 10 (PoE)
-    type: 1000base-t
-  - name: Port 11 (PoE)
-    type: 1000base-t
-  - name: Port 12 (PoE)
-    type: 1000base-t
-  - name: Port 13 (PoE)
-    type: 1000base-t
-  - name: Port 14 (PoE)
-    type: 1000base-t
-  - name: Port 15 (PoE)
-    type: 1000base-t
-  - name: Port 16 (PoE)
-    type: 1000base-t
-  - name: Port 17 (PoE)
-    type: 1000base-t
-  - name: Port 18 (PoE)
-    type: 1000base-t
-  - name: Port 19 (PoE)
-    type: 1000base-t
-  - name: Port 20 (PoE)
-    type: 1000base-t
-  - name: Port 21 (PoE)
-    type: 1000base-t
-  - name: Port 22 (PoE)
-    type: 1000base-t
-  - name: Port 23 (PoE)
-    type: 1000base-t
-  - name: Port 24 (PoE)
-    type: 1000base-t
-  - name: Port 25 (PoE)
-    type: 1000base-t
-  - name: Port 26 (PoE)
-    type: 1000base-t
-  - name: Port 27 (PoE)
-    type: 1000base-t
-  - name: Port 28 (PoE)
-    type: 1000base-t
-  - name: Port 29 (PoE)
-    type: 1000base-t
-  - name: Port 30 (PoE)
-    type: 1000base-t
-  - name: Port 31 (PoE)
-    type: 1000base-t
-  - name: Port 32 (PoE)
-    type: 1000base-t
-  - name: Port 33 (PoE)
-    type: 1000base-t
-  - name: Port 34 (PoE)
-    type: 1000base-t
-  - name: Port 35 (PoE)
-    type: 1000base-t
-  - name: Port 36 (PoE)
-    type: 1000base-t
-  - name: Port 37 (PoE)
-    type: 1000base-t
-  - name: Port 38 (PoE)
-    type: 1000base-t
-  - name: Port 39 (PoE)
-    type: 1000base-t
-  - name: Port 40 (PoE)
-    type: 1000base-t
-  - name: Port 41 (PoE)
-    type: 1000base-t
-  - name: Port 42 (PoE)
-    type: 1000base-t
-  - name: Port 43 (PoE)
-    type: 1000base-t
-  - name: Port 44 (PoE)
-    type: 1000base-t
-  - name: Port 45 (PoE)
-    type: 1000base-t
-  - name: Port 46 (PoE)
-    type: 1000base-t
-  - name: Port 47 (PoE)
-    type: 1000base-t
-  - name: Port 48 (PoE)
-    type: 1000base-t
-  - name: SFP+ 1
-    type: 10gbase-x-sfpp
-  - name: SFP+ 2
-    type: 10gbase-x-sfpp
-  - name: SFP 1
-    type: 1000base-x-sfp
-  - name: SFP 2
-    type: 1000base-x-sfp
-  is_full_depth: true
-  manufacturer: Ubiquiti
-  model: UniFi Switch 48 PoE 750W Gen1
-  part_number: US-48-750W
-  power-ports:
-  - maximum_draw: 750
-    name: Input
-    type: iec-60320-c14
-  slug: unifi-switch-48-poe-750w-gen1
-  u_height: 1
-- interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: Bullet M2
-  part_number: bullet m2
-  slug: bullet-m2
-  u_height: 0
-- interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: NBE-2AC-13
-  part_number: NBE-2AC-13
-  slug: nbe-2ac-13
-  u_height: 0
-- comments: 'UniFi Switch 24 (25W), Gen2, (24) Gigabit, (2) SFP
-
-
-    Dimensions: 442.4 x 200 x 43.7 mm (17.42 x 7.87 x 1.72")
-
-    '
-  interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  - name: Port 6
-    type: 1000base-t
-  - name: Port 7
-    type: 1000base-t
-  - name: Port 8
-    type: 1000base-t
-  - name: Port 9
-    type: 1000base-t
-  - name: Port 10
-    type: 1000base-t
-  - name: Port 11
-    type: 1000base-t
-  - name: Port 12
-    type: 1000base-t
-  - name: Port 13
-    type: 1000base-t
-  - name: Port 14
-    type: 1000base-t
-  - name: Port 15
-    type: 1000base-t
-  - name: Port 16
-    type: 1000base-t
-  - name: Port 17
-    type: 1000base-t
-  - name: Port 18
-    type: 1000base-t
-  - name: Port 19
-    type: 1000base-t
-  - name: Port 20
-    type: 1000base-t
-  - name: Port 21
-    type: 1000base-t
-  - name: Port 22
-    type: 1000base-t
-  - name: Port 23
-    type: 1000base-t
-  - name: Port 24
-    type: 1000base-t
-  - name: SFP 1
-    type: 1000base-x-sfp
-  - name: SFP 2
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Switch 24 Gen2
-  part_number: USW-24
-  power-ports:
-  - maximum_draw: 25
-    name: Input
-    type: iec-60320-c14
-  slug: unifi-switch-24-gen2
-  u_height: 1
-- comments: "[8\u2011Port GPON Optical Line Terminal Data Sheet](https://www.ui.com/downloads/ds/uf_gpon)\n"
-  console-ports:
-  - name: CONSOLE
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: MGMT
-    type: 1000base-t
-  - name: pon1
-    type: gpon
-  - name: pon2
-    type: gpon
-  - name: pon3
-    type: gpon
-  - name: pon4
-    type: gpon
-  - name: pon5
-    type: gpon
-  - name: pon6
-    type: gpon
-  - name: pon7
-    type: gpon
-  - name: pon8
-    type: gpon
-  - name: SFP+ 1
-    type: 10gbase-x-sfpp
-  - name: SFP+ 2
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: "8\u2011Port GPON Optical Line Terminal"
-  module-bays:
-  - label: Power Supply 1
-    name: PSU1
-    position: PSU1
-  - label: Power Supply 2
-    name: PSU2
-    position: PSU2
-  part_number: UF-OLT
-  slug: uf-olt
-  u_height: 1
-- comments: '[EdgeSwitch Lite](https://www.ui.com/edgemax/edgeswitch-lite/)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: interface 0/1
-    type: 1000base-t
-  - name: interface 0/2
-    type: 1000base-t
-  - name: interface 0/3
-    type: 1000base-t
-  - name: interface 0/4
-    type: 1000base-t
-  - name: interface 0/5
-    type: 1000base-t
-  - name: interface 0/6
-    type: 1000base-t
-  - name: interface 0/7
-    type: 1000base-t
-  - name: interface 0/8
-    type: 1000base-t
-  - name: interface 0/9
-    type: 1000base-t
-  - name: interface 0/10
-    type: 1000base-t
-  - name: interface 0/11
-    type: 1000base-t
-  - name: interface 0/12
-    type: 1000base-t
-  - name: interface 0/13
-    type: 1000base-t
-  - name: interface 0/14
-    type: 1000base-t
-  - name: interface 0/15
-    type: 1000base-t
-  - name: interface 0/16
-    type: 1000base-t
-  - name: interface 0/17
-    type: 1000base-t
-  - name: interface 0/18
-    type: 1000base-t
-  - name: interface 0/19
-    type: 1000base-t
-  - name: interface 0/20
-    type: 1000base-t
-  - name: interface 0/21
-    type: 1000base-t
-  - name: interface 0/22
-    type: 1000base-t
-  - name: interface 0/23
-    type: 1000base-t
-  - name: interface 0/24
-    type: 1000base-t
-  - name: interface 0/25
-    type: 1000base-t
-  - name: interface 0/26
-    type: 1000base-t
-  - name: interface 0/27
-    type: 1000base-t
-  - name: interface 0/28
-    type: 1000base-t
-  - name: interface 0/29
-    type: 1000base-t
-  - name: interface 0/30
-    type: 1000base-t
-  - name: interface 0/31
-    type: 1000base-t
-  - name: interface 0/32
-    type: 1000base-t
-  - name: interface 0/33
-    type: 1000base-t
-  - name: interface 0/34
-    type: 1000base-t
-  - name: interface 0/35
-    type: 1000base-t
-  - name: interface 0/36
-    type: 1000base-t
-  - name: interface 0/37
-    type: 1000base-t
-  - name: interface 0/38
-    type: 1000base-t
-  - name: interface 0/39
-    type: 1000base-t
-  - name: interface 0/40
-    type: 1000base-t
-  - name: interface 0/41
-    type: 1000base-t
-  - name: interface 0/42
-    type: 1000base-t
-  - name: interface 0/43
-    type: 1000base-t
-  - name: interface 0/44
-    type: 1000base-t
-  - name: interface 0/45
-    type: 1000base-t
-  - name: interface 0/46
-    type: 1000base-t
-  - name: interface 0/47
-    type: 1000base-t
-  - name: interface 0/48
-    type: 1000base-t
-  - name: interface 0/49
-    type: 10gbase-x-sfpp
-  - name: interface 0/50
-    type: 10gbase-x-sfpp
-  - name: interface 0/51
-    type: 1000base-x-sfp
-  - name: interface 0/52
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgeSwitch 48 Lite
-  part_number: ES-48-LITE
-  power-ports:
-  - maximum_draw: 56
-    name: Power
-    type: iec-60320-c14
-  slug: es-48-lite
-  u_height: 1
-- interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: NanoStation LOCO M5
-  part_number: nanostation loco m5
-  slug: nanostation-loco-m5
-  u_height: 0
-- interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: NanoStation M2
-  part_number: nanostation m2
-  slug: nanostation-m2
-  u_height: 0
-- comments: '[PowerBeam AC](https://www.ui.com/airmax/powerbeam-ac/)'
-  interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: PowerBeam 5AC 500
-  part_number: PBE-5AC-500
-  slug: pbe-5ac-500
-  u_height: 0
-- comments: '[UniFi FlexHD Access Point](https://store.ui.com/products/unifi-flexhd)'
-  interfaces:
-  - name: lan0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UAP-FlexHD
-  slug: uap-flexhd
-  u_height: 0
-- comments: 'UniFi Switch 24 Pro PoE (50W + max. 400W PoE), Gen2, (24) Gigabit, (1-16)
-    Gigabit PoE+ IEEE 802.3af/at, (17-24) Gigabit 60W PoE++ IEEE 802.3bt, (2) SFP+
-
-
-    Dimensions: 442.4 x 285.4 x 43.7 mm (17.42 x 11.24 x 1.72")
-
-    '
-  interfaces:
-  - name: Port 1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 9
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 10
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 11
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 12
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 13
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 14
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 15
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 16
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 17
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: Port 18
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: Port 19
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: Port 20
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: Port 21
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: Port 22
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: Port 23
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: Port 24
-    poe_mode: pse
-    poe_type: type3-ieee802.3bt
-    type: 1000base-t
-  - name: SFP+ 25
-    type: 10gbase-x-sfpp
-  - name: SFP+ 26
-    type: 10gbase-x-sfpp
-  is_full_depth: true
-  manufacturer: Ubiquiti
-  model: UniFi Switch 24 Pro PoE Gen2
-  part_number: USW-PRO-24-POE
-  power-ports:
-  - maximum_draw: 450
-    name: Input
-    type: iec-60320-c14
-  slug: unifi-switch-24-pro-poe-gen2
-  u_height: 1
-- comments: '[Unifi AP AC Long Range](https://www.ui.com/unifi/unifi-ap-ac-lr/)'
-  interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  - name: wlan1
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UAP-AC-LR
-  slug: uap-ac-lr
-  u_height: 0
-- comments: "UniFi Security Gateway Pro, (2) Gigabit LAN, (2) 1 Gbps RJ45/SFP Combination\
-    \ WAN Ports*\n\nDimensions: 484 x 44 x 164 mm (19.06 x 1.73 x 6.46\")\n\n(*, see\
-    \ datasheet) The USG\u2011PRO\u20114 WAN port, as a result of being a combination\
-    \ SFP/GigE port, is a pure 1Gbps port \u2013 it is incapable of both 10Mbps and\
-    \ 100Mbps FDX/HDX settings\n"
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: LAN 1
-    type: 1000base-t
-  - name: LAN 2
-    type: 1000base-t
-  - name: WAN 1
-    type: 1000base-t
-  - name: WAN 2
-    type: 1000base-t
-  - name: SFP 1
-    type: 1000base-x-sfp
-  - name: SFP 2
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Security Gateway Pro
-  part_number: USG-PRO-4
-  power-ports:
-  - maximum_draw: 60
-    name: Supply
-    type: iec-60320-c6
-  slug: unifi-security-gateway-pro
-  u_height: 1
-- comments: '[UniFi 6 Long Range Access Point](https://store.ui.com/products/unifi-6-long-range-access-point)'
-  interfaces:
-  - name: lan0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: U6-LR
-  slug: u6-lr
-  u_height: 0
-- comments: 'ubond0 is setup to use ieee802.11ax as LTE currently doesn''t allow wireless
-
-    parameters to be specified despite the fact that the airFiber is a LTE-U
-
-    device.
-
-
-    The eth0 and ubond0 are permanently bridged as this is a L2 bridge device.
-
-
-    [Ubiquiti AF60-LR Data Sheet](https://dl.ui.com/ds/af60-lr_ds)
-
-    '
-  interfaces:
-  - mgmt_only: true
-    name: br0
-    type: bridge
-  - label: Ethernet
-    name: eth0
-    type: 1000base-t
-  - label: Wireless
-    name: ath0
-    type: ieee802.11ax
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: airFiber 60 LR
-  part_number: AF60-LR
-  slug: airfiber-60-lr
-  u_height: 0
-- comments: '[LiteBeam AC Gen2](https://www.ui.com/airmax/litebeam-ac-gen2/)'
-  interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: LiteBeam 5AC Gen2
-  part_number: LBE-5AC-Gen2
-  slug: lbe-5ac-gen2
-  u_height: 0
-- airflow: passive
-  comments: '[UniFi Dream Machine](https://store.ui.com/collections/unifi-network-unifi-os-consoles/products/udm-us)
-
-
-    SOHO Security Gateway and Network Appliance (4) 1G LAN, (1) 1G WAN
-
-
-    Dimensions: 110 x 184.2 mm (4.33 x 7.25")
-
-    '
-  interfaces:
-  - label: Port 1 - LAN
-    name: port.1
-    type: 1000base-t
-  - label: Port 2 - LAN
-    name: port.2
-    type: 1000base-t
-  - label: Port 3 - LAN
-    name: port.3
-    type: 1000base-t
-  - label: Port 4 - LAN
-    name: port.4
-    type: 1000base-t
-  - label: Port 5 - WAN
-    name: port.5
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Dream Machine
-  part_number: UDM
-  power-ports:
-  - description: 100-240VAC/50-60 Hz
-    maximum_draw: 26
-    name: Supply
-    type: iec-60320-c8
-  slug: udm
-  u_height: 0
-- comments: '[EdgeSwitch 12 Fiber - Managed Gigabit Fiber Switch](https://www.ui.com/edgemax/edgeswitch-12f/)'
-  console-ports:
-  - name: console
-    type: rj-45
-  interfaces:
-  - name: 0/1
-    type: 1000base-x-sfp
-  - name: 0/2
-    type: 1000base-x-sfp
-  - name: 0/3
-    type: 1000base-x-sfp
-  - name: 0/4
-    type: 1000base-x-sfp
-  - name: 0/5
-    type: 1000base-x-sfp
-  - name: 0/6
-    type: 1000base-x-sfp
-  - name: 0/7
-    type: 1000base-x-sfp
-  - name: 0/8
-    type: 1000base-x-sfp
-  - name: 0/9
-    type: 1000base-x-sfp
-  - name: 0/10
-    type: 1000base-x-sfp
-  - name: 0/11
-    type: 1000base-x-sfp
-  - name: 0/12
-    type: 1000base-x-sfp
-  - name: 0/13
-    type: 1000base-t
-  - name: 0/14
-    type: 1000base-t
-  - name: 0/15
-    type: 1000base-t
-  - name: 0/16
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: ES-12F
-  power-ports:
-  - description: 100-240VAC/50-60 Hz
-    maximum_draw: 56
-    name: AC
-    type: iec-60320-c14
-  - maximum_draw: 56
-    name: 25VDC
-    type: dc-terminal
-  slug: es-12f
-  u_height: 1
-- comments: '[UniFi Security Gateway - Enterprise Gateway Router with Gigabit Ethernet](https://www.ui.com/unifi-routing/usg/)'
-  console-ports:
-  - name: console
-    type: rj-45
-  interfaces:
-  - label: WAN 1
-    name: eth0
-    type: 1000base-t
-  - label: LAN 1
-    name: eth1
-    type: 1000base-t
-  - label: WAN 2/LAN 2
-    name: eth2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: USG
-  power-ports:
-  - maximum_draw: 7
-    name: 12VDC
-    type: dc-terminal
-  slug: usg
-  u_height: 1
-- comments: '[UniFi Switch Pro 24](https://store.ui.com/collections/unifi-network-switching/products/usw-pro-24)
-
-
-    24-port switch with (24) Gigabit RJ45 ports and (2) 10G SFP+ ports. Powerful second-generation
-    UniFi switching
-
-
-    Dimensions: 442.4 x 285.4 x 43.7 mm (17.42 x 11.24 x 1.72")
-
-    '
-  interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  - name: Port 6
-    type: 1000base-t
-  - name: Port 7
-    type: 1000base-t
-  - name: Port 8
-    type: 1000base-t
-  - name: Port 9
-    type: 1000base-t
-  - name: Port 10
-    type: 1000base-t
-  - name: Port 11
-    type: 1000base-t
-  - name: Port 12
-    type: 1000base-t
-  - name: Port 13
-    type: 1000base-t
-  - name: Port 14
-    type: 1000base-t
-  - name: Port 15
-    type: 1000base-t
-  - name: Port 16
-    type: 1000base-t
-  - name: Port 17
-    type: 1000base-t
-  - name: Port 18
-    type: 1000base-t
-  - name: Port 19
-    type: 1000base-t
-  - name: Port 20
-    type: 1000base-t
-  - name: Port 21
-    type: 1000base-t
-  - name: Port 22
-    type: 1000base-t
-  - name: Port 23
-    type: 1000base-t
-  - name: Port 24
-    type: 1000base-t
-  - name: Port 25 - SFP+
-    type: 10gbase-x-sfpp
-  - name: Port 26 - SFP+
-    type: 10gbase-x-sfpp
-  is_full_depth: true
-  manufacturer: Ubiquiti
-  model: USW-PRO-24
-  power-ports:
-  - maximum_draw: 450
-    name: Input
-    type: iec-60320-c14
-  slug: usw-pro-24
-  u_height: 1
-- comments: '[Unifi Mesh](https://unifi-mesh.ui.com/)'
-  interfaces:
-  - name: main
-    type: 1000base-t
-  - name: secondary
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  - name: wlan1
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: Unifi AC Mesh Pro
-  part_number: UAP-AC-M-Pro
-  slug: uap-ac-m-pro
-  u_height: 0
-- interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: NanoStation m5
-  part_number: nanostation m5
-  slug: nanostation-m5
-  u_height: 0
-- comments: '[EdgeSwitch 10X - Managed 10-Port Gigabit Switch with PoE Passthrough](https://www.ui.com/edgemax/edgeswitch-10x/)'
-  interfaces:
-  - name: gi1
-    type: 1000base-t
-  - name: gi2
-    type: 1000base-t
-  - name: gi3
-    type: 1000base-t
-  - name: gi4
-    type: 1000base-t
-  - name: gi5
-    type: 1000base-t
-  - name: gi6
-    type: 1000base-t
-  - name: gi7
-    type: 1000base-t
-  - name: gi8
-    type: 1000base-t
-  - name: gi9
-    type: 1000base-x-sfp
-  - name: gi10
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: ES-10X
-  power-ports:
-  - maximum_draw: 8
-    name: 24VDC
-    type: dc-terminal
-  slug: es-10x
-  u_height: 1
-- comments: 'UniFi Switch 16 PoE (18W + max. 42W PoE), Gen2, (16) Gigabit, (1-8) Gigabit
-    PoE+ IEEE 802.3af/at, (2) SFP
-
-
-    Dimensions: 442.4 x 200 x 43.7 mm (17.42 x 7.87 x 1.72")
-
-    '
-  interfaces:
-  - name: Port 1 (PoE)
-    type: 1000base-t
-  - name: Port 2 (PoE)
-    type: 1000base-t
-  - name: Port 3 (PoE)
-    type: 1000base-t
-  - name: Port 4 (PoE)
-    type: 1000base-t
-  - name: Port 5 (PoE)
-    type: 1000base-t
-  - name: Port 6 (PoE)
-    type: 1000base-t
-  - name: Port 7 (PoE)
-    type: 1000base-t
-  - name: Port 8 (PoE)
-    type: 1000base-t
-  - name: Port 9
-    type: 1000base-t
-  - name: Port 10
-    type: 1000base-t
-  - name: Port 11
-    type: 1000base-t
-  - name: Port 12
-    type: 1000base-t
-  - name: Port 13
-    type: 1000base-t
-  - name: Port 14
-    type: 1000base-t
-  - name: Port 15
-    type: 1000base-t
-  - name: Port 16
-    type: 1000base-t
-  - name: SFP 1
-    type: 1000base-x-sfp
-  - name: SFP 2
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Switch 16 PoE Gen2
-  part_number: USW-16-POE
-  power-ports:
-  - maximum_draw: 60
-    name: Input
-    type: iec-60320-c14
-  slug: unifi-switch-16-poe-gen2
-  u_height: 1
-- comments: 'ath0 is setup to use ieee802.11ax as LTE currently doesn''t allow wireless
-
-    parameters to be specified despite the fact that the airFiber is a LTE-U
-
-    device.
-
-
-    The eth0 and ath0 are permanently bridged as this is a L2 bridge device.
-
-    '
-  interfaces:
-  - mgmt_only: true
-    name: br0
-    type: bridge
-  - label: Ethernet
-    name: eth0
-    type: 1000base-t
-  - label: Wireless
-    name: ath0
-    type: ieee802.11ax
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: airFiber AF-5XHD
-  part_number: AF-5XHD
-  slug: airfiber-af-5xhd
-  u_height: 0
-- comments: 'Network Video Recorder with four bays,
-
-
-    Dimensions: 442.4 x 325 x 43.7 mm (17.4 x 12.8 x 1.7")
-
-    '
-  interfaces:
-  - name: LAN 1
-    type: 1000base-t
-  - name: SFP+ 2 (LAN)
-    type: 10gbase-x-sfpp
-  is_full_depth: true
-  manufacturer: Ubiquiti
-  model: UniFi Protect Network Video Recorder
-  part_number: UNVR
-  power-ports:
-  - maximum_draw: 100
-    name: Supply
-    type: iec-60320-c14
-  - maximum_draw: 100
-    name: USP-RPS connector for PSU failover
-    type: iec-60320-c20
-  slug: unifi-protect-network-video-recorder
-  u_height: 1
-- airflow: front-to-rear
-  comments: '[UniFi Power Backup](https://store.ui.com/products/usp-rps)
-
-
-    950W backup power unit that provides full redundancy for rack-mounted UniFi devices.
-
-
-    Dimensions: 442.4 x 43.7 x 325.6 mm (17.42 x 1.72 x 12.82")
-
-    '
-  interfaces:
-  - mgmt_only: true
-    name: Port 1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi SmartPower RPS
-  part_number: USP-RPS
-  power-outlets:
-  - name: Port 1
-    power_port: ps1
-    type: ubiquiti-smartpower
-  - name: Port 2
-    power_port: ps1
-    type: ubiquiti-smartpower
-  - name: Port 3
-    power_port: ps1
-    type: ubiquiti-smartpower
-  - name: Port 4
-    power_port: ps1
-    type: ubiquiti-smartpower
-  - name: Port 5
-    power_port: ps1
-    type: ubiquiti-smartpower
-  - name: Port 6
-    power_port: ps1
-    type: ubiquiti-smartpower
-  power-ports:
-  - maximum_draw: 995
-    name: ps1
-    type: iec-60320-c14
-  slug: unifi-smartpower-rps
-  u_height: 1
-- airflow: passive
-  comments: '[UBNT Instant PoE Converter Data Sheet](https://dl.ubnt.com/datasheets/instant/Instant_802.3af_Gigabit_PoE_Converters_DS.pdf)'
-  front-ports:
-  - name: PoE out
-    rear_port: PoE in
-    rear_port_position: 1
-    type: 8p8c
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: Instant PoE 802.3af Gigabit Adapter
-  part_number: INS-3AF-O-G
-  rear-ports:
-  - label: PoE IN
-    name: PoE in
-    positions: 1
-    type: 8p8c
-  slug: ubiquiti-ins-3af-o-g
-  u_height: 0.0
 - interfaces:
   - name: lan0
     type: 100base-tx
@@ -2456,7 +245,7 @@ models:
   manufacturer: Ubiquiti
   model: Rocket M5
   part_number: Rocket M5
-  slug: rocket-m5
+  slug: ubiquiti-rocket-m5
   u_height: 0
 - comments: '[EdgeSwitch](https://www.ui.com/edgemax/edgeswitch/)'
   console-ports:
@@ -2507,982 +296,7 @@ models:
   - maximum_draw: 150
     name: Power
     type: iec-60320-c14
-  slug: es-16-150w
-  u_height: 1
-- comments: '[EdgePoint Router 8-Port](https://www.ui.com/downloads/datasheets/edgemax/EdgePoint_DS.pdf)'
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: eth2
-    type: 1000base-t
-  - name: eth3
-    type: 1000base-t
-  - name: eth4
-    type: 1000base-t
-  - name: eth5
-    type: 1000base-t
-  - name: eth6
-    type: 1000base-t
-  - name: eth7
-    type: 1000base-t
-  - name: eth8
-    type: 1000base-x-sfp
-  - name: eth9
-    type: 1000base-x-sfp
-  - name: switch0
-    type: bridge
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgePoint Router 8-Port
-  part_number: EP-R8
-  power-ports:
-  - maximum_draw: 324
-    name: 54VDC
-    type: dc-terminal
-  slug: edgepoint-router-8-port
-  u_height: 0
-- interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: NanoStation LOCO M2
-  part_number: nanostation loco m2
-  slug: nanostation-loco-m2
-  u_height: 0
-- comments: '[UniFi 6 Enterprise Access Point](https://store.ui.com/products/u6-enterprise)'
-  interfaces:
-  - name: Port 1
-    poe_mode: pd
-    poe_type: type2-ieee802.3at
-    type: 2.5gbase-t
-  - name: Wlan 0
-    type: ieee802.11ax
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi U6 Access Point Enterprise
-  part_number: U6-Enterprise
-  slug: ubiquiti-u6-enterprise
-  u_height: 0
-  weight: 2.1
-  weight_unit: lb
-- interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: Rocket 2AC Prism
-  part_number: R2AC-PRISM
-  slug: rocket-2ac-prism
-  u_height: 0
-- comments: 'ubond0 is setup to use ieee802.11ax as LTE currently doesn''t allow wireless
-
-    parameters to be specified despite the fact that the airFiber is a LTE-U
-
-    device.
-
-
-    The eth0 and ubond0 are permanently bridged as this is a L2 bridge device.
-
-
-    [Ubiquiti AF60-HD Data Sheet](https://dl.ui.com/ds/af60-hd_ds.pdf)
-
-    '
-  interfaces:
-  - mgmt_only: true
-    name: br0
-    type: bridge
-  - label: Ethernet
-    name: eth0
-    type: 1000base-t
-  - label: Wireless
-    name: ubond0
-    type: ieee802.11ax
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: airFiber 60 HD
-  part_number: AF60-HD
-  slug: airfiber-60-hd
-  u_height: 0
-- comments: '[EdgeRouter X SFP - Advanced Gigabit Router with PoE and SFP](https://www.ui.com/edgemax/edgerouter-x-sfp/)'
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: eth2
-    type: 1000base-t
-  - name: eth3
-    type: 1000base-t
-  - name: eth4
-    type: 1000base-t
-  - name: eth5
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: ER-X-SFP
-  power-ports:
-  - maximum_draw: 5
-    name: 24VDC
-    type: dc-terminal
-  slug: er-x-sfp
-  u_height: 1
-- comments: '[LiteBeam AC](https://www.ui.com/airmax/litebeam-ac)'
-  interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: LiteBeam 5AC 23
-  part_number: LBE-5AC-23
-  slug: lbe-5ac-23
-  u_height: 0
-- comments: '[EdgeRouter 12](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: eth2
-    type: 1000base-t
-  - name: eth3
-    type: 1000base-t
-  - name: eth4
-    type: 1000base-t
-  - name: eth5
-    type: 1000base-t
-  - name: eth6
-    type: 1000base-t
-  - name: eth7
-    type: 1000base-t
-  - name: eth8
-    type: 1000base-t
-  - name: eth9
-    type: 1000base-t
-  - name: eth10
-    type: 1000base-x-sfp
-  - name: eth11
-    type: 1000base-x-sfp
-  - name: switch0
-    type: bridge
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgeRouter 12
-  part_number: ER-12
-  power-ports:
-  - maximum_draw: 5
-    name: 24VDC
-    type: dc-terminal
-  slug: er-12
-  u_height: 1
-- interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: PowerBeam 2AC 400
-  part_number: PBE-2AC-400
-  slug: pbe-2ac-300
-  u_height: 0
-- interfaces:
-  - name: eth0
-    type: 100base-tx
-  - description: 900MHz
-    name: wlan0
-    type: virtual
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: Rocket M900
-  part_number: rocket m900
-  slug: rocket-m900
-  u_height: 0
-- interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: Nano Station LOCO 5AC
-  part_number: LOCO5AC
-  slug: nanostation-loco-5ac
-  u_height: 0
-- interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: NanoBeam 5AC 19
-  part_number: NBE-5AC-19
-  slug: nbe-5ac-19
-  u_height: 0
-- comments: '[EdgeRouter 10X](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: eth2
-    type: 1000base-t
-  - name: eth3
-    type: 1000base-t
-  - name: eth4
-    type: 1000base-t
-  - name: eth5
-    type: 1000base-t
-  - name: eth6
-    type: 1000base-t
-  - name: eth7
-    type: 1000base-t
-  - name: eth8
-    type: 1000base-t
-  - name: eth9
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgeRouter 10X
-  part_number: ER-10X
-  power-ports:
-  - maximum_draw: 8
-    name: 24VDC
-    type: dc-terminal
-  slug: er-10x
-  u_height: 1
-- comments: 'UniFi Switch 8 PoE 60W (12.4W + PoE), Gen1, Desk/WallMount, External
-    VDC PSU, (8) Gigabit, (5-8) Gigabit PoE: IEEE802.3a
-
-
-    Dimensions: 148.0 x 99.5 x 30.7 mm (5.83 x 3.92 x 1.21")
-
-    '
-  interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5 (PoE)
-    type: 1000base-t
-  - name: Port 6 (PoE)
-    type: 1000base-t
-  - name: Port 7 (PoE)
-    type: 1000base-t
-  - name: Port 8 (PoE)
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Switch 8 PoE 60W Gen1
-  part_number: US-8-60W
-  power-ports:
-  - maximum_draw: 60
-    name: Input
-    type: iec-60320-c14
-  slug: unifi-switch-8-poe-60w-gen1
-  u_height: 0
-- comments: '122.5 x 107.1 x 28.0 mm (4.82 x 4.22 x 1.10")
-
-    '
-  interfaces:
-  - name: Port 1 (PoE++ IN)
-    type: 1000base-t
-  - name: Port 2 (PoE+)
-    type: 1000base-t
-  - name: Port 3 (PoE+)
-    type: 1000base-t
-  - name: Port 4 (PoE+)
-    type: 1000base-t
-  - name: Port 5 (PoE+)
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Switch Flex
-  part_number: USW-Flex
-  slug: unifi-usw-flex
-  u_height: 0
-- comments: '[EdgeSwitch](https://www.ui.com/edgemax/edgeswitch/)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: interface 0/1
-    type: 1000base-t
-  - name: interface 0/2
-    type: 1000base-t
-  - name: interface 0/3
-    type: 1000base-t
-  - name: interface 0/4
-    type: 1000base-t
-  - name: interface 0/5
-    type: 1000base-t
-  - name: interface 0/6
-    type: 1000base-t
-  - name: interface 0/7
-    type: 1000base-t
-  - name: interface 0/8
-    type: 1000base-t
-  - name: interface 0/9
-    type: 1000base-t
-  - name: interface 0/10
-    type: 1000base-t
-  - name: interface 0/11
-    type: 1000base-t
-  - name: interface 0/12
-    type: 1000base-t
-  - name: interface 0/13
-    type: 1000base-t
-  - name: interface 0/14
-    type: 1000base-t
-  - name: interface 0/15
-    type: 1000base-t
-  - name: interface 0/16
-    type: 1000base-t
-  - name: interface 0/17
-    type: 1000base-t
-  - name: interface 0/18
-    type: 1000base-t
-  - name: interface 0/19
-    type: 1000base-t
-  - name: interface 0/20
-    type: 1000base-t
-  - name: interface 0/21
-    type: 1000base-t
-  - name: interface 0/22
-    type: 1000base-t
-  - name: interface 0/23
-    type: 1000base-t
-  - name: interface 0/24
-    type: 1000base-t
-  - name: interface 0/25
-    type: 1000base-t
-  - name: interface 0/26
-    type: 1000base-t
-  - name: interface 0/27
-    type: 1000base-t
-  - name: interface 0/28
-    type: 1000base-t
-  - name: interface 0/29
-    type: 1000base-t
-  - name: interface 0/30
-    type: 1000base-t
-  - name: interface 0/31
-    type: 1000base-t
-  - name: interface 0/32
-    type: 1000base-t
-  - name: interface 0/33
-    type: 1000base-t
-  - name: interface 0/34
-    type: 1000base-t
-  - name: interface 0/35
-    type: 1000base-t
-  - name: interface 0/36
-    type: 1000base-t
-  - name: interface 0/37
-    type: 1000base-t
-  - name: interface 0/38
-    type: 1000base-t
-  - name: interface 0/39
-    type: 1000base-t
-  - name: interface 0/40
-    type: 1000base-t
-  - name: interface 0/41
-    type: 1000base-t
-  - name: interface 0/42
-    type: 1000base-t
-  - name: interface 0/43
-    type: 1000base-t
-  - name: interface 0/44
-    type: 1000base-t
-  - name: interface 0/45
-    type: 1000base-t
-  - name: interface 0/46
-    type: 1000base-t
-  - name: interface 0/47
-    type: 1000base-t
-  - name: interface 0/48
-    type: 1000base-t
-  - name: interface 0/49
-    type: 10gbase-x-sfpp
-  - name: interface 0/50
-    type: 10gbase-x-sfpp
-  - name: interface 0/51
-    type: 1000base-x-sfp
-  - name: interface 0/52
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgeSwitch 48 750W
-  part_number: ES-48-750W
-  power-ports:
-  - maximum_draw: 750
-    name: Power
-    type: iec-60320-c14
-  slug: es-48-750w
-  u_height: 1
-- interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: Nanostation 5AC
-  part_number: NS-5AC
-  slug: nanostation-5ac
-  u_height: 0
-- interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: PicoStation M2
-  part_number: picostation m2
-  slug: picostation-m2
-  u_height: 0
-- interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: virtual
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: NanoBeam M5 19
-  part_number: NBE-M5-19
-  slug: nbe-m5-19
-  u_height: 0
-- comments: '[EdgeSwitch](https://www.ui.com/edgemax/edgeswitch/)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: interface 0/1
-    type: 1000base-t
-  - name: interface 0/2
-    type: 1000base-t
-  - name: interface 0/3
-    type: 1000base-t
-  - name: interface 0/4
-    type: 1000base-t
-  - name: interface 0/5
-    type: 1000base-t
-  - name: interface 0/6
-    type: 1000base-t
-  - name: interface 0/7
-    type: 1000base-t
-  - name: interface 0/8
-    type: 1000base-t
-  - name: interface 0/9
-    type: 1000base-t
-  - name: interface 0/10
-    type: 1000base-t
-  - name: interface 0/11
-    type: 1000base-t
-  - name: interface 0/12
-    type: 1000base-t
-  - name: interface 0/13
-    type: 1000base-t
-  - name: interface 0/14
-    type: 1000base-t
-  - name: interface 0/15
-    type: 1000base-t
-  - name: interface 0/16
-    type: 1000base-t
-  - name: interface 0/17
-    type: 1000base-t
-  - name: interface 0/18
-    type: 1000base-t
-  - name: interface 0/19
-    type: 1000base-t
-  - name: interface 0/20
-    type: 1000base-t
-  - name: interface 0/21
-    type: 1000base-t
-  - name: interface 0/22
-    type: 1000base-t
-  - name: interface 0/23
-    type: 1000base-t
-  - name: interface 0/24
-    type: 1000base-t
-  - name: interface 0/25
-    type: 1000base-x-sfp
-  - name: interface 0/26
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgeSwitch 24 250W
-  part_number: ES-24-250W
-  power-ports:
-  - maximum_draw: 250
-    name: Power
-    type: iec-60320-c14
-  slug: es-24-250w
-  u_height: 1
-- comments: '[EdgeRouter 12 with PoE](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: eth2
-    type: 1000base-t
-  - name: eth3
-    type: 1000base-t
-  - name: eth4
-    type: 1000base-t
-  - name: eth5
-    type: 1000base-t
-  - name: eth6
-    type: 1000base-t
-  - name: eth7
-    type: 1000base-t
-  - name: eth8
-    type: 1000base-t
-  - name: eth9
-    type: 1000base-t
-  - name: eth10
-    type: 1000base-x-sfp
-  - name: eth11
-    type: 1000base-x-sfp
-  - name: switch0
-    type: bridge
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgeRouter 12P
-  part_number: ER-12P
-  power-ports:
-  - maximum_draw: 5
-    name: 24VDC
-    type: dc-terminal
-  slug: er-12p
-  u_height: 1
-- comments: '[EdgeSwitch 10XP - Managed 10-Port Gigabit Switch with PoE](https://www.ui.com/edgemax/edgeswitch-10xp/)'
-  interfaces:
-  - name: gi1
-    type: 1000base-t
-  - name: gi2
-    type: 1000base-t
-  - name: gi3
-    type: 1000base-t
-  - name: gi4
-    type: 1000base-t
-  - name: gi5
-    type: 1000base-t
-  - name: gi6
-    type: 1000base-t
-  - name: gi7
-    type: 1000base-t
-  - name: gi8
-    type: 1000base-t
-  - name: gi9
-    type: 1000base-x-sfp
-  - name: gi10
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: ES-10XP
-  power-ports:
-  - maximum_draw: 8
-    name: 24VDC
-    type: dc-terminal
-  slug: es-10xp
-  u_height: 1
-- comments: '[Unifi Mesh](https://unifi-mesh.ui.com/)'
-  interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  - name: wlan1
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: Unifi AC Mesh
-  part_number: UAP-AC-M
-  slug: uap-ac-m
-  u_height: 0
-- comments: '[PowerBeam AC Gen2](https://www.ui.com/airmax/powerbeam-ac-gen2/)'
-  interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: PowerBeam 5AC Gen2
-  part_number: PBE-5AC-Gen2
-  slug: pbe-5ac-gen2
-  u_height: 0
-- comments: 'UniFi Switch 16 XG, 10G 16-Port Managed Aggregation Switch, 56W (32W
-    with no GBICs), (12) SFP+, (4) 1/10 Gigabit
-
-
-    Dimensions: 443 x 221 x 43 mm (17.44 x 8.70 x 1.69")
-
-    '
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: SFP+ 1
-    type: 10gbase-x-sfpp
-  - name: SFP+ 2
-    type: 10gbase-x-sfpp
-  - name: SFP+ 3
-    type: 10gbase-x-sfpp
-  - name: SFP+ 4
-    type: 10gbase-x-sfpp
-  - name: SFP+ 5
-    type: 10gbase-x-sfpp
-  - name: SFP+ 6
-    type: 10gbase-x-sfpp
-  - name: SFP+ 7
-    type: 10gbase-x-sfpp
-  - name: SFP+ 8
-    type: 10gbase-x-sfpp
-  - name: SFP+ 9
-    type: 10gbase-x-sfpp
-  - name: SFP+ 10
-    type: 10gbase-x-sfpp
-  - name: SFP+ 11
-    type: 10gbase-x-sfpp
-  - name: SFP+ 12
-    type: 10gbase-x-sfpp
-  - name: Port 13
-    type: 10gbase-t
-  - name: Port 14
-    type: 10gbase-t
-  - name: Port 15
-    type: 10gbase-t
-  - name: Port 16
-    type: 10gbase-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Switch 16 XG
-  part_number: US-16-XG
-  power-ports:
-  - maximum_draw: 56
-    name: Input
-    type: iec-60320-c14
-  - maximum_draw: 56
-    name: 48/24VDC
-    type: iec-60320-c20
-  slug: unifi-switch-16-xg
-  u_height: 1
-- interfaces:
-  - name: eth0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UAP pro
-  part_number: UAP-Pro
-  slug: uap-pro
-  u_height: 0
-- comments: 'UniFi Switch Lite 8 PoE (8) Gigabit, (1-4) Gigabit PoE+ IEEE 802.3af/at
-
-
-    Dimensions: 99.6 x 163.7 x 31.7 mm (3.92 x 6.44 x 1.25")
-
-    '
-  interfaces:
-  - name: Port 1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  - name: Port 6
-    type: 1000base-t
-  - name: Port 7
-    type: 1000base-t
-  - name: Port 8
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Switch Lite 8 PoE
-  part_number: USW-Lite-8-PoE
-  power-ports:
-  - maximum_draw: 52
-    name: Input
-    type: nema-5-15p
-  slug: unifi-switch-lite-8-poe
-  u_height: 1
-- comments: '[EdgeRouter 8](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: eth2
-    type: 1000base-t
-  - name: eth3
-    type: 1000base-t
-  - name: eth4
-    type: 1000base-t
-  - name: eth5
-    type: 1000base-t
-  - name: eth6
-    type: 1000base-t
-  - name: eth7
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgeRouter 8
-  part_number: ER-8
-  power-ports:
-  - description: 100-240VAC/50-60 Hz
-    maximum_draw: 35
-    name: AC
-    type: iec-60320-c6
-  slug: er-8
-  u_height: 1
-- airflow: front-to-rear
-  comments: '[UniFi Dream Machine Pro Special Edition](https://store.ui.com/collections/unifi-network-unifi-os-consoles/products/dream-machine-se)
-
-
-    Enterprise Security Gateway and Network Appliance with 10G SFP+, (8) 1G PoE LAN,
-    (1) 2.5G WAN, (1) 1/10G SFP+ LAN, (1) 1/10G SFP+ WAN
-
-
-    Dimensions: 442.4 x 43.7 x 285.6 mm (17.42 x 1.72 x 11.24")
-
-    '
-  interfaces:
-  - label: Port 1 - LAN
-    name: port.1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - label: Port 2 - LAN
-    name: port.2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - label: Port 3 - LAN
-    name: port.3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - label: Port 4 - LAN
-    name: port.4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - label: Port 5 - LAN
-    name: port.5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - label: Port 6 - LAN
-    name: port.6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - label: Port 7 - LAN
-    name: port.7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - label: Port 8 - LAN
-    name: port.8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - label: Port 9 - WAN 1
-    name: port.9
-    type: 2.5gbase-t
-  - label: Port 10 - SFP+ WAN 2
-    name: port.10
-    type: 10gbase-x-sfpp
-  - label: Port 11 - SFP+ LAN
-    name: port.11
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Dream Machine Pro Special Edition
-  part_number: UDM-SE
-  power-ports:
-  - description: 100-240VAC/50-60 Hz
-    maximum_draw: 33
-    name: ps1
-    type: iec-60320-c14
-  slug: udm-pro-se
-  u_height: 1
-- comments: 'UniFi Switch 8 non-PoE, Gen1, Desk/WallMount, External VDC PSU, (8) Gigabit,
-    (1/8) Gigabit PoE Passthrough Port: 802.3af/at or 48V
-
-
-    Dimensions: 148.0 x 99.5 x 30.7 mm (5.83 x 3.92 x 1.21")
-
-    '
-  interfaces:
-  - name: Port 1 (PoE in)
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  - name: Port 6
-    type: 1000base-t
-  - name: Port 7
-    type: 1000base-t
-  - name: Port 8 (PoE out)
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Switch 8 Gen1
-  part_number: US-8
-  power-ports:
-  - maximum_draw: 12
-    name: Input
-    type: iec-60320-c14
-  slug: unifi-switch-8-gen1
-  u_height: 0
-- comments: '10G Rack-Mountable UniFi Application Server, (2) 1/10G LAN, (1) 1G IPMI
-    LAN, (1) VGA rear, (2) USB 3.0 rear, (2) USB 2.0 front
-
-
-    Dimensions: 442.4 x 43.7 x 305.5 mm (17.42 x 1.72 x 12.03")
-
-    '
-  interfaces:
-  - mgmt_only: true
-    name: IPMI LAN
-    type: 1000base-t
-  - name: LAN1
-    type: 10gbase-t
-  - name: LAN2
-    type: 10gbase-t
-  is_full_depth: true
-  manufacturer: Ubiquiti
-  model: UniFi Application Server
-  part_number: UAS-XG
-  power-ports:
-  - allocated_draw: 60
-    maximum_draw: 150
-    name: Supply
-    type: iec-60320-c14
-  slug: unifi-application-server
-  u_height: 1
-- interfaces:
-  - name: lan0
-    type: 100base-tx
-  - name: lan1
-    type: 100base-tx
-  - name: wlan0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: Rocket M2 Titanium
-  part_number: Rocket M2 Titanium
-  slug: rocket-m2-titanium
-  u_height: 0
-- interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: PowerBeam M2 400
-  part_number: PBE-M2-400
-  slug: pbe-m2-300
-  u_height: 0
-- comments: '[UniFi 6 Mesh Access Point](https://store.ui.com/collections/unifi-network-wireless/products/access-point-wifi-6-mesh)'
-  interfaces:
-  - mgmt_only: false
-    name: eth0
-    poe_mode: pd
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  - name: wlan1
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: Unifi U6 Mesh Access Point
-  part_number: U6-Mesh-US
-  slug: u6-mesh-us
-  u_height: 0
-- comments: 'UniFi Switch Aggregation, 10G 8-Port Managed Aggregation Switch, 30W,
-    (8) SFP+
-
-
-    Dimensions: 442.4 x 120 x 43.7 mm (17.42 x 4.72 x 1.72")
-
-    '
-  interfaces:
-  - name: SFP+ 1
-    type: 10gbase-x-sfpp
-  - name: SFP+ 2
-    type: 10gbase-x-sfpp
-  - name: SFP+ 3
-    type: 10gbase-x-sfpp
-  - name: SFP+ 4
-    type: 10gbase-x-sfpp
-  - name: SFP+ 5
-    type: 10gbase-x-sfpp
-  - name: SFP+ 6
-    type: 10gbase-x-sfpp
-  - name: SFP+ 7
-    type: 10gbase-x-sfpp
-  - name: SFP+ 8
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Switch Aggregation
-  part_number: USW-Aggregation
-  power-ports:
-  - maximum_draw: 30
-    name: Input
-    type: iec-60320-c14
-  slug: unifi-switch-aggregation
+  slug: ubiquiti-es-16-150w
   u_height: 1
 - comments: 'UniFi Switch Lite 16 PoE (16) Gigabit, (1-8) Gigabit PoE+ IEEE 802.3af/at
 
@@ -3531,7 +345,33 @@ models:
   - maximum_draw: 60
     name: Input
     type: nema-5-15p
-  slug: unifi-switch-lite-16-poe
+  slug: ubiquiti-unifi-switch-lite-16-poe
+  u_height: 1
+- comments: '10G Rack-Mountable UniFi Application Server, (2) 1/10G LAN, (1) 1G IPMI
+    LAN, (1) VGA rear, (2) USB 3.0 rear, (2) USB 2.0 front
+
+
+    Dimensions: 442.4 x 43.7 x 305.5 mm (17.42 x 1.72 x 12.03")
+
+    '
+  interfaces:
+  - mgmt_only: true
+    name: IPMI LAN
+    type: 1000base-t
+  - name: LAN1
+    type: 10gbase-t
+  - name: LAN2
+    type: 10gbase-t
+  is_full_depth: true
+  manufacturer: Ubiquiti
+  model: UniFi Application Server
+  part_number: UAS-XG
+  power-ports:
+  - allocated_draw: 60
+    maximum_draw: 150
+    name: Supply
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-application-server
   u_height: 1
 - comments: 'UniFi Switch 48 PoE (45W + max. 195W PoE), Gen2, (48) Gigabit, (1-32)
     Gigabit PoE+ IEEE 802.3af/at, (4) 1G SFP
@@ -3717,99 +557,7 @@ models:
   - maximum_draw: 240
     name: Input
     type: iec-60320-c14
-  slug: unifi-switch-48-poe-gen2
-  u_height: 1
-- comments: 'Unifi Cloud Key Generation 2 Plus
-
-
-    PoE in 24V or USB-type C Power
-
-    '
-  console-ports:
-  - name: console
-    type: usb-c
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    poe_mode: pd
-    poe_type: type1-ieee802.3af
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: Cloud Key Gen2 Plus
-  part_number: uck-g2-plus
-  power-ports:
-  - maximum_draw: 13
-    name: power1
-    type: usb-c
-  slug: cloud-key-gen2-plus
-  u_height: 1
-- comments: '[Unifi AP AC Lite](https://www.ui.com/unifi/unifi-ap-ac-lite/)'
-  interfaces:
-  - name: lan0
-    type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-  - name: wlan1
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UAP-AC-LITE
-  slug: uap-ac-lite
-  u_height: 0
-- comments: 'PoE 24V In on LAN Port 1 or 2A Micro USB Adapter (Not Included)
-
-
-    Controllable 24V PoE Out (+4, 5; -7, 8) on WAN Port
-
-    '
-  interfaces:
-  - name: lan1
-    type: 100base-tx
-  - name: lan2
-    type: 100base-tx
-  - name: lan3
-    type: 100base-tx
-  - name: wan1
-    type: 100base-tx
-  - name: wlan0
-    type: ieee802.11n
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: airCube-ISP
-  part_number: aircube-isp
-  power-ports:
-  - maximum_draw: 5
-    name: Input
-    type: usb-micro-b
-  slug: aircube-isp
-  u_height: 0
-- comments: '[EdgeRouter 6 with POE](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: eth2
-    type: 1000base-t
-  - name: eth3
-    type: 1000base-t
-  - name: eth4
-    type: 1000base-t
-  - name: eth5
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgeRouter 6P
-  part_number: ER-6P
-  power-ports:
-  - maximum_draw: 16
-    name: 24VDC
-    type: dc-terminal
-  slug: er-6p
+  slug: ubiquiti-unifi-switch-48-poe-gen2
   u_height: 1
 - comments: 'UniFi Switch Enterprise 24 PoE (150W + max. 400W PoE), (12) 2.5 Gigabit
     PoE+ IEEE 802.3af/at, (12) 1 Gigabit PoE+ IEEE 802.3af/at, (2) SFP+\nDimensions:
@@ -3927,76 +675,27 @@ models:
   u_height: 1
   weight: 11.46
   weight_unit: lb
-- comments: '[EdgePoint Router 6-Port](https://www.ui.com/downloads/datasheets/edgemax/EdgePoint_DS.pdf)'
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: eth2
-    type: 1000base-t
-  - name: eth3
-    type: 1000base-t
-  - name: eth4
-    type: 1000base-t
-  - name: eth5
-    type: 1000base-x-sfp
-  - name: switch0
-    type: bridge
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgePoint Router 6-Port
-  part_number: EP-R6
-  power-ports:
-  - maximum_draw: 72
-    name: 24VDC
-    type: dc-terminal
-  slug: edgepoint-router-6-port
-  u_height: 0
 - interfaces:
   - name: lan0
-    type: 100base-tx
+    type: 1000base-t
   - name: wlan0
     type: ieee802.11n
   is_full_depth: false
   manufacturer: Ubiquiti
-  model: Rocket M2
-  part_number: Rocket M2
-  slug: rocket-m2
+  model: Rocket 2AC Prism
+  part_number: R2AC-PRISM
+  slug: ubiquiti-rocket-2ac-prism
   u_height: 0
-- interfaces:
-  - name: Port 1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: Port 5
-    poe_mode: pd
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Wlan 0
-    type: ieee802.11n
-  - name: Wlan 1
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi UAP InWall HD
-  part_number: UAP-IW-HD
-  slug: uap-iw-hd
-  u_height: 0
-- comments: 'UniFi Switch Pro Aggregation, 10G 28-Port and 25G 4-Port Managed Aggregation
-    Switch, 100W, (28) SFP+ (4) SFP28
+- comments: 'UniFi Switch 16 XG, 10G 16-Port Managed Aggregation Switch, 56W (32W
+    with no GBICs), (12) SFP+, (4) 1/10 Gigabit
 
 
-    Dimensions: 442 x 325 x 44 mm (17.4 x 12.8 x 1.7")
+    Dimensions: 443 x 221 x 43 mm (17.44 x 8.70 x 1.69")
 
     '
+  console-ports:
+  - name: Console
+    type: rj-45
   interfaces:
   - name: SFP+ 1
     type: 10gbase-x-sfpp
@@ -4022,63 +721,94 @@ models:
     type: 10gbase-x-sfpp
   - name: SFP+ 12
     type: 10gbase-x-sfpp
-  - name: SFP+ 13
-    type: 10gbase-x-sfpp
-  - name: SFP+ 14
-    type: 10gbase-x-sfpp
-  - name: SFP+ 15
-    type: 10gbase-x-sfpp
-  - name: SFP+ 16
-    type: 10gbase-x-sfpp
-  - name: SFP+ 17
-    type: 10gbase-x-sfpp
-  - name: SFP+ 18
-    type: 10gbase-x-sfpp
-  - name: SFP+ 19
-    type: 10gbase-x-sfpp
-  - name: SFP+ 20
-    type: 10gbase-x-sfpp
-  - name: SFP+ 21
-    type: 10gbase-x-sfpp
-  - name: SFP+ 22
-    type: 10gbase-x-sfpp
-  - name: SFP+ 23
-    type: 10gbase-x-sfpp
-  - name: SFP+ 24
-    type: 10gbase-x-sfpp
-  - name: SFP+ 25
-    type: 10gbase-x-sfpp
-  - name: SFP+ 26
-    type: 10gbase-x-sfpp
-  - name: SFP+ 27
-    type: 10gbase-x-sfpp
-  - name: SFP+ 28
-    type: 10gbase-x-sfpp
-  - name: SFP28 29
-    type: 25gbase-x-sfp28
-  - name: SFP28 30
-    type: 25gbase-x-sfp28
-  - name: SFP28 31
-    type: 25gbase-x-sfp28
-  - name: SFP28 32
-    type: 25gbase-x-sfp28
+  - name: Port 13
+    type: 10gbase-t
+  - name: Port 14
+    type: 10gbase-t
+  - name: Port 15
+    type: 10gbase-t
+  - name: Port 16
+    type: 10gbase-t
   is_full_depth: false
   manufacturer: Ubiquiti
-  model: UniFi Switch Pro Aggregation
-  part_number: USW-Pro-Aggregation
+  model: UniFi Switch 16 XG
+  part_number: US-16-XG
   power-ports:
-  - maximum_draw: 100
-    name: Universal AC input
+  - maximum_draw: 56
+    name: Input
     type: iec-60320-c14
-  - name: USP-RPS DC input
-    type: ubiquiti-smartpower
-  slug: unifi-switch-pro-aggregation
+  - maximum_draw: 56
+    name: 48/24VDC
+    type: iec-60320-c20
+  slug: ubiquiti-unifi-switch-16-xg
   u_height: 1
-- comments: 'UniFi Switch 24 PoE 250W (30W + max. 220W PoE), Gen1, (24) Gigabit PoE+
-    IEEE 802.3af/at and 24V Passive PoE, (2) SFP
+- console-ports:
+  - name: ttyS1
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgeRouter PoE 5-Port
+  part_number: ERPoe-5
+  power-ports:
+  - maximum_draw: 60
+    name: 48V Power Supply
+    type: ita-g
+  slug: ubiquiti-erpoe-5
+  u_height: 1
+- comments: 'UniFi Switch XG 6PoE, 10G 6-Port Switch with 802.3bt PoE++, (40W w/o
+    PoE) External VDC PSU (4) 1/10 Gigabit 60W PoE++ IEEE 802.3bt, (2) SFP+
 
 
-    Dimensions: 485 x 43.7 x 285.4 mm (19.09 x 1.72 x 11.24")
+    Dimensions: 165 x 268.1 x 31.8 mm (6.50 x 10.56 x 1.25")
+
+    '
+  console-ports:
+  - name: Console
+    type: rj-45
+  - name: Console (USB)
+    type: usb-c
+  interfaces:
+  - name: RJ45 1 (PoE)
+    type: 10gbase-t
+  - name: RJ45 2 (PoE)
+    type: 10gbase-t
+  - name: RJ45 3 (PoE)
+    type: 10gbase-t
+  - name: RJ45 4 (PoE)
+    type: 10gbase-t
+  - name: SFP+ 5
+    type: 10gbase-x-sfpp
+  - name: SFP+ 6
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Switch XG 6PoE
+  part_number: US-XG-6POE
+  power-ports:
+  - maximum_draw: 210
+    name: 54VDC IN
+    type: iec-60320-c20
+  - maximum_draw: 210
+    name: 54VDC (external)
+    type: iec-60320-c20
+  slug: ubiquiti-unifi-switch-xg-6poe
+  u_height: 1
+- comments: 'UniFi Switch 48 PoE 500W (64W + max. 436W PoE) Gen1, (48) Gigabit PoE+
+    IEEE 802.3af/at and 24V Passive PoE, (2) SFP+, (2) SFP
+
+
+    Dimensions: 485 x 43.7 x 374.6 mm (19.09 x 1.72 x 14.75")
 
     '
   console-ports:
@@ -4133,19 +863,460 @@ models:
     type: 1000base-t
   - name: Port 24 (PoE)
     type: 1000base-t
+  - name: Port 25 (PoE)
+    type: 1000base-t
+  - name: Port 26 (PoE)
+    type: 1000base-t
+  - name: Port 27 (PoE)
+    type: 1000base-t
+  - name: Port 28 (PoE)
+    type: 1000base-t
+  - name: Port 29 (PoE)
+    type: 1000base-t
+  - name: Port 30 (PoE)
+    type: 1000base-t
+  - name: Port 31 (PoE)
+    type: 1000base-t
+  - name: Port 32 (PoE)
+    type: 1000base-t
+  - name: Port 33 (PoE)
+    type: 1000base-t
+  - name: Port 34 (PoE)
+    type: 1000base-t
+  - name: Port 35 (PoE)
+    type: 1000base-t
+  - name: Port 36 (PoE)
+    type: 1000base-t
+  - name: Port 37 (PoE)
+    type: 1000base-t
+  - name: Port 38 (PoE)
+    type: 1000base-t
+  - name: Port 39 (PoE)
+    type: 1000base-t
+  - name: Port 40 (PoE)
+    type: 1000base-t
+  - name: Port 41 (PoE)
+    type: 1000base-t
+  - name: Port 42 (PoE)
+    type: 1000base-t
+  - name: Port 43 (PoE)
+    type: 1000base-t
+  - name: Port 44 (PoE)
+    type: 1000base-t
+  - name: Port 45 (PoE)
+    type: 1000base-t
+  - name: Port 46 (PoE)
+    type: 1000base-t
+  - name: Port 47 (PoE)
+    type: 1000base-t
+  - name: Port 48 (PoE)
+    type: 1000base-t
+  - name: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: SFP+ 2
+    type: 10gbase-x-sfpp
+  - name: SFP 1
+    type: 1000base-x-sfp
+  - name: SFP 2
+    type: 1000base-x-sfp
+  is_full_depth: true
+  manufacturer: Ubiquiti
+  model: UniFi Switch 48 PoE 500W Gen1
+  part_number: US-48-500W
+  power-ports:
+  - maximum_draw: 500
+    name: Input
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-switch-48-poe-500w-gen1
+  u_height: 1
+- comments: '[Unifi Mesh](https://unifi-mesh.ui.com/)'
+  interfaces:
+  - name: lan0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: Unifi AC Mesh
+  part_number: UAP-AC-M
+  slug: ubiquiti-uap-ac-m
+  u_height: 0
+- comments: '[LiteBeam AC Gen2](https://www.ui.com/airmax/litebeam-ac-gen2/)'
+  interfaces:
+  - name: lan0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: LiteBeam 5AC Gen2
+  part_number: LBE-5AC-Gen2
+  slug: ubiquiti-lbe-5ac-gen2
+  u_height: 0
+- comments: '24VDC, 0.83A or PoE 24V In on LAN Port 1
+
+
+    Controllable 24V PoE Out (+4, 5; -7, 8) on WAN Port
+
+    '
+  interfaces:
+  - name: lan1
+    type: 1000base-t
+  - name: lan2
+    type: 1000base-t
+  - name: lan3
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: airCube-AC
+  part_number: aircube-ac
+  slug: ubiquiti-aircube-ac
+  u_height: 0
+- comments: 'UniFi Switch 16 PoE (18W + max. 42W PoE), Gen2, (16) Gigabit, (1-8) Gigabit
+    PoE+ IEEE 802.3af/at, (2) SFP
+
+
+    Dimensions: 442.4 x 200 x 43.7 mm (17.42 x 7.87 x 1.72")
+
+    '
+  interfaces:
+  - name: Port 1 (PoE)
+    type: 1000base-t
+  - name: Port 2 (PoE)
+    type: 1000base-t
+  - name: Port 3 (PoE)
+    type: 1000base-t
+  - name: Port 4 (PoE)
+    type: 1000base-t
+  - name: Port 5 (PoE)
+    type: 1000base-t
+  - name: Port 6 (PoE)
+    type: 1000base-t
+  - name: Port 7 (PoE)
+    type: 1000base-t
+  - name: Port 8 (PoE)
+    type: 1000base-t
+  - name: Port 9
+    type: 1000base-t
+  - name: Port 10
+    type: 1000base-t
+  - name: Port 11
+    type: 1000base-t
+  - name: Port 12
+    type: 1000base-t
+  - name: Port 13
+    type: 1000base-t
+  - name: Port 14
+    type: 1000base-t
+  - name: Port 15
+    type: 1000base-t
+  - name: Port 16
+    type: 1000base-t
   - name: SFP 1
     type: 1000base-x-sfp
   - name: SFP 2
     type: 1000base-x-sfp
   is_full_depth: false
   manufacturer: Ubiquiti
-  model: UniFi Switch 24 PoE 250W Gen1
-  part_number: US-24-250W
+  model: UniFi Switch 16 PoE Gen2
+  part_number: USW-16-POE
   power-ports:
-  - maximum_draw: 250
+  - maximum_draw: 60
     name: Input
     type: iec-60320-c14
-  slug: unifi-switch-24-poe-250w-gen1
+  slug: ubiquiti-unifi-switch-16-poe-gen2
+  u_height: 1
+- interfaces:
+  - name: lan0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: PowerBeam 2AC 400
+  part_number: PBE-2AC-400
+  slug: ubiquiti-powerbeam-2ac-400
+  u_height: 0
+- comments: '[EdgeRouter 12](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-t
+  - name: eth7
+    type: 1000base-t
+  - name: eth8
+    type: 1000base-t
+  - name: eth9
+    type: 1000base-t
+  - name: eth10
+    type: 1000base-x-sfp
+  - name: eth11
+    type: 1000base-x-sfp
+  - name: switch0
+    type: bridge
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgeRouter 12
+  part_number: ER-12
+  power-ports:
+  - maximum_draw: 5
+    name: 24VDC
+    type: dc-terminal
+  slug: ubiquiti-er-12
+  u_height: 1
+- comments: 'PoE 24V In on LAN Port 1 or 2A Micro USB Adapter (Not Included)
+
+
+    Controllable 24V PoE Out (+4, 5; -7, 8) on WAN Port
+
+    '
+  interfaces:
+  - name: lan1
+    type: 100base-tx
+  - name: lan2
+    type: 100base-tx
+  - name: lan3
+    type: 100base-tx
+  - name: wan1
+    type: 100base-tx
+  - name: wlan0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: airCube-ISP
+  part_number: aircube-isp
+  power-ports:
+  - maximum_draw: 5
+    name: Input
+    type: usb-micro-b
+  slug: ubiquiti-aircube-isp
+  u_height: 0
+- comments: '[EdgeSwitch 10XP - Managed 10-Port Gigabit Switch with PoE](https://www.ui.com/edgemax/edgeswitch-10xp/)'
+  interfaces:
+  - name: gi1
+    type: 1000base-t
+  - name: gi2
+    type: 1000base-t
+  - name: gi3
+    type: 1000base-t
+  - name: gi4
+    type: 1000base-t
+  - name: gi5
+    type: 1000base-t
+  - name: gi6
+    type: 1000base-t
+  - name: gi7
+    type: 1000base-t
+  - name: gi8
+    type: 1000base-t
+  - name: gi9
+    type: 1000base-x-sfp
+  - name: gi10
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: ES-10XP
+  power-ports:
+  - maximum_draw: 8
+    name: 24VDC
+    type: dc-terminal
+  slug: ubiquiti-es-10xp
+  u_height: 1
+- comments: '122.5 x 107.1 x 28.0 mm (4.82 x 4.22 x 1.10")
+
+    '
+  interfaces:
+  - name: Port 1 (PoE++ IN)
+    type: 1000base-t
+  - name: Port 2 (PoE+)
+    type: 1000base-t
+  - name: Port 3 (PoE+)
+    type: 1000base-t
+  - name: Port 4 (PoE+)
+    type: 1000base-t
+  - name: Port 5 (PoE+)
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Switch Flex
+  part_number: USW-Flex
+  slug: ubiquiti-unifi-switch-flex
+  u_height: 0
+- airflow: front-to-rear
+  comments: '[UniFi Power Backup](https://store.ui.com/products/usp-rps)
+
+
+    950W backup power unit that provides full redundancy for rack-mounted UniFi devices.
+
+
+    Dimensions: 442.4 x 43.7 x 325.6 mm (17.42 x 1.72 x 12.82")
+
+    '
+  interfaces:
+  - mgmt_only: true
+    name: Port 1
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi SmartPower RPS
+  part_number: USP-RPS
+  power-outlets:
+  - name: Port 1
+    power_port: ps1
+    type: ubiquiti-smartpower
+  - name: Port 2
+    power_port: ps1
+    type: ubiquiti-smartpower
+  - name: Port 3
+    power_port: ps1
+    type: ubiquiti-smartpower
+  - name: Port 4
+    power_port: ps1
+    type: ubiquiti-smartpower
+  - name: Port 5
+    power_port: ps1
+    type: ubiquiti-smartpower
+  - name: Port 6
+    power_port: ps1
+    type: ubiquiti-smartpower
+  power-ports:
+  - maximum_draw: 995
+    name: ps1
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-smartpower-rps
+  u_height: 1
+- comments: '[UniFi 6 Long Range Access Point](https://store.ui.com/products/unifi-6-long-range-access-point)'
+  interfaces:
+  - name: lan0
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: U6-LR
+  slug: ubiquiti-u6-lr
+  u_height: 0
+- comments: '[EdgeSwitch](https://www.ui.com/edgemax/edgeswitch/)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: interface 0/1
+    type: 1000base-t
+  - name: interface 0/2
+    type: 1000base-t
+  - name: interface 0/3
+    type: 1000base-t
+  - name: interface 0/4
+    type: 1000base-t
+  - name: interface 0/5
+    type: 1000base-t
+  - name: interface 0/6
+    type: 1000base-t
+  - name: interface 0/7
+    type: 1000base-t
+  - name: interface 0/8
+    type: 1000base-t
+  - name: interface 0/9
+    type: 1000base-t
+  - name: interface 0/10
+    type: 1000base-t
+  - name: interface 0/11
+    type: 1000base-t
+  - name: interface 0/12
+    type: 1000base-t
+  - name: interface 0/13
+    type: 1000base-t
+  - name: interface 0/14
+    type: 1000base-t
+  - name: interface 0/15
+    type: 1000base-t
+  - name: interface 0/16
+    type: 1000base-t
+  - name: interface 0/17
+    type: 1000base-t
+  - name: interface 0/18
+    type: 1000base-t
+  - name: interface 0/19
+    type: 1000base-t
+  - name: interface 0/20
+    type: 1000base-t
+  - name: interface 0/21
+    type: 1000base-t
+  - name: interface 0/22
+    type: 1000base-t
+  - name: interface 0/23
+    type: 1000base-t
+  - name: interface 0/24
+    type: 1000base-t
+  - name: interface 0/25
+    type: 1000base-x-sfp
+  - name: interface 0/26
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgeSwitch 24 250W
+  part_number: ES-24-250W
+  power-ports:
+  - maximum_draw: 250
+    name: Power
+    type: iec-60320-c14
+  slug: ubiquiti-es-24-250w
+  u_height: 1
+- comments: '[Unifi AP AC Long Range](https://www.ui.com/unifi/unifi-ap-ac-lr/)'
+  interfaces:
+  - name: lan0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UAP-AC-LR
+  slug: ubiquiti-uap-ac-lr
+  u_height: 0
+- comments: 'Unifi Cloud Key Generation 2
+
+
+    PoE in 24V or USB-type C Power
+
+    '
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: Cloud Key Gen2
+  part_number: uck-g2
+  power-ports:
+  - maximum_draw: 5
+    name: power1
+    type: usb-c
+  slug: ubiquiti-cloud-key-gen2
   u_height: 1
 - comments: 'UniFi Switch Enterprise 48 PoE (150W + max. 720W PoE), (48) 2.5 Gigabit
     PoE+ IEEE 802.3af/at, (4) SFP+
@@ -4363,27 +1534,7 @@ models:
   - maximum_draw: 870
     name: Input
     type: iec-60320-c14
-  slug: unifi-switch-enterprise-48-poe
-  u_height: 1
-- comments: 'Unifi Cloud Key Generation 1
-
-
-    PoE in 24V or USB-type C Power
-
-    '
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UniFi Cloud Key
-  part_number: uc-ck
-  power-ports:
-  - maximum_draw: 5
-    name: power1
-    type: usb-c
-  slug: uc-ck
+  slug: ubiquiti-unifi-switch-enterprise-48-poe
   u_height: 1
 - comments: '[EdgeSwitch](https://www.ui.com/edgemax/edgeswitch/)'
   console-ports:
@@ -4496,13 +1647,1484 @@ models:
     type: 1000base-x-sfp
   is_full_depth: false
   manufacturer: Ubiquiti
-  model: EdgeSwitch 48 500W
-  part_number: ES-48-500W
+  model: EdgeSwitch 48 750W
+  part_number: ES-48-750W
+  power-ports:
+  - maximum_draw: 750
+    name: Power
+    type: iec-60320-c14
+  slug: ubiquiti-es-48-750w
+  u_height: 1
+- comments: 'UniFi Switch 24 PoE (25W + max. 95W PoE), Gen2, (24) Gigabit, (1-16)
+    Gigabit PoE+ IEEE 802.3af/at, (2) SFP
+
+
+    Dimensions: 442.4 x 200 x 43.7 mm (17.42 x 7.87 x 1.72")
+
+    '
+  interfaces:
+  - name: Port 1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 17
+    type: 1000base-t
+  - name: Port 18
+    type: 1000base-t
+  - name: Port 19
+    type: 1000base-t
+  - name: Port 20
+    type: 1000base-t
+  - name: Port 21
+    type: 1000base-t
+  - name: Port 22
+    type: 1000base-t
+  - name: Port 23
+    type: 1000base-t
+  - name: Port 24
+    type: 1000base-t
+  - name: SFP 1
+    type: 1000base-x-sfp
+  - name: SFP 2
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Switch 24 PoE Gen2
+  part_number: USW-24-POE
+  power-ports:
+  - maximum_draw: 120
+    name: Input
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-switch-24-poe-gen2
+  u_height: 1
+- interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: Nano Station LOCO 5AC
+  part_number: LOCO5AC
+  slug: ubiquiti-nano-station-loco-5ac
+  u_height: 0
+- comments: '[Rocket Prism 5AC Gen2](https://dl.ubnt.com/datasheets/RocketAC/Rocket_Prism_AC_Gen2_DS.pdf)'
+  interfaces:
+  - name: lan0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: Rocket Prism 5AC Gen2
+  part_number: RP-5AC-Gen2
+  slug: ubiquiti-rp-5ac-gen2
+  u_height: 0
+- comments: '[UniFi Switch Pro 24](https://store.ui.com/collections/unifi-network-switching/products/usw-pro-24)
+
+
+    24-port switch with (24) Gigabit RJ45 ports and (2) 10G SFP+ ports. Powerful second-generation
+    UniFi switching
+
+
+    Dimensions: 442.4 x 285.4 x 43.7 mm (17.42 x 11.24 x 1.72")
+
+    '
+  interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+  - name: Port 9
+    type: 1000base-t
+  - name: Port 10
+    type: 1000base-t
+  - name: Port 11
+    type: 1000base-t
+  - name: Port 12
+    type: 1000base-t
+  - name: Port 13
+    type: 1000base-t
+  - name: Port 14
+    type: 1000base-t
+  - name: Port 15
+    type: 1000base-t
+  - name: Port 16
+    type: 1000base-t
+  - name: Port 17
+    type: 1000base-t
+  - name: Port 18
+    type: 1000base-t
+  - name: Port 19
+    type: 1000base-t
+  - name: Port 20
+    type: 1000base-t
+  - name: Port 21
+    type: 1000base-t
+  - name: Port 22
+    type: 1000base-t
+  - name: Port 23
+    type: 1000base-t
+  - name: Port 24
+    type: 1000base-t
+  - name: Port 25 - SFP+
+    type: 10gbase-x-sfpp
+  - name: Port 26 - SFP+
+    type: 10gbase-x-sfpp
+  is_full_depth: true
+  manufacturer: Ubiquiti
+  model: USW-PRO-24
+  power-ports:
+  - maximum_draw: 450
+    name: Input
+    type: iec-60320-c14
+  slug: ubiquiti-usw-pro-24
+  u_height: 1
+- comments: '[LiteBeam AC](https://www.ui.com/airmax/litebeam-ac)'
+  interfaces:
+  - name: lan0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: LiteBeam 5AC 23
+  part_number: LBE-5AC-23
+  slug: ubiquiti-lbe-5ac-23
+  u_height: 0
+- airflow: passive
+  comments: '[UBNT Instant PoE Converter Data Sheet](https://dl.ubnt.com/datasheets/instant/Instant_802.3af_Gigabit_PoE_Converters_DS.pdf)'
+  front-ports:
+  - name: PoE out
+    rear_port: PoE in
+    rear_port_position: 1
+    type: 8p8c
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: Instant PoE 802.3af Gigabit Adapter
+  part_number: INS-3AF-O-G
+  rear-ports:
+  - label: PoE IN
+    name: PoE in
+    positions: 1
+    type: 8p8c
+  slug: ubiquiti-ins-3af-o-g
+  u_height: 0.0
+- comments: '107.16 x 70.15 x 21.17 mm (4.22 x 2.76 x 0.83")
+
+    '
+  interfaces:
+  - name: Port 1 (PoE IN)
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Switch Flex Mini
+  part_number: USW-Flex-Mini
+  slug: ubiquiti-unifi-switch-flex-mini
+  u_height: 0
+- comments: '[EdgeSwitch](https://www.ui.com/edgemax/edgeswitch/)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: interface 0/1
+    type: 1000base-t
+  - name: interface 0/2
+    type: 1000base-t
+  - name: interface 0/3
+    type: 1000base-t
+  - name: interface 0/4
+    type: 1000base-t
+  - name: interface 0/5
+    type: 1000base-t
+  - name: interface 0/6
+    type: 1000base-t
+  - name: interface 0/7
+    type: 1000base-t
+  - name: interface 0/8
+    type: 1000base-t
+  - name: interface 0/9
+    type: 1000base-t
+  - name: interface 0/10
+    type: 1000base-t
+  - name: interface 0/11
+    type: 1000base-t
+  - name: interface 0/12
+    type: 1000base-t
+  - name: interface 0/13
+    type: 1000base-t
+  - name: interface 0/14
+    type: 1000base-t
+  - name: interface 0/15
+    type: 1000base-t
+  - name: interface 0/16
+    type: 1000base-t
+  - name: interface 0/17
+    type: 1000base-t
+  - name: interface 0/18
+    type: 1000base-t
+  - name: interface 0/19
+    type: 1000base-t
+  - name: interface 0/20
+    type: 1000base-t
+  - name: interface 0/21
+    type: 1000base-t
+  - name: interface 0/22
+    type: 1000base-t
+  - name: interface 0/23
+    type: 1000base-t
+  - name: interface 0/24
+    type: 1000base-t
+  - name: interface 0/25
+    type: 1000base-x-sfp
+  - name: interface 0/26
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgeSwitch 24 500W
+  part_number: ES-24-500W
   power-ports:
   - maximum_draw: 500
     name: Power
     type: iec-60320-c14
-  slug: es-48-500w
+  slug: ubiquiti-es-24-500w
+  u_height: 1
+- comments: '[EdgeRouter 6 with POE](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgeRouter 6P
+  part_number: ER-6P
+  power-ports:
+  - maximum_draw: 16
+    name: 24VDC
+    type: dc-terminal
+  slug: ubiquiti-er-6p
+  u_height: 1
+- interfaces:
+  - name: lan0
+    type: 100base-tx
+  - name: lan1
+    type: 100base-tx
+  - name: wlan0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: Rocket M2 Titanium
+  part_number: Rocket M2 Titanium
+  slug: ubiquiti-rocket-m2-titanium
+  u_height: 0
+- comments: "[8\u2011Port GPON Optical Line Terminal Data Sheet](https://www.ui.com/downloads/ds/uf_gpon)\n"
+  console-ports:
+  - name: CONSOLE
+    type: rj-45
+  interfaces:
+  - mgmt_only: true
+    name: MGMT
+    type: 1000base-t
+  - name: pon1
+    type: gpon
+  - name: pon2
+    type: gpon
+  - name: pon3
+    type: gpon
+  - name: pon4
+    type: gpon
+  - name: pon5
+    type: gpon
+  - name: pon6
+    type: gpon
+  - name: pon7
+    type: gpon
+  - name: pon8
+    type: gpon
+  - name: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: SFP+ 2
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: "8\u2011Port GPON Optical Line Terminal"
+  module-bays:
+  - label: Power Supply 1
+    name: PSU1
+    position: PSU1
+  - label: Power Supply 2
+    name: PSU2
+    position: PSU2
+  part_number: UF-OLT
+  slug: ubiquiti-uf-olt
+  u_height: 1
+- comments: '[UniFi 6 Lite Access Point](https://store.ui.com/products/unifi-ap-6-lite)'
+  interfaces:
+  - name: lan0
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: U6-Lite
+  slug: ubiquiti-u6-lite
+  u_height: 0
+- comments: '[EdgePoint Router 8-Port](https://www.ui.com/downloads/datasheets/edgemax/EdgePoint_DS.pdf)'
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-t
+  - name: eth7
+    type: 1000base-t
+  - name: eth8
+    type: 1000base-x-sfp
+  - name: eth9
+    type: 1000base-x-sfp
+  - name: switch0
+    type: bridge
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgePoint Router 8-Port
+  part_number: EP-R8
+  power-ports:
+  - maximum_draw: 324
+    name: 54VDC
+    type: dc-terminal
+  slug: ubiquiti-edgepoint-router-8-port
+  u_height: 0
+- comments: 'Unifi Cloud Key Generation 1
+
+
+    PoE in 24V or USB-type C Power
+
+    '
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Cloud Key
+  part_number: uc-ck
+  power-ports:
+  - maximum_draw: 5
+    name: power1
+    type: usb-c
+  slug: ubiquiti-uc-ck
+  u_height: 1
+- comments: '[EdgeRouter X SFP - Advanced Gigabit Router with PoE and SFP](https://www.ui.com/edgemax/edgerouter-x-sfp/)'
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: ER-X-SFP
+  power-ports:
+  - maximum_draw: 5
+    name: 24VDC
+    type: dc-terminal
+  slug: ubiquiti-er-x-sfp
+  u_height: 1
+- airflow: passive
+  comments: '[UniFi Dream Machine](https://store.ui.com/collections/unifi-network-unifi-os-consoles/products/udm-us)
+
+
+    SOHO Security Gateway and Network Appliance (4) 1G LAN, (1) 1G WAN
+
+
+    Dimensions: 110 x 184.2 mm (4.33 x 7.25")
+
+    '
+  interfaces:
+  - label: Port 1 - LAN
+    name: port.1
+    type: 1000base-t
+  - label: Port 2 - LAN
+    name: port.2
+    type: 1000base-t
+  - label: Port 3 - LAN
+    name: port.3
+    type: 1000base-t
+  - label: Port 4 - LAN
+    name: port.4
+    type: 1000base-t
+  - label: Port 5 - WAN
+    name: port.5
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Dream Machine
+  part_number: UDM
+  power-ports:
+  - description: 100-240VAC/50-60 Hz
+    maximum_draw: 26
+    name: Supply
+    type: iec-60320-c8
+  slug: ubiquiti-udm
+  u_height: 0
+- comments: '[EdgeRouter X - Advanced Gigabit Ethernet Router](https://dl.ui.com/datasheets/edgemax/EdgeRouter_X_DS.pdf)'
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: ER-X
+  power-ports:
+  - maximum_draw: 5
+    name: 12VDC
+    type: dc-terminal
+  slug: ubiquiti-er-x
+  u_height: 1
+  weight: 215
+  weight_unit: g
+- interfaces:
+  - name: Port 1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - mgmt_only: true
+    name: Port 5
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Wlan 0
+    type: ieee802.11n
+  - name: Wlan 1
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi UAP InWall HD
+  part_number: UAP-IW-HD
+  slug: ubiquiti-uap-iw-hd
+  u_height: 0
+- comments: The eth0 and prs0 are permanently bridged as this is a L2 bridge device.
+    [](https://dl.ui.com/ds/wave-lr_ds.pdf)
+  interfaces:
+  - mgmt_only: true
+    name: br0
+    type: bridge
+  - label: Ethernet
+    name: eth0
+    type: 1000base-t
+  - label: Wireless
+    name: prs0
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UISP Wave LR
+  part_number: Wave-LR
+  slug: ubiquiti-wave-lr
+  u_height: 0
+  weight: 5.7
+  weight_unit: lb
+- comments: '[PowerBeam AC Gen2](https://www.ui.com/airmax/powerbeam-ac-gen2/)'
+  interfaces:
+  - name: lan0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: PowerBeam 5AC Gen2
+  part_number: PBE-5AC-Gen2
+  slug: ubiquiti-pbe-5ac-gen2
+  u_height: 0
+- interfaces:
+  - name: lan0
+    type: 100base-tx
+  - name: wlan0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: Rocket M2
+  part_number: Rocket M2
+  slug: ubiquiti-rocket-m2
+  u_height: 0
+- comments: '[UniFi 6 Enterprise Access Point](https://store.ui.com/products/u6-enterprise)'
+  interfaces:
+  - name: Port 1
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    type: 2.5gbase-t
+  - name: Wlan 0
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi U6 Access Point Enterprise
+  part_number: U6-Enterprise
+  slug: ubiquiti-u6-enterprise
+  u_height: 0
+  weight: 2.1
+  weight_unit: lb
+- comments: 'ath0 is setup to use ieee802.11ax as LTE currently doesn''t allow wireless
+
+    parameters to be specified despite the fact that the airFiber is a LTE-U
+
+    device.
+
+
+    The eth0 and ath0 are permanently bridged as this is a L2 bridge device.
+
+    '
+  interfaces:
+  - mgmt_only: true
+    name: br0
+    type: bridge
+  - label: Ethernet
+    name: eth0
+    type: 1000base-t
+  - label: Wireless
+    name: ath0
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: airFiber 5XHD
+  part_number: AF-5XHD
+  slug: ubiquiti-airfiber-af-5xhd
+  u_height: 0
+- comments: '[EdgeSwitch 16 XG](https://www.ui.com/edgemax/edgeswitch-16-xg/)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: interface 0/1
+    type: 10gbase-x-sfpp
+  - name: interface 0/2
+    type: 10gbase-x-sfpp
+  - name: interface 0/3
+    type: 10gbase-x-sfpp
+  - name: interface 0/4
+    type: 10gbase-x-sfpp
+  - name: interface 0/5
+    type: 10gbase-x-sfpp
+  - name: interface 0/6
+    type: 10gbase-x-sfpp
+  - name: interface 0/7
+    type: 10gbase-x-sfpp
+  - name: interface 0/8
+    type: 10gbase-x-sfpp
+  - name: interface 0/9
+    type: 10gbase-x-sfpp
+  - name: interface 0/10
+    type: 10gbase-x-sfpp
+  - name: interface 0/11
+    type: 10gbase-x-sfpp
+  - name: interface 0/12
+    type: 10gbase-x-sfpp
+  - name: interface 0/13
+    type: 10gbase-t
+  - name: interface 0/14
+    type: 10gbase-t
+  - name: interface 0/15
+    type: 10gbase-t
+  - name: interface 0/16
+    type: 10gbase-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgeSwitch 16 XG
+  part_number: ES-16-XG
+  power-ports:
+  - maximum_draw: 36
+    name: Power
+    type: iec-60320-c14
+  slug: ubiquiti-es-16-xg
+  u_height: 1
+- comments: '[EdgeRouter Pro](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-x-sfp
+  - name: eth7
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgeRouter Pro
+  part_number: ERPro-8
+  power-ports:
+  - maximum_draw: 40
+    name: PS
+    type: iec-60320-c6
+  slug: ubiquiti-edgerouter-pro
+  u_height: 1
+- comments: '[EdgeRouter 12 with PoE](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-t
+  - name: eth7
+    type: 1000base-t
+  - name: eth8
+    type: 1000base-t
+  - name: eth9
+    type: 1000base-t
+  - name: eth10
+    type: 1000base-x-sfp
+  - name: eth11
+    type: 1000base-x-sfp
+  - name: switch0
+    type: bridge
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgeRouter 12P
+  part_number: ER-12P
+  power-ports:
+  - maximum_draw: 5
+    name: 24VDC
+    type: dc-terminal
+  slug: ubiquiti-er-12p
+  u_height: 1
+- comments: 'ubond0 is setup to use ieee802.11ax as LTE currently doesn''t allow wireless
+
+    parameters to be specified despite the fact that the airFiber is a LTE-U
+
+    device.
+
+
+    The eth0 and ubond0 are permanently bridged as this is a L2 bridge device.
+
+
+    [Ubiquiti AF60-LR Data Sheet](https://dl.ui.com/ds/af60-lr_ds)
+
+    '
+  interfaces:
+  - mgmt_only: true
+    name: br0
+    type: bridge
+  - label: Ethernet
+    name: eth0
+    type: 1000base-t
+  - label: Wireless
+    name: ath0
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: airFiber 60 LR
+  part_number: AF60-LR
+  slug: ubiquiti-airfiber-60-lr
+  u_height: 0
+- comments: 'Unifi Cloud Key Generation 2 Plus
+
+
+    PoE in 24V or USB-type C Power
+
+    '
+  console-ports:
+  - name: console
+    type: usb-c
+  interfaces:
+  - mgmt_only: true
+    name: eth0
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: Cloud Key Gen2 Plus
+  part_number: uck-g2-plus
+  power-ports:
+  - maximum_draw: 13
+    name: power1
+    type: usb-c
+  slug: ubiquiti-cloud-key-gen2-plus
+  u_height: 1
+- interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+  - name: '9'
+    type: 1000base-t
+  - name: '10'
+    type: 1000base-t
+  - name: '11'
+    type: 1000base-t
+  - name: '12'
+    type: 1000base-t
+  - name: '13'
+    type: 1000base-t
+  - name: '14'
+    type: 1000base-t
+  - name: '15'
+    type: 1000base-t
+  - name: '16'
+    type: 1000base-t
+  - name: '17'
+    type: 10gbase-x-sfpp
+  - name: '18'
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgePoint EP-S16
+  part_number: EP-S16
+  slug: ubiquiti-edgepoint-ep-s16
+  u_height: 0
+- airflow: passive
+  comments: '[UISP Router](https://store.ui.com/collections/operator-isp-infrastructure/products/uisp-router)'
+  interfaces:
+  - label: '1'
+    name: eth0
+    type: 1000base-t
+  - label: '2'
+    name: eth1
+    type: 1000base-t
+  - label: '3'
+    name: eth2
+    type: 1000base-t
+  - label: '4'
+    name: eth3
+    type: 1000base-t
+  - label: '5'
+    name: eth4
+    type: 1000base-t
+  - label: '6'
+    name: eth5
+    type: 1000base-t
+  - label: '7'
+    name: eth6
+    type: 1000base-t
+  - label: '8'
+    name: eth7
+    type: 1000base-t
+  - label: '9'
+    name: eth8
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UISP Router
+  part_number: UISP-R
+  power-ports:
+  - allocated_draw: 10
+    maximum_draw: 120
+    name: Input 27V
+    type: dc-terminal
+  slug: ubiquiti-uisp-router
+  u_height: 0
+  weight: 1.32
+  weight_unit: lb
+- comments: 'UniFi Switch 48 Pro, Gen2, (48) Gigabit, (4) SFP+
+
+
+    Dimensions: 442.4 x 285.4 x 43.7 mm (17.42 x 15.73 x 1.72")
+
+    '
+  interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+  - name: Port 9
+    type: 1000base-t
+  - name: Port 10
+    type: 1000base-t
+  - name: Port 11
+    type: 1000base-t
+  - name: Port 12
+    type: 1000base-t
+  - name: Port 13
+    type: 1000base-t
+  - name: Port 14
+    type: 1000base-t
+  - name: Port 15
+    type: 1000base-t
+  - name: Port 16
+    type: 1000base-t
+  - name: Port 17
+    type: 1000base-t
+  - name: Port 18
+    type: 1000base-t
+  - name: Port 19
+    type: 1000base-t
+  - name: Port 20
+    type: 1000base-t
+  - name: Port 21
+    type: 1000base-t
+  - name: Port 22
+    type: 1000base-t
+  - name: Port 23
+    type: 1000base-t
+  - name: Port 24
+    type: 1000base-t
+  - name: Port 25
+    type: 1000base-t
+  - name: Port 26
+    type: 1000base-t
+  - name: Port 27
+    type: 1000base-t
+  - name: Port 28
+    type: 1000base-t
+  - name: Port 29
+    type: 1000base-t
+  - name: Port 30
+    type: 1000base-t
+  - name: Port 31
+    type: 1000base-t
+  - name: Port 32
+    type: 1000base-t
+  - name: Port 33
+    type: 1000base-t
+  - name: Port 34
+    type: 1000base-t
+  - name: Port 35
+    type: 1000base-t
+  - name: Port 36
+    type: 1000base-t
+  - name: Port 37
+    type: 1000base-t
+  - name: Port 38
+    type: 1000base-t
+  - name: Port 39
+    type: 1000base-t
+  - name: Port 40
+    type: 1000base-t
+  - name: Port 41
+    type: 1000base-t
+  - name: Port 42
+    type: 1000base-t
+  - name: Port 43
+    type: 1000base-t
+  - name: Port 44
+    type: 1000base-t
+  - name: Port 45
+    type: 1000base-t
+  - name: Port 46
+    type: 1000base-t
+  - name: Port 47
+    type: 1000base-t
+  - name: Port 48
+    type: 1000base-t
+  - name: SFP+ 49
+    type: 10gbase-x-sfpp
+  - name: SFP+ 50
+    type: 10gbase-x-sfpp
+  - name: SFP+ 51
+    type: 10gbase-x-sfpp
+  - name: SFP+ 52
+    type: 10gbase-x-sfpp
+  is_full_depth: true
+  manufacturer: Ubiquiti
+  model: UniFi Switch 48 Pro
+  part_number: USW-Pro-48
+  power-ports:
+  - maximum_draw: 60
+    name: Input
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-switch-48-pro
+  u_height: 1
+- comments: '[EdgeSwitch Lite](https://www.ui.com/edgemax/edgeswitch-lite/)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: interface 0/1
+    type: 1000base-t
+  - name: interface 0/2
+    type: 1000base-t
+  - name: interface 0/3
+    type: 1000base-t
+  - name: interface 0/4
+    type: 1000base-t
+  - name: interface 0/5
+    type: 1000base-t
+  - name: interface 0/6
+    type: 1000base-t
+  - name: interface 0/7
+    type: 1000base-t
+  - name: interface 0/8
+    type: 1000base-t
+  - name: interface 0/9
+    type: 1000base-t
+  - name: interface 0/10
+    type: 1000base-t
+  - name: interface 0/11
+    type: 1000base-t
+  - name: interface 0/12
+    type: 1000base-t
+  - name: interface 0/13
+    type: 1000base-t
+  - name: interface 0/14
+    type: 1000base-t
+  - name: interface 0/15
+    type: 1000base-t
+  - name: interface 0/16
+    type: 1000base-t
+  - name: interface 0/17
+    type: 1000base-t
+  - name: interface 0/18
+    type: 1000base-t
+  - name: interface 0/19
+    type: 1000base-t
+  - name: interface 0/20
+    type: 1000base-t
+  - name: interface 0/21
+    type: 1000base-t
+  - name: interface 0/22
+    type: 1000base-t
+  - name: interface 0/23
+    type: 1000base-t
+  - name: interface 0/24
+    type: 1000base-t
+  - name: interface 0/25
+    type: 1000base-t
+  - name: interface 0/26
+    type: 1000base-t
+  - name: interface 0/27
+    type: 1000base-t
+  - name: interface 0/28
+    type: 1000base-t
+  - name: interface 0/29
+    type: 1000base-t
+  - name: interface 0/30
+    type: 1000base-t
+  - name: interface 0/31
+    type: 1000base-t
+  - name: interface 0/32
+    type: 1000base-t
+  - name: interface 0/33
+    type: 1000base-t
+  - name: interface 0/34
+    type: 1000base-t
+  - name: interface 0/35
+    type: 1000base-t
+  - name: interface 0/36
+    type: 1000base-t
+  - name: interface 0/37
+    type: 1000base-t
+  - name: interface 0/38
+    type: 1000base-t
+  - name: interface 0/39
+    type: 1000base-t
+  - name: interface 0/40
+    type: 1000base-t
+  - name: interface 0/41
+    type: 1000base-t
+  - name: interface 0/42
+    type: 1000base-t
+  - name: interface 0/43
+    type: 1000base-t
+  - name: interface 0/44
+    type: 1000base-t
+  - name: interface 0/45
+    type: 1000base-t
+  - name: interface 0/46
+    type: 1000base-t
+  - name: interface 0/47
+    type: 1000base-t
+  - name: interface 0/48
+    type: 1000base-t
+  - name: interface 0/49
+    type: 10gbase-x-sfpp
+  - name: interface 0/50
+    type: 10gbase-x-sfpp
+  - name: interface 0/51
+    type: 1000base-x-sfp
+  - name: interface 0/52
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgeSwitch 48 Lite
+  part_number: ES-48-LITE
+  power-ports:
+  - maximum_draw: 56
+    name: Power
+    type: iec-60320-c14
+  slug: ubiquiti-es-48-lite
+  u_height: 1
+- comments: '[Unifi AP AC Lite](https://www.ui.com/unifi/unifi-ap-ac-lite/)'
+  interfaces:
+  - name: lan0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UAP-AC-LITE
+  slug: ubiquiti-uap-ac-lite
+  u_height: 0
+- comments: "UniFi Security Gateway Pro, (2) Gigabit LAN, (2) 1 Gbps RJ45/SFP Combination\
+    \ WAN Ports*\n\nDimensions: 484 x 44 x 164 mm (19.06 x 1.73 x 6.46\")\n\n(*, see\
+    \ datasheet) The USG\u2011PRO\u20114 WAN port, as a result of being a combination\
+    \ SFP/GigE port, is a pure 1Gbps port \u2013 it is incapable of both 10Mbps and\
+    \ 100Mbps FDX/HDX settings\n"
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: WAN 1
+    type: 1000base-t
+  - name: WAN 2
+    type: 1000base-t
+  - name: SFP 1
+    type: 1000base-x-sfp
+  - name: SFP 2
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Security Gateway Pro
+  part_number: USG-PRO-4
+  power-ports:
+  - maximum_draw: 60
+    name: Supply
+    type: iec-60320-c6
+  slug: ubiquiti-unifi-security-gateway-pro
+  u_height: 1
+- comments: 'Network Video Recorder with four bays,
+
+
+    Dimensions: 442.4 x 325 x 43.7 mm (17.4 x 12.8 x 1.7")
+
+    '
+  interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: SFP+ 2 (LAN)
+    type: 10gbase-x-sfpp
+  is_full_depth: true
+  manufacturer: Ubiquiti
+  model: UniFi Protect Network Video Recorder
+  part_number: UNVR
+  power-ports:
+  - maximum_draw: 100
+    name: Supply
+    type: iec-60320-c14
+  - maximum_draw: 100
+    name: USP-RPS connector for PSU failover
+    type: iec-60320-c20
+  slug: ubiquiti-unifi-protect-network-video-recorder
+  u_height: 1
+- comments: '[PowerBeam AC](https://www.ui.com/airmax/powerbeam-ac/)'
+  interfaces:
+  - name: lan0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: PowerBeam 5AC 300
+  part_number: PBE-5AC-300
+  slug: ubiquiti-pbe-5ac-300
+  u_height: 0
+- comments: '[EdgeSwitch 12 Fiber - Managed Gigabit Fiber Switch](https://www.ui.com/edgemax/edgeswitch-12f/)'
+  console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - name: 0/1
+    type: 1000base-x-sfp
+  - name: 0/2
+    type: 1000base-x-sfp
+  - name: 0/3
+    type: 1000base-x-sfp
+  - name: 0/4
+    type: 1000base-x-sfp
+  - name: 0/5
+    type: 1000base-x-sfp
+  - name: 0/6
+    type: 1000base-x-sfp
+  - name: 0/7
+    type: 1000base-x-sfp
+  - name: 0/8
+    type: 1000base-x-sfp
+  - name: 0/9
+    type: 1000base-x-sfp
+  - name: 0/10
+    type: 1000base-x-sfp
+  - name: 0/11
+    type: 1000base-x-sfp
+  - name: 0/12
+    type: 1000base-x-sfp
+  - name: 0/13
+    type: 1000base-t
+  - name: 0/14
+    type: 1000base-t
+  - name: 0/15
+    type: 1000base-t
+  - name: 0/16
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: ES-12F
+  power-ports:
+  - description: 100-240VAC/50-60 Hz
+    maximum_draw: 56
+    name: AC
+    type: iec-60320-c14
+  - maximum_draw: 56
+    name: 25VDC
+    type: dc-terminal
+  slug: ubiquiti-es-12f
+  u_height: 1
+- comments: 'UniFi Switch 24 Pro PoE (50W + max. 400W PoE), Gen2, (24) Gigabit, (1-16)
+    Gigabit PoE+ IEEE 802.3af/at, (17-24) Gigabit 60W PoE++ IEEE 802.3bt, (2) SFP+
+
+
+    Dimensions: 442.4 x 285.4 x 43.7 mm (17.42 x 11.24 x 1.72")
+
+    '
+  interfaces:
+  - name: Port 1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 17
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: Port 18
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: Port 19
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: Port 20
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: Port 21
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: Port 22
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: Port 23
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: Port 24
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: SFP+ 25
+    type: 10gbase-x-sfpp
+  - name: SFP+ 26
+    type: 10gbase-x-sfpp
+  is_full_depth: true
+  manufacturer: Ubiquiti
+  model: UniFi Switch 24 Pro PoE Gen2
+  part_number: USW-PRO-24-POE
+  power-ports:
+  - maximum_draw: 450
+    name: Input
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-switch-24-pro-poe-gen2
+  u_height: 1
+- comments: '[UniFi Switch PoE 8 (150W)](https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-8-150w)
+    (20W + max. 130W PoE), Gen1, (8) Gigabit PoE+ IEEE 802.3af/at and 24V Passive
+    PoE, (2) SFP
+
+
+    Dimensions: 235 x 43 x 204 mm (9.25 x 1.69 x 8.03")
+
+    '
+  interfaces:
+  - name: Port 1 (PoE)
+    type: 1000base-t
+  - name: Port 2 (PoE)
+    type: 1000base-t
+  - name: Port 3 (PoE)
+    type: 1000base-t
+  - name: Port 4 (PoE)
+    type: 1000base-t
+  - name: Port 5 (PoE)
+    type: 1000base-t
+  - name: Port 6 (PoE)
+    type: 1000base-t
+  - name: Port 7 (PoE)
+    type: 1000base-t
+  - name: Port 8 (PoE)
+    type: 1000base-t
+  - name: SFP 1
+    type: 1000base-x-sfp
+  - name: SFP 2
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: US-8-150W
+  power-ports:
+  - maximum_draw: 150
+    name: Input
+    type: iec-60320-c14
+  slug: ubiquiti-us-8-150w
+  u_height: 0
+- interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: NanoStation LOCO M5
+  part_number: nanostation loco m5
+  slug: ubiquiti-nanostation-loco-m5
+  u_height: 0
+- comments: '[UniFi Security Gateway - Enterprise Gateway Router with Gigabit Ethernet](https://www.ui.com/unifi-routing/usg/)'
+  console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - label: WAN 1
+    name: eth0
+    type: 1000base-t
+  - label: LAN 1
+    name: eth1
+    type: 1000base-t
+  - label: WAN 2/LAN 2
+    name: eth2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: USG
+  power-ports:
+  - maximum_draw: 7
+    name: 12VDC
+    type: dc-terminal
+  slug: ubiquiti-usg
   u_height: 1
 - comments: '[Unifi AP AC Pro](https://www.ui.com/unifi/unifi-ap-ac-pro/)'
   interfaces:
@@ -4518,7 +3140,1045 @@ models:
   manufacturer: Ubiquiti
   model: UAP AC Pro
   part_number: UAP-AC-Pro
-  slug: uap-ac-pro
+  slug: ubiquiti-uap-ac-pro
+  u_height: 0
+- comments: '[UniFi FlexHD Access Point](https://store.ui.com/products/unifi-flexhd)'
+  interfaces:
+  - name: lan0
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UAP-FlexHD
+  slug: ubiquiti-uap-flexhd
+  u_height: 0
+- comments: '[EdgeRouter 4](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgeRouter 4
+  part_number: ER-4
+  power-ports:
+  - description: 100-240VAC/50-60 Hz
+    maximum_draw: 13
+    name: AC
+    type: iec-60320-c14
+  slug: ubiquiti-er-4
+  u_height: 1
+- comments: 'UniFi Switch 24 PoE 500W (30W + max. 470W PoE), Gen1, (24) Gigabit PoE+
+    IEEE 802.3af/at and 24V Passive PoE, (2) SFP
+
+
+    Dimensions: 485 x 43.7 x 285.4 mm (19.09 x 1.72 x 11.24")
+
+    '
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Port 1 (PoE)
+    type: 1000base-t
+  - name: Port 2 (PoE)
+    type: 1000base-t
+  - name: Port 3 (PoE)
+    type: 1000base-t
+  - name: Port 4 (PoE)
+    type: 1000base-t
+  - name: Port 5 (PoE)
+    type: 1000base-t
+  - name: Port 6 (PoE)
+    type: 1000base-t
+  - name: Port 7 (PoE)
+    type: 1000base-t
+  - name: Port 8 (PoE)
+    type: 1000base-t
+  - name: Port 9 (PoE)
+    type: 1000base-t
+  - name: Port 10 (PoE)
+    type: 1000base-t
+  - name: Port 11 (PoE)
+    type: 1000base-t
+  - name: Port 12 (PoE)
+    type: 1000base-t
+  - name: Port 13 (PoE)
+    type: 1000base-t
+  - name: Port 14 (PoE)
+    type: 1000base-t
+  - name: Port 15 (PoE)
+    type: 1000base-t
+  - name: Port 16 (PoE)
+    type: 1000base-t
+  - name: Port 17 (PoE)
+    type: 1000base-t
+  - name: Port 18 (PoE)
+    type: 1000base-t
+  - name: Port 19 (PoE)
+    type: 1000base-t
+  - name: Port 20 (PoE)
+    type: 1000base-t
+  - name: Port 21 (PoE)
+    type: 1000base-t
+  - name: Port 22 (PoE)
+    type: 1000base-t
+  - name: Port 23 (PoE)
+    type: 1000base-t
+  - name: Port 24 (PoE)
+    type: 1000base-t
+  - name: SFP 1
+    type: 1000base-x-sfp
+  - name: SFP 2
+    type: 1000base-x-sfp
+  is_full_depth: true
+  manufacturer: Ubiquiti
+  model: UniFi Switch 24 PoE 500W Gen1
+  part_number: US-24-500W
+  power-ports:
+  - maximum_draw: 500
+    name: Input
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-switch-24-poe-500w-gen1
+  u_height: 1
+- interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: NanoStation m5
+  part_number: nanostation m5
+  slug: ubiquiti-nanostation-m5
+  u_height: 0
+- comments: 'UniFi Switch 48 PoE 750W (64W + max. 686W PoE) Gen1, (48) Gigabit PoE+
+    IEEE 802.3af/at and 24V Passive PoE, (2) SFP+, (2) SFP
+
+
+    Dimensions: 485 x 43.7 x 374.6 mm (19.09 x 1.72 x 14.75")
+
+    '
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Port 1 (PoE)
+    type: 1000base-t
+  - name: Port 2 (PoE)
+    type: 1000base-t
+  - name: Port 3 (PoE)
+    type: 1000base-t
+  - name: Port 4 (PoE)
+    type: 1000base-t
+  - name: Port 5 (PoE)
+    type: 1000base-t
+  - name: Port 6 (PoE)
+    type: 1000base-t
+  - name: Port 7 (PoE)
+    type: 1000base-t
+  - name: Port 8 (PoE)
+    type: 1000base-t
+  - name: Port 9 (PoE)
+    type: 1000base-t
+  - name: Port 10 (PoE)
+    type: 1000base-t
+  - name: Port 11 (PoE)
+    type: 1000base-t
+  - name: Port 12 (PoE)
+    type: 1000base-t
+  - name: Port 13 (PoE)
+    type: 1000base-t
+  - name: Port 14 (PoE)
+    type: 1000base-t
+  - name: Port 15 (PoE)
+    type: 1000base-t
+  - name: Port 16 (PoE)
+    type: 1000base-t
+  - name: Port 17 (PoE)
+    type: 1000base-t
+  - name: Port 18 (PoE)
+    type: 1000base-t
+  - name: Port 19 (PoE)
+    type: 1000base-t
+  - name: Port 20 (PoE)
+    type: 1000base-t
+  - name: Port 21 (PoE)
+    type: 1000base-t
+  - name: Port 22 (PoE)
+    type: 1000base-t
+  - name: Port 23 (PoE)
+    type: 1000base-t
+  - name: Port 24 (PoE)
+    type: 1000base-t
+  - name: Port 25 (PoE)
+    type: 1000base-t
+  - name: Port 26 (PoE)
+    type: 1000base-t
+  - name: Port 27 (PoE)
+    type: 1000base-t
+  - name: Port 28 (PoE)
+    type: 1000base-t
+  - name: Port 29 (PoE)
+    type: 1000base-t
+  - name: Port 30 (PoE)
+    type: 1000base-t
+  - name: Port 31 (PoE)
+    type: 1000base-t
+  - name: Port 32 (PoE)
+    type: 1000base-t
+  - name: Port 33 (PoE)
+    type: 1000base-t
+  - name: Port 34 (PoE)
+    type: 1000base-t
+  - name: Port 35 (PoE)
+    type: 1000base-t
+  - name: Port 36 (PoE)
+    type: 1000base-t
+  - name: Port 37 (PoE)
+    type: 1000base-t
+  - name: Port 38 (PoE)
+    type: 1000base-t
+  - name: Port 39 (PoE)
+    type: 1000base-t
+  - name: Port 40 (PoE)
+    type: 1000base-t
+  - name: Port 41 (PoE)
+    type: 1000base-t
+  - name: Port 42 (PoE)
+    type: 1000base-t
+  - name: Port 43 (PoE)
+    type: 1000base-t
+  - name: Port 44 (PoE)
+    type: 1000base-t
+  - name: Port 45 (PoE)
+    type: 1000base-t
+  - name: Port 46 (PoE)
+    type: 1000base-t
+  - name: Port 47 (PoE)
+    type: 1000base-t
+  - name: Port 48 (PoE)
+    type: 1000base-t
+  - name: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: SFP+ 2
+    type: 10gbase-x-sfpp
+  - name: SFP 1
+    type: 1000base-x-sfp
+  - name: SFP 2
+    type: 1000base-x-sfp
+  is_full_depth: true
+  manufacturer: Ubiquiti
+  model: UniFi Switch 48 PoE 750W Gen1
+  part_number: US-48-750W
+  power-ports:
+  - maximum_draw: 750
+    name: Input
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-switch-48-poe-750w-gen1
+  u_height: 1
+- comments: 'UniFi Switch Pro Aggregation, 10G 28-Port and 25G 4-Port Managed Aggregation
+    Switch, 100W, (28) SFP+ (4) SFP28
+
+
+    Dimensions: 442 x 325 x 44 mm (17.4 x 12.8 x 1.7")
+
+    '
+  interfaces:
+  - name: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: SFP+ 2
+    type: 10gbase-x-sfpp
+  - name: SFP+ 3
+    type: 10gbase-x-sfpp
+  - name: SFP+ 4
+    type: 10gbase-x-sfpp
+  - name: SFP+ 5
+    type: 10gbase-x-sfpp
+  - name: SFP+ 6
+    type: 10gbase-x-sfpp
+  - name: SFP+ 7
+    type: 10gbase-x-sfpp
+  - name: SFP+ 8
+    type: 10gbase-x-sfpp
+  - name: SFP+ 9
+    type: 10gbase-x-sfpp
+  - name: SFP+ 10
+    type: 10gbase-x-sfpp
+  - name: SFP+ 11
+    type: 10gbase-x-sfpp
+  - name: SFP+ 12
+    type: 10gbase-x-sfpp
+  - name: SFP+ 13
+    type: 10gbase-x-sfpp
+  - name: SFP+ 14
+    type: 10gbase-x-sfpp
+  - name: SFP+ 15
+    type: 10gbase-x-sfpp
+  - name: SFP+ 16
+    type: 10gbase-x-sfpp
+  - name: SFP+ 17
+    type: 10gbase-x-sfpp
+  - name: SFP+ 18
+    type: 10gbase-x-sfpp
+  - name: SFP+ 19
+    type: 10gbase-x-sfpp
+  - name: SFP+ 20
+    type: 10gbase-x-sfpp
+  - name: SFP+ 21
+    type: 10gbase-x-sfpp
+  - name: SFP+ 22
+    type: 10gbase-x-sfpp
+  - name: SFP+ 23
+    type: 10gbase-x-sfpp
+  - name: SFP+ 24
+    type: 10gbase-x-sfpp
+  - name: SFP+ 25
+    type: 10gbase-x-sfpp
+  - name: SFP+ 26
+    type: 10gbase-x-sfpp
+  - name: SFP+ 27
+    type: 10gbase-x-sfpp
+  - name: SFP+ 28
+    type: 10gbase-x-sfpp
+  - name: SFP28 29
+    type: 25gbase-x-sfp28
+  - name: SFP28 30
+    type: 25gbase-x-sfp28
+  - name: SFP28 31
+    type: 25gbase-x-sfp28
+  - name: SFP28 32
+    type: 25gbase-x-sfp28
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Switch Pro Aggregation
+  part_number: USW-Pro-Aggregation
+  power-ports:
+  - maximum_draw: 100
+    name: Universal AC input
+    type: iec-60320-c14
+  - name: USP-RPS DC input
+    type: ubiquiti-smartpower
+  slug: ubiquiti-unifi-switch-pro-aggregation
+  u_height: 1
+- comments: 'UniFi Switch Lite 8 PoE (8) Gigabit, (1-4) Gigabit PoE+ IEEE 802.3af/at
+
+
+    Dimensions: 99.6 x 163.7 x 31.7 mm (3.92 x 6.44 x 1.25")
+
+    '
+  interfaces:
+  - name: Port 1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Switch Lite 8 PoE
+  part_number: USW-Lite-8-PoE
+  power-ports:
+  - maximum_draw: 52
+    name: Input
+    type: nema-5-15p
+  slug: ubiquiti-unifi-switch-lite-8-poe
+  u_height: 1
+- comments: '[EdgePoint Router 6-Port](https://www.ui.com/downloads/datasheets/edgemax/EdgePoint_DS.pdf)'
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-x-sfp
+  - name: switch0
+    type: bridge
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgePoint Router 6-Port
+  part_number: EP-R6
+  power-ports:
+  - maximum_draw: 72
+    name: 24VDC
+    type: dc-terminal
+  slug: ubiquiti-edgepoint-router-6-port
+  u_height: 0
+- comments: '[EdgeRouter 8](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-t
+  - name: eth7
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgeRouter 8
+  part_number: ER-8
+  power-ports:
+  - description: 100-240VAC/50-60 Hz
+    maximum_draw: 35
+    name: AC
+    type: iec-60320-c6
+  slug: ubiquiti-er-8
+  u_height: 1
+- interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: Nanostation 5AC
+  part_number: NS-5AC
+  slug: ubiquiti-nanostation-5ac
+  u_height: 0
+- comments: 'UniFi Switch 24 PoE 250W (30W + max. 220W PoE), Gen1, (24) Gigabit PoE+
+    IEEE 802.3af/at and 24V Passive PoE, (2) SFP
+
+
+    Dimensions: 485 x 43.7 x 285.4 mm (19.09 x 1.72 x 11.24")
+
+    '
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: Port 1 (PoE)
+    type: 1000base-t
+  - name: Port 2 (PoE)
+    type: 1000base-t
+  - name: Port 3 (PoE)
+    type: 1000base-t
+  - name: Port 4 (PoE)
+    type: 1000base-t
+  - name: Port 5 (PoE)
+    type: 1000base-t
+  - name: Port 6 (PoE)
+    type: 1000base-t
+  - name: Port 7 (PoE)
+    type: 1000base-t
+  - name: Port 8 (PoE)
+    type: 1000base-t
+  - name: Port 9 (PoE)
+    type: 1000base-t
+  - name: Port 10 (PoE)
+    type: 1000base-t
+  - name: Port 11 (PoE)
+    type: 1000base-t
+  - name: Port 12 (PoE)
+    type: 1000base-t
+  - name: Port 13 (PoE)
+    type: 1000base-t
+  - name: Port 14 (PoE)
+    type: 1000base-t
+  - name: Port 15 (PoE)
+    type: 1000base-t
+  - name: Port 16 (PoE)
+    type: 1000base-t
+  - name: Port 17 (PoE)
+    type: 1000base-t
+  - name: Port 18 (PoE)
+    type: 1000base-t
+  - name: Port 19 (PoE)
+    type: 1000base-t
+  - name: Port 20 (PoE)
+    type: 1000base-t
+  - name: Port 21 (PoE)
+    type: 1000base-t
+  - name: Port 22 (PoE)
+    type: 1000base-t
+  - name: Port 23 (PoE)
+    type: 1000base-t
+  - name: Port 24 (PoE)
+    type: 1000base-t
+  - name: SFP 1
+    type: 1000base-x-sfp
+  - name: SFP 2
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Switch 24 PoE 250W Gen1
+  part_number: US-24-250W
+  power-ports:
+  - maximum_draw: 250
+    name: Input
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-switch-24-poe-250w-gen1
+  u_height: 1
+- airflow: front-to-rear
+  comments: '[UniFi Dream Machine Pro](https://store.ui.com/products/udm-pro)
+
+
+    Enterprise Security Gateway and Network Appliance with 10G SFP+, (8) 1G LAN, (1)
+    1G WAN, (1) 1/10G SFP+ LAN, (1) 1/10G SFP+ WAN
+
+
+    Dimensions: 442.4 x 43.7 x 285.6 mm (17.42 x 1.72 x 11.24")
+
+    '
+  interfaces:
+  - label: Port 1 - LAN
+    name: port.1
+    type: 1000base-t
+  - label: Port 2 - LAN
+    name: port.2
+    type: 1000base-t
+  - label: Port 3 - LAN
+    name: port.3
+    type: 1000base-t
+  - label: Port 4 - LAN
+    name: port.4
+    type: 1000base-t
+  - label: Port 5 - LAN
+    name: port.5
+    type: 1000base-t
+  - label: Port 6 - LAN
+    name: port.6
+    type: 1000base-t
+  - label: Port 7 - LAN
+    name: port.7
+    type: 1000base-t
+  - label: Port 8 - LAN
+    name: port.8
+    type: 1000base-t
+  - label: Port 9 - WAN 1
+    name: port.9
+    type: 1000base-t
+  - label: Port 10 - SFP+ WAN 2
+    name: port.10
+    type: 10gbase-x-sfpp
+  - name: port.11
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Dream Machine Pro
+  part_number: UDM-Pro
+  power-ports:
+  - description: 100-240VAC/50-60 Hz
+    maximum_draw: 33
+    name: ps1
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-dream-machine-pro
+  u_height: 1
+- interfaces:
+  - name: lan0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: PowerBeam M2 400
+  part_number: PBE-M2-400
+  slug: ubiquiti-powerbeam-m2-400
+  u_height: 0
+- interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: PicoStation M2
+  part_number: picostation m2
+  slug: ubiquiti-picostation-m2
+  u_height: 0
+- interfaces:
+  - name: eth0
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UAP pro
+  part_number: UAP-Pro
+  slug: ubiquiti-uap-pro
+  u_height: 0
+- comments: '[UniFi 6 Professional Access Point](https://store.ui.com/products/unifi-ap6-professional)'
+  interfaces:
+  - mgmt_only: true
+    name: Port 1
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Wlan 0
+    type: ieee802.11n
+  - name: Wlan 1
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: Unifi U6 Access Point Professional
+  part_number: U6-PRO
+  slug: ubiquiti-u6-pro
+  u_height: 0
+- comments: 'UniFi Switch 48 PoE (40W), Gen2, (48) Gigabit, (1-32) Gigabit (4) 1G
+    SFP
+
+
+    Dimensions: 442.4 x 285 x 43.7 mm (17.42 x 11.22 x 1.72")
+
+    '
+  interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+  - name: Port 9
+    type: 1000base-t
+  - name: Port 10
+    type: 1000base-t
+  - name: Port 11
+    type: 1000base-t
+  - name: Port 12
+    type: 1000base-t
+  - name: Port 13
+    type: 1000base-t
+  - name: Port 14
+    type: 1000base-t
+  - name: Port 15
+    type: 1000base-t
+  - name: Port 16
+    type: 1000base-t
+  - name: Port 17
+    type: 1000base-t
+  - name: Port 18
+    type: 1000base-t
+  - name: Port 19
+    type: 1000base-t
+  - name: Port 20
+    type: 1000base-t
+  - name: Port 21
+    type: 1000base-t
+  - name: Port 22
+    type: 1000base-t
+  - name: Port 23
+    type: 1000base-t
+  - name: Port 24
+    type: 1000base-t
+  - name: Port 25
+    type: 1000base-t
+  - name: Port 26
+    type: 1000base-t
+  - name: Port 27
+    type: 1000base-t
+  - name: Port 28
+    type: 1000base-t
+  - name: Port 29
+    type: 1000base-t
+  - name: Port 30
+    type: 1000base-t
+  - name: Port 31
+    type: 1000base-t
+  - name: Port 32
+    type: 1000base-t
+  - name: Port 33
+    type: 1000base-t
+  - name: Port 34
+    type: 1000base-t
+  - name: Port 35
+    type: 1000base-t
+  - name: Port 36
+    type: 1000base-t
+  - name: Port 37
+    type: 1000base-t
+  - name: Port 38
+    type: 1000base-t
+  - name: Port 39
+    type: 1000base-t
+  - name: Port 40
+    type: 1000base-t
+  - name: Port 41
+    type: 1000base-t
+  - name: Port 42
+    type: 1000base-t
+  - name: Port 43
+    type: 1000base-t
+  - name: Port 44
+    type: 1000base-t
+  - name: Port 45
+    type: 1000base-t
+  - name: Port 46
+    type: 1000base-t
+  - name: Port 47
+    type: 1000base-t
+  - name: Port 48
+    type: 1000base-t
+  - name: SFP 49
+    type: 1000base-x-sfp
+  - name: SFP 50
+    type: 1000base-x-sfp
+  - name: SFP 51
+    type: 1000base-x-sfp
+  - name: SFP 52
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Switch 48 Gen2
+  part_number: USW-48
+  power-ports:
+  - maximum_draw: 40
+    name: Input
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-switch-48-gen2
+  u_height: 1
+- comments: '[LiteAP AC](https://www.ui.com/airmax/liteap-ac/)'
+  interfaces:
+  - name: lan0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: LiteAP 120
+  slug: ubiquiti-liteap-120
+  u_height: 0
+- comments: 'ubond0 is setup to use ieee802.11ax as LTE currently doesn''t allow wireless
+
+    parameters to be specified despite the fact that the airFiber is a LTE-U
+
+    device.
+
+
+    The eth0 and ubond0 are permanently bridged as this is a L2 bridge device.
+
+    '
+  interfaces:
+  - mgmt_only: true
+    name: br0
+    type: bridge
+  - label: Ethernet
+    name: eth0
+    type: 1000base-t
+  - label: Wireless
+    name: ubond0
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: airFiber 60
+  part_number: AF-60
+  slug: ubiquiti-airfiber-60
+  u_height: 0
+- comments: 'UniFi Switch 48 Pro PoE (60W + max. 600W PoE), Gen2, (48) Gigabit, (1-40)
+    Gigabit PoE+ IEEE 802.3af/at, (41-48) 60W PoE++ IEEE 802.3bt, (4) SFP+
+
+
+    Dimensions: 442.4 x 399.6 x 43.7 mm (17.42 x 15.73 x 1.72")
+
+    '
+  interfaces:
+  - name: Port 1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 9
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 10
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 11
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 12
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 13
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 14
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 15
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 16
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 17
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 18
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 19
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 20
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 21
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 22
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 23
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 24
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 25
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 26
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 27
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 28
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 29
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 30
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 31
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 32
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 33
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 34
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 35
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 36
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 37
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 38
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 39
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 40
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 41
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: Port 42
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: Port 43
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: Port 44
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: Port 45
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: Port 46
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: Port 47
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: Port 48
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    type: 1000base-t
+  - name: SFP+ 49
+    type: 10gbase-x-sfpp
+  - name: SFP+ 50
+    type: 10gbase-x-sfpp
+  - name: SFP+ 51
+    type: 10gbase-x-sfpp
+  - name: SFP+ 52
+    type: 10gbase-x-sfpp
+  is_full_depth: true
+  manufacturer: Ubiquiti
+  model: UniFi Switch 48 Pro PoE Gen2
+  part_number: USW-PRO-48-POE
+  power-ports:
+  - maximum_draw: 660
+    name: Input
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-switch-48-pro-poe-gen2
+  u_height: 1
+- interfaces:
+  - name: eth0
+    type: 100base-tx
+  - description: 900MHz
+    name: wlan0
+    type: virtual
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: Rocket M900
+  part_number: rocket m900
+  slug: ubiquiti-rocket-m900
+  u_height: 0
+- comments: '[EdgeRouter Lite](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgeRouter Lite
+  part_number: ERLite-3
+  power-ports:
+  - maximum_draw: 12
+    name: 12VDC
+    type: dc-terminal
+  slug: ubiquiti-erlite-3
+  u_height: 1
+- comments: '[PowerBeam AC](https://www.ui.com/airmax/powerbeam-ac/)'
+  interfaces:
+  - name: lan0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: PowerBeam 5AC 500
+  part_number: PBE-5AC-500
+  slug: ubiquiti-pbe-5ac-500
   u_height: 0
 - comments: 'UniFi Switch 48 Gen1, non-PoE, (48) Gigabit, (2) SFP+, (2) SFP
 
@@ -4642,30 +4302,19 @@ models:
   - maximum_draw: 56
     name: Input
     type: iec-60320-c14
-  slug: unifi-switch-48-gen1
+  slug: ubiquiti-unifi-switch-48-gen1
   u_height: 1
-- comments: 'Unifi Cloud Key Generation 2
-
-
-    PoE in 24V or USB-type C Power
-
-    '
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    poe_mode: pd
-    poe_type: type1-ieee802.3af
+- interfaces:
+  - name: lan0
     type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
   is_full_depth: false
   manufacturer: Ubiquiti
-  model: Cloud Key Gen2
-  part_number: uck-g2
-  power-ports:
-  - maximum_draw: 5
-    name: power1
-    type: usb-c
-  slug: cloud-key-gen2
-  u_height: 1
+  model: NanoBeam 2AC-13
+  part_number: NBE-2AC-13
+  slug: ubiquiti-nanobeam-2ac-13
+  u_height: 0
 - comments: '[EdgeSwitch](https://www.ui.com/edgemax/edgeswitch/)'
   console-ports:
   - name: Console
@@ -4720,73 +4369,207 @@ models:
   - name: interface 0/24
     type: 1000base-t
   - name: interface 0/25
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: interface 0/26
+    type: 1000base-t
+  - name: interface 0/27
+    type: 1000base-t
+  - name: interface 0/28
+    type: 1000base-t
+  - name: interface 0/29
+    type: 1000base-t
+  - name: interface 0/30
+    type: 1000base-t
+  - name: interface 0/31
+    type: 1000base-t
+  - name: interface 0/32
+    type: 1000base-t
+  - name: interface 0/33
+    type: 1000base-t
+  - name: interface 0/34
+    type: 1000base-t
+  - name: interface 0/35
+    type: 1000base-t
+  - name: interface 0/36
+    type: 1000base-t
+  - name: interface 0/37
+    type: 1000base-t
+  - name: interface 0/38
+    type: 1000base-t
+  - name: interface 0/39
+    type: 1000base-t
+  - name: interface 0/40
+    type: 1000base-t
+  - name: interface 0/41
+    type: 1000base-t
+  - name: interface 0/42
+    type: 1000base-t
+  - name: interface 0/43
+    type: 1000base-t
+  - name: interface 0/44
+    type: 1000base-t
+  - name: interface 0/45
+    type: 1000base-t
+  - name: interface 0/46
+    type: 1000base-t
+  - name: interface 0/47
+    type: 1000base-t
+  - name: interface 0/48
+    type: 1000base-t
+  - name: interface 0/49
+    type: 10gbase-x-sfpp
+  - name: interface 0/50
+    type: 10gbase-x-sfpp
+  - name: interface 0/51
+    type: 1000base-x-sfp
+  - name: interface 0/52
     type: 1000base-x-sfp
   is_full_depth: false
   manufacturer: Ubiquiti
-  model: EdgeSwitch 24 500W
-  part_number: ES-24-500W
+  model: EdgeSwitch 48 500W
+  part_number: ES-48-500W
   power-ports:
   - maximum_draw: 500
     name: Power
     type: iec-60320-c14
-  slug: es-24-500w
+  slug: ubiquiti-es-48-500w
   u_height: 1
-- comments: '[PowerBeam AC](https://www.ui.com/airmax/powerbeam-ac/)'
+- comments: 'UniFi Switch 8 non-PoE, Gen1, Desk/WallMount, External VDC PSU, (8) Gigabit,
+    (1/8) Gigabit PoE Passthrough Port: 802.3af/at or 48V
+
+
+    Dimensions: 148.0 x 99.5 x 30.7 mm (5.83 x 3.92 x 1.21")
+
+    '
   interfaces:
-  - name: lan0
+  - name: Port 1 (PoE in)
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8 (PoE out)
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Switch 8 Gen1
+  part_number: US-8
+  power-ports:
+  - maximum_draw: 12
+    name: Input
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-switch-8-gen1
+  u_height: 0
+- interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: NanoStation M2
+  part_number: nanostation m2
+  slug: ubiquiti-nanostation-m2
+  u_height: 0
+- comments: '[NanoBeam AC Gen2](https://www.ui.com/airmax/nanobeam-ac-gen2/)'
+  interfaces:
+  - name: eth0
     type: 1000base-t
   - name: wlan0
     type: ieee802.11ac
   is_full_depth: false
   manufacturer: Ubiquiti
-  model: PowerBeam 5AC 300
-  part_number: PBE-5AC-300
-  slug: pbe-5ac-300
+  model: NanoBeam 5AC Gen2
+  part_number: NBE-5AC-Ge2n
+  slug: ubiquiti-nanobeam-5ac-gen2
   u_height: 0
-- interfaces:
-  - name: '1'
+- comments: '[EdgeSwitch 10X - Managed 10-Port Gigabit Switch with PoE Passthrough](https://www.ui.com/edgemax/edgeswitch-10x/)'
+  interfaces:
+  - name: gi1
     type: 1000base-t
-  - name: '2'
+  - name: gi2
     type: 1000base-t
-  - name: '3'
+  - name: gi3
     type: 1000base-t
-  - name: '4'
+  - name: gi4
     type: 1000base-t
-  - name: '5'
+  - name: gi5
     type: 1000base-t
-  - name: '6'
+  - name: gi6
     type: 1000base-t
-  - name: '7'
+  - name: gi7
     type: 1000base-t
-  - name: '8'
+  - name: gi8
     type: 1000base-t
-  - name: '9'
-    type: 1000base-t
-  - name: '10'
-    type: 1000base-t
-  - name: '11'
-    type: 1000base-t
-  - name: '12'
-    type: 1000base-t
-  - name: '13'
-    type: 1000base-t
-  - name: '14'
-    type: 1000base-t
-  - name: '15'
-    type: 1000base-t
-  - name: '16'
-    type: 1000base-t
-  - name: '17'
-    type: 10gbase-x-sfpp
-  - name: '18'
-    type: 10gbase-x-sfpp
+  - name: gi9
+    type: 1000base-x-sfp
+  - name: gi10
+    type: 1000base-x-sfp
   is_full_depth: false
   manufacturer: Ubiquiti
-  model: EdgePoint EP-S16
-  part_number: EP-S16
-  slug: edgepoint-ep-s16
+  model: ES-10X
+  power-ports:
+  - maximum_draw: 8
+    name: 24VDC
+    type: dc-terminal
+  slug: ubiquiti-es-10x
+  u_height: 1
+- comments: '[EdgeRouter 10X](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-t
+  - name: eth7
+    type: 1000base-t
+  - name: eth8
+    type: 1000base-t
+  - name: eth9
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgeRouter 10X
+  part_number: ER-10X
+  power-ports:
+  - maximum_draw: 8
+    name: 24VDC
+    type: dc-terminal
+  slug: ubiquiti-er-10x
+  u_height: 1
+- interfaces:
+  - name: eth0
+    type: 100base-tx
+  - description: 900MHz
+    name: wlan0
+    type: virtual
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: NanoStation LOCO M900
+  part_number: nanostation loco m900
+  slug: ubiquiti-nanostation-loco-m900
   u_height: 0
 - comments: 'UniFi Switch 24 non-PoE, Gen1, (24) Gigabit, (2) SFP
 
@@ -4858,8 +4641,64 @@ models:
   - maximum_draw: 25
     name: Input
     type: iec-60320-c14
-  slug: unifi-switch-24-gen1
+  slug: ubiquiti-unifi-switch-24-gen1
   u_height: 1
+- comments: 'ubond0 is setup to use ieee802.11ax as LTE currently doesn''t allow wireless
+
+    parameters to be specified despite the fact that the airFiber is a LTE-U
+
+    device.
+
+
+    The eth0 and ubond0 are permanently bridged as this is a L2 bridge device.
+
+
+    [Ubiquiti AF60-HD Data Sheet](https://dl.ui.com/ds/af60-hd_ds.pdf)
+
+    '
+  interfaces:
+  - mgmt_only: true
+    name: br0
+    type: bridge
+  - label: Ethernet
+    name: eth0
+    type: 1000base-t
+  - label: Wireless
+    name: ubond0
+    type: ieee802.11ax
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: airFiber 60 HD
+  part_number: AF60-HD
+  slug: ubiquiti-airfiber-60-hd
+  u_height: 0
+- interfaces:
+  - name: lan0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: Bullet M2
+  part_number: bullet m2
+  slug: ubiquiti-bullet-m2
+  u_height: 0
+- comments: '[Unifi Mesh](https://unifi-mesh.ui.com/)'
+  interfaces:
+  - name: main
+    type: 1000base-t
+  - name: secondary
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: Unifi AC Mesh Pro
+  part_number: UAP-AC-M-Pro
+  slug: ubiquiti-uap-ac-m-pro
+  u_height: 0
 - comments: 'UniFi Switch 16 PoE 150W (30W + max. 120W PoE), Gen1, (16) Gigabit PoE+
     IEEE 802.3af/at and 24V Passive PoE, (2) SFP
 
@@ -4915,10 +4754,153 @@ models:
   - maximum_draw: 150
     name: Input
     type: iec-60320-c14
-  slug: unifi-switch-16-poe-150w-gen1
+  slug: ubiquiti-unifi-switch-16-poe-150w-gen1
   u_height: 1
-- comments: 'UniFi Switch 24 PoE (25W + max. 95W PoE), Gen2, (24) Gigabit, (1-16)
-    Gigabit PoE+ IEEE 802.3af/at, (2) SFP
+- interfaces:
+  - name: lan0
+    type: 1000base-t
+  - name: wlan0
+    type: virtual
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: NanoBeam M5 19
+  part_number: NBE-M5-19
+  slug: ubiquiti-nbe-m5-19
+  u_height: 0
+- comments: '[UniFi 6 In-Wall Access Point](https://store.ui.com/products/access-point-wifi-6-in-wall)'
+  interfaces:
+  - name: Port 1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - mgmt_only: true
+    name: Port 5
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: Wlan 0
+    type: ieee802.11n
+  - name: Wlan 1
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi U6 In-Wall Access Point
+  part_number: u6-iw
+  slug: ubiquiti-u6-iw
+  u_height: 0
+- comments: '[EdgeSwitch Lite](https://www.ui.com/edgemax/edgeswitch-lite/)'
+  console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: interface 0/1
+    type: 1000base-t
+  - name: interface 0/2
+    type: 1000base-t
+  - name: interface 0/3
+    type: 1000base-t
+  - name: interface 0/4
+    type: 1000base-t
+  - name: interface 0/5
+    type: 1000base-t
+  - name: interface 0/6
+    type: 1000base-t
+  - name: interface 0/7
+    type: 1000base-t
+  - name: interface 0/8
+    type: 1000base-t
+  - name: interface 0/9
+    type: 1000base-t
+  - name: interface 0/10
+    type: 1000base-t
+  - name: interface 0/11
+    type: 1000base-t
+  - name: interface 0/12
+    type: 1000base-t
+  - name: interface 0/13
+    type: 1000base-t
+  - name: interface 0/14
+    type: 1000base-t
+  - name: interface 0/15
+    type: 1000base-t
+  - name: interface 0/16
+    type: 1000base-t
+  - name: interface 0/17
+    type: 1000base-t
+  - name: interface 0/18
+    type: 1000base-t
+  - name: interface 0/19
+    type: 1000base-t
+  - name: interface 0/20
+    type: 1000base-t
+  - name: interface 0/21
+    type: 1000base-t
+  - name: interface 0/22
+    type: 1000base-t
+  - name: interface 0/23
+    type: 1000base-t
+  - name: interface 0/24
+    type: 1000base-t
+  - name: interface 0/25
+    type: 1000base-x-sfp
+  - name: interface 0/26
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: EdgeSwitch 24 Lite
+  part_number: ES-24-LITE
+  power-ports:
+  - maximum_draw: 25
+    name: Power
+    type: iec-60320-c14
+  slug: ubiquiti-es-24-lite
+  u_height: 1
+- interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: NanoBeam 5AC 19
+  part_number: NBE-5AC-19
+  slug: ubiquiti-nbe-5ac-19
+  u_height: 0
+- comments: '[UniFi 6 Mesh Access Point](https://store.ui.com/collections/unifi-network-wireless/products/access-point-wifi-6-mesh)'
+  interfaces:
+  - mgmt_only: false
+    name: eth0
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: Unifi U6 Mesh Access Point
+  part_number: U6-Mesh
+  slug: ubiquiti-u6-mesh
+  u_height: 0
+- interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: NanoStation LOCO M2
+  part_number: nanostation loco m2
+  slug: ubiquiti-nanostation-loco-m2
+  u_height: 0
+- comments: 'UniFi Switch 24 (25W), Gen2, (24) Gigabit, (2) SFP
 
 
     Dimensions: 442.4 x 200 x 43.7 mm (17.42 x 7.87 x 1.72")
@@ -4926,68 +4908,36 @@ models:
     '
   interfaces:
   - name: Port 1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 9
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 10
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 11
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 12
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 13
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 14
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 15
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 16
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
     type: 1000base-t
   - name: Port 17
     type: 1000base-t
@@ -5011,101 +4961,151 @@ models:
     type: 1000base-x-sfp
   is_full_depth: false
   manufacturer: Ubiquiti
-  model: UniFi Switch 24 PoE Gen2
-  part_number: USW-24-POE
+  model: UniFi Switch 24 Gen2
+  part_number: USW-24
   power-ports:
-  - maximum_draw: 120
+  - maximum_draw: 25
     name: Input
     type: iec-60320-c14
-  slug: unifi-switch-24-poe-gen2
+  slug: ubiquiti-unifi-switch-24-gen2
   u_height: 1
-- airflow: passive
-  comments: '[UISP Router](https://store.ui.com/collections/operator-isp-infrastructure/products/uisp-router)'
-  interfaces:
-  - label: '1'
-    name: eth0
-    type: 1000base-t
-  - label: '2'
-    name: eth1
-    type: 1000base-t
-  - label: '3'
-    name: eth2
-    type: 1000base-t
-  - label: '4'
-    name: eth3
-    type: 1000base-t
-  - label: '5'
-    name: eth4
-    type: 1000base-t
-  - label: '6'
-    name: eth5
-    type: 1000base-t
-  - label: '7'
-    name: eth6
-    type: 1000base-t
-  - label: '8'
-    name: eth7
-    type: 1000base-t
-  - label: '9'
-    name: eth8
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: UISP Router
-  part_number: UISP-R
-  power-ports:
-  - allocated_draw: 10
-    maximum_draw: 120
-    name: Input 27V
-    type: dc-terminal
-  slug: uisp-router
-  u_height: 0
-  weight: 1.32
-  weight_unit: lb
-- comments: '[EdgeRouter Lite](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: eth0
-    type: 1000base-t
-  - name: eth1
-    type: 1000base-t
-  - name: eth2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Ubiquiti
-  model: EdgeRouter Lite
-  part_number: ERLite-3
-  power-ports:
-  - maximum_draw: 12
-    name: 12VDC
-    type: dc-terminal
-  slug: erlite-3
-  u_height: 1
-- comments: 'ubond0 is setup to use ieee802.11ax as LTE currently doesn''t allow wireless
-
-    parameters to be specified despite the fact that the airFiber is a LTE-U
-
-    device.
+- comments: 'UniFi Switch Aggregation, 10G 8-Port Managed Aggregation Switch, 30W,
+    (8) SFP+
 
 
-    The eth0 and ubond0 are permanently bridged as this is a L2 bridge device.
+    Dimensions: 442.4 x 120 x 43.7 mm (17.42 x 4.72 x 1.72")
 
     '
   interfaces:
-  - mgmt_only: true
-    name: br0
-    type: bridge
-  - label: Ethernet
-    name: eth0
-    type: 1000base-t
-  - label: Wireless
-    name: ubond0
-    type: ieee802.11ax
+  - name: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: SFP+ 2
+    type: 10gbase-x-sfpp
+  - name: SFP+ 3
+    type: 10gbase-x-sfpp
+  - name: SFP+ 4
+    type: 10gbase-x-sfpp
+  - name: SFP+ 5
+    type: 10gbase-x-sfpp
+  - name: SFP+ 6
+    type: 10gbase-x-sfpp
+  - name: SFP+ 7
+    type: 10gbase-x-sfpp
+  - name: SFP+ 8
+    type: 10gbase-x-sfpp
   is_full_depth: false
   manufacturer: Ubiquiti
-  model: airFiber 60
-  part_number: AF-60
-  slug: airfiber-60
+  model: UniFi Switch Aggregation
+  part_number: USW-Aggregation
+  power-ports:
+  - maximum_draw: 30
+    name: Input
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-switch-aggregation
+  u_height: 1
+- comments: 'UniFi Switch 8 PoE 60W (12.4W + PoE), Gen1, Desk/WallMount, External
+    VDC PSU, (8) Gigabit, (5-8) Gigabit PoE: IEEE802.3a
+
+
+    Dimensions: 148.0 x 99.5 x 30.7 mm (5.83 x 3.92 x 1.21")
+
+    '
+  interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5 (PoE)
+    type: 1000base-t
+  - name: Port 6 (PoE)
+    type: 1000base-t
+  - name: Port 7 (PoE)
+    type: 1000base-t
+  - name: Port 8 (PoE)
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Switch 8 PoE 60W Gen1
+  part_number: US-8-60W
+  power-ports:
+  - maximum_draw: 60
+    name: Input
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-switch-8-poe-60w-gen1
   u_height: 0
+- airflow: front-to-rear
+  comments: '[UniFi Dream Machine Pro Special Edition](https://store.ui.com/collections/unifi-network-unifi-os-consoles/products/dream-machine-se)
+
+
+    Enterprise Security Gateway and Network Appliance with 10G SFP+, (8) 1G PoE LAN,
+    (1) 2.5G WAN, (1) 1/10G SFP+ LAN, (1) 1/10G SFP+ WAN
+
+
+    Dimensions: 442.4 x 43.7 x 285.6 mm (17.42 x 1.72 x 11.24")
+
+    '
+  interfaces:
+  - label: Port 1 - LAN
+    name: port.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - label: Port 2 - LAN
+    name: port.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - label: Port 3 - LAN
+    name: port.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - label: Port 4 - LAN
+    name: port.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - label: Port 5 - LAN
+    name: port.5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - label: Port 6 - LAN
+    name: port.6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - label: Port 7 - LAN
+    name: port.7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - label: Port 8 - LAN
+    name: port.8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - label: Port 9 - WAN 1
+    name: port.9
+    type: 2.5gbase-t
+  - label: Port 10 - SFP+ WAN 2
+    name: port.10
+    type: 10gbase-x-sfpp
+  - label: Port 11 - SFP+ LAN
+    name: port.11
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Ubiquiti
+  model: UniFi Dream Machine Pro Special Edition
+  part_number: UDM-SE
+  power-ports:
+  - description: 100-240VAC/50-60 Hz
+    maximum_draw: 33
+    name: ps1
+    type: iec-60320-c14
+  slug: ubiquiti-unifi-dream-machine-pro-special-edition
+  u_height: 1

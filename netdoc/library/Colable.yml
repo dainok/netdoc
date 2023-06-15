@@ -32,5 +32,5 @@ models:
   - maximum_draw: 45
     name: Power 2
     type: iec-60320-c14
-  slug: col5141s
+  slug: colable-col5141s
   u_height: 1

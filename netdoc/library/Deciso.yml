@@ -1,205 +1,55 @@
 keywords:
-- DEC4020
-- DEC4020
-- DEC600
-- DEC600
-- DEC2685
-- DEC2685
-- DEC3860
-- DEC3860
-- DEC840
-- DEC840
-- DEC630
-- DEC630
 - DEC4640
 - DEC4640
-- DEC4620
-- DEC4620
-- DEC740
-- DEC740
-- DEC2630
-- DEC2630
-- DEC2610
-- DEC2610
-- DEC620
-- DEC620
-- DEC3850
-- DEC3850
-- DEC4630
-- DEC4630
-- DEC2600
-- DEC2600
 - DEC750
 - DEC750
-- DEC4040
-- DEC4040
+- DEC4620
+- DEC4620
 - DEC690
 - DEC690
-- DEC670
-- DEC670
-- DEC2640
-- DEC2640
-- DEC3840
-- DEC3840
+- DEC4040
+- DEC4040
 - DEC4610
 - DEC4610
-- DEC2650
-- DEC2650
+- DEC4020
+- DEC4020
+- DEC4630
+- DEC4630
+- DEC740
+- DEC740
 - DEC850
 - DEC850
 - DEC610
 - DEC610
+- DEC630
+- DEC630
+- DEC2600
+- DEC2600
+- DEC2640
+- DEC2640
+- DEC3840
+- DEC3840
+- DEC670
+- DEC670
+- DEC3860
+- DEC3860
+- DEC620
+- DEC620
+- DEC2610
+- DEC2610
+- DEC2630
+- DEC2630
+- DEC840
+- DEC840
+- DEC600
+- DEC600
+- DEC3850
+- DEC3850
+- DEC2650
+- DEC2650
+- DEC2685
+- DEC2685
 models:
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  - name: USB
-    type: usb-a
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  - name: igb3
-    type: 1000base-t
-  - name: x0
-    type: 10gbase-x-sfpp
-  - name: x1
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC4020
-  part_number: DEC4020
-  power-ports:
-  - name: PSU 1
-    type: iec-60320-c14
-  - name: PSU 2
-    type: iec-60320-c14
-  slug: dec4020
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC600
-  part_number: DEC600
-  power-ports:
-  - allocated_draw: 15
-    maximum_draw: 184
-    name: DC
-    type: dc-terminal
-  slug: dec600
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  - name: igb3
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC2685
-  part_number: DEC2685
-  power-ports:
-  - allocated_draw: 12
-    maximum_draw: 192
-    name: PSU 1
-    type: iec-60320-c14
-  slug: dec2685
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  - name: igb3
-    type: 1000base-t
-  - name: ax0
-    type: 10gbase-x-sfpp
-  - name: ax1
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC3860
-  part_number: DEC3860
-  power-ports:
-  - allocated_draw: 45
-    maximum_draw: 506
-    name: PSU 1
-    type: iec-60320-c14
-  slug: dec3860
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  - name: igb3
-    type: 1000base-t
-  - name: x0
-    type: 10gbase-x-sfpp
-  - name: x1
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC840
-  part_number: DEC840
-  power-ports:
-  - allocated_draw: 40
-    maximum_draw: 322
-    name: pwr
-    type: dc-terminal
-  slug: dec840
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  - name: igb3
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC630
-  part_number: DEC630
-  power-ports:
-  - allocated_draw: 25
-    maximum_draw: 184
-    name: DC
-    type: dc-terminal
-  slug: dec630
-  u_height: 1
 - console-ports:
   - name: Console
     type: rj-45
@@ -235,7 +85,37 @@ models:
   power-ports:
   - name: PSU 1
     type: iec-60320-c14
-  slug: dec4640
+  slug: deciso-dec4640
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - label: '0'
+    name: igb0
+    type: 1000base-t
+  - label: '1'
+    name: igb1
+    type: 1000base-t
+  - label: '2'
+    name: igb2
+    type: 1000base-t
+  - label: X0
+    name: ax0
+    type: 10gbase-x-sfpp
+  - label: X1
+    name: ax1
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC750
+  part_number: DEC750
+  power-ports:
+  - allocated_draw: 15
+    maximum_draw: 36
+    name: pwr
+    type: dc-terminal
+  slug: deciso-dec750
   u_height: 1
 - console-ports:
   - name: Console
@@ -280,215 +160,30 @@ models:
   power-ports:
   - name: PSU 1
     type: iec-60320-c14
-  slug: dec4620
+  slug: deciso-dec4620
   u_height: 1
 - console-ports:
   - name: Console
     type: usb-mini-b
   interfaces:
-  - label: '0'
-    name: igb0
+  - name: igb0
     type: 1000base-t
-  - label: '1'
-    name: igb1
+  - name: igb1
     type: 1000base-t
-  - label: '2'
-    name: igb2
+  - name: igb2
     type: 1000base-t
-  - label: X0
-    name: ax0
-    type: 10gbase-x-sfpp
-  - label: X1
-    name: ax1
-    type: 10gbase-x-sfpp
+  - name: igb3
+    type: 1000base-t
   is_full_depth: false
   manufacturer: Deciso
-  model: DEC740
-  part_number: DEC740
+  model: DEC690
+  part_number: DEC690
   power-ports:
-  - allocated_draw: 15
-    maximum_draw: 36
+  - allocated_draw: 25
+    maximum_draw: 184
     name: pwr
     type: dc-terminal
-  slug: dec740
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  - name: igb3
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC2630
-  part_number: DEC2630
-  power-ports:
-  - allocated_draw: 20
-    maximum_draw: 184
-    name: PSU 1
-    type: iec-60320-c14
-  slug: dec2630
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC2610
-  part_number: DEC2610
-  power-ports:
-  - allocated_draw: 20
-    maximum_draw: 184
-    name: PSU 1
-    type: iec-60320-c14
-  slug: dec2610
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  - name: igb3
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC620
-  part_number: DEC620
-  power-ports:
-  - allocated_draw: 20
-    maximum_draw: 184
-    name: DC
-    type: dc-terminal
-  slug: dec620
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  - name: igb3
-    type: 1000base-t
-  - name: ax0
-    type: 10gbase-x-sfpp
-  - name: ax1
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC3850
-  part_number: DEC3850
-  power-ports:
-  - allocated_draw: 45
-    maximum_draw: 506
-    name: PSU 1
-    type: iec-60320-c14
-  slug: dec3850
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  - name: igb3
-    type: 1000base-t
-  - name: igb4
-    type: 1000base-t
-  - name: igb5
-    type: 1000base-t
-  - name: igb6
-    type: 1000base-t
-  - name: igb7
-    type: 1000base-t
-  - name: ixl0
-    type: 10gbase-x-sfpp
-  - name: ixl1
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC4630
-  part_number: DEC4630
-  power-ports:
-  - name: PSU 1
-    type: iec-60320-c14
-  slug: dec4630
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC2600
-  part_number: DEC2600
-  power-ports:
-  - allocated_draw: 15
-    maximum_draw: 184
-    name: PSU 1
-    type: iec-60320-c14
-  slug: dec2600
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - label: '0'
-    name: igb0
-    type: 1000base-t
-  - label: '1'
-    name: igb1
-    type: 1000base-t
-  - label: '2'
-    name: igb2
-    type: 1000base-t
-  - label: X0
-    name: ax0
-    type: 10gbase-x-sfpp
-  - label: X1
-    name: ax1
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC750
-  part_number: DEC750
-  power-ports:
-  - allocated_draw: 15
-    maximum_draw: 36
-    name: pwr
-    type: dc-terminal
-  slug: dec750
+  slug: deciso-dec690
   u_height: 1
 - console-ports:
   - name: Console
@@ -521,101 +216,7 @@ models:
     type: iec-60320-c14
   - name: PSU 2
     type: iec-60320-c14
-  slug: dec4040
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  - name: igb3
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC690
-  part_number: DEC690
-  power-ports:
-  - allocated_draw: 25
-    maximum_draw: 184
-    name: pwr
-    type: dc-terminal
-  slug: dec690
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  - name: igb3
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC670
-  part_number: DEC670
-  power-ports:
-  - allocated_draw: 25
-    maximum_draw: 184
-    name: pwr
-    type: dc-terminal
-  slug: dec670
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  - name: igb3
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC2640
-  part_number: DEC2640
-  power-ports:
-  - name: PSU 1
-    type: iec-60320-c14
-  slug: dec2640
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  - name: igb3
-    type: 1000base-t
-  - name: ax0
-    type: 10gbase-x-sfpp
-  - name: ax1
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC3840
-  part_number: DEC3840
-  power-ports:
-  - allocated_draw: 40
-    maximum_draw: 506
-    name: PSU 1
-    type: iec-60320-c14
-  slug: dec3840
+  slug: deciso-dec4040
   u_height: 1
 - console-ports:
   - name: Console
@@ -644,7 +245,431 @@ models:
   power-ports:
   - name: PSU 1
     type: iec-60320-c14
-  slug: dec4610
+  slug: deciso-dec4610
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  - name: USB
+    type: usb-a
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+  - name: x0
+    type: 10gbase-x-sfpp
+  - name: x1
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC4020
+  part_number: DEC4020
+  power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
+  slug: deciso-dec4020
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: rj-45
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+  - name: igb4
+    type: 1000base-t
+  - name: igb5
+    type: 1000base-t
+  - name: igb6
+    type: 1000base-t
+  - name: igb7
+    type: 1000base-t
+  - name: ixl0
+    type: 10gbase-x-sfpp
+  - name: ixl1
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC4630
+  part_number: DEC4630
+  power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  slug: deciso-dec4630
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - label: '0'
+    name: igb0
+    type: 1000base-t
+  - label: '1'
+    name: igb1
+    type: 1000base-t
+  - label: '2'
+    name: igb2
+    type: 1000base-t
+  - label: X0
+    name: ax0
+    type: 10gbase-x-sfpp
+  - label: X1
+    name: ax1
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC740
+  part_number: DEC740
+  power-ports:
+  - allocated_draw: 15
+    maximum_draw: 36
+    name: pwr
+    type: dc-terminal
+  slug: deciso-dec740
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+  - name: x0
+    type: 10gbase-x-sfpp
+  - name: x1
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC850
+  part_number: DEC850
+  power-ports:
+  - allocated_draw: 45
+    maximum_draw: 322
+    name: pwr
+    type: dc-terminal
+  slug: deciso-dec850
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC610
+  part_number: DEC610
+  power-ports:
+  - allocated_draw: 20
+    maximum_draw: 184
+    name: DC
+    type: dc-terminal
+  slug: deciso-dec610
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC630
+  part_number: DEC630
+  power-ports:
+  - allocated_draw: 25
+    maximum_draw: 184
+    name: DC
+    type: dc-terminal
+  slug: deciso-dec630
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC2600
+  part_number: DEC2600
+  power-ports:
+  - allocated_draw: 15
+    maximum_draw: 184
+    name: PSU 1
+    type: iec-60320-c14
+  slug: deciso-dec2600
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC2640
+  part_number: DEC2640
+  power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  slug: deciso-dec2640
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+  - name: ax0
+    type: 10gbase-x-sfpp
+  - name: ax1
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC3840
+  part_number: DEC3840
+  power-ports:
+  - allocated_draw: 40
+    maximum_draw: 506
+    name: PSU 1
+    type: iec-60320-c14
+  slug: deciso-dec3840
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC670
+  part_number: DEC670
+  power-ports:
+  - allocated_draw: 25
+    maximum_draw: 184
+    name: pwr
+    type: dc-terminal
+  slug: deciso-dec670
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+  - name: ax0
+    type: 10gbase-x-sfpp
+  - name: ax1
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC3860
+  part_number: DEC3860
+  power-ports:
+  - allocated_draw: 45
+    maximum_draw: 506
+    name: PSU 1
+    type: iec-60320-c14
+  slug: deciso-dec3860
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC620
+  part_number: DEC620
+  power-ports:
+  - allocated_draw: 20
+    maximum_draw: 184
+    name: DC
+    type: dc-terminal
+  slug: deciso-dec620
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC2610
+  part_number: DEC2610
+  power-ports:
+  - allocated_draw: 20
+    maximum_draw: 184
+    name: PSU 1
+    type: iec-60320-c14
+  slug: deciso-dec2610
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC2630
+  part_number: DEC2630
+  power-ports:
+  - allocated_draw: 20
+    maximum_draw: 184
+    name: PSU 1
+    type: iec-60320-c14
+  slug: deciso-dec2630
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+  - name: x0
+    type: 10gbase-x-sfpp
+  - name: x1
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC840
+  part_number: DEC840
+  power-ports:
+  - allocated_draw: 40
+    maximum_draw: 322
+    name: pwr
+    type: dc-terminal
+  slug: deciso-dec840
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC600
+  part_number: DEC600
+  power-ports:
+  - allocated_draw: 15
+    maximum_draw: 184
+    name: DC
+    type: dc-terminal
+  slug: deciso-dec600
+  u_height: 1
+- console-ports:
+  - name: Console
+    type: usb-mini-b
+  interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+  - name: ax0
+    type: 10gbase-x-sfpp
+  - name: ax1
+    type: 10gbase-x-sfpp
+  is_full_depth: false
+  manufacturer: Deciso
+  model: DEC3850
+  part_number: DEC3850
+  power-ports:
+  - allocated_draw: 45
+    maximum_draw: 506
+    name: PSU 1
+    type: iec-60320-c14
+  slug: deciso-dec3850
   u_height: 1
 - console-ports:
   - name: Console
@@ -675,7 +700,7 @@ models:
     maximum_draw: 184
     name: PSU 1
     type: iec-60320-c14
-  slug: dec2650
+  slug: deciso-dec2650
   u_height: 1
 - console-ports:
   - name: Console
@@ -689,39 +714,14 @@ models:
     type: 1000base-t
   - name: igb3
     type: 1000base-t
-  - name: x0
-    type: 10gbase-x-sfpp
-  - name: x1
-    type: 10gbase-x-sfpp
   is_full_depth: false
   manufacturer: Deciso
-  model: DEC850
-  part_number: DEC850
+  model: DEC2685
+  part_number: DEC2685
   power-ports:
-  - allocated_draw: 45
-    maximum_draw: 322
-    name: pwr
-    type: dc-terminal
-  slug: dec850
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: usb-mini-b
-  interfaces:
-  - name: igb0
-    type: 1000base-t
-  - name: igb1
-    type: 1000base-t
-  - name: igb2
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Deciso
-  model: DEC610
-  part_number: DEC610
-  power-ports:
-  - allocated_draw: 20
-    maximum_draw: 184
-    name: DC
-    type: dc-terminal
-  slug: dec610
+  - allocated_draw: 12
+    maximum_draw: 192
+    name: PSU 1
+    type: iec-60320-c14
+  slug: deciso-dec2685
   u_height: 1

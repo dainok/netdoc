@@ -34,5 +34,5 @@ models:
   - maximum_draw: 1500
     name: AC in
     type: iec-60320-c20
-  slug: smart-power-supply-pro
+  slug: digital-loggers-smart-power-supply-pro
   u_height: 0

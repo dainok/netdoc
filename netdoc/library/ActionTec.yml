@@ -19,7 +19,7 @@ models:
   power-ports:
   - name: Power
     type: nema-5-15p
-  slug: gt724r
+  slug: actiontec-gt724r
   u_height: 0
 - console-ports:
   - name: USB
@@ -43,5 +43,5 @@ models:
   power-ports:
   - name: Power
     type: nema-5-15p
-  slug: c1000a
+  slug: actiontec-c1000a
   u_height: 0

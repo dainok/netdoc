@@ -1,11 +1,87 @@
 keywords:
-- DES-3200-52
-- DES-3200-52
 - DES-1210-28
 - DES-1210-28
+- DES-3200-52
+- DES-3200-52
+- DGS-1100-05PDV2
 - DGS-1210-52
 - DGS-1210-52
 models:
+- comments: '[D-Link DES-1210-28](https://www.dlink.ru/ru/products/1/1301.html)'
+  console-ports:
+  - name: console
+    type: rj-45
+  interfaces:
+  - name: slot0/1
+    type: 100base-tx
+  - name: slot0/2
+    type: 100base-tx
+  - name: slot0/3
+    type: 100base-tx
+  - name: slot0/4
+    type: 100base-tx
+  - name: slot0/5
+    type: 100base-tx
+  - name: slot0/6
+    type: 100base-tx
+  - name: slot0/7
+    type: 100base-tx
+  - name: slot0/8
+    type: 100base-tx
+  - name: slot0/9
+    type: 100base-tx
+  - name: slot0/10
+    type: 100base-tx
+  - name: slot0/11
+    type: 100base-tx
+  - name: slot0/12
+    type: 100base-tx
+  - name: slot0/13
+    type: 100base-tx
+  - name: slot0/14
+    type: 100base-tx
+  - name: slot0/15
+    type: 100base-tx
+  - name: slot0/16
+    type: 100base-tx
+  - name: slot0/17
+    type: 100base-tx
+  - name: slot0/18
+    type: 100base-tx
+  - name: slot0/19
+    type: 100base-tx
+  - name: slot0/20
+    type: 100base-tx
+  - name: slot0/21
+    type: 100base-tx
+  - name: slot0/22
+    type: 100base-tx
+  - name: slot0/23
+    type: 100base-tx
+  - name: slot0/24
+    type: 100base-tx
+  - name: slot0/25
+    type: 1000base-t
+  - name: slot0/26
+    type: 1000base-t
+  - name: slot0/27
+    type: 1000base-t
+  - name: slot0/28
+    type: 1000base-t
+  - name: slot0/27F
+    type: 1000base-x-sfp
+  - name: slot0/28F
+    type: 1000base-x-sfp
+  is_full_depth: false
+  manufacturer: D-Link
+  model: DES-1210-28
+  part_number: DES-1210-28
+  power-ports:
+  - maximum_draw: 10
+    name: PSU
+    type: iec-60320-c14
+  slug: d-link-des-1210-28
+  u_height: 1
 - comments: '[D-Link DES-3200-52](https://www.dlink.ru/ru/products/1/1558.html)'
   console-ports:
   - name: console
@@ -129,81 +205,32 @@ models:
     type: iec-60320-c14
   slug: d-link-des-3200-52
   u_height: 1
-- comments: '[D-Link DES-1210-28](https://www.dlink.ru/ru/products/1/1301.html)'
-  console-ports:
-  - name: console
-    type: rj-45
+- airflow: passive
+  comments: '[DGS-1100-05PDV2 Specification](https://us.dlink.com/en/products/dgs-1100-05pdv2-5-port-gigabit-poe-smart-managed-switch-and-poe-extender)'
   interfaces:
-  - name: slot0/1
-    type: 100base-tx
-  - name: slot0/2
-    type: 100base-tx
-  - name: slot0/3
-    type: 100base-tx
-  - name: slot0/4
-    type: 100base-tx
-  - name: slot0/5
-    type: 100base-tx
-  - name: slot0/6
-    type: 100base-tx
-  - name: slot0/7
-    type: 100base-tx
-  - name: slot0/8
-    type: 100base-tx
-  - name: slot0/9
-    type: 100base-tx
-  - name: slot0/10
-    type: 100base-tx
-  - name: slot0/11
-    type: 100base-tx
-  - name: slot0/12
-    type: 100base-tx
-  - name: slot0/13
-    type: 100base-tx
-  - name: slot0/14
-    type: 100base-tx
-  - name: slot0/15
-    type: 100base-tx
-  - name: slot0/16
-    type: 100base-tx
-  - name: slot0/17
-    type: 100base-tx
-  - name: slot0/18
-    type: 100base-tx
-  - name: slot0/19
-    type: 100base-tx
-  - name: slot0/20
-    type: 100base-tx
-  - name: slot0/21
-    type: 100base-tx
-  - name: slot0/22
-    type: 100base-tx
-  - name: slot0/23
-    type: 100base-tx
-  - name: slot0/24
-    type: 100base-tx
-  - name: slot0/25
+  - name: GigabitEthernet/1
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
     type: 1000base-t
-  - name: slot0/26
+  - name: GigabitEthernet/2
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
     type: 1000base-t
-  - name: slot0/27
+  - name: GigabitEthernet/3
     type: 1000base-t
-  - name: slot0/28
+  - name: GigabitEthernet/4
     type: 1000base-t
-  - name: slot0/27F
-    type: 1000base-x-sfp
-  - name: slot0/28F
-    type: 1000base-x-sfp
+  - name: GigabitEthernet/5
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
   is_full_depth: false
   manufacturer: D-Link
-  model: DES-1210-28
-  part_number: DES-1210-28
-  power-ports:
-  - maximum_draw: 10
-    name: PSU
-    type: iec-60320-c14
-  slug: d-link-des-1210-28
-  u_height: 1
+  model: DGS-1100-05PDV2
+  slug: d-link-dgs-1100-05pdv2
+  u_height: 0.0
+  weight: 0.38
+  weight_unit: kg
 - comments: '[D-Link DGS-1210-52](https://www.dlink.ru/ru/products/1/2225.html)'
   console-ports:
   - name: console

@@ -1,13 +1,75 @@
 keywords:
-- EDGE-02U
-- EDGE-02U
-- EDGE-01U
-- EDGE-01U
 - EDGE-01U-SP
 - EDGE-01U-SP
+- EDGE-01U
+- EDGE-01U
+- EDGE-02U
+- EDGE-02U
 - EDGE-04U
 - EDGE-04U
 models:
+- airflow: passive
+  comments: Corning EDGE 1-RU Fiber-Optic Housing with (12) module bays for Corning
+    EDGE modules.
+  is_full_depth: false
+  manufacturer: Corning
+  model: EDGE-01U-SP
+  module-bays:
+  - name: 01A
+    position: 01A
+  - name: 01B
+    position: 01B
+  - name: 01C
+    position: 01C
+  - name: 01D
+    position: 01D
+  - name: 02A
+    position: 02A
+  - name: 02B
+    position: 02B
+  - name: 02C
+    position: 02C
+  - name: 02D
+    position: 02D
+  - name: 03A
+    position: 03A
+  - name: 03B
+    position: 03B
+  - name: 03C
+    position: 03C
+  - name: 03D
+    position: 03D
+  part_number: EDGE-01U-SP
+  slug: corning-edge-01u-sp
+  subdevice_role: parent
+  u_height: 1
+- airflow: passive
+  comments: Corning EDGE 1-RU Fiber-Optic Housing with (8) module bays for Corning
+    EDGE modules.
+  is_full_depth: false
+  manufacturer: Corning
+  model: EDGE-01U
+  module-bays:
+  - name: 01A
+    position: 01A
+  - name: 01B
+    position: 01B
+  - name: 01C
+    position: 01C
+  - name: 01D
+    position: 01D
+  - name: 02A
+    position: 02A
+  - name: 02B
+    position: 02B
+  - name: 02C
+    position: 02C
+  - name: 02D
+    position: 02D
+  part_number: EDGE-01U
+  slug: corning-edge-01u
+  subdevice_role: parent
+  u_height: 1
 - airflow: passive
   comments: Corning EDGE 2-RU Fiber-Optic Housing with (24) module bays for Corning
     EDGE modules.
@@ -64,71 +126,9 @@ models:
   - name: 06D
     position: 06D
   part_number: EDGE-02U
-  slug: edge-02u
+  slug: corning-edge-02u
   subdevice_role: parent
   u_height: 2
-- airflow: passive
-  comments: Corning EDGE 1-RU Fiber-Optic Housing with (8) module bays for Corning
-    EDGE modules.
-  is_full_depth: false
-  manufacturer: Corning
-  model: EDGE-01U
-  module-bays:
-  - name: 01A
-    position: 01A
-  - name: 01B
-    position: 01B
-  - name: 01C
-    position: 01C
-  - name: 01D
-    position: 01D
-  - name: 02A
-    position: 02A
-  - name: 02B
-    position: 02B
-  - name: 02C
-    position: 02C
-  - name: 02D
-    position: 02D
-  part_number: EDGE-01U
-  slug: edge-01u
-  subdevice_role: parent
-  u_height: 1
-- airflow: passive
-  comments: Corning EDGE 1-RU Fiber-Optic Housing with (12) module bays for Corning
-    EDGE modules.
-  is_full_depth: false
-  manufacturer: Corning
-  model: EDGE-01U-SP
-  module-bays:
-  - name: 01A
-    position: 01A
-  - name: 01B
-    position: 01B
-  - name: 01C
-    position: 01C
-  - name: 01D
-    position: 01D
-  - name: 02A
-    position: 02A
-  - name: 02B
-    position: 02B
-  - name: 02C
-    position: 02C
-  - name: 02D
-    position: 02D
-  - name: 03A
-    position: 03A
-  - name: 03B
-    position: 03B
-  - name: 03C
-    position: 03C
-  - name: 03D
-    position: 03D
-  part_number: EDGE-01U-SP
-  slug: edge-01u-sp
-  subdevice_role: parent
-  u_height: 1
 - airflow: passive
   comments: Corning EDGE 4-RU Fiber-Optic Housing with (48) module bays for Corning
     EDGE modules.
@@ -233,6 +233,6 @@ models:
   - name: 12D
     position: 12D
   part_number: EDGE-04U
-  slug: edge-04u
+  slug: corning-edge-04u
   subdevice_role: parent
   u_height: 4

@@ -110,22 +110,26 @@ def get_list(**kwargs):
     return result
 
 
-def update(obj, model_keyword=None, **kwargs):
+def update(obj, manufacturer=None, model_keyword=None, **kwargs):
     """Update a Device."""
     update_always = []
+
+    if manufacturer and model_keyword and "Unknown" in obj.device_type.model:
+        # Manufacturer and model are set, current model is uknown, adding to update_always
+        model_o = create_manufacturer_and_model(
+            manufacturer=manufacturer, model_keyword=model_keyword
+        )
+
+        kwargs.update(
+            {
+                "device_type_id": model_o.id,
+            }
+        )
+        update_always.append("device_type_id")
 
     if not obj.serial:
         # Serial is not set, adding to update_always
         update_always.append("serial")
-
-    if model_keyword and "Unknown" in obj.device_type.model:
-        # Current models is unknown, try to guess a new one
-        model_o = create_manufacturer_and_model(
-            manufacturer=obj.device_type.manufacturer.name, model_keyword=model_keyword
-        )
-        if "Unknown" not in model_o.model:
-            kwargs["device_type_id"] = model_o.pk
-            update_always.append("device_type_id")
 
     kwargs = utils.delete_empty_keys(kwargs)
     validate(kwargs, get_schema(), format_checker=FormatChecker())

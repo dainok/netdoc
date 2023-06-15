@@ -35,7 +35,7 @@ models:
   - maximum_draw: 30
     name: Power
     type: dc-terminal
-  slug: fritzbox-7530
+  slug: avm-fritzbox-7530
   u_height: 0
 - airflow: passive
   comments: '[AVM FRITZ!Box 7590 Datasheet](https://avm.de/produkte/fritzbox/fritzbox-7590/technische-daten/)'
@@ -77,5 +77,5 @@ models:
   - maximum_draw: 30
     name: Power
     type: dc-terminal
-  slug: fritzbox-7590
+  slug: avm-fritzbox-7590
   u_height: 0
