@@ -11,3 +11,4 @@ NetDoc would be the industrialized, open-source tool available to the public to 
 1. [NetBox with NetDoc installation](https://github.com/dainok/netdoc/wiki/NetBox-with-NetDoc-installation "NetBox with NetDoc installation")
 1. [Utilizing NetDoc](https://github.com/dainok/netdoc/wiki/Utilizing-NetDoc "Utilizing NetDoc")
 1. [Developing NetDoc](https://github.com/dainok/netdoc/wiki/Developing-NetDoc "Developing NetDoc")
+1. [Frequently Asked Questions and Errors](https://github.com//dainok/netdoc/wiki/Developing-NetDoc "Frequently Asked Questions and Errors")
