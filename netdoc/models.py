@@ -69,6 +69,7 @@ class DiscoveryModeChoices(ChoiceSet):
         ("netmiko_cisco_xr", "Netmiko Cisco XR"),
         ("netmiko_hp_comware", "Netmiko HPE Comware"),
         ("netmiko_linux", "Netmiko Linux"),
+        ("snmp_v2", "SNMP v2"),
     ]
 
 
@@ -164,6 +165,10 @@ class Credential(NetBoxModel):
         blank=True,
     )
     username = models.CharField(
+        max_length=100,
+        blank=True,
+    )
+    snmp_community = models.CharField(
         max_length=100,
         blank=True,
     )
@@ -388,6 +393,10 @@ class DiscoveryLog(NetBoxModel):
             parsed_output, parsed = parse_netmiko_output(
                 self.raw_output, self.command, platform, template=self.template
             )
+        elif framework == "snmp":
+            # TODO for parsing
+            parsed_output = ""
+            parsed = False
         else:
             raise ValueError("Framework not detected")
 

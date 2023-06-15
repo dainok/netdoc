@@ -71,7 +71,7 @@ class CreateDeviceRole(Script):
 
 
 class AddDiscoverable(Script):
-    """Script used to generate AddDiscoverable."""
+    """Script used to generate Discoverable."""
 
     class Meta:
         """Script metadata."""
@@ -162,6 +162,129 @@ class AddDiscoverable(Script):
         self.log_info("Discovery completed")
 
         return output
+
+
+class SNMPDiscovery(Script):
+    """Script used to discoery a network via SNMP and add Discoverable."""
+
+    class Meta:
+        """Script metadata."""
+
+        name = "SNMP network discovery"
+        description = "Add comma separated IP addresses and networks to discovery them via SNMPv2."
+        commit_default = True
+
+    # Credentials
+    credential = ObjectVar(
+        model=Credential_m,
+        description="Credential used to discover.",
+        required=False,
+    )
+
+    # Site
+    site = ObjectVar(
+        model=Site,
+        description="Site associated with discovered devices",
+        required=True,
+    )
+
+    # IP addresses to be discovered
+    ip_addresses = TextVar(
+        description="Networks and IP addresses separated by comma or space",
+        required=True,
+    )
+
+    def run(self, data, commit):
+        """Start the script."""
+        if not commit:
+            self.log_warning("Commit not set, using dry-run mode")
+
+        credential_o = data.get("credential")
+        mode = "snmp_snmp_v2"
+        site_o = data.get("site")
+        ip_addresses = re.split(" |,|\n", data.get("ip_addresses"))
+        scan_list = []
+
+        if not credential_o.snmp_community:
+            self.log_failure("No valid SNMP community set on credential")
+            return ""
+
+        # Parse IP addresses
+        for ip_address in ip_addresses:
+            ip_address = ip_address.strip()
+            if not ip_address:
+                # Skip empty string
+                continue
+
+            if "/" in ip_address:
+                # Network
+                try:
+                    network = netaddr.IPNetwork(ip_address)
+                    scan_list.append(str(network.cidr))
+                except netaddr.core.AddrFormatError:
+                    # Skip invalid IP address
+                    self.log_warning(f"Skipping invalid IP address {ip_address}")
+                    continue
+            else:
+                # IP address
+                try:
+                    netaddr.IPAddress(ip_address)
+                    scan_list.append(ip_address)
+                except netaddr.core.AddrFormatError:
+                    # Skip invalid IP address
+                    self.log_warning(f"Skipping invalid IP address {ip_address}")
+                    continue
+
+        if not scan_list:
+            self.log_failure("No valid network or IP address to discover")
+            return ""
+
+        # Dump community on tmp file
+        fp = tempfile.NamedTemporaryFile()
+        fp.write(bytes(credential_o.snmp_community, encoding="utf-8"))
+        fp.seek(0)
+
+        # Scan
+        nm_scan = nmap.PortScanner()
+        scan_output = nm_scan.scan(
+            hosts=" ".join(scan_list),
+            ports="161",
+            arguments=f"-sU --script=snmp-brute --script-args=snmp-brute.communitiesdb={fp.name}",
+            sudo=True,
+            timeout=0,
+        )
+        for ip_address, data in scan_output.get("scan").items():
+            try:
+                if "credentials" in data.get("udp").get(161).get("script").get(
+                    "snmp-brute"
+                ):
+                    # Valid SNMP community, create Discoverable
+                    discoverable_o, created = discoverable.get_or_create(
+                        address=ip_address,
+                        site_id=site_o.pk,
+                        mode=mode,
+                        credential_id=credential_o.pk,
+                        discoverable=True,
+                    )
+                    if created:
+                        self.log_info(
+                            f"Created new discoverable with IP address {discoverable_o.address}"
+                        )
+                    else:
+                        self.log_info(
+                            f"Found existing discoverable with IP address {discoverable_o.address}"
+                        )
+            except TypeError:
+                # Invalid SNMP community
+                self.log_info(f"Invalid SNMP community for IP address {ip_address}")
+                pass
+
+        # Clean
+        fp.close()
+
+        self.log_info("Discovery completed")
+
+        return json.dumps(scan_output)
 
 
 class Discover(Script):

@@ -16,6 +16,7 @@ from difflib import get_close_matches
 import macaddress
 import yaml
 from yaml.loader import SafeLoader
+from easysnmp import Session
 
 from nornir_netmiko.tasks import netmiko_send_command
 from netmiko.utilities import get_structured_data
@@ -125,11 +126,15 @@ DRAWIO_ROLE_MAP = {
     },
 }
 
+SNMP_OID_MAP = {
+    "sysName": "iso.3.6.1.2.1.1.5.0",
+}
+
 
 def append_nornir_netmiko_task(
     task, commands, enable=True, template=None, order=128, supported=True
 ):
-    """Append a Nornir task within a multiple_tasks adding extended details.
+    """Append a Nornir Netmiko task within a multiple_tasks adding extended details.
 
     commands can be str or list. template is allowed only if commands is str.
     """
@@ -161,6 +166,40 @@ def append_nornir_netmiko_task(
                 enable=details.get("enable"),
                 use_timing=False,
                 read_timeout=PLUGIN_SETTINGS.get("NORNIR_TIMEOUT"),
+            )
+
+
+def append_nornir_snmp_task(task, oids, template, order=128, supported=True):
+    """Append a Nornir SNMP task within a multiple_tasks adding extended details.
+
+    commands can be str or list of OIDs. template is allowed only if commands is str.
+    """
+    if isinstance(oids, str):
+        oids = [oids]
+    elif isinstance(oids, list) and template:
+        raise ValueError("Cannot specify template for a list of OIDs")
+    elif not isinstance(oids, list):
+        raise ValueError("OID must be a string or a list of string")
+    for oid in oids:
+        details = {
+            "command": oid,
+            "template": template if template else oid,
+            "enable": False,
+            "order": order,
+            "supported": supported,
+        }
+        for cmd_filter in PLUGIN_SETTINGS.get("NORNIR_SKIP_LIST"):
+            if re.match(cmd_filter, oid):
+                # Skip excluded commands
+                break
+        else:
+            # The filter does not match (filter loop completed successfully)
+            task.run(
+                task=snmp_query,
+                name=json.dumps(details),
+                host=task.host.hostname,
+                community=task.host.dict().get("data").get("snmp_community"),
+                oid=oid,
             )
 
 
@@ -817,6 +856,16 @@ def parse_netmiko_output(output, command, platform, template=None):
         return parsed_output, True
     except TextFSMError as exc:
         return str(exc), False
+
+
+def snmp_query(
+    details, host=None, community=None, oid=None
+):  # pylint: disable=unused-argument
+    """Get info via SNMP."""
+    # TODO: support also for tables
+    session = Session(hostname=host, community=community, version=2)
+    sysname = session.get(SNMP_OID_MAP.get(oid))
+    return sysname.value
 
 
 def spawn_script(script_name, get_data=None, post_data=None, file_list=None, user=None):
