@@ -37,5 +37,5 @@ for file in files:
         discoverable_id=discoverable_o.id,
         command=discoverablelog_json["details"]["command"],
         template=discoverablelog_json["details"]["template"],
-        **discoverablelog_json
+        **discoverablelog_json,
     )
