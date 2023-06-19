@@ -299,8 +299,12 @@ def get_remote_lldp_interface_label(
         # Give prevedence to port_id
         return normalize_interface_label(port_id)
 
-    # Use port_description as last resort
-    return normalize_interface_label(port_description)
+    if port_description:
+        # Use port_description
+        return normalize_interface_label(port_description)
+
+    # Invalid remote interface
+    return None
 
 
 def find_model(manufacturer=None, keyword=None):

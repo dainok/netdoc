@@ -1,7 +1,7 @@
 """Reparse all DiscoveryLogs.
 
 Usage:
-/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < parse.py
+/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < log_ingest.py
 """
 from netdoc.models import DiscoveryLog
 from netdoc.utils import log_ingest
@@ -16,18 +16,11 @@ if FILTERS:
 else:
     logs = DiscoveryLog.objects.all().order_by("order")
 
+# Edit the following lines to select what to ingest
 logs = logs.filter(parsed=True)
-# logs = logs.filter(id=1308)
+logs = logs.filter(id=477)
 # logs = logs.filter(ingested=False)
-# logs = logs.filter(id=3)
 # logs = logs.filter(command="show mac address-table dynamic")
-# logs = logs.filter(ingested=False)
-
-# log_list = []
-# log_list.extend(logs)
-# log_list.extend(logs.filter(template="HOSTNAME"))
-# log_list.extend(logs.filter(command="arp -an"))
-# log_list.extend(logs.filter(id=6710))
 
 for log in logs:
     print(

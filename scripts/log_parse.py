@@ -1,7 +1,7 @@
 """Reparse all DiscoveryLogs.
 
 Usage:
-/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < parse.py
+/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < log_parse.py
 """
 from netdoc.models import DiscoveryLog
 

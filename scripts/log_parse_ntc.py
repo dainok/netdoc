@@ -1,7 +1,7 @@
 """Parse a Netmiko log using low level functions.
 
 Usage:
-/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < parse_low_level.py
+/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < log_parse_ntc.py
 """
 import pprint
 from netmiko.utilities import get_structured_data
