@@ -33,6 +33,10 @@ def ingest(log):
             # Skip neighbors not announcing a valid hostname
             continue
 
+        if not remote_interface_label:
+            # Skip neighbors not announcing a valid interface
+            continue
+
         if neighbors_per_interface.get(local_interface_label) > 1:
             # Skip interfaces with multiple neighbors
             continue

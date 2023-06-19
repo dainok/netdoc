@@ -1,7 +1,7 @@
 """Import exported DiscoveryLogs.
 
 Usage:
-/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < import_log.py
+/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < log_import.py
 """
 from os import walk
 import sys
@@ -33,4 +33,9 @@ for file in files:
         print(f"Create a Discoverable with mode {mode} before importing")
         sys.exit()
 
-    discoverylog.create(discoverable_id=discoverable_o.id, **discoverablelog_json)
+    discoverylog.create(
+        discoverable_id=discoverable_o.id,
+        command=discoverablelog_json["details"]["command"],
+        template=discoverablelog_json["details"]["template"],
+        **discoverablelog_json,
+    )
