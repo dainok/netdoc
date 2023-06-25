@@ -19,6 +19,8 @@ COMMANDS = [
     "display link-aggregation verbose",
 ]
 
+# Don't edit below this line
+
 logging.basicConfig(filename="netmiko_global.log", level=logging.DEBUG)
 logger = logging.getLogger("netmiko")
 

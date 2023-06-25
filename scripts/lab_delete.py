@@ -15,9 +15,12 @@ from dcim.models import (
     CablePath,
 )
 from extras.models import JobResult
-from ipam.models import IPAddress, Prefix, VRF
-from netdoc.models import ArpTableEntry, MacAddressTableEntry, RouteTableEntry
+from ipam.models import IPAddress, Prefix, VRF, VLAN
+from netdoc.models import ArpTableEntry, MacAddressTableEntry, RouteTableEntry, DiscoveryLog
 
+DELETE_LOGS=False
+
+# Don't edit below this line
 
 Cable.objects.all().delete()
 CableTermination.objects.all().delete()
@@ -33,7 +36,8 @@ ArpTableEntry.objects.all().delete()
 MacAddressTableEntry.objects.all().delete()
 RouteTableEntry.objects.all().delete()
 VRF.objects.all().delete()
+VLAN.objects.all().delete()
 JobResult.objects.all().delete()
 
-# from netdoc.models import DiscoveryLog # Danger
-# DiscoveryLog.objects.all().delete() # Danger
+if DELETE_LOGS:
+    DiscoveryLog.objects.all().delete() # Danger

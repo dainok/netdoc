@@ -26,6 +26,8 @@ COMMANDS = [
     "display link-aggregation verbose",
 ]
 
+# Don't edit below this line
+
 # Configuring Nornir
 logger = logging.getLogger("nornir")
 logger.setLevel(logging.DEBUG)

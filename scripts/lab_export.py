@@ -11,6 +11,8 @@ from netdoc.utils import export_log
 
 LAB = "lab1"
 
+# Don't edit below this line
+
 discoverylog_qs = DiscoveryLog.objects.all()
 for discoverylog_o in discoverylog_qs:
     data = export_log(discoverylog_o)
