@@ -6,9 +6,10 @@ Usage:
 
 from netdoc.tasks import discovery
 
-FILTERS = ["127.0.0.1"]
-# FILTERS = []
+FILTERS = ["172.25.82.45"]  # List of discoverable IP addresses
+FILTERS = []
 
+# Don't edit below this line
 
 def main():
     """Main function."""

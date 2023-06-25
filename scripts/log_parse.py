@@ -5,10 +5,16 @@ Usage:
 """
 from netdoc.models import DiscoveryLog
 
-FILTERS = ["10.95.231.1"]  # List of discoverable IP addresses
+FILTERS = ["172.25.82.44", "172.25.82.45"]  # List of discoverable IP addresses
 FILTERS = []
 
-logs = DiscoveryLog.objects.filter(parsed=False, success=True)
+REPARSE = True
+
+# Don't edit below this line
+
+logs = DiscoveryLog.objects.filter(success=True)
+if not REPARSE:
+    logs = logs.filter(parsed=False)
 if FILTERS:
     logs = logs.filter(discoverable__address__in=FILTERS)
 
