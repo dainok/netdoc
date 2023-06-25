@@ -644,7 +644,7 @@ def normalize_route_type(route_type):
     if route_type in ["u"]:
         # User-space Static
         return "u"
-    if route_type in ["r", "rip-10"]:
+    if route_type in ["r"]:
         # RIP
         return "r"
     if route_type in ["b", "bgp"]:
@@ -688,6 +688,9 @@ def normalize_route_type(route_type):
         return "u"
     if re.match(r"^ospf-\S+ intra$", route_type):
         # Nexus OSPF Inter Area with process
+        return "oia"
+    if re.match(r"^rip-\S+ rip$", route_type):
+        # Nexus RIP with process
         return "oia"
 
     raise ValueError(f"Invalid route type {route_type}")
