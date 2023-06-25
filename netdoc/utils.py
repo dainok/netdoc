@@ -48,6 +48,9 @@ FAILURE_OUTPUT = [
     r"^\s*% Unrecognized command found",  # HP Comware
     r"% \w+ is not enabled\s*\Z",  # Cisco: feature not enabled
     r"% \w+ not active\s*\Z",  # Cisco: feature not enabled
+    r"% No matching routes found",  # Cisco XR
+    r"% BGP instance '\w' not active",  # Cisco XR
+    r"% LLDP is not enabled",  # Cisco XR
     r"% Wrong parameter found at",  # HP Comware
     r"% Unrecognized command found at",  # HP Comware
     r"% Invalid input detected at '\^' marker.\s*\Z",  # Cisco: invalid input detected

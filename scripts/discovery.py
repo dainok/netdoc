@@ -1,4 +1,4 @@
-"""Run discovery.
+"""Run discovery via RQ.
 
 Usage:
 /opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < run_discovery.py
@@ -14,7 +14,10 @@ from utilities.utils import NetBoxFakeRequest
 
 from netdoc.models import Discoverable
 
-FILTERS = ["172.25.82.50"]
+FILTERS = ["172.25.82.45"]  # List of discoverable IP addresses
+FILTERS = []
+
+# Don't edit below this line
 
 
 def main():

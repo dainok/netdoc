@@ -399,7 +399,7 @@ class DiscoveryLog(NetBoxModel):
         if "supported" in dict(self.details):
             self.supported = dict(self.details).get("supported")
         if not self.pk:
-            # Prase (once) before creating the object
+            # Parse (once) before creating the object
             self.parse()
 
         super().save(*args, **kwargs)

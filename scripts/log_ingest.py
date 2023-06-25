@@ -9,18 +9,25 @@ from netdoc.utils import log_ingest
 FILTERS = ["172.25.82.50"]  # List of discoverable IP addresses
 FILTERS = []
 
-if FILTERS:
-    logs = DiscoveryLog.objects.filter(discoverable__address__in=FILTERS).order_by(
-        "order"
-    )
-else:
-    logs = DiscoveryLog.objects.all().order_by("order")
+LOGS = [2, 4, 19]  # List of log IDs to be ingested
+LOGS = []
 
-# Edit the following lines to select what to ingest
-logs = logs.filter(parsed=True)
-logs = logs.filter(id=477)
-# logs = logs.filter(ingested=False)
-# logs = logs.filter(command="show mac address-table dynamic")
+COMMAND = "show mac address-table"  # Command to be parsed
+COMMAND = ""
+
+REINGEST = True
+
+# Don't edit below this line
+
+logs = DiscoveryLog.objects.filter(parsed=True).order_by("order")
+if FILTERS:
+    logs = logs.filter(discoverable__address__in=FILTERS)
+if not REINGEST:
+    logs = logs.filter(ingested=False)
+if LOGS:
+    logs = logs.filter(id__in=LOGS)
+if COMMAND:
+    logs = logs.filter(command=COMMAND)
 
 for log in logs:
     print(
