@@ -692,6 +692,9 @@ def normalize_route_type(route_type):
     if re.match(r"^rip-\S+ rip$", route_type):
         # Nexus RIP with process
         return "oia"
+    if re.match(r"^bgp-\S+ rip$", route_type):
+        # Nexus BGP with process
+        return "b"
 
     raise ValueError(f"Invalid route type {route_type}")
 
