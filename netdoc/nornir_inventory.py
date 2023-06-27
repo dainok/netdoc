@@ -63,9 +63,11 @@ class AssetInventory:
             credential = discoverable.credential
             # Add hosts discoverable via Netmiko
             device_type = "_".join(discoverable.mode.split("_")[1:])
+            # Pass parameters between NetDoc and Nornir
             data = {
                 "site_id": discoverable.site.pk,
                 "site": discoverable.site.slug,
+                "verify_cert": credential.verify_cert,
             }
 
             host_key = discoverable.address

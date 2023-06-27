@@ -69,6 +69,7 @@ class DiscoveryModeChoices(ChoiceSet):
         ("netmiko_cisco_xr", "Netmiko Cisco XR"),
         ("netmiko_hp_comware", "Netmiko HPE Comware"),
         ("netmiko_linux", "Netmiko Linux"),
+        ("api_vmware_vsphere", "VMware vSphere"),
     ]
 
 
@@ -166,6 +167,9 @@ class Credential(NetBoxModel):
     username = models.CharField(
         max_length=100,
         blank=True,
+    )
+    verify_cert = models.BooleanField(
+        default=True, help_text="Validate certificate"
     )
 
     class Meta:
