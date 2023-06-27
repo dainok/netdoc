@@ -16,9 +16,14 @@ from dcim.models import (
 )
 from extras.models import JobResult
 from ipam.models import IPAddress, Prefix, VRF, VLAN
-from netdoc.models import ArpTableEntry, MacAddressTableEntry, RouteTableEntry, DiscoveryLog
+from netdoc.models import (
+    ArpTableEntry,
+    MacAddressTableEntry,
+    RouteTableEntry,
+    DiscoveryLog,
+)
 
-DELETE_LOGS=False
+DELETE_LOGS = False
 
 # Don't edit below this line
 
@@ -40,4 +45,4 @@ VLAN.objects.all().delete()
 JobResult.objects.all().delete()
 
 if DELETE_LOGS:
-    DiscoveryLog.objects.all().delete() # Danger
+    DiscoveryLog.objects.all().delete()  # Danger
