@@ -528,4 +528,4 @@ class RouteTableEntry(NetBoxModel):
 
     def get_absolute_url(self):
         """Return the absolute url."""
-        return reverse("plugins:netdoc:routingtable", args=[self.pk])
+        return reverse("plugins:netdoc:routetableentry", args=[self.pk])
