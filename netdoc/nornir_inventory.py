@@ -62,14 +62,17 @@ class AssetInventory:
         for discoverable in discoverables:
             credential = discoverable.credential
             # Add hosts discoverable via Netmiko
+            framework = discoverable.mode.split("_").pop(0)
             device_type = "_".join(discoverable.mode.split("_")[1:])
             data = {
+                "framework": framework,
+                "mode": discoverable.mode,
                 "site_id": discoverable.site.pk,
-                "site": discoverable.site.slug,
+                "snmp_community": credential.snmp_community,
             }
 
             host_key = discoverable.address
-            host_groups = [device_type, f'site-{data["site"]}']
+            host_groups = [device_type, f'site-{data.get("site_id")}']
 
             # Create additional options
             extras = {}

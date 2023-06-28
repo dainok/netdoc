@@ -81,9 +81,8 @@ def discovery(addresses=None, script_handler=None):
 
     # Run discovery scripts
     for mode, description in DiscoveryModeChoices():
-        # framework = mode.split("_").pop(0)
-        platform = "_".join(mode.split("_")[1:])
-        filtered_devices = nrni.filter(platform=platform)
+        # Run discoverer based on Discoverable mode
+        filtered_devices = nrni.filter(mode=mode)
         filtered_addresses = (
             filtered_devices.dict().get("inventory").get("hosts").keys()
         )

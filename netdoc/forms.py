@@ -43,6 +43,7 @@ class CredentialForm(NetBoxModelForm):
     username = forms.CharField(required=False)
     password = forms.CharField(required=False, widget=forms.PasswordInput)
     enable_password = forms.CharField(required=False, widget=forms.PasswordInput)
+    snmp_community = forms.CharField(required=False)
 
     class Meta:
         """Form metadata."""
@@ -53,6 +54,7 @@ class CredentialForm(NetBoxModelForm):
             "username",
             "password",
             "enable_password",
+            "snmp_community",
             "tags",
         ]
 
@@ -64,7 +66,7 @@ class CredentialCSVForm(NetBoxModelCSVForm):
         """Form metadata."""
 
         model = Credential
-        fields = ["name", "username", "password", "enable_password"]
+        fields = ["name", "username", "password", "enable_password", "snmp_community"]
 
 
 class CredentialBulkEditForm(NetBoxModelBulkEditForm):

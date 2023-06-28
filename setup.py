@@ -26,6 +26,7 @@ setup(
     author_email="andrea@adainese.it",
     license="GNU v3.0",
     install_requires=[
+        "easysnmp",
         "jsonschema==3.2.0",
         "python-slugify",
         "netmiko==4.1.2",
