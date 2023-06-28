@@ -6,8 +6,6 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('dcim', '0167_module_status'),
-        ('ipam', '0064_clear_search_cache'),
         ('netdoc', '0008_alter_discoverable_device'),
     ]
 
