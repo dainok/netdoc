@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('netdoc', '0008_alter_discoverable_device'),
+        ('netdoc', '0009_alter_routetableentry_unique_together'),
     ]
 
     operations = [
