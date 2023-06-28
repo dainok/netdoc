@@ -53,6 +53,7 @@ class CredentialForm(NetBoxModelForm):
             "username",
             "password",
             "enable_password",
+            "verify_cert",
             "tags",
         ]
 
@@ -64,7 +65,7 @@ class CredentialCSVForm(NetBoxModelCSVForm):
         """Form metadata."""
 
         model = Credential
-        fields = ["name", "username", "password", "enable_password"]
+        fields = ["name", "username", "password", "enable_password", "verify_cert"]
 
 
 class CredentialBulkEditForm(NetBoxModelBulkEditForm):
@@ -75,7 +76,7 @@ class CredentialBulkEditForm(NetBoxModelBulkEditForm):
     enable_password = forms.CharField(required=False, widget=forms.PasswordInput)
 
     model = Credential
-    nullable_fields = ["username", "password", "enable_password"]
+    nullable_fields = ["username", "password", "enable_password", "verify_cert"]
 
 
 #

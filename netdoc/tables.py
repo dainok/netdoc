@@ -76,8 +76,8 @@ class CredentialTable(NetBoxTable):
         """Table metadata."""
 
         model = models.Credential
-        fields = ["pk", "id", "name", "username", "discoverables_count"]
-        default_columns = ["name", "username", "discoverables_count"]
+        fields = ["pk", "id", "name", "username", "verify_cert", "discoverables_count"]
+        default_columns = ["name", "username", "verify_cert", "discoverables_count"]
 
 
 #

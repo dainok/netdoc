@@ -469,6 +469,8 @@ def normalize_interface_label(name):
         "ge"
     ):  # HP Comware is using "gi" for GigabitEthernet, while Cisco is using "gi"
         return name.replace("ge", "gi")
+    if name.startswith("network adapter "):
+        return name.replace("network adapter", "vnic")
     return name
 
 
@@ -555,7 +557,11 @@ def normalize_interface_status(status):
     status = status.lower()
     if "up" in status:
         return True
+    if "true" in status:
+        return True
     if "down" in status:
+        return False
+    if "false" in status:
         return False
     if "disabled" in status:
         return False
