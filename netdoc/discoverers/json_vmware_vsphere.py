@@ -24,6 +24,7 @@ def api_query(
         "virtual_machines": [],
     }
 
+    # Connect to vCenter
     srv_inst = SmartConnect(
         host=host,
         user=username,
@@ -36,10 +37,10 @@ def api_query(
 
     # Get VMs
     view_type = [vim.VirtualMachine]  # pylint: disable=c-extension-no-member
-    container_view = content.viewManager.CreateContainerView(
+    vm_container_view = content.viewManager.CreateContainerView(
         container, view_type, recursive
     )
-    for child in container_view.view:
+    for child in vm_container_view.view:
         # For each VM
         # Get full attributes with:
         # from pyVmomi.VmomiSupport import VmomiJSONEncoder
@@ -65,21 +66,18 @@ def api_query(
             "interfaces": [],
         }
 
-        for network in child.guest.net:
-            # For each network
-            network_data = {
-                "mac_address": str(network.macAddress),
-                "connected": str(network.connected),
-                "network": str(network.network),
-                "ip_addresses": [],
-            }
-            if network.ipConfig:
-                # Get network configuration if set (guest must be powered on)
-                for ip_address in network.ipConfig.ipAddress:
-                    network_data["ip_addresses"].append(
-                        str(ip_address.ipAddress) + "/" + str(ip_address.prefixLength)
-                    )
+        for hardware in child.config.hardware.device:
+            try:
+                hardware.macAddress
+            except AttributeError:
+                # Not a network adapter
+                continue
 
+            network_data = {
+                "mac_address": str(hardware.macAddress),
+                "label": str(hardware.deviceInfo.label),
+                "connected": str(hardware.connectable.connected),
+            }
             # Save interface data
             vm_data["interfaces"].append(network_data)
 
