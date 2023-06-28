@@ -522,10 +522,14 @@ class RouteTableEntry(NetBoxModel):
     def __str__(self):
         """Return a human readable name when the object is printed."""
         if self.nexthop_ip:
-            return f"{self.destination} {self.protocol} [{self.distance}/{self.metric}] via {self.nexthop_ip}"
+            return (
+                f"{self.destination} {self.protocol}"
+                + " [{self.distance}/{self.metric}] via {self.nexthop_ip}"
+            )
         # Assuming nexthop_if
         return (
-            f"{self.destination} {self.protocol} [{self.distance}/{self.metric}] at {self.nexthop_if}"
+            f"{self.destination} {self.protocol}"
+            + " [{self.distance}/{self.metric}] at {self.nexthop_if}"
         )
 
     def get_absolute_url(self):
