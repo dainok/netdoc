@@ -11,6 +11,7 @@ __copyright__ = "Copyright 2022, Andrea Dainese"
 __license__ = "GPLv3"
 
 import re
+import json
 from OuiLookup import OuiLookup
 
 from django.db import models
@@ -69,7 +70,7 @@ class DiscoveryModeChoices(ChoiceSet):
         ("netmiko_cisco_xr", "Netmiko Cisco XR"),
         ("netmiko_hp_comware", "Netmiko HPE Comware"),
         ("netmiko_linux", "Netmiko Linux"),
-        ("api_vmware_vsphere", "VMware vSphere"),
+        ("json_vmware_vsphere", "VMware vSphere"),
     ]
 
 
@@ -168,9 +169,7 @@ class Credential(NetBoxModel):
         max_length=100,
         blank=True,
     )
-    verify_cert = models.BooleanField(
-        default=True, help_text="Validate certificate"
-    )
+    verify_cert = models.BooleanField(default=True, help_text="Validate certificate")
 
     class Meta:
         """Database metadata."""
@@ -392,8 +391,18 @@ class DiscoveryLog(NetBoxModel):
             parsed_output, parsed = parse_netmiko_output(
                 self.raw_output, self.command, platform, template=self.template
             )
+        elif framework == "json":
+            try:
+                parsed = True
+                parsed_output = json.loads(self.raw_output)
+            except TypeError as exc:
+                parsed = False
+                parsed_output = str(exc)
+            except json.decoder.JSONDecodeError as exc:
+                parsed = False
+                parsed_output = str(exc)
         else:
-            raise ValueError("Framework not detected")
+            raise ValueError(f"Framework {framework} not implemented")
 
         self.parsed_output = parsed_output
         self.parsed = parsed
