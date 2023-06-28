@@ -312,14 +312,28 @@ def test_routes(test_o, expected_results):
 
     # Test each item
     for expected_result in expected_results:
-        route_o = RouteTableEntry.objects.get(
-            device__name=expected_result.get("device"),
-            destination=expected_result.get("destination"),
-            distance=expected_result.get("distance"),
-            metric=expected_result.get("metric"),
-            protocol=expected_result.get("protocol"),
-            vrf__name=expected_result.get("vrf"),
-        )
+        if expected_result.get("nexthop_if"):
+            route_o = RouteTableEntry.objects.get(
+                device__name=expected_result.get("device"),
+                destination=expected_result.get("destination"),
+                distance=expected_result.get("distance"),
+                metric=expected_result.get("metric"),
+                protocol=expected_result.get("protocol"),
+                vrf__name=expected_result.get("vrf"),
+                nexthop_ip=expected_result.get("nexthop_ip"),
+                nexthop_if__label=expected_result.get("nexthop_if"),
+            )
+        else:
+            route_o = RouteTableEntry.objects.get(
+                device__name=expected_result.get("device"),
+                destination=expected_result.get("destination"),
+                distance=expected_result.get("distance"),
+                metric=expected_result.get("metric"),
+                protocol=expected_result.get("protocol"),
+                vrf__name=expected_result.get("vrf"),
+                nexthop_ip=expected_result.get("nexthop_ip"),
+                nexthop_if=None,
+            )
         if route_o.nexthop_ip:
             test_o.assertEquals(
                 str(route_o.nexthop_ip.ip), expected_result.get("nexthop_ip")
