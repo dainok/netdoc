@@ -13,12 +13,15 @@ from netdoc.schemas import discoverable, discoverylog
 
 
 def api_query(
-    details, host=None, username=None, password=None, verify_cert=True,
+    details,
+    host=None,
+    username=None,
+    password=None,
+    verify_cert=True,
 ):  # pylint: disable=unused-argument
     """Get info via Python pyVmomi."""
-
     data = {
-        "vms": [],
+        "virtual_machines": [],
     }
 
     srv_inst = SmartConnect(
@@ -32,8 +35,10 @@ def api_query(
     recursive = True
 
     # Get VMs
-    view_type = [vim.VirtualMachine] # pylint: disable=c-extension-no-member
-    container_view = content.viewManager.CreateContainerView(container, view_type, recursive)
+    view_type = [vim.VirtualMachine]  # pylint: disable=c-extension-no-member
+    container_view = content.viewManager.CreateContainerView(
+        container, view_type, recursive
+    )
     for child in container_view.view:
         # For each VM
         # Get full attributes with:
@@ -41,11 +46,21 @@ def api_query(
         # dump = json.dumps(child, cls=VmomiJSONEncoder)
         # print(dump)
         vm_data = {
-            "name": child.name,
+            "name": str(child.name),
+            "summary": {
+                "vm": str(child.summary.vm),
+            },
+            "runtime": {
+                "host": str(child.runtime.host),
+                "power_state": str(child.runtime.powerState),
+            },
             "guest": {
-                "hostname": child.guest.hostName,
-                "guest_address": child.guest.ipAddress,
-                "state": child.guest.guestState,
+                "hostname": str(child.guest.hostName),
+                "guest_address": str(child.guest.ipAddress),
+            },
+            "config": {
+                "guest_id": str(child.config.guestId),
+                "guest_full_name": str(child.config.guestFullName),
             },
             "interfaces": [],
         }
@@ -53,24 +68,23 @@ def api_query(
         for network in child.guest.net:
             # For each network
             network_data = {
-                "mac_address": network.macAddress,
-                "connected": network.connected,
-                "network": network.network,
+                "mac_address": str(network.macAddress),
+                "connected": str(network.connected),
+                "network": str(network.network),
                 "ip_addresses": [],
             }
             if network.ipConfig:
                 # Get network configuration if set (guest must be powered on)
                 for ip_address in network.ipConfig.ipAddress:
                     network_data["ip_addresses"].append(
-                        str(ip_address.ipAddress) + "/" +
-                        str(ip_address.prefixLength)
+                        str(ip_address.ipAddress) + "/" + str(ip_address.prefixLength)
                     )
 
             # Save interface data
             vm_data["interfaces"].append(network_data)
 
         # Save VM data
-        data["vms"].append(vm_data)
+        data["virtual_machines"].append(vm_data)
 
     return data
 
@@ -112,7 +126,10 @@ def discovery(nrni):
     print_result(aggregated_results)
 
     # Save outputs and define additional commands
-    for key, multi_result in aggregated_results.items(): # pylint: disable=unused-variable
+    for (
+        key,  # pylint: disable=unused-variable
+        multi_result,
+    ) in aggregated_results.items():
         # MultiResult is an array of Result
         for result in multi_result:
             if result.name == "multiple_tasks":
