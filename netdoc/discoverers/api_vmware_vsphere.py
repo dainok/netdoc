@@ -31,14 +31,69 @@ def api_query(
     children = container_view.view
 
     data = []
+    """
+    	"net": [{
+			"dynamicType": null,
+			"dynamicProperty": [],
+			"network": "VM Network",
+			"ipAddress": ["172.25.82.108"],
+			"macAddress": "00:0c:29:1f:2c:35",
+			"connected": true,
+			"deviceConfigId": 4000,
+			"dnsConfig": null,
+			"ipConfig": {
+				"dynamicType": null,
+				"dynamicProperty": [],
+				"ipAddress": [{
+					"dynamicType": null,
+					"dynamicProperty": [],
+					"ipAddress": "172.25.82.108",
+					"prefixLength": 24,
+					"origin": null,
+					"state": "preferred",
+					"lifetime": null,
+					"_vimtype": "vim.net.IpConfigInfo.IpAddress"
+				}],
+				"dhcp": null,
+				"autoConfigurationEnabled": null,
+				"_vimtype": "vim.net.IpConfigInfo"
+			},
+			"netBIOSConfig": null,
+			"_vimtype": "vim.vm.GuestInfo.NicInfo"
+		}],
+    """
     for child in children:
-        data_vm = json.dumps(child, cls=VmomiJSONEncoder,
-                # sort_keys=True,
-                # explode=[
-                #     templateOf('VirtualMachine'),
-                # ]
-            )
-        data.append(json.loads(data_vm))
+        # print(child)
+        if child.name != "vCenter":
+            continue
+        vm_data = {
+            "name": child.name,
+            "guest": {
+                "hostname": child.guest.hostName,
+                "guest_address": child.guest.ipAddress,
+            },
+            "interfaces": [],
+        }
+        for network in child.guest.net:
+            network_data = {
+                "mac_address": network.macAddress,
+                "connected": network.connected,
+                "network": network.network,
+                "ip_addresses": [],
+            }
+            for ip_address in network.ipConfig.ipAddress:
+                network_data["ip_addresses"].append(F"{ip_address.ipAddress}/{ip_address.prefixLength}")
+
+            vm_data["interfaces"].append(network_data)
+        # data_vm = json.dumps(child, cls=VmomiJSONEncoder,
+        #         # sort_keys=True,
+        #         # explode=[
+        #         #     templateOf('VirtualMachine'),
+        #         # ]
+        #     )
+        # print(data_vm)
+        print(vm_data)
+
 
     return data
 
