@@ -1,0 +1,29 @@
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+0.0.0.0/0, ubest/mbest: 2/0
+    *via 10.0.0.1, [20/0], 6w0d, bgp-65504, external, tag 64000
+    *via 10.0.0.2, [20/0], 6w0d, bgp-65504, external, tag 64000
+1.1.1.0/24, ubest/mbest: 2/0
+    *via 10.0.0.1, [20/0], 5w6d, bgp-65504, external, tag 64000
+    *via 10.0.0.2, [20/0], 5w6d, bgp-65504, external, tag 64000
+1.2.3.0/24, ubest/mbest: 1/0
+    *via 10.1.1.1, Eth5/19, [110/101], 3w4d, ospf-1, intra
+1.2.3.4/32, ubest/mbest: 1/0
+    *via Null0, [1/0], 6w0d, static
+2.0.0.0/8, ubest/mbest: 4/0
+    *via 10.1.0.1, Eth5/13, [110/101], 3w4d, ospf-1, intra
+    *via 10.1.0.2, Eth5/13, [110/101], 3w4d, ospf-1, intra
+    *via 10.1.1.1, Eth5/14, [110/101], 3w4d, ospf-1, intra
+    *via 10.1.1.2, Eth5/14, [110/101], 3w4d, ospf-1, intra
+2.2.2.2/32, ubest/mbest: 1/0
+    *via 99.1.1.2, Eth7/16, [90/130816], 00:46:24, eigrp-1, internal
+2.2.2.3/32, ubest/mbest: 1/0
+    *via 99.1.1.1, Eth3/16, [170/51456], 00:01:42, eigrp-1, external 
+5.5.5.0/24, ubest/mbest: 2/0
+    *via 10.2.0.1, Eth5/19, [110/20], 3w4d, ospf-1, type-2, tag 12345
+    *via 10.2.1.1, Eth6/19, [110/20], 3w4d, ospf-1, type-2, tag 12345
+

@@ -7,7 +7,6 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('dcim', '0167_module_status'),
         ('netdoc', '0007_discoverylog_supported'),
     ]
 

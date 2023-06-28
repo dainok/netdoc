@@ -5,8 +5,6 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
     dependencies = [
-        ("dcim", "0167_module_status"),
-        ("ipam", "0063_standardize_description_comments"),
         ("netdoc", "0002_alter_arptableentry_custom_field_data_and_more"),
     ]
 

@@ -7,9 +7,6 @@ import utilities.json
 
 class Migration(migrations.Migration):
     dependencies = [
-        ("ipam", "0063_standardize_description_comments"),
-        ("dcim", "0167_module_status"),
-        ("extras", "0084_staging"),
         (
             "netdoc",
             "0003_alter_arptableentry_options_alter_credential_options_and_more",

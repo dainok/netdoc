@@ -686,12 +686,33 @@ def normalize_route_type(route_type):
     if route_type in ["unknown"]:
         # Unknown
         return "u"
+    if re.match(r"^eigrp-\S+ internal$", route_type):
+        # Nexus EIGRP with process
+        return "e"
+    if re.match(r"^eigrp-\S+ external$", route_type):
+        # Nexus EIGRP External with process
+        return "ex"
     if re.match(r"^ospf-\S+ intra$", route_type):
         # Nexus OSPF Inter Area with process
         return "oia"
+    if re.match(r"^ospf-\S+ type-1$", route_type):
+        # Nexus OSPF External Type 1 with process
+        return "oe1"
+    if re.match(r"^ospf-\S+ type-2$", route_type):
+        # Nexus OSPF External Type 2 with process
+        return "oe2"
+    if re.match(r"^ospf-\S+ nssa type-1$", route_type):
+        # Nexus OSPF NSSA Type 1 with process
+        return "on1"
+    if re.match(r"^ospf-\S+ nssa type-2$", route_type):
+        # Nexus OSPF NSSA Type 2 with process
+        return "on2"
     if re.match(r"^rip-\S+ rip$", route_type):
         # Nexus RIP with process
-        return "oia"
+        return "r"
+    if re.match(r"^bgp-\S+.*$", route_type):
+        # Nexus BGP with process
+        return "b"
 
     raise ValueError(f"Invalid route type {route_type}")
 
