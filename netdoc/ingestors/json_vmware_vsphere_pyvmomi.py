@@ -16,7 +16,7 @@ def ingest(log):
     for virtual_machine in log.parsed_output.get("virtual_machines"):
         # Get or create Device
         data = {
-            "name": virtual_machine.get("name"),
+            "name": utils.normalize_hostname(virtual_machine.get("name")),
             "site_id": log.discoverable.site.id,
             "manufacturer": vendor,
         }
