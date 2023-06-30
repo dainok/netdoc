@@ -73,15 +73,6 @@ DRAWIO_ROLE_MAP = {
         "width": 50,
         "height": 50,
     },
-    "distribution-switch": {
-        "style": "sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],"
-        + "[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],"
-        + "[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;"
-        + "verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;"
-        + "prIcon=l3_switch;fillColor=#FAFAFA;strokeColor=#005073;",
-        "width": 50,
-        "height": 50,
-    },
     "core-switch": {
         "style": "sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],"
         + "[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],"
@@ -91,11 +82,12 @@ DRAWIO_ROLE_MAP = {
         "width": 50,
         "height": 73,
     },
-    "router": {
-        "style": "sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],"
-        + "[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;"
+    "distribution-switch": {
+        "style": "sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],"
+        + "[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],"
+        + "[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;"
         + "verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;"
-        + "prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;",
+        + "prIcon=l3_switch;fillColor=#FAFAFA;strokeColor=#005073;",
         "width": 50,
         "height": 50,
     },
@@ -108,6 +100,40 @@ DRAWIO_ROLE_MAP = {
         "width": 64,
         "height": 50,
     },
+    "handled": {
+        "style": "sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],"
+        + "[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],"
+        + "[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;"
+        + "verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;"
+        + "shape=mxgraph.cisco19.handheld;fillColor=#005073;strokeColor=none;",
+        "width": 37,
+        "height": 50,
+    },
+    "laptop": {
+        "style": "points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],"
+        + "[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;"
+        + "verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;"
+        + "shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;",
+        "width": 50,
+        "height": 35,
+    },
+    "load-balancer": {
+        "style": "sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],"
+        + "[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],"
+        + "[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;"
+        + "verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;"
+        + "prIcon=load_balancer;fillColor=#FAFAFA;strokeColor=#005073;",
+        "width": 64,
+        "height": 50,
+    },
+    "router": {
+        "style": "sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],"
+        + "[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;"
+        + "verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;"
+        + "prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;",
+        "width": 50,
+        "height": 50,
+    },
     "server": {
         "style": "sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],"
         + "[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],"
@@ -117,14 +143,56 @@ DRAWIO_ROLE_MAP = {
         "width": 50,
         "height": 50,
     },
-    "unknown": {
+    "storage": {
         "style": "sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],"
         + "[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],"
         + "[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;"
         + "verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;"
-        + "shape=mxgraph.cisco19.server;fillColor=#005073;strokeColor=none;",
+        + "shape=mxgraph.cisco19.rect;prIcon=storage;fillColor=#FAFAFA;strokeColor=#005073;",
+        "width": 64,
+        "height": 50,
+    },
+    "unknown": {
+        "style": "sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],"
+        + "[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;"
+        + "verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;"
+        + "shape=mxgraph.cisco19.lock;fillColor=#005073;strokeColor=none;",
         "width": 27,
         "height": 50,
+    },
+    "virtual-switch": {
+        "style": "sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],"
+        + "[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],"
+        + "[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;"
+        + "verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;"
+        + "prIcon=nexus_1k;fillColor=#FAFAFA;strokeColor=#005073;",
+        "width": 64,
+        "height": 50,
+    },
+    "wireless-ap": {
+        "style": "points=[[0.03,0.36,0],[0.18,0,0],[0.5,0.34,0],[0.82,0,0],[0.97,0.36,0],[1,0.67,0],"
+        + "[0.975,0.975,0],[0.5,1,0],[0.025,0.975,0],[0,0.67,0]];verticalLabelPosition=bottom;sketch=0;"
+        + "html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;"
+        + "shape=mxgraph.cisco19.wireless_access_point;fillColor=#005073;strokeColor=none;",
+        "width": 50,
+        "height": 50,
+    },
+    "wireless-controller": {
+        "style": "sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],"
+        + "[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],"
+        + "[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;"
+        + "verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;"
+        + "prIcon=wireless_lan_controller;fillColor=#FAFAFA;strokeColor=#005073;",
+        "width": 64,
+        "height": 50,
+    },
+    "workstation": {
+        "style": "points=[[0.03,0.03,0],[0.5,0,0],[0.97,0.03,0],[1,0.4,0],[0.97,0.745,0],[0.5,1,0],"
+        + "[0.03,0.745,0],[0,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;"
+        + "verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;"
+        + "shape=mxgraph.cisco19.workstation;fillColor=#005073;strokeColor=none;",
+        "width": 50,
+        "height": 40,
     },
 }
 

@@ -30,24 +30,20 @@ class DeviceImageChoices(ChoiceSet):
 
     CHOICES = [
         ("access-switch", "Access Switch"),
-        ("backup", "Backup Device"),
-        ("circuit", "Circuit"),
         ("core-switch", "Core Switch"),
         ("distribution-switch", "Distribution Switch"),
         ("firewall", "Firewall"),
-        ("internal-switch", "Internal Switch"),
-        ("isp-cpe-material", "ISP CPE Material"),
-        ("non-racked-devices", "Non Racked Device"),
-        ("power-feed", "Power Feed"),
-        ("power-panel", "Power Panel"),
-        ("power-units", "Power Units"),
-        ("provider-networks", "Provider Networks"),
-        ("unknown", "Unknown"),
+        ("laptop", "Laptop"),
+        ("load-balancer", "Load Balancer"),
+        ("mobile", "Mobile device"),
         ("router", "Router"),
         ("server", "Server"),
         ("storage", "Storage"),
-        ("wan-network", "WAN Network"),
+        ("unknown", "Unknown"),
+        ("virtual-switch", "Virtual Switch"),
         ("wireless-ap", "Wireless AP"),
+        ("wireless-controller", "Wireless Controller"),
+        ("workstation", "Workstation"),
     ]
 
 
