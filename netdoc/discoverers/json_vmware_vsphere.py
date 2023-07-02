@@ -131,7 +131,7 @@ def api_query(
                 else:
                     # Connected to vSwitch
                     nic_data["switch_type"] = "vswitch"
-                    nic_data["portgroup_id"] = hardware.backing.network
+                    nic_data["portgroup_id"] = str(hardware.backing.network)
                     nic_data["portgroup_name"] = hardware.backing.deviceName
                     nic_data["port"] = None
                 # Save interface data
@@ -168,15 +168,11 @@ def api_query(
             porgroup_data = {
                 "id": str(portgroup),
                 "name": portgroup.name,
-                "hosts": [],
                 "vlan": None,
             }
             if hasattr(portgroup, "vlanId"):
                 # Save VLAN
                 portgroup_data["vlan"] = portgroup.config.defaultPortConfig.vlan.vlanId
-            for connected_host in portgroup.host:
-                # Save connected hosts
-                portgroup_data.append(str(connected_host))
             # Save portgroup data
             dvswitch_data["portgroups"][portgroup_data.get("id")] = portgroup_data
         # Save dvSwitch data
