@@ -41,7 +41,7 @@ CONFIG_COMMANDS = [
 FAILURE_OUTPUT = [
     # WARNING: must specify ^/\Z or a very unique string not found in valid outputs
     r"^$",  # Empty result
-    r"^\s*Traceback",  # Python: traceback
+    r"^\s*.?Traceback",  # Python: traceback
     r"^\s*% Ambiguous command",  # Cisco: ambiguous command (command not supported)
     r"^\s*% Incomplete command",  # Cisco: incomplete command (command not supported)
     r"^\s*No link aggregation group exists",  # HP Comware: no port-channel configured
