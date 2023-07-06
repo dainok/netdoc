@@ -1,4 +1,4 @@
-"""Schema validation for Device."""
+"""Schema validation for VirtualMachine."""
 __author__ = "Andrea Dainese"
 __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2022, Andrea Dainese"
@@ -11,11 +11,10 @@ from virtualization.choices import VirtualMachineStatusChoices
 from dcim.models import Device as Device_model, DeviceRole as DeviceRole_model
 
 from netdoc import utils
-from netdoc.schemas import manufacturer as manufacturer_api, devicerole, devicetype
 
 
 def get_schema():
-    """Return the JSON schema to validate Device data."""
+    """Return the JSON schema to validate VirtualMachine data."""
     return {
         "type": "object",
         "properties": {
@@ -35,9 +34,7 @@ def get_schema():
             },
             "device_id": {
                 "type": "integer",
-                "enum": list(
-                    Device_model.objects.all().values_list("id", flat=True)
-                ),
+                "enum": list(Device_model.objects.all().values_list("id", flat=True)),
             },
             "vcpu": {
                 "type": "integer",
@@ -53,7 +50,7 @@ def get_schema():
 
 
 def get_schema_create():
-    """Return the JSON schema to validate new Device objects."""
+    """Return the JSON schema to validate new VirtualMachine objects."""
     schema = get_schema()
     schema["required"] = [
         "name",
@@ -92,6 +89,8 @@ def get_list(**kwargs):
 def update(obj, status=None, **kwargs):
     """Update a VirtualMachine."""
     update_always = [
+        "cluster_id",
+        "site_id",
         "device_id",
         "vcpu",
         "memory",
@@ -129,4 +128,3 @@ def update(obj, status=None, **kwargs):
 #                 obj.save()
 #                 return True
 #     return False
-

@@ -20,10 +20,6 @@ def api_query(
     verify_cert=True,
 ):  # pylint: disable=unused-argument
     """Get info via Python pyVmomi."""
-    data = {
-        "virtual_machines": [],
-    }
-
     # Connect to vCenter
     srv_inst = SmartConnect(
         host=host,
@@ -35,21 +31,20 @@ def api_query(
     container = content.rootFolder
     recursive = True
 
-
     hosts_data = {}
     dvswitches_data = {}
 
     # Get hosts
     view_type = [vim.HostSystem]  # pylint: disable=c-extension-no-member
-    hosts = list(content.viewManager.CreateContainerView(
-        container, view_type, recursive
-    ).view)
+    hosts = list(
+        content.viewManager.CreateContainerView(container, view_type, recursive).view
+    )
 
     # Get dvSwitches
     view_type = [vim.DistributedVirtualSwitch]  # pylint: disable=c-extension-no-member
-    dvswitches = list(content.viewManager.CreateContainerView(
-        container, view_type, recursive
-    ).view)
+    dvswitches = list(
+        content.viewManager.CreateContainerView(container, view_type, recursive).view
+    )
 
     for host in hosts:
         host_data = {
@@ -68,7 +63,7 @@ def api_query(
             "vms": {},
             "nics": {},
         }
-        
+
         # Get physical NICs
         for nic in host.config.network.pnic:
             nic_data = {
@@ -165,7 +160,7 @@ def api_query(
             "portgroups": {},
         }
         for portgroup in dvswitch.portgroup:
-            porgroup_data = {
+            portgroup_data = {
                 "id": str(portgroup),
                 "name": portgroup.name,
                 "vlan": None,

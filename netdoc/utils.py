@@ -398,7 +398,9 @@ def find_model(manufacturer=None, keyword=None):
             # Load library file based on manufacturer
             data = yaml.load(vendor_fh, Loader=SafeLoader)
     except FileNotFoundError as exc:
-        raise ValueError(f"manufacturer {manufacturer} not found in NetBox library") from exc
+        raise ValueError(
+            f"manufacturer {manufacturer} not found in NetBox library"
+        ) from exc
 
     # Find closest words (part number/model)
     closests = get_close_matches(keyword, possibilities=data.get("keywords"), n=1)
@@ -432,16 +434,15 @@ def find_vendor(keyword=None):
     if closests:
         # Found something
         return closests.pop()
-    
+
     # othing found, try to lookup the first word only
     closests = get_close_matches(keyword.split(" ")[0], possibilities=data, n=1)
 
     if closests:
         # Found something
         return closests.pop()
-    
-    return None
 
+    return None
 
 
 def incomplete_mac(mac):

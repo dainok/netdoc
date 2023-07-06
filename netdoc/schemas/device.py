@@ -13,6 +13,7 @@ from dcim.models import (
     Site,
     Device,
 )
+from virtualization.models import Cluster
 
 from netdoc import utils
 from netdoc.schemas import manufacturer as manufacturer_api, devicerole, devicetype
@@ -53,6 +54,10 @@ def get_schema():
                 "type": "integer",
                 "enum": list(Site.objects.all().values_list("id", flat=True)),
             },
+            "cluster_id": {
+                "type": "integer",
+                "enum": list(Cluster.objects.all().values_list("id", flat=True)),
+            },
         },
     }
 
@@ -81,7 +86,7 @@ def create(manufacturer=None, manufacturer_keyword=None, model_keyword=None, **k
         manufacturer = utils.find_vendor(manufacturer_keyword)
 
     if not manufacturer:
-        raise ValueError(f"manufacturer not set/not found")
+        raise ValueError("manufacturer not set/not found")
 
     model_o = create_manufacturer_and_model(
         manufacturer=manufacturer, model_keyword=model_keyword
@@ -119,7 +124,7 @@ def get_list(**kwargs):
 
 def update(obj, manufacturer=None, model_keyword=None, **kwargs):
     """Update a Device."""
-    update_always = []
+    update_always = ["cluster_id"]
 
     if manufacturer and model_keyword and "Unknown" in obj.device_type.model:
         # Manufacturer and model are set, current model is uknown, adding to update_always
