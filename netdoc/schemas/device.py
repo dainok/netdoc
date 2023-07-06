@@ -69,13 +69,20 @@ def get_schema_create():
     return schema
 
 
-def create(manufacturer=None, model_keyword=None, **kwargs):
+def create(manufacturer=None, manufacturer_keyword=None, model_keyword=None, **kwargs):
     """Create a Device.
 
     A Device is created from hostname only, thus generic
     model/tyoe/manufacturer/role are used. They can be updated later.
     Before need to get or create Manufacturer, DeviceModel, DeviceRole and DeviceType.
     """
+    if manufacturer_keyword:
+        # Looking for the most similar manufacturer
+        manufacturer = utils.find_vendor(manufacturer_keyword)
+
+    if not manufacturer:
+        raise ValueError(f"manufacturer not set/not found")
+
     model_o = create_manufacturer_and_model(
         manufacturer=manufacturer, model_keyword=model_keyword
     )
