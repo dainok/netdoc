@@ -41,9 +41,6 @@ def get_schema_create():
 
 def create(cluster_type=None, cluster_description=None, **kwargs):
     """Create a Cluster."""
-
-
-
     kwargs = utils.delete_empty_keys(kwargs)
     validate(kwargs, get_schema_create(), format_checker=FormatChecker())
     obj = utils.object_create(Cluster, **kwargs)
@@ -63,7 +60,7 @@ def get_list(**kwargs):
     return result
 
 
-def update(obj, cluster_type=None, cluster_description=None, **kwargs):
+def update(obj, status=None, cluster_type=None, cluster_description=None, **kwargs):
     """Update a VirtualMachine."""
     update_always = [
         "device_id",

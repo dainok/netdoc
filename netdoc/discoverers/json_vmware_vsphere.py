@@ -12,6 +12,14 @@ from pyVim.connect import SmartConnect
 from netdoc.schemas import discoverable, discoverylog
 
 
+def normalize_disk_space(disk_space):
+    """Convert disk spaces from string to int."""
+    disk_space = disk_space.lower()
+    disk_space = disk_space.replace(",", "")
+    disk_space = disk_space.replace(" kb", "")
+    return int(disk_space)
+
+
 def api_query(
     details,
     host=None,
@@ -98,6 +106,9 @@ def api_query(
                 "name": vm.name,
                 "status": vm.overallStatus,
                 "power_state": vm.runtime.powerState,
+                "vcpus": vm.config.hardware.numCPU,
+                "memory": vm.config.hardware.memoryMB,
+                "total_disk_gb": 0,
                 "nics": [],
                 "guest": {
                     "type_id": vm.config.guestId,
@@ -107,30 +118,35 @@ def api_query(
                 },
             }
             for hardware in vm.config.hardware.device:
-                try:
-                    hardware.macAddress
-                except AttributeError:
-                    # Not a network adapter
-                    continue
-                nic_data = {
-                    "mac_address": str(hardware.macAddress),
-                    "label": str(hardware.deviceInfo.label),
-                    "connected": str(hardware.connectable.connected),
-                }
-                if hasattr(hardware.backing, "port"):
-                    # Connected to dvSwitch
-                    nic_data["switch_type"] = "dvswitch"
-                    nic_data["portgroup_id"] = hardware.backing.port.portgroupKey
-                    nic_data["portgroup_name"] = None
-                    nic_data["port"] = hardware.backing.port.portKey
+                if type(hardware).__name__ == "vim.vm.device.VirtualDisk":
+                    vm_data["total_disk_gb"] = vm_data.get(
+                        "total_disk_gb"
+                    ) + normalize_disk_space(hardware.deviceInfo.summary)
                 else:
-                    # Connected to vSwitch
-                    nic_data["switch_type"] = "vswitch"
-                    nic_data["portgroup_id"] = str(hardware.backing.network)
-                    nic_data["portgroup_name"] = hardware.backing.deviceName
-                    nic_data["port"] = None
-                # Save interface data
-                vm_data["nics"].append(nic_data)
+                    try:
+                        hardware.macAddress
+                    except AttributeError:
+                        # Not a network adapter
+                        continue
+                    nic_data = {
+                        "mac_address": str(hardware.macAddress),
+                        "label": str(hardware.deviceInfo.label),
+                        "connected": str(hardware.connectable.connected),
+                    }
+                    if hasattr(hardware.backing, "port"):
+                        # Connected to dvSwitch
+                        nic_data["switch_type"] = "dvswitch"
+                        nic_data["portgroup_id"] = hardware.backing.port.portgroupKey
+                        nic_data["portgroup_name"] = None
+                        nic_data["port"] = hardware.backing.port.portKey
+                    else:
+                        # Connected to vSwitch
+                        nic_data["switch_type"] = "vswitch"
+                        nic_data["portgroup_id"] = str(hardware.backing.network)
+                        nic_data["portgroup_name"] = hardware.backing.deviceName
+                        nic_data["port"] = None
+                    # Save interface data
+                    vm_data["nics"].append(nic_data)
             # Save VM data
             host_data["vms"][vm_data.get("id")] = vm_data
 

@@ -36,7 +36,7 @@ def get_schema():
                 "type": "integer",
                 "enum": list(Device_model.objects.all().values_list("id", flat=True)),
             },
-            "vcpu": {
+            "vcpus": {
                 "type": "integer",
             },
             "memory": {
@@ -92,7 +92,7 @@ def update(obj, status=None, **kwargs):
         "cluster_id",
         "site_id",
         "device_id",
-        "vcpu",
+        "vcpus",
         "memory",
         "disk",
     ]

@@ -78,6 +78,9 @@ def ingest(log):
                 "site_id": device_o.site.id,
                 "cluster_id": device_o.cluster.id,
                 "status": utils.normalize_vm_status(vm.get("power_state")),
+                "vcpus": vm.get("vcpus"),
+                "memory": vm.get("memory"),
+                "disk": vm.get("total_disk_gb"),
             }
             vm_o = virtualmachine.get(name=data_vm.get("name"))
             if not vm_o:

@@ -8,6 +8,7 @@ from netdoc.tasks import discovery
 
 FILTERS = ["172.25.82.45"]  # List of discoverable IP addresses
 FILTERS = ["172.25.82.108"]
+# FILTERS = ["172.25.82.100"]
 
 # Don't edit below this line
 
