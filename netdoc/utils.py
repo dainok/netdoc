@@ -5,6 +5,7 @@ __copyright__ = "Copyright 2022, Andrea Dainese"
 __license__ = "GPLv3"
 
 from os import path
+import glob
 import re
 import random
 import importlib
@@ -41,7 +42,7 @@ CONFIG_COMMANDS = [
 FAILURE_OUTPUT = [
     # WARNING: must specify ^/\Z or a very unique string not found in valid outputs
     r"^$",  # Empty result
-    r"^\s*Traceback",  # Python: traceback
+    r"^\s*.?Traceback",  # Python: traceback
     r"^\s*% Ambiguous command",  # Cisco: ambiguous command (command not supported)
     r"^\s*% Incomplete command",  # Cisco: incomplete command (command not supported)
     r"^\s*No link aggregation group exists",  # HP Comware: no port-channel configured
@@ -392,9 +393,14 @@ def find_model(manufacturer=None, keyword=None):
     netdoc_directory = path.dirname(path.realpath(__file__))
     library_file = f"{netdoc_directory}/library/{manufacturer}.yml"
 
-    with open(library_file, "r", encoding="utf-8") as vendor_fh:
-        # Load library file based on manufacturer
-        data = yaml.load(vendor_fh, Loader=SafeLoader)
+    try:
+        with open(library_file, "r", encoding="utf-8") as vendor_fh:
+            # Load library file based on manufacturer
+            data = yaml.load(vendor_fh, Loader=SafeLoader)
+    except FileNotFoundError as exc:
+        raise ValueError(
+            f"manufacturer {manufacturer} not found in NetBox library"
+        ) from exc
 
     # Find closest words (part number/model)
     closests = get_close_matches(keyword, possibilities=data.get("keywords"), n=1)
@@ -405,6 +411,36 @@ def find_model(manufacturer=None, keyword=None):
             # Looking for the model based on closest word
             if item.get("model") == closest or item.get("part_number") == closest:
                 return item
+
+    return None
+
+
+def find_vendor(keyword=None):
+    """
+    Get most similar Manufacturer (vendor) using Netbox devicetype-library.
+
+    See: https://github.com/netbox-community/devicetype-library
+    """
+    netdoc_directory = path.dirname(path.realpath(__file__))
+    library_file = f"{netdoc_directory}/library"
+
+    files = glob.glob(f"{library_file}/*.yml")
+    data = [path.basename(path.splitext(file)[0]) for file in files]
+    data.sort()
+
+    # Find closest words (part number/model)
+    closests = get_close_matches(keyword, possibilities=data, n=1)
+
+    if closests:
+        # Found something
+        return closests.pop()
+
+    # othing found, try to lookup the first word only
+    closests = get_close_matches(keyword.split(" ")[0], possibilities=data, n=1)
+
+    if closests:
+        # Found something
+        return closests.pop()
 
     return None
 
@@ -484,6 +520,8 @@ def normalize_interface_duplex(duplex):
         return "half"
     if "full" in duplex:
         return "full"
+    if "true" in duplex:
+        return "auto"
     if "unknown" in duplex:
         # Unknown
         return None
@@ -538,8 +576,6 @@ def normalize_interface_label(name):
         "ge"
     ):  # HP Comware is using "gi" for GigabitEthernet, while Cisco is using "gi"
         return name.replace("ge", "gi")
-    if name.startswith("network adapter "):
-        return name.replace("network adapter", "vnic")
     return name
 
 
@@ -797,6 +833,19 @@ def normalize_serial(serial):
     if serial:
         serial = serial.upper()
     return serial
+
+
+def normalize_vm_status(status):
+    """Status must be offline, active, planned, staged, failed, decomissioning."""
+    status = status.lower()
+    if status in ["poweredon"]:
+        # Active
+        return "active"
+    if status in ["poweredoff"]:
+        # Offline
+        return "offline"
+
+    raise ValueError(f"Invalid virtual machine status {status}")
 
 
 def normalize_vlan_list(trunking_vlans):

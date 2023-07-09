@@ -13,6 +13,7 @@ from dcim.models import (
     Site,
     Device,
 )
+from virtualization.models import Cluster
 
 from netdoc import utils
 from netdoc.schemas import manufacturer as manufacturer_api, devicerole, devicetype
@@ -53,6 +54,10 @@ def get_schema():
                 "type": "integer",
                 "enum": list(Site.objects.all().values_list("id", flat=True)),
             },
+            "cluster_id": {
+                "type": "integer",
+                "enum": list(Cluster.objects.all().values_list("id", flat=True)),
+            },
         },
     }
 
@@ -69,13 +74,20 @@ def get_schema_create():
     return schema
 
 
-def create(manufacturer=None, model_keyword=None, **kwargs):
+def create(manufacturer=None, manufacturer_keyword=None, model_keyword=None, **kwargs):
     """Create a Device.
 
     A Device is created from hostname only, thus generic
     model/tyoe/manufacturer/role are used. They can be updated later.
     Before need to get or create Manufacturer, DeviceModel, DeviceRole and DeviceType.
     """
+    if manufacturer_keyword:
+        # Looking for the most similar manufacturer
+        manufacturer = utils.find_vendor(manufacturer_keyword)
+
+    if not manufacturer:
+        manufacturer = "Unknown"
+
     model_o = create_manufacturer_and_model(
         manufacturer=manufacturer, model_keyword=model_keyword
     )
@@ -112,7 +124,7 @@ def get_list(**kwargs):
 
 def update(obj, manufacturer=None, model_keyword=None, **kwargs):
     """Update a Device."""
-    update_always = []
+    update_always = ["cluster_id"]
 
     if manufacturer and model_keyword and "Unknown" in obj.device_type.model:
         # Manufacturer and model are set, current model is uknown, adding to update_always
