@@ -26,7 +26,9 @@ def get_schema():
             },
             "virtual_machine_id": {
                 "type": "integer",
-                "enum": list(VirtualMachine_model.objects.all().values_list("id", flat=True)),
+                "enum": list(
+                    VirtualMachine_model.objects.all().values_list("id", flat=True)
+                ),
             },
             "vrf_id": {
                 "type": "integer",
