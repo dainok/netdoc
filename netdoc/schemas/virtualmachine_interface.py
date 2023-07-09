@@ -7,24 +7,13 @@ __license__ = "GPLv3"
 from jsonschema import validate, FormatChecker
 
 from ipam.models import VLAN as VLAN_model, VRF as VRF_model
-from dcim.models import Device as Device_model, Interface as Interface_model
-from dcim.choices import (
-    InterfaceTypeChoices,
-    InterfaceDuplexChoices,
-    InterfaceModeChoices,
-)
+from virtualization.models.virtualmachines import VMInterface as VMInterface_model
+from virtualization.models.virtualmachines import VirtualMachine as VirtualMachine_model
+from dcim.choices import InterfaceModeChoices
+
 
 from netdoc import utils
 from netdoc.schemas import vlan, prefix, ipaddress
-
-
-def get_interface_types():
-    """Return Interface types."""
-    types = []
-    for key, value in InterfaceTypeChoices():  # pylint: disable=unused-variable
-        for key1, value1 in value:  # pylint: disable=unused-variable
-            types.append(key1)
-    return types
 
 
 def get_schema():
@@ -35,20 +24,9 @@ def get_schema():
             "name": {
                 "type": "string",
             },
-            "device_id": {
+            "virtual_machine_id": {
                 "type": "integer",
-                "enum": list(Device_model.objects.all().values_list("id", flat=True)),
-            },
-            "type": {
-                "type": "string",
-                "enum": get_interface_types(),
-            },
-            "speed": {
-                "type": "integer",
-            },
-            "duplex": {
-                "type": "string",
-                "enum": [key for key, value in InterfaceDuplexChoices()],
+                "enum": list(VirtualMachine_model.objects.all().values_list("id", flat=True)),
             },
             "vrf_id": {
                 "type": "integer",
@@ -66,19 +44,13 @@ def get_schema():
             "parent_id": {
                 "type": "integer",
                 "enum": list(
-                    Interface_model.objects.all().values_list("id", flat=True)
+                    VMInterface_model.objects.all().values_list("id", flat=True)
                 ),
             },
             "bridge_id": {
                 "type": "integer",
                 "enum": list(
-                    Interface_model.objects.all().values_list("id", flat=True)
-                ),
-            },
-            "lag_id": {
-                "type": "integer",
-                "enum": list(
-                    Interface_model.objects.all().values_list("id", flat=True)
+                    VMInterface_model.objects.all().values_list("id", flat=True)
                 ),
             },
             "mode": {
@@ -113,7 +85,7 @@ def get_schema_create():
     return schema
 
 
-def create(type="other", **kwargs):  # pylint: disable=redefined-builtin
+def create(**kwargs):  # pylint: disable=redefined-builtin
     """Create an Interface."""
     # The following are updated in update_mode
     if "mode" in kwargs:
@@ -125,25 +97,25 @@ def create(type="other", **kwargs):  # pylint: disable=redefined-builtin
 
     data = {
         **kwargs,
-        "type": type,  # Default type is other
-        "label": utils.normalize_interface_label(kwargs.get("name")),  # Set label
     }
 
     data = utils.delete_empty_keys(data)
-    obj = utils.object_create(Interface_model, **data)
+    obj = utils.object_create(VMInterface_model, **data)
     return obj
 
 
-def get(device_id, label):
+def get(virtual_machine_id, name):
     """Return an Interface."""
-    obj = utils.object_get_or_none(Interface_model, device__id=device_id, label=label)
+    obj = utils.object_get_or_none(
+        VMInterface_model, virtual_machine__id=virtual_machine_id, name=name
+    )
     return obj
 
 
 def get_list(**kwargs):
     """Get a list of Interface objects."""
     validate(kwargs, get_schema(), format_checker=FormatChecker())
-    result = utils.object_list(Interface_model, **kwargs)
+    result = utils.object_list(VMInterface_model, **kwargs)
     return result
 
 
@@ -152,27 +124,16 @@ def update(obj, **kwargs):
     update_always = [
         "name",
         "description",
-        "speed",
-        "duplex",
         "vrf_id",
         "mac_address",
         "mtu",
         "enabled",
         "parent_id",
         "bridge_id",
-        "lag_id",
-        "label",
     ]
-    if obj.type == "other":
-        # Updating Interface type only if current value is other
-        # to avoid overwriting custom options.
-        update_always.append("type")
 
     data = {
         **kwargs,
-        "label": utils.normalize_interface_label(kwargs.get("name"))
-        if kwargs.get("name")
-        else None,  # Set label if name is updated
     }
 
     data = utils.delete_empty_keys(data)

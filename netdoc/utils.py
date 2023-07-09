@@ -520,6 +520,8 @@ def normalize_interface_duplex(duplex):
         return "half"
     if "full" in duplex:
         return "full"
+    if "true" in duplex:
+        return "auto"
     if "unknown" in duplex:
         # Unknown
         return None
@@ -574,8 +576,6 @@ def normalize_interface_label(name):
         "ge"
     ):  # HP Comware is using "gi" for GigabitEthernet, while Cisco is using "gi"
         return name.replace("ge", "gi")
-    if name.startswith("network adapter "):
-        return name.replace("network adapter", "vnic")
     return name
 
 

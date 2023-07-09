@@ -4,18 +4,22 @@ __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2022, Andrea Dainese"
 __license__ = "GPLv3"
 
-from netdoc.schemas import device, interface, virtualmachine, clustertype, cluster
+from netdoc.schemas import (
+    device,
+    interface,
+    virtualmachine,
+    virtualmachine_interface,
+    clustertype,
+    cluster,
+)
 from netdoc import utils
 
 
 def ingest(log):
     """Processing parsed output."""
-    # TODO
-    # host -> vmnic/pnic -> physical switch
-    # host -> vmnic/pnic -> (internal) -> vswitch/svswitch
-    # vm -> vnic (porgroup name is the description) -> vswitch interface (+ portgroup vlanID)
-
-    for host_id, host in log.parsed_output["hosts"].items():
+    for host_id, host in log.parsed_output[  # pylint: disable=unused-variable
+        "hosts"
+    ].items():
         # Parsing hosts
         cluster_type = host.get("product_name")
         cluster_name = host.get("cluster_name")
@@ -46,7 +50,7 @@ def ingest(log):
             device_o = device.update(device_o, **data_host)
 
         # Parsing host interfaces (vmNICs)
-        for nic_id, nic in host.get("nics").items():
+        for nic_id, nic in host.get("nics").items():  # pylint: disable=unused-variable
             interface_name = nic.get("name")
             label = utils.normalize_interface_label(interface_name)
             mac_address = (
@@ -55,13 +59,18 @@ def ingest(log):
                 else None
             )
             int_type = utils.normalize_interface_type("vNIC")
-            # enabled = utils.normalize_interface_status(nic.get("connected")) # TODO
+            speed = utils.normalize_interface_speed(f"{nic.get('speed')} MB/s")
+            duplex = utils.normalize_interface_duplex(str(nic.get("duplex")))
+            if speed:
+                enabled = True
             data_vm_interface = {
                 "name": interface_name,
                 "mac_address": mac_address,
                 "type": int_type,
                 "device_id": device_o.id,
-                # "enabled": enabled,
+                "enabled": enabled,
+                "speed": speed,
+                "duplex": duplex,
             }
             interface_o = interface.get(device_id=device_o.id, label=label)
             if not interface_o:
@@ -70,7 +79,9 @@ def ingest(log):
                 interface.update(interface_o, **data_vm_interface)
 
         # Parsing Virtual Machines
-        for vm_id, vm in host["vms"].items():
+        for vm_id, vm in host[  # pylint: disable=unused-variable,invalid-name
+            "vms"
+        ].items():
             # Get or create Device
             data_vm = {
                 "name": utils.normalize_hostname(vm.get("name")),
@@ -88,30 +99,29 @@ def ingest(log):
             else:
                 vm_o = virtualmachine.update(vm_o, **data_vm)
 
-            # # Parsing VM interfaces (vNICs)
-            # for nic in vm.get("nics"):
-            #     interface_name = nic.get("label")
-            #     label = utils.normalize_interface_label(interface_name)
-            #     mac_address = (
-            #         utils.normalize_mac_address(nic.get("mac_address"))
-            #         if not utils.incomplete_mac(nic.get("mac_address"))
-            #         else None
-            #     )
-            #     int_type = utils.normalize_interface_type("vNIC")
-            #     enabled = utils.normalize_interface_status(nic.get("connected"))
+            # Parsing VM interfaces (vNICs)
+            for nic in vm.get("nics"):
+                interface_name = nic.get("label")
+                mac_address = (
+                    utils.normalize_mac_address(nic.get("mac_address"))
+                    if not utils.incomplete_mac(nic.get("mac_address"))
+                    else None
+                )
+                enabled = utils.normalize_interface_status(nic.get("connected"))
 
-            #     data_vm_interface = {
-            #         "name": interface_name,
-            #         "mac_address": mac_address,
-            #         "type": int_type,
-            #         "device_id": device_o.id,
-            #         "enabled": enabled,
-            #     }
-            #     interface_o = interface.get(device_id=device_o.id, label=label)
-            #     if not interface_o:
-            #         interface.create(**data_vm_interface)
-            #     else:
-            #         interface.update(interface_o, **data_vm_interface)
+                data_vm_interface = {
+                    "name": interface_name,
+                    "mac_address": mac_address,
+                    "virtual_machine_id": vm_o.id,
+                    "enabled": enabled,
+                }
+                vm_interface_o = virtualmachine_interface.get(
+                    virtual_machine_id=vm_o.id, name=interface_name
+                )
+                if not vm_interface_o:
+                    virtualmachine_interface.create(**data_vm_interface)
+                else:
+                    virtualmachine_interface.update(vm_interface_o, **data_vm_interface)
 
     # Update the log
     log.ingested = True

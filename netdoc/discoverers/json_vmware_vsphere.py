@@ -22,7 +22,7 @@ def normalize_disk_space(disk_space):
 
 def api_query(
     details,
-    host=None,
+    host_address=None,
     username=None,
     password=None,
     verify_cert=True,
@@ -30,7 +30,7 @@ def api_query(
     """Get info via Python pyVmomi."""
     # Connect to vCenter
     srv_inst = SmartConnect(
-        host=host,
+        host=host_address,
         user=username,
         pwd=password,
         disableSslCertValidation=not verify_cert,
@@ -70,6 +70,7 @@ def api_query(
             "portgroups": {},
             "vms": {},
             "nics": {},
+            "vnics": {},
         }
 
         # Get physical NICs
@@ -78,9 +79,26 @@ def api_query(
                 "id": nic.key,
                 "name": nic.device,
                 "mac_address": nic.mac,
+                "speed": nic.linkSpeed.speedMb,
+                "duplex": nic.linkSpeed.duplex,
             }
             # Save NIC data
             host_data["nics"][nic_data.get("id")] = nic_data
+
+        # Get virtual NICs (vmKernel)
+        for vnic in host.config.network.vnic:
+            vnic_data = {
+                "id": vnic.key,
+                "name": vnic.device,
+                "mac_address": vnic.spec.mac,
+                "ipv4_address": vnic.spec.ip.ipAddress,
+                "ipv4_netmask": vnic.spec.ip.subnetMask,
+                "mtu": vnic.spec.mtu,
+                "dvswitch_portgroup": vnic.spec.distributedVirtualPort,
+                "vswitch_portgroup": vnic.spec.portgroup,
+            }
+            # Save vNIC data
+            host_data["vnics"][vnic_data.get("id")] = vnic_data
 
         # Get vSwitches
         for vswitch in host.config.network.vswitch:
@@ -100,7 +118,7 @@ def api_query(
             host_data["vswitches"][vswitch_data.get("id")] = vswitch_data
 
         # Get VMs
-        for vm in host.vm:
+        for vm in host.vm:  # pylint: disable=invalid-name
             vm_data = {
                 "id": str(vm),
                 "name": vm.name,
