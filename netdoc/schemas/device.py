@@ -86,7 +86,7 @@ def create(manufacturer=None, manufacturer_keyword=None, model_keyword=None, **k
         manufacturer = utils.find_vendor(manufacturer_keyword)
 
     if not manufacturer:
-        raise ValueError("manufacturer not set/not found")
+        manufacturer = "Unknown"
 
     model_o = create_manufacturer_and_model(
         manufacturer=manufacturer, model_keyword=model_keyword
