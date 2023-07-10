@@ -1,0 +1,189 @@
+{
+	"hosts": {
+		"'vim.HostSystem:host-130'": {
+			"id": "'vim.HostSystem:host-130'",
+			"name": "node1",
+			"cluster_id": "'vim.ComputeResource:domain-s128'",
+			"cluster_name": "cluster1",
+			"vendor": "Cisco Systems Inc",
+			"model": "UCSC-C220-M5SX",
+			"status": "red",
+			"management_ip": "172.25.82.108",
+			"product_name": "VMware ESXi",
+			"product_fullname": "VMware ESXi 6.7.0 build-17700523",
+			"vswitches": {
+				"key-vim.host.VirtualSwitch-vSwitch0": {
+					"id": "key-vim.host.VirtualSwitch-vSwitch0",
+					"name": "vSwitch0",
+					"nics": ["key-vim.host.PhysicalNic-vmnic0"],
+					"portgroups": ["key-vim.host.PortGroup-VM Network", "key-vim.host.PortGroup-Management Network"]
+				}
+			},
+			"portgroups": {
+				"key-vim.host.PortGroup-VM Network": {
+					"id": "key-vim.host.PortGroup-VM Network",
+					"name": "VM Network",
+					"vswitch_id": "key-vim.host.VirtualSwitch-vSwitch0",
+					"vswitch_name": "vSwitch0",
+					"vswitch_type": "vswitch",
+					"vlan": 0
+				},
+				"key-vim.host.PortGroup-Management Network": {
+					"id": "key-vim.host.PortGroup-Management Network",
+					"name": "Management Network",
+					"vswitch_id": "key-vim.host.VirtualSwitch-vSwitch0",
+					"vswitch_name": "vSwitch0",
+					"vswitch_type": "vswitch",
+					"vlan": 0
+				}
+			},
+			"vms": {
+				"'vim.VirtualMachine:vm-32'": {
+					"id": "'vim.VirtualMachine:vm-32'",
+					"name": "vCenter",
+					"status": "green",
+					"power_state": "poweredOn",
+					"vcpus": 4,
+					"memory": 16384,
+					"total_disk_gb": 335275008,
+					"nics": [{
+						"mac_address": "00:0c:29:1f:2c:35",
+						"label": "Network adapter 1",
+						"connected": "True",
+						"switch_type": "vswitch",
+						"portgroup_id": "'vim.Network:network-12'",
+						"portgroup_name": "VM Network",
+						"port": null
+					}],
+					"guest": {
+						"type_id": "other3xLinux64Guest",
+						"type_name": "Other 3.x Linux (64-bit)",
+						"hostname": "vcenter.lab.local",
+						"guest_address": "172.25.82.108"
+					}
+				},
+				"'vim.VirtualMachine:vm-166'": {
+					"id": "'vim.VirtualMachine:vm-166'",
+					"name": "STE_TENANT1-APP1-VM1",
+					"status": "green",
+					"power_state": "poweredOff",
+					"vcpus": 1,
+					"memory": 2048,
+					"total_disk_gb": 16777216,
+					"nics": [{
+						"mac_address": "00:50:56:8a:f9:98",
+						"label": "Network adapter 1",
+						"connected": "False",
+						"switch_type": "dvswitch",
+						"portgroup_id": "dvportgroup-164",
+						"portgroup_name": null,
+						"port": "144"
+					}],
+					"guest": {
+						"type_id": "debian10_64Guest",
+						"type_name": "Debian GNU/Linux 10 (64-bit)",
+						"hostname": null,
+						"guest_address": null
+					}
+				}
+			},
+			"nics": {
+				"key-vim.host.PhysicalNic-vmnic0": {
+					"id": "key-vim.host.PhysicalNic-vmnic0",
+					"name": "vmnic0",
+					"mac_address": "58:f3:9c:89:a8:58",
+					"speed": 1000,
+					"duplex": true
+				},
+				"key-vim.host.PhysicalNic-vmnic1": {
+					"id": "key-vim.host.PhysicalNic-vmnic1",
+					"name": "vmnic1",
+					"mac_address": "58:f3:9c:89:a8:59",
+					"speed": 1000,
+					"duplex": true
+				}
+			},
+			"vnics": {
+				"key-vim.host.VirtualNic-vmk0": {
+					"id": "key-vim.host.VirtualNic-vmk0",
+					"name": "vmk0",
+					"mac_address": "58:f3:9c:89:a8:58",
+					"ipv4_address": "172.25.82.107",
+					"ipv4_netmask": "255.255.255.0",
+					"mtu": 1500,
+					"dvswitch_portgroup": null,
+					"vswitch_portgroup": "Management Network"
+				}
+			}
+		}
+	},
+	"dvswitches": {
+		"'vim.dvs.VmwareDistributedVirtualSwitch:dvs-102'": {
+			"id": "'vim.dvs.VmwareDistributedVirtualSwitch:dvs-102'",
+			"name": "DVS_by_APIC",
+			"status": "green",
+			"portgroups": {
+				"'vim.dvs.DistributedVirtualPortgroup:dvportgroup-181'": {
+					"id": "'vim.dvs.DistributedVirtualPortgroup:dvportgroup-181'",
+					"name": "STE_TENANT1|INTRANET1|WEB2",
+					"vlan": null
+				},
+				"'vim.dvs.DistributedVirtualPortgroup:dvportgroup-163'": {
+					"id": "'vim.dvs.DistributedVirtualPortgroup:dvportgroup-163'",
+					"name": "STE_TENANT1|INTRANET1|WEB1",
+					"vlan": null
+				},
+				"'vim.dvs.DistributedVirtualPortgroup:dvportgroup-103'": {
+					"id": "'vim.dvs.DistributedVirtualPortgroup:dvportgroup-103'",
+					"name": "DVS_by_APIC-DVUplinks-102",
+					"vlan": null
+				},
+				"'vim.dvs.DistributedVirtualPortgroup:dvportgroup-138'": {
+					"id": "'vim.dvs.DistributedVirtualPortgroup:dvportgroup-138'",
+					"name": "NTS_TRAINING|CorpApp|WEB",
+					"vlan": null
+				},
+				"'vim.dvs.DistributedVirtualPortgroup:dvportgroup-180'": {
+					"id": "'vim.dvs.DistributedVirtualPortgroup:dvportgroup-180'",
+					"name": "STE_TENANT1|INTRANET1|APP2",
+					"vlan": null
+				},
+				"'vim.dvs.DistributedVirtualPortgroup:dvportgroup-164'": {
+					"id": "'vim.dvs.DistributedVirtualPortgroup:dvportgroup-164'",
+					"name": "STE_TENANT1|INTRANET1|APP1",
+					"vlan": null
+				},
+				"'vim.dvs.DistributedVirtualPortgroup:dvportgroup-145'": {
+					"id": "'vim.dvs.DistributedVirtualPortgroup:dvportgroup-145'",
+					"name": "NTS_TRAINING|FW_PaloAltoctxPRODFW_INSIDE|FW_IN",
+					"vlan": null
+				},
+				"'vim.dvs.DistributedVirtualPortgroup:dvportgroup-127'": {
+					"id": "'vim.dvs.DistributedVirtualPortgroup:dvportgroup-127'",
+					"name": "Tenant10|CorpApp|app",
+					"vlan": null
+				},
+				"'vim.dvs.DistributedVirtualPortgroup:dvportgroup-144'": {
+					"id": "'vim.dvs.DistributedVirtualPortgroup:dvportgroup-144'",
+					"name": "NTS_TRAINING|FW_PaloAltoctxPRODFW_OUTSIDE|FW_OUT",
+					"vlan": null
+				},
+				"'vim.dvs.DistributedVirtualPortgroup:dvportgroup-105'": {
+					"id": "'vim.dvs.DistributedVirtualPortgroup:dvportgroup-105'",
+					"name": "quarantine",
+					"vlan": null
+				},
+				"'vim.dvs.DistributedVirtualPortgroup:dvportgroup-106'": {
+					"id": "'vim.dvs.DistributedVirtualPortgroup:dvportgroup-106'",
+					"name": "NTS_TRAINING|CorpApp|APP",
+					"vlan": null
+				},
+				"'vim.dvs.DistributedVirtualPortgroup:dvportgroup-186'": {
+					"id": "'vim.dvs.DistributedVirtualPortgroup:dvportgroup-186'",
+					"name": "STE_TENANT1|INTRANET1|APP3",
+					"vlan": null
+				}
+			}
+		}
+	}
+}

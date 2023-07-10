@@ -25,6 +25,7 @@ from dcim.models import (
     Site,
 )
 from ipam.models import IPAddress, Prefix, VRF, VLAN
+from virtualization.models import VirtualMachine, VMInterface, ClusterType, Cluster
 
 from netdoc.models import (
     ArpTableEntry,
@@ -354,6 +355,10 @@ def load_scenario(lab_path):
 
     # Purge all data
     print("Deleting old data... ", end="")
+    VMInterface.objects.all().delete()
+    VirtualMachine.objects.all().delete()
+    Cluster.objects.all().delete()
+    ClusterType.objects.all().delete()
     Cable.objects.all().delete()
     CableTermination.objects.all().delete()
     CablePath.objects.all().delete()  # pylint: disable=no-member
@@ -388,6 +393,7 @@ def load_scenario(lab_path):
     ):
         for filename in filenames:
             if filename.endswith(".yml"):
+                # Save expected result files
                 expected_result_files.append(f"{dirpath}/{filename}")
             if filename.endswith(".json"):
                 filepath_medata = f"{dirpath}/{filename}"
@@ -409,7 +415,7 @@ def load_scenario(lab_path):
                     # Load raw output
                     raw_output = raw_fh.read()
 
-                # Create discoverable
+                # Get or create discoverable
                 discoverable_o, created = discoverable_api.get_or_create(
                     address=address,
                     discoverable=False,
