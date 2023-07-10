@@ -349,6 +349,36 @@ def test_routes(test_o, expected_results):
             test_o.assertIs(expected_result.get("nexthop_if"), None)
 
 
+def test_virtual_machines(test_o, expected_results):
+    """Test Virtual Machine given an expected_results dict."""
+    # Test total Virtual Machine objects
+    vm_qs = VirtualMachine.objects.all()
+    test_o.assertEquals(len(vm_qs), len(expected_results))
+
+    # Test each item
+    for expected_result in expected_results:
+        vm_o = VirtualMachine.objects.get(name=expected_result.get("name"))
+        test_o.assertEquals(vm_o.status, expected_result.get("status"))
+        test_o.assertEquals(vm_o.vcpus, int(expected_result.get("vcpus")))
+        test_o.assertEquals(vm_o.memory, expected_result.get("memory"))
+        test_o.assertEquals(vm_o.disk, expected_result.get("disk"))
+
+        if vm_o.site:
+            test_o.assertEquals(vm_o.site.name, expected_result.get("site"))
+        else:
+            test_o.assertIs(expected_result.get("site"), None)
+
+        if vm_o.cluster:
+            test_o.assertEquals(vm_o.cluster.name, expected_result.get("cluster"))
+        else:
+            test_o.assertIs(expected_result.get("cluster"), None)
+
+        if vm_o.device:
+            test_o.assertEquals(vm_o.device.name, expected_result.get("device"))
+        else:
+            test_o.assertIs(expected_result.get("device"), None)
+
+
 def load_scenario(lab_path):
     """Load DiscoveryLog files and return the list of expected result files."""
     expected_result_files = []

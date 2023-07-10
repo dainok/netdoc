@@ -1,0 +1,17 @@
+---
+- name: VCENTER
+  cluster: cluster1
+  device: NODE1
+  site: test-site
+  vcpus: 4
+  memory: 16384
+  disk: 335275008
+  status: active
+- name: VM1
+  cluster: cluster1
+  device: NODE1
+  site: test-site
+  vcpus: 1
+  memory: 2048
+  disk: 16777216
+  status: offline
