@@ -1,0 +1,9 @@
+---
+VCENTER:
+  - name: Network adapter 1
+    enabled: true
+    mac_address: "00:0C:29:1F:2C:35"
+VM1:
+  - name: Network adapter 1
+    enabled: false
+    mac_address: "00:50:56:8A:F9:98"

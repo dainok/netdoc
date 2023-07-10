@@ -379,6 +379,42 @@ def test_virtual_machines(test_o, expected_results):
             test_o.assertIs(expected_result.get("device"), None)
 
 
+def test_virtual_machine_interfaces(test_o, expected_results):
+    """Test Interface given an expected_results dict."""
+    # Test total Virtual Machine Interface objects
+    ipaddress_qs = VMInterface.objects.all()
+    test_o.assertEquals(
+        len(ipaddress_qs),
+        len(
+            [
+                interface_value
+                for device_name in list(expected_results.values())
+                for interface_value in device_name
+            ]
+        ),
+    )
+
+    # Test each device
+    for device_name, interface_list in expected_results.items():
+        # Test each interface
+        for interface_value in interface_list:
+            interface_o = VMInterface.objects.get(
+                name=interface_value.get("name"), virtual_machine__name=device_name
+            )
+            test_o.assertEquals(interface_o.enabled, interface_value.get("enabled"))
+
+            if interface_value.get("name"):
+                # Check Interface.name only if is not None on interfaces.yml
+                test_o.assertEquals(interface_o.name, interface_value.get("name"))
+
+            if interface_o.mac_address:
+                test_o.assertEquals(
+                    str(interface_o.mac_address), interface_value.get("mac_address")
+                )
+            else:
+                test_o.assertIs(interface_value.get("mac_address"), None)
+
+
 def load_scenario(lab_path):
     """Load DiscoveryLog files and return the list of expected result files."""
     expected_result_files = []
