@@ -64,7 +64,7 @@
 				},
 				"'vim.VirtualMachine:vm-166'": {
 					"id": "'vim.VirtualMachine:vm-166'",
-					"name": "STE_TENANT1-APP1-VM1",
+					"name": "VM1",
 					"status": "green",
 					"power_state": "poweredOff",
 					"vcpus": 1,

@@ -349,6 +349,72 @@ def test_routes(test_o, expected_results):
             test_o.assertIs(expected_result.get("nexthop_if"), None)
 
 
+def test_virtual_machines(test_o, expected_results):
+    """Test Virtual Machine given an expected_results dict."""
+    # Test total Virtual Machine objects
+    vm_qs = VirtualMachine.objects.all()
+    test_o.assertEquals(len(vm_qs), len(expected_results))
+
+    # Test each item
+    for expected_result in expected_results:
+        vm_o = VirtualMachine.objects.get(name=expected_result.get("name"))
+        test_o.assertEquals(vm_o.status, expected_result.get("status"))
+        test_o.assertEquals(vm_o.vcpus, int(expected_result.get("vcpus")))
+        test_o.assertEquals(vm_o.memory, expected_result.get("memory"))
+        test_o.assertEquals(vm_o.disk, expected_result.get("disk"))
+
+        if vm_o.site:
+            test_o.assertEquals(vm_o.site.name, expected_result.get("site"))
+        else:
+            test_o.assertIs(expected_result.get("site"), None)
+
+        if vm_o.cluster:
+            test_o.assertEquals(vm_o.cluster.name, expected_result.get("cluster"))
+        else:
+            test_o.assertIs(expected_result.get("cluster"), None)
+
+        if vm_o.device:
+            test_o.assertEquals(vm_o.device.name, expected_result.get("device"))
+        else:
+            test_o.assertIs(expected_result.get("device"), None)
+
+
+def test_virtual_machine_interfaces(test_o, expected_results):
+    """Test Interface given an expected_results dict."""
+    # Test total Virtual Machine Interface objects
+    ipaddress_qs = VMInterface.objects.all()
+    test_o.assertEquals(
+        len(ipaddress_qs),
+        len(
+            [
+                interface_value
+                for device_name in list(expected_results.values())
+                for interface_value in device_name
+            ]
+        ),
+    )
+
+    # Test each device
+    for device_name, interface_list in expected_results.items():
+        # Test each interface
+        for interface_value in interface_list:
+            interface_o = VMInterface.objects.get(
+                name=interface_value.get("name"), virtual_machine__name=device_name
+            )
+            test_o.assertEquals(interface_o.enabled, interface_value.get("enabled"))
+
+            if interface_value.get("name"):
+                # Check Interface.name only if is not None on interfaces.yml
+                test_o.assertEquals(interface_o.name, interface_value.get("name"))
+
+            if interface_o.mac_address:
+                test_o.assertEquals(
+                    str(interface_o.mac_address), interface_value.get("mac_address")
+                )
+            else:
+                test_o.assertIs(interface_value.get("mac_address"), None)
+
+
 def load_scenario(lab_path):
     """Load DiscoveryLog files and return the list of expected result files."""
     expected_result_files = []
