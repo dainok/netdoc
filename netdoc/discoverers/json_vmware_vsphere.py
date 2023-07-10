@@ -237,7 +237,7 @@ def discovery(nrni):
         task.run(
             task=api_query,
             name=json.dumps(details),
-            host=task.host.hostname,
+            host_address=task.host.hostname,
             username=task.host.dict().get("username"),
             password=task.host.dict().get("password"),
             verify_cert=verify_cert,

@@ -1,0 +1,7 @@
+---
+- name: NODE1
+  site: test-site
+  model: UCS-C220-M5SX
+  manufacturer: Cisco
+  address: null
+  serial: ""
