@@ -1,0 +1,38 @@
+---
+NODE1:
+  - name: vmnic0
+    label: vmnic0
+    type: other
+    speed: 1000000
+    duplex: auto
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "58:F3:9C:89:A8:58"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
+  - name: vmnic1
+    label: vmnic1
+    type: other
+    speed: 1000000
+    duplex: auto
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "58:F3:9C:89:A8:59"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
