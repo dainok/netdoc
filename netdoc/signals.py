@@ -16,8 +16,9 @@ from netdoc import models
 SECRET_KEY = settings.SECRET_KEY.encode("utf-8")
 FERNET_KEY = base64.urlsafe_b64encode(SECRET_KEY.ljust(32)[:32])
 
+
 @receiver(pre_save, sender=models.Credential)
-def credential_encrypt(instance, **kwargs): # pylint: disable=unused-argument
+def credential_encrypt(instance, **kwargs):  # pylint: disable=unused-argument
     """Encrypt credentials before saving."""
     fernet_o = Fernet(FERNET_KEY)
     for field in models.CREDENTIAL_ENCRYPTED_FIELDS:
