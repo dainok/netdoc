@@ -43,6 +43,8 @@ class NetdocConfig(PluginConfig):
             signals,
         )
 
+        super().ready()
+
 
 config = NetdocConfig  # pylint: disable=invalid-name
 
