@@ -41,8 +41,6 @@ class CredentialForm(NetBoxModelForm):
     """Form used to add/edit Credential."""
 
     username = forms.CharField(required=False)
-    password = forms.CharField(required=False, widget=forms.PasswordInput)
-    enable_password = forms.CharField(required=False, widget=forms.PasswordInput)
 
     class Meta:
         """Form metadata."""
@@ -56,6 +54,14 @@ class CredentialForm(NetBoxModelForm):
             "verify_cert",
             "tags",
         ]
+        widgets = {
+            "password": forms.PasswordInput(
+                render_value=True, attrs={"data-toggle": "password"}
+            ),
+            "enable_password": forms.PasswordInput(
+                render_value=True, attrs={"data-toggle": "password"}
+            ),
+        }
 
 
 class CredentialCSVForm(NetBoxModelCSVForm):
