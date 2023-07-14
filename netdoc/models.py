@@ -12,10 +12,13 @@ __license__ = "GPLv3"
 
 import re
 import json
+import base64
+from cryptography.fernet import Fernet, InvalidToken
 from OuiLookup import OuiLookup
 
 from django.db import models
 from django.urls import reverse
+from django.conf import settings
 
 from ipam.fields import IPAddressField
 from dcim.fields import MACAddressField
@@ -23,6 +26,13 @@ from utilities.choices import ChoiceSet
 from netbox.models import NetBoxModel
 
 from netdoc.utils import parse_netmiko_output, CONFIG_COMMANDS, FAILURE_OUTPUT
+
+SECRET_KEY = settings.SECRET_KEY.encode("utf-8")
+FERNET_KEY = base64.urlsafe_b64encode(SECRET_KEY.ljust(32)[:32])
+CREDENTIAL_ENCRYPTED_FIELDS = [
+    "password",
+    "enable_password",
+]
 
 
 class DeviceImageChoices(ChoiceSet):
@@ -153,14 +163,8 @@ class Credential(NetBoxModel):
     """Model for Credential."""
 
     name = models.CharField(max_length=100)
-    enable_password = models.CharField(
-        max_length=100,
-        blank=True,
-    )
-    password = models.CharField(
-        max_length=100,
-        blank=True,
-    )
+    enable_password = models.TextField(blank=True)
+    password = models.TextField(blank=True)
     username = models.CharField(
         max_length=100,
         blank=True,
@@ -182,6 +186,23 @@ class Credential(NetBoxModel):
     def get_absolute_url(self):
         """Return the absolute url."""
         return reverse("plugins:netdoc:credential", args=[self.pk])
+
+    def get_secrets(self):
+        """Get clear text password."""
+        fernet_o = Fernet(FERNET_KEY)
+        secrets = {}
+        for field in CREDENTIAL_ENCRYPTED_FIELDS:
+            original_secret = getattr(self, field)
+            if original_secret:
+                # Check if already decrypted
+                try:
+                    secret = fernet_o.decrypt(
+                        original_secret.encode()  # pylint: disable=no-member
+                    ).decode()
+                except InvalidToken:
+                    secret = original_secret
+            secrets[field] = secret
+        return secrets
 
 
 #

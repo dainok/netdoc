@@ -76,14 +76,14 @@ class AssetInventory:
             # Create additional options
             extras = {}
             if credential.enable_password:
-                extras["secret"] = credential.enable_password
+                extras["secret"] = credential.get_secrets().get("enable_password")
             connection_options = {"netmiko": ConnectionOptions(extras=extras)}
 
             hosts[host_key] = Host(
                 name=host_key,
                 hostname=discoverable.address,
                 username=credential.username,
-                password=credential.password,
+                password=credential.get_secrets().get("password"),
                 port=22,
                 platform=device_type,
                 data=data,

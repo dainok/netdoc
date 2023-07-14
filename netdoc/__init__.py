@@ -37,6 +37,12 @@ class NetdocConfig(PluginConfig):
         "RAISE_ON_LLDP_FAIL": True,
     }
 
+    def ready(self):
+        """Load signals."""
+        from netdoc import (  # noqa: F401 pylint: disable=import-outside-toplevel,unused-import
+            signals,
+        )
+
 
 config = NetdocConfig  # pylint: disable=invalid-name
 
