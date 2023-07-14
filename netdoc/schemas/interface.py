@@ -291,7 +291,7 @@ def update_addresses(obj, ip_addresses=None):
             # Add missing IP address
             obj.ip_addresses.add(ip_address_o)
 
-    for ip_address in previous_ip_addresses_qs:
+    for ip_address in previous_ip_addresses:
         if str(ip_address) not in ip_addresses:
             # Get Interface IP Address objects
             ip_address_o = obj.ip_addresses.get(
