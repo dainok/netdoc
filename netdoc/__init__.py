@@ -42,6 +42,7 @@ class NetdocConfig(PluginConfig):
         from netdoc import (  # noqa: F401 pylint: disable=import-outside-toplevel,unused-import
             signals,
         )
+        super().ready()
 
 
 config = NetdocConfig  # pylint: disable=invalid-name
