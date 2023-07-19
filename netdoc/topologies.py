@@ -383,7 +383,11 @@ def get_site_topology_data(queryset, details):
         from_site_id = from_site_o.id
         to_site_o = to_interface_o.device.site
         to_site_id = to_site_o.id
-        link_id = f"{from_interface_id}-{to_interface_id}" if from_interface_id <= to_interface_id else f"{to_interface_id}-{from_interface_id}"
+        link_id = (
+            f"{from_interface_id}-{to_interface_id}"
+            if from_interface_id <= to_interface_id
+            else f"{to_interface_id}-{from_interface_id}"
+        )
 
         if link_id not in links and from_site_id != to_site_id:
             # Add link only if intra-site
@@ -393,9 +397,7 @@ def get_site_topology_data(queryset, details):
                 "from_label": f"{from_interface_o.device.name}:{from_interface_o.label}",
                 "to": to_site_id,
                 "to_label": f"{to_interface_o.device.name}:{to_interface_o.label}",
-                "title": Template(
-                    SITE_TEMPLATE, autoescape=JINJA_AUTOESCAPE
-                ).render(
+                "title": Template(SITE_TEMPLATE, autoescape=JINJA_AUTOESCAPE).render(
                     from_interface=from_interface_o, to_interface=to_interface_o
                 ),
             }
@@ -411,8 +413,12 @@ def get_site_topology_data(queryset, details):
                 }
             # Set position
             if "positions" in sites and str(from_site_o.id) in details["positions"]:
-                sites[from_site_id]["x"] = details["positions"][str(from_site_id)].get("x")
-                sites[from_site_id]["y"] = details["positions"][str(from_site_id)].get("y")
+                sites[from_site_id]["x"] = details["positions"][str(from_site_id)].get(
+                    "x"
+                )
+                sites[from_site_id]["y"] = details["positions"][str(from_site_id)].get(
+                    "y"
+                )
 
             # Add destination site
             if to_site_id not in sites:
