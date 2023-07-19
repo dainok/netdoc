@@ -424,7 +424,7 @@ def get_site_topology_data(queryset, details):
                     "title": to_site_o.name,
                 }
             # Set position
-            if "positions" in sites and str(from_site_o.id) in details["positions"]:
+            if "positions" in details and str(from_site_o.id) in details["positions"]:
                 sites[to_site_id]["x"] = details["positions"][str(to_site_id)].get("x")
                 sites[to_site_id]["y"] = details["positions"][str(to_site_id)].get("y")
 
