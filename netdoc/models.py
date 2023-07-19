@@ -63,6 +63,7 @@ class DiagramModeChoices(ChoiceSet):
     CHOICES = [
         ("l2", "L2"),
         ("l3", "L3"),
+        ("site", "Site connections"),
         # ("stp", "STP"),
     ]
 

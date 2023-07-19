@@ -61,6 +61,21 @@ CABLE_TEMPLATE = """
 </table>
 """
 
+SITE_TEMPLATE = """
+<table>
+    <tbody>
+        <tr>
+            <th>From: </th>
+            <td>[{{ from_interface.device.site.name }}] {{ from_interface.device.name }}:{{ from_interface.name }}</td>
+        </tr>
+        <tr>
+            <th>To: </th>
+            <td>[{{ to_interface.device.site.name }}] {{ to_interface.device.name }}:{{ to_interface.name }}</td>
+        </tr>
+    </tbody>
+</table>
+"""
+
 NETWORK_TEMPLATE = """
 <table>
     <tbody>
@@ -343,6 +358,114 @@ def get_l3_drawio_topology(queryset, diagram):
             nodes_dict[link["from"]]["label"],
             nodes_dict[link["to"]]["label"],
             src_label=link["from_label"],
+            link_id=link["id"],
+        )
+
+    return drawio_o.dump_xml()
+
+
+def get_site_topology_data(queryset, details):
+    """Create a site vis.js topology data from an Interface queryset."""
+    sites = {}
+    links = {}
+
+    # Filter out unconnected interfaces
+    queryset = queryset.filter(cable__isnull=False)
+
+    for interface_o in queryset:
+        # Create link
+        cable_o = interface_o.cable
+        from_interface_o = cable_o.terminations.first().interface.first()
+        from_interface_id = from_interface_o.id
+        to_interface_o = cable_o.terminations.last().interface.first()
+        to_interface_id = to_interface_o.id
+        from_site_o = from_interface_o.device.site
+        from_site_id = from_site_o.id
+        to_site_o = to_interface_o.device.site
+        to_site_id = to_site_o.id
+        link_id = f"{from_interface_id}-{to_interface_id}" if from_interface_id <= to_interface_id else f"{to_interface_id}-{from_interface_id}"
+
+        if link_id not in links and from_site_id != to_site_id:
+            # Add link only if intra-site
+            links[link_id] = {
+                "id": link_id,
+                "from": from_site_id,
+                "from_label": f"{from_interface_o.device.name}:{from_interface_o.label}",
+                "to": to_site_id,
+                "to_label": f"{to_interface_o.device.name}:{to_interface_o.label}",
+                "title": Template(
+                    SITE_TEMPLATE, autoescape=JINJA_AUTOESCAPE
+                ).render(
+                    from_interface=from_interface_o, to_interface=to_interface_o
+                ),
+            }
+
+            # Add source site
+            if from_site_id not in sites:
+                sites[from_site_id] = {
+                    "id": from_site_id,
+                    "label": from_site_o.name,
+                    "image": "/static/netdoc/img/site.png",
+                    "shape": "image",
+                    "title": from_site_o.name,
+                }
+            # Set position
+            if "positions" in sites and str(from_site_o.id) in details["positions"]:
+                sites[from_site_id]["x"] = details["positions"][str(from_site_id)].get("x")
+                sites[from_site_id]["y"] = details["positions"][str(from_site_id)].get("y")
+
+            # Add destination site
+            if to_site_id not in sites:
+                sites[to_site_id] = {
+                    "id": to_site_id,
+                    "label": to_site_o.name,
+                    "image": "/static/netdoc/img/site.png",
+                    "shape": "image",
+                    "title": to_site_o.name,
+                }
+            # Set position
+            if "positions" in sites and str(from_site_o.id) in details["positions"]:
+                sites[to_site_id]["x"] = details["positions"][str(to_site_id)].get("x")
+                sites[to_site_id]["y"] = details["positions"][str(to_site_id)].get("y")
+
+    return {
+        "nodes": list(sites.values()),
+        "edges": list(links.values()),
+    }
+
+
+def get_site_drawio_topology(queryset, diagram):
+    """Create a site DrawIO topology data from an Interface queryset."""
+    data = get_site_topology_data(queryset, diagram.details)
+    nodes = data.get("nodes")
+    links = data.get("edges")
+
+    # Transform node list into dict using id a key
+    nodes_dict = {item["id"]: item for item in nodes}
+
+    # Create diagram
+    drawio_o = drawio_diagram()
+    drawio_o.add_diagram("Page-1")
+
+    for node in nodes:
+        # Add node
+        node_label = node.get("label")
+        node_style = "site"
+        drawio_o.add_node(
+            id=node_label,
+            url="Page-1",
+            x_pos=node.get("x") if node.get("x") else None,
+            y_pos=node.get("y") if node.get("x") else None,
+            **DRAWIO_ROLE_MAP[node_style],
+        )
+
+    for link in links:
+        # Add link (using node labels)
+        drawio_o.add_link(
+            nodes_dict[link["from"]]["label"],
+            nodes_dict[link["to"]]["label"],
+            src_label=link["from_label"],
+            trgt_label=link["to_label"],
             link_id=link["id"],
         )
 
