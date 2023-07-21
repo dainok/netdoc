@@ -1,4 +1,4 @@
-"""Ingestor for netmiko_hp_comware_display_vlan_all."""
+"""Ingestor for netmiko_hp_procurve_show_vlans.py."""
 __author__ = "Andrea Dainese"
 __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2022, Andrea Dainese"
@@ -8,12 +8,9 @@ from netdoc.schemas import vlan
 
 
 def ingest(log):
-    """Processing parsed output.
-
-    VLAN - Interface association is ingested in the "display interface" output.
-    """
+    """Processing parsed output."""
     for item in log.parsed_output:
-        # See https://github.com/networktocode/ntc-templates/tree/master/tests/hp_comware/display_vlan_all # pylint: disable=line-too-long
+        # See https://github.com/networktocode/ntc-templates/tree/master/tests/hp_procurve/show_vlans  pylint: disable=line-too-long
         vlan_id = int(item.get("vlan_id"))
         vlan_name = item.get("name")
 

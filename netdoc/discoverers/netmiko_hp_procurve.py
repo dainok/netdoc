@@ -31,16 +31,9 @@ def discovery(nrni):
                 "show cdp neighbors detail",
                 "show lldp info remote-device",
                 "show vlans",
-            ],
-            order=10,
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
                 "show mac-address",
                 "show arp",
                 "show trunks",
-                "show interfaces status",
             ],
         )
         utils.append_nornir_netmiko_task(
