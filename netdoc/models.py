@@ -202,7 +202,9 @@ class Credential(NetBoxModel):
                         original_secret.encode()  # pylint: disable=no-member
                     ).decode()
                 except InvalidToken:
-                    secret = original_secret
+                    secret = original_secretA
+            else:
+                secret = None
             secrets[field] = secret
         return secrets
 
