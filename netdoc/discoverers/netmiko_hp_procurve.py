@@ -6,7 +6,6 @@ __license__ = "GPLv3"
 
 import json
 from nornir_utils.plugins.functions import print_result
-from nornir.core.filter import F
 
 from netdoc import utils
 from netdoc.schemas import discoverable, discoverylog
@@ -14,7 +13,6 @@ from netdoc.schemas import discoverable, discoverylog
 
 def discovery(nrni):
     """Discovery HP Procurve devices."""
-    platform = "hp_procurve"
     host_list = []
     failed_host_list = []
 
@@ -43,7 +41,7 @@ def discovery(nrni):
                 "show system",
                 "show logging",
                 "show spanning-tree",
-                "show ip route"
+                "show ip route",
             ],
             supported=False,
         )
@@ -55,9 +53,10 @@ def discovery(nrni):
     print_result(aggregated_results)
 
     # Save outputs and define additional commands
-    for key, multi_result in aggregated_results.items():
-        current_nr = nrni.filter(F(name=key))
-
+    for (
+        key,  # pylint: disable=unused-variable
+        multi_result,
+    ) in aggregated_results.items():
         # MultiResult is an array of Result
         for result in multi_result:
             if result.name == "multiple_tasks":
