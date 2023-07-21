@@ -529,8 +529,15 @@ def normalize_interface_duplex(duplex):
         return "half"
     if "full" in duplex:
         return "full"
+    if "fd" in duplex:
+        return "full"
+    if "hd" in duplex:
+        return "half"
     if "true" in duplex:
         return "auto"
+    if "." == duplex:
+        # Unkown (HPE Procurve)
+        return None
     if "unknown" in duplex:
         # Unknown
         return None

@@ -5,7 +5,6 @@ __copyright__ = "Copyright 2022, Andrea Dainese"
 __license__ = "GPLv3"
 
 import re
-from netmiko.utilities import get_structured_data
 
 from netdoc.schemas import device, discoverable
 from netdoc import utils
@@ -15,17 +14,13 @@ def ingest(log):
     """Processing parsed output."""
     # See https://github.com/netbox-community/devicetype-library/tree/master/device-types
     vendor = "HPE"
-    platform = "hp_procurve"
+    name = log.parsed_output
 
-    # Applying NTC Template
-    log.parsed_output = get_structured_data(log.raw_output, platform, "show system")
+    # Parsing hostname
     try:
-        name = log.parsed_output[0].get("name")
+        name = re.findall(r".*System Name\s*:\s*(\S+).*$", name, re.MULTILINE | re.DOTALL).pop()
     except AttributeError as exc:
-        raise AttributeError(f"Failed to decode HOSTNAME") from exc
-    if not name:
-        raise AttributeError(f"Failed to decode HOSTNAME") from exc
-
+        raise AttributeError(f"Failed to match HOSTNAME regex on {name}") from exc
     name = utils.normalize_hostname(name)
 
     # Get or create Device
