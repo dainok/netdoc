@@ -4,7 +4,6 @@ __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2022, Andrea Dainese"
 __license__ = "GPLv3"
 
-import re
 from netmiko.utilities import get_structured_data
 
 from netdoc.schemas import device, discoverable
@@ -22,9 +21,9 @@ def ingest(log):
     try:
         name = log.parsed_output[0].get("name")
     except AttributeError as exc:
-        raise AttributeError(f"Failed to decode HOSTNAME") from exc
+        raise AttributeError("Failed to decode HOSTNAME") from exc
     if not name:
-        raise AttributeError(f"Failed to decode HOSTNAME") from exc
+        raise AttributeError("Failed to decode HOSTNAME")
 
     name = utils.normalize_hostname(name)
 
@@ -45,4 +44,3 @@ def ingest(log):
     # Update the log
     log.ingested = True
     log.save()
-
