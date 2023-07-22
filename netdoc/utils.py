@@ -547,6 +547,10 @@ def normalize_interface_duplex(duplex):
 def normalize_interface_label(name):
     """Given an interface name, return the shortname (label)."""
     name = name.lower()
+    if re.match(r".*-trk\d*$", name):
+        # HPE Procurve add -Trk1 to interface port name
+        name = re.sub(r"-trk\d*", "", name)
+
     if name.startswith("gigabitethernet"):
         return name.replace("gigabitethernet", "gi")
     if name.startswith("fastethernet"):

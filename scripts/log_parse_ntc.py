@@ -8,7 +8,7 @@ from netmiko.utilities import get_structured_data
 
 from netdoc.models import DiscoveryLog
 
-LOG_ID = 661  # DiscoveryLog ID
+LOG_ID = 51  # DiscoveryLog ID
 
 # Don't edit below this line
 
