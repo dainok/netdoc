@@ -62,7 +62,7 @@ FAILURE_OUTPUT = [
     r"Group\s+Port-channel\s+Protocol\s+Ports\s+[-+]+\s*RU - L3",  # Cisco etherchannel
     r"Address\s+Age\s+MAC Address\s+Interface\s+Flags\s*\Z",  # Cisco ARP
     r"No VRF has been configured\s*\Z",  # Linux VRF
-    r"No records found\s*\Z", # HP Procurve CDP
+    r"No records found\s*\Z",  # HP Procurve CDP
 ]
 
 DRAWIO_ROLE_MAP = {
