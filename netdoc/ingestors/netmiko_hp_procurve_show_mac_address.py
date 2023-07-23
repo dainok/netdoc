@@ -16,7 +16,8 @@ def ingest(log):
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/hp_procurve/show_mac-address # pylint: disable=line-too-long
         interface_name = item.get("port")
         label = utils.normalize_interface_label(interface_name)
-        vlan_id = int(item.get("vlan"))
+        # Set VLAN 1 for switches not supporting VLANs
+        vlan_id = int(item.get("vlan")) if item.get("vlan") else 1
         mac_address = utils.normalize_mac_address(item.get("mac"))
 
         interface_o = interface.get(device_id=device_o.id, label=label)

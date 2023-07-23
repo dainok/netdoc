@@ -38,6 +38,8 @@ def discovery(nrni):
             task,
             [
                 "show trunks",
+                "show ip",
+                "show ip route",
             ],
         )
         utils.append_nornir_netmiko_task(
@@ -47,7 +49,6 @@ def discovery(nrni):
                 "show system",
                 "show logging",
                 "show spanning-tree",
-                "show ip route",
             ],
             supported=False,
         )

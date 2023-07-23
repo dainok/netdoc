@@ -62,6 +62,7 @@ FAILURE_OUTPUT = [
     r"Group\s+Port-channel\s+Protocol\s+Ports\s+[-+]+\s*RU - L3",  # Cisco etherchannel
     r"Address\s+Age\s+MAC Address\s+Interface\s+Flags\s*\Z",  # Cisco ARP
     r"No VRF has been configured\s*\Z",  # Linux VRF
+    r"No records found\s*\Z", # HP Procurve CDP
 ]
 
 DRAWIO_ROLE_MAP = {
@@ -697,6 +698,9 @@ def normalize_interface_type(name="", encapsulation=""):
     """Return interface type from name/encapsulation."""
     label = normalize_interface_label(name)
     encapsulation = encapsulation.lower()
+    if label == "sfp+sr":
+        # HPE Procurve SPF
+        return "other"
     if parent_interface(label):
         # Subinterface
         return "virtual"
