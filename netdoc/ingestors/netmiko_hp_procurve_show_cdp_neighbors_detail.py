@@ -100,7 +100,7 @@ def ingest(log):
         cable.link(
             left_interface_id=local_interface_o.id,
             right_interface_id=remote_interface_o.id,
-            protocol="lldp",
+            protocol="cdp",
         )
 
     # Update the log
