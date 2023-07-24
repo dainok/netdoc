@@ -130,6 +130,7 @@ dmypy.json
 
 # Linux
 nohup.out
+*.swp
 
 # MacOS
 .DS_Store

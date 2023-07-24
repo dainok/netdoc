@@ -62,6 +62,7 @@ FAILURE_OUTPUT = [
     r"Group\s+Port-channel\s+Protocol\s+Ports\s+[-+]+\s*RU - L3",  # Cisco etherchannel
     r"Address\s+Age\s+MAC Address\s+Interface\s+Flags\s*\Z",  # Cisco ARP
     r"No VRF has been configured\s*\Z",  # Linux VRF
+    r"No records found\s*\Z",  # HP Procurve CDP
 ]
 
 DRAWIO_ROLE_MAP = {
@@ -529,8 +530,15 @@ def normalize_interface_duplex(duplex):
         return "half"
     if "full" in duplex:
         return "full"
+    if "fd" in duplex:
+        return "full"
+    if "hd" in duplex:
+        return "half"
     if "true" in duplex:
         return "auto"
+    if "." == duplex:
+        # Unkown (HPE Procurve)
+        return None
     if "unknown" in duplex:
         # Unknown
         return None
@@ -540,6 +548,10 @@ def normalize_interface_duplex(duplex):
 def normalize_interface_label(name):
     """Given an interface name, return the shortname (label)."""
     name = name.lower()
+    if re.match(r".*-trk\d*$", name):
+        # HPE Procurve add -Trk1 to interface port name
+        name = re.sub(r"-trk\d*", "", name)
+
     if name.startswith("gigabitethernet"):
         return name.replace("gigabitethernet", "gi")
     if name.startswith("fastethernet"):
@@ -686,6 +698,9 @@ def normalize_interface_type(name="", encapsulation=""):
     """Return interface type from name/encapsulation."""
     label = normalize_interface_label(name)
     encapsulation = encapsulation.lower()
+    if label == "sfp+sr":
+        # HPE Procurve SPF
+        return "other"
     if parent_interface(label):
         # Subinterface
         return "virtual"
@@ -755,7 +770,7 @@ def normalize_ip_address_or_none(ip_address):
 def normalize_route_type(route_type):
     """Return route type protocol."""
     route_type = route_type.lower()
-    if route_type in ["c", "direct", "local", "hsrp", "l"]:
+    if route_type in ["c", "connected", "direct", "local", "hsrp", "l"]:
         # Connected
         return "c"
     if route_type in ["s", "static", "s*"]:

@@ -76,6 +76,7 @@ class DiscoveryModeChoices(ChoiceSet):
         ("netmiko_cisco_nxos", "Netmiko Cisco NX-OS"),
         ("netmiko_cisco_xr", "Netmiko Cisco XR"),
         ("netmiko_hp_comware", "Netmiko HPE Comware"),
+        ("netmiko_hp_procurve", "Netmiko HPE Procurve"),
         ("netmiko_linux", "Netmiko Linux"),
         ("json_vmware_vsphere", "VMware vSphere"),
     ]
@@ -202,6 +203,8 @@ class Credential(NetBoxModel):
                     ).decode()
                 except InvalidToken:
                     secret = original_secret
+            else:
+                secret = None
             secrets[field] = secret
         return secrets
 
