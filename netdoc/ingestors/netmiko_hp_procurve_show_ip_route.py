@@ -6,7 +6,7 @@ __license__ = "GPLv3"
 
 import ipaddress
 
-from netdoc.schemas import interface, vrf, routetableentry
+from netdoc.schemas import interface, routetableentry
 from netdoc import utils
 
 
@@ -28,9 +28,7 @@ def ingest(log):
             nexthop_if_name = item.get("gateway")
         distance = int(item.get("distance")) if item.get("distance") else None
         metric = int(item.get("metric")) if item.get("metric") else None
-        destination = (
-            item.get("destination") if item.get("destination") else None
-        )
+        destination = item.get("destination") if item.get("destination") else None
         protocol = utils.normalize_route_type(item.get("type"))
 
         # Get or create interface

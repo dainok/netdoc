@@ -6,7 +6,7 @@ __license__ = "GPLv3"
 
 import ipaddress
 
-from netdoc.schemas import interface, vrf, device
+from netdoc.schemas import interface, device
 from netdoc import utils
 
 
@@ -19,8 +19,15 @@ def ingest(log):
         interface_name = item.get("vlan")
         label = utils.normalize_interface_label(interface_name)
         ip_address = item.get("ip_address")
-        ip_address = str(ipaddress.IPv4Interface(f"{item.get('ip_address')}/{item.get('subnet_mask')}")) if item.get("ip_address") else None
-        subnet_mask = item.get("subnet_mask")
+        ip_address = (
+            str(
+                ipaddress.IPv4Interface(
+                    f"{item.get('ip_address')}/{item.get('subnet_mask')}"
+                )
+            )
+            if item.get("ip_address")
+            else None
+        )
 
         # Get or create Interface
         interface_o = interface.get(device_id=device_o.id, label=label)
@@ -28,7 +35,7 @@ def ingest(log):
             interface_data = {
                 "name": label,
                 "device_id": device_o.id,
-                "type": "virtual", # SVI
+                "type": "virtual",  # SVI
             }
             interface_o = interface.create(**interface_data)
 
