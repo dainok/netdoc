@@ -770,7 +770,7 @@ def normalize_ip_address_or_none(ip_address):
 def normalize_route_type(route_type):
     """Return route type protocol."""
     route_type = route_type.lower()
-    if route_type in ["c", "direct", "local", "hsrp", "l"]:
+    if route_type in ["c", "connected", "direct", "local", "hsrp", "l"]:
         # Connected
         return "c"
     if route_type in ["s", "static", "s*"]:
