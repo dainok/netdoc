@@ -803,7 +803,7 @@ def normalize_route_type(route_type):
     if route_type in ["e1", "o e1", "o_ase1"]:
         # OSPF External Type 1
         return "oe1"
-    if route_type in ["e2", "o e2", "o_ase2", "o_ase"]:
+    if route_type in ["o*e2", "e2", "o e2", "o_ase2", "o_ase"]:
         # OSPF External Type 2
         return "oe2"
     if route_type in ["i"]:
