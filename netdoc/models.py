@@ -408,22 +408,24 @@ class DiscoveryLog(NetBoxModel):
         framework = mode.split("_").pop(0)
         platform = "_".join(mode.split("_")[1:])
 
-        if framework == "netmiko":
-            parsed_output, parsed = parse_netmiko_output(
-                self.raw_output, self.command, platform, template=self.template
-            )
-        elif framework == "json":
-            try:
-                parsed = True
-                parsed_output = json.loads(self.raw_output)
-            except TypeError as exc:
-                parsed = False
-                parsed_output = str(exc)
-            except json.decoder.JSONDecodeError as exc:
-                parsed = False
-                parsed_output = str(exc)
-        else:
-            raise ValueError(f"Framework {framework} not implemented")
+        if self.template != "HOSTNAME":
+            # Logs tracking hostnames are parsed during ingestion phase
+            if framework == "netmiko":
+                parsed_output, parsed = parse_netmiko_output(
+                    self.raw_output, self.command, platform, template=self.template
+                )
+            elif framework == "json":
+                try:
+                    parsed = True
+                    parsed_output = json.loads(self.raw_output)
+                except TypeError as exc:
+                    parsed = False
+                    parsed_output = str(exc)
+                except json.decoder.JSONDecodeError as exc:
+                    parsed = False
+                    parsed_output = str(exc)
+            else:
+                raise ValueError(f"Framework {framework} not implemented")
 
         self.parsed_output = parsed_output
         self.parsed = parsed

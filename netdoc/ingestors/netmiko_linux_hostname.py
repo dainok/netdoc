@@ -12,10 +12,11 @@ def ingest(log):
     """Processing parsed output."""
     # See https://github.com/netbox-community/devicetype-library/tree/master/device-types # pylint: disable=line-too-long
     vendor = "Linux"
-    name = log.parsed_output
 
     # Parsing hostname
-    name = utils.normalize_hostname(name)
+    name = utils.normalize_hostname(log.raw_output)
+    log.parsed_output = name
+    log.save()
 
     # Get or create Device
     data = {
