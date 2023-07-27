@@ -14,12 +14,15 @@ def ingest(log):
     """Processing parsed output."""
     # See https://github.com/netbox-community/devicetype-library/tree/master/device-types
     vendor = "Cisco"
+    output = log.raw_output
 
     # Parsing hostname
     try:
-        name = re.findall(r"^\s*hostname\ (\S+)$", log.raw_output, re.MULTILINE | re.DOTALL).pop()
+        name = re.findall(
+            r"^\s*hostname\ (\S+)$", output, re.MULTILINE | re.DOTALL
+        ).pop()
     except AttributeError as exc:
-        raise AttributeError(f"Failed to match HOSTNAME regex on {name}") from exc
+        raise AttributeError(f"Failed to match HOSTNAME regex on {output}") from exc
     name = utils.normalize_hostname(name)
     log.parsed_output = name
     log.save()
@@ -36,7 +39,7 @@ def ingest(log):
 
     if not log.discoverable.device:
         # Link Device to Discoverable
-        a = discoverable.update(log.discoverable, device_id=device_o.id)
+        discoverable.update(log.discoverable, device_id=device_o.id)
 
     # Update the log
     log.ingested = True

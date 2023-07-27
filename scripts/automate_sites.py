@@ -39,4 +39,3 @@ for device_o in device_qs:
     diagram_o, created = Diagram.objects.get_or_create(name=diagram_name, mode="l2")
     if created:
         diagram_o.sites.add(site_o)
-

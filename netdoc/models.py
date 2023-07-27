@@ -408,8 +408,11 @@ class DiscoveryLog(NetBoxModel):
         framework = mode.split("_").pop(0)
         platform = "_".join(mode.split("_")[1:])
 
-        if self.template != "HOSTNAME":
+        if self.template == "HOSTNAME":
             # Logs tracking hostnames are parsed during ingestion phase
+            parsed = True
+            parsed_output = ""
+        else:
             if framework == "netmiko":
                 parsed_output, parsed = parse_netmiko_output(
                     self.raw_output, self.command, platform, template=self.template
