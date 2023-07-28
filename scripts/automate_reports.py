@@ -8,8 +8,9 @@ import csv
 from django.db.models import Count
 
 from dcim.models import Device, Site, DeviceRole
+from ipam.models import VRF
 
-from netdoc.models import Discoverable
+from netdoc.models import Discoverable, RouteTableEntry
 
 # Device count per site
 header = [
@@ -69,3 +70,22 @@ for discoverable_o in discoverable_qs:
     ])
 report_fh.close()
 
+# Device/VRF/Routes count matrix
+vrf_qs = VRF.objects.all().order_by("name")
+vrf_list = list(vrf_qs.values_list("name", flat=True))
+vrf_count = len(vrf_list)
+header = ["Device \ VRF", "Global"] + vrf_list
+device_qs = Device.objects.all().order_by("name")
+report_fh = open("report_device_vrf_routes_matric.csv", "w", encoding="UTF8")
+csv_writer = csv.writer(report_fh)
+csv_writer.writerow(header)
+for device_o in device_qs:
+    vrf_fields = []
+    for vrf_o in vrf_qs:
+        route_count = len(RouteTableEntry.objects.filter(device__name=device_o.name, vrf_id=vrf_o.id))
+        if route_count == 0:
+            route_count = None
+        vrf_fields.append(route_count)
+    global_route_count = len(RouteTableEntry.objects.filter(device__name=device_o.name, vrf_id=None))
+    csv_writer.writerow([device_o.name, global_route_count] + vrf_fields)
+report_fh.close()
