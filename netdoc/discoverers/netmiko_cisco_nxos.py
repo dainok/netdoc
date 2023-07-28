@@ -102,7 +102,7 @@ def discovery(nrni):
                 failed_host_list.append(discoverable_o.address)
 
             # Save VRF list for later
-            if details.get("command") == "show vrf":
+            if details.get("command").startswith("show vrf"):
                 parsed_vrfs, parsed = utils.parse_netmiko_output(
                     result.result, details.get("command"), platform
                 )

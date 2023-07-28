@@ -787,7 +787,7 @@ def normalize_route_type(route_type):
     if route_type in ["r"]:
         # RIP
         return "r"
-    if route_type in ["b", "bgp"]:
+    if route_type in ["b", "b*", "bgp"]:
         # BGP
         return "b"
     if route_type in ["d"]:
