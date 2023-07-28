@@ -135,5 +135,8 @@ nohup.out
 # MacOS
 .DS_Store
 
+# Reports
+*.csv
+
 # Don't ignore
 !docker/*
