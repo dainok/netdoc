@@ -59,8 +59,8 @@ def ingest(log):
                 else None
             )
             int_type = utils.normalize_interface_type("vNIC")
-            speed = utils.normalize_interface_speed(f"{nic.get('speed')} MB/s")
-            duplex = utils.normalize_interface_duplex(str(nic.get("duplex")))
+            speed = utils.normalize_interface_speed(f"{nic.get('speed')} MB/s") if nic.get("speed") else None
+            duplex = utils.normalize_interface_duplex(str(nic.get("duplex"))) if nic.get("duplex") else None
             if speed:
                 enabled = True
             data_vm_interface = {

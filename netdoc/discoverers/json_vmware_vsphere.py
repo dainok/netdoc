@@ -16,8 +16,12 @@ def normalize_disk_space(disk_space):
     """Convert disk spaces from string to int."""
     disk_space = disk_space.lower()
     disk_space = disk_space.replace(",", "")
-    disk_space = disk_space.replace(" kb", "")
-    return int(disk_space)
+    disk_space = disk_space.replace(" ", "")
+    if disk_space.endswith("kb"):
+        disk_space = disk_space.replace("kb", "")
+        return int(int(disk_space) / 1048576)
+    raise ValueError(f"invalid disk space {disk_space}")
+
 
 
 def api_query(
@@ -79,8 +83,8 @@ def api_query(
                 "id": nic.key,
                 "name": nic.device,
                 "mac_address": nic.mac,
-                "speed": nic.linkSpeed.speedMb,
-                "duplex": nic.linkSpeed.duplex,
+                "speed": nic.linkSpeed.speedMb if nic.linkSpeed else None,
+                "duplex": nic.linkSpeed.duplex if nic.linkSpeed else None,
             }
             # Save NIC data
             host_data["nics"][nic_data.get("id")] = nic_data
