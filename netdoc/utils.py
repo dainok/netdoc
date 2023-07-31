@@ -63,6 +63,7 @@ FAILURE_OUTPUT = [
     r"Address\s+Age\s+MAC Address\s+Interface\s+Flags\s*\Z",  # Cisco ARP
     r"No VRF has been configured\s*\Z",  # Linux VRF
     r"No records found\s*\Z",  # HP Procurve CDP
+    r"^\s*\S+ \S+ \d{1,2} \d{1,2}:\d{1,2}:\d{1,2}\.\d{1,3} \S+\s*$", # Cisco XR timestamp only
 ]
 
 DRAWIO_ROLE_MAP = {
