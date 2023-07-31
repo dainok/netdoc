@@ -45,6 +45,7 @@ def discovery(nrni):
                 "show ospf neighbor",
                 "show eigrp neighbors",
                 "show bgp neighbors",
+                "show bgp summary",
             ],
             supported=False,
         )
