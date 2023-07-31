@@ -59,11 +59,13 @@ FAILURE_OUTPUT = [
     r"No spanning tree instance exists.\s*\Z",  # Cisco STP
     r"No spanning tree instances exist.\s*\Z",  # Cisco STP
     r"Group\s+Port-channel\s+Protocol\s+Ports\s+[-+]+\s*\Z",  # Cisco etherchannel
-    r"Group\s+Port-channel\s+Protocol\s+Ports\s+[-+]+\s*RU - L3",  # Cisco etherchannel
+    r"Group\s+Port-channel\s+Protocol\s+Ports\s+[-+]+\s*RU - L3\Z",  # Cisco etherchannel
     r"Address\s+Age\s+MAC Address\s+Interface\s+Flags\s*\Z",  # Cisco ARP
     r"No VRF has been configured\s*\Z",  # Linux VRF
     r"No records found\s*\Z",  # HP Procurve CDP
-    r"^\s*\S+ \S+ \d{1,2} \d{1,2}:\d{1,2}:\d{1,2}\.\d{1,3} \S+\s*$", # Cisco XR timestamp only
+    r"^\s*\S+ \S+ \d{1,2} \d{1,2}:\d{1,2}:\d{1,2}\.\d{1,3} \S+\s*\Z", # Cisco XR timestamp only
+    r"Gateway of last resort is \d+\.\d+\.\d+\.\d+ to network \d+\.\d+\.\d+\.\d+\s*\Z", # Cisco IOS empty routing table
+    r"Gateway of last resort is not set\s*\Z", # Cisco IOS empty routing table
 ]
 
 DRAWIO_ROLE_MAP = {

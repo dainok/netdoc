@@ -9,18 +9,15 @@ from netdoc.tasks import discovery
 
 FILTERS = ["172.25.82.45"]  # List of discoverable IP addresses
 FILTERS = []
-UNDISCOVERED_ONLY=True # Ignore FILTERS
+#FILTERS = list(Discoverable.objects.filter(device__name__contains="ME38").values_list("address", flat=True))
+#FILTERS = list(Discoverable.objects.filter(last_discovered_at=None).values_list("address", flat=True))
 
 # Don't edit below this line
 
 
 def main():
     """Main function."""
-    if UNDISCOVERED_ONLY:
-        discoverable_addresss = list(Discoverable.objects.filter(last_discovered_at=None).values_list("address", flat=True))
-        discovery(discoverable_addresss)
-    else:
-        discovery(FILTERS)
+    discovery(FILTERS)
 
 
 if __name__ == "django.core.management.commands.shell":

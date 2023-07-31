@@ -40,11 +40,6 @@ def discovery(nrni):
             task,
             [
                 "show inventory",
-            ],
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
                 "show hsrp",
                 "show vrrp",
                 "show ospf neighbor",
@@ -149,7 +144,7 @@ def discovery(nrni):
                 else:
                     # with non default VRF commands and templates differ
                     utils.append_nornir_netmiko_task(
-                        task, commands=f"show arp vrf {vrf}", template="show ip arp"
+                        task, commands=f"show arp vrf {vrf}", template="show arp"
                     )
                     utils.append_nornir_netmiko_task(
                         task,
