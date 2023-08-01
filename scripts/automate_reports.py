@@ -12,12 +12,15 @@ from ipam.models import VRF
 
 from netdoc.models import Discoverable, RouteTableEntry
 
+role_ids=[4, 23, 24, 22, 19, 20, 21]
+bb_role_ids=[23, 24, 19, 20, 21]
+
 # Device count per site
 header = [
     "Site",
     "Number of devices",
 ]
-site_qs = Site.objects.all().annotate(device_count=Count("devices")).order_by("name")
+site_qs = Site.objects.filter(devices__device_role_id__in=role_ids).annotate(device_count=Count("devices")).filter(device_count__gt=1).order_by("name")
 report_fh = open("report_site_list.csv", "w", encoding="UTF8")
 csv_writer = csv.writer(report_fh)
 csv_writer.writerow(header)
@@ -37,7 +40,7 @@ header = [
     "Manufacturer",
     "Address",
 ]
-device_qs = Device.objects.all().order_by("site__name")
+device_qs = Device.objects.filter(device_role_id__in=role_ids).order_by("site__name")
 report_fh = open("report_device_list.csv", "w", encoding="UTF8")
 csv_writer = csv.writer(report_fh)
 csv_writer.writerow(header)
@@ -75,17 +78,23 @@ vrf_qs = VRF.objects.all().order_by("name")
 vrf_list = list(vrf_qs.values_list("name", flat=True))
 vrf_count = len(vrf_list)
 header = ["Device \ VRF", "Global"] + vrf_list
-device_qs = Device.objects.all().order_by("name")
-report_fh = open("report_device_vrf_routes_matric.csv", "w", encoding="UTF8")
+device_qs = Device.objects.filter(device_role_id__in=bb_role_ids).order_by("name")
+report_fh = open("report_device_vrf_routes_matrix.csv", "w", encoding="UTF8")
 csv_writer = csv.writer(report_fh)
 csv_writer.writerow(header)
 for device_o in device_qs:
     vrf_fields = []
+    route_qs = RouteTableEntry.objects.filter(device__name=device_o.name)
+    if len(route_qs) == 0:
+        # Not a router
+        continue
     for vrf_o in vrf_qs:
-        route_count = len(RouteTableEntry.objects.filter(device__name=device_o.name, vrf_id=vrf_o.id))
+        route_count = len(route_qs.filter(vrf_id=vrf_o.id))
         if route_count == 0:
             route_count = None
         vrf_fields.append(route_count)
-    global_route_count = len(RouteTableEntry.objects.filter(device__name=device_o.name, vrf_id=None))
+    global_route_count = len(route_qs.filter(vrf_id=None))
+    if not global_route_count:
+        global_route_count = None
     csv_writer.writerow([device_o.name, global_route_count] + vrf_fields)
 report_fh.close()
