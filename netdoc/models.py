@@ -13,6 +13,7 @@ __license__ = "GPLv3"
 import re
 import json
 import base64
+import xml.etree.ElementTree as ET
 from cryptography.fernet import Fernet, InvalidToken
 from OuiLookup import OuiLookup
 
@@ -79,6 +80,7 @@ class DiscoveryModeChoices(ChoiceSet):
         ("netmiko_hp_procurve", "Netmiko HPE Procurve"),
         ("netmiko_linux", "Netmiko Linux"),
         ("json_vmware_vsphere", "VMware vSphere"),
+        ("xml_panw_ngfw", "Palo Alto Networks NGFW"),
     ]
 
 
@@ -427,6 +429,13 @@ class DiscoveryLog(NetBoxModel):
                 except json.decoder.JSONDecodeError as exc:
                     parsed = False
                     parsed_output = str(exc)
+            elif framework == "xml":
+                try:
+                    parsed = True
+                    parsed_output = ""
+                except:
+                    pass
+                pass
             else:
                 raise ValueError(f"Framework {framework} not implemented")
 
