@@ -63,7 +63,7 @@ def discovery(addresses=None, script_handler=None):
     )
 
     if addresses:
-        # Execute on a selected hosts only
+        # Execute on selected hosts only
         # See https://theworldsgonemad.net/2021/nornir-inventory/
         pprint.pprint(addresses)
         nrni = nrni.filter(F(hostname__in=addresses))
