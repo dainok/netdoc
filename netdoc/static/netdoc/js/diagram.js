@@ -99,6 +99,13 @@ function saveNodePositions() {
     xhr.send(data);
 }
 
+// Save node position and disable trigger
+function saveNodePositionsOnce() { 
+    console.log("HERE");
+    saveNodePositions();
+    graph.off("afterDrawing", saveNodePositionsOnce);
+}
+
 // On page load
 window.addEventListener("load", () => {
     // Load topology data from Django
@@ -124,11 +131,8 @@ window.addEventListener("load", () => {
     graph = new vis.Network(container, topology_data, visGraphOptions(physics));
     graph.fit();
 
-    // Save positions after drawing
-    graph.on("afterDrawing", function() {
-	// Positions are saved after drawing to avoid position errors on Draw.io exports
-        saveNodePositions();
-    });
+    // Save positions once after drawing
+    graph.on("afterDrawing", saveNodePositionsOnce);
 
     // On btnToggleDiagramMode click
     document.getElementById("btnToggleDiagramMode").addEventListener("click", (event) => {
