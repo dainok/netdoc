@@ -9,8 +9,12 @@ from netdoc.tasks import discovery
 
 FILTERS = ["172.25.82.45"]  # List of discoverable IP addresses
 FILTERS = []
-#FILTERS = list(Discoverable.objects.filter(device__name__contains="ME38").values_list("address", flat=True))
-#FILTERS = list(Discoverable.objects.filter(last_discovered_at=None).values_list("address", flat=True))
+FILTERS = list(
+    Discoverable.objects.filter(device__name__contains="ME38").values_list(
+        "address", flat=True
+    )
+)
+# FILTERS = list(Discoverable.objects.filter(last_discovered_at=None).values_list("address", flat=True))
 
 # Don't edit below this line
 

@@ -6,14 +6,29 @@ Usage:
 from django.db.models import Count
 
 from netdoc.models import DiscoveryLog
-from netdoc.utils import log_ingest
 
 # Delete failed logs
-#DiscoveryLog.objects.filter(success=False, configuration=False).delete()
+# DiscoveryLog.objects.filter(success=False, configuration=False).delete()
 
 # Delete duplicated logs (keep the recent ones)
-logs = DiscoveryLog.objects.all().values("command", "discoverable__address").annotate(total=Count("command")).filter(total__gt=1).order_by("-total")
+logs = (
+    DiscoveryLog.objects.all()
+    .values("command", "discoverable__address")
+    .annotate(total=Count("command"))
+    .filter(total__gt=1)
+    .order_by("-total")
+)
 for log in logs:
-    log_o = DiscoveryLog.objects.filter(discoverable__address=log.get("discoverable__address"), command=log.get("command")).order_by("created").last()
-    DiscoveryLog.objects.filter(discoverable__address=log.get("discoverable__address"), command=log.get("command"), created__lt=log_o.created).delete()
-
+    log_o = (
+        DiscoveryLog.objects.filter(
+            discoverable__address=log.get("discoverable__address"),
+            command=log.get("command"),
+        )
+        .order_by("created")
+        .last()
+    )
+    DiscoveryLog.objects.filter(
+        discoverable__address=log.get("discoverable__address"),
+        command=log.get("command"),
+        created__lt=log_o.created,
+    ).delete()

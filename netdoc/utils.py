@@ -63,11 +63,11 @@ FAILURE_OUTPUT = [
     r"Address\s+Age\s+MAC Address\s+Interface\s+Flags\s*\Z",  # Cisco ARP
     r"No VRF has been configured\s*\Z",  # Linux VRF
     r"No records found\s*\Z",  # HP Procurve CDP
-    r"^\s*\S+\s+\S+\s+\d{1,2}\s+\d{1,2}:\d{1,2}:\d{1,2}\.\d{1,3}\s+\S+\s*\Z", # Cisco XR timestamp only
-    r"Gateway of last resort is \d+\.\d+\.\d+\.\d+ to network \d+\.\d+\.\d+\.\d+\s*\Z", # Cisco IOS empty routing table
-    r"Gateway of last resort is not set\s*\Z", # Cisco IOS empty routing table
-    r"^\s*% VRF \S+ does not exist", # Cisco invalid VRF
-    r"^\s*% IP routing table vrf \S+ does not exist", # Cisco invalid VRF
+    r"^\s*\S+\s+\S+\s+\d{1,2}\s+\d{1,2}:\d{1,2}:\d{1,2}\.\d{1,3}\s+\S+\s*\Z",  # Cisco timestamp
+    r"Gateway of last resort is not set\s*\Z",  # Cisco IOS empty routing table
+    r"Gateway of last resort is \d+\.\d+\.\d+\.\d+ to network \d+\.\d+\.\d+\.\d+\s*\Z",
+    r"^\s*% VRF \S+ does not exist",  # Cisco invalid VRF
+    r"^\s*% IP routing table vrf \S+ does not exist",  # Cisco invalid VRF
 ]
 
 DRAWIO_ROLE_MAP = {
@@ -604,7 +604,7 @@ def normalize_interface_label(name):
     if name.startswith("tengige"):
         # Cisco XR TenGigabitEthernet
         return name.replace("tengige", "te")
-    if name.startswith( "ge"):
+    if name.startswith("ge"):
         # HP Comware is using "gi" for GigabitEthernet, while Cisco is using "gi"
         return name.replace("ge", "gi")
     return name

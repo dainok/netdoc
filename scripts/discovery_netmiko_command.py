@@ -5,39 +5,33 @@ Usage:
 """
 
 import json
-import importlib
-import os
 import logging
 import pprint
-import tempfile
 from slugify import slugify
 
 from nornir.core.plugins.inventory import InventoryPluginRegister
 from nornir import InitNornir
 from nornir.core.filter import F
 from nornir_netmiko.tasks import netmiko_send_command
-from netmiko.utilities import get_structured_data
-from textfsm.parser import TextFSMError
-
-from django.conf import settings
 
 from netdoc.nornir_inventory import AssetInventory
-from netdoc.models import DiscoveryModeChoices
 from netdoc import utils
 from netdoc.models import Discoverable
 
 COMMANDS = [
     "show bgp ipv4 unicast",
 ]
-FILTERS = list(Discoverable.objects.filter(discoverable=True, mode="netmiko_cisco_xr").values_list("address", flat=True))
+FILTERS = list(
+    Discoverable.objects.filter(discoverable=True, mode="netmiko_cisco_xr").values_list(
+        "address", flat=True
+    )
+)
 
 # Don't edit below this line
 
 
 def main():
     """Main function."""
-    ntc_template_dir = os.environ.get("NET_TEXTFSM")
-
     # Configuring Nornir
     logger = logging.getLogger("nornir")
     logger.setLevel(logging.DEBUG)
@@ -77,7 +71,6 @@ def main():
     # Run the playbook
     aggregated_results = nrni.run(task=multiple_tasks)
 
-
     # Save outputs and define additional commands
     for key, multi_result in aggregated_results.items():
         # MultiResult is an array of Result
@@ -88,7 +81,7 @@ def main():
 
             address = result.host.dict().get("hostname")
             discoverable_o = Discoverable.objects.get(address=address)
-            raw_output=result.result
+            raw_output = result.result
             platform = "_".join(discoverable_o.mode.split("_")[1:])
             command = result.name
             parsed_output, parsed = utils.parse_netmiko_output(
@@ -101,6 +94,7 @@ def main():
             if parsed:
                 with open(filename + ".json", "w") as fh:
                     json.dump(parsed_output, fh, indent=4, sort_keys=True)
+
 
 if __name__ == "django.core.management.commands.shell":
     main()

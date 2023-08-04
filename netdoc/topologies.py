@@ -210,10 +210,10 @@ def get_l2_drawio_topology(queryset, diagram):
             node.get("role") if node.get("role") in DRAWIO_ROLE_MAP else "unknown"
         )
         node = {
-            "id":node_label,
-            "url":"Page-1",
-            "x_pos":node.get("x") if node.get("x") else None,
-            "y_pos":node.get("y") if node.get("x") else None,
+            "id": node_label,
+            "url": "Page-1",
+            "x_pos": node.get("x") if node.get("x") else None,
+            "y_pos": node.get("y") if node.get("x") else None,
             **DRAWIO_ROLE_MAP[node_style],
         }
         # Add font color

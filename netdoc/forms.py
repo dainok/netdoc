@@ -239,6 +239,7 @@ class DiscoverableListFilterForm(NetBoxModelFilterSetForm):
         widget=StaticSelect(choices=BOOLEAN_WITH_BLANK_CHOICES),
     )
 
+
 class DiscoveryLogListFilterForm(NetBoxModelFilterSetForm):
     """Form used to filter DiscoveryLog using parameters. Used in DiscoveryLogListView."""
 

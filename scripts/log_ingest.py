@@ -41,8 +41,7 @@ for log in logs:
         print("done")
         log.ingested = True
         log.save()
-    except:
+    except Exception:
         print("failed")
         if STOP_ON_ERROR:
             raise
-
