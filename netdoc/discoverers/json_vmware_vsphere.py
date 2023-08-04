@@ -23,7 +23,6 @@ def normalize_disk_space(disk_space):
     raise ValueError(f"invalid disk space {disk_space}")
 
 
-
 def api_query(
     details,
     host_address=None,
