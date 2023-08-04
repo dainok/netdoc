@@ -205,16 +205,20 @@ def get_l2_drawio_topology(queryset, diagram):
     for node in nodes:
         # Add node
         node_label = node.get("label")
+        node_label_color = node.get("font").get("color")
         node_style = (
             node.get("role") if node.get("role") in DRAWIO_ROLE_MAP else "unknown"
         )
-        drawio_o.add_node(
-            id=node_label,
-            url="Page-1",
-            x_pos=node.get("x") if node.get("x") else None,
-            y_pos=node.get("y") if node.get("x") else None,
+        node = {
+            "id":node_label,
+            "url":"Page-1",
+            "x_pos":node.get("x") if node.get("x") else None,
+            "y_pos":node.get("y") if node.get("x") else None,
             **DRAWIO_ROLE_MAP[node_style],
-        )
+        }
+        # Add font color
+        node["style"] = node["style"] + f"fontColor={node_label_color};"
+        drawio_o.add_node(**node)
 
     for link in links:
         # Add link (using node labels)
