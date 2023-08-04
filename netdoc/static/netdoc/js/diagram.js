@@ -126,6 +126,7 @@ window.addEventListener("load", () => {
 
     // Save positions after drawing
     graph.on("afterDrawing", function() {
+	// Positions are saved after drawing to avoid position errors on Draw.io exports
         saveNodePositions();
     });
 
