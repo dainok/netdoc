@@ -67,12 +67,40 @@ function getDiagramId() {
     return diagram_id;
 }
 
-
-// On page load
-window.addEventListener("load", () => {
+// Save node positions
+function saveNodePositions() {
     // Load CSRF token
     var csrftoken = getCookie('csrftoken')
 
+    var physics = graph.physics.physicsEnabled;
+    var diagram_id = getDiagramId();
+    var url = "/api/plugins/netdoc/diagram/" + diagram_id + "/";
+    var xhr = new XMLHttpRequest();
+    xhr.open("PATCH", url);
+    xhr.setRequestHeader('X-CSRFToken', csrftoken );
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    // Get current data and save
+    var data = JSON.stringify({
+        "details": {
+            "physics": physics,
+            "positions": graph.getPositions(),
+        },
+    });
+    xhr.onload = () => {
+        // Request finished
+        if (xhr.status==200) {
+            addMessage("success", "Diagram has been saved");
+        } else {
+            addMessage("danger", "Failed to save diagram");
+        }
+    };
+    xhr.send(data);
+}
+
+// On page load
+window.addEventListener("load", () => {
     // Load topology data from Django
     const topology_data = JSON.parse(document.getElementById("topology_data_json").textContent);
     const topology_details = JSON.parse(document.getElementById("topology_details_json").textContent);
@@ -96,6 +124,11 @@ window.addEventListener("load", () => {
     graph = new vis.Network(container, topology_data, visGraphOptions(physics));
     graph.fit();
 
+    // Save positions after drawing
+    graph.on("afterDrawing", function() {
+        saveNodePositions();
+    });
+
     // On btnToggleDiagramMode click
     document.getElementById("btnToggleDiagramMode").addEventListener("click", (event) => {
         var new_physics = !graph.physics.physicsEnabled;
@@ -106,30 +139,6 @@ window.addEventListener("load", () => {
 
     // On btnSaveDiagram click
     document.getElementById("btnSaveDiagram").addEventListener("click", () => {
-        var physics = graph.physics.physicsEnabled;
-        var diagram_id = getDiagramId();
-        var url = "/api/plugins/netdoc/diagram/" + diagram_id + "/";
-        var xhr = new XMLHttpRequest();
-        xhr.open("PATCH", url);
-        xhr.setRequestHeader('X-CSRFToken', csrftoken );
-        xhr.setRequestHeader("Accept", "application/json");
-        xhr.setRequestHeader("Content-Type", "application/json");
-
-        // Get current data and save
-        var data = JSON.stringify({
-            "details": {
-                "physics": physics,
-                "positions": graph.getPositions(),
-            },
-        });
-        xhr.onload = () => {
-            // Request finished
-            if (xhr.status==200) {
-                addMessage("success", "Diagram has been saved");
-            } else {
-                addMessage("danger", "Failed to save diagram");
-            }
-        };
-        xhr.send(data);
+	saveNodePositions();
     });
 });

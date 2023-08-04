@@ -7,11 +7,15 @@ __license__ = "GPLv3"
 import hashlib
 import ipaddress
 from N2G import drawio_diagram
-
 from jinja2 import Template, select_autoescape
+
+from django.conf import settings
 
 from netdoc.models import DeviceImageChoices
 from netdoc.utils import DRAWIO_ROLE_MAP
+
+PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
+ROLE_MAP = PLUGIN_SETTINGS.get("ROLE_MAP")
 
 JINJA_AUTOESCAPE = select_autoescape(
     enabled_extensions=["html"], default_for_string=True
@@ -126,7 +130,11 @@ def get_l2_topology_data(queryset, details):
         device_o = interface_o.device
         device_id = device_o.pk
         if device_id not in nodes:
+            role_color = device_o.device_role.color
             device_role = device_o.device_role.slug
+            if device_role in ROLE_MAP:
+                # Custom device role
+                device_role = ROLE_MAP.get(device_role)
             if device_role in [key for key, value in DeviceImageChoices()]:
                 image_url = f"/static/netdoc/img/{device_role}.png"
             else:
@@ -135,6 +143,10 @@ def get_l2_topology_data(queryset, details):
                 "id": device_id,
                 "label": interface_o.device.name,
                 "role": device_role,
+                "font": {
+                    "color": f"#{role_color}",
+                    "size": 14,
+                },
                 "image": image_url,
                 "shape": "image",
                 "title": Template(NODE_TEMPLATE, autoescape=JINJA_AUTOESCAPE).render(
@@ -233,7 +245,11 @@ def get_l3_topology_data(queryset, details):
             device_str = f"{device_name}:{vrf_name}" if vrf_name else device_name
             device_id = integer_hash(device_str)
             if device_id not in nodes:
+                role_color = device_o.device_role.color
                 device_role = device_o.device_role.slug
+                if device_role in ROLE_MAP:
+                    # Custom device role
+                    device_role = ROLE_MAP.get(device_role)
                 if device_role in [key for key, value in DeviceImageChoices()]:
                     image_url = f"/static/netdoc/img/{device_role}.png"
                 else:
@@ -242,6 +258,10 @@ def get_l3_topology_data(queryset, details):
                     "id": device_id,
                     "label": device_str,
                     "role": device_role,
+                    "font": {
+                        "color": f"#{role_color}",
+                        "size": 14,
+                    },
                     "image": image_url,
                     "shape": "image",
                     "title": Template(

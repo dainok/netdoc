@@ -36,6 +36,11 @@ for interface_o in interface_qs:
         int_type = "vrf"
     if lowercase_description.startswith("pw"):
         int_type = "pw"
+    if lowercase_description.startswith("vpls"):
+        int_type = "vpls"
+    if lowercase_description.endswith(":accesso"):
+        int_type = "access"
+
     if int_type:
         csv_writer.writerow([
             interface_o.device.site.name,
@@ -47,10 +52,6 @@ for interface_o in interface_qs:
             interface_o.description,
         ])
 report_fh.close()
-
-import sys
-sys.exit()
-
 
 # Device count per site
 header = [
