@@ -259,6 +259,7 @@ class DiscoverableListView(generic.ObjectListView):
     ]
     template_name = "netdoc/discoverable_list.html"
     filterset = filtersets.DiscoverableFilterSet
+    filterset_form = forms.DiscoverableListFilterForm
 
 
 class DiscoverableView(generic.ObjectView):

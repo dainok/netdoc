@@ -59,10 +59,15 @@ FAILURE_OUTPUT = [
     r"No spanning tree instance exists.\s*\Z",  # Cisco STP
     r"No spanning tree instances exist.\s*\Z",  # Cisco STP
     r"Group\s+Port-channel\s+Protocol\s+Ports\s+[-+]+\s*\Z",  # Cisco etherchannel
-    r"Group\s+Port-channel\s+Protocol\s+Ports\s+[-+]+\s*RU - L3",  # Cisco etherchannel
+    r"Group\s+Port-channel\s+Protocol\s+Ports\s+[-+]+\s*RU - L3\Z",  # Cisco etherchannel
     r"Address\s+Age\s+MAC Address\s+Interface\s+Flags\s*\Z",  # Cisco ARP
     r"No VRF has been configured\s*\Z",  # Linux VRF
     r"No records found\s*\Z",  # HP Procurve CDP
+    r"^\s*\S+\s+\S+\s+\d{1,2}\s+\d{1,2}:\d{1,2}:\d{1,2}\.\d{1,3}\s+\S+\s*\Z",  # Cisco timestamp
+    r"Gateway of last resort is not set\s*\Z",  # Cisco IOS empty routing table
+    r"Gateway of last resort is \d+\.\d+\.\d+\.\d+ to network \d+\.\d+\.\d+\.\d+\s*\Z",
+    r"^\s*% VRF \S+ does not exist",  # Cisco invalid VRF
+    r"^\s*% IP routing table vrf \S+ does not exist",  # Cisco invalid VRF
 ]
 
 DRAWIO_ROLE_MAP = {
@@ -168,7 +173,7 @@ DRAWIO_ROLE_MAP = {
         + "[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;"
         + "verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;"
         + "shape=mxgraph.cisco19.lock;fillColor=#005073;strokeColor=none;",
-        "width": 27,
+        "width": 50,
         "height": 50,
     },
     "virtual-switch": {
@@ -593,9 +598,14 @@ def normalize_interface_label(name):
         return name.replace("bridge-aggregation", "bagg")
     if name.startswith("tunnel"):
         return name.replace("tunnel", "tu")
-    if name.startswith(
-        "ge"
-    ):  # HP Comware is using "gi" for GigabitEthernet, while Cisco is using "gi"
+    if name.startswith("bundle-ether"):
+        # Cisco XR etherchannel
+        return name.replace("bundle-ether", "be")
+    if name.startswith("tengige"):
+        # Cisco XR TenGigabitEthernet
+        return name.replace("tengige", "te")
+    if name.startswith("ge"):
+        # HP Comware is using "gi" for GigabitEthernet, while Cisco is using "gi"
         return name.replace("ge", "gi")
     return name
 
@@ -782,7 +792,7 @@ def normalize_route_type(route_type):
     if route_type in ["r"]:
         # RIP
         return "r"
-    if route_type in ["b", "bgp"]:
+    if route_type in ["b", "b*", "bgp"]:
         # BGP
         return "b"
     if route_type in ["d"]:
@@ -803,7 +813,7 @@ def normalize_route_type(route_type):
     if route_type in ["e1", "o e1", "o_ase1"]:
         # OSPF External Type 1
         return "oe1"
-    if route_type in ["e2", "o e2", "o_ase2", "o_ase"]:
+    if route_type in ["o*e2", "e2", "o e2", "o_ase2", "o_ase"]:
         # OSPF External Type 2
         return "oe2"
     if route_type in ["i"]:

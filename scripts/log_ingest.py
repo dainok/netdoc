@@ -15,7 +15,9 @@ LOGS = []
 COMMAND = "show mac address-table"  # Command to be parsed
 COMMAND = ""
 
-REINGEST = True
+STOP_ON_ERROR = True
+
+REINGEST = False
 
 # Don't edit below this line
 
@@ -31,10 +33,15 @@ if COMMAND:
 
 for log in logs:
     print(
-        f"Reingesting log {log.id} with command {log.command} on device {log.discoverable}... ",
+        f"Ingesting log {log.id} with command {log.command} on device {log.discoverable}... ",
         end="",
     )
-    log_ingest(log)
-    print("done")
-    log.ingested = True
-    log.save()
+    try:
+        log_ingest(log)
+        print("done")
+        log.ingested = True
+        log.save()
+    except Exception:
+        print("failed")
+        if STOP_ON_ERROR:
+            raise

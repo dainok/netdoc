@@ -7,11 +7,15 @@ __license__ = "GPLv3"
 import hashlib
 import ipaddress
 from N2G import drawio_diagram
-
 from jinja2 import Template, select_autoescape
+
+from django.conf import settings
 
 from netdoc.models import DeviceImageChoices
 from netdoc.utils import DRAWIO_ROLE_MAP
+
+PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
+ROLE_MAP = PLUGIN_SETTINGS.get("ROLE_MAP")
 
 JINJA_AUTOESCAPE = select_autoescape(
     enabled_extensions=["html"], default_for_string=True
@@ -126,7 +130,11 @@ def get_l2_topology_data(queryset, details):
         device_o = interface_o.device
         device_id = device_o.pk
         if device_id not in nodes:
+            role_color = device_o.device_role.color
             device_role = device_o.device_role.slug
+            if device_role in ROLE_MAP:
+                # Custom device role
+                device_role = ROLE_MAP.get(device_role)
             if device_role in [key for key, value in DeviceImageChoices()]:
                 image_url = f"/static/netdoc/img/{device_role}.png"
             else:
@@ -135,6 +143,10 @@ def get_l2_topology_data(queryset, details):
                 "id": device_id,
                 "label": interface_o.device.name,
                 "role": device_role,
+                "font": {
+                    "color": f"#{role_color}",
+                    "size": 14,
+                },
                 "image": image_url,
                 "shape": "image",
                 "title": Template(NODE_TEMPLATE, autoescape=JINJA_AUTOESCAPE).render(
@@ -193,16 +205,20 @@ def get_l2_drawio_topology(queryset, diagram):
     for node in nodes:
         # Add node
         node_label = node.get("label")
+        node_label_color = node.get("font").get("color")
         node_style = (
             node.get("role") if node.get("role") in DRAWIO_ROLE_MAP else "unknown"
         )
-        drawio_o.add_node(
-            id=node_label,
-            url="Page-1",
-            x_pos=node.get("x") if node.get("x") else None,
-            y_pos=node.get("y") if node.get("x") else None,
+        node = {
+            "id": node_label,
+            "url": "Page-1",
+            "x_pos": node.get("x") if node.get("x") else None,
+            "y_pos": node.get("y") if node.get("x") else None,
             **DRAWIO_ROLE_MAP[node_style],
-        )
+        }
+        # Add font color
+        node["style"] = node["style"] + f"fontColor={node_label_color};"
+        drawio_o.add_node(**node)
 
     for link in links:
         # Add link (using node labels)
@@ -233,7 +249,11 @@ def get_l3_topology_data(queryset, details):
             device_str = f"{device_name}:{vrf_name}" if vrf_name else device_name
             device_id = integer_hash(device_str)
             if device_id not in nodes:
+                role_color = device_o.device_role.color
                 device_role = device_o.device_role.slug
+                if device_role in ROLE_MAP:
+                    # Custom device role
+                    device_role = ROLE_MAP.get(device_role)
                 if device_role in [key for key, value in DeviceImageChoices()]:
                     image_url = f"/static/netdoc/img/{device_role}.png"
                 else:
@@ -242,6 +262,10 @@ def get_l3_topology_data(queryset, details):
                     "id": device_id,
                     "label": device_str,
                     "role": device_role,
+                    "font": {
+                        "color": f"#{role_color}",
+                        "size": 14,
+                    },
                     "image": image_url,
                     "shape": "image",
                     "title": Template(
@@ -430,7 +454,7 @@ def get_site_topology_data(queryset, details):
                     "title": to_site_o.name,
                 }
             # Set position
-            if "positions" in details and str(from_site_o.id) in details["positions"]:
+            if "positions" in details and str(to_site_id) in details["positions"]:
                 sites[to_site_id]["x"] = details["positions"][str(to_site_id)].get("x")
                 sites[to_site_id]["y"] = details["positions"][str(to_site_id)].get("y")
 
