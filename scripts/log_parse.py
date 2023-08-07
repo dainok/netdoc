@@ -6,7 +6,7 @@ Usage:
 from netdoc.models import DiscoveryLog
 
 FILTERS = ["172.25.82.44", "172.25.82.45"]  # List of discoverable IP addresses
-FILTERS = ["10.16.16.225"]
+FILTERS = []
 
 REPARSE = True
 

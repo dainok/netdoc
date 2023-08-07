@@ -18,7 +18,7 @@ def ingest(log):
         label = utils.normalize_interface_label(interface_name)
         # Set VLAN 1 for switches not supporting VLANs
         vlan_id = int(item.get("vlan")) if item.get("vlan") else 1
-        mac_address = utils.normalize_mac_address(item.get("mac"))
+        mac_address = utils.normalize_mac_address(item.get("mac_address"))
 
         interface_o = interface.get(device_id=device_o.id, label=label)
         if not interface_o:
