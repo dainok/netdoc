@@ -8,7 +8,11 @@ import json
 import requests
 from nornir_utils.plugins.functions import print_result
 
+from django.conf import settings
+
 from netdoc.schemas import discoverable, discoverylog
+
+PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 
 
 def api_query(
@@ -29,6 +33,27 @@ def api_query(
     return f'<?xml version="1.0"?>\n{req.text}'
                     
 
+def append_nornir_task(
+    task, command, template, order=128, host=None, password=None, supported=True, verify_cert=True
+):
+    """Append a Nornir task within a multiple_tasks adding extended details."""
+    details = {
+        "command": command,
+        "template": template,
+        "enable": False,
+        "order": order,
+        "supported": supported,
+    }
+    task.run(
+        task=api_query,
+        name=json.dumps(details),
+        command=details.get("command"),
+        host_address=host,
+        password=password,
+        verify_cert=verify_cert,
+    )
+
+
 def discovery(nrni):
     """Discovery Palo Alto Networks NGFW devices."""
     host_list = []
@@ -36,30 +61,29 @@ def discovery(nrni):
 
     def multiple_tasks(task):
         """Define commands (in order) for the playbook."""
-        supported = True
-        order = 0
-        template = "show arp"
-        command = "<show><arp><entry name = 'all'/></arp></show>"
-        verify_cert = task.host.dict().get("data").get("verify_cert")
-        # TODO: <show><mac></mac></show>
-        # TODO: <show><interface></interface></show>
-        # TODO: <show><routing><route></route></routing></show>
-        details = {
-            "command": command,
-            "template": template if template else command,
-            "order": order,
-            "enable": False,
-            "supported": supported,
-            "verify_cert": verify_cert,
+        params = {
+            "host": task.host.hostname,
+            "password": task.host.dict().get("password"),
+            "supported": True,
+            "verify_cert": task.host.dict().get("data").get("verify_cert"),
         }
-
-        task.run(
-            task=api_query,
-            name=json.dumps(details),
-            command=command,
-            host_address=task.host.hostname,
-            password=task.host.dict().get("password"),
-            verify_cert=verify_cert,
+        append_nornir_task(
+            task, "<show><system><info></info></system></show>", template="show system info", order=0, **params
+        )
+        append_nornir_task(
+            task, "<show><interface>all</interface></show>", template="show interface all", order=10, **params
+        )
+        append_nornir_task(
+            task, "<show><arp><entry name = 'all'/></arp></show>", template="show arp all", **params
+        )
+        append_nornir_task(
+            task, "<show><mac>all</mac></show>", template="show mac all", **params
+        )
+        append_nornir_task(
+            task, "<show><vlan>all</vlan></show>", template="show vlan all", **params
+        )
+        append_nornir_task(
+            task, "<show><routing><route></route></routing></show>", template="show routing all", **params
         )
 
     # Run the playbook
