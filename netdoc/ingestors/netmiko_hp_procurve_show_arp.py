@@ -19,7 +19,7 @@ def ingest(log):
         interface_name = item.get("port")
         label = utils.normalize_interface_label(interface_name)
         ip_address = item.get("ip")
-        mac_address = utils.normalize_mac_address(item.get("mac"))
+        mac_address = utils.normalize_mac_address(item.get("mac_address"))
 
         interface_o = interface.get(device_id=device_o.id, label=label)
         if not interface_o:

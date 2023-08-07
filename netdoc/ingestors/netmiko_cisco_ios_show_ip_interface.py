@@ -17,7 +17,7 @@ def ingest(log):
         if item.get("link_status") == "deleted":
             # Skip deleted interfaces
             continue
-        interface_name = item.get("intf")
+        interface_name = item.get("interface")
         label = utils.normalize_interface_label(interface_name)
         vrf_name = item.get("vrf")
         ip_list = item.get("ipaddr")

@@ -437,12 +437,12 @@ def get_site_topology_data(queryset, details):
                 }
                 # Set position
                 if "positions" in details and str(from_site_id) in details["positions"]:
-                    sites[from_site_id]["x"] = details["positions"][str(from_site_id)].get(
-                        "x"
-                    )
-                    sites[from_site_id]["y"] = details["positions"][str(from_site_id)].get(
-                        "y"
-                    )
+                    sites[from_site_id]["x"] = details["positions"][
+                        str(from_site_id)
+                    ].get("x")
+                    sites[from_site_id]["y"] = details["positions"][
+                        str(from_site_id)
+                    ].get("y")
 
             # Add destination site
             if to_site_id not in sites:
@@ -455,8 +455,12 @@ def get_site_topology_data(queryset, details):
                 }
                 # Set position
                 if "positions" in details and str(to_site_id) in details["positions"]:
-                    sites[to_site_id]["x"] = details["positions"][str(to_site_id)].get("x")
-                    sites[to_site_id]["y"] = details["positions"][str(to_site_id)].get("y")
+                    sites[to_site_id]["x"] = details["positions"][str(to_site_id)].get(
+                        "x"
+                    )
+                    sites[to_site_id]["y"] = details["positions"][str(to_site_id)].get(
+                        "y"
+                    )
 
     return {
         "nodes": list(sites.values()),

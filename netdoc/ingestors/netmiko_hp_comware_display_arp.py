@@ -14,12 +14,12 @@ def ingest(log):
 
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/hp_comware/display_arp # pylint: disable=line-too-long
-        if utils.incomplete_mac(item.get("macaddress")):
+        if utils.incomplete_mac(item.get("mac_address")):
             continue
         interface_name = item.get("interface")
         label = utils.normalize_interface_label(interface_name)
         ip_address = item.get("ipaddress")
-        mac_address = utils.normalize_mac_address(item.get("macaddress"))
+        mac_address = utils.normalize_mac_address(item.get("mac_address"))
 
         interface_o = interface.get(device_id=device_o.id, label=label)
         if not interface_o:
