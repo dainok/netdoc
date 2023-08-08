@@ -4,7 +4,7 @@ __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2023, Andrea Dainese"
 __license__ = "GPLv3"
 
-from netdoc.schemas import device, virtualmachine
+from netdoc.schemas import device, virtualmachine, discoverable
 from netdoc import utils
 
 
@@ -35,6 +35,10 @@ def ingest(log):
         vm_o = virtualmachine.get(name=data.get("name"))
         if not vm_o:
             vm_o = virtualmachine.create(**data)
+
+        if not log.discoverable.vm:
+            # Link VM to Discoverable
+            discoverable.update(log.discoverable, vm_id=vm_o.id)
     else:
         # Get or create Device
         data = {
@@ -45,6 +49,10 @@ def ingest(log):
         device_o = device.get(name=data.get("name"))
         if not device_o:
             device_o = device.create(**data)
+
+        if not log.discoverable.device:
+            # Link Device to Discoverable
+            discoverable.update(log.discoverable, device_id=device_o.id)
 
         # Update device
         device.update(

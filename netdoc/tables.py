@@ -109,6 +109,7 @@ class DiscoverableTable(NetBoxTable):
 
     address = tables.Column(linkify=True)
     device = tables.Column(linkify=True)
+    vm = tables.Column(linkify=True)
     mode = ChoiceFieldColumn()
     discoverylogs_count = tables.Column()
     discovery_button = """
@@ -127,6 +128,7 @@ class DiscoverableTable(NetBoxTable):
             "id",
             "address",
             "device",
+            "vm",
             "site",
             "credential",
             "mode",
@@ -139,6 +141,7 @@ class DiscoverableTable(NetBoxTable):
         default_columns = [
             "address",
             "device",
+            "vm",
             "site",
             "credential",
             "mode",

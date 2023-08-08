@@ -30,14 +30,22 @@ __license__ = "GPLv3"
                             <th scope="row">Mode</th>
                             <td>{{ object.mode }}</td>
                         </tr>
-                        <tr>
-                            <th scope="row">Device</th>
-                            <td>
-                                {% if object.device %}
+                        {% if object.device %}
+                            <tr>
+                                <th scope="row">Device</th>
+                                <td>
                                     <a href="{% url "dcim:device" object.device.pk %}">{{ object.device }}</a>
-                                {% endif %}
-                            </td>
-                        </tr>
+                                </td>
+                            </tr>
+                        {% endif %}
+                        {% if object.vm %}
+                            <tr>
+                                <th scope="row">VM</th>
+                                <td>
+                                    <a href="{% url "virtualization:virtualmachine" object.vm.pk %}">{{ object.vm }}</a>
+                                </td>
+                            </tr>
+                        {% endif %}
                         <tr>
                             <th scope="row">Site</th>
                             <td>{{ object.site }}</td>

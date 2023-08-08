@@ -301,6 +301,14 @@ class Discoverable(NetBoxModel):
         on_delete=models.CASCADE,
         related_name="+",
     )
+    vm = models.OneToOneField(
+        to="virtualization.VirtualMachine",
+        editable=False,
+        on_delete=models.SET_NULL,
+        related_name="+",
+        blank=True,
+        null=True,
+    )
 
     class Meta:
         """Database metadata."""

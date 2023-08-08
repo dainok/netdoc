@@ -9,6 +9,7 @@ from jsonschema import validate, FormatChecker
 from django.utils import timezone
 
 from dcim.models import Device, Site
+from virtualization.models import VirtualMachine
 
 from netdoc.models import Discoverable, Credential, DiscoveryModeChoices
 from netdoc import utils
@@ -45,6 +46,10 @@ def get_schema():
             "site_id": {
                 "type": "integer",
                 "enum": list(Site.objects.all().values_list("id", flat=True)),
+            },
+            "vm_id": {
+                "type": "integer",
+                "enum": list(VirtualMachine.objects.all().values_list("id", flat=True)),
             },
         },
     }
@@ -108,7 +113,7 @@ def get_or_create(address, **kwargs):
 
 def update(obj, **kwargs):
     """Update a Discoverable."""
-    update_if_not_set = ["device_id"]
+    update_if_not_set = ["device_id", "vm_id"]
     update_always = ["last_discovered_at"]
 
     validate(kwargs, get_schema(), format_checker=FormatChecker())
@@ -116,7 +121,7 @@ def update(obj, **kwargs):
     kwargs_always = utils.filter_keys(kwargs, update_always)
     obj = utils.object_update(obj, **kwargs_always, force=True)
 
-    # Before updating device_id we need to check for integrity
+    # Before updating device_id or vm_id we need to check for integrity
     if kwargs_if_not_set.get("device_id"):
         # Check if the device is already associated
         obj_qs = Discoverable.objects.filter(
@@ -124,6 +129,14 @@ def update(obj, **kwargs):
         )
         if obj_qs:
             # A Discoverable with the same address or the same Device ID already exist
+            return obj_qs[0]
+    if kwargs_if_not_set.get("vm_id"):
+        # Check if the vm is already associated
+        obj_qs = Discoverable.objects.filter(
+            vm_id=kwargs_if_not_set.get("vm_id")
+        )
+        if obj_qs:
+            # A Discoverable with the same address or the same VM ID already exist
             return obj_qs[0]
     obj = utils.object_update(obj, **kwargs_if_not_set, force=False)
     return obj
