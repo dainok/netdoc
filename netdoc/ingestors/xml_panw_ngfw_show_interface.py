@@ -13,8 +13,12 @@ def ingest(log):
     device_o = log.discoverable.device if log.discoverable.device else None
     vm_o = log.discoverable.vm if log.discoverable.vm else None
 
-    hardware_items = log.parsed_output.get("response").get("result").get("hw").get("entry")
-    network_items = log.parsed_output.get("response").get("result").get("ifnet").get("entry")
+    hardware_items = (
+        log.parsed_output.get("response").get("result").get("hw").get("entry")
+    )
+    network_items = (
+        log.parsed_output.get("response").get("result").get("ifnet").get("entry")
+    )
     for item in hardware_items + network_items:
         physical = item.get("fwd") is None
         interface_name = item.get("name")
@@ -28,7 +32,6 @@ def ingest(log):
         )
         int_type = utils.normalize_interface_type(item.get("name"))
         enabled = utils.normalize_interface_status(item.get("state"))
-        parent_name = utils.parent_interface(label)
         vrf_name = item.get("fwd")
         if vrf_name:
             try:
@@ -52,9 +55,9 @@ def ingest(log):
         # Get or create Interface
         if vm_o:
             # Create a virtual interface
+            parent_name = utils.parent_interface(interface_name, return_label=False)
             if parent_name:
                 # Parent Interface is set
-                parent_label = utils.normalize_interface_label(parent_name)
                 parent_o = virtualmachine_interface.get(
                     virtual_machine_id=vm_o.id,
                     name=parent_name,
@@ -69,8 +72,6 @@ def ingest(log):
             interface_data = {
                 "name": interface_name,
                 "virtual_machine_id": vm_o.id,
-                "duplex": duplex,
-                "speed": speed,
                 "mac_address": mac_address,
                 "enabled": enabled,
                 "parent_id": parent_o.id if parent_name else None,
@@ -84,7 +85,9 @@ def ingest(log):
                 interface_o = virtualmachine_interface.create(**interface_data)
             virtualmachine_interface.update(interface_o, **interface_data)
             if not physical:
-                virtualmachine_interface.update_addresses(interface_o, ip_addresses=ip_addresses)
+                virtualmachine_interface.update_addresses(
+                    interface_o, ip_addresses=ip_addresses
+                )
 
             # Update management IP address
             # TODO
@@ -93,6 +96,7 @@ def ingest(log):
             # Create a physical interface
             if parent_name:
                 # Parent Interface is set
+                parent_name = utils.parent_interface(interface_name)
                 parent_label = utils.normalize_interface_label(parent_name)
                 parent_o = interface.get(device_id=device_o.id, label=parent_label)
                 if not parent_o:
@@ -103,7 +107,7 @@ def ingest(log):
                     parent_o = interface.create(**parent_data)
 
             interface_data = {
-                "name": label,
+                "name": interface_name,
                 "device_id": device_o.id,
                 "duplex": duplex,
                 "speed": speed,
