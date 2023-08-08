@@ -37,6 +37,7 @@ setup(
         "ouilookup==0.2.4",
         "python-slugify",
         "pyvmomi==8.0.1.0.1",
+        "xmltodict==0.13.0",
     ],
     packages=find_packages(),
     include_package_data=True,

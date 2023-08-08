@@ -13,7 +13,8 @@ __license__ = "GPLv3"
 import re
 import json
 import base64
-import xml.etree.ElementTree as ET
+from xml.parsers.expat import ExpatError
+import xmltodict
 from cryptography.fernet import Fernet, InvalidToken
 from OuiLookup import OuiLookup
 
@@ -432,10 +433,13 @@ class DiscoveryLog(NetBoxModel):
             elif framework == "xml":
                 try:
                     parsed = True
-                    parsed_output = ""
-                except:
-                    pass
-                pass
+                    parsed_output = xmltodict.parse(self.raw_output)
+                except TypeError as exc:
+                    parsed = False
+                    parsed_output = str(exc)
+                except ExpatError as exc:
+                    parsed = False
+                    parsed_output = str(exc)
             else:
                 raise ValueError(f"Framework {framework} not implemented")
 

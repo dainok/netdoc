@@ -7,7 +7,7 @@ Usage:
 from netdoc.tasks import discovery
 
 FILTERS = ["172.25.82.45"]  # List of discoverable IP addresses
-FILTERS = []
+FILTERS = ["127.0.0.1"]
 
 # Don't edit below this line
 

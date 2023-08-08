@@ -23,18 +23,22 @@ def api_query(
     verify_cert=True,
 ):  # pylint: disable=unused-argument
     """Get info via Python request."""
-    url = (
-        f"https://{host_address}:8444/api/?type=op&cmd={command}&key={password}"
-    )
+    url = f"https://{host_address}:8444/api/?type=op&cmd={command}&key={password}"
     req = requests.get(url, verify=verify_cert, timeout=15)
     if req.status_code != 200:
-        return f"ERROR CODE {req.status_code}\n" + req.text
-    # PANOS API misses XML version header
-    return f'<?xml version="1.0"?>\n{req.text}'
-                    
+        return f"ERROR CODE {req.status_code}\n{req.text}"
+    return req.text
+
 
 def append_nornir_task(
-    task, command, template, order=128, host=None, password=None, supported=True, verify_cert=True
+    task,
+    command,
+    template,
+    order=128,
+    host=None,
+    password=None,
+    supported=True,
+    verify_cert=True,
 ):
     """Append a Nornir task within a multiple_tasks adding extended details."""
     details = {
@@ -68,13 +72,24 @@ def discovery(nrni):
             "verify_cert": task.host.dict().get("data").get("verify_cert"),
         }
         append_nornir_task(
-            task, "<show><system><info></info></system></show>", template="show system info", order=0, **params
+            task,
+            "<show><system><info></info></system></show>",
+            template="show system info",
+            order=0,
+            **params,
         )
         append_nornir_task(
-            task, "<show><interface>all</interface></show>", template="show interface all", order=10, **params
+            task,
+            "<show><interface>all</interface></show>",
+            template="show interface all",
+            order=10,
+            **params,
         )
         append_nornir_task(
-            task, "<show><arp><entry name = 'all'/></arp></show>", template="show arp all", **params
+            task,
+            "<show><arp><entry name = 'all'/></arp></show>",
+            template="show arp all",
+            **params,
         )
         append_nornir_task(
             task, "<show><mac>all</mac></show>", template="show mac all", **params
@@ -83,7 +98,10 @@ def discovery(nrni):
             task, "<show><vlan>all</vlan></show>", template="show vlan all", **params
         )
         append_nornir_task(
-            task, "<show><routing><route></route></routing></show>", template="show routing all", **params
+            task,
+            "<show><routing><route></route></routing></show>",
+            template="show routing all",
+            **params,
         )
 
     # Run the playbook
@@ -109,7 +127,7 @@ def discovery(nrni):
             discoverylog.create(
                 command=details.get("command"),
                 discoverable_id=discoverable_o.id,
-                raw_output=json.dumps(result.result),
+                raw_output=result.result,
                 template=details.get("template"),
                 order=details.get("order"),
                 details=details,
