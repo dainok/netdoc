@@ -132,9 +132,7 @@ def update(obj, **kwargs):
             return obj_qs[0]
     if kwargs_if_not_set.get("vm_id"):
         # Check if the vm is already associated
-        obj_qs = Discoverable.objects.filter(
-            vm_id=kwargs_if_not_set.get("vm_id")
-        )
+        obj_qs = Discoverable.objects.filter(vm_id=kwargs_if_not_set.get("vm_id"))
         if obj_qs:
             # A Discoverable with the same address or the same VM ID already exist
             return obj_qs[0]

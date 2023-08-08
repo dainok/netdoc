@@ -14,16 +14,16 @@ def ingest(log):
     vendor = "Palo Alto"
 
     # Getting data
-    name = log.parsed_output.get("response").get("result").get("system").get("devicename")
+    name = (
+        log.parsed_output.get("response").get("result").get("system").get("devicename")
+    )
     model = log.parsed_output.get("response").get("result").get("system").get("model")
     family = log.parsed_output.get("response").get("result").get("system").get("family")
     serial = log.parsed_output.get("response").get("result").get("system").get("serial")
-    ip_address = log.parsed_output.get("response").get("result").get("system").get("ip-address")
-    netmask = log.parsed_output.get("response").get("result").get("system").get("netmask")
 
     # Parsing data
     name = utils.normalize_hostname(name)
-    virtual = True if family == "vm" else False
+    virtual = family == "vm"
 
     if virtual:
         # Get or create VM

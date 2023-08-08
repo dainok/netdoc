@@ -489,7 +489,7 @@ def log_ingest(log):
     except ModuleNotFoundError as exc:
         raise ModuleNotFoundError(f"Ingestor not found for {function_name}") from exc
 
-    if log.order > 0 and not log.discoverable.device:
+    if log.order > 0 and not log.discoverable.device and not log.discoverable.vm:
         # Log with order > 0 must have a Device attached to the parent Discoverable
         raise ValueError(
             f"The discoverable {log.discoverable.address} does not have an attached device "
@@ -681,10 +681,16 @@ def normalize_interface_status(status):
 
     Return True if the link is up, False elsewhere.
     """
+    if status is None:
+        # Assume None is used for virtual interfaces (e.g. tunnels)
+        return True
     status = status.lower()
     if "up" in status:
         return True
     if "true" in status:
+        return True
+    if "unknown" in status:
+        # Assume unknown is used for virtual interfaces (e.g. tunnels)
         return True
     if "down" in status:
         return False

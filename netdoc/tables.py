@@ -203,6 +203,7 @@ class DiscoveryLogTable(NetBoxTable):
     """Credential list table used in DiscoveryLogListView."""
 
     device = tables.Column(linkify=True, accessor="discoverable.device")
+    vm = tables.Column(linkify=True, accessor="discoverable.vm")
     discoverable = tables.Column(linkify=True)
     actions = ActionsColumn(actions=("delete",))  # Read only + delete table
 
@@ -216,6 +217,7 @@ class DiscoveryLogTable(NetBoxTable):
             "created",
             "discoverable",
             "device",
+            "vm",
             "command",
             "template",
             "order",
@@ -231,6 +233,7 @@ class DiscoveryLogTable(NetBoxTable):
             "created",
             "discoverable",
             "device",
+            "vm",
             "command",
             "configuration",
             "supported",

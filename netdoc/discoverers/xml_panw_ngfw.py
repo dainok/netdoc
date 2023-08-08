@@ -81,26 +81,26 @@ def discovery(nrni):
         append_nornir_task(
             task,
             "<show><interface>all</interface></show>",
-            template="show interface all",
+            template="show interface",
             order=10,
             **params,
         )
         append_nornir_task(
             task,
             "<show><arp><entry name = 'all'/></arp></show>",
-            template="show arp all",
+            template="show arp",
             **params,
         )
         append_nornir_task(
-            task, "<show><mac>all</mac></show>", template="show mac all", **params
+            task, "<show><mac>all</mac></show>", template="show mac", **params
         )
         append_nornir_task(
-            task, "<show><vlan>all</vlan></show>", template="show vlan all", **params
+            task, "<show><vlan>all</vlan></show>", template="show vlan", **params
         )
         append_nornir_task(
             task,
             "<show><routing><route></route></routing></show>",
-            template="show routing all",
+            template="show routing",
             **params,
         )
 
