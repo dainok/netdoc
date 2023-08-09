@@ -1,4 +1,4 @@
-"""Ingestor for xml_panw_ngfw_show_system_info."""
+"""Ingestor for xml_panw_ngfw_show_interface."""
 __author__ = "Andrea Dainese"
 __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2023, Andrea Dainese"
@@ -13,12 +13,18 @@ def ingest(log):
     device_o = log.discoverable.device if log.discoverable.device else None
     vm_o = log.discoverable.vm if log.discoverable.vm else None
 
-    hardware_items = (
-        log.parsed_output.get("response").get("result").get("hw").get("entry")
-    )
-    network_items = (
-        log.parsed_output.get("response").get("result").get("ifnet").get("entry")
-    )
+    try:
+        hardware_items = (
+            log.parsed_output.get("response").get("result").get("hw").get("entry")
+        )
+    except AttributeError:
+        hardware_items = []
+    try:
+        network_items = (
+            log.parsed_output.get("response").get("result").get("ifnet").get("entry")
+        )
+    except AttributeError:
+        network_items = []
     for item in hardware_items + network_items:
         physical = item.get("fwd") is None
         interface_name = item.get("name")
