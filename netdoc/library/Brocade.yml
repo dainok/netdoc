@@ -1,1646 +1,1646 @@
 keywords:
-- G610
-- G610
-- ICX 6610-24
-- ICX6610-24
-- G630
-- G630
-- ICX 6610-48
-- ICX6610-48
-- ICX 7150-C12P
-- ICX7150-C12P
-- G620
-- G620
-- FastIron WS 648G
-- FWS648G
-- ICX 6610-48P
-- ICX6610-48P
-- ICX 6450-48
-- ICX6450-48
-- FastIron WS 624G
-- FWS624G
-- ICX 7250-24
-- ICX7250-24
-- ICX 7450-48
-- ICX7450-48
-- ICX 7250-48
-- ICX7250-48
-- ICX 6650-64
-- ICX6650-64
+  - G610
+  - G610
+  - ICX 6610-24
+  - ICX6610-24
+  - G630
+  - G630
+  - ICX 6610-48
+  - ICX6610-48
+  - ICX 7150-C12P
+  - ICX7150-C12P
+  - G620
+  - G620
+  - FastIron WS 648G
+  - FWS648G
+  - ICX 6610-48P
+  - ICX6610-48P
+  - ICX 6450-48
+  - ICX6450-48
+  - FastIron WS 624G
+  - FWS624G
+  - ICX 7250-24
+  - ICX7250-24
+  - ICX 7450-48
+  - ICX7450-48
+  - ICX 7250-48
+  - ICX7250-48
+  - ICX 6650-64
+  - ICX6650-64
 models:
-- comments: '[Brocade G610](https://docs.broadcom.com/docs/GA-DS-6231)'
-  console-ports:
-  - name: con0
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - name: FC port 0/0
-    type: 32gfc-sfp28
-  - name: FC port 0/1
-    type: 32gfc-sfp28
-  - name: FC port 0/2
-    type: 32gfc-sfp28
-  - name: FC port 0/3
-    type: 32gfc-sfp28
-  - name: FC port 0/4
-    type: 32gfc-sfp28
-  - name: FC port 0/5
-    type: 32gfc-sfp28
-  - name: FC port 0/6
-    type: 32gfc-sfp28
-  - name: FC port 0/7
-    type: 32gfc-sfp28
-  - name: FC port 0/8
-    type: 32gfc-sfp28
-  - name: FC port 0/9
-    type: 32gfc-sfp28
-  - name: FC port 0/10
-    type: 32gfc-sfp28
-  - name: FC port 0/11
-    type: 32gfc-sfp28
-  - name: FC port 0/12
-    type: 32gfc-sfp28
-  - name: FC port 0/13
-    type: 32gfc-sfp28
-  - name: FC port 0/14
-    type: 32gfc-sfp28
-  - name: FC port 0/15
-    type: 32gfc-sfp28
-  - name: FC port 0/16
-    type: 32gfc-sfp28
-  - name: FC port 0/17
-    type: 32gfc-sfp28
-  - name: FC port 0/18
-    type: 32gfc-sfp28
-  - name: FC port 0/19
-    type: 32gfc-sfp28
-  - name: FC port 0/20
-    type: 32gfc-sfp28
-  - name: FC port 0/21
-    type: 32gfc-sfp28
-  - name: FC port 0/22
-    type: 32gfc-sfp28
-  - name: FC port 0/23
-    type: 32gfc-sfp28
-  is_full_depth: false
-  manufacturer: Brocade
-  model: G610
-  part_number: G610
-  power-ports:
-  - maximum_draw: 77
-    name: PSU0
-    type: iec-60320-c14
-  slug: brocade-g610
-  u_height: 1
-- console-ports:
-  - name: con0
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: GigEthernetmgmt1
-    type: 1000base-t
-  - name: ethernet 1/1/1
-    type: 1000base-t
-  - name: ethernet 1/1/2
-    type: 1000base-t
-  - name: ethernet 1/1/3
-    type: 1000base-t
-  - name: ethernet 1/1/4
-    type: 1000base-t
-  - name: ethernet 1/1/5
-    type: 1000base-t
-  - name: ethernet 1/1/6
-    type: 1000base-t
-  - name: ethernet 1/1/7
-    type: 1000base-t
-  - name: ethernet 1/1/8
-    type: 1000base-t
-  - name: ethernet 1/1/9
-    type: 1000base-t
-  - name: ethernet 1/1/10
-    type: 1000base-t
-  - name: ethernet 1/1/11
-    type: 1000base-t
-  - name: ethernet 1/1/12
-    type: 1000base-t
-  - name: ethernet 1/1/13
-    type: 1000base-t
-  - name: ethernet 1/1/14
-    type: 1000base-t
-  - name: ethernet 1/1/15
-    type: 1000base-t
-  - name: ethernet 1/1/16
-    type: 1000base-t
-  - name: ethernet 1/1/17
-    type: 1000base-t
-  - name: ethernet 1/1/18
-    type: 1000base-t
-  - name: ethernet 1/1/19
-    type: 1000base-t
-  - name: ethernet 1/1/20
-    type: 1000base-t
-  - name: ethernet 1/1/21
-    type: 1000base-t
-  - name: ethernet 1/1/22
-    type: 1000base-t
-  - name: ethernet 1/1/23
-    type: 1000base-t
-  - name: ethernet 1/1/24
-    type: 1000base-t
-  - name: ethernet 1/2/1
-    type: 40gbase-x-qsfpp
-  - name: ethernet 1/2/6
-    type: 40gbase-x-qsfpp
-  - name: ethernet 1/3/1
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/2
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/3
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/4
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/5
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/6
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/7
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/8
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Brocade
-  model: ICX 6610-24
-  part_number: ICX6610-24
-  power-ports:
-  - maximum_draw: 120
-    name: PSU1
-    type: iec-60320-c14
-  - maximum_draw: 120
-    name: PSU2
-    type: iec-60320-c14
-  slug: brocade-icx6610-24
-  u_height: 1
-- comments: '[Brocade G630](https://docs.broadcom.com/docs/GA-DS-7000)'
-  console-ports:
-  - name: con0
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - name: FC port 0/0
-    type: 32gfc-sfp28
-  - name: FC port 0/1
-    type: 32gfc-sfp28
-  - name: FC port 0/2
-    type: 32gfc-sfp28
-  - name: FC port 0/3
-    type: 32gfc-sfp28
-  - name: FC port 0/4
-    type: 32gfc-sfp28
-  - name: FC port 0/5
-    type: 32gfc-sfp28
-  - name: FC port 0/6
-    type: 32gfc-sfp28
-  - name: FC port 0/7
-    type: 32gfc-sfp28
-  - name: FC port 0/8
-    type: 32gfc-sfp28
-  - name: FC port 0/9
-    type: 32gfc-sfp28
-  - name: FC port 0/10
-    type: 32gfc-sfp28
-  - name: FC port 0/11
-    type: 32gfc-sfp28
-  - name: FC port 0/12
-    type: 32gfc-sfp28
-  - name: FC port 0/13
-    type: 32gfc-sfp28
-  - name: FC port 0/14
-    type: 32gfc-sfp28
-  - name: FC port 0/15
-    type: 32gfc-sfp28
-  - name: FC port 0/16
-    type: 32gfc-sfp28
-  - name: FC port 0/17
-    type: 32gfc-sfp28
-  - name: FC port 0/18
-    type: 32gfc-sfp28
-  - name: FC port 0/19
-    type: 32gfc-sfp28
-  - name: FC port 0/20
-    type: 32gfc-sfp28
-  - name: FC port 0/21
-    type: 32gfc-sfp28
-  - name: FC port 0/22
-    type: 32gfc-sfp28
-  - name: FC port 0/23
-    type: 32gfc-sfp28
-  - name: FC port 0/24
-    type: 32gfc-sfp28
-  - name: FC port 0/25
-    type: 32gfc-sfp28
-  - name: FC port 0/26
-    type: 32gfc-sfp28
-  - name: FC port 0/29
-    type: 32gfc-sfp28
-  - name: FC port 0/30
-    type: 32gfc-sfp28
-  - name: FC port 0/31
-    type: 32gfc-sfp28
-  - name: FC port 0/32
-    type: 32gfc-sfp28
-  - name: FC port 0/33
-    type: 32gfc-sfp28
-  - name: FC port 0/34
-    type: 32gfc-sfp28
-  - name: FC port 0/35
-    type: 32gfc-sfp28
-  - name: FC port 0/36
-    type: 32gfc-sfp28
-  - name: FC port 0/37
-    type: 32gfc-sfp28
-  - name: FC port 0/38
-    type: 32gfc-sfp28
-  - name: FC port 0/39
-    type: 32gfc-sfp28
-  - name: FC port 0/40
-    type: 32gfc-sfp28
-  - name: FC port 0/41
-    type: 32gfc-sfp28
-  - name: FC port 0/42
-    type: 32gfc-sfp28
-  - name: FC port 0/43
-    type: 32gfc-sfp28
-  - name: FC port 0/44
-    type: 32gfc-sfp28
-  - name: FC port 0/45
-    type: 32gfc-sfp28
-  - name: FC port 0/46
-    type: 32gfc-sfp28
-  - name: FC port 0/47
-    type: 32gfc-sfp28
-  - name: FC port 0/48
-    type: 128gfc-qsfp28
-  - name: FC port 0/49
-    type: 128gfc-qsfp28
-  - name: FC port 0/50
-    type: 128gfc-qsfp28
-  - name: FC port 0/51
-    type: 128gfc-qsfp28
-  - name: FC port 0/52
-    type: 32gfc-sfp28
-  - name: FC port 0/53
-    type: 32gfc-sfp28
-  - name: FC port 0/54
-    type: 32gfc-sfp28
-  - name: FC port 0/55
-    type: 32gfc-sfp28
-  - name: FC port 0/56
-    type: 32gfc-sfp28
-  - name: FC port 0/57
-    type: 32gfc-sfp28
-  - name: FC port 0/58
-    type: 32gfc-sfp28
-  - name: FC port 0/59
-    type: 32gfc-sfp28
-  - name: FC port 0/60
-    type: 32gfc-sfp28
-  - name: FC port 0/61
-    type: 32gfc-sfp28
-  - name: FC port 0/62
-    type: 32gfc-sfp28
-  - name: FC port 0/63
-    type: 32gfc-sfp28
-  - name: FC port 0/64
-    type: 32gfc-sfp28
-  - name: FC port 0/65
-    type: 32gfc-sfp28
-  - name: FC port 0/66
-    type: 32gfc-sfp28
-  - name: FC port 0/67
-    type: 32gfc-sfp28
-  - name: FC port 0/68
-    type: 32gfc-sfp28
-  - name: FC port 0/69
-    type: 32gfc-sfp28
-  - name: FC port 0/70
-    type: 32gfc-sfp28
-  - name: FC port 0/71
-    type: 32gfc-sfp28
-  - name: FC port 0/72
-    type: 32gfc-sfp28
-  - name: FC port 0/73
-    type: 32gfc-sfp28
-  - name: FC port 0/74
-    type: 32gfc-sfp28
-  - name: FC port 0/75
-    type: 32gfc-sfp28
-  - name: FC port 0/76
-    type: 32gfc-sfp28
-  - name: FC port 0/77
-    type: 32gfc-sfp28
-  - name: FC port 0/78
-    type: 32gfc-sfp28
-  - name: FC port 0/79
-    type: 32gfc-sfp28
-  - name: FC port 0/80
-    type: 32gfc-sfp28
-  - name: FC port 0/81
-    type: 32gfc-sfp28
-  - name: FC port 0/82
-    type: 32gfc-sfp28
-  - name: FC port 0/83
-    type: 32gfc-sfp28
-  - name: FC port 0/84
-    type: 32gfc-sfp28
-  - name: FC port 0/85
-    type: 32gfc-sfp28
-  - name: FC port 0/86
-    type: 32gfc-sfp28
-  - name: FC port 0/87
-    type: 32gfc-sfp28
-  - name: FC port 0/88
-    type: 32gfc-sfp28
-  - name: FC port 0/89
-    type: 32gfc-sfp28
-  - name: FC port 0/90
-    type: 32gfc-sfp28
-  - name: FC port 0/91
-    type: 32gfc-sfp28
-  - name: FC port 0/92
-    type: 32gfc-sfp28
-  - name: FC port 0/93
-    type: 32gfc-sfp28
-  - name: FC port 0/94
-    type: 32gfc-sfp28
-  - name: FC port 0/95
-    type: 32gfc-sfp28
-  - name: FC port 0/96
-    type: 32gfc-sfp28
-  - name: FC port 0/97
-    type: 32gfc-sfp28
-  - name: FC port 0/98
-    type: 128gfc-qsfp28
-  - name: FC port 0/99
-    type: 128gfc-qsfp28
-  - name: FC port 0/100
-    type: 128gfc-qsfp28
-  - name: FC port 0/101
-    type: 128gfc-qsfp28
-  is_full_depth: true
-  manufacturer: Brocade
-  model: G630
-  part_number: G630
-  power-ports:
-  - maximum_draw: 942
-    name: PSU0
-    type: iec-60320-c14
-  - maximum_draw: 942
-    name: PSU1
-    type: iec-60320-c14
-  slug: brocade-g630
-  u_height: 2
-- console-ports:
-  - name: con0
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: GigEthernetmgmt1
-    type: 1000base-t
-  - name: ethernet 1/1/1
-    type: 1000base-t
-  - name: ethernet 1/1/2
-    type: 1000base-t
-  - name: ethernet 1/1/3
-    type: 1000base-t
-  - name: ethernet 1/1/4
-    type: 1000base-t
-  - name: ethernet 1/1/5
-    type: 1000base-t
-  - name: ethernet 1/1/6
-    type: 1000base-t
-  - name: ethernet 1/1/7
-    type: 1000base-t
-  - name: ethernet 1/1/8
-    type: 1000base-t
-  - name: ethernet 1/1/9
-    type: 1000base-t
-  - name: ethernet 1/1/10
-    type: 1000base-t
-  - name: ethernet 1/1/11
-    type: 1000base-t
-  - name: ethernet 1/1/12
-    type: 1000base-t
-  - name: ethernet 1/1/13
-    type: 1000base-t
-  - name: ethernet 1/1/14
-    type: 1000base-t
-  - name: ethernet 1/1/15
-    type: 1000base-t
-  - name: ethernet 1/1/16
-    type: 1000base-t
-  - name: ethernet 1/1/17
-    type: 1000base-t
-  - name: ethernet 1/1/18
-    type: 1000base-t
-  - name: ethernet 1/1/19
-    type: 1000base-t
-  - name: ethernet 1/1/20
-    type: 1000base-t
-  - name: ethernet 1/1/21
-    type: 1000base-t
-  - name: ethernet 1/1/22
-    type: 1000base-t
-  - name: ethernet 1/1/23
-    type: 1000base-t
-  - name: ethernet 1/1/24
-    type: 1000base-t
-  - name: ethernet 1/1/25
-    type: 1000base-t
-  - name: ethernet 1/1/26
-    type: 1000base-t
-  - name: ethernet 1/1/27
-    type: 1000base-t
-  - name: ethernet 1/1/28
-    type: 1000base-t
-  - name: ethernet 1/1/29
-    type: 1000base-t
-  - name: ethernet 1/1/30
-    type: 1000base-t
-  - name: ethernet 1/1/31
-    type: 1000base-t
-  - name: ethernet 1/1/32
-    type: 1000base-t
-  - name: ethernet 1/1/33
-    type: 1000base-t
-  - name: ethernet 1/1/34
-    type: 1000base-t
-  - name: ethernet 1/1/35
-    type: 1000base-t
-  - name: ethernet 1/1/36
-    type: 1000base-t
-  - name: ethernet 1/1/37
-    type: 1000base-t
-  - name: ethernet 1/1/38
-    type: 1000base-t
-  - name: ethernet 1/1/39
-    type: 1000base-t
-  - name: ethernet 1/1/40
-    type: 1000base-t
-  - name: ethernet 1/1/41
-    type: 1000base-t
-  - name: ethernet 1/1/42
-    type: 1000base-t
-  - name: ethernet 1/1/43
-    type: 1000base-t
-  - name: ethernet 1/1/44
-    type: 1000base-t
-  - name: ethernet 1/1/45
-    type: 1000base-t
-  - name: ethernet 1/1/46
-    type: 1000base-t
-  - name: ethernet 1/1/47
-    type: 1000base-t
-  - name: ethernet 1/1/48
-    type: 1000base-t
-  - name: ethernet 1/2/1
-    type: 40gbase-x-qsfpp
-  - name: ethernet 1/2/6
-    type: 40gbase-x-qsfpp
-  - name: ethernet 1/3/1
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/2
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/3
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/4
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/5
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/6
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/7
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/8
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Brocade
-  model: ICX 6610-48
-  part_number: ICX6610-48
-  power-ports:
-  - maximum_draw: 120
-    name: PSU1
-    type: iec-60320-c14
-  - maximum_draw: 120
-    name: PSU2
-    type: iec-60320-c14
-  slug: brocade-icx6610-48
-  u_height: 1
-- console-ports:
-  - name: con0
-    type: usb-mini-b
-  interfaces:
-  - mgmt_only: true
-    name: oob-mgmt1
-    type: 1000base-t
-  - name: ge-1/1/1
-    type: 1000base-t
-  - name: ge-1/1/2
-    type: 1000base-t
-  - name: ge-1/1/3
-    type: 1000base-t
-  - name: ge-1/1/4
-    type: 1000base-t
-  - name: ge-1/1/5
-    type: 1000base-t
-  - name: ge-1/1/6
-    type: 1000base-t
-  - name: ge-1/1/7
-    type: 1000base-t
-  - name: ge-1/1/8
-    type: 1000base-t
-  - name: ge-1/1/9
-    type: 1000base-t
-  - name: ge-1/1/10
-    type: 1000base-t
-  - name: ge-1/1/11
-    type: 1000base-t
-  - name: ge-1/1/12
-    type: 1000base-t
-  - name: ge-1/2/1
-    type: 1000base-t
-  - name: ge-1/2/2
-    type: 1000base-t
-  - name: xg-1/3/1
-    type: 10gbase-x-sfpp
-  - name: xg-1/3/2
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Brocade
-  model: ICX 7150-C12P
-  part_number: ICX7150-C12P
-  power-ports:
-  - maximum_draw: 150
-    name: psu0
-    type: iec-60320-c14
-  slug: brocade-icx7150-c12p
-  u_height: 1
-- comments: '[Brocade G620](https://docs.broadcom.com/docs/GA-DS-2052)'
-  console-ports:
-  - name: con0
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - name: FC port 0/0
-    type: 32gfc-sfp28
-  - name: FC port 0/1
-    type: 32gfc-sfp28
-  - name: FC port 0/2
-    type: 32gfc-sfp28
-  - name: FC port 0/3
-    type: 32gfc-sfp28
-  - name: FC port 0/4
-    type: 32gfc-sfp28
-  - name: FC port 0/5
-    type: 32gfc-sfp28
-  - name: FC port 0/6
-    type: 32gfc-sfp28
-  - name: FC port 0/7
-    type: 32gfc-sfp28
-  - name: FC port 0/8
-    type: 32gfc-sfp28
-  - name: FC port 0/9
-    type: 32gfc-sfp28
-  - name: FC port 0/10
-    type: 32gfc-sfp28
-  - name: FC port 0/11
-    type: 32gfc-sfp28
-  - name: FC port 0/12
-    type: 32gfc-sfp28
-  - name: FC port 0/13
-    type: 32gfc-sfp28
-  - name: FC port 0/14
-    type: 32gfc-sfp28
-  - name: FC port 0/15
-    type: 32gfc-sfp28
-  - name: FC port 0/16
-    type: 32gfc-sfp28
-  - name: FC port 0/17
-    type: 32gfc-sfp28
-  - name: FC port 0/18
-    type: 32gfc-sfp28
-  - name: FC port 0/19
-    type: 32gfc-sfp28
-  - name: FC port 0/20
-    type: 32gfc-sfp28
-  - name: FC port 0/21
-    type: 32gfc-sfp28
-  - name: FC port 0/22
-    type: 32gfc-sfp28
-  - name: FC port 0/23
-    type: 32gfc-sfp28
-  - name: FC port 0/24
-    type: 32gfc-sfp28
-  - name: FC port 0/25
-    type: 32gfc-sfp28
-  - name: FC port 0/26
-    type: 32gfc-sfp28
-  - name: FC port 0/29
-    type: 32gfc-sfp28
-  - name: FC port 0/30
-    type: 32gfc-sfp28
-  - name: FC port 0/31
-    type: 32gfc-sfp28
-  - name: FC port 0/32
-    type: 32gfc-sfp28
-  - name: FC port 0/33
-    type: 32gfc-sfp28
-  - name: FC port 0/34
-    type: 32gfc-sfp28
-  - name: FC port 0/35
-    type: 32gfc-sfp28
-  - name: FC port 0/36
-    type: 32gfc-sfp28
-  - name: FC port 0/37
-    type: 32gfc-sfp28
-  - name: FC port 0/38
-    type: 32gfc-sfp28
-  - name: FC port 0/39
-    type: 32gfc-sfp28
-  - name: FC port 0/40
-    type: 32gfc-sfp28
-  - name: FC port 0/41
-    type: 32gfc-sfp28
-  - name: FC port 0/42
-    type: 32gfc-sfp28
-  - name: FC port 0/43
-    type: 32gfc-sfp28
-  - name: FC port 0/44
-    type: 32gfc-sfp28
-  - name: FC port 0/45
-    type: 32gfc-sfp28
-  - name: FC port 0/46
-    type: 32gfc-sfp28
-  - name: FC port 0/47
-    type: 32gfc-sfp28
-  - name: FC port 0/48
-    type: 128gfc-qsfp28
-  - name: FC port 0/49
-    type: 128gfc-qsfp28
-  - name: FC port 0/50
-    type: 128gfc-qsfp28
-  - name: FC port 0/51
-    type: 128gfc-qsfp28
-  is_full_depth: true
-  manufacturer: Brocade
-  model: G620
-  part_number: G620
-  power-ports:
-  - maximum_draw: 205
-    name: PSU0
-    type: iec-60320-c14
-  - maximum_draw: 205
-    name: PSU1
-    type: iec-60320-c14
-  slug: brocade-g620
-  u_height: 1
-- console-ports:
-  - name: console
-    type: de-9
-  interfaces:
-  - name: ethernet 0/1/1
-    type: 1000base-t
-  - name: ethernet 0/1/2
-    type: 1000base-t
-  - name: ethernet 0/1/3
-    type: 1000base-t
-  - name: ethernet 0/1/4
-    type: 1000base-t
-  - name: ethernet 0/1/5
-    type: 1000base-t
-  - name: ethernet 0/1/6
-    type: 1000base-t
-  - name: ethernet 0/1/7
-    type: 1000base-t
-  - name: ethernet 0/1/8
-    type: 1000base-t
-  - name: ethernet 0/1/9
-    type: 1000base-t
-  - name: ethernet 0/1/10
-    type: 1000base-t
-  - name: ethernet 0/1/11
-    type: 1000base-t
-  - name: ethernet 0/1/12
-    type: 1000base-t
-  - name: ethernet 0/1/13
-    type: 1000base-t
-  - name: ethernet 0/1/14
-    type: 1000base-t
-  - name: ethernet 0/1/15
-    type: 1000base-t
-  - name: ethernet 0/1/16
-    type: 1000base-t
-  - name: ethernet 0/1/17
-    type: 1000base-t
-  - name: ethernet 0/1/18
-    type: 1000base-t
-  - name: ethernet 0/1/19
-    type: 1000base-t
-  - name: ethernet 0/1/20
-    type: 1000base-t
-  - name: ethernet 0/1/21
-    type: 1000base-t
-  - name: ethernet 0/1/22
-    type: 1000base-t
-  - name: ethernet 0/1/23
-    type: 1000base-t
-  - name: ethernet 0/1/24
-    type: 1000base-t
-  - name: ethernet 0/1/25
-    type: 1000base-t
-  - name: ethernet 0/1/26
-    type: 1000base-t
-  - name: ethernet 0/1/27
-    type: 1000base-t
-  - name: ethernet 0/1/28
-    type: 1000base-t
-  - name: ethernet 0/1/29
-    type: 1000base-t
-  - name: ethernet 0/1/30
-    type: 1000base-t
-  - name: ethernet 0/1/31
-    type: 1000base-t
-  - name: ethernet 0/1/32
-    type: 1000base-t
-  - name: ethernet 0/1/33
-    type: 1000base-t
-  - name: ethernet 0/1/34
-    type: 1000base-t
-  - name: ethernet 0/1/35
-    type: 1000base-t
-  - name: ethernet 0/1/36
-    type: 1000base-t
-  - name: ethernet 0/1/37
-    type: 1000base-t
-  - name: ethernet 0/1/38
-    type: 1000base-t
-  - name: ethernet 0/1/39
-    type: 1000base-t
-  - name: ethernet 0/1/40
-    type: 1000base-t
-  - name: ethernet 0/1/41
-    type: 1000base-t
-  - name: ethernet 0/1/42
-    type: 1000base-t
-  - name: ethernet 0/1/43
-    type: 1000base-t
-  - name: ethernet 0/1/44
-    type: 1000base-t
-  - name: ethernet 0/1/45
-    type: 1000base-t
-  - name: ethernet 0/1/46
-    type: 1000base-t
-  - name: ethernet 0/1/47
-    type: 1000base-t
-  - name: ethernet 0/1/48
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Brocade
-  model: FastIron WS 648G
-  part_number: FWS648G
-  power-ports:
-  - maximum_draw: 83
-    name: PSU1
-    type: iec-60320-c14
-  slug: brocade-fws648g
-  u_height: 1
-- comments: POE+ capable
-  console-ports:
-  - name: con0
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: GigEthernetmgmt1
-    type: 1000base-t
-  - name: ethernet 1/1/1
-    type: 1000base-t
-  - name: ethernet 1/1/2
-    type: 1000base-t
-  - name: ethernet 1/1/3
-    type: 1000base-t
-  - name: ethernet 1/1/4
-    type: 1000base-t
-  - name: ethernet 1/1/5
-    type: 1000base-t
-  - name: ethernet 1/1/6
-    type: 1000base-t
-  - name: ethernet 1/1/7
-    type: 1000base-t
-  - name: ethernet 1/1/8
-    type: 1000base-t
-  - name: ethernet 1/1/9
-    type: 1000base-t
-  - name: ethernet 1/1/10
-    type: 1000base-t
-  - name: ethernet 1/1/11
-    type: 1000base-t
-  - name: ethernet 1/1/12
-    type: 1000base-t
-  - name: ethernet 1/1/13
-    type: 1000base-t
-  - name: ethernet 1/1/14
-    type: 1000base-t
-  - name: ethernet 1/1/15
-    type: 1000base-t
-  - name: ethernet 1/1/16
-    type: 1000base-t
-  - name: ethernet 1/1/17
-    type: 1000base-t
-  - name: ethernet 1/1/18
-    type: 1000base-t
-  - name: ethernet 1/1/19
-    type: 1000base-t
-  - name: ethernet 1/1/20
-    type: 1000base-t
-  - name: ethernet 1/1/21
-    type: 1000base-t
-  - name: ethernet 1/1/22
-    type: 1000base-t
-  - name: ethernet 1/1/23
-    type: 1000base-t
-  - name: ethernet 1/1/24
-    type: 1000base-t
-  - name: ethernet 1/1/25
-    type: 1000base-t
-  - name: ethernet 1/1/26
-    type: 1000base-t
-  - name: ethernet 1/1/27
-    type: 1000base-t
-  - name: ethernet 1/1/28
-    type: 1000base-t
-  - name: ethernet 1/1/29
-    type: 1000base-t
-  - name: ethernet 1/1/30
-    type: 1000base-t
-  - name: ethernet 1/1/31
-    type: 1000base-t
-  - name: ethernet 1/1/32
-    type: 1000base-t
-  - name: ethernet 1/1/33
-    type: 1000base-t
-  - name: ethernet 1/1/34
-    type: 1000base-t
-  - name: ethernet 1/1/35
-    type: 1000base-t
-  - name: ethernet 1/1/36
-    type: 1000base-t
-  - name: ethernet 1/1/37
-    type: 1000base-t
-  - name: ethernet 1/1/38
-    type: 1000base-t
-  - name: ethernet 1/1/39
-    type: 1000base-t
-  - name: ethernet 1/1/40
-    type: 1000base-t
-  - name: ethernet 1/1/41
-    type: 1000base-t
-  - name: ethernet 1/1/42
-    type: 1000base-t
-  - name: ethernet 1/1/43
-    type: 1000base-t
-  - name: ethernet 1/1/44
-    type: 1000base-t
-  - name: ethernet 1/1/45
-    type: 1000base-t
-  - name: ethernet 1/1/46
-    type: 1000base-t
-  - name: ethernet 1/1/47
-    type: 1000base-t
-  - name: ethernet 1/1/48
-    type: 1000base-t
-  - name: ethernet 1/2/1
-    type: 40gbase-x-qsfpp
-  - name: ethernet 1/2/6
-    type: 40gbase-x-qsfpp
-  - name: ethernet 1/3/1
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/2
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/3
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/4
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/5
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/6
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/7
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/8
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Brocade
-  model: ICX 6610-48P
-  part_number: ICX6610-48P
-  power-ports:
-  - maximum_draw: 1000
-    name: PSU1
-    type: iec-60320-c14
-  - maximum_draw: 1000
-    name: PSU2
-    type: iec-60320-c14
-  slug: brocade-icx6610-48p
-  u_height: 1
-- console-ports:
-  - name: con0
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: GigEthernetmgmt1
-    type: 1000base-t
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: GigabitEthernet1/5
-    type: 1000base-t
-  - name: GigabitEthernet1/6
-    type: 1000base-t
-  - name: GigabitEthernet1/7
-    type: 1000base-t
-  - name: GigabitEthernet1/8
-    type: 1000base-t
-  - name: GigabitEthernet1/9
-    type: 1000base-t
-  - name: GigabitEthernet1/10
-    type: 1000base-t
-  - name: GigabitEthernet1/11
-    type: 1000base-t
-  - name: GigabitEthernet1/12
-    type: 1000base-t
-  - name: GigabitEthernet1/13
-    type: 1000base-t
-  - name: GigabitEthernet1/14
-    type: 1000base-t
-  - name: GigabitEthernet1/15
-    type: 1000base-t
-  - name: GigabitEthernet1/16
-    type: 1000base-t
-  - name: GigabitEthernet1/17
-    type: 1000base-t
-  - name: GigabitEthernet1/18
-    type: 1000base-t
-  - name: GigabitEthernet1/19
-    type: 1000base-t
-  - name: GigabitEthernet1/20
-    type: 1000base-t
-  - name: GigabitEthernet1/21
-    type: 1000base-t
-  - name: GigabitEthernet1/22
-    type: 1000base-t
-  - name: GigabitEthernet1/23
-    type: 1000base-t
-  - name: GigabitEthernet1/24
-    type: 1000base-t
-  - name: GigabitEthernet1/25
-    type: 1000base-t
-  - name: GigabitEthernet1/26
-    type: 1000base-t
-  - name: GigabitEthernet1/27
-    type: 1000base-t
-  - name: GigabitEthernet1/28
-    type: 1000base-t
-  - name: GigabitEthernet1/29
-    type: 1000base-t
-  - name: GigabitEthernet1/30
-    type: 1000base-t
-  - name: GigabitEthernet1/31
-    type: 1000base-t
-  - name: GigabitEthernet1/32
-    type: 1000base-t
-  - name: GigabitEthernet1/33
-    type: 1000base-t
-  - name: GigabitEthernet1/34
-    type: 1000base-t
-  - name: GigabitEthernet1/35
-    type: 1000base-t
-  - name: GigabitEthernet1/36
-    type: 1000base-t
-  - name: GigabitEthernet1/37
-    type: 1000base-t
-  - name: GigabitEthernet1/38
-    type: 1000base-t
-  - name: GigabitEthernet1/39
-    type: 1000base-t
-  - name: GigabitEthernet1/40
-    type: 1000base-t
-  - name: GigabitEthernet1/41
-    type: 1000base-t
-  - name: GigabitEthernet1/42
-    type: 1000base-t
-  - name: GigabitEthernet1/43
-    type: 1000base-t
-  - name: GigabitEthernet1/44
-    type: 1000base-t
-  - name: GigabitEthernet1/45
-    type: 1000base-t
-  - name: GigabitEthernet1/46
-    type: 1000base-t
-  - name: GigabitEthernet1/47
-    type: 1000base-t
-  - name: GigabitEthernet1/48
-    type: 1000base-t
-  - name: 10GigabitEthernet2/1
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/2
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/3
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/4
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Brocade
-  model: ICX 6450-48
-  part_number: ICX6450-48
-  power-ports:
-  - maximum_draw: 55
-    name: PSU0
-    type: iec-60320-c14
-  slug: brocade-icx6450-48
-  u_height: 1
-- console-ports:
-  - name: console
-    type: de-9
-  interfaces:
-  - name: ethernet 0/1/1
-    type: 1000base-t
-  - name: ethernet 0/1/2
-    type: 1000base-t
-  - name: ethernet 0/1/3
-    type: 1000base-t
-  - name: ethernet 0/1/4
-    type: 1000base-t
-  - name: ethernet 0/1/5
-    type: 1000base-t
-  - name: ethernet 0/1/6
-    type: 1000base-t
-  - name: ethernet 0/1/7
-    type: 1000base-t
-  - name: ethernet 0/1/8
-    type: 1000base-t
-  - name: ethernet 0/1/9
-    type: 1000base-t
-  - name: ethernet 0/1/10
-    type: 1000base-t
-  - name: ethernet 0/1/11
-    type: 1000base-t
-  - name: ethernet 0/1/12
-    type: 1000base-t
-  - name: ethernet 0/1/13
-    type: 1000base-t
-  - name: ethernet 0/1/14
-    type: 1000base-t
-  - name: ethernet 0/1/15
-    type: 1000base-t
-  - name: ethernet 0/1/16
-    type: 1000base-t
-  - name: ethernet 0/1/17
-    type: 1000base-t
-  - name: ethernet 0/1/18
-    type: 1000base-t
-  - name: ethernet 0/1/19
-    type: 1000base-t
-  - name: ethernet 0/1/20
-    type: 1000base-t
-  - name: ethernet 0/1/21
-    type: 1000base-t
-  - name: ethernet 0/1/22
-    type: 1000base-t
-  - name: ethernet 0/1/23
-    type: 1000base-t
-  - name: ethernet 0/1/24
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Brocade
-  model: FastIron WS 624G
-  part_number: FWS624G
-  power-ports:
-  - maximum_draw: 42
-    name: PSU1
-    type: iec-60320-c14
-  slug: brocade-fws624g
-  u_height: 1
-- console-ports:
-  - name: con0
-    type: usb-mini-b
-  interfaces:
-  - mgmt_only: true
-    name: GigEthernetmgmt1
-    type: 1000base-t
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: GigabitEthernet1/5
-    type: 1000base-t
-  - name: GigabitEthernet1/6
-    type: 1000base-t
-  - name: GigabitEthernet1/7
-    type: 1000base-t
-  - name: GigabitEthernet1/8
-    type: 1000base-t
-  - name: GigabitEthernet1/9
-    type: 1000base-t
-  - name: GigabitEthernet1/10
-    type: 1000base-t
-  - name: GigabitEthernet1/11
-    type: 1000base-t
-  - name: GigabitEthernet1/12
-    type: 1000base-t
-  - name: GigabitEthernet1/13
-    type: 1000base-t
-  - name: GigabitEthernet1/14
-    type: 1000base-t
-  - name: GigabitEthernet1/15
-    type: 1000base-t
-  - name: GigabitEthernet1/16
-    type: 1000base-t
-  - name: GigabitEthernet1/17
-    type: 1000base-t
-  - name: GigabitEthernet1/18
-    type: 1000base-t
-  - name: GigabitEthernet1/19
-    type: 1000base-t
-  - name: GigabitEthernet1/20
-    type: 1000base-t
-  - name: GigabitEthernet1/21
-    type: 1000base-t
-  - name: GigabitEthernet1/22
-    type: 1000base-t
-  - name: GigabitEthernet1/23
-    type: 1000base-t
-  - name: GigabitEthernet1/24
-    type: 1000base-t
-  - name: 10GigabitEthernet2/1
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/2
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/3
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/4
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/5
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/6
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/7
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/8
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Brocade
-  model: ICX 7250-24
-  part_number: ICX7250-24
-  power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-  slug: brocade-icx7250-24
-  u_height: 1
-- console-ports:
-  - name: con0
-    type: usb-mini-b
-  interfaces:
-  - mgmt_only: true
-    name: GigEthernetmgmt1
-    type: 1000base-t
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: GigabitEthernet1/5
-    type: 1000base-t
-  - name: GigabitEthernet1/6
-    type: 1000base-t
-  - name: GigabitEthernet1/7
-    type: 1000base-t
-  - name: GigabitEthernet1/8
-    type: 1000base-t
-  - name: GigabitEthernet1/9
-    type: 1000base-t
-  - name: GigabitEthernet1/10
-    type: 1000base-t
-  - name: GigabitEthernet1/11
-    type: 1000base-t
-  - name: GigabitEthernet1/12
-    type: 1000base-t
-  - name: GigabitEthernet1/13
-    type: 1000base-t
-  - name: GigabitEthernet1/14
-    type: 1000base-t
-  - name: GigabitEthernet1/15
-    type: 1000base-t
-  - name: GigabitEthernet1/16
-    type: 1000base-t
-  - name: GigabitEthernet1/17
-    type: 1000base-t
-  - name: GigabitEthernet1/18
-    type: 1000base-t
-  - name: GigabitEthernet1/19
-    type: 1000base-t
-  - name: GigabitEthernet1/20
-    type: 1000base-t
-  - name: GigabitEthernet1/21
-    type: 1000base-t
-  - name: GigabitEthernet1/22
-    type: 1000base-t
-  - name: GigabitEthernet1/23
-    type: 1000base-t
-  - name: GigabitEthernet1/24
-    type: 1000base-t
-  - name: GigabitEthernet1/25
-    type: 1000base-t
-  - name: GigabitEthernet1/26
-    type: 1000base-t
-  - name: GigabitEthernet1/27
-    type: 1000base-t
-  - name: GigabitEthernet1/28
-    type: 1000base-t
-  - name: GigabitEthernet1/29
-    type: 1000base-t
-  - name: GigabitEthernet1/30
-    type: 1000base-t
-  - name: GigabitEthernet1/31
-    type: 1000base-t
-  - name: GigabitEthernet1/32
-    type: 1000base-t
-  - name: GigabitEthernet1/33
-    type: 1000base-t
-  - name: GigabitEthernet1/34
-    type: 1000base-t
-  - name: GigabitEthernet1/35
-    type: 1000base-t
-  - name: GigabitEthernet1/36
-    type: 1000base-t
-  - name: GigabitEthernet1/37
-    type: 1000base-t
-  - name: GigabitEthernet1/38
-    type: 1000base-t
-  - name: GigabitEthernet1/39
-    type: 1000base-t
-  - name: GigabitEthernet1/40
-    type: 1000base-t
-  - name: GigabitEthernet1/41
-    type: 1000base-t
-  - name: GigabitEthernet1/42
-    type: 1000base-t
-  - name: GigabitEthernet1/43
-    type: 1000base-t
-  - name: GigabitEthernet1/44
-    type: 1000base-t
-  - name: GigabitEthernet1/45
-    type: 1000base-t
-  - name: GigabitEthernet1/46
-    type: 1000base-t
-  - name: GigabitEthernet1/47
-    type: 1000base-t
-  - name: GigabitEthernet1/48
-    type: 1000base-t
-  - name: 10GigabitEthernet2/1
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/2
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/3
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/4
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet3/1
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet3/2
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet3/3
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet3/4
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet4/1
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet4/2
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet4/3
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet4/4
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Brocade
-  model: ICX 7450-48
-  part_number: ICX7450-48
-  power-ports:
-  - maximum_draw: 100
-    name: PSU0
-    type: iec-60320-c14
-  - maximum_draw: 100
-    name: PSU1
-    type: iec-60320-c14
-  slug: brocade-icx7450-48
-  u_height: 1
-- console-ports:
-  - name: con0
-    type: usb-mini-b
-  interfaces:
-  - mgmt_only: true
-    name: GigEthernetmgmt1
-    type: 1000base-t
-  - name: GigabitEthernet1/1
-    type: 1000base-t
-  - name: GigabitEthernet1/2
-    type: 1000base-t
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: GigabitEthernet1/5
-    type: 1000base-t
-  - name: GigabitEthernet1/6
-    type: 1000base-t
-  - name: GigabitEthernet1/7
-    type: 1000base-t
-  - name: GigabitEthernet1/8
-    type: 1000base-t
-  - name: GigabitEthernet1/9
-    type: 1000base-t
-  - name: GigabitEthernet1/10
-    type: 1000base-t
-  - name: GigabitEthernet1/11
-    type: 1000base-t
-  - name: GigabitEthernet1/12
-    type: 1000base-t
-  - name: GigabitEthernet1/13
-    type: 1000base-t
-  - name: GigabitEthernet1/14
-    type: 1000base-t
-  - name: GigabitEthernet1/15
-    type: 1000base-t
-  - name: GigabitEthernet1/16
-    type: 1000base-t
-  - name: GigabitEthernet1/17
-    type: 1000base-t
-  - name: GigabitEthernet1/18
-    type: 1000base-t
-  - name: GigabitEthernet1/19
-    type: 1000base-t
-  - name: GigabitEthernet1/20
-    type: 1000base-t
-  - name: GigabitEthernet1/21
-    type: 1000base-t
-  - name: GigabitEthernet1/22
-    type: 1000base-t
-  - name: GigabitEthernet1/23
-    type: 1000base-t
-  - name: GigabitEthernet1/24
-    type: 1000base-t
-  - name: GigabitEthernet1/25
-    type: 1000base-t
-  - name: GigabitEthernet1/26
-    type: 1000base-t
-  - name: GigabitEthernet1/27
-    type: 1000base-t
-  - name: GigabitEthernet1/28
-    type: 1000base-t
-  - name: GigabitEthernet1/29
-    type: 1000base-t
-  - name: GigabitEthernet1/30
-    type: 1000base-t
-  - name: GigabitEthernet1/31
-    type: 1000base-t
-  - name: GigabitEthernet1/32
-    type: 1000base-t
-  - name: GigabitEthernet1/33
-    type: 1000base-t
-  - name: GigabitEthernet1/34
-    type: 1000base-t
-  - name: GigabitEthernet1/35
-    type: 1000base-t
-  - name: GigabitEthernet1/36
-    type: 1000base-t
-  - name: GigabitEthernet1/37
-    type: 1000base-t
-  - name: GigabitEthernet1/38
-    type: 1000base-t
-  - name: GigabitEthernet1/39
-    type: 1000base-t
-  - name: GigabitEthernet1/40
-    type: 1000base-t
-  - name: GigabitEthernet1/41
-    type: 1000base-t
-  - name: GigabitEthernet1/42
-    type: 1000base-t
-  - name: GigabitEthernet1/43
-    type: 1000base-t
-  - name: GigabitEthernet1/44
-    type: 1000base-t
-  - name: GigabitEthernet1/45
-    type: 1000base-t
-  - name: GigabitEthernet1/46
-    type: 1000base-t
-  - name: GigabitEthernet1/47
-    type: 1000base-t
-  - name: GigabitEthernet1/48
-    type: 1000base-t
-  - name: 10GigabitEthernet2/1
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/2
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/3
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/4
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/5
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/6
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/7
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2/8
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Brocade
-  model: ICX 7250-48
-  part_number: ICX7250-48
-  power-ports:
-  - maximum_draw: 70
-    name: PSU0
-    type: iec-60320-c14
-  slug: brocade-icx7250-48
-  u_height: 1
-- console-ports:
-  - name: con0
-    type: usb-mini-b
-  interfaces:
-  - mgmt_only: true
-    name: GigEthernetmgmt1
-    type: 1000base-t
-  - name: ethernet 1/1/1
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/2
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/3
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/4
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/5
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/6
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/7
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/8
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/9
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/10
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/11
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/12
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/13
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/14
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/15
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/16
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/17
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/18
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/19
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/20
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/21
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/22
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/23
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/24
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/25
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/26
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/27
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/28
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/29
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/30
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/31
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/32
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/33
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/34
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/35
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/36
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/37
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/38
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/39
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/40
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/41
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/42
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/43
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/44
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/45
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/46
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/47
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/48
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/49
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/50
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/51
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/52
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/53
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/54
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/55
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/1/56
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/2/1
-    type: 40gbase-x-qsfpp
-  - name: ethernet 1/2/2
-    type: 40gbase-x-qsfpp
-  - name: ethernet 1/2/3
-    type: 40gbase-x-qsfpp
-  - name: ethernet 1/2/4
-    type: 40gbase-x-qsfpp
-  - name: ethernet 1/3/1
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/2
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/3
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/4
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/5
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/6
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/7
-    type: 10gbase-x-sfpp
-  - name: ethernet 1/3/8
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Brocade
-  model: ICX 6650-64
-  part_number: ICX6650-64
-  power-ports:
-  - maximum_draw: 250
-    name: PSU0
-    type: iec-60320-c14
-  - maximum_draw: 250
-    name: PSU1
-    type: iec-60320-c14
-  slug: brocade-icx6650-64
-  u_height: 1
+  - comments: '[Brocade G610](https://docs.broadcom.com/docs/GA-DS-6231)'
+    console-ports:
+      - name: con0
+        type: rj-45
+    interfaces:
+      - mgmt_only: true
+        name: eth0
+        type: 1000base-t
+      - name: FC port 0/0
+        type: 32gfc-sfp28
+      - name: FC port 0/1
+        type: 32gfc-sfp28
+      - name: FC port 0/2
+        type: 32gfc-sfp28
+      - name: FC port 0/3
+        type: 32gfc-sfp28
+      - name: FC port 0/4
+        type: 32gfc-sfp28
+      - name: FC port 0/5
+        type: 32gfc-sfp28
+      - name: FC port 0/6
+        type: 32gfc-sfp28
+      - name: FC port 0/7
+        type: 32gfc-sfp28
+      - name: FC port 0/8
+        type: 32gfc-sfp28
+      - name: FC port 0/9
+        type: 32gfc-sfp28
+      - name: FC port 0/10
+        type: 32gfc-sfp28
+      - name: FC port 0/11
+        type: 32gfc-sfp28
+      - name: FC port 0/12
+        type: 32gfc-sfp28
+      - name: FC port 0/13
+        type: 32gfc-sfp28
+      - name: FC port 0/14
+        type: 32gfc-sfp28
+      - name: FC port 0/15
+        type: 32gfc-sfp28
+      - name: FC port 0/16
+        type: 32gfc-sfp28
+      - name: FC port 0/17
+        type: 32gfc-sfp28
+      - name: FC port 0/18
+        type: 32gfc-sfp28
+      - name: FC port 0/19
+        type: 32gfc-sfp28
+      - name: FC port 0/20
+        type: 32gfc-sfp28
+      - name: FC port 0/21
+        type: 32gfc-sfp28
+      - name: FC port 0/22
+        type: 32gfc-sfp28
+      - name: FC port 0/23
+        type: 32gfc-sfp28
+    is_full_depth: false
+    manufacturer: Brocade
+    model: G610
+    part_number: G610
+    power-ports:
+      - maximum_draw: 77
+        name: PSU0
+        type: iec-60320-c14
+    slug: brocade-g610
+    u_height: 1
+  - console-ports:
+      - name: con0
+        type: rj-45
+    interfaces:
+      - mgmt_only: true
+        name: GigEthernetmgmt1
+        type: 1000base-t
+      - name: ethernet 1/1/1
+        type: 1000base-t
+      - name: ethernet 1/1/2
+        type: 1000base-t
+      - name: ethernet 1/1/3
+        type: 1000base-t
+      - name: ethernet 1/1/4
+        type: 1000base-t
+      - name: ethernet 1/1/5
+        type: 1000base-t
+      - name: ethernet 1/1/6
+        type: 1000base-t
+      - name: ethernet 1/1/7
+        type: 1000base-t
+      - name: ethernet 1/1/8
+        type: 1000base-t
+      - name: ethernet 1/1/9
+        type: 1000base-t
+      - name: ethernet 1/1/10
+        type: 1000base-t
+      - name: ethernet 1/1/11
+        type: 1000base-t
+      - name: ethernet 1/1/12
+        type: 1000base-t
+      - name: ethernet 1/1/13
+        type: 1000base-t
+      - name: ethernet 1/1/14
+        type: 1000base-t
+      - name: ethernet 1/1/15
+        type: 1000base-t
+      - name: ethernet 1/1/16
+        type: 1000base-t
+      - name: ethernet 1/1/17
+        type: 1000base-t
+      - name: ethernet 1/1/18
+        type: 1000base-t
+      - name: ethernet 1/1/19
+        type: 1000base-t
+      - name: ethernet 1/1/20
+        type: 1000base-t
+      - name: ethernet 1/1/21
+        type: 1000base-t
+      - name: ethernet 1/1/22
+        type: 1000base-t
+      - name: ethernet 1/1/23
+        type: 1000base-t
+      - name: ethernet 1/1/24
+        type: 1000base-t
+      - name: ethernet 1/2/1
+        type: 40gbase-x-qsfpp
+      - name: ethernet 1/2/6
+        type: 40gbase-x-qsfpp
+      - name: ethernet 1/3/1
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/2
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/3
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/4
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/5
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/6
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/7
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/8
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Brocade
+    model: ICX 6610-24
+    part_number: ICX6610-24
+    power-ports:
+      - maximum_draw: 120
+        name: PSU1
+        type: iec-60320-c14
+      - maximum_draw: 120
+        name: PSU2
+        type: iec-60320-c14
+    slug: brocade-icx6610-24
+    u_height: 1
+  - comments: '[Brocade G630](https://docs.broadcom.com/docs/GA-DS-7000)'
+    console-ports:
+      - name: con0
+        type: rj-45
+    interfaces:
+      - mgmt_only: true
+        name: eth0
+        type: 1000base-t
+      - name: FC port 0/0
+        type: 32gfc-sfp28
+      - name: FC port 0/1
+        type: 32gfc-sfp28
+      - name: FC port 0/2
+        type: 32gfc-sfp28
+      - name: FC port 0/3
+        type: 32gfc-sfp28
+      - name: FC port 0/4
+        type: 32gfc-sfp28
+      - name: FC port 0/5
+        type: 32gfc-sfp28
+      - name: FC port 0/6
+        type: 32gfc-sfp28
+      - name: FC port 0/7
+        type: 32gfc-sfp28
+      - name: FC port 0/8
+        type: 32gfc-sfp28
+      - name: FC port 0/9
+        type: 32gfc-sfp28
+      - name: FC port 0/10
+        type: 32gfc-sfp28
+      - name: FC port 0/11
+        type: 32gfc-sfp28
+      - name: FC port 0/12
+        type: 32gfc-sfp28
+      - name: FC port 0/13
+        type: 32gfc-sfp28
+      - name: FC port 0/14
+        type: 32gfc-sfp28
+      - name: FC port 0/15
+        type: 32gfc-sfp28
+      - name: FC port 0/16
+        type: 32gfc-sfp28
+      - name: FC port 0/17
+        type: 32gfc-sfp28
+      - name: FC port 0/18
+        type: 32gfc-sfp28
+      - name: FC port 0/19
+        type: 32gfc-sfp28
+      - name: FC port 0/20
+        type: 32gfc-sfp28
+      - name: FC port 0/21
+        type: 32gfc-sfp28
+      - name: FC port 0/22
+        type: 32gfc-sfp28
+      - name: FC port 0/23
+        type: 32gfc-sfp28
+      - name: FC port 0/24
+        type: 32gfc-sfp28
+      - name: FC port 0/25
+        type: 32gfc-sfp28
+      - name: FC port 0/26
+        type: 32gfc-sfp28
+      - name: FC port 0/29
+        type: 32gfc-sfp28
+      - name: FC port 0/30
+        type: 32gfc-sfp28
+      - name: FC port 0/31
+        type: 32gfc-sfp28
+      - name: FC port 0/32
+        type: 32gfc-sfp28
+      - name: FC port 0/33
+        type: 32gfc-sfp28
+      - name: FC port 0/34
+        type: 32gfc-sfp28
+      - name: FC port 0/35
+        type: 32gfc-sfp28
+      - name: FC port 0/36
+        type: 32gfc-sfp28
+      - name: FC port 0/37
+        type: 32gfc-sfp28
+      - name: FC port 0/38
+        type: 32gfc-sfp28
+      - name: FC port 0/39
+        type: 32gfc-sfp28
+      - name: FC port 0/40
+        type: 32gfc-sfp28
+      - name: FC port 0/41
+        type: 32gfc-sfp28
+      - name: FC port 0/42
+        type: 32gfc-sfp28
+      - name: FC port 0/43
+        type: 32gfc-sfp28
+      - name: FC port 0/44
+        type: 32gfc-sfp28
+      - name: FC port 0/45
+        type: 32gfc-sfp28
+      - name: FC port 0/46
+        type: 32gfc-sfp28
+      - name: FC port 0/47
+        type: 32gfc-sfp28
+      - name: FC port 0/48
+        type: 128gfc-qsfp28
+      - name: FC port 0/49
+        type: 128gfc-qsfp28
+      - name: FC port 0/50
+        type: 128gfc-qsfp28
+      - name: FC port 0/51
+        type: 128gfc-qsfp28
+      - name: FC port 0/52
+        type: 32gfc-sfp28
+      - name: FC port 0/53
+        type: 32gfc-sfp28
+      - name: FC port 0/54
+        type: 32gfc-sfp28
+      - name: FC port 0/55
+        type: 32gfc-sfp28
+      - name: FC port 0/56
+        type: 32gfc-sfp28
+      - name: FC port 0/57
+        type: 32gfc-sfp28
+      - name: FC port 0/58
+        type: 32gfc-sfp28
+      - name: FC port 0/59
+        type: 32gfc-sfp28
+      - name: FC port 0/60
+        type: 32gfc-sfp28
+      - name: FC port 0/61
+        type: 32gfc-sfp28
+      - name: FC port 0/62
+        type: 32gfc-sfp28
+      - name: FC port 0/63
+        type: 32gfc-sfp28
+      - name: FC port 0/64
+        type: 32gfc-sfp28
+      - name: FC port 0/65
+        type: 32gfc-sfp28
+      - name: FC port 0/66
+        type: 32gfc-sfp28
+      - name: FC port 0/67
+        type: 32gfc-sfp28
+      - name: FC port 0/68
+        type: 32gfc-sfp28
+      - name: FC port 0/69
+        type: 32gfc-sfp28
+      - name: FC port 0/70
+        type: 32gfc-sfp28
+      - name: FC port 0/71
+        type: 32gfc-sfp28
+      - name: FC port 0/72
+        type: 32gfc-sfp28
+      - name: FC port 0/73
+        type: 32gfc-sfp28
+      - name: FC port 0/74
+        type: 32gfc-sfp28
+      - name: FC port 0/75
+        type: 32gfc-sfp28
+      - name: FC port 0/76
+        type: 32gfc-sfp28
+      - name: FC port 0/77
+        type: 32gfc-sfp28
+      - name: FC port 0/78
+        type: 32gfc-sfp28
+      - name: FC port 0/79
+        type: 32gfc-sfp28
+      - name: FC port 0/80
+        type: 32gfc-sfp28
+      - name: FC port 0/81
+        type: 32gfc-sfp28
+      - name: FC port 0/82
+        type: 32gfc-sfp28
+      - name: FC port 0/83
+        type: 32gfc-sfp28
+      - name: FC port 0/84
+        type: 32gfc-sfp28
+      - name: FC port 0/85
+        type: 32gfc-sfp28
+      - name: FC port 0/86
+        type: 32gfc-sfp28
+      - name: FC port 0/87
+        type: 32gfc-sfp28
+      - name: FC port 0/88
+        type: 32gfc-sfp28
+      - name: FC port 0/89
+        type: 32gfc-sfp28
+      - name: FC port 0/90
+        type: 32gfc-sfp28
+      - name: FC port 0/91
+        type: 32gfc-sfp28
+      - name: FC port 0/92
+        type: 32gfc-sfp28
+      - name: FC port 0/93
+        type: 32gfc-sfp28
+      - name: FC port 0/94
+        type: 32gfc-sfp28
+      - name: FC port 0/95
+        type: 32gfc-sfp28
+      - name: FC port 0/96
+        type: 32gfc-sfp28
+      - name: FC port 0/97
+        type: 32gfc-sfp28
+      - name: FC port 0/98
+        type: 128gfc-qsfp28
+      - name: FC port 0/99
+        type: 128gfc-qsfp28
+      - name: FC port 0/100
+        type: 128gfc-qsfp28
+      - name: FC port 0/101
+        type: 128gfc-qsfp28
+    is_full_depth: true
+    manufacturer: Brocade
+    model: G630
+    part_number: G630
+    power-ports:
+      - maximum_draw: 942
+        name: PSU0
+        type: iec-60320-c14
+      - maximum_draw: 942
+        name: PSU1
+        type: iec-60320-c14
+    slug: brocade-g630
+    u_height: 2
+  - console-ports:
+      - name: con0
+        type: rj-45
+    interfaces:
+      - mgmt_only: true
+        name: GigEthernetmgmt1
+        type: 1000base-t
+      - name: ethernet 1/1/1
+        type: 1000base-t
+      - name: ethernet 1/1/2
+        type: 1000base-t
+      - name: ethernet 1/1/3
+        type: 1000base-t
+      - name: ethernet 1/1/4
+        type: 1000base-t
+      - name: ethernet 1/1/5
+        type: 1000base-t
+      - name: ethernet 1/1/6
+        type: 1000base-t
+      - name: ethernet 1/1/7
+        type: 1000base-t
+      - name: ethernet 1/1/8
+        type: 1000base-t
+      - name: ethernet 1/1/9
+        type: 1000base-t
+      - name: ethernet 1/1/10
+        type: 1000base-t
+      - name: ethernet 1/1/11
+        type: 1000base-t
+      - name: ethernet 1/1/12
+        type: 1000base-t
+      - name: ethernet 1/1/13
+        type: 1000base-t
+      - name: ethernet 1/1/14
+        type: 1000base-t
+      - name: ethernet 1/1/15
+        type: 1000base-t
+      - name: ethernet 1/1/16
+        type: 1000base-t
+      - name: ethernet 1/1/17
+        type: 1000base-t
+      - name: ethernet 1/1/18
+        type: 1000base-t
+      - name: ethernet 1/1/19
+        type: 1000base-t
+      - name: ethernet 1/1/20
+        type: 1000base-t
+      - name: ethernet 1/1/21
+        type: 1000base-t
+      - name: ethernet 1/1/22
+        type: 1000base-t
+      - name: ethernet 1/1/23
+        type: 1000base-t
+      - name: ethernet 1/1/24
+        type: 1000base-t
+      - name: ethernet 1/1/25
+        type: 1000base-t
+      - name: ethernet 1/1/26
+        type: 1000base-t
+      - name: ethernet 1/1/27
+        type: 1000base-t
+      - name: ethernet 1/1/28
+        type: 1000base-t
+      - name: ethernet 1/1/29
+        type: 1000base-t
+      - name: ethernet 1/1/30
+        type: 1000base-t
+      - name: ethernet 1/1/31
+        type: 1000base-t
+      - name: ethernet 1/1/32
+        type: 1000base-t
+      - name: ethernet 1/1/33
+        type: 1000base-t
+      - name: ethernet 1/1/34
+        type: 1000base-t
+      - name: ethernet 1/1/35
+        type: 1000base-t
+      - name: ethernet 1/1/36
+        type: 1000base-t
+      - name: ethernet 1/1/37
+        type: 1000base-t
+      - name: ethernet 1/1/38
+        type: 1000base-t
+      - name: ethernet 1/1/39
+        type: 1000base-t
+      - name: ethernet 1/1/40
+        type: 1000base-t
+      - name: ethernet 1/1/41
+        type: 1000base-t
+      - name: ethernet 1/1/42
+        type: 1000base-t
+      - name: ethernet 1/1/43
+        type: 1000base-t
+      - name: ethernet 1/1/44
+        type: 1000base-t
+      - name: ethernet 1/1/45
+        type: 1000base-t
+      - name: ethernet 1/1/46
+        type: 1000base-t
+      - name: ethernet 1/1/47
+        type: 1000base-t
+      - name: ethernet 1/1/48
+        type: 1000base-t
+      - name: ethernet 1/2/1
+        type: 40gbase-x-qsfpp
+      - name: ethernet 1/2/6
+        type: 40gbase-x-qsfpp
+      - name: ethernet 1/3/1
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/2
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/3
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/4
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/5
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/6
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/7
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/8
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Brocade
+    model: ICX 6610-48
+    part_number: ICX6610-48
+    power-ports:
+      - maximum_draw: 120
+        name: PSU1
+        type: iec-60320-c14
+      - maximum_draw: 120
+        name: PSU2
+        type: iec-60320-c14
+    slug: brocade-icx6610-48
+    u_height: 1
+  - console-ports:
+      - name: con0
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: oob-mgmt1
+        type: 1000base-t
+      - name: ge-1/1/1
+        type: 1000base-t
+      - name: ge-1/1/2
+        type: 1000base-t
+      - name: ge-1/1/3
+        type: 1000base-t
+      - name: ge-1/1/4
+        type: 1000base-t
+      - name: ge-1/1/5
+        type: 1000base-t
+      - name: ge-1/1/6
+        type: 1000base-t
+      - name: ge-1/1/7
+        type: 1000base-t
+      - name: ge-1/1/8
+        type: 1000base-t
+      - name: ge-1/1/9
+        type: 1000base-t
+      - name: ge-1/1/10
+        type: 1000base-t
+      - name: ge-1/1/11
+        type: 1000base-t
+      - name: ge-1/1/12
+        type: 1000base-t
+      - name: ge-1/2/1
+        type: 1000base-t
+      - name: ge-1/2/2
+        type: 1000base-t
+      - name: xg-1/3/1
+        type: 10gbase-x-sfpp
+      - name: xg-1/3/2
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Brocade
+    model: ICX 7150-C12P
+    part_number: ICX7150-C12P
+    power-ports:
+      - maximum_draw: 150
+        name: psu0
+        type: iec-60320-c14
+    slug: brocade-icx7150-c12p
+    u_height: 1
+  - comments: '[Brocade G620](https://docs.broadcom.com/docs/GA-DS-2052)'
+    console-ports:
+      - name: con0
+        type: rj-45
+    interfaces:
+      - mgmt_only: true
+        name: eth0
+        type: 1000base-t
+      - name: FC port 0/0
+        type: 32gfc-sfp28
+      - name: FC port 0/1
+        type: 32gfc-sfp28
+      - name: FC port 0/2
+        type: 32gfc-sfp28
+      - name: FC port 0/3
+        type: 32gfc-sfp28
+      - name: FC port 0/4
+        type: 32gfc-sfp28
+      - name: FC port 0/5
+        type: 32gfc-sfp28
+      - name: FC port 0/6
+        type: 32gfc-sfp28
+      - name: FC port 0/7
+        type: 32gfc-sfp28
+      - name: FC port 0/8
+        type: 32gfc-sfp28
+      - name: FC port 0/9
+        type: 32gfc-sfp28
+      - name: FC port 0/10
+        type: 32gfc-sfp28
+      - name: FC port 0/11
+        type: 32gfc-sfp28
+      - name: FC port 0/12
+        type: 32gfc-sfp28
+      - name: FC port 0/13
+        type: 32gfc-sfp28
+      - name: FC port 0/14
+        type: 32gfc-sfp28
+      - name: FC port 0/15
+        type: 32gfc-sfp28
+      - name: FC port 0/16
+        type: 32gfc-sfp28
+      - name: FC port 0/17
+        type: 32gfc-sfp28
+      - name: FC port 0/18
+        type: 32gfc-sfp28
+      - name: FC port 0/19
+        type: 32gfc-sfp28
+      - name: FC port 0/20
+        type: 32gfc-sfp28
+      - name: FC port 0/21
+        type: 32gfc-sfp28
+      - name: FC port 0/22
+        type: 32gfc-sfp28
+      - name: FC port 0/23
+        type: 32gfc-sfp28
+      - name: FC port 0/24
+        type: 32gfc-sfp28
+      - name: FC port 0/25
+        type: 32gfc-sfp28
+      - name: FC port 0/26
+        type: 32gfc-sfp28
+      - name: FC port 0/29
+        type: 32gfc-sfp28
+      - name: FC port 0/30
+        type: 32gfc-sfp28
+      - name: FC port 0/31
+        type: 32gfc-sfp28
+      - name: FC port 0/32
+        type: 32gfc-sfp28
+      - name: FC port 0/33
+        type: 32gfc-sfp28
+      - name: FC port 0/34
+        type: 32gfc-sfp28
+      - name: FC port 0/35
+        type: 32gfc-sfp28
+      - name: FC port 0/36
+        type: 32gfc-sfp28
+      - name: FC port 0/37
+        type: 32gfc-sfp28
+      - name: FC port 0/38
+        type: 32gfc-sfp28
+      - name: FC port 0/39
+        type: 32gfc-sfp28
+      - name: FC port 0/40
+        type: 32gfc-sfp28
+      - name: FC port 0/41
+        type: 32gfc-sfp28
+      - name: FC port 0/42
+        type: 32gfc-sfp28
+      - name: FC port 0/43
+        type: 32gfc-sfp28
+      - name: FC port 0/44
+        type: 32gfc-sfp28
+      - name: FC port 0/45
+        type: 32gfc-sfp28
+      - name: FC port 0/46
+        type: 32gfc-sfp28
+      - name: FC port 0/47
+        type: 32gfc-sfp28
+      - name: FC port 0/48
+        type: 128gfc-qsfp28
+      - name: FC port 0/49
+        type: 128gfc-qsfp28
+      - name: FC port 0/50
+        type: 128gfc-qsfp28
+      - name: FC port 0/51
+        type: 128gfc-qsfp28
+    is_full_depth: true
+    manufacturer: Brocade
+    model: G620
+    part_number: G620
+    power-ports:
+      - maximum_draw: 205
+        name: PSU0
+        type: iec-60320-c14
+      - maximum_draw: 205
+        name: PSU1
+        type: iec-60320-c14
+    slug: brocade-g620
+    u_height: 1
+  - console-ports:
+      - name: console
+        type: de-9
+    interfaces:
+      - name: ethernet 0/1/1
+        type: 1000base-t
+      - name: ethernet 0/1/2
+        type: 1000base-t
+      - name: ethernet 0/1/3
+        type: 1000base-t
+      - name: ethernet 0/1/4
+        type: 1000base-t
+      - name: ethernet 0/1/5
+        type: 1000base-t
+      - name: ethernet 0/1/6
+        type: 1000base-t
+      - name: ethernet 0/1/7
+        type: 1000base-t
+      - name: ethernet 0/1/8
+        type: 1000base-t
+      - name: ethernet 0/1/9
+        type: 1000base-t
+      - name: ethernet 0/1/10
+        type: 1000base-t
+      - name: ethernet 0/1/11
+        type: 1000base-t
+      - name: ethernet 0/1/12
+        type: 1000base-t
+      - name: ethernet 0/1/13
+        type: 1000base-t
+      - name: ethernet 0/1/14
+        type: 1000base-t
+      - name: ethernet 0/1/15
+        type: 1000base-t
+      - name: ethernet 0/1/16
+        type: 1000base-t
+      - name: ethernet 0/1/17
+        type: 1000base-t
+      - name: ethernet 0/1/18
+        type: 1000base-t
+      - name: ethernet 0/1/19
+        type: 1000base-t
+      - name: ethernet 0/1/20
+        type: 1000base-t
+      - name: ethernet 0/1/21
+        type: 1000base-t
+      - name: ethernet 0/1/22
+        type: 1000base-t
+      - name: ethernet 0/1/23
+        type: 1000base-t
+      - name: ethernet 0/1/24
+        type: 1000base-t
+      - name: ethernet 0/1/25
+        type: 1000base-t
+      - name: ethernet 0/1/26
+        type: 1000base-t
+      - name: ethernet 0/1/27
+        type: 1000base-t
+      - name: ethernet 0/1/28
+        type: 1000base-t
+      - name: ethernet 0/1/29
+        type: 1000base-t
+      - name: ethernet 0/1/30
+        type: 1000base-t
+      - name: ethernet 0/1/31
+        type: 1000base-t
+      - name: ethernet 0/1/32
+        type: 1000base-t
+      - name: ethernet 0/1/33
+        type: 1000base-t
+      - name: ethernet 0/1/34
+        type: 1000base-t
+      - name: ethernet 0/1/35
+        type: 1000base-t
+      - name: ethernet 0/1/36
+        type: 1000base-t
+      - name: ethernet 0/1/37
+        type: 1000base-t
+      - name: ethernet 0/1/38
+        type: 1000base-t
+      - name: ethernet 0/1/39
+        type: 1000base-t
+      - name: ethernet 0/1/40
+        type: 1000base-t
+      - name: ethernet 0/1/41
+        type: 1000base-t
+      - name: ethernet 0/1/42
+        type: 1000base-t
+      - name: ethernet 0/1/43
+        type: 1000base-t
+      - name: ethernet 0/1/44
+        type: 1000base-t
+      - name: ethernet 0/1/45
+        type: 1000base-t
+      - name: ethernet 0/1/46
+        type: 1000base-t
+      - name: ethernet 0/1/47
+        type: 1000base-t
+      - name: ethernet 0/1/48
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Brocade
+    model: FastIron WS 648G
+    part_number: FWS648G
+    power-ports:
+      - maximum_draw: 83
+        name: PSU1
+        type: iec-60320-c14
+    slug: brocade-fws648g
+    u_height: 1
+  - comments: POE+ capable
+    console-ports:
+      - name: con0
+        type: rj-45
+    interfaces:
+      - mgmt_only: true
+        name: GigEthernetmgmt1
+        type: 1000base-t
+      - name: ethernet 1/1/1
+        type: 1000base-t
+      - name: ethernet 1/1/2
+        type: 1000base-t
+      - name: ethernet 1/1/3
+        type: 1000base-t
+      - name: ethernet 1/1/4
+        type: 1000base-t
+      - name: ethernet 1/1/5
+        type: 1000base-t
+      - name: ethernet 1/1/6
+        type: 1000base-t
+      - name: ethernet 1/1/7
+        type: 1000base-t
+      - name: ethernet 1/1/8
+        type: 1000base-t
+      - name: ethernet 1/1/9
+        type: 1000base-t
+      - name: ethernet 1/1/10
+        type: 1000base-t
+      - name: ethernet 1/1/11
+        type: 1000base-t
+      - name: ethernet 1/1/12
+        type: 1000base-t
+      - name: ethernet 1/1/13
+        type: 1000base-t
+      - name: ethernet 1/1/14
+        type: 1000base-t
+      - name: ethernet 1/1/15
+        type: 1000base-t
+      - name: ethernet 1/1/16
+        type: 1000base-t
+      - name: ethernet 1/1/17
+        type: 1000base-t
+      - name: ethernet 1/1/18
+        type: 1000base-t
+      - name: ethernet 1/1/19
+        type: 1000base-t
+      - name: ethernet 1/1/20
+        type: 1000base-t
+      - name: ethernet 1/1/21
+        type: 1000base-t
+      - name: ethernet 1/1/22
+        type: 1000base-t
+      - name: ethernet 1/1/23
+        type: 1000base-t
+      - name: ethernet 1/1/24
+        type: 1000base-t
+      - name: ethernet 1/1/25
+        type: 1000base-t
+      - name: ethernet 1/1/26
+        type: 1000base-t
+      - name: ethernet 1/1/27
+        type: 1000base-t
+      - name: ethernet 1/1/28
+        type: 1000base-t
+      - name: ethernet 1/1/29
+        type: 1000base-t
+      - name: ethernet 1/1/30
+        type: 1000base-t
+      - name: ethernet 1/1/31
+        type: 1000base-t
+      - name: ethernet 1/1/32
+        type: 1000base-t
+      - name: ethernet 1/1/33
+        type: 1000base-t
+      - name: ethernet 1/1/34
+        type: 1000base-t
+      - name: ethernet 1/1/35
+        type: 1000base-t
+      - name: ethernet 1/1/36
+        type: 1000base-t
+      - name: ethernet 1/1/37
+        type: 1000base-t
+      - name: ethernet 1/1/38
+        type: 1000base-t
+      - name: ethernet 1/1/39
+        type: 1000base-t
+      - name: ethernet 1/1/40
+        type: 1000base-t
+      - name: ethernet 1/1/41
+        type: 1000base-t
+      - name: ethernet 1/1/42
+        type: 1000base-t
+      - name: ethernet 1/1/43
+        type: 1000base-t
+      - name: ethernet 1/1/44
+        type: 1000base-t
+      - name: ethernet 1/1/45
+        type: 1000base-t
+      - name: ethernet 1/1/46
+        type: 1000base-t
+      - name: ethernet 1/1/47
+        type: 1000base-t
+      - name: ethernet 1/1/48
+        type: 1000base-t
+      - name: ethernet 1/2/1
+        type: 40gbase-x-qsfpp
+      - name: ethernet 1/2/6
+        type: 40gbase-x-qsfpp
+      - name: ethernet 1/3/1
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/2
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/3
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/4
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/5
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/6
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/7
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/8
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Brocade
+    model: ICX 6610-48P
+    part_number: ICX6610-48P
+    power-ports:
+      - maximum_draw: 1000
+        name: PSU1
+        type: iec-60320-c14
+      - maximum_draw: 1000
+        name: PSU2
+        type: iec-60320-c14
+    slug: brocade-icx6610-48p
+    u_height: 1
+  - console-ports:
+      - name: con0
+        type: rj-45
+    interfaces:
+      - mgmt_only: true
+        name: GigEthernetmgmt1
+        type: 1000base-t
+      - name: GigabitEthernet1/1
+        type: 1000base-t
+      - name: GigabitEthernet1/2
+        type: 1000base-t
+      - name: GigabitEthernet1/3
+        type: 1000base-t
+      - name: GigabitEthernet1/4
+        type: 1000base-t
+      - name: GigabitEthernet1/5
+        type: 1000base-t
+      - name: GigabitEthernet1/6
+        type: 1000base-t
+      - name: GigabitEthernet1/7
+        type: 1000base-t
+      - name: GigabitEthernet1/8
+        type: 1000base-t
+      - name: GigabitEthernet1/9
+        type: 1000base-t
+      - name: GigabitEthernet1/10
+        type: 1000base-t
+      - name: GigabitEthernet1/11
+        type: 1000base-t
+      - name: GigabitEthernet1/12
+        type: 1000base-t
+      - name: GigabitEthernet1/13
+        type: 1000base-t
+      - name: GigabitEthernet1/14
+        type: 1000base-t
+      - name: GigabitEthernet1/15
+        type: 1000base-t
+      - name: GigabitEthernet1/16
+        type: 1000base-t
+      - name: GigabitEthernet1/17
+        type: 1000base-t
+      - name: GigabitEthernet1/18
+        type: 1000base-t
+      - name: GigabitEthernet1/19
+        type: 1000base-t
+      - name: GigabitEthernet1/20
+        type: 1000base-t
+      - name: GigabitEthernet1/21
+        type: 1000base-t
+      - name: GigabitEthernet1/22
+        type: 1000base-t
+      - name: GigabitEthernet1/23
+        type: 1000base-t
+      - name: GigabitEthernet1/24
+        type: 1000base-t
+      - name: GigabitEthernet1/25
+        type: 1000base-t
+      - name: GigabitEthernet1/26
+        type: 1000base-t
+      - name: GigabitEthernet1/27
+        type: 1000base-t
+      - name: GigabitEthernet1/28
+        type: 1000base-t
+      - name: GigabitEthernet1/29
+        type: 1000base-t
+      - name: GigabitEthernet1/30
+        type: 1000base-t
+      - name: GigabitEthernet1/31
+        type: 1000base-t
+      - name: GigabitEthernet1/32
+        type: 1000base-t
+      - name: GigabitEthernet1/33
+        type: 1000base-t
+      - name: GigabitEthernet1/34
+        type: 1000base-t
+      - name: GigabitEthernet1/35
+        type: 1000base-t
+      - name: GigabitEthernet1/36
+        type: 1000base-t
+      - name: GigabitEthernet1/37
+        type: 1000base-t
+      - name: GigabitEthernet1/38
+        type: 1000base-t
+      - name: GigabitEthernet1/39
+        type: 1000base-t
+      - name: GigabitEthernet1/40
+        type: 1000base-t
+      - name: GigabitEthernet1/41
+        type: 1000base-t
+      - name: GigabitEthernet1/42
+        type: 1000base-t
+      - name: GigabitEthernet1/43
+        type: 1000base-t
+      - name: GigabitEthernet1/44
+        type: 1000base-t
+      - name: GigabitEthernet1/45
+        type: 1000base-t
+      - name: GigabitEthernet1/46
+        type: 1000base-t
+      - name: GigabitEthernet1/47
+        type: 1000base-t
+      - name: GigabitEthernet1/48
+        type: 1000base-t
+      - name: 10GigabitEthernet2/1
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/2
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/3
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/4
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Brocade
+    model: ICX 6450-48
+    part_number: ICX6450-48
+    power-ports:
+      - maximum_draw: 55
+        name: PSU0
+        type: iec-60320-c14
+    slug: brocade-icx6450-48
+    u_height: 1
+  - console-ports:
+      - name: console
+        type: de-9
+    interfaces:
+      - name: ethernet 0/1/1
+        type: 1000base-t
+      - name: ethernet 0/1/2
+        type: 1000base-t
+      - name: ethernet 0/1/3
+        type: 1000base-t
+      - name: ethernet 0/1/4
+        type: 1000base-t
+      - name: ethernet 0/1/5
+        type: 1000base-t
+      - name: ethernet 0/1/6
+        type: 1000base-t
+      - name: ethernet 0/1/7
+        type: 1000base-t
+      - name: ethernet 0/1/8
+        type: 1000base-t
+      - name: ethernet 0/1/9
+        type: 1000base-t
+      - name: ethernet 0/1/10
+        type: 1000base-t
+      - name: ethernet 0/1/11
+        type: 1000base-t
+      - name: ethernet 0/1/12
+        type: 1000base-t
+      - name: ethernet 0/1/13
+        type: 1000base-t
+      - name: ethernet 0/1/14
+        type: 1000base-t
+      - name: ethernet 0/1/15
+        type: 1000base-t
+      - name: ethernet 0/1/16
+        type: 1000base-t
+      - name: ethernet 0/1/17
+        type: 1000base-t
+      - name: ethernet 0/1/18
+        type: 1000base-t
+      - name: ethernet 0/1/19
+        type: 1000base-t
+      - name: ethernet 0/1/20
+        type: 1000base-t
+      - name: ethernet 0/1/21
+        type: 1000base-t
+      - name: ethernet 0/1/22
+        type: 1000base-t
+      - name: ethernet 0/1/23
+        type: 1000base-t
+      - name: ethernet 0/1/24
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Brocade
+    model: FastIron WS 624G
+    part_number: FWS624G
+    power-ports:
+      - maximum_draw: 42
+        name: PSU1
+        type: iec-60320-c14
+    slug: brocade-fws624g
+    u_height: 1
+  - console-ports:
+      - name: con0
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: GigEthernetmgmt1
+        type: 1000base-t
+      - name: GigabitEthernet1/1
+        type: 1000base-t
+      - name: GigabitEthernet1/2
+        type: 1000base-t
+      - name: GigabitEthernet1/3
+        type: 1000base-t
+      - name: GigabitEthernet1/4
+        type: 1000base-t
+      - name: GigabitEthernet1/5
+        type: 1000base-t
+      - name: GigabitEthernet1/6
+        type: 1000base-t
+      - name: GigabitEthernet1/7
+        type: 1000base-t
+      - name: GigabitEthernet1/8
+        type: 1000base-t
+      - name: GigabitEthernet1/9
+        type: 1000base-t
+      - name: GigabitEthernet1/10
+        type: 1000base-t
+      - name: GigabitEthernet1/11
+        type: 1000base-t
+      - name: GigabitEthernet1/12
+        type: 1000base-t
+      - name: GigabitEthernet1/13
+        type: 1000base-t
+      - name: GigabitEthernet1/14
+        type: 1000base-t
+      - name: GigabitEthernet1/15
+        type: 1000base-t
+      - name: GigabitEthernet1/16
+        type: 1000base-t
+      - name: GigabitEthernet1/17
+        type: 1000base-t
+      - name: GigabitEthernet1/18
+        type: 1000base-t
+      - name: GigabitEthernet1/19
+        type: 1000base-t
+      - name: GigabitEthernet1/20
+        type: 1000base-t
+      - name: GigabitEthernet1/21
+        type: 1000base-t
+      - name: GigabitEthernet1/22
+        type: 1000base-t
+      - name: GigabitEthernet1/23
+        type: 1000base-t
+      - name: GigabitEthernet1/24
+        type: 1000base-t
+      - name: 10GigabitEthernet2/1
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/2
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/3
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/4
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/5
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/6
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/7
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/8
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Brocade
+    model: ICX 7250-24
+    part_number: ICX7250-24
+    power-ports:
+      - name: PSU0
+        type: iec-60320-c14
+    slug: brocade-icx7250-24
+    u_height: 1
+  - console-ports:
+      - name: con0
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: GigEthernetmgmt1
+        type: 1000base-t
+      - name: GigabitEthernet1/1
+        type: 1000base-t
+      - name: GigabitEthernet1/2
+        type: 1000base-t
+      - name: GigabitEthernet1/3
+        type: 1000base-t
+      - name: GigabitEthernet1/4
+        type: 1000base-t
+      - name: GigabitEthernet1/5
+        type: 1000base-t
+      - name: GigabitEthernet1/6
+        type: 1000base-t
+      - name: GigabitEthernet1/7
+        type: 1000base-t
+      - name: GigabitEthernet1/8
+        type: 1000base-t
+      - name: GigabitEthernet1/9
+        type: 1000base-t
+      - name: GigabitEthernet1/10
+        type: 1000base-t
+      - name: GigabitEthernet1/11
+        type: 1000base-t
+      - name: GigabitEthernet1/12
+        type: 1000base-t
+      - name: GigabitEthernet1/13
+        type: 1000base-t
+      - name: GigabitEthernet1/14
+        type: 1000base-t
+      - name: GigabitEthernet1/15
+        type: 1000base-t
+      - name: GigabitEthernet1/16
+        type: 1000base-t
+      - name: GigabitEthernet1/17
+        type: 1000base-t
+      - name: GigabitEthernet1/18
+        type: 1000base-t
+      - name: GigabitEthernet1/19
+        type: 1000base-t
+      - name: GigabitEthernet1/20
+        type: 1000base-t
+      - name: GigabitEthernet1/21
+        type: 1000base-t
+      - name: GigabitEthernet1/22
+        type: 1000base-t
+      - name: GigabitEthernet1/23
+        type: 1000base-t
+      - name: GigabitEthernet1/24
+        type: 1000base-t
+      - name: GigabitEthernet1/25
+        type: 1000base-t
+      - name: GigabitEthernet1/26
+        type: 1000base-t
+      - name: GigabitEthernet1/27
+        type: 1000base-t
+      - name: GigabitEthernet1/28
+        type: 1000base-t
+      - name: GigabitEthernet1/29
+        type: 1000base-t
+      - name: GigabitEthernet1/30
+        type: 1000base-t
+      - name: GigabitEthernet1/31
+        type: 1000base-t
+      - name: GigabitEthernet1/32
+        type: 1000base-t
+      - name: GigabitEthernet1/33
+        type: 1000base-t
+      - name: GigabitEthernet1/34
+        type: 1000base-t
+      - name: GigabitEthernet1/35
+        type: 1000base-t
+      - name: GigabitEthernet1/36
+        type: 1000base-t
+      - name: GigabitEthernet1/37
+        type: 1000base-t
+      - name: GigabitEthernet1/38
+        type: 1000base-t
+      - name: GigabitEthernet1/39
+        type: 1000base-t
+      - name: GigabitEthernet1/40
+        type: 1000base-t
+      - name: GigabitEthernet1/41
+        type: 1000base-t
+      - name: GigabitEthernet1/42
+        type: 1000base-t
+      - name: GigabitEthernet1/43
+        type: 1000base-t
+      - name: GigabitEthernet1/44
+        type: 1000base-t
+      - name: GigabitEthernet1/45
+        type: 1000base-t
+      - name: GigabitEthernet1/46
+        type: 1000base-t
+      - name: GigabitEthernet1/47
+        type: 1000base-t
+      - name: GigabitEthernet1/48
+        type: 1000base-t
+      - name: 10GigabitEthernet2/1
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/2
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/3
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/4
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet3/1
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet3/2
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet3/3
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet3/4
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet4/1
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet4/2
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet4/3
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet4/4
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Brocade
+    model: ICX 7450-48
+    part_number: ICX7450-48
+    power-ports:
+      - maximum_draw: 100
+        name: PSU0
+        type: iec-60320-c14
+      - maximum_draw: 100
+        name: PSU1
+        type: iec-60320-c14
+    slug: brocade-icx7450-48
+    u_height: 1
+  - console-ports:
+      - name: con0
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: GigEthernetmgmt1
+        type: 1000base-t
+      - name: GigabitEthernet1/1
+        type: 1000base-t
+      - name: GigabitEthernet1/2
+        type: 1000base-t
+      - name: GigabitEthernet1/3
+        type: 1000base-t
+      - name: GigabitEthernet1/4
+        type: 1000base-t
+      - name: GigabitEthernet1/5
+        type: 1000base-t
+      - name: GigabitEthernet1/6
+        type: 1000base-t
+      - name: GigabitEthernet1/7
+        type: 1000base-t
+      - name: GigabitEthernet1/8
+        type: 1000base-t
+      - name: GigabitEthernet1/9
+        type: 1000base-t
+      - name: GigabitEthernet1/10
+        type: 1000base-t
+      - name: GigabitEthernet1/11
+        type: 1000base-t
+      - name: GigabitEthernet1/12
+        type: 1000base-t
+      - name: GigabitEthernet1/13
+        type: 1000base-t
+      - name: GigabitEthernet1/14
+        type: 1000base-t
+      - name: GigabitEthernet1/15
+        type: 1000base-t
+      - name: GigabitEthernet1/16
+        type: 1000base-t
+      - name: GigabitEthernet1/17
+        type: 1000base-t
+      - name: GigabitEthernet1/18
+        type: 1000base-t
+      - name: GigabitEthernet1/19
+        type: 1000base-t
+      - name: GigabitEthernet1/20
+        type: 1000base-t
+      - name: GigabitEthernet1/21
+        type: 1000base-t
+      - name: GigabitEthernet1/22
+        type: 1000base-t
+      - name: GigabitEthernet1/23
+        type: 1000base-t
+      - name: GigabitEthernet1/24
+        type: 1000base-t
+      - name: GigabitEthernet1/25
+        type: 1000base-t
+      - name: GigabitEthernet1/26
+        type: 1000base-t
+      - name: GigabitEthernet1/27
+        type: 1000base-t
+      - name: GigabitEthernet1/28
+        type: 1000base-t
+      - name: GigabitEthernet1/29
+        type: 1000base-t
+      - name: GigabitEthernet1/30
+        type: 1000base-t
+      - name: GigabitEthernet1/31
+        type: 1000base-t
+      - name: GigabitEthernet1/32
+        type: 1000base-t
+      - name: GigabitEthernet1/33
+        type: 1000base-t
+      - name: GigabitEthernet1/34
+        type: 1000base-t
+      - name: GigabitEthernet1/35
+        type: 1000base-t
+      - name: GigabitEthernet1/36
+        type: 1000base-t
+      - name: GigabitEthernet1/37
+        type: 1000base-t
+      - name: GigabitEthernet1/38
+        type: 1000base-t
+      - name: GigabitEthernet1/39
+        type: 1000base-t
+      - name: GigabitEthernet1/40
+        type: 1000base-t
+      - name: GigabitEthernet1/41
+        type: 1000base-t
+      - name: GigabitEthernet1/42
+        type: 1000base-t
+      - name: GigabitEthernet1/43
+        type: 1000base-t
+      - name: GigabitEthernet1/44
+        type: 1000base-t
+      - name: GigabitEthernet1/45
+        type: 1000base-t
+      - name: GigabitEthernet1/46
+        type: 1000base-t
+      - name: GigabitEthernet1/47
+        type: 1000base-t
+      - name: GigabitEthernet1/48
+        type: 1000base-t
+      - name: 10GigabitEthernet2/1
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/2
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/3
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/4
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/5
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/6
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/7
+        type: 10gbase-x-sfpp
+      - name: 10GigabitEthernet2/8
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Brocade
+    model: ICX 7250-48
+    part_number: ICX7250-48
+    power-ports:
+      - maximum_draw: 70
+        name: PSU0
+        type: iec-60320-c14
+    slug: brocade-icx7250-48
+    u_height: 1
+  - console-ports:
+      - name: con0
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: GigEthernetmgmt1
+        type: 1000base-t
+      - name: ethernet 1/1/1
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/2
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/3
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/4
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/5
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/6
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/7
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/8
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/9
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/10
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/11
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/12
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/13
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/14
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/15
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/16
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/17
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/18
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/19
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/20
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/21
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/22
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/23
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/24
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/25
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/26
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/27
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/28
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/29
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/30
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/31
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/32
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/33
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/34
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/35
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/36
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/37
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/38
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/39
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/40
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/41
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/42
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/43
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/44
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/45
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/46
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/47
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/48
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/49
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/50
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/51
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/52
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/53
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/54
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/55
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/1/56
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/2/1
+        type: 40gbase-x-qsfpp
+      - name: ethernet 1/2/2
+        type: 40gbase-x-qsfpp
+      - name: ethernet 1/2/3
+        type: 40gbase-x-qsfpp
+      - name: ethernet 1/2/4
+        type: 40gbase-x-qsfpp
+      - name: ethernet 1/3/1
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/2
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/3
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/4
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/5
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/6
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/7
+        type: 10gbase-x-sfpp
+      - name: ethernet 1/3/8
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Brocade
+    model: ICX 6650-64
+    part_number: ICX6650-64
+    power-ports:
+      - maximum_draw: 250
+        name: PSU0
+        type: iec-60320-c14
+      - maximum_draw: 250
+        name: PSU1
+        type: iec-60320-c14
+    slug: brocade-icx6650-64
+    u_height: 1

@@ -1,4 +1,3 @@
----
 # Set on GitHub -> Settings -> Secrets and variables -> Actions -> Secrets:
 #   - PYPI_USERNAME: PyPI username
 #   - PYPI_PASSWORD: PyPI password
@@ -13,10 +12,8 @@ concurrency:
   cancel-in-progress: true
 on:
   pull_request:
-    types: [ closed ]
-
+    types: [closed]
 jobs:
-
   release:
     # Run only if the PR has been merged
     if: github.event.pull_request.merged == true

@@ -1,4 +1,3 @@
----
 - device: NXOS11
   interface: po2
   vlan: 4

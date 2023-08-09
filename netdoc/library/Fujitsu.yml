@@ -1,141 +1,141 @@
 keywords:
-- Primergy BX2560 M2
-- PRIMERGY TX1330 M4
-- PRIMERGY TX1310 M3
-- PRIMERGY TX1310 M1
-- PRIMERGY TX100 S1
-- Primergy BX924 S4
-- Primergy BX2560 M1
+  - Primergy BX2560 M2
+  - PRIMERGY TX1330 M4
+  - PRIMERGY TX1310 M3
+  - PRIMERGY TX1310 M1
+  - PRIMERGY TX100 S1
+  - Primergy BX924 S4
+  - Primergy BX2560 M1
 models:
-- console-ports:
-  - name: Console
-    type: rj-45
-  - name: Front VGA
-    type: other
-  console-server-ports:
-  - name: Front USB1
-    type: usb-a
-  interfaces:
-  - name: TenGig-E 1
-    type: 10gbase-t
-  - name: TenGig-E 2
-    type: 10gbase-t
-  is_full_depth: true
-  manufacturer: Fujitsu
-  model: Primergy BX2560 M2
-  slug: fujitsu-primergy-bx2560-m2
-  u_height: 0
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: iRMC-S5
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Fujitsu
-  model: PRIMERGY TX1330 M4
-  power-ports:
-  - maximum_draw: 250
-    name: Power 1
-    type: iec-60320-c14
-  slug: fujitsu-primergy-tx1330-m4
-  u_height: 5
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Fujitsu
-  model: PRIMERGY TX1310 M3
-  power-ports:
-  - maximum_draw: 250
-    name: Power 1
-    type: iec-60320-c14
-  slug: fujitsu-primergy-tx1310-m3
-  u_height: 5
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Fujitsu
-  model: PRIMERGY TX1310 M1
-  power-ports:
-  - maximum_draw: 250
-    name: Power 1
-    type: iec-60320-c14
-  slug: fujitsu-primergy-tx1310-m1
-  u_height: 5
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Fujitsu
-  model: PRIMERGY TX100 S1
-  power-ports:
-  - maximum_draw: 300
-    name: Power 1
-    type: iec-60320-c14
-  slug: fujitsu-primergy-tx100-s1
-  u_height: 5
-- console-ports:
-  - name: Console
-    type: rj-45
-  - name: Front VGA
-    type: other
-  console-server-ports:
-  - name: Front USB1
-    type: usb-a
-  - name: Rear USB1
-    type: usb-a
-  - name: Rear USB2
-    type: usb-a
-  interfaces:
-  - name: TenGig-E 1
-    type: 10gbase-t
-  - name: TenGig-E 2
-    type: 10gbase-t
-  is_full_depth: true
-  manufacturer: Fujitsu
-  model: Primergy BX924 S4
-  slug: fujitsu-primergy-bx924-s4
-  u_height: 0
-- console-ports:
-  - name: Console
-    type: rj-45
-  - name: Front VGA
-    type: other
-  console-server-ports:
-  - name: Front USB1
-    type: usb-a
-  interfaces:
-  - name: TenGig-E 1
-    type: 10gbase-t
-  - name: TenGig-E 2
-    type: 10gbase-t
-  is_full_depth: true
-  manufacturer: Fujitsu
-  model: Primergy BX2560 M1
-  slug: fujitsu-primergy-bx2560-m1
-  u_height: 0
+  - console-ports:
+      - name: Console
+        type: rj-45
+      - name: Front VGA
+        type: other
+    console-server-ports:
+      - name: Front USB1
+        type: usb-a
+    interfaces:
+      - name: TenGig-E 1
+        type: 10gbase-t
+      - name: TenGig-E 2
+        type: 10gbase-t
+    is_full_depth: true
+    manufacturer: Fujitsu
+    model: Primergy BX2560 M2
+    slug: fujitsu-primergy-bx2560-m2
+    u_height: 0
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: iRMC-S5
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Fujitsu
+    model: PRIMERGY TX1330 M4
+    power-ports:
+      - maximum_draw: 250
+        name: Power 1
+        type: iec-60320-c14
+    slug: fujitsu-primergy-tx1330-m4
+    u_height: 5
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Fujitsu
+    model: PRIMERGY TX1310 M3
+    power-ports:
+      - maximum_draw: 250
+        name: Power 1
+        type: iec-60320-c14
+    slug: fujitsu-primergy-tx1310-m3
+    u_height: 5
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Fujitsu
+    model: PRIMERGY TX1310 M1
+    power-ports:
+      - maximum_draw: 250
+        name: Power 1
+        type: iec-60320-c14
+    slug: fujitsu-primergy-tx1310-m1
+    u_height: 5
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Fujitsu
+    model: PRIMERGY TX100 S1
+    power-ports:
+      - maximum_draw: 300
+        name: Power 1
+        type: iec-60320-c14
+    slug: fujitsu-primergy-tx100-s1
+    u_height: 5
+  - console-ports:
+      - name: Console
+        type: rj-45
+      - name: Front VGA
+        type: other
+    console-server-ports:
+      - name: Front USB1
+        type: usb-a
+      - name: Rear USB1
+        type: usb-a
+      - name: Rear USB2
+        type: usb-a
+    interfaces:
+      - name: TenGig-E 1
+        type: 10gbase-t
+      - name: TenGig-E 2
+        type: 10gbase-t
+    is_full_depth: true
+    manufacturer: Fujitsu
+    model: Primergy BX924 S4
+    slug: fujitsu-primergy-bx924-s4
+    u_height: 0
+  - console-ports:
+      - name: Console
+        type: rj-45
+      - name: Front VGA
+        type: other
+    console-server-ports:
+      - name: Front USB1
+        type: usb-a
+    interfaces:
+      - name: TenGig-E 1
+        type: 10gbase-t
+      - name: TenGig-E 2
+        type: 10gbase-t
+    is_full_depth: true
+    manufacturer: Fujitsu
+    model: Primergy BX2560 M1
+    slug: fujitsu-primergy-bx2560-m1
+    u_height: 0

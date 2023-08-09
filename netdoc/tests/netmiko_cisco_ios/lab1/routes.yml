@@ -1,4 +1,3 @@
----
 - device: SW1
   destination: 192.168.0.0/24
   protocol: c

@@ -1,4 +1,3 @@
----
 - name: SW1
   site: test-site
   model: Unknown Cisco device

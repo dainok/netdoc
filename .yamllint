@@ -1,0 +1,13 @@
+extends: default
+ignore: |
+  .tox
+  changelogs/*
+rules:
+  braces:
+    max-spaces-inside: 1
+    level: error
+  brackets:
+    max-spaces-inside: 1
+    level: error
+  line-length: disable
+  document-start: disable

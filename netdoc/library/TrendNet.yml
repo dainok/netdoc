@@ -1,848 +1,848 @@
 keywords:
-- TEG-S50g
-- TC-P24C5E
-- TPE-113GI/A
-- TE100-S16
-- TEG-240WS
-- TK-802R
-- TEG-S224
-- TEW-WLC100
-- TEG-S16Dg
-- TC-P48C5E
-- TC-P16C5E
-- TEG-30284
-- TEW-821DAP
+  - TEG-S50g
+  - TC-P24C5E
+  - TPE-113GI/A
+  - TE100-S16
+  - TEG-240WS
+  - TK-802R
+  - TEG-S224
+  - TEW-WLC100
+  - TEG-S16Dg
+  - TC-P48C5E
+  - TC-P16C5E
+  - TEG-30284
+  - TEW-821DAP
 models:
-- interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: TrendNet
-  model: TEG-S50g
-  power-ports:
-  - name: Power
-    type: nema-5-15p
-  slug: trendnet-teg-s50g
-  u_height: 0
-- front-ports:
-  - name: Port 1
-    rear_port: Port 1
-    type: 8p8c
-  - name: Port 2
-    rear_port: Port 2
-    type: 8p8c
-  - name: Port 3
-    rear_port: Port 3
-    type: 8p8c
-  - name: Port 4
-    rear_port: Port 4
-    type: 8p8c
-  - name: Port 5
-    rear_port: Port 5
-    type: 8p8c
-  - name: Port 6
-    rear_port: Port 6
-    type: 8p8c
-  - name: Port 7
-    rear_port: Port 7
-    type: 8p8c
-  - name: Port 8
-    rear_port: Port 8
-    type: 8p8c
-  - name: Port 9
-    rear_port: Port 9
-    type: 8p8c
-  - name: Port 10
-    rear_port: Port 10
-    type: 8p8c
-  - name: Port 11
-    rear_port: Port 11
-    type: 8p8c
-  - name: Port 12
-    rear_port: Port 12
-    type: 8p8c
-  - name: Port 13
-    rear_port: Port 13
-    type: 8p8c
-  - name: Port 14
-    rear_port: Port 14
-    type: 8p8c
-  - name: Port 15
-    rear_port: Port 15
-    type: 8p8c
-  - name: Port 16
-    rear_port: Port 16
-    type: 8p8c
-  - name: Port 17
-    rear_port: Port 17
-    type: 8p8c
-  - name: Port 18
-    rear_port: Port 18
-    type: 8p8c
-  - name: Port 19
-    rear_port: Port 19
-    type: 8p8c
-  - name: Port 20
-    rear_port: Port 20
-    type: 8p8c
-  - name: Port 21
-    rear_port: Port 21
-    type: 8p8c
-  - name: Port 22
-    rear_port: Port 22
-    type: 8p8c
-  - name: Port 23
-    rear_port: Port 23
-    type: 8p8c
-  - name: Port 24
-    rear_port: Port 24
-    type: 8p8c
-  is_full_depth: false
-  manufacturer: TrendNet
-  model: TC-P24C5E
-  rear-ports:
-  - name: Port 1
-    type: 110-punch
-  - name: Port 2
-    type: 110-punch
-  - name: Port 3
-    type: 110-punch
-  - name: Port 4
-    type: 110-punch
-  - name: Port 5
-    type: 110-punch
-  - name: Port 6
-    type: 110-punch
-  - name: Port 7
-    type: 110-punch
-  - name: Port 8
-    type: 110-punch
-  - name: Port 9
-    type: 110-punch
-  - name: Port 10
-    type: 110-punch
-  - name: Port 11
-    type: 110-punch
-  - name: Port 12
-    type: 110-punch
-  - name: Port 13
-    type: 110-punch
-  - name: Port 14
-    type: 110-punch
-  - name: Port 15
-    type: 110-punch
-  - name: Port 16
-    type: 110-punch
-  - name: Port 17
-    type: 110-punch
-  - name: Port 18
-    type: 110-punch
-  - name: Port 19
-    type: 110-punch
-  - name: Port 20
-    type: 110-punch
-  - name: Port 21
-    type: 110-punch
-  - name: Port 22
-    type: 110-punch
-  - name: Port 23
-    type: 110-punch
-  - name: Port 24
-    type: 110-punch
-  slug: trendnet-tc-p24c5e
-  u_height: 1
-- front-ports:
-  - name: Data In
-    rear_port: PWR+Data Out
-    type: 8p8c
-  is_full_depth: false
-  manufacturer: TrendNet
-  model: TPE-113GI/A
-  power-ports:
-  - name: Power
-    type: nema-5-15p
-  rear-ports:
-  - name: PWR+Data Out
-    type: 8p8c
-  slug: trendnet-tpe-113gi-a
-  u_height: 0
-- interfaces:
-  - name: Port 1
-    type: 100base-tx
-  - name: Port 2
-    type: 100base-tx
-  - name: Port 3
-    type: 100base-tx
-  - name: Port 4
-    type: 100base-tx
-  - name: Port 5
-    type: 100base-tx
-  - name: Port 6
-    type: 100base-tx
-  - name: Port 7
-    type: 100base-tx
-  - name: Port 8
-    type: 100base-tx
-  - name: Port 9
-    type: 100base-tx
-  - name: Port 10
-    type: 100base-tx
-  - name: Port 11
-    type: 100base-tx
-  - name: Port 12
-    type: 100base-tx
-  - name: Port 13
-    type: 100base-tx
-  - name: Port 14
-    type: 100base-tx
-  - name: Port 15
-    type: 100base-tx
-  - name: Port 16
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: TrendNet
-  model: TE100-S16
-  power-ports:
-  - name: Power
-    type: iec-60320-c14
-  slug: trendnet-te100-s16
-  u_height: 1
-- interfaces:
-  - mgmt_only: true
-    name: Management
-    type: virtual
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  - name: Port 6
-    type: 1000base-t
-  - name: Port 7
-    type: 1000base-t
-  - name: Port 8
-    type: 1000base-t
-  - name: Port 9
-    type: 1000base-t
-  - name: Port 10
-    type: 1000base-t
-  - name: Port 11
-    type: 1000base-t
-  - name: Port 12
-    type: 1000base-t
-  - name: Port 13
-    type: 1000base-t
-  - name: Port 14
-    type: 1000base-t
-  - name: Port 15
-    type: 1000base-t
-  - name: Port 16
-    type: 1000base-t
-  - name: Port 17
-    type: 1000base-t
-  - name: Port 18
-    type: 1000base-t
-  - name: Port 19
-    type: 1000base-t
-  - name: Port 20
-    type: 1000base-t
-  - name: Port 21
-    type: 1000base-t
-  - name: Port 22
-    type: 1000base-t
-  - name: Port 23
-    type: 1000base-t
-  - name: Port 24
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: TrendNet
-  model: TEG-240WS
-  power-ports:
-  - name: Power
-    type: iec-60320-c14
-  slug: trendnet-teg-240ws
-  u_height: 1
-- console-ports:
-  - name: Monitor
-    type: other
-  - name: Diag/Chain In
-    type: other
-  console-server-ports:
-  - name: Computer 1
-    type: other
-  - name: Computer 2
-    type: other
-  - name: Computer 3
-    type: other
-  - name: Computer 4
-    type: other
-  - name: Computer 5
-    type: other
-  - name: Computer 6
-    type: other
-  - name: Computer 7
-    type: other
-  - name: Computer 8
-    type: other
-  is_full_depth: false
-  manufacturer: TrendNet
-  model: TK-802R
-  power-ports:
-  - name: Power
-    type: iec-60320-c14
-  slug: trendnet-tk-802r
-  u_height: 1
-- interfaces:
-  - name: Port 1
-    type: 100base-tx
-  - name: Port 2
-    type: 100base-tx
-  - name: Port 3
-    type: 100base-tx
-  - name: Port 4
-    type: 100base-tx
-  - name: Port 5
-    type: 100base-tx
-  - name: Port 6
-    type: 100base-tx
-  - name: Port 7
-    type: 100base-tx
-  - name: Port 8
-    type: 100base-tx
-  - name: Port 9
-    type: 100base-tx
-  - name: Port 10
-    type: 100base-tx
-  - name: Port 11
-    type: 100base-tx
-  - name: Port 12
-    type: 100base-tx
-  - name: Port 13
-    type: 100base-tx
-  - name: Port 14
-    type: 100base-tx
-  - name: Port 15
-    type: 100base-tx
-  - name: Port 16
-    type: 100base-tx
-  - name: Port 17
-    type: 100base-tx
-  - name: Port 18
-    type: 100base-tx
-  - name: Port 19
-    type: 100base-tx
-  - name: Port 20
-    type: 100base-tx
-  - name: Port 21
-    type: 100base-tx
-  - name: Port 22
-    type: 100base-tx
-  - name: Port 23
-    type: 100base-tx
-  - name: Port 24
-    type: 100base-tx
-  - name: Port 25
-    type: 1000base-t
-  - name: Port 26
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: TrendNet
-  model: TEG-S224
-  power-ports:
-  - name: Power
-    type: iec-60320-c14
-  slug: trendnet-teg-s224
-  u_height: 1
-- console-ports:
-  - name: USB
-    type: usb-a
-  interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: TrendNet
-  model: TEW-WLC100
-  power-ports:
-  - name: Power
-    type: nema-5-15p
-  slug: trendnet-tew-wlc100
-  u_height: 1
-- interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  - name: Port 6
-    type: 1000base-t
-  - name: Port 7
-    type: 1000base-t
-  - name: Port 8
-    type: 1000base-t
-  - name: Port 9
-    type: 1000base-t
-  - name: Port 10
-    type: 1000base-t
-  - name: Port 11
-    type: 1000base-t
-  - name: Port 12
-    type: 1000base-t
-  - name: Port 13
-    type: 1000base-t
-  - name: Port 14
-    type: 1000base-t
-  - name: Port 15
-    type: 1000base-t
-  - name: Port 16
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: TrendNet
-  model: TEG-S16Dg
-  power-ports:
-  - name: Power
-    type: nema-5-15p
-  slug: trendnet-teg-s16dg
-  u_height: 1
-- front-ports:
-  - name: Port 1
-    rear_port: Port 1
-    type: 8p8c
-  - name: Port 2
-    rear_port: Port 2
-    type: 8p8c
-  - name: Port 3
-    rear_port: Port 3
-    type: 8p8c
-  - name: Port 4
-    rear_port: Port 4
-    type: 8p8c
-  - name: Port 5
-    rear_port: Port 5
-    type: 8p8c
-  - name: Port 6
-    rear_port: Port 6
-    type: 8p8c
-  - name: Port 7
-    rear_port: Port 7
-    type: 8p8c
-  - name: Port 8
-    rear_port: Port 8
-    type: 8p8c
-  - name: Port 9
-    rear_port: Port 9
-    type: 8p8c
-  - name: Port 10
-    rear_port: Port 10
-    type: 8p8c
-  - name: Port 11
-    rear_port: Port 11
-    type: 8p8c
-  - name: Port 12
-    rear_port: Port 12
-    type: 8p8c
-  - name: Port 13
-    rear_port: Port 13
-    type: 8p8c
-  - name: Port 14
-    rear_port: Port 14
-    type: 8p8c
-  - name: Port 15
-    rear_port: Port 15
-    type: 8p8c
-  - name: Port 16
-    rear_port: Port 16
-    type: 8p8c
-  - name: Port 17
-    rear_port: Port 17
-    type: 8p8c
-  - name: Port 18
-    rear_port: Port 18
-    type: 8p8c
-  - name: Port 19
-    rear_port: Port 19
-    type: 8p8c
-  - name: Port 20
-    rear_port: Port 20
-    type: 8p8c
-  - name: Port 21
-    rear_port: Port 21
-    type: 8p8c
-  - name: Port 22
-    rear_port: Port 22
-    type: 8p8c
-  - name: Port 23
-    rear_port: Port 23
-    type: 8p8c
-  - name: Port 24
-    rear_port: Port 24
-    type: 8p8c
-  - name: Port 25
-    rear_port: Port 25
-    type: 8p8c
-  - name: Port 26
-    rear_port: Port 26
-    type: 8p8c
-  - name: Port 27
-    rear_port: Port 27
-    type: 8p8c
-  - name: Port 28
-    rear_port: Port 28
-    type: 8p8c
-  - name: Port 29
-    rear_port: Port 29
-    type: 8p8c
-  - name: Port 30
-    rear_port: Port 30
-    type: 8p8c
-  - name: Port 31
-    rear_port: Port 31
-    type: 8p8c
-  - name: Port 32
-    rear_port: Port 32
-    type: 8p8c
-  - name: Port 33
-    rear_port: Port 33
-    type: 8p8c
-  - name: Port 34
-    rear_port: Port 34
-    type: 8p8c
-  - name: Port 35
-    rear_port: Port 35
-    type: 8p8c
-  - name: Port 36
-    rear_port: Port 36
-    type: 8p8c
-  - name: Port 37
-    rear_port: Port 37
-    type: 8p8c
-  - name: Port 38
-    rear_port: Port 38
-    type: 8p8c
-  - name: Port 39
-    rear_port: Port 39
-    type: 8p8c
-  - name: Port 40
-    rear_port: Port 40
-    type: 8p8c
-  - name: Port 41
-    rear_port: Port 41
-    type: 8p8c
-  - name: Port 42
-    rear_port: Port 42
-    type: 8p8c
-  - name: Port 43
-    rear_port: Port 43
-    type: 8p8c
-  - name: Port 44
-    rear_port: Port 44
-    type: 8p8c
-  - name: Port 45
-    rear_port: Port 45
-    type: 8p8c
-  - name: Port 46
-    rear_port: Port 46
-    type: 8p8c
-  - name: Port 47
-    rear_port: Port 47
-    type: 8p8c
-  - name: Port 48
-    rear_port: Port 48
-    type: 8p8c
-  is_full_depth: false
-  manufacturer: TrendNet
-  model: TC-P48C5E
-  rear-ports:
-  - name: Port 1
-    type: 110-punch
-  - name: Port 2
-    type: 110-punch
-  - name: Port 3
-    type: 110-punch
-  - name: Port 4
-    type: 110-punch
-  - name: Port 5
-    type: 110-punch
-  - name: Port 6
-    type: 110-punch
-  - name: Port 7
-    type: 110-punch
-  - name: Port 8
-    type: 110-punch
-  - name: Port 9
-    type: 110-punch
-  - name: Port 10
-    type: 110-punch
-  - name: Port 11
-    type: 110-punch
-  - name: Port 12
-    type: 110-punch
-  - name: Port 13
-    type: 110-punch
-  - name: Port 14
-    type: 110-punch
-  - name: Port 15
-    type: 110-punch
-  - name: Port 16
-    type: 110-punch
-  - name: Port 17
-    type: 110-punch
-  - name: Port 18
-    type: 110-punch
-  - name: Port 19
-    type: 110-punch
-  - name: Port 20
-    type: 110-punch
-  - name: Port 21
-    type: 110-punch
-  - name: Port 22
-    type: 110-punch
-  - name: Port 23
-    type: 110-punch
-  - name: Port 24
-    type: 110-punch
-  - name: Port 25
-    type: 110-punch
-  - name: Port 26
-    type: 110-punch
-  - name: Port 27
-    type: 110-punch
-  - name: Port 28
-    type: 110-punch
-  - name: Port 29
-    type: 110-punch
-  - name: Port 30
-    type: 110-punch
-  - name: Port 31
-    type: 110-punch
-  - name: Port 32
-    type: 110-punch
-  - name: Port 33
-    type: 110-punch
-  - name: Port 34
-    type: 110-punch
-  - name: Port 35
-    type: 110-punch
-  - name: Port 36
-    type: 110-punch
-  - name: Port 37
-    type: 110-punch
-  - name: Port 38
-    type: 110-punch
-  - name: Port 39
-    type: 110-punch
-  - name: Port 40
-    type: 110-punch
-  - name: Port 41
-    type: 110-punch
-  - name: Port 42
-    type: 110-punch
-  - name: Port 43
-    type: 110-punch
-  - name: Port 44
-    type: 110-punch
-  - name: Port 45
-    type: 110-punch
-  - name: Port 46
-    type: 110-punch
-  - name: Port 47
-    type: 110-punch
-  - name: Port 48
-    type: 110-punch
-  slug: trendnet-tc-p48c5e
-  u_height: 2
-- front-ports:
-  - name: Port 1
-    rear_port: Port 1
-    type: 8p8c
-  - name: Port 2
-    rear_port: Port 2
-    type: 8p8c
-  - name: Port 3
-    rear_port: Port 3
-    type: 8p8c
-  - name: Port 4
-    rear_port: Port 4
-    type: 8p8c
-  - name: Port 5
-    rear_port: Port 5
-    type: 8p8c
-  - name: Port 6
-    rear_port: Port 6
-    type: 8p8c
-  - name: Port 7
-    rear_port: Port 7
-    type: 8p8c
-  - name: Port 8
-    rear_port: Port 8
-    type: 8p8c
-  - name: Port 9
-    rear_port: Port 9
-    type: 8p8c
-  - name: Port 10
-    rear_port: Port 10
-    type: 8p8c
-  - name: Port 11
-    rear_port: Port 11
-    type: 8p8c
-  - name: Port 12
-    rear_port: Port 12
-    type: 8p8c
-  - name: Port 13
-    rear_port: Port 13
-    type: 8p8c
-  - name: Port 14
-    rear_port: Port 14
-    type: 8p8c
-  - name: Port 15
-    rear_port: Port 15
-    type: 8p8c
-  - name: Port 16
-    rear_port: Port 16
-    type: 8p8c
-  is_full_depth: false
-  manufacturer: TrendNet
-  model: TC-P16C5E
-  rear-ports:
-  - name: Port 1
-    type: 110-punch
-  - name: Port 2
-    type: 110-punch
-  - name: Port 3
-    type: 110-punch
-  - name: Port 4
-    type: 110-punch
-  - name: Port 5
-    type: 110-punch
-  - name: Port 6
-    type: 110-punch
-  - name: Port 7
-    type: 110-punch
-  - name: Port 8
-    type: 110-punch
-  - name: Port 9
-    type: 110-punch
-  - name: Port 10
-    type: 110-punch
-  - name: Port 11
-    type: 110-punch
-  - name: Port 12
-    type: 110-punch
-  - name: Port 13
-    type: 110-punch
-  - name: Port 14
-    type: 110-punch
-  - name: Port 15
-    type: 110-punch
-  - name: Port 16
-    type: 110-punch
-  slug: trendnet-tc-p16c5e
-  u_height: 1
-- interfaces:
-  - mgmt_only: true
-    name: Management
-    type: virtual
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
-    type: 1000base-t
-  - name: Port 6
-    type: 1000base-t
-  - name: Port 7
-    type: 1000base-t
-  - name: Port 8
-    type: 1000base-t
-  - name: Port 9
-    type: 1000base-t
-  - name: Port 10
-    type: 1000base-t
-  - name: Port 11
-    type: 1000base-t
-  - name: Port 12
-    type: 1000base-t
-  - name: Port 13
-    type: 1000base-t
-  - name: Port 14
-    type: 1000base-t
-  - name: Port 15
-    type: 1000base-t
-  - name: Port 16
-    type: 1000base-t
-  - name: Port 17
-    type: 1000base-t
-  - name: Port 18
-    type: 1000base-t
-  - name: Port 19
-    type: 1000base-t
-  - name: Port 20
-    type: 1000base-t
-  - name: Port 21
-    type: 1000base-t
-  - name: Port 22
-    type: 1000base-t
-  - name: Port 23
-    type: 1000base-t
-  - name: Port 24
-    type: 1000base-t
-  - name: Port 25
-    type: 10gbase-x-sfpp
-  - name: Port 26
-    type: 10gbase-x-sfpp
-  - name: Port 27
-    type: 10gbase-x-sfpp
-  - name: Port 28
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: TrendNet
-  model: TEG-30284
-  power-ports:
-  - name: Power
-    type: iec-60320-c14
-  slug: trendnet-teg-30284
-  u_height: 1
-- interfaces:
-  - name: LAN
-    type: 1000base-t
-  - name: wifi 1
-    type: ieee802.11n
-  - name: wifi 2
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: TrendNet
-  model: TEW-821DAP
-  power-ports:
-  - name: Power
-    type: nema-5-15p
-  slug: trendnet-tew-821dap
-  u_height: 0
+  - interfaces:
+      - name: Port 1
+        type: 1000base-t
+      - name: Port 2
+        type: 1000base-t
+      - name: Port 3
+        type: 1000base-t
+      - name: Port 4
+        type: 1000base-t
+      - name: Port 5
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: TrendNet
+    model: TEG-S50g
+    power-ports:
+      - name: Power
+        type: nema-5-15p
+    slug: trendnet-teg-s50g
+    u_height: 0
+  - front-ports:
+      - name: Port 1
+        rear_port: Port 1
+        type: 8p8c
+      - name: Port 2
+        rear_port: Port 2
+        type: 8p8c
+      - name: Port 3
+        rear_port: Port 3
+        type: 8p8c
+      - name: Port 4
+        rear_port: Port 4
+        type: 8p8c
+      - name: Port 5
+        rear_port: Port 5
+        type: 8p8c
+      - name: Port 6
+        rear_port: Port 6
+        type: 8p8c
+      - name: Port 7
+        rear_port: Port 7
+        type: 8p8c
+      - name: Port 8
+        rear_port: Port 8
+        type: 8p8c
+      - name: Port 9
+        rear_port: Port 9
+        type: 8p8c
+      - name: Port 10
+        rear_port: Port 10
+        type: 8p8c
+      - name: Port 11
+        rear_port: Port 11
+        type: 8p8c
+      - name: Port 12
+        rear_port: Port 12
+        type: 8p8c
+      - name: Port 13
+        rear_port: Port 13
+        type: 8p8c
+      - name: Port 14
+        rear_port: Port 14
+        type: 8p8c
+      - name: Port 15
+        rear_port: Port 15
+        type: 8p8c
+      - name: Port 16
+        rear_port: Port 16
+        type: 8p8c
+      - name: Port 17
+        rear_port: Port 17
+        type: 8p8c
+      - name: Port 18
+        rear_port: Port 18
+        type: 8p8c
+      - name: Port 19
+        rear_port: Port 19
+        type: 8p8c
+      - name: Port 20
+        rear_port: Port 20
+        type: 8p8c
+      - name: Port 21
+        rear_port: Port 21
+        type: 8p8c
+      - name: Port 22
+        rear_port: Port 22
+        type: 8p8c
+      - name: Port 23
+        rear_port: Port 23
+        type: 8p8c
+      - name: Port 24
+        rear_port: Port 24
+        type: 8p8c
+    is_full_depth: false
+    manufacturer: TrendNet
+    model: TC-P24C5E
+    rear-ports:
+      - name: Port 1
+        type: 110-punch
+      - name: Port 2
+        type: 110-punch
+      - name: Port 3
+        type: 110-punch
+      - name: Port 4
+        type: 110-punch
+      - name: Port 5
+        type: 110-punch
+      - name: Port 6
+        type: 110-punch
+      - name: Port 7
+        type: 110-punch
+      - name: Port 8
+        type: 110-punch
+      - name: Port 9
+        type: 110-punch
+      - name: Port 10
+        type: 110-punch
+      - name: Port 11
+        type: 110-punch
+      - name: Port 12
+        type: 110-punch
+      - name: Port 13
+        type: 110-punch
+      - name: Port 14
+        type: 110-punch
+      - name: Port 15
+        type: 110-punch
+      - name: Port 16
+        type: 110-punch
+      - name: Port 17
+        type: 110-punch
+      - name: Port 18
+        type: 110-punch
+      - name: Port 19
+        type: 110-punch
+      - name: Port 20
+        type: 110-punch
+      - name: Port 21
+        type: 110-punch
+      - name: Port 22
+        type: 110-punch
+      - name: Port 23
+        type: 110-punch
+      - name: Port 24
+        type: 110-punch
+    slug: trendnet-tc-p24c5e
+    u_height: 1
+  - front-ports:
+      - name: Data In
+        rear_port: PWR+Data Out
+        type: 8p8c
+    is_full_depth: false
+    manufacturer: TrendNet
+    model: TPE-113GI/A
+    power-ports:
+      - name: Power
+        type: nema-5-15p
+    rear-ports:
+      - name: PWR+Data Out
+        type: 8p8c
+    slug: trendnet-tpe-113gi-a
+    u_height: 0
+  - interfaces:
+      - name: Port 1
+        type: 100base-tx
+      - name: Port 2
+        type: 100base-tx
+      - name: Port 3
+        type: 100base-tx
+      - name: Port 4
+        type: 100base-tx
+      - name: Port 5
+        type: 100base-tx
+      - name: Port 6
+        type: 100base-tx
+      - name: Port 7
+        type: 100base-tx
+      - name: Port 8
+        type: 100base-tx
+      - name: Port 9
+        type: 100base-tx
+      - name: Port 10
+        type: 100base-tx
+      - name: Port 11
+        type: 100base-tx
+      - name: Port 12
+        type: 100base-tx
+      - name: Port 13
+        type: 100base-tx
+      - name: Port 14
+        type: 100base-tx
+      - name: Port 15
+        type: 100base-tx
+      - name: Port 16
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: TrendNet
+    model: TE100-S16
+    power-ports:
+      - name: Power
+        type: iec-60320-c14
+    slug: trendnet-te100-s16
+    u_height: 1
+  - interfaces:
+      - mgmt_only: true
+        name: Management
+        type: virtual
+      - name: Port 1
+        type: 1000base-t
+      - name: Port 2
+        type: 1000base-t
+      - name: Port 3
+        type: 1000base-t
+      - name: Port 4
+        type: 1000base-t
+      - name: Port 5
+        type: 1000base-t
+      - name: Port 6
+        type: 1000base-t
+      - name: Port 7
+        type: 1000base-t
+      - name: Port 8
+        type: 1000base-t
+      - name: Port 9
+        type: 1000base-t
+      - name: Port 10
+        type: 1000base-t
+      - name: Port 11
+        type: 1000base-t
+      - name: Port 12
+        type: 1000base-t
+      - name: Port 13
+        type: 1000base-t
+      - name: Port 14
+        type: 1000base-t
+      - name: Port 15
+        type: 1000base-t
+      - name: Port 16
+        type: 1000base-t
+      - name: Port 17
+        type: 1000base-t
+      - name: Port 18
+        type: 1000base-t
+      - name: Port 19
+        type: 1000base-t
+      - name: Port 20
+        type: 1000base-t
+      - name: Port 21
+        type: 1000base-t
+      - name: Port 22
+        type: 1000base-t
+      - name: Port 23
+        type: 1000base-t
+      - name: Port 24
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: TrendNet
+    model: TEG-240WS
+    power-ports:
+      - name: Power
+        type: iec-60320-c14
+    slug: trendnet-teg-240ws
+    u_height: 1
+  - console-ports:
+      - name: Monitor
+        type: other
+      - name: Diag/Chain In
+        type: other
+    console-server-ports:
+      - name: Computer 1
+        type: other
+      - name: Computer 2
+        type: other
+      - name: Computer 3
+        type: other
+      - name: Computer 4
+        type: other
+      - name: Computer 5
+        type: other
+      - name: Computer 6
+        type: other
+      - name: Computer 7
+        type: other
+      - name: Computer 8
+        type: other
+    is_full_depth: false
+    manufacturer: TrendNet
+    model: TK-802R
+    power-ports:
+      - name: Power
+        type: iec-60320-c14
+    slug: trendnet-tk-802r
+    u_height: 1
+  - interfaces:
+      - name: Port 1
+        type: 100base-tx
+      - name: Port 2
+        type: 100base-tx
+      - name: Port 3
+        type: 100base-tx
+      - name: Port 4
+        type: 100base-tx
+      - name: Port 5
+        type: 100base-tx
+      - name: Port 6
+        type: 100base-tx
+      - name: Port 7
+        type: 100base-tx
+      - name: Port 8
+        type: 100base-tx
+      - name: Port 9
+        type: 100base-tx
+      - name: Port 10
+        type: 100base-tx
+      - name: Port 11
+        type: 100base-tx
+      - name: Port 12
+        type: 100base-tx
+      - name: Port 13
+        type: 100base-tx
+      - name: Port 14
+        type: 100base-tx
+      - name: Port 15
+        type: 100base-tx
+      - name: Port 16
+        type: 100base-tx
+      - name: Port 17
+        type: 100base-tx
+      - name: Port 18
+        type: 100base-tx
+      - name: Port 19
+        type: 100base-tx
+      - name: Port 20
+        type: 100base-tx
+      - name: Port 21
+        type: 100base-tx
+      - name: Port 22
+        type: 100base-tx
+      - name: Port 23
+        type: 100base-tx
+      - name: Port 24
+        type: 100base-tx
+      - name: Port 25
+        type: 1000base-t
+      - name: Port 26
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: TrendNet
+    model: TEG-S224
+    power-ports:
+      - name: Power
+        type: iec-60320-c14
+    slug: trendnet-teg-s224
+    u_height: 1
+  - console-ports:
+      - name: USB
+        type: usb-a
+    interfaces:
+      - name: Port 1
+        type: 1000base-t
+      - name: Port 2
+        type: 1000base-t
+      - name: Port 3
+        type: 1000base-t
+      - name: Port 4
+        type: 1000base-t
+      - name: Port 5
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: TrendNet
+    model: TEW-WLC100
+    power-ports:
+      - name: Power
+        type: nema-5-15p
+    slug: trendnet-tew-wlc100
+    u_height: 1
+  - interfaces:
+      - name: Port 1
+        type: 1000base-t
+      - name: Port 2
+        type: 1000base-t
+      - name: Port 3
+        type: 1000base-t
+      - name: Port 4
+        type: 1000base-t
+      - name: Port 5
+        type: 1000base-t
+      - name: Port 6
+        type: 1000base-t
+      - name: Port 7
+        type: 1000base-t
+      - name: Port 8
+        type: 1000base-t
+      - name: Port 9
+        type: 1000base-t
+      - name: Port 10
+        type: 1000base-t
+      - name: Port 11
+        type: 1000base-t
+      - name: Port 12
+        type: 1000base-t
+      - name: Port 13
+        type: 1000base-t
+      - name: Port 14
+        type: 1000base-t
+      - name: Port 15
+        type: 1000base-t
+      - name: Port 16
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: TrendNet
+    model: TEG-S16Dg
+    power-ports:
+      - name: Power
+        type: nema-5-15p
+    slug: trendnet-teg-s16dg
+    u_height: 1
+  - front-ports:
+      - name: Port 1
+        rear_port: Port 1
+        type: 8p8c
+      - name: Port 2
+        rear_port: Port 2
+        type: 8p8c
+      - name: Port 3
+        rear_port: Port 3
+        type: 8p8c
+      - name: Port 4
+        rear_port: Port 4
+        type: 8p8c
+      - name: Port 5
+        rear_port: Port 5
+        type: 8p8c
+      - name: Port 6
+        rear_port: Port 6
+        type: 8p8c
+      - name: Port 7
+        rear_port: Port 7
+        type: 8p8c
+      - name: Port 8
+        rear_port: Port 8
+        type: 8p8c
+      - name: Port 9
+        rear_port: Port 9
+        type: 8p8c
+      - name: Port 10
+        rear_port: Port 10
+        type: 8p8c
+      - name: Port 11
+        rear_port: Port 11
+        type: 8p8c
+      - name: Port 12
+        rear_port: Port 12
+        type: 8p8c
+      - name: Port 13
+        rear_port: Port 13
+        type: 8p8c
+      - name: Port 14
+        rear_port: Port 14
+        type: 8p8c
+      - name: Port 15
+        rear_port: Port 15
+        type: 8p8c
+      - name: Port 16
+        rear_port: Port 16
+        type: 8p8c
+      - name: Port 17
+        rear_port: Port 17
+        type: 8p8c
+      - name: Port 18
+        rear_port: Port 18
+        type: 8p8c
+      - name: Port 19
+        rear_port: Port 19
+        type: 8p8c
+      - name: Port 20
+        rear_port: Port 20
+        type: 8p8c
+      - name: Port 21
+        rear_port: Port 21
+        type: 8p8c
+      - name: Port 22
+        rear_port: Port 22
+        type: 8p8c
+      - name: Port 23
+        rear_port: Port 23
+        type: 8p8c
+      - name: Port 24
+        rear_port: Port 24
+        type: 8p8c
+      - name: Port 25
+        rear_port: Port 25
+        type: 8p8c
+      - name: Port 26
+        rear_port: Port 26
+        type: 8p8c
+      - name: Port 27
+        rear_port: Port 27
+        type: 8p8c
+      - name: Port 28
+        rear_port: Port 28
+        type: 8p8c
+      - name: Port 29
+        rear_port: Port 29
+        type: 8p8c
+      - name: Port 30
+        rear_port: Port 30
+        type: 8p8c
+      - name: Port 31
+        rear_port: Port 31
+        type: 8p8c
+      - name: Port 32
+        rear_port: Port 32
+        type: 8p8c
+      - name: Port 33
+        rear_port: Port 33
+        type: 8p8c
+      - name: Port 34
+        rear_port: Port 34
+        type: 8p8c
+      - name: Port 35
+        rear_port: Port 35
+        type: 8p8c
+      - name: Port 36
+        rear_port: Port 36
+        type: 8p8c
+      - name: Port 37
+        rear_port: Port 37
+        type: 8p8c
+      - name: Port 38
+        rear_port: Port 38
+        type: 8p8c
+      - name: Port 39
+        rear_port: Port 39
+        type: 8p8c
+      - name: Port 40
+        rear_port: Port 40
+        type: 8p8c
+      - name: Port 41
+        rear_port: Port 41
+        type: 8p8c
+      - name: Port 42
+        rear_port: Port 42
+        type: 8p8c
+      - name: Port 43
+        rear_port: Port 43
+        type: 8p8c
+      - name: Port 44
+        rear_port: Port 44
+        type: 8p8c
+      - name: Port 45
+        rear_port: Port 45
+        type: 8p8c
+      - name: Port 46
+        rear_port: Port 46
+        type: 8p8c
+      - name: Port 47
+        rear_port: Port 47
+        type: 8p8c
+      - name: Port 48
+        rear_port: Port 48
+        type: 8p8c
+    is_full_depth: false
+    manufacturer: TrendNet
+    model: TC-P48C5E
+    rear-ports:
+      - name: Port 1
+        type: 110-punch
+      - name: Port 2
+        type: 110-punch
+      - name: Port 3
+        type: 110-punch
+      - name: Port 4
+        type: 110-punch
+      - name: Port 5
+        type: 110-punch
+      - name: Port 6
+        type: 110-punch
+      - name: Port 7
+        type: 110-punch
+      - name: Port 8
+        type: 110-punch
+      - name: Port 9
+        type: 110-punch
+      - name: Port 10
+        type: 110-punch
+      - name: Port 11
+        type: 110-punch
+      - name: Port 12
+        type: 110-punch
+      - name: Port 13
+        type: 110-punch
+      - name: Port 14
+        type: 110-punch
+      - name: Port 15
+        type: 110-punch
+      - name: Port 16
+        type: 110-punch
+      - name: Port 17
+        type: 110-punch
+      - name: Port 18
+        type: 110-punch
+      - name: Port 19
+        type: 110-punch
+      - name: Port 20
+        type: 110-punch
+      - name: Port 21
+        type: 110-punch
+      - name: Port 22
+        type: 110-punch
+      - name: Port 23
+        type: 110-punch
+      - name: Port 24
+        type: 110-punch
+      - name: Port 25
+        type: 110-punch
+      - name: Port 26
+        type: 110-punch
+      - name: Port 27
+        type: 110-punch
+      - name: Port 28
+        type: 110-punch
+      - name: Port 29
+        type: 110-punch
+      - name: Port 30
+        type: 110-punch
+      - name: Port 31
+        type: 110-punch
+      - name: Port 32
+        type: 110-punch
+      - name: Port 33
+        type: 110-punch
+      - name: Port 34
+        type: 110-punch
+      - name: Port 35
+        type: 110-punch
+      - name: Port 36
+        type: 110-punch
+      - name: Port 37
+        type: 110-punch
+      - name: Port 38
+        type: 110-punch
+      - name: Port 39
+        type: 110-punch
+      - name: Port 40
+        type: 110-punch
+      - name: Port 41
+        type: 110-punch
+      - name: Port 42
+        type: 110-punch
+      - name: Port 43
+        type: 110-punch
+      - name: Port 44
+        type: 110-punch
+      - name: Port 45
+        type: 110-punch
+      - name: Port 46
+        type: 110-punch
+      - name: Port 47
+        type: 110-punch
+      - name: Port 48
+        type: 110-punch
+    slug: trendnet-tc-p48c5e
+    u_height: 2
+  - front-ports:
+      - name: Port 1
+        rear_port: Port 1
+        type: 8p8c
+      - name: Port 2
+        rear_port: Port 2
+        type: 8p8c
+      - name: Port 3
+        rear_port: Port 3
+        type: 8p8c
+      - name: Port 4
+        rear_port: Port 4
+        type: 8p8c
+      - name: Port 5
+        rear_port: Port 5
+        type: 8p8c
+      - name: Port 6
+        rear_port: Port 6
+        type: 8p8c
+      - name: Port 7
+        rear_port: Port 7
+        type: 8p8c
+      - name: Port 8
+        rear_port: Port 8
+        type: 8p8c
+      - name: Port 9
+        rear_port: Port 9
+        type: 8p8c
+      - name: Port 10
+        rear_port: Port 10
+        type: 8p8c
+      - name: Port 11
+        rear_port: Port 11
+        type: 8p8c
+      - name: Port 12
+        rear_port: Port 12
+        type: 8p8c
+      - name: Port 13
+        rear_port: Port 13
+        type: 8p8c
+      - name: Port 14
+        rear_port: Port 14
+        type: 8p8c
+      - name: Port 15
+        rear_port: Port 15
+        type: 8p8c
+      - name: Port 16
+        rear_port: Port 16
+        type: 8p8c
+    is_full_depth: false
+    manufacturer: TrendNet
+    model: TC-P16C5E
+    rear-ports:
+      - name: Port 1
+        type: 110-punch
+      - name: Port 2
+        type: 110-punch
+      - name: Port 3
+        type: 110-punch
+      - name: Port 4
+        type: 110-punch
+      - name: Port 5
+        type: 110-punch
+      - name: Port 6
+        type: 110-punch
+      - name: Port 7
+        type: 110-punch
+      - name: Port 8
+        type: 110-punch
+      - name: Port 9
+        type: 110-punch
+      - name: Port 10
+        type: 110-punch
+      - name: Port 11
+        type: 110-punch
+      - name: Port 12
+        type: 110-punch
+      - name: Port 13
+        type: 110-punch
+      - name: Port 14
+        type: 110-punch
+      - name: Port 15
+        type: 110-punch
+      - name: Port 16
+        type: 110-punch
+    slug: trendnet-tc-p16c5e
+    u_height: 1
+  - interfaces:
+      - mgmt_only: true
+        name: Management
+        type: virtual
+      - name: Port 1
+        type: 1000base-t
+      - name: Port 2
+        type: 1000base-t
+      - name: Port 3
+        type: 1000base-t
+      - name: Port 4
+        type: 1000base-t
+      - name: Port 5
+        type: 1000base-t
+      - name: Port 6
+        type: 1000base-t
+      - name: Port 7
+        type: 1000base-t
+      - name: Port 8
+        type: 1000base-t
+      - name: Port 9
+        type: 1000base-t
+      - name: Port 10
+        type: 1000base-t
+      - name: Port 11
+        type: 1000base-t
+      - name: Port 12
+        type: 1000base-t
+      - name: Port 13
+        type: 1000base-t
+      - name: Port 14
+        type: 1000base-t
+      - name: Port 15
+        type: 1000base-t
+      - name: Port 16
+        type: 1000base-t
+      - name: Port 17
+        type: 1000base-t
+      - name: Port 18
+        type: 1000base-t
+      - name: Port 19
+        type: 1000base-t
+      - name: Port 20
+        type: 1000base-t
+      - name: Port 21
+        type: 1000base-t
+      - name: Port 22
+        type: 1000base-t
+      - name: Port 23
+        type: 1000base-t
+      - name: Port 24
+        type: 1000base-t
+      - name: Port 25
+        type: 10gbase-x-sfpp
+      - name: Port 26
+        type: 10gbase-x-sfpp
+      - name: Port 27
+        type: 10gbase-x-sfpp
+      - name: Port 28
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: TrendNet
+    model: TEG-30284
+    power-ports:
+      - name: Power
+        type: iec-60320-c14
+    slug: trendnet-teg-30284
+    u_height: 1
+  - interfaces:
+      - name: LAN
+        type: 1000base-t
+      - name: wifi 1
+        type: ieee802.11n
+      - name: wifi 2
+        type: ieee802.11ac
+    is_full_depth: false
+    manufacturer: TrendNet
+    model: TEW-821DAP
+    power-ports:
+      - name: Power
+        type: nema-5-15p
+    slug: trendnet-tew-821dap
+    u_height: 0

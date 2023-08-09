@@ -1,4 +1,3 @@
----
 SW1:
   - name: Ethernet0/0
     label: e0/0
@@ -6,7 +5,7 @@ SW1:
     speed: 10000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: Management
     mode: ""
     untagged_vlan: null
@@ -25,7 +24,7 @@ SW1:
     speed: 10000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: Channel 1
     mode: tagged-all
     untagged_vlan: 1
@@ -43,7 +42,7 @@ SW1:
     speed: 10000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: Channel 2
     mode: tagged-all
     untagged_vlan: 1
@@ -61,7 +60,7 @@ SW1:
     speed: 10000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: Routed
     mode: ""
     untagged_vlan: null
@@ -80,7 +79,7 @@ SW1:
     speed: 10000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -99,7 +98,7 @@ SW1:
     speed: 10000
     duplex: null
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -118,7 +117,7 @@ SW1:
     speed: 10000
     duplex: auto
     mtu: 1500
-    enabled: False
+    enabled: false
     description: ""
     mode: ""
     untagged_vlan: null
@@ -136,7 +135,7 @@ SW1:
     speed: 10000
     duplex: auto
     mtu: 1500
-    enabled: False
+    enabled: false
     description: ""
     mode: ""
     untagged_vlan: null
@@ -154,7 +153,7 @@ SW1:
     speed: 10000
     duplex: auto
     mtu: 1500
-    enabled: False
+    enabled: false
     description: ""
     mode: ""
     untagged_vlan: null
@@ -172,7 +171,7 @@ SW1:
     speed: 20000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: Main Link
     mode: tagged-all
     untagged_vlan: 1
@@ -190,7 +189,7 @@ SW1:
     speed: 1000000
     duplex: null
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -209,7 +208,7 @@ SW1:
     speed: 1000000
     duplex: null
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -229,7 +228,7 @@ SW2:
     speed: null
     duplex: null
     mtu: null
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -247,7 +246,7 @@ SW2:
     speed: null
     duplex: null
     mtu: null
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -265,7 +264,7 @@ SW2:
     speed: null
     duplex: null
     mtu: null
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -283,7 +282,7 @@ SW2:
     speed: null
     duplex: null
     mtu: null
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null

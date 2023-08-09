@@ -1,4 +1,3 @@
----
 - device: SW1
   destination: 169.254.0.0/16
   protocol: c

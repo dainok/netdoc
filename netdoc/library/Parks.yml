@@ -1,60 +1,60 @@
 keywords:
-- Fiberlink 30028
+  - Fiberlink 30028
 models:
-- console-ports:
-  - name: console
-    type: rj-45
-  interfaces:
-  - name: giga-ethernet0/0
-    type: 1000base-t
-  - name: giga-ethernet0/1
-    type: 1000base-t
-  - name: giga-ethernet0/2
-    type: 1000base-t
-  - name: giga-ethernet0/3
-    type: 1000base-t
-  - name: giga-ethernet0/4
-    type: 1000base-t
-  - name: giga-ethernet0/5
-    type: 1000base-t
-  - name: giga-ethernet0/6
-    type: 1000base-t
-  - name: giga-ethernet0/7
-    type: 1000base-t
-  - name: gpon1/1
-    type: 10gbase-x-sfpp
-  - name: gpon1/2
-    type: 10gbase-x-sfpp
-  - name: gpon1/3
-    type: 10gbase-x-sfpp
-  - name: gpon1/4
-    type: 10gbase-x-sfpp
-  - name: gpon1/5
-    type: 10gbase-x-sfpp
-  - name: gpon1/6
-    type: 10gbase-x-sfpp
-  - name: gpon1/7
-    type: 10gbase-x-sfpp
-  - name: gpon1/8
-    type: 10gbase-x-sfpp
-  - name: 10giga-ethernet0/0
-    type: 10gbase-x-sfpp
-  - name: 10giga-ethernet0/1
-    type: 10gbase-x-sfpp
-  - mgmt_only: true
-    name: mgmt
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Parks
-  model: Fiberlink 30028
-  power-ports:
-  - allocated_draw: 30
-    maximum_draw: 50
-    name: PSU1
-    type: dc-terminal
-  - allocated_draw: 30
-    maximum_draw: 50
-    name: PSU2
-    type: dc-terminal
-  slug: parks-fiberlink-30028
-  u_height: 1
+  - console-ports:
+      - name: console
+        type: rj-45
+    interfaces:
+      - name: giga-ethernet0/0
+        type: 1000base-t
+      - name: giga-ethernet0/1
+        type: 1000base-t
+      - name: giga-ethernet0/2
+        type: 1000base-t
+      - name: giga-ethernet0/3
+        type: 1000base-t
+      - name: giga-ethernet0/4
+        type: 1000base-t
+      - name: giga-ethernet0/5
+        type: 1000base-t
+      - name: giga-ethernet0/6
+        type: 1000base-t
+      - name: giga-ethernet0/7
+        type: 1000base-t
+      - name: gpon1/1
+        type: 10gbase-x-sfpp
+      - name: gpon1/2
+        type: 10gbase-x-sfpp
+      - name: gpon1/3
+        type: 10gbase-x-sfpp
+      - name: gpon1/4
+        type: 10gbase-x-sfpp
+      - name: gpon1/5
+        type: 10gbase-x-sfpp
+      - name: gpon1/6
+        type: 10gbase-x-sfpp
+      - name: gpon1/7
+        type: 10gbase-x-sfpp
+      - name: gpon1/8
+        type: 10gbase-x-sfpp
+      - name: 10giga-ethernet0/0
+        type: 10gbase-x-sfpp
+      - name: 10giga-ethernet0/1
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: mgmt
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Parks
+    model: Fiberlink 30028
+    power-ports:
+      - allocated_draw: 30
+        maximum_draw: 50
+        name: PSU1
+        type: dc-terminal
+      - allocated_draw: 30
+        maximum_draw: 50
+        name: PSU2
+        type: dc-terminal
+    slug: parks-fiberlink-30028
+    u_height: 1

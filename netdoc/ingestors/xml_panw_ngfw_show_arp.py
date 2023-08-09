@@ -4,7 +4,13 @@ __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2023, Andrea Dainese"
 __license__ = "GPLv3"
 
-from netdoc.schemas import device, vrf, interface, virtualmachine_interface, arptableentry
+from netdoc.schemas import (
+    device,
+    vrf,
+    interface,
+    virtualmachine_interface,
+    arptableentry,
+)
 from netdoc import utils
 
 
@@ -14,7 +20,9 @@ def ingest(log):
     vm_o = log.discoverable.vm if log.discoverable.vm else None
 
     try:
-        items = log.parsed_output.get("response").get("result").get("entries").get("entry")
+        items = (
+            log.parsed_output.get("response").get("result").get("entries").get("entry")
+        )
     except AttributeError:
         items = []
     for item in items:
@@ -27,7 +35,9 @@ def ingest(log):
 
         if vm_o:
             # Get or create Interface
-            interface_o = virtualmachine_interface.get(virtual_machine_id=vm_o.id, name=interface_name)
+            interface_o = virtualmachine_interface.get(
+                virtual_machine_id=vm_o.id, name=interface_name
+            )
             if not interface_o:
                 interface_data = {
                     "name": label,
@@ -54,8 +64,6 @@ def ingest(log):
         #         "mac_address": mac_address,
         #     }
         #     arptableentry.create(**data)
-
-
 
     # Update the log
     log.ingested = True

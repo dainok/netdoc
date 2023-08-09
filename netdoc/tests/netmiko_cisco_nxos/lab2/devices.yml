@@ -1,4 +1,3 @@
----
 - name: NXOS11
   site: test-site
   model: Unknown Cisco device

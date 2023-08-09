@@ -1,160 +1,159 @@
 keywords:
-- NetVanta 4660
-- 17004660F1
-- Total Access 5000 23-Inch Chassis
-- 1187001G1
-- MX2800
-- 1200290L1
+  - NetVanta 4660
+  - 17004660F1
+  - Total Access 5000 23-Inch Chassis
+  - 1187001G1
+  - MX2800
+  - 1200290L1
 models:
-- console-ports:
-  - name: Console
-    type: de-9
-  interfaces:
-  - name: GIG 0/1
-    type: 1000base-x-sfp
-  - name: GIG 0/2
-    type: 1000base-x-sfp
-  - name: GIG 0/3
-    type: 1000base-x-sfp
-  - name: GIG 0/4
-    type: 1000base-x-sfp
-  - name: GIG 0/5
-    type: 1000base-x-sfp
-  - name: T4
-    type: other
-  is_full_depth: false
-  manufacturer: Adtran
-  model: NetVanta 4660
-  module-bays:
-  - name: Slot 1
-  part_number: 17004660F1
-  power-ports:
-  - maximum_draw: 40
-    name: Power
-    type: other
-  slug: adtran-netvanta-4660
-  u_height: 1
-  weight: 3.2
-  weight_unit: kg
-- comments: Fiber Access and Aggregation Platform [Total Access 5000 23-Inch ANSI
-    Chassis Manufacturer Discontinued Notice](https://portal.adtran.com/web/appmanager/portal/Adtran?_nfpb=true&partNumber=1187001G1&productGroupId=4192&selectTab=accessoriesAndSoftware&_pageLabel=waverunner_page_products_productdetail)
-  interfaces:
-  - description: Rear Management
-    name: Ethernet 1/S/1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Adtran
-  model: Total Access 5000 23-Inch Chassis
-  module-bays:
-  - label: Slot 1
-    name: '1'
-    position: '1'
-  - label: Slot 2
-    name: '2'
-    position: '2'
-  - label: Slot 3
-    name: '3'
-    position: '3'
-  - label: Slot 4
-    name: '4'
-    position: '4'
-  - label: Slot 5
-    name: '5'
-    position: '5'
-  - label: Slot 6
-    name: '6'
-    position: '6'
-  - label: Slot 7
-    name: '7'
-    position: '7'
-  - label: Slot 8
-    name: '8'
-    position: '8'
-  - label: Slot 9
-    name: '9'
-    position: '9'
-  - label: Slot 10
-    name: '10'
-    position: '10'
-  - label: Slot 11
-    name: '11'
-    position: '11'
-  - label: Slot 13
-    name: '13'
-    position: '13'
-  - label: Slot 14
-    name: '14'
-    position: '14'
-  - label: Slot 15
-    name: '15'
-    position: '15'
-  - label: Slot 16
-    name: '16'
-    position: '16'
-  - label: Slot 17
-    name: '17'
-    position: '17'
-  - label: Slot 18
-    name: '18'
-    position: '18'
-  - label: Slot 19
-    name: '19'
-    position: '19'
-  - label: Slot 20
-    name: '20'
-    position: '20'
-  - label: Slot 21
-    name: '21'
-    position: '21'
-  - label: Slot 22
-    name: '22'
-    position: '22'
-  - label: SM-A
-    name: A
-    position: A
-  - label: SM-B
-    name: B
-    position: B
-  - label: SCM
-    name: SCM
-    position: SCM
-  part_number: 1187001G1
-  power-ports:
-  - allocated_draw: 1000
-    label: DC-A
-    maximum_draw: 1440
-    name: DC-Input-A
-    type: dc-terminal
-  - allocated_draw: 1000
-    label: DC-B
-    maximum_draw: 1440
-    name: DC-Input-B
-    type: dc-terminal
-  slug: adtran-total-access-5000-23-inch-chassis
-  subdevice_role: parent
-  u_height: 8.0
-- comments: '[MX2800 Multiplexer Chassis](https://portal.adtran.com/web/page/portal/Adtran/product/1200290L1/3)'
-  console-ports:
-  - name: LAN
-    type: rj-45
-  - name: MODEM
-    type: rj-45
-  interfaces:
-  - name: DS3 A IN
-    type: t3
-  - name: DS3 A OUT
-    type: t3
-  - name: DS3 B IN
-    type: t3
-  - name: DS3 B OUT
-    type: t3
-  is_full_depth: false
-  manufacturer: Adtran
-  model: MX2800
-  part_number: 1200290L1
-  power-ports:
-  - maximum_draw: 27
-    name: PS1
-    type: iec-60320-c14
-  slug: adtran-mx2800
-  u_height: 1
+  - console-ports:
+      - name: Console
+        type: de-9
+    interfaces:
+      - name: GIG 0/1
+        type: 1000base-x-sfp
+      - name: GIG 0/2
+        type: 1000base-x-sfp
+      - name: GIG 0/3
+        type: 1000base-x-sfp
+      - name: GIG 0/4
+        type: 1000base-x-sfp
+      - name: GIG 0/5
+        type: 1000base-x-sfp
+      - name: T4
+        type: other
+    is_full_depth: false
+    manufacturer: Adtran
+    model: NetVanta 4660
+    module-bays:
+      - name: Slot 1
+    part_number: 17004660F1
+    power-ports:
+      - maximum_draw: 40
+        name: Power
+        type: other
+    slug: adtran-netvanta-4660
+    u_height: 1
+    weight: 3.2
+    weight_unit: kg
+  - comments: Fiber Access and Aggregation Platform [Total Access 5000 23-Inch ANSI Chassis Manufacturer Discontinued Notice](https://portal.adtran.com/web/appmanager/portal/Adtran?_nfpb=true&partNumber=1187001G1&productGroupId=4192&selectTab=accessoriesAndSoftware&_pageLabel=waverunner_page_products_productdetail)
+    interfaces:
+      - description: Rear Management
+        name: Ethernet 1/S/1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Adtran
+    model: Total Access 5000 23-Inch Chassis
+    module-bays:
+      - label: Slot 1
+        name: '1'
+        position: '1'
+      - label: Slot 2
+        name: '2'
+        position: '2'
+      - label: Slot 3
+        name: '3'
+        position: '3'
+      - label: Slot 4
+        name: '4'
+        position: '4'
+      - label: Slot 5
+        name: '5'
+        position: '5'
+      - label: Slot 6
+        name: '6'
+        position: '6'
+      - label: Slot 7
+        name: '7'
+        position: '7'
+      - label: Slot 8
+        name: '8'
+        position: '8'
+      - label: Slot 9
+        name: '9'
+        position: '9'
+      - label: Slot 10
+        name: '10'
+        position: '10'
+      - label: Slot 11
+        name: '11'
+        position: '11'
+      - label: Slot 13
+        name: '13'
+        position: '13'
+      - label: Slot 14
+        name: '14'
+        position: '14'
+      - label: Slot 15
+        name: '15'
+        position: '15'
+      - label: Slot 16
+        name: '16'
+        position: '16'
+      - label: Slot 17
+        name: '17'
+        position: '17'
+      - label: Slot 18
+        name: '18'
+        position: '18'
+      - label: Slot 19
+        name: '19'
+        position: '19'
+      - label: Slot 20
+        name: '20'
+        position: '20'
+      - label: Slot 21
+        name: '21'
+        position: '21'
+      - label: Slot 22
+        name: '22'
+        position: '22'
+      - label: SM-A
+        name: A
+        position: A
+      - label: SM-B
+        name: B
+        position: B
+      - label: SCM
+        name: SCM
+        position: SCM
+    part_number: 1187001G1
+    power-ports:
+      - allocated_draw: 1000
+        label: DC-A
+        maximum_draw: 1440
+        name: DC-Input-A
+        type: dc-terminal
+      - allocated_draw: 1000
+        label: DC-B
+        maximum_draw: 1440
+        name: DC-Input-B
+        type: dc-terminal
+    slug: adtran-total-access-5000-23-inch-chassis
+    subdevice_role: parent
+    u_height: 8.0
+  - comments: '[MX2800 Multiplexer Chassis](https://portal.adtran.com/web/page/portal/Adtran/product/1200290L1/3)'
+    console-ports:
+      - name: LAN
+        type: rj-45
+      - name: MODEM
+        type: rj-45
+    interfaces:
+      - name: DS3 A IN
+        type: t3
+      - name: DS3 A OUT
+        type: t3
+      - name: DS3 B IN
+        type: t3
+      - name: DS3 B OUT
+        type: t3
+    is_full_depth: false
+    manufacturer: Adtran
+    model: MX2800
+    part_number: 1200290L1
+    power-ports:
+      - maximum_draw: 27
+        name: PS1
+        type: iec-60320-c14
+    slug: adtran-mx2800
+    u_height: 1

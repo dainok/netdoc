@@ -1,47 +1,47 @@
 keywords:
-- GT724R
-- C1000A
+  - GT724R
+  - C1000A
 models:
-- interfaces:
-  - name: DSL
-    type: other
-  - name: Ethernet 1
-    type: 100base-tx
-  - name: Ethernet 2
-    type: 100base-tx
-  - name: Ethernet 3
-    type: 100base-tx
-  - name: Ethernet 4
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: ActionTec
-  model: GT724R
-  power-ports:
-  - name: Power
-    type: nema-5-15p
-  slug: actiontec-gt724r
-  u_height: 0
-- console-ports:
-  - name: USB
-    type: usb-a
-  interfaces:
-  - name: DSL
-    type: other
-  - name: Phone
-    type: other
-  - name: Ethernet 1
-    type: 100base-tx
-  - name: Ethernet 2
-    type: 100base-tx
-  - name: Ethernet 3
-    type: 100base-tx
-  - name: Ethernet 4
-    type: 100base-tx
-  is_full_depth: false
-  manufacturer: ActionTec
-  model: C1000A
-  power-ports:
-  - name: Power
-    type: nema-5-15p
-  slug: actiontec-c1000a
-  u_height: 0
+  - interfaces:
+      - name: DSL
+        type: other
+      - name: Ethernet 1
+        type: 100base-tx
+      - name: Ethernet 2
+        type: 100base-tx
+      - name: Ethernet 3
+        type: 100base-tx
+      - name: Ethernet 4
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: ActionTec
+    model: GT724R
+    power-ports:
+      - name: Power
+        type: nema-5-15p
+    slug: actiontec-gt724r
+    u_height: 0
+  - console-ports:
+      - name: USB
+        type: usb-a
+    interfaces:
+      - name: DSL
+        type: other
+      - name: Phone
+        type: other
+      - name: Ethernet 1
+        type: 100base-tx
+      - name: Ethernet 2
+        type: 100base-tx
+      - name: Ethernet 3
+        type: 100base-tx
+      - name: Ethernet 4
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: ActionTec
+    model: C1000A
+    power-ports:
+      - name: Power
+        type: nema-5-15p
+    slug: actiontec-c1000a
+    u_height: 0

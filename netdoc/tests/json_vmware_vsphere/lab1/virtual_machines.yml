@@ -1,4 +1,3 @@
----
 - name: VCENTER
   cluster: cluster1
   device: NODE1

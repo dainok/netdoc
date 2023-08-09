@@ -1,4 +1,3 @@
----
 - address: 2.2.2.11/32
   vrf: red
 - address: 2.2.2.12/32

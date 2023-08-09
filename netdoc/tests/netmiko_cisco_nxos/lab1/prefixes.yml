@@ -1,4 +1,3 @@
----
 - prefix: 169.254.0.0/16
   vrf: management
   site: test-site

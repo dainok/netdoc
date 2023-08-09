@@ -1,610 +1,610 @@
 keywords:
-- Datto Networking Appliance
-- DNA
-- DSW250-8P-2X
-- DSW250-8P-2X
-- D200
-- D200
-- AP840E
-- AP840E
-- DSW100-8P-2G
-- DSW100-8P-2G
-- AP840
-- AP840
-- AP440
-- AP440
-- DSW100-48P-4X
-- DSW100-48P-4X
-- DSW100-24P-4X
-- DSW100-24P-4X
+  - Datto Networking Appliance
+  - DNA
+  - DSW250-8P-2X
+  - DSW250-8P-2X
+  - D200
+  - D200
+  - AP840E
+  - AP840E
+  - DSW100-8P-2G
+  - DSW100-8P-2G
+  - AP840
+  - AP840
+  - AP440
+  - AP440
+  - DSW100-48P-4X
+  - DSW100-48P-4X
+  - DSW100-24P-4X
+  - DSW100-24P-4X
 models:
-- comments: '[Datto Technical Specifications](https://www.datto.com/products/routers/tech-specs/)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - label: WAN1
-    name: Port 1
-    type: 1000base-t
-  - label: WAN2
-    name: Port 2
-    type: 1000base-t
-  - label: LAN1
-    name: Port 3
-    type: 1000base-t
-  - label: LAN2
-    name: Port 4
-    type: 1000base-t
-  - label: LAN3
-    name: Port 5
-    type: 1000base-t
-  - label: LAN4
-    name: Port 6
-    type: 1000base-t
-  inventory-items:
-  - manufacturer: Datto
-    name: Dipole1
-  - manufacturer: Datto
-    name: Dipole2
-  - manufacturer: Datto
-    name: Dipole3
-  - manufacturer: Datto
-    name: Dipole4
-  - manufacturer: Datto
-    name: Dipole5
-  is_full_depth: false
-  manufacturer: Datto
-  model: Datto Networking Appliance
-  part_number: DNA
-  power-ports:
-  - name: PS1
-    type: dc-terminal
-  slug: datto-networking-appliance
-  u_height: 0
-- airflow: right-to-left
-  comments: '[Datto Technical Specifications](https://www.datto.com/products/switches/tech-specs/)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Port 1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: SFP 1
-    type: 10gbase-x-sfpp
-  - name: SFP 2
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Datto
-  model: DSW250-8P-2X
-  part_number: DSW250-8P-2X
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  slug: datto-dsw250-8p-2x
-  u_height: 1
-- airflow: passive
-  comments: '[Datto Technical Specifications](https://www.datto.com/products/routers/tech-specs/)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - label: WAN1
-    name: Port 1
-    type: 1000base-t
-  - label: LAN1
-    name: Port 2
-    type: 1000base-t
-  - label: LAN2
-    name: Port 3
-    type: 1000base-t
-  - label: LAN3
-    name: Port 4
-    poe_mode: pse
-    poe_type: passive-24v-4pair
-    type: 1000base-t
-  - label: LAN4
-    name: Port 5
-    poe_mode: pse
-    poe_type: passive-24v-4pair
-    type: 1000base-t
-  - name: SFP1
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Datto
-  model: D200
-  part_number: D200
-  power-ports:
-  - name: PS1
-    type: dc-terminal
-  slug: datto-d200
-  u_height: 0
-- comments: '[Datto Access Points](https://www.datto.com/product-assets/wifi/AP840_840E_Datasheet_US.pdf)'
-  interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    poe_mode: pd
-    poe_type: type2-ieee802.3at
-    type: 2.5gbase-t
-  - name: WiFi
-    type: ieee802.11ax
-  inventory-items:
-  - manufacturer: Datto
-    name: Dipole1
-  - manufacturer: Datto
-    name: Dipole2
-  - manufacturer: Datto
-    name: Dipole3
-  - manufacturer: Datto
-    name: Dipole4
-  is_full_depth: false
-  manufacturer: Datto
-  model: AP840E
-  part_number: AP840E
-  power-ports:
-  - maximum_draw: 25
-    name: DC
-    type: dc-terminal
-  slug: datto-ap840e
-  u_height: 0
-  weight: 3.55
-  weight_unit: lb
-- airflow: right-to-left
-  comments: '[Datto Technical Specifications](https://www.datto.com/products/switches/tech-specs/)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Port 1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: SFP 1
-    type: 1000base-x-sfp
-  - name: SFP 2
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: Datto
-  model: DSW100-8P-2G
-  part_number: DSW100-8P-2G
-  power-ports:
-  - name: PS1
-    type: dc-terminal
-  slug: datto-dsw100-8p-2g
-  u_height: 1
-- comments: '[Datto Access Points](https://www.datto.com/product-assets/wifi/AP840_840E_Datasheet_US.pdf)'
-  interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    poe_mode: pd
-    poe_type: type2-ieee802.3at
-    type: 2.5gbase-t
-  - name: WiFi
-    type: ieee802.11ax
-  is_full_depth: false
-  manufacturer: Datto
-  model: AP840
-  part_number: AP840
-  power-ports:
-  - maximum_draw: 29
-    name: DC
-    type: dc-terminal
-  slug: datto-ap840
-  u_height: 0
-  weight: 2.03
-  weight_unit: lb
-- comments: '[Datto Access Points](https://www.datto.com/product-assets/wifi/AP840_840E_Datasheet_US.pdf)'
-  interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    poe_mode: pd
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: WiFi
-    type: ieee802.11ax
-  is_full_depth: false
-  manufacturer: Datto
-  model: AP440
-  part_number: AP440
-  power-ports:
-  - maximum_draw: 26
-    name: DC
-    type: dc-terminal
-  slug: datto-ap440
-  u_height: 0
-  weight: 1.19
-  weight_unit: lb
-- airflow: right-to-left
-  comments: '[Datto Technical Specifications](https://www.datto.com/products/switches/tech-specs/)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Port 1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 9
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 10
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 11
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 12
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 13
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 14
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 15
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 16
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 17
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 18
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 19
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 20
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 21
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 22
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 23
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 24
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 25
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 26
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 27
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 28
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 29
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 30
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 31
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 32
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 33
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 34
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 35
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 36
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 37
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 38
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 39
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 40
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 41
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 42
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 43
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 44
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 45
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 46
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 47
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 48
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: SFP 1
-    type: 10gbase-x-sfpp
-  - name: SFP 2
-    type: 10gbase-x-sfpp
-  - name: SFP 3
-    type: 10gbase-x-sfpp
-  - name: SFP 4
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Datto
-  model: DSW100-48P-4X
-  part_number: DSW100-48P-4X
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  slug: datto-dsw100-48p-4x
-  u_height: 1
-- airflow: right-to-left
-  comments: '[Datto Technical Specifications](https://www.datto.com/products/switches/tech-specs/)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Port 1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 9
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 10
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 11
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 12
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 13
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 14
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 15
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 16
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 17
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 18
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 19
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 20
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 21
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 22
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 23
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: Port 24
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: SFP 1
-    type: 10gbase-x-sfpp
-  - name: SFP 2
-    type: 10gbase-x-sfpp
-  - name: SFP 3
-    type: 10gbase-x-sfpp
-  - name: SFP 4
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Datto
-  model: DSW100-24P-4X
-  part_number: DSW100-24P-4X
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  slug: datto-dsw100-24p-4x
-  u_height: 1
+  - comments: '[Datto Technical Specifications](https://www.datto.com/products/routers/tech-specs/)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - label: WAN1
+        name: Port 1
+        type: 1000base-t
+      - label: WAN2
+        name: Port 2
+        type: 1000base-t
+      - label: LAN1
+        name: Port 3
+        type: 1000base-t
+      - label: LAN2
+        name: Port 4
+        type: 1000base-t
+      - label: LAN3
+        name: Port 5
+        type: 1000base-t
+      - label: LAN4
+        name: Port 6
+        type: 1000base-t
+    inventory-items:
+      - manufacturer: Datto
+        name: Dipole1
+      - manufacturer: Datto
+        name: Dipole2
+      - manufacturer: Datto
+        name: Dipole3
+      - manufacturer: Datto
+        name: Dipole4
+      - manufacturer: Datto
+        name: Dipole5
+    is_full_depth: false
+    manufacturer: Datto
+    model: Datto Networking Appliance
+    part_number: DNA
+    power-ports:
+      - name: PS1
+        type: dc-terminal
+    slug: datto-networking-appliance
+    u_height: 0
+  - airflow: right-to-left
+    comments: '[Datto Technical Specifications](https://www.datto.com/products/switches/tech-specs/)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Port 1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: SFP 1
+        type: 10gbase-x-sfpp
+      - name: SFP 2
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Datto
+    model: DSW250-8P-2X
+    part_number: DSW250-8P-2X
+    power-ports:
+      - name: PS1
+        type: iec-60320-c14
+    slug: datto-dsw250-8p-2x
+    u_height: 1
+  - airflow: passive
+    comments: '[Datto Technical Specifications](https://www.datto.com/products/routers/tech-specs/)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - label: WAN1
+        name: Port 1
+        type: 1000base-t
+      - label: LAN1
+        name: Port 2
+        type: 1000base-t
+      - label: LAN2
+        name: Port 3
+        type: 1000base-t
+      - label: LAN3
+        name: Port 4
+        poe_mode: pse
+        poe_type: passive-24v-4pair
+        type: 1000base-t
+      - label: LAN4
+        name: Port 5
+        poe_mode: pse
+        poe_type: passive-24v-4pair
+        type: 1000base-t
+      - name: SFP1
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Datto
+    model: D200
+    part_number: D200
+    power-ports:
+      - name: PS1
+        type: dc-terminal
+    slug: datto-d200
+    u_height: 0
+  - comments: '[Datto Access Points](https://www.datto.com/product-assets/wifi/AP840_840E_Datasheet_US.pdf)'
+    interfaces:
+      - name: Port 1
+        type: 1000base-t
+      - name: Port 2
+        poe_mode: pd
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: WiFi
+        type: ieee802.11ax
+    inventory-items:
+      - manufacturer: Datto
+        name: Dipole1
+      - manufacturer: Datto
+        name: Dipole2
+      - manufacturer: Datto
+        name: Dipole3
+      - manufacturer: Datto
+        name: Dipole4
+    is_full_depth: false
+    manufacturer: Datto
+    model: AP840E
+    part_number: AP840E
+    power-ports:
+      - maximum_draw: 25
+        name: DC
+        type: dc-terminal
+    slug: datto-ap840e
+    u_height: 0
+    weight: 3.55
+    weight_unit: lb
+  - airflow: right-to-left
+    comments: '[Datto Technical Specifications](https://www.datto.com/products/switches/tech-specs/)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Port 1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: SFP 1
+        type: 1000base-x-sfp
+      - name: SFP 2
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Datto
+    model: DSW100-8P-2G
+    part_number: DSW100-8P-2G
+    power-ports:
+      - name: PS1
+        type: dc-terminal
+    slug: datto-dsw100-8p-2g
+    u_height: 1
+  - comments: '[Datto Access Points](https://www.datto.com/product-assets/wifi/AP840_840E_Datasheet_US.pdf)'
+    interfaces:
+      - name: Port 1
+        type: 1000base-t
+      - name: Port 2
+        poe_mode: pd
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: WiFi
+        type: ieee802.11ax
+    is_full_depth: false
+    manufacturer: Datto
+    model: AP840
+    part_number: AP840
+    power-ports:
+      - maximum_draw: 29
+        name: DC
+        type: dc-terminal
+    slug: datto-ap840
+    u_height: 0
+    weight: 2.03
+    weight_unit: lb
+  - comments: '[Datto Access Points](https://www.datto.com/product-assets/wifi/AP840_840E_Datasheet_US.pdf)'
+    interfaces:
+      - name: Port 1
+        type: 1000base-t
+      - name: Port 2
+        poe_mode: pd
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: WiFi
+        type: ieee802.11ax
+    is_full_depth: false
+    manufacturer: Datto
+    model: AP440
+    part_number: AP440
+    power-ports:
+      - maximum_draw: 26
+        name: DC
+        type: dc-terminal
+    slug: datto-ap440
+    u_height: 0
+    weight: 1.19
+    weight_unit: lb
+  - airflow: right-to-left
+    comments: '[Datto Technical Specifications](https://www.datto.com/products/switches/tech-specs/)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Port 1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 17
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 18
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 19
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 20
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 21
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 22
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 23
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 24
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 25
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 26
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 27
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 28
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 29
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 30
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 31
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 32
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 33
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 34
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 35
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 36
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 37
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 38
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 39
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 40
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 41
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 42
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 43
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 44
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 45
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 46
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 47
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 48
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: SFP 1
+        type: 10gbase-x-sfpp
+      - name: SFP 2
+        type: 10gbase-x-sfpp
+      - name: SFP 3
+        type: 10gbase-x-sfpp
+      - name: SFP 4
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Datto
+    model: DSW100-48P-4X
+    part_number: DSW100-48P-4X
+    power-ports:
+      - name: PS1
+        type: iec-60320-c14
+    slug: datto-dsw100-48p-4x
+    u_height: 1
+  - airflow: right-to-left
+    comments: '[Datto Technical Specifications](https://www.datto.com/products/switches/tech-specs/)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Port 1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 17
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 18
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 19
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 20
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 21
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 22
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 23
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 24
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: SFP 1
+        type: 10gbase-x-sfpp
+      - name: SFP 2
+        type: 10gbase-x-sfpp
+      - name: SFP 3
+        type: 10gbase-x-sfpp
+      - name: SFP 4
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Datto
+    model: DSW100-24P-4X
+    part_number: DSW100-24P-4X
+    power-ports:
+      - name: PS1
+        type: iec-60320-c14
+    slug: datto-dsw100-24p-4x
+    u_height: 1

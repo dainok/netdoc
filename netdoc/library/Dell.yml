@@ -1,3596 +1,3592 @@
 keywords:
-- PowerEdge R440
-- PowerSwitch N3248TE-ON
-- PowerEdge R520
-- PowerEdge T420
-- PowerEdge R330
-- PowerSwitch S4148T-ON
-- S4148T-ON
-- PowerEdge R6515
-- PowerEdge R740
-- Unity XT 880F
-- 100-538-040-030
-- PowerEdge R730xd
-- PowerEdge R540
-- DMPU2016-G01
-- A7485893
-- PowerEdge T640
-- PowerEdge R940
-- PowerEdge R7515
-- PowerEdge T340
-- PowerEdge R720xd
-- PowerEdge R720
-- PowerEdge T430
-- PowerEdge R530
-- PowerEdge R450
-- PowerEdge T330
-- PowerEdge R230
-- PowerEdge R620 XL
-- PowerSwitch Z9100-ON
-- Z9100-ON
-- PowerSwitch N3048
-- N3048
-- PowerEdge T440
-- PowerEdge MX7000
-- PowerSwitch N1124P-ON
-- N1124P-ON
-- PowerEdge R320
-- PowerEdge R6525
-- PowerSwitch N2048
-- N2048
-- PowerEdge R730
-- PowerEdge R550
-- PowerEdge R7525
-- PowerEdge R430
-- PowerEdge R815
-- PowerEdge R650xs
-- PowerEdge R750
-- PowerEdge T320
-- PowerEdge R340
-- PowerSwitch N4064F
-- N4064F
-- PowerEdge R740xd
-- PowerSwitch S3048-ON
-- S3048-ON
-- PowerEdge C6400
-- PowerEdge T310
-- DR4100
-- PowerEdge R640
-- PowerEdge R415
-- PowerEdge R740xd2
-- PowerEdge T110
-- PowerSwitch S4148F-ON
-- S4148F-ON
-- PowerEdge M1000e
-- PowerEdge C6420
-- PowerEdge R420
-- PowerSwitch S5224F-ON
-- PowerEdge R410
-- PowerEdge R620
-- PowerEdge R820
-- PowerEdge R200
-- PowerSwitch S5232F-ON
-- PowerSwitch S5248F-ON
-- PowerConnect 6224
-- DKMMLED185-207
-- A7485910
-- PowerEdge R310
-- PowerVault ME4024
-- PowerEdge 1950
-- PowerEdge R715
-- PowerEdge R650
-- PowerVault MD3200
-- PowerEdge R610
-- 49H29 PowerVault ME SAS Controller
-- 49H29
-- PowerEdge R710
-- PowerConnect 6248
-- PowerVault NX3240
-- PowerEdge R510
-- PowerConnect 5448
-- PowerEdge R630
-- PowerEdge R840
-- PowerSwitch S4048-ON
-- S4048-ON
+  - PowerEdge R440
+  - PowerSwitch N3248TE-ON
+  - PowerEdge R520
+  - PowerEdge T420
+  - PowerEdge R330
+  - PowerSwitch S4148T-ON
+  - S4148T-ON
+  - PowerEdge R6515
+  - PowerEdge R740
+  - Unity XT 880F
+  - 100-538-040-030
+  - PowerEdge R730xd
+  - PowerEdge R540
+  - DMPU2016-G01
+  - A7485893
+  - PowerEdge T640
+  - PowerEdge R940
+  - PowerEdge R7515
+  - PowerEdge T340
+  - PowerEdge R720xd
+  - PowerEdge R720
+  - PowerEdge T430
+  - PowerEdge R530
+  - PowerEdge R450
+  - PowerEdge T330
+  - PowerEdge R230
+  - PowerEdge R620 XL
+  - PowerSwitch Z9100-ON
+  - Z9100-ON
+  - PowerSwitch N3048
+  - N3048
+  - PowerEdge T440
+  - PowerEdge MX7000
+  - PowerSwitch N1124P-ON
+  - N1124P-ON
+  - PowerEdge R320
+  - PowerEdge R6525
+  - PowerSwitch N2048
+  - N2048
+  - PowerEdge R730
+  - PowerEdge R550
+  - PowerEdge R7525
+  - PowerEdge R430
+  - PowerEdge R815
+  - PowerEdge R650xs
+  - PowerEdge R750
+  - PowerEdge T320
+  - PowerEdge R340
+  - PowerSwitch N4064F
+  - N4064F
+  - PowerEdge R740xd
+  - PowerSwitch S3048-ON
+  - S3048-ON
+  - PowerEdge C6400
+  - PowerEdge T310
+  - DR4100
+  - PowerEdge R640
+  - PowerEdge R415
+  - PowerEdge R740xd2
+  - PowerEdge T110
+  - PowerSwitch S4148F-ON
+  - S4148F-ON
+  - PowerEdge M1000e
+  - PowerEdge C6420
+  - PowerEdge R420
+  - PowerSwitch S5224F-ON
+  - PowerEdge R410
+  - PowerEdge R620
+  - PowerEdge R820
+  - PowerEdge R200
+  - PowerSwitch S5232F-ON
+  - PowerSwitch S5248F-ON
+  - PowerConnect 6224
+  - DKMMLED185-207
+  - A7485910
+  - PowerEdge R310
+  - PowerVault ME4024
+  - PowerEdge 1950
+  - PowerEdge R715
+  - PowerEdge R650
+  - PowerVault MD3200
+  - PowerEdge R610
+  - 49H29 PowerVault ME SAS Controller
+  - 49H29
+  - PowerEdge R710
+  - PowerConnect 6248
+  - PowerVault NX3240
+  - PowerEdge R510
+  - PowerConnect 5448
+  - PowerEdge R630
+  - PowerEdge R840
+  - PowerSwitch S4048-ON
+  - S4048-ON
 models:
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R440
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r440
-  u_height: 1
-- comments: '[PowerSwitch N3248TE-ON](https://www.dell.com/en-us/shop/servers-storage-and-networking/powerswitch-n3248te-on/spd/networking-n3200-series/dn_n3248te_1362210)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Ethernet 1/1/1
-    type: 1000base-t
-  - name: Ethernet 1/1/2
-    type: 1000base-t
-  - name: Ethernet 1/1/3
-    type: 1000base-t
-  - name: Ethernet 1/1/4
-    type: 1000base-t
-  - name: Ethernet 1/1/5
-    type: 1000base-t
-  - name: Ethernet 1/1/6
-    type: 1000base-t
-  - name: Ethernet 1/1/7
-    type: 1000base-t
-  - name: Ethernet 1/1/8
-    type: 1000base-t
-  - name: Ethernet 1/1/9
-    type: 1000base-t
-  - name: Ethernet 1/1/10
-    type: 1000base-t
-  - name: Ethernet 1/1/11
-    type: 1000base-t
-  - name: Ethernet 1/1/12
-    type: 1000base-t
-  - name: Ethernet 1/1/13
-    type: 1000base-t
-  - name: Ethernet 1/1/14
-    type: 1000base-t
-  - name: Ethernet 1/1/15
-    type: 1000base-t
-  - name: Ethernet 1/1/16
-    type: 1000base-t
-  - name: Ethernet 1/1/17
-    type: 1000base-t
-  - name: Ethernet 1/1/18
-    type: 1000base-t
-  - name: Ethernet 1/1/19
-    type: 1000base-t
-  - name: Ethernet 1/1/20
-    type: 1000base-t
-  - name: Ethernet 1/1/21
-    type: 1000base-t
-  - name: Ethernet 1/1/22
-    type: 1000base-t
-  - name: Ethernet 1/1/23
-    type: 1000base-t
-  - name: Ethernet 1/1/24
-    type: 1000base-t
-  - name: Ethernet 1/1/25
-    type: 1000base-t
-  - name: Ethernet 1/1/26
-    type: 1000base-t
-  - name: Ethernet 1/1/27
-    type: 1000base-t
-  - name: Ethernet 1/1/28
-    type: 1000base-t
-  - name: Ethernet 1/1/29
-    type: 1000base-t
-  - name: Ethernet 1/1/30
-    type: 1000base-t
-  - name: Ethernet 1/1/31
-    type: 1000base-t
-  - name: Ethernet 1/1/32
-    type: 1000base-t
-  - name: Ethernet 1/1/33
-    type: 1000base-t
-  - name: Ethernet 1/1/34
-    type: 1000base-t
-  - name: Ethernet 1/1/35
-    type: 1000base-t
-  - name: Ethernet 1/1/36
-    type: 1000base-t
-  - name: Ethernet 1/1/37
-    type: 1000base-t
-  - name: Ethernet 1/1/38
-    type: 1000base-t
-  - name: Ethernet 1/1/39
-    type: 1000base-t
-  - name: Ethernet 1/1/40
-    type: 1000base-t
-  - name: Ethernet 1/1/41
-    type: 1000base-t
-  - name: Ethernet 1/1/42
-    type: 1000base-t
-  - name: Ethernet 1/1/43
-    type: 1000base-t
-  - name: Ethernet 1/1/44
-    type: 1000base-t
-  - name: Ethernet 1/1/45
-    type: 1000base-t
-  - name: Ethernet 1/1/46
-    type: 1000base-t
-  - name: Ethernet 1/1/47
-    type: 1000base-t
-  - name: Ethernet 1/1/48
-    type: 1000base-t
-  - name: Ethernet 1/1/49
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/1/50
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/1/51
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/1/52
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/1/53
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/54
-    type: 100gbase-x-qsfp28
-  - mgmt_only: true
-    name: mgmt 1/1/1
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerSwitch N3248TE-ON
-  power-ports:
-  - allocated_draw: 212
-    maximum_draw: 550
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 212
-    maximum_draw: 550
-    name: PS2
-    type: iec-60320-c14
-  slug: dell-powerswitch-n3248te-on
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R520
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r520
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC7
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge T420
-  power-ports:
-  - maximum_draw: 750
-    name: Power 1
-    type: iec-60320-c14
-  - maximum_draw: 750
-    name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-t420
-  u_height: 5
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R330
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r330
-  u_height: 1
-- comments: '[dell-networking-s4100-series-spec-sheet.pdf](https://www.delltechnologies.com/asset/en-us/products/networking/technical-support/dell-networking-s4100-series-spec-sheet.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Ethernet 1/1/5
-    type: 10gbase-t
-  - name: Ethernet 1/1/6
-    type: 10gbase-t
-  - name: Ethernet 1/1/7
-    type: 10gbase-t
-  - name: Ethernet 1/1/8
-    type: 10gbase-t
-  - name: Ethernet 1/1/9
-    type: 10gbase-t
-  - name: Ethernet 1/1/10
-    type: 10gbase-t
-  - name: Ethernet 1/1/11
-    type: 10gbase-t
-  - name: Ethernet 1/1/12
-    type: 10gbase-t
-  - name: Ethernet 1/1/13
-    type: 10gbase-t
-  - name: Ethernet 1/1/14
-    type: 10gbase-t
-  - name: Ethernet 1/1/15
-    type: 10gbase-t
-  - name: Ethernet 1/1/16
-    type: 10gbase-t
-  - name: Ethernet 1/1/17
-    type: 10gbase-t
-  - name: Ethernet 1/1/18
-    type: 10gbase-t
-  - name: Ethernet 1/1/19
-    type: 10gbase-t
-  - name: Ethernet 1/1/20
-    type: 10gbase-t
-  - name: Ethernet 1/1/21
-    type: 10gbase-t
-  - name: Ethernet 1/1/22
-    type: 10gbase-t
-  - name: Ethernet 1/1/23
-    type: 10gbase-t
-  - name: Ethernet 1/1/24
-    type: 10gbase-t
-  - name: Ethernet 1/1/25
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/26
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/27
-    type: 40gbase-x-qsfpp
-  - name: Ethernet 1/1/28
-    type: 40gbase-x-qsfpp
-  - name: Ethernet 1/1/29
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/30
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/31
-    type: 10gbase-t
-  - name: Ethernet 1/1/32
-    type: 10gbase-t
-  - name: Ethernet 1/1/33
-    type: 10gbase-t
-  - name: Ethernet 1/1/34
-    type: 10gbase-t
-  - name: Ethernet 1/1/35
-    type: 10gbase-t
-  - name: Ethernet 1/1/36
-    type: 10gbase-t
-  - name: Ethernet 1/1/37
-    type: 10gbase-t
-  - name: Ethernet 1/1/38
-    type: 10gbase-t
-  - name: Ethernet 1/1/39
-    type: 10gbase-t
-  - name: Ethernet 1/1/40
-    type: 10gbase-t
-  - name: Ethernet 1/1/41
-    type: 10gbase-t
-  - name: Ethernet 1/1/42
-    type: 10gbase-t
-  - name: Ethernet 1/1/43
-    type: 10gbase-t
-  - name: Ethernet 1/1/44
-    type: 10gbase-t
-  - name: Ethernet 1/1/45
-    type: 10gbase-t
-  - name: Ethernet 1/1/46
-    type: 10gbase-t
-  - name: Ethernet 1/1/48
-    type: 10gbase-t
-  - name: Ethernet 1/1/49
-    type: 10gbase-t
-  - name: Ethernet 1/1/50
-    type: 10gbase-t
-  - name: Ethernet 1/1/51
-    type: 10gbase-t
-  - name: Ethernet 1/1/52
-    type: 10gbase-t
-  - mgmt_only: true
-    name: Management 1/1/1
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerSwitch S4148T-ON
-  part_number: S4148T-ON
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  - name: PS2
-    type: iec-60320-c14
-  slug: dell-powerswitch-s4148t-on
-  u_height: 1
-- airflow: front-to-rear
-  console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R6515
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r6515
-  u_height: 1
-- comments: '[Technical Guide](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/aa/PowerEdge_R740_R740xd_Technical_Guide.pdf)'
-  console-ports:
-  - name: Rear Serial
-    type: de-9
-  - name: Front VGA
-    type: other
-  - name: Rear VGA
-    type: other
-  interfaces:
-  - mgmt_only: true
-    name: iDRAC9
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R740
-  module-bays:
-  - label: '1'
-    name: PSU-1
-    position: PSU-1
-  - label: '2'
-    name: PSU-2
-    position: PSU-2
-  - name: NUMA 0 - NDC slot 1
-    position: NDC-1
-  - label: '1'
-    name: NUMA 0 - PCIe slot 1 - FH
-    position: PCIe-1
-  - label: '2'
-    name: NUMA 0 - PCIe slot 2 - FH
-    position: PCIe-2
-  - label: '3'
-    name: NUMA 0 - PCIe slot 3 - FH
-    position: PCIe-3
-  - label: '4'
-    name: NUMA 1 - PCIe slot 4 - FH
-    position: PCIe-4
-  - label: '5'
-    name: NUMA 1 - PCIe slot 5 - FH
-    position: PCIe-5
-  - label: '6'
-    name: NUMA 0 - PCIe slot 6 - LP
-    position: PCIe-6
-  - label: '7'
-    name: NUMA 1 - PCIe slot 7 - FH
-    position: PCIe-7
-  - label: '8'
-    name: NUMA 1 - PCIe slot 8 - FH
-    position: PCIe-8
-  slug: dell-poweredge-r740
-  u_height: 2
-- interfaces:
-  - mgmt_only: true
-    name: SP-A ETH0
-    type: 1000base-t
-  - mgmt_only: true
-    name: SP-B ETH0
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: Unity XT 880F
-  part_number: 100-538-040-030
-  power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-  - name: PSU2
-    type: iec-60320-c14
-  slug: dell-unity-xt-880f
-  subdevice_role: parent
-  u_height: 2
-- comments: '[Technical Guide](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Dell-PowerEdge-R730-and-R730xd-Technical-Guide-v1-7.pdf)'
-  interfaces:
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R730xd
-  module-bays:
-  - label: '1'
-    name: PSU-1
-    position: PSU-1
-  - label: '2'
-    name: PSU-2
-    position: PSU-2
-  - name: Network Daughter Card slot 1
-    position: NDC-1
-  - label: '1'
-    name: PCIe slot 1
-    position: PCIe-1
-  - label: '2'
-    name: Riser PCIe slot 2
-    position: PCIe-2
-  - label: '3'
-    name: Riser PCIe slot 3
-    position: PCIe-3
-  - label: '4'
-    name: PCIe slot 4
-    position: PCIe-4
-  - label: '5'
-    name: Riser PCIe slot 5
-    position: PCIe-5
-  - label: '6'
-    name: Riser PCIe slot 6
-    position: PCIe-6
-  slug: dell-poweredge-r730xd
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: Front VGA
-    type: other
-  - name: Rear VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R540
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r540
-  u_height: 2
-- comments: Dell DMPU2016-G01 16-port remote KVM switch with two remote users, one
-    local user, dual power supply [Manufacturer Part DMPU2016 | Dell Part A7485893
-    | Order Code A7485893 | DELL VERTIV](https://www.dell.com/en-uk/shop/dell-dmpu2016-g01-16-port-remote-kvm-switch-with-two-remote-users-one-local-user-dual-power-supply/apd/a7485893/networking)
-  console-ports:
-  - name: PDU1
-    type: rj-45
-  - name: PDU2
-    type: rj-45
-  - name: MODEM
-    type: rj-45
-  - name: SETUP
-    type: rj-45
-  - name: ACI
-    type: rj-45
-  - name: VGA
-    type: other
-  - name: usb1
-    type: usb-a
-  - name: usb2
-    type: usb-a
-  - name: usb3
-    type: usb-a
-  - name: usb4
-    type: usb-a
-  console-server-ports:
-  - name: '1'
-    type: rj-45
-  - name: '2'
-    type: rj-45
-  - name: '3'
-    type: rj-45
-  - name: '4'
-    type: rj-45
-  - name: '5'
-    type: rj-45
-  - name: '6'
-    type: rj-45
-  - name: '7'
-    type: rj-45
-  - name: '8'
-    type: rj-45
-  - name: '9'
-    type: rj-45
-  - name: '10'
-    type: rj-45
-  - name: '11'
-    type: rj-45
-  - name: '12'
-    type: rj-45
-  - name: '13'
-    type: rj-45
-  - name: '14'
-    type: rj-45
-  - name: '15'
-    type: rj-45
-  - name: '16'
-    type: rj-45
-  interfaces:
-  - name: mgmt1
-    type: 1000base-t
-  - name: mgmt2
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: DMPU2016-G01
-  part_number: A7485893
-  power-ports:
-  - maximum_draw: 18
-    name: ps1
-    type: iec-60320-c14
-  - maximum_draw: 18
-    name: ps2
-    type: iec-60320-c14
-  slug: dell-dmpu2016-g01
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: TenGig-E 1
-    type: 10gbase-t
-  - name: TenGig-E 2
-    type: 10gbase-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge T640
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-t640
-  u_height: 5
-- comments: '[Dell R940 Data Sheet](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/poweredge-r940-spec-sheet.pdf)
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R440
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r440
+    u_height: 1
+  - comments: '[PowerSwitch N3248TE-ON](https://www.dell.com/en-us/shop/servers-storage-and-networking/powerswitch-n3248te-on/spd/networking-n3200-series/dn_n3248te_1362210)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Ethernet 1/1/1
+        type: 1000base-t
+      - name: Ethernet 1/1/2
+        type: 1000base-t
+      - name: Ethernet 1/1/3
+        type: 1000base-t
+      - name: Ethernet 1/1/4
+        type: 1000base-t
+      - name: Ethernet 1/1/5
+        type: 1000base-t
+      - name: Ethernet 1/1/6
+        type: 1000base-t
+      - name: Ethernet 1/1/7
+        type: 1000base-t
+      - name: Ethernet 1/1/8
+        type: 1000base-t
+      - name: Ethernet 1/1/9
+        type: 1000base-t
+      - name: Ethernet 1/1/10
+        type: 1000base-t
+      - name: Ethernet 1/1/11
+        type: 1000base-t
+      - name: Ethernet 1/1/12
+        type: 1000base-t
+      - name: Ethernet 1/1/13
+        type: 1000base-t
+      - name: Ethernet 1/1/14
+        type: 1000base-t
+      - name: Ethernet 1/1/15
+        type: 1000base-t
+      - name: Ethernet 1/1/16
+        type: 1000base-t
+      - name: Ethernet 1/1/17
+        type: 1000base-t
+      - name: Ethernet 1/1/18
+        type: 1000base-t
+      - name: Ethernet 1/1/19
+        type: 1000base-t
+      - name: Ethernet 1/1/20
+        type: 1000base-t
+      - name: Ethernet 1/1/21
+        type: 1000base-t
+      - name: Ethernet 1/1/22
+        type: 1000base-t
+      - name: Ethernet 1/1/23
+        type: 1000base-t
+      - name: Ethernet 1/1/24
+        type: 1000base-t
+      - name: Ethernet 1/1/25
+        type: 1000base-t
+      - name: Ethernet 1/1/26
+        type: 1000base-t
+      - name: Ethernet 1/1/27
+        type: 1000base-t
+      - name: Ethernet 1/1/28
+        type: 1000base-t
+      - name: Ethernet 1/1/29
+        type: 1000base-t
+      - name: Ethernet 1/1/30
+        type: 1000base-t
+      - name: Ethernet 1/1/31
+        type: 1000base-t
+      - name: Ethernet 1/1/32
+        type: 1000base-t
+      - name: Ethernet 1/1/33
+        type: 1000base-t
+      - name: Ethernet 1/1/34
+        type: 1000base-t
+      - name: Ethernet 1/1/35
+        type: 1000base-t
+      - name: Ethernet 1/1/36
+        type: 1000base-t
+      - name: Ethernet 1/1/37
+        type: 1000base-t
+      - name: Ethernet 1/1/38
+        type: 1000base-t
+      - name: Ethernet 1/1/39
+        type: 1000base-t
+      - name: Ethernet 1/1/40
+        type: 1000base-t
+      - name: Ethernet 1/1/41
+        type: 1000base-t
+      - name: Ethernet 1/1/42
+        type: 1000base-t
+      - name: Ethernet 1/1/43
+        type: 1000base-t
+      - name: Ethernet 1/1/44
+        type: 1000base-t
+      - name: Ethernet 1/1/45
+        type: 1000base-t
+      - name: Ethernet 1/1/46
+        type: 1000base-t
+      - name: Ethernet 1/1/47
+        type: 1000base-t
+      - name: Ethernet 1/1/48
+        type: 1000base-t
+      - name: Ethernet 1/1/49
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/1/50
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/1/51
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/1/52
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/1/53
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/54
+        type: 100gbase-x-qsfp28
+      - mgmt_only: true
+        name: mgmt 1/1/1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerSwitch N3248TE-ON
+    power-ports:
+      - allocated_draw: 212
+        maximum_draw: 550
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 212
+        maximum_draw: 550
+        name: PS2
+        type: iec-60320-c14
+    slug: dell-powerswitch-n3248te-on
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R520
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r520
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC7
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge T420
+    power-ports:
+      - maximum_draw: 750
+        name: Power 1
+        type: iec-60320-c14
+      - maximum_draw: 750
+        name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-t420
+    u_height: 5
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R330
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r330
+    u_height: 1
+  - comments: '[dell-networking-s4100-series-spec-sheet.pdf](https://www.delltechnologies.com/asset/en-us/products/networking/technical-support/dell-networking-s4100-series-spec-sheet.pdf)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Ethernet 1/1/5
+        type: 10gbase-t
+      - name: Ethernet 1/1/6
+        type: 10gbase-t
+      - name: Ethernet 1/1/7
+        type: 10gbase-t
+      - name: Ethernet 1/1/8
+        type: 10gbase-t
+      - name: Ethernet 1/1/9
+        type: 10gbase-t
+      - name: Ethernet 1/1/10
+        type: 10gbase-t
+      - name: Ethernet 1/1/11
+        type: 10gbase-t
+      - name: Ethernet 1/1/12
+        type: 10gbase-t
+      - name: Ethernet 1/1/13
+        type: 10gbase-t
+      - name: Ethernet 1/1/14
+        type: 10gbase-t
+      - name: Ethernet 1/1/15
+        type: 10gbase-t
+      - name: Ethernet 1/1/16
+        type: 10gbase-t
+      - name: Ethernet 1/1/17
+        type: 10gbase-t
+      - name: Ethernet 1/1/18
+        type: 10gbase-t
+      - name: Ethernet 1/1/19
+        type: 10gbase-t
+      - name: Ethernet 1/1/20
+        type: 10gbase-t
+      - name: Ethernet 1/1/21
+        type: 10gbase-t
+      - name: Ethernet 1/1/22
+        type: 10gbase-t
+      - name: Ethernet 1/1/23
+        type: 10gbase-t
+      - name: Ethernet 1/1/24
+        type: 10gbase-t
+      - name: Ethernet 1/1/25
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/26
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/27
+        type: 40gbase-x-qsfpp
+      - name: Ethernet 1/1/28
+        type: 40gbase-x-qsfpp
+      - name: Ethernet 1/1/29
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/30
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/31
+        type: 10gbase-t
+      - name: Ethernet 1/1/32
+        type: 10gbase-t
+      - name: Ethernet 1/1/33
+        type: 10gbase-t
+      - name: Ethernet 1/1/34
+        type: 10gbase-t
+      - name: Ethernet 1/1/35
+        type: 10gbase-t
+      - name: Ethernet 1/1/36
+        type: 10gbase-t
+      - name: Ethernet 1/1/37
+        type: 10gbase-t
+      - name: Ethernet 1/1/38
+        type: 10gbase-t
+      - name: Ethernet 1/1/39
+        type: 10gbase-t
+      - name: Ethernet 1/1/40
+        type: 10gbase-t
+      - name: Ethernet 1/1/41
+        type: 10gbase-t
+      - name: Ethernet 1/1/42
+        type: 10gbase-t
+      - name: Ethernet 1/1/43
+        type: 10gbase-t
+      - name: Ethernet 1/1/44
+        type: 10gbase-t
+      - name: Ethernet 1/1/45
+        type: 10gbase-t
+      - name: Ethernet 1/1/46
+        type: 10gbase-t
+      - name: Ethernet 1/1/48
+        type: 10gbase-t
+      - name: Ethernet 1/1/49
+        type: 10gbase-t
+      - name: Ethernet 1/1/50
+        type: 10gbase-t
+      - name: Ethernet 1/1/51
+        type: 10gbase-t
+      - name: Ethernet 1/1/52
+        type: 10gbase-t
+      - mgmt_only: true
+        name: Management 1/1/1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerSwitch S4148T-ON
+    part_number: S4148T-ON
+    power-ports:
+      - name: PS1
+        type: iec-60320-c14
+      - name: PS2
+        type: iec-60320-c14
+    slug: dell-powerswitch-s4148t-on
+    u_height: 1
+  - airflow: front-to-rear
+    console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R6515
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r6515
+    u_height: 1
+  - comments: '[Technical Guide](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/aa/PowerEdge_R740_R740xd_Technical_Guide.pdf)'
+    console-ports:
+      - name: Rear Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    interfaces:
+      - mgmt_only: true
+        name: iDRAC9
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R740
+    module-bays:
+      - label: '1'
+        name: PSU-1
+        position: PSU-1
+      - label: '2'
+        name: PSU-2
+        position: PSU-2
+      - name: NUMA 0 - NDC slot 1
+        position: NDC-1
+      - label: '1'
+        name: NUMA 0 - PCIe slot 1 - FH
+        position: PCIe-1
+      - label: '2'
+        name: NUMA 0 - PCIe slot 2 - FH
+        position: PCIe-2
+      - label: '3'
+        name: NUMA 0 - PCIe slot 3 - FH
+        position: PCIe-3
+      - label: '4'
+        name: NUMA 1 - PCIe slot 4 - FH
+        position: PCIe-4
+      - label: '5'
+        name: NUMA 1 - PCIe slot 5 - FH
+        position: PCIe-5
+      - label: '6'
+        name: NUMA 0 - PCIe slot 6 - LP
+        position: PCIe-6
+      - label: '7'
+        name: NUMA 1 - PCIe slot 7 - FH
+        position: PCIe-7
+      - label: '8'
+        name: NUMA 1 - PCIe slot 8 - FH
+        position: PCIe-8
+    slug: dell-poweredge-r740
+    u_height: 2
+  - interfaces:
+      - mgmt_only: true
+        name: SP-A ETH0
+        type: 1000base-t
+      - mgmt_only: true
+        name: SP-B ETH0
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: Unity XT 880F
+    part_number: 100-538-040-030
+    power-ports:
+      - name: PSU1
+        type: iec-60320-c14
+      - name: PSU2
+        type: iec-60320-c14
+    slug: dell-unity-xt-880f
+    subdevice_role: parent
+    u_height: 2
+  - comments: '[Technical Guide](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Dell-PowerEdge-R730-and-R730xd-Technical-Guide-v1-7.pdf)'
+    interfaces:
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R730xd
+    module-bays:
+      - label: '1'
+        name: PSU-1
+        position: PSU-1
+      - label: '2'
+        name: PSU-2
+        position: PSU-2
+      - name: Network Daughter Card slot 1
+        position: NDC-1
+      - label: '1'
+        name: PCIe slot 1
+        position: PCIe-1
+      - label: '2'
+        name: Riser PCIe slot 2
+        position: PCIe-2
+      - label: '3'
+        name: Riser PCIe slot 3
+        position: PCIe-3
+      - label: '4'
+        name: PCIe slot 4
+        position: PCIe-4
+      - label: '5'
+        name: Riser PCIe slot 5
+        position: PCIe-5
+      - label: '6'
+        name: Riser PCIe slot 6
+        position: PCIe-6
+    slug: dell-poweredge-r730xd
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R540
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r540
+    u_height: 2
+  - comments: Dell DMPU2016-G01 16-port remote KVM switch with two remote users, one local user, dual power supply [Manufacturer Part DMPU2016 | Dell Part A7485893 | Order Code A7485893 | DELL VERTIV](https://www.dell.com/en-uk/shop/dell-dmpu2016-g01-16-port-remote-kvm-switch-with-two-remote-users-one-local-user-dual-power-supply/apd/a7485893/networking)
+    console-ports:
+      - name: PDU1
+        type: rj-45
+      - name: PDU2
+        type: rj-45
+      - name: MODEM
+        type: rj-45
+      - name: SETUP
+        type: rj-45
+      - name: ACI
+        type: rj-45
+      - name: VGA
+        type: other
+      - name: usb1
+        type: usb-a
+      - name: usb2
+        type: usb-a
+      - name: usb3
+        type: usb-a
+      - name: usb4
+        type: usb-a
+    console-server-ports:
+      - name: '1'
+        type: rj-45
+      - name: '2'
+        type: rj-45
+      - name: '3'
+        type: rj-45
+      - name: '4'
+        type: rj-45
+      - name: '5'
+        type: rj-45
+      - name: '6'
+        type: rj-45
+      - name: '7'
+        type: rj-45
+      - name: '8'
+        type: rj-45
+      - name: '9'
+        type: rj-45
+      - name: '10'
+        type: rj-45
+      - name: '11'
+        type: rj-45
+      - name: '12'
+        type: rj-45
+      - name: '13'
+        type: rj-45
+      - name: '14'
+        type: rj-45
+      - name: '15'
+        type: rj-45
+      - name: '16'
+        type: rj-45
+    interfaces:
+      - name: mgmt1
+        type: 1000base-t
+      - name: mgmt2
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: DMPU2016-G01
+    part_number: A7485893
+    power-ports:
+      - maximum_draw: 18
+        name: ps1
+        type: iec-60320-c14
+      - maximum_draw: 18
+        name: ps2
+        type: iec-60320-c14
+    slug: dell-dmpu2016-g01
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: TenGig-E 1
+        type: 10gbase-t
+      - name: TenGig-E 2
+        type: 10gbase-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge T640
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-t640
+    u_height: 5
+  - comments: '[Dell R940 Data Sheet](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/poweredge-r940-spec-sheet.pdf)
 
-    '
-  console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: 10GbE 1
-    type: 10gbase-t
-  - name: 10GbE 2'
-    type: 10gbase-t
-  - name: 10GbE 3
-    type: 10gbase-t
-  - name: 10GbE 4
-    type: 10gbase-t
-  - name: 10GbE 5
-    type: 10gbase-t
-  - name: 10GbE 6
-    type: 10gbase-t
-  - name: 10GbE 7
-    type: 10gbase-t
-  - name: 10GbE 8
-    type: 10gbase-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R940
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  - name: Power 3
-    type: iec-60320-c14
-  - name: Power 4
-    type: iec-60320-c14
-  slug: dell-poweredge-r940
-  u_height: 3
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R7515
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r7515
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge T340
-  power-ports:
-  - maximum_draw: 350
-    name: Power 1
-    type: iec-60320-c14
-  slug: dell-poweredge-t340
-  u_height: 5
-- comments: '[Dell R610 Data Sheet](https://www.dell.com/learn/lv/en/lvchn1/shared-content~data-sheets~en/documents~esg-dell_poweredge_r720xd-spec-sheet.pdf)
+'
+    console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: 10GbE 1
+        type: 10gbase-t
+      - name: 10GbE 2'
+        type: 10gbase-t
+      - name: 10GbE 3
+        type: 10gbase-t
+      - name: 10GbE 4
+        type: 10gbase-t
+      - name: 10GbE 5
+        type: 10gbase-t
+      - name: 10GbE 6
+        type: 10gbase-t
+      - name: 10GbE 7
+        type: 10gbase-t
+      - name: 10GbE 8
+        type: 10gbase-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R940
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+      - name: Power 3
+        type: iec-60320-c14
+      - name: Power 4
+        type: iec-60320-c14
+    slug: dell-poweredge-r940
+    u_height: 3
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R7515
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r7515
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge T340
+    power-ports:
+      - maximum_draw: 350
+        name: Power 1
+        type: iec-60320-c14
+    slug: dell-poweredge-t340
+    u_height: 5
+  - comments: '[Dell R610 Data Sheet](https://www.dell.com/learn/lv/en/lvchn1/shared-content~data-sheets~en/documents~esg-dell_poweredge_r720xd-spec-sheet.pdf)
 
-    '
-  console-ports:
-  - name: Serial
-    type: de-9
-  - name: Front VGA
-    type: other
-  - name: Rear VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R720xd
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r720xd
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R720
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r720
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC7
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge T430
-  power-ports:
-  - maximum_draw: 750
-    name: Power 1
-    type: iec-60320-c14
-  - maximum_draw: 750
-    name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-t430
-  u_height: 5
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: Rear VGA
-    type: other
-  - name: Front VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R530
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r530
-  subdevice_role: parent
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: Rear VGA
-    type: other
-  - name: Front VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R450
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r450
-  subdevice_role: parent
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC8
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge T330
-  power-ports:
-  - maximum_draw: 350
-    name: Power 1
-    type: iec-60320-c14
-  slug: dell-poweredge-t330
-  u_height: 5
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R230
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  slug: dell-poweredge-r230
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R620 XL
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r620-xl
-  u_height: 1
-- comments: '[dell-networking-z9100-spec-sheet.pdf](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/us/dell-networking-z9100-spec-sheet.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Ethernet 1/1/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/2
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/3
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/4
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/5
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/6
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/7
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/8
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/9
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/10
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/11
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/12
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/13
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/14
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/15
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/16
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/17
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/18
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/19
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/20
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/21
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/22
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/23
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/24
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/25
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/26
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/27
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/28
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/29
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/30
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/31
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/32
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/33
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/1/34
-    type: 10gbase-x-sfpp
-  - mgmt_only: true
-    name: mgmt1/1/1
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerSwitch Z9100-ON
-  part_number: Z9100-ON
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  - name: PS2
-    type: iec-60320-c14
-  slug: dell-powerswitch-z9100-on
-  u_height: 1
-- comments: '[Dell EMC PowerSwitch N3000 Series 1GbE Layer 3 Switches](https://www.dell.com/en-us/shop/productdetailstxn/networking-n3000-series)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Gi1/0/1
-    type: 1000base-t
-  - name: Gi1/0/2
-    type: 1000base-t
-  - name: Gi1/0/3
-    type: 1000base-t
-  - name: Gi1/0/4
-    type: 1000base-t
-  - name: Gi1/0/5
-    type: 1000base-t
-  - name: Gi1/0/6
-    type: 1000base-t
-  - name: Gi1/0/7
-    type: 1000base-t
-  - name: Gi1/0/8
-    type: 1000base-t
-  - name: Gi1/0/9
-    type: 1000base-t
-  - name: Gi1/0/10
-    type: 1000base-t
-  - name: Gi1/0/11
-    type: 1000base-t
-  - name: Gi1/0/12
-    type: 1000base-t
-  - name: Gi1/0/13
-    type: 1000base-t
-  - name: Gi1/0/14
-    type: 1000base-t
-  - name: Gi1/0/15
-    type: 1000base-t
-  - name: Gi1/0/16
-    type: 1000base-t
-  - name: Gi1/0/17
-    type: 1000base-t
-  - name: Gi1/0/18
-    type: 1000base-t
-  - name: Gi1/0/19
-    type: 1000base-t
-  - name: Gi1/0/20
-    type: 1000base-t
-  - name: Gi1/0/21
-    type: 1000base-t
-  - name: Gi1/0/22
-    type: 1000base-t
-  - name: Gi1/0/23
-    type: 1000base-t
-  - name: Gi1/0/24
-    type: 1000base-t
-  - name: Gi1/0/25
-    type: 1000base-t
-  - name: Gi1/0/26
-    type: 1000base-t
-  - name: Gi1/0/27
-    type: 1000base-t
-  - name: Gi1/0/28
-    type: 1000base-t
-  - name: Gi1/0/29
-    type: 1000base-t
-  - name: Gi1/0/30
-    type: 1000base-t
-  - name: Gi1/0/31
-    type: 1000base-t
-  - name: Gi1/0/32
-    type: 1000base-t
-  - name: Gi1/0/33
-    type: 1000base-t
-  - name: Gi1/0/34
-    type: 1000base-t
-  - name: Gi1/0/35
-    type: 1000base-t
-  - name: Gi1/0/36
-    type: 1000base-t
-  - name: Gi1/0/37
-    type: 1000base-t
-  - name: Gi1/0/38
-    type: 1000base-t
-  - name: Gi1/0/39
-    type: 1000base-t
-  - name: Gi1/0/40
-    type: 1000base-t
-  - name: Gi1/0/41
-    type: 1000base-t
-  - name: Gi1/0/42
-    type: 1000base-t
-  - name: Gi1/0/43
-    type: 1000base-t
-  - name: Gi1/0/44
-    type: 1000base-t
-  - name: Gi1/0/45
-    type: 1000base-t
-  - name: Gi1/0/46
-    type: 1000base-t
-  - name: Gi1/0/47
-    type: 1000base-t
-  - name: Gi1/0/48
-    type: 1000base-t
-  - name: Te1/0/1
-    type: 10gbase-x-sfpp
-  - name: Te1/0/2
-    type: 10gbase-x-sfpp
-  - mgmt_only: true
-    name: Management1
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerSwitch N3048
-  part_number: N3048
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  slug: dell-powerswitch-n3048
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC9
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge T440
-  power-ports:
-  - maximum_draw: 750
-    name: Power 1
-    type: iec-60320-c14
-  - maximum_draw: 750
-    name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-t440
-  u_height: 5
-- device-bays:
-  - name: Sled-1
-  - name: Sled-2
-  - name: Sled-3
-  - name: Sled-4
-  - name: Sled-5
-  - name: Sled-6
-  - name: Sled-7
-  - name: Sled-8
-  - name: IOM-A1
-  - name: IOM-A2
-  - name: IOM-B1
-  - name: IOM-B2
-  - name: IOM-C1
-  - name: IOM-C2
-  - name: MM Slot 1
-  - name: MM Slot 2
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge MX7000
-  power-ports:
-  - name: PSU.Slot.1
-    type: iec-60320-c22
-  - name: PSU.Slot.2
-    type: iec-60320-c22
-  - name: PSU.Slot.3
-    type: iec-60320-c22
-  - name: PSU.Slot.4
-    type: iec-60320-c22
-  - name: PSU.Slot.5
-    type: iec-60320-c22
-  - name: PSU.Slot.6
-    type: iec-60320-c22
-  slug: dell-poweredge-mx7000
-  subdevice_role: parent
-  u_height: 7
-- comments: '[Dell-EMC-Networking-N1100-Series-Spec-Sheet.pdf](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Dell-EMC-Networking-N1100-Series-Spec-Sheet.pdf)'
-  console-ports:
-  - name: Console
-    type: usb-micro-b
-  interfaces:
-  - name: Te/0/1
-    type: 10gbase-x-sfpp
-  - name: Te1/0/2
-    type: 10gbase-x-sfpp
-  - name: Te1/0/3
-    type: 10gbase-x-sfpp
-  - name: Te1/0/4
-    type: 10gbase-x-sfpp
-  - name: Gi1/0/5
-    type: 1000base-t
-  - name: Gi1/0/6
-    type: 1000base-t
-  - name: Gi1/0/7
-    type: 1000base-t
-  - name: Gi1/0/8
-    type: 1000base-t
-  - name: Gi1/0/9
-    type: 1000base-t
-  - name: Gi1/0/10
-    type: 1000base-t
-  - name: Gi1/0/11
-    type: 1000base-t
-  - name: Gi1/0/12
-    type: 1000base-t
-  - name: Gi1/0/13
-    type: 1000base-t
-  - name: Gi1/0/14
-    type: 1000base-t
-  - name: Gi1/0/15
-    type: 1000base-t
-  - name: Gi1/0/16
-    type: 1000base-t
-  - name: Gi1/0/17
-    type: 1000base-t
-  - name: Gi1/0/18
-    type: 1000base-t
-  - name: Gi1/0/19
-    type: 1000base-t
-  - name: Gi1/0/20
-    type: 1000base-t
-  - name: Gi1/0/21
-    type: 1000base-t
-  - name: Gi1/0/22
-    type: 1000base-t
-  - name: Gi1/0/23
-    type: 1000base-t
-  - name: Gi1/0/24
-    type: 1000base-t
-  - name: Gi1/0/25
-    type: 1000base-t
-  - name: Gi1/0/26
-    type: 1000base-t
-  - name: Gi1/0/27
-    type: 1000base-t
-  - name: Gi1/0/28
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Dell
-  model: PowerSwitch N1124P-ON
-  part_number: N1124P-ON
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  slug: dell-powerswitch-n1124p-on
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: USB
-    type: usb-a
-  - name: VGA
-    type: other
-  console-server-ports:
-  - name: Front USB1
-    type: usb-a
-  - name: Front USB2
-    type: usb-a
-  - name: Rear USB1
-    type: usb-a
-  - name: Rear USB2
-    type: usb-a
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R320
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r320
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R6525
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r6525
-  u_height: 1
-- comments: '[Dell EMC PowerSwitch N2000 Series 1GbE Layer 3 Standard Switches](https://www.dell.com/en-us/shop/productdetailstxn/networking-n2000-series#support_section)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Gi1/0/1
-    type: 1000base-t
-  - name: Gi1/0/2
-    type: 1000base-t
-  - name: Gi1/0/3
-    type: 1000base-t
-  - name: Gi1/0/4
-    type: 1000base-t
-  - name: Gi1/0/5
-    type: 1000base-t
-  - name: Gi1/0/6
-    type: 1000base-t
-  - name: Gi1/0/7
-    type: 1000base-t
-  - name: Gi1/0/8
-    type: 1000base-t
-  - name: Gi1/0/9
-    type: 1000base-t
-  - name: Gi1/0/10
-    type: 1000base-t
-  - name: Gi1/0/11
-    type: 1000base-t
-  - name: Gi1/0/12
-    type: 1000base-t
-  - name: Gi1/0/13
-    type: 1000base-t
-  - name: Gi1/0/14
-    type: 1000base-t
-  - name: Gi1/0/15
-    type: 1000base-t
-  - name: Gi1/0/16
-    type: 1000base-t
-  - name: Gi1/0/17
-    type: 1000base-t
-  - name: Gi1/0/18
-    type: 1000base-t
-  - name: Gi1/0/19
-    type: 1000base-t
-  - name: Gi1/0/20
-    type: 1000base-t
-  - name: Gi1/0/21
-    type: 1000base-t
-  - name: Gi1/0/22
-    type: 1000base-t
-  - name: Gi1/0/23
-    type: 1000base-t
-  - name: Gi1/0/24
-    type: 1000base-t
-  - name: Gi1/0/25
-    type: 1000base-t
-  - name: Gi1/0/26
-    type: 1000base-t
-  - name: Gi1/0/27
-    type: 1000base-t
-  - name: Gi1/0/28
-    type: 1000base-t
-  - name: Gi1/0/29
-    type: 1000base-t
-  - name: Gi1/0/30
-    type: 1000base-t
-  - name: Gi1/0/31
-    type: 1000base-t
-  - name: Gi1/0/32
-    type: 1000base-t
-  - name: Gi1/0/33
-    type: 1000base-t
-  - name: Gi1/0/34
-    type: 1000base-t
-  - name: Gi1/0/35
-    type: 1000base-t
-  - name: Gi1/0/36
-    type: 1000base-t
-  - name: Gi1/0/37
-    type: 1000base-t
-  - name: Gi1/0/38
-    type: 1000base-t
-  - name: Gi1/0/39
-    type: 1000base-t
-  - name: Gi1/0/40
-    type: 1000base-t
-  - name: Gi1/0/41
-    type: 1000base-t
-  - name: Gi1/0/42
-    type: 1000base-t
-  - name: Gi1/0/43
-    type: 1000base-t
-  - name: Gi1/0/44
-    type: 1000base-t
-  - name: Gi1/0/45
-    type: 1000base-t
-  - name: Gi1/0/46
-    type: 1000base-t
-  - name: Gi1/0/47
-    type: 1000base-t
-  - name: Gi1/0/48
-    type: 1000base-t
-  - name: Te1/0/1
-    type: 10gbase-x-sfpp
-  - name: Te1/0/2
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: Dell
-  model: PowerSwitch N2048
-  part_number: N2048
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  slug: dell-powerswitch-n2048
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R730
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r730
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: Rear VGA
-    type: other
-  - name: Front VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R550
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r550
-  subdevice_role: parent
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R7525
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r7525
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R430
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r430
-  u_height: 1
-- comments: '[Dell R815 Data Sheet](https://www.dell.com/learn/us/en/12/shared-content~data-sheets~en/documents~r815-specsheet.pdf)
+'
+    console-ports:
+      - name: Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R720xd
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r720xd
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R720
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r720
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC7
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge T430
+    power-ports:
+      - maximum_draw: 750
+        name: Power 1
+        type: iec-60320-c14
+      - maximum_draw: 750
+        name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-t430
+    u_height: 5
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: Rear VGA
+        type: other
+      - name: Front VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R530
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r530
+    subdevice_role: parent
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: Rear VGA
+        type: other
+      - name: Front VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R450
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r450
+    subdevice_role: parent
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC8
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge T330
+    power-ports:
+      - maximum_draw: 350
+        name: Power 1
+        type: iec-60320-c14
+    slug: dell-poweredge-t330
+    u_height: 5
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R230
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+    slug: dell-poweredge-r230
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R620 XL
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r620-xl
+    u_height: 1
+  - comments: '[dell-networking-z9100-spec-sheet.pdf](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/us/dell-networking-z9100-spec-sheet.pdf)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Ethernet 1/1/1
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/2
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/3
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/4
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/5
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/6
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/7
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/8
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/9
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/10
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/11
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/12
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/13
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/14
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/15
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/16
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/17
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/18
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/19
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/20
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/21
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/22
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/23
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/24
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/25
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/26
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/27
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/28
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/29
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/30
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/31
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/32
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/33
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/1/34
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: mgmt1/1/1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerSwitch Z9100-ON
+    part_number: Z9100-ON
+    power-ports:
+      - name: PS1
+        type: iec-60320-c14
+      - name: PS2
+        type: iec-60320-c14
+    slug: dell-powerswitch-z9100-on
+    u_height: 1
+  - comments: '[Dell EMC PowerSwitch N3000 Series 1GbE Layer 3 Switches](https://www.dell.com/en-us/shop/productdetailstxn/networking-n3000-series)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Gi1/0/1
+        type: 1000base-t
+      - name: Gi1/0/2
+        type: 1000base-t
+      - name: Gi1/0/3
+        type: 1000base-t
+      - name: Gi1/0/4
+        type: 1000base-t
+      - name: Gi1/0/5
+        type: 1000base-t
+      - name: Gi1/0/6
+        type: 1000base-t
+      - name: Gi1/0/7
+        type: 1000base-t
+      - name: Gi1/0/8
+        type: 1000base-t
+      - name: Gi1/0/9
+        type: 1000base-t
+      - name: Gi1/0/10
+        type: 1000base-t
+      - name: Gi1/0/11
+        type: 1000base-t
+      - name: Gi1/0/12
+        type: 1000base-t
+      - name: Gi1/0/13
+        type: 1000base-t
+      - name: Gi1/0/14
+        type: 1000base-t
+      - name: Gi1/0/15
+        type: 1000base-t
+      - name: Gi1/0/16
+        type: 1000base-t
+      - name: Gi1/0/17
+        type: 1000base-t
+      - name: Gi1/0/18
+        type: 1000base-t
+      - name: Gi1/0/19
+        type: 1000base-t
+      - name: Gi1/0/20
+        type: 1000base-t
+      - name: Gi1/0/21
+        type: 1000base-t
+      - name: Gi1/0/22
+        type: 1000base-t
+      - name: Gi1/0/23
+        type: 1000base-t
+      - name: Gi1/0/24
+        type: 1000base-t
+      - name: Gi1/0/25
+        type: 1000base-t
+      - name: Gi1/0/26
+        type: 1000base-t
+      - name: Gi1/0/27
+        type: 1000base-t
+      - name: Gi1/0/28
+        type: 1000base-t
+      - name: Gi1/0/29
+        type: 1000base-t
+      - name: Gi1/0/30
+        type: 1000base-t
+      - name: Gi1/0/31
+        type: 1000base-t
+      - name: Gi1/0/32
+        type: 1000base-t
+      - name: Gi1/0/33
+        type: 1000base-t
+      - name: Gi1/0/34
+        type: 1000base-t
+      - name: Gi1/0/35
+        type: 1000base-t
+      - name: Gi1/0/36
+        type: 1000base-t
+      - name: Gi1/0/37
+        type: 1000base-t
+      - name: Gi1/0/38
+        type: 1000base-t
+      - name: Gi1/0/39
+        type: 1000base-t
+      - name: Gi1/0/40
+        type: 1000base-t
+      - name: Gi1/0/41
+        type: 1000base-t
+      - name: Gi1/0/42
+        type: 1000base-t
+      - name: Gi1/0/43
+        type: 1000base-t
+      - name: Gi1/0/44
+        type: 1000base-t
+      - name: Gi1/0/45
+        type: 1000base-t
+      - name: Gi1/0/46
+        type: 1000base-t
+      - name: Gi1/0/47
+        type: 1000base-t
+      - name: Gi1/0/48
+        type: 1000base-t
+      - name: Te1/0/1
+        type: 10gbase-x-sfpp
+      - name: Te1/0/2
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: Management1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerSwitch N3048
+    part_number: N3048
+    power-ports:
+      - name: PS1
+        type: iec-60320-c14
+    slug: dell-powerswitch-n3048
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC9
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge T440
+    power-ports:
+      - maximum_draw: 750
+        name: Power 1
+        type: iec-60320-c14
+      - maximum_draw: 750
+        name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-t440
+    u_height: 5
+  - device-bays:
+      - name: Sled-1
+      - name: Sled-2
+      - name: Sled-3
+      - name: Sled-4
+      - name: Sled-5
+      - name: Sled-6
+      - name: Sled-7
+      - name: Sled-8
+      - name: IOM-A1
+      - name: IOM-A2
+      - name: IOM-B1
+      - name: IOM-B2
+      - name: IOM-C1
+      - name: IOM-C2
+      - name: MM Slot 1
+      - name: MM Slot 2
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge MX7000
+    power-ports:
+      - name: PSU.Slot.1
+        type: iec-60320-c22
+      - name: PSU.Slot.2
+        type: iec-60320-c22
+      - name: PSU.Slot.3
+        type: iec-60320-c22
+      - name: PSU.Slot.4
+        type: iec-60320-c22
+      - name: PSU.Slot.5
+        type: iec-60320-c22
+      - name: PSU.Slot.6
+        type: iec-60320-c22
+    slug: dell-poweredge-mx7000
+    subdevice_role: parent
+    u_height: 7
+  - comments: '[Dell-EMC-Networking-N1100-Series-Spec-Sheet.pdf](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Dell-EMC-Networking-N1100-Series-Spec-Sheet.pdf)'
+    console-ports:
+      - name: Console
+        type: usb-micro-b
+    interfaces:
+      - name: Te/0/1
+        type: 10gbase-x-sfpp
+      - name: Te1/0/2
+        type: 10gbase-x-sfpp
+      - name: Te1/0/3
+        type: 10gbase-x-sfpp
+      - name: Te1/0/4
+        type: 10gbase-x-sfpp
+      - name: Gi1/0/5
+        type: 1000base-t
+      - name: Gi1/0/6
+        type: 1000base-t
+      - name: Gi1/0/7
+        type: 1000base-t
+      - name: Gi1/0/8
+        type: 1000base-t
+      - name: Gi1/0/9
+        type: 1000base-t
+      - name: Gi1/0/10
+        type: 1000base-t
+      - name: Gi1/0/11
+        type: 1000base-t
+      - name: Gi1/0/12
+        type: 1000base-t
+      - name: Gi1/0/13
+        type: 1000base-t
+      - name: Gi1/0/14
+        type: 1000base-t
+      - name: Gi1/0/15
+        type: 1000base-t
+      - name: Gi1/0/16
+        type: 1000base-t
+      - name: Gi1/0/17
+        type: 1000base-t
+      - name: Gi1/0/18
+        type: 1000base-t
+      - name: Gi1/0/19
+        type: 1000base-t
+      - name: Gi1/0/20
+        type: 1000base-t
+      - name: Gi1/0/21
+        type: 1000base-t
+      - name: Gi1/0/22
+        type: 1000base-t
+      - name: Gi1/0/23
+        type: 1000base-t
+      - name: Gi1/0/24
+        type: 1000base-t
+      - name: Gi1/0/25
+        type: 1000base-t
+      - name: Gi1/0/26
+        type: 1000base-t
+      - name: Gi1/0/27
+        type: 1000base-t
+      - name: Gi1/0/28
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Dell
+    model: PowerSwitch N1124P-ON
+    part_number: N1124P-ON
+    power-ports:
+      - name: PS1
+        type: iec-60320-c14
+    slug: dell-powerswitch-n1124p-on
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: USB
+        type: usb-a
+      - name: VGA
+        type: other
+    console-server-ports:
+      - name: Front USB1
+        type: usb-a
+      - name: Front USB2
+        type: usb-a
+      - name: Rear USB1
+        type: usb-a
+      - name: Rear USB2
+        type: usb-a
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R320
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r320
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R6525
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r6525
+    u_height: 1
+  - comments: '[Dell EMC PowerSwitch N2000 Series 1GbE Layer 3 Standard Switches](https://www.dell.com/en-us/shop/productdetailstxn/networking-n2000-series#support_section)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Gi1/0/1
+        type: 1000base-t
+      - name: Gi1/0/2
+        type: 1000base-t
+      - name: Gi1/0/3
+        type: 1000base-t
+      - name: Gi1/0/4
+        type: 1000base-t
+      - name: Gi1/0/5
+        type: 1000base-t
+      - name: Gi1/0/6
+        type: 1000base-t
+      - name: Gi1/0/7
+        type: 1000base-t
+      - name: Gi1/0/8
+        type: 1000base-t
+      - name: Gi1/0/9
+        type: 1000base-t
+      - name: Gi1/0/10
+        type: 1000base-t
+      - name: Gi1/0/11
+        type: 1000base-t
+      - name: Gi1/0/12
+        type: 1000base-t
+      - name: Gi1/0/13
+        type: 1000base-t
+      - name: Gi1/0/14
+        type: 1000base-t
+      - name: Gi1/0/15
+        type: 1000base-t
+      - name: Gi1/0/16
+        type: 1000base-t
+      - name: Gi1/0/17
+        type: 1000base-t
+      - name: Gi1/0/18
+        type: 1000base-t
+      - name: Gi1/0/19
+        type: 1000base-t
+      - name: Gi1/0/20
+        type: 1000base-t
+      - name: Gi1/0/21
+        type: 1000base-t
+      - name: Gi1/0/22
+        type: 1000base-t
+      - name: Gi1/0/23
+        type: 1000base-t
+      - name: Gi1/0/24
+        type: 1000base-t
+      - name: Gi1/0/25
+        type: 1000base-t
+      - name: Gi1/0/26
+        type: 1000base-t
+      - name: Gi1/0/27
+        type: 1000base-t
+      - name: Gi1/0/28
+        type: 1000base-t
+      - name: Gi1/0/29
+        type: 1000base-t
+      - name: Gi1/0/30
+        type: 1000base-t
+      - name: Gi1/0/31
+        type: 1000base-t
+      - name: Gi1/0/32
+        type: 1000base-t
+      - name: Gi1/0/33
+        type: 1000base-t
+      - name: Gi1/0/34
+        type: 1000base-t
+      - name: Gi1/0/35
+        type: 1000base-t
+      - name: Gi1/0/36
+        type: 1000base-t
+      - name: Gi1/0/37
+        type: 1000base-t
+      - name: Gi1/0/38
+        type: 1000base-t
+      - name: Gi1/0/39
+        type: 1000base-t
+      - name: Gi1/0/40
+        type: 1000base-t
+      - name: Gi1/0/41
+        type: 1000base-t
+      - name: Gi1/0/42
+        type: 1000base-t
+      - name: Gi1/0/43
+        type: 1000base-t
+      - name: Gi1/0/44
+        type: 1000base-t
+      - name: Gi1/0/45
+        type: 1000base-t
+      - name: Gi1/0/46
+        type: 1000base-t
+      - name: Gi1/0/47
+        type: 1000base-t
+      - name: Gi1/0/48
+        type: 1000base-t
+      - name: Te1/0/1
+        type: 10gbase-x-sfpp
+      - name: Te1/0/2
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Dell
+    model: PowerSwitch N2048
+    part_number: N2048
+    power-ports:
+      - name: PS1
+        type: iec-60320-c14
+    slug: dell-powerswitch-n2048
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R730
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r730
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: Rear VGA
+        type: other
+      - name: Front VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R550
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r550
+    subdevice_role: parent
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R7525
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r7525
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R430
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r430
+    u_height: 1
+  - comments: '[Dell R815 Data Sheet](https://www.dell.com/learn/us/en/12/shared-content~data-sheets~en/documents~r815-specsheet.pdf)
 
-    '
-  console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R815
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r815
-  u_height: 2
-- console-ports:
-  - name: Optional Rear Serial
-    type: de-9
-  - name: Front VGA
-    type: other
-  - name: Rear VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC9 1
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC9 2
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R650xs
-  power-ports:
-  - maximum_draw: 800
-    name: Power 1
-    type: iec-60320-c14
-  - maximum_draw: 800
-    name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r650xs
-  subdevice_role: parent
-  u_height: 1
-- comments: '[Technical Guide](https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r750-technical-guide.pdf)'
-  console-ports:
-  - name: Rear Serial
-    type: de-9
-  - name: Front VGA
-    type: other
-  - name: Rear VGA
-    type: other
-  interfaces:
-  - label: iDRAC
-    mgmt_only: true
-    name: iDRAC9 1
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R750
-  module-bays:
-  - label: '1'
-    name: PSU-1
-    position: PSU-1
-  - label: '2'
-    name: PSU-2
-    position: PSU-2
-  - name: NUMA 0 - OCP slot 1
-    position: OCP-1
-  - label: '1'
-    name: NUMA 0 - PCIe slot 1 - FH
-    position: PCIe-1
-  - label: '2'
-    name: NUMA 0 - PCIe slot 2 - FH
-    position: PCIe-2
-  - label: '3'
-    name: NUMA 0 - PCIe slot 3 - LP
-    position: PCIe-3
-  - label: '4'
-    name: NUMA 0 - PCIe slot 4 - FH
-    position: PCIe-4
-  - label: '5'
-    name: NUMA 1 - PCIe slot 5 - FH
-    position: PCIe-5
-  - label: '6'
-    name: NUMA 1 - PCIe slot 6 - LP
-    position: PCIe-6
-  - label: '7'
-    name: NUMA 1 - PCIe slot 7 - FH
-    position: PCIe-7
-  - label: '8'
-    name: NUMA 1 - PCIe slot 8 - FH
-    position: PCIe-8
-  slug: dell-poweredge-r750
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge T320
-  power-ports:
-  - maximum_draw: 495
-    name: Power 1
-    type: iec-60320-c14
-  - maximum_draw: 495
-    name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-t320
-  u_height: 5
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R340
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r340
-  u_height: 1
-- comments: '[Dell Networking N4000 Series 10GbE Layer 3 Switches](https://www.dell.com/en-us/shop/productdetailstxn/networking-n4000-series)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Te1/0/1
-    type: 10gbase-x-sfpp
-  - name: Te1/0/2
-    type: 10gbase-x-sfpp
-  - name: Te1/0/3
-    type: 10gbase-x-sfpp
-  - name: Te1/0/4
-    type: 10gbase-x-sfpp
-  - name: Te1/0/5
-    type: 10gbase-x-sfpp
-  - name: Te1/0/6
-    type: 10gbase-x-sfpp
-  - name: Te1/0/7
-    type: 10gbase-x-sfpp
-  - name: Te1/0/8
-    type: 10gbase-x-sfpp
-  - name: Te1/0/9
-    type: 10gbase-x-sfpp
-  - name: Te1/0/10
-    type: 10gbase-x-sfpp
-  - name: Te1/0/11
-    type: 10gbase-x-sfpp
-  - name: Te1/0/12
-    type: 10gbase-x-sfpp
-  - name: Te1/0/13
-    type: 10gbase-x-sfpp
-  - name: Te1/0/14
-    type: 10gbase-x-sfpp
-  - name: Te1/0/15
-    type: 10gbase-x-sfpp
-  - name: Te1/0/16
-    type: 10gbase-x-sfpp
-  - name: Te1/0/17
-    type: 10gbase-x-sfpp
-  - name: Te1/0/18
-    type: 10gbase-x-sfpp
-  - name: Te1/0/19
-    type: 10gbase-x-sfpp
-  - name: Te1/0/20
-    type: 10gbase-x-sfpp
-  - name: Te1/0/21
-    type: 10gbase-x-sfpp
-  - name: Te1/0/22
-    type: 10gbase-x-sfpp
-  - name: Te1/0/23
-    type: 10gbase-x-sfpp
-  - name: Te1/0/24
-    type: 10gbase-x-sfpp
-  - name: Te1/0/25
-    type: 10gbase-x-sfpp
-  - name: Te1/0/26
-    type: 10gbase-x-sfpp
-  - name: Te1/0/27
-    type: 10gbase-x-sfpp
-  - name: Te1/0/28
-    type: 10gbase-x-sfpp
-  - name: Te1/0/29
-    type: 10gbase-x-sfpp
-  - name: Te1/0/30
-    type: 10gbase-x-sfpp
-  - name: Te1/0/31
-    type: 10gbase-x-sfpp
-  - name: Te1/0/32
-    type: 10gbase-x-sfpp
-  - name: Te1/0/33
-    type: 10gbase-x-sfpp
-  - name: Te1/0/34
-    type: 10gbase-x-sfpp
-  - name: Te1/0/35
-    type: 10gbase-x-sfpp
-  - name: Te1/0/36
-    type: 10gbase-x-sfpp
-  - name: Te1/0/37
-    type: 10gbase-x-sfpp
-  - name: Te1/0/38
-    type: 10gbase-x-sfpp
-  - name: Te1/0/39
-    type: 10gbase-x-sfpp
-  - name: Te1/0/40
-    type: 10gbase-x-sfpp
-  - name: Te1/0/41
-    type: 10gbase-x-sfpp
-  - name: Te1/0/42
-    type: 10gbase-x-sfpp
-  - name: Te1/0/43
-    type: 10gbase-x-sfpp
-  - name: Te1/0/44
-    type: 10gbase-x-sfpp
-  - name: Te1/0/45
-    type: 10gbase-x-sfpp
-  - name: Te1/0/46
-    type: 10gbase-x-sfpp
-  - name: Te1/0/47
-    type: 10gbase-x-sfpp
-  - name: Te1/0/48
-    type: 10gbase-x-sfpp
-  - name: Fo1/0/1
-    type: 40gbase-x-qsfpp
-  - name: Fo1/0/2
-    type: 40gbase-x-qsfpp
-  - mgmt_only: true
-    name: Management1
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerSwitch N4064F
-  part_number: N4064F
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  - name: PS2
-    type: iec-60320-c14
-  slug: dell-powerswitch-n4064f
-  u_height: 1
-- comments: '[Dell R740xd Data Sheet](https://www.dell.com/learn/yu/en/yupad1/shared-content~data-sheets~en/documents~poweredge-r740xd-spec-sheet.pdf)
+'
+    console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R815
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r815
+    u_height: 2
+  - console-ports:
+      - name: Optional Rear Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC9 1
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC9 2
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R650xs
+    power-ports:
+      - maximum_draw: 800
+        name: Power 1
+        type: iec-60320-c14
+      - maximum_draw: 800
+        name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r650xs
+    subdevice_role: parent
+    u_height: 1
+  - comments: '[Technical Guide](https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r750-technical-guide.pdf)'
+    console-ports:
+      - name: Rear Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    interfaces:
+      - label: iDRAC
+        mgmt_only: true
+        name: iDRAC9 1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R750
+    module-bays:
+      - label: '1'
+        name: PSU-1
+        position: PSU-1
+      - label: '2'
+        name: PSU-2
+        position: PSU-2
+      - name: NUMA 0 - OCP slot 1
+        position: OCP-1
+      - label: '1'
+        name: NUMA 0 - PCIe slot 1 - FH
+        position: PCIe-1
+      - label: '2'
+        name: NUMA 0 - PCIe slot 2 - FH
+        position: PCIe-2
+      - label: '3'
+        name: NUMA 0 - PCIe slot 3 - LP
+        position: PCIe-3
+      - label: '4'
+        name: NUMA 0 - PCIe slot 4 - FH
+        position: PCIe-4
+      - label: '5'
+        name: NUMA 1 - PCIe slot 5 - FH
+        position: PCIe-5
+      - label: '6'
+        name: NUMA 1 - PCIe slot 6 - LP
+        position: PCIe-6
+      - label: '7'
+        name: NUMA 1 - PCIe slot 7 - FH
+        position: PCIe-7
+      - label: '8'
+        name: NUMA 1 - PCIe slot 8 - FH
+        position: PCIe-8
+    slug: dell-poweredge-r750
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge T320
+    power-ports:
+      - maximum_draw: 495
+        name: Power 1
+        type: iec-60320-c14
+      - maximum_draw: 495
+        name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-t320
+    u_height: 5
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R340
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r340
+    u_height: 1
+  - comments: '[Dell Networking N4000 Series 10GbE Layer 3 Switches](https://www.dell.com/en-us/shop/productdetailstxn/networking-n4000-series)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Te1/0/1
+        type: 10gbase-x-sfpp
+      - name: Te1/0/2
+        type: 10gbase-x-sfpp
+      - name: Te1/0/3
+        type: 10gbase-x-sfpp
+      - name: Te1/0/4
+        type: 10gbase-x-sfpp
+      - name: Te1/0/5
+        type: 10gbase-x-sfpp
+      - name: Te1/0/6
+        type: 10gbase-x-sfpp
+      - name: Te1/0/7
+        type: 10gbase-x-sfpp
+      - name: Te1/0/8
+        type: 10gbase-x-sfpp
+      - name: Te1/0/9
+        type: 10gbase-x-sfpp
+      - name: Te1/0/10
+        type: 10gbase-x-sfpp
+      - name: Te1/0/11
+        type: 10gbase-x-sfpp
+      - name: Te1/0/12
+        type: 10gbase-x-sfpp
+      - name: Te1/0/13
+        type: 10gbase-x-sfpp
+      - name: Te1/0/14
+        type: 10gbase-x-sfpp
+      - name: Te1/0/15
+        type: 10gbase-x-sfpp
+      - name: Te1/0/16
+        type: 10gbase-x-sfpp
+      - name: Te1/0/17
+        type: 10gbase-x-sfpp
+      - name: Te1/0/18
+        type: 10gbase-x-sfpp
+      - name: Te1/0/19
+        type: 10gbase-x-sfpp
+      - name: Te1/0/20
+        type: 10gbase-x-sfpp
+      - name: Te1/0/21
+        type: 10gbase-x-sfpp
+      - name: Te1/0/22
+        type: 10gbase-x-sfpp
+      - name: Te1/0/23
+        type: 10gbase-x-sfpp
+      - name: Te1/0/24
+        type: 10gbase-x-sfpp
+      - name: Te1/0/25
+        type: 10gbase-x-sfpp
+      - name: Te1/0/26
+        type: 10gbase-x-sfpp
+      - name: Te1/0/27
+        type: 10gbase-x-sfpp
+      - name: Te1/0/28
+        type: 10gbase-x-sfpp
+      - name: Te1/0/29
+        type: 10gbase-x-sfpp
+      - name: Te1/0/30
+        type: 10gbase-x-sfpp
+      - name: Te1/0/31
+        type: 10gbase-x-sfpp
+      - name: Te1/0/32
+        type: 10gbase-x-sfpp
+      - name: Te1/0/33
+        type: 10gbase-x-sfpp
+      - name: Te1/0/34
+        type: 10gbase-x-sfpp
+      - name: Te1/0/35
+        type: 10gbase-x-sfpp
+      - name: Te1/0/36
+        type: 10gbase-x-sfpp
+      - name: Te1/0/37
+        type: 10gbase-x-sfpp
+      - name: Te1/0/38
+        type: 10gbase-x-sfpp
+      - name: Te1/0/39
+        type: 10gbase-x-sfpp
+      - name: Te1/0/40
+        type: 10gbase-x-sfpp
+      - name: Te1/0/41
+        type: 10gbase-x-sfpp
+      - name: Te1/0/42
+        type: 10gbase-x-sfpp
+      - name: Te1/0/43
+        type: 10gbase-x-sfpp
+      - name: Te1/0/44
+        type: 10gbase-x-sfpp
+      - name: Te1/0/45
+        type: 10gbase-x-sfpp
+      - name: Te1/0/46
+        type: 10gbase-x-sfpp
+      - name: Te1/0/47
+        type: 10gbase-x-sfpp
+      - name: Te1/0/48
+        type: 10gbase-x-sfpp
+      - name: Fo1/0/1
+        type: 40gbase-x-qsfpp
+      - name: Fo1/0/2
+        type: 40gbase-x-qsfpp
+      - mgmt_only: true
+        name: Management1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerSwitch N4064F
+    part_number: N4064F
+    power-ports:
+      - name: PS1
+        type: iec-60320-c14
+      - name: PS2
+        type: iec-60320-c14
+    slug: dell-powerswitch-n4064f
+    u_height: 1
+  - comments: '[Dell R740xd Data Sheet](https://www.dell.com/learn/yu/en/yupad1/shared-content~data-sheets~en/documents~poweredge-r740xd-spec-sheet.pdf)
 
-    '
-  console-ports:
-  - name: Serial
-    type: de-9
-  - name: Front VGA
-    type: other
-  - name: Rear VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R740xd
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r740xd
-  u_height: 2
-- comments: '[Dell-S3048-ON-Spec-Sheet.pdf](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/us/Dell-S3048-ON-Spec-Sheet.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Ethernet 1/1/1
-    type: 1000base-t
-  - name: Ethernet 1/1/2
-    type: 1000base-t
-  - name: Ethernet 1/1/3
-    type: 1000base-t
-  - name: Ethernet 1/1/4
-    type: 1000base-t
-  - name: Ethernet 1/1/5
-    type: 1000base-t
-  - name: Ethernet 1/1/6
-    type: 1000base-t
-  - name: Ethernet 1/1/7
-    type: 1000base-t
-  - name: Ethernet 1/1/8
-    type: 1000base-t
-  - name: Ethernet 1/1/9
-    type: 1000base-t
-  - name: Ethernet 1/1/10
-    type: 1000base-t
-  - name: Ethernet 1/1/11
-    type: 1000base-t
-  - name: Ethernet 1/1/12
-    type: 1000base-t
-  - name: Ethernet 1/1/13
-    type: 1000base-t
-  - name: Ethernet 1/1/14
-    type: 1000base-t
-  - name: Ethernet 1/1/15
-    type: 1000base-t
-  - name: Ethernet 1/1/16
-    type: 1000base-t
-  - name: Ethernet 1/1/17
-    type: 1000base-t
-  - name: Ethernet 1/1/18
-    type: 1000base-t
-  - name: Ethernet 1/1/19
-    type: 1000base-t
-  - name: Ethernet 1/1/20
-    type: 1000base-t
-  - name: Ethernet 1/1/21
-    type: 1000base-t
-  - name: Ethernet 1/1/22
-    type: 1000base-t
-  - name: Ethernet 1/1/23
-    type: 1000base-t
-  - name: Ethernet 1/1/24
-    type: 1000base-t
-  - name: Ethernet 1/1/25
-    type: 1000base-t
-  - name: Ethernet 1/1/26
-    type: 1000base-t
-  - name: Ethernet 1/1/27
-    type: 1000base-t
-  - name: Ethernet 1/1/28
-    type: 1000base-t
-  - name: Ethernet 1/1/29
-    type: 1000base-t
-  - name: Ethernet 1/1/30
-    type: 1000base-t
-  - name: Ethernet 1/1/31
-    type: 1000base-t
-  - name: Ethernet 1/1/32
-    type: 1000base-t
-  - name: Ethernet 1/1/33
-    type: 1000base-t
-  - name: Ethernet 1/1/34
-    type: 1000base-t
-  - name: Ethernet 1/1/35
-    type: 1000base-t
-  - name: Ethernet 1/1/36
-    type: 1000base-t
-  - name: Ethernet 1/1/37
-    type: 1000base-t
-  - name: Ethernet 1/1/38
-    type: 1000base-t
-  - name: Ethernet 1/1/39
-    type: 1000base-t
-  - name: Ethernet 1/1/40
-    type: 1000base-t
-  - name: Ethernet 1/1/41
-    type: 1000base-t
-  - name: Ethernet 1/1/42
-    type: 1000base-t
-  - name: Ethernet 1/1/43
-    type: 1000base-t
-  - name: Ethernet 1/1/44
-    type: 1000base-t
-  - name: Ethernet 1/1/45
-    type: 1000base-t
-  - name: Ethernet 1/1/46
-    type: 1000base-t
-  - name: Ethernet 1/1/47
-    type: 1000base-t
-  - name: Ethernet 1/1/48
-    type: 1000base-t
-  - name: Ethernet 1/1/49
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/1/50
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/1/51
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/1/52
-    type: 10gbase-x-sfpp
-  - mgmt_only: true
-    name: Management 1/1/1
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerSwitch S3048-ON
-  part_number: S3048-ON
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  slug: dell-powerswitch-s3048-on
-  u_height: 1
-- is_full_depth: false
-  manufacturer: Dell
-  model: PowerEdge C6400
-  slug: dell-poweredge-c6400
-  u_height: 2
-- comments: '[T310-SpecSheet.pdf](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/T310-SpecSheet.pdf)'
-  console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  device-bays:
-  - name: PCIe-Gen2 1
-  - name: PCIe-Gen2 2
-  - name: PCIe-Gen2 3
-  - name: PCIe-Gen2 4
-  - name: PCIe-Gen2 5
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Dell
-  model: PowerEdge T310
-  power-ports:
-  - maximum_draw: 400
-    name: Power 1
-    type: iec-60320-c14
-  slug: dell-poweredge-t310
-  subdevice_role: parent
-  u_height: 0
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: NIC.Integrated.1-1-1
-    type: 10gbase-t
-  - name: NIC.Integrated.1-2-1
-    type: 10gbase-t
-  - name: NIC.Integrated.1-3-1
-    type: 1000base-t
-  - name: NIC.Integrated.1-4-1
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: DR4100
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-dr4100
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: Front VGA
-    type: other
-  - name: Rear VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC9
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R640
-  module-bays:
-  - name: PCIe-Gen3 1
-    position: PCIE1
-  - name: PCIe-Gen3 2
-    position: PCIE2
-  - name: PCIe-Gen3 3
-    position: PCIE3
-  power-ports:
-  - maximum_draw: 750
-    name: Power 1
-    type: iec-60320-c14
-  - maximum_draw: 750
-    name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r640
-  subdevice_role: parent
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R415
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r415
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: Front VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R740xd2
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r740xd2
-  u_height: 2
-- comments: '[T110-SpecSheet.pdf](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/T110-SpecSheet.pdf)'
-  console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge T110
-  power-ports:
-  - maximum_draw: 305
-    name: PSU1
-    type: iec-60320-c14
-  slug: dell-poweredge-t110
-  u_height: 5
-- comments: '[dell-networking-s4100-series-spec-sheet.pdf](https://www.delltechnologies.com/asset/en-us/products/networking/technical-support/dell-networking-s4100-series-spec-sheet.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Ethernet 1/1
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/2
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/3
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/4
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/5
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/6
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/7
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/8
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/9
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/10
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/11
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/12
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/13
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/14
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/15
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/16
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/17
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/18
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/19
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/20
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/21
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/22
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/23
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/24
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/25
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/26
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/27
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/28
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/29
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/30
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/31
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/32
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/33
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/34
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/35
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/36
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/37
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/38
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/39
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/40
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/41
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/42
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/43
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/44
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/45
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/46
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/47
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/48
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/49
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/50
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/51
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/52
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/53
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/54
-    type: 10gbase-x-sfpp
-  - mgmt_only: true
-    name: Management1
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerSwitch S4148F-ON
-  part_number: S4148F-ON
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  - name: PS2
-    type: iec-60320-c14
-  slug: dell-powerswitch-s4148f-on
-  u_height: 1
-- device-bays:
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  - name: Slot 4
-  - name: Slot 5
-  - name: Slot 6
-  - name: Slot 7
-  - name: Slot 8
-  - name: Slot 9
-  - name: Slot 10
-  - name: Slot 11
-  - name: Slot 12
-  - name: Slot 13
-  - name: Slot 14
-  - name: Slot 15
-  - name: Slot 16
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge M1000e
-  power-ports:
-  - name: PSU1
-    type: iec-60320-c20
-  - name: PSU2
-    type: iec-60320-c20
-  - name: PSU3
-    type: iec-60320-c20
-  - name: PSU4
-    type: iec-60320-c20
-  - name: PSU5
-    type: iec-60320-c20
-  - name: PSU6
-    type: iec-60320-c20
-  slug: dell-poweredge-m1000e
-  subdevice_role: parent
-  u_height: 10
-- comments: '[Dell C6420 Spec Sheet](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/dell-emc-poweredge-c6520-spec-sheet.pdf)
+'
+    console-ports:
+      - name: Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R740xd
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r740xd
+    u_height: 2
+  - comments: '[Dell-S3048-ON-Spec-Sheet.pdf](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/us/Dell-S3048-ON-Spec-Sheet.pdf)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Ethernet 1/1/1
+        type: 1000base-t
+      - name: Ethernet 1/1/2
+        type: 1000base-t
+      - name: Ethernet 1/1/3
+        type: 1000base-t
+      - name: Ethernet 1/1/4
+        type: 1000base-t
+      - name: Ethernet 1/1/5
+        type: 1000base-t
+      - name: Ethernet 1/1/6
+        type: 1000base-t
+      - name: Ethernet 1/1/7
+        type: 1000base-t
+      - name: Ethernet 1/1/8
+        type: 1000base-t
+      - name: Ethernet 1/1/9
+        type: 1000base-t
+      - name: Ethernet 1/1/10
+        type: 1000base-t
+      - name: Ethernet 1/1/11
+        type: 1000base-t
+      - name: Ethernet 1/1/12
+        type: 1000base-t
+      - name: Ethernet 1/1/13
+        type: 1000base-t
+      - name: Ethernet 1/1/14
+        type: 1000base-t
+      - name: Ethernet 1/1/15
+        type: 1000base-t
+      - name: Ethernet 1/1/16
+        type: 1000base-t
+      - name: Ethernet 1/1/17
+        type: 1000base-t
+      - name: Ethernet 1/1/18
+        type: 1000base-t
+      - name: Ethernet 1/1/19
+        type: 1000base-t
+      - name: Ethernet 1/1/20
+        type: 1000base-t
+      - name: Ethernet 1/1/21
+        type: 1000base-t
+      - name: Ethernet 1/1/22
+        type: 1000base-t
+      - name: Ethernet 1/1/23
+        type: 1000base-t
+      - name: Ethernet 1/1/24
+        type: 1000base-t
+      - name: Ethernet 1/1/25
+        type: 1000base-t
+      - name: Ethernet 1/1/26
+        type: 1000base-t
+      - name: Ethernet 1/1/27
+        type: 1000base-t
+      - name: Ethernet 1/1/28
+        type: 1000base-t
+      - name: Ethernet 1/1/29
+        type: 1000base-t
+      - name: Ethernet 1/1/30
+        type: 1000base-t
+      - name: Ethernet 1/1/31
+        type: 1000base-t
+      - name: Ethernet 1/1/32
+        type: 1000base-t
+      - name: Ethernet 1/1/33
+        type: 1000base-t
+      - name: Ethernet 1/1/34
+        type: 1000base-t
+      - name: Ethernet 1/1/35
+        type: 1000base-t
+      - name: Ethernet 1/1/36
+        type: 1000base-t
+      - name: Ethernet 1/1/37
+        type: 1000base-t
+      - name: Ethernet 1/1/38
+        type: 1000base-t
+      - name: Ethernet 1/1/39
+        type: 1000base-t
+      - name: Ethernet 1/1/40
+        type: 1000base-t
+      - name: Ethernet 1/1/41
+        type: 1000base-t
+      - name: Ethernet 1/1/42
+        type: 1000base-t
+      - name: Ethernet 1/1/43
+        type: 1000base-t
+      - name: Ethernet 1/1/44
+        type: 1000base-t
+      - name: Ethernet 1/1/45
+        type: 1000base-t
+      - name: Ethernet 1/1/46
+        type: 1000base-t
+      - name: Ethernet 1/1/47
+        type: 1000base-t
+      - name: Ethernet 1/1/48
+        type: 1000base-t
+      - name: Ethernet 1/1/49
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/1/50
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/1/51
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/1/52
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: Management 1/1/1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerSwitch S3048-ON
+    part_number: S3048-ON
+    power-ports:
+      - name: PS1
+        type: iec-60320-c14
+    slug: dell-powerswitch-s3048-on
+    u_height: 1
+  - is_full_depth: false
+    manufacturer: Dell
+    model: PowerEdge C6400
+    slug: dell-poweredge-c6400
+    u_height: 2
+  - comments: '[T310-SpecSheet.pdf](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/T310-SpecSheet.pdf)'
+    console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    device-bays:
+      - name: PCIe-Gen2 1
+      - name: PCIe-Gen2 2
+      - name: PCIe-Gen2 3
+      - name: PCIe-Gen2 4
+      - name: PCIe-Gen2 5
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Dell
+    model: PowerEdge T310
+    power-ports:
+      - maximum_draw: 400
+        name: Power 1
+        type: iec-60320-c14
+    slug: dell-poweredge-t310
+    subdevice_role: parent
+    u_height: 0
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: NIC.Integrated.1-1-1
+        type: 10gbase-t
+      - name: NIC.Integrated.1-2-1
+        type: 10gbase-t
+      - name: NIC.Integrated.1-3-1
+        type: 1000base-t
+      - name: NIC.Integrated.1-4-1
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: DR4100
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-dr4100
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC9
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R640
+    module-bays:
+      - name: PCIe-Gen3 1
+        position: PCIE1
+      - name: PCIe-Gen3 2
+        position: PCIE2
+      - name: PCIe-Gen3 3
+        position: PCIE3
+    power-ports:
+      - maximum_draw: 750
+        name: Power 1
+        type: iec-60320-c14
+      - maximum_draw: 750
+        name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r640
+    subdevice_role: parent
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R415
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r415
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R740xd2
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r740xd2
+    u_height: 2
+  - comments: '[T110-SpecSheet.pdf](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/T110-SpecSheet.pdf)'
+    console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge T110
+    power-ports:
+      - maximum_draw: 305
+        name: PSU1
+        type: iec-60320-c14
+    slug: dell-poweredge-t110
+    u_height: 5
+  - comments: '[dell-networking-s4100-series-spec-sheet.pdf](https://www.delltechnologies.com/asset/en-us/products/networking/technical-support/dell-networking-s4100-series-spec-sheet.pdf)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Ethernet 1/1
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/2
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/3
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/4
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/5
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/6
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/7
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/8
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/9
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/10
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/11
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/12
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/13
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/14
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/15
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/16
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/17
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/18
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/19
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/20
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/21
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/22
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/23
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/24
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/25
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/26
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/27
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/28
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/29
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/30
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/31
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/32
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/33
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/34
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/35
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/36
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/37
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/38
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/39
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/40
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/41
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/42
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/43
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/44
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/45
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/46
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/47
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/48
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/49
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/50
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/51
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/52
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/53
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/54
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: Management1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerSwitch S4148F-ON
+    part_number: S4148F-ON
+    power-ports:
+      - name: PS1
+        type: iec-60320-c14
+      - name: PS2
+        type: iec-60320-c14
+    slug: dell-powerswitch-s4148f-on
+    u_height: 1
+  - device-bays:
+      - name: Slot 1
+      - name: Slot 2
+      - name: Slot 3
+      - name: Slot 4
+      - name: Slot 5
+      - name: Slot 6
+      - name: Slot 7
+      - name: Slot 8
+      - name: Slot 9
+      - name: Slot 10
+      - name: Slot 11
+      - name: Slot 12
+      - name: Slot 13
+      - name: Slot 14
+      - name: Slot 15
+      - name: Slot 16
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge M1000e
+    power-ports:
+      - name: PSU1
+        type: iec-60320-c20
+      - name: PSU2
+        type: iec-60320-c20
+      - name: PSU3
+        type: iec-60320-c20
+      - name: PSU4
+        type: iec-60320-c20
+      - name: PSU5
+        type: iec-60320-c20
+      - name: PSU6
+        type: iec-60320-c20
+    slug: dell-poweredge-m1000e
+    subdevice_role: parent
+    u_height: 10
+  - comments: '[Dell C6420 Spec Sheet](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/dell-emc-poweredge-c6520-spec-sheet.pdf)
 
-    '
-  console-ports:
-  - name: Mini-DP
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Dell
-  model: PowerEdge C6420
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-c6420
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: Front VGA
-    type: other
-  - name: Rear VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R420
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r420
-  u_height: 1
-- comments: '[dell_emc_networking-s5200_on_spec_sheet.pdf](https://www.delltechnologies.com/asset/en-in/products/networking/technical-support/dell_emc_networking-s5200_on_spec_sheet.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Ethernet 1/1/1
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/2
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/3
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/4
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/5
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/6
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/7
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/8
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/9
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/10
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/11
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/12
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/13
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/14
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/15
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/16
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/17
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/18
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/19
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/20
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/21
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/22
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/23
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/24
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/25
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/26
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/27
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/28
-    type: 100gbase-x-qsfp28
-  - mgmt_only: true
-    name: mgmt 1/1/1
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerSwitch S5224F-ON
-  power-ports:
-  - allocated_draw: 200
-    maximum_draw: 647
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 200
-    maximum_draw: 647
-    name: PS2
-    type: iec-60320-c14
-  slug: dell-powerswitch-s5224f-on
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R410
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r410
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R620
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r620
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R820
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r820
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R200
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  slug: dell-poweredge-r200
-  u_height: 1
-- comments: '[dell_emc_networking-s5200_on_spec_sheet.pdf](https://www.delltechnologies.com/asset/en-in/products/networking/technical-support/dell_emc_networking-s5200_on_spec_sheet.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Ethernet 1/1/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/2
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/3
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/4
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/5
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/6
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/7
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/8
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/9
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/10
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/11
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/12
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/13
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/14
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/15
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/16
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/17
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/18
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/19
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/20
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/21
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/22
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/23
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/24
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/25
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/26
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/27
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/28
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/29
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/30
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/31
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/32
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/33
-    type: 10gbase-x-sfpp
-  - name: Ethernet 1/1/34
-    type: 10gbase-x-sfpp
-  - mgmt_only: true
-    name: mgmt 1/1/1
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerSwitch S5232F-ON
-  power-ports:
-  - allocated_draw: 360
-    maximum_draw: 635
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 360
-    maximum_draw: 635
-    name: PS2
-    type: iec-60320-c14
-  slug: dell-powerswitch-s5232f-on
-  u_height: 1
-- comments: '[dell_emc_networking-s5200_on_spec_sheet.pdf](https://www.delltechnologies.com/asset/en-in/products/networking/technical-support/dell_emc_networking-s5200_on_spec_sheet.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: Ethernet 1/1/1
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/2
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/3
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/4
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/5
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/6
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/7
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/8
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/9
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/10
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/11
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/12
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/13
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/14
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/15
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/16
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/17
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/18
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/19
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/20
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/21
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/22
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/23
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/24
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/25
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/26
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/27
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/28
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/29
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/30
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/31
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/32
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/33
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/34
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/35
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/36
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/37
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/38
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/39
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/40
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/41
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/42
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/43
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/44
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/45
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/46
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/47
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/48
-    type: 25gbase-x-sfp28
-  - name: Ethernet 1/1/49
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/50
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/51
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/52
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/53
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/54
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/55
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/56
-    type: 100gbase-x-qsfp28
-  - mgmt_only: true
-    name: mgmt 1/1/1
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerSwitch S5248F-ON
-  power-ports:
-  - allocated_draw: 310
-    maximum_draw: 647
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 310
-    maximum_draw: 647
-    name: PS2
-    type: iec-60320-c14
-  slug: dell-powerswitch-s5248f-on
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  interfaces:
-  - name: g1
-    type: 1000base-t
-  - name: g2
-    type: 1000base-t
-  - name: g3
-    type: 1000base-t
-  - name: g4
-    type: 1000base-t
-  - name: g5
-    type: 1000base-t
-  - name: g6
-    type: 1000base-t
-  - name: g7
-    type: 1000base-t
-  - name: g8
-    type: 1000base-t
-  - name: g9
-    type: 1000base-t
-  - name: g10
-    type: 1000base-t
-  - name: g11
-    type: 1000base-t
-  - name: g12
-    type: 1000base-t
-  - name: g13
-    type: 1000base-t
-  - name: g14
-    type: 1000base-t
-  - name: g15
-    type: 1000base-t
-  - name: g16
-    type: 1000base-t
-  - name: g17
-    type: 1000base-t
-  - name: g18
-    type: 1000base-t
-  - name: g19
-    type: 1000base-t
-  - name: g20
-    type: 1000base-t
-  - name: g21
-    type: 1000base-t
-  - name: g22
-    type: 1000base-t
-  - name: g23
-    type: 1000base-t
-  - name: g24
-    type: 1000base-t
-  - mgmt_only: true
-    name: Management
-    type: virtual
-  is_full_depth: false
-  manufacturer: Dell
-  model: PowerConnect 6224
-  power-ports:
-  - name: Power
-    type: iec-60320-c14
-  slug: dell-powerconnect-6224
-  u_height: 1
-- comments: Dell KMM Console - 18.5 in LED - 1U Rackmount - Spanish Language Keyboard
-    [Manufacturer Part DKMMLED185-207 | Dell Part A7485910 | Order Code A7485910 |
-    DELL VERTIV](https://www.dell.com/en-us/shop/dell-kmm-console-185-in-led-1u-rackmount-spanish-language-keyboard/apd/a7485910/networking#techspecs_section)
-  console-ports:
-  - name: VGA
-    type: other
-  - name: usb1
-    type: usb-a
-  - name: usb2
-    type: usb-a
-  is_full_depth: true
-  manufacturer: Dell
-  model: DKMMLED185-207
-  part_number: A7485910
-  power-ports:
-  - maximum_draw: 20
-    name: ps1
-    type: iec-60320-c14
-  slug: dell-dkmmled185-207
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R310
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r310
-  u_height: 1
-- airflow: front-to-rear
-  device-bays:
-  - label: Controller Slot A
-    name: A
-  - label: Controller Slot B
-    name: B
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerVault ME4024
-  module-bays:
-  - label: PSU Slot 1
-    name: '1'
-    position: '1'
-  - label: PSU Slot 2
-    name: '2'
-    position: '2'
-  slug: dell-powervault-me4024
-  subdevice_role: parent
-  u_height: 2
-- airflow: front-to-rear
-  comments: '[Dell PowerEdge 1950 Data Sheet](https://www1.la.dell.com/content/products/productdetails.aspx/pedge_1950_3)'
-  console-ports:
-  - name: Serial
-    type: de-9
-  - name: Front VGA
-    type: other
-  - name: Rear VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge 1950
-  power-ports:
-  - allocated_draw: 300
-    maximum_draw: 670
-    name: PSU1
-    type: iec-60320-c14
-  - allocated_draw: 300
-    maximum_draw: 670
-    name: PSU2
-    type: iec-60320-c14
-  slug: dell-poweredge-1950
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R715
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r715
-  u_height: 2
-- console-ports:
-  - name: Optional Rear Serial
-    type: de-9
-  - name: Front VGA
-    type: other
-  - name: Rear VGA
-    type: other
-  device-bays:
-  - name: Optional OCP NIC
-  - name: Optional BOSS-2 Removed
-  - name: PCIe-Gen4 1
-  - name: Optional PCIe-Gen4 2
-  - name: Optional PCIe-Gen4 3
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Optional/OCP Gig-E 1
-    type: 1000base-t
-  - name: Optional/OCP Gig-E 2
-    type: 1000base-t
-  - name: Optional/OCP Gig-E 3
-    type: 1000base-t
-  - name: Optional/OCP Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC9
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R650
-  power-ports:
-  - maximum_draw: 800
-    name: Power 1
-    type: iec-60320-c14
-  - maximum_draw: 800
-    name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r650
-  subdevice_role: parent
-  u_height: 1
-- airflow: front-to-rear
-  device-bays:
-  - label: Controller Slot A
-    name: A
-  - label: Controller Slot B
-    name: B
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerVault MD3200
-  module-bays:
-  - label: PSU Slot 1
-    name: '1'
-    position: '1'
-  - label: PSU Slot 2
-    name: '2'
-    position: '2'
-  slug: dell-powervault-md3200
-  subdevice_role: parent
-  u_height: 2
-- comments: '[Dell R610 Data Sheet](https://www.dell.com/learn/us/en/98/shared-content~data-sheets~en/documents~r610-specsheet.pdf)
+'
+    console-ports:
+      - name: Mini-DP
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Dell
+    model: PowerEdge C6420
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-c6420
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R420
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r420
+    u_height: 1
+  - comments: '[dell_emc_networking-s5200_on_spec_sheet.pdf](https://www.delltechnologies.com/asset/en-in/products/networking/technical-support/dell_emc_networking-s5200_on_spec_sheet.pdf)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Ethernet 1/1/1
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/2
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/3
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/4
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/5
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/6
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/7
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/8
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/9
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/10
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/11
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/12
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/13
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/14
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/15
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/16
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/17
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/18
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/19
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/20
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/21
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/22
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/23
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/24
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/25
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/26
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/27
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/28
+        type: 100gbase-x-qsfp28
+      - mgmt_only: true
+        name: mgmt 1/1/1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerSwitch S5224F-ON
+    power-ports:
+      - allocated_draw: 200
+        maximum_draw: 647
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 200
+        maximum_draw: 647
+        name: PS2
+        type: iec-60320-c14
+    slug: dell-powerswitch-s5224f-on
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R410
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r410
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R620
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r620
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R820
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r820
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R200
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+    slug: dell-poweredge-r200
+    u_height: 1
+  - comments: '[dell_emc_networking-s5200_on_spec_sheet.pdf](https://www.delltechnologies.com/asset/en-in/products/networking/technical-support/dell_emc_networking-s5200_on_spec_sheet.pdf)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Ethernet 1/1/1
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/2
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/3
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/4
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/5
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/6
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/7
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/8
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/9
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/10
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/11
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/12
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/13
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/14
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/15
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/16
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/17
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/18
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/19
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/20
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/21
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/22
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/23
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/24
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/25
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/26
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/27
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/28
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/29
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/30
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/31
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/32
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/33
+        type: 10gbase-x-sfpp
+      - name: Ethernet 1/1/34
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: mgmt 1/1/1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerSwitch S5232F-ON
+    power-ports:
+      - allocated_draw: 360
+        maximum_draw: 635
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 360
+        maximum_draw: 635
+        name: PS2
+        type: iec-60320-c14
+    slug: dell-powerswitch-s5232f-on
+    u_height: 1
+  - comments: '[dell_emc_networking-s5200_on_spec_sheet.pdf](https://www.delltechnologies.com/asset/en-in/products/networking/technical-support/dell_emc_networking-s5200_on_spec_sheet.pdf)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Ethernet 1/1/1
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/2
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/3
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/4
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/5
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/6
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/7
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/8
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/9
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/10
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/11
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/12
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/13
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/14
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/15
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/16
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/17
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/18
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/19
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/20
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/21
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/22
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/23
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/24
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/25
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/26
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/27
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/28
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/29
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/30
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/31
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/32
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/33
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/34
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/35
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/36
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/37
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/38
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/39
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/40
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/41
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/42
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/43
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/44
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/45
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/46
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/47
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/48
+        type: 25gbase-x-sfp28
+      - name: Ethernet 1/1/49
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/50
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/51
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/52
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/53
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/54
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/55
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 1/1/56
+        type: 100gbase-x-qsfp28
+      - mgmt_only: true
+        name: mgmt 1/1/1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerSwitch S5248F-ON
+    power-ports:
+      - allocated_draw: 310
+        maximum_draw: 647
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 310
+        maximum_draw: 647
+        name: PS2
+        type: iec-60320-c14
+    slug: dell-powerswitch-s5248f-on
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+    interfaces:
+      - name: g1
+        type: 1000base-t
+      - name: g2
+        type: 1000base-t
+      - name: g3
+        type: 1000base-t
+      - name: g4
+        type: 1000base-t
+      - name: g5
+        type: 1000base-t
+      - name: g6
+        type: 1000base-t
+      - name: g7
+        type: 1000base-t
+      - name: g8
+        type: 1000base-t
+      - name: g9
+        type: 1000base-t
+      - name: g10
+        type: 1000base-t
+      - name: g11
+        type: 1000base-t
+      - name: g12
+        type: 1000base-t
+      - name: g13
+        type: 1000base-t
+      - name: g14
+        type: 1000base-t
+      - name: g15
+        type: 1000base-t
+      - name: g16
+        type: 1000base-t
+      - name: g17
+        type: 1000base-t
+      - name: g18
+        type: 1000base-t
+      - name: g19
+        type: 1000base-t
+      - name: g20
+        type: 1000base-t
+      - name: g21
+        type: 1000base-t
+      - name: g22
+        type: 1000base-t
+      - name: g23
+        type: 1000base-t
+      - name: g24
+        type: 1000base-t
+      - mgmt_only: true
+        name: Management
+        type: virtual
+    is_full_depth: false
+    manufacturer: Dell
+    model: PowerConnect 6224
+    power-ports:
+      - name: Power
+        type: iec-60320-c14
+    slug: dell-powerconnect-6224
+    u_height: 1
+  - comments: Dell KMM Console - 18.5 in LED - 1U Rackmount - Spanish Language Keyboard [Manufacturer Part DKMMLED185-207 | Dell Part A7485910 | Order Code A7485910 | DELL VERTIV](https://www.dell.com/en-us/shop/dell-kmm-console-185-in-led-1u-rackmount-spanish-language-keyboard/apd/a7485910/networking#techspecs_section)
+    console-ports:
+      - name: VGA
+        type: other
+      - name: usb1
+        type: usb-a
+      - name: usb2
+        type: usb-a
+    is_full_depth: true
+    manufacturer: Dell
+    model: DKMMLED185-207
+    part_number: A7485910
+    power-ports:
+      - maximum_draw: 20
+        name: ps1
+        type: iec-60320-c14
+    slug: dell-dkmmled185-207
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R310
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r310
+    u_height: 1
+  - airflow: front-to-rear
+    device-bays:
+      - label: Controller Slot A
+        name: A
+      - label: Controller Slot B
+        name: B
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerVault ME4024
+    module-bays:
+      - label: PSU Slot 1
+        name: '1'
+        position: '1'
+      - label: PSU Slot 2
+        name: '2'
+        position: '2'
+    slug: dell-powervault-me4024
+    subdevice_role: parent
+    u_height: 2
+  - airflow: front-to-rear
+    comments: '[Dell PowerEdge 1950 Data Sheet](https://www1.la.dell.com/content/products/productdetails.aspx/pedge_1950_3)'
+    console-ports:
+      - name: Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge 1950
+    power-ports:
+      - allocated_draw: 300
+        maximum_draw: 670
+        name: PSU1
+        type: iec-60320-c14
+      - allocated_draw: 300
+        maximum_draw: 670
+        name: PSU2
+        type: iec-60320-c14
+    slug: dell-poweredge-1950
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R715
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r715
+    u_height: 2
+  - console-ports:
+      - name: Optional Rear Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    device-bays:
+      - name: Optional OCP NIC
+      - name: Optional BOSS-2 Removed
+      - name: PCIe-Gen4 1
+      - name: Optional PCIe-Gen4 2
+      - name: Optional PCIe-Gen4 3
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Optional/OCP Gig-E 1
+        type: 1000base-t
+      - name: Optional/OCP Gig-E 2
+        type: 1000base-t
+      - name: Optional/OCP Gig-E 3
+        type: 1000base-t
+      - name: Optional/OCP Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC9
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R650
+    power-ports:
+      - maximum_draw: 800
+        name: Power 1
+        type: iec-60320-c14
+      - maximum_draw: 800
+        name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r650
+    subdevice_role: parent
+    u_height: 1
+  - airflow: front-to-rear
+    device-bays:
+      - label: Controller Slot A
+        name: A
+      - label: Controller Slot B
+        name: B
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerVault MD3200
+    module-bays:
+      - label: PSU Slot 1
+        name: '1'
+        position: '1'
+      - label: PSU Slot 2
+        name: '2'
+        position: '2'
+    slug: dell-powervault-md3200
+    subdevice_role: parent
+    u_height: 2
+  - comments: '[Dell R610 Data Sheet](https://www.dell.com/learn/us/en/98/shared-content~data-sheets~en/documents~r610-specsheet.pdf)
 
-    '
-  console-ports:
-  - name: Serial
-    type: de-9
-  - name: Front VGA
-    type: other
-  - name: Rear VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R610
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r610
-  u_height: 1
-- airflow: front-to-rear
-  comments: SAS 4 Port Controller for use in the Dell ME4012, ME4024, and ME4084
-  console-ports:
-  - name: Serial{module}
-    type: usb-mini-b
-  interfaces:
-  - mgmt_only: true
-    name: mgmtport_{module}
-    type: 1000base-t
-  - name: SAS {module}0
-    type: other
-  - name: SAS {module}1
-    type: other
-  - name: SAS {module}2
-    type: other
-  - name: SAS {module}3
-    type: other
-  - name: Expansion Port {module}0
-    type: other
-  is_full_depth: false
-  manufacturer: Dell
-  model: 49H29 PowerVault ME SAS Controller
-  part_number: 49H29
-  slug: dell-49h29-powervault-me-sas-controller
-  subdevice_role: child
-  u_height: 0
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R710
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r710
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  interfaces:
-  - name: g1
-    type: 1000base-t
-  - name: g2
-    type: 1000base-t
-  - name: g3
-    type: 1000base-t
-  - name: g4
-    type: 1000base-t
-  - name: g5
-    type: 1000base-t
-  - name: g6
-    type: 1000base-t
-  - name: g7
-    type: 1000base-t
-  - name: g8
-    type: 1000base-t
-  - name: g9
-    type: 1000base-t
-  - name: g10
-    type: 1000base-t
-  - name: g11
-    type: 1000base-t
-  - name: g12
-    type: 1000base-t
-  - name: g13
-    type: 1000base-t
-  - name: g14
-    type: 1000base-t
-  - name: g15
-    type: 1000base-t
-  - name: g16
-    type: 1000base-t
-  - name: g17
-    type: 1000base-t
-  - name: g18
-    type: 1000base-t
-  - name: g19
-    type: 1000base-t
-  - name: g20
-    type: 1000base-t
-  - name: g21
-    type: 1000base-t
-  - name: g22
-    type: 1000base-t
-  - name: g23
-    type: 1000base-t
-  - name: g24
-    type: 1000base-t
-  - name: g25
-    type: 1000base-t
-  - name: g26
-    type: 1000base-t
-  - name: g27
-    type: 1000base-t
-  - name: g28
-    type: 1000base-t
-  - name: g29
-    type: 1000base-t
-  - name: g30
-    type: 1000base-t
-  - name: g31
-    type: 1000base-t
-  - name: g32
-    type: 1000base-t
-  - name: g33
-    type: 1000base-t
-  - name: g34
-    type: 1000base-t
-  - name: g35
-    type: 1000base-t
-  - name: g36
-    type: 1000base-t
-  - name: g37
-    type: 1000base-t
-  - name: g38
-    type: 1000base-t
-  - name: g39
-    type: 1000base-t
-  - name: g40
-    type: 1000base-t
-  - name: g41
-    type: 1000base-t
-  - name: g42
-    type: 1000base-t
-  - name: g43
-    type: 1000base-t
-  - name: g44
-    type: 1000base-t
-  - name: g45
-    type: 1000base-t
-  - name: g46
-    type: 1000base-t
-  - name: g47
-    type: 1000base-t
-  - name: g48
-    type: 1000base-t
-  - mgmt_only: true
-    name: Management
-    type: virtual
-  is_full_depth: false
-  manufacturer: Dell
-  model: PowerConnect 6248
-  power-ports:
-  - name: Power
-    type: iec-60320-c14
-  slug: dell-powerconnect-6248
-  u_height: 1
-- comments: '[storage-nx3240_owners-manual_en-us.pdf](https://dl.dell.com/topicspdf/storage-nx3240_owners-manual_en-us.pdf)'
-  console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: NIC.Integrated.1-1-1
-    type: 10gbase-t
-  - name: NIC.Integrated.1-2-1
-    type: 10gbase-t
-  - name: NIC.Integrated.1-3-1
-    type: 10gbase-t
-  - name: NIC.Integrated.1-4-1
-    type: 10gbase-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerVault NX3240
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-powervault-nx3240
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R510
-  power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-  slug: dell-poweredge-r510
-  u_height: 2
-- console-ports:
-  - name: Serial
-    type: de-9
-  interfaces:
-  - name: g1
-    type: 1000base-t
-  - name: g2
-    type: 1000base-t
-  - name: g3
-    type: 1000base-t
-  - name: g4
-    type: 1000base-t
-  - name: g5
-    type: 1000base-t
-  - name: g6
-    type: 1000base-t
-  - name: g7
-    type: 1000base-t
-  - name: g8
-    type: 1000base-t
-  - name: g9
-    type: 1000base-t
-  - name: g10
-    type: 1000base-t
-  - name: g11
-    type: 1000base-t
-  - name: g12
-    type: 1000base-t
-  - name: g13
-    type: 1000base-t
-  - name: g14
-    type: 1000base-t
-  - name: g15
-    type: 1000base-t
-  - name: g16
-    type: 1000base-t
-  - name: g17
-    type: 1000base-t
-  - name: g18
-    type: 1000base-t
-  - name: g19
-    type: 1000base-t
-  - name: g20
-    type: 1000base-t
-  - name: g21
-    type: 1000base-t
-  - name: g22
-    type: 1000base-t
-  - name: g23
-    type: 1000base-t
-  - name: g24
-    type: 1000base-t
-  - name: g25
-    type: 1000base-t
-  - name: g26
-    type: 1000base-t
-  - name: g27
-    type: 1000base-t
-  - name: g28
-    type: 1000base-t
-  - name: g29
-    type: 1000base-t
-  - name: g30
-    type: 1000base-t
-  - name: g31
-    type: 1000base-t
-  - name: g32
-    type: 1000base-t
-  - name: g33
-    type: 1000base-t
-  - name: g34
-    type: 1000base-t
-  - name: g35
-    type: 1000base-t
-  - name: g36
-    type: 1000base-t
-  - name: g37
-    type: 1000base-t
-  - name: g38
-    type: 1000base-t
-  - name: g39
-    type: 1000base-t
-  - name: g40
-    type: 1000base-t
-  - name: g41
-    type: 1000base-t
-  - name: g42
-    type: 1000base-t
-  - name: g43
-    type: 1000base-t
-  - name: g44
-    type: 1000base-t
-  - name: g45
-    type: 1000base-t
-  - name: g46
-    type: 1000base-t
-  - name: g47
-    type: 1000base-t
-  - name: g48
-    type: 1000base-t
-  - mgmt_only: true
-    name: Management
-    type: virtual
-  is_full_depth: false
-  manufacturer: Dell
-  model: PowerConnect 5448
-  power-ports:
-  - name: Power
-    type: iec-60320-c14
-  slug: dell-powerconnect-5448
-  u_height: 1
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R630
-  module-bays:
-  - label: '1'
-    name: PSU-1
-    position: PSU-1
-  - label: '2'
-    name: PSU-2
-    position: PSU-2
-  - name: Network Daughter Card slot 1
-    position: NDC-1
-  - name: Riser PCIe-Gen3 1
-    position: PCIe-Gen3-1
-  - name: Riser PCIe-Gen3 2
-    position: PCIe-Gen3-2
-  - name: Riser PCIe-Gen3 3
-    position: PCIe-Gen3-3
-  slug: dell-poweredge-r630
-  u_height: 1
-- comments: '[https://i.dell.com/sites/csdocuments/Product_Docs/en/dell-emc-poweredge-r840-spec-sheet.pdf)
+'
+    console-ports:
+      - name: Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R610
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r610
+    u_height: 1
+  - airflow: front-to-rear
+    comments: SAS 4 Port Controller for use in the Dell ME4012, ME4024, and ME4084
+    console-ports:
+      - name: Serial{module}
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: mgmtport_{module}
+        type: 1000base-t
+      - name: SAS {module}0
+        type: other
+      - name: SAS {module}1
+        type: other
+      - name: SAS {module}2
+        type: other
+      - name: SAS {module}3
+        type: other
+      - name: Expansion Port {module}0
+        type: other
+    is_full_depth: false
+    manufacturer: Dell
+    model: 49H29 PowerVault ME SAS Controller
+    part_number: 49H29
+    slug: dell-49h29-powervault-me-sas-controller
+    subdevice_role: child
+    u_height: 0
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R710
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r710
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+    interfaces:
+      - name: g1
+        type: 1000base-t
+      - name: g2
+        type: 1000base-t
+      - name: g3
+        type: 1000base-t
+      - name: g4
+        type: 1000base-t
+      - name: g5
+        type: 1000base-t
+      - name: g6
+        type: 1000base-t
+      - name: g7
+        type: 1000base-t
+      - name: g8
+        type: 1000base-t
+      - name: g9
+        type: 1000base-t
+      - name: g10
+        type: 1000base-t
+      - name: g11
+        type: 1000base-t
+      - name: g12
+        type: 1000base-t
+      - name: g13
+        type: 1000base-t
+      - name: g14
+        type: 1000base-t
+      - name: g15
+        type: 1000base-t
+      - name: g16
+        type: 1000base-t
+      - name: g17
+        type: 1000base-t
+      - name: g18
+        type: 1000base-t
+      - name: g19
+        type: 1000base-t
+      - name: g20
+        type: 1000base-t
+      - name: g21
+        type: 1000base-t
+      - name: g22
+        type: 1000base-t
+      - name: g23
+        type: 1000base-t
+      - name: g24
+        type: 1000base-t
+      - name: g25
+        type: 1000base-t
+      - name: g26
+        type: 1000base-t
+      - name: g27
+        type: 1000base-t
+      - name: g28
+        type: 1000base-t
+      - name: g29
+        type: 1000base-t
+      - name: g30
+        type: 1000base-t
+      - name: g31
+        type: 1000base-t
+      - name: g32
+        type: 1000base-t
+      - name: g33
+        type: 1000base-t
+      - name: g34
+        type: 1000base-t
+      - name: g35
+        type: 1000base-t
+      - name: g36
+        type: 1000base-t
+      - name: g37
+        type: 1000base-t
+      - name: g38
+        type: 1000base-t
+      - name: g39
+        type: 1000base-t
+      - name: g40
+        type: 1000base-t
+      - name: g41
+        type: 1000base-t
+      - name: g42
+        type: 1000base-t
+      - name: g43
+        type: 1000base-t
+      - name: g44
+        type: 1000base-t
+      - name: g45
+        type: 1000base-t
+      - name: g46
+        type: 1000base-t
+      - name: g47
+        type: 1000base-t
+      - name: g48
+        type: 1000base-t
+      - mgmt_only: true
+        name: Management
+        type: virtual
+    is_full_depth: false
+    manufacturer: Dell
+    model: PowerConnect 6248
+    power-ports:
+      - name: Power
+        type: iec-60320-c14
+    slug: dell-powerconnect-6248
+    u_height: 1
+  - comments: '[storage-nx3240_owners-manual_en-us.pdf](https://dl.dell.com/topicspdf/storage-nx3240_owners-manual_en-us.pdf)'
+    console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: NIC.Integrated.1-1-1
+        type: 10gbase-t
+      - name: NIC.Integrated.1-2-1
+        type: 10gbase-t
+      - name: NIC.Integrated.1-3-1
+        type: 10gbase-t
+      - name: NIC.Integrated.1-4-1
+        type: 10gbase-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerVault NX3240
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-powervault-nx3240
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R510
+    power-ports:
+      - name: Power 1
+        type: iec-60320-c14
+      - name: Power 2
+        type: iec-60320-c14
+    slug: dell-poweredge-r510
+    u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+    interfaces:
+      - name: g1
+        type: 1000base-t
+      - name: g2
+        type: 1000base-t
+      - name: g3
+        type: 1000base-t
+      - name: g4
+        type: 1000base-t
+      - name: g5
+        type: 1000base-t
+      - name: g6
+        type: 1000base-t
+      - name: g7
+        type: 1000base-t
+      - name: g8
+        type: 1000base-t
+      - name: g9
+        type: 1000base-t
+      - name: g10
+        type: 1000base-t
+      - name: g11
+        type: 1000base-t
+      - name: g12
+        type: 1000base-t
+      - name: g13
+        type: 1000base-t
+      - name: g14
+        type: 1000base-t
+      - name: g15
+        type: 1000base-t
+      - name: g16
+        type: 1000base-t
+      - name: g17
+        type: 1000base-t
+      - name: g18
+        type: 1000base-t
+      - name: g19
+        type: 1000base-t
+      - name: g20
+        type: 1000base-t
+      - name: g21
+        type: 1000base-t
+      - name: g22
+        type: 1000base-t
+      - name: g23
+        type: 1000base-t
+      - name: g24
+        type: 1000base-t
+      - name: g25
+        type: 1000base-t
+      - name: g26
+        type: 1000base-t
+      - name: g27
+        type: 1000base-t
+      - name: g28
+        type: 1000base-t
+      - name: g29
+        type: 1000base-t
+      - name: g30
+        type: 1000base-t
+      - name: g31
+        type: 1000base-t
+      - name: g32
+        type: 1000base-t
+      - name: g33
+        type: 1000base-t
+      - name: g34
+        type: 1000base-t
+      - name: g35
+        type: 1000base-t
+      - name: g36
+        type: 1000base-t
+      - name: g37
+        type: 1000base-t
+      - name: g38
+        type: 1000base-t
+      - name: g39
+        type: 1000base-t
+      - name: g40
+        type: 1000base-t
+      - name: g41
+        type: 1000base-t
+      - name: g42
+        type: 1000base-t
+      - name: g43
+        type: 1000base-t
+      - name: g44
+        type: 1000base-t
+      - name: g45
+        type: 1000base-t
+      - name: g46
+        type: 1000base-t
+      - name: g47
+        type: 1000base-t
+      - name: g48
+        type: 1000base-t
+      - mgmt_only: true
+        name: Management
+        type: virtual
+    is_full_depth: false
+    manufacturer: Dell
+    model: PowerConnect 5448
+    power-ports:
+      - name: Power
+        type: iec-60320-c14
+    slug: dell-powerconnect-5448
+    u_height: 1
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R630
+    module-bays:
+      - label: '1'
+        name: PSU-1
+        position: PSU-1
+      - label: '2'
+        name: PSU-2
+        position: PSU-2
+      - name: Network Daughter Card slot 1
+        position: NDC-1
+      - name: Riser PCIe-Gen3 1
+        position: PCIe-Gen3-1
+      - name: Riser PCIe-Gen3 2
+        position: PCIe-Gen3-2
+      - name: Riser PCIe-Gen3 3
+        position: PCIe-Gen3-3
+    slug: dell-poweredge-r630
+    u_height: 1
+  - comments: '[https://i.dell.com/sites/csdocuments/Product_Docs/en/dell-emc-poweredge-r840-spec-sheet.pdf)
 
-    '
-  console-ports:
-  - name: Serial
-    type: de-9
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - mgmt_only: true
-    name: iDRAC
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerEdge R840
-  module-bays:
-  - name: PSU1
-    position: '1'
-  - name: PSU2
-    position: '2'
-  slug: dell-poweredge-r840
-  u_height: 2
-  weight: 36.6
-  weight_unit: kg
-- comments: '[Dell-EMC-Networking-S4048-ON-Spec-Sheet.pdf](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Dell-EMC-Networking-S4048-ON-Spec-Sheet.pdf)'
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: TenGigabitEthernet 1/1
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/2
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/3
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/4
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/5
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/6
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/7
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/8
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/9
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/10
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/11
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/12
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/13
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/14
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/15
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/16
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/17
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/18
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/19
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/20
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/21
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/22
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/23
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/24
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/25
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/26
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/27
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/28
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/29
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/30
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/31
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/32
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/33
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/34
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/35
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/36
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/37
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/38
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/39
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/40
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/41
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/42
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/43
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/44
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/45
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/46
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/47
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet 1/48
-    type: 10gbase-x-sfpp
-  - name: fortyGigE 1/49
-    type: 40gbase-x-qsfpp
-  - name: fortyGigE 1/50
-    type: 40gbase-x-qsfpp
-  - name: fortyGigE 1/51
-    type: 40gbase-x-qsfpp
-  - name: fortyGigE 1/52
-    type: 40gbase-x-qsfpp
-  - name: fortyGigE 1/53
-    type: 40gbase-x-qsfpp
-  - name: fortyGigE 1/54
-    type: 40gbase-x-qsfpp
-  - mgmt_only: true
-    name: Management1
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Dell
-  model: PowerSwitch S4048-ON
-  part_number: S4048-ON
-  power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  - name: PS2
-    type: iec-60320-c14
-  slug: dell-powerswitch-s4048-on
-  u_height: 1
+'
+    console-ports:
+      - name: Serial
+        type: de-9
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: Gig-E 3
+        type: 1000base-t
+      - name: Gig-E 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R840
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
+    slug: dell-poweredge-r840
+    u_height: 2
+    weight: 36.6
+    weight_unit: kg
+  - comments: '[Dell-EMC-Networking-S4048-ON-Spec-Sheet.pdf](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Dell-EMC-Networking-S4048-ON-Spec-Sheet.pdf)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: TenGigabitEthernet 1/1
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/2
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/3
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/4
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/5
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/6
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/7
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/8
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/9
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/10
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/11
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/12
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/13
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/14
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/15
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/16
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/17
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/18
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/19
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/20
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/21
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/22
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/23
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/24
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/25
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/26
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/27
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/28
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/29
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/30
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/31
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/32
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/33
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/34
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/35
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/36
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/37
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/38
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/39
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/40
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/41
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/42
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/43
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/44
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/45
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/46
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/47
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet 1/48
+        type: 10gbase-x-sfpp
+      - name: fortyGigE 1/49
+        type: 40gbase-x-qsfpp
+      - name: fortyGigE 1/50
+        type: 40gbase-x-qsfpp
+      - name: fortyGigE 1/51
+        type: 40gbase-x-qsfpp
+      - name: fortyGigE 1/52
+        type: 40gbase-x-qsfpp
+      - name: fortyGigE 1/53
+        type: 40gbase-x-qsfpp
+      - name: fortyGigE 1/54
+        type: 40gbase-x-qsfpp
+      - mgmt_only: true
+        name: Management1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerSwitch S4048-ON
+    part_number: S4048-ON
+    power-ports:
+      - name: PS1
+        type: iec-60320-c14
+      - name: PS2
+        type: iec-60320-c14
+    slug: dell-powerswitch-s4048-on
+    u_height: 1

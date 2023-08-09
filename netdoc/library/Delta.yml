@@ -1,44 +1,43 @@
 keywords:
-- PD1215-RM
+  - PD1215-RM
 models:
-- comments: 'Delta PD1215-RM 1U power distribution unit (PDU) with 12 NEMA 5-15P receptacles
-    (2 front, 10 rear) from a single NEMA 5-15P plug
+  - comments: 'Delta PD1215-RM 1U power distribution unit (PDU) with 12 NEMA 5-15P receptacles (2 front, 10 rear) from a single NEMA 5-15P plug
 
 
-    Dimensions: 19.00" x 3.76" x 1.68"
+      Dimensions: 19.00" x 3.76" x 1.68"
 
-    '
-  is_full_depth: false
-  manufacturer: Delta
-  model: PD1215-RM
-  power-outlets:
-  - name: '1'
-    type: nema-5-15r
-  - name: '2'
-    type: nema-5-15r
-  - name: '3'
-    type: nema-5-15r
-  - name: '4'
-    type: nema-5-15r
-  - name: '5'
-    type: nema-5-15r
-  - name: '6'
-    type: nema-5-15r
-  - name: '7'
-    type: nema-5-15r
-  - name: '8'
-    type: nema-5-15r
-  - name: '9'
-    type: nema-5-15r
-  - name: '10'
-    type: nema-5-15r
-  - name: Front 11
-    type: nema-5-15r
-  - name: Front 12
-    type: nema-5-15r
-  power-ports:
-  - maximum_draw: 1500
-    name: Primary
-    type: nema-5-15p
-  slug: delta-pd1215-rm
-  u_height: 1
+'
+    is_full_depth: false
+    manufacturer: Delta
+    model: PD1215-RM
+    power-outlets:
+      - name: '1'
+        type: nema-5-15r
+      - name: '2'
+        type: nema-5-15r
+      - name: '3'
+        type: nema-5-15r
+      - name: '4'
+        type: nema-5-15r
+      - name: '5'
+        type: nema-5-15r
+      - name: '6'
+        type: nema-5-15r
+      - name: '7'
+        type: nema-5-15r
+      - name: '8'
+        type: nema-5-15r
+      - name: '9'
+        type: nema-5-15r
+      - name: '10'
+        type: nema-5-15r
+      - name: Front 11
+        type: nema-5-15r
+      - name: Front 12
+        type: nema-5-15r
+    power-ports:
+      - maximum_draw: 1500
+        name: Primary
+        type: nema-5-15p
+    slug: delta-pd1215-rm
+    u_height: 1

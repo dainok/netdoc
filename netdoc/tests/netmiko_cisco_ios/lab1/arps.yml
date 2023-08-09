@@ -1,4 +1,3 @@
----
 - device: SW1
   interface: e0/0
   ip_address: 172.25.82.41
