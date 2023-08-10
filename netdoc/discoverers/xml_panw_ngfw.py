@@ -92,10 +92,18 @@ def discovery(nrni):
             **params,
         )
         append_nornir_task(
-            task, "<show><mac>all</mac></show>", template="show mac", **params
+            task,
+            "<show><mac>all</mac></show>",
+            template="show mac",
+            supported=False,
+            **params,
         )
         append_nornir_task(
-            task, "<show><vlan>all</vlan></show>", template="show vlan", **params
+            task,
+            "<show><vlan>all</vlan></show>",
+            template="show vlan",
+            supported=False,
+            **params,
         )
         append_nornir_task(
             task,
