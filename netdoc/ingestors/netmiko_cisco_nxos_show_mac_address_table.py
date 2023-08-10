@@ -13,11 +13,11 @@ def ingest(log):
     device_o = log.discoverable.device
 
     for item in log.parsed_output:
-        # See https://github.com/networktocode/ntc-templates/tree/master/tests/cisco_nxos/show_mac_address-table # pylint: disable=line-too-long
+        # See  # pylint: disable=line-too-long
         interface_name = item.get("ports")
         label = utils.normalize_interface_label(interface_name)
-        vlan_id = int(item.get("vlan"))
-        mac_address = utils.normalize_mac_address(item.get("mac"))
+        vlan_id = int(item.get("vlan_id"))
+        mac_address = utils.normalize_mac_address(item.get("mac_address"))
 
         interface_o = interface.get(device_id=device_o.id, label=label)
         if not interface_o:
