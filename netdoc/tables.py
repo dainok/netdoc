@@ -7,7 +7,7 @@ __license__ = "GPLv3"
 import django_tables2 as tables
 
 from netbox.tables import NetBoxTable, ChoiceFieldColumn
-from netbox.tables.columns import ActionsColumn
+from netbox.tables.columns import ActionsColumn, BooleanColumn
 
 from netdoc import models
 
@@ -108,7 +108,7 @@ class DiscoverableTable(NetBoxTable):
     """Credential list table used in DiscoverableListView."""
 
     address = tables.Column(linkify=True)
-    device = tables.Column(linkify=True)
+    meta_device = tables.Column(linkify=True, verbose_name="Device")
     vm = tables.Column(linkify=True)
     mode = ChoiceFieldColumn()
     discoverylogs_count = tables.Column()
@@ -127,8 +127,7 @@ class DiscoverableTable(NetBoxTable):
             "pk",
             "id",
             "address",
-            "device",
-            "vm",
+            "meta_device",
             "site",
             "credential",
             "mode",
@@ -140,8 +139,7 @@ class DiscoverableTable(NetBoxTable):
         ]
         default_columns = [
             "address",
-            "device",
-            "vm",
+            "meta_device",
             "site",
             "credential",
             "mode",
@@ -158,6 +156,7 @@ class DiscoverableTableWOLogCount(NetBoxTable):
     """
 
     address = tables.Column(linkify=True)
+    meta_device = tables.Column(linkify=True, verbose_name="Device")
     mode = ChoiceFieldColumn()
     discovery_button = """
     <a class="btn btn-sm btn-secondary" href="{% url 'plugins:netdoc:discoverable_discover' pk=record.pk %}" title="Discover">
@@ -174,7 +173,7 @@ class DiscoverableTableWOLogCount(NetBoxTable):
             "pk",
             "id",
             "address",
-            "device",
+            "meta_device",
             "site",
             "credential",
             "mode",
@@ -185,7 +184,7 @@ class DiscoverableTableWOLogCount(NetBoxTable):
         ]
         default_columns = [
             "address",
-            "device",
+            "meta_device",
             "site",
             "credential",
             "mode",
@@ -203,6 +202,7 @@ class DiscoveryLogTable(NetBoxTable):
     """Credential list table used in DiscoveryLogListView."""
 
     device = tables.Column(linkify=True, accessor="discoverable.device")
+    meta_device = tables.Column(linkify=True, verbose_name="Device")
     vm = tables.Column(linkify=True, accessor="discoverable.vm")
     discoverable = tables.Column(linkify=True)
     actions = ActionsColumn(actions=("delete",))  # Read only + delete table
@@ -216,8 +216,7 @@ class DiscoveryLogTable(NetBoxTable):
             "id",
             "created",
             "discoverable",
-            "device",
-            "vm",
+            "meta_device",
             "command",
             "template",
             "order",
@@ -232,8 +231,7 @@ class DiscoveryLogTable(NetBoxTable):
             "id",
             "created",
             "discoverable",
-            "device",
-            "vm",
+            "meta_device",
             "command",
             "configuration",
             "supported",

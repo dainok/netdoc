@@ -66,6 +66,7 @@ class DiscoverableFilterSet(NetBoxModelFilterSet):
         return queryset.filter(
             Q(address__icontains=value)
             | Q(device__name__icontains=value)
+            | Q(vm__name__icontains=value)
             | Q(site__name__icontains=value)
             | Q(credential__name__icontains=value)
             | Q(mode__icontains=value)

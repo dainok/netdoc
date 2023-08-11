@@ -318,6 +318,17 @@ class Discoverable(NetBoxModel):
         verbose_name = "Device"
         verbose_name_plural = "Devices"
 
+    @property
+    def meta_device(self):
+        """Define meta_device property.
+        
+        meta_device return Device or VM, if set."""
+        if self.device:
+            return self.device
+        elif self.vm:
+            return self.vm
+        return None
+    
     def __str__(self):
         """Return a human readable name when the object is printed."""
         return f"{self.address} via {self.mode}"
@@ -325,6 +336,7 @@ class Discoverable(NetBoxModel):
     def get_absolute_url(self):
         """Return the absolute url."""
         return reverse("plugins:netdoc:discoverable", args=[self.pk])
+
 
 
 #
@@ -380,6 +392,17 @@ class DiscoveryLog(NetBoxModel):
         verbose_name = "Log"
         verbose_name_plural = "Logs"
 
+    @property
+    def meta_device(self):
+        """Define meta_device property.
+        
+        meta_device return Device or VM, if set."""
+        if self.discoverable.device:
+            return self.discoverable.device
+        elif self.discoverable.vm:
+            return self.discoverable.vm
+        return None
+    
     def __str__(self):
         """Return a human readable name when the object is printed."""
         return f"{self.command} at {self.created}"

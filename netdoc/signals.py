@@ -35,3 +35,9 @@ def credential_encrypt(instance, **kwargs):  # pylint: disable=unused-argument
         # Original value is not encrypted
         encrypted_value = fernet_o.encrypt(original_value.encode())
         setattr(instance, field, encrypted_value.decode())
+
+@receiver(pre_save, sender=models.Discoverable)
+def meta_device_check(instance, **kwards): # pylint: disable=unused-argument
+    """Raise an exception if both VM and Device are set."""
+    if instance.vm and instance.device:
+        raise ValueError("Discoverable cannot be associated to both Device and VM.")
