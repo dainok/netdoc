@@ -7,7 +7,7 @@ __license__ = "GPLv3"
 import django_tables2 as tables
 
 from netbox.tables import NetBoxTable, ChoiceFieldColumn
-from netbox.tables.columns import ActionsColumn, BooleanColumn
+from netbox.tables.columns import ActionsColumn
 
 from netdoc import models
 
@@ -20,18 +20,14 @@ from netdoc import models
 class ArpTableEntryTable(NetBoxTable):
     """ARP list table used in ArpTableEntryView."""
 
-    device = tables.LinkColumn(
-        "dcim:device",
-        accessor="interface.device",
-        args=[tables.utils.A("interface__device__pk")],
-    )
-    interface = tables.LinkColumn(
-        "dcim:interface", args=[tables.utils.A("interface__pk")]
-    )
+    meta_device = tables.Column(linkify=True, verbose_name="Device")
+    meta_interface = tables.Column(linkify=True, verbose_name="Interface")
     mac_address = tables.LinkColumn(
         "plugins:netdoc:arptableentry", args=[tables.utils.A("pk")]
     )
     device_role = tables.Column(accessor="interface.device.device_role")
+    mac_address = tables.Column(verbose_name="MAC address")
+    ip_address = tables.Column(verbose_name="IP address")
     actions = []  # Read only table
 
     class Meta(NetBoxTable.Meta):
@@ -41,9 +37,9 @@ class ArpTableEntryTable(NetBoxTable):
         fields = [
             "pk",
             "id",
-            "device",
+            "meta_device",
             "device_role",
-            "interface",
+            "meta_interface",
             "ip_address",
             "mac_address",
             "vendor",
@@ -51,9 +47,9 @@ class ArpTableEntryTable(NetBoxTable):
             "created",
         ]
         default_columns = [
-            "device",
+            "meta_device",
             "device_role",
-            "interface",
+            "meta_interface",
             "ip_address",
             "mac_address",
             "vendor",
@@ -70,7 +66,7 @@ class CredentialTable(NetBoxTable):
     """Credential list table used in CredentialListView."""
 
     name = tables.Column(linkify=True)
-    discoverables_count = tables.Column()
+    discoverables_count = tables.Column(verbose_name="Discoverables")
 
     class Meta(NetBoxTable.Meta):
         """Table metadata."""
@@ -89,7 +85,6 @@ class DiagramTable(NetBoxTable):
     """Diagram list table used in DiagramListView."""
 
     name = tables.Column(linkify=True)
-    discoverables_count = tables.Column()
 
     class Meta(NetBoxTable.Meta):
         """Table metadata."""
@@ -111,7 +106,7 @@ class DiscoverableTable(NetBoxTable):
     meta_device = tables.Column(linkify=True, verbose_name="Device")
     vm = tables.Column(linkify=True)
     mode = ChoiceFieldColumn()
-    discoverylogs_count = tables.Column()
+    discoverylogs_count = tables.Column(verbose_name="Logs")
     discovery_button = """
     <a class="btn btn-sm btn-secondary" href="{% url 'plugins:netdoc:discoverable_discover' pk=record.pk %}" title="Discover">
         <i class="mdi mdi-refresh"></i>
@@ -261,6 +256,7 @@ class MacAddressTableEntryTable(NetBoxTable):
         "plugins:netdoc:macaddresstableentry", args=[tables.utils.A("pk")]
     )
     device_role = tables.Column(accessor="interface.device.device_role")
+    vvid = tables.Column(verbose_name="VLAN")
     actions = []  # Read only table
 
     class Meta(NetBoxTable.Meta):
@@ -299,14 +295,13 @@ class RouteTableEntryTable(NetBoxTable):
     """Route list table used in RouteTableEntryListView."""
 
     destination = tables.Column(linkify=True)
-    device = tables.LinkColumn(
-        "dcim:device",
-        args=[tables.utils.A("device__pk")],
+
+    meta_device = tables.Column(linkify=True, verbose_name="Device")
+    meta_nexthop_if = tables.Column(linkify=True, verbose_name="Nexthop IF")
+    nexthop_ip = tables.Column(verbose_name="Nexthop IP")
+    vrf = tables.LinkColumn(
+        "ipam:vrf", args=[tables.utils.A("vrf__pk")], verbose_name="VRF"
     )
-    nexthop_if = tables.LinkColumn(
-        "dcim:interface", args=[tables.utils.A("nexthop_if__pk")]
-    )
-    vrf = tables.LinkColumn("ipam:vrf", args=[tables.utils.A("vrf__pk")])
     device_role = tables.Column(accessor="device.device_role")
     actions = []  # Read only table
 
@@ -317,26 +312,26 @@ class RouteTableEntryTable(NetBoxTable):
         fields = [
             "pk",
             "id",
-            "device",
+            "meta_device",
             "device_role",
             "destination",
             "protocol",
             "distance",
             "metric",
             "nexthop_ip",
-            "nexthop_if",
+            "meta_nexthop_if",
             "vrf",
             "last_updated",
             "created",
         ]
         default_columns = [
-            "device",
+            "meta_device",
             "destination",
             "protocol",
             "distance",
             "metric",
             "nexthop_ip",
-            "nexthop_if",
+            "meta_nexthop_if",
             "vrf",
             "last_updated",
         ]

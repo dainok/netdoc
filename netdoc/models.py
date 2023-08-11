@@ -134,14 +134,53 @@ class ArpTableEntry(NetBoxModel):
     vendor = models.CharField(
         max_length=255, blank=True, null=True, help_text="Vendor", editable=False
     )  #: Vendor (from OUI)
+    virtual_interface = models.OneToOneField(
+        to="virtualization.VMInterface",
+        editable=False,
+        on_delete=models.SET_NULL,
+        related_name="+",
+        blank=True,
+        null=True,
+    )
 
     class Meta:
         """Database metadata."""
 
         ordering = ["ip_address"]
-        unique_together = ["interface", "ip_address", "mac_address"]
+        unique_together = [
+            "interface",
+            "ip_address",
+            "mac_address",
+            "virtual_interface",
+        ]
         verbose_name = "ARP table entry"
         verbose_name_plural = "ARP table entries"
+
+    @property
+    def meta_interface(self):
+        """
+        Define meta_interface property.
+
+        meta_interface return Device or VM, if set.
+        """
+        if self.interface:
+            return self.interface
+        elif self.virtual_interface:
+            return self.virtual_interface
+        return None
+
+    @property
+    def meta_device(self):
+        """
+        Define meta_device property.
+
+        meta_device return Device or VM, if set.
+        """
+        if self.interface:
+            return self.interface.device
+        elif self.virtual_interface:
+            return self.virtual_interface.vm
+        return None
 
     def __str__(self):
         """Return a human readable name when the object is printed."""
@@ -320,15 +359,17 @@ class Discoverable(NetBoxModel):
 
     @property
     def meta_device(self):
-        """Define meta_device property.
-        
-        meta_device return Device or VM, if set."""
+        """
+        Define meta_device property.
+
+        meta_device return Device or VM, if set.
+        """
         if self.device:
             return self.device
         elif self.vm:
             return self.vm
         return None
-    
+
     def __str__(self):
         """Return a human readable name when the object is printed."""
         return f"{self.address} via {self.mode}"
@@ -336,7 +377,6 @@ class Discoverable(NetBoxModel):
     def get_absolute_url(self):
         """Return the absolute url."""
         return reverse("plugins:netdoc:discoverable", args=[self.pk])
-
 
 
 #
@@ -394,15 +434,17 @@ class DiscoveryLog(NetBoxModel):
 
     @property
     def meta_device(self):
-        """Define meta_device property.
-        
-        meta_device return Device or VM, if set."""
+        """
+        Define meta_device property.
+
+        meta_device return Device or VM, if set.
+        """
         if self.discoverable.device:
             return self.discoverable.device
         elif self.discoverable.vm:
             return self.discoverable.vm
         return None
-    
+
     def __str__(self):
         """Return a human readable name when the object is printed."""
         return f"{self.command} at {self.created}"
@@ -571,6 +613,14 @@ class RouteTableEntry(NetBoxModel):
         blank=True,
         null=True,
     )
+    nexthop_virtual_if = models.ForeignKey(
+        to="virtualization.VMInterface",
+        on_delete=models.CASCADE,
+        related_name="+",
+        editable=False,
+        blank=True,
+        null=True,
+    )
     protocol = models.CharField(
         max_length=30,
         choices=RouteTypeChoices,
@@ -581,6 +631,14 @@ class RouteTableEntry(NetBoxModel):
         on_delete=models.CASCADE,
         related_name="+",
         editable=False,
+        blank=True,
+        null=True,
+    )
+    vm = models.OneToOneField(
+        to="virtualization.VirtualMachine",
+        editable=False,
+        on_delete=models.SET_NULL,
+        related_name="+",
         blank=True,
         null=True,
     )
@@ -597,10 +655,38 @@ class RouteTableEntry(NetBoxModel):
             "protocol",
             "vrf",
             "nexthop_if",
+            "nexthop_virtual_if",
             "nexthop_ip",
+            "vm",
         ]
         verbose_name = "Route"
         verbose_name_plural = "Routes"
+
+    @property
+    def meta_nexthop_if(self):
+        """
+        Define meta_nexthop_if property.
+
+        meta_nexthop_if return Device or VM, if set.
+        """
+        if self.nexthop_virtual_if:
+            return self.nexthop_virtual_if
+        elif self.nexthop_if:
+            return self.nexthop_if
+        return None
+
+    @property
+    def meta_device(self):
+        """
+        Define meta_device property.
+
+        meta_device return Device or VM, if set.
+        """
+        if self.device:
+            return self.device
+        elif self.vm:
+            return self.vm
+        return None
 
     def __str__(self):
         """Return a human readable name when the object is printed."""

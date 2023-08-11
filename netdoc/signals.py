@@ -36,8 +36,53 @@ def credential_encrypt(instance, **kwargs):  # pylint: disable=unused-argument
         encrypted_value = fernet_o.encrypt(original_value.encode())
         setattr(instance, field, encrypted_value.decode())
 
+
 @receiver(pre_save, sender=models.Discoverable)
-def meta_device_check(instance, **kwards): # pylint: disable=unused-argument
+def meta_device_check(instance, **kwards):  # pylint: disable=unused-argument
     """Raise an exception if both VM and Device are set."""
     if instance.vm and instance.device:
         raise ValueError("Discoverable cannot be associated to both Device and VM.")
+
+
+@receiver(pre_save, sender=models.ArpTableEntry)
+def meta_arp_check(instance, **kwargs):  # pylint: disable=unused-argument
+    """
+    Raise an exception if there is a mistmatch.
+
+    Mistmatch can occur on device, interface, vm, virtual_interface.
+    """
+    if instance.vm and instance.device:
+        raise ValueError("ArpTableEntry cannot be associated to both Device and VM.")
+    if instance.virtual_interface and instance.interface:
+        raise ValueError(
+            "ArpTableEntry cannot be associated to both Interface and VMInterface."
+        )
+    if instance.virtual_interface and instance.device:
+        raise ValueError(
+            "ArpTableEntry cannot be associated to both Device and VMInterface."
+        )
+    if instance.interface and instance.vm:
+        raise ValueError("ArpTableEntry cannot be associated to both VM and Interface.")
+
+
+@receiver(pre_save, sender=models.RouteTableEntry)
+def meta_route_check(instance, **kwargs):  # pylint: disable=unused-argument
+    """
+    Raise an exception if there is a mistmatch.
+
+    Mistmatch can occur on device, netxthop_if, vm, nexthop_virtual_if.
+    """
+    if instance.vm and instance.device:
+        raise ValueError("RouteTableEntry cannot be associated to both Device and VM.")
+    if instance.nexthop_virtual_if and instance.netxthop_if:
+        raise ValueError(
+            "RouteTableEntry cannot be associated to both Interface and VMInterface."
+        )
+    if instance.nexthop_virtual_if and instance.device:
+        raise ValueError(
+            "RouteTableEntry cannot be associated to both Device and VMInterface."
+        )
+    if instance.netxthop_if and instance.vm:
+        raise ValueError(
+            "RouteTableEntry cannot be associated to both VM and Interface."
+        )
