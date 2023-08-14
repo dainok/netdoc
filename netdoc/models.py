@@ -136,7 +136,7 @@ class ArpTableEntry(NetBoxModel):
     vendor = models.CharField(
         max_length=255, blank=True, null=True, help_text="Vendor", editable=False
     )  #: Vendor (from OUI)
-    virtual_interface = models.OneToOneField(
+    virtual_interface = models.ForeignKey(
         to="virtualization.VMInterface",
         on_delete=models.CASCADE,
         related_name="+",
