@@ -82,7 +82,14 @@ class DiscoveryLogFilterSet(NetBoxModelFilterSet):
         """FilterSet metadata."""
 
         model = DiscoveryLog
-        fields = ["discoverable__device", "configuration", "success", "supported", "parsed", "ingested"]
+        fields = [
+            "discoverable__device",
+            "configuration",
+            "success",
+            "supported",
+            "parsed",
+            "ingested",
+        ]
 
     def search(self, queryset, name, value):
         """Generic (quick) search."""

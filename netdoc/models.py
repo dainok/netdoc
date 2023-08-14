@@ -165,7 +165,7 @@ class ArpTableEntry(NetBoxModel):
         """
         if self.interface:
             return self.interface
-        elif self.virtual_interface:
+        if self.virtual_interface:
             return self.virtual_interface
         return None
 
@@ -177,9 +177,9 @@ class ArpTableEntry(NetBoxModel):
         meta_device return Device or VM, if set.
         """
         if self.interface:
-            return self.interface.device
-        elif self.virtual_interface:
-            return self.virtual_interface.vm
+            return self.interface.device  # pylint: disable=no-member
+        if self.virtual_interface:
+            return self.virtual_interface.vm  # pylint: disable=no-member
         return None
 
     def __str__(self):
@@ -366,7 +366,7 @@ class Discoverable(NetBoxModel):
         """
         if self.device:
             return self.device
-        elif self.vm:
+        if self.vm:
             return self.vm
         return None
 
@@ -439,10 +439,10 @@ class DiscoveryLog(NetBoxModel):
 
         meta_device return Device or VM, if set.
         """
-        if self.discoverable.device:
-            return self.discoverable.device
-        elif self.discoverable.vm:
-            return self.discoverable.vm
+        if self.discoverable.device:  # pylint: disable=no-member
+            return self.discoverable.device  # pylint: disable=no-member
+        if self.discoverable.vm:  # pylint: disable=no-member
+            return self.discoverable.vm  # pylint: disable=no-member
         return None
 
     def __str__(self):
@@ -671,7 +671,7 @@ class RouteTableEntry(NetBoxModel):
         """
         if self.nexthop_virtual_if:
             return self.nexthop_virtual_if
-        elif self.nexthop_if:
+        if self.nexthop_if:
             return self.nexthop_if
         return None
 
@@ -684,7 +684,7 @@ class RouteTableEntry(NetBoxModel):
         """
         if self.device:
             return self.device
-        elif self.vm:
+        if self.vm:
             return self.vm
         return None
 
