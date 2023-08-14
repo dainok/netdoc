@@ -229,6 +229,17 @@ class DiscoverableBulkEditForm(NetBoxModelBulkEditForm):
     nullable_fields = "device"
 
 
+class DiscoverableListFilterForm(NetBoxModelFilterSetForm):
+    """Form used to filter Discoverable using parameters. Used in DiscoverableListView."""
+
+    model = Discoverable
+    discoverable = forms.NullBooleanField(
+        required=False,
+        label="Is discoverable?",
+        widget=StaticSelect(choices=BOOLEAN_WITH_BLANK_CHOICES),
+    )
+
+
 class DiscoveryLogListFilterForm(NetBoxModelFilterSetForm):
     """Form used to filter DiscoveryLog using parameters. Used in DiscoveryLogListView."""
 
