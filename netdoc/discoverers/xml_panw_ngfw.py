@@ -68,7 +68,6 @@ def discovery(nrni):
         params = {
             "host": task.host.hostname,
             "password": task.host.dict().get("password"),
-            "supported": True,
             "verify_cert": task.host.dict().get("data").get("verify_cert"),
         }
         append_nornir_task(

@@ -55,6 +55,7 @@ def ingest(log):
                     "ip_address": ip_address,
                     "mac_address": mac_address,
                 }
+                print(data)
                 arptableentry.create(**data)
         if device_o:
             # Get or create Interface

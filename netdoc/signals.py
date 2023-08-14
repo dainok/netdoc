@@ -44,25 +44,21 @@ def meta_device_check(instance, **kwards):  # pylint: disable=unused-argument
         raise ValueError("Discoverable cannot be associated to both Device and VM.")
 
 
-@receiver(pre_save, sender=models.ArpTableEntry)
-def meta_arp_check(instance, **kwargs):  # pylint: disable=unused-argument
-    """
-    Raise an exception if there is a mistmatch.
+# @receiver(pre_save, sender=models.ArpTableEntry)
+# def meta_arp_check(instance, **kwargs):  # pylint: disable=unused-argument
+#     """
+#     Raise an exception if there is a mistmatch.
 
-    Mistmatch can occur on device, interface, vm, virtual_interface.
-    """
-    if instance.vm and instance.device:
-        raise ValueError("ArpTableEntry cannot be associated to both Device and VM.")
-    if instance.virtual_interface and instance.interface:
-        raise ValueError(
-            "ArpTableEntry cannot be associated to both Interface and VMInterface."
-        )
-    if instance.virtual_interface and instance.device:
-        raise ValueError(
-            "ArpTableEntry cannot be associated to both Device and VMInterface."
-        )
-    if instance.interface and instance.vm:
-        raise ValueError("ArpTableEntry cannot be associated to both VM and Interface.")
+#     Mistmatch can occur on device, interface, vm, virtual_interface.
+#     """
+#     if not instance.virtual_interface and not instance.interface:
+#         raise ValueError(
+#             "ArpTableEntry must be associated to Interface or VMInterface."
+#         )
+#     if instance.virtual_interface and instance.interface:
+#         raise ValueError(
+#             "ArpTableEntry cannot be associated to both Interface and VMInterface."
+#         )
 
 
 @receiver(pre_save, sender=models.RouteTableEntry)

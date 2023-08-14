@@ -20,12 +20,14 @@ from netdoc import models
 class ArpTableEntryTable(NetBoxTable):
     """ARP list table used in ArpTableEntryView."""
 
-    meta_device = tables.Column(linkify=True, verbose_name="Device")
-    meta_interface = tables.Column(linkify=True, verbose_name="Interface")
+    meta_device = tables.Column(linkify=True, verbose_name="Device", orderable=False)
+    meta_interface = tables.Column(
+        linkify=True, verbose_name="Interface", orderable=False
+    )
     mac_address = tables.LinkColumn(
         "plugins:netdoc:arptableentry", args=[tables.utils.A("pk")]
     )
-    device_role = tables.Column(accessor="interface.device.device_role")
+    meta_role = tables.Column(verbose_name="Role", orderable=False)
     mac_address = tables.Column(verbose_name="MAC address")
     ip_address = tables.Column(verbose_name="IP address")
     actions = []  # Read only table
@@ -38,7 +40,7 @@ class ArpTableEntryTable(NetBoxTable):
             "pk",
             "id",
             "meta_device",
-            "device_role",
+            "meta_role",
             "meta_interface",
             "ip_address",
             "mac_address",
@@ -48,7 +50,7 @@ class ArpTableEntryTable(NetBoxTable):
         ]
         default_columns = [
             "meta_device",
-            "device_role",
+            "meta_role",
             "meta_interface",
             "ip_address",
             "mac_address",
@@ -103,7 +105,7 @@ class DiscoverableTable(NetBoxTable):
     """Credential list table used in DiscoverableListView."""
 
     address = tables.Column(linkify=True)
-    meta_device = tables.Column(linkify=True, verbose_name="Device")
+    meta_device = tables.Column(linkify=True, verbose_name="Device", orderable=False)
     vm = tables.Column(linkify=True)
     mode = ChoiceFieldColumn()
     discoverylogs_count = tables.Column(verbose_name="Logs")
@@ -151,7 +153,7 @@ class DiscoverableTableWOLogCount(NetBoxTable):
     """
 
     address = tables.Column(linkify=True)
-    meta_device = tables.Column(linkify=True, verbose_name="Device")
+    meta_device = tables.Column(linkify=True, verbose_name="Device", orderable=False)
     mode = ChoiceFieldColumn()
     discovery_button = """
     <a class="btn btn-sm btn-secondary" href="{% url 'plugins:netdoc:discoverable_discover' pk=record.pk %}" title="Discover">
@@ -197,7 +199,7 @@ class DiscoveryLogTable(NetBoxTable):
     """Credential list table used in DiscoveryLogListView."""
 
     device = tables.Column(linkify=True, accessor="discoverable.device")
-    meta_device = tables.Column(linkify=True, verbose_name="Device")
+    meta_device = tables.Column(linkify=True, verbose_name="Device", orderable=False)
     vm = tables.Column(linkify=True, accessor="discoverable.vm")
     discoverable = tables.Column(linkify=True)
     actions = ActionsColumn(actions=("delete",))  # Read only + delete table
@@ -296,8 +298,10 @@ class RouteTableEntryTable(NetBoxTable):
 
     destination = tables.Column(linkify=True)
 
-    meta_device = tables.Column(linkify=True, verbose_name="Device")
-    meta_nexthop_if = tables.Column(linkify=True, verbose_name="Nexthop IF")
+    meta_device = tables.Column(linkify=True, verbose_name="Device", orderable=False)
+    meta_nexthop_if = tables.Column(
+        linkify=True, verbose_name="Nexthop IF", orderable=False
+    )
     nexthop_ip = tables.Column(verbose_name="Nexthop IP")
     vrf = tables.LinkColumn(
         "ipam:vrf", args=[tables.utils.A("vrf__pk")], verbose_name="VRF"
