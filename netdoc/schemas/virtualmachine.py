@@ -113,18 +113,18 @@ def update(obj, status=None, **kwargs):
     return obj
 
 
-# def update_management(obj, discoverable_ip_address):
-#     """Update primary IP address if match the Discoverable IP address.
+def update_management(obj, discoverable_ip_address):
+    """Update primary IP address if match the Discoverable IP address.
 
-#     Return True if management IP is set.
-#     """
-#     # Set management IP address
-#     for interface in obj.interfaces.filter(ip_addresses__isnull=False):
-#         # For each interface
-#         for ip_address_o in interface.ip_addresses.all():
-#             # For each configured IP address
-#             if discoverable_ip_address == str(ip_address_o.address.ip):
-#                 obj.primary_ip4 = ip_address_o
-#                 obj.save()
-#                 return True
-#     return False
+    Return True if management IP is set.
+    """
+    # Set management IP address
+    for interface in obj.interfaces.filter(ip_addresses__isnull=False):
+        # For each interface
+        for ip_address_o in interface.ip_addresses.all():
+            # For each configured IP address
+            if discoverable_ip_address == str(ip_address_o.address.ip):
+                obj.primary_ip4 = ip_address_o
+                obj.save()
+                return True
+    return False

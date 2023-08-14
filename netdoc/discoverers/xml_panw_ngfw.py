@@ -107,7 +107,7 @@ def discovery(nrni):
         append_nornir_task(
             task,
             "<show><routing><route></route></routing></show>",
-            template="show routing",
+            template="show routing route",
             **params,
         )
 

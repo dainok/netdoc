@@ -44,21 +44,21 @@ def meta_device_check(instance, **kwards):  # pylint: disable=unused-argument
         raise ValueError("Discoverable cannot be associated to both Device and VM.")
 
 
-# @receiver(pre_save, sender=models.ArpTableEntry)
-# def meta_arp_check(instance, **kwargs):  # pylint: disable=unused-argument
-#     """
-#     Raise an exception if there is a mistmatch.
+@receiver(pre_save, sender=models.ArpTableEntry)
+def meta_arp_check(instance, **kwargs):  # pylint: disable=unused-argument
+    """
+    Raise an exception if there is a mistmatch.
 
-#     Mistmatch can occur on device, interface, vm, virtual_interface.
-#     """
-#     if not instance.virtual_interface and not instance.interface:
-#         raise ValueError(
-#             "ArpTableEntry must be associated to Interface or VMInterface."
-#         )
-#     if instance.virtual_interface and instance.interface:
-#         raise ValueError(
-#             "ArpTableEntry cannot be associated to both Interface and VMInterface."
-#         )
+    Mistmatch can occur on device, interface, vm, virtual_interface.
+    """
+    if not instance.virtual_interface and not instance.interface:
+        raise ValueError(
+            "ArpTableEntry must be associated to Interface or VMInterface."
+        )
+    if instance.virtual_interface and instance.interface:
+        raise ValueError(
+            "ArpTableEntry cannot be associated to both Interface and VMInterface."
+        )
 
 
 @receiver(pre_save, sender=models.RouteTableEntry)
@@ -66,11 +66,11 @@ def meta_route_check(instance, **kwargs):  # pylint: disable=unused-argument
     """
     Raise an exception if there is a mistmatch.
 
-    Mistmatch can occur on device, netxthop_if, vm, nexthop_virtual_if.
+    Mistmatch can occur on device, nexthop_if, vm, nexthop_virtual_if.
     """
     if instance.vm and instance.device:
         raise ValueError("RouteTableEntry cannot be associated to both Device and VM.")
-    if instance.nexthop_virtual_if and instance.netxthop_if:
+    if instance.nexthop_virtual_if and instance.nexthop_if:
         raise ValueError(
             "RouteTableEntry cannot be associated to both Interface and VMInterface."
         )
@@ -78,7 +78,7 @@ def meta_route_check(instance, **kwargs):  # pylint: disable=unused-argument
         raise ValueError(
             "RouteTableEntry cannot be associated to both Device and VMInterface."
         )
-    if instance.netxthop_if and instance.vm:
+    if instance.nexthop_if and instance.vm:
         raise ValueError(
             "RouteTableEntry cannot be associated to both VM and Interface."
         )

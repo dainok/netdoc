@@ -460,7 +460,7 @@ def incomplete_mac(mac):
     """Return True if the MAC address is incomplete (from ARP table)."""
     if not mac:
         return True
-    if "incomplete" in mac.lower():
+    if "incomplete" in mac.lower().strip():
         return True
     return False
 
@@ -482,7 +482,7 @@ def log_ingest(log):
     function_name = f"{log.discoverable.mode}_{log.template}"
     function_name = function_name.replace(" ", "_")
     function_name = function_name.replace("-", "_")
-    function_name = function_name.lower()
+    function_name = function_name.lower().strip()
 
     try:
         module = importlib.import_module(f"netdoc.ingestors.{function_name}")
@@ -524,7 +524,7 @@ def normalize_interface_duplex(duplex):
     if not duplex:
         # None is allowed
         return None
-    duplex = duplex.lower()
+    duplex = duplex.lower().strip()
     if "auto" in duplex:
         return "auto"
     if "half" in duplex:
@@ -548,7 +548,7 @@ def normalize_interface_duplex(duplex):
 
 def normalize_interface_label(name):
     """Given an interface name, return the shortname (label)."""
-    name = name.lower()
+    name = name.lower().strip()
     if re.match(r".*-trk\d*$", name):
         # HPE Procurve add -Trk1 to interface port name
         name = re.sub(r"-trk\d*", "", name)
@@ -606,7 +606,7 @@ def normalize_interface_mode(mode):
     if not mode:
         # None is allowed
         return None
-    mode = mode.lower()
+    mode = mode.lower().strip()
     if "trunk" in mode:
         return "tagged"
     if "hybrid" in mode:
@@ -658,7 +658,7 @@ def normalize_interface_speed(speed):
         # None is allowed
         return None
 
-    speed = speed.lower()
+    speed = speed.lower().strip()
     if "auto" in speed:
         # Speed is set to auto
         return None
@@ -684,7 +684,7 @@ def normalize_interface_status(status):
     if status is None:
         # Assume None is used for virtual interfaces (e.g. tunnels)
         return True
-    status = status.lower()
+    status = status.lower().strip()
     if "up" in status:
         return True
     if "true" in status:
@@ -704,7 +704,7 @@ def normalize_interface_status(status):
 def normalize_interface_type(name="", encapsulation=""):
     """Return interface type from name/encapsulation."""
     label = normalize_interface_label(name)
-    encapsulation = encapsulation.lower()
+    encapsulation = encapsulation.lower().strip()
     if label == "sfp+sr":
         # HPE Procurve SPF
         return "other"
@@ -776,20 +776,20 @@ def normalize_ip_address_or_none(ip_address):
 
 def normalize_route_type(route_type):
     """Return route type protocol."""
-    route_type = route_type.lower()
-    if route_type in ["c", "connected", "direct", "local", "hsrp", "l"]:
+    route_type = route_type.lower().strip()
+    if route_type in ["c", "connected", "direct", "local", "hsrp", "l", "a c", "a h"]:
         # Connected
         return "c"
-    if route_type in ["s", "static", "s*"]:
+    if route_type in ["s", "static", "s*", "a s"]:
         # Static
         return "s"
     if route_type in ["u", "hmm"]:
         # User-space Static
         return "u"
-    if route_type in ["r"]:
+    if route_type in ["r", "a r"]:
         # RIP
         return "r"
-    if route_type in ["b", "bgp"]:
+    if route_type in ["b", "bgp", "a b", "a?b"]:
         # BGP
         return "b"
     if route_type in ["d"]:
@@ -855,7 +855,6 @@ def normalize_route_type(route_type):
     if re.match(r"^bgp-\S+.*$", route_type):
         # Nexus BGP with process
         return "b"
-
     raise ValueError(f"Invalid route type {route_type}")
 
 
@@ -868,7 +867,7 @@ def normalize_serial(serial):
 
 def normalize_vm_status(status):
     """Status must be offline, active, planned, staged, failed, decomissioning."""
-    status = status.lower()
+    status = status.lower().strip()
     if status in ["poweredon"]:
         # Active
         return "active"
@@ -896,7 +895,7 @@ def normalize_vlan_range(vlan):
         # Integer
         return [vlan]
 
-    vlan = vlan.lower()
+    vlan = vlan.lower().strip()
     vlan = vlan.replace("(default vlan)", "")
     vlan = vlan.replace(" ", "")
     if vlan == "none":

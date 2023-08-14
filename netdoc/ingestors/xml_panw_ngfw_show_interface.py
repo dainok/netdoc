@@ -4,7 +4,13 @@ __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2023, Andrea Dainese"
 __license__ = "GPLv3"
 
-from netdoc.schemas import device, vrf, interface, virtualmachine_interface
+from netdoc.schemas import (
+    device,
+    vrf,
+    interface,
+    virtualmachine_interface,
+    virtualmachine,
+)
 from netdoc import utils
 
 
@@ -96,8 +102,7 @@ def ingest(log):
                 )
 
             # Update management IP address
-            # TODO
-            # device.update_management(vm_o, log.discoverable.address)
+            virtualmachine.update_management(vm_o, log.discoverable.address)
         if device_o:
             # Create a physical interface
             if parent_name:

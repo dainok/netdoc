@@ -27,7 +27,6 @@ def ingest(log):
         if utils.incomplete_mac(item.get("mac")):
             continue
         interface_name = item.get("interface")
-        label = utils.normalize_interface_label(interface_name)
         ip_address = item.get("ip")
         mac_address = utils.normalize_mac_address(item.get("mac"))
 
@@ -58,10 +57,11 @@ def ingest(log):
                 arptableentry.create(**data)
         if device_o:
             # Get or create Interface
-            interface_o = interface.get(device_id=device_o.id, label=label)
+            interface_label = utils.normalize_interface_label(interface_name)
+            interface_o = interface.get(device_id=device_o.id, label=interface_label)
             if not interface_o:
                 interface_data = {
-                    "name": label,
+                    "name": interface_name,
                     "device_id": device_o.id,
                 }
                 interface_o = interface.create(**interface_data)

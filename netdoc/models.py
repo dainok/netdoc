@@ -176,15 +176,20 @@ class ArpTableEntry(NetBoxModel):
         """
         Role meta_role property.
 
-        meta_role return device/vm role, if set."""
+        meta_role return device/vm role, if set.
+        """
         if (
-            self.interface and self.interface.device.device_role
-        ):  # pylint: disable=no-member
-            return self.interface.device.device_role.name
+            self.interface
+            and self.interface.device.device_role  # pylint: disable=no-member
+        ):
+            return self.interface.device.device_role.name  # pylint: disable=no-member
         if (
-            self.virtual_interface and self.virtual_interface.virtual_machine.role
-        ):  # pylint: disable=no-member
-            return self.virtual_interface.virtual_machine.role.name
+            self.virtual_interface
+            and self.virtual_interface.virtual_machine.role  # pylint: disable=no-member
+        ):
+            return (
+                self.virtual_interface.virtual_machine.role.name  # pylint: disable=no-member
+            )
         return None
 
     @property
@@ -654,7 +659,7 @@ class RouteTableEntry(NetBoxModel):
         blank=True,
         null=True,
     )
-    vm = models.OneToOneField(
+    vm = models.ForeignKey(
         to="virtualization.VirtualMachine",
         editable=False,
         on_delete=models.SET_NULL,
