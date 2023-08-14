@@ -1,3 +1,4 @@
 formatter:
   type: basic
   include_document_start: false
+  pad_line_comments: 2

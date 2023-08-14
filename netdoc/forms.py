@@ -6,7 +6,7 @@ __license__ = "GPLv3"
 
 from django import forms
 
-from dcim.models import Site, DeviceRole
+from dcim.models import Site, DeviceRole, Device
 from ipam.models import VRF
 
 from utilities.forms import (
@@ -233,6 +233,12 @@ class DiscoveryLogListFilterForm(NetBoxModelFilterSetForm):
     """Form used to filter DiscoveryLog using parameters. Used in DiscoveryLogListView."""
 
     model = DiscoveryLog
+    discoverable__device = forms.ModelChoiceField(
+        queryset=Device.objects.all(),
+        to_field_name="id",
+        help_text="Device",
+        required=False,
+    )
     configuration = forms.NullBooleanField(
         required=False,
         label="Configuration output",

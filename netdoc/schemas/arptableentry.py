@@ -7,6 +7,7 @@ __license__ = "GPLv3"
 from jsonschema import validate, FormatChecker
 
 from dcim.models import Interface as Interface_model
+from virtualization.models import VMInterface as VirtualInterface_model
 
 from netdoc.models import ArpTableEntry
 from netdoc import utils
@@ -23,6 +24,12 @@ def get_schema():
                     Interface_model.objects.all().values_list("id", flat=True)
                 ),
             },
+            "virtual_interface_id": {
+                "type": "integer",
+                "enum": list(
+                    VirtualInterface_model.objects.all().values_list("id", flat=True)
+                ),
+            },
             "ip_address": {
                 "type": "string",
             },
@@ -37,10 +44,13 @@ def get_schema_create():
     """Return the JSON schema to validate new ArpTableEntry objects."""
     schema = get_schema()
     schema["required"] = [
-        "interface_id",
         "ip_address",
         "mac_address",
     ]
+    if schema["properties"]["virtual_interface_id"]:
+        schema["required"].append("virtual_interface_id")
+    else:
+        schema["required"].append("interface_id")
     return schema
 
 
@@ -52,14 +62,28 @@ def create(**kwargs):
     return obj
 
 
-def get(interface_id, ip_address, mac_address, discovered=True):
+def get(
+    ip_address,
+    mac_address,
+    interface_id=None,
+    virtual_interface_id=None,
+    discovered=True,
+):
     """Return an ArpTableEntry."""
-    obj = utils.object_get_or_none(
-        ArpTableEntry,
-        interface_id=interface_id,
-        ip_address=ip_address,
-        mac_address=mac_address,
-    )
+    if interface_id:
+        obj = utils.object_get_or_none(
+            ArpTableEntry,
+            virtual_interface_id=virtual_interface_id,
+            ip_address=ip_address,
+            mac_address=mac_address,
+        )
+    elif virtual_interface_id:
+        obj = utils.object_get_or_none(
+            ArpTableEntry,
+            virtual_interface_id=virtual_interface_id,
+            ip_address=ip_address,
+            mac_address=mac_address,
+        )
     if obj and discovered:
         # Update updated_at
         obj.save()

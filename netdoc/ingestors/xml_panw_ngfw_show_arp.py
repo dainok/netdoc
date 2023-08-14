@@ -5,8 +5,6 @@ __copyright__ = "Copyright 2023, Andrea Dainese"
 __license__ = "GPLv3"
 
 from netdoc.schemas import (
-    device,
-    vrf,
     interface,
     virtualmachine_interface,
     arptableentry,
@@ -36,14 +34,28 @@ def ingest(log):
         if vm_o:
             # Get or create Interface
             interface_o = virtualmachine_interface.get(
-                virtual_machine_id=vm_o.id, name=interface_name
+                virtual_machine_id=vm_o.id,
+                name=interface_name,
             )
             if not interface_o:
                 interface_data = {
-                    "name": label,
+                    "name": interface_name,
                     "virtual_machine_id": vm_o.id,
                 }
                 interface_o = virtualmachine_interface.create(**interface_data)
+
+            arptableentry_o = arptableentry.get(
+                virtual_interface_id=interface_o.id,
+                ip_address=ip_address,
+                mac_address=mac_address,
+            )
+            if not arptableentry_o:
+                data = {
+                    "virtual_interface_id": interface_o.id,
+                    "ip_address": ip_address,
+                    "mac_address": mac_address,
+                }
+                arptableentry.create(**data)
         if device_o:
             # Get or create Interface
             interface_o = interface.get(device_id=device_o.id, label=label)
@@ -54,16 +66,18 @@ def ingest(log):
                 }
                 interface_o = interface.create(**interface_data)
 
-        # arptableentry_o = arptableentry.get(
-        #     interface_id=interface_o.id, ip_address=ip_address, mac_address=mac_address
-        # )
-        # if not arptableentry_o:
-        #     data = {
-        #         "interface_id": interface_o.id,
-        #         "ip_address": ip_address,
-        #         "mac_address": mac_address,
-        #     }
-        #     arptableentry.create(**data)
+            arptableentry_o = arptableentry.get(
+                interface_id=interface_o.id,
+                ip_address=ip_address,
+                mac_address=mac_address,
+            )
+            if not arptableentry_o:
+                data = {
+                    "interface_id": interface_o.id,
+                    "ip_address": ip_address,
+                    "mac_address": mac_address,
+                }
+                arptableentry.create(**data)
 
     # Update the log
     log.ingested = True

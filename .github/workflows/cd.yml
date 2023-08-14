@@ -10,7 +10,7 @@ concurrency:
   # Cancel any existing runs of this workflow for this same PR
   group: "${{ github.workflow }}-${{ github.ref }}"
   cancel-in-progress: true
-on:
+on:  # yamllint disable-line rule:truthy
   pull_request:
     types: [closed]
 jobs:
