@@ -7,9 +7,6 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('virtualization', '0034_standardize_description_comments'),
-        ('dcim', '0167_module_status'),
-        ('ipam', '0064_clear_search_cache'),
         ('netdoc', '0011_alter_credential_enable_password_and_more'),
     ]
 
