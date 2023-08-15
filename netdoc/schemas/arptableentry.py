@@ -81,7 +81,9 @@ def get(
             mac_address=mac_address,
         )
     else:
-        raise ValueError("virtual_interface or interface must be specified to get an ARP entry.")
+        raise ValueError(
+            "virtual_interface or interface must be specified to get an ARP entry."
+        )
     if obj and discovered:
         # Update updated_at
         obj.save()
