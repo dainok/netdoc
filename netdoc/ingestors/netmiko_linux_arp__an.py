@@ -13,7 +13,7 @@ def ingest(log):
     device_o = log.discoverable.device
 
     for item in log.parsed_output:
-        # See https://github.com/dainok/ntc-templates/tree/master/tests/linux/arp_-a # pylint: disable=line-too-long
+        # See https://github.com/networktocode/ntc-templates/tree/master/tests/linux/arp_-a # pylint: disable=line-too-long
         if utils.incomplete_mac(item.get("mac_address")):
             continue
         interface_name = item.get("interface")

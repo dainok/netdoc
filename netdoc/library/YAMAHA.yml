@@ -1,1717 +1,1717 @@
 keywords:
-- SWX3100-10G
-- SWX2322P-16MT
-- SWX3220-16MT
-- SWX2310-52GT
-- SWX2110-8G
-- SWX2210P-18G
-- SWX2220-10NT
-- SWX3200-52GT
-- SWX2210-16G
-- SWX2310P-10G
-- SWX2210-24G
-- SWX2210P-28G
-- SWX2110-5G
-- SWX2310-18GT
-- SWX2110P-8G
-- SWX2320-16MT
-- SWX2310P-28GT
-- SWX2310P-18G
-- SWX2310-10G
-- SWX3100-18GT
-- SWX2221P-10NT
-- SWX3220-16TMs
-- SWX2310-28GT
-- SWX2110-16G
-- SWX2210P-10G
-- SWX3200-28GT
-- SWX2210-8G
+  - SWX3100-10G
+  - SWX2322P-16MT
+  - SWX3220-16MT
+  - SWX2310-52GT
+  - SWX2110-8G
+  - SWX2210P-18G
+  - SWX2220-10NT
+  - SWX3200-52GT
+  - SWX2210-16G
+  - SWX2310P-10G
+  - SWX2210-24G
+  - SWX2210P-28G
+  - SWX2110-5G
+  - SWX2310-18GT
+  - SWX2110P-8G
+  - SWX2320-16MT
+  - SWX2310P-28GT
+  - SWX2310P-18G
+  - SWX2310-10G
+  - SWX3100-18GT
+  - SWX2221P-10NT
+  - SWX3220-16TMs
+  - SWX2310-28GT
+  - SWX2110-16G
+  - SWX2210P-10G
+  - SWX3200-28GT
+  - SWX2210-8G
 models:
-- comments: '"Lightweight" Layer 3 Switch, manufactured by YAMAHA.
+  - comments: '"Lightweight" Layer 3 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx3100-10g/index
+      https://network.yamaha.com/products/switches/swx3100-10g/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    type: 1000base-t
-  - name: port1.2
-    type: 1000base-t
-  - name: port1.3
-    type: 1000base-t
-  - name: port1.4
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  - name: port1.6
-    type: 1000base-t
-  - name: port1.7
-    type: 1000base-t
-  - name: port1.8
-    type: 1000base-t
-  - name: port1.9
-    type: 1000base-x-sfp
-  - name: port1.10
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX3100-10G
-  power-ports:
-  - maximum_draw: 12
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx3100-10g
-  u_height: 1
-- comments: 'PoE-Compatible "Intelligent" Layer 2 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        type: 1000base-t
+      - name: port1.2
+        type: 1000base-t
+      - name: port1.3
+        type: 1000base-t
+      - name: port1.4
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+      - name: port1.6
+        type: 1000base-t
+      - name: port1.7
+        type: 1000base-t
+      - name: port1.8
+        type: 1000base-t
+      - name: port1.9
+        type: 1000base-x-sfp
+      - name: port1.10
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX3100-10G
+    power-ports:
+      - maximum_draw: 12
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx3100-10g
+    u_height: 1
+  - comments: 'PoE-Compatible "Intelligent" Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2322p-16mt/index
+      https://network.yamaha.com/products/switches/swx2322p-16mt/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    poe_type: type4-ieee802.3bt
-    pse_mode: pse
-    type: 10gbase-t
-  - name: port1.2
-    poe_type: type4-ieee802.3bt
-    pse_mode: pse
-    type: 10gbase-t
-  - name: port1.3
-    poe_type: type4-ieee802.3bt
-    pse_mode: pse
-    type: 10gbase-t
-  - name: port1.4
-    poe_type: type4-ieee802.3bt
-    pse_mode: pse
-    type: 10gbase-t
-  - name: port1.5
-    poe_type: type4-ieee802.3bt
-    pse_mode: pse
-    type: 10gbase-t
-  - name: port1.6
-    poe_type: type4-ieee802.3bt
-    pse_mode: pse
-    type: 10gbase-t
-  - name: port1.7
-    poe_type: type4-ieee802.3bt
-    pse_mode: pse
-    type: 10gbase-t
-  - name: port1.8
-    poe_type: type4-ieee802.3bt
-    pse_mode: pse
-    type: 10gbase-t
-  - name: port1.9
-    poe_type: type4-ieee802.3bt
-    pse_mode: pse
-    type: 10gbase-t
-  - name: port1.10
-    poe_type: type4-ieee802.3bt
-    pse_mode: pse
-    type: 10gbase-t
-  - name: port1.11
-    poe_type: type4-ieee802.3bt
-    pse_mode: pse
-    type: 10gbase-t
-  - name: port1.12
-    poe_type: type4-ieee802.3bt
-    pse_mode: pse
-    type: 10gbase-t
-  - name: port1.13
-    type: 10gbase-x-sfpp
-  - name: port1.14
-    type: 10gbase-x-sfpp
-  - name: port1.15
-    type: 10gbase-x-sfpp
-  - name: port1.16
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2322P-16MT
-  power-ports:
-  - maximum_draw: 385
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2322p-16mt
-  u_height: 1
-- comments: '10G/mGig-Compatible "Standard" Layer 3 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        poe_type: type4-ieee802.3bt
+        pse_mode: pse
+        type: 10gbase-t
+      - name: port1.2
+        poe_type: type4-ieee802.3bt
+        pse_mode: pse
+        type: 10gbase-t
+      - name: port1.3
+        poe_type: type4-ieee802.3bt
+        pse_mode: pse
+        type: 10gbase-t
+      - name: port1.4
+        poe_type: type4-ieee802.3bt
+        pse_mode: pse
+        type: 10gbase-t
+      - name: port1.5
+        poe_type: type4-ieee802.3bt
+        pse_mode: pse
+        type: 10gbase-t
+      - name: port1.6
+        poe_type: type4-ieee802.3bt
+        pse_mode: pse
+        type: 10gbase-t
+      - name: port1.7
+        poe_type: type4-ieee802.3bt
+        pse_mode: pse
+        type: 10gbase-t
+      - name: port1.8
+        poe_type: type4-ieee802.3bt
+        pse_mode: pse
+        type: 10gbase-t
+      - name: port1.9
+        poe_type: type4-ieee802.3bt
+        pse_mode: pse
+        type: 10gbase-t
+      - name: port1.10
+        poe_type: type4-ieee802.3bt
+        pse_mode: pse
+        type: 10gbase-t
+      - name: port1.11
+        poe_type: type4-ieee802.3bt
+        pse_mode: pse
+        type: 10gbase-t
+      - name: port1.12
+        poe_type: type4-ieee802.3bt
+        pse_mode: pse
+        type: 10gbase-t
+      - name: port1.13
+        type: 10gbase-x-sfpp
+      - name: port1.14
+        type: 10gbase-x-sfpp
+      - name: port1.15
+        type: 10gbase-x-sfpp
+      - name: port1.16
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2322P-16MT
+    power-ports:
+      - maximum_draw: 385
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2322p-16mt
+    u_height: 1
+  - comments: '10G/mGig-Compatible "Standard" Layer 3 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx3220-16mt/index
+      https://network.yamaha.com/products/switches/swx3220-16mt/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    type: 10gbase-t
-  - name: port1.2
-    type: 10gbase-t
-  - name: port1.3
-    type: 10gbase-t
-  - name: port1.4
-    type: 10gbase-t
-  - name: port1.5
-    type: 10gbase-t
-  - name: port1.6
-    type: 10gbase-t
-  - name: port1.7
-    type: 10gbase-t
-  - name: port1.8
-    type: 10gbase-t
-  - name: port1.9
-    type: 10gbase-t
-  - name: port1.10
-    type: 10gbase-t
-  - name: port1.11
-    type: 10gbase-t
-  - name: port1.12
-    type: 10gbase-t
-  - name: port1.13
-    type: 10gbase-x-sfpp
-  - name: port1.14
-    type: 10gbase-x-sfpp
-  - name: port1.15
-    type: 10gbase-x-sfpp
-  - name: port1.16
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX3220-16MT
-  power-ports:
-  - maximum_draw: 84
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx3220-16mt
-  u_height: 1
-- comments: '"Intelligent" Layer 2 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        type: 10gbase-t
+      - name: port1.2
+        type: 10gbase-t
+      - name: port1.3
+        type: 10gbase-t
+      - name: port1.4
+        type: 10gbase-t
+      - name: port1.5
+        type: 10gbase-t
+      - name: port1.6
+        type: 10gbase-t
+      - name: port1.7
+        type: 10gbase-t
+      - name: port1.8
+        type: 10gbase-t
+      - name: port1.9
+        type: 10gbase-t
+      - name: port1.10
+        type: 10gbase-t
+      - name: port1.11
+        type: 10gbase-t
+      - name: port1.12
+        type: 10gbase-t
+      - name: port1.13
+        type: 10gbase-x-sfpp
+      - name: port1.14
+        type: 10gbase-x-sfpp
+      - name: port1.15
+        type: 10gbase-x-sfpp
+      - name: port1.16
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX3220-16MT
+    power-ports:
+      - maximum_draw: 84
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx3220-16mt
+    u_height: 1
+  - comments: '"Intelligent" Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2310-52gt/index
+      https://network.yamaha.com/products/switches/swx2310-52gt/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    type: 1000base-t
-  - name: port1.2
-    type: 1000base-t
-  - name: port1.3
-    type: 1000base-t
-  - name: port1.4
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  - name: port1.6
-    type: 1000base-t
-  - name: port1.7
-    type: 1000base-t
-  - name: port1.8
-    type: 1000base-t
-  - name: port1.9
-    type: 1000base-t
-  - name: port1.10
-    type: 1000base-t
-  - name: port1.11
-    type: 1000base-t
-  - name: port1.12
-    type: 1000base-t
-  - name: port1.13
-    type: 1000base-t
-  - name: port1.14
-    type: 1000base-t
-  - name: port1.15
-    type: 1000base-t
-  - name: port1.16
-    type: 1000base-t
-  - name: port1.17
-    type: 1000base-t
-  - name: port1.18
-    type: 1000base-t
-  - name: port1.19
-    type: 1000base-t
-  - name: port1.20
-    type: 1000base-t
-  - name: port1.21
-    type: 1000base-t
-  - name: port1.22
-    type: 1000base-t
-  - name: port1.23
-    type: 1000base-t
-  - name: port1.24
-    type: 1000base-t
-  - name: port1.25
-    type: 1000base-t
-  - name: port1.26
-    type: 1000base-t
-  - name: port1.27
-    type: 1000base-t
-  - name: port1.28
-    type: 1000base-t
-  - name: port1.29
-    type: 1000base-t
-  - name: port1.30
-    type: 1000base-t
-  - name: port1.31
-    type: 1000base-t
-  - name: port1.32
-    type: 1000base-t
-  - name: port1.33
-    type: 1000base-t
-  - name: port1.34
-    type: 1000base-t
-  - name: port1.35
-    type: 1000base-t
-  - name: port1.36
-    type: 1000base-t
-  - name: port1.37
-    type: 1000base-t
-  - name: port1.38
-    type: 1000base-t
-  - name: port1.39
-    type: 1000base-t
-  - name: port1.40
-    type: 1000base-t
-  - name: port1.41
-    type: 1000base-t
-  - name: port1.42
-    type: 1000base-t
-  - name: port1.43
-    type: 1000base-t
-  - name: port1.44
-    type: 1000base-t
-  - name: port1.45
-    type: 1000base-t
-  - name: port1.46
-    type: 1000base-t
-  - name: port1.47
-    type: 1000base-t
-  - name: port1.48
-    type: 1000base-t
-  - name: port1.49
-    type: 1000base-x-sfp
-  - name: port1.50
-    type: 1000base-x-sfp
-  - name: port1.51
-    type: 1000base-x-sfp
-  - name: port1.52
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2310-52GT
-  power-ports:
-  - maximum_draw: 49
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2310-52gt
-  u_height: 1
-- comments: '"Simple" Layer 2 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        type: 1000base-t
+      - name: port1.2
+        type: 1000base-t
+      - name: port1.3
+        type: 1000base-t
+      - name: port1.4
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+      - name: port1.6
+        type: 1000base-t
+      - name: port1.7
+        type: 1000base-t
+      - name: port1.8
+        type: 1000base-t
+      - name: port1.9
+        type: 1000base-t
+      - name: port1.10
+        type: 1000base-t
+      - name: port1.11
+        type: 1000base-t
+      - name: port1.12
+        type: 1000base-t
+      - name: port1.13
+        type: 1000base-t
+      - name: port1.14
+        type: 1000base-t
+      - name: port1.15
+        type: 1000base-t
+      - name: port1.16
+        type: 1000base-t
+      - name: port1.17
+        type: 1000base-t
+      - name: port1.18
+        type: 1000base-t
+      - name: port1.19
+        type: 1000base-t
+      - name: port1.20
+        type: 1000base-t
+      - name: port1.21
+        type: 1000base-t
+      - name: port1.22
+        type: 1000base-t
+      - name: port1.23
+        type: 1000base-t
+      - name: port1.24
+        type: 1000base-t
+      - name: port1.25
+        type: 1000base-t
+      - name: port1.26
+        type: 1000base-t
+      - name: port1.27
+        type: 1000base-t
+      - name: port1.28
+        type: 1000base-t
+      - name: port1.29
+        type: 1000base-t
+      - name: port1.30
+        type: 1000base-t
+      - name: port1.31
+        type: 1000base-t
+      - name: port1.32
+        type: 1000base-t
+      - name: port1.33
+        type: 1000base-t
+      - name: port1.34
+        type: 1000base-t
+      - name: port1.35
+        type: 1000base-t
+      - name: port1.36
+        type: 1000base-t
+      - name: port1.37
+        type: 1000base-t
+      - name: port1.38
+        type: 1000base-t
+      - name: port1.39
+        type: 1000base-t
+      - name: port1.40
+        type: 1000base-t
+      - name: port1.41
+        type: 1000base-t
+      - name: port1.42
+        type: 1000base-t
+      - name: port1.43
+        type: 1000base-t
+      - name: port1.44
+        type: 1000base-t
+      - name: port1.45
+        type: 1000base-t
+      - name: port1.46
+        type: 1000base-t
+      - name: port1.47
+        type: 1000base-t
+      - name: port1.48
+        type: 1000base-t
+      - name: port1.49
+        type: 1000base-x-sfp
+      - name: port1.50
+        type: 1000base-x-sfp
+      - name: port1.51
+        type: 1000base-x-sfp
+      - name: port1.52
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2310-52GT
+    power-ports:
+      - maximum_draw: 49
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2310-52gt
+    u_height: 1
+  - comments: '"Simple" Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2110-8g/index
+      https://network.yamaha.com/products/switches/swx2110-8g/index
 
-    '
-  interfaces:
-  - name: port1.1
-    type: 1000base-t
-  - name: port1.2
-    type: 1000base-t
-  - name: port1.3
-    type: 1000base-t
-  - name: port1.4
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  - name: port1.6
-    type: 1000base-t
-  - name: port1.7
-    type: 1000base-t
-  - name: port1.8
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2110-8G
-  power-ports:
-  - maximum_draw: 3
-    name: PSU1
-    type: dc-terminal
-  slug: yamaha-swx2110-8g
-  u_height: 1
-- comments: '"Smart" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
+'
+    interfaces:
+      - name: port1.1
+        type: 1000base-t
+      - name: port1.2
+        type: 1000base-t
+      - name: port1.3
+        type: 1000base-t
+      - name: port1.4
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+      - name: port1.6
+        type: 1000base-t
+      - name: port1.7
+        type: 1000base-t
+      - name: port1.8
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2110-8G
+    power-ports:
+      - maximum_draw: 3
+        name: PSU1
+        type: dc-terminal
+    slug: yamaha-swx2110-8g
+    u_height: 1
+  - comments: '"Smart" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2210p-18g/index
+      https://network.yamaha.com/products/switches/swx2210p-18g/index
 
-    '
-  interfaces:
-  - name: port1.1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.9
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.10
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.11
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.12
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.13
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.14
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.15
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.16
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.17
-    type: 1000base-t
-  - name: port1.18
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2210P-18G
-  power-ports:
-  - maximum_draw: 338
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2210p-18g
-  u_height: 1
-- comments: '2.5G/10G-compatible "Smart" Layer 2 Switch, manufactured by YAMAHA.
+'
+    interfaces:
+      - name: port1.1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.17
+        type: 1000base-t
+      - name: port1.18
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2210P-18G
+    power-ports:
+      - maximum_draw: 338
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2210p-18g
+    u_height: 1
+  - comments: '2.5G/10G-compatible "Smart" Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2220-10nt/index
+      https://network.yamaha.com/products/switches/swx2220-10nt/index
 
-    '
-  interfaces:
-  - name: port1.1
-    type: 2.5gbase-t
-  - name: port1.2
-    type: 2.5gbase-t
-  - name: port1.3
-    type: 2.5gbase-t
-  - name: port1.4
-    type: 2.5gbase-t
-  - name: port1.5
-    type: 2.5gbase-t
-  - name: port1.6
-    type: 2.5gbase-t
-  - name: port1.7
-    type: 2.5gbase-t
-  - name: port1.8
-    type: 2.5gbase-t
-  - name: port1.9
-    type: 10gbase-t
-  - name: port1.10
-    type: 10gbase-t
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2220-10NT
-  power-ports:
-  - maximum_draw: 21
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2220-10nt
-  u_height: 1
-- comments: '"Standard" Layer 3 Switch, manufactured by YAMAHA.
+'
+    interfaces:
+      - name: port1.1
+        type: 2.5gbase-t
+      - name: port1.2
+        type: 2.5gbase-t
+      - name: port1.3
+        type: 2.5gbase-t
+      - name: port1.4
+        type: 2.5gbase-t
+      - name: port1.5
+        type: 2.5gbase-t
+      - name: port1.6
+        type: 2.5gbase-t
+      - name: port1.7
+        type: 2.5gbase-t
+      - name: port1.8
+        type: 2.5gbase-t
+      - name: port1.9
+        type: 10gbase-t
+      - name: port1.10
+        type: 10gbase-t
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2220-10NT
+    power-ports:
+      - maximum_draw: 21
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2220-10nt
+    u_height: 1
+  - comments: '"Standard" Layer 3 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx3200-52gt/index
+      https://network.yamaha.com/products/switches/swx3200-52gt/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    type: 1000base-t
-  - name: port1.2
-    type: 1000base-t
-  - name: port1.3
-    type: 1000base-t
-  - name: port1.4
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  - name: port1.6
-    type: 1000base-t
-  - name: port1.7
-    type: 1000base-t
-  - name: port1.8
-    type: 1000base-t
-  - name: port1.9
-    type: 1000base-t
-  - name: port1.10
-    type: 1000base-t
-  - name: port1.11
-    type: 1000base-t
-  - name: port1.12
-    type: 1000base-t
-  - name: port1.13
-    type: 1000base-t
-  - name: port1.14
-    type: 1000base-t
-  - name: port1.15
-    type: 1000base-t
-  - name: port1.16
-    type: 1000base-t
-  - name: port1.17
-    type: 1000base-t
-  - name: port1.18
-    type: 1000base-t
-  - name: port1.19
-    type: 1000base-t
-  - name: port1.20
-    type: 1000base-t
-  - name: port1.21
-    type: 1000base-t
-  - name: port1.22
-    type: 1000base-t
-  - name: port1.23
-    type: 1000base-t
-  - name: port1.24
-    type: 1000base-t
-  - name: port1.25
-    type: 1000base-t
-  - name: port1.26
-    type: 1000base-t
-  - name: port1.27
-    type: 1000base-t
-  - name: port1.28
-    type: 1000base-t
-  - name: port1.29
-    type: 1000base-t
-  - name: port1.30
-    type: 1000base-t
-  - name: port1.31
-    type: 1000base-t
-  - name: port1.32
-    type: 1000base-t
-  - name: port1.33
-    type: 1000base-t
-  - name: port1.34
-    type: 1000base-t
-  - name: port1.35
-    type: 1000base-t
-  - name: port1.36
-    type: 1000base-t
-  - name: port1.37
-    type: 1000base-t
-  - name: port1.38
-    type: 1000base-t
-  - name: port1.39
-    type: 1000base-t
-  - name: port1.40
-    type: 1000base-t
-  - name: port1.41
-    type: 1000base-t
-  - name: port1.42
-    type: 1000base-t
-  - name: port1.43
-    type: 1000base-t
-  - name: port1.44
-    type: 1000base-t
-  - name: port1.45
-    type: 1000base-t
-  - name: port1.46
-    type: 1000base-t
-  - name: port1.47
-    type: 1000base-t
-  - name: port1.48
-    type: 1000base-t
-  - name: port1.49
-    type: 1000base-x-sfp
-  - name: port1.50
-    type: 1000base-x-sfp
-  - name: port1.51
-    type: 1000base-x-sfp
-  - name: port1.52
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX3200-52GT
-  power-ports:
-  - maximum_draw: 48
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx3200-52gt
-  u_height: 1
-- comments: '"Smart" Layer 2 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        type: 1000base-t
+      - name: port1.2
+        type: 1000base-t
+      - name: port1.3
+        type: 1000base-t
+      - name: port1.4
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+      - name: port1.6
+        type: 1000base-t
+      - name: port1.7
+        type: 1000base-t
+      - name: port1.8
+        type: 1000base-t
+      - name: port1.9
+        type: 1000base-t
+      - name: port1.10
+        type: 1000base-t
+      - name: port1.11
+        type: 1000base-t
+      - name: port1.12
+        type: 1000base-t
+      - name: port1.13
+        type: 1000base-t
+      - name: port1.14
+        type: 1000base-t
+      - name: port1.15
+        type: 1000base-t
+      - name: port1.16
+        type: 1000base-t
+      - name: port1.17
+        type: 1000base-t
+      - name: port1.18
+        type: 1000base-t
+      - name: port1.19
+        type: 1000base-t
+      - name: port1.20
+        type: 1000base-t
+      - name: port1.21
+        type: 1000base-t
+      - name: port1.22
+        type: 1000base-t
+      - name: port1.23
+        type: 1000base-t
+      - name: port1.24
+        type: 1000base-t
+      - name: port1.25
+        type: 1000base-t
+      - name: port1.26
+        type: 1000base-t
+      - name: port1.27
+        type: 1000base-t
+      - name: port1.28
+        type: 1000base-t
+      - name: port1.29
+        type: 1000base-t
+      - name: port1.30
+        type: 1000base-t
+      - name: port1.31
+        type: 1000base-t
+      - name: port1.32
+        type: 1000base-t
+      - name: port1.33
+        type: 1000base-t
+      - name: port1.34
+        type: 1000base-t
+      - name: port1.35
+        type: 1000base-t
+      - name: port1.36
+        type: 1000base-t
+      - name: port1.37
+        type: 1000base-t
+      - name: port1.38
+        type: 1000base-t
+      - name: port1.39
+        type: 1000base-t
+      - name: port1.40
+        type: 1000base-t
+      - name: port1.41
+        type: 1000base-t
+      - name: port1.42
+        type: 1000base-t
+      - name: port1.43
+        type: 1000base-t
+      - name: port1.44
+        type: 1000base-t
+      - name: port1.45
+        type: 1000base-t
+      - name: port1.46
+        type: 1000base-t
+      - name: port1.47
+        type: 1000base-t
+      - name: port1.48
+        type: 1000base-t
+      - name: port1.49
+        type: 1000base-x-sfp
+      - name: port1.50
+        type: 1000base-x-sfp
+      - name: port1.51
+        type: 1000base-x-sfp
+      - name: port1.52
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX3200-52GT
+    power-ports:
+      - maximum_draw: 48
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx3200-52gt
+    u_height: 1
+  - comments: '"Smart" Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2210-16g/index
+      https://network.yamaha.com/products/switches/swx2210-16g/index
 
-    '
-  interfaces:
-  - name: port1.1
-    type: 1000base-t
-  - name: port1.2
-    type: 1000base-t
-  - name: port1.3
-    type: 1000base-t
-  - name: port1.4
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  - name: port1.6
-    type: 1000base-t
-  - name: port1.7
-    type: 1000base-t
-  - name: port1.8
-    type: 1000base-t
-  - name: port1.9
-    type: 1000base-t
-  - name: port1.10
-    type: 1000base-t
-  - name: port1.11
-    type: 1000base-t
-  - name: port1.12
-    type: 1000base-t
-  - name: port1.13
-    type: 1000base-t
-  - name: port1.14
-    type: 1000base-t
-  - name: port1.15
-    type: 1000base-t
-  - name: port1.16
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2210-16G
-  power-ports:
-  - maximum_draw: 13
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2210-16g
-  u_height: 1
-- comments: '"Intelligent" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
+'
+    interfaces:
+      - name: port1.1
+        type: 1000base-t
+      - name: port1.2
+        type: 1000base-t
+      - name: port1.3
+        type: 1000base-t
+      - name: port1.4
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+      - name: port1.6
+        type: 1000base-t
+      - name: port1.7
+        type: 1000base-t
+      - name: port1.8
+        type: 1000base-t
+      - name: port1.9
+        type: 1000base-t
+      - name: port1.10
+        type: 1000base-t
+      - name: port1.11
+        type: 1000base-t
+      - name: port1.12
+        type: 1000base-t
+      - name: port1.13
+        type: 1000base-t
+      - name: port1.14
+        type: 1000base-t
+      - name: port1.15
+        type: 1000base-t
+      - name: port1.16
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2210-16G
+    power-ports:
+      - maximum_draw: 13
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2210-16g
+    u_height: 1
+  - comments: '"Intelligent" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2310p-10g/index
+      https://network.yamaha.com/products/switches/swx2310p-10g/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.9
-    type: 1000base-t
-  - name: port1.10
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2310P-10G
-  power-ports:
-  - maximum_draw: 162
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2310p-10g
-  u_height: 1
-- comments: '"Smart" Layer 2 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.9
+        type: 1000base-t
+      - name: port1.10
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2310P-10G
+    power-ports:
+      - maximum_draw: 162
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2310p-10g
+    u_height: 1
+  - comments: '"Smart" Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2210-24g/index
+      https://network.yamaha.com/products/switches/swx2210-24g/index
 
-    '
-  interfaces:
-  - name: port1.1
-    type: 1000base-t
-  - name: port1.2
-    type: 1000base-t
-  - name: port1.3
-    type: 1000base-t
-  - name: port1.4
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  - name: port1.6
-    type: 1000base-t
-  - name: port1.7
-    type: 1000base-t
-  - name: port1.8
-    type: 1000base-t
-  - name: port1.9
-    type: 1000base-t
-  - name: port1.10
-    type: 1000base-t
-  - name: port1.11
-    type: 1000base-t
-  - name: port1.12
-    type: 1000base-t
-  - name: port1.13
-    type: 1000base-t
-  - name: port1.14
-    type: 1000base-t
-  - name: port1.15
-    type: 1000base-t
-  - name: port1.16
-    type: 1000base-t
-  - name: port1.17
-    type: 1000base-t
-  - name: port1.18
-    type: 1000base-t
-  - name: port1.19
-    type: 1000base-t
-  - name: port1.20
-    type: 1000base-t
-  - name: port1.21
-    type: 1000base-t
-  - name: port1.22
-    type: 1000base-t
-  - name: port1.23
-    type: 1000base-t
-  - name: port1.24
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2210-24G
-  power-ports:
-  - maximum_draw: 17
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2210-24g
-  u_height: 1
-- comments: '"Smart" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
+'
+    interfaces:
+      - name: port1.1
+        type: 1000base-t
+      - name: port1.2
+        type: 1000base-t
+      - name: port1.3
+        type: 1000base-t
+      - name: port1.4
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+      - name: port1.6
+        type: 1000base-t
+      - name: port1.7
+        type: 1000base-t
+      - name: port1.8
+        type: 1000base-t
+      - name: port1.9
+        type: 1000base-t
+      - name: port1.10
+        type: 1000base-t
+      - name: port1.11
+        type: 1000base-t
+      - name: port1.12
+        type: 1000base-t
+      - name: port1.13
+        type: 1000base-t
+      - name: port1.14
+        type: 1000base-t
+      - name: port1.15
+        type: 1000base-t
+      - name: port1.16
+        type: 1000base-t
+      - name: port1.17
+        type: 1000base-t
+      - name: port1.18
+        type: 1000base-t
+      - name: port1.19
+        type: 1000base-t
+      - name: port1.20
+        type: 1000base-t
+      - name: port1.21
+        type: 1000base-t
+      - name: port1.22
+        type: 1000base-t
+      - name: port1.23
+        type: 1000base-t
+      - name: port1.24
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2210-24G
+    power-ports:
+      - maximum_draw: 17
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2210-24g
+    u_height: 1
+  - comments: '"Smart" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2210p-28g/index
+      https://network.yamaha.com/products/switches/swx2210p-28g/index
 
-    '
-  interfaces:
-  - name: port1.1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.9
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.10
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.11
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.12
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.13
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.14
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.15
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.16
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.17
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.18
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.19
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.20
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.21
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.22
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.23
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.24
-    type: 1000base-t
-  - name: port1.25
-    type: 1000base-t
-  - name: port1.26
-    type: 1000base-t
-  - name: port1.27
-    type: 1000base-t
-  - name: port1.28
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2210P-28G
-  power-ports:
-  - maximum_draw: 508
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2210p-28g
-  u_height: 1
-- comments: '"Simple" Layer 2 Switch, manufactured by YAMAHA.
+'
+    interfaces:
+      - name: port1.1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.17
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.18
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.19
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.20
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.21
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.22
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.23
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.24
+        type: 1000base-t
+      - name: port1.25
+        type: 1000base-t
+      - name: port1.26
+        type: 1000base-t
+      - name: port1.27
+        type: 1000base-t
+      - name: port1.28
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2210P-28G
+    power-ports:
+      - maximum_draw: 508
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2210p-28g
+    u_height: 1
+  - comments: '"Simple" Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2110-5g/index
+      https://network.yamaha.com/products/switches/swx2110-5g/index
 
-    '
-  interfaces:
-  - name: port1.1
-    type: 1000base-t
-  - name: port1.2
-    type: 1000base-t
-  - name: port1.3
-    type: 1000base-t
-  - name: port1.4
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2110-5G
-  power-ports:
-  - maximum_draw: 3
-    name: PSU1
-    type: dc-terminal
-  slug: yamaha-swx2110-5g
-  u_height: 1
-- comments: '"Intelligent" Layer 2 Switch, manufactured by YAMAHA.
+'
+    interfaces:
+      - name: port1.1
+        type: 1000base-t
+      - name: port1.2
+        type: 1000base-t
+      - name: port1.3
+        type: 1000base-t
+      - name: port1.4
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2110-5G
+    power-ports:
+      - maximum_draw: 3
+        name: PSU1
+        type: dc-terminal
+    slug: yamaha-swx2110-5g
+    u_height: 1
+  - comments: '"Intelligent" Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2310-18gt/index
+      https://network.yamaha.com/products/switches/swx2310-18gt/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    type: 1000base-t
-  - name: port1.2
-    type: 1000base-t
-  - name: port1.3
-    type: 1000base-t
-  - name: port1.4
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  - name: port1.6
-    type: 1000base-t
-  - name: port1.7
-    type: 1000base-t
-  - name: port1.8
-    type: 1000base-t
-  - name: port1.9
-    type: 1000base-t
-  - name: port1.10
-    type: 1000base-t
-  - name: port1.11
-    type: 1000base-t
-  - name: port1.12
-    type: 1000base-t
-  - name: port1.13
-    type: 1000base-t
-  - name: port1.14
-    type: 1000base-t
-  - name: port1.15
-    type: 1000base-t
-  - name: port1.16
-    type: 1000base-t
-  - name: port1.17
-    type: 1000base-x-sfp
-  - name: port1.18
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2310-18GT
-  power-ports:
-  - maximum_draw: 19
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2310-18gt
-  u_height: 1
-- comments: '"Simple" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        type: 1000base-t
+      - name: port1.2
+        type: 1000base-t
+      - name: port1.3
+        type: 1000base-t
+      - name: port1.4
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+      - name: port1.6
+        type: 1000base-t
+      - name: port1.7
+        type: 1000base-t
+      - name: port1.8
+        type: 1000base-t
+      - name: port1.9
+        type: 1000base-t
+      - name: port1.10
+        type: 1000base-t
+      - name: port1.11
+        type: 1000base-t
+      - name: port1.12
+        type: 1000base-t
+      - name: port1.13
+        type: 1000base-t
+      - name: port1.14
+        type: 1000base-t
+      - name: port1.15
+        type: 1000base-t
+      - name: port1.16
+        type: 1000base-t
+      - name: port1.17
+        type: 1000base-x-sfp
+      - name: port1.18
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2310-18GT
+    power-ports:
+      - maximum_draw: 19
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2310-18gt
+    u_height: 1
+  - comments: '"Simple" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2110p-10g/index
+      https://network.yamaha.com/products/switches/swx2110p-10g/index
 
-    '
-  interfaces:
-  - name: port1.1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  - name: port1.6
-    type: 1000base-t
-  - name: port1.7
-    type: 1000base-t
-  - name: port1.8
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2110P-8G
-  power-ports:
-  - maximum_draw: 84
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2110p-8g
-  u_height: 1
-- comments: '10G/mGig-Compatible "Intelligent" Layer 2 Switch, manufactured by YAMAHA.
+'
+    interfaces:
+      - name: port1.1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+      - name: port1.6
+        type: 1000base-t
+      - name: port1.7
+        type: 1000base-t
+      - name: port1.8
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2110P-8G
+    power-ports:
+      - maximum_draw: 84
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2110p-8g
+    u_height: 1
+  - comments: '10G/mGig-Compatible "Intelligent" Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2320-16mt/index
+      https://network.yamaha.com/products/switches/swx2320-16mt/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    type: 10gbase-t
-  - name: port1.2
-    type: 10gbase-t
-  - name: port1.3
-    type: 10gbase-t
-  - name: port1.4
-    type: 10gbase-t
-  - name: port1.5
-    type: 10gbase-t
-  - name: port1.6
-    type: 10gbase-t
-  - name: port1.7
-    type: 10gbase-t
-  - name: port1.8
-    type: 10gbase-t
-  - name: port1.9
-    type: 10gbase-t
-  - name: port1.10
-    type: 10gbase-t
-  - name: port1.11
-    type: 10gbase-t
-  - name: port1.12
-    type: 10gbase-t
-  - name: port1.13
-    type: 10gbase-x-sfpp
-  - name: port1.14
-    type: 10gbase-x-sfpp
-  - name: port1.15
-    type: 10gbase-x-sfpp
-  - name: port1.16
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2320-16MT
-  power-ports:
-  - maximum_draw: 84
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2320-16mt
-  u_height: 1
-- comments: '"Intelligent" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        type: 10gbase-t
+      - name: port1.2
+        type: 10gbase-t
+      - name: port1.3
+        type: 10gbase-t
+      - name: port1.4
+        type: 10gbase-t
+      - name: port1.5
+        type: 10gbase-t
+      - name: port1.6
+        type: 10gbase-t
+      - name: port1.7
+        type: 10gbase-t
+      - name: port1.8
+        type: 10gbase-t
+      - name: port1.9
+        type: 10gbase-t
+      - name: port1.10
+        type: 10gbase-t
+      - name: port1.11
+        type: 10gbase-t
+      - name: port1.12
+        type: 10gbase-t
+      - name: port1.13
+        type: 10gbase-x-sfpp
+      - name: port1.14
+        type: 10gbase-x-sfpp
+      - name: port1.15
+        type: 10gbase-x-sfpp
+      - name: port1.16
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2320-16MT
+    power-ports:
+      - maximum_draw: 84
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2320-16mt
+    u_height: 1
+  - comments: '"Intelligent" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2310p-28gt/index
+      https://network.yamaha.com/products/switches/swx2310p-28gt/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.9
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.10
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.11
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.12
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.13
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.14
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.15
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.16
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.17
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.18
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.19
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.20
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.21
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.22
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.23
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.24
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.25
-    type: 1000base-x-sfp
-  - name: port1.26
-    type: 1000base-x-sfp
-  - name: port1.27
-    type: 1000base-x-sfp
-  - name: port1.28
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2310P-28GT
-  power-ports:
-  - maximum_draw: 459
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2310p-28gt
-  u_height: 1
-- comments: '"Intelligent" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.17
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.18
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.19
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.20
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.21
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.22
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.23
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.24
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.25
+        type: 1000base-x-sfp
+      - name: port1.26
+        type: 1000base-x-sfp
+      - name: port1.27
+        type: 1000base-x-sfp
+      - name: port1.28
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2310P-28GT
+    power-ports:
+      - maximum_draw: 459
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2310p-28gt
+    u_height: 1
+  - comments: '"Intelligent" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2310p-18g/index
+      https://network.yamaha.com/products/switches/swx2310p-18g/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.9
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.10
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.11
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.12
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.13
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.14
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.15
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.16
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.17
-    type: 1000base-t
-  - name: port1.18
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2310P-18G
-  power-ports:
-  - maximum_draw: 306
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2310p-18g
-  u_height: 1
-- comments: '"Intelligent" Layer 2 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.17
+        type: 1000base-t
+      - name: port1.18
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2310P-18G
+    power-ports:
+      - maximum_draw: 306
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2310p-18g
+    u_height: 1
+  - comments: '"Intelligent" Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2310-10g/index
+      https://network.yamaha.com/products/switches/swx2310-10g/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    type: 1000base-t
-  - name: port1.2
-    type: 1000base-t
-  - name: port1.3
-    type: 1000base-t
-  - name: port1.4
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  - name: port1.6
-    type: 1000base-t
-  - name: port1.7
-    type: 1000base-t
-  - name: port1.8
-    type: 1000base-t
-  - name: port1.9
-    type: 1000base-x-sfp
-  - name: port1.10
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2310-10G
-  power-ports:
-  - maximum_draw: 12
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2310-10g
-  u_height: 1
-- comments: '"Lightweight" Layer 3 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        type: 1000base-t
+      - name: port1.2
+        type: 1000base-t
+      - name: port1.3
+        type: 1000base-t
+      - name: port1.4
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+      - name: port1.6
+        type: 1000base-t
+      - name: port1.7
+        type: 1000base-t
+      - name: port1.8
+        type: 1000base-t
+      - name: port1.9
+        type: 1000base-x-sfp
+      - name: port1.10
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2310-10G
+    power-ports:
+      - maximum_draw: 12
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2310-10g
+    u_height: 1
+  - comments: '"Lightweight" Layer 3 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx3100-18gt/index
+      https://network.yamaha.com/products/switches/swx3100-18gt/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    type: 1000base-t
-  - name: port1.2
-    type: 1000base-t
-  - name: port1.3
-    type: 1000base-t
-  - name: port1.4
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  - name: port1.6
-    type: 1000base-t
-  - name: port1.7
-    type: 1000base-t
-  - name: port1.8
-    type: 1000base-t
-  - name: port1.9
-    type: 1000base-t
-  - name: port1.10
-    type: 1000base-t
-  - name: port1.11
-    type: 1000base-t
-  - name: port1.12
-    type: 1000base-t
-  - name: port1.13
-    type: 1000base-t
-  - name: port1.14
-    type: 1000base-t
-  - name: port1.15
-    type: 1000base-t
-  - name: port1.16
-    type: 1000base-t
-  - name: port1.17
-    type: 1000base-x-sfp
-  - name: port1.18
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX3100-18GT
-  power-ports:
-  - maximum_draw: 19
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx3100-18gt
-  u_height: 1
-- comments: '2.5G/10G and PoE-compatible "Smart" Layer 2 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        type: 1000base-t
+      - name: port1.2
+        type: 1000base-t
+      - name: port1.3
+        type: 1000base-t
+      - name: port1.4
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+      - name: port1.6
+        type: 1000base-t
+      - name: port1.7
+        type: 1000base-t
+      - name: port1.8
+        type: 1000base-t
+      - name: port1.9
+        type: 1000base-t
+      - name: port1.10
+        type: 1000base-t
+      - name: port1.11
+        type: 1000base-t
+      - name: port1.12
+        type: 1000base-t
+      - name: port1.13
+        type: 1000base-t
+      - name: port1.14
+        type: 1000base-t
+      - name: port1.15
+        type: 1000base-t
+      - name: port1.16
+        type: 1000base-t
+      - name: port1.17
+        type: 1000base-x-sfp
+      - name: port1.18
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX3100-18GT
+    power-ports:
+      - maximum_draw: 19
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx3100-18gt
+    u_height: 1
+  - comments: '2.5G/10G and PoE-compatible "Smart" Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2221p-10nt/index
+      https://network.yamaha.com/products/switches/swx2221p-10nt/index
 
-    '
-  interfaces:
-  - name: port1.1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 2.5gbase-t
-  - name: port1.2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 2.5gbase-t
-  - name: port1.3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 2.5gbase-t
-  - name: port1.4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 2.5gbase-t
-  - name: port1.5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 2.5gbase-t
-  - name: port1.6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 2.5gbase-t
-  - name: port1.7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 2.5gbase-t
-  - name: port1.8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 2.5gbase-t
-  - name: port1.9
-    type: 10gbase-t
-  - name: port1.10
-    type: 10gbase-t
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2221P-10NT
-  power-ports:
-  - maximum_draw: 304
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2221p-10nt
-  u_height: 1
-- comments: '10G/mGig-Compatible "Standard" Layer 3 Switch, manufactured by YAMAHA.
+'
+    interfaces:
+      - name: port1.1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: port1.2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: port1.3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: port1.4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: port1.5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: port1.6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: port1.7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: port1.8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: port1.9
+        type: 10gbase-t
+      - name: port1.10
+        type: 10gbase-t
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2221P-10NT
+    power-ports:
+      - maximum_draw: 304
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2221p-10nt
+    u_height: 1
+  - comments: '10G/mGig-Compatible "Standard" Layer 3 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx3220-16tms/index
+      https://network.yamaha.com/products/switches/swx3220-16tms/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    type: 10gbase-t
-  - name: port1.2
-    type: 10gbase-t
-  - name: port1.3
-    type: 10gbase-t
-  - name: port1.4
-    type: 10gbase-t
-  - name: port1.5
-    type: 10gbase-x-sfpp
-  - name: port1.6
-    type: 10gbase-x-sfpp
-  - name: port1.7
-    type: 10gbase-x-sfpp
-  - name: port1.8
-    type: 10gbase-x-sfpp
-  - name: port1.9
-    type: 10gbase-x-sfpp
-  - name: port1.10
-    type: 10gbase-x-sfpp
-  - name: port1.11
-    type: 10gbase-x-sfpp
-  - name: port1.12
-    type: 10gbase-x-sfpp
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX3220-16TMs
-  power-ports:
-  - maximum_draw: 61
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx3220-16tms
-  u_height: 1
-- comments: '"Intelligent" Layer 2 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        type: 10gbase-t
+      - name: port1.2
+        type: 10gbase-t
+      - name: port1.3
+        type: 10gbase-t
+      - name: port1.4
+        type: 10gbase-t
+      - name: port1.5
+        type: 10gbase-x-sfpp
+      - name: port1.6
+        type: 10gbase-x-sfpp
+      - name: port1.7
+        type: 10gbase-x-sfpp
+      - name: port1.8
+        type: 10gbase-x-sfpp
+      - name: port1.9
+        type: 10gbase-x-sfpp
+      - name: port1.10
+        type: 10gbase-x-sfpp
+      - name: port1.11
+        type: 10gbase-x-sfpp
+      - name: port1.12
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX3220-16TMs
+    power-ports:
+      - maximum_draw: 61
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx3220-16tms
+    u_height: 1
+  - comments: '"Intelligent" Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2310-28gt/index
+      https://network.yamaha.com/products/switches/swx2310-28gt/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    type: 1000base-t
-  - name: port1.2
-    type: 1000base-t
-  - name: port1.3
-    type: 1000base-t
-  - name: port1.4
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  - name: port1.6
-    type: 1000base-t
-  - name: port1.7
-    type: 1000base-t
-  - name: port1.8
-    type: 1000base-t
-  - name: port1.9
-    type: 1000base-t
-  - name: port1.10
-    type: 1000base-t
-  - name: port1.11
-    type: 1000base-t
-  - name: port1.12
-    type: 1000base-t
-  - name: port1.13
-    type: 1000base-t
-  - name: port1.14
-    type: 1000base-t
-  - name: port1.15
-    type: 1000base-t
-  - name: port1.16
-    type: 1000base-t
-  - name: port1.17
-    type: 1000base-t
-  - name: port1.18
-    type: 1000base-t
-  - name: port1.19
-    type: 1000base-t
-  - name: port1.20
-    type: 1000base-t
-  - name: port1.21
-    type: 1000base-t
-  - name: port1.22
-    type: 1000base-t
-  - name: port1.23
-    type: 1000base-t
-  - name: port1.24
-    type: 1000base-t
-  - name: port1.25
-    type: 1000base-x-sfp
-  - name: port1.26
-    type: 1000base-x-sfp
-  - name: port1.27
-    type: 1000base-x-sfp
-  - name: port1.28
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2310-28GT
-  power-ports:
-  - maximum_draw: 26
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2310-28gt
-  u_height: 1
-- comments: '"Simple" Layer 2 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        type: 1000base-t
+      - name: port1.2
+        type: 1000base-t
+      - name: port1.3
+        type: 1000base-t
+      - name: port1.4
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+      - name: port1.6
+        type: 1000base-t
+      - name: port1.7
+        type: 1000base-t
+      - name: port1.8
+        type: 1000base-t
+      - name: port1.9
+        type: 1000base-t
+      - name: port1.10
+        type: 1000base-t
+      - name: port1.11
+        type: 1000base-t
+      - name: port1.12
+        type: 1000base-t
+      - name: port1.13
+        type: 1000base-t
+      - name: port1.14
+        type: 1000base-t
+      - name: port1.15
+        type: 1000base-t
+      - name: port1.16
+        type: 1000base-t
+      - name: port1.17
+        type: 1000base-t
+      - name: port1.18
+        type: 1000base-t
+      - name: port1.19
+        type: 1000base-t
+      - name: port1.20
+        type: 1000base-t
+      - name: port1.21
+        type: 1000base-t
+      - name: port1.22
+        type: 1000base-t
+      - name: port1.23
+        type: 1000base-t
+      - name: port1.24
+        type: 1000base-t
+      - name: port1.25
+        type: 1000base-x-sfp
+      - name: port1.26
+        type: 1000base-x-sfp
+      - name: port1.27
+        type: 1000base-x-sfp
+      - name: port1.28
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2310-28GT
+    power-ports:
+      - maximum_draw: 26
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2310-28gt
+    u_height: 1
+  - comments: '"Simple" Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2110-8g/index
+      https://network.yamaha.com/products/switches/swx2110-8g/index
 
-    '
-  interfaces:
-  - name: port1.1
-    type: 1000base-t
-  - name: port1.2
-    type: 1000base-t
-  - name: port1.3
-    type: 1000base-t
-  - name: port1.4
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  - name: port1.6
-    type: 1000base-t
-  - name: port1.7
-    type: 1000base-t
-  - name: port1.8
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2110-16G
-  power-ports:
-  - maximum_draw: 10
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2110-16g
-  u_height: 1
-- comments: '"Smart" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
+'
+    interfaces:
+      - name: port1.1
+        type: 1000base-t
+      - name: port1.2
+        type: 1000base-t
+      - name: port1.3
+        type: 1000base-t
+      - name: port1.4
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+      - name: port1.6
+        type: 1000base-t
+      - name: port1.7
+        type: 1000base-t
+      - name: port1.8
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2110-16G
+    power-ports:
+      - maximum_draw: 10
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2110-16g
+    u_height: 1
+  - comments: '"Smart" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2210p-10g/index
+      https://network.yamaha.com/products/switches/swx2210p-10g/index
 
-    '
-  interfaces:
-  - name: port1.1
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.2
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.3
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.4
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.5
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.6
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.7
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.8
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    type: 1000base-t
-  - name: port1.9
-    type: 1000base-t
-  - name: port1.10
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2210P-10G
-  power-ports:
-  - maximum_draw: 169
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2210p-10g
-  u_height: 1
-- comments: '"Standard" Layer 3 Switch, manufactured by YAMAHA.
+'
+    interfaces:
+      - name: port1.1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port1.9
+        type: 1000base-t
+      - name: port1.10
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2210P-10G
+    power-ports:
+      - maximum_draw: 169
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2210p-10g
+    u_height: 1
+  - comments: '"Standard" Layer 3 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx3200-28gt/index
+      https://network.yamaha.com/products/switches/swx3200-28gt/index
 
-    '
-  console-ports:
-  - name: RJ-45 console port
-    type: rj-45
-  - name: USB console port
-    type: usb-mini-b
-  interfaces:
-  - name: port1.1
-    type: 1000base-t
-  - name: port1.2
-    type: 1000base-t
-  - name: port1.3
-    type: 1000base-t
-  - name: port1.4
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  - name: port1.6
-    type: 1000base-t
-  - name: port1.7
-    type: 1000base-t
-  - name: port1.8
-    type: 1000base-t
-  - name: port1.9
-    type: 1000base-t
-  - name: port1.10
-    type: 1000base-t
-  - name: port1.11
-    type: 1000base-t
-  - name: port1.12
-    type: 1000base-t
-  - name: port1.13
-    type: 1000base-t
-  - name: port1.14
-    type: 1000base-t
-  - name: port1.15
-    type: 1000base-t
-  - name: port1.16
-    type: 1000base-t
-  - name: port1.17
-    type: 1000base-t
-  - name: port1.18
-    type: 1000base-t
-  - name: port1.19
-    type: 1000base-t
-  - name: port1.20
-    type: 1000base-t
-  - name: port1.21
-    type: 1000base-t
-  - name: port1.22
-    type: 1000base-t
-  - name: port1.23
-    type: 1000base-t
-  - name: port1.24
-    type: 1000base-t
-  - name: port1.25
-    type: 1000base-x-sfp
-  - name: port1.26
-    type: 1000base-x-sfp
-  - name: port1.27
-    type: 1000base-x-sfp
-  - name: port1.28
-    type: 1000base-x-sfp
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX3200-28GT
-  power-ports:
-  - maximum_draw: 27
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx3200-28gt
-  u_height: 1
-- comments: '"Smart" Layer 2 Switch, manufactured by YAMAHA.
+'
+    console-ports:
+      - name: RJ-45 console port
+        type: rj-45
+      - name: USB console port
+        type: usb-mini-b
+    interfaces:
+      - name: port1.1
+        type: 1000base-t
+      - name: port1.2
+        type: 1000base-t
+      - name: port1.3
+        type: 1000base-t
+      - name: port1.4
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+      - name: port1.6
+        type: 1000base-t
+      - name: port1.7
+        type: 1000base-t
+      - name: port1.8
+        type: 1000base-t
+      - name: port1.9
+        type: 1000base-t
+      - name: port1.10
+        type: 1000base-t
+      - name: port1.11
+        type: 1000base-t
+      - name: port1.12
+        type: 1000base-t
+      - name: port1.13
+        type: 1000base-t
+      - name: port1.14
+        type: 1000base-t
+      - name: port1.15
+        type: 1000base-t
+      - name: port1.16
+        type: 1000base-t
+      - name: port1.17
+        type: 1000base-t
+      - name: port1.18
+        type: 1000base-t
+      - name: port1.19
+        type: 1000base-t
+      - name: port1.20
+        type: 1000base-t
+      - name: port1.21
+        type: 1000base-t
+      - name: port1.22
+        type: 1000base-t
+      - name: port1.23
+        type: 1000base-t
+      - name: port1.24
+        type: 1000base-t
+      - name: port1.25
+        type: 1000base-x-sfp
+      - name: port1.26
+        type: 1000base-x-sfp
+      - name: port1.27
+        type: 1000base-x-sfp
+      - name: port1.28
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX3200-28GT
+    power-ports:
+      - maximum_draw: 27
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx3200-28gt
+    u_height: 1
+  - comments: '"Smart" Layer 2 Switch, manufactured by YAMAHA.
 
-    https://network.yamaha.com/products/switches/swx2210-8g/index
+      https://network.yamaha.com/products/switches/swx2210-8g/index
 
-    '
-  interfaces:
-  - name: port1.1
-    type: 1000base-t
-  - name: port1.2
-    type: 1000base-t
-  - name: port1.3
-    type: 1000base-t
-  - name: port1.4
-    type: 1000base-t
-  - name: port1.5
-    type: 1000base-t
-  - name: port1.6
-    type: 1000base-t
-  - name: port1.7
-    type: 1000base-t
-  - name: port1.8
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: YAMAHA
-  model: SWX2210-8G
-  power-ports:
-  - maximum_draw: 7
-    name: PSU
-    type: iec-60320-c14
-  slug: yamaha-swx2210-8g
-  u_height: 1
+'
+    interfaces:
+      - name: port1.1
+        type: 1000base-t
+      - name: port1.2
+        type: 1000base-t
+      - name: port1.3
+        type: 1000base-t
+      - name: port1.4
+        type: 1000base-t
+      - name: port1.5
+        type: 1000base-t
+      - name: port1.6
+        type: 1000base-t
+      - name: port1.7
+        type: 1000base-t
+      - name: port1.8
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: YAMAHA
+    model: SWX2210-8G
+    power-ports:
+      - maximum_draw: 7
+        name: PSU
+        type: iec-60320-c14
+    slug: yamaha-swx2210-8g
+    u_height: 1

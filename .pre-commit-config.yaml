@@ -1,4 +1,3 @@
----
 # Manually run with:
 #   - source /opt/netbox/venv/bin/activate
 #   - pre-commit install
@@ -14,6 +13,17 @@ repos:
         exclude: \.raw|migrations|docker
       - id: check-yaml
       - id: check-added-large-files
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: v1.32.0
+    hooks:
+      - id: yamllint
+        args: [--format, parsable, --strict]
+        exclude: \.raw|migrations|docker
+  - repo: https://github.com/google/yamlfmt
+    rev: v0.9.0
+    hooks:
+      - id: yamlfmt
+        exclude: \.raw|migrations|docker
   - repo: https://github.com/psf/black
     rev: 23.3.0
     hooks:

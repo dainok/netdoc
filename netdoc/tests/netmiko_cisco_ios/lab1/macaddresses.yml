@@ -1,4 +1,3 @@
----
 - device: SW1
   interface: po1
   vlan: 1

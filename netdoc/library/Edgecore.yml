@@ -1,483 +1,483 @@
 keywords:
-- 7726-32X-O
-- FP3ZZ7632xxxx
-- 5912-54X-O-AC-F
-- 5912-54X-O-AC-F
-- 5912-54XM-O-AC-F
-- 5912-54XM-O-AC-F
-- 5812-54X-O-AC-B
-- 5812-54X-O-AC-B
+  - 7726-32X-O
+  - FP3ZZ7632xxxx
+  - 5912-54X-O-AC-F
+  - 5912-54X-O-AC-F
+  - 5912-54XM-O-AC-F
+  - 5912-54XM-O-AC-F
+  - 5812-54X-O-AC-B
+  - 5812-54X-O-AC-B
 models:
-- comments: https://www.edge-core.com/_upload/images/2021-151-DCS204_AS7726-32X-DS-R06-20211215.pdf
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  - mgmt_only: true
-    name: eth1
-    type: 10gbase-x-sfpp
-  - mgmt_only: true
-    name: eth2
-    type: 10gbase-x-sfpp
-  - name: Ethernet0
-    type: 100gbase-x-qsfp28
-  - name: Ethernet4
-    type: 100gbase-x-qsfp28
-  - name: Ethernet8
-    type: 100gbase-x-qsfp28
-  - name: Ethernet12
-    type: 100gbase-x-qsfp28
-  - name: Ethernet16
-    type: 100gbase-x-qsfp28
-  - name: Ethernet20
-    type: 100gbase-x-qsfp28
-  - name: Ethernet24
-    type: 100gbase-x-qsfp28
-  - name: Ethernet28
-    type: 100gbase-x-qsfp28
-  - name: Ethernet32
-    type: 100gbase-x-qsfp28
-  - name: Ethernet36
-    type: 100gbase-x-qsfp28
-  - name: Ethernet40
-    type: 100gbase-x-qsfp28
-  - name: Ethernet44
-    type: 100gbase-x-qsfp28
-  - name: Ethernet48
-    type: 100gbase-x-qsfp28
-  - name: Ethernet52
-    type: 100gbase-x-qsfp28
-  - name: Ethernet56
-    type: 100gbase-x-qsfp28
-  - name: Ethernet60
-    type: 100gbase-x-qsfp28
-  - name: Ethernet64
-    type: 100gbase-x-qsfp28
-  - name: Ethernet68
-    type: 100gbase-x-qsfp28
-  - name: Ethernet72
-    type: 100gbase-x-qsfp28
-  - name: Ethernet76
-    type: 100gbase-x-qsfp28
-  - name: Ethernet80
-    type: 100gbase-x-qsfp28
-  - name: Ethernet84
-    type: 100gbase-x-qsfp28
-  - name: Ethernet88
-    type: 100gbase-x-qsfp28
-  - name: Ethernet92
-    type: 100gbase-x-qsfp28
-  - name: Ethernet96
-    type: 100gbase-x-qsfp28
-  - name: Ethernet100
-    type: 100gbase-x-qsfp28
-  - name: Ethernet104
-    type: 100gbase-x-qsfp28
-  - name: Ethernet108
-    type: 100gbase-x-qsfp28
-  - name: Ethernet112
-    type: 100gbase-x-qsfp28
-  - name: Ethernet116
-    type: 100gbase-x-qsfp28
-  - name: Ethernet120
-    type: 100gbase-x-qsfp28
-  - name: Ethernet124
-    type: 100gbase-x-qsfp28
-  is_full_depth: true
-  manufacturer: Edgecore
-  model: 7726-32X-O
-  module-bays:
-  - name: PSU 1
-    position: '1'
-  - name: PSU 2
-    position: '2'
-  part_number: FP3ZZ7632xxxx
-  slug: edgecore-7726-32x-o
-  u_height: 1.0
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: xe1
-    type: 10gbase-x-sfpp
-  - name: xe2
-    type: 10gbase-x-sfpp
-  - name: xe3
-    type: 10gbase-x-sfpp
-  - name: xe4
-    type: 10gbase-x-sfpp
-  - name: xe5
-    type: 10gbase-x-sfpp
-  - name: xe6
-    type: 10gbase-x-sfpp
-  - name: xe7
-    type: 10gbase-x-sfpp
-  - name: xe8
-    type: 10gbase-x-sfpp
-  - name: xe9
-    type: 10gbase-x-sfpp
-  - name: xe10
-    type: 10gbase-x-sfpp
-  - name: xe11
-    type: 10gbase-x-sfpp
-  - name: xe12
-    type: 10gbase-x-sfpp
-  - name: xe13
-    type: 10gbase-x-sfpp
-  - name: xe14
-    type: 10gbase-x-sfpp
-  - name: xe15
-    type: 10gbase-x-sfpp
-  - name: xe16
-    type: 10gbase-x-sfpp
-  - name: xe17
-    type: 10gbase-x-sfpp
-  - name: xe18
-    type: 10gbase-x-sfpp
-  - name: xe19
-    type: 10gbase-x-sfpp
-  - name: xe20
-    type: 10gbase-x-sfpp
-  - name: xe21
-    type: 10gbase-x-sfpp
-  - name: xe22
-    type: 10gbase-x-sfpp
-  - name: xe23
-    type: 10gbase-x-sfpp
-  - name: xe24
-    type: 10gbase-x-sfpp
-  - name: xe25
-    type: 10gbase-x-sfpp
-  - name: xe26
-    type: 10gbase-x-sfpp
-  - name: xe27
-    type: 10gbase-x-sfpp
-  - name: xe28
-    type: 10gbase-x-sfpp
-  - name: xe29
-    type: 10gbase-x-sfpp
-  - name: xe30
-    type: 10gbase-x-sfpp
-  - name: xe31
-    type: 10gbase-x-sfpp
-  - name: xe32
-    type: 10gbase-x-sfpp
-  - name: xe33
-    type: 10gbase-x-sfpp
-  - name: xe34
-    type: 10gbase-x-sfpp
-  - name: xe35
-    type: 10gbase-x-sfpp
-  - name: xe36
-    type: 10gbase-x-sfpp
-  - name: xe37
-    type: 10gbase-x-sfpp
-  - name: xe38
-    type: 10gbase-x-sfpp
-  - name: xe39
-    type: 10gbase-x-sfpp
-  - name: xe40
-    type: 10gbase-x-sfpp
-  - name: xe41
-    type: 10gbase-x-sfpp
-  - name: xe42
-    type: 10gbase-x-sfpp
-  - name: xe43
-    type: 10gbase-x-sfpp
-  - name: xe44
-    type: 10gbase-x-sfpp
-  - name: xe45
-    type: 10gbase-x-sfpp
-  - name: xe46
-    type: 10gbase-x-sfpp
-  - name: xe47
-    type: 10gbase-x-sfpp
-  - name: xe48
-    type: 10gbase-x-sfpp
-  - name: ce49
-    type: 100gbase-x-qsfp28
-  - name: ce50
-    type: 100gbase-x-qsfp28
-  - name: ce51
-    type: 100gbase-x-qsfp28
-  - name: ce52
-    type: 100gbase-x-qsfp28
-  - name: ce53
-    type: 100gbase-x-qsfp28
-  - name: ce54
-    type: 100gbase-x-qsfp28
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Edgecore
-  model: 5912-54X-O-AC-F
-  part_number: 5912-54X-O-AC-F
-  power-ports:
-  - maximum_draw: 337
-    name: PS1
-    type: iec-60320-c14
-  - maximum_draw: 337
-    name: PS2
-    type: iec-60320-c14
-  slug: edgecore-5912-54x-o-ac-f
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: xe1
-    type: 10gbase-x-sfpp
-  - name: xe2
-    type: 10gbase-x-sfpp
-  - name: xe3
-    type: 10gbase-x-sfpp
-  - name: xe4
-    type: 10gbase-x-sfpp
-  - name: xe5
-    type: 10gbase-x-sfpp
-  - name: xe6
-    type: 10gbase-x-sfpp
-  - name: xe7
-    type: 10gbase-x-sfpp
-  - name: xe8
-    type: 10gbase-x-sfpp
-  - name: xe9
-    type: 10gbase-x-sfpp
-  - name: xe10
-    type: 10gbase-x-sfpp
-  - name: xe11
-    type: 10gbase-x-sfpp
-  - name: xe12
-    type: 10gbase-x-sfpp
-  - name: xe13
-    type: 10gbase-x-sfpp
-  - name: xe14
-    type: 10gbase-x-sfpp
-  - name: xe15
-    type: 10gbase-x-sfpp
-  - name: xe16
-    type: 10gbase-x-sfpp
-  - name: xe17
-    type: 10gbase-x-sfpp
-  - name: xe18
-    type: 10gbase-x-sfpp
-  - name: xe19
-    type: 10gbase-x-sfpp
-  - name: xe20
-    type: 10gbase-x-sfpp
-  - name: xe21
-    type: 10gbase-x-sfpp
-  - name: xe22
-    type: 10gbase-x-sfpp
-  - name: xe23
-    type: 10gbase-x-sfpp
-  - name: xe24
-    type: 10gbase-x-sfpp
-  - name: xe25
-    type: 10gbase-x-sfpp
-  - name: xe26
-    type: 10gbase-x-sfpp
-  - name: xe27
-    type: 10gbase-x-sfpp
-  - name: xe28
-    type: 10gbase-x-sfpp
-  - name: xe29
-    type: 10gbase-x-sfpp
-  - name: xe30
-    type: 10gbase-x-sfpp
-  - name: xe31
-    type: 10gbase-x-sfpp
-  - name: xe32
-    type: 10gbase-x-sfpp
-  - name: xe33
-    type: 10gbase-x-sfpp
-  - name: xe34
-    type: 10gbase-x-sfpp
-  - name: xe35
-    type: 10gbase-x-sfpp
-  - name: xe36
-    type: 10gbase-x-sfpp
-  - name: xe37
-    type: 10gbase-x-sfpp
-  - name: xe38
-    type: 10gbase-x-sfpp
-  - name: xe39
-    type: 10gbase-x-sfpp
-  - name: xe40
-    type: 10gbase-x-sfpp
-  - name: xe41
-    type: 10gbase-x-sfpp
-  - name: xe42
-    type: 10gbase-x-sfpp
-  - name: xe43
-    type: 10gbase-x-sfpp
-  - name: xe44
-    type: 10gbase-x-sfpp
-  - name: xe45
-    type: 10gbase-x-sfpp
-  - name: xe46
-    type: 10gbase-x-sfpp
-  - name: xe47
-    type: 10gbase-x-sfpp
-  - name: xe48
-    type: 10gbase-x-sfpp
-  - name: ce49
-    type: 100gbase-x-qsfp28
-  - name: ce50
-    type: 100gbase-x-qsfp28
-  - name: ce51
-    type: 100gbase-x-qsfp28
-  - name: ce52
-    type: 100gbase-x-qsfp28
-  - name: ce53
-    type: 100gbase-x-qsfp28
-  - name: ce54
-    type: 100gbase-x-qsfp28
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Edgecore
-  model: 5912-54XM-O-AC-F
-  part_number: 5912-54XM-O-AC-F
-  power-ports:
-  - maximum_draw: 750
-    name: PS1
-    type: iec-60320-c14
-  - maximum_draw: 750
-    name: PS2
-    type: iec-60320-c14
-  slug: edgecore-5912-54xm-o-ac-f
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: swp1
-    type: 10gbase-x-sfpp
-  - name: swp2
-    type: 10gbase-x-sfpp
-  - name: swp3
-    type: 10gbase-x-sfpp
-  - name: swp4
-    type: 10gbase-x-sfpp
-  - name: swp5
-    type: 10gbase-x-sfpp
-  - name: swp6
-    type: 10gbase-x-sfpp
-  - name: swp7
-    type: 10gbase-x-sfpp
-  - name: swp8
-    type: 10gbase-x-sfpp
-  - name: swp9
-    type: 10gbase-x-sfpp
-  - name: swp10
-    type: 10gbase-x-sfpp
-  - name: swp11
-    type: 10gbase-x-sfpp
-  - name: swp12
-    type: 10gbase-x-sfpp
-  - name: swp13
-    type: 10gbase-x-sfpp
-  - name: swp14
-    type: 10gbase-x-sfpp
-  - name: swp15
-    type: 10gbase-x-sfpp
-  - name: swp16
-    type: 10gbase-x-sfpp
-  - name: swp17
-    type: 10gbase-x-sfpp
-  - name: swp18
-    type: 10gbase-x-sfpp
-  - name: swp19
-    type: 10gbase-x-sfpp
-  - name: swp20
-    type: 10gbase-x-sfpp
-  - name: swp21
-    type: 10gbase-x-sfpp
-  - name: swp22
-    type: 10gbase-x-sfpp
-  - name: swp23
-    type: 10gbase-x-sfpp
-  - name: swp24
-    type: 10gbase-x-sfpp
-  - name: swp25
-    type: 10gbase-x-sfpp
-  - name: swp26
-    type: 10gbase-x-sfpp
-  - name: swp27
-    type: 10gbase-x-sfpp
-  - name: swp28
-    type: 10gbase-x-sfpp
-  - name: swp29
-    type: 10gbase-x-sfpp
-  - name: swp30
-    type: 10gbase-x-sfpp
-  - name: swp31
-    type: 10gbase-x-sfpp
-  - name: swp32
-    type: 10gbase-x-sfpp
-  - name: swp33
-    type: 10gbase-x-sfpp
-  - name: swp34
-    type: 10gbase-x-sfpp
-  - name: swp35
-    type: 10gbase-x-sfpp
-  - name: swp36
-    type: 10gbase-x-sfpp
-  - name: swp37
-    type: 10gbase-x-sfpp
-  - name: swp38
-    type: 10gbase-x-sfpp
-  - name: swp39
-    type: 10gbase-x-sfpp
-  - name: swp40
-    type: 10gbase-x-sfpp
-  - name: swp41
-    type: 10gbase-x-sfpp
-  - name: swp42
-    type: 10gbase-x-sfpp
-  - name: swp43
-    type: 10gbase-x-sfpp
-  - name: swp44
-    type: 10gbase-x-sfpp
-  - name: swp45
-    type: 10gbase-x-sfpp
-  - name: swp46
-    type: 10gbase-x-sfpp
-  - name: swp47
-    type: 10gbase-x-sfpp
-  - name: swp48
-    type: 10gbase-x-sfpp
-  - name: swp49
-    type: 40gbase-x-qsfpp
-  - name: swp50
-    type: 40gbase-x-qsfpp
-  - name: swp51
-    type: 40gbase-x-qsfpp
-  - name: swp52
-    type: 40gbase-x-qsfpp
-  - name: swp53
-    type: 40gbase-x-qsfpp
-  - name: swp54
-    type: 40gbase-x-qsfpp
-  - mgmt_only: true
-    name: eth0
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Edgecore
-  model: 5812-54X-O-AC-B
-  part_number: 5812-54X-O-AC-B
-  power-ports:
-  - maximum_draw: 750
-    name: PS1
-    type: iec-60320-c14
-  - maximum_draw: 750
-    name: PS2
-    type: iec-60320-c14
-  slug: edgecore-5812-54x-o-ac-b
-  u_height: 1
+  - comments: https://www.edge-core.com/_upload/images/2021-151-DCS204_AS7726-32X-DS-R06-20211215.pdf
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - mgmt_only: true
+        name: eth0
+        type: 1000base-t
+      - mgmt_only: true
+        name: eth1
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: eth2
+        type: 10gbase-x-sfpp
+      - name: Ethernet0
+        type: 100gbase-x-qsfp28
+      - name: Ethernet4
+        type: 100gbase-x-qsfp28
+      - name: Ethernet8
+        type: 100gbase-x-qsfp28
+      - name: Ethernet12
+        type: 100gbase-x-qsfp28
+      - name: Ethernet16
+        type: 100gbase-x-qsfp28
+      - name: Ethernet20
+        type: 100gbase-x-qsfp28
+      - name: Ethernet24
+        type: 100gbase-x-qsfp28
+      - name: Ethernet28
+        type: 100gbase-x-qsfp28
+      - name: Ethernet32
+        type: 100gbase-x-qsfp28
+      - name: Ethernet36
+        type: 100gbase-x-qsfp28
+      - name: Ethernet40
+        type: 100gbase-x-qsfp28
+      - name: Ethernet44
+        type: 100gbase-x-qsfp28
+      - name: Ethernet48
+        type: 100gbase-x-qsfp28
+      - name: Ethernet52
+        type: 100gbase-x-qsfp28
+      - name: Ethernet56
+        type: 100gbase-x-qsfp28
+      - name: Ethernet60
+        type: 100gbase-x-qsfp28
+      - name: Ethernet64
+        type: 100gbase-x-qsfp28
+      - name: Ethernet68
+        type: 100gbase-x-qsfp28
+      - name: Ethernet72
+        type: 100gbase-x-qsfp28
+      - name: Ethernet76
+        type: 100gbase-x-qsfp28
+      - name: Ethernet80
+        type: 100gbase-x-qsfp28
+      - name: Ethernet84
+        type: 100gbase-x-qsfp28
+      - name: Ethernet88
+        type: 100gbase-x-qsfp28
+      - name: Ethernet92
+        type: 100gbase-x-qsfp28
+      - name: Ethernet96
+        type: 100gbase-x-qsfp28
+      - name: Ethernet100
+        type: 100gbase-x-qsfp28
+      - name: Ethernet104
+        type: 100gbase-x-qsfp28
+      - name: Ethernet108
+        type: 100gbase-x-qsfp28
+      - name: Ethernet112
+        type: 100gbase-x-qsfp28
+      - name: Ethernet116
+        type: 100gbase-x-qsfp28
+      - name: Ethernet120
+        type: 100gbase-x-qsfp28
+      - name: Ethernet124
+        type: 100gbase-x-qsfp28
+    is_full_depth: true
+    manufacturer: Edgecore
+    model: 7726-32X-O
+    module-bays:
+      - name: PSU 1
+        position: '1'
+      - name: PSU 2
+        position: '2'
+    part_number: FP3ZZ7632xxxx
+    slug: edgecore-7726-32x-o
+    u_height: 1.0
+  - console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: xe1
+        type: 10gbase-x-sfpp
+      - name: xe2
+        type: 10gbase-x-sfpp
+      - name: xe3
+        type: 10gbase-x-sfpp
+      - name: xe4
+        type: 10gbase-x-sfpp
+      - name: xe5
+        type: 10gbase-x-sfpp
+      - name: xe6
+        type: 10gbase-x-sfpp
+      - name: xe7
+        type: 10gbase-x-sfpp
+      - name: xe8
+        type: 10gbase-x-sfpp
+      - name: xe9
+        type: 10gbase-x-sfpp
+      - name: xe10
+        type: 10gbase-x-sfpp
+      - name: xe11
+        type: 10gbase-x-sfpp
+      - name: xe12
+        type: 10gbase-x-sfpp
+      - name: xe13
+        type: 10gbase-x-sfpp
+      - name: xe14
+        type: 10gbase-x-sfpp
+      - name: xe15
+        type: 10gbase-x-sfpp
+      - name: xe16
+        type: 10gbase-x-sfpp
+      - name: xe17
+        type: 10gbase-x-sfpp
+      - name: xe18
+        type: 10gbase-x-sfpp
+      - name: xe19
+        type: 10gbase-x-sfpp
+      - name: xe20
+        type: 10gbase-x-sfpp
+      - name: xe21
+        type: 10gbase-x-sfpp
+      - name: xe22
+        type: 10gbase-x-sfpp
+      - name: xe23
+        type: 10gbase-x-sfpp
+      - name: xe24
+        type: 10gbase-x-sfpp
+      - name: xe25
+        type: 10gbase-x-sfpp
+      - name: xe26
+        type: 10gbase-x-sfpp
+      - name: xe27
+        type: 10gbase-x-sfpp
+      - name: xe28
+        type: 10gbase-x-sfpp
+      - name: xe29
+        type: 10gbase-x-sfpp
+      - name: xe30
+        type: 10gbase-x-sfpp
+      - name: xe31
+        type: 10gbase-x-sfpp
+      - name: xe32
+        type: 10gbase-x-sfpp
+      - name: xe33
+        type: 10gbase-x-sfpp
+      - name: xe34
+        type: 10gbase-x-sfpp
+      - name: xe35
+        type: 10gbase-x-sfpp
+      - name: xe36
+        type: 10gbase-x-sfpp
+      - name: xe37
+        type: 10gbase-x-sfpp
+      - name: xe38
+        type: 10gbase-x-sfpp
+      - name: xe39
+        type: 10gbase-x-sfpp
+      - name: xe40
+        type: 10gbase-x-sfpp
+      - name: xe41
+        type: 10gbase-x-sfpp
+      - name: xe42
+        type: 10gbase-x-sfpp
+      - name: xe43
+        type: 10gbase-x-sfpp
+      - name: xe44
+        type: 10gbase-x-sfpp
+      - name: xe45
+        type: 10gbase-x-sfpp
+      - name: xe46
+        type: 10gbase-x-sfpp
+      - name: xe47
+        type: 10gbase-x-sfpp
+      - name: xe48
+        type: 10gbase-x-sfpp
+      - name: ce49
+        type: 100gbase-x-qsfp28
+      - name: ce50
+        type: 100gbase-x-qsfp28
+      - name: ce51
+        type: 100gbase-x-qsfp28
+      - name: ce52
+        type: 100gbase-x-qsfp28
+      - name: ce53
+        type: 100gbase-x-qsfp28
+      - name: ce54
+        type: 100gbase-x-qsfp28
+      - mgmt_only: true
+        name: eth0
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Edgecore
+    model: 5912-54X-O-AC-F
+    part_number: 5912-54X-O-AC-F
+    power-ports:
+      - maximum_draw: 337
+        name: PS1
+        type: iec-60320-c14
+      - maximum_draw: 337
+        name: PS2
+        type: iec-60320-c14
+    slug: edgecore-5912-54x-o-ac-f
+    u_height: 1
+  - console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: xe1
+        type: 10gbase-x-sfpp
+      - name: xe2
+        type: 10gbase-x-sfpp
+      - name: xe3
+        type: 10gbase-x-sfpp
+      - name: xe4
+        type: 10gbase-x-sfpp
+      - name: xe5
+        type: 10gbase-x-sfpp
+      - name: xe6
+        type: 10gbase-x-sfpp
+      - name: xe7
+        type: 10gbase-x-sfpp
+      - name: xe8
+        type: 10gbase-x-sfpp
+      - name: xe9
+        type: 10gbase-x-sfpp
+      - name: xe10
+        type: 10gbase-x-sfpp
+      - name: xe11
+        type: 10gbase-x-sfpp
+      - name: xe12
+        type: 10gbase-x-sfpp
+      - name: xe13
+        type: 10gbase-x-sfpp
+      - name: xe14
+        type: 10gbase-x-sfpp
+      - name: xe15
+        type: 10gbase-x-sfpp
+      - name: xe16
+        type: 10gbase-x-sfpp
+      - name: xe17
+        type: 10gbase-x-sfpp
+      - name: xe18
+        type: 10gbase-x-sfpp
+      - name: xe19
+        type: 10gbase-x-sfpp
+      - name: xe20
+        type: 10gbase-x-sfpp
+      - name: xe21
+        type: 10gbase-x-sfpp
+      - name: xe22
+        type: 10gbase-x-sfpp
+      - name: xe23
+        type: 10gbase-x-sfpp
+      - name: xe24
+        type: 10gbase-x-sfpp
+      - name: xe25
+        type: 10gbase-x-sfpp
+      - name: xe26
+        type: 10gbase-x-sfpp
+      - name: xe27
+        type: 10gbase-x-sfpp
+      - name: xe28
+        type: 10gbase-x-sfpp
+      - name: xe29
+        type: 10gbase-x-sfpp
+      - name: xe30
+        type: 10gbase-x-sfpp
+      - name: xe31
+        type: 10gbase-x-sfpp
+      - name: xe32
+        type: 10gbase-x-sfpp
+      - name: xe33
+        type: 10gbase-x-sfpp
+      - name: xe34
+        type: 10gbase-x-sfpp
+      - name: xe35
+        type: 10gbase-x-sfpp
+      - name: xe36
+        type: 10gbase-x-sfpp
+      - name: xe37
+        type: 10gbase-x-sfpp
+      - name: xe38
+        type: 10gbase-x-sfpp
+      - name: xe39
+        type: 10gbase-x-sfpp
+      - name: xe40
+        type: 10gbase-x-sfpp
+      - name: xe41
+        type: 10gbase-x-sfpp
+      - name: xe42
+        type: 10gbase-x-sfpp
+      - name: xe43
+        type: 10gbase-x-sfpp
+      - name: xe44
+        type: 10gbase-x-sfpp
+      - name: xe45
+        type: 10gbase-x-sfpp
+      - name: xe46
+        type: 10gbase-x-sfpp
+      - name: xe47
+        type: 10gbase-x-sfpp
+      - name: xe48
+        type: 10gbase-x-sfpp
+      - name: ce49
+        type: 100gbase-x-qsfp28
+      - name: ce50
+        type: 100gbase-x-qsfp28
+      - name: ce51
+        type: 100gbase-x-qsfp28
+      - name: ce52
+        type: 100gbase-x-qsfp28
+      - name: ce53
+        type: 100gbase-x-qsfp28
+      - name: ce54
+        type: 100gbase-x-qsfp28
+      - mgmt_only: true
+        name: eth0
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Edgecore
+    model: 5912-54XM-O-AC-F
+    part_number: 5912-54XM-O-AC-F
+    power-ports:
+      - maximum_draw: 750
+        name: PS1
+        type: iec-60320-c14
+      - maximum_draw: 750
+        name: PS2
+        type: iec-60320-c14
+    slug: edgecore-5912-54xm-o-ac-f
+    u_height: 1
+  - console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: swp1
+        type: 10gbase-x-sfpp
+      - name: swp2
+        type: 10gbase-x-sfpp
+      - name: swp3
+        type: 10gbase-x-sfpp
+      - name: swp4
+        type: 10gbase-x-sfpp
+      - name: swp5
+        type: 10gbase-x-sfpp
+      - name: swp6
+        type: 10gbase-x-sfpp
+      - name: swp7
+        type: 10gbase-x-sfpp
+      - name: swp8
+        type: 10gbase-x-sfpp
+      - name: swp9
+        type: 10gbase-x-sfpp
+      - name: swp10
+        type: 10gbase-x-sfpp
+      - name: swp11
+        type: 10gbase-x-sfpp
+      - name: swp12
+        type: 10gbase-x-sfpp
+      - name: swp13
+        type: 10gbase-x-sfpp
+      - name: swp14
+        type: 10gbase-x-sfpp
+      - name: swp15
+        type: 10gbase-x-sfpp
+      - name: swp16
+        type: 10gbase-x-sfpp
+      - name: swp17
+        type: 10gbase-x-sfpp
+      - name: swp18
+        type: 10gbase-x-sfpp
+      - name: swp19
+        type: 10gbase-x-sfpp
+      - name: swp20
+        type: 10gbase-x-sfpp
+      - name: swp21
+        type: 10gbase-x-sfpp
+      - name: swp22
+        type: 10gbase-x-sfpp
+      - name: swp23
+        type: 10gbase-x-sfpp
+      - name: swp24
+        type: 10gbase-x-sfpp
+      - name: swp25
+        type: 10gbase-x-sfpp
+      - name: swp26
+        type: 10gbase-x-sfpp
+      - name: swp27
+        type: 10gbase-x-sfpp
+      - name: swp28
+        type: 10gbase-x-sfpp
+      - name: swp29
+        type: 10gbase-x-sfpp
+      - name: swp30
+        type: 10gbase-x-sfpp
+      - name: swp31
+        type: 10gbase-x-sfpp
+      - name: swp32
+        type: 10gbase-x-sfpp
+      - name: swp33
+        type: 10gbase-x-sfpp
+      - name: swp34
+        type: 10gbase-x-sfpp
+      - name: swp35
+        type: 10gbase-x-sfpp
+      - name: swp36
+        type: 10gbase-x-sfpp
+      - name: swp37
+        type: 10gbase-x-sfpp
+      - name: swp38
+        type: 10gbase-x-sfpp
+      - name: swp39
+        type: 10gbase-x-sfpp
+      - name: swp40
+        type: 10gbase-x-sfpp
+      - name: swp41
+        type: 10gbase-x-sfpp
+      - name: swp42
+        type: 10gbase-x-sfpp
+      - name: swp43
+        type: 10gbase-x-sfpp
+      - name: swp44
+        type: 10gbase-x-sfpp
+      - name: swp45
+        type: 10gbase-x-sfpp
+      - name: swp46
+        type: 10gbase-x-sfpp
+      - name: swp47
+        type: 10gbase-x-sfpp
+      - name: swp48
+        type: 10gbase-x-sfpp
+      - name: swp49
+        type: 40gbase-x-qsfpp
+      - name: swp50
+        type: 40gbase-x-qsfpp
+      - name: swp51
+        type: 40gbase-x-qsfpp
+      - name: swp52
+        type: 40gbase-x-qsfpp
+      - name: swp53
+        type: 40gbase-x-qsfpp
+      - name: swp54
+        type: 40gbase-x-qsfpp
+      - mgmt_only: true
+        name: eth0
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Edgecore
+    model: 5812-54X-O-AC-B
+    part_number: 5812-54X-O-AC-B
+    power-ports:
+      - maximum_draw: 750
+        name: PS1
+        type: iec-60320-c14
+      - maximum_draw: 750
+        name: PS2
+        type: iec-60320-c14
+    slug: edgecore-5812-54x-o-ac-b
+    u_height: 1

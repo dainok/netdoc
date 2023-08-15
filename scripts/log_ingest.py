@@ -10,7 +10,7 @@ FILTERS = ["172.25.82.50"]  # List of discoverable IP addresses
 FILTERS = []
 
 LOGS = [2, 4, 19]  # List of log IDs to be ingested
-LOGS = []
+LOGS = [2296]
 
 COMMAND = "show mac address-table"  # Command to be parsed
 COMMAND = ""

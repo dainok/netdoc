@@ -1,4 +1,3 @@
----
 - address: 169.254.1.1
   device: SW1
   site: test-site

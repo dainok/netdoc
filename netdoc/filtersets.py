@@ -34,6 +34,8 @@ class ArpTableEntryFilterSet(NetBoxModelFilterSet):
             | Q(mac_address__icontains=value)
             | Q(interface__name__icontains=value)
             | Q(interface__device__name__icontains=value)
+            | Q(virtual_interface__name__icontains=value)
+            | Q(virtual_interface__virtual_machine__name__icontains=value)
             | Q(vendor__icontains=value)
         )
 
@@ -66,6 +68,7 @@ class DiscoverableFilterSet(NetBoxModelFilterSet):
         return queryset.filter(
             Q(address__icontains=value)
             | Q(device__name__icontains=value)
+            | Q(vm__name__icontains=value)
             | Q(site__name__icontains=value)
             | Q(credential__name__icontains=value)
             | Q(mode__icontains=value)
@@ -79,7 +82,14 @@ class DiscoveryLogFilterSet(NetBoxModelFilterSet):
         """FilterSet metadata."""
 
         model = DiscoveryLog
-        fields = ["configuration", "success", "supported", "parsed", "ingested"]
+        fields = [
+            "discoverable__device",
+            "configuration",
+            "success",
+            "supported",
+            "parsed",
+            "ingested",
+        ]
 
     def search(self, queryset, name, value):
         """Generic (quick) search."""
@@ -123,9 +133,11 @@ class RouteTableEntryFilterSet(NetBoxModelFilterSet):
         """Generic (quick) search."""
         return queryset.filter(
             Q(device__name__icontains=value)
+            | Q(vm__name__icontains=value)
             | Q(destination__icontains=value)
             | Q(protocol__icontains=value)
             | Q(nexthop_ip__icontains=value)
             | Q(nexthop_if__name__icontains=value)
+            | Q(nexthop_virtual_if__name__icontains=value)
             | Q(vrf__name__icontains=value)
         )

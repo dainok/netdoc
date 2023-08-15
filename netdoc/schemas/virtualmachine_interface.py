@@ -231,7 +231,7 @@ def update_addresses(obj, ip_addresses=None):
     """Update Interface IP Addresses."""
     previous_ip_addresses_qs = obj.ip_addresses.all()
     previous_ip_addresses = [str(ip.address) for ip in previous_ip_addresses_qs]
-    site_id = obj.device.site.id if obj.device.site else None
+    site_id = obj.virtual_machine.site.id if obj.virtual_machine.site else None
     vrf_id = obj.vrf.id if obj.vrf else None
 
     for ip_address in ip_addresses:

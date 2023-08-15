@@ -8,6 +8,7 @@ from jsonschema import validate, FormatChecker
 
 from dcim.models import Interface, Device
 from ipam.models import VRF
+from virtualization.models import VirtualMachine, VMInterface
 
 from netdoc.models import RouteTableEntry, RouteTypeChoices
 from netdoc import utils
@@ -32,6 +33,10 @@ def get_schema():
                 "type": "integer",
                 "enum": list(Interface.objects.all().values_list("id", flat=True)),
             },
+            "nexthop_virtual_if_id": {
+                "type": "integer",
+                "enum": list(VMInterface.objects.all().values_list("id", flat=True)),
+            },
             "vrf_id": {
                 "type": "integer",
                 "enum": list(VRF.objects.all().values_list("id", flat=True)),
@@ -46,6 +51,10 @@ def get_schema():
                 "type": "string",
                 "enum": [key for key, value in RouteTypeChoices()],
             },
+            "vm_id": {
+                "type": "integer",
+                "enum": list(VirtualMachine.objects.all().values_list("id", flat=True)),
+            },
         },
     }
 
@@ -54,7 +63,6 @@ def get_schema_create():
     """Return the JSON schema to validate new RouteTableEntry objects."""
     schema = get_schema()
     schema["required"] = [
-        "device_id",
         "destination",
         "protocol",
     ]
@@ -75,23 +83,27 @@ def create(**kwargs):
 
 def get(
     device_id=None,
+    vm_id=None,
     destination=None,
     distance=None,
     metric=None,
     protocol=None,
     discovered=True,
     nexthop_if_id=None,
+    nexthop_virtual_if_id=None,
     nexthop_ip=None,
 ):
     """Return an RouteTableEntry."""
     obj = utils.object_get_or_none(
         RouteTableEntry,
         device_id=device_id,
+        vm_id=vm_id,
         destination=destination,
         distance=distance,
         metric=metric,
         protocol=protocol,
         nexthop_if__id=nexthop_if_id,
+        nexthop_virtual_if__id=nexthop_virtual_if_id,
         nexthop_ip=nexthop_ip,
     )
     if obj and discovered:

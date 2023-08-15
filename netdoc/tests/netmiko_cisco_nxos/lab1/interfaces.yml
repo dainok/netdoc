@@ -1,4 +1,3 @@
----
 SW1:
   - name: GigabitEthernet0/0
     label: gi0/0
@@ -6,7 +5,7 @@ SW1:
     speed: 1000000
     duplex: auto
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -25,7 +24,7 @@ SW1:
     speed: 1000000
     duplex: auto
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: tagged
     untagged_vlan: 1
@@ -45,7 +44,7 @@ SW1:
     speed: 1000000
     duplex: auto
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: tagged
     untagged_vlan: 1
@@ -65,7 +64,7 @@ SW1:
     speed: 1000000
     duplex: auto
     mtu: 1500
-    enabled: False
+    enabled: false
     description: ""
     mode: ""
     untagged_vlan: null
@@ -83,7 +82,7 @@ SW1:
     speed: 1000000
     duplex: auto
     mtu: 1500
-    enabled: False
+    enabled: false
     description: ""
     mode: ""
     untagged_vlan: null
@@ -101,7 +100,7 @@ SW1:
     speed: 1000000
     duplex: auto
     mtu: 1500
-    enabled: False
+    enabled: false
     description: ""
     mode: ""
     untagged_vlan: null
@@ -119,7 +118,7 @@ SW1:
     speed: 1000000
     duplex: auto
     mtu: 1500
-    enabled: False
+    enabled: false
     description: ""
     mode: ""
     untagged_vlan: null
@@ -137,7 +136,7 @@ SW1:
     speed: 1000000
     duplex: auto
     mtu: 1500
-    enabled: False
+    enabled: false
     description: ""
     mode: ""
     untagged_vlan: null
@@ -155,7 +154,7 @@ SW1:
     speed: 2000000
     duplex: auto
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: tagged
     untagged_vlan: 1
@@ -175,7 +174,7 @@ SW1:
     speed: 1000000
     duplex: null
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -195,7 +194,7 @@ NXOS11:
     speed: 1000000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -214,7 +213,7 @@ NXOS11:
     speed: 1000000
     duplex: full
     mtu: 9216
-    enabled: True
+    enabled: true
     description: ""
     mode: tagged-all
     untagged_vlan: 1
@@ -232,7 +231,7 @@ NXOS11:
     speed: 1000000
     duplex: full
     mtu: 9216
-    enabled: True
+    enabled: true
     description: ""
     mode: tagged-all
     untagged_vlan: 1
@@ -250,7 +249,7 @@ NXOS11:
     speed: 1000000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -269,7 +268,7 @@ NXOS11:
     speed: 1000000
     duplex: null
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -288,7 +287,7 @@ NXOS11:
     speed: 1000000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: tagged
     untagged_vlan: 1
@@ -308,7 +307,7 @@ NXOS11:
     speed: 1000000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -326,7 +325,7 @@ NXOS11:
     speed: 1000000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -344,7 +343,7 @@ NXOS11:
     speed: 1000000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -362,7 +361,7 @@ NXOS11:
     speed: 10000000
     duplex: auto
     mtu: 1500
-    enabled: False
+    enabled: false
     description: ""
     mode: ""
     untagged_vlan: null
@@ -380,7 +379,7 @@ NXOS11:
     speed: 2000000
     duplex: full
     mtu: 9216
-    enabled: True
+    enabled: true
     description: ""
     mode: tagged-all
     untagged_vlan: 1
@@ -398,7 +397,7 @@ NXOS11:
     speed: 1000000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: tagged
     untagged_vlan: 1
@@ -418,7 +417,7 @@ NXOS11:
     speed: 8000000
     duplex: null
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -437,7 +436,7 @@ NXOS11:
     speed: 8000000
     duplex: null
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -456,7 +455,7 @@ NXOS11:
     speed: 1000000
     duplex: null
     mtu: 1500
-    enabled: False
+    enabled: false
     description: ""
     mode: ""
     untagged_vlan: null
@@ -474,7 +473,7 @@ NXOS11:
     speed: 1000000
     duplex: null
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -494,7 +493,7 @@ NXOS12:
     speed: 1000000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -513,7 +512,7 @@ NXOS12:
     speed: 1000000
     duplex: full
     mtu: 9216
-    enabled: True
+    enabled: true
     description: ""
     mode: tagged-all
     untagged_vlan: 1
@@ -531,7 +530,7 @@ NXOS12:
     speed: 1000000
     duplex: full
     mtu: 9216
-    enabled: True
+    enabled: true
     description: ""
     mode: tagged-all
     untagged_vlan: 1
@@ -549,7 +548,7 @@ NXOS12:
     speed: 1000000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -568,7 +567,7 @@ NXOS12:
     speed: 1000000
     duplex: null
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -587,7 +586,7 @@ NXOS12:
     speed: 1000000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: tagged
     untagged_vlan: 1
@@ -607,7 +606,7 @@ NXOS12:
     speed: 1000000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -625,7 +624,7 @@ NXOS12:
     speed: 1000000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -643,7 +642,7 @@ NXOS12:
     speed: 1000000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -661,7 +660,7 @@ NXOS12:
     speed: 10000000
     duplex: auto
     mtu: 1500
-    enabled: False
+    enabled: false
     description: ""
     mode: ""
     untagged_vlan: null
@@ -679,7 +678,7 @@ NXOS12:
     speed: 2000000
     duplex: full
     mtu: 9216
-    enabled: True
+    enabled: true
     description: ""
     mode: tagged-all
     untagged_vlan: 1
@@ -697,7 +696,7 @@ NXOS12:
     speed: 1000000
     duplex: full
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: tagged
     untagged_vlan: 1
@@ -717,7 +716,7 @@ NXOS12:
     speed: 8000000
     duplex: null
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -736,7 +735,7 @@ NXOS12:
     speed: 8000000
     duplex: null
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null
@@ -755,7 +754,7 @@ NXOS12:
     speed: 1000000
     duplex: null
     mtu: 1500
-    enabled: False
+    enabled: false
     description: ""
     mode: ""
     untagged_vlan: null
@@ -773,7 +772,7 @@ NXOS12:
     speed: 1000000
     duplex: null
     mtu: 1500
-    enabled: True
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan: null

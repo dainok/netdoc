@@ -20,7 +20,7 @@ def ingest(log):
         interface_name = item.get("interface")
         label = utils.normalize_interface_label(interface_name)
         vrf_name = item.get("vrf")
-        ip_list = item.get("ipaddr")
+        ip_list = item.get("ip_address")
         mask_list = item.get("prefix_length")
         ip_addresses = [
             f"{ipaddr}/{mask_list[index]}" for index, ipaddr in enumerate(ip_list)

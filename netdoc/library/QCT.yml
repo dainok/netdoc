@@ -1,28 +1,28 @@
 keywords:
-- QuantaGrid D51B-2U
+  - QuantaGrid D51B-2U
 models:
-- console-ports:
-  - name: Serial
-    type: de-9
-  - name: VGA
-    type: other
-  interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - mgmt_only: true
-    name: bmc nic
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: QCT
-  model: QuantaGrid D51B-2U
-  power-ports:
-  - maximum_draw: 1200
-    name: PSU1
-    type: iec-60320-c14
-  - maximum_draw: 1200
-    name: PSU2
-    type: iec-60320-c14
-  slug: qct-quantagrid-d51b-2u
-  u_height: 2
+  - console-ports:
+      - name: Serial
+        type: de-9
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: bmc nic
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: QCT
+    model: QuantaGrid D51B-2U
+    power-ports:
+      - maximum_draw: 1200
+        name: PSU1
+        type: iec-60320-c14
+      - maximum_draw: 1200
+        name: PSU2
+        type: iec-60320-c14
+    slug: qct-quantagrid-d51b-2u
+    u_height: 2

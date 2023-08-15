@@ -13,6 +13,8 @@ __license__ = "GPLv3"
 import re
 import json
 import base64
+from xml.parsers.expat import ExpatError
+import xmltodict
 from cryptography.fernet import Fernet, InvalidToken
 from OuiLookup import OuiLookup
 
@@ -79,6 +81,7 @@ class DiscoveryModeChoices(ChoiceSet):
         ("netmiko_hp_procurve", "Netmiko HPE Procurve"),
         ("netmiko_linux", "Netmiko Linux"),
         ("json_vmware_vsphere", "VMware vSphere"),
+        ("xml_panw_ngfw", "Palo Alto Networks NGFW"),
     ]
 
 
@@ -125,20 +128,82 @@ class ArpTableEntry(NetBoxModel):
         on_delete=models.CASCADE,
         related_name="+",
         editable=False,
+        blank=True,
+        null=True,
     )
     ip_address = IPAddressField(help_text="IPv4 address", editable=False)
     mac_address = MACAddressField(help_text="MAC Address", editable=False)
     vendor = models.CharField(
         max_length=255, blank=True, null=True, help_text="Vendor", editable=False
     )  #: Vendor (from OUI)
+    virtual_interface = models.ForeignKey(
+        to="virtualization.VMInterface",
+        on_delete=models.CASCADE,
+        related_name="+",
+        editable=False,
+        blank=True,
+        null=True,
+    )
 
     class Meta:
         """Database metadata."""
 
         ordering = ["ip_address"]
-        unique_together = ["interface", "ip_address", "mac_address"]
+        unique_together = [
+            "interface",
+            "ip_address",
+            "mac_address",
+            "virtual_interface",
+        ]
         verbose_name = "ARP table entry"
         verbose_name_plural = "ARP table entries"
+
+    @property
+    def meta_interface(self):
+        """
+        Define meta_interface property.
+
+        meta_interface return Device or VM, if set.
+        """
+        if self.interface:
+            return self.interface
+        if self.virtual_interface:
+            return self.virtual_interface
+        return None
+
+    @property
+    def meta_role(self):
+        """
+        Role meta_role property.
+
+        meta_role return device/vm role, if set.
+        """
+        if (
+            self.interface
+            and self.interface.device.device_role  # pylint: disable=no-member
+        ):
+            return self.interface.device.device_role.name  # pylint: disable=no-member
+        if (
+            self.virtual_interface
+            and self.virtual_interface.virtual_machine.role  # pylint: disable=no-member
+        ):
+            return (
+                self.virtual_interface.virtual_machine.role.name  # pylint: disable=no-member
+            )
+        return None
+
+    @property
+    def meta_device(self):
+        """
+        Define meta_device property.
+
+        meta_device return Device or VM, if set.
+        """
+        if self.interface:
+            return self.interface.device  # pylint: disable=no-member
+        if self.virtual_interface:
+            return self.virtual_interface.virtual_machine  # pylint: disable=no-member
+        return None
 
     def __str__(self):
         """Return a human readable name when the object is printed."""
@@ -298,6 +363,14 @@ class Discoverable(NetBoxModel):
         on_delete=models.CASCADE,
         related_name="+",
     )
+    vm = models.OneToOneField(
+        to="virtualization.VirtualMachine",
+        editable=False,
+        on_delete=models.SET_NULL,
+        related_name="+",
+        blank=True,
+        null=True,
+    )
 
     class Meta:
         """Database metadata."""
@@ -306,6 +379,19 @@ class Discoverable(NetBoxModel):
         unique_together = ["address", "mode"]
         verbose_name = "Device"
         verbose_name_plural = "Devices"
+
+    @property
+    def meta_device(self):
+        """
+        Define meta_device property.
+
+        meta_device return Device or VM, if set.
+        """
+        if self.device:
+            return self.device
+        if self.vm:
+            return self.vm
+        return None
 
     def __str__(self):
         """Return a human readable name when the object is printed."""
@@ -369,6 +455,19 @@ class DiscoveryLog(NetBoxModel):
         verbose_name = "Log"
         verbose_name_plural = "Logs"
 
+    @property
+    def meta_device(self):
+        """
+        Define meta_device property.
+
+        meta_device return Device or VM, if set.
+        """
+        if self.discoverable.device:  # pylint: disable=no-member
+            return self.discoverable.device  # pylint: disable=no-member
+        if self.discoverable.vm:  # pylint: disable=no-member
+            return self.discoverable.vm  # pylint: disable=no-member
+        return None
+
     def __str__(self):
         """Return a human readable name when the object is printed."""
         return f"{self.command} at {self.created}"
@@ -425,6 +524,16 @@ class DiscoveryLog(NetBoxModel):
                     parsed = False
                     parsed_output = str(exc)
                 except json.decoder.JSONDecodeError as exc:
+                    parsed = False
+                    parsed_output = str(exc)
+            elif framework == "xml":
+                try:
+                    parsed = True
+                    parsed_output = xmltodict.parse(self.raw_output)
+                except TypeError as exc:
+                    parsed = False
+                    parsed_output = str(exc)
+                except ExpatError as exc:
                     parsed = False
                     parsed_output = str(exc)
             else:
@@ -510,6 +619,8 @@ class RouteTableEntry(NetBoxModel):
         to="dcim.Device",
         on_delete=models.CASCADE,
         related_name="+",
+        blank=True,
+        null=True,
     )
     distance = models.IntegerField(blank=True, null=True, editable=False)
     metric = models.BigIntegerField(blank=True, null=True, editable=False)
@@ -521,6 +632,14 @@ class RouteTableEntry(NetBoxModel):
     )
     nexthop_if = models.ForeignKey(
         to="dcim.Interface",
+        on_delete=models.CASCADE,
+        related_name="+",
+        editable=False,
+        blank=True,
+        null=True,
+    )
+    nexthop_virtual_if = models.ForeignKey(
+        to="virtualization.VMInterface",
         on_delete=models.CASCADE,
         related_name="+",
         editable=False,
@@ -540,6 +659,14 @@ class RouteTableEntry(NetBoxModel):
         blank=True,
         null=True,
     )
+    vm = models.ForeignKey(
+        to="virtualization.VirtualMachine",
+        editable=False,
+        on_delete=models.SET_NULL,
+        related_name="+",
+        blank=True,
+        null=True,
+    )
 
     class Meta:
         """Database metadata."""
@@ -553,10 +680,38 @@ class RouteTableEntry(NetBoxModel):
             "protocol",
             "vrf",
             "nexthop_if",
+            "nexthop_virtual_if",
             "nexthop_ip",
+            "vm",
         ]
         verbose_name = "Route"
         verbose_name_plural = "Routes"
+
+    @property
+    def meta_nexthop_if(self):
+        """
+        Define meta_nexthop_if property.
+
+        meta_nexthop_if return Device or VM, if set.
+        """
+        if self.nexthop_virtual_if:
+            return self.nexthop_virtual_if
+        if self.nexthop_if:
+            return self.nexthop_if
+        return None
+
+    @property
+    def meta_device(self):
+        """
+        Define meta_device property.
+
+        meta_device return Device or VM, if set.
+        """
+        if self.device:
+            return self.device
+        if self.vm:
+            return self.vm
+        return None
 
     def __str__(self):
         """Return a human readable name when the object is printed."""

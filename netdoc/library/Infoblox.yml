@@ -1,137 +1,137 @@
 keywords:
-- TE-815-NS1GD-AC
-- IB-1410
-- TE-1415-NS1GD-AC
-- IB-1420
-- Trinzic TE-805
-- TE-805-HW-AC-B
+  - TE-815-NS1GD-AC
+  - IB-1410
+  - TE-1415-NS1GD-AC
+  - IB-1420
+  - Trinzic TE-805
+  - TE-805-HW-AC-B
 models:
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: LOM
-    type: 1000base-t
-  - name: MGMT
-    type: 1000base-t
-  - name: LAN1
-    type: 1000base-t
-  - name: LAN2
-    type: 1000base-t
-  - name: HA
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Infoblox
-  model: TE-815-NS1GD-AC
-  power-ports:
-  - maximum_draw: 350
-    name: PS0
-    type: iec-60320-c14
-  slug: infoblox-te-815-ns1gd-ac
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: LOM
-    type: 1000base-t
-  - name: MGMT
-    type: 1000base-t
-  - name: LAN1
-    type: 1000base-t
-  - name: LAN2
-    type: 1000base-t
-  - name: HA
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Infoblox
-  model: IB-1410
-  power-ports:
-  - maximum_draw: 450
-    name: PS0
-    type: iec-60320-c14
-  - maximum_draw: 450
-    name: PS1
-    type: iec-60320-c14
-  slug: infoblox-ib-1410
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: LOM
-    type: 1000base-t
-  - name: MGMT
-    type: 1000base-t
-  - name: LAN1
-    type: 1000base-t
-  - name: LAN2
-    type: 1000base-t
-  - name: HA
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Infoblox
-  model: TE-1415-NS1GD-AC
-  power-ports:
-  - maximum_draw: 600
-    name: PS0
-    type: iec-60320-c14
-  - maximum_draw: 600
-    name: PS1
-    type: iec-60320-c14
-  slug: infoblox-te-1415-ns1gd-ac
-  u_height: 1
-- console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: LOM
-    type: 1000base-t
-  - name: MGMT
-    type: 1000base-t
-  - name: LAN1
-    type: 1000base-t
-  - name: LAN2
-    type: 1000base-t
-  - name: HA
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: Infoblox
-  model: IB-1420
-  power-ports:
-  - maximum_draw: 450
-    name: PS0
-    type: iec-60320-c14
-  - maximum_draw: 450
-    name: PS1
-    type: iec-60320-c14
-  slug: infoblox-ib-1420
-  u_height: 1
-- comments: Trinzic TE-805 Network Management Device with HDD & PSU
-  console-ports:
-  - name: Console
-    type: rj-45
-  interfaces:
-  - name: HA
-    type: 1000base-t
-  - mgmt_only: true
-    name: IPMI
-    type: 1000base-t
-  - name: LAN1
-    type: 1000base-t
-  - name: LAN2
-    type: 1000base-t
-  - mgmt_only: true
-    name: MGMT
-    type: 1000base-t
-  is_full_depth: true
-  manufacturer: Infoblox
-  model: Trinzic TE-805
-  part_number: TE-805-HW-AC-B
-  power-ports:
-  - allocated_draw: 130
-    maximum_draw: 130
-    name: PS0
-    type: iec-60320-c14
-  slug: infoblox-te-805-hw-ac-b
-  u_height: 1
+  - console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: LOM
+        type: 1000base-t
+      - name: MGMT
+        type: 1000base-t
+      - name: LAN1
+        type: 1000base-t
+      - name: LAN2
+        type: 1000base-t
+      - name: HA
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Infoblox
+    model: TE-815-NS1GD-AC
+    power-ports:
+      - maximum_draw: 350
+        name: PS0
+        type: iec-60320-c14
+    slug: infoblox-te-815-ns1gd-ac
+    u_height: 1
+  - console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: LOM
+        type: 1000base-t
+      - name: MGMT
+        type: 1000base-t
+      - name: LAN1
+        type: 1000base-t
+      - name: LAN2
+        type: 1000base-t
+      - name: HA
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Infoblox
+    model: IB-1410
+    power-ports:
+      - maximum_draw: 450
+        name: PS0
+        type: iec-60320-c14
+      - maximum_draw: 450
+        name: PS1
+        type: iec-60320-c14
+    slug: infoblox-ib-1410
+    u_height: 1
+  - console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: LOM
+        type: 1000base-t
+      - name: MGMT
+        type: 1000base-t
+      - name: LAN1
+        type: 1000base-t
+      - name: LAN2
+        type: 1000base-t
+      - name: HA
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Infoblox
+    model: TE-1415-NS1GD-AC
+    power-ports:
+      - maximum_draw: 600
+        name: PS0
+        type: iec-60320-c14
+      - maximum_draw: 600
+        name: PS1
+        type: iec-60320-c14
+    slug: infoblox-te-1415-ns1gd-ac
+    u_height: 1
+  - console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: LOM
+        type: 1000base-t
+      - name: MGMT
+        type: 1000base-t
+      - name: LAN1
+        type: 1000base-t
+      - name: LAN2
+        type: 1000base-t
+      - name: HA
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Infoblox
+    model: IB-1420
+    power-ports:
+      - maximum_draw: 450
+        name: PS0
+        type: iec-60320-c14
+      - maximum_draw: 450
+        name: PS1
+        type: iec-60320-c14
+    slug: infoblox-ib-1420
+    u_height: 1
+  - comments: Trinzic TE-805 Network Management Device with HDD & PSU
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: HA
+        type: 1000base-t
+      - mgmt_only: true
+        name: IPMI
+        type: 1000base-t
+      - name: LAN1
+        type: 1000base-t
+      - name: LAN2
+        type: 1000base-t
+      - mgmt_only: true
+        name: MGMT
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Infoblox
+    model: Trinzic TE-805
+    part_number: TE-805-HW-AC-B
+    power-ports:
+      - allocated_draw: 130
+        maximum_draw: 130
+        name: PS0
+        type: iec-60320-c14
+    slug: infoblox-te-805-hw-ac-b
+    u_height: 1

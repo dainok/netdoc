@@ -1,81 +1,81 @@
 keywords:
-- FRITZ!Box 7530
-- '20002839'
-- FRITZ!Box 7590
-- '20002784'
+  - FRITZ!Box 7530
+  - '20002839'
+  - FRITZ!Box 7590
+  - '20002784'
 models:
-- airflow: passive
-  comments: '[AVM FRITZ!Box 7530 Datasheet](https://avm.de/produkte/fritzbox/fritzbox-7530/technische-daten/)'
-  interfaces:
-  - label: DSL
-    name: DSL
-    type: xdsl
-  - label: FON 1
-    name: FON1
-    type: other
-  - label: LAN 1 / WAN
-    name: LAN1
-    type: 1000base-t
-  - label: LAN 2
-    name: LAN2
-    type: 1000base-t
-  - label: LAN 3
-    name: LAN3
-    type: 1000base-t
-  - label: LAN 4
-    name: LAN4
-    type: 1000base-t
-  - name: WiFi
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: AVM
-  model: FRITZ!Box 7530
-  part_number: '20002839'
-  power-ports:
-  - maximum_draw: 30
-    name: Power
-    type: dc-terminal
-  slug: avm-fritzbox-7530
-  u_height: 0
-- airflow: passive
-  comments: '[AVM FRITZ!Box 7590 Datasheet](https://avm.de/produkte/fritzbox/fritzbox-7590/technische-daten/)'
-  interfaces:
-  - label: DSL
-    name: DSL
-    type: xdsl
-  - label: FON 1
-    name: FON1
-    type: other
-  - label: FON 2
-    name: FON2
-    type: other
-  - label: FON S0
-    name: FONS0
-    type: other
-  - label: WAN
-    name: WAN
-    type: 1000base-t
-  - label: LAN 1
-    name: LAN1
-    type: 1000base-t
-  - label: LAN 2
-    name: LAN2
-    type: 1000base-t
-  - label: LAN 3
-    name: LAN3
-    type: 1000base-t
-  - label: LAN 4
-    name: LAN4
-    type: 1000base-t
-  - name: WiFi
-    type: ieee802.11ac
-  is_full_depth: false
-  manufacturer: AVM
-  model: FRITZ!Box 7590
-  part_number: '20002784'
-  power-ports:
-  - maximum_draw: 30
-    name: Power
-    type: dc-terminal
-  slug: avm-fritzbox-7590
-  u_height: 0
+  - airflow: passive
+    comments: '[AVM FRITZ!Box 7530 Datasheet](https://avm.de/produkte/fritzbox/fritzbox-7530/technische-daten/)'
+    interfaces:
+      - label: DSL
+        name: DSL
+        type: xdsl
+      - label: FON 1
+        name: FON1
+        type: other
+      - label: LAN 1 / WAN
+        name: LAN1
+        type: 1000base-t
+      - label: LAN 2
+        name: LAN2
+        type: 1000base-t
+      - label: LAN 3
+        name: LAN3
+        type: 1000base-t
+      - label: LAN 4
+        name: LAN4
+        type: 1000base-t
+      - name: WiFi
+        type: ieee802.11ac
+    is_full_depth: false
+    manufacturer: AVM
+    model: FRITZ!Box 7530
+    part_number: '20002839'
+    power-ports:
+      - maximum_draw: 30
+        name: Power
+        type: dc-terminal
+    slug: avm-fritzbox-7530
+    u_height: 0
+  - airflow: passive
+    comments: '[AVM FRITZ!Box 7590 Datasheet](https://avm.de/produkte/fritzbox/fritzbox-7590/technische-daten/)'
+    interfaces:
+      - label: DSL
+        name: DSL
+        type: xdsl
+      - label: FON 1
+        name: FON1
+        type: other
+      - label: FON 2
+        name: FON2
+        type: other
+      - label: FON S0
+        name: FONS0
+        type: other
+      - label: WAN
+        name: WAN
+        type: 1000base-t
+      - label: LAN 1
+        name: LAN1
+        type: 1000base-t
+      - label: LAN 2
+        name: LAN2
+        type: 1000base-t
+      - label: LAN 3
+        name: LAN3
+        type: 1000base-t
+      - label: LAN 4
+        name: LAN4
+        type: 1000base-t
+      - name: WiFi
+        type: ieee802.11ac
+    is_full_depth: false
+    manufacturer: AVM
+    model: FRITZ!Box 7590
+    part_number: '20002784'
+    power-ports:
+      - maximum_draw: 30
+        name: Power
+        type: dc-terminal
+    slug: avm-fritzbox-7590
+    u_height: 0

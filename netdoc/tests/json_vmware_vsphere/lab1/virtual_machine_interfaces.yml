@@ -1,4 +1,3 @@
----
 VCENTER:
   - name: Network adapter 1
     enabled: true

@@ -1,262 +1,254 @@
 keywords:
-- 48 Port Keystone Patch Panel
-- 49255-Q48
-- 5R2UM-F06
-- 5R3UM-F12
-- 5R3UM-F09
-- 24 Port Keystone Patch Panel
-- 49255-H24
-- 5R1UM-F03
+  - 48 Port Keystone Patch Panel
+  - 49255-Q48
+  - 5R2UM-F06
+  - 5R3UM-F12
+  - 5R3UM-F09
+  - 24 Port Keystone Patch Panel
+  - 49255-H24
+  - 5R1UM-F03
 models:
-- is_full_depth: false
-  manufacturer: Leviton
-  model: 48 Port Keystone Patch Panel
-  module-bays:
-  - name: '1'
-    position: '1'
-  - name: '2'
-    position: '2'
-  - name: '3'
-    position: '3'
-  - name: '4'
-    position: '4'
-  - name: '5'
-    position: '5'
-  - name: '6'
-    position: '6'
-  - name: '7'
-    position: '7'
-  - name: '8'
-    position: '8'
-  - name: '9'
-    position: '9'
-  - name: '10'
-    position: '10'
-  - name: '11'
-    position: '11'
-  - name: '12'
-    position: '12'
-  - name: '13'
-    position: '13'
-  - name: '14'
-    position: '14'
-  - name: '15'
-    position: '15'
-  - name: '16'
-    position: '16'
-  - name: '17'
-    position: '17'
-  - name: '18'
-    position: '18'
-  - name: '19'
-    position: '19'
-  - name: '20'
-    position: '20'
-  - name: '21'
-    position: '21'
-  - name: '22'
-    position: '22'
-  - name: '23'
-    position: '23'
-  - name: '24'
-    position: '24'
-  - name: '25'
-    position: '25'
-  - name: '26'
-    position: '26'
-  - name: '27'
-    position: '27'
-  - name: '28'
-    position: '28'
-  - name: '29'
-    position: '29'
-  - name: '30'
-    position: '30'
-  - name: '31'
-    position: '31'
-  - name: '32'
-    position: '32'
-  - name: '33'
-    position: '33'
-  - name: '34'
-    position: '34'
-  - name: '35'
-    position: '35'
-  - name: '36'
-    position: '36'
-  - name: '37'
-    position: '37'
-  - name: '38'
-    position: '38'
-  - name: '39'
-    position: '39'
-  - name: '40'
-    position: '40'
-  - name: '41'
-    position: '41'
-  - name: '42'
-    position: '42'
-  - name: '43'
-    position: '43'
-  - name: '44'
-    position: '44'
-  - name: '45'
-    position: '45'
-  - name: '46'
-    position: '46'
-  - name: '47'
-    position: '47'
-  - name: '48'
-    position: '48'
-  part_number: 49255-Q48
-  slug: leviton-48-port-keystone-patch-panel
-  subdevice_role: parent
-  u_height: 1
-- comments: Opt-X 1000i SDX 2RU Distribution and Splice Enclosure, empty (no sliding
-    tray); Accepts up to (6) SDX adapter plates or (6) SDX MTP cassettes and accepts
-    up to (6) splice trays.
-  manufacturer: Leviton
-  model: 5R2UM-F06
-  module-bays:
-  - name: A
-    position: A
-  - name: B
-    position: B
-  - name: C
-    position: C
-  - name: D
-    position: D
-  - name: E
-    position: E
-  - name: F
-    position: F
-  slug: leviton-5r2um-f06
-  u_height: 2
-- comments: Opt-X 1000i SDX 3RU Distribution and Splice Enclosure, empty; Accepts
-    up to (12) SDX adapter plates or (12) SDX MTP cassettes and accepts up to (12)
-    splice trays. (Vertical adapter plate/cassette orientation).
-  manufacturer: Leviton
-  model: 5R3UM-F12
-  module-bays:
-  - name: A
-    position: A
-  - name: B
-    position: B
-  - name: C
-    position: C
-  - name: D
-    position: D
-  - name: E
-    position: E
-  - name: F
-    position: F
-  - name: G
-    position: G
-  - name: H
-    position: H
-  - name: I
-    position: I
-  - name: J
-    position: J
-  - name: K
-    position: K
-  - name: L
-    position: L
-  slug: leviton-5r3um-f12
-  u_height: 3
-- comments: Opt-X 1000i SDX 3RU Distribution and Splice Enclosure, empty; Accepts
-    up to (9) SDX adapter plates or (9) SDX MTP cassettes and accepts up to (9) splice
-    trays.
-  manufacturer: Leviton
-  model: 5R3UM-F09
-  module-bays:
-  - name: A
-    position: A
-  - name: B
-    position: B
-  - name: C
-    position: C
-  - name: D
-    position: D
-  - name: E
-    position: E
-  - name: F
-    position: F
-  - name: G
-    position: G
-  - name: H
-    position: H
-  - name: I
-    position: I
-  slug: leviton-5r3um-f09
-  u_height: 3
-- is_full_depth: false
-  manufacturer: Leviton
-  model: 24 Port Keystone Patch Panel
-  module-bays:
-  - name: '1'
-    position: '1'
-  - name: '2'
-    position: '2'
-  - name: '3'
-    position: '3'
-  - name: '4'
-    position: '4'
-  - name: '5'
-    position: '5'
-  - name: '6'
-    position: '6'
-  - name: '7'
-    position: '7'
-  - name: '8'
-    position: '8'
-  - name: '9'
-    position: '9'
-  - name: '10'
-    position: '10'
-  - name: '11'
-    position: '11'
-  - name: '12'
-    position: '12'
-  - name: '13'
-    position: '13'
-  - name: '14'
-    position: '14'
-  - name: '15'
-    position: '15'
-  - name: '16'
-    position: '16'
-  - name: '17'
-    position: '17'
-  - name: '18'
-    position: '18'
-  - name: '19'
-    position: '19'
-  - name: '20'
-    position: '20'
-  - name: '21'
-    position: '21'
-  - name: '22'
-    position: '22'
-  - name: '23'
-    position: '23'
-  - name: '24'
-    position: '24'
-  part_number: 49255-H24
-  slug: leviton-24-port-keystone-patch-panel
-  subdevice_role: parent
-  u_height: 1
-- comments: Opt-X 1000i SDX 1RU Distribution and Splice Enclosure, empty, (no sliding
-    tray); Accepts up to (3) SDX adapter plates or (3) SDX MTP cassettes and accepts
-    up to (3) splice trays.
-  manufacturer: Leviton
-  model: 5R1UM-F03
-  module-bays:
-  - name: A
-    position: A
-  - name: B
-    position: B
-  - name: C
-    position: C
-  slug: leviton-5r1um-f03
-  u_height: 1
+  - is_full_depth: false
+    manufacturer: Leviton
+    model: 48 Port Keystone Patch Panel
+    module-bays:
+      - name: '1'
+        position: '1'
+      - name: '2'
+        position: '2'
+      - name: '3'
+        position: '3'
+      - name: '4'
+        position: '4'
+      - name: '5'
+        position: '5'
+      - name: '6'
+        position: '6'
+      - name: '7'
+        position: '7'
+      - name: '8'
+        position: '8'
+      - name: '9'
+        position: '9'
+      - name: '10'
+        position: '10'
+      - name: '11'
+        position: '11'
+      - name: '12'
+        position: '12'
+      - name: '13'
+        position: '13'
+      - name: '14'
+        position: '14'
+      - name: '15'
+        position: '15'
+      - name: '16'
+        position: '16'
+      - name: '17'
+        position: '17'
+      - name: '18'
+        position: '18'
+      - name: '19'
+        position: '19'
+      - name: '20'
+        position: '20'
+      - name: '21'
+        position: '21'
+      - name: '22'
+        position: '22'
+      - name: '23'
+        position: '23'
+      - name: '24'
+        position: '24'
+      - name: '25'
+        position: '25'
+      - name: '26'
+        position: '26'
+      - name: '27'
+        position: '27'
+      - name: '28'
+        position: '28'
+      - name: '29'
+        position: '29'
+      - name: '30'
+        position: '30'
+      - name: '31'
+        position: '31'
+      - name: '32'
+        position: '32'
+      - name: '33'
+        position: '33'
+      - name: '34'
+        position: '34'
+      - name: '35'
+        position: '35'
+      - name: '36'
+        position: '36'
+      - name: '37'
+        position: '37'
+      - name: '38'
+        position: '38'
+      - name: '39'
+        position: '39'
+      - name: '40'
+        position: '40'
+      - name: '41'
+        position: '41'
+      - name: '42'
+        position: '42'
+      - name: '43'
+        position: '43'
+      - name: '44'
+        position: '44'
+      - name: '45'
+        position: '45'
+      - name: '46'
+        position: '46'
+      - name: '47'
+        position: '47'
+      - name: '48'
+        position: '48'
+    part_number: 49255-Q48
+    slug: leviton-48-port-keystone-patch-panel
+    subdevice_role: parent
+    u_height: 1
+  - comments: Opt-X 1000i SDX 2RU Distribution and Splice Enclosure, empty (no sliding tray); Accepts up to (6) SDX adapter plates or (6) SDX MTP cassettes and accepts up to (6) splice trays.
+    manufacturer: Leviton
+    model: 5R2UM-F06
+    module-bays:
+      - name: A
+        position: A
+      - name: B
+        position: B
+      - name: C
+        position: C
+      - name: D
+        position: D
+      - name: E
+        position: E
+      - name: F
+        position: F
+    slug: leviton-5r2um-f06
+    u_height: 2
+  - comments: Opt-X 1000i SDX 3RU Distribution and Splice Enclosure, empty; Accepts up to (12) SDX adapter plates or (12) SDX MTP cassettes and accepts up to (12) splice trays. (Vertical adapter plate/cassette orientation).
+    manufacturer: Leviton
+    model: 5R3UM-F12
+    module-bays:
+      - name: A
+        position: A
+      - name: B
+        position: B
+      - name: C
+        position: C
+      - name: D
+        position: D
+      - name: E
+        position: E
+      - name: F
+        position: F
+      - name: G
+        position: G
+      - name: H
+        position: H
+      - name: I
+        position: I
+      - name: J
+        position: J
+      - name: K
+        position: K
+      - name: L
+        position: L
+    slug: leviton-5r3um-f12
+    u_height: 3
+  - comments: Opt-X 1000i SDX 3RU Distribution and Splice Enclosure, empty; Accepts up to (9) SDX adapter plates or (9) SDX MTP cassettes and accepts up to (9) splice trays.
+    manufacturer: Leviton
+    model: 5R3UM-F09
+    module-bays:
+      - name: A
+        position: A
+      - name: B
+        position: B
+      - name: C
+        position: C
+      - name: D
+        position: D
+      - name: E
+        position: E
+      - name: F
+        position: F
+      - name: G
+        position: G
+      - name: H
+        position: H
+      - name: I
+        position: I
+    slug: leviton-5r3um-f09
+    u_height: 3
+  - is_full_depth: false
+    manufacturer: Leviton
+    model: 24 Port Keystone Patch Panel
+    module-bays:
+      - name: '1'
+        position: '1'
+      - name: '2'
+        position: '2'
+      - name: '3'
+        position: '3'
+      - name: '4'
+        position: '4'
+      - name: '5'
+        position: '5'
+      - name: '6'
+        position: '6'
+      - name: '7'
+        position: '7'
+      - name: '8'
+        position: '8'
+      - name: '9'
+        position: '9'
+      - name: '10'
+        position: '10'
+      - name: '11'
+        position: '11'
+      - name: '12'
+        position: '12'
+      - name: '13'
+        position: '13'
+      - name: '14'
+        position: '14'
+      - name: '15'
+        position: '15'
+      - name: '16'
+        position: '16'
+      - name: '17'
+        position: '17'
+      - name: '18'
+        position: '18'
+      - name: '19'
+        position: '19'
+      - name: '20'
+        position: '20'
+      - name: '21'
+        position: '21'
+      - name: '22'
+        position: '22'
+      - name: '23'
+        position: '23'
+      - name: '24'
+        position: '24'
+    part_number: 49255-H24
+    slug: leviton-24-port-keystone-patch-panel
+    subdevice_role: parent
+    u_height: 1
+  - comments: Opt-X 1000i SDX 1RU Distribution and Splice Enclosure, empty, (no sliding tray); Accepts up to (3) SDX adapter plates or (3) SDX MTP cassettes and accepts up to (3) splice trays.
+    manufacturer: Leviton
+    model: 5R1UM-F03
+    module-bays:
+      - name: A
+        position: A
+      - name: B
+        position: B
+      - name: C
+        position: C
+    slug: leviton-5r1um-f03
+    u_height: 1

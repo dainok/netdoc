@@ -1,3172 +1,3172 @@
 keywords:
-- REM-0R4-1-W
-- REM-0R4-1-W
-- NBB-20VD20-1
-- NBB-20VD20-1
-- REM-4R4-1-WE
-- REM-4R4-1-WE
-- VMR-16HD20-2
-- VMR-16HD20-2
-- CPM-800-1-A-VZW
-- CPM-800-1-A-VZW
-- CPM-800-2-A
-- CPM-800-2-A
-- DSM-8NM-DP
-- DSM-8NM-DP
-- DSM-24NM-E
-- DSM-24NM-E
-- REM-0R4-1-N
-- REM-0R4-1-N
-- REM-4R4-1-NE
-- REM-4R4-1-NE
-- CPM-800-1-E
-- CPM-800-1-E
-- REM-4R4-2-N
-- REM-4R4-2-N
-- REM-4R0
-- REM-4R0
-- CPM-1600-1-ECAM
-- CPM-1600-1-ECAM
-- REM-4R4-2-W
-- REM-4R4-2-W
-- DSM-24NM
-- DSM-24NM
-- REM-4R0-NE
-- REM-4R0-NE
-- VMR-8HS20-1
-- VMR-8HS20-1
-- REM-4R4-2-NE
-- REM-4R4-2-NE
-- REM-4R4-1
-- REM-4R4-1
-- REM-4R4-2-WE
-- REM-4R4-2-WE
-- REM-4R0-WE
-- REM-4R0-WE
-- VMR-HD4D16H
-- VMR-HD4D16H
-- REM-4R4-2-E
-- REM-4R4-2-E
-- REM-0R4-1-E
-- REM-0R4-1-E
-- REM-0R4-2
-- REM-0R4-2
-- VMR-8H20-ATS-2
-- VMR-8H20-ATS-2
-- CPM-1600-1-EC
-- CPM-1600-1-EC
-- DSM-40NM
-- DSM-40NM
-- REM-4R4-1-N
-- REM-4R4-1-N
-- CPM-800-2-E
-- CPM-800-2-E
-- REM-0R4-1-WE
-- REM-0R4-1-WE
-- REM-4R4-1-W
-- REM-4R4-1-W
-- REM-0R4-1-NE
-- REM-0R4-1-NE
-- REM-0R4-1
-- REM-0R4-1
-- NPS-8H20-ATS-1
-- NPS-8H20-ATS-1
-- VMR-8H20-ATS-1
-- VMR-8H20-ATS-1
-- DSM-40NM-DP
-- DSM-40NM-DP
-- CPM-800-1-EA
-- CPM-800-1-EA
-- REM-4R0-W
-- REM-4R0-W
-- DSM-8NM-E
-- DSM-8NM-E
-- REM-0R4-2-W
-- REM-0R4-2-W
-- REM-0R4-2-N
-- REM-0R4-2-N
-- CPM-800-1-AM
-- CPM-800-1-AM
-- VMR-8HS20-2
-- VMR-8HS20-2
-- REM-4R4-2
-- REM-4R4-2
-- CPM-800-1-A
-- CPM-800-1-A
-- REM-0R4-2-NE
-- REM-0R4-2-NE
-- REM-4R0-E
-- REM-4R0-E
-- CPM-800-2-EA
-- CPM-800-2-EA
-- REM-0R4-2-E
-- REM-0R4-2-E
-- CPM-800-1-ECA
-- CPM-800-1-ECA
-- REM-0R4-2-WE
-- REM-0R4-2-WE
-- DSM-40NM-E
-- DSM-40NM-E
-- CPM-800-2-AM
-- CPM-800-2-AM
-- CPM-800-2-A-VZW
-- CPM-800-2-A-VZW
-- DSM-24NM-DP
-- DSM-24NM-DP
-- DSM-8NM
-- DSM-8NM
-- REM-4R4-1-E
-- REM-4R4-1-E
+  - REM-0R4-1-W
+  - REM-0R4-1-W
+  - NBB-20VD20-1
+  - NBB-20VD20-1
+  - REM-4R4-1-WE
+  - REM-4R4-1-WE
+  - VMR-16HD20-2
+  - VMR-16HD20-2
+  - CPM-800-1-A-VZW
+  - CPM-800-1-A-VZW
+  - CPM-800-2-A
+  - CPM-800-2-A
+  - DSM-8NM-DP
+  - DSM-8NM-DP
+  - DSM-24NM-E
+  - DSM-24NM-E
+  - REM-0R4-1-N
+  - REM-0R4-1-N
+  - REM-4R4-1-NE
+  - REM-4R4-1-NE
+  - CPM-800-1-E
+  - CPM-800-1-E
+  - REM-4R4-2-N
+  - REM-4R4-2-N
+  - REM-4R0
+  - REM-4R0
+  - CPM-1600-1-ECAM
+  - CPM-1600-1-ECAM
+  - REM-4R4-2-W
+  - REM-4R4-2-W
+  - DSM-24NM
+  - DSM-24NM
+  - REM-4R0-NE
+  - REM-4R0-NE
+  - VMR-8HS20-1
+  - VMR-8HS20-1
+  - REM-4R4-2-NE
+  - REM-4R4-2-NE
+  - REM-4R4-1
+  - REM-4R4-1
+  - REM-4R4-2-WE
+  - REM-4R4-2-WE
+  - REM-4R0-WE
+  - REM-4R0-WE
+  - VMR-HD4D16H
+  - VMR-HD4D16H
+  - REM-4R4-2-E
+  - REM-4R4-2-E
+  - REM-0R4-1-E
+  - REM-0R4-1-E
+  - REM-0R4-2
+  - REM-0R4-2
+  - VMR-8H20-ATS-2
+  - VMR-8H20-ATS-2
+  - CPM-1600-1-EC
+  - CPM-1600-1-EC
+  - DSM-40NM
+  - DSM-40NM
+  - REM-4R4-1-N
+  - REM-4R4-1-N
+  - CPM-800-2-E
+  - CPM-800-2-E
+  - REM-0R4-1-WE
+  - REM-0R4-1-WE
+  - REM-4R4-1-W
+  - REM-4R4-1-W
+  - REM-0R4-1-NE
+  - REM-0R4-1-NE
+  - REM-0R4-1
+  - REM-0R4-1
+  - NPS-8H20-ATS-1
+  - NPS-8H20-ATS-1
+  - VMR-8H20-ATS-1
+  - VMR-8H20-ATS-1
+  - DSM-40NM-DP
+  - DSM-40NM-DP
+  - CPM-800-1-EA
+  - CPM-800-1-EA
+  - REM-4R0-W
+  - REM-4R0-W
+  - DSM-8NM-E
+  - DSM-8NM-E
+  - REM-0R4-2-W
+  - REM-0R4-2-W
+  - REM-0R4-2-N
+  - REM-0R4-2-N
+  - CPM-800-1-AM
+  - CPM-800-1-AM
+  - VMR-8HS20-2
+  - VMR-8HS20-2
+  - REM-4R4-2
+  - REM-4R4-2
+  - CPM-800-1-A
+  - CPM-800-1-A
+  - REM-0R4-2-NE
+  - REM-0R4-2-NE
+  - REM-4R0-E
+  - REM-4R0-E
+  - CPM-800-2-EA
+  - CPM-800-2-EA
+  - REM-0R4-2-E
+  - REM-0R4-2-E
+  - CPM-800-1-ECA
+  - CPM-800-1-ECA
+  - REM-0R4-2-WE
+  - REM-0R4-2-WE
+  - DSM-40NM-E
+  - DSM-40NM-E
+  - CPM-800-2-AM
+  - CPM-800-2-AM
+  - CPM-800-2-A-VZW
+  - CPM-800-2-A-VZW
+  - DSM-24NM-DP
+  - DSM-24NM-DP
+  - DSM-8NM
+  - DSM-8NM
+  - REM-4R4-1-E
+  - REM-4R4-1-E
 models:
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-0R4-1-W
-  part_number: REM-0R4-1-W
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: PS1
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-0r4-1-w
-  u_height: 1
-- airflow: passive
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: NBB-20VD20-1
-  part_number: NBB-20VD20-1
-  power-outlets:
-  - name: Outlet_A1
-    type: nema-5-15r
-  - name: Outlet_A2
-    type: nema-5-15r
-  - name: Outlet_A3
-    type: nema-5-15r
-  - name: Outlet_A4
-    type: nema-5-15r
-  - name: Outlet_A5
-    type: nema-5-15r
-  - name: Outlet_A6
-    type: nema-5-15r
-  - name: Outlet_A7
-    type: nema-5-15r
-  - name: Outlet_A8
-    type: nema-5-15r
-  - name: Outlet_A9
-    type: nema-5-15r
-  - name: Outlet_A10
-    type: nema-5-15r
-  - name: Outlet_A11
-    type: nema-5-15r
-  - name: Outlet_A12
-    type: nema-5-15r
-  - name: Outlet_A13
-    type: nema-5-15r
-  - name: Outlet_A14
-    type: nema-5-15r
-  - name: Outlet_A15
-    type: nema-5-15r
-  - name: Outlet_A16
-    type: nema-5-15r
-  - name: Outlet_A17
-    type: nema-5-15r
-  - name: Outlet_A18
-    type: nema-5-15r
-  - name: Outlet_A19
-    type: nema-5-15r
-  - name: Outlet_A20
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-nbb-20vd20-1
-  u_height: 0
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R4-1-WE
-  part_number: REM-4R4-1-WE
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: PS1
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r4-1-we
-  u_height: 1
-- airflow: passive
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: VMR-16HD20-2
-  part_number: VMR-16HD20-2
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A5
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A6
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A7
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A8
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_B1
-    power_port: PS2
-    type: iec-60320-c13
-  - name: Outlet_B2
-    power_port: PS2
-    type: iec-60320-c13
-  - name: Outlet_B3
-    power_port: PS2
-    type: iec-60320-c13
-  - name: Outlet_B4
-    power_port: PS2
-    type: iec-60320-c13
-  - name: Outlet_B5
-    power_port: PS2
-    type: iec-60320-c13
-  - name: Outlet_B6
-    power_port: PS2
-    type: iec-60320-c13
-  - name: Outlet_B7
-    power_port: PS2
-    type: iec-60320-c13
-  - name: Outlet_B8
-    power_port: PS2
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-vmr-16hd20-2
-  u_height: 2
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: CPM-800-1-A-VZW
-  part_number: CPM-800-1-A-VZW
-  power-outlets:
-  - name: Outlet_A1
-    type: nema-5-15r
-  - name: Outlet_A2
-    type: nema-5-15r
-  - name: Outlet_A3
-    type: nema-5-15r
-  - name: Outlet_A4
-    type: nema-5-15r
-  - name: Outlet_A5
-    type: nema-5-15r
-  - name: Outlet_A6
-    type: nema-5-15r
-  - name: Outlet_A7
-    type: nema-5-15r
-  - name: Outlet_A8
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-cpm-800-1-a-vzw
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: CPM-800-2-A
-  part_number: CPM-800-2-A
-  power-outlets:
-  - name: Outlet_A1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    type: iec-60320-c13
-  - name: Outlet_A3
-    type: iec-60320-c13
-  - name: Outlet_A4
-    type: iec-60320-c13
-  - name: Outlet_A5
-    type: iec-60320-c13
-  - name: Outlet_A6
-    type: iec-60320-c13
-  - name: Outlet_A7
-    type: iec-60320-c13
-  - name: Outlet_A8
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-cpm-800-2-a
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: DSM-8NM-DP
-  part_number: DSM-8NM-DP
-  power-ports:
-  - allocated_draw: 3
-    maximum_draw: 6
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 3
-    maximum_draw: 6
-    name: PS2
-    type: iec-60320-c14
-  slug: wti-dsm-8nm-dp
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  - name: port9
-    type: rj-45
-  - name: port10
-    type: rj-45
-  - name: port11
-    type: rj-45
-  - name: port12
-    type: rj-45
-  - name: port13
-    type: rj-45
-  - name: port14
-    type: rj-45
-  - name: port15
-    type: rj-45
-  - name: port16
-    type: rj-45
-  - name: port17
-    type: rj-45
-  - name: port18
-    type: rj-45
-  - name: port19
-    type: rj-45
-  - name: port20
-    type: rj-45
-  - name: port21
-    type: rj-45
-  - name: port22
-    type: rj-45
-  - name: port23
-    type: rj-45
-  - name: port24
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: DSM-24NM-E
-  part_number: DSM-24NM-E
-  power-ports:
-  - allocated_draw: 4
-    maximum_draw: 8
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 4
-    maximum_draw: 8
-    name: PS2
-    type: iec-60320-c14
-  slug: wti-dsm-24nm-e
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-0R4-1-N
-  part_number: REM-0R4-1-N
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: PS1
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-0r4-1-n
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R4-1-NE
-  part_number: REM-4R4-1-NE
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: PS1
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r4-1-ne
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: CPM-800-1-E
-  part_number: CPM-800-1-E
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A5
-    power_port: PS2
-    type: nema-5-15r
-  - name: Outlet_A6
-    power_port: PS2
-    type: nema-5-15r
-  - name: Outlet_A7
-    power_port: PS2
-    type: nema-5-15r
-  - name: Outlet_A8
-    power_port: PS2
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-cpm-800-1-e
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R4-2-N
-  part_number: REM-4R4-2-N
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r4-2-n
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R0
-  part_number: REM-4R0
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r0
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  - name: Modem
-    type: rj-11
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  - name: port9
-    type: rj-45
-  - name: port10
-    type: rj-45
-  - name: port11
-    type: rj-45
-  - name: port12
-    type: rj-45
-  - name: port13
-    type: rj-45
-  - name: port14
-    type: rj-45
-  - name: port15
-    type: rj-45
-  - name: port16
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: CPM-1600-1-ECAM
-  part_number: CPM-1600-1-ECAM
-  power-outlets:
-  - name: Outlet_A1
-    type: nema-5-15r
-  - name: Outlet_A2
-    type: nema-5-15r
-  - name: Outlet_A3
-    type: nema-5-15r
-  - name: Outlet_A4
-    type: nema-5-15r
-  - name: Outlet_A5
-    type: nema-5-15r
-  - name: Outlet_A6
-    type: nema-5-15r
-  - name: Outlet_A7
-    type: nema-5-15r
-  - name: Outlet_A8
-    type: nema-5-15r
-  - name: Outlet_B1
-    type: nema-5-15r
-  - name: Outlet_B2
-    type: nema-5-15r
-  - name: Outlet_B3
-    type: nema-5-15r
-  - name: Outlet_B4
-    type: nema-5-15r
-  - name: Outlet_B5
-    type: nema-5-15r
-  - name: Outlet_B6
-    type: nema-5-15r
-  - name: Outlet_B7
-    type: nema-5-15r
-  - name: Outlet_B8
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 7
-    maximum_draw: 14
-    name: PRIMARY1
-    type: iec-60320-c20
-  - allocated_draw: 7
-    maximum_draw: 14
-    name: SECONDARY1
-    type: iec-60320-c20
-  - allocated_draw: 7
-    maximum_draw: 14
-    name: PRIMARY2
-    type: iec-60320-c20
-  - allocated_draw: 7
-    maximum_draw: 14
-    name: SECONDARY2
-    type: iec-60320-c20
-  slug: wti-cpm-1600-1-ecam
-  u_height: 2
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R4-2-W
-  part_number: REM-4R4-2-W
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r4-2-w
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  - name: port9
-    type: rj-45
-  - name: port10
-    type: rj-45
-  - name: port11
-    type: rj-45
-  - name: port12
-    type: rj-45
-  - name: port13
-    type: rj-45
-  - name: port14
-    type: rj-45
-  - name: port15
-    type: rj-45
-  - name: port16
-    type: rj-45
-  - name: port17
-    type: rj-45
-  - name: port18
-    type: rj-45
-  - name: port19
-    type: rj-45
-  - name: port20
-    type: rj-45
-  - name: port21
-    type: rj-45
-  - name: port22
-    type: rj-45
-  - name: port23
-    type: rj-45
-  - name: port24
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: DSM-24NM
-  part_number: DSM-24NM
-  power-ports:
-  - allocated_draw: 4
-    maximum_draw: 8
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-dsm-24nm
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R0-NE
-  part_number: REM-4R0-NE
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r0-ne
-  u_height: 1
-- airflow: passive
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: VMR-8HS20-1
-  part_number: VMR-8HS20-1
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A5
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A6
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A7
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A8
-    power_port: PS1
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  slug: wti-vmr-8hs20-1
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R4-2-NE
-  part_number: REM-4R4-2-NE
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r4-2-ne
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R4-1
-  part_number: REM-4R4-1
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: PS1
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r4-1
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R4-2-WE
-  part_number: REM-4R4-2-WE
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r4-2-we
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R0-WE
-  part_number: REM-4R0-WE
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r0-we
-  u_height: 1
-- airflow: passive
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: VMR-HD4D16H
-  part_number: VMR-HD4D16H
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c19
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c19
-  - name: Outlet_A3
-    power_port: PS2
-    type: iec-60320-c19
-  - name: Outlet_A4
-    power_port: PS2
-    type: iec-60320-c19
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-vmr-hd4d16h
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R4-2-E
-  part_number: REM-4R4-2-E
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r4-2-e
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-0R4-1-E
-  part_number: REM-0R4-1-E
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: PS1
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-0r4-1-e
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-0R4-2
-  part_number: REM-0R4-2
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-0r4-2
-  u_height: 1
-- airflow: passive
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: VMR-8H20-ATS-2
-  part_number: VMR-8H20-ATS-2
-  power-outlets:
-  - name: Outlet_A1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    type: iec-60320-c13
-  - name: Outlet_A3
-    type: iec-60320-c13
-  - name: Outlet_A4
-    type: iec-60320-c13
-  - name: Outlet_A5
-    type: iec-60320-c13
-  - name: Outlet_A6
-    type: iec-60320-c13
-  - name: Outlet_A7
-    type: iec-60320-c13
-  - name: Outlet_A8
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-vmr-8h20-ats-2
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  - name: port9
-    type: rj-45
-  - name: port10
-    type: rj-45
-  - name: port11
-    type: rj-45
-  - name: port12
-    type: rj-45
-  - name: port13
-    type: rj-45
-  - name: port14
-    type: rj-45
-  - name: port15
-    type: rj-45
-  - name: port16
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: CPM-1600-1-EC
-  part_number: CPM-1600-1-EC
-  power-outlets:
-  - name: Outlet_A1
-    power_port: A1-A4
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: A1-A4
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: A1-A4
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: A1-A4
-    type: nema-5-15r
-  - name: Outlet_A5
-    power_port: A5-A8
-    type: nema-5-15r
-  - name: Outlet_A6
-    power_port: A5-A8
-    type: nema-5-15r
-  - name: Outlet_A7
-    power_port: A5-A8
-    type: nema-5-15r
-  - name: Outlet_A8
-    power_port: A5-A8
-    type: nema-5-15r
-  - name: Outlet_B1
-    power_port: B1-B4
-    type: nema-5-15r
-  - name: Outlet_B2
-    power_port: B1-B4
-    type: nema-5-15r
-  - name: Outlet_B3
-    power_port: B1-B4
-    type: nema-5-15r
-  - name: Outlet_B4
-    power_port: B1-B4
-    type: nema-5-15r
-  - name: Outlet_B5
-    power_port: B5-B8
-    type: nema-5-15r
-  - name: Outlet_B6
-    power_port: B5-B8
-    type: nema-5-15r
-  - name: Outlet_B7
-    power_port: B5-B8
-    type: nema-5-15r
-  - name: Outlet_B8
-    power_port: B5-B8
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 7
-    maximum_draw: 14
-    name: A1-A4
-    type: iec-60320-c20
-  - allocated_draw: 7
-    maximum_draw: 14
-    name: A5-A8
-    type: iec-60320-c20
-  - allocated_draw: 7
-    maximum_draw: 14
-    name: B1-B4
-    type: iec-60320-c20
-  - allocated_draw: 7
-    maximum_draw: 14
-    name: B5-B8
-    type: iec-60320-c20
-  slug: wti-cpm-1600-1-ec
-  u_height: 2
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  - name: port9
-    type: rj-45
-  - name: port10
-    type: rj-45
-  - name: port11
-    type: rj-45
-  - name: port12
-    type: rj-45
-  - name: port13
-    type: rj-45
-  - name: port14
-    type: rj-45
-  - name: port15
-    type: rj-45
-  - name: port16
-    type: rj-45
-  - name: port17
-    type: rj-45
-  - name: port18
-    type: rj-45
-  - name: port19
-    type: rj-45
-  - name: port20
-    type: rj-45
-  - name: port21
-    type: rj-45
-  - name: port22
-    type: rj-45
-  - name: port23
-    type: rj-45
-  - name: port24
-    type: rj-45
-  - name: port25
-    type: rj-45
-  - name: port26
-    type: rj-45
-  - name: port27
-    type: rj-45
-  - name: port28
-    type: rj-45
-  - name: port29
-    type: rj-45
-  - name: port30
-    type: rj-45
-  - name: port31
-    type: rj-45
-  - name: port32
-    type: rj-45
-  - name: port33
-    type: rj-45
-  - name: port34
-    type: rj-45
-  - name: port35
-    type: rj-45
-  - name: port36
-    type: rj-45
-  - name: port37
-    type: rj-45
-  - name: port38
-    type: rj-45
-  - name: port39
-    type: rj-45
-  - name: port40
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: DSM-40NM
-  part_number: DSM-40NM
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-dsm-40nm
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R4-1-N
-  part_number: REM-4R4-1-N
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: PS1
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r4-1-n
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: CPM-800-2-E
-  part_number: CPM-800-2-E
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A5
-    power_port: PS2
-    type: iec-60320-c13
-  - name: Outlet_A6
-    power_port: PS2
-    type: iec-60320-c13
-  - name: Outlet_A7
-    power_port: PS2
-    type: iec-60320-c13
-  - name: Outlet_A8
-    power_port: PS2
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-cpm-800-2-e
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-0R4-1-WE
-  part_number: REM-0R4-1-WE
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: PS1
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-0r4-1-we
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R4-1-W
-  part_number: REM-4R4-1-W
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: PS1
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r4-1-w
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-0R4-1-NE
-  part_number: REM-0R4-1-NE
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: PS1
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-0r4-1-ne
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-0R4-1
-  part_number: REM-0R4-1
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: PS1
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-0r4-1
-  u_height: 1
-- airflow: passive
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: NPS-8H20-ATS-1
-  part_number: NPS-8H20-ATS-1
-  power-outlets:
-  - name: Outlet_A1
-    type: nema-5-15r
-  - name: Outlet_A2
-    type: nema-5-15r
-  - name: Outlet_A3
-    type: nema-5-15r
-  - name: Outlet_A4
-    type: nema-5-15r
-  - name: Outlet_A5
-    type: nema-5-15r
-  - name: Outlet_A6
-    type: nema-5-15r
-  - name: Outlet_A7
-    type: nema-5-15r
-  - name: Outlet_A8
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-nps-8h20-ats-1
-  u_height: 1
-- airflow: passive
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: VMR-8H20-ATS-1
-  part_number: VMR-8H20-ATS-1
-  power-outlets:
-  - name: Outlet_A1
-    type: nema-5-15r
-  - name: Outlet_A2
-    type: nema-5-15r
-  - name: Outlet_A3
-    type: nema-5-15r
-  - name: Outlet_A4
-    type: nema-5-15r
-  - name: Outlet_A5
-    type: nema-5-15r
-  - name: Outlet_A6
-    type: nema-5-15r
-  - name: Outlet_A7
-    type: nema-5-15r
-  - name: Outlet_A8
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-vmr-8h20-ats-1
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  - name: port9
-    type: rj-45
-  - name: port10
-    type: rj-45
-  - name: port11
-    type: rj-45
-  - name: port12
-    type: rj-45
-  - name: port13
-    type: rj-45
-  - name: port14
-    type: rj-45
-  - name: port15
-    type: rj-45
-  - name: port16
-    type: rj-45
-  - name: port17
-    type: rj-45
-  - name: port18
-    type: rj-45
-  - name: port19
-    type: rj-45
-  - name: port20
-    type: rj-45
-  - name: port21
-    type: rj-45
-  - name: port22
-    type: rj-45
-  - name: port23
-    type: rj-45
-  - name: port24
-    type: rj-45
-  - name: port25
-    type: rj-45
-  - name: port26
-    type: rj-45
-  - name: port27
-    type: rj-45
-  - name: port28
-    type: rj-45
-  - name: port29
-    type: rj-45
-  - name: port30
-    type: rj-45
-  - name: port31
-    type: rj-45
-  - name: port32
-    type: rj-45
-  - name: port33
-    type: rj-45
-  - name: port34
-    type: rj-45
-  - name: port35
-    type: rj-45
-  - name: port36
-    type: rj-45
-  - name: port37
-    type: rj-45
-  - name: port38
-    type: rj-45
-  - name: port39
-    type: rj-45
-  - name: port40
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: DSM-40NM-DP
-  part_number: DSM-40NM-DP
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c14
-  slug: wti-dsm-40nm-dp
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: CPM-800-1-EA
-  part_number: CPM-800-1-EA
-  power-outlets:
-  - name: Outlet_A1
-    type: nema-5-15r
-  - name: Outlet_A2
-    type: nema-5-15r
-  - name: Outlet_A3
-    type: nema-5-15r
-  - name: Outlet_A4
-    type: nema-5-15r
-  - name: Outlet_A5
-    type: nema-5-15r
-  - name: Outlet_A6
-    type: nema-5-15r
-  - name: Outlet_A7
-    type: nema-5-15r
-  - name: Outlet_A8
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-cpm-800-1-ea
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R0-W
-  part_number: REM-4R0-W
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r0-w
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: DSM-8NM-E
-  part_number: DSM-8NM-E
-  power-ports:
-  - allocated_draw: 3
-    maximum_draw: 6
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 3
-    maximum_draw: 6
-    name: PS2
-    type: iec-60320-c14
-  slug: wti-dsm-8nm-e
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-0R4-2-W
-  part_number: REM-0R4-2-W
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-0r4-2-w
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-0R4-2-N
-  part_number: REM-0R4-2-N
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-0r4-2-n
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  - name: Modem
-    type: rj-11
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: CPM-800-1-AM
-  part_number: CPM-800-1-AM
-  power-outlets:
-  - name: Outlet_A1
-    type: nema-5-15r
-  - name: Outlet_A2
-    type: nema-5-15r
-  - name: Outlet_A3
-    type: nema-5-15r
-  - name: Outlet_A4
-    type: nema-5-15r
-  - name: Outlet_A5
-    type: nema-5-15r
-  - name: Outlet_A6
-    type: nema-5-15r
-  - name: Outlet_A7
-    type: nema-5-15r
-  - name: Outlet_A8
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-cpm-800-1-am
-  u_height: 1
-- airflow: passive
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: VMR-8HS20-2
-  part_number: VMR-8HS20-2
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A5
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A6
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A7
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A8
-    power_port: PS1
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  slug: wti-vmr-8hs20-2
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R4-2
-  part_number: REM-4R4-2
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r4-2
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: CPM-800-1-A
-  part_number: CPM-800-1-A
-  power-outlets:
-  - name: Outlet_A1
-    type: nema-5-15r
-  - name: Outlet_A2
-    type: nema-5-15r
-  - name: Outlet_A3
-    type: nema-5-15r
-  - name: Outlet_A4
-    type: nema-5-15r
-  - name: Outlet_A5
-    type: nema-5-15r
-  - name: Outlet_A6
-    type: nema-5-15r
-  - name: Outlet_A7
-    type: nema-5-15r
-  - name: Outlet_A8
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-cpm-800-1-a
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-0R4-2-NE
-  part_number: REM-0R4-2-NE
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-0r4-2-ne
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R0-E
-  part_number: REM-4R0-E
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r0-e
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: CPM-800-2-EA
-  part_number: CPM-800-2-EA
-  power-outlets:
-  - name: Outlet_A1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    type: iec-60320-c13
-  - name: Outlet_A3
-    type: iec-60320-c13
-  - name: Outlet_A4
-    type: iec-60320-c13
-  - name: Outlet_A5
-    type: iec-60320-c13
-  - name: Outlet_A6
-    type: iec-60320-c13
-  - name: Outlet_A7
-    type: iec-60320-c13
-  - name: Outlet_A8
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-cpm-800-2-ea
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-0R4-2-E
-  part_number: REM-0R4-2-E
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-0r4-2-e
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: CPM-800-1-ECA
-  part_number: CPM-800-1-ECA
-  power-outlets:
-  - name: Outlet_A1
-    type: nema-5-15r
-  - name: Outlet_A2
-    type: nema-5-15r
-  - name: Outlet_A3
-    type: nema-5-15r
-  - name: Outlet_A4
-    type: nema-5-15r
-  - name: Outlet_A5
-    type: nema-5-15r
-  - name: Outlet_A6
-    type: nema-5-15r
-  - name: Outlet_A7
-    type: nema-5-15r
-  - name: Outlet_A8
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-cpm-800-1-eca
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-0R4-2-WE
-  part_number: REM-0R4-2-WE
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A3
-    power_port: PS1
-    type: iec-60320-c13
-  - name: Outlet_A4
-    power_port: PS1
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-0r4-2-we
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  - name: port9
-    type: rj-45
-  - name: port10
-    type: rj-45
-  - name: port11
-    type: rj-45
-  - name: port12
-    type: rj-45
-  - name: port13
-    type: rj-45
-  - name: port14
-    type: rj-45
-  - name: port15
-    type: rj-45
-  - name: port16
-    type: rj-45
-  - name: port17
-    type: rj-45
-  - name: port18
-    type: rj-45
-  - name: port19
-    type: rj-45
-  - name: port20
-    type: rj-45
-  - name: port21
-    type: rj-45
-  - name: port22
-    type: rj-45
-  - name: port23
-    type: rj-45
-  - name: port24
-    type: rj-45
-  - name: port25
-    type: rj-45
-  - name: port26
-    type: rj-45
-  - name: port27
-    type: rj-45
-  - name: port28
-    type: rj-45
-  - name: port29
-    type: rj-45
-  - name: port30
-    type: rj-45
-  - name: port31
-    type: rj-45
-  - name: port32
-    type: rj-45
-  - name: port33
-    type: rj-45
-  - name: port34
-    type: rj-45
-  - name: port35
-    type: rj-45
-  - name: port36
-    type: rj-45
-  - name: port37
-    type: rj-45
-  - name: port38
-    type: rj-45
-  - name: port39
-    type: rj-45
-  - name: port40
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: DSM-40NM-E
-  part_number: DSM-40NM-E
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c14
-  slug: wti-dsm-40nm-e
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  - name: Modem
-    type: rj-11
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: CPM-800-2-AM
-  part_number: CPM-800-2-AM
-  power-outlets:
-  - name: Outlet_A1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    type: iec-60320-c13
-  - name: Outlet_A3
-    type: iec-60320-c13
-  - name: Outlet_A4
-    type: iec-60320-c13
-  - name: Outlet_A5
-    type: iec-60320-c13
-  - name: Outlet_A6
-    type: iec-60320-c13
-  - name: Outlet_A7
-    type: iec-60320-c13
-  - name: Outlet_A8
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-cpm-800-2-am
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: PPP0
-    type: lte
-  is_full_depth: false
-  manufacturer: WTI
-  model: CPM-800-2-A-VZW
-  part_number: CPM-800-2-A-VZW
-  power-outlets:
-  - name: Outlet_A1
-    type: iec-60320-c13
-  - name: Outlet_A2
-    type: iec-60320-c13
-  - name: Outlet_A3
-    type: iec-60320-c13
-  - name: Outlet_A4
-    type: iec-60320-c13
-  - name: Outlet_A5
-    type: iec-60320-c13
-  - name: Outlet_A6
-    type: iec-60320-c13
-  - name: Outlet_A7
-    type: iec-60320-c13
-  - name: Outlet_A8
-    type: iec-60320-c13
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c20
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS2
-    type: iec-60320-c20
-  slug: wti-cpm-800-2-a-vzw
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  - name: port9
-    type: rj-45
-  - name: port10
-    type: rj-45
-  - name: port11
-    type: rj-45
-  - name: port12
-    type: rj-45
-  - name: port13
-    type: rj-45
-  - name: port14
-    type: rj-45
-  - name: port15
-    type: rj-45
-  - name: port16
-    type: rj-45
-  - name: port17
-    type: rj-45
-  - name: port18
-    type: rj-45
-  - name: port19
-    type: rj-45
-  - name: port20
-    type: rj-45
-  - name: port21
-    type: rj-45
-  - name: port22
-    type: rj-45
-  - name: port23
-    type: rj-45
-  - name: port24
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: DSM-24NM-DP
-  part_number: DSM-24NM-DP
-  power-ports:
-  - allocated_draw: 4
-    maximum_draw: 8
-    name: PS1
-    type: iec-60320-c14
-  - allocated_draw: 4
-    maximum_draw: 8
-    name: PS2
-    type: iec-60320-c14
-  slug: wti-dsm-24nm-dp
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: port5
-    type: rj-45
-  - name: port6
-    type: rj-45
-  - name: port7
-    type: rj-45
-  - name: port8
-    type: rj-45
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: DSM-8NM
-  part_number: DSM-8NM
-  power-ports:
-  - allocated_draw: 3
-    maximum_draw: 6
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-dsm-8nm
-  u_height: 1
-- airflow: passive
-  console-ports:
-  - name: Console
-    type: usb-mini-b
-  console-server-ports:
-  - name: port1
-    type: rj-45
-  - name: port2
-    type: rj-45
-  - name: port3
-    type: rj-45
-  - name: port4
-    type: rj-45
-  - name: U1
-    type: usb-a
-  - name: U2
-    type: usb-a
-  interfaces:
-  - name: ETH0
-    type: 1000base-t
-  - name: ETH1
-    type: 1000base-t
-  is_full_depth: false
-  manufacturer: WTI
-  model: REM-4R4-1-E
-  part_number: REM-4R4-1-E
-  power-outlets:
-  - name: Outlet_A1
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A2
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A3
-    power_port: PS1
-    type: nema-5-15r
-  - name: Outlet_A4
-    power_port: PS1
-    type: nema-5-15r
-  power-ports:
-  - allocated_draw: 5
-    maximum_draw: 10
-    name: PS1
-    type: iec-60320-c14
-  slug: wti-rem-4r4-1-e
-  u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-0R4-1-W
+    part_number: REM-0R4-1-W
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: PS1
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-0r4-1-w
+    u_height: 1
+  - airflow: passive
+    console-server-ports:
+      - name: port1
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: NBB-20VD20-1
+    part_number: NBB-20VD20-1
+    power-outlets:
+      - name: Outlet_A1
+        type: nema-5-15r
+      - name: Outlet_A2
+        type: nema-5-15r
+      - name: Outlet_A3
+        type: nema-5-15r
+      - name: Outlet_A4
+        type: nema-5-15r
+      - name: Outlet_A5
+        type: nema-5-15r
+      - name: Outlet_A6
+        type: nema-5-15r
+      - name: Outlet_A7
+        type: nema-5-15r
+      - name: Outlet_A8
+        type: nema-5-15r
+      - name: Outlet_A9
+        type: nema-5-15r
+      - name: Outlet_A10
+        type: nema-5-15r
+      - name: Outlet_A11
+        type: nema-5-15r
+      - name: Outlet_A12
+        type: nema-5-15r
+      - name: Outlet_A13
+        type: nema-5-15r
+      - name: Outlet_A14
+        type: nema-5-15r
+      - name: Outlet_A15
+        type: nema-5-15r
+      - name: Outlet_A16
+        type: nema-5-15r
+      - name: Outlet_A17
+        type: nema-5-15r
+      - name: Outlet_A18
+        type: nema-5-15r
+      - name: Outlet_A19
+        type: nema-5-15r
+      - name: Outlet_A20
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-nbb-20vd20-1
+    u_height: 0
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R4-1-WE
+    part_number: REM-4R4-1-WE
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: PS1
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r4-1-we
+    u_height: 1
+  - airflow: passive
+    console-server-ports:
+      - name: port1
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: VMR-16HD20-2
+    part_number: VMR-16HD20-2
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A5
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A6
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A7
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A8
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_B1
+        power_port: PS2
+        type: iec-60320-c13
+      - name: Outlet_B2
+        power_port: PS2
+        type: iec-60320-c13
+      - name: Outlet_B3
+        power_port: PS2
+        type: iec-60320-c13
+      - name: Outlet_B4
+        power_port: PS2
+        type: iec-60320-c13
+      - name: Outlet_B5
+        power_port: PS2
+        type: iec-60320-c13
+      - name: Outlet_B6
+        power_port: PS2
+        type: iec-60320-c13
+      - name: Outlet_B7
+        power_port: PS2
+        type: iec-60320-c13
+      - name: Outlet_B8
+        power_port: PS2
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-vmr-16hd20-2
+    u_height: 2
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: CPM-800-1-A-VZW
+    part_number: CPM-800-1-A-VZW
+    power-outlets:
+      - name: Outlet_A1
+        type: nema-5-15r
+      - name: Outlet_A2
+        type: nema-5-15r
+      - name: Outlet_A3
+        type: nema-5-15r
+      - name: Outlet_A4
+        type: nema-5-15r
+      - name: Outlet_A5
+        type: nema-5-15r
+      - name: Outlet_A6
+        type: nema-5-15r
+      - name: Outlet_A7
+        type: nema-5-15r
+      - name: Outlet_A8
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-cpm-800-1-a-vzw
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: CPM-800-2-A
+    part_number: CPM-800-2-A
+    power-outlets:
+      - name: Outlet_A1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        type: iec-60320-c13
+      - name: Outlet_A3
+        type: iec-60320-c13
+      - name: Outlet_A4
+        type: iec-60320-c13
+      - name: Outlet_A5
+        type: iec-60320-c13
+      - name: Outlet_A6
+        type: iec-60320-c13
+      - name: Outlet_A7
+        type: iec-60320-c13
+      - name: Outlet_A8
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-cpm-800-2-a
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: DSM-8NM-DP
+    part_number: DSM-8NM-DP
+    power-ports:
+      - allocated_draw: 3
+        maximum_draw: 6
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 3
+        maximum_draw: 6
+        name: PS2
+        type: iec-60320-c14
+    slug: wti-dsm-8nm-dp
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+      - name: port9
+        type: rj-45
+      - name: port10
+        type: rj-45
+      - name: port11
+        type: rj-45
+      - name: port12
+        type: rj-45
+      - name: port13
+        type: rj-45
+      - name: port14
+        type: rj-45
+      - name: port15
+        type: rj-45
+      - name: port16
+        type: rj-45
+      - name: port17
+        type: rj-45
+      - name: port18
+        type: rj-45
+      - name: port19
+        type: rj-45
+      - name: port20
+        type: rj-45
+      - name: port21
+        type: rj-45
+      - name: port22
+        type: rj-45
+      - name: port23
+        type: rj-45
+      - name: port24
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: DSM-24NM-E
+    part_number: DSM-24NM-E
+    power-ports:
+      - allocated_draw: 4
+        maximum_draw: 8
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 4
+        maximum_draw: 8
+        name: PS2
+        type: iec-60320-c14
+    slug: wti-dsm-24nm-e
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-0R4-1-N
+    part_number: REM-0R4-1-N
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: PS1
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-0r4-1-n
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R4-1-NE
+    part_number: REM-4R4-1-NE
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: PS1
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r4-1-ne
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: CPM-800-1-E
+    part_number: CPM-800-1-E
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A5
+        power_port: PS2
+        type: nema-5-15r
+      - name: Outlet_A6
+        power_port: PS2
+        type: nema-5-15r
+      - name: Outlet_A7
+        power_port: PS2
+        type: nema-5-15r
+      - name: Outlet_A8
+        power_port: PS2
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-cpm-800-1-e
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R4-2-N
+    part_number: REM-4R4-2-N
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r4-2-n
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R0
+    part_number: REM-4R0
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r0
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+      - name: Modem
+        type: rj-11
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+      - name: port9
+        type: rj-45
+      - name: port10
+        type: rj-45
+      - name: port11
+        type: rj-45
+      - name: port12
+        type: rj-45
+      - name: port13
+        type: rj-45
+      - name: port14
+        type: rj-45
+      - name: port15
+        type: rj-45
+      - name: port16
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: CPM-1600-1-ECAM
+    part_number: CPM-1600-1-ECAM
+    power-outlets:
+      - name: Outlet_A1
+        type: nema-5-15r
+      - name: Outlet_A2
+        type: nema-5-15r
+      - name: Outlet_A3
+        type: nema-5-15r
+      - name: Outlet_A4
+        type: nema-5-15r
+      - name: Outlet_A5
+        type: nema-5-15r
+      - name: Outlet_A6
+        type: nema-5-15r
+      - name: Outlet_A7
+        type: nema-5-15r
+      - name: Outlet_A8
+        type: nema-5-15r
+      - name: Outlet_B1
+        type: nema-5-15r
+      - name: Outlet_B2
+        type: nema-5-15r
+      - name: Outlet_B3
+        type: nema-5-15r
+      - name: Outlet_B4
+        type: nema-5-15r
+      - name: Outlet_B5
+        type: nema-5-15r
+      - name: Outlet_B6
+        type: nema-5-15r
+      - name: Outlet_B7
+        type: nema-5-15r
+      - name: Outlet_B8
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 7
+        maximum_draw: 14
+        name: PRIMARY1
+        type: iec-60320-c20
+      - allocated_draw: 7
+        maximum_draw: 14
+        name: SECONDARY1
+        type: iec-60320-c20
+      - allocated_draw: 7
+        maximum_draw: 14
+        name: PRIMARY2
+        type: iec-60320-c20
+      - allocated_draw: 7
+        maximum_draw: 14
+        name: SECONDARY2
+        type: iec-60320-c20
+    slug: wti-cpm-1600-1-ecam
+    u_height: 2
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R4-2-W
+    part_number: REM-4R4-2-W
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r4-2-w
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+      - name: port9
+        type: rj-45
+      - name: port10
+        type: rj-45
+      - name: port11
+        type: rj-45
+      - name: port12
+        type: rj-45
+      - name: port13
+        type: rj-45
+      - name: port14
+        type: rj-45
+      - name: port15
+        type: rj-45
+      - name: port16
+        type: rj-45
+      - name: port17
+        type: rj-45
+      - name: port18
+        type: rj-45
+      - name: port19
+        type: rj-45
+      - name: port20
+        type: rj-45
+      - name: port21
+        type: rj-45
+      - name: port22
+        type: rj-45
+      - name: port23
+        type: rj-45
+      - name: port24
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: DSM-24NM
+    part_number: DSM-24NM
+    power-ports:
+      - allocated_draw: 4
+        maximum_draw: 8
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-dsm-24nm
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R0-NE
+    part_number: REM-4R0-NE
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r0-ne
+    u_height: 1
+  - airflow: passive
+    console-server-ports:
+      - name: port1
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: VMR-8HS20-1
+    part_number: VMR-8HS20-1
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A5
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A6
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A7
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A8
+        power_port: PS1
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+    slug: wti-vmr-8hs20-1
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R4-2-NE
+    part_number: REM-4R4-2-NE
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r4-2-ne
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R4-1
+    part_number: REM-4R4-1
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: PS1
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r4-1
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R4-2-WE
+    part_number: REM-4R4-2-WE
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r4-2-we
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R0-WE
+    part_number: REM-4R0-WE
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r0-we
+    u_height: 1
+  - airflow: passive
+    console-server-ports:
+      - name: port1
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: VMR-HD4D16H
+    part_number: VMR-HD4D16H
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c19
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c19
+      - name: Outlet_A3
+        power_port: PS2
+        type: iec-60320-c19
+      - name: Outlet_A4
+        power_port: PS2
+        type: iec-60320-c19
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-vmr-hd4d16h
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R4-2-E
+    part_number: REM-4R4-2-E
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r4-2-e
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-0R4-1-E
+    part_number: REM-0R4-1-E
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: PS1
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-0r4-1-e
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-0R4-2
+    part_number: REM-0R4-2
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-0r4-2
+    u_height: 1
+  - airflow: passive
+    console-server-ports:
+      - name: port1
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: VMR-8H20-ATS-2
+    part_number: VMR-8H20-ATS-2
+    power-outlets:
+      - name: Outlet_A1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        type: iec-60320-c13
+      - name: Outlet_A3
+        type: iec-60320-c13
+      - name: Outlet_A4
+        type: iec-60320-c13
+      - name: Outlet_A5
+        type: iec-60320-c13
+      - name: Outlet_A6
+        type: iec-60320-c13
+      - name: Outlet_A7
+        type: iec-60320-c13
+      - name: Outlet_A8
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-vmr-8h20-ats-2
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+      - name: port9
+        type: rj-45
+      - name: port10
+        type: rj-45
+      - name: port11
+        type: rj-45
+      - name: port12
+        type: rj-45
+      - name: port13
+        type: rj-45
+      - name: port14
+        type: rj-45
+      - name: port15
+        type: rj-45
+      - name: port16
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: CPM-1600-1-EC
+    part_number: CPM-1600-1-EC
+    power-outlets:
+      - name: Outlet_A1
+        power_port: A1-A4
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: A1-A4
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: A1-A4
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: A1-A4
+        type: nema-5-15r
+      - name: Outlet_A5
+        power_port: A5-A8
+        type: nema-5-15r
+      - name: Outlet_A6
+        power_port: A5-A8
+        type: nema-5-15r
+      - name: Outlet_A7
+        power_port: A5-A8
+        type: nema-5-15r
+      - name: Outlet_A8
+        power_port: A5-A8
+        type: nema-5-15r
+      - name: Outlet_B1
+        power_port: B1-B4
+        type: nema-5-15r
+      - name: Outlet_B2
+        power_port: B1-B4
+        type: nema-5-15r
+      - name: Outlet_B3
+        power_port: B1-B4
+        type: nema-5-15r
+      - name: Outlet_B4
+        power_port: B1-B4
+        type: nema-5-15r
+      - name: Outlet_B5
+        power_port: B5-B8
+        type: nema-5-15r
+      - name: Outlet_B6
+        power_port: B5-B8
+        type: nema-5-15r
+      - name: Outlet_B7
+        power_port: B5-B8
+        type: nema-5-15r
+      - name: Outlet_B8
+        power_port: B5-B8
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 7
+        maximum_draw: 14
+        name: A1-A4
+        type: iec-60320-c20
+      - allocated_draw: 7
+        maximum_draw: 14
+        name: A5-A8
+        type: iec-60320-c20
+      - allocated_draw: 7
+        maximum_draw: 14
+        name: B1-B4
+        type: iec-60320-c20
+      - allocated_draw: 7
+        maximum_draw: 14
+        name: B5-B8
+        type: iec-60320-c20
+    slug: wti-cpm-1600-1-ec
+    u_height: 2
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+      - name: port9
+        type: rj-45
+      - name: port10
+        type: rj-45
+      - name: port11
+        type: rj-45
+      - name: port12
+        type: rj-45
+      - name: port13
+        type: rj-45
+      - name: port14
+        type: rj-45
+      - name: port15
+        type: rj-45
+      - name: port16
+        type: rj-45
+      - name: port17
+        type: rj-45
+      - name: port18
+        type: rj-45
+      - name: port19
+        type: rj-45
+      - name: port20
+        type: rj-45
+      - name: port21
+        type: rj-45
+      - name: port22
+        type: rj-45
+      - name: port23
+        type: rj-45
+      - name: port24
+        type: rj-45
+      - name: port25
+        type: rj-45
+      - name: port26
+        type: rj-45
+      - name: port27
+        type: rj-45
+      - name: port28
+        type: rj-45
+      - name: port29
+        type: rj-45
+      - name: port30
+        type: rj-45
+      - name: port31
+        type: rj-45
+      - name: port32
+        type: rj-45
+      - name: port33
+        type: rj-45
+      - name: port34
+        type: rj-45
+      - name: port35
+        type: rj-45
+      - name: port36
+        type: rj-45
+      - name: port37
+        type: rj-45
+      - name: port38
+        type: rj-45
+      - name: port39
+        type: rj-45
+      - name: port40
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: DSM-40NM
+    part_number: DSM-40NM
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-dsm-40nm
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R4-1-N
+    part_number: REM-4R4-1-N
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: PS1
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r4-1-n
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: CPM-800-2-E
+    part_number: CPM-800-2-E
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A5
+        power_port: PS2
+        type: iec-60320-c13
+      - name: Outlet_A6
+        power_port: PS2
+        type: iec-60320-c13
+      - name: Outlet_A7
+        power_port: PS2
+        type: iec-60320-c13
+      - name: Outlet_A8
+        power_port: PS2
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-cpm-800-2-e
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-0R4-1-WE
+    part_number: REM-0R4-1-WE
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: PS1
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-0r4-1-we
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R4-1-W
+    part_number: REM-4R4-1-W
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: PS1
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r4-1-w
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-0R4-1-NE
+    part_number: REM-0R4-1-NE
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: PS1
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-0r4-1-ne
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-0R4-1
+    part_number: REM-0R4-1
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: PS1
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-0r4-1
+    u_height: 1
+  - airflow: passive
+    console-server-ports:
+      - name: port1
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: NPS-8H20-ATS-1
+    part_number: NPS-8H20-ATS-1
+    power-outlets:
+      - name: Outlet_A1
+        type: nema-5-15r
+      - name: Outlet_A2
+        type: nema-5-15r
+      - name: Outlet_A3
+        type: nema-5-15r
+      - name: Outlet_A4
+        type: nema-5-15r
+      - name: Outlet_A5
+        type: nema-5-15r
+      - name: Outlet_A6
+        type: nema-5-15r
+      - name: Outlet_A7
+        type: nema-5-15r
+      - name: Outlet_A8
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-nps-8h20-ats-1
+    u_height: 1
+  - airflow: passive
+    console-server-ports:
+      - name: port1
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: VMR-8H20-ATS-1
+    part_number: VMR-8H20-ATS-1
+    power-outlets:
+      - name: Outlet_A1
+        type: nema-5-15r
+      - name: Outlet_A2
+        type: nema-5-15r
+      - name: Outlet_A3
+        type: nema-5-15r
+      - name: Outlet_A4
+        type: nema-5-15r
+      - name: Outlet_A5
+        type: nema-5-15r
+      - name: Outlet_A6
+        type: nema-5-15r
+      - name: Outlet_A7
+        type: nema-5-15r
+      - name: Outlet_A8
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-vmr-8h20-ats-1
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+      - name: port9
+        type: rj-45
+      - name: port10
+        type: rj-45
+      - name: port11
+        type: rj-45
+      - name: port12
+        type: rj-45
+      - name: port13
+        type: rj-45
+      - name: port14
+        type: rj-45
+      - name: port15
+        type: rj-45
+      - name: port16
+        type: rj-45
+      - name: port17
+        type: rj-45
+      - name: port18
+        type: rj-45
+      - name: port19
+        type: rj-45
+      - name: port20
+        type: rj-45
+      - name: port21
+        type: rj-45
+      - name: port22
+        type: rj-45
+      - name: port23
+        type: rj-45
+      - name: port24
+        type: rj-45
+      - name: port25
+        type: rj-45
+      - name: port26
+        type: rj-45
+      - name: port27
+        type: rj-45
+      - name: port28
+        type: rj-45
+      - name: port29
+        type: rj-45
+      - name: port30
+        type: rj-45
+      - name: port31
+        type: rj-45
+      - name: port32
+        type: rj-45
+      - name: port33
+        type: rj-45
+      - name: port34
+        type: rj-45
+      - name: port35
+        type: rj-45
+      - name: port36
+        type: rj-45
+      - name: port37
+        type: rj-45
+      - name: port38
+        type: rj-45
+      - name: port39
+        type: rj-45
+      - name: port40
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: DSM-40NM-DP
+    part_number: DSM-40NM-DP
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c14
+    slug: wti-dsm-40nm-dp
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: CPM-800-1-EA
+    part_number: CPM-800-1-EA
+    power-outlets:
+      - name: Outlet_A1
+        type: nema-5-15r
+      - name: Outlet_A2
+        type: nema-5-15r
+      - name: Outlet_A3
+        type: nema-5-15r
+      - name: Outlet_A4
+        type: nema-5-15r
+      - name: Outlet_A5
+        type: nema-5-15r
+      - name: Outlet_A6
+        type: nema-5-15r
+      - name: Outlet_A7
+        type: nema-5-15r
+      - name: Outlet_A8
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-cpm-800-1-ea
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R0-W
+    part_number: REM-4R0-W
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r0-w
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: DSM-8NM-E
+    part_number: DSM-8NM-E
+    power-ports:
+      - allocated_draw: 3
+        maximum_draw: 6
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 3
+        maximum_draw: 6
+        name: PS2
+        type: iec-60320-c14
+    slug: wti-dsm-8nm-e
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-0R4-2-W
+    part_number: REM-0R4-2-W
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-0r4-2-w
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-0R4-2-N
+    part_number: REM-0R4-2-N
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-0r4-2-n
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+      - name: Modem
+        type: rj-11
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: CPM-800-1-AM
+    part_number: CPM-800-1-AM
+    power-outlets:
+      - name: Outlet_A1
+        type: nema-5-15r
+      - name: Outlet_A2
+        type: nema-5-15r
+      - name: Outlet_A3
+        type: nema-5-15r
+      - name: Outlet_A4
+        type: nema-5-15r
+      - name: Outlet_A5
+        type: nema-5-15r
+      - name: Outlet_A6
+        type: nema-5-15r
+      - name: Outlet_A7
+        type: nema-5-15r
+      - name: Outlet_A8
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-cpm-800-1-am
+    u_height: 1
+  - airflow: passive
+    console-server-ports:
+      - name: port1
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: VMR-8HS20-2
+    part_number: VMR-8HS20-2
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A5
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A6
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A7
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A8
+        power_port: PS1
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+    slug: wti-vmr-8hs20-2
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R4-2
+    part_number: REM-4R4-2
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r4-2
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: CPM-800-1-A
+    part_number: CPM-800-1-A
+    power-outlets:
+      - name: Outlet_A1
+        type: nema-5-15r
+      - name: Outlet_A2
+        type: nema-5-15r
+      - name: Outlet_A3
+        type: nema-5-15r
+      - name: Outlet_A4
+        type: nema-5-15r
+      - name: Outlet_A5
+        type: nema-5-15r
+      - name: Outlet_A6
+        type: nema-5-15r
+      - name: Outlet_A7
+        type: nema-5-15r
+      - name: Outlet_A8
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-cpm-800-1-a
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-0R4-2-NE
+    part_number: REM-0R4-2-NE
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-0r4-2-ne
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R0-E
+    part_number: REM-4R0-E
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r0-e
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: CPM-800-2-EA
+    part_number: CPM-800-2-EA
+    power-outlets:
+      - name: Outlet_A1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        type: iec-60320-c13
+      - name: Outlet_A3
+        type: iec-60320-c13
+      - name: Outlet_A4
+        type: iec-60320-c13
+      - name: Outlet_A5
+        type: iec-60320-c13
+      - name: Outlet_A6
+        type: iec-60320-c13
+      - name: Outlet_A7
+        type: iec-60320-c13
+      - name: Outlet_A8
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-cpm-800-2-ea
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-0R4-2-E
+    part_number: REM-0R4-2-E
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-0r4-2-e
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: CPM-800-1-ECA
+    part_number: CPM-800-1-ECA
+    power-outlets:
+      - name: Outlet_A1
+        type: nema-5-15r
+      - name: Outlet_A2
+        type: nema-5-15r
+      - name: Outlet_A3
+        type: nema-5-15r
+      - name: Outlet_A4
+        type: nema-5-15r
+      - name: Outlet_A5
+        type: nema-5-15r
+      - name: Outlet_A6
+        type: nema-5-15r
+      - name: Outlet_A7
+        type: nema-5-15r
+      - name: Outlet_A8
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-cpm-800-1-eca
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-0R4-2-WE
+    part_number: REM-0R4-2-WE
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A3
+        power_port: PS1
+        type: iec-60320-c13
+      - name: Outlet_A4
+        power_port: PS1
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-0r4-2-we
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+      - name: port9
+        type: rj-45
+      - name: port10
+        type: rj-45
+      - name: port11
+        type: rj-45
+      - name: port12
+        type: rj-45
+      - name: port13
+        type: rj-45
+      - name: port14
+        type: rj-45
+      - name: port15
+        type: rj-45
+      - name: port16
+        type: rj-45
+      - name: port17
+        type: rj-45
+      - name: port18
+        type: rj-45
+      - name: port19
+        type: rj-45
+      - name: port20
+        type: rj-45
+      - name: port21
+        type: rj-45
+      - name: port22
+        type: rj-45
+      - name: port23
+        type: rj-45
+      - name: port24
+        type: rj-45
+      - name: port25
+        type: rj-45
+      - name: port26
+        type: rj-45
+      - name: port27
+        type: rj-45
+      - name: port28
+        type: rj-45
+      - name: port29
+        type: rj-45
+      - name: port30
+        type: rj-45
+      - name: port31
+        type: rj-45
+      - name: port32
+        type: rj-45
+      - name: port33
+        type: rj-45
+      - name: port34
+        type: rj-45
+      - name: port35
+        type: rj-45
+      - name: port36
+        type: rj-45
+      - name: port37
+        type: rj-45
+      - name: port38
+        type: rj-45
+      - name: port39
+        type: rj-45
+      - name: port40
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: DSM-40NM-E
+    part_number: DSM-40NM-E
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c14
+    slug: wti-dsm-40nm-e
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+      - name: Modem
+        type: rj-11
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: CPM-800-2-AM
+    part_number: CPM-800-2-AM
+    power-outlets:
+      - name: Outlet_A1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        type: iec-60320-c13
+      - name: Outlet_A3
+        type: iec-60320-c13
+      - name: Outlet_A4
+        type: iec-60320-c13
+      - name: Outlet_A5
+        type: iec-60320-c13
+      - name: Outlet_A6
+        type: iec-60320-c13
+      - name: Outlet_A7
+        type: iec-60320-c13
+      - name: Outlet_A8
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-cpm-800-2-am
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: PPP0
+        type: lte
+    is_full_depth: false
+    manufacturer: WTI
+    model: CPM-800-2-A-VZW
+    part_number: CPM-800-2-A-VZW
+    power-outlets:
+      - name: Outlet_A1
+        type: iec-60320-c13
+      - name: Outlet_A2
+        type: iec-60320-c13
+      - name: Outlet_A3
+        type: iec-60320-c13
+      - name: Outlet_A4
+        type: iec-60320-c13
+      - name: Outlet_A5
+        type: iec-60320-c13
+      - name: Outlet_A6
+        type: iec-60320-c13
+      - name: Outlet_A7
+        type: iec-60320-c13
+      - name: Outlet_A8
+        type: iec-60320-c13
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c20
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS2
+        type: iec-60320-c20
+    slug: wti-cpm-800-2-a-vzw
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+      - name: port9
+        type: rj-45
+      - name: port10
+        type: rj-45
+      - name: port11
+        type: rj-45
+      - name: port12
+        type: rj-45
+      - name: port13
+        type: rj-45
+      - name: port14
+        type: rj-45
+      - name: port15
+        type: rj-45
+      - name: port16
+        type: rj-45
+      - name: port17
+        type: rj-45
+      - name: port18
+        type: rj-45
+      - name: port19
+        type: rj-45
+      - name: port20
+        type: rj-45
+      - name: port21
+        type: rj-45
+      - name: port22
+        type: rj-45
+      - name: port23
+        type: rj-45
+      - name: port24
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: DSM-24NM-DP
+    part_number: DSM-24NM-DP
+    power-ports:
+      - allocated_draw: 4
+        maximum_draw: 8
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 4
+        maximum_draw: 8
+        name: PS2
+        type: iec-60320-c14
+    slug: wti-dsm-24nm-dp
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: port5
+        type: rj-45
+      - name: port6
+        type: rj-45
+      - name: port7
+        type: rj-45
+      - name: port8
+        type: rj-45
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: DSM-8NM
+    part_number: DSM-8NM
+    power-ports:
+      - allocated_draw: 3
+        maximum_draw: 6
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-dsm-8nm
+    u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: usb-mini-b
+    console-server-ports:
+      - name: port1
+        type: rj-45
+      - name: port2
+        type: rj-45
+      - name: port3
+        type: rj-45
+      - name: port4
+        type: rj-45
+      - name: U1
+        type: usb-a
+      - name: U2
+        type: usb-a
+    interfaces:
+      - name: ETH0
+        type: 1000base-t
+      - name: ETH1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: WTI
+    model: REM-4R4-1-E
+    part_number: REM-4R4-1-E
+    power-outlets:
+      - name: Outlet_A1
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A2
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A3
+        power_port: PS1
+        type: nema-5-15r
+      - name: Outlet_A4
+        power_port: PS1
+        type: nema-5-15r
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 10
+        name: PS1
+        type: iec-60320-c14
+    slug: wti-rem-4r4-1-e
+    u_height: 1
