@@ -33,6 +33,9 @@ def ingest(log):
         )
         protocol = utils.normalize_route_type(item.get("protocol"))
         nexthop_ip = item.get("nexthop_ip") if item.get("nexthop_ip") else None
+        if not nexthop_if_name and not nexthop_ip:
+            # Skipping routes without nexthop IP / interface
+            continue
 
         # Get or create interface
         nexthop_if_id = None

@@ -101,7 +101,6 @@ function saveNodePositions() {
 
 // Save node position and disable trigger
 function saveNodePositionsOnce() {
-    console.log("HERE");
     saveNodePositions();
     graph.off("afterDrawing", saveNodePositionsOnce);
 }

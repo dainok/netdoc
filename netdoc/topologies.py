@@ -414,7 +414,7 @@ def get_site_topology_data(queryset, details):
         )
 
         if link_id not in links and from_site_id != to_site_id:
-            # Add link only if intra-site
+            # Add link only if inter-site
             links[link_id] = {
                 "id": link_id,
                 "from": from_site_id,
@@ -435,14 +435,14 @@ def get_site_topology_data(queryset, details):
                     "shape": "image",
                     "title": from_site_o.name,
                 }
-            # Set position
-            if "positions" in sites and str(from_site_o.id) in details["positions"]:
-                sites[from_site_id]["x"] = details["positions"][str(from_site_id)].get(
-                    "x"
-                )
-                sites[from_site_id]["y"] = details["positions"][str(from_site_id)].get(
-                    "y"
-                )
+                # Set position
+                if "positions" in details and str(from_site_id) in details["positions"]:
+                    sites[from_site_id]["x"] = details["positions"][
+                        str(from_site_id)
+                    ].get("x")
+                    sites[from_site_id]["y"] = details["positions"][
+                        str(from_site_id)
+                    ].get("y")
 
             # Add destination site
             if to_site_id not in sites:
@@ -453,10 +453,14 @@ def get_site_topology_data(queryset, details):
                     "shape": "image",
                     "title": to_site_o.name,
                 }
-            # Set position
-            if "positions" in details and str(to_site_id) in details["positions"]:
-                sites[to_site_id]["x"] = details["positions"][str(to_site_id)].get("x")
-                sites[to_site_id]["y"] = details["positions"][str(to_site_id)].get("y")
+                # Set position
+                if "positions" in details and str(to_site_id) in details["positions"]:
+                    sites[to_site_id]["x"] = details["positions"][str(to_site_id)].get(
+                        "x"
+                    )
+                    sites[to_site_id]["y"] = details["positions"][str(to_site_id)].get(
+                        "y"
+                    )
 
     return {
         "nodes": list(sites.values()),

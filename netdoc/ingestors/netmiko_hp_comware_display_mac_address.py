@@ -17,7 +17,7 @@ def ingest(log):
         interface_name = item.get("interface")
         label = utils.normalize_interface_label(interface_name)
         vlan_id = int(item.get("vlan"))
-        mac_address = utils.normalize_mac_address(item.get("macaddress"))
+        mac_address = utils.normalize_mac_address(item.get("mac_address"))
 
         interface_o = interface.get(device_id=device_o.id, label=label)
         if not interface_o:
