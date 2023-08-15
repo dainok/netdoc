@@ -23,7 +23,7 @@ def api_query(
     verify_cert=True,
 ):  # pylint: disable=unused-argument
     """Get info via Python request."""
-    url = f"https://{host_address}:8444/api/?type=op&cmd={command}&key={password}"
+    url = f"https://{host_address}/api/?type=op&cmd={command}&key={password}"
     req = requests.get(url, verify=verify_cert, timeout=15)
     if req.status_code != 200:
         return f"ERROR CODE {req.status_code}\n{req.text}"
