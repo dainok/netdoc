@@ -29,7 +29,7 @@ def ingest(log):
         distance = int(item.get("distance")) if item.get("distance") else None
         metric = int(item.get("metric")) if item.get("metric") else None
         destination = (
-            f"{item.get('network')}/{item.get('mask')}" if item.get("network") else None
+            f"{item.get('network')}/{item.get('prefix_length')}" if item.get("network") else None
         )
         protocol = utils.normalize_route_type(item.get("protocol"))
         nexthop_ip = item.get("nexthop_ip") if item.get("nexthop_ip") else None

@@ -19,9 +19,7 @@ def ingest(log):
     vm_o = log.discoverable.vm if log.discoverable.vm else None
 
     try:
-        items = (
-            log.parsed_output.get("response").get("result").get("entry")
-        )
+        items = log.parsed_output.get("response").get("result").get("entry")
     except AttributeError:
         items = []
     for item in items:
@@ -85,7 +83,9 @@ def ingest(log):
             nexthop_if_label = utils.normalize_interface_label(nexthop_if_name)
             nexthop_if_id = None
             if nexthop_if_name:
-                nexthop_if_o = interface.get(device_id=device_o.id, label=nexthop_if_label)
+                nexthop_if_o = interface.get(
+                    device_id=device_o.id, label=nexthop_if_label
+                )
                 if not nexthop_if_o:
                     # Skip inter-VRF leaking
                     continue

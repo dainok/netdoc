@@ -20,7 +20,7 @@ def ingest(log):
         distance = int(item.get("distance")) if item.get("distance") else None
         metric = int(item.get("metric")) if item.get("metric") else None
         destination = (
-            f"{item.get('network')}/{item.get('mask')}" if item.get("network") else None
+            f"{item.get('network')}/{item.get('prefix_length')}" if item.get("network") else None
         )
         protocol = item.get("protocol")
         if item.get("type"):

@@ -47,10 +47,6 @@ def get_schema_create():
         "ip_address",
         "mac_address",
     ]
-    if schema["properties"]["virtual_interface_id"]:
-        schema["required"].append("virtual_interface_id")
-    else:
-        schema["required"].append("interface_id")
     return schema
 
 
@@ -73,7 +69,7 @@ def get(
     if interface_id:
         obj = utils.object_get_or_none(
             ArpTableEntry,
-            virtual_interface_id=virtual_interface_id,
+            interface_id=interface_id,
             ip_address=ip_address,
             mac_address=mac_address,
         )
@@ -84,6 +80,8 @@ def get(
             ip_address=ip_address,
             mac_address=mac_address,
         )
+    else:
+        raise ValueError("virtual_interface or interface must be specified to get an ARP entry.")
     if obj and discovered:
         # Update updated_at
         obj.save()

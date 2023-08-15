@@ -66,10 +66,6 @@ def get_schema_create():
         "destination",
         "protocol",
     ]
-    if schema["properties"]["vm_id"]:
-        schema["required"].append("vm_id")
-    else:
-        schema["required"].append("device_id")
     return schema
 
 
