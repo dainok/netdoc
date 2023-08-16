@@ -22,9 +22,11 @@ def ingest(log):
         vrf_name = item.get("vrf")
         ip_list = item.get("ip_address")
         mask_list = item.get("prefix_length")
-        ip_addresses = [
-            f"{ipaddr}/{mask_list[index]}" for index, ipaddr in enumerate(ip_list)
-        ]
+        ip_addresses = None
+        if ip_list:
+            ip_addresses = [
+                f"{ipaddr}/{mask_list[index]}" for index, ipaddr in enumerate(ip_list)
+            ]
 
         # Get or create VRF
         vrf_o = None
