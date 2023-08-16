@@ -207,7 +207,9 @@ class ArpTableEntry(NetBoxModel):
 
     def __str__(self):
         """Return a human readable name when the object is printed."""
-        return f"{self.ip_address} has {self.mac_address} at {self.interface}"
+        if self.interface:
+            return f"{self.ip_address} has {self.mac_address} at {self.interface}"
+        return f"{self.ip_address} has {self.mac_address} at {self.virtual_interface}"
 
     def get_absolute_url(self):
         """Return the absolute url."""

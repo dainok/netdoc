@@ -9,6 +9,7 @@ from extras.reports import Report
 
 from dcim.models import Interface
 from ipam.models import Prefix, IPAddress
+from virtualization.models.virtualmachines import VMInterface
 
 from netdoc import utils
 from netdoc.models import ArpTableEntry
@@ -55,7 +56,8 @@ class VRFIpPrefixIntegrityCheck(Report):
     def test_vrf(self):
         """Test VRF between Interface and Interface's IPAddress."""
         interface_qs = Interface.objects.filter(ip_addresses__isnull=False)
-        for interface_o in interface_qs:
+        virtual_interface_qs = VMInterface.objects.filter(ip_addresses__isnull=False)
+        for interface_o in list(interface_qs) + list(virtual_interface_qs):
             interface_vrf_o = interface_o.vrf
             ipaddress_vrf_o = interface_o.ip_addresses.first().vrf
 
@@ -71,7 +73,8 @@ class VRFIpPrefixIntegrityCheck(Report):
     def test_interface_prefix(self):
         """Test Interface's IPAddress owned by a Prefix."""
         interface_qs = Interface.objects.filter(ip_addresses__isnull=False)
-        for interface_o in interface_qs:
+        virtual_interface_qs = VMInterface.objects.filter(ip_addresses__isnull=False)
+        for interface_o in list(interface_qs) + list(virtual_interface_qs):
             for ip_address_o in interface_o.ip_addresses.all():
                 vrf_o = ip_address_o.vrf
                 network = (
@@ -121,24 +124,43 @@ class IPAMFromARP(Report):
         """
         for arptableentry_o in ArpTableEntry.objects.all():
             try:
-                interface_vrf_o = arptableentry_o.interface.ip_addresses.first().vrf
+                if arptableentry_o.interface:
+                    interface_vrf_o = arptableentry_o.interface.ip_addresses.first().vrf
+                else:
+                    interface_vrf_o = arptableentry_o.virtual_interface.ip_addresses.first().vrf
             except AttributeError:
-                self.log_failure(
-                    arptableentry_o,
-                    f"IP address not found on interface {arptableentry_o.interface}, "
-                    + "maybe some ingestion script has failed",
-                )
+                if arptableentry_o.interface:
+                    self.log_failure(
+                        arptableentry_o,
+                        f"IP address not found on interface {arptableentry_o.interface}, "
+                        + "maybe some ingestion script has failed",
+                    )
+                else:
+                    self.log_failure(
+                        arptableentry_o,
+                        f"IP address not found on virtual interface {arptableentry_o.virtual_interface}, "
+                        + "maybe some ingestion script has failed",
+                    )
                 continue
 
             # IP address with prefixlen built from ARP table and associated interface
             address = str(arptableentry_o.ip_address.ip)
-            prefixlen = (
-                arptableentry_o.interface.ip_addresses.filter(
-                    address__net_contains_or_equals=address
+            if arptableentry_o.interface:
+                prefixlen = (
+                    arptableentry_o.interface.ip_addresses.filter(
+                        address__net_contains_or_equals=address
+                    )
+                    .first()
+                    .address.prefixlen
                 )
-                .first()
-                .address.prefixlen
-            )
+            else:
+                prefixlen = (
+                    arptableentry_o.virtual_interface.ip_addresses.filter(
+                        address__net_contains_or_equals=address
+                    )
+                    .first()
+                    .address.prefixlen
+                )
             ip_address = f"{address}/{prefixlen}"
 
             # Query for the IP address in the IPAM

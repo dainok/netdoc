@@ -25,11 +25,12 @@ class ArpTableEntryTable(NetBoxTable):
         linkify=True, verbose_name="Interface", orderable=False
     )
     mac_address = tables.LinkColumn(
-        "plugins:netdoc:arptableentry", args=[tables.utils.A("pk")]
+        "plugins:netdoc:arptableentry", args=[tables.utils.A("pk")], verbose_name="MAC address"
     )
     meta_role = tables.Column(verbose_name="Role", orderable=False)
-    mac_address = tables.Column(verbose_name="MAC address")
-    ip_address = tables.Column(verbose_name="IP address")
+    ip_address = tables.LinkColumn(
+        "plugins:netdoc:arptableentry", args=[tables.utils.A("pk")], verbose_name="IP address"
+    )
     actions = []  # Read only table
 
     class Meta(NetBoxTable.Meta):
