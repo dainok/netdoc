@@ -20,21 +20,21 @@ __license__ = "GPLv3"
                         <tr>
                             <th scope="row">Device</th>
                             <td>
-			        {% if object.device %}
+			                   {% if object.device %}
                                     <a href="{% url "dcim:device" object.device.pk %}">{{ object.device.name }}</a>
-			        {% elif object.vm %}
+			                    {% elif object.vm %}
                                     <a href="{% url "virtualization:virtualmachine" object.vm.pk %}">{{ object.vm.name }}</a>
-				{% endif %}
+				                {% endif %}
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">Device role</th>
                             <td>
-			        {% if object.device and object.device.device_role %}
+			                    {% if object.device and object.device.device_role %}
                                     <a href="{% url "dcim:devicerole" object.device.device_role.pk %}">{{ object.device.device_role.name }}</a>
-			        {% elif object.vm and object.vm.device_role %}
+			                    {% elif object.vm and object.vm.role %}
                                     <a href="{% url "dcim:devicerole" object.vm.role.pk %}">{{ object.vm.role.name }}</a>
-				{% endif %}
+				                {% endif %}
                             </td>
                         </tr>
                         <tr>
@@ -42,6 +42,8 @@ __license__ = "GPLv3"
                             <td>
                                 {% if object.nexthop_if %}
                                     <a href="{% url "dcim:interface" object.nexthop_if.pk %}">{{ object.nexthop_if.name }}</a>
+                                {% elif object.nexthop_virtual_if %}
+                                    <a href="{% url "virtualization:vminterface" object.nexthop_virtual_if.pk %}">{{ object.nexthop_virtual_if.name }}</a>
                                 {% endif %}
                             </td>
                         </tr>

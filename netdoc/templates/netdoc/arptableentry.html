@@ -20,33 +20,31 @@ __license__ = "GPLv3"
                         <tr>
                             <th scope="row">Device</th>
                             <td>
-				{% if object.device %}
-                                    <a href="{% url "dcim:device" object.interface.device.pk %}">{{ object.interface.device.name }}</a>
-		                {% if object.interface %}
-                                    <a href="{% url "dcim:device" object.interface.device.pk %}">{{ object.interface.device.name }}</a>
-				{% elif object.virtual_interface %}
-                                    <a href="{% url "virtualization:virtual_machine" object.virtual_interface.virtual_machine.pk %}">{{ object.virtual_interface.virtual_machine.name }}</a>
-				{% endif %}
+                                {% if object.interface %}
+                                     <a href="{% url "dcim:device" object.interface.device.pk %}">{{ object.interface.device.name }}</a>
+                                 {% elif object.virtual_interface %}
+                                     <a href="{% url "virtualization:virtualmachine" object.virtual_interface.virtual_machine.pk %}">{{ object.virtual_interface.virtual_machine.name }}</a>
+                                 {% endif %}
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">Device role</th>
                             <td>
-		                {% if object.interface %}
+		                        {% if object.interface %}
                                     <a href="{% url "dcim:devicerole" object.interface.device.device_role.pk %}">{{ object.interface.device.device_role.name }}</a>
-				{% elif object.virtual_interface %}
-                                    <a href="{% url "dcim:devicerole" object.virtual_interface.virtual_machine.device_role.pk %}">{{ object.virtual_interface.virtual_machine.device_role.name }}</a>
-				{% endif %}
+				                {% elif object.virtual_interface and object.virtual_interface.virtual_machine.role %}
+                                    <a href="{% url "dcim:devicerole" object.virtual_interface.virtual_machine.role.pk %}">{{ object.virtual_interface.virtual_machine.role.name }}</a>
+				                {% endif %}
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">Interface</th>
                             <td>
-		                {% if object.interface %}
+		                        {% if object.interface %}
                                     <a href="{% url "dcim:interface" object.interface.pk %}">{{ object.interface.name }}</a>
-				{% elif object.virtual_interface %}
-                                    <a href="{% url "virtualization:virtual_interface" object.virtual_interface.pk %}">{{ object.virtual_interface.name }}</a>
-				{% endif %}
+				                {% elif object.virtual_interface %}
+                                    <a href="{% url "virtualization:vminterface" object.virtual_interface.pk %}">{{ object.virtual_interface.name }}</a>
+				                {% endif %}
                             </td>
                         </tr>
                         <tr>

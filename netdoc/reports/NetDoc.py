@@ -127,7 +127,9 @@ class IPAMFromARP(Report):
                 if arptableentry_o.interface:
                     interface_vrf_o = arptableentry_o.interface.ip_addresses.first().vrf
                 else:
-                    interface_vrf_o = arptableentry_o.virtual_interface.ip_addresses.first().vrf
+                    interface_vrf_o = (
+                        arptableentry_o.virtual_interface.ip_addresses.first().vrf
+                    )
             except AttributeError:
                 if arptableentry_o.interface:
                     self.log_failure(
