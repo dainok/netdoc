@@ -1,0 +1,15 @@
+- device: SWICORE
+  interface: 1/5
+  vlan: 1
+  mac_address: 00:04:24:00:00:01
+  vendor: null
+- device: SWICORE
+  interface: 1/6
+  vlan: 1
+  mac_address: 08:F1:EA:00:00:E0
+  vendor: null
+- device: SWICORE
+  interface: 1/5
+  vlan: 2
+  mac_address: A4:B1:E9:00:00:7B
+  vendor: null
