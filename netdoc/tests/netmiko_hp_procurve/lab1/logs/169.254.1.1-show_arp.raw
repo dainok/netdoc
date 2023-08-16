@@ -1,0 +1,9 @@
+
+ IP ARP table
+
+  IP Address       MAC Address       Type    Port
+  ---------------  ----------------- ------- ----
+  192.168.1.100    000000-000000     dynamic
+  192.168.1.101    000424-0000a1     dynamic 1/A1
+  10.10.1.1        001b17-0000b1     dynamic 1/20
+

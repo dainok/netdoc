@@ -1,0 +1,21 @@
+
+ Internet (IP) Service
+
+  IP Routing : Enabled 
+
+
+  Default TTL     : 64   
+  Arp Age         : 20  
+  Domain Suffix   :                               
+  DNS server      :                                         
+
+                       |                                            Proxy ARP 
+  VLAN                 | IP Config  IP Address      Subnet Mask     Std  Local
+  -------------------- + ---------- --------------- --------------- ----------
+  DEFAULT_VLAN         | Manual     192.168.1.1     255.255.255.0    No    No
+  OLD                  | Disabled 
+  SERVER               | Manual     192.168.2.1     255.255.255.0    No    No
+  WAN1                 | Disabled 
+  MPLS                 | Disabled 
+  P2P                  | Manual     10.10.1.0       255.255.255.0    No    No
+ 
