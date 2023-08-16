@@ -488,7 +488,10 @@ def log_ingest(log):
     function_name = function_name.replace(" ", "_")
     function_name = function_name.replace("-", "_")
     function_name = function_name.lower().strip()
-
+    if (
+        "_telnet" in function_name
+    ):  # use same ingestors regardless of ssh or telnet access
+        function_name = function_name.replace("_telnet", "")
     try:
         module = importlib.import_module(f"netdoc.ingestors.{function_name}")
     except ModuleNotFoundError as exc:
@@ -708,6 +711,8 @@ def normalize_interface_status(status):
         return False
     if "disabled" in status:
         return False
+    if "deleted" in status:
+        return False
     raise ValueError(f"Invalid interface status {status}")
 
 
@@ -787,7 +792,17 @@ def normalize_ip_address_or_none(ip_address):
 def normalize_route_type(route_type):
     """Return route type protocol."""
     route_type = route_type.lower().strip()
-    if route_type in ["c", "connected", "direct", "local", "hsrp", "l", "a c", "a h"]:
+    if route_type in [
+        "c",
+        "connected",
+        "direct",
+        "local",
+        "hsrp",
+        "l",
+        "a c",
+        "a h",
+        "vrrp-engine",
+    ]:
         # Connected
         return "c"
     if route_type in ["s", "static", "s*", "a s"]:
@@ -845,6 +860,9 @@ def normalize_route_type(route_type):
         # Nexus EIGRP External with process
         return "ex"
     if re.match(r"^ospf-\S+ intra$", route_type):
+        # Nexus OSPF Intra Area with process
+        return "oia"
+    if re.match(r"^ospf-\S+ inter$", route_type):
         # Nexus OSPF Inter Area with process
         return "oia"
     if re.match(r"^ospf-\S+ type-1$", route_type):
@@ -908,7 +926,7 @@ def normalize_vlan_range(vlan):
     vlan = vlan.lower().strip()
     vlan = vlan.replace("(default vlan)", "")
     vlan = vlan.replace(" ", "")
-    if vlan == "none":
+    if vlan in ["none", ""]:
         return []
     if vlan == "all":
         # All VLANs
