@@ -31,10 +31,12 @@ def discovery(nrni):
                 "show cdp neighbors detail",
                 "show lldp neighbors",
                 "show vrf all detail",
-                "show ipv4 interface",
                 "admin show inventory",
             ],
             order=10,
+        )
+        utils.append_nornir_netmiko_task(
+            task, "show ipv4 vrf all interface", template="show ipv4 interface", order=10
         )
         utils.append_nornir_netmiko_task(
             task,
