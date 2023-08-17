@@ -49,61 +49,61 @@ def test_devices(test_o, expected_results):
     """Test Device given an expected_results dict."""
     # Test total Device objects
     device_qs = Device.objects.all()
-    test_o.assertEquals(len(device_qs), len(expected_results))
+    test_o.assertEquals(len(device_qs), len(expected_results), "number of results")
 
     # Test each item
     for expected_result in expected_results:
         device_o = Device.objects.get(name=expected_result.get("name"))
-        test_o.assertEquals(device_o.device_type.model, expected_result.get("model"))
+        test_o.assertEquals(device_o.device_type.model, expected_result.get("model"), "model")
         test_o.assertEquals(
-            device_o.device_type.manufacturer.name, expected_result.get("manufacturer")
+            device_o.device_type.manufacturer.name, expected_result.get("manufacturer"), "manufacturer"
         )
-        test_o.assertEquals(device_o.serial, expected_result.get("serial"))
+        test_o.assertEquals(device_o.serial, expected_result.get("serial"), "serial")
 
         if device_o.site:
-            test_o.assertEquals(device_o.site.name, expected_result.get("site"))
+            test_o.assertEquals(device_o.site.name, expected_result.get("site"), "site")
         else:
-            test_o.assertIs(expected_result.get("site"), None)
+            test_o.assertIs(expected_result.get("site"), None, "site")
 
         if device_o.primary_ip:
             test_o.assertEquals(
-                str(device_o.primary_ip.address), expected_result.get("address")
+                str(device_o.primary_ip.address), expected_result.get("address"), "address"
             )
         else:
-            test_o.assertIs(expected_result.get("address"), None)
+            test_o.assertIs(expected_result.get("address"), None, "address")
 
 
 def test_discoverables(test_o, expected_results):
     """Test Discoverable given an expected_results dict."""
     # Test total Discoverable objects
     discoverable_qs = Discoverable.objects.all()
-    test_o.assertEquals(len(discoverable_qs), len(expected_results))
+    test_o.assertEquals(len(discoverable_qs), len(expected_results), "number of results")
 
     # Test each item
     for expected_result in expected_results:
         discoverable_o = Discoverable.objects.get(
             address=expected_result.get("address")
         )
-        test_o.assertEquals(discoverable_o.mode, expected_result.get("mode"))
+        test_o.assertEquals(discoverable_o.mode, expected_result.get("mode"), "mode")
 
         if discoverable_o.device:
             test_o.assertEquals(
-                discoverable_o.device.name, expected_result.get("device")
+                discoverable_o.device.name, expected_result.get("device"), "device"
             )
         else:
-            test_o.assertIs(expected_result.get("device"), None)
+            test_o.assertIs(expected_result.get("device"), None, "device")
 
         if discoverable_o.site:
-            test_o.assertEquals(discoverable_o.site.name, expected_result.get("site"))
+            test_o.assertEquals(discoverable_o.site.name, expected_result.get("site"), "site")
         else:
-            test_o.assertIs(expected_result.get("site"), None)
+            test_o.assertIs(expected_result.get("site"), None, "site")
 
         if discoverable_o.credential:
             test_o.assertEquals(
-                discoverable_o.credential.name, expected_result.get("credential")
+                discoverable_o.credential.name, expected_result.get("credential"), "credential"
             )
         else:
-            test_o.assertIs(expected_result.get("credential"), None)
+            test_o.assertIs(expected_result.get("credential"), None, "credential")
 
 
 def test_interfaces(test_o, expected_results):
@@ -118,7 +118,7 @@ def test_interfaces(test_o, expected_results):
                 for device_name in list(expected_results.values())
                 for interface_value in device_name
             ]
-        ),
+        ), "number of results"
     )
 
     # Test each device
@@ -128,78 +128,78 @@ def test_interfaces(test_o, expected_results):
             interface_o = Interface.objects.get(
                 label=interface_value.get("label"), device__name=device_name
             )
-            test_o.assertEquals(interface_o.type, interface_value.get("type"))
-            test_o.assertEquals(interface_o.speed, interface_value.get("speed"))
-            test_o.assertEquals(interface_o.duplex, interface_value.get("duplex"))
-            test_o.assertEquals(interface_o.mtu, interface_value.get("mtu"))
-            test_o.assertEquals(interface_o.enabled, interface_value.get("enabled"))
+            test_o.assertEquals(interface_o.type, interface_value.get("type"), "type")
+            test_o.assertEquals(interface_o.speed, interface_value.get("speed"), "speed")
+            test_o.assertEquals(interface_o.duplex, interface_value.get("duplex"), "duplex")
+            test_o.assertEquals(interface_o.mtu, interface_value.get("mtu"), "mtu")
+            test_o.assertEquals(interface_o.enabled, interface_value.get("enabled"), "enabled")
             test_o.assertEquals(
-                interface_o.description, interface_value.get("description")
+                interface_o.description, interface_value.get("description"), "description"
             )
-            test_o.assertEquals(interface_o.mode, interface_value.get("mode"))
+            test_o.assertEquals(interface_o.mode, interface_value.get("mode"), "mode")
 
             if interface_value.get("name"):
                 # Check Interface.name only if is not None on interfaces.yml
-                test_o.assertEquals(interface_o.name, interface_value.get("name"))
+                test_o.assertEquals(interface_o.name, interface_value.get("name"), "name")
 
             if interface_o.mac_address:
                 test_o.assertEquals(
-                    str(interface_o.mac_address), interface_value.get("mac_address")
+                    str(interface_o.mac_address), interface_value.get("mac_address", "mac_address")
                 )
             else:
-                test_o.assertIs(interface_value.get("mac_address"), None)
+                test_o.assertIs(interface_value.get("mac_address"), None, "mac_address")
 
             if interface_o.vrf:
-                test_o.assertEquals(interface_o.vrf.name, interface_value.get("vrf"))
+                test_o.assertEquals(interface_o.vrf.name, interface_value.get("vrf"), "vrf")
             else:
-                test_o.assertIs(interface_value.get("vrf"), None)
+                test_o.assertIs(interface_value.get("vrf"), None, "vrf")
 
             if interface_o.parent:
                 test_o.assertEquals(
-                    interface_o.parent.label, interface_value.get("parent")
+                    interface_o.parent.label, interface_value.get("parent", "parent")
                 )
             else:
-                test_o.assertIs(interface_value.get("parent"), None)
+                test_o.assertIs(interface_value.get("parent"), None, "parent")
 
             if interface_o.lag:
-                test_o.assertEquals(interface_o.lag.label, interface_value.get("lag"))
+                test_o.assertEquals(interface_o.lag.label, interface_value.get("lag"), "lag")
             else:
-                test_o.assertIs(interface_value.get("lag"), None)
+                test_o.assertIs(interface_value.get("lag"), None, "lag")
 
             if interface_o.connected_endpoints:
                 test_o.assertEquals(
                     interface_o.connected_endpoints[0].device.name,
-                    interface_value.get("connected_device"),
+                    interface_value.get("connected_device"), "connected_device"
                 )
                 test_o.assertEquals(
                     interface_o.connected_endpoints[0].label,
-                    interface_value.get("connected_interface_label"),
+                    interface_value.get("connected_interface_label"), "connected_interface_label"
                 )
             else:
-                test_o.assertIs(interface_value.get("connected_device"), None)
-                test_o.assertIs(interface_value.get("connected_interface_label"), None)
+                test_o.assertIs(interface_value.get("connected_device"), None, "connected_device")
+                test_o.assertIs(interface_value.get("connected_interface_label"), None, "connected_interface_label")
 
             if interface_o.untagged_vlan:
                 test_o.assertEquals(
-                    interface_o.untagged_vlan.vid, interface_value.get("untagged_vlan")
+                    interface_o.untagged_vlan.vid, interface_value.get("untagged_vlan"), "untagged_vlan"
                 )
             else:
-                test_o.assertIs(interface_value.get("untagged_vlan"), None)
+                test_o.assertIs(interface_value.get("untagged_vlan"), None, "untagged_vlan")
 
             test_o.assertEquals(
                 len(interface_o.tagged_vlans.all()),
-                len(interface_value.get("tagged_vlans")),
+                len(interface_value.get("tagged_vlans")), "tagged_vlans"
             )
             for vlan_o in interface_o.tagged_vlans.all():
-                test_o.assertIn(vlan_o.vid, interface_value.get("tagged_vlans"))
+                test_o.assertIn(vlan_o.vid, interface_value.get("tagged_vlans"), "tagged_vlans")
 
             test_o.assertEquals(
                 len(interface_o.ip_addresses.all()),
-                len(interface_value.get("ip_addresses")),
+                len(interface_value.get("ip_addresses")), "ip_addresses"
             )
             for ipaddress_o in interface_o.ip_addresses.all():
                 test_o.assertIn(
-                    str(ipaddress_o.address), interface_value.get("ip_addresses")
+                    str(ipaddress_o.address), interface_value.get("ip_addresses"), "ip_addresses"
                 )
 
 
@@ -207,7 +207,7 @@ def test_ipaddresses(test_o, expected_results):
     """Test IPAddress given an expected_results dict."""
     # Test total IPAddress objects
     ipaddress_qs = IPAddress.objects.all()
-    test_o.assertEquals(len(ipaddress_qs), len(expected_results))
+    test_o.assertEquals(len(ipaddress_qs), len(expected_results), "number of results")
 
     # Test each item
     for expected_result in expected_results:
@@ -224,39 +224,39 @@ def test_prefixes(test_o, expected_results):
     """Test Prefix given an expected_results dict."""
     # Test total Prefix objects
     prefix_qs = Prefix.objects.all()
-    test_o.assertEquals(len(prefix_qs), len(expected_results))
+    test_o.assertEquals(len(prefix_qs), len(expected_results), "number of results")
 
     # Test each item
     for expected_result in expected_results:
         if expected_result.get("vrf"):
             prefix_o = Prefix.objects.get(
                 prefix=expected_result.get("prefix"),
-                vrf__name=expected_result.get("vrf"),
+                vrf__name=expected_result.get("vrf")
             )
         else:
             prefix_o = Prefix.objects.get(prefix=expected_result.get("prefix"))
 
         if prefix_o.vrf:
-            test_o.assertEquals(prefix_o.vrf.name, expected_result.get("vrf"))
+            test_o.assertEquals(prefix_o.vrf.name, expected_result.get("vrf"), "vrf")
         else:
-            test_o.assertIs(expected_result.get("vrf"), None)
+            test_o.assertIs(expected_result.get("vrf"), None, "vrf")
 
         if prefix_o.site:
-            test_o.assertEquals(prefix_o.site.name, expected_result.get("site"))
+            test_o.assertEquals(prefix_o.site.name, expected_result.get("site"), "site")
         else:
-            test_o.assertIs(expected_result.get("site"), None)
+            test_o.assertIs(expected_result.get("site"), None, "site")
 
 
 def test_vlans(test_o, expected_results):
     """Test VLAN given an expected_results dict."""
     # Test total VLAN objects
     vlan_qs = VLAN.objects.all()
-    test_o.assertEquals(len(vlan_qs), len(expected_results))
+    test_o.assertEquals(len(vlan_qs), len(expected_results), "number of results")
 
     # Test each item
     for expected_result in expected_results:
         vlan_o = VLAN.objects.get(vid=int(expected_result.get("vid")))
-        test_o.assertEquals(vlan_o.name, expected_result.get("name"))
+        test_o.assertEquals(vlan_o.name, expected_result.get("name"), "name")
 
 
 def test_vrfs(test_o, expected_results):
@@ -268,14 +268,14 @@ def test_vrfs(test_o, expected_results):
     # Test each item
     for expected_result in expected_results:
         vrf_o = VRF.objects.get(name=expected_result.get("name"))
-        test_o.assertEquals(vrf_o.rd, expected_result.get("rd"))
+        test_o.assertEquals(vrf_o.rd, expected_result.get("rd"), "rd")
 
 
 def test_macaddresses(test_o, expected_results):
     """Test VRF given an expected_results dict."""
     # Test total MacAddressTableEntry objects
     macaddress_qs = MacAddressTableEntry.objects.all()
-    test_o.assertEquals(len(macaddress_qs), len(expected_results))
+    test_o.assertEquals(len(macaddress_qs), len(expected_results), "number of results")
 
     # Test each item
     for expected_result in expected_results:
@@ -292,7 +292,7 @@ def test_arps(test_o, expected_results):
     """Test ArpTableEntry given an expected_results dict."""
     # Test total ArpTableEntry objects
     arp_qs = ArpTableEntry.objects.all()
-    test_o.assertEquals(len(arp_qs), len(expected_results))
+    test_o.assertEquals(len(arp_qs), len(expected_results), "number of results")
 
     # Test each item
     for expected_result in expected_results:
@@ -302,14 +302,14 @@ def test_arps(test_o, expected_results):
             mac_address=expected_result.get("mac_address"),
             ip_address=expected_result.get("ip_address") + "/32",
         )
-        test_o.assertEquals(arp_o.vendor, expected_result.get("vendor"))
+        test_o.assertEquals(arp_o.vendor, expected_result.get("vendor"), "vendor")
 
 
 def test_routes(test_o, expected_results):
     """Test RouteTableEntry given an expected_results dict."""
     # Test total RouteTableEntry objects
     route_qs = RouteTableEntry.objects.all()
-    test_o.assertEquals(len(route_qs), len(expected_results))
+    test_o.assertEquals(len(route_qs), len(expected_results), "number of results")
 
     # Test each item
     for expected_result in expected_results:
@@ -337,46 +337,46 @@ def test_routes(test_o, expected_results):
             )
         if route_o.nexthop_ip:
             test_o.assertEquals(
-                str(route_o.nexthop_ip.ip), expected_result.get("nexthop_ip")
+                str(route_o.nexthop_ip.ip), expected_result.get("nexthop_ip", "nexthop_ip")
             )
         else:
-            test_o.assertIs(expected_result.get("nexthop_ip"), None)
+            test_o.assertIs(expected_result.get("nexthop_ip"), None, "nexthop_ip")
         if route_o.nexthop_if:
             test_o.assertEquals(
-                route_o.nexthop_if.label, expected_result.get("nexthop_if")
+                route_o.nexthop_if.label, expected_result.get("nexthop_if"), "nexthop_if"
             )
         else:
-            test_o.assertIs(expected_result.get("nexthop_if"), None)
+            test_o.assertIs(expected_result.get("nexthop_if"), None, "nexthop_if")
 
 
 def test_virtual_machines(test_o, expected_results):
     """Test Virtual Machine given an expected_results dict."""
     # Test total Virtual Machine objects
     vm_qs = VirtualMachine.objects.all()
-    test_o.assertEquals(len(vm_qs), len(expected_results))
+    test_o.assertEquals(len(vm_qs), len(expected_results), "number of results")
 
     # Test each item
     for expected_result in expected_results:
         vm_o = VirtualMachine.objects.get(name=expected_result.get("name"))
-        test_o.assertEquals(vm_o.status, expected_result.get("status"))
-        test_o.assertEquals(vm_o.vcpus, int(expected_result.get("vcpus")))
-        test_o.assertEquals(vm_o.memory, expected_result.get("memory"))
-        test_o.assertEquals(vm_o.disk, expected_result.get("disk"))
+        test_o.assertEquals(vm_o.status, expected_result.get("status"), "status")
+        test_o.assertEquals(vm_o.vcpus, int(expected_result.get("vcpus")), "vcpus")
+        test_o.assertEquals(vm_o.memory, expected_result.get("memory"), "memory")
+        test_o.assertEquals(vm_o.disk, expected_result.get("disk"), "disk")
 
         if vm_o.site:
-            test_o.assertEquals(vm_o.site.name, expected_result.get("site"))
+            test_o.assertEquals(vm_o.site.name, expected_result.get("site"), "site")
         else:
-            test_o.assertIs(expected_result.get("site"), None)
+            test_o.assertIs(expected_result.get("site"), None, "site")
 
         if vm_o.cluster:
-            test_o.assertEquals(vm_o.cluster.name, expected_result.get("cluster"))
+            test_o.assertEquals(vm_o.cluster.name, expected_result.get("cluster"), "cluster")
         else:
-            test_o.assertIs(expected_result.get("cluster"), None)
+            test_o.assertIs(expected_result.get("cluster"), None, "cluster")
 
         if vm_o.device:
-            test_o.assertEquals(vm_o.device.name, expected_result.get("device"))
+            test_o.assertEquals(vm_o.device.name, expected_result.get("device"), "device")
         else:
-            test_o.assertIs(expected_result.get("device"), None)
+            test_o.assertIs(expected_result.get("device"), None, "device")
 
 
 def test_virtual_machine_interfaces(test_o, expected_results):
@@ -391,7 +391,7 @@ def test_virtual_machine_interfaces(test_o, expected_results):
                 for device_name in list(expected_results.values())
                 for interface_value in device_name
             ]
-        ),
+        ), "number of results"
     )
 
     # Test each device
@@ -401,18 +401,18 @@ def test_virtual_machine_interfaces(test_o, expected_results):
             interface_o = VMInterface.objects.get(
                 name=interface_value.get("name"), virtual_machine__name=device_name
             )
-            test_o.assertEquals(interface_o.enabled, interface_value.get("enabled"))
+            test_o.assertEquals(interface_o.enabled, interface_value.get("enabled"), "enabled")
 
             if interface_value.get("name"):
                 # Check Interface.name only if is not None on interfaces.yml
-                test_o.assertEquals(interface_o.name, interface_value.get("name"))
+                test_o.assertEquals(interface_o.name, interface_value.get("name"), "name")
 
             if interface_o.mac_address:
                 test_o.assertEquals(
-                    str(interface_o.mac_address), interface_value.get("mac_address")
+                    str(interface_o.mac_address), interface_value.get("mac_address"), "mac_address"
                 )
             else:
-                test_o.assertIs(interface_value.get("mac_address"), None)
+                test_o.assertIs(interface_value.get("mac_address"), None, "mac_address")
 
 
 def load_scenario(lab_path):

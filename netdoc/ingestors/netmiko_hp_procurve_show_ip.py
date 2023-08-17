@@ -38,7 +38,7 @@ def ingest(log):
             interface_data = {
                 "name": label,
                 "device_id": device_o.id,
-                "type": "virtual",  # SVI
+                "type": "other",
             }
             interface_o = interface.create(**interface_data)
 
