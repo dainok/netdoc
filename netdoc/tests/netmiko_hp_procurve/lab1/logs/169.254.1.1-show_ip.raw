@@ -17,5 +17,5 @@
   SERVER               | Manual     192.168.2.1     255.255.255.0    No    No
   WAN1                 | Disabled 
   MPLS                 | Disabled 
-  P2P                  | Manual     10.10.1.0       255.255.255.0    No    No
+  P2P                  | Manual     10.10.1.1       255.255.255.0    No    No
  

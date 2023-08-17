@@ -16,7 +16,10 @@ def ingest(log):
 
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/hp_procurve/show_ip # pylint: disable=line-too-long
-        interface_name = item.get("vlan")
+        if not item.get("ip_address"):
+            # Skip interfaces without IP address
+            continue
+        interface_name = item.get("vlan_name")
         label = utils.normalize_interface_label(interface_name)
         ip_address = item.get("ip_address")
         ip_address = (

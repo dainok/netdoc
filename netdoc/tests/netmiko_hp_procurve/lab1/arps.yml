@@ -2,9 +2,9 @@
   interface: 1/a1
   ip_address: 192.168.1.101
   mac_address: 00:04:24:00:00:A1
-  vendor: null
+  vendor: TMC s.r.l.
 - device: SWICORE
   interface: 1/20
-  ip_address: 192.168.1.101
+  ip_address: 10.10.1.1
   mac_address: 00:1B:17:00:00:B1
-  vendor: null
+  vendor: Palo Alto Networks
