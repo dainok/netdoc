@@ -12,6 +12,7 @@ import yaml
 from yaml.loader import SafeLoader
 
 from django.test import TestCase
+from django.db.models import Q
 
 from dcim.models import (
     Device,
@@ -372,9 +373,19 @@ def test_routes(test_o, expected_results):
 
     # Test each item
     for expected_result in expected_results:
-        if expected_result.get("nexthop_if"):
+        if expected_result.get("nexthop_virtual_if"):
             route_o = RouteTableEntry.objects.get(
-                device__name=expected_result.get("device"),
+                vm__name=expected_result.get("device"),
+                destination=expected_result.get("destination"),
+                distance=expected_result.get("distance"),
+                metric=expected_result.get("metric"),
+                protocol=expected_result.get("protocol"),
+                vrf__name=expected_result.get("vrf"),
+                nexthop_ip=expected_result.get("nexthop_ip"),
+                nexthop_virtual_if__name=expected_result.get("nexthop_virtual_if"),
+            )
+        elif expected_result.get("nexthop_if"):
+            route_o = RouteTableEntry.objects.get(
                 destination=expected_result.get("destination"),
                 distance=expected_result.get("distance"),
                 metric=expected_result.get("metric"),
@@ -384,7 +395,10 @@ def test_routes(test_o, expected_results):
                 nexthop_if__label=expected_result.get("nexthop_if"),
             )
         else:
-            route_o = RouteTableEntry.objects.get(
+            route_o = RouteTableEntry.objects.filter(
+                Q(device__name=expected_result.get("device"))
+                | Q(vm__name=expected_result.get("device"))
+            ).get(
                 device__name=expected_result.get("device"),
                 destination=expected_result.get("destination"),
                 distance=expected_result.get("distance"),
