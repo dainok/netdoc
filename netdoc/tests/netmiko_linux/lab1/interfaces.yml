@@ -1,0 +1,39 @@
+DISCOVERY:
+  - name: ens18
+    label: ens18
+    type: other
+    speed: null
+    duplex: null
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: null
+    vrf: null
+    ip_addresses:
+    - 172.16.100.10/24
+    connected_device: null
+    connected_interface_label: null
+  - name: lo
+    label: lo
+    type: virtual
+    speed: null
+    duplex: null
+    mtu: 65536
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: null
+    vrf: null
+    ip_addresses:
+    - 127.0.0.1/8
+    connected_device: null
+    connected_interface_label: null
