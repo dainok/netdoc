@@ -802,6 +802,7 @@ def normalize_route_type(route_type):
         "a c",
         "a h",
         "vrrp-engine",
+        "vrrp_engine",
     ]:
         # Connected
         return "c"
