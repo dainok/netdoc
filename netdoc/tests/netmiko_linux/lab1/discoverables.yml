@@ -1,5 +1,6 @@
 - address: 169.254.1.1
   device: DISCOVERY
+  vm: null
   site: test-site
   credential: test-credential
   mode: netmiko_linux

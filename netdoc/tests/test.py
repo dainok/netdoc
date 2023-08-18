@@ -101,6 +101,13 @@ def test_discoverables(test_o, expected_results):
         else:
             test_o.assertIs(expected_result.get("device"), None, "device")
 
+        if discoverable_o.vm:
+            test_o.assertEquals(
+                discoverable_o.vm.name, expected_result.get("vm"), "vm"
+            )
+        else:
+            test_o.assertIs(expected_result.get("vm"), None, "vm")
+
         if discoverable_o.site:
             test_o.assertEquals(
                 discoverable_o.site.name, expected_result.get("site"), "site"
