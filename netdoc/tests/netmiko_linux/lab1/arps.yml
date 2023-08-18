@@ -1,0 +1,10 @@
+- device: DISCOVERY
+  interface: ens18
+  ip_address: 172.16.100.103
+  mac_address: 3A:65:64:00:00:30
+  vendor: null
+- device: DISCOVERY
+  interface: ens18
+  ip_address: 172.16.100.104
+  mac_address: F2:D4:45:00:00:68
+  vendor: null

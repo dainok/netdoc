@@ -1,0 +1,16 @@
+{
+    "configuration": false,
+    "details": {
+        "command": "<show><routing><route></route></routing></show>",
+        "enable": false,
+        "order": 128,
+        "supported": true,
+        "template": "show routing route"
+    },
+    "discoverable__mode": "xml_panw_ngfw",
+    "ingested": false,
+    "parsed": false,
+    "parsed_output": "",
+    "raw_output": "",
+    "success": true
+}

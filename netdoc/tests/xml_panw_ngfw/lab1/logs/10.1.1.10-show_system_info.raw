@@ -1,0 +1,31 @@
+<response status="success"><result><system><hostname>FW01</hostname><ip-address>10.1.1.10</ip-address><public-ip-address>unknown</public-ip-address><netmask>255.255.255.0</netmask><default-gateway>10.1.1.254</default-gateway><is-dhcp>no</is-dhcp><ipv6-address>unknown</ipv6-address><ipv6-link-local-address>fe80::20c:29ff:fe92:ea39/64</ipv6-link-local-address><mac-address>00:0c:29:00:00:39</mac-address><time>Tue Aug 15 18:02:11 2023
+</time>
+<uptime>166 days, 3:22:53</uptime>
+<devicename>FW01</devicename>
+<family>vm</family><model>PA-VM</model><serial>007951000000013</serial><vm-mac-base>E4:A7:49:00:00:00</vm-mac-base><vm-mac-count>256</vm-mac-count><vm-uuid>564D1DC0-9D15-77E5-EE87-00000A92EA39</vm-uuid><vm-cpuid>ESX:54060000FFFB8B1F</vm-cpuid><vm-license>VM-300</vm-license><vm-cap-tier>9.0 GB</vm-cap-tier><vm-cores>4</vm-cores><vm-mem>16418292</vm-mem><relicense>0</relicense><vm-mode>VMware ESXi</vm-mode>
+<cloud-mode>non-cloud</cloud-mode>
+<sw-version>10.1.9</sw-version>
+<global-protect-client-package-version>6.1.1</global-protect-client-package-version>
+<device-dictionary-version>89-421</device-dictionary-version>
+<device-dictionary-release-date>2023/08/11 21:24:15 CEST</device-dictionary-release-date>
+<app-version>8742-8215</app-version>
+<app-release-date>2023/08/10 19:46:11 CEST</app-release-date>
+<av-version>4543-5060</av-version>
+<av-release-date>2023/08/15 01:26:53 CEST</av-release-date>
+<threat-version>8742-8215</threat-version>
+<threat-release-date>2023/08/10 19:46:11 CEST</threat-release-date>
+<wf-private-version>0</wf-private-version>
+<wf-private-release-date>unknown</wf-private-release-date>
+<url-db>paloaltonetworks</url-db>
+<wildfire-version>794768-798545</wildfire-version>
+<wildfire-release-date>2023/08/15 17:57:28 CEST</wildfire-release-date>
+<wildfire-rt>Disabled</wildfire-rt>
+<url-filtering-version>20230815.20241</url-filtering-version>
+<global-protect-datafile-version>unknown</global-protect-datafile-version>
+<global-protect-datafile-release-date>unknown</global-protect-datafile-release-date><global-protect-clientless-vpn-version>0</global-protect-clientless-vpn-version>
+<logdb-version>10.1.2</logdb-version>
+<plugin_versions><entry name='dlp' version='1.0.4'><pkginfo>dlp-1.0.4</pkginfo></entry><entry name='vm_series' version='2.1.9'><pkginfo>vm_series-2.1.9</pkginfo></entry></plugin_versions><platform-family>vm</platform-family>
+<vpn-disable-mode>off</vpn-disable-mode>
+<multi-vsys>off</multi-vsys>
+<operational-mode>normal</operational-mode>
+<device-certificate-status>Valid</device-certificate-status></system></result></response>

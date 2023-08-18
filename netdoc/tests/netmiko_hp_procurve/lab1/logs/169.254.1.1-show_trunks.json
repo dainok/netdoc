@@ -1,0 +1,16 @@
+{
+    "configuration": false,
+    "details": {
+        "command": "show trunks",
+        "enable": true,
+        "order": 128,
+        "supported": true,
+        "template": "show trunks"
+    },
+    "discoverable__mode": "netmiko_hp_procurve",
+    "ingested": false,
+    "parsed": false,
+    "parsed_output": "",
+    "raw_output": "",
+    "success": true
+}

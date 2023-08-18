@@ -16,7 +16,7 @@ def ingest(log):
 
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/hp_procurve/show_ip_route # pylint: disable=line-too-long
-        nexthop = item.get("nexthop")
+        nexthop = item.get("gateway")
         if not nexthop:
             # Skip routes with no nexthop (interface or IP address)
             continue

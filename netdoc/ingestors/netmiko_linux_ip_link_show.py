@@ -17,8 +17,8 @@ def ingest(log):
         interface_name = item.get("interface")
         label = utils.normalize_interface_label(item.get("interface"))
         mac_address = (
-            utils.normalize_mac_address(item.get("address"))
-            if not utils.incomplete_mac(item.get("address"))
+            utils.normalize_mac_address(item.get("ip_addresses"))
+            if not utils.incomplete_mac(item.get("ip_addresses"))
             else None
         )
         int_type = utils.normalize_interface_type(item.get("type"))

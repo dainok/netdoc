@@ -1,0 +1,15 @@
+- device: FW01
+  virtual_interface: ethernet1/1.2
+  ip_address: 1.2.3.4
+  mac_address: 18:8B:45:00:00:40
+  vendor: Cisco Systems, Inc
+- device: FW01
+  virtual_interface: ethernet1/1.11
+  ip_address: 10.10.9.1
+  mac_address: 00:87:64:00:00:9C
+  vendor: Cisco Systems, Inc
+- device: FW01
+  virtual_interface: ethernet1/2.12
+  ip_address: 10.10.7.1
+  mac_address: 00:50:56:00:00:6E
+  vendor: VMware, Inc.

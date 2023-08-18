@@ -31,6 +31,7 @@ from extras.scripts import get_scripts, run_script
 from extras.models import JobResult, Script
 from utilities.utils import NetBoxFakeRequest
 from dcim.models import Interface
+from virtualization.models import VMInterface
 
 
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
@@ -328,28 +329,54 @@ def get_diagram_interfaces(
         interface_qs = interface_qs.filter(device__site_id__in=sites)
     if roles:
         interface_qs = interface_qs.filter(device__device_role_id__in=roles)
+    virtual_interface_qs = VMInterface.objects.all()
+    if sites:
+        virtual_interface_qs = virtual_interface_qs.filter(
+            virtual_machine__site_id__in=sites
+        )
+    if roles:
+        virtual_interface_qs = virtual_interface_qs.filter(
+            virtual_machine__role_id__in=roles
+        )
+
     if mode == "l2":
         # Filter out Interface without cable
         interface_qs = interface_qs.exclude(cable__isnull=True)
         if vrfs:
             interface_qs = interface_qs.filter(ip_addresses__vrf_id__in=vrfs)
-    if mode == "l3":
+        # Not using virtual interfaces on L2 diagrams
+        virtual_interface_qs = VMInterface.objects.none()
+    elif mode == "l3":
         # Filter out Interface without IP address
         interface_qs = interface_qs.exclude(ip_addresses__isnull=True)
+        virtual_interface_qs = virtual_interface_qs.exclude(ip_addresses__isnull=True)
         if include_global_vrf and not vrfs:
             # Include Global VRF only
             interface_qs = interface_qs.filter(ip_addresses__vrf__isnull=True)
+            virtual_interface_qs = virtual_interface_qs.filter(
+                ip_addresses__vrf__isnull=True
+            )
         elif include_global_vrf and vrfs:
             # Include selected VRFs and Global VRF
             interface_qs = interface_qs.filter(
                 Q(ip_addresses__vrf__isnull=True) | Q(ip_addresses__vrf_id__in=vrfs)
             )
-
+            virtual_interface_qs = virtual_interface_qs.filter(
+                Q(ip_addresses__vrf__isnull=True) | Q(ip_addresses__vrf_id__in=vrfs)
+            )
         elif not include_global_vrf and vrfs:
             # Include selected VRFs only
             interface_qs = interface_qs.filter(ip_addresses__vrf_id__in=vrfs)
+            virtual_interface_qs = virtual_interface_qs.filter(
+                ip_addresses__vrf_id__in=vrfs
+            )
+    elif mode == "site":
+        # Filter out Interface without cable
+        interface_qs = interface_qs.exclude(cable__isnull=True)
+        # Not using virtual interfaces on site diagrams
+        virtual_interface_qs = VMInterface.objects.none()
 
-    return interface_qs
+    return list(interface_qs) + list(virtual_interface_qs)
 
 
 def get_remote_lldp_interface_label(
@@ -516,6 +543,7 @@ def normalize_hostname(name):
         except ValueError:
             # Not a valid IP Address, it is a hostname
             pass
+        name = name.strip()  # Remove additional spaces
         name = name.split(".")[0]  # Removes domain if exists
         name = name.upper()
         name = re.sub(
@@ -673,6 +701,8 @@ def normalize_interface_speed(speed):
         # Speed is set to auto
         return None
     speed = speed.replace(" ", "")
+    speed = speed.replace("fdx", "")  # HP Procurve
+    speed = speed.replace("hdx", "")  # HP Procurve
     speed = speed.replace("kbit", "")
     speed = speed.replace("kbps", "")
     speed = speed.replace("mbps", "000")
