@@ -16,3 +16,9 @@
   manufacturer: Unknown
   address: null
   serial: ""
+- name: SW03
+  site: test-site
+  model: Unknown device
+  manufacturer: Unknown
+  address: null
+  serial: ""

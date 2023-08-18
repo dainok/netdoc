@@ -3,3 +3,8 @@
   site: test-site
   credential: test-credential
   mode: netmiko_hp_procurve
+- address: 10.10.1.3
+  device: null
+  site: test-site
+  credential: test-credential
+  mode: netmiko_hp_procurve
