@@ -386,6 +386,7 @@ def test_routes(test_o, expected_results):
             )
         elif expected_result.get("nexthop_if"):
             route_o = RouteTableEntry.objects.get(
+                device__name=expected_result.get("device"),
                 destination=expected_result.get("destination"),
                 distance=expected_result.get("distance"),
                 metric=expected_result.get("metric"),
