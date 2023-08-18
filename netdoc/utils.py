@@ -543,6 +543,7 @@ def normalize_hostname(name):
         except ValueError:
             # Not a valid IP Address, it is a hostname
             pass
+        name = name.strip()  # Remove additional spaces
         name = name.split(".")[0]  # Removes domain if exists
         name = name.upper()
         name = re.sub(

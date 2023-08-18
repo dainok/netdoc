@@ -15,7 +15,7 @@ DISCOVERY:
     mac_address: null
     vrf: null
     ip_addresses:
-    - 172.16.100.10/24
+      - 172.16.100.10/24
     connected_device: null
     connected_interface_label: null
   - name: lo
@@ -34,6 +34,6 @@ DISCOVERY:
     mac_address: null
     vrf: null
     ip_addresses:
-    - 127.0.0.1/8
+      - 127.0.0.1/8
     connected_device: null
     connected_interface_label: null
