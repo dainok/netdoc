@@ -423,9 +423,18 @@ def test_virtual_machines(test_o, expected_results):
     for expected_result in expected_results:
         vm_o = VirtualMachine.objects.get(name=expected_result.get("name"))
         test_o.assertEquals(vm_o.status, expected_result.get("status"), "status")
-        test_o.assertEquals(vm_o.vcpus, int(expected_result.get("vcpus")), "vcpus")
-        test_o.assertEquals(vm_o.memory, expected_result.get("memory"), "memory")
-        test_o.assertEquals(vm_o.disk, expected_result.get("disk"), "disk")
+        if vm_o.vcpus:
+            test_o.assertEquals(vm_o.vcpus, int(expected_result.get("vcpus")), "vcpus")
+        else:
+            test_o.assertIs(expected_result.get("vcpus"), None, "vcpus")
+        if vm_o.memory:
+            test_o.assertEquals(vm_o.memory, expected_result.get("memory"), "memory")
+        else:
+            test_o.assertIs(expected_result.get("memory"), None, "memory")
+        if vm_o.disk:
+            test_o.assertEquals(vm_o.disk, expected_result.get("disk"), "disk")
+        else:
+            test_o.assertIs(expected_result.get("disk"), None, "disk")
 
         if vm_o.site:
             test_o.assertEquals(vm_o.site.name, expected_result.get("site"), "site")
@@ -446,6 +455,15 @@ def test_virtual_machines(test_o, expected_results):
         else:
             test_o.assertIs(expected_result.get("device"), None, "device")
 
+        if vm_o.primary_ip:
+            test_o.assertEquals(
+                str(vm_o.primary_ip.address),
+                expected_result.get("address"),
+                "address",
+            )
+        else:
+            test_o.assertIs(expected_result.get("address"), None, "address")
+
 
 def test_virtual_machine_interfaces(test_o, expected_results):
     """Test Interface given an expected_results dict."""
@@ -463,7 +481,7 @@ def test_virtual_machine_interfaces(test_o, expected_results):
         "number of results",
     )
 
-    # Test each device
+    # Test each virtual interface
     for device_name, interface_list in expected_results.items():
         # Test each interface
         for interface_value in interface_list:
@@ -473,12 +491,7 @@ def test_virtual_machine_interfaces(test_o, expected_results):
             test_o.assertEquals(
                 interface_o.enabled, interface_value.get("enabled"), "enabled"
             )
-
-            if interface_value.get("name"):
-                # Check Interface.name only if is not None on interfaces.yml
-                test_o.assertEquals(
-                    interface_o.name, interface_value.get("name"), "name"
-                )
+            test_o.assertEquals(interface_o.mtu, interface_value.get("mtu"), "mtu")
 
             if interface_o.mac_address:
                 test_o.assertEquals(
@@ -489,6 +502,59 @@ def test_virtual_machine_interfaces(test_o, expected_results):
             else:
                 test_o.assertIs(interface_value.get("mac_address"), None, "mac_address")
 
+            test_o.assertEquals(
+                interface_o.description,
+                interface_value.get("description"),
+                "description",
+            )
+            test_o.assertEquals(interface_o.mode, interface_value.get("mode"), "mode")
+
+            if interface_o.parent:
+                test_o.assertEquals(
+                    interface_o.parent.name, interface_value.get("parent", "parent")
+                )
+            else:
+                test_o.assertIs(interface_value.get("parent"), None, "parent")
+
+            if interface_o.vrf:
+                test_o.assertEquals(
+                    interface_o.vrf.name, interface_value.get("vrf"), "vrf"
+                )
+            else:
+                test_o.assertIs(interface_value.get("vrf"), None, "vrf")
+
+            if interface_o.untagged_vlan:
+                test_o.assertEquals(
+                    interface_o.untagged_vlan.vid,
+                    interface_value.get("untagged_vlan"),
+                    "untagged_vlan",
+                )
+            else:
+                test_o.assertIs(
+                    interface_value.get("untagged_vlan"), None, "untagged_vlan"
+                )
+
+            test_o.assertEquals(
+                len(interface_o.tagged_vlans.all()),
+                len(interface_value.get("tagged_vlans")),
+                "tagged_vlans",
+            )
+            for vlan_o in interface_o.tagged_vlans.all():
+                test_o.assertIn(
+                    vlan_o.vid, interface_value.get("tagged_vlans"), "tagged_vlans"
+                )
+
+            test_o.assertEquals(
+                len(interface_o.ip_addresses.all()),
+                len(interface_value.get("ip_addresses")),
+                "ip_addresses",
+            )
+            for ipaddress_o in interface_o.ip_addresses.all():
+                test_o.assertIn(
+                    str(ipaddress_o.address),
+                    interface_value.get("ip_addresses"),
+                    "ip_addresses",
+                )
 
 def load_scenario(lab_path):
     """Load DiscoveryLog files and return the list of expected result files."""

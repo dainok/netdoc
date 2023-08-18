@@ -1,0 +1,108 @@
+FW01:
+  - name: ethernet1/1
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    mac_address: 3C:EC:EF:00:00:D9
+    vrf: null
+    ip_addresses: []
+  - name: ethernet1/1.2
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: ethernet1/1
+    mac_address: null
+    vrf: vrf-external
+    ip_addresses:
+     - 1.2.3.4/24
+  - name: ethernet1/1.11
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: ethernet1/1
+    mac_address: null
+    vrf: vrf-external
+    ip_addresses:
+     - 10.10.9.1/24
+  - name: ethernet1/2
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    mac_address: 3C:EC:EF:00:00:D8
+    vrf: null
+    ip_addresses: []
+  - name: ethernet1/2.12
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: ethernet1/2
+    mac_address: null
+    vrf: vrf-internal
+    ip_addresses:
+     - 10.10.7.254/24
+  - name: loopback
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    mac_address: 00:1B:17:00:00:03
+    vrf: null
+    ip_addresses: []
+  - name: loopback.1
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: loopback
+    mac_address: null
+    vrf: vrf-internal
+    ip_addresses:
+     - 10.10.255.1/32
+  - name: tunnel
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    mac_address: 00:1B:17:00:00:04
+    vrf: null
+    ip_addresses: []
+  - name: tunnel.1
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: tunnel
+    mac_address: null
+    vrf: vrf-internal
+    ip_addresses:
+     - 10.13.4.1/30
+  - name: sdwan
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    mac_address: 00:1B:17:00:00:0D
+    vrf: null
+    ip_addresses: []
