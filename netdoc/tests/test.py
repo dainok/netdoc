@@ -102,9 +102,7 @@ def test_discoverables(test_o, expected_results):
             test_o.assertIs(expected_result.get("device"), None, "device")
 
         if discoverable_o.vm:
-            test_o.assertEquals(
-                discoverable_o.vm.name, expected_result.get("vm"), "vm"
-            )
+            test_o.assertEquals(discoverable_o.vm.name, expected_result.get("vm"), "vm")
         else:
             test_o.assertIs(expected_result.get("vm"), None, "vm")
 
@@ -555,6 +553,7 @@ def test_virtual_machine_interfaces(test_o, expected_results):
                     interface_value.get("ip_addresses"),
                     "ip_addresses",
                 )
+
 
 def load_scenario(lab_path):
     """Load DiscoveryLog files and return the list of expected result files."""
