@@ -349,12 +349,20 @@ def test_arps(test_o, expected_results):
 
     # Test each item
     for expected_result in expected_results:
-        arp_o = ArpTableEntry.objects.get(
-            interface__device__name=expected_result.get("device"),
-            interface__label=expected_result.get("interface"),
-            mac_address=expected_result.get("mac_address"),
-            ip_address=expected_result.get("ip_address") + "/32",
-        )
+        if expected_result.get("interface"):
+            arp_o = ArpTableEntry.objects.get(
+                interface__device__name=expected_result.get("device"),
+                interface__label=expected_result.get("interface"),
+                mac_address=expected_result.get("mac_address"),
+                ip_address=expected_result.get("ip_address") + "/32",
+            )
+        else:
+            arp_o = ArpTableEntry.objects.get(
+                virtual_interface__virtual_machine__name=expected_result.get("device"),
+                virtual_interface__name=expected_result.get("virtual_interface"),
+                mac_address=expected_result.get("mac_address"),
+                ip_address=expected_result.get("ip_address") + "/32",
+            )
         test_o.assertEquals(arp_o.vendor, expected_result.get("vendor"), "vendor")
 
 
