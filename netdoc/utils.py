@@ -533,7 +533,9 @@ def log_ingest(log):
                 + "thus logs cannot be ingested. Check if logs with priority 0 are ingested or if "
                 + "Device is attached to a different Discoverable."
             )
-        else:  # skip the ingest
+        else:  # skip the actual ingest
+            log.ingested = True
+            log.save()
             return log
 
     module.ingest(log)
