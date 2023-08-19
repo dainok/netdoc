@@ -526,11 +526,15 @@ def log_ingest(log):
 
     if log.order > 0 and not log.discoverable.device and not log.discoverable.vm:
         # Log with order > 0 must have a Device attached to the parent Discoverable
-        raise ValueError(
-            f"The discoverable {log.discoverable.address} does not have an attached device "
-            + "thus logs cannot be ingested. Check if logs with priority 0 are ingested or if "
-            + "Device is attached to a different Discoverable."
-        )
+        # can be caused by duplicated disoverable IP's addressing the same device
+        if PLUGIN_SETTINGS.get("RAISE_ON_DISCOVERABLE_NOT_ATTACHED"):
+            raise ValueError(
+                f"The discoverable {log.discoverable.address} does not have an attached device "
+                + "thus logs cannot be ingested. Check if logs with priority 0 are ingested or if "
+                + "Device is attached to a different Discoverable."
+            )
+        else:  # skip the ingest
+            return log
 
     module.ingest(log)
     return log
