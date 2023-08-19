@@ -216,50 +216,12 @@ DRAWIO_ROLE_MAP = {
 }
 
 
-def append_nornir_netmiko_task(
-    task, commands, enable=True, template=None, order=128, supported=True
-):
-    """Append a Nornir task within a multiple_tasks adding extended details.
-
-    commands can be str or list. template is allowed only if commands is str.
-    """
-    # TODO: delete this
-    if isinstance(commands, str):
-        commands = [commands]
-    elif isinstance(commands, list) and template:
-        raise ValueError("Cannot specify template for a list of commands")
-    elif not isinstance(commands, list):
-        raise ValueError("Command must be a string or a list of string")
-    for command in commands:
-        details = {
-            "command": command,
-            "template": template if template else command,
-            "enable": enable,
-            "order": order,
-            "supported": supported,
-        }
-        for cmd_filter in PLUGIN_SETTINGS.get("NORNIR_SKIP_LIST"):
-            if re.match(cmd_filter, command):
-                # Skip excluded commands
-                break
-        else:
-            # The filter does not match (filter loop completed successfully)
-            task.run(
-                task=netmiko_send_command,
-                name=json.dumps(details),
-                command_string=details.get("command"),
-                use_textfsm=False,
-                enable=details.get("enable"),
-                use_timing=False,
-                read_timeout=PLUGIN_SETTINGS.get("NORNIR_TIMEOUT"),
-            )
-
-
 def append_nornir_netmiko_tasks(
-    task, commands, platform, enable=True, filters=None, filter_exclude=None
+    task, commands, platform, enable=True, filters=None, filter_exclude=None, order=None
 ):
-    """Apply filter to command lists and append to Nornir tasks"""
-    order = 0
+    """Apply filter to command lists and append to Nornir tasks."""
+    if order is None:
+        order = 0
     for command in commands:
         cmd_line = command[0]
         template = command[1]
@@ -270,15 +232,15 @@ def append_nornir_netmiko_tasks(
             pass
         elif filter_exclude is True:
             # Exclude commands which match filter words (deny list)
-            for filter in filters:
-                if filter in command:
+            for keyword in filters:
+                if keyword in command:
                     # Mark command as skipped because matches the filter
                     to_be_filtered = True
                     break
         elif filter_exclude is False:
             # Exclude commands which don't match filter words
-            for filter in filters:
-                if filter not in command:
+            for keyword in filters:
+                if keyword not in command:
                     # Mark command as skipped because doesn't match the filter
                     to_be_filtered = True
                     break

@@ -49,51 +49,6 @@ def discovery(nrni, filters=None, filter_exclude=None):
         utils.append_nornir_netmiko_tasks(
             task, commands, platform, filters=filters, filter_exclude=filter_exclude
         )
-        # for command in commands:
-        #     if
-        # utils.append_nornir_netmiko_task(
-        #     task, "show running-config | include hostname", template="HOSTNAME", order=0
-        # )
-        # utils.append_nornir_netmiko_task(
-        #     task,
-        #     [
-        #         "show running-config",
-        #         "show interfaces",
-        #         "show cdp neighbors detail",
-        #         "show lldp neighbors detail",
-        #         "show vlan",
-        #         "show vrf",
-        #         "show ip interface",
-        #     ],
-        #     order=10,
-        # )
-        # utils.append_nornir_netmiko_task(
-        #     task, "show mac address-table dynamic", template="show mac address-table"
-        # )
-        # utils.append_nornir_netmiko_task(
-        #     task,
-        #     [
-        #         "show etherchannel summary",
-        #         "show interfaces switchport",
-        #         "show inventory",
-        #     ],
-        # )
-        # utils.append_nornir_netmiko_task(
-        #     task,
-        #     [
-        #         "show version",
-        #         "show logging",
-        #         "show spanning-tree",
-        #         "show interfaces trunk",
-        #         "show standby",
-        #         "show vrrp all",
-        #         "show glbp",
-        #         "show ip ospf neighbor",
-        #         "show ip eigrp neighbors",
-        #         "show ip bgp neighbors",
-        #     ],
-        #     supported=False,
-        # )
 
     # Run the playbook
     aggregated_results = nrni.run(task=multiple_tasks)
@@ -146,57 +101,31 @@ def discovery(nrni, filters=None, filter_exclude=None):
             for vrf in vrfs:  # pylint: disable=cell-var-from-loop
                 if vrf == "default":
                     # Default VRF has no name
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        [
-                            "show ip arp",
-                        ],
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands="show ip route connected",
-                        template="show ip route",
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands="show ip route static",
-                        template="show ip route",
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands="show ip route rip",
-                        template="show ip route",
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands="show ip route bgp",
-                        template="show ip route",
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands="show ip route eigrp",
-                        template="show ip route",
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands="show ip route ospf",
-                        template="show ip route",
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands="show ip route isis",
-                        template="show ip route",
-                    )
+                    commands = [
+                        ("show ip arp", None),
+                        ("show ip route connected", "show ip route"),
+                        ("show ip route static", "show ip route"),
+                        ("show ip route rip", "show ip route"),
+                        ("show ip route bgp", "show ip route"),
+                        ("show ip route eigrp", "show ip route"),
+                        ("show ip route ospf", "show ip route"),
+                        ("show ip route isis", "show ip route"),
+                    ]
                 else:
                     # with non default VRF commands and templates differ
-                    utils.append_nornir_netmiko_task(
-                        task, commands=f"show ip arp vrf {vrf}", template="show ip arp"
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands=f"show ip route vrf {vrf}",
-                        template="show ip route",
-                    )
+                    commands = [
+                        (f"show ip arp vrf {vrf}", "show ip arp"),
+                        (f"show ip route vrf {vrf}", "show ip route"),
+                    ]
+
+                utils.append_nornir_netmiko_tasks(
+                    task,
+                    commands,
+                    platform,
+                    filters=filters,
+                    filter_exclude=filter_exclude,
+                    order=100,
+                )
 
         # Run the additional playbook
         additional_aggregated_results = current_nr.run(task=additional_tasks)

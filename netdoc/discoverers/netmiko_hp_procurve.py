@@ -11,46 +11,35 @@ from netdoc import utils
 from netdoc.schemas import discoverable, discoverylog
 
 
-def discovery(nrni):
+def discovery(nrni, filters=None, filter_exclude=None):
     """Discovery HP Procurve devices."""
+    platform = "hp_procurve"
     host_list = []
     failed_host_list = []
+    # Define commands, in order with command, template, enabled
+    commands = [
+        ("show system", "HOSTNAME"),
+        ("show running-config", None),
+        ("show interfaces brief", None),
+        ("show vlans", None),
+        ("show cdp neighbors detail", None),
+        ("show lldp info remote-device", None),
+        ("show mac-address", None),
+        ("show arp", None),
+        ("show trunks", None),
+        ("show ip", None),
+        ("show ip route", None),
+        # Unsupported
+        ("show version", None),
+        ("show system", None),
+        ("show logging", None),
+        ("show spanning-tree", None),
+    ]
 
     def multiple_tasks(task):
         """Define commands (in order) for the playbook."""
-        utils.append_nornir_netmiko_task(
-            task, "show system", template="HOSTNAME", order=0
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "show running-config",
-                "show interfaces brief",
-                "show vlans",
-                "show cdp neighbors detail",
-                "show lldp info remote-device",
-                "show mac-address",
-                "show arp",
-            ],
-            order=10,
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "show trunks",
-                "show ip",
-                "show ip route",
-            ],
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "show version",
-                "show system",
-                "show logging",
-                "show spanning-tree",
-            ],
-            supported=False,
+        utils.append_nornir_netmiko_tasks(
+            task, commands, platform, filters=filters, filter_exclude=filter_exclude
         )
 
     # Run the playbook

@@ -12,42 +12,35 @@ from netdoc import utils
 from netdoc.schemas import discoverable, discoverylog
 
 
-def discovery(nrni):
+def discovery(nrni, filters=None, filter_exclude=None):
     """Discovery Cisco XR devices."""
     platform = "cisco_xr"
     host_list = []
     failed_host_list = []
+    # Define commands, in order with command, template, enabled
+    commands = [
+        ("show running-config | include hostname", "HOSTNAME"),
+        ("show running-config", None),
+        ("show interfaces", None),
+        ("show cdp neighbors detail", None),
+        ("show lldp neighbors", None),
+        ("show vrf all detail", None),
+        ("show ipv4 interface", None),
+        ("admin show inventory", None),
+        # Unsupported
+        ("show inventory", None),
+        ("show hsrp", None),
+        ("show vrrp", None),
+        ("show ospf neighbor", None),
+        ("show eigrp neighbors", None),
+        ("show bgp neighbors", None),
+        ("show bgp summary", None),
+    ]
 
     def multiple_tasks(task):
         """Define commands (in order) for the playbook."""
-        utils.append_nornir_netmiko_task(
-            task, "show running-config | include hostname", template="HOSTNAME", order=0
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "show running-config",
-                "show interfaces",
-                "show cdp neighbors detail",
-                "show lldp neighbors",
-                "show vrf all detail",
-                "show ipv4 interface",
-                "admin show inventory",
-            ],
-            order=10,
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "show inventory",
-                "show hsrp",
-                "show vrrp",
-                "show ospf neighbor",
-                "show eigrp neighbors",
-                "show bgp neighbors",
-                "show bgp summary",
-            ],
-            supported=False,
+        utils.append_nornir_netmiko_tasks(
+            task, commands, platform, filters=filters, filter_exclude=filter_exclude
         )
 
     # Run the playbook
@@ -101,57 +94,31 @@ def discovery(nrni):
             for vrf in vrfs:  # pylint: disable=cell-var-from-loop
                 if vrf == "default":
                     # Default VRF has no name
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        [
-                            "show arp",
-                        ],
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands="show route connected",
-                        template="show route",
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands="show route static",
-                        template="show route",
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands="show route rip",
-                        template="show route",
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands="show route bgp",
-                        template="show route",
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands="show route eigrp",
-                        template="show route",
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands="show route ospf",
-                        template="show route",
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands="show route isis",
-                        template="show route",
-                    )
+                    commands = [
+                        ("show arp", None),
+                        ("show route connected", "show route"),
+                        ("show route static", "show route"),
+                        ("show route rip", "show route"),
+                        ("show route bgp", "show route"),
+                        ("show route eigrp", "show route"),
+                        ("show route ospf", "show route"),
+                        ("show route isis", "show route"),
+                    ]
                 else:
                     # with non default VRF commands and templates differ
-                    utils.append_nornir_netmiko_task(
-                        task, commands=f"show arp vrf {vrf}", template="show arp"
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands=f"show route vrf {vrf}",
-                        template="show route",
-                    )
+                    commands = [
+                        (f"show arp vrf {vrf}", "show arp"),
+                        (f"show route vrf {vrf}", "show route"),
+                    ]
+
+                utils.append_nornir_netmiko_tasks(
+                    task,
+                    commands,
+                    platform,
+                    filters=filters,
+                    filter_exclude=filter_exclude,
+                    order=100,
+                )
 
         # Run the additional playbook
         additional_aggregated_results = current_nr.run(task=additional_tasks)
