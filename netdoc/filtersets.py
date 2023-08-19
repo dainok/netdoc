@@ -84,6 +84,7 @@ class DiscoveryLogFilterSet(NetBoxModelFilterSet):
         model = DiscoveryLog
         fields = [
             "discoverable__device",
+            "discoverable__vm",
             "configuration",
             "success",
             "supported",
@@ -97,6 +98,7 @@ class DiscoveryLogFilterSet(NetBoxModelFilterSet):
             Q(discoverable__address__icontains=value)
             | Q(discoverable__mode__icontains=value)
             | Q(discoverable__device__name__icontains=value)
+            | Q(discoverable__vm__name__icontains=value)
             | Q(command__icontains=value)
         )
 

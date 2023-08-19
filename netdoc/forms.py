@@ -8,12 +8,14 @@ from django import forms
 
 from dcim.models import Site, DeviceRole, Device
 from ipam.models import VRF
+from virtualization.models import VirtualMachine
 
 from utilities.forms import (
     CSVModelChoiceField,
     DynamicModelChoiceField,
     DynamicModelMultipleChoiceField,
     StaticSelect,
+    APISelect,
     BOOLEAN_WITH_BLANK_CHOICES,
     add_blank_choice,
 )
@@ -247,8 +249,14 @@ class DiscoveryLogListFilterForm(NetBoxModelFilterSetForm):
     discoverable__device = forms.ModelChoiceField(
         queryset=Device.objects.all(),
         to_field_name="id",
-        help_text="Device",
         required=False,
+        widget=APISelect(api_url="/api/dcim/devices/"),
+    )
+    discoverable__vm = forms.ModelChoiceField(
+        queryset=VirtualMachine.objects.all(),
+        to_field_name="id",
+        required=False,
+        widget=APISelect(api_url="/api/virtualization/virtual-machines/"),
     )
     configuration = forms.NullBooleanField(
         required=False,
