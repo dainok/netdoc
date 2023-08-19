@@ -1,0 +1,2 @@
+default via 172.16.100.254 dev ens18 onlink
+172.16.100.0/24 dev ens18 proto kernel scope link src 172.16.100.10

@@ -17,6 +17,7 @@ def ingest(log):
         interface_name = item.get("port")
         label = utils.normalize_interface_label(interface_name)
         duplex = utils.normalize_interface_duplex(item.get("mode"))
+        speed = utils.normalize_interface_speed(f'{item.get("mode")}mbps')
         int_type = utils.normalize_interface_type(item.get("type"))
         enabled = (
             utils.normalize_interface_status(item.get("status"))
@@ -39,6 +40,7 @@ def ingest(log):
         data = {
             "name": interface_name,
             "duplex": duplex,
+            "speed": speed,
             "type": int_type,
             "device_id": device_o.id,
             "enabled": enabled,

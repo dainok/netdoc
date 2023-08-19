@@ -1,0 +1,4 @@
+- address: 172.16.100.10/24
+  vrf: null
+- address: 127.0.0.1/8
+  vrf: null

@@ -1,0 +1,10 @@
+- address: 1.2.3.4/24
+  vrf: vrf-external
+- address: 10.10.9.1/24
+  vrf: vrf-external
+- address: 10.10.7.254/24
+  vrf: vrf-internal
+- address: 10.10.255.1/32
+  vrf: vrf-internal
+- address: 10.13.4.1/30
+  vrf: vrf-internal

@@ -1,0 +1,22 @@
+
+ CDP neighbors information
+
+  Port : 1/1  
+  Device ID : 00 1c c0 ef e1 40                                             
+  Address Type : UNKNOWN     
+  Address      : Unsupported format                                          
+  Platform     :                                                            
+  Capability   :                                                            
+  Device Port  : 00 1c c0 ef e1 40                                          
+  Version      :                                                            
+
+------------------------------------------------------------------------------
+
+  Port : 1/2  
+  Device ID : SW03                                                          
+  Address Type : IP          
+  Address      : 10.10.1.3                                                  
+  Platform     : ProCurve J9279A Switch 2510G-24, revision Y.11.16, ROM N...
+  Capability   : Switch                                                     
+  Device Port  : 13                                                         
+  Version      : ProCurve J9279A Switch 2510G-24, revision Y.11.16, ROM N...

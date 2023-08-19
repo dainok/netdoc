@@ -1,0 +1,4 @@
+- name: vrf-internal
+  rd: null
+- name: vrf-external
+  rd: null

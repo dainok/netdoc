@@ -1,0 +1,16 @@
+{
+    "configuration": false,
+    "details": {
+        "command": "show lldp info remote-device",
+        "enable": true,
+        "order": 10,
+        "supported": true,
+        "template": "show lldp info remote-device"
+    },
+    "discoverable__mode": "netmiko_hp_procurve",
+    "ingested": false,
+    "parsed": false,
+    "parsed_output": "",
+    "raw_output": "",
+    "success": true
+}

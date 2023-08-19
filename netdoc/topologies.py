@@ -1,4 +1,4 @@
-"""Functions to build vis.js topology data from a queryset."""
+"""Functions to build vis.js topology data from an Interface list."""
 __author__ = "Andrea Dainese"
 __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2022, Andrea Dainese"
@@ -26,7 +26,11 @@ NODE_TEMPLATE = """
     <tbody>
         <tr>
             <th>Type: </th>
-            <td>{{ device.device_type.model }}</td>
+            {% if device.device_type %}
+                <td>{{ device.device_type.model }}</td>
+            {% else %}
+                <td>Virtual</td>
+            {% endif %}
         </tr>
         {% if device.primary_ip %}
             <tr>
@@ -120,12 +124,12 @@ def integer_hash(text, length=16):
     return int(hashlib.sha256(text.encode("utf-8")).hexdigest(), 16) % 10**length
 
 
-def get_l2_topology_data(queryset, details):
-    """Create a L2 vis.js topology data from an Interface queryset."""
+def get_l2_topology_data(interface_list, details):
+    """Create a L2 vis.js topology data from an Interface list."""
     nodes = {}
     links = {}
 
-    for interface_o in queryset:
+    for interface_o in interface_list:
         # Create device
         device_o = interface_o.device
         device_id = device_o.pk
@@ -189,9 +193,9 @@ def get_l2_topology_data(queryset, details):
     }
 
 
-def get_l2_drawio_topology(queryset, diagram):
-    """Create a L2 DrawIO topology data from an Interface queryset."""
-    data = get_l2_topology_data(queryset, diagram.details)
+def get_l2_drawio_topology(interface_list, diagram):
+    """Create a L2 DrawIO topology data from an Interface list."""
+    data = get_l2_topology_data(interface_list, diagram.details)
     nodes = data.get("nodes")
     links = data.get("edges")
 
@@ -233,24 +237,32 @@ def get_l2_drawio_topology(queryset, diagram):
     return drawio_o.dump_xml()
 
 
-def get_l3_topology_data(queryset, details):
-    """Create a L3 vis.js topology data from an Interface queryset."""
+def get_l3_topology_data(interface_list, details):
+    """Create a L3 vis.js topology data from an Interface list."""
     nodes = {}
     networks = {}
     links = {}
 
-    for interface_o in queryset:
+    for interface_o in interface_list:
         for address_o in interface_o.ip_addresses.all():
             # We are using IPAddress's VRF. Interface's VRF is not relevant
             # Create device
+            if type(interface_o).__name__ == "VMInterface":
+                # Virtual device
+                device_o = interface_o.virtual_machine
+                device_name = device_o.name
+                role_color = device_o.role.color
+                device_role = device_o.role.slug
+            else:
+                # Physical device
+                device_o = interface_o.device
+                device_name = device_o.name
+                role_color = device_o.device_role.color
+                device_role = device_o.device_role.slug
             vrf_name = interface_o.vrf.name if interface_o.vrf else None
-            device_o = interface_o.device
-            device_name = device_o.name
             device_str = f"{device_name}:{vrf_name}" if vrf_name else device_name
             device_id = integer_hash(device_str)
             if device_id not in nodes:
-                role_color = device_o.device_role.color
-                device_role = device_o.device_role.slug
                 if device_role in ROLE_MAP:
                     # Custom device role
                     device_role = ROLE_MAP.get(device_role)
@@ -336,9 +348,9 @@ def get_l3_topology_data(queryset, details):
     }
 
 
-def get_l3_drawio_topology(queryset, diagram):
-    """Create a L3 DrawIO topology data from an Interface queryset."""
-    data = get_l3_topology_data(queryset, diagram.details)
+def get_l3_drawio_topology(interface_list, diagram):
+    """Create a L3 DrawIO topology data from an Interface list."""
+    data = get_l3_topology_data(interface_list, diagram.details)
     nodes = data.get("nodes")
     links = data.get("edges")
 
@@ -388,15 +400,12 @@ def get_l3_drawio_topology(queryset, diagram):
     return drawio_o.dump_xml()
 
 
-def get_site_topology_data(queryset, details):
-    """Create a site vis.js topology data from an Interface queryset."""
+def get_site_topology_data(interface_list, details):
+    """Create a site vis.js topology data from an Interface list."""
     sites = {}
     links = {}
 
-    # Filter out unconnected interfaces
-    queryset = queryset.filter(cable__isnull=False)
-
-    for interface_o in queryset:
+    for interface_o in interface_list:
         # Create link
         cable_o = interface_o.cable
         from_interface_o = cable_o.terminations.first().interface.first()
@@ -468,9 +477,9 @@ def get_site_topology_data(queryset, details):
     }
 
 
-def get_site_drawio_topology(queryset, diagram):
-    """Create a site DrawIO topology data from an Interface queryset."""
-    data = get_site_topology_data(queryset, diagram.details)
+def get_site_drawio_topology(interface_list, diagram):
+    """Create a site DrawIO topology data from an Interface list."""
+    data = get_site_topology_data(interface_list, diagram.details)
     nodes = data.get("nodes")
     links = data.get("edges")
 

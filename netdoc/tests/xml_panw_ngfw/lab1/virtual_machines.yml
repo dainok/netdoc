@@ -1,0 +1,7 @@
+- name: FW01
+  site: test-site
+  status: active
+  address: null
+  vcpus: null
+  memory: null
+  disk: null

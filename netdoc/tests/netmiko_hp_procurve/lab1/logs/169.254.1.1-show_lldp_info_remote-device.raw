@@ -1,0 +1,9 @@
+
+ LLDP Remote Devices Information
+
+  LocalPort | ChassisId          PortId             PortDescr SysName           
+  --------- + ------------------ ------------------ --------- ------------------
+  1/1       | 001cc0-efe140      00 1c c0 ef e1 40                              
+  1/5       | 08f1ea-398ae0      10                 DownLink  SW01        
+  1/6       | d48564-d87f80      23                 DownLink  SW02
+ 
