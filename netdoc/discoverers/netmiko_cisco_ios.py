@@ -12,57 +12,88 @@ from netdoc import utils
 from netdoc.schemas import discoverable, discoverylog
 
 
-def discovery(nrni):
+def discovery(nrni, filters=None, filter_exclude=None):
     """Discovery Cisco IOS devices."""
     platform = "cisco_ios"
     host_list = []
     failed_host_list = []
+    # Define commands, in order with command, template, enabled
+    commands = [
+        ("show running-config | include hostname", "HOSTNAME"),
+        ("show running-config", None),
+        ("show interfaces", None),
+        ("show cdp neighbors detail", None),
+        ("show lldp neighbors detail", None),
+        ("show vlan", None),
+        ("show vrf", None),
+        ("show ip interface", None),
+        ("show mac address-table dynamic", "show mac address-table"),
+        ("show etherchannel summary", None),
+        ("show interfaces switchport", None),
+        ("show inventory", None),
+        # Unsupported
+        ("show version", None),
+        ("show logging", None),
+        ("show spanning-tree", None),
+        ("show interfaces trunk", None),
+        ("show standby", None),
+        ("show vrrp all", None),
+        ("show glbp", None),
+        ("show ip ospf neighbor", None),
+        ("show ip eigrp neighbors", None),
+        ("show ip bgp neighbors", None),
+    ]
 
     def multiple_tasks(task):
         """Define commands (in order) for the playbook."""
-        utils.append_nornir_netmiko_task(
-            task, "show running-config | include hostname", template="HOSTNAME", order=0
+        utils.append_nornir_netmiko_tasks(
+            task, commands, platform, filters=filters, filter_exclude=filter_exclude
         )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "show running-config",
-                "show interfaces",
-                "show cdp neighbors detail",
-                "show lldp neighbors detail",
-                "show vlan",
-                "show vrf",
-                "show ip interface",
-            ],
-            order=10,
-        )
-        utils.append_nornir_netmiko_task(
-            task, "show mac address-table dynamic", template="show mac address-table"
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "show etherchannel summary",
-                "show interfaces switchport",
-                "show inventory",
-            ],
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "show version",
-                "show logging",
-                "show spanning-tree",
-                "show interfaces trunk",
-                "show standby",
-                "show vrrp all",
-                "show glbp",
-                "show ip ospf neighbor",
-                "show ip eigrp neighbors",
-                "show ip bgp neighbors",
-            ],
-            supported=False,
-        )
+        # for command in commands:
+        #     if
+        # utils.append_nornir_netmiko_task(
+        #     task, "show running-config | include hostname", template="HOSTNAME", order=0
+        # )
+        # utils.append_nornir_netmiko_task(
+        #     task,
+        #     [
+        #         "show running-config",
+        #         "show interfaces",
+        #         "show cdp neighbors detail",
+        #         "show lldp neighbors detail",
+        #         "show vlan",
+        #         "show vrf",
+        #         "show ip interface",
+        #     ],
+        #     order=10,
+        # )
+        # utils.append_nornir_netmiko_task(
+        #     task, "show mac address-table dynamic", template="show mac address-table"
+        # )
+        # utils.append_nornir_netmiko_task(
+        #     task,
+        #     [
+        #         "show etherchannel summary",
+        #         "show interfaces switchport",
+        #         "show inventory",
+        #     ],
+        # )
+        # utils.append_nornir_netmiko_task(
+        #     task,
+        #     [
+        #         "show version",
+        #         "show logging",
+        #         "show spanning-tree",
+        #         "show interfaces trunk",
+        #         "show standby",
+        #         "show vrrp all",
+        #         "show glbp",
+        #         "show ip ospf neighbor",
+        #         "show ip eigrp neighbors",
+        #         "show ip bgp neighbors",
+        #     ],
+        #     supported=False,
+        # )
 
     # Run the playbook
     aggregated_results = nrni.run(task=multiple_tasks)

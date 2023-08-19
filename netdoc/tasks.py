@@ -23,10 +23,12 @@ from netdoc import utils
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 
 
-def discovery(addresses=None, script_handler=None):
+def discovery(addresses=None, script_handler=None, filters=None, filter_exclude=None):
     """Discovery all or a list of IP addresses."""
     if not addresses:
         addresses = []
+    if not filters:
+        filters = []
     ntc_template_dir = os.environ.get("NET_TEXTFSM")
 
     if not ntc_template_dir:
@@ -101,7 +103,9 @@ def discovery(addresses=None, script_handler=None):
             module = importlib.import_module(f"netdoc.discoverers.{mode}")
         except ModuleNotFoundError as exc:
             raise ModuleNotFoundError(f"Discovery script not found for {mode}") from exc
-        module.discovery(filtered_devices)
+        module.discovery(
+            filtered_devices, filters=filters, filter_exclude=filter_exclude
+        )
 
     if script_handler:
         script_handler.log_info("Discovery completed")

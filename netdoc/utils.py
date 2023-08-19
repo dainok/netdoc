@@ -223,6 +223,7 @@ def append_nornir_netmiko_task(
 
     commands can be str or list. template is allowed only if commands is str.
     """
+    # TODO: delete this
     if isinstance(commands, str):
         commands = [commands]
     elif isinstance(commands, list) and template:
@@ -252,6 +253,69 @@ def append_nornir_netmiko_task(
                 use_timing=False,
                 read_timeout=PLUGIN_SETTINGS.get("NORNIR_TIMEOUT"),
             )
+
+
+def append_nornir_netmiko_tasks(
+    task, commands, platform, enable=True, filters=None, filter_exclude=None
+):
+    """Apply filter to command lists and append to Nornir tasks"""
+    order = 0
+    for command in commands:
+        cmd_line = command[0]
+        template = command[1]
+
+        to_be_filtered = False
+        if template == "HOSTNAME":
+            # HOSTNAME is always included
+            pass
+        elif filter_exclude is True:
+            # Exclude commands which match filter words (deny list)
+            for filter in filters:
+                if filter in command:
+                    # Mark command as skipped because matches the filter
+                    to_be_filtered = True
+                    break
+        elif filter_exclude is False:
+            # Exclude commands which don't match filter words
+            for filter in filters:
+                if filter not in command:
+                    # Mark command as skipped because doesn't match the filter
+                    to_be_filtered = True
+                    break
+        if to_be_filtered:
+            # Skip commands marked as filtered
+            continue
+
+        # Check if command is supported
+        function_name = f"{platform}_{template}"
+        function_name = function_name.replace(" ", "_")
+        function_name = function_name.replace("-", "_")
+        function_name = function_name.lower().strip()
+        supported = True
+        try:
+            importlib.import_module(f"netdoc.ingestors.{function_name}")
+        except ModuleNotFoundError:
+            # Ingestor not found
+            supported = False
+
+        # Append the command to Nornir tasks
+        details = {
+            "command": cmd_line,
+            "template": template if template else command,
+            "enable": enable,
+            "order": order,
+            "supported": supported,
+        }
+        task.run(
+            task=netmiko_send_command,
+            name=json.dumps(details),
+            command_string=details.get("command"),
+            use_textfsm=False,
+            enable=details.get("enable"),
+            use_timing=False,
+            read_timeout=PLUGIN_SETTINGS.get("NORNIR_TIMEOUT"),
+        )
+        order = order + 1
 
 
 def count_interface_neighbors(neighbors_list, key):

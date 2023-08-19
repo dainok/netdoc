@@ -21,6 +21,7 @@ from extras.scripts import (
     TextVar,
     BooleanVar,
     IntegerVar,
+    StringVar,
 )
 
 from netdoc.models import (
@@ -107,6 +108,17 @@ class AddDiscoverable(Script):
         required=True,
     )
 
+    # Filter (include/exclude commands)
+    filters = StringVar(
+        description="Filter command based on words separated by comma (e.g. mac,route).",
+        required=False,
+    )
+    filter_exclude = BooleanVar(
+        description="Set to exclude commands matching the filter (deny list), unset to include commands mathing the filter only (allow list).",
+        required=False,
+        default=True,
+    )
+
     def run(self, data, commit):
         """Start the script."""
         discoverable_ip_addresses = []
@@ -118,6 +130,11 @@ class AddDiscoverable(Script):
         mode = data.get("mode")
         site_o = data.get("site")
         ip_addresses = re.split(" |,|\n", data.get("ip_addresses"))
+
+        filters = []
+        if data.get("filters"):
+            filters = data.get("filters").split(",")
+        filter_exclude = data.get("filter_exclude")
 
         # Parse IP addresses
         for ip_address in ip_addresses:
@@ -157,7 +174,12 @@ class AddDiscoverable(Script):
             return ""
 
         self.log_info(f"Starting discovery on {', '.join(discoverable_ip_addresses)}")
-        output = discovery(discoverable_ip_addresses, script_handler=self)
+        output = discovery(
+            discoverable_ip_addresses,
+            script_handler=self,
+            filter=filters,
+            filter_exclude=filter_exclude,
+        )
 
         self.log_info("Discovery completed")
 
@@ -191,13 +213,29 @@ class Discover(Script):
         default=True,
     )
 
+    # Filter (include/exclude commands)
+    filters = StringVar(
+        description="Filter command based on words separated by comma (e.g. mac,route).",
+        required=False,
+    )
+    filter_exclude = BooleanVar(
+        description="Set to exclude commands matching the filter (deny list), unset to include commands mathing the filter only (allow list).",
+        required=False,
+        default=True,
+    )
+
     def run(self, data, commit):
         """Start the script."""
+        # Filtering out discoverable=False is done at Nornir inventory level.
         discoverable_ip_addresses = []
         discoverables = data.get("discoverables")
 
-        # Filtering out discoverable=False is done at Nornir inventory level.
+        filters = []
+        if data.get("filters"):
+            filters = data.get("filters").split(",")
+        filter_exclude = data.get("filter_exclude")
 
+        discoverable_ip_addresses = []
         if data.get("undiscovered_only"):
             # Get only undiscovered IP addresses
             discoverables = discoverable.get_list(last_discovered_at__isnull=True)
@@ -207,7 +245,6 @@ class Discover(Script):
             self.log_info(
                 f"Starting first discovery on {', '.join(discoverable_ip_addresses)}"
             )
-            output = discovery(discoverable_ip_addresses, script_handler=self)
         elif discoverables:
             for discoverable_o in discoverables:
                 discoverable_ip_addresses.append(discoverable_o.address)
@@ -215,10 +252,15 @@ class Discover(Script):
             self.log_info(
                 f"Starting discovery on {', '.join(discoverable_ip_addresses)}"
             )
-            output = discovery(discoverable_ip_addresses, script_handler=self)
         else:
             self.log_info("Starting discovery on all IP addresses")
-            output = discovery(None, script_handler=self)
+
+        output = discovery(
+            discoverable_ip_addresses,
+            script_handler=self,
+            filter=filters,
+            filter_exclude=filter_exclude,
+        )
 
         return output
 

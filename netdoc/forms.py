@@ -258,7 +258,7 @@ class DiscoveryLogListFilterForm(NetBoxModelFilterSetForm):
         to_field_name="id",
         required=False,
         widget=APISelect(api_url="/api/virtualization/virtual-machines/"),
-        label="Associated VM"
+        label="Associated VM",
     )
     configuration = forms.NullBooleanField(
         required=False,
