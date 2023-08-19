@@ -251,12 +251,14 @@ class DiscoveryLogListFilterForm(NetBoxModelFilterSetForm):
         to_field_name="id",
         required=False,
         widget=APISelect(api_url="/api/dcim/devices/"),
+        label="Associated device",
     )
     discoverable__vm = forms.ModelChoiceField(
         queryset=VirtualMachine.objects.all(),
         to_field_name="id",
         required=False,
         widget=APISelect(api_url="/api/virtualization/virtual-machines/"),
+        label="Associated VM"
     )
     configuration = forms.NullBooleanField(
         required=False,
