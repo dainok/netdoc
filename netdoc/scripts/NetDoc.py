@@ -43,6 +43,7 @@ from netdoc.tasks import discovery
 
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 NORNIR_LOG = PLUGIN_SETTINGS.get("NORNIR_LOG")
+MAX_INGESTED_LOGS = PLUGIN_SETTINGS.get("MAX_INGESTED_LOGS")
 
 
 class CreateDeviceRole(Script):
@@ -265,11 +266,16 @@ class Ingest(Script):
             log_queryset = log_queryset.filter(
                 discoverable__in=data.get("discoverables")
             )
+        # Always limit max number of ingested logs
+        # incase of an error at the end of a long run
         if data.get("max_ingested_logs"):
             max_ingested_logs = data.get("max_ingested_logs")
-            self.log_info(f"Limiting ingesting to {max_ingested_logs} logs")
-            remaining_logs = len(log_queryset) - max_ingested_logs
-            log_queryset = log_queryset[:max_ingested_logs]
+        else:
+            max_ingested_logs = MAX_INGESTED_LOGS
+
+        self.log_info(f"Limiting ingesting to {max_ingested_logs} logs")
+        remaining_logs = len(log_queryset) - max_ingested_logs
+        log_queryset = log_queryset[:max_ingested_logs]
 
         if log_queryset:
             self.log_info(f"Ingesting {len(log_queryset)} logs")
