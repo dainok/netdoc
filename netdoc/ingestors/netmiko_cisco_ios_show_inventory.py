@@ -26,6 +26,13 @@ def ingest(log):
             part_serial_number = item.get("sn")
             part_number = item.get("pid")
             break
+    # get details from the first entry if it's not a "chassis"
+    if part_number is DEFAULT_MODEL:
+        item = log.parsed_output[0]
+        if item.get("name") and item.get("sn") and item.get("pid"):
+            part_description = item.get("name")
+            part_serial_number = item.get("sn")
+            part_number = item.get("pid")
 
     device.update(
         device_o,

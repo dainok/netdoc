@@ -82,6 +82,7 @@ class DiscoveryModeChoices(ChoiceSet):
         ("netmiko_linux", "Netmiko Linux"),
         ("json_vmware_vsphere", "VMware vSphere"),
         ("xml_panw_ngfw", "Palo Alto Networks NGFW"),
+        ("netmiko_cisco_ios_telnet", "Netmiko Cisco IOS Telnet"),
     ]
 
 

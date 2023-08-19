@@ -35,6 +35,7 @@ class NetdocConfig(PluginConfig):
         "NORNIR_SKIP_LIST": [],
         "RAISE_ON_CDP_FAIL": True,
         "RAISE_ON_LLDP_FAIL": True,
+        "RAISE_ON_DISCOVERABLE_NOT_ATTACHED": False,
         "ROLE_MAP": {},
     }
 

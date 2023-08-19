@@ -515,7 +515,10 @@ def log_ingest(log):
     function_name = function_name.replace(" ", "_")
     function_name = function_name.replace("-", "_")
     function_name = function_name.lower().strip()
-
+    if (
+        "_telnet" in function_name
+    ):  # use same ingestors regardless of ssh or telnet access
+        function_name = function_name.replace("_telnet", "")
     try:
         module = importlib.import_module(f"netdoc.ingestors.{function_name}")
     except ModuleNotFoundError as exc:
@@ -523,11 +526,17 @@ def log_ingest(log):
 
     if log.order > 0 and not log.discoverable.device and not log.discoverable.vm:
         # Log with order > 0 must have a Device attached to the parent Discoverable
-        raise ValueError(
-            f"The discoverable {log.discoverable.address} does not have an attached device "
-            + "thus logs cannot be ingested. Check if logs with priority 0 are ingested or if "
-            + "Device is attached to a different Discoverable."
-        )
+        # can be caused by duplicated disoverable IP's addressing the same device
+        if PLUGIN_SETTINGS.get("RAISE_ON_DISCOVERABLE_NOT_ATTACHED"):
+            raise ValueError(
+                f"The discoverable {log.discoverable.address} does not have an attached device "
+                + "thus logs cannot be ingested. Check if logs with priority 0 are ingested or if "
+                + "Device is attached to a different Discoverable."
+            )
+        else:  # skip the actual ingest
+            log.ingested = True
+            log.save()
+            return log
 
     module.ingest(log)
     return log
@@ -738,6 +747,8 @@ def normalize_interface_status(status):
         return False
     if "disabled" in status:
         return False
+    if "deleted" in status:
+        return False
     raise ValueError(f"Invalid interface status {status}")
 
 
@@ -817,7 +828,18 @@ def normalize_ip_address_or_none(ip_address):
 def normalize_route_type(route_type):
     """Return route type protocol."""
     route_type = route_type.lower().strip()
-    if route_type in ["c", "connected", "direct", "local", "hsrp", "l", "a c", "a h"]:
+    if route_type in [
+        "c",
+        "connected",
+        "direct",
+        "local",
+        "hsrp",
+        "l",
+        "a c",
+        "a h",
+        "vrrp-engine",
+        "vrrp_engine",
+    ]:
         # Connected
         return "c"
     if route_type in ["s", "static", "s*", "a s"]:
@@ -875,6 +897,9 @@ def normalize_route_type(route_type):
         # Nexus EIGRP External with process
         return "ex"
     if re.match(r"^ospf-\S+ intra$", route_type):
+        # Nexus OSPF Intra Area with process
+        return "oia"
+    if re.match(r"^ospf-\S+ inter$", route_type):
         # Nexus OSPF Inter Area with process
         return "oia"
     if re.match(r"^ospf-\S+ type-1$", route_type):
@@ -938,7 +963,7 @@ def normalize_vlan_range(vlan):
     vlan = vlan.lower().strip()
     vlan = vlan.replace("(default vlan)", "")
     vlan = vlan.replace(" ", "")
-    if vlan == "none":
+    if vlan in ["none", ""]:
         return []
     if vlan == "all":
         # All VLANs

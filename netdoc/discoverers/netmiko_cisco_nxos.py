@@ -21,7 +21,7 @@ def discovery(nrni):
     def multiple_tasks(task):
         """Define commands (in order) for the playbook."""
         utils.append_nornir_netmiko_task(
-            task, "show running-config | include hostname", template="HOSTNAME", order=0
+            task, "show hostname", template="HOSTNAME", order=0
         )
         utils.append_nornir_netmiko_task(
             task,

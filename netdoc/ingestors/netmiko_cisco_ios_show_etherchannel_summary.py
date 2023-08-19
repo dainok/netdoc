@@ -37,6 +37,8 @@ def ingest(log):
             attached_interface_o = interface.get(
                 device_id=device_o.id, label=attached_interface_label
             )
+            if not attached_interface_o:
+                continue
             if not attached_interface_name:
                 attached_interface_data = {
                     "name": attached_interface_name,
