@@ -1,0 +1,6 @@
+
+Thu Aug 17 17:57:13.570 Italy
+Building configuration...
+hostname XR01
+                            $(hostname)
+logging hostnameprefix XR01
