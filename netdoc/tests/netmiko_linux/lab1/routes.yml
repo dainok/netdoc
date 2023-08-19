@@ -1,0 +1,16 @@
+- device: DISCOVERY
+  destination: 0.0.0.0/0
+  protocol: u
+  distance: null
+  metric: null
+  nexthop_ip: 172.16.100.254
+  nexthop_if: ens18
+  vrf: null
+- device: DISCOVERY
+  destination: 172.16.100.0/24
+  protocol: u
+  distance: null
+  metric: null
+  nexthop_ip: null
+  nexthop_if: ens18
+  vrf: null

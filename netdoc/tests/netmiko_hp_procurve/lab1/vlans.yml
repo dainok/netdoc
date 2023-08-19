@@ -1,0 +1,6 @@
+- vid: 1
+  name: DEFAULT_VLAN
+- vid: 2
+  name: SERVER
+- vid: 2000
+  name: P2P

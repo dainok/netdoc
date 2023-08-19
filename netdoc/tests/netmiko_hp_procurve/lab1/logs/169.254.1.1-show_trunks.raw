@@ -1,0 +1,7 @@
+
+ Load Balancing Method:  L3-based (default)
+
+  Port   | Name                             Type       | Group Type    
+  ------ + -------------------------------- ---------- + ----- --------
+  1/1    | Trk1_to_SW03                     100/1000T  | Trk1  LACP    
+  1/2    | Trk1_to_SW03                     100/1000T  | Trk1  LACP    

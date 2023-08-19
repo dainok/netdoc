@@ -1,0 +1,12 @@
+
+                                                                                                                                                                                                                                                       IP Route Entries
+
+  Destination        Gateway         VLAN Type      Sub-Type   Metric     Dist.
+  ------------------ --------------- ---- --------- ---------- ---------- -----
+  0.0.0.0/0          10.10.1.1       2000 static               1          1    
+  10.10.1.0/24       P2P             2000 connected            1          0    
+  127.0.0.0/8        reject               static               0          0    
+  127.0.0.1/32       lo0                  connected            1          0    
+  192.168.1.0/24     DEFAULT_VLAN    1    connected            1          0    
+  192.168.2.0/24     SERVER          2    connected            1          0    
+ 

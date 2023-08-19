@@ -1,0 +1,6 @@
+- name: DISCOVERY
+  site: test-site
+  model: Unknown Linux device
+  manufacturer: Linux
+  address: null
+  serial: ""

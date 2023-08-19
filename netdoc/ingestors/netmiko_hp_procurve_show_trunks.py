@@ -16,7 +16,7 @@ def ingest(log):
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/hp_procurve/show_trunks # pylint: disable=line-too-long
         bundle_name = item.get("trunk")
         bundle_label = utils.normalize_interface_label(bundle_name)
-        attached_interface_names = item.get("local_port")
+        attached_interface_name = item.get("local_port")
 
         # Get or create bundle Interface
         bundle_o = interface.get(device_id=device_o.id, label=bundle_label)
@@ -29,24 +29,23 @@ def ingest(log):
         # Set type on bundle Interface
         bundle_o = interface.update(bundle_o, type="lag")
 
-        for attached_interface_name in attached_interface_names:
-            # Get or create attached Interface
-            attached_interface_label = utils.normalize_interface_label(
-                attached_interface_name
-            )
-            attached_interface_o = interface.get(
-                device_id=device_o.id, label=attached_interface_label
-            )
-            if not attached_interface_o:
-                attached_interface_data = {
-                    "name": attached_interface_name,
-                    "device_id": device_o.id,
-                }
-                attached_interface_o = interface.create(**attached_interface_data)
-            # Set LAG on attached Interface
-            attached_interface_o = interface.update(
-                attached_interface_o, lag_id=bundle_o.id
-            )
+        # Get or create attached Interface
+        attached_interface_label = utils.normalize_interface_label(
+            attached_interface_name
+        )
+        attached_interface_o = interface.get(
+            device_id=device_o.id, label=attached_interface_label
+        )
+        if not attached_interface_o:
+            attached_interface_data = {
+                "name": attached_interface_name,
+                "device_id": device_o.id,
+            }
+            attached_interface_o = interface.create(**attached_interface_data)
+        # Set LAG on attached Interface
+        attached_interface_o = interface.update(
+            attached_interface_o, lag_id=bundle_o.id
+        )
 
     # Update the log
     log.ingested = True

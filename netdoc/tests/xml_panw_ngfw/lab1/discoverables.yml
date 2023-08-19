@@ -1,0 +1,5 @@
+- address: 10.1.1.10
+  vm: FW01
+  site: test-site
+  credential: test-credential
+  mode: xml_panw_ngfw
