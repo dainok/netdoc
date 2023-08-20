@@ -840,6 +840,17 @@ def normalize_ip_address_or_none(ip_address):
     return None
 
 
+def normalize_rd(vrf_rd):
+    """Return RD."""
+    vrf_rd = vrf_rd.lower()
+    vrf_rd = vrf_rd.strip()
+    if not vrf_rd:
+        return None
+    if "not set" in vrf_rd:
+        return None
+    return vrf_rd
+
+
 def normalize_route_type(route_type):
     """Return route type protocol."""
     route_type = route_type.lower().strip()
@@ -985,6 +996,21 @@ def normalize_vlan_range(vlan):
         return [int(vlan)]
     except ValueError as exc:
         raise ValueError(f"cannot convert VLAN {vlan} to integer") from exc
+
+
+def normalize_vrf_name(vrf_name):
+    """Return VRF name."""
+    if not vrf_name:
+        # Empty VRF name means global VRF
+        return None
+    vrf_name = vrf_name.strip()
+    if vrf_name == "default":
+        # Default is global VRF
+        return None
+    if vrf_name.startswith("**"):
+        # Special XR VRF
+        return None
+    return vrf_name
 
 
 def object_create(model_o, **kwargs):
