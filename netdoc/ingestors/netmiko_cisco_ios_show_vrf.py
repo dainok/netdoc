@@ -19,7 +19,7 @@ def ingest(log):
         vrf_rd = utils.normalize_rd(item.get("default_rd"))
 
         # Get or create VRF
-        if vrf_o:
+        if vrf_name:
             vrf_o, created = vrf.get_or_create(name=vrf_name)
             vrf_o = vrf.update(vrf_o, mandatory_rd=False, rf=vrf_rd)
 
