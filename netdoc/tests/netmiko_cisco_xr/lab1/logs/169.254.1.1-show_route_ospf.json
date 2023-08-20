@@ -1,12 +1,11 @@
 {
     "configuration": false,
     "details": {
-        "command": "show arp vrf red",
+        "command": "show route ospf",
         "enable": true,
         "order": 128,
         "supported": true,
-        "template": "show arp",
-        "vrf": "red"
+        "template": "show route"
     },
     "discoverable__mode": "netmiko_cisco_xr",
     "ingested": false,

@@ -16,7 +16,7 @@
 - device: XR01
   interface: be1.2
   ip_address: 10.10.8.6
-  mac_address: 00:11:01:00:00:06 
+  mac_address: 00:11:01:00:00:06
   vendor: CET Technologies Pte Ltd
 - device: XR01
   interface: be1.2

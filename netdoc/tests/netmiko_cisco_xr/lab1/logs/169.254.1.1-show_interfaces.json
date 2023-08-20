@@ -1,12 +1,11 @@
 {
     "configuration": false,
     "details": {
-        "command": "show arp vrf red",
+        "command": "show interfaces",
         "enable": true,
-        "order": 128,
+        "order": 10,
         "supported": true,
-        "template": "show arp",
-        "vrf": "red"
+        "template": "show interfaces"
     },
     "discoverable__mode": "netmiko_cisco_xr",
     "ingested": false,
