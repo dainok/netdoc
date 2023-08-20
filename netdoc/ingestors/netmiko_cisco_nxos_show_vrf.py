@@ -5,6 +5,7 @@ __copyright__ = "Copyright 2022, Andrea Dainese"
 __license__ = "GPLv3"
 
 from netdoc.schemas import vrf
+from netdoc import utils
 
 
 def ingest(log):
@@ -14,17 +15,11 @@ def ingest(log):
     """
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/cisco_nxos/show_vrf # pylint: disable=line-too-long
-        vrf_name = item.get("name")
+        vrf_name = utils.normalize_vrf_name(item.get("name"))
 
         # Get or create VRF
-        vrf_o = None
-        if vrf_name and vrf_name != "default":
-            vrf_o = vrf.get(name=vrf_name)
-            if not vrf_o:
-                data = {
-                    "name": vrf_name,
-                }
-                vrf_o = vrf.create(**data)
+        if vrf_name:
+            vrf.get_or_create(name=vrf_name)
 
     # Update the log
     log.ingested = True

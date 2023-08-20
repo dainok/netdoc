@@ -66,6 +66,24 @@ def get_list(**kwargs):
     return result
 
 
+def get_or_create(name, **kwargs):
+    """Get or create a VRF."""
+    created = False
+    data = {
+        **kwargs,
+        "name": name,
+    }
+    data = utils.delete_empty_keys(data)
+    validate(data, get_schema_create(), format_checker=FormatChecker())
+
+    obj = utils.object_get_or_none(VRF, name=name)
+    if not obj:
+        obj = utils.object_create(VRF, name=name, **kwargs)
+        created = True
+
+    return obj, created
+
+
 def update(obj, mandatory_rd=True, **kwargs):
     """Update an VRF."""
     update_if_not_set = ["rd"]

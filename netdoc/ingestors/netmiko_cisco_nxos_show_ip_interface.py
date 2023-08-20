@@ -16,7 +16,7 @@ def ingest(log):
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/cisco_nxos/show_ip_interface # pylint: disable=line-too-long
         interface_name = item.get("interface")
         label = utils.normalize_interface_label(interface_name)
-        vrf_name = item.get("vrf_name")
+        vrf_name = utils.normalize_vrf_name(item.get("vrf_name"))
         ip_list = [item.get("primary_ip_address")] + item.get("secondary_ip_address")
         mask_list = [item.get("primary_ip_subnet")] + item.get("secondary_ip_subnet")
         ip_addresses = [
@@ -26,13 +26,8 @@ def ingest(log):
 
         # Get or create VRF
         vrf_o = None
-        if vrf_name and vrf_name != "default":
-            vrf_o = vrf.get(name=vrf_name)
-            if not vrf_o:
-                data = {
-                    "name": vrf_name,
-                }
-                vrf_o = vrf.create(**data)
+        if vrf_name:
+            vrf_o, created = vrf.get_or_create(name=vrf_name)
 
         # Get or create Interface
         interface_o = interface.get(device_id=device_o.id, label=label)

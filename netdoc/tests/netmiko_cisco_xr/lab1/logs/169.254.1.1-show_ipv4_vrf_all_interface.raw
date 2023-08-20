@@ -47,7 +47,7 @@ MgmtEth0/RSP0/CPU0/0 is Up, ipv4 protocol is Up
   ICMP mask replies are never sent
   Table Id is 0xe0000000
 MgmtEth0/RSP0/CPU0/1 is Shutdown, ipv4 protocol is Down
-  Vrf is MGMT (vrfid 0x60000004)
+  Vrf is management (vrfid 0x60000004)
   Internet protocol processing disabled
 TenGigE0/0/0/0 is Up, ipv4 protocol is Up
   Vrf is default (vrfid 0x60000000)

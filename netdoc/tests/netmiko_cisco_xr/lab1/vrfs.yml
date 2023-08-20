@@ -1,0 +1,4 @@
+- name: red
+  rd: 65100:10000
+- name: management
+  rd: null

@@ -11,17 +11,12 @@ from netdoc import utils
 def ingest(log):
     """Processing parsed output."""
     device_o = log.discoverable.device
-    vrf_name = log.details.get("vrf")
+    vrf_name = utils.normalize_vrf_name(log.details.get("vrf"))
 
     # Get or create VRF
     vrf_o = None
     if vrf_name:
-        vrf_o = vrf.get(name=vrf_name)
-        if not vrf_o:
-            data = {
-                "name": vrf_name,
-            }
-            vrf_o = vrf.create(**data)
+        vrf_o, created = vrf.get_or_create(name=vrf_name)
 
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/cisco_ios/show_ip_route # pylint: disable=line-too-long

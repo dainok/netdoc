@@ -17,7 +17,7 @@ Address family IPV6 Unicast
   No import route policy
   No export route policy
 
-VRF red; RD 12835:90000; VPN ID not set
+VRF red; RD 65100:10000; VPN ID not set
 VRF mode: Regular
 Description red
 Interfaces:
@@ -28,15 +28,11 @@ Interfaces:
   Bundle-Ether10.28020700
 Address family IPV4 Unicast
   Import VPN route-target communities:
-    RT:12835:90000
-    RT:12835:95000
-    RT:65000:90000
-    RT:65000:95000
+    RT:65100:10000
+    RT:65100:10001
   Export VPN route-target communities:
-    RT:12835:90000
-    RT:12835:95000
-    RT:65000:90000
-    RT:65000:95000
+    RT:65100:10000
+    RT:65100:10001
   No import route policy
   No export route policy
 Address family IPV6 Unicast
