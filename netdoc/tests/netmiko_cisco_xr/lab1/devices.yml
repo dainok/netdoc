@@ -2,7 +2,7 @@
   site: test-site
   model: ASR-9006
   manufacturer: Cisco
-  address: null
+  address: 169.254.1.1/24
   serial: FOX150000XQ
 - name: XR02
   site: test-site

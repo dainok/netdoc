@@ -13,12 +13,12 @@ def ingest(log):
     device_o = log.discoverable.device
 
     for item in log.parsed_output:
-        # See https://github.com/dainok/ntc-templates/tree/master/tests/cisco_xr/show_arp # pylint: disable=line-too-long
+        # See https://github.com/networktocode/ntc-templates/blob/master/tests/cisco_xr/show_arp/cisco_xr_show_arp.yml # pylint: disable=line-too-long
         if utils.incomplete_mac(item.get("mac_address")):
             continue
         interface_name = item.get("interface")
         label = utils.normalize_interface_label(interface_name)
-        ip_address = item.get("address")
+        ip_address = item.get("ip_address")
         mac_address = utils.normalize_mac_address(item.get("mac_address"))
 
         interface_o = interface.get(device_id=device_o.id, label=label)
