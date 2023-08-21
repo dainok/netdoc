@@ -81,6 +81,15 @@ def discovery(addresses=None, script_handler=None, filters=None, filter_exclude=
             f"Norninr inventory includes {', '.join(nornir_addresses)}"
         )
 
+    if filters:
+        if filter_exclude:
+            filter_type = "deny"
+        else:
+            filter_type = "allow"
+        script_handler.log_info(
+            f"The following {filter_type} filter has been configured {', '.join(filters)}"
+        )
+
     # Run discovery scripts
     for mode, description in DiscoveryModeChoices():
         # framework = mode.split("_").pop(0)
@@ -96,7 +105,7 @@ def discovery(addresses=None, script_handler=None, filters=None, filter_exclude=
         if script_handler:
             script_handler.log_info(f"Starting discovery of {description} devices")
             script_handler.log_info(
-                f"Norninr inventory includes {', '.join(filtered_addresses)}"
+                f"Nornir inventory includes {', '.join(filtered_addresses)}"
             )
         # Call the discovery script
         try:
