@@ -216,7 +216,7 @@ def api_query(
     }
 
 
-def discovery(nrni):
+def discovery(nrni, filters=None, filter_exclude=None):
     """Discovery VMware vSphere devices."""
     host_list = []
     failed_host_list = []
