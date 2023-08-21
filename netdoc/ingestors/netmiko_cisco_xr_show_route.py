@@ -20,7 +20,7 @@ def ingest(log):
 
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/cisco_xr/show_ip_route # pylint: disable=line-too-long
-        nexthop_if_name = item.get("interface")
+        nexthop_if_name = item.get("interface") if "vrf" not in item.get("interface") else None
         distance = int(item.get("distance")) if item.get("distance") else None
         metric = int(item.get("metric")) if item.get("metric") else None
         destination = (

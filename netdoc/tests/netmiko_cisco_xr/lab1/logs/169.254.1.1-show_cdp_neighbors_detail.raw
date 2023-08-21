@@ -7,7 +7,7 @@ SysName : XR02.example.com
 Entry address(es): 
   IPv4 address: 169.22.1.2
 Platform: cisco ASR9K Series,  Capabilities: Router 
-Interface: TenGigE0/0/0/1
+Interface: TenGigE0/0/0/0
 Port ID (outgoing port): TenGigE0/0/0/1
 Holdtime : 125 sec
 

@@ -48,7 +48,7 @@ Bundle-Ether1.2 is up, line protocol is up
 
 MgmtEth0/RSP0/CPU0/0 is up, line protocol is up 
   Interface state transitions: 0
-  Hardware is Management Ethernet, address is 0026.9825.a728 (bia 0026.9800.0002)
+  Hardware is Management Ethernet, address is 0026.9800.0002 (bia 0026.9800.0002)
   Description: OOB Management Interface
   Internet address is 169.254.1.1/24
   MTU 1514 bytes, BW 10000 Kbit (Max: 10000 Kbit)
@@ -74,7 +74,7 @@ MgmtEth0/RSP0/CPU0/0 is up, line protocol is up
 
 GigabitEthernet0/0/0/0 is administratively down, line protocol is administratively down 
   Interface state transitions: 0
-  Hardware is GigabitEthernet, address is 6c9c.ed30.8168 (bia 6c9c.ed00.0003)
+  Hardware is GigabitEthernet, address is 6c9c.ed00.0003 (bia 6c9c.ed00.0003)
   Internet address is Unknown
   MTU 9216 bytes, BW 1000000 Kbit (Max: 1000000 Kbit)
      reliability 255/255, txload 0/255, rxload 0/255
@@ -100,7 +100,7 @@ GigabitEthernet0/0/0/0 is administratively down, line protocol is administrative
 
 GigabitEthernet0/0/0/1 is administratively down, line protocol is administratively down 
   Interface state transitions: 0
-  Hardware is GigabitEthernet, address is 6c9c.ed30.8169 (bia 6c9c.ed00.0004)
+  Hardware is GigabitEthernet, address is 6c9c.ed00.0004 (bia 6c9c.ed00.0004)
   Internet address is Unknown
   MTU 9216 bytes, BW 1000000 Kbit (Max: 1000000 Kbit)
      reliability 255/255, txload 0/255, rxload 0/255
@@ -126,7 +126,7 @@ GigabitEthernet0/0/0/1 is administratively down, line protocol is administrative
 
 GigabitEthernet0/0/0/2 is up, line protocol is up 
   Interface state transitions: 5
-  Hardware is GigabitEthernet, address is 6c9c.ed30.816a (bia 6c9c.ed00.0005)
+  Hardware is GigabitEthernet, address is 6c9c.ed00.0005 (bia 6c9c.ed00.0005)
   Description: downstream link 1
   Internet address is Unknown
   MTU 9208 bytes, BW 1000000 Kbit (Max: 1000000 Kbit)
@@ -153,10 +153,10 @@ GigabitEthernet0/0/0/2 is up, line protocol is up
 
 GigabitEthernet0/0/0/3 is up, line protocol is up 
   Interface state transitions: 3
-  Hardware is GigabitEthernet, address is 6c9c.ed30.816b (bia 6c9c.ed00.0006)
+  Hardware is GigabitEthernet, address is 6c9c.ed00.0006 (bia 6c9c.ed00.0006)
   Description: downstream link 2
   Internet address is Unknown
-  MTU 9216 bytes, BW 1000000 Kbit (Max: 1000000 Kbit)
+  MTU 9208 bytes, BW 1000000 Kbit (Max: 1000000 Kbit)
      reliability 255/255, txload 145/255, rxload 21/255
   Encapsulation ARPA,
   Full-duplex, 1000Mb/s, SXFD, link type is autonegotiation
