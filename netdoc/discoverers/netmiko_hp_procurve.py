@@ -49,10 +49,7 @@ def discovery(nrni, filters=None, filter_exclude=None):
     print_result(aggregated_results)
 
     # Save outputs and define additional commands
-    for (
-        key,  # pylint: disable=unused-variable
-        multi_result,
-    ) in aggregated_results.items():
+    for multi_result in aggregated_results.values():
         # MultiResult is an array of Result
         for result in multi_result:
             if result.name == "multiple_tasks":

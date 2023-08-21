@@ -57,7 +57,7 @@ def discovery(addresses=None, script_handler=None, filters=None, filter_exclude=
         runner={
             "plugin": "threaded",
             "options": {
-                "num_workers": 100,
+                "num_workers": 10,
             },
         },
         inventory={"plugin": "asset-inventory"},

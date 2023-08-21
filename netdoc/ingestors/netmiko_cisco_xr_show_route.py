@@ -16,11 +16,13 @@ def ingest(log):
     # Get or create VRF
     vrf_o = None
     if vrf_name:
-        vrf_o, created = vrf.get_or_create(name=vrf_name)
+        vrf_o = vrf.get_or_create(name=vrf_name)[0]
 
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/cisco_xr/show_ip_route # pylint: disable=line-too-long
-        nexthop_if_name = item.get("interface") if "vrf" not in item.get("interface") else None
+        nexthop_if_name = (
+            item.get("interface") if "vrf" not in item.get("interface") else None
+        )
         distance = int(item.get("distance")) if item.get("distance") else None
         metric = int(item.get("metric")) if item.get("metric") else None
         destination = (

@@ -16,7 +16,7 @@ def ingest(log):
     # Get or create VRF
     vrf_o = None
     if vrf_name:
-        vrf_o, created = vrf.get_or_create(name=vrf_name)
+        vrf_o = vrf.get_or_create(name=vrf_name)[0]
 
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/linux/ip_route_show # pylint: disable=line-too-long

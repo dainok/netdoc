@@ -37,7 +37,7 @@ def ingest(log):
         # Get or create VRF
         vrf_o = None
         if vrf_name:
-            vrf_o, created = vrf.get_or_create(name=vrf_name)
+            vrf_o = vrf.get_or_create(name=vrf_name)[0]
 
         if vm_o:
             # Get or create interface

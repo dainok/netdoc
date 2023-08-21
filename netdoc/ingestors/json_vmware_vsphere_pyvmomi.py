@@ -17,9 +17,7 @@ from netdoc import utils
 
 def ingest(log):
     """Processing parsed output."""
-    for host_id, host in log.parsed_output[  # pylint: disable=unused-variable
-        "hosts"
-    ].items():
+    for host in log.parsed_output["hosts"].values():
         # Parsing hosts
         cluster_type = host.get("product_name")
         cluster_name = host.get("cluster_name")
@@ -50,7 +48,7 @@ def ingest(log):
             device_o = device.update(device_o, **data_host)
 
         # Parsing host interfaces (vmNICs)
-        for nic_id, nic in host.get("nics").items():  # pylint: disable=unused-variable
+        for nic in host.get("nics").values():
             interface_name = nic.get("name")
             label = utils.normalize_interface_label(interface_name)
             mac_address = (
@@ -87,9 +85,7 @@ def ingest(log):
                 interface.update(interface_o, **data_vm_interface)
 
         # Parsing Virtual Machines
-        for vm_id, vm in host[  # pylint: disable=unused-variable,invalid-name
-            "vms"
-        ].items():
+        for vm in host["vms"].values():  # pylint: disable=invalid-name
             # Get or create Device
             data_vm = {
                 "name": utils.normalize_hostname(vm.get("name")),

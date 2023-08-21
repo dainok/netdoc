@@ -33,7 +33,7 @@ XR01:
     mac_address: "00:11:01:00:00:01"
     vrf: red
     ip_addresses:
-     - 10.10.8.1/24
+      - 10.10.8.1/24
     connected_device: null
     connected_interface_label: null
   - name: GigabitEthernet0/0/0/0
@@ -123,10 +123,10 @@ XR01:
     mac_address: "6C:9C:ED:00:00:07"
     vrf: null
     ip_addresses:
-     - 10.11.1.1/24
+      - 10.11.1.1/24
     connected_device: XR02
     connected_interface_label: te0/0/0/1
-  - name: MgmtEth0/RSP0/CPU0/0 
+  - name: MgmtEth0/RSP0/CPU0/0
     label: mg0/rsp0/cpu0/0
     type: other
     speed: 10000
@@ -142,7 +142,7 @@ XR01:
     mac_address: "00:26:98:00:00:02"
     vrf: management
     ip_addresses:
-     - 169.254.1.1/24
+      - 169.254.1.1/24
     connected_device: null
     connected_interface_label: null
 XR02:
@@ -201,4 +201,3 @@ XR03:
     ip_addresses: []
     connected_device: XR01
     connected_interface_label: gi0/0/0/3
-  

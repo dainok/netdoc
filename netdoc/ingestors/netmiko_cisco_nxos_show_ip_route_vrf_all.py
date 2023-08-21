@@ -46,7 +46,7 @@ def ingest(log):
         # Get or create VRF
         vrf_o = None
         if vrf_name:
-            vrf_o, created = vrf.get_or_create(name=vrf_name)
+            vrf_o = vrf.get_or_create(name=vrf_name)[0]
 
         # Get or create route table entry
         routetableentry_o = routetableentry.get(

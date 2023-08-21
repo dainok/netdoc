@@ -20,7 +20,7 @@ def ingest(log):
 
         # Get or create VRF
         if vrf_name:
-            vrf_o, created = vrf.get_or_create(name=vrf_name)
+            vrf_o = vrf.get_or_create(name=vrf_name)[0]
             vrf_o = vrf.update(vrf_o, mandatory_rd=False, rf=vrf_rd)
 
     # Update the log
