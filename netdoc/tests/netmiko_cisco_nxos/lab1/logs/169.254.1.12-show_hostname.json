@@ -1,7 +1,7 @@
 {
     "configuration": false,
     "details": {
-        "command": "show running-config | include hostname",
+        "command": "show hostname",
         "enable": true,
         "order": 0,
         "supported": true,
