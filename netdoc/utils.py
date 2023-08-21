@@ -248,25 +248,12 @@ def append_nornir_netmiko_tasks(
             # Skip commands marked as filtered
             continue
 
-        # Check if command is supported
-        function_name = f"{platform}_{template}"
-        function_name = function_name.replace(" ", "_")
-        function_name = function_name.replace("-", "_")
-        function_name = function_name.lower().strip()
-        supported = True
-        try:
-            importlib.import_module(f"netdoc.ingestors.{function_name}")
-        except ModuleNotFoundError:
-            # Ingestor not found
-            supported = False
-
         # Append the command to Nornir tasks
         details = {
             "command": cmd_line,
-            "template": template if template else cmd_line,
+            "template": template,
             "enable": enable,
             "order": order,
-            "supported": supported,
         }
         task.run(
             task=netmiko_send_command,
@@ -533,6 +520,20 @@ def is_hostname(name):
         return True
     # Hostname contains invalid chars
     return False
+
+
+def is_command_supported(framework, platform, command):
+    """Return true if the framework/platform/command is supported."""
+    function_name = f"{framework}_{platform}_{command}"
+    function_name = function_name.replace(" ", "_")
+    function_name = function_name.replace("-", "_")
+    function_name = function_name.lower().strip()
+    try:
+        importlib.import_module(f"netdoc.ingestors.{function_name}")
+    except ModuleNotFoundError:
+        # Ingestor not found
+        return False
+    return True
 
 
 def log_ingest(log):
