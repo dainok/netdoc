@@ -19,7 +19,7 @@ def discovery(nrni, filters=None, filter_exclude=None):
     failed_host_list = []
     # Define commands, in order with command, template, enabled
     commands = [
-        ("show running-config | include hostname", "HOSTNAME"),
+        ("show version", "HOSTNAME"),
         ("show running-config", None),
         ("show interfaces", None),
         ("show cdp neighbors detail", None),

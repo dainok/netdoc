@@ -225,6 +225,7 @@ def append_nornir_netmiko_tasks(
         cmd_line = command[0]
         template = command[1]
 
+
         to_be_filtered = False
         if template == "HOSTNAME":
             # HOSTNAME is always included
@@ -232,14 +233,14 @@ def append_nornir_netmiko_tasks(
         elif filter_exclude is True:
             # Exclude commands which match filter words (deny list)
             for keyword in filters:
-                if keyword in command:
+                if keyword in cmd_line:
                     # Mark command as skipped because matches the filter
                     to_be_filtered = True
                     break
         elif filter_exclude is False:
             # Exclude commands which don't match filter words
             for keyword in filters:
-                if keyword not in command:
+                if keyword not in cmd_line:
                     # Mark command as skipped because doesn't match the filter
                     to_be_filtered = True
                     break
@@ -262,7 +263,7 @@ def append_nornir_netmiko_tasks(
         # Append the command to Nornir tasks
         details = {
             "command": cmd_line,
-            "template": template if template else command,
+            "template": template if template else cmd_line,
             "enable": enable,
             "order": order,
             "supported": supported,

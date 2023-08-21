@@ -177,7 +177,7 @@ class AddDiscoverable(Script):
         output = discovery(
             discoverable_ip_addresses,
             script_handler=self,
-            filter=filters,
+            filters=filters,
             filter_exclude=filter_exclude,
         )
 
@@ -258,7 +258,7 @@ class Discover(Script):
         output = discovery(
             discoverable_ip_addresses,
             script_handler=self,
-            filter=filters,
+            filters=filters,
             filter_exclude=filter_exclude,
         )
 
