@@ -16,7 +16,6 @@ import uuid
 from difflib import get_close_matches
 import macaddress
 import yaml
-from yaml.loader import SafeLoader
 
 from nornir_netmiko.tasks import netmiko_send_command
 from netmiko.utilities import get_structured_data
@@ -465,7 +464,7 @@ def find_model(manufacturer=None, keyword=None):
     try:
         with open(library_file, "r", encoding="utf-8") as vendor_fh:
             # Load library file based on manufacturer
-            data = yaml.load(vendor_fh, Loader=SafeLoader)
+            data = yaml.safe_load(vendor_fh)
     except FileNotFoundError as exc:
         raise ValueError(
             f"manufacturer {manufacturer} not found in NetBox library"
