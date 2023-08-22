@@ -566,13 +566,16 @@ class DiscoveryLog(NetBoxModel):
             self.discoverable.mode.split("_")[1:]
         )  # pylint: disable=no-member
         template = self.template
+        supported = is_command_supported(framework, platform, template)
+
+        # Update log details
         details = self.details
-        details["supported"] = is_command_supported(framework, platform, template)
         details["framework"] = framework
         details["platform"] = platform
+        self.supported = supported
         self.details = details
 
-        if self.details["supported"] and not self.pk:
+        if supported and not self.pk:
             # Parse (once) before creating the object
             self.parse()
 
