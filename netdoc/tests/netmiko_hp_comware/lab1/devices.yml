@@ -3,7 +3,7 @@
   model: Unknown HPE device
   manufacturer: HPE
   address: null
-  serial: ""
+  serial: "11111111111111110000"
 - name: ROUTER2
   site: test-site
   model: Unknown HPE device

@@ -12,7 +12,7 @@ def ingest(log):
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/blob/master/tests/hp_comware/display_device_manuinfo/hp_comware_display_device_manuinfo.yml # pylint: disable=line-too-long
         part_description = item.get("slot_type")
-        part_serial_number = item.get("sn")
+        part_serial_number = item.get("device_serial_number")
         # part_id = item.get("device_name")
 
         if "chassis" in part_description.lower():
