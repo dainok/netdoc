@@ -563,8 +563,8 @@ class DiscoveryLog(NetBoxModel):
         # Check if command is supported
         framework = self.discoverable.mode.split("_")[0]  # pylint: disable=no-member
         platform = "_".join(
-            self.discoverable.mode.split("_")[1:]
-        )  # pylint: disable=no-member
+            self.discoverable.mode.split("_")[1:]  # pylint: disable=no-member
+        )
         template = self.template
         supported = is_command_supported(framework, platform, template)
 
