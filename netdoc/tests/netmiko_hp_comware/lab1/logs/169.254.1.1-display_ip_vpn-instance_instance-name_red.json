@@ -1,0 +1,16 @@
+{
+    "configuration": false,
+    "details": {
+        "command": "display ip vpn-instance instance-name red",
+        "enable": true,
+        "order": 3,
+        "supported": true,
+        "template": "display ip vpn-instance instance-name"
+    },
+    "discoverable__mode": "netmiko_hp_comware",
+    "ingested": false,
+    "parsed": false,
+    "parsed_output": "",
+    "raw_output": "",
+    "success": true
+}

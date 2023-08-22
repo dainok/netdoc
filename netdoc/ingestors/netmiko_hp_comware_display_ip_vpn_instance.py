@@ -17,7 +17,7 @@ def ingest(log):
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/hp_comware/display_ip_vpn-instance # pylint: disable=line-too-long
         vrf_name = utils.normalize_vrf_name(item.get("name"))
-        vrf_rd = utils.normalize_rd(item.get("default_rd"))
+        vrf_rd = utils.normalize_rd(item.get("rd"))
 
         # Get or create VRF
         if vrf_name:
