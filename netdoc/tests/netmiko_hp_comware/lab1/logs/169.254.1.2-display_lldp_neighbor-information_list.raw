@@ -1,0 +1,6 @@
+Chassis ID : * -- -- Nearest nontpmr bridge neighbor
+             # -- -- Nearest customer bridge neighbor
+             Default -- -- Nearest bridge neighbor
+System Name          Local Interface Chassis ID      Port ID
+ROUTER1              XGE1/0/1        bcea-fa00-0001  Ten-GigabitEthernet1/0/1  
+ROUTER2              XGE1/0/2        bcea-fa00-0001  Ten-GigabitEthernet1/0/2  
