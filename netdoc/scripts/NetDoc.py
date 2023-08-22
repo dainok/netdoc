@@ -118,9 +118,8 @@ class AddDiscoverable(Script):
         choices=FilterModeChoices.CHOICES,
         description="Filter type",
         required=True,
-        default="exclude"
+        default="exclude",
     )
-
 
     def run(self, data, commit):
         """Start the script."""
@@ -225,7 +224,7 @@ class Discover(Script):
         choices=FilterModeChoices.CHOICES,
         description="Filter type",
         required=True,
-        default="exclude"
+        default="exclude",
     )
 
     def run(self, data, commit):

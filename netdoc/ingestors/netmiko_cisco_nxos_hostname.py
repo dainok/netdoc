@@ -4,8 +4,6 @@ __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2022, Andrea Dainese"
 __license__ = "GPLv3"
 
-import re
-
 from netdoc.schemas import device, discoverable
 from netdoc import utils
 

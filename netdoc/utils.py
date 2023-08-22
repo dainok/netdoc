@@ -216,7 +216,7 @@ DRAWIO_ROLE_MAP = {
 
 
 def append_nornir_netmiko_tasks(
-    task, commands, platform, enable=True, filters=None, filter_type=None, order=None
+    task, commands, enable=True, filters=None, filter_type=None, order=None
 ):
     """Apply filter to command lists and append to Nornir tasks."""
     if order is None:
@@ -225,13 +225,11 @@ def append_nornir_netmiko_tasks(
         cmd_line = command[0]
         template = command[1] if command[1] else cmd_line
 
-
-        to_be_filtered = False
         if template == "HOSTNAME":
             # HOSTNAME is always included
             pass
         else:
-            if (is_command_filtered_out(cmd_line, filters, filter_type)):
+            if is_command_filtered_out(cmd_line, filters, filter_type):
                 # Command must be skipped
                 continue
 

@@ -108,9 +108,7 @@ def discovery(addresses=None, script_handler=None, filters=None, filter_type=Non
             module = importlib.import_module(f"netdoc.discoverers.{mode}")
         except ModuleNotFoundError as exc:
             raise ModuleNotFoundError(f"Discovery script not found for {mode}") from exc
-        module.discovery(
-            filtered_devices, filters=filters, filter_type=filter_type
-        )
+        module.discovery(filtered_devices, filters=filters, filter_type=filter_type)
 
     if script_handler:
         script_handler.log_info("Discovery completed")

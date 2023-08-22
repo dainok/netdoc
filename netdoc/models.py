@@ -27,7 +27,12 @@ from dcim.fields import MACAddressField
 from utilities.choices import ChoiceSet
 from netbox.models import NetBoxModel
 
-from netdoc.utils import parse_netmiko_output, CONFIG_COMMANDS, FAILURE_OUTPUT, is_command_supported
+from netdoc.utils import (
+    parse_netmiko_output,
+    CONFIG_COMMANDS,
+    FAILURE_OUTPUT,
+    is_command_supported,
+)
 
 SECRET_KEY = settings.SECRET_KEY.encode("utf-8")
 FERNET_KEY = base64.urlsafe_b64encode(SECRET_KEY.ljust(32)[:32])
@@ -556,10 +561,16 @@ class DiscoveryLog(NetBoxModel):
     def save(self, *args, **kwargs):
         """Set supported flag and parse raw_output when saving."""
         # Check if command is supported
-        framework = self.discoverable.mode.split("_")[0]
-        platform = "_".join(self.discoverable.mode.split("_")[1:])
+        framework = self.discoverable.mode.split("_")[0]  # pylint: disable=no-member
+        platform = "_".join(
+            self.discoverable.mode.split("_")[1:]
+        )  # pylint: disable=no-member
         template = self.template
-        self.details["supported"] = is_command_supported(framework, platform, template)
+        details = self.details
+        details["supported"] = is_command_supported(framework, platform, template)
+        details["framework"] = framework
+        details["platform"] = platform
+        self.details = details
 
         if self.details["supported"] and not self.pk:
             # Parse (once) before creating the object
