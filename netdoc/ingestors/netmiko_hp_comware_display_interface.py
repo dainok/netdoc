@@ -14,7 +14,7 @@ def ingest(log):
 
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/hp_comware/display_interface # pylint: disable=line-too-long
-        interface_name = item.get("intf")
+        interface_name = item.get("interface")
         label = utils.normalize_interface_label(interface_name)
         description = item.get("description")
         duplex = utils.normalize_interface_duplex(item.get("duplex"))
@@ -26,7 +26,7 @@ def ingest(log):
             else None
         )
         mode = utils.normalize_interface_mode(item.get("port_link_type"))
-        int_type = utils.normalize_interface_type(item.get("intf"))
+        int_type = utils.normalize_interface_type(item.get("interface"))
         enabled = (
             utils.normalize_interface_status(item.get("line_status"))
             if item.get("line_status")
