@@ -223,7 +223,7 @@ def append_nornir_netmiko_tasks(
         order = 0
     for command in commands:
         cmd_line = command[0]
-        template = command[1]
+        template = command[1] if command[1] else cmd_line
 
 
         to_be_filtered = False
