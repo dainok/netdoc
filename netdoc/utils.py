@@ -230,29 +230,9 @@ def append_nornir_netmiko_tasks(
         if template == "HOSTNAME":
             # HOSTNAME is always included
             pass
-        if filters:
-            # A filter is applied
-            if filter_type == "exclude":
-                # Exclude commands which match filter words (deny list)
-                for keyword in filters:
-                    if keyword in cmd_line:
-                        # Mark command as skipped because matches the filter
-                        to_be_filtered = True
-                        break
-            elif filter_type == "include":
-                # Exclude commands which don't match filter words
-                for keyword in filters:
-                    # Mark command as skipped by default
-                    to_be_filtered = True
-                    if keyword in cmd_line:
-                        # Include command
-                        to_be_filtered = False
-                        break
-            else:
-                # Filter type not valid
-                raise ValueError(f"Filter type {filter_type} is not valid.")
-            if to_be_filtered:
-                # Skip commands marked as filtered
+        else:
+            if (is_command_filtered_out(cmd_line, filters, filter_type)):
+                # Command must be skipped
                 continue
 
         # Append the command to Nornir tasks
@@ -541,6 +521,34 @@ def is_command_supported(framework, platform, command):
         # Ingestor not found
         return False
     return True
+
+
+def is_command_filtered_out(cmd_line, filters, filter_type):
+    """Test a command line against a filter and return True if the command must be skipped."""
+    to_be_filtered = False
+    if filter_type == "exclude":
+        # Exclude commands which match filter words (deny list)
+        for keyword in filters:
+            if keyword in cmd_line:
+                # Mark command as skipped because matches the filter
+                to_be_filtered = True
+                break
+    elif filter_type == "include":
+        # Exclude commands which don't match filter words
+        for keyword in filters:
+            # Mark command as skipped by default
+            to_be_filtered = True
+            if keyword in cmd_line:
+                # Include command
+                to_be_filtered = False
+                break
+    else:
+        # Filter type not valid
+        raise ValueError(f"Filter type {filter_type} is not valid.")
+    if to_be_filtered:
+        # Skip commands marked as filtered
+        return True
+    return False
 
 
 def log_ingest(log):
