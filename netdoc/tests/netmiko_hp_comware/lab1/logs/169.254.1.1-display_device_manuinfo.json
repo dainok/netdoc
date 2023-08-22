@@ -1,0 +1,16 @@
+{
+    "configuration": false,
+    "details": {
+        "command": "display device manuinfo",
+        "enable": true,
+        "order": 7,
+        "supported": true,
+        "template": "display device manuinfo"
+    },
+    "discoverable__mode": "netmiko_hp_comware",
+    "ingested": false,
+    "parsed": false,
+    "parsed_output": "",
+    "raw_output": "",
+    "success": true
+}
