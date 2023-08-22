@@ -1,0 +1,32 @@
+ VLAN ID: 1
+ VLAN type: Static
+ Route interface: Not configured
+ Description: Default VLAN
+ Name: default
+ Tagged ports:   None
+ Untagged ports: 
+    Bridge-Aggregation1           Bridge-Aggregation2           
+    Ten-GigabitEthernet1/0/1      
+
+ VLAN ID: 100
+ VLAN type: Static
+ Route interface: Configured
+ IPv4 address: 10.1.100.2
+ IPv4 subnet mask: 255.255.255.0
+ Description: Server VLAN
+ Name: server
+ Tagged ports:   
+    Bridge-Aggregation1           Bridge-Aggregation2           
+ Untagged ports: None
+
+ VLAN ID: 102
+ VLAN type: Static
+ Route interface: Configured
+ IPv4 address: 10.1.102.2
+ IPv4 subnet mask: 255.255.255.0
+ Description: DMZ VLAN
+ Name: dmz
+ Tagged ports:   
+    Bridge-Aggregation1           Bridge-Aggregation2           
+ Untagged ports:
+    Ten-GigabitEthernet1/0/2   
