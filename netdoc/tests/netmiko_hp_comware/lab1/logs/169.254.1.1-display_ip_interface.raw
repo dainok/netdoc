@@ -1,0 +1,77 @@
+Vlan-interface1 current state: UP
+Line protocol current state: UP
+Internet Address is 192.168.1.1/24 Primary
+Broadcast address: 192.168.1.255
+The Maximum Transmit Unit: 1500 bytes
+input packets : 65515804, bytes : 1239151236, multicasts : 2635390
+output packets : 67811020, bytes : 1077354863, multicasts : 6419331
+TTL invalid packet number:         0
+ICMP packet input number:    1792875
+  Echo reply:                      5
+  Unreachable:                275831
+  Source quench:                   0
+  Routing redirect:                0
+  Echo request:              1517039
+  Router advert:                   0
+  Router solicit:                  0
+  Time exceed:                     0
+  IP header bad:                   0
+  Timestamp request:               0
+  Timestamp reply:                 0
+  Information request:             0
+  Information reply:               0
+  Netmask request:                 0
+  Netmask reply:                   0
+  Unknown type:                    0
+
+Vlan-interface100 current state: UP
+Line protocol current state: UP
+Internet Address is 10.1.100.1/24 Primary
+Broadcast address: 10.1.100.255
+The Maximum Transmit Unit: 1500 bytes
+input packets : 65515804, bytes : 1239151236, multicasts : 2635390
+output packets : 67811020, bytes : 1077354863, multicasts : 6419331
+TTL invalid packet number:         0
+ICMP packet input number:    1792875
+  Echo reply:                      5
+  Unreachable:                275831
+  Source quench:                   0
+  Routing redirect:                0
+  Echo request:              1517039
+  Router advert:                   0
+  Router solicit:                  0
+  Time exceed:                     0
+  IP header bad:                   0
+  Timestamp request:               0
+  Timestamp reply:                 0
+  Information request:             0
+  Information reply:               0
+  Netmask request:                 0
+  Netmask reply:                   0
+  Unknown type:                    0
+
+Vlan-interface102 current state: UP
+Line protocol current state: UP
+Internet Address is 10.1.102.1/24 Primary
+Broadcast address: 10.1.102.255
+The Maximum Transmit Unit: 1500 bytes
+input packets : 65515804, bytes : 1239151236, multicasts : 2635390
+output packets : 67811020, bytes : 1077354863, multicasts : 6419331
+TTL invalid packet number:         0
+ICMP packet input number:    1792875
+  Echo reply:                      5
+  Unreachable:                275831
+  Source quench:                   0
+  Routing redirect:                0
+  Echo request:              1517039
+  Router advert:                   0
+  Router solicit:                  0
+  Time exceed:                     0
+  IP header bad:                   0
+  Timestamp request:               0
+  Timestamp reply:                 0
+  Information request:             0
+  Information reply:               0
+  Netmask request:                 0
+  Netmask reply:                   0
+  Unknown type:                    0

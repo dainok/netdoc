@@ -1,0 +1,8 @@
+- device: ROUTER1
+  destination: 192.168.56.0/24
+  protocol: c
+  distance: 0
+  metric: 0
+  nexthop_ip: 192.168.56.101
+  nexthop_if: te1/0/3
+  vrf: null

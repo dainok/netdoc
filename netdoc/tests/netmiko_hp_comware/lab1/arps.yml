@@ -1,0 +1,10 @@
+- device: ROUTER1
+  interface: te1/0/3
+  ip_address: 10.1.102.73
+  mac_address: 00:1E:C1:DC:FC:01
+  vendor: 3COM EUROPE LTD
+- device: ROUTER1
+  interface: te1/0/3
+  ip_address: 10.1.102.74
+  mac_address: 2C:23:3A:40:7E:18
+  vendor: Hewlett Packard

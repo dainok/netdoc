@@ -1,0 +1,9 @@
+- prefix: 192.168.1.0/24
+  vrf: null
+  site: test-site
+- prefix: 10.1.100.0/24
+  vrf: null
+  site: test-site
+- prefix: 10.1.102.0/24
+  vrf: red
+  site: test-site

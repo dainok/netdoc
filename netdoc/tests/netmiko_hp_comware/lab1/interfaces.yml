@@ -14,7 +14,8 @@ ROUTER1:
     lag: null
     mac_address: "AB:AB:CD:CD:64:86"
     vrf: null
-    ip_addresses: []
+    ip_addresses:
+      - 192.168.1.1/24
     connected_device: null
     connected_interface_label: null
   - name: Vlan-interface100
@@ -32,7 +33,8 @@ ROUTER1:
     lag: null
     mac_address: "AB:AB:CD:CD:64:86"
     vrf: null
-    ip_addresses: []
+    ip_addresses:
+      - 10.1.100.1/24
     connected_device: null
     connected_interface_label: null
   - name: Vlan-interface102
@@ -50,7 +52,8 @@ ROUTER1:
     lag: null
     mac_address: "AB:AB:CD:CD:64:86"
     vrf: red
-    ip_addresses: []
+    ip_addresses:
+      - 10.1.102.1/24
     connected_device: null
     connected_interface_label: null
   - name: Bridge-Aggregation10

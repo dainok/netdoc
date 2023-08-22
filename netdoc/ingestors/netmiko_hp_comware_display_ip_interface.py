@@ -18,9 +18,9 @@ def ingest(log):
 
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/hp_comware/display_ip_interface # pylint: disable=line-too-long
-        interface_name = item.get("intf")
+        interface_name = item.get("interface")
         label = utils.normalize_interface_label(interface_name)
-        ip_addresses = item.get("ipaddr")
+        ip_addresses = item.get("ip_address")
 
         # Get or create Interface
         interface_o = interface.get(device_id=device_o.id, label=label)
