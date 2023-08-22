@@ -1,0 +1,21 @@
+Loadsharing Type: Shar -- Loadsharing, NonS -- Non-Loadsharing 
+Port Status: S -- Selected, U -- Unselected, I -- Individual 
+Port: A -- Auto port, M -- Management port, R -- Reference port 
+Flags:  A -- LACP_Activity, B -- LACP_Timeout, C -- Aggregation, 
+        D -- Synchronization, E -- Collecting, F -- Distributing, 
+        G -- Defaulted, H -- Expired 
+
+Aggregate Interface: Bridge-Aggregation10
+Creation Mode: Manual
+Aggregation Mode: Dynamic
+Loadsharing Type: Shar
+Management VLANs: None
+System ID: 0x8000, 7848-5933-6485
+Local: 
+  Port                Status   Priority Index    Oper-Key               Flag
+  XGE1/0/1(R)         S        32768    1        1                      {ACDEF}
+  XGE1/0/2            S        32768    6        1                      {ACDEF}
+Remote: 
+  Actor               Priority Index    Oper-Key SystemID               Flag   
+  XGE1/0/1            32768    47       9        0x8000, aaaa-bbbb-8be8 {ACDEF}
+  XGE1/0/2            32768    252      9        0x8000, aaaa-bbbb-8be8 {ACDEF}

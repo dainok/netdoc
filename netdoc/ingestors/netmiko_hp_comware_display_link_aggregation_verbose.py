@@ -31,6 +31,7 @@ def ingest(log):
 
         for attached_interface_name in attached_interface_names:
             # Get or create attached Interface
+            attached_interface_name = attached_interface_name.replace("(R)", "")
             attached_interface_label = utils.normalize_interface_label(
                 attached_interface_name
             )
