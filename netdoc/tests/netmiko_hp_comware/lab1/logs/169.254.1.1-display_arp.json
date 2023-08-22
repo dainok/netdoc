@@ -3,7 +3,7 @@
     "details": {
         "command": "display arp",
         "enable": true,
-        "order": 10,
+        "order": 100,
         "supported": true,
         "template": "display arp"
     },

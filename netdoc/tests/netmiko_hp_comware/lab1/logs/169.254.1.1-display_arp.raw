@@ -1,0 +1,4 @@
+  Type: S-Static   D-Dynamic   O-Openflow   R-Rule   M-Multiport  I-Invalid
+IP address      MAC address    VLAN     Interface                Aging Type
+10.1.102.73     001e-c1dc-fc01 1        XGE1/0/3                 16    D
+10.1.102.74     2c23-3a40-7e18 1        XGE1/0/3                 5     D

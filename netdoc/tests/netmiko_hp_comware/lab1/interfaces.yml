@@ -126,8 +126,8 @@ ROUTER1:
     connected_device: null
     connected_interface_label: null
 ROUTER2:
-  - name: te1/0/1
-    label: te1/0/1
+  - label: te1/0/1
+    # name: not tested because discovered via LLDP only
     type: other
     speed: null
     duplex: null
@@ -144,8 +144,8 @@ ROUTER2:
     ip_addresses: []
     connected_device: ROUTER1
     connected_interface_label: te1/0/1
-  - name: te1/0/2
-    label: te1/0/2
+  - label: te1/0/2
+    # name: not tested because discovered via LLDP only
     type: other
     speed: null
     duplex: null
