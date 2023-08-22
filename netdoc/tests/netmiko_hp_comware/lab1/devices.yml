@@ -1,12 +1,12 @@
 - name: ROUTER1
   site: test-site
-  model: Unknown Cisco device
-  manufacturer: Cisco
+  model: Unknown HPE device
+  manufacturer: HPE
   address: null
   serial: ""
-- name: SW2
+- name: ROUTER2
   site: test-site
-  model: Unknown device
-  manufacturer: Unknown
+  model: Unknown HPE device
+  manufacturer: HPE
   address: null
   serial: ""
