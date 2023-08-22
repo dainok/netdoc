@@ -58,7 +58,7 @@ def append_nornir_task(
     )
 
 
-def discovery(nrni):
+def discovery(nrni, filters=None, filter_type=None):
     """Discovery Palo Alto Networks NGFW devices."""
     host_list = []
     failed_host_list = []

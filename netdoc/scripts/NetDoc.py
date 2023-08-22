@@ -32,6 +32,7 @@ from netdoc.models import (
     ArpTableEntry as ArpTableEntry_m,
     MacAddressTableEntry as MacAddressTableEntry_m,
     DeviceImageChoices,
+    FilterModeChoices,
 )
 from netdoc.utils import (
     log_ingest,
@@ -113,11 +114,13 @@ class AddDiscoverable(Script):
         description="Filter command based on words separated by comma (e.g. mac,route).",
         required=False,
     )
-    filter_exclude = BooleanVar(
-        description="Set to exclude commands matching the filter (deny list), unset to include commands mathing the filter only (allow list).",
-        required=False,
-        default=True,
+    filter_type = ChoiceVar(
+        choices=FilterModeChoices.CHOICES,
+        description="Filter type",
+        required=True,
+        default="exclude"
     )
+
 
     def run(self, data, commit):
         """Start the script."""
@@ -134,7 +137,7 @@ class AddDiscoverable(Script):
         filters = []
         if data.get("filters"):
             filters = data.get("filters").split(",")
-        filter_exclude = data.get("filter_exclude")
+        filter_type = data.get("filter_type")
 
         # Parse IP addresses
         for ip_address in ip_addresses:
@@ -178,7 +181,7 @@ class AddDiscoverable(Script):
             discoverable_ip_addresses,
             script_handler=self,
             filters=filters,
-            filter_exclude=filter_exclude,
+            filter_type=filter_type,
         )
 
         self.log_info("Discovery completed")
@@ -218,10 +221,11 @@ class Discover(Script):
         description="Filter command based on words separated by comma (e.g. mac,route).",
         required=False,
     )
-    filter_exclude = BooleanVar(
-        description="Set to exclude commands matching the filter (deny list), unset to include commands mathing the filter only (allow list).",
-        required=False,
-        default=True,
+    filter_type = ChoiceVar(
+        choices=FilterModeChoices.CHOICES,
+        description="Filter type",
+        required=True,
+        default="exclude"
     )
 
     def run(self, data, commit):
@@ -233,7 +237,7 @@ class Discover(Script):
         filters = []
         if data.get("filters"):
             filters = data.get("filters").split(",")
-        filter_exclude = data.get("filter_exclude")
+        filter_type = data.get("filter_type")
 
         discoverable_ip_addresses = []
         if data.get("undiscovered_only"):
@@ -259,7 +263,7 @@ class Discover(Script):
             discoverable_ip_addresses,
             script_handler=self,
             filters=filters,
-            filter_exclude=filter_exclude,
+            filter_type=filter_type,
         )
 
         return output

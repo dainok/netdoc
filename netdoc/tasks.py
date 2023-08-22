@@ -23,7 +23,7 @@ from netdoc import utils
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 
 
-def discovery(addresses=None, script_handler=None, filters=None, filter_exclude=None):
+def discovery(addresses=None, script_handler=None, filters=None, filter_type=None):
     """Discovery all or a list of IP addresses."""
     if not addresses:
         addresses = []
@@ -82,10 +82,6 @@ def discovery(addresses=None, script_handler=None, filters=None, filter_exclude=
         )
 
     if filters:
-        if filter_exclude:
-            filter_type = "deny"
-        else:
-            filter_type = "allow"
         script_handler.log_info(
             f"The following {filter_type} filter has been configured {', '.join(filters)}"
         )
@@ -113,7 +109,7 @@ def discovery(addresses=None, script_handler=None, filters=None, filter_exclude=
         except ModuleNotFoundError as exc:
             raise ModuleNotFoundError(f"Discovery script not found for {mode}") from exc
         module.discovery(
-            filtered_devices, filters=filters, filter_exclude=filter_exclude
+            filtered_devices, filters=filters, filter_type=filter_type
         )
 
     if script_handler:

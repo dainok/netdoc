@@ -12,7 +12,7 @@ from netdoc import utils
 from netdoc.schemas import discoverable, discoverylog
 
 
-def discovery(nrni, filters=None, filter_exclude=None):
+def discovery(nrni, filters=None, filter_type=None):
     """Discovery Cisco IOS devices."""
     platform = "hp_comware"
     host_list = []

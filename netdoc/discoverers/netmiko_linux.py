@@ -12,7 +12,7 @@ from netdoc import utils
 from netdoc.schemas import discoverable, discoverylog
 
 
-def discovery(nrni, filters=None, filter_exclude=None):
+def discovery(nrni, filters=None, filter_type=None):
     """Discovery Linux devices."""
     platform = "linux"
     host_list = []
@@ -29,7 +29,7 @@ def discovery(nrni, filters=None, filter_exclude=None):
     def multiple_tasks(task):
         """Define commands (in order) for the playbook."""
         utils.append_nornir_netmiko_tasks(
-            task, commands, platform, filters=filters, filter_exclude=filter_exclude
+            task, commands, platform, filters=filters, filter_type=filter_type
         )
 
     # Run the playbook
@@ -99,7 +99,7 @@ def discovery(nrni, filters=None, filter_exclude=None):
                     commands,
                     platform,
                     filters=filters,
-                    filter_exclude=filter_exclude,
+                    filter_type=filter_type,
                     order=100,
                 )
 
