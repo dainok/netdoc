@@ -524,6 +524,9 @@ def is_command_supported(framework, platform, command):
 def is_command_filtered_out(cmd_line, filters, filter_type):
     """Test a command line against a filter and return True if the command must be skipped."""
     to_be_filtered = False
+    if not filters:
+        # No filter has been applied
+        return False
     if filter_type == "exclude":
         # Exclude commands which match filter words (deny list)
         for keyword in filters:
