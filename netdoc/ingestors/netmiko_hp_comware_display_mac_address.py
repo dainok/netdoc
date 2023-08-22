@@ -16,7 +16,7 @@ def ingest(log):
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/hp_comware/display_mac-address # pylint: disable=line-too-long
         interface_name = item.get("interface")
         label = utils.normalize_interface_label(interface_name)
-        vlan_id = int(item.get("vlan"))
+        vlan_id = int(item.get("vlan_id"))
         mac_address = utils.normalize_mac_address(item.get("mac_address"))
 
         interface_o = interface.get(device_id=device_o.id, label=label)
