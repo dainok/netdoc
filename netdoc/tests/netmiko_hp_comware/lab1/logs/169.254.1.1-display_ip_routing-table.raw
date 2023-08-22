@@ -1,0 +1,7 @@
+<HS125X>dis ip routing-table 
+
+Destinations : 17604     Routes : 28601
+
+Destination/Mask    Proto  Pre  Cost         NextHop         Interface
+0.0.0.0/32          Direct 0    0            127.0.0.1       InLoop0
+192.168.56.0/24    Direct  0   0             192.168.56.101  XGE1/0/3

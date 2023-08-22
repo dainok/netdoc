@@ -11,17 +11,12 @@ from netdoc import utils
 def ingest(log):
     """Processing parsed output."""
     device_o = log.discoverable.device
-    vrf_name = log.details.get("vrf")
+    vrf_name = utils.normalize_vrf_name(log.details.get("vrf"))
 
     # Get or create VRF
     vrf_o = None
     if vrf_name:
-        vrf_o = vrf.get(name=vrf_name)
-        if not vrf_o:
-            data = {
-                "name": vrf_name,
-            }
-            vrf_o = vrf.create(**data)
+        vrf_o = vrf.get_or_create(name=vrf_name)[0]
 
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/hp_comware/display_ip_routing-table # pylint: disable=line-too-long
@@ -29,10 +24,16 @@ def ingest(log):
         distance = int(item.get("distance")) if item.get("distance") else None
         metric = int(item.get("metric")) if item.get("metric") else None
         destination = (
-            f"{item.get('network')}/{item.get('mask')}" if item.get("network") else None
+            f"{item.get('network')}/{item.get('prefix_length')}"
+            if item.get("network")
+            else None
         )
         protocol = utils.normalize_route_type(item.get("protocal"))
         nexthop_ip = item.get("nexthop_ip") if item.get("nexthop_ip") else None
+
+        if nexthop_ip == "127.0.0.1":
+            # Skip when next hop is localhost
+            continue
 
         # Get or create interface
         nexthop_if_id = None

@@ -1,0 +1,16 @@
+
+Thu Aug 17 18:01:26.388 Italy
+
+Codes: C - connected, S - static, R - RIP, B - BGP, (>) - Diversion path
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP
+       i - ISIS, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, su - IS-IS summary null, * - candidate default
+       U - per-user static route, o - ODR, L - local, G  - DAGR
+       A - access/subscriber, a - Application route, (!) - FRR Backup path
+
+Gateway of last resort is 10.10.8.100 to network 0.0.0.0
+
+B*   0.0.0.0/0 [200/0] via 10.10.8.100 (nexthop in vrf default), 10:31:52
+C    10.10.8.0/24 is directly connected, 5y37w, Bundle-Ether1.2

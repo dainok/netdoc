@@ -1,0 +1,55 @@
+
+Thu Aug 17 17:57:23.274 Italy
+Bundle-Ether1 is Up, ipv4 protocol is Up
+  Vrf is default (vrfid 0x60000000)
+  Internet protocol processing disabled
+Bundle-Ether1.2 is Up, ipv4 protocol is Up
+  Vrf is red (vrfid 0x60000004)
+  Internet address is 10.10.8.1/24
+  MTU is 9212 (9194 is available to IP)
+  Helper address is not set
+  Multicast reserved groups joined: 224.0.0.2 224.0.0.1
+  Directed broadcast forwarding is disabled
+  Outgoing access list is not set
+  Inbound  access list is not set
+  Proxy ARP is disabled
+  ICMP redirects are never sent
+  ICMP unreachables are always sent
+  ICMP mask replies are never sent
+  Table Id is 0xe0000001
+  mLACP state is Active
+MgmtEth0/RSP0/CPU0/0 is Up, ipv4 protocol is Up
+  Vrf is management (vrfid 0x60000000)
+  Internet address is 169.254.1.1/24
+  MTU is 1500 (1500 is available to IP)
+  Helper address is not set
+  Multicast reserved groups joined: 224.0.0.13 224.0.0.22 224.0.1.40
+  Directed broadcast forwarding is disabled
+  Outgoing access list is not set
+  Inbound  access list is not set
+  Proxy ARP is disabled
+  ICMP redirects are never sent
+  ICMP unreachables are always sent
+  ICMP mask replies are never sent
+  Table Id is 0xe0000000
+TenGigE0/0/0/0 is Up, ipv4 protocol is Up
+  Vrf is default (vrfid 0x60000000)
+  Internet address is 10.11.1.1/24
+  MTU is 9216 (9202 is available to IP)
+  Helper address is not set
+  Multicast reserved groups joined: 224.0.0.2 224.0.0.1 224.0.0.5
+      224.0.0.6 224.0.0.13 224.0.0.22
+  Directed broadcast forwarding is disabled
+  Outgoing access list is not set
+  Inbound  access list is not set
+  Proxy ARP is disabled
+  ICMP redirects are never sent
+  ICMP unreachables are always sent
+  ICMP mask replies are never sent
+  Table Id is 0xe0000000
+GigabitEthernet0/0/0/2 is Up, ipv4 protocol is Up
+  Vrf is default (vrfid 0x60000000)
+  Internet protocol processing disabled
+GigabitEthernet0/0/0/3 is Up, ipv4 protocol is Up
+  Vrf is default (vrfid 0x60000000)
+  Internet protocol processing disabled

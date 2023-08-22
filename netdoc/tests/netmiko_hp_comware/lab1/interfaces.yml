@@ -1,0 +1,167 @@
+ROUTER1:
+  - name: Vlan-interface1
+    label: vl1
+    type: bridge
+    speed: 10000000
+    duplex: null
+    mtu: 1500
+    enabled: true
+    description: Management
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "AB:AB:CD:CD:64:86"
+    vrf: null
+    ip_addresses:
+      - 192.168.1.1/24
+    connected_device: null
+    connected_interface_label: null
+  - name: Vlan-interface100
+    label: vl100
+    type: bridge
+    speed: 10000000
+    duplex: null
+    mtu: 1500
+    enabled: true
+    description: Servers
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "AB:AB:CD:CD:64:86"
+    vrf: null
+    ip_addresses:
+      - 10.1.100.1/24
+    connected_device: null
+    connected_interface_label: null
+  - name: Vlan-interface102
+    label: vl102
+    type: bridge
+    speed: 10000000
+    duplex: null
+    mtu: 1500
+    enabled: true
+    description: Servers
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "AB:AB:CD:CD:64:86"
+    vrf: red
+    ip_addresses:
+      - 10.1.102.1/24
+    connected_device: null
+    connected_interface_label: null
+  - name: Bridge-Aggregation10
+    label: bagg10
+    type: lag
+    speed: 40000000
+    duplex: full
+    mtu: null
+    enabled: true
+    description: Channel
+    mode: tagged-all
+    untagged_vlan: 1
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "AB:AB:CD:CD:64:87"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
+  - name: Ten-GigabitEthernet1/0/1
+    label: te1/0/1
+    type: other
+    speed: 1000000
+    duplex: full
+    mtu: null
+    enabled: true
+    description: Link 1
+    mode: "tagged-all"
+    untagged_vlan: 1
+    tagged_vlans: []
+    parent: null
+    lag: bagg10
+    mac_address: "AB:AB:CD:CD:64:88"
+    vrf: null
+    ip_addresses: []
+    connected_device: ROUTER2
+    connected_interface_label: te1/0/1
+  - name: Ten-GigabitEthernet1/0/2
+    label: te1/0/2
+    type: other
+    speed: 1000000
+    duplex: full
+    mtu: null
+    enabled: true
+    description: Link 2
+    mode: "tagged-all"
+    untagged_vlan: 1
+    tagged_vlans: []
+    parent: null
+    lag: bagg10
+    mac_address: "AB:AB:CD:CD:64:89"
+    vrf: null
+    ip_addresses: []
+    connected_device: ROUTER2
+    connected_interface_label: te1/0/2
+  - name: Ten-GigabitEthernet1/0/3
+    label: te1/0/3
+    type: other
+    speed: 1000000
+    duplex: full
+    mtu: 1500
+    enabled: true
+    description: Interface to server
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "50:01:00:11:00:01"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
+ROUTER2:
+  - label: te1/0/1
+    # name: not tested because discovered via LLDP only
+    type: other
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: null
+    vrf: null
+    ip_addresses: []
+    connected_device: ROUTER1
+    connected_interface_label: te1/0/1
+  - label: te1/0/2
+    # name: not tested because discovered via LLDP only
+    type: other
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: null
+    vrf: null
+    ip_addresses: []
+    connected_device: ROUTER1
+    connected_interface_label: te1/0/2

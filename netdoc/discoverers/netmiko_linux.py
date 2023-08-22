@@ -12,24 +12,24 @@ from netdoc import utils
 from netdoc.schemas import discoverable, discoverylog
 
 
-def discovery(nrni):
+def discovery(nrni, filters=None, filter_type=None):
     """Discovery Linux devices."""
     platform = "linux"
     host_list = []
     failed_host_list = []
+    # Define commands, in order with command, template, enabled
+    commands = [
+        ("hostname", "HOSTNAME"),
+        ("ip link show", None),
+        ("ip address show", None),
+        ("ip vrf show", None),
+        ("arp -an", None),
+    ]
 
     def multiple_tasks(task):
         """Define commands (in order) for the playbook."""
-        utils.append_nornir_netmiko_task(task, "hostname", template="HOSTNAME", order=0)
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "ip link show",
-                "ip address show",
-                "ip vrf show",
-                "arp -an",
-            ],
-            order=10,
+        utils.append_nornir_netmiko_tasks(
+            task, commands, filters=filters, filter_type=filter_type
         )
 
     # Run the playbook
@@ -83,17 +83,24 @@ def discovery(nrni):
             for vrf in vrfs:  # pylint: disable=cell-var-from-loop
                 if vrf == "default":
                     # Default VRF has no name
-                    utils.append_nornir_netmiko_task(task, "ip route show")
+                    commands = [
+                        ("ip route show", None),
+                    ]
                 else:
                     # with non default VRF commands and templates differ
-                    utils.append_nornir_netmiko_task(
-                        task, commands=f"show ip arp vrf {vrf}", template="show ip arp"
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands=f"ip route show table {vrf}",
-                        template="ip route show",
-                    )
+                    commands = [
+                        ("ip route show", None),
+                        (f"show ip arp vrf {vrf}", "show ip arp"),
+                        (f"ip route show table {vrf}", "ip route show"),
+                    ]
+
+                utils.append_nornir_netmiko_tasks(
+                    task,
+                    commands,
+                    filters=filters,
+                    filter_type=filter_type,
+                    order=100,
+                )
 
         # Run the additional playbook
         additional_aggregated_results = current_nr.run(task=additional_tasks)

@@ -1,13 +1,13 @@
 {
     "configuration": false,
     "details": {
-        "command": "show running-config | include hostname",
+        "command": "display lldp neighbor-information list",
         "enable": true,
-        "order": 0,
+        "order": 1,
         "supported": true,
-        "template": "HOSTNAME"
+        "template": "display lldp neighbor-information list"
     },
-    "discoverable__mode": "netmiko_cisco_ios",
+    "discoverable__mode": "netmiko_hp_comware",
     "ingested": false,
     "parsed": false,
     "parsed_output": "",

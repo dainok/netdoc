@@ -23,10 +23,12 @@ from netdoc import utils
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 
 
-def discovery(addresses=None, script_handler=None):
+def discovery(addresses=None, script_handler=None, filters=None, filter_type=None):
     """Discovery all or a list of IP addresses."""
     if not addresses:
         addresses = []
+    if not filters:
+        filters = []
     ntc_template_dir = os.environ.get("NET_TEXTFSM")
 
     if not ntc_template_dir:
@@ -55,7 +57,7 @@ def discovery(addresses=None, script_handler=None):
         runner={
             "plugin": "threaded",
             "options": {
-                "num_workers": 100,
+                "num_workers": 10,
             },
         },
         inventory={"plugin": "asset-inventory"},
@@ -79,6 +81,11 @@ def discovery(addresses=None, script_handler=None):
             f"Norninr inventory includes {', '.join(nornir_addresses)}"
         )
 
+    if filters:
+        script_handler.log_info(
+            f"The following {filter_type} filter has been configured {', '.join(filters)}"
+        )
+
     # Run discovery scripts
     for mode, description in DiscoveryModeChoices():
         # framework = mode.split("_").pop(0)
@@ -94,14 +101,14 @@ def discovery(addresses=None, script_handler=None):
         if script_handler:
             script_handler.log_info(f"Starting discovery of {description} devices")
             script_handler.log_info(
-                f"Norninr inventory includes {', '.join(filtered_addresses)}"
+                f"Nornir inventory includes {', '.join(filtered_addresses)}"
             )
         # Call the discovery script
         try:
             module = importlib.import_module(f"netdoc.discoverers.{mode}")
         except ModuleNotFoundError as exc:
             raise ModuleNotFoundError(f"Discovery script not found for {mode}") from exc
-        module.discovery(filtered_devices)
+        module.discovery(filtered_devices, filters=filters, filter_type=filter_type)
 
     if script_handler:
         script_handler.log_info("Discovery completed")

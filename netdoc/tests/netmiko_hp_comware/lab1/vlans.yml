@@ -1,0 +1,8 @@
+- vid: 1
+  name: default
+- vid: 100
+  name: server
+- vid: 101
+  name: client
+- vid: 102
+  name: dmz

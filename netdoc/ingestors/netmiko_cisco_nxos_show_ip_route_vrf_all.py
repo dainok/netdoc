@@ -15,7 +15,7 @@ def ingest(log):
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/cisco_nxos/show_ip_route # pylint: disable=line-too-long
         nexthop_if_name = item.get("nexthop_if")
-        vrf_name = item.get("vrf")
+        vrf_name = utils.normalize_vrf_name(item.get("vrf"))
 
         distance = int(item.get("distance")) if item.get("distance") else None
         metric = int(item.get("metric")) if item.get("metric") else None
@@ -45,13 +45,8 @@ def ingest(log):
 
         # Get or create VRF
         vrf_o = None
-        if vrf_name and vrf_name != "default":
-            vrf_o = vrf.get(name=vrf_name)
-            if not vrf_o:
-                data = {
-                    "name": vrf_name,
-                }
-                vrf_o = vrf.create(**data)
+        if vrf_name:
+            vrf_o = vrf.get_or_create(name=vrf_name)[0]
 
         # Get or create route table entry
         routetableentry_o = routetableentry.get(

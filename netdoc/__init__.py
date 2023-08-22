@@ -32,7 +32,6 @@ class NetdocConfig(PluginConfig):
         "NTC_TEMPLATES_DIR": "/opt/ntc-templates/ntc_templates/templates",
         "NORNIR_LOG": f"{settings.BASE_DIR}/nornir.log",
         "NORNIR_TIMEOUT": 300,
-        "NORNIR_SKIP_LIST": [],
         "RAISE_ON_CDP_FAIL": True,
         "RAISE_ON_LLDP_FAIL": True,
         "ROLE_MAP": {},

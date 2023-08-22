@@ -12,58 +12,44 @@ from netdoc import utils
 from netdoc.schemas import discoverable, discoverylog
 
 
-def discovery(nrni):
+def discovery(nrni, filters=None, filter_type=None):
     """Discovery Cisco NX-OS devices."""
     platform = "cisco_nxos"
     host_list = []
     failed_host_list = []
+    # Define commands, in order with command, template, enabled
+    commands = [
+        ("show hostname", "HOSTNAME"),
+        ("show running-config", None),
+        ("show interface", None),
+        ("show cdp neighbors detail", None),
+        ("show lldp neighbors detail", None),
+        ("show vlan", None),
+        ("show vrf", None),
+        ("show mac address-table dynamic", "show mac address-table"),
+        ("show ip route vrf all", None),
+        ("show port-channel summary", None),
+        ("show interface switchport", None),
+        ("show inventory", None),
+        # Unsupported
+        ("show version", None),
+        ("show logging", None),
+        ("show spanning-tree", None),
+        ("show interface trunk", None),
+        ("show vpc", None),
+        ("show vdc", None),
+        ("show hsrp all", None),
+        ("show vrrp", None),
+        ("show glbp", None),
+        ("show ip ospf neighbor", None),
+        ("show ip eigrp neighbors", None),
+        ("show ip bgp neighbors", None),
+    ]
 
     def multiple_tasks(task):
         """Define commands (in order) for the playbook."""
-        utils.append_nornir_netmiko_task(
-            task, "show running-config | include hostname", template="HOSTNAME", order=0
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "show running-config",
-                "show interface",
-                "show cdp neighbors detail",
-                "show lldp neighbors detail",
-                "show vlan",
-                "show vrf",
-            ],
-            order=10,
-        )
-        utils.append_nornir_netmiko_task(
-            task, "show mac address-table dynamic", template="show mac address-table"
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "show ip route vrf all",
-                "show port-channel summary",
-                "show interface switchport",
-                "show inventory",
-            ],
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "show version",
-                "show logging",
-                "show spanning-tree",
-                "show interface trunk",
-                "show vpc",
-                "show vdc",
-                "show hsrp all",
-                "show vrrp",
-                "show glbp",
-                "show ip ospf neighbor",
-                "show ip eigrp neighbors",
-                "show ip bgp neighbors",
-            ],
-            supported=False,
+        utils.append_nornir_netmiko_tasks(
+            task, commands, filters=filters, filter_type=filter_type
         )
 
     # Run the playbook
@@ -115,15 +101,16 @@ def discovery(nrni):
             """Define additional commands (in order) for the playbook."""
             # Per VRF commands
             for vrf in vrfs:  # pylint: disable=cell-var-from-loop
-                utils.append_nornir_netmiko_task(
+                commands = [
+                    (f"show ip interface vrf {vrf}", "show ip interface"),
+                    (f"show ip arp vrf {vrf}", "show ip arp"),
+                ]
+                utils.append_nornir_netmiko_tasks(
                     task,
-                    commands=f"show ip interface vrf {vrf}",
-                    template="show ip interface",
-                )
-                utils.append_nornir_netmiko_task(
-                    task,
-                    commands=f"show ip arp vrf {vrf}",
-                    template="show ip arp",
+                    commands,
+                    filters=filters,
+                    filter_type=filter_type,
+                    order=100,
                 )
 
         # Run the additional playbook

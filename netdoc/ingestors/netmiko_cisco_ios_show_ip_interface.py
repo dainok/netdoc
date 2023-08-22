@@ -19,7 +19,7 @@ def ingest(log):
             continue
         interface_name = item.get("interface")
         label = utils.normalize_interface_label(interface_name)
-        vrf_name = item.get("vrf")
+        vrf_name = utils.normalize_vrf_name(item.get("vrf"))
         ip_list = item.get("ip_address")
         mask_list = item.get("prefix_length")
         ip_addresses = [
@@ -29,12 +29,7 @@ def ingest(log):
         # Get or create VRF
         vrf_o = None
         if vrf_name:
-            vrf_o = vrf.get(name=vrf_name)
-            if not vrf_o:
-                vrf_data = {
-                    "name": vrf_name,
-                }
-                vrf_o = vrf.create(**vrf_data)
+            vrf_o = vrf.get_or_create(name=vrf_name)[0]
 
         # Get or create Interface
         interface_o = interface.get(device_id=device_o.id, label=label)

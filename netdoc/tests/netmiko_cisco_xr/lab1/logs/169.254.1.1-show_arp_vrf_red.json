@@ -1,13 +1,14 @@
 {
     "configuration": false,
     "details": {
-        "command": "show running-config | include hostname",
+        "command": "show arp vrf red",
         "enable": true,
-        "order": 0,
+        "order": 128,
         "supported": true,
-        "template": "HOSTNAME"
+        "template": "show arp",
+        "vrf": "red"
     },
-    "discoverable__mode": "netmiko_cisco_ios",
+    "discoverable__mode": "netmiko_cisco_xr",
     "ingested": false,
     "parsed": false,
     "parsed_output": "",

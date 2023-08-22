@@ -20,8 +20,8 @@ def ingest(log):
         duplex = utils.normalize_interface_duplex(item.get("duplex"))
         speed = utils.normalize_interface_speed(item.get("bandwidth"))
         mac_address = (
-            utils.normalize_mac_address(item.get("address"))
-            if not utils.incomplete_mac(item.get("address"))
+            utils.normalize_mac_address(item.get("mac_address"))
+            if not utils.incomplete_mac(item.get("mac_address"))
             else None
         )
         int_type = utils.normalize_interface_type(item.get("interface"))

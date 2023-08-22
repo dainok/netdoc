@@ -1,0 +1,25 @@
+- device: XR01
+  interface: te0/0/0/0
+  ip_address: 10.11.1.254
+  mac_address: 6C:9C:ED:00:00:06
+  vendor: Cisco Systems, Inc
+- device: XR01
+  interface: te0/0/0/0
+  ip_address: 10.11.1.253
+  mac_address: 6C:9C:ED:00:00:0A
+  vendor: Cisco Systems, Inc
+- device: XR01
+  interface: be1.2
+  ip_address: 10.10.8.5
+  mac_address: 08:55:31:00:00:05
+  vendor: Routerboard.com
+- device: XR01
+  interface: be1.2
+  ip_address: 10.10.8.6
+  mac_address: 00:11:01:00:00:06
+  vendor: CET Technologies Pte Ltd
+- device: XR01
+  interface: be1.2
+  ip_address: 10.10.8.7
+  mac_address: 08:55:31:00:00:07
+  vendor: Routerboard.com

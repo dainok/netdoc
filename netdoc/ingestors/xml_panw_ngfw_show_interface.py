@@ -44,7 +44,7 @@ def ingest(log):
         )
         int_type = utils.normalize_interface_type(item.get("name"))
         enabled = utils.normalize_interface_status(item.get("state"))
-        vrf_name = item.get("fwd")
+        vrf_name = utils.normalize_vrf_name(item.get("fwd"))
         if vrf_name:
             try:
                 vrf_name = vrf_name.split(":")[1]

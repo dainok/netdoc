@@ -28,7 +28,7 @@ def ingest(log):
             # Only keep active routes
             continue
         nexthop_if_name = item.get("interface")
-        vrf_name = item.get("virtual-router")
+        vrf_name = utils.normalize_vrf_name(item.get("virtual-router"))
         metric = int(item.get("metric")) if item.get("metric") else None
         destination = item.get("destination")
         protocol = utils.normalize_route_type(item.get("flags"))
@@ -36,13 +36,8 @@ def ingest(log):
 
         # Get or create VRF
         vrf_o = None
-        if vrf_name and vrf_name != "default":
-            vrf_o = vrf.get(name=vrf_name)
-            if not vrf_o:
-                data = {
-                    "name": vrf_name,
-                }
-                vrf_o = vrf.create(**data)
+        if vrf_name:
+            vrf_o = vrf.get_or_create(name=vrf_name)[0]
 
         if vm_o:
             # Get or create interface

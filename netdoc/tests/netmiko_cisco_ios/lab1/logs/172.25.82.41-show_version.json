@@ -3,9 +3,9 @@
     "details": {
         "command": "show version",
         "enable": true,
-        "order": 128,
-        "supported": false,
-        "template": "show version"
+        "order": 0,
+        "supported": true,
+        "template": "HOSTNAME"
     },
     "discoverable__mode": "netmiko_cisco_ios",
     "ingested": false,

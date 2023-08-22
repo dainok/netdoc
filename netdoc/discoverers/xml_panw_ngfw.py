@@ -11,6 +11,7 @@ from nornir_utils.plugins.functions import print_result
 from django.conf import settings
 
 from netdoc.schemas import discoverable, discoverylog
+from netdoc import utils
 
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 
@@ -30,38 +31,65 @@ def api_query(
     return req.text
 
 
-def append_nornir_task(
+def append_nornir_tasks(
     task,
-    command,
-    template,
-    order=128,
+    commands,
+    filters=None,
+    filter_type=None,
+    order=None,
     host=None,
     password=None,
     supported=True,
     verify_cert=True,
 ):
-    """Append a Nornir task within a multiple_tasks adding extended details."""
-    details = {
-        "command": command,
-        "template": template,
-        "enable": False,
-        "order": order,
-        "supported": supported,
-    }
-    task.run(
-        task=api_query,
-        name=json.dumps(details),
-        command=details.get("command"),
-        host_address=host,
-        password=password,
-        verify_cert=verify_cert,
-    )
+    """Append a Nornir tasks within a multiple_tasks adding extended details."""
+    if order is None:
+        order = 0
+
+    for command in commands:
+        cmd_line = command[0]
+        template = command[1]
+
+        if template == "show system info":
+            # HOSTNAME is always included
+            pass
+        else:
+            if utils.is_command_filtered_out(template, filters, filter_type):
+                # Command must be skipped
+                continue
+
+        # Append the command to Nornir tasks
+        details = {
+            "command": cmd_line,
+            "template": template,
+            "enable": False,
+            "order": order,
+            "supported": supported,
+        }
+        task.run(
+            task=api_query,
+            name=json.dumps(details),
+            command=cmd_line,
+            host_address=host,
+            password=password,
+            verify_cert=verify_cert,
+        )
+        order = order + 1
 
 
-def discovery(nrni):
+def discovery(nrni, filters=None, filter_type=None):
     """Discovery Palo Alto Networks NGFW devices."""
     host_list = []
     failed_host_list = []
+    # Define commands, in order with command, template
+    commands = [
+        ("<show><system><info></info></system></show>", "show system info"),
+        ("<show><interface>all</interface></show>", "show interface"),
+        ("<show><arp><entry name = 'all'/></arp></show>", "show arp"),
+        ("<show><mac>all</mac></show>", "show mac"),
+        ("<show><vlan>all</vlan></show>", "show vlan"),
+        ("<show><routing><route></route></routing></show>", "show routing route"),
+    ]
 
     def multiple_tasks(task):
         """Define commands (in order) for the playbook."""
@@ -70,44 +98,11 @@ def discovery(nrni):
             "password": task.host.dict().get("password"),
             "verify_cert": task.host.dict().get("data").get("verify_cert"),
         }
-        append_nornir_task(
+        append_nornir_tasks(
             task,
-            "<show><system><info></info></system></show>",
-            template="show system info",
-            order=0,
-            **params,
-        )
-        append_nornir_task(
-            task,
-            "<show><interface>all</interface></show>",
-            template="show interface",
-            order=10,
-            **params,
-        )
-        append_nornir_task(
-            task,
-            "<show><arp><entry name = 'all'/></arp></show>",
-            template="show arp",
-            **params,
-        )
-        append_nornir_task(
-            task,
-            "<show><mac>all</mac></show>",
-            template="show mac",
-            supported=False,
-            **params,
-        )
-        append_nornir_task(
-            task,
-            "<show><vlan>all</vlan></show>",
-            template="show vlan",
-            supported=False,
-            **params,
-        )
-        append_nornir_task(
-            task,
-            "<show><routing><route></route></routing></show>",
-            template="show routing route",
+            commands,
+            filters=filters,
+            filter_type=filter_type,
             **params,
         )
 
@@ -118,10 +113,7 @@ def discovery(nrni):
     print_result(aggregated_results)
 
     # Save outputs and define additional commands
-    for (
-        key,  # pylint: disable=unused-variable
-        multi_result,
-    ) in aggregated_results.items():
+    for multi_result in aggregated_results.values():
         # MultiResult is an array of Result
         for result in multi_result:
             if result.name == "multiple_tasks":

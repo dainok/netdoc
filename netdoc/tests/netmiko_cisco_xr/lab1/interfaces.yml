@@ -1,0 +1,203 @@
+XR01:
+  - name: Bundle-Ether1
+    label: be1
+    type: other
+    speed: 1000000
+    duplex: full
+    mtu: 9208
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "00:11:01:00:00:01"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
+  - name: Bundle-Ether1.2
+    label: be1.2
+    type: virtual
+    speed: 1000000
+    duplex: null
+    mtu: 9212
+    enabled: true
+    description: downstream
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: be1
+    lag: null
+    mac_address: "00:11:01:00:00:01"
+    vrf: red
+    ip_addresses:
+      - 10.10.8.1/24
+    connected_device: null
+    connected_interface_label: null
+  - name: GigabitEthernet0/0/0/0
+    label: gi0/0/0/0
+    type: other
+    speed: 1000000
+    duplex: full
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "6C:9C:ED:00:00:03"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+  - name: GigabitEthernet0/0/0/1
+    label: gi0/0/0/1
+    type: other
+    speed: 1000000
+    duplex: full
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "6C:9C:ED:00:00:04"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
+  - name: GigabitEthernet0/0/0/2
+    label: gi0/0/0/2
+    type: other
+    speed: 1000000
+    duplex: full
+    mtu: 9208
+    enabled: true
+    description: "downstream link 1"
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "6C:9C:ED:00:00:05"
+    vrf: null
+    ip_addresses: []
+    connected_device: XR03
+    connected_interface_label: gi0/0/0/2
+  - name: GigabitEthernet0/0/0/3
+    label: gi0/0/0/3
+    type: other
+    speed: 1000000
+    duplex: full
+    mtu: 9208
+    enabled: true
+    description: "downstream link 2"
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "6C:9C:ED:00:00:06"
+    vrf: null
+    ip_addresses: []
+    connected_device: XR03
+    connected_interface_label: gi0/0/0/3
+  - name: TenGigE0/0/0/0
+    label: te0/0/0/0
+    type: other
+    speed: 10000000
+    duplex: full
+    mtu: 9216
+    enabled: true
+    description: "upstream"
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "6C:9C:ED:00:00:07"
+    vrf: null
+    ip_addresses:
+      - 10.11.1.1/24
+    connected_device: XR02
+    connected_interface_label: te0/0/0/1
+  - name: MgmtEth0/RSP0/CPU0/0
+    label: mg0/rsp0/cpu0/0
+    type: other
+    speed: 10000
+    duplex: full
+    mtu: 1514
+    enabled: true
+    description: "OOB Management Interface"
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "00:26:98:00:00:02"
+    vrf: management
+    ip_addresses:
+      - 169.254.1.1/24
+    connected_device: null
+    connected_interface_label: null
+XR02:
+  - name: TenGigE0/0/0/1
+    label: te0/0/0/1
+    type: other
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: null
+    vrf: null
+    ip_addresses: []
+    connected_device: XR01
+    connected_interface_label: te0/0/0/0
+XR03:
+  - name: gi0/0/0/2
+    label: gi0/0/0/2
+    type: other
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: null
+    vrf: null
+    ip_addresses: []
+    connected_device: XR01
+    connected_interface_label: gi0/0/0/2
+  - name: gi0/0/0/3
+    label: gi0/0/0/3
+    type: other
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: null
+    vrf: null
+    ip_addresses: []
+    connected_device: XR01
+    connected_interface_label: gi0/0/0/3

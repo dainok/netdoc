@@ -1,0 +1,19 @@
+
+Thu Aug 17 17:57:19.644 Italy
+
+-------------------------
+Device ID: XR02.example.com
+SysName : XR02.example.com
+Entry address(es): 
+  IPv4 address: 169.22.1.2
+Platform: cisco ASR9K Series,  Capabilities: Router 
+Interface: TenGigE0/0/0/0
+Port ID (outgoing port): TenGigE0/0/0/1
+Holdtime : 125 sec
+
+Version :
+Cisco IOS XR Software, Version 4.3.1[Default]
+Copyright (c) 2013 by Cisco Systems, Inc.
+
+advertisement version: 2
+Duplex: full

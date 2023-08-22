@@ -1,0 +1,16 @@
+{
+    "configuration": false,
+    "details": {
+        "command": "display vlan all",
+        "enable": true,
+        "order": 2,
+        "supported": true,
+        "template": "display vlan all"
+    },
+    "discoverable__mode": "netmiko_hp_comware",
+    "ingested": false,
+    "parsed": false,
+    "parsed_output": "",
+    "raw_output": "",
+    "success": true
+}

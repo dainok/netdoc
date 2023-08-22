@@ -15,17 +15,12 @@ def ingest(log):
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/hp_comware/display_ip_vpn-instance_instance-name # pylint: disable=line-too-long
         interfaces = item.get("interfaces")
-        vrf_name = item.get("name") if item.get("name") else None
+        vrf_name = utils.normalize_vrf_name(item.get("name"))
 
         # Get or create VRF
         vrf_o = None
         if vrf_name:
-            vrf_o = vrf.get(name=vrf_name)
-            if not vrf_o:
-                vrf_data = {
-                    "name": vrf_name,
-                }
-                vrf_o = vrf.create(mandatory_rd=False, **vrf_data)
+            vrf_o = vrf.get_or_create(name=vrf_name)[0]
 
         for intf in interfaces:
             interface_name = intf

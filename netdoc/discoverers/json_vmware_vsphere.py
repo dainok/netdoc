@@ -216,7 +216,7 @@ def api_query(
     }
 
 
-def discovery(nrni):
+def discovery(nrni, filters=None, filter_type=None):  # pylint: disable=unused-argument
     """Discovery VMware vSphere devices."""
     host_list = []
     failed_host_list = []

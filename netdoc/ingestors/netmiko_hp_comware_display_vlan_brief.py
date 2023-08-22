@@ -15,7 +15,7 @@ def ingest(log):
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/hp_comware/display_vlan_brief # pylint: disable=line-too-long
         vlan_id = int(item.get("vlan_id"))
-        vlan_name = item.get("name")
+        vlan_name = item.get("vlan_name")
 
         vlan_o = vlan.get(vlan_id, vlan_name)
         if not vlan_o:

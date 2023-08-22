@@ -1,0 +1,10 @@
+- address: 169.254.1.1
+  device: XR01
+  site: test-site
+  credential: test-credential
+  mode: netmiko_cisco_xr
+- address: 169.22.1.2
+  device: null
+  site: test-site
+  credential: test-credential
+  mode: netmiko_cisco_xr

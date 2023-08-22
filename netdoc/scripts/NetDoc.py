@@ -21,6 +21,7 @@ from extras.scripts import (
     TextVar,
     BooleanVar,
     IntegerVar,
+    StringVar,
 )
 
 from netdoc.models import (
@@ -31,6 +32,7 @@ from netdoc.models import (
     ArpTableEntry as ArpTableEntry_m,
     MacAddressTableEntry as MacAddressTableEntry_m,
     DeviceImageChoices,
+    FilterModeChoices,
 )
 from netdoc.utils import (
     log_ingest,
@@ -107,6 +109,18 @@ class AddDiscoverable(Script):
         required=True,
     )
 
+    # Filter (include/exclude commands)
+    filters = StringVar(
+        description="Filter command based on words separated by comma (e.g. mac,route).",
+        required=False,
+    )
+    filter_type = ChoiceVar(
+        choices=FilterModeChoices.CHOICES,
+        description="Filter type",
+        required=True,
+        default="exclude",
+    )
+
     def run(self, data, commit):
         """Start the script."""
         discoverable_ip_addresses = []
@@ -118,6 +132,11 @@ class AddDiscoverable(Script):
         mode = data.get("mode")
         site_o = data.get("site")
         ip_addresses = re.split(" |,|\n", data.get("ip_addresses"))
+
+        filters = []
+        if data.get("filters"):
+            filters = data.get("filters").split(",")
+        filter_type = data.get("filter_type")
 
         # Parse IP addresses
         for ip_address in ip_addresses:
@@ -157,7 +176,12 @@ class AddDiscoverable(Script):
             return ""
 
         self.log_info(f"Starting discovery on {', '.join(discoverable_ip_addresses)}")
-        output = discovery(discoverable_ip_addresses, script_handler=self)
+        output = discovery(
+            discoverable_ip_addresses,
+            script_handler=self,
+            filters=filters,
+            filter_type=filter_type,
+        )
 
         self.log_info("Discovery completed")
 
@@ -191,13 +215,30 @@ class Discover(Script):
         default=True,
     )
 
+    # Filter (include/exclude commands)
+    filters = StringVar(
+        description="Filter command based on words separated by comma (e.g. mac,route).",
+        required=False,
+    )
+    filter_type = ChoiceVar(
+        choices=FilterModeChoices.CHOICES,
+        description="Filter type",
+        required=True,
+        default="exclude",
+    )
+
     def run(self, data, commit):
         """Start the script."""
+        # Filtering out discoverable=False is done at Nornir inventory level.
         discoverable_ip_addresses = []
         discoverables = data.get("discoverables")
 
-        # Filtering out discoverable=False is done at Nornir inventory level.
+        filters = []
+        if data.get("filters"):
+            filters = data.get("filters").split(",")
+        filter_type = data.get("filter_type")
 
+        discoverable_ip_addresses = []
         if data.get("undiscovered_only"):
             # Get only undiscovered IP addresses
             discoverables = discoverable.get_list(last_discovered_at__isnull=True)
@@ -207,7 +248,6 @@ class Discover(Script):
             self.log_info(
                 f"Starting first discovery on {', '.join(discoverable_ip_addresses)}"
             )
-            output = discovery(discoverable_ip_addresses, script_handler=self)
         elif discoverables:
             for discoverable_o in discoverables:
                 discoverable_ip_addresses.append(discoverable_o.address)
@@ -215,10 +255,15 @@ class Discover(Script):
             self.log_info(
                 f"Starting discovery on {', '.join(discoverable_ip_addresses)}"
             )
-            output = discovery(discoverable_ip_addresses, script_handler=self)
         else:
             self.log_info("Starting discovery on all IP addresses")
-            output = discovery(None, script_handler=self)
+
+        output = discovery(
+            discoverable_ip_addresses,
+            script_handler=self,
+            filters=filters,
+            filter_type=filter_type,
+        )
 
         return output
 

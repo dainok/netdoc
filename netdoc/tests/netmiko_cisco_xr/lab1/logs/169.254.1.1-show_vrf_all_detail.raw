@@ -1,0 +1,42 @@
+
+Thu Aug 17 17:57:20.400 Italy
+
+VRF **nVSatellite; RD not set; VPN ID not set
+VRF mode: Regular
+Description not set
+Interfaces:
+  nV-Loopback0
+Address family IPV4 Unicast
+  No import VPN route-target communities
+  No export VPN route-target communities
+  No import route policy
+  No export route policy
+Address family IPV6 Unicast
+  No import VPN route-target communities
+  No export VPN route-target communities
+  No import route policy
+  No export route policy
+
+VRF red; RD 65100:10000; VPN ID not set
+VRF mode: Regular
+Description red
+Interfaces:
+  Bundle-Ether10.15000700
+  Bundle-Ether10.34050800
+  Bundle-Ether10.25010700
+  Bundle-Ether10.27010700
+  Bundle-Ether10.28020700
+Address family IPV4 Unicast
+  Import VPN route-target communities:
+    RT:65100:10000
+    RT:65100:10001
+  Export VPN route-target communities:
+    RT:65100:10000
+    RT:65100:10001
+  No import route policy
+  No export route policy
+Address family IPV6 Unicast
+  No import VPN route-target communities
+  No export VPN route-target communities
+  No import route policy
+  No export route policy

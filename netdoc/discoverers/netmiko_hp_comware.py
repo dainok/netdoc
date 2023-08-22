@@ -12,62 +12,43 @@ from netdoc import utils
 from netdoc.schemas import discoverable, discoverylog
 
 
-def discovery(nrni):
+def discovery(nrni, filters=None, filter_type=None):
     """Discovery Cisco IOS devices."""
     platform = "hp_comware"
     host_list = []
     failed_host_list = []
+    # Define commands, in order with command, template, enabled
+    commands = (
+        [
+            ("display current-configuration | include sysname", "HOSTNAME"),
+            ("display current-configuration", None),
+            # Depending on version, "verbose" may be unsupportted
+            ("display lldp neighbor-information verbose", None),
+            ("display lldp neighbor-information list", None),
+            # Depending on version, "brief" may be unsupportted
+            ("display vlan brief", None),
+            ("display vlan all", None),
+            ("display ip vpn-instance", None),
+            ("display interface", None),
+            ("display ip interface", None),
+            ("display mac-address", None),
+            ("display link-aggregation verbose", None),
+            ("display_device_manuinfo", None),
+            # Unsupported
+            ("display version", None),
+            ("display logbuffer level 6", None),
+            ("display stp", None),
+            ("display port trunk", None),
+            ("display vrrp", None),
+            ("display ospf peer", None),
+            ("display bgp peer", None),
+        ],
+    )
 
     def multiple_tasks(task):
         """Define commands (in order) for the playbook."""
-        utils.append_nornir_netmiko_task(
-            task,
-            "display current-configuration | include sysname",
-            template="HOSTNAME",
-            order=0,
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "display current-configuration",
-                # Depending on version, "verbose" may be unsupportted
-                "display lldp neighbor-information verbose",
-                "display lldp neighbor-information list",
-                # Depending on version, "brief" may be unsupportted
-                "display vlan brief",
-                "display vlan all",
-                "display ip vpn-instance",
-            ],
-            order=10,
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "display interface",
-                "display ip interface",
-            ],
-            order=50,
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "display mac-address",
-                "display link-aggregation verbose",
-                "display_device_manuinfo",
-            ],
-        )
-        utils.append_nornir_netmiko_task(
-            task,
-            [
-                "display version",
-                "display logbuffer level 6",
-                "display stp",
-                "display port trunk",
-                "display vrrp",
-                "display ospf peer",
-                "display bgp peer",
-            ],
-            supported=False,
+        utils.append_nornir_netmiko_tasks(
+            task, commands, filters=filters, filter_type=filter_type
         )
 
     # Run the playbook
@@ -121,30 +102,31 @@ def discovery(nrni):
             for vrf in vrfs:  # pylint: disable=cell-var-from-loop
                 if vrf == "default":
                     # Default VRF has no name
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        [
-                            "display arp",
-                            "display ip routing-table",
-                        ],
-                    )
+                    commands = [
+                        ("display arp", None),
+                        ("display ip routing-table", None),
+                    ]
                 else:
                     # with non default VRF commands and templates differ
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands=f"display arp vpn-instance {vrf}",
-                        template="display arp",
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands=f"display ip vpn-instance instance-name {vrf}",
-                        template="display ip vpn-instance instance-name",
-                    )
-                    utils.append_nornir_netmiko_task(
-                        task,
-                        commands=f"display ip routing-table vpn-instance {vrf}",
-                        template="display ip routing-table",
-                    )
+                    commands = [
+                        (f"display arp vpn-instance {vrf}", "display arp"),
+                        (
+                            f"display ip vpn-instance instance-name {vrf}",
+                            "display ip vpn-instance instance-name",
+                        ),
+                        (
+                            f"display ip routing-table vpn-instance {vrf}",
+                            "display ip routing-table",
+                        ),
+                    ]
+
+                utils.append_nornir_netmiko_tasks(
+                    task,
+                    commands,
+                    filters=filters,
+                    filter_type=filter_type,
+                    order=100,
+                )
 
         # Run the additional playbook
         additional_aggregated_results = current_nr.run(task=additional_tasks)

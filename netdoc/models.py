@@ -27,7 +27,12 @@ from dcim.fields import MACAddressField
 from utilities.choices import ChoiceSet
 from netbox.models import NetBoxModel
 
-from netdoc.utils import parse_netmiko_output, CONFIG_COMMANDS, FAILURE_OUTPUT
+from netdoc.utils import (
+    parse_netmiko_output,
+    CONFIG_COMMANDS,
+    FAILURE_OUTPUT,
+    is_command_supported,
+)
 
 SECRET_KEY = settings.SECRET_KEY.encode("utf-8")
 FERNET_KEY = base64.urlsafe_b64encode(SECRET_KEY.ljust(32)[:32])
@@ -82,6 +87,15 @@ class DiscoveryModeChoices(ChoiceSet):
         ("netmiko_linux", "Netmiko Linux"),
         ("json_vmware_vsphere", "VMware vSphere"),
         ("xml_panw_ngfw", "Palo Alto Networks NGFW"),
+    ]
+
+
+class FilterModeChoices(ChoiceSet):
+    """Filter types used in NetDoc scripts."""
+
+    CHOICES = [
+        ("include", "Include only"),
+        ("exclude", "Exclude"),
     ]
 
 
@@ -545,10 +559,23 @@ class DiscoveryLog(NetBoxModel):
         self.parsed = parsed
 
     def save(self, *args, **kwargs):
-        """Parse raw_output when saving."""
-        if "supported" in dict(self.details):
-            self.supported = dict(self.details).get("supported")
-        if not self.pk:
+        """Set supported flag and parse raw_output when saving."""
+        # Check if command is supported
+        framework = self.discoverable.mode.split("_")[0]  # pylint: disable=no-member
+        platform = "_".join(
+            self.discoverable.mode.split("_")[1:]  # pylint: disable=no-member
+        )
+        template = self.template
+        supported = is_command_supported(framework, platform, template)
+
+        # Update log details
+        details = self.details
+        details["framework"] = framework
+        details["platform"] = platform
+        self.supported = supported
+        self.details = details
+
+        if supported and not self.pk:
             # Parse (once) before creating the object
             self.parse()
 

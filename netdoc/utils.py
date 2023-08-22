@@ -16,7 +16,6 @@ import uuid
 from difflib import get_close_matches
 import macaddress
 import yaml
-from yaml.loader import SafeLoader
 
 from nornir_netmiko.tasks import netmiko_send_command
 from netmiko.utilities import get_structured_data
@@ -216,42 +215,41 @@ DRAWIO_ROLE_MAP = {
 }
 
 
-def append_nornir_netmiko_task(
-    task, commands, enable=True, template=None, order=128, supported=True
+def append_nornir_netmiko_tasks(
+    task, commands, enable=True, filters=None, filter_type=None, order=None
 ):
-    """Append a Nornir task within a multiple_tasks adding extended details.
-
-    commands can be str or list. template is allowed only if commands is str.
-    """
-    if isinstance(commands, str):
-        commands = [commands]
-    elif isinstance(commands, list) and template:
-        raise ValueError("Cannot specify template for a list of commands")
-    elif not isinstance(commands, list):
-        raise ValueError("Command must be a string or a list of string")
+    """Apply filter to command lists and append to Nornir tasks."""
+    if order is None:
+        order = 0
     for command in commands:
+        cmd_line = command[0]
+        template = command[1] if command[1] else cmd_line
+
+        if template == "HOSTNAME":
+            # HOSTNAME is always included
+            pass
+        else:
+            if is_command_filtered_out(cmd_line, filters, filter_type):
+                # Command must be skipped
+                continue
+
+        # Append the command to Nornir tasks
         details = {
-            "command": command,
-            "template": template if template else command,
+            "command": cmd_line,
+            "template": template,
             "enable": enable,
             "order": order,
-            "supported": supported,
         }
-        for cmd_filter in PLUGIN_SETTINGS.get("NORNIR_SKIP_LIST"):
-            if re.match(cmd_filter, command):
-                # Skip excluded commands
-                break
-        else:
-            # The filter does not match (filter loop completed successfully)
-            task.run(
-                task=netmiko_send_command,
-                name=json.dumps(details),
-                command_string=details.get("command"),
-                use_textfsm=False,
-                enable=details.get("enable"),
-                use_timing=False,
-                read_timeout=PLUGIN_SETTINGS.get("NORNIR_TIMEOUT"),
-            )
+        task.run(
+            task=netmiko_send_command,
+            name=json.dumps(details),
+            command_string=details.get("command"),
+            use_textfsm=False,
+            enable=details.get("enable"),
+            use_timing=False,
+            read_timeout=PLUGIN_SETTINGS.get("NORNIR_TIMEOUT"),
+        )
+        order = order + 1
 
 
 def count_interface_neighbors(neighbors_list, key):
@@ -439,7 +437,7 @@ def find_model(manufacturer=None, keyword=None):
     try:
         with open(library_file, "r", encoding="utf-8") as vendor_fh:
             # Load library file based on manufacturer
-            data = yaml.load(vendor_fh, Loader=SafeLoader)
+            data = yaml.safe_load(vendor_fh)
     except FileNotFoundError as exc:
         raise ValueError(
             f"manufacturer {manufacturer} not found in NetBox library"
@@ -506,6 +504,51 @@ def is_hostname(name):
     if all(allowed.match(x) for x in name.split(".")):
         return True
     # Hostname contains invalid chars
+    return False
+
+
+def is_command_supported(framework, platform, command):
+    """Return true if the framework/platform/command is supported."""
+    function_name = f"{framework}_{platform}_{command}"
+    function_name = function_name.replace(" ", "_")
+    function_name = function_name.replace("-", "_")
+    function_name = function_name.lower().strip()
+    try:
+        importlib.import_module(f"netdoc.ingestors.{function_name}")
+    except ModuleNotFoundError:
+        # Ingestor not found
+        return False
+    return True
+
+
+def is_command_filtered_out(cmd_line, filters, filter_type):
+    """Test a command line against a filter and return True if the command must be skipped."""
+    to_be_filtered = False
+    if not filters:
+        # No filter has been applied
+        return False
+    if filter_type == "exclude":
+        # Exclude commands which match filter words (deny list)
+        for keyword in filters:
+            if keyword in cmd_line:
+                # Mark command as skipped because matches the filter
+                to_be_filtered = True
+                break
+    elif filter_type == "include":
+        # Exclude commands which don't match filter words
+        for keyword in filters:
+            # Mark command as skipped by default
+            to_be_filtered = True
+            if keyword in cmd_line:
+                # Include command
+                to_be_filtered = False
+                break
+    else:
+        # Filter type not valid
+        raise ValueError(f"Filter type {filter_type} is not valid.")
+    if to_be_filtered:
+        # Skip commands marked as filtered
+        return True
     return False
 
 
@@ -814,6 +857,17 @@ def normalize_ip_address_or_none(ip_address):
     return None
 
 
+def normalize_rd(vrf_rd):
+    """Return RD."""
+    vrf_rd = vrf_rd.lower()
+    vrf_rd = vrf_rd.strip()
+    if not vrf_rd:
+        return None
+    if "not set" in vrf_rd:
+        return None
+    return vrf_rd
+
+
 def normalize_route_type(route_type):
     """Return route type protocol."""
     route_type = route_type.lower().strip()
@@ -959,6 +1013,21 @@ def normalize_vlan_range(vlan):
         return [int(vlan)]
     except ValueError as exc:
         raise ValueError(f"cannot convert VLAN {vlan} to integer") from exc
+
+
+def normalize_vrf_name(vrf_name):
+    """Return VRF name."""
+    if not vrf_name:
+        # Empty VRF name means global VRF
+        return None
+    vrf_name = vrf_name.strip()
+    if vrf_name == "default":
+        # Default is global VRF
+        return None
+    if vrf_name.startswith("**"):
+        # Special XR VRF
+        return None
+    return vrf_name
 
 
 def object_create(model_o, **kwargs):

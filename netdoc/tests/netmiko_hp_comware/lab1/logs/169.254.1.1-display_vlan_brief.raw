@@ -1,0 +1,9 @@
+Brief information about all VLANs:
+Supported Minimum VLAN ID: 1
+Supported Maximum VLAN ID: 4094
+Default VLAN ID: 1
+VLAN ID   Name                             Port
+1         default                          FGE1/0/1  FGE1/0/2  FGE1/0/3
+                                           FGE1/0/4  FGE1/0/5  FGE1/0/6
+100       server                           FGE1/0/7  FGE1/0/8  FGE1/0/9
+101       client

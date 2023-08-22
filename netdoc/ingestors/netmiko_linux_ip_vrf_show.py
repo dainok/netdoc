@@ -5,20 +5,18 @@ __copyright__ = "Copyright 2022, Andrea Dainese"
 __license__ = "GPLv3"
 
 from netdoc.schemas import vrf
+from netdoc import utils
 
 
 def ingest(log):
     """Processing parsed output."""
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/linux/ip_vrf_show # pylint: disable=line-too-long
-        vrf_name = item.get("vrf")
+        vrf_name = utils.normalize_vrf_name(item.get("vrf"))
 
-        vrf_o = vrf.get(name=vrf_name)
-        if not vrf_o:
-            data = {
-                "name": vrf_name,
-            }
-            vrf_o = vrf.create(mandatory_rd=False, **data)
+        # Get or create VRF
+        if vrf_name:
+            vrf.get_or_create(name=vrf_name)
 
     # Update the log
     log.ingested = True
