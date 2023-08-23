@@ -16,6 +16,7 @@ def ingest(log):
     device_o = log.discoverable.device
     part_number = DEFAULT_MODEL
     part_serial_number = None
+    chassis_found = False
 
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/cisco_ios/show_inventory # pylint: disable=line-too-long
@@ -25,7 +26,18 @@ def ingest(log):
             # Chassis model and Serial Number
             part_serial_number = item.get("sn")
             part_number = item.get("pid")
+            chassis_found = True
             break
+
+    if not chassis_found and log.parsed_output:
+        item = log.parsed_output[0]
+        # Chassis not found, try with the first item
+        if item.get("sn"):
+            part_serial_number = item.get("sn")
+        if item.get("pid"):
+            part_number = item.get("pid")
+        if item.get("name"):
+            part_description = item.get("name")
 
     device.update(
         device_o,
