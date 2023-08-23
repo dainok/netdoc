@@ -28,7 +28,7 @@ class NetdocConfig(PluginConfig):
     base_url = "netdoc"
     required_settings = ["NTC_TEMPLATES_DIR"]
     default_settings = {
-        "MAX_INGESTED_LOGS": 50,
+        "MAX_INGESTED_LOGS": 25,
         "NTC_TEMPLATES_DIR": "/opt/ntc-templates/ntc_templates/templates",
         "NORNIR_LOG": f"{settings.BASE_DIR}/nornir.log",
         "NORNIR_TIMEOUT": 300,

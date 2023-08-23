@@ -45,6 +45,7 @@ from netdoc.tasks import discovery
 
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 NORNIR_LOG = PLUGIN_SETTINGS.get("NORNIR_LOG")
+MAX_INGESTED_LOGS = PLUGIN_SETTINGS.get("MAX_INGESTED_LOGS")
 
 
 class CreateDeviceRole(Script):
@@ -184,6 +185,8 @@ class AddDiscoverable(Script):
         )
 
         self.log_info("Discovery completed")
+        log_qs = DiscoveryLog_m.objects.filter(ingested=False, parsed=True)
+        self.log_info(f"{len(log_qs)} logs to be ingested")
 
         return output
 
@@ -265,6 +268,10 @@ class Discover(Script):
             filter_type=filter_type,
         )
 
+        self.log_info("Discovery completed")
+        log_qs = DiscoveryLog_m.objects.filter(ingested=False, parsed=True)
+        self.log_info(f"{len(log_qs)} logs to be ingested")
+
         return output
 
 
@@ -297,46 +304,61 @@ class Ingest(Script):
     max_ingested_logs = IntegerVar(
         description="Maximum logs to ingest before spawning another job",
         required=False,
+        default=MAX_INGESTED_LOGS,
     )
 
     def run(self, data, commit):
         """Start the script."""
-        log_queryset = DiscoveryLog_m.objects.filter(parsed=True).order_by("order")
-        remaining_logs = 0
-        if not data.get("re_ingest"):
-            # Filter out logs already ingested
-            log_queryset = log_queryset.filter(ingested=False)
-        if data.get("discoverables"):
-            log_queryset = log_queryset.filter(
-                discoverable__in=data.get("discoverables")
+        log_list = data.get("log_list") if data.get("log_list") else []
+        # Jobs spaned by discovery script don't have max_ingested_logs via POST
+        max_ingested_logs = (
+            data.get("max_ingested_logs")
+            if data.get("max_ingested_logs")
+            else MAX_INGESTED_LOGS
+        )
+
+        if log_list:
+            # This is a spawned (child) job, get remaining logs
+            self.log_info("This is a child ingest job")
+            log_list_qs = DiscoveryLog_m.objects.filter(id__in=log_list).order_by(
+                "order"
             )
-        if data.get("max_ingested_logs"):
-            max_ingested_logs = data.get("max_ingested_logs")
-            self.log_info(f"Limiting ingesting to {max_ingested_logs} logs")
-            remaining_logs = len(log_queryset) - max_ingested_logs
-            log_queryset = log_queryset[:max_ingested_logs]
-
-        if log_queryset:
-            self.log_info(f"Ingesting {len(log_queryset)} logs")
         else:
-            self.log_failure("No log to ingest")
+            # This is the parent job, get all logs to be ingested
+            self.log_info("This is the parent ingest job")
+            log_list_qs = DiscoveryLog_m.objects.filter(parsed=True).order_by("order")
+            if not data.get("re_ingest"):
+                # Filter out logs already ingested
+                log_list_qs = log_list_qs.filter(ingested=False)
+            if data.get("discoverables"):
+                log_list_qs = log_list_qs.filter(
+                    discoverable__in=data.get("discoverables")
+                )
+            log_list = log_list_qs.values_list("id", flat=True)
 
-        for log in log_queryset:
+        # Always limit max number of ingested logs to avoid timeout
+        self.log_info(f"{len(log_list_qs)} logs to be ingested")
+        if len(log_list) > max_ingested_logs:
+            ingesting_log_qs = log_list_qs[:max_ingested_logs]
+            self.log_info(f"Limiting ingesting to {max_ingested_logs} logs")
+        else:
+            ingesting_log_qs = log_list_qs
+
+        for log in ingesting_log_qs:
+            msg = (
+                f" log {log.id} with command {log.command} on device {log.discoverable}"
+            )
             if log.ingested:
-                self.log_info(
-                    f"Reingesting log {log.id} with command {log.command} "
-                    + f"on device {log.discoverable}"
-                )
+                self.log_info(f"Reingesting {msg}")
             else:
-                self.log_info(
-                    f"Ingesting log {log.id} with command {log.command} on "
-                    + f"device {log.discoverable}"
-                )
+                self.log_info(f"Ingesting {msg}")
             log_ingest(log)
 
-        if remaining_logs > 0:
+        if len(log_list) > max_ingested_logs:
             # Need to span another job
-            self.log_info(f"Spawning a new job to ingest {remaining_logs} logs")
+            remaining_log_list = log_list[max_ingested_logs:]
+            data["log_list"] = remaining_log_list
+            self.log_info(f"Spawning a new job to inget {len(remaining_log_list)} logs")
             spawn_script("Ingest", post_data=data, user=self.request.user)
 
 
