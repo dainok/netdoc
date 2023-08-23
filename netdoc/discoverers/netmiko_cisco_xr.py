@@ -25,7 +25,7 @@ def discovery(nrni, filters=None, filter_type=None):
         ("show cdp neighbors detail", None),
         ("show lldp neighbors", None),
         ("show vrf all detail", None),
-        ("show ipv4 interface", None),
+        ("show ipv4 vrf all interface", "show ipv4 interface"),
         ("admin show inventory", None),
         # Unsupported
         ("show inventory", None),
