@@ -111,6 +111,7 @@ class RouteTypeChoices(ChoiceSet):
         ("r", "RIP"),
         ("e", "EIGRP"),
         ("ex", "EIGRP external"),
+        ("o", "OSPF intra area"),
         ("oia", "OSPF inter area"),
         ("on1", "OSPF NSSA external type 1"),
         ("on2", "OSPF NSSA external type 2"),

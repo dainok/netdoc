@@ -871,7 +871,18 @@ def normalize_rd(vrf_rd):
 def normalize_route_type(route_type):
     """Return route type protocol."""
     route_type = route_type.lower().strip()
-    if route_type in ["c", "connected", "direct", "local", "hsrp", "l", "a c", "a h"]:
+    if route_type in [
+        "c",
+        "connected",
+        "direct",
+        "local",
+        "hsrp",
+        "l",
+        "a c",
+        "a h",
+        "vrrp-engine",
+        "vrrp_engine",
+    ]:
         # Connected
         return "c"
     if route_type in ["s", "static", "s*", "a s"]:
@@ -892,6 +903,9 @@ def normalize_route_type(route_type):
     if route_type in ["ex"]:
         # EIGRP External
         return "ex"
+    if route_type in ["o", "ospf"]:
+        # OSPF (Inter Area)
+        return "o"
     if route_type in ["o", "ospf", "o_intra", "o ia"]:
         # OSPF Inter Area
         return "oia"
@@ -931,6 +945,9 @@ def normalize_route_type(route_type):
     if re.match(r"^ospf-\S+ intra$", route_type):
         # Nexus OSPF Inter Area with process
         return "oia"
+    if re.match(r"^ospf-\S+ inter$", route_type):
+        # Nexus OSPF Inter Area
+        return "o"
     if re.match(r"^ospf-\S+ type-1$", route_type):
         # Nexus OSPF External Type 1 with process
         return "oe1"
@@ -992,7 +1009,7 @@ def normalize_vlan_range(vlan):
     vlan = vlan.lower().strip()
     vlan = vlan.replace("(default vlan)", "")
     vlan = vlan.replace(" ", "")
-    if vlan == "none":
+    if vlan in ["none", ""]:
         return []
     if vlan == "all":
         # All VLANs
