@@ -84,7 +84,7 @@ class AssetInventory:
                 hostname=discoverable.address,
                 username=credential.username,
                 password=credential.get_secrets().get("password"),
-                port=22,
+                # port=22,
                 platform=device_type,
                 data=data,
                 groups=ParentGroups(),

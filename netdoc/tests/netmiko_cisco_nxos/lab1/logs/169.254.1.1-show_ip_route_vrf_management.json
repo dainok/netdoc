@@ -8,7 +8,7 @@
         "template": "show ip route",
         "vrf": "management"
     },
-    "discoverable__mode": "netmiko_cisco_ios",
+    "discoverable__mode": "netmiko_cisco_ios_telnet",
     "ingested": false,
     "parsed": false,
     "parsed_output": "",

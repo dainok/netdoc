@@ -80,6 +80,7 @@ class DiscoveryModeChoices(ChoiceSet):
 
     CHOICES = [
         ("netmiko_cisco_ios", "Netmiko Cisco IOS XE"),
+        ("netmiko_cisco_ios_telnet", "Netmiko Cisco IOS XE (Telnet)"),
         ("netmiko_cisco_nxos", "Netmiko Cisco NX-OS"),
         ("netmiko_cisco_xr", "Netmiko Cisco XR"),
         ("netmiko_hp_comware", "Netmiko HPE Comware"),
@@ -495,23 +496,13 @@ class DiscoveryLog(NetBoxModel):
 
     def parse(self):
         """Parse raw_output."""
-        self.configuration = False
         self.success = False
         self.parsed = False
         self.parsed_output = ""
-        mode = self.discoverable.mode  # pylint: disable=no-member
 
         # Check if the command is supported
         if not self.supported:
             return
-
-        # Check if the output is a configuration file
-        if self.template != "HOSTNAME":
-            for regex in CONFIG_COMMANDS:
-                if re.search(regex, self.command):
-                    self.configuration = True
-                    # Configuraion file -> skip parsing
-                    return
 
         # Check if the output is completed successfully
         for regex in FAILURE_OUTPUT:
@@ -521,8 +512,8 @@ class DiscoveryLog(NetBoxModel):
         self.success = True
 
         # Parse framework (e.g. netmiko) and platform (e.g. cisco_ios)
-        framework = mode.split("_").pop(0)
-        platform = "_".join(mode.split("_")[1:])
+        framework = self.details.get("framework")
+        platform = self.details.get("platform")
 
         if self.template == "HOSTNAME":
             # Logs tracking hostnames are parsed during ingestion phase
@@ -560,24 +551,35 @@ class DiscoveryLog(NetBoxModel):
         self.parsed = parsed
 
     def save(self, *args, **kwargs):
-        """Set supported flag and parse raw_output when saving."""
-        # Check if command is supported
-        framework = self.discoverable.mode.split("_")[0]  # pylint: disable=no-member
-        platform = "_".join(
-            self.discoverable.mode.split("_")[1:]  # pylint: disable=no-member
-        )
-        template = self.template
-        supported = is_command_supported(framework, platform, template)
+        """Set supported flag and parse raw_output when creating."""
+        if not self.pk:
+            # Check if command is supported
+            mode = self.discoverable.mode  # pylint: disable=no-member
+            framework = mode.split("_")[0]
+            platform = "_".join(mode.split("_")[1:3])
+            try:
+                protocol = mode.split("_")[3]  # pylint: disable=no-member
+            except IndexError:
+                protocol = "default"
+            template = self.template
+            supported = is_command_supported(framework, platform, template)
 
-        # Update log details
-        details = self.details
-        details["framework"] = framework
-        details["platform"] = platform
-        self.supported = supported
-        self.details = details
+            # Check if the command is a configuration file
+            configuration = False
+            for regex in CONFIG_COMMANDS:
+                if re.search(regex, self.command):
+                    configuration = True
 
-        if supported and not self.pk:
-            # Parse (once) before creating the object
+            # Update log details
+            details = self.details
+            details["framework"] = framework
+            details["platform"] = platform
+            details["protocol"] = protocol
+            self.supported = supported
+            self.details = details
+            self.configuration = configuration
+
+            # Parse
             self.parse()
 
         super().save(*args, **kwargs)

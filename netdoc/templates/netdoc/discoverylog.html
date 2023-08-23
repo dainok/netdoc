@@ -104,6 +104,16 @@ __license__ = "GPLv3"
     <div class="row mt-3">
         <div class="col col-md-12">
             <div class="card">
+                <h5 class="card-header">Details</h5>
+                <div class="card-body table-responsive">
+                    <pre>{{ object.details|pprint }}</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col col-md-12">
+            <div class="card">
                 <h5 class="card-header">Raw output</h5>
                 <div class="card-body table-responsive">
                     <pre>{{ object.raw_output }}</pre>
