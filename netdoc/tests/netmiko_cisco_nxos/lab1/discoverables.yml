@@ -2,7 +2,7 @@
   device: SW1
   site: test-site
   credential: test-credential
-  mode: netmiko_cisco_ios
+  mode: netmiko_cisco_ios_telnet
 - address: 169.254.1.11
   device: NXOS11
   site: test-site

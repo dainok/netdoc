@@ -7,7 +7,7 @@
         "supported": true,
         "template": "show etherchannel summary"
     },
-    "discoverable__mode": "netmiko_cisco_ios",
+    "discoverable__mode": "netmiko_cisco_ios_telnet",
     "ingested": false,
     "parsed": false,
     "parsed_output": "",

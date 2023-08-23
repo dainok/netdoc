@@ -80,6 +80,7 @@ class DiscoveryModeChoices(ChoiceSet):
 
     CHOICES = [
         ("netmiko_cisco_ios", "Netmiko Cisco IOS XE"),
+        ("netmiko_cisco_ios_telnet", "Netmiko Cisco IOS XE (Telnet)"),
         ("netmiko_cisco_nxos", "Netmiko Cisco NX-OS"),
         ("netmiko_cisco_xr", "Netmiko Cisco XR"),
         ("netmiko_hp_comware", "Netmiko HPE Comware"),
@@ -499,7 +500,6 @@ class DiscoveryLog(NetBoxModel):
         self.success = False
         self.parsed = False
         self.parsed_output = ""
-        mode = self.discoverable.mode  # pylint: disable=no-member
 
         # Check if the command is supported
         if not self.supported:
@@ -521,8 +521,8 @@ class DiscoveryLog(NetBoxModel):
         self.success = True
 
         # Parse framework (e.g. netmiko) and platform (e.g. cisco_ios)
-        framework = mode.split("_").pop(0)
-        platform = "_".join(mode.split("_")[1:])
+        framework = self.details.get("framework")
+        platform = self.details.get("platform")
 
         if self.template == "HOSTNAME":
             # Logs tracking hostnames are parsed during ingestion phase
@@ -564,8 +564,12 @@ class DiscoveryLog(NetBoxModel):
         # Check if command is supported
         framework = self.discoverable.mode.split("_")[0]  # pylint: disable=no-member
         platform = "_".join(
-            self.discoverable.mode.split("_")[1:]  # pylint: disable=no-member
+            self.discoverable.mode.split("_")[1:3]  # pylint: disable=no-member
         )
+        try:
+            protocol = self.discoverable.mode.split("_")[3]  # pylint: disable=no-member
+        except IndexError:
+            protocol = "default"
         template = self.template
         supported = is_command_supported(framework, platform, template)
 
@@ -573,6 +577,7 @@ class DiscoveryLog(NetBoxModel):
         details = self.details
         details["framework"] = framework
         details["platform"] = platform
+        details["protocol"] = protocol
         self.supported = supported
         self.details = details
 

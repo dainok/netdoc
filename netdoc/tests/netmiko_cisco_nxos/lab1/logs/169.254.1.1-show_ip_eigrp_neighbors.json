@@ -7,7 +7,7 @@
         "supported": false,
         "template": "show ip eigrp neighbors"
     },
-    "discoverable__mode": "netmiko_cisco_ios",
+    "discoverable__mode": "netmiko_cisco_ios_telnet",
     "ingested": false,
     "parsed": false,
     "parsed_output": "",

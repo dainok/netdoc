@@ -554,7 +554,10 @@ def is_command_filtered_out(cmd_line, filters, filter_type):
 
 def log_ingest(log):
     """Ingest a log calling the custom ingestor."""
-    function_name = f"{log.discoverable.mode}_{log.template}"
+    function_name = (
+        f"{log.details.get('framework')}_"
+        + f"{log.details.get('platform')}_{log.details.get('template')}"
+    )
     function_name = function_name.replace(" ", "_")
     function_name = function_name.replace("-", "_")
     function_name = function_name.lower().strip()
