@@ -11,18 +11,15 @@ from ipam.models import VRF
 from virtualization.models import VirtualMachine
 
 from utilities.forms import (
-    CSVModelChoiceField,
-    DynamicModelChoiceField,
-    DynamicModelMultipleChoiceField,
-    StaticSelect,
-    APISelect,
     BOOLEAN_WITH_BLANK_CHOICES,
     add_blank_choice,
 )
+from utilities.forms.widgets import APISelect
+from utilities.forms.fields import DynamicModelChoiceField, DynamicModelMultipleChoiceField, CSVModelChoiceField
 from netbox.forms import (
     NetBoxModelForm,
     NetBoxModelFilterSetForm,
-    NetBoxModelCSVForm,
+    NetBoxModelImportForm,
     NetBoxModelBulkEditForm,
 )
 
@@ -66,7 +63,7 @@ class CredentialForm(NetBoxModelForm):
         }
 
 
-class CredentialCSVForm(NetBoxModelCSVForm):
+class CredentialCSVForm(NetBoxModelImportForm):
     """Form used to add Credential objects via CSV import."""
 
     class Meta:
@@ -122,7 +119,7 @@ class DiagramForm(NetBoxModelForm):
         model = Credential
         fields = [
             "name",
-            "mode",
+            # "mode",
             "device_roles",
             "sites",
             "vrfs",
@@ -169,7 +166,7 @@ class DiscoverableForm(NetBoxModelForm):
         ]
 
 
-class DiscoverableCSVForm(NetBoxModelCSVForm):
+class DiscoverableCSVForm(NetBoxModelImportForm):
     """Form used to add Discoverable objects via CSV import."""
 
     address = forms.GenericIPAddressField(
@@ -213,7 +210,7 @@ class DiscoverableBulkEditForm(NetBoxModelBulkEditForm):
         choices=add_blank_choice(DiscoveryModeChoices),
         required=False,
         initial="",
-        widget=StaticSelect(),
+        widget=forms.Select(),
         help_text="Discovery mode",
     )
     discoverable = forms.NullBooleanField(
@@ -238,7 +235,7 @@ class DiscoverableListFilterForm(NetBoxModelFilterSetForm):
     discoverable = forms.NullBooleanField(
         required=False,
         label="Is discoverable?",
-        widget=StaticSelect(choices=BOOLEAN_WITH_BLANK_CHOICES),
+        widget=forms.Select(choices=BOOLEAN_WITH_BLANK_CHOICES),
     )
 
 
@@ -263,25 +260,25 @@ class DiscoveryLogListFilterForm(NetBoxModelFilterSetForm):
     configuration = forms.NullBooleanField(
         required=False,
         label="Configuration output",
-        widget=StaticSelect(choices=BOOLEAN_WITH_BLANK_CHOICES),
+        widget=forms.Select(choices=BOOLEAN_WITH_BLANK_CHOICES),
     )
     success = forms.NullBooleanField(
         required=False,
         label="Completed successfully",
-        widget=StaticSelect(choices=BOOLEAN_WITH_BLANK_CHOICES),
+        widget=forms.Select(choices=BOOLEAN_WITH_BLANK_CHOICES),
     )
     supported = forms.NullBooleanField(
         required=False,
         label="Command is supported",
-        widget=StaticSelect(choices=BOOLEAN_WITH_BLANK_CHOICES),
+        widget=forms.Select(choices=BOOLEAN_WITH_BLANK_CHOICES),
     )
     parsed = forms.NullBooleanField(
         required=False,
         label="Parsed successfully",
-        widget=StaticSelect(choices=BOOLEAN_WITH_BLANK_CHOICES),
+        widget=forms.Select(choices=BOOLEAN_WITH_BLANK_CHOICES),
     )
     ingested = forms.NullBooleanField(
         required=False,
         label="Ingested successfully",
-        widget=StaticSelect(choices=BOOLEAN_WITH_BLANK_CHOICES),
+        widget=forms.Select(choices=BOOLEAN_WITH_BLANK_CHOICES),
     )

@@ -26,8 +26,8 @@ from django.contrib.contenttypes.models import ContentType
 from django.contrib.auth.models import User
 from django.db.models import Q
 
-from extras.scripts import get_scripts, run_script
-from extras.models import JobResult, Script
+# from extras.scripts import get_scripts, run_script # TODO
+# from extras.models import JobResult, Script # TODO
 from utilities.utils import NetBoxFakeRequest
 from dcim.models import Interface
 from virtualization.models import VMInterface

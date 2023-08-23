@@ -111,9 +111,8 @@ class DiscoverableTable(NetBoxTable):
 
     address = tables.Column(linkify=True)
     meta_device = tables.Column(linkify=True, verbose_name="Device", orderable=False)
-    vm = tables.Column(linkify=True)
     mode = ChoiceFieldColumn()
-    discoverylogs_count = tables.Column(verbose_name="Logs")
+    # discoverylogs_count = tables.Column(verbose_name="Logs")
     discovery_button = """
     <a class="btn btn-sm btn-secondary" href="{% url 'plugins:netdoc:discoverable_discover' pk=record.pk %}" title="Discover">
         <i class="mdi mdi-refresh"></i>
@@ -135,7 +134,7 @@ class DiscoverableTable(NetBoxTable):
             "mode",
             "discoverable",
             "last_discovered_at",
-            "discoverylogs_count",
+            # "discoverylogs_count",
             "last_updated",
             "created",
         ]
@@ -147,14 +146,14 @@ class DiscoverableTable(NetBoxTable):
             "mode",
             "discoverable",
             "last_discovered_at",
-            "discoverylogs_count",
+            # "discoverylogs_count",
         ]
 
 
 class DiscoverableTableWOLogCount(NetBoxTable):
-    """Credential list table used in DiscoverableListView.
+    """Discoverable list table used in CredentialView.
 
-    DiscoveryLog count is omitted. Used in CredentialView.
+    DiscoveryLog count is omitted.
     """
 
     address = tables.Column(linkify=True)
