@@ -15,7 +15,11 @@ from utilities.forms import (
     add_blank_choice,
 )
 from utilities.forms.widgets import APISelect
-from utilities.forms.fields import DynamicModelChoiceField, DynamicModelMultipleChoiceField, CSVModelChoiceField
+from utilities.forms.fields import (
+    DynamicModelChoiceField,
+    DynamicModelMultipleChoiceField,
+    CSVModelChoiceField,
+)
 from netbox.forms import (
     NetBoxModelForm,
     NetBoxModelFilterSetForm,
