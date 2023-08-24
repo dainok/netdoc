@@ -6,12 +6,10 @@ __license__ = "GPLv3"
 
 import os
 import pkgutil
-import shutil
 
 from django.conf import settings
 
 from extras.plugins import PluginConfig
-
 
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 
@@ -39,9 +37,55 @@ class NetdocConfig(PluginConfig):
 
     def ready(self):
         """Load signals."""
+        from core.models import (  # noqa: F401 pylint: disable=import-outside-toplevel,unused-import
+            DataSource,
+            DataFile,
+        )
+        from extras.models import (  # noqa: F401 pylint: disable=import-outside-toplevel,unused-import
+            ScriptModule,
+            ReportModule,
+        )
         from netdoc import (  # noqa: F401 pylint: disable=import-outside-toplevel,unused-import
             signals,
         )
+
+        # Create/update data sources for NetDoc scripts on every restart
+        package = pkgutil.get_loader("netdoc")
+        MODULE_PATH = os.path.dirname(package.path)
+        JOBS_PATH = os.path.join(MODULE_PATH, "jobs")
+        try:
+            jobs_ds_o = DataSource.objects.get(name="netdoc_jobs")
+            jobs_ds_o.url = JOBS_PATH
+            jobs_ds_o.save()
+        except DataSource.DoesNotExist:
+            jobs_ds_o = DataSource.objects.create(
+                name="netdoc_jobs", type="local", source_url=JOBS_PATH
+            )
+        jobs_ds_o.sync()
+
+        # Create/update NetDoc scripts on every restart
+        script_filename = "netdoc_scripts.py"
+        script_file_o = DataFile.objects.get(path=script_filename)
+        try:
+            script_o = ScriptModule.objects.get(data_file=script_file_o)
+            script_o.auto_sync_enabled = True
+            script_o.save()
+        except ScriptModule.DoesNotExist:
+            script_o = ScriptModule.objects.create(data_file=script_file_o)
+            script_o.clean()
+            script_o.save()
+
+        # Create/update NetDoc reports on every restart
+        report_filename = "netdoc_reports.py"
+        report_file_o = DataFile.objects.get(path=report_filename)
+        try:
+            report_o = ReportModule.objects.get(data_file=report_file_o)
+            report_o.auto_sync_enabled = True
+            report_o.save()
+        except ReportModule.DoesNotExist:
+            report_o = ReportModule.objects.create(data_file=report_file_o)
+            report_o.clean()
+            report_o.save()
 
         super().ready()
 
@@ -50,35 +94,3 @@ config = NetdocConfig  # pylint: disable=invalid-name
 
 # Setting NTC_TEMPLATES_DIR
 os.environ.setdefault("NET_TEXTFSM", PLUGIN_SETTINGS.get("NTC_TEMPLATES_DIR"))
-
-# Copy scripts
-package = pkgutil.get_loader("netdoc")
-MODULE_PATH = os.path.dirname(package.path)
-SCRIPTS_PATH = os.path.join(MODULE_PATH, "scripts")
-for filename in os.listdir(SCRIPTS_PATH):
-    src_file = os.path.join(SCRIPTS_PATH, filename)
-    dst_file = os.path.join(settings.SCRIPTS_ROOT, filename)
-    if (
-        filename.startswith("__init__")
-        or not filename.endswith(".py")
-        or not os.path.isfile(src_file)
-    ):
-        # Not a script file
-        continue
-    # Copy file in Netbox root scripts path
-    shutil.copy(src_file, dst_file)
-
-# Copy reports
-REPORTS_PATH = os.path.join(MODULE_PATH, "reports")
-for filename in os.listdir(REPORTS_PATH):
-    src_file = os.path.join(REPORTS_PATH, filename)
-    dst_file = os.path.join(settings.REPORTS_ROOT, filename)
-    if (
-        filename.startswith("__init__")
-        or not filename.endswith(".py")
-        or not os.path.isfile(src_file)
-    ):
-        # Not a report file
-        continue
-    # Copy file in Netbox root reports path
-    shutil.copy(src_file, dst_file)
