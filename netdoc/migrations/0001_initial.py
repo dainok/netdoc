@@ -11,7 +11,11 @@ import taggit.managers
 class Migration(migrations.Migration):
     initial = True
 
-    dependencies = []
+    dependencies = [
+        ("extras", "0092_delete_jobresult"),
+        ("dcim", "0172_larger_power_draw_values..."),
+        ("ipam", "0063_standardize_description_comments"),
+    ]
 
     operations = [
         migrations.CreateModel(
