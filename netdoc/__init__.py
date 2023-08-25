@@ -51,15 +51,15 @@ class NetdocConfig(PluginConfig):
 
         # Create/update data sources for NetDoc scripts on every restart
         package = pkgutil.get_loader("netdoc")
-        MODULE_PATH = os.path.dirname(package.path)
-        JOBS_PATH = os.path.join(MODULE_PATH, "jobs")
+        module_path = os.path.dirname(package.path)
+        jobs_path = os.path.join(module_path, "jobs")
         try:
             jobs_ds_o = DataSource.objects.get(name="netdoc_jobs")
-            jobs_ds_o.url = JOBS_PATH
+            jobs_ds_o.url = jobs_path
             jobs_ds_o.save()
-        except DataSource.DoesNotExist:
+        except DataSource.DoesNotExist:  # pylint: disable=no-member
             jobs_ds_o = DataSource.objects.create(
-                name="netdoc_jobs", type="local", source_url=JOBS_PATH
+                name="netdoc_jobs", type="local", source_url=jobs_path
             )
         jobs_ds_o.sync()
 
@@ -70,7 +70,7 @@ class NetdocConfig(PluginConfig):
             script_o = ScriptModule.objects.get(data_file=script_file_o)
             script_o.auto_sync_enabled = True
             script_o.save()
-        except ScriptModule.DoesNotExist:
+        except ScriptModule.DoesNotExist:  # pylint: disable=no-member
             script_o = ScriptModule.objects.create(data_file=script_file_o)
             script_o.clean()
             script_o.save()
@@ -82,7 +82,7 @@ class NetdocConfig(PluginConfig):
             report_o = ReportModule.objects.get(data_file=report_file_o)
             report_o.auto_sync_enabled = True
             report_o.save()
-        except ReportModule.DoesNotExist:
+        except ReportModule.DoesNotExist:  # pylint: disable=no-member
             report_o = ReportModule.objects.create(data_file=report_file_o)
             report_o.clean()
             report_o.save()
