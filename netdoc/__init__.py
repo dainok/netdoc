@@ -72,7 +72,9 @@ class NetdocConfig(PluginConfig):
                 script_o.auto_sync_enabled = True
                 script_o.save()
             except ScriptModule.DoesNotExist:  # pylint: disable=no-member
-                script_o = ScriptModule.objects.create(data_file=script_file_o, auto_sync_enabled=True)
+                script_o = ScriptModule.objects.create(
+                    data_file=script_file_o, auto_sync_enabled=True
+                )
                 script_o.clean()
                 script_o.save()
 
@@ -84,7 +86,9 @@ class NetdocConfig(PluginConfig):
                 report_o.auto_sync_enabled = True
                 report_o.save()
             except ReportModule.DoesNotExist:  # pylint: disable=no-member
-                report_o = ReportModule.objects.create(data_file=report_file_o, auto_sync_enabled=True)
+                report_o = ReportModule.objects.create(
+                    data_file=report_file_o, auto_sync_enabled=True
+                )
                 report_o.clean()
                 report_o.save()
 
