@@ -11,11 +11,7 @@ import taggit.managers
 class Migration(migrations.Migration):
     initial = True
 
-    dependencies = [
-        ("extras", "0073_journalentry_tags_custom_fields"),
-        ("dcim", "0153_created_datetimefield"),
-        ("ipam", "0057_created_datetimefield"),
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
