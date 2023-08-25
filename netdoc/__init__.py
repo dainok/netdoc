@@ -37,11 +37,14 @@ class NetdocConfig(PluginConfig):
     }
 
     def ready(self):
+        print("HERE", sys.argv)
         """Load signals and create reports/scripts."""
-        if "migrate" not in sys.argv:
-            from netdoc import (  # noqa: F401 pylint: disable=import-outside-toplevel,unused-import
-                signals,
-            )
+        from netdoc import (  # noqa: F401 pylint: disable=import-outside-toplevel,unused-import
+            signals,
+        )
+        
+        if "runserver" in sys.argv:
+            # Create reports/scripts only when starting the server
             from core.models import (  # noqa: F401 pylint: disable=import-outside-toplevel
                 DataSource,
                 DataFile,
@@ -57,40 +60,33 @@ class NetdocConfig(PluginConfig):
             jobs_path = os.path.join(module_path, "jobs")
             try:
                 jobs_ds_o = DataSource.objects.get(name="netdoc_jobs")
-                jobs_ds_o.url = jobs_path
-                jobs_ds_o.save()
             except DataSource.DoesNotExist:  # pylint: disable=no-member
                 jobs_ds_o = DataSource.objects.create(
                     name="netdoc_jobs", type="local", source_url=jobs_path
                 )
+                jobs_ds_o.clean()
+                jobs_ds_o.save()
+                jobs_ds_o.sync()
 
             # Create/update NetDoc scripts on every restart
             script_filename = "netdoc_scripts.py"
             script_file_o = DataFile.objects.get(path=script_filename)
             try:
-                script_o = ScriptModule.objects.get(data_file=script_file_o)
-                script_o.auto_sync_enabled = True
-                script_o.save()
+                ScriptModule.objects.get(data_path=script_filename)
             except ScriptModule.DoesNotExist:  # pylint: disable=no-member
-                script_o = ScriptModule.objects.create(
-                    data_file=script_file_o, auto_sync_enabled=True
+                ScriptModule.objects.create(
+                    data_file=script_file_o, auto_sync_enabled=True, data_path=script_filename
                 )
-                script_o.clean()
-                script_o.save()
 
             # Create/update NetDoc reports on every restart
             report_filename = "netdoc_reports.py"
             report_file_o = DataFile.objects.get(path=report_filename)
             try:
-                report_o = ReportModule.objects.get(data_file=report_file_o)
-                report_o.auto_sync_enabled = True
-                report_o.save()
+                ReportModule.objects.get(data_path=report_filename)
             except ReportModule.DoesNotExist:  # pylint: disable=no-member
-                report_o = ReportModule.objects.create(
-                    data_file=report_file_o, auto_sync_enabled=True
+                ReportModule.objects.create(
+                    data_file=report_file_o, auto_sync_enabled=True, data_path=report_filename
                 )
-                report_o.clean()
-                report_o.save()
 
         super().ready()
 
