@@ -13,8 +13,8 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ("extras", "0092_delete_jobresult"),
-        ("dcim", "0172_larger_power_draw_values..."),
-        ("ipam", "0063_standardize_description_comments"),
+        ("dcim", "0153_created_datetimefield"),
+        ("ipam", "0057_created_datetimefield"),
     ]
 
     operations = [
