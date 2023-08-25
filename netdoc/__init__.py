@@ -37,7 +37,6 @@ class NetdocConfig(PluginConfig):
     }
 
     def ready(self):
-        print("HERE", sys.argv)
         """Load signals and create reports/scripts."""
         from netdoc import (  # noqa: F401 pylint: disable=import-outside-toplevel,unused-import
             signals,
