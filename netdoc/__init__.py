@@ -41,7 +41,7 @@ class NetdocConfig(PluginConfig):
         from netdoc import (  # noqa: F401 pylint: disable=import-outside-toplevel,unused-import
             signals,
         )
-        
+
         if "runserver" in sys.argv:
             # Create reports/scripts only when starting the server
             from core.models import (  # noqa: F401 pylint: disable=import-outside-toplevel
@@ -74,7 +74,9 @@ class NetdocConfig(PluginConfig):
                 ScriptModule.objects.get(data_path=script_filename)
             except ScriptModule.DoesNotExist:  # pylint: disable=no-member
                 ScriptModule.objects.create(
-                    data_file=script_file_o, auto_sync_enabled=True, data_path=script_filename
+                    data_file=script_file_o,
+                    auto_sync_enabled=True,
+                    data_path=script_filename,
                 )
 
             # Create/update NetDoc reports on every restart
@@ -84,7 +86,9 @@ class NetdocConfig(PluginConfig):
                 ReportModule.objects.get(data_path=report_filename)
             except ReportModule.DoesNotExist:  # pylint: disable=no-member
                 ReportModule.objects.create(
-                    data_file=report_file_o, auto_sync_enabled=True, data_path=report_filename
+                    data_file=report_file_o,
+                    auto_sync_enabled=True,
+                    data_path=report_filename,
                 )
 
         super().ready()
