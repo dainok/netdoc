@@ -204,9 +204,7 @@ class Discover(Script):
     # Discoverable
     discoverables = MultiObjectVar(
         model=Discoverable_m,
-        query_params={
-            "discoverable": True
-        },  # TODO: not working, discoverable=False are also showed (cosmetic).
+        query_params={"discoverable": True},  # An API filterset must exists
         description="Devices to be discovered (leave empty to discover everything).",
         required=False,
     )

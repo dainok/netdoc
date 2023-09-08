@@ -12,7 +12,7 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ("extras", "0073_journalentry_tags_custom_fields"),
+        ("extras", "0092_delete_jobresult"),
         ("dcim", "0153_created_datetimefield"),
         ("ipam", "0057_created_datetimefield"),
     ]

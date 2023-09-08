@@ -22,12 +22,12 @@ from netmiko.utilities import get_structured_data
 from textfsm.parser import TextFSMError
 
 from django.conf import settings
-from django.contrib.contenttypes.models import ContentType
 from django.contrib.auth.models import User
 from django.db.models import Q
 
-from extras.scripts import get_scripts, run_script
-from extras.models import JobResult, Script
+from core.models import Job
+from extras.models import ScriptModule
+from extras.scripts import run_script
 from utilities.utils import NetBoxFakeRequest
 from dcim.models import Interface
 from virtualization.models import VMInterface
@@ -1135,7 +1135,7 @@ def parse_netmiko_output(output, command, platform, template=None):
 
 
 def spawn_script(script_name, get_data=None, post_data=None, file_list=None, user=None):
-    """Spawn a Netbox Script defined into scripts folder."""
+    """Spawn a Netbox Script defined into scripts folder and return the job_id."""
     if not get_data:
         get_data = {}
     if not post_data:
@@ -1145,7 +1145,6 @@ def spawn_script(script_name, get_data=None, post_data=None, file_list=None, use
     if not user:
         user = User.objects.filter(is_superuser=True).order_by("pk")[0]
 
-    script = get_scripts().get("NetDoc").get(script_name)
     request = NetBoxFakeRequest(
         {
             "META": {},
@@ -1157,10 +1156,13 @@ def spawn_script(script_name, get_data=None, post_data=None, file_list=None, use
         }
     )
 
-    JobResult.enqueue_job(
+    # Inspired by ScriptView defined in extras/views.py
+    module = ScriptModule.objects.get(data_path="netdoc_scripts.py")
+    script = module.scripts[script_name]()
+    job = Job.enqueue(
         run_script,
-        name=script.full_name,
-        obj_type=ContentType.objects.get_for_model(Script),
+        instance=module,
+        name=script.class_name,
         user=request.user,  # pylint: disable=no-member
         schedule_at=None,
         interval=None,
@@ -1168,3 +1170,5 @@ def spawn_script(script_name, get_data=None, post_data=None, file_list=None, use
         data=request.POST,  # pylint: disable=no-member
         request=request,
     )
+
+    return job.id
