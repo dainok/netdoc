@@ -1,5 +1,5 @@
 # Manually run with:
-#   - source /opt/netbox/venv/bin/activate
+#   - source venv/bin/activate
 #   - pre-commit install
 #   - pre-commit run --all-files
 # See https://pre-commit.com/hooks.html for more hooks
@@ -8,42 +8,44 @@ repos:
     rev: v4.4.0
     hooks:
       - id: trailing-whitespace
-        exclude: \.raw|migrations|docker
+        exclude: \.raw|migrations|docker|venv
       - id: end-of-file-fixer
-        exclude: \.raw|migrations|docker
+        exclude: \.raw|migrations|docker|venv
       - id: check-yaml
+        exclude: \.raw|migrations|docker|venv
       - id: check-added-large-files
+        exclude: \.raw|migrations|docker|venv
   - repo: https://github.com/adrienverge/yamllint.git
     rev: v1.32.0
     hooks:
       - id: yamllint
         args: [--format, parsable, --strict]
-        exclude: \.raw|migrations|docker
+        exclude: \.raw|migrations|docker|venv
   - repo: https://github.com/google/yamlfmt
     rev: v0.9.0
     hooks:
       - id: yamlfmt
-        exclude: \.raw|migrations|docker
+        exclude: \.raw|migrations|docker|venv
   - repo: https://github.com/psf/black
     rev: 23.3.0
     hooks:
       - id: black
-        exclude: \.raw|migrations|docker
+        exclude: \.raw|migrations|docker|venv
   - repo: https://github.com/PyCQA/bandit
     rev: 1.7.5
     hooks:
       - id: bandit
-        exclude: \.raw|migrations|docker
+        exclude: \.raw|migrations|docker|venv
   - repo: https://github.com/PyCQA/flake8
     rev: 6.0.0
     hooks:
       - id: flake8
-        exclude: \.raw|migrations|docker
+        exclude: \.raw|migrations|docker|venv
   - repo: https://github.com/PyCQA/pydocstyle
     rev: 6.3.0
     hooks:
       - id: pydocstyle
-        exclude: \.raw|migrations|docker
+        exclude: \.raw|migrations|docker|venv
   - repo: https://github.com/Riverside-Healthcare/djLint
     rev: v1.19.17
     hooks:
