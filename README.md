@@ -4,6 +4,11 @@ NetDoc is an automatic network documentation plugin for [NetBox](https://github.
 
 NetDoc would be the industrialized, open-source tool available to the public to discover multi-vendor networks.
 
+Compatibility:
+
+* NetDoc 3.5.x requires NetBox 3.5.x
+* NetDoc 0.10.x requires NetBox 3.4.x
+
 ## Table of contents
 
 1. [Introduction](https://github.com/dainok/netdoc/wiki "Introduction")
