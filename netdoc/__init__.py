@@ -71,25 +71,35 @@ class NetdocConfig(PluginConfig):
             script_filename = "netdoc_scripts.py"
             script_file_o = DataFile.objects.get(path=script_filename)
             try:
-                ScriptModule.objects.get(data_path=script_filename)
+                ScriptModule.objects.get(file_root="scripts", file_path="netdoc_scripts.py")
             except ScriptModule.DoesNotExist:  # pylint: disable=no-member
-                ScriptModule.objects.create(
-                    data_file=script_file_o,
+                script_o = ScriptModule.objects.create(
                     auto_sync_enabled=True,
+                    data_file=script_file_o,
                     data_path=script_filename,
+                    data_source=jobs_ds_o,
+                    file_path=script_filename,
+                    file_root="scripts",
                 )
-
+                script_o.sync()
+                script_o.save()
+            
             # Create/update NetDoc reports on every restart
             report_filename = "netdoc_reports.py"
             report_file_o = DataFile.objects.get(path=report_filename)
             try:
                 ReportModule.objects.get(data_path=report_filename)
             except ReportModule.DoesNotExist:  # pylint: disable=no-member
-                ReportModule.objects.create(
-                    data_file=report_file_o,
+                report_o = ReportModule.objects.create(
                     auto_sync_enabled=True,
+                    data_file=report_file_o,
                     data_path=report_filename,
+                    data_source=jobs_ds_o,
+                    file_path=report_filename,
+                    file_root="reports",
                 )
+                report_o.sync()
+                report_o.save()
 
         super().ready()
 
