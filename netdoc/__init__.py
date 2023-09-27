@@ -42,8 +42,8 @@ class NetdocConfig(PluginConfig):
             signals,
         )
 
-        if "runserver" in sys.argv:
-            # Create reports/scripts only when starting the server
+        if "runserver" in sys.argv or "netbox.wsgi" in sys.argv:
+            # Create reports/scripts only when starting the server via runserver or via gunicorn
             from core.models import (  # noqa: F401 pylint: disable=import-outside-toplevel
                 DataSource,
                 DataFile,
@@ -69,7 +69,12 @@ class NetdocConfig(PluginConfig):
 
             # Create/update NetDoc scripts on every restart
             script_filename = "netdoc_scripts.py"
-            script_file_o = DataFile.objects.get(path=script_filename)
+            try:
+                script_file_o = DataFile.objects.get(path=script_filename)
+            except DataFile.DoesNotExist:
+                # File not loaded, need to sync
+                jobs_ds_o.sync()
+                script_file_o = DataFile.objects.get(path=script_filename)
             try:
                 ScriptModule.objects.get(
                     file_root="scripts", file_path="netdoc_scripts.py"
