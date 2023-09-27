@@ -71,7 +71,7 @@ class NetdocConfig(PluginConfig):
             script_filename = "netdoc_scripts.py"
             try:
                 script_file_o = DataFile.objects.get(path=script_filename)
-            except DataFile.DoesNotExist:
+            except DataFile.DoesNotExist:  # pylint: disable=no-member
                 # File not loaded, need to sync
                 jobs_ds_o.sync()
                 script_file_o = DataFile.objects.get(path=script_filename)
