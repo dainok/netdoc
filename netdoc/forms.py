@@ -123,7 +123,7 @@ class DiagramForm(NetBoxModelForm):
         model = Credential
         fields = [
             "name",
-            # "mode",
+            "mode",
             "device_roles",
             "sites",
             "vrfs",
