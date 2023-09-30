@@ -269,7 +269,7 @@ def discovery(nrni, filters=None, filter_type=None):  # pylint: disable=unused-a
             discoverylog.create(
                 command=details.get("command"),
                 discoverable_id=discoverable_o.id,
-                raw_output=json.dumps(result.result),
+                raw_output=json.dumps(result.result, default=lambda o: o.__dict__),
                 template=details.get("template"),
                 order=details.get("order"),
                 details=details,
