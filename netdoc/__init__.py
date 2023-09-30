@@ -63,16 +63,14 @@ class NetdocConfig(PluginConfig):
                 jobs_ds_o = DataSource.objects.create(
                     name="netdoc_jobs", type="local", source_url=jobs_path
                 )
-            jobs_ds_o.sync() # Load files
+            jobs_ds_o.sync()  # Load files
 
             # Create/update NetDoc scripts on every restart
             script_name = "netdoc_scripts"
             script_filename = f"{script_name}.py"
             script_file_o = DataFile.objects.get(path=script_filename)
             try:
-                ScriptModule.objects.get(
-                    file_root="scripts", file_path=script_filename
-                )
+                ScriptModule.objects.get(file_root="scripts", file_path=script_filename)
             except ScriptModule.DoesNotExist:  # pylint: disable=no-member
                 script_o = ScriptModule.objects.create(
                     auto_sync_enabled=True,
