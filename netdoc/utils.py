@@ -1157,7 +1157,7 @@ def spawn_script(script_name, get_data=None, post_data=None, file_list=None, use
     )
 
     # Inspired by ScriptView defined in extras/views.py
-    module = ScriptModule.objects.get(data_path="netdoc_scripts.py")
+    module = ScriptModule.objects.get(file_path="netdoc_scripts.py")
     script = module.scripts[script_name]()
     job = Job.enqueue(
         run_script,
