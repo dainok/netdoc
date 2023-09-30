@@ -21,7 +21,7 @@ class NetdocConfig(PluginConfig):
     name = "netdoc"
     verbose_name = "NetDoc"
     description = "Automatic Network Documentation plugin for NetBox"
-    version = "0.0.1-dev1"
+    version = "3.5.3"
     author = "Andrea Dainese"
     author_email = "andrea@adainese.it"
     base_url = "netdoc"
@@ -63,21 +63,15 @@ class NetdocConfig(PluginConfig):
                 jobs_ds_o = DataSource.objects.create(
                     name="netdoc_jobs", type="local", source_url=jobs_path
                 )
-                jobs_ds_o.clean()
-                jobs_ds_o.save()
-                jobs_ds_o.sync()
+            jobs_ds_o.sync() # Load files
 
             # Create/update NetDoc scripts on every restart
-            script_filename = "netdoc_scripts.py"
-            try:
-                script_file_o = DataFile.objects.get(path=script_filename)
-            except DataFile.DoesNotExist:  # pylint: disable=no-member
-                # File not loaded, need to sync
-                jobs_ds_o.sync()
-                script_file_o = DataFile.objects.get(path=script_filename)
+            script_name = "netdoc_scripts"
+            script_filename = f"{script_name}.py"
+            script_file_o = DataFile.objects.get(path=script_filename)
             try:
                 ScriptModule.objects.get(
-                    file_root="scripts", file_path="netdoc_scripts.py"
+                    file_root="scripts", file_path=script_filename
                 )
             except ScriptModule.DoesNotExist:  # pylint: disable=no-member
                 script_o = ScriptModule.objects.create(
@@ -92,10 +86,11 @@ class NetdocConfig(PluginConfig):
                 script_o.save()
 
             # Create/update NetDoc reports on every restart
-            report_filename = "netdoc_reports.py"
+            report_name = "netdoc_reports"
+            report_filename = f"{report_name}.py"
             report_file_o = DataFile.objects.get(path=report_filename)
             try:
-                ReportModule.objects.get(data_path=report_filename)
+                ReportModule.objects.get(file_path=report_filename)
             except ReportModule.DoesNotExist:  # pylint: disable=no-member
                 report_o = ReportModule.objects.create(
                     auto_sync_enabled=True,
