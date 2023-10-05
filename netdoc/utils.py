@@ -747,6 +747,7 @@ def normalize_interface_speed(speed):
         # Speed is set to auto
         return None
     speed = speed.replace(" ", "")
+    speed = speed.replace(".", "")
     speed = speed.replace("fdx", "")  # HP Procurve
     speed = speed.replace("hdx", "")  # HP Procurve
     speed = speed.replace("kbit", "")
