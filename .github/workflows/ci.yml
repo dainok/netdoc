@@ -9,7 +9,7 @@ on:  # yamllint disable-line rule:truthy
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
-  lint:
+  precommit:
     runs-on: ubuntu-latest
     steps:
       - name: "Setup Python3"
@@ -18,10 +18,33 @@ jobs:
         uses: actions/checkout@v3
       - name: "Install and run pre-commit"
         uses: pre-commit/action@v3.0.0
+  pylint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Setup Python3"
+        uses: actions/setup-python@v3
+      - name: "Check out Netbox repository code"
+        uses: actions/checkout@v3
+        with:
+          repository: "netbox-community/netbox"
+          ref: "${{ vars.NETBOX_VERSION }}"
+          path: "netbox"
+          fetch-depth: "0"
+      - name: "Check out NTC-Templates repository code"
+        uses: actions/checkout@v3
+        with:
+          repository: "networktocode/ntc-templates"
+          path: "ntc-templates"
+          fetch-depth: "0"
+      - name: "Install PyLint"
+        run: "pip install pylint"
+      - name: "Run Pylint"
+        run: "cd netdoc && pylint --rcfile=.pylintrc netdoc"
   test:
     runs-on: ubuntu-latest
     needs:
-      - lint
+      - precommit
+      - pylint
     steps:
       - name: "Updating APT cache"
         run: "sudo apt-get update"
@@ -77,9 +100,5 @@ jobs:
         run: "netbox/upgrade.sh"
       - name: "Migrating NetDoc database"
         run: "netbox/venv/bin/python3 netbox/netbox/manage.py migrate netdoc"
-      # - name: "Install PyLint"
-      #   run: "netbox/venv/bin/pip install pylint"
-      # - name: "Run Pylint"
-      #   run: "cd netdoc && ../netbox/venv/bin/pylint --rcfile=.pylintrc netdoc && cd .."
       - name: "Testing scenarios"
         run: "netbox/venv/bin/python3 netbox/netbox/manage.py test netdoc --keepdb"
