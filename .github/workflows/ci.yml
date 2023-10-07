@@ -37,6 +37,8 @@ jobs:
           fetch-depth: "0"
       - name: "Install requirements"
         run: "pip install -r netbox/requirements.txt"
+      - name: "Install NetDoc dependencies"
+        run: "pip install netdoc && pip uninstall netdoc"
       - name: "Install PyLint"
         run: "pip install pylint==2.17.7"
       - name: "Run Pylint"
