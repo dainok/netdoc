@@ -622,6 +622,12 @@ def normalize_interface_duplex(duplex):
     if "unknown" in duplex:
         # Unknown
         return None
+    if "ukn" in duplex:
+        # Unknown
+        return None
+    if "[n/a]" in duplex:
+        # Unknown
+        return None
     raise ValueError(f"Invalid duplex mode {duplex}")
 
 
@@ -745,6 +751,15 @@ def normalize_interface_speed(speed):
     speed = speed.lower().strip()
     if "auto" in speed:
         # Speed is set to auto
+        return None
+    if "ukn" in speed:
+        # Speed is unknown
+        return None
+    if "[n/a]" in speed:
+        # Speed is unknown
+        return None
+    if "none" in speed:
+        # Speed is unknown
         return None
     speed = speed.replace(" ", "")
     speed = speed.replace(".", "")
