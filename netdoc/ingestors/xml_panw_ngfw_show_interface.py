@@ -35,15 +35,20 @@ def ingest(log):
         physical = item.get("fwd") is None
         interface_name = item.get("name")
         label = utils.normalize_interface_label(interface_name)
-        duplex = item.get("st").split("/")[1] if item.get("st") else None
-        speed = f'{item.get("st").split("/")[0]}000' if item.get("st") else None
+
+        # duplex = utils.normalize_interface_duplex(item.get("st").split("/")[1])
+        # speed = item.get("st").split("/")[0]
+        # enabled = utils.normalize_interface_status(item.get("state"))
+        duplex = utils.normalize_interface_duplex(item.get("duplex"))
+        speed = utils.normalize_interface_speed(f'{item.get("speed")}000')
+        enabled = utils.normalize_interface_status(item.get("state"))
+
         mac_address = (
             utils.normalize_mac_address(item.get("mac"))
             if not utils.incomplete_mac(item.get("mac"))
             else None
         )
         int_type = utils.normalize_interface_type(item.get("name"))
-        enabled = utils.normalize_interface_status(item.get("state"))
         vrf_name = utils.normalize_vrf_name(item.get("fwd"))
         if vrf_name:
             try:
@@ -105,6 +110,7 @@ def ingest(log):
             virtualmachine.update_management(vm_o, log.discoverable.address)
         if device_o:
             # Create a physical interface
+            parent_name = utils.parent_interface(interface_name, return_label=False)
             if parent_name:
                 # Parent Interface is set
                 parent_name = utils.parent_interface(interface_name)
