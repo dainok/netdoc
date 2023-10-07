@@ -30,11 +30,10 @@ jobs:
           ref: "${{ vars.NETBOX_VERSION }}"
           path: "netbox"
           fetch-depth: "0"
-      - name: "Check out NTC-Templates repository code"
+      - name: "Check out NetDoc repository code"
         uses: actions/checkout@v3
         with:
-          repository: "networktocode/ntc-templates"
-          path: "ntc-templates"
+          path: "netdoc"
           fetch-depth: "0"
       - name: "Install PyLint"
         run: "pip install pylint"
