@@ -36,7 +36,7 @@ jobs:
           path: "netdoc"
           fetch-depth: "0"
       - name: "Install PyLint"
-        run: "pip install pylint"
+        run: "pip install pylint==2.17.7"
       - name: "Run Pylint"
         run: "cd netdoc && pylint --rcfile=.pylintrc netdoc"
   test:
