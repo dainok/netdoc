@@ -35,6 +35,8 @@ jobs:
         with:
           path: "netdoc"
           fetch-depth: "0"
+      - name: "Install requirements"
+        run: "pip install -r netbox/requirements.txt"
       - name: "Install PyLint"
         run: "pip install pylint==2.17.7"
       - name: "Run Pylint"
