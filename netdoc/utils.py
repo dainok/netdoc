@@ -922,10 +922,10 @@ def normalize_route_type(route_type):
     if route_type in ["ex"]:
         # EIGRP External
         return "ex"
-    if route_type in ["o", "ospf"]:
-        # OSPF (Inter Area)
+    if route_type in ["o", "ospf", "a oi"]:
+        # OSPF (Intra Area)
         return "o"
-    if route_type in ["o", "ospf", "o_intra", "o ia"]:
+    if route_type in ["o", "ospf", "o_intra", "o ia", "a oo"]:
         # OSPF Inter Area
         return "oia"
     if route_type in ["n1", "o n1"]:
@@ -934,10 +934,10 @@ def normalize_route_type(route_type):
     if route_type in ["n2", "o n2"]:
         # OSPF NSSA Type 2
         return "on2"
-    if route_type in ["e1", "o e1", "o_ase1"]:
+    if route_type in ["e1", "o e1", "o_ase1", "a o1"]:
         # OSPF External Type 1
         return "oe1"
-    if route_type in ["o*e2", "e2", "o e2", "o_ase2", "o_ase"]:
+    if route_type in ["o*e2", "e2", "o e2", "o_ase2", "o_ase", "a o2"]:
         # OSPF External Type 2
         return "oe2"
     if route_type in ["i"]:
