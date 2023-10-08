@@ -925,7 +925,7 @@ def normalize_route_type(route_type):
     if route_type in ["o", "ospf"]:
         # OSPF (Inter Area)
         return "o"
-    if route_type in ["o", "ospf", "o_intra", "o ia"]:
+    if route_type in ["o", "ospf", "o_intra", "o ia", "a oi"]:
         # OSPF Inter Area
         return "oia"
     if route_type in ["n1", "o n1"]:
