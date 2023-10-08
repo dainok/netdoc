@@ -27,7 +27,7 @@ def ingest(log):
         if not flags.startswith("A"):
             # Only keep active routes
             continue
-        nexthop_if_name = item.get("interface")
+        nexthop_if_name = item.get("interface") if item.get("interface") else None
         vrf_name = utils.normalize_vrf_name(item.get("virtual-router"))
         metric = int(item.get("metric")) if item.get("metric") else None
         destination = item.get("destination")
@@ -75,9 +75,9 @@ def ingest(log):
 
         if device_o:
             # Get or create interface
-            nexthop_if_label = utils.normalize_interface_label(nexthop_if_name)
             nexthop_if_id = None
             if nexthop_if_name:
+                nexthop_if_label = utils.normalize_interface_label(nexthop_if_name)
                 nexthop_if_o = interface.get(
                     device_id=device_o.id, label=nexthop_if_label
                 )
