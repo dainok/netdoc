@@ -794,6 +794,9 @@ def normalize_interface_status(status):
     if "unknown" in status:
         # Assume unknown is used for virtual interfaces (e.g. tunnels)
         return True
+    if "ukn" in status:
+        # Paloalto
+        return False
     if "down" in status:
         return False
     if "false" in status:
