@@ -1,5 +1,5 @@
 # Set on GitHub -> Settings -> Secrets and variables -> Actions -> Variables:
-#   - NETBOX_VERSION: "v3.4.4"
+#   - NETBOX_VERSION: "v3.5.8"
 name: "CI"
 concurrency:
   # Cancel any existing runs of this workflow for this same PR
@@ -78,7 +78,6 @@ jobs:
           repository: "netbox-community/netbox"
           ref: "${{ vars.NETBOX_VERSION }}"
           path: "netbox"
-          fetch-depth: "0"
       - name: "Check out NTC-Templates repository code"
         uses: actions/checkout@v3
         with:
