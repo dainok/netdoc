@@ -795,7 +795,7 @@ def normalize_interface_status(status):
         # Assume unknown is used for virtual interfaces (e.g. tunnels)
         return True
     if "ukn" in status:
-        # Paloalto
+        # Paloalto unused HA interfaces
         return False
     if "down" in status:
         return False
