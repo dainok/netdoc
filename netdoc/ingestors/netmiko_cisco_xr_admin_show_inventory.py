@@ -19,7 +19,7 @@ def ingest(log):
 
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/cisco_xr/admin_show_inventory # pylint: disable=line-too-long
-        part_description = item.get("name")
+        part_description = item.get("descr")
 
         if "chassis" in part_description.lower():
             # Chassis model and Serial Number
