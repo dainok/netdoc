@@ -24,105 +24,23 @@ from django.conf import settings
 
 from ipam.fields import IPAddressField
 from dcim.fields import MACAddressField
-from utilities.choices import ChoiceSet
 from netbox.models import NetBoxModel
 
 from netdoc.utils import (
     parse_netmiko_output,
-    CONFIG_COMMANDS,
-    FAILURE_OUTPUT,
     is_command_supported,
+)
+from netdoc.dictionaries import (
+    CONFIG_COMMANDS,
+    CREDENTIAL_ENCRYPTED_FIELDS,
+    FAILURE_OUTPUT,
+    DiagramModeChoices,
+    DiscoveryModeChoices,
+    RouteTypeChoices,
 )
 
 SECRET_KEY = settings.SECRET_KEY.encode("utf-8")
 FERNET_KEY = base64.urlsafe_b64encode(SECRET_KEY.ljust(32)[:32])
-CREDENTIAL_ENCRYPTED_FIELDS = [
-    "password",
-    "enable_password",
-]
-
-
-class DeviceImageChoices(ChoiceSet):
-    """Image used in diagrams associated to device roles."""
-
-    CHOICES = [
-        ("access-switch", "Access Switch"),
-        ("core-switch", "Core Switch"),
-        ("distribution-switch", "Distribution Switch"),
-        ("firewall", "Firewall"),
-        ("laptop", "Laptop"),
-        ("load-balancer", "Load Balancer"),
-        ("mobile", "Mobile device"),
-        ("router", "Router"),
-        ("server", "Server"),
-        ("storage", "Storage"),
-        ("unknown", "Unknown"),
-        ("virtual-switch", "Virtual Switch"),
-        ("wireless-ap", "Wireless AP"),
-        ("wireless-controller", "Wireless Controller"),
-        ("workstation", "Workstation"),
-    ]
-
-
-class DiagramModeChoices(ChoiceSet):
-    """Diagram mode."""
-
-    CHOICES = [
-        ("l2", "L2"),
-        ("l3", "L3"),
-        ("site", "Site connections"),
-        # ("stp", "STP"),
-    ]
-
-
-class DiscoveryModeChoices(ChoiceSet):
-    """Discovey mode."""
-
-    CHOICES = [
-        ("netmiko_cisco_ios", "Netmiko Cisco IOS XE"),
-        ("netmiko_cisco_ios_telnet", "Netmiko Cisco IOS XE (Telnet)"),
-        ("netmiko_cisco_nxos", "Netmiko Cisco NX-OS"),
-        ("netmiko_cisco_xr", "Netmiko Cisco XR"),
-        ("netmiko_hp_comware", "Netmiko HPE Comware"),
-        ("netmiko_hp_procurve", "Netmiko HPE Procurve"),
-        ("netmiko_linux", "Netmiko Linux"),
-        ("json_vmware_vsphere", "VMware vSphere"),
-        ("xml_panw_ngfw", "Palo Alto Networks NGFW"),
-    ]
-
-
-class FilterModeChoices(ChoiceSet):
-    """Filter types used in NetDoc scripts."""
-
-    CHOICES = [
-        ("include", "Include only"),
-        ("exclude", "Exclude"),
-    ]
-
-
-class RouteTypeChoices(ChoiceSet):
-    """Route type."""
-
-    CHOICES = [
-        ("u", "Unknown"),
-        ("b", "BGP"),
-        ("c", "Connected"),
-        ("s", "Static"),
-        ("u", "User-space"),
-        ("r", "RIP"),
-        ("e", "EIGRP"),
-        ("ex", "EIGRP external"),
-        ("o", "OSPF intra area"),
-        ("oia", "OSPF inter area"),
-        ("on1", "OSPF NSSA external type 1"),
-        ("on2", "OSPF NSSA external type 2"),
-        ("oe1", "OSPF external type 1"),
-        ("oe2", "OSPF external type 2"),
-        ("i", "IS-IS"),
-        ("is", "IS-IS summary"),
-        ("i1", "IS-IS level-1"),
-        ("i2", "IS-IS level-2"),
-    ]
 
 
 #

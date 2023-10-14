@@ -11,8 +11,7 @@ from jinja2 import Template, select_autoescape
 
 from django.conf import settings
 
-from netdoc.models import DeviceImageChoices
-from netdoc.utils import DRAWIO_ROLE_MAP
+from netdoc.dictionaries import DeviceImageChoices, DRAWIO_ROLE_MAP
 
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 ROLE_MAP = PLUGIN_SETTINGS.get("ROLE_MAP")
