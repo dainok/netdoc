@@ -23,14 +23,15 @@ def discovery(nrni, filters=None, filter_type=None):
         ("show system", None),
         ("show running-config", None),
         ("show interface", None),
-        ("show lldp neighbors-info detail", None),
+        ("show lldp neighbor-info detail", None),
         ("show mac-address-table", None),
         ("show arp all-vrfs", None),
         ("show ip interface brief", None),
         ("show ip route all-vrfs", None),
         # Unsupported
+        ("show vrf", None),
         ("show vlan", None),
-        ("show cdp neighbors-info", None),
+        ("show cdp neighbor-info", None),
         ("show lag", None),
         ("show version", None),
         ("show logging", None),
@@ -51,9 +52,6 @@ def discovery(nrni, filters=None, filter_type=None):
 
     # Save outputs and define additional commands
     for key, multi_result in aggregated_results.items():
-        vrfs = ["default"]  # Adding default VRF
-        current_nr = nrni.filter(F(name=key))
-
         # MultiResult is an array of Result
         for result in multi_result:
             if result.name == "multiple_tasks":
