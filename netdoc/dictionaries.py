@@ -253,6 +253,15 @@ class DiscoveryModeChoices(ChoiceSet):
     ]
 
 
+class FilterModeChoices(ChoiceSet):
+    """Filter types used in NetDoc scripts."""
+
+    CHOICES = [
+        ("include", "Include only"),
+        ("exclude", "Exclude"),
+    ]
+
+
 class RouteTypeChoices(ChoiceSet):
     """Route type."""
 
