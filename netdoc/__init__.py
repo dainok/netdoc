@@ -38,11 +38,13 @@ class NetdocConfig(PluginConfig):
 
     def ready(self):
         """Load signals and create reports/scripts."""
+        import sys   # noqa: F401 pylint: disable=import-outside-toplevel,unused-import
         from netdoc import (  # noqa: F401 pylint: disable=import-outside-toplevel,unused-import
             signals,
         )
+        WSGI = 'django.core.wsgi' in sys.modules
 
-        if "runserver" in sys.argv or "netbox.wsgi" in sys.argv:
+        if WSGI or "runserver" in sys.argv:
             # Create reports/scripts only when starting the server via runserver or via gunicorn
             from core.models import (  # noqa: F401 pylint: disable=import-outside-toplevel
                 DataSource,
@@ -70,7 +72,7 @@ class NetdocConfig(PluginConfig):
             script_filename = f"{script_name}.py"
             script_file_o = DataFile.objects.get(path=script_filename)
             try:
-                ScriptModule.objects.get(file_root="scripts", file_path=script_filename)
+                ScriptModule.objects.get(file_path=script_filename)
             except ScriptModule.DoesNotExist:  # pylint: disable=no-member
                 script_o = ScriptModule.objects.create(
                     auto_sync_enabled=True,
