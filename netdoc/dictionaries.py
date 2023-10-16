@@ -241,7 +241,7 @@ class DiscoveryModeChoices(ChoiceSet):
     MODES = {
         "netmiko_aruba_oscx": {
             "name": "Netmiko Aruba OSCX",
-            "platform": "aruba", # Netmiko type, used by Nornir
+            "platform": "aruba_osswitch", # Netmiko type, used by Nornir
             "protocol": "ssh",
             "framework": "netmiko",
             "discovery_script": "netmiko_aruba_oscx", # Discovery script called by tasks.py
@@ -262,7 +262,7 @@ class DiscoveryModeChoices(ChoiceSet):
         },
         "netmiko_cisco_nxos": {
             "name": "Netmiko Cisco NX-OS",
-            "platform": "aruba", # Netmiko type, used by Nornir
+            "platform": "cisco_nxos", # Netmiko type, used by Nornir
             "protocol": "ssh",
             "framework": "netmiko",
             "discovery_script": "netmiko_cisco_nxos", # Discovery script called by tasks.py
