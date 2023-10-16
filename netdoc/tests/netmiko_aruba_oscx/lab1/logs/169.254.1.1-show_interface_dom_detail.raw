@@ -1,0 +1,79 @@
+---------------------------------------------------------------------------------------
+Port           Type             Lane  Temp      Voltage   Tx Bias   Rx Power  Tx Power
+                                      (C)       (V)       (mA)      (dBm)     (dBm)
+---------------------------------------------------------------------------------------
+1/1/51         10G-SR*                35.27     3.34      6.93      -2.09     -1.77
+1/1/52         10G-SR*                36.24     3.34      6.95      n/a       n/a
+
+* unsupported transceiver
+
+G-VT5-1# show interface dom detail
+Transceiver in 1/1/51
+ Type: 10G-SR / 8500-176a (unsupported)
+ Temperature: 35.2656C
+ Temperature high alarm: false
+ Temperature low alarm: false
+ Temperature high warning: false
+ Temperature low warning: false
+ Temperature high alarm threshold: 75.0000C
+ Temperature low alarm threshold: -5.0000C
+ Temperature high warning threshold: 70.0000C
+ Temperature low warning threshold: 0.0000C
+ Voltage: 3.3425V
+ Voltage high alarm: false
+ Voltage low alarm: false
+ Voltage high warning: false
+ Voltage low warning: false
+ Voltage high alarm threshold: 3.6300V
+ Voltage low alarm threshold: 2.9700V
+ Voltage high warning threshold: 3.4650V
+ Voltage low warning threshold: 3.1350V
+ Last refresh time: 27 seconds ago (Sat Oct 14 17:12:02 CEST 2023)
+ Refresh interval: 28 seconds
+
+ Channel 1:
+ Tx Bias: 6.9340mA
+ Tx Bias high alarm: false
+ Tx Bias low alarm: false
+ Tx Bias high warning: false
+ Tx Bias low warning: false
+ Rx Power: 0.6178mW / -2.09 dBm
+ Rx Power high alarm: false
+ Rx Power low alarm: false
+ Rx Power high warning: false
+ Rx Power low warning: false
+ Tx Power: 0.6649mW / -1.77 dBm
+ Tx Power high alarm: false
+ Tx Power low alarm: false
+ Tx Power high warning: false
+ Tx Power low warning: false
+
+Transceiver in 1/1/52
+ Type: 10G-SR / 8500-176a (unsupported)
+ Temperature: 36.2383C
+ Temperature high alarm: false
+ Temperature low alarm: false
+ Temperature high warning: false
+ Temperature low warning: false
+ Temperature high alarm threshold: 75.0000C
+ Temperature low alarm threshold: -5.0000C
+ Temperature high warning threshold: 70.0000C
+ Temperature low warning threshold: 0.0000C
+ Voltage: 3.3425V
+ Voltage high alarm: false
+ Voltage low alarm: false
+ Voltage high warning: false
+ Voltage low warning: false
+ Voltage high alarm threshold: 3.6300V
+ Voltage low alarm threshold: 2.9700V
+ Voltage high warning threshold: 3.4650V
+ Voltage low warning threshold: 3.1350V
+ Last refresh time: 26 seconds ago (Sat Oct 14 17:12:04 CEST 2023)
+ Refresh interval: 28 seconds
+
+ Channel 1:
+ Tx Bias: 6.9520mA
+ Tx Bias high alarm: false
+ Tx Bias low alarm: false
+ Tx Bias high warning: false
+ Tx Bias low warning: false

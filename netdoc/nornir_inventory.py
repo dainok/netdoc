@@ -18,6 +18,8 @@ from nornir.core.inventory import (
 from django.conf import settings
 
 from netdoc import models
+from netdoc.dictionaries import DiscoveryModeChoices
+
 
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 
@@ -62,7 +64,7 @@ class AssetInventory:
         for discoverable in discoverables:
             credential = discoverable.credential
             # Add hosts discoverable via Netmiko
-            device_type = "_".join(discoverable.mode.split("_")[1:])
+            platform = DiscoveryModeChoices.MODES.get(discoverable.mode).get("platform")
             # Pass parameters between NetDoc and Nornir
             data = {
                 "site_id": discoverable.site.pk,
@@ -71,7 +73,7 @@ class AssetInventory:
             }
 
             host_key = discoverable.address
-            host_groups = [device_type, f'site-{data["site"]}']
+            host_groups = [platform, f'site-{data["site"]}']
 
             # Create additional options
             extras = {}
@@ -85,11 +87,11 @@ class AssetInventory:
                 username=credential.username,
                 password=credential.get_secrets().get("password"),
                 # port=22,
-                platform=device_type,
+                platform=platform,
                 data=data,
                 groups=ParentGroups(),
                 connection_options=connection_options,
-            )  # name is the key used in AggregatedResults, the form is: tenant:id:ip_address
+            )  # IP is the key used in AggregatedResults
 
             # Add groups
             for host_group in host_groups:

@@ -238,19 +238,80 @@ class DiagramModeChoices(ChoiceSet):
 
 class DiscoveryModeChoices(ChoiceSet):
     """Discovey mode."""
+    MODES = {
+        "netmiko_aruba_oscx": {
+            "name": "Netmiko Aruba OSCX",
+            "platform": "aruba", # Netmiko type, used by Nornir
+            "protocol": "ssh",
+            "framework": "netmiko",
+            "discovery_script": "netmiko_aruba_oscx", # Discovery script called by tasks.py
+        },
+        "netmiko_cisco_ios": {
+            "name": "Netmiko Cisco IOS XE",
+            "platform": "cisco_ios", # Netmiko type, used by Nornir
+            "protocol": "ssh",
+            "framework": "netmiko",
+            "discovery_script": "netmiko_cisco_ios", # Discovery script called by tasks.py
+        },
+        "netmiko_cisco_ios_telnet": {
+            "name": "Netmiko Cisco IOS XE (Telnet)",
+            "platform": "cisco_ios_telnet", # Netmiko type, used by Nornir
+            "protocol": "telnet",
+            "framework": "netmiko",
+            "discovery_script": "netmiko_cisco_ios", # Discovery script called by tasks.py
+        },
+        "netmiko_cisco_nxos": {
+            "name": "Netmiko Cisco NX-OS",
+            "platform": "aruba", # Netmiko type, used by Nornir
+            "protocol": "ssh",
+            "framework": "netmiko",
+            "discovery_script": "netmiko_cisco_nxos", # Discovery script called by tasks.py
+        },
+        "netmiko_cisco_xr": {
+            "name": "Netmiko Cisco XR",
+            "platform": "cisco_xr", # Netmiko type, used by Nornir
+            "protocol": "ssh",
+            "framework": "netmiko",
+            "discovery_script": "netmiko_cisco_xr", # Discovery script called by tasks.py
+        },
+        "netmiko_hp_comware": {
+            "name": "Netmiko HPE Comware",
+            "platform": "hp_comware", # Netmiko type, used by Nornir
+            "protocol": "ssh",
+            "framework": "netmiko",
+            "discovery_script": "netmiko_hp_comware", # Discovery script called by tasks.py
+        },
+        "netmiko_hp_procurve": {
+            "name": "Netmiko HPE Procurve",
+            "platform": "hp_procurve", # Netmiko type, used by Nornir
+            "protocol": "ssh",
+            "framework": "netmiko",
+            "discovery_script": "netmiko_hp_procurve", # Discovery script called by tasks.py
+        },
+        "netmiko_linux": {
+            "name": "Netmiko Linux",
+            "platform": "linux", # Netmiko type, used by Nornir
+            "protocol": "ssh",
+            "framework": "netmiko",
+            "discovery_script": "netmiko_linux", # Discovery script called by tasks.py
+        },
+        "json_vmware_vsphere": {
+            "name": "VMware vSphere",
+            "platform": "vmware_vsphere", # 
+            "protocol": "https",
+            "framework": "json",
+            "discovery_script": "json_vmware_vsphere", # Discovery script called by tasks.py
+        },
+        "xml_panw_ngfw": {
+            "name": "Palo Alto Networks NGFW",
+            "platform": "panw_ngfw", # 
+            "protocol": "https",
+            "framework": "xml",
+            "discovery_script": "xml_panw_ngfw", # Discovery script called by tasks.py
+        },
+    }
 
-    CHOICES = [
-        ("netmiko_aruba_oscx", "Netmiko Aruba OSCX"),
-        ("netmiko_cisco_ios", "Netmiko Cisco IOS XE"),
-        ("netmiko_cisco_ios_telnet", "Netmiko Cisco IOS XE (Telnet)"),
-        ("netmiko_cisco_nxos", "Netmiko Cisco NX-OS"),
-        ("netmiko_cisco_xr", "Netmiko Cisco XR"),
-        ("netmiko_hp_comware", "Netmiko HPE Comware"),
-        ("netmiko_hp_procurve", "Netmiko HPE Procurve"),
-        ("netmiko_linux", "Netmiko Linux"),
-        ("json_vmware_vsphere", "VMware vSphere"),
-        ("xml_panw_ngfw", "Palo Alto Networks NGFW"),
-    ]
+    CHOICES = [(key, value.get("name")) for key, value in MODES.items()]
 
 
 class FilterModeChoices(ChoiceSet):

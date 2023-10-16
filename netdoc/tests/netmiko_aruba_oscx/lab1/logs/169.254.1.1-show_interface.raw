@@ -1,0 +1,2510 @@
+
+Interface 1/1/1 is up 
+ Admin state is up
+ Link state: up for 2 months (since Thu Jul 27 07:18:49 CEST 2023)
+ Link transitions: 73
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:3f 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 1000 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: MDIX 
+ VLAN Mode: access
+ Access VLAN: 3077
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                      18874893             34277015             53151908
+   Unicast                    18644933             23561231             42206164
+   Multicast                    229165             10466742             10695907
+   Broadcast                       795               249042               249837
+ Bytes                      4202228838           8657633387          12859862225
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/2 is up 
+ Admin state is up
+ Link state: up for 2 months (since Thu Jul 27 07:18:52 CEST 2023)
+ Link transitions: 71
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:40 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 1000 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: MDI 
+ VLAN Mode: access
+ Access VLAN: 3077
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                      72845936            143148717            215994653
+   Unicast                    72615984            132432808            205048792
+   Multicast                    229155             10466861             10696016
+   Broadcast                       797               249048               249845
+ Bytes                     18500288400         131766192194         150266480594
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/3 is up 
+ Admin state is up
+ Link state: up for 2 months (since Wed Aug 02 11:47:21 CEST 2023)
+ Link transitions: 75
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:3d 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 1000 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: MDI 
+ VLAN Mode: access
+ Access VLAN: 3077
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                      36424821             70613369            107038190
+   Unicast                    36194823             59897862             96092685
+   Multicast                    229183             10466523             10695706
+   Broadcast                       815               248984               249799
+ Bytes                     11008648205          55966481654          66975129859
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/4 is up 
+ Admin state is up
+ Link state: up for 2 months (since Wed Aug 02 11:46:48 CEST 2023)
+ Link transitions: 75
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:3e 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 1000 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: MDI 
+ VLAN Mode: access
+ Access VLAN: 3077
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                      24017862             40377596             64395458
+   Unicast                    23787864             29661957             53449821
+   Multicast                    229183             10466628             10695811
+   Broadcast                       815               249011               249826
+ Bytes                      8077505234          17914203755          25991708989
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/5 is up 
+ Admin state is up
+ Link state: up for 2 months (since Thu Jul 27 07:18:51 CEST 2023)
+ Link transitions: 71
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:3b 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 1000 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: MDI 
+ VLAN Mode: access
+ Access VLAN: 3077
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                      39379959             90235725            129615684
+   Unicast                    39149990             79519722            118669712
+   Multicast                    229171             10466950             10696121
+   Broadcast                       798               249053               249851
+ Bytes                      9996317836          84278574343          94274892179
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/6 is up 
+ Admin state is up
+ Link state: up for 2 months (since Thu Jul 27 07:18:51 CEST 2023)
+ Link transitions: 71
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:3c 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 1000 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: MDI 
+ VLAN Mode: access
+ Access VLAN: 3077
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                      20375493             34862190             55237683
+   Unicast                    20145536             24146134             44291670
+   Multicast                    229159             10467001             10696160
+   Broadcast                       798               249055               249853
+ Bytes                      4774201467          11035081816          15809283283
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/7 is up 
+ Admin state is up
+ Link state: up for 2 months (since Wed Aug 02 11:47:51 CEST 2023)
+ Link transitions: 75
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:39 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 1000 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: MDI 
+ VLAN Mode: access
+ Access VLAN: 3077
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                      22365789             37279738             59645527
+   Unicast                    22135789             26563980             48699769
+   Multicast                    229185             10466773             10695958
+   Broadcast                       815               248985               249800
+ Bytes                      7104815814          13548037818          20652853632
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/8 is up 
+ Admin state is up
+ Link state: up for 2 months (since Thu Jul 27 07:18:51 CEST 2023)
+ Link transitions: 71
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:3a 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 1000 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: MDI 
+ VLAN Mode: access
+ Access VLAN: 3077
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                      57277589            175304294            232581883
+   Unicast                    57047626            164588309            221635935
+   Multicast                    229165             10466932             10696097
+   Broadcast                       798               249053               249851
+ Bytes                     16531844518         199664671847         216196516365
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/9 is up 
+ Admin state is up
+ Link state: up for 2 months (since Thu Jul 27 07:18:52 CEST 2023)
+ Link transitions: 71
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:37 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 1000 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: MDI 
+ VLAN Mode: access
+ Access VLAN: 3077
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                     115492932            363551175            479044107
+   Unicast                   115262968            352835551            468098519
+   Multicast                    229166             10466592             10695758
+   Broadcast                       798               249032               249830
+ Bytes                     42976916831         456323541071         499300457902
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/10 is up 
+ Admin state is up
+ Link state: up for 2 months (since Thu Jul 27 07:18:51 CEST 2023)
+ Link transitions: 71
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:38 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 1000 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: MDI 
+ VLAN Mode: access
+ Access VLAN: 3077
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.01                 0.01                 0.02
+ KPkts / sec                      0.00                 0.01                 0.01
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                      60212491            127278344            187490835
+   Unicast                    59982526            116562660            176545186
+   Multicast                    229167             10466647             10695814
+   Broadcast                       798               249037               249835
+ Bytes                     23317673462         120037860188         143355533650
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/11 is up 
+ Admin state is up
+ Link state: up for 2 months (since Thu Jul 27 07:18:53 CEST 2023)
+ Link transitions: 71
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:35 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 1000 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: MDI 
+ VLAN Mode: access
+ Access VLAN: 3077
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.01                 0.00                 0.01
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                      34234243             81899045            116133288
+   Unicast                    34004278             71183622            105187900
+   Multicast                    229166             10466392             10695558
+   Broadcast                       799               249031               249830
+ Bytes                     11502375258          49401385645          60903760903
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/12 is up 
+ Admin state is up
+ Link state: up for 2 months (since Thu Jul 27 07:18:52 CEST 2023)
+ Link transitions: 71
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:36 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 1000 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: MDI 
+ VLAN Mode: access
+ Access VLAN: 3077
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                      25091686             68376271             93467957
+   Unicast                    24861729             57660707             82522436
+   Multicast                    229158             10466533             10695691
+   Broadcast                       799               249031               249830
+ Bytes                      6873778354          46347478278          53221256632
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/13 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:33 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/14 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:34 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/15 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:31 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/16 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:32 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/17 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:2f 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/18 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:30 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/19 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:2d 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/20 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:2e 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/21 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:2b 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/22 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:2c 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/23 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:29 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/24 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:2a 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/25 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:27 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/26 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:28 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/27 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:25 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/28 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:26 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/29 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:23 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/30 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:24 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/31 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:21 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/32 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:22 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/33 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:1f 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/34 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:20 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/35 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:1d 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/36 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:1e 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/37 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:1b 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/38 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:1c 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/39 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:19 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/40 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:1a 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/41 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:17 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/42 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:18 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/43 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:15 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/44 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:16 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/45 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:13 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/46 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: PORT-ACCESS
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:14 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 1
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/47 is up 
+ Admin state is up
+ Link state: up for 2 months (since Thu Jul 27 06:23:42 CEST 2023)
+ Link transitions: 1
+ Description: Switch_Medizinzechnik
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:11 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 1000 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: MDIX 
+ VLAN Mode: access
+ Access VLAN: 420
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.01                 0.01
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                      15476636             64496271             79972907
+   Unicast                    13959384             21375376             35334760
+   Multicast                     47544             33355545             33403089
+   Broadcast                   1469708              9765350             11235058
+ Bytes                      6190388432          22349230075          28539618507
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/48 is down 
+ Admin state is up
+ State information: Waiting for link
+ Link state: down for 1 day (since Fri Oct 13 13:28:37 CEST 2023)
+ Link transitions: 176
+ Description: Medizintechnik-Internet
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:12 
+ MTU 1500 
+ Type 1GbT
+ Full-duplex 
+ qos trust none
+ rate-limit broadcast 10240 kbps (10240 actual)
+ Speed 0 Mb/s 
+ Auto-negotiation is on
+ Energy-Efficient Ethernet is disabled
+ Flow-control: off 
+ Error-control: off 
+ MDI mode: none 
+ VLAN Mode: access
+ Access VLAN: 420
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                      30488383             34327888             64816271
+   Unicast                    28402955             26254280             54657235
+   Multicast                   1000394              5822933              6823327
+   Broadcast                   1085034              2250675              3335709
+ Bytes                     14923587968          17879452885          32803040853
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/49 is down 
+ Admin state is up
+ State information: No XCVR installed
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: 
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:10 
+ MTU 1500 
+ Type --
+ Full-duplex 
+ qos trust none
+ Speed 0 Mb/s 
+ Auto-negotiation is off
+ Flow-control: off 
+ Error-control: off 
+ VLAN Mode: native-untagged
+ Native VLAN: 1
+ Allowed VLAN List: all
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/50 is down 
+ Admin state is up
+ State information: No XCVR installed
+ Link state: down for 2 months (since Thu Jul 27 06:23:35 CEST 2023)
+ Link transitions: 0
+ Description: 
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:0f 
+ MTU 1500 
+ Type --
+ Full-duplex 
+ qos trust none
+ Speed 0 Mb/s 
+ Auto-negotiation is off
+ Flow-control: off 
+ Error-control: off 
+ VLAN Mode: native-untagged
+ Native VLAN: 1
+ Allowed VLAN List: all
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.00                 0.00                 0.00
+ KPkts / sec                      0.00                 0.00                 0.00
+   Unicast                        0.00                 0.00                 0.00
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                             0                    0                    0
+   Unicast                           0                    0                    0
+   Multicast                         0                    0                    0
+   Broadcast                         0                    0                    0
+ Bytes                               0                    0                    0
+ Jumbos                              0                    0                    0
+ Dropped                             0                    0                    0
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/51 is up 
+ Admin state is up
+ Link state: up for 2 months (since Thu Jul 27 06:23:42 CEST 2023)
+ Link transitions: 1
+ Description: Uplink_xx
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:00 
+ MTU 1500 
+ Type 10G-SR / 8500-176a
+ Full-duplex 
+ qos trust none
+ Speed 10000 Mb/s 
+ Auto-negotiation is off
+ Flow-control: off 
+ Error-control: off 
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.01                 0.05                 0.06
+ KPkts / sec                      0.01                 0.03                 0.04
+   Unicast                        0.00                 0.03                 0.03
+   Multicast                      0.00                 0.00                 0.00
+   Broadcast                      0.00                 0.00                 0.00
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                     103446835            401143191            504590026
+   Unicast                    30270030            398587240            428857270
+   Multicast                  50094726               826188             50920914
+   Broadcast                  23082079              1729763             24811842
+ Bytes                     34152848118         137605609767         171758457885
+ Jumbos                         279596              7991529              8271125
+ Dropped                             0                    4                    4
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface 1/1/52 is up 
+ Admin state is up
+ Link state: up for 2 months (since Thu Jul 27 06:23:42 CEST 2023)
+ Link transitions: 1
+ Description: Uplink_xx
+ Persona: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:00 
+ MTU 1500 
+ Type 10G-SR / 8500-176a
+ Full-duplex 
+ qos trust none
+ Speed 10000 Mb/s 
+ Auto-negotiation is off
+ Flow-control: off 
+ Error-control: off 
+ Rate collection interval: 300 seconds
+
+ Rate                               RX                   TX        Total (RX+TX)
+ ---------------- -------------------- -------------------- --------------------
+ Mbits / sec                      0.06                 0.02                 0.08
+ KPkts / sec                      0.06                 0.01                 0.07
+   Unicast                        0.03                 0.01                 0.04
+   Multicast                      0.01                 0.00                 0.01
+   Broadcast                      0.01                 0.00                 0.01
+ Utilization %                    0.00                 0.00                 0.00
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                    1436539051            180190047           1616729098
+   Unicast                  1174876405            178162596           1353039001
+   Multicast                 183849339              1139712            184989051
+   Broadcast                  77813307               887739             78701046
+ Bytes                   1236265418235          53527759879        1289793178114
+ Jumbos                      340970660              1094788            342065448
+ Dropped                             0                   13                   13
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0
+
+Interface vlan1 is up 
+ Admin state is up
+ Description: 
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:00 
+ L3 Counters: Rx Disabled, Tx Disabled 
+
+Interface vlan3072 is up 
+ Admin state is up
+ Description: 3072_Network_Switch_MGT
+ Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:00 
+ IPv4 address 10.101.72.51/24
+ L3 Counters: Rx Disabled, Tx Disabled 
+
+Aggregate lag1 is up 
+ Admin state is up 
+ Description : 
+ MAC Address                 : bc:d7:a5:be:a5:00 
+ Aggregated-interfaces       : 1/1/51 1/1/52 
+ Aggregation-key             : 1
+ Aggregate mode              : active 
+ Speed                       : 20000 Mb/s 
+ qos trust none
+ VLAN Mode: native-untagged
+ Native VLAN: 666
+ Allowed VLAN List: all
+ L3 Counters: Rx Disabled, Tx Disabled 
+
+ Statistic                          RX                   TX                Total
+ ---------------- -------------------- -------------------- --------------------
+ Packets                    1539985886            581333238           2121319124
+   Unicast                  1205146435            576749836           1781896271
+   Multicast                 233944065              1965900            235909965
+   Broadcast                 100895386              2617502            103512888
+ Bytes                   1270418266353         191133369646        1461551635999
+ Jumbos                      341250256              9086317            350336573
+ Dropped                             0                   17                   17
+ Pause Frames                        0                    0                    0
+ Errors                              0                    0                    0
+   CRC/FCS                           0                  n/a                    0
+   Collision                       n/a                    0                    0
+   Runts                             0                  n/a                    0
+   Giants                            0                  n/a                    0

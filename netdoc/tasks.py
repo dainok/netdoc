@@ -19,6 +19,7 @@ from django.conf import settings
 from netdoc.nornir_inventory import AssetInventory
 from netdoc.models import DiscoveryModeChoices
 from netdoc import utils
+from netdoc.dictionaries import DiscoveryModeChoices
 
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 
