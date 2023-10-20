@@ -771,6 +771,7 @@ def normalize_interface_speed(speed):
     speed = speed.replace("mb/s", "000")
     speed = speed.replace("gb/s", "000000")
     speed = speed.replace("gbps", "000000")
+    speed = speed.replace("gigfd", "000") # HP Procurve
     try:
         speed = int(speed)
     except ValueError as exc:
