@@ -584,8 +584,11 @@ def normalize_interface_speed(speed):
         return None
     speed = speed.replace(" ", "")
     speed = speed.replace(".", "")
+    speed = speed.replace("gigfd", "000")  # HP Procurve (000 is added from ingestor)
     speed = speed.replace("fdx", "")  # HP Procurve
+    speed = speed.replace("fd", "")  # HP Procurve
     speed = speed.replace("hdx", "")  # HP Procurve
+    speed = speed.replace("hd", "")  # HP Procurve
     speed = speed.replace("kbit", "")
     speed = speed.replace("kbps", "")
     speed = speed.replace("mbps", "000")

@@ -376,7 +376,7 @@ class DiscoveryLog(NetBoxModel):
     )  # True if excuting request return OK and raw_output is valid (avoid command not found)
     supported = models.BooleanField(
         default=True, editable=False
-    )  #: False if output is unsupported (won't be parsed/ingested)
+    )  #: False if output is unsupported (won't be ingested)
     parsed = models.BooleanField(
         default=False, editable=False
     )  #: True if parsing raw_output return a valid JSON
@@ -417,10 +417,6 @@ class DiscoveryLog(NetBoxModel):
         self.success = False
         self.parsed = False
         self.parsed_output = ""
-
-        # Check if the command is supported
-        if not self.supported:
-            return
 
         # Check if the output is completed successfully
         for regex in FAILURE_OUTPUT:
