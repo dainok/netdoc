@@ -23,7 +23,7 @@ def discovery(nrni, filters=None, filter_type=None):
         ("show system", None),
         ("show running-config", None),
         ("show interface", None),
-        ("show lldp neighbor-info detail", None),
+        ("show lldp neighbor-info detail", "show lldp neighbors-info detail"),
         ("show mac-address-table", None),
         ("show arp all-vrfs", None),
         ("show ip interface brief", None),
