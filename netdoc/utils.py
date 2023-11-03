@@ -726,6 +726,7 @@ def normalize_route_type(route_type):
         "l",
         "a c",
         "a h",
+        "a ~",
         "vrrp-engine",
         "vrrp_engine",
     ]:
