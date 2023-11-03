@@ -239,12 +239,12 @@ class DiagramModeChoices(ChoiceSet):
 class DiscoveryModeChoices(ChoiceSet):
     """Discovey mode."""
     MODES = {
-        "netmiko_aruba_oscx": {
+        "netmiko_aruba_aoscx": {
             "name": "Netmiko Aruba OSCX",
             "platform": "aruba_osswitch", # Netmiko type, used by Nornir
             "protocol": "ssh",
             "framework": "netmiko",
-            "discovery_script": "netmiko_aruba_oscx", # Discovery script called by tasks.py
+            "discovery_script": "netmiko_aruba_aoscx", # Discovery script called by tasks.py
         },
         "netmiko_cisco_ios": {
             "name": "Netmiko Cisco IOS XE",
