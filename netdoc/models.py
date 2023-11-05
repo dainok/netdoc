@@ -418,6 +418,16 @@ class DiscoveryLog(NetBoxModel):
         self.parsed = False
         self.parsed_output = ""
 
+        # Check if the command is a configuration file
+        configuration = False
+        for regex in CONFIG_COMMANDS:
+            if re.search(regex, self.command):
+                configuration = True
+        self.configuration = configuration
+
+        # Check if the command is supported
+        self.supported = is_command_supported(self.details.get("framework"), self.details.get("platform"), self.template)
+
         # Check if the output is completed successfully
         for regex in FAILURE_OUTPUT:
             if re.search(regex, self.raw_output):
@@ -465,8 +475,8 @@ class DiscoveryLog(NetBoxModel):
         self.parsed = parsed
 
     def save(self, *args, **kwargs):
-        """Set supported flag and parse raw_output when creating."""
-        if not self.pk:
+        """Set details when creating."""
+        if self.pk:
             # Check if command is supported
             mode = self.discoverable.mode  # pylint: disable=no-member
             framework = mode.split("_")[0]
@@ -475,23 +485,13 @@ class DiscoveryLog(NetBoxModel):
                 protocol = mode.split("_")[3]  # pylint: disable=no-member
             except IndexError:
                 protocol = "default"
-            template = self.template
-            supported = is_command_supported(framework, platform, template)
-
-            # Check if the command is a configuration file
-            configuration = False
-            for regex in CONFIG_COMMANDS:
-                if re.search(regex, self.command):
-                    configuration = True
 
             # Update log details
             details = self.details
             details["framework"] = framework
             details["platform"] = platform
             details["protocol"] = protocol
-            self.supported = supported
             self.details = details
-            self.configuration = configuration
 
             # Parse
             self.parse()
