@@ -61,7 +61,7 @@ class DiscoverableFilterSet(NetBoxModelFilterSet):
         """FilterSet metadata."""
 
         model = Discoverable
-        fields = ["site", "credential", "mode", "discoverable"]
+        fields = ["site", "mode", "discoverable"]
 
     def search(self, queryset, name, value):
         """Generic (quick) search."""

@@ -241,6 +241,11 @@ class DiscoverableListFilterForm(NetBoxModelFilterSetForm):
         label="Is discoverable?",
         widget=forms.Select(choices=BOOLEAN_WITH_BLANK_CHOICES),
     )
+    mode = forms.ChoiceField(
+        choices=DiscoveryModeChoices,
+        required=False,
+        help_text="Discovery mode",
+    )
 
 
 class DiscoveryLogListFilterForm(NetBoxModelFilterSetForm):
