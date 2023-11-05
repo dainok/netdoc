@@ -244,7 +244,7 @@ class DiscoveryModeChoices(ChoiceSet):
             "platform": "aruba_osswitch", # Netmiko type, used by Nornir
             "protocol": "ssh",
             "framework": "netmiko",
-            "discovery_script": "netmiko_aruba_aoscx", # Discovery script called by tasks.py
+            "discovery_script": "netmiko_aruba_oscx", # Discovery script called by tasks.py
         },
         "netmiko_cisco_ios": {
             "name": "Netmiko Cisco IOS XE",
