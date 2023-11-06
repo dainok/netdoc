@@ -17,6 +17,6 @@ for ip_address_o in ip_addresses:
         print(f"{ip_address} is {fqdn}")
         ip_address_o.dns_name = fqdn
         ip_address_o.save()
-    except Exception:
+    except socket.herror:
         # Host not found
         pass
