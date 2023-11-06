@@ -161,8 +161,7 @@ def update_management(obj, discoverable_ip_address):
         for ip_address_o in interface.ip_addresses.all():
             # For each configured IP address
             if discoverable_ip_address == str(ip_address_o.address.ip):
-                obj.primary_ip4 = ip_address_o
-                obj.save()
+                obj = utils.object_update(obj, primary_ip4=ip_address_o)
                 return True
     return False
 
