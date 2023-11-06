@@ -1,4 +1,4 @@
-"""Ingestor for netmiko_cisco_ios_show_mac_address_table."""
+"""Ingestor for netmiko_aruba_aoscx_show_mac_address_table."""
 __author__ = "Andrea Dainese"
 __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2022, Andrea Dainese"
