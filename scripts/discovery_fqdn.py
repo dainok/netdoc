@@ -1,3 +1,8 @@
+"""Discovery FQDN from IP addresses.
+
+Usage:
+/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < discovery_fqdn.py
+"""
 import socket
 
 from ipam.models import IPAddress
@@ -15,4 +20,3 @@ for ip_address_o in ip_addresses:
     except Exception:
         # Host not found
         pass
-

@@ -1,9 +1,8 @@
 """Delete all data.
 
 Usage:
-/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < delete.py
+/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < lab_delete.py
 """
-
 from dcim.models import (
     Device,
     DeviceRole,

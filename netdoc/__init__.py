@@ -4,7 +4,6 @@ __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2022, Andrea Dainese"
 __license__ = "GPLv3"
 
-import sys
 import os
 import pkgutil
 
@@ -38,11 +37,12 @@ class NetdocConfig(PluginConfig):
 
     def ready(self):
         """Load signals and create reports/scripts."""
-        import sys   # noqa: F401 pylint: disable=import-outside-toplevel,unused-import
+        import sys  # noqa: F401 pylint: disable=import-outside-toplevel,unused-import
         from netdoc import (  # noqa: F401 pylint: disable=import-outside-toplevel,unused-import
             signals,
         )
-        WSGI = 'django.core.wsgi' in sys.modules
+
+        WSGI = "django.core.wsgi" in sys.modules
 
         if WSGI or "runserver" in sys.argv:
             # Create reports/scripts only when starting the server via runserver or via gunicorn

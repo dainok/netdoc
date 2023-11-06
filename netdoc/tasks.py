@@ -17,7 +17,6 @@ from nornir.core.filter import F
 from django.conf import settings
 
 from netdoc.nornir_inventory import AssetInventory
-from netdoc.models import DiscoveryModeChoices
 from netdoc import utils
 from netdoc.dictionaries import DiscoveryModeChoices
 
@@ -100,7 +99,9 @@ def discovery(addresses=None, script_handler=None, filters=None, filter_type=Non
         )
         if not filtered_addresses:
             if script_handler:
-                script_handler.log_warning(f"No {description} ({platform}) device found")
+                script_handler.log_warning(
+                    f"No {description} ({platform}) device found"
+                )
             continue
         if script_handler:
             script_handler.log_info(f"Starting discovery of {description} devices")

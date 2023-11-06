@@ -426,7 +426,9 @@ class DiscoveryLog(NetBoxModel):
         self.configuration = configuration
 
         # Check if the command is supported
-        self.supported = is_command_supported(self.details.get("framework"), self.details.get("platform"), self.template)
+        self.supported = is_command_supported(
+            self.details.get("framework"), self.details.get("platform"), self.template
+        )
 
         # Check if the output is completed successfully
         for regex in FAILURE_OUTPUT:

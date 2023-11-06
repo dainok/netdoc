@@ -6,7 +6,6 @@ __license__ = "GPLv3"
 
 import json
 from nornir_utils.plugins.functions import print_result
-from nornir.core.filter import F
 
 from netdoc import utils
 from netdoc.schemas import discoverable, discoverylog
@@ -14,7 +13,7 @@ from netdoc.schemas import discoverable, discoverylog
 
 def discovery(nrni, filters=None, filter_type=None):
     """Discovery Aruba OS CX devices."""
-    platform = "aruba_oscx"
+    # platform = "aruba_oscx"
     host_list = []
     failed_host_list = []
     # Define commands, in order with command, template, enabled

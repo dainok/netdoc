@@ -39,7 +39,11 @@ from netdoc.utils import (
 )
 from netdoc.schemas import discoverable
 from netdoc.tasks import discovery
-from netdoc.dictionaries import DiscoveryModeChoices, DeviceImageChoices, FilterModeChoices
+from netdoc.dictionaries import (
+    DiscoveryModeChoices,
+    DeviceImageChoices,
+    FilterModeChoices,
+)
 
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 NORNIR_LOG = PLUGIN_SETTINGS.get("NORNIR_LOG")
