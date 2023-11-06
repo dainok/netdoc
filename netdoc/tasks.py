@@ -87,8 +87,10 @@ def discovery(addresses=None, script_handler=None, filters=None, filter_type=Non
         )
 
     # Run discovery scripts
-    # for mode, description in DiscoveryModeChoices():
-    for key, value in DiscoveryModeChoices.MODES.items():
+    for (
+        key,  # pylint: disable=unused-variable
+        value,
+    ) in DiscoveryModeChoices.MODES.items():
         # framework = mode.split("_").pop(0)
         platform = value.get("platform")
         description = value.get("name")

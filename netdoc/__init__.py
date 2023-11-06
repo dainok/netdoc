@@ -42,9 +42,9 @@ class NetdocConfig(PluginConfig):
             signals,
         )
 
-        WSGI = "django.core.wsgi" in sys.modules
+        wsgi = "django.core.wsgi" in sys.modules
 
-        if WSGI or "runserver" in sys.argv:
+        if wsgi or "runserver" in sys.argv:
             # Create reports/scripts only when starting the server via runserver or via gunicorn
             from core.models import (  # noqa: F401 pylint: disable=import-outside-toplevel
                 DataSource,
