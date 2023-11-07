@@ -1,0 +1,11 @@
+{
+    "details": {
+        "command": "show interface",
+        "enable": true,
+        "order": 10,
+        "template": "show interface",
+        "framework": "netmiko",
+        "platform": "aruba_aoscx"
+    },
+    "discoverable__mode": "netmiko_aruba_aoscx"
+}
