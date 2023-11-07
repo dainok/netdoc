@@ -573,6 +573,7 @@ def test_virtual_machine_interfaces(test_o, expected_results):
 def load_scenario(lab_path):
     """Load DiscoveryLog files and return the list of expected result files."""
     expected_result_files = []
+    ingested_count = 0
 
     # Purge all data
     print("Deleting old data... ", end="")
@@ -617,6 +618,7 @@ def load_scenario(lab_path):
                 # Save expected result files
                 expected_result_files.append(f"{dirpath}/{filename}")
             if filename.endswith(".json"):
+                ingested_count = ingested_count + 1
                 filepath_medata = f"{dirpath}/{filename}"
                 filepath_raw_output = filepath_medata.replace(".json", ".raw")
                 address = filename.split("-")[0]
@@ -653,16 +655,25 @@ def load_scenario(lab_path):
                 discoverylog_api.create(
                     discoverable_id=discoverable_o.pk, **discoverablelog_json
                 )
-    print("done")
+    print(f"done ({ingested_count} files)")
+
+    #  Parsing
+    print("Parsing... ", end="")
+    logs_qs = DiscoveryLog.objects.filter().order_by("order")
+    for log_o in logs_qs:
+        log_o.parse()
+        log_o.save()
+    print(f"done ({len(logs_qs)} logs)")
 
     # Ingest
     print("Ingesting... ", end="")
-    logs_qs = DiscoveryLog.objects.filter(parsed=True, ingested=False).order_by("order")
+    logs_qs = DiscoveryLog.objects.filter(parsed=True, supported=True, ingested=False).order_by("order")
     for log_o in logs_qs:
+        print(log_o)
         log_ingest(log_o)
         log_o.ingested = True
         log_o.save()
-    print("done")
+    print(f"done ({len(logs_qs)} logs)")
 
     return expected_result_files
 

@@ -1,20 +1,5 @@
-- address: 172.25.82.41
+- address: 169.254.1.1
   device: SW1
   site: test-site
   credential: test-credential
-  mode: netmiko_cisco_ios
-- address: 192.168.0.2
-  device: null
-  site: test-site
-  credential: test-credential
-  mode: netmiko_cisco_ios
-- address: 10.0.1.2
-  device: null
-  site: test-site
-  credential: test-credential
-  mode: netmiko_cisco_ios
-- address: 10.0.2.2
-  device: null
-  site: test-site
-  credential: test-credential
-  mode: netmiko_cisco_ios
+  mode: netmiko_aruba_aoscx

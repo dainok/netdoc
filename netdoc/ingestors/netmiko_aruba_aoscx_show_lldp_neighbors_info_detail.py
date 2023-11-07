@@ -19,9 +19,7 @@ def ingest(log):
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/aruba_aoscx/show_lldp_neighbors-info_detail # pylint: disable=line-too-long
         local_interface_name = item.get("local_port")
         local_interface_label = utils.normalize_interface_label(local_interface_name)
-        remote_management_ip = utils.normalize_ip_address_or_none(
-            item.get("mgmt_addr")
-        )
+        remote_management_ip = utils.normalize_ip_address_or_none(item.get("mgmt_addr"))
         remote_name = utils.normalize_hostname(item.get("chassis_name"))
         remote_interface_label = utils.get_remote_lldp_interface_label(
             port_id=item.get("port_id"),
