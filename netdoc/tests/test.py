@@ -54,7 +54,11 @@ def test_devices(test_o, expected_results):
 
     # Test each item
     for expected_result in expected_results:
-        device_o = Device.objects.get(name=expected_result.get("name"))
+        try:
+            device_o = Device.objects.get(name=expected_result.get("name"))
+        except Device.DoesNotExist as exc:  # pylint: disable=no-member
+            print("Queryset content is", device_qs)
+            raise ValueError(f"Expected Device not found {expected_result}") from exc
         test_o.assertEquals(
             device_o.device_type.model, expected_result.get("model"), "model"
         )
@@ -90,9 +94,15 @@ def test_discoverables(test_o, expected_results):
 
     # Test each item
     for expected_result in expected_results:
-        discoverable_o = Discoverable.objects.get(
-            address=expected_result.get("address")
-        )
+        try:
+            discoverable_o = Discoverable.objects.get(
+                address=expected_result.get("address")
+            )
+        except Discoverable.DoesNotExist as exc:  # pylint: disable=no-member
+            print("Queryset content is", discoverable_qs)
+            raise ValueError(
+                f"Expected Discoverable not found {expected_result}"
+            ) from exc
         test_o.assertEquals(discoverable_o.mode, expected_result.get("mode"), "mode")
 
         if discoverable_o.device:
@@ -127,9 +137,9 @@ def test_discoverables(test_o, expected_results):
 def test_interfaces(test_o, expected_results):
     """Test Interface given an expected_results dict."""
     # Test total Interface objects
-    ipaddress_qs = Interface.objects.all()
+    interface_qs = Interface.objects.all()
     test_o.assertEquals(
-        len(ipaddress_qs),
+        len(interface_qs),
         len(
             [
                 interface_value
@@ -144,9 +154,15 @@ def test_interfaces(test_o, expected_results):
     for device_name, interface_list in expected_results.items():
         # Test each interface
         for interface_value in interface_list:
-            interface_o = Interface.objects.get(
-                label=interface_value.get("label"), device__name=device_name
-            )
+            try:
+                interface_o = Interface.objects.get(
+                    label=interface_value.get("label"), device__name=device_name
+                )
+            except Interface.DoesNotExist as exc:  # pylint: disable=no-member
+                print("Queryset content is", interface_qs)
+                raise ValueError(
+                    f"Expected Interface not found {interface_value}"
+                ) from exc
             test_o.assertEquals(interface_o.type, interface_value.get("type"), "type")
             test_o.assertEquals(
                 interface_o.speed, interface_value.get("speed"), "speed"
@@ -264,12 +280,24 @@ def test_ipaddresses(test_o, expected_results):
     # Test each item
     for expected_result in expected_results:
         if expected_result.get("vrf"):
-            IPAddress.objects.get(
-                address=expected_result.get("address"),
-                vrf__name=expected_result.get("vrf"),
-            )
+            try:
+                IPAddress.objects.get(
+                    address=expected_result.get("address"),
+                    vrf__name=expected_result.get("vrf"),
+                )
+            except IPAddress.DoesNotExist as exc:  # pylint: disable=no-member
+                print("Queryset content is", ipaddress_qs)
+                raise ValueError(
+                    f"Expected IPAddress not found {expected_result}"
+                ) from exc
         else:
-            IPAddress.objects.get(address=expected_result.get("address"))
+            try:
+                IPAddress.objects.get(address=expected_result.get("address"))
+            except IPAddress.DoesNotExist as exc:  # pylint: disable=no-member
+                print("Queryset content is", ipaddress_qs)
+                raise ValueError(
+                    f"Expected IPAddress not found {expected_result}"
+                ) from exc
 
 
 def test_prefixes(test_o, expected_results):
@@ -281,12 +309,24 @@ def test_prefixes(test_o, expected_results):
     # Test each item
     for expected_result in expected_results:
         if expected_result.get("vrf"):
-            prefix_o = Prefix.objects.get(
-                prefix=expected_result.get("prefix"),
-                vrf__name=expected_result.get("vrf"),
-            )
+            try:
+                prefix_o = Prefix.objects.get(
+                    prefix=expected_result.get("prefix"),
+                    vrf__name=expected_result.get("vrf"),
+                )
+            except Prefix.DoesNotExist as exc:  # pylint: disable=no-member
+                print("Queryset content is", prefix_qs)
+                raise ValueError(
+                    f"Expected Prefix not found {expected_result}"
+                ) from exc
         else:
-            prefix_o = Prefix.objects.get(prefix=expected_result.get("prefix"))
+            try:
+                prefix_o = Prefix.objects.get(prefix=expected_result.get("prefix"))
+            except Prefix.DoesNotExist as exc:  # pylint: disable=no-member
+                print("Queryset content is", prefix_qs)
+                raise ValueError(
+                    f"Expected Prefix not found {expected_result}"
+                ) from exc
 
         if prefix_o.vrf:
             test_o.assertEquals(prefix_o.vrf.name, expected_result.get("vrf"), "vrf")
@@ -307,7 +347,11 @@ def test_vlans(test_o, expected_results):
 
     # Test each item
     for expected_result in expected_results:
-        vlan_o = VLAN.objects.get(vid=int(expected_result.get("vid")))
+        try:
+            vlan_o = VLAN.objects.get(vid=int(expected_result.get("vid")))
+        except VLAN.DoesNotExist as exc:  # pylint: disable=no-member
+            print("Queryset content is", vlan_qs)
+            raise ValueError(f"Expected VLAN not found {expected_result}") from exc
         test_o.assertEquals(vlan_o.name, expected_result.get("name"), "name")
 
 
@@ -319,7 +363,11 @@ def test_vrfs(test_o, expected_results):
 
     # Test each item
     for expected_result in expected_results:
-        vrf_o = VRF.objects.get(name=expected_result.get("name"))
+        try:
+            vrf_o = VRF.objects.get(name=expected_result.get("name"))
+        except VRF.DoesNotExist as exc:  # pylint: disable=no-member
+            print("Queryset content is", vrf_qs)
+            raise ValueError(f"Expected VRF not found {expected_result}") from exc
         test_o.assertEquals(vrf_o.rd, expected_result.get("rd"), "rd")
 
 
@@ -331,12 +379,18 @@ def test_macaddresses(test_o, expected_results):
 
     # Test each item
     for expected_result in expected_results:
-        macaddress_o = MacAddressTableEntry.objects.get(
-            interface__device__name=expected_result.get("device"),
-            interface__label=expected_result.get("interface"),
-            mac_address=expected_result.get("mac_address"),
-            vvid=expected_result.get("vlan"),
-        )
+        try:
+            macaddress_o = MacAddressTableEntry.objects.get(
+                interface__device__name=expected_result.get("device"),
+                interface__label=expected_result.get("interface"),
+                mac_address=expected_result.get("mac_address"),
+                vvid=expected_result.get("vlan"),
+            )
+        except MacAddressTableEntry.DoesNotExist as exc:  # pylint: disable=no-member
+            print("Queryset content is", macaddress_qs)
+            raise ValueError(
+                f"Expected MacAddressTableEntry not found {expected_result}"
+            ) from exc
         test_o.assertEquals(macaddress_o.vendor, expected_result.get("vendor"))
 
 
@@ -349,19 +403,33 @@ def test_arps(test_o, expected_results):
     # Test each item
     for expected_result in expected_results:
         if expected_result.get("interface"):
-            arp_o = ArpTableEntry.objects.get(
-                interface__device__name=expected_result.get("device"),
-                interface__label=expected_result.get("interface"),
-                mac_address=expected_result.get("mac_address"),
-                ip_address=expected_result.get("ip_address") + "/32",
-            )
+            try:
+                arp_o = ArpTableEntry.objects.get(
+                    interface__device__name=expected_result.get("device"),
+                    interface__label=expected_result.get("interface"),
+                    mac_address=expected_result.get("mac_address"),
+                    ip_address=expected_result.get("ip_address") + "/32",
+                )
+            except ArpTableEntry.DoesNotExist as exc:  # pylint: disable=no-member
+                print("Queryset content is", arp_qs)
+                raise ValueError(
+                    f"Expected ArpTableEntry not found {expected_result}"
+                ) from exc
         else:
-            arp_o = ArpTableEntry.objects.get(
-                virtual_interface__virtual_machine__name=expected_result.get("device"),
-                virtual_interface__name=expected_result.get("virtual_interface"),
-                mac_address=expected_result.get("mac_address"),
-                ip_address=expected_result.get("ip_address") + "/32",
-            )
+            try:
+                arp_o = ArpTableEntry.objects.get(
+                    virtual_interface__virtual_machine__name=expected_result.get(
+                        "device"
+                    ),
+                    virtual_interface__name=expected_result.get("virtual_interface"),
+                    mac_address=expected_result.get("mac_address"),
+                    ip_address=expected_result.get("ip_address") + "/32",
+                )
+            except ArpTableEntry.DoesNotExist as exc:  # pylint: disable=no-member
+                print("Queryset content is", arp_qs)
+                raise ValueError(
+                    f"Expected ArpTableEntry not found {expected_result}"
+                ) from exc
         test_o.assertEquals(arp_o.vendor, expected_result.get("vendor"), "vendor")
 
 
@@ -374,41 +442,59 @@ def test_routes(test_o, expected_results):
     # Test each item
     for expected_result in expected_results:
         if expected_result.get("nexthop_virtual_if"):
-            route_o = RouteTableEntry.objects.get(
-                vm__name=expected_result.get("device"),
-                destination=expected_result.get("destination"),
-                distance=expected_result.get("distance"),
-                metric=expected_result.get("metric"),
-                protocol=expected_result.get("protocol"),
-                vrf__name=expected_result.get("vrf"),
-                nexthop_ip=expected_result.get("nexthop_ip"),
-                nexthop_virtual_if__name=expected_result.get("nexthop_virtual_if"),
-            )
+            try:
+                route_o = RouteTableEntry.objects.get(
+                    vm__name=expected_result.get("device"),
+                    destination=expected_result.get("destination"),
+                    distance=expected_result.get("distance"),
+                    metric=expected_result.get("metric"),
+                    protocol=expected_result.get("protocol"),
+                    vrf__name=expected_result.get("vrf"),
+                    nexthop_ip=expected_result.get("nexthop_ip"),
+                    nexthop_virtual_if__name=expected_result.get("nexthop_virtual_if"),
+                )
+            except RouteTableEntry.DoesNotExist as exc:  # pylint: disable=no-member
+                print("Queryset content is", route_qs)
+                raise ValueError(
+                    f"Expected RouteTableEntry not found {expected_result}"
+                ) from exc
         elif expected_result.get("nexthop_if"):
-            route_o = RouteTableEntry.objects.get(
-                device__name=expected_result.get("device"),
-                destination=expected_result.get("destination"),
-                distance=expected_result.get("distance"),
-                metric=expected_result.get("metric"),
-                protocol=expected_result.get("protocol"),
-                vrf__name=expected_result.get("vrf"),
-                nexthop_ip=expected_result.get("nexthop_ip"),
-                nexthop_if__label=expected_result.get("nexthop_if"),
-            )
+            try:
+                route_o = RouteTableEntry.objects.get(
+                    device__name=expected_result.get("device"),
+                    destination=expected_result.get("destination"),
+                    distance=expected_result.get("distance"),
+                    metric=expected_result.get("metric"),
+                    protocol=expected_result.get("protocol"),
+                    vrf__name=expected_result.get("vrf"),
+                    nexthop_ip=expected_result.get("nexthop_ip"),
+                    nexthop_if__label=expected_result.get("nexthop_if"),
+                )
+            except RouteTableEntry.DoesNotExist as exc:  # pylint: disable=no-member
+                print("Queryset content is", route_qs)
+                raise ValueError(
+                    f"Expected RouteTableEntry not found {expected_result}"
+                ) from exc
         else:
-            route_o = RouteTableEntry.objects.filter(
-                Q(device__name=expected_result.get("device"))
-                | Q(vm__name=expected_result.get("device"))
-            ).get(
-                device__name=expected_result.get("device"),
-                destination=expected_result.get("destination"),
-                distance=expected_result.get("distance"),
-                metric=expected_result.get("metric"),
-                protocol=expected_result.get("protocol"),
-                vrf__name=expected_result.get("vrf"),
-                nexthop_ip=expected_result.get("nexthop_ip"),
-                nexthop_if=None,
-            )
+            try:
+                route_o = RouteTableEntry.objects.filter(
+                    Q(device__name=expected_result.get("device"))
+                    | Q(vm__name=expected_result.get("device"))
+                ).get(
+                    device__name=expected_result.get("device"),
+                    destination=expected_result.get("destination"),
+                    distance=expected_result.get("distance"),
+                    metric=expected_result.get("metric"),
+                    protocol=expected_result.get("protocol"),
+                    vrf__name=expected_result.get("vrf"),
+                    nexthop_ip=expected_result.get("nexthop_ip"),
+                    nexthop_if=None,
+                )
+            except RouteTableEntry.DoesNotExist as exc:  # pylint: disable=no-member
+                print("Queryset content is", route_qs)
+                raise ValueError(
+                    f"Expected RouteTableEntry not found {expected_result}"
+                ) from exc
         if route_o.nexthop_ip:
             test_o.assertEquals(
                 str(route_o.nexthop_ip.ip),
@@ -434,7 +520,13 @@ def test_virtual_machines(test_o, expected_results):
 
     # Test each item
     for expected_result in expected_results:
-        vm_o = VirtualMachine.objects.get(name=expected_result.get("name"))
+        try:
+            vm_o = VirtualMachine.objects.get(name=expected_result.get("name"))
+        except VirtualMachine.DoesNotExist as exc:  # pylint: disable=no-member
+            print("Queryset content is", vm_qs)
+            raise ValueError(
+                f"Expected VirtualMachine not found {expected_result}"
+            ) from exc
         test_o.assertEquals(vm_o.status, expected_result.get("status"), "status")
         if vm_o.vcpus:
             test_o.assertEquals(vm_o.vcpus, int(expected_result.get("vcpus")), "vcpus")
@@ -481,9 +573,9 @@ def test_virtual_machines(test_o, expected_results):
 def test_virtual_machine_interfaces(test_o, expected_results):
     """Test Interface given an expected_results dict."""
     # Test total Virtual Machine Interface objects
-    ipaddress_qs = VMInterface.objects.all()
+    interface_qs = VMInterface.objects.all()
     test_o.assertEquals(
-        len(ipaddress_qs),
+        len(interface_qs),
         len(
             [
                 interface_value
@@ -498,9 +590,15 @@ def test_virtual_machine_interfaces(test_o, expected_results):
     for device_name, interface_list in expected_results.items():
         # Test each interface
         for interface_value in interface_list:
-            interface_o = VMInterface.objects.get(
-                name=interface_value.get("name"), virtual_machine__name=device_name
-            )
+            try:
+                interface_o = VMInterface.objects.get(
+                    name=interface_value.get("name"), virtual_machine__name=device_name
+                )
+            except VMInterface.DoesNotExist as exc:  # pylint: disable=no-member
+                print("Queryset content is", interface_qs)
+                raise ValueError(
+                    f"Expected VMInterface not found {interface_value}"
+                ) from exc
             test_o.assertEquals(
                 interface_o.enabled, interface_value.get("enabled"), "enabled"
             )

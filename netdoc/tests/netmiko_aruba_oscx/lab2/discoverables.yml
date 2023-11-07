@@ -1,0 +1,10 @@
+- address: 169.254.1.1
+  device: SW1
+  site: test-site
+  credential: test-credential
+  mode: netmiko_aruba_aoscx
+- address: 192.168.1.1
+  device: null
+  site: test-site
+  credential: test-credential
+  mode: netmiko_aruba_aoscx

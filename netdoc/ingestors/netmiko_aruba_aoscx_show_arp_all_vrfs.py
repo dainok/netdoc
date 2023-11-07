@@ -16,7 +16,7 @@ def ingest(log):
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/aruba_aoscx/show_arp_all-vrfs # pylint: disable=line-too-long
         if utils.incomplete_mac(item.get("mac_address")):
             continue
-        interface_name = item.get("physical_port")
+        interface_name = item.get("port_id")
         label = utils.normalize_interface_label(interface_name)
         ip_address = item.get("ip_address")
         mac_address = utils.normalize_mac_address(item.get("mac_address"))

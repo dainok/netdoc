@@ -17,7 +17,7 @@ def ingest(log):
         if not item.get("port"):
             # Skip entries without associated interfaces
             continue
-        interface_name = item.get("port")[0]
+        interface_name = item.get("port")
         label = utils.normalize_interface_label(interface_name)
         vlan_id = int(item.get("vlan_id"))
         mac_address = utils.normalize_mac_address(item.get("mac_address"))
