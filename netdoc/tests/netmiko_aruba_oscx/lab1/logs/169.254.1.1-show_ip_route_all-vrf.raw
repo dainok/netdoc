@@ -1,21 +1,8 @@
-
-Displaying ipv4 routes selected for forwarding
-
-Origin Codes: C - connected, S - static, L - local
-              R - RIP, B - BGP, O - OSPF
-Type Codes:   E - External BGP, I - Internal BGP, V - VPN, EV - EVPN
-              IA - OSPF internal area, E1 - OSPF external type 1
-              E2 - OSPF external type 2
-Flags:        F - FIB-optimized route
-
-VRF: default
-
-Prefix              Nexthop                                  Interface     VRF(egress)       Origin/   Distance/    Age
-                                                                                             Type      Metric
--------------------------------------------------------------------------------------------------------------------------------
-0.0.0.0/0           10.101.72.1                              vlan3072      -                 S         [1/0]        02m:02w:05d
-10.101.72.0/24      -                                        vlan3072      -                 C         [0/0]        -
-10.101.72.51/32     -                                        vlan3072      -                 L         [0/0]        -
-
-Total Route Count : 3
-
+------------------------------------------------------------------------------------------------------------------
+VLAN  Name                              Status  Reason                  Type        Interfaces
+------------------------------------------------------------------------------------------------------------------
+1     DEFAULT_VLAN_1                    up      ok                      default     1/1/24,1/1/42-1/1/44,
+                                                                                    1/1/46-1/1/47,1/1/49-1/1/50,
+                                                                                    lag1
+122   VLAN122                           up      ok                      static      1/1/49-1/1/50,lag1
+420   VLAN420                           up      ok                      static      1/1/45,1/1/49-1/1/50,lag1

@@ -1,0 +1,11 @@
+{
+    "details": {
+        "command": "show vlan",
+        "enable": true,
+        "order": 10,
+        "template": "show vlan",
+        "framework": "netmiko",
+        "platform": "aruba_aoscx"
+    },
+    "discoverable__mode": "netmiko_aruba_aoscx"
+}
