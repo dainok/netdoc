@@ -16,7 +16,7 @@ def ingest(log):
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/aruba_aoscx/show_interface # pylint: disable=line-too-long
         interface_name = item.get("interface")
         label = utils.normalize_interface_label(interface_name)
-        description = item.get("description")
+        description = item.get("interface_desc")
         duplex = utils.normalize_interface_duplex(item.get("duplex"))
         speed = utils.normalize_interface_speed(item.get("speed"))
         mac_address = (
@@ -28,6 +28,12 @@ def ingest(log):
         enabled = utils.normalize_interface_status(item.get("link_status"))
         mtu = utils.normalize_interface_mtu(item.get("mtu"))
         parent_name = utils.parent_interface(label)
+        mode = utils.normalize_interface_mode(item.get("vlan_mode"))
+        native_vlan = int(item.get("vlan_native")) if item.get("vlan_native") else None
+        access_vlan = (
+            int(item.get("vlan_access")) if item.get("vlan_access") else None
+        )
+        tagged_vlans = utils.normalize_vlan_list(item.get("vlan_trunk"))
         ip_addresses = [item.get("ip_address")] if item.get("ip_address") else []
 
         if parent_name:
@@ -59,8 +65,17 @@ def ingest(log):
         else:
             interface_o = interface.update(interface_o, **data)
 
+        # Update Interface mode
+        mode_data = {
+            "untagged_vlan": access_vlan if mode == "access" else native_vlan,
+            "mode": mode,
+            "tagged_vlans": tagged_vlans,
+        }
+        i = interface.update_mode(interface_o, **mode_data)
+
         # Update Interface
         interface.update_addresses(interface_o, ip_addresses=ip_addresses)
+
 
     # Update the log
     log.ingested = True

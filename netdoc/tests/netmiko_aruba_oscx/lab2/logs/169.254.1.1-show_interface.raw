@@ -14,9 +14,8 @@ Interface 1/1/1 is up
  Flow-control: off 
  Error-control: off 
  MDI mode: MDIX 
- VLAN Mode: native-untagged
- Native VLAN: 2033
- Allowed VLAN List: 2033
+ VLAN Mode: access
+ Access VLAN: 2033
  Rate collection interval: 300 seconds
 
  Rate                               RX                   TX        Total (RX+TX)

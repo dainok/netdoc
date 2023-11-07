@@ -522,6 +522,9 @@ def normalize_interface_mode(mode):
         return "tagged"
     if "hybrid" in mode:
         return "tagged"
+    if "native-untagged" == mode:
+        # HPE Aruba access port
+        return "tagged"
     if "access" in mode:
         return "access"
     if mode == "fex-fabric":
@@ -928,7 +931,7 @@ def object_update(obj, force=True, **kwargs):
             # Always update
             setattr(obj, key, new_value)
             updated = True
-        if current_value is None:
+        if current_value is None or current_value == "":
             # Update only if not none
             setattr(obj, key, new_value)
             updated = True

@@ -82,7 +82,7 @@ ROUTER1:
     mtu: null
     enabled: true
     description: Link 1
-    mode: "tagged-all"
+    mode: tagged-all
     untagged_vlan: 1
     tagged_vlans: []
     parent: null
@@ -100,7 +100,7 @@ ROUTER1:
     mtu: null
     enabled: true
     description: Link 2
-    mode: "tagged-all"
+    mode: tagged-all
     untagged_vlan: 1
     tagged_vlans: []
     parent: null
