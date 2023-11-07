@@ -24,7 +24,7 @@ def discovery(nrni, filters=None, filter_type=None):
         ("show interface", None),
         ("show lldp neighbor-info detail", "show lldp neighbors-info detail"),
         ("show mac-address-table", None),
-        ("show arp all-vrfs", "show arp"),
+        ("show arp all-vrfs", None),
         ("show ip interface brief", None),
         ("show ip route all-vrfs", None),
         # Unsupported

@@ -199,6 +199,7 @@ FAILURE_OUTPUT = [
     r"Gateway of last resort is \d+\.\d+\.\d+\.\d+ to network \d+\.\d+\.\d+\.\d+\s*\Z",
     r"^\s*% VRF \S+ does not exist",  # Cisco invalid VRF
     r"^\s*% IP routing table vrf \S+ does not exist",  # Cisco invalid VRF
+    r"^\s*No LAG configured.",  # HPE Aruba
     r"^ERROR CODE \d+",  # HTTP requests
 ]
 
