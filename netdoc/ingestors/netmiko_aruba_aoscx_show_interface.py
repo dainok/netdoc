@@ -28,6 +28,7 @@ def ingest(log):
         enabled = utils.normalize_interface_status(item.get("link_status"))
         mtu = utils.normalize_interface_mtu(item.get("mtu"))
         parent_name = utils.parent_interface(label)
+        ip_addresses = [item.get("ip_address")] if item.get("ip_address") else []
 
         if parent_name:
             # Parent Interface is set
@@ -54,9 +55,12 @@ def ingest(log):
         }
         interface_o = interface.get(device_id=device_o.id, label=label)
         if not interface_o:
-            interface.create(**data)
+            interface_o = interface.create(**data)
         else:
-            interface.update(interface_o, **data)
+            interface_o = interface.update(interface_o, **data)
+
+        # Update Interface
+        interface.update_addresses(interface_o, ip_addresses=ip_addresses)
 
     # Update the log
     log.ingested = True
