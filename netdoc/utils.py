@@ -377,7 +377,7 @@ def log_ingest(log):
     """Ingest a log calling the custom ingestor."""
     function_name = (
         f"{log.details.get('framework')}_"
-        + f"{log.details.get('platform')}_{log.details.get('template')}"
+        + f"{log.details.get('platform')}_{log.template}"
     )
     function_name = function_name.replace(" ", "_")
     function_name = function_name.replace("-", "_")

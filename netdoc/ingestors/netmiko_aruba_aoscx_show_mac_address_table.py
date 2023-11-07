@@ -1,7 +1,7 @@
 """Ingestor for netmiko_aruba_aoscx_show_mac_address_table."""
 __author__ = "Andrea Dainese"
 __contact__ = "andrea@adainese.it"
-__copyright__ = "Copyright 2022, Andrea Dainese"
+__copyright__ = "Copyright 2023, Andrea Dainese"
 __license__ = "GPLv3"
 
 from netdoc.schemas import interface, macaddresstableentry
