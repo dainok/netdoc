@@ -1,16 +1,11 @@
 {
-    "configuration": false,
     "details": {
         "command": "<show><system><info></info></system></show>",
         "enable": false,
         "order": 0,
-        "supported": true,
-        "template": "show system info"
+        "template": "show system info",
+        "framework": "xml",
+        "platform": "panw_ngfw"
     },
-    "discoverable__mode": "xml_panw_ngfw",
-    "ingested": false,
-    "parsed": false,
-    "parsed_output": "",
-    "raw_output": "",
-    "success": true
+    "discoverable__mode": "xml_panw_ngfw"
 }
