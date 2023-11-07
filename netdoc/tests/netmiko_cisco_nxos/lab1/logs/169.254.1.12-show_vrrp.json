@@ -1,16 +1,11 @@
 {
-    "configuration": false,
     "details": {
         "command": "show vrrp",
         "enable": true,
         "order": 128,
-        "supported": false,
-        "template": "show vrrp"
+        "template": "show vrrp",
+        "framework": "netmiko",
+        "platform": "cisco_nxos"
     },
-    "discoverable__mode": "netmiko_cisco_nxos",
-    "ingested": false,
-    "parsed": false,
-    "parsed_output": "",
-    "raw_output": "",
-    "success": true
+    "discoverable__mode": "netmiko_cisco_nxos"
 }
