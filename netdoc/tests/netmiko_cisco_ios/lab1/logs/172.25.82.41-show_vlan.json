@@ -1,16 +1,11 @@
 {
-    "configuration": false,
     "details": {
         "command": "show vlan",
         "enable": true,
         "order": 10,
-        "supported": true,
-        "template": "show vlan"
+        "template": "show vlan",
+        "framework": "netmiko",
+        "platform": "cisco_ios"
     },
-    "discoverable__mode": "netmiko_cisco_ios",
-    "ingested": false,
-    "parsed": false,
-    "parsed_output": "",
-    "raw_output": "",
-    "success": true
+    "discoverable__mode": "netmiko_cisco_ios"
 }

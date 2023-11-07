@@ -667,9 +667,10 @@ def load_scenario(lab_path):
 
     # Ingest
     print("Ingesting... ", end="")
-    logs_qs = DiscoveryLog.objects.filter(parsed=True, supported=True, ingested=False).order_by("order")
+    logs_qs = DiscoveryLog.objects.filter(
+        parsed=True, supported=True, ingested=False
+    ).order_by("order")
     for log_o in logs_qs:
-        print(log_o)
         log_ingest(log_o)
         log_o.ingested = True
         log_o.save()
