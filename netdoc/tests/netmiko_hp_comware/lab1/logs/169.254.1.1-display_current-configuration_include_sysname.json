@@ -1,16 +1,11 @@
 {
-    "configuration": false,
     "details": {
         "command": "display current-configuration | include sysname",
         "enable": true,
         "order": 0,
-        "supported": true,
-        "template": "HOSTNAME"
+        "template": "HOSTNAME",
+        "framework": "netmiko",
+        "platform": "hp_comware"
     },
-    "discoverable__mode": "netmiko_hp_comware",
-    "ingested": false,
-    "parsed": false,
-    "parsed_output": "",
-    "raw_output": "",
-    "success": true
+    "discoverable__mode": "netmiko_hp_comware"
 }

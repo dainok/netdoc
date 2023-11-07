@@ -1,16 +1,11 @@
 {
-    "configuration": false,
     "details": {
         "command": "display link-aggregation verbose",
         "enable": true,
         "order": 7,
-        "supported": true,
-        "template": "display link-aggregation verbose"
+        "template": "display link-aggregation verbose",
+        "framework": "netmiko",
+        "platform": "hp_comware"
     },
-    "discoverable__mode": "netmiko_hp_comware",
-    "ingested": false,
-    "parsed": false,
-    "parsed_output": "",
-    "raw_output": "",
-    "success": true
+    "discoverable__mode": "netmiko_hp_comware"
 }
