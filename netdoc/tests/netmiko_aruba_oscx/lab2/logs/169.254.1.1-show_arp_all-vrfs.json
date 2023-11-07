@@ -1,0 +1,11 @@
+{
+    "details": {
+        "command": "show arp all-vrfs",
+        "enable": true,
+        "order": 128,
+        "template": "show arp all-vrfs",
+        "framework": "netmiko",
+        "platform": "aruba_aoscx"
+    },
+    "discoverable__mode": "netmiko_aruba_aoscx"
+}
