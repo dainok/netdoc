@@ -6,11 +6,9 @@
 # Set on GitHub -> Settings -> Environments:
 #   - add users who can review/approve on environment "release"
 # Set PYTHON_VERSION below to a specific Python version.
-# Set UBUNTU_VERSION below to a specific Ubuntu version.
 name: "CD"
 env:
   PYTHON_VERSION: v3.10
-  UBUNTU_VERSION: 22.04.3
 concurrency:
   # Cancel any existing runs of this workflow for this same PR
   group: "${{ github.workflow }}-${{ github.ref }}"
@@ -22,7 +20,7 @@ jobs:
   release:
     # Run only if the PR has been merged
     if: github.event.pull_request.merged == true
-    runs-on: "ubuntu-${{ env.UBUNTU_VERSION }}"
+    runs-on: ubuntu-latest
     environment: release
     steps:
       - name: "Setup Python3"
