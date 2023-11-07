@@ -309,8 +309,8 @@ NXOS11:
     mtu: 1500
     enabled: true
     description: ""
-    mode: ""
-    untagged_vlan: null
+    mode: access
+    untagged_vlan: 1
     tagged_vlans: []
     parent: null
     lag: null
@@ -327,8 +327,8 @@ NXOS11:
     mtu: 1500
     enabled: true
     description: ""
-    mode: ""
-    untagged_vlan: null
+    mode: access
+    untagged_vlan: 1
     tagged_vlans: []
     parent: null
     lag: null
@@ -345,8 +345,8 @@ NXOS11:
     mtu: 1500
     enabled: true
     description: ""
-    mode: ""
-    untagged_vlan: null
+    mode: access
+    untagged_vlan: 1
     tagged_vlans: []
     parent: null
     lag: null
@@ -363,8 +363,8 @@ NXOS11:
     mtu: 1500
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
+    mode: access
+    untagged_vlan: 1
     tagged_vlans: []
     parent: null
     lag: null
@@ -608,8 +608,8 @@ NXOS12:
     mtu: 1500
     enabled: true
     description: ""
-    mode: ""
-    untagged_vlan: null
+    mode: access
+    untagged_vlan: 1
     tagged_vlans: []
     parent: null
     lag: null
@@ -626,8 +626,8 @@ NXOS12:
     mtu: 1500
     enabled: true
     description: ""
-    mode: ""
-    untagged_vlan: null
+    mode: access
+    untagged_vlan: 1
     tagged_vlans: []
     parent: null
     lag: null
@@ -644,8 +644,8 @@ NXOS12:
     mtu: 1500
     enabled: true
     description: ""
-    mode: ""
-    untagged_vlan: null
+    mode: access
+    untagged_vlan: 1
     tagged_vlans: []
     parent: null
     lag: null
@@ -662,8 +662,8 @@ NXOS12:
     mtu: 1500
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
+    mode: access
+    untagged_vlan: 1
     tagged_vlans: []
     parent: null
     lag: null

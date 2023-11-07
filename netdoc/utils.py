@@ -602,6 +602,9 @@ def normalize_interface_speed(speed):
         speed = int(speed)
     except ValueError as exc:
         raise ValueError(f"Invalid interface speed {speed}") from exc
+    if speed == 0:
+        # Interfaces with speed 0 are down
+        return None
     return speed
 
 

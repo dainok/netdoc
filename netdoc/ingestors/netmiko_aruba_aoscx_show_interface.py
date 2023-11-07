@@ -30,9 +30,7 @@ def ingest(log):
         parent_name = utils.parent_interface(label)
         mode = utils.normalize_interface_mode(item.get("vlan_mode"))
         native_vlan = int(item.get("vlan_native")) if item.get("vlan_native") else None
-        access_vlan = (
-            int(item.get("vlan_access")) if item.get("vlan_access") else None
-        )
+        access_vlan = int(item.get("vlan_access")) if item.get("vlan_access") else None
         tagged_vlans = utils.normalize_vlan_list(item.get("vlan_trunk"))
         ip_addresses = [item.get("ip_address")] if item.get("ip_address") else []
 
@@ -71,11 +69,10 @@ def ingest(log):
             "mode": mode,
             "tagged_vlans": tagged_vlans,
         }
-        i = interface.update_mode(interface_o, **mode_data)
+        interface.update_mode(interface_o, **mode_data)
 
         # Update Interface
         interface.update_addresses(interface_o, ip_addresses=ip_addresses)
-
 
     # Update the log
     log.ingested = True

@@ -2,3 +2,13 @@
   name: DEFAULT_VLAN_1
 - vid: 20
   name: mgmt
+- vid: 19
+  name: VLAN0019
+- vid: 23
+  name: VLAN0023
+- vid: 24
+  name: VLAN0024
+- vid: 2016
+  name: VLAN2016
+- vid: 2033
+  name: VLAN2033

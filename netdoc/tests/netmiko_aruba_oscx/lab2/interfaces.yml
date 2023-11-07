@@ -2,7 +2,7 @@ SW1:
   - name: 1/1/1
     label: 1/1/1
     type: other
-    speed: 100000 
+    speed: 100000
     duplex: full
     mtu: 1500
     enabled: true
@@ -20,17 +20,21 @@ SW1:
   - name: 1/1/2
     label: 1/1/2
     type: other
-    speed: 100
+    speed: 1000000
     duplex: full
     mtu: 1500
     enabled: true
-    description: WiFi
-    mode: ""
-    untagged_vlan: 2033
-    tagged_vlans: []
+    description: Wifi
+    mode: tagged
+    untagged_vlan: 2016
+    tagged_vlans:
+      - 19
+      - 23
+      - 24
+      - 2016
     parent: null
     lag: null
-    mac_address: "88:25:10:FF:FF:FF"
+    mac_address: "88:25:10:FF:FF:FE"
     vrf: null
     ip_addresses: []
     connected_device: null
@@ -38,35 +42,21 @@ SW1:
   - name: 1/1/3
     label: 1/1/3
     type: other
-    speed: 100
+    speed: 1000000
     duplex: full
     mtu: 1500
     enabled: true
-    description: WiFi
-    mode: ""
-    untagged_vlan: 2033
-    tagged_vlans: []
+    description: Wifi
+    mode: tagged
+    untagged_vlan: 2016
+    tagged_vlans:
+      - 19
+      - 23
+      - 24
+      - 2016
     parent: null
     lag: null
-    mac_address: "88:25:10:FF:FF:FF"
-    vrf: null
-    ip_addresses: []
-    connected_device: null
-    connected_interface_label: null
-  - name: 1/1/1
-    label: 1/1/1
-    type: other
-    speed: 100
-    duplex: full
-    mtu: 1500
-    enabled: true
-    description: WiFi
-    mode: ""
-    untagged_vlan: 2033
-    tagged_vlans: []
-    parent: null
-    lag: null
-    mac_address: "88:25:10:FF:FF:FF"
+    mac_address: "88:25:10:FF:FF:FD"
     vrf: null
     ip_addresses: []
     connected_device: null
@@ -74,35 +64,40 @@ SW1:
   - name: 1/1/4
     label: 1/1/4
     type: other
-    speed: 100
+    speed: 1000000
     duplex: full
     mtu: 1500
     enabled: true
-    description: WiFi
-    mode: ""
-    untagged_vlan: 2033
-    tagged_vlans: []
+    description: Wifi
+    mode: tagged
+    untagged_vlan: 2016
+    tagged_vlans:
+      - 19
+      - 23
+      - 24
+      - 2016
     parent: null
     lag: null
-    mac_address: "88:25:10:FF:FF:FF"
+    mac_address: "88:25:10:FF:FF:FC"
     vrf: null
     ip_addresses: []
-    connected_device: null
-    connected_interface_label: null
+    connected_device: SW2
+    connected_interface_label: "48"
   - name: 1/1/5
     label: 1/1/5
     type: other
-    speed: 100
+    speed: 100000
     duplex: full
     mtu: 1500
     enabled: true
-    description: WiFi
-    mode: ""
+    description: Wifi
+    mode: tagged
     untagged_vlan: 2033
-    tagged_vlans: []
+    tagged_vlans:
+      - 2033
     parent: null
     lag: null
-    mac_address: "88:25:10:FF:FF:FF"
+    mac_address: "88:25:10:FF:FF:FB"
     vrf: null
     ip_addresses: []
     connected_device: null
@@ -110,17 +105,17 @@ SW1:
   - name: 1/1/6
     label: 1/1/6
     type: other
-    speed: 100
+    speed: null
     duplex: full
     mtu: 1500
-    enabled: true
-    description: WiFi
-    mode: ""
-    untagged_vlan: 2033
+    enabled: false
+    description: ""
+    mode: tagged-all
+    untagged_vlan: 1
     tagged_vlans: []
     parent: null
     lag: null
-    mac_address: "88:25:10:FF:FF:FF"
+    mac_address: "88:25:10:FF:FF:CD"
     vrf: null
     ip_addresses: []
     connected_device: null
@@ -128,690 +123,74 @@ SW1:
   - name: 1/1/7
     label: 1/1/7
     type: other
-    speed: 100
+    speed: null
     duplex: full
     mtu: 1500
-    enabled: true
-    description: WiFi
-    mode: ""
-    untagged_vlan: 2033
+    enabled: false
+    description: ""
+    mode: tagged-all
+    untagged_vlan: 1
     tagged_vlans: []
     parent: null
     lag: null
-    mac_address: "88:25:10:FF:FF:FF"
+    mac_address: "88:25:10:FF:FF:CC"
     vrf: null
     ip_addresses: []
     connected_device: null
     connected_interface_label: null
   - name: vlan1
     label: vl1
-    type: other
-    speed: 100
-    duplex: full
-    mtu: 1500
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
     enabled: true
-    description: WiFi
+    description: "Default"
     mode: ""
-    untagged_vlan: 2033
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
-    mac_address: "88:25:10:FF:FF:FF"
+    mac_address: "88:25:10:FF:FF:C0"
     vrf: null
     ip_addresses: []
     connected_device: null
     connected_interface_label: null
   - name: vlan20
     label: vl20
-    type: other
-    speed: 100
-    duplex: full
-    mtu: 1500
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
     enabled: true
-    description: WiFi
+    description: mgmt
     mode: ""
-    untagged_vlan: 2033
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
-    mac_address: "88:25:10:FF:FF:FF"
+    mac_address: "88:25:10:FF:FF:C0"
     vrf: null
-    ip_addresses: []
+    ip_addresses:
+      - 10.2.1.10/24
     connected_device: null
     connected_interface_label: null
-
-
-# Interface 1/1/1 is up 
-#  Admin state is up
-#  Link state: up for 9 months (since Wed Jan 18 15:55:56 CET 2023)
-#  Link transitions: 9
-#  Description: WiFi
-#  Hardware: Ethernet, MAC Address: 88:25:10:FF:FF:FF 
-#  MTU 1500 
-#  Type 1GbT
-#  Full-duplex 
-#  qos trust cos
-#  Speed 100 Mb/s 
-#  Auto-negotiation is on
-#  Energy-Efficient Ethernet is disabled
-#  Flow-control: off 
-#  Error-control: off 
-#  MDI mode: MDIX 
-#  VLAN Mode: native-untagged
-#  Native VLAN: 2033
-#  Allowed VLAN List: 2033
-#  Rate collection interval: 300 seconds
-
-#  Rate                               RX                   TX        Total (RX+TX)
-#  ---------------- -------------------- -------------------- --------------------
-#  Mbits / sec                      0.00                 0.00                 0.00
-#  KPkts / sec                      0.00                 0.00                 0.00
-#    Unicast                        0.00                 0.00                 0.00
-#    Multicast                      0.00                 0.00                 0.00
-#    Broadcast                      0.00                 0.00                 0.00
-#  Utilization                      0.00                 0.00                 0.00
-
-#  Statistic                          RX                   TX                Total
-#  ---------------- -------------------- -------------------- --------------------
-#  Packets                      24612099             39673355             64285454
-#    Unicast                    24608471             25244890             49853361
-#    Multicast                         0             12741453             12741453
-#    Broadcast                      3628              1687012              1690640
-#  Bytes                      9074606512          10743380379          19817986891
-#  Jumbos                              0                    0                    0
-#  Dropped                             0                    0                    0
-#  Pause Frames                        0                    0                    0
-#  Errors                              0                    0                    0
-#    CRC/FCS                           0                  n/a                    0
-#    Collision                       n/a                    0                    0
-#    Runts                             0                  n/a                    0
-#    Giants                            0                  n/a                    0
-
-# Interface 1/1/2 is up 
-#  Admin state is up
-#  Link state: up for 6 months (since Sat Apr 15 09:56:35 CEST 2023)
-#  Link transitions: 25
-#  Description: Wifi
-#  Hardware: Ethernet, MAC Address: 88:25:10:ff:ff:fe 
-#  MTU 1500 
-#  Type 1GbT
-#  Full-duplex 
-#  qos trust cos
-#  Speed 1000 Mb/s 
-#  Auto-negotiation is on
-#  Energy-Efficient Ethernet is disabled
-#  Flow-control: off 
-#  Error-control: off 
-#  MDI mode: MDIX 
-#  VLAN Mode: native-untagged
-#  Native VLAN: 2016
-#  Allowed VLAN List: 19,23-24,2016
-#  Rate collection interval: 300 seconds
-
-#  Rate                               RX                   TX        Total (RX+TX)
-#  ---------------- -------------------- -------------------- --------------------
-#  Mbits / sec                      0.00                 0.01                 0.01
-#  KPkts / sec                      0.00                 0.01                 0.01
-#    Unicast                        0.00                 0.00                 0.00
-#    Multicast                      0.00                 0.01                 0.01
-#    Broadcast                      0.00                 0.00                 0.00
-#  Utilization                      0.00                 0.00                 0.00
-
-#  Statistic                          RX                   TX                Total
-#  ---------------- -------------------- -------------------- --------------------
-#  Packets                      68597611            209496767            278094378
-#    Unicast                    59941378             58469524            118410902
-#    Multicast                   8566811            130470677            139037488
-#    Broadcast                     89422             20556566             20645988
-#  Bytes                     32713606499          53876121819          86589728318
-#  Jumbos                           9186                 3488                12674
-#  Dropped                             0                    0                    0
-#  Pause Frames                        0                    0                    0
-#  Errors                              0                    0                    0
-#    CRC/FCS                           0                  n/a                    0
-#    Collision                       n/a                    0                    0
-#    Runts                             0                  n/a                    0
-#    Giants                            0                  n/a                    0
-
-# Interface 1/1/3 is up 
-#  Admin state is up
-#  Link state: up for 6 months (since Sat Apr 15 09:56:38 CEST 2023)
-#  Link transitions: 25
-#  Description: Wifi
-#  Hardware: Ethernet, MAC Address: 88:25:10:ff:ff:fd 
-#  MTU 1500 
-#  Type 1GbT
-#  Full-duplex 
-#  qos trust cos
-#  Speed 1000 Mb/s 
-#  Auto-negotiation is on
-#  Energy-Efficient Ethernet is disabled
-#  Flow-control: off 
-#  Error-control: off 
-#  MDI mode: MDIX 
-#  VLAN Mode: native-untagged
-#  Native VLAN: 2016
-#  Allowed VLAN List: 19,23-24,2016
-#  Rate collection interval: 300 seconds
-
-#  Rate                               RX                   TX        Total (RX+TX)
-#  ---------------- -------------------- -------------------- --------------------
-#  Mbits / sec                      0.01                 0.02                 0.03
-#  KPkts / sec                      0.01                 0.01                 0.02
-#    Unicast                        0.01                 0.01                 0.02
-#    Multicast                      0.00                 0.01                 0.01
-#    Broadcast                      0.00                 0.00                 0.00
-#  Utilization                      0.00                 0.00                 0.00
-
-#  Statistic                          RX                   TX                Total
-#  ---------------- -------------------- -------------------- --------------------
-#  Packets                     225489458            347585365            573074823
-#    Unicast                   216828769            196565409            413394178
-#    Multicast                   8556053            130477380            139033433
-#    Broadcast                    104636             20542576             20647212
-#  Bytes                     29813576148          97672916111         127486492259
-#  Jumbos                          36960               559043               596003
-#  Dropped                             0                    0                    0
-#  Pause Frames                        0                    0                    0
-#  Errors                              0                    0                    0
-#    CRC/FCS                           0                  n/a                    0
-#    Collision                       n/a                    0                    0
-#    Runts                             0                  n/a                    0
-#    Giants                            0                  n/a                    0
-
-# Interface 1/1/4 is up 
-#  Admin state is up
-#  Link state: up for 6 months (since Sat Apr 15 09:56:37 CEST 2023)
-#  Link transitions: 25
-#  Description: Wifi
-#  Hardware: Ethernet, MAC Address: 88:25:10:ff:ff:fc 
-#  MTU 1500 
-#  Type 1GbT
-#  Full-duplex 
-#  qos trust cos
-#  Speed 1000 Mb/s 
-#  Auto-negotiation is on
-#  Energy-Efficient Ethernet is disabled
-#  Flow-control: off 
-#  Error-control: off 
-#  MDI mode: MDIX 
-#  VLAN Mode: native-untagged
-#  Native VLAN: 2016
-#  Allowed VLAN List: 19,23-24,2016
-#  Rate collection interval: 300 seconds
-
-#  Rate                               RX                   TX        Total (RX+TX)
-#  ---------------- -------------------- -------------------- --------------------
-#  Mbits / sec                      0.00                 0.01                 0.01
-#  KPkts / sec                      0.00                 0.01                 0.01
-#    Unicast                        0.00                 0.00                 0.00
-#    Multicast                      0.00                 0.01                 0.01
-#    Broadcast                      0.00                 0.00                 0.00
-#  Utilization                      0.00                 0.00                 0.00
-
-#  Statistic                          RX                   TX                Total
-#  ---------------- -------------------- -------------------- --------------------
-#  Packets                      63763164            222523939            286287103
-#    Unicast                    54924202             71682355            126606557
-#    Multicast                   8734143            130299218            139033361
-#    Broadcast                    104819             20542366             20647185
-#  Bytes                     12795130357          75557467181          88352597538
-#  Jumbos                          45565              3300612              3346177
-#  Dropped                             0                    0                    0
-#  Pause Frames                        0                    0                    0
-#  Errors                              0                    0                    0
-#    CRC/FCS                           0                  n/a                    0
-#    Collision                       n/a                    0                    0
-#    Runts                             0                  n/a                    0
-#    Giants                            0                  n/a                    0
-
-# Interface 1/1/5 is up 
-#  Admin state is up
-#  Link state: up for 9 months (since Thu Jan 19 09:44:10 CET 2023)
-#  Link transitions: 23
-#  Description: Wifi
-#  Hardware: Ethernet, MAC Address: 88:25:10:ff:ff:fb 
-#  MTU 1500 
-#  Type 1GbT
-#  Full-duplex 
-#  qos trust cos
-#  Speed 100 Mb/s 
-#  Auto-negotiation is on
-#  Energy-Efficient Ethernet is disabled
-#  Flow-control: off 
-#  Error-control: off 
-#  MDI mode: MDIX 
-#  VLAN Mode: native-untagged
-#  Native VLAN: 2033
-#  Allowed VLAN List: 2033
-#  Rate collection interval: 300 seconds
-
-#  Rate                               RX                   TX        Total (RX+TX)
-#  ---------------- -------------------- -------------------- --------------------
-#  Mbits / sec                      0.00                 0.00                 0.00
-#  KPkts / sec                      0.00                 0.00                 0.00
-#    Unicast                        0.00                 0.00                 0.00
-#    Multicast                      0.00                 0.00                 0.00
-#    Broadcast                      0.00                 0.00                 0.00
-#  Utilization                      0.00                 0.00                 0.00
-
-#  Statistic                          RX                   TX                Total
-#  ---------------- -------------------- -------------------- --------------------
-#  Packets                      19532843             34667011             54199854
-#    Unicast                    19529436             20244339             39773775
-#    Multicast                         0             12735410             12735410
-#    Broadcast                      3407              1687262              1690669
-#  Bytes                      3667223466           9634091220          13301314686
-#  Jumbos                              0                    0                    0
-#  Dropped                             0                    0                    0
-#  Pause Frames                        0                    0                    0
-#  Errors                              0                    0                    0
-#    CRC/FCS                           0                  n/a                    0
-#    Collision                       n/a                    0                    0
-#    Runts                             0                  n/a                    0
-#    Giants                            0                  n/a                    0
-
-# Interface 1/1/6 is down 
-#  Admin state is up
-#  State information: No XCVR installed
-#  Link state: down for 9 months (since Wed Jan 18 11:43:50 CET 2023)
-#  Link transitions: 0
-#  Description: 
-#  Hardware: Ethernet, MAC Address: 88:25:10:ff:ff:cd 
-#  MTU 1500 
-#  Type --
-#  Full-duplex 
-#  qos trust cos
-#  Speed 0 Mb/s 
-#  Auto-negotiation is on
-#  Flow-control: off 
-#  Error-control: off 
-#  VLAN Mode: native-untagged
-#  Native VLAN: 1
-#  Allowed VLAN List: all
-#  Rate collection interval: 300 seconds
-
-#  Rate                               RX                   TX        Total (RX+TX)
-#  ---------------- -------------------- -------------------- --------------------
-#  Mbits / sec                      0.00                 0.00                 0.00
-#  KPkts / sec                      0.00                 0.00                 0.00
-#    Unicast                        0.00                 0.00                 0.00
-#    Multicast                      0.00                 0.00                 0.00
-#    Broadcast                      0.00                 0.00                 0.00
-#  Utilization                      0.00                 0.00                 0.00
-
-#  Statistic                          RX                   TX                Total
-#  ---------------- -------------------- -------------------- --------------------
-#  Packets                             0                    0                    0
-#    Unicast                           0                    0                    0
-#    Multicast                         0                    0                    0
-#    Broadcast                         0                    0                    0
-#  Bytes                               0                    0                    0
-#  Jumbos                              0                    0                    0
-#  Dropped                             0                    0                    0
-#  Pause Frames                        0                    0                    0
-#  Errors                              0                    0                    0
-#    CRC/FCS                           0                  n/a                    0
-#    Collision                       n/a                    0                    0
-#    Runts                             0                  n/a                    0
-#    Giants                            0                  n/a                    0
-
-# Interface 1/1/7 is down 
-#  Admin state is up
-#  State information: No XCVR installed
-#  Link state: down for 9 months (since Wed Jan 18 11:43:50 CET 2023)
-#  Link transitions: 0
-#  Description: 
-#  Hardware: Ethernet, MAC Address: 88:25:10:ff:ff:cc 
-#  MTU 1500 
-#  Type --
-#  Full-duplex 
-#  qos trust cos
-#  Speed 0 Mb/s 
-#  Auto-negotiation is on
-#  Flow-control: off 
-#  Error-control: off 
-#  VLAN Mode: native-untagged
-#  Native VLAN: 1
-#  Allowed VLAN List: all
-#  Rate collection interval: 300 seconds
-
-#  Rate                               RX                   TX        Total (RX+TX)
-#  ---------------- -------------------- -------------------- --------------------
-#  Mbits / sec                      0.00                 0.00                 0.00
-#  KPkts / sec                      0.00                 0.00                 0.00
-#    Unicast                        0.00                 0.00                 0.00
-#    Multicast                      0.00                 0.00                 0.00
-#    Broadcast                      0.00                 0.00                 0.00
-#  Utilization                      0.00                 0.00                 0.00
-
-#  Statistic                          RX                   TX                Total
-#  ---------------- -------------------- -------------------- --------------------
-#  Packets                             0                    0                    0
-#    Unicast                           0                    0                    0
-#    Multicast                         0                    0                    0
-#    Broadcast                         0                    0                    0
-#  Bytes                               0                    0                    0
-#  Jumbos                              0                    0                    0
-#  Dropped                             0                    0                    0
-#  Pause Frames                        0                    0                    0
-#  Errors                              0                    0                    0
-#    CRC/FCS                           0                  n/a                    0
-#    Collision                       n/a                    0                    0
-#    Runts                             0                  n/a                    0
-#    Giants                            0                  n/a                    0
-
-# Interface vlan1 is up 
-#  Admin state is up
-#  Description: Default
-#  Hardware: Ethernet, MAC Address: 88:25:10:ff:ff:c0 
-
-#  Statistic                          RX                   TX                Total
-#  ---------------- -------------------- -------------------- --------------------
-#  L3 Packets                          0                    0                    0
-
-# Interface vlan20 is up 
-#  Admin state is up
-#  Description: mgmt
-#  Hardware: Ethernet, MAC Address: 88:25:10:ff:ff:c0 
-#  IPv4 address 10.2.1.10/24
-
-#  Statistic                          RX                   TX                Total
-#  ---------------- -------------------- -------------------- --------------------
-#  L3 Packets                          0                    0                    0
-
-
-#   - name: 1/1/2
-#     label: 1/1/2
-#     type: other
-#     speed: 10000
-#     duplex: full
-#     mtu: 1500
-#     enabled: true
-#     description: Management
-#     mode: ""
-#     untagged_vlan: null
-#     tagged_vlans: []
-#     parent: null
-#     lag: null
-#     mac_address: "AA:BB:CC:00:14:00"
-#     vrf: management
-#     ip_addresses: []
-#     connected_device: null
-#     connected_interface_label: null
-#   - name: Ethernet0/1
-#     label: e0/1
-#     type: other
-#     speed: 10000
-#     duplex: full
-#     mtu: 1500
-#     enabled: true
-#     description: Channel 1
-#     mode: tagged-all
-#     untagged_vlan: 1
-#     tagged_vlans: []
-#     parent: null
-#     lag: po1
-#     mac_address: "AA:BB:CC:00:14:10"
-#     vrf: null
-#     ip_addresses: []
-#     connected_device: SW2
-#     connected_interface_label: e0/1
-#   - name: Ethernet0/2
-#     label: e0/2
-#     type: other
-#     speed: 10000
-#     duplex: full
-#     mtu: 1500
-#     enabled: true
-#     description: Channel 2
-#     mode: tagged-all
-#     untagged_vlan: 1
-#     tagged_vlans: []
-#     parent: null
-#     lag: po1
-#     mac_address: "AA:BB:CC:00:14:20"
-#     vrf: null
-#     ip_addresses: []
-#     connected_device: SW2
-#     connected_interface_label: e0/2
-#   - name: Ethernet0/3
-#     label: e0/3
-#     type: other
-#     speed: 10000
-#     duplex: full
-#     mtu: 1500
-#     enabled: true
-#     description: Routed
-#     mode: ""
-#     untagged_vlan: null
-#     tagged_vlans: []
-#     parent: null
-#     lag: null
-#     mac_address: "AA:BB:CC:00:14:30"
-#     vrf: blue
-#     ip_addresses:
-#       - "10.0.2.1/24"
-#     connected_device: SW2
-#     connected_interface_label: e0/3
-#   - name: Ethernet1/0
-#     label: e1/0
-#     type: other
-#     speed: 10000
-#     duplex: full
-#     mtu: 1500
-#     enabled: true
-#     description: ""
-#     mode: ""
-#     untagged_vlan: null
-#     tagged_vlans: []
-#     parent: null
-#     lag: null
-#     mac_address: "AA:BB:CC:00:14:01"
-#     vrf: null
-#     ip_addresses:
-#       - "192.168.0.1/24"
-#     connected_device: SW2
-#     connected_interface_label: e1/0
-#   - name: Ethernet1/0.7
-#     label: e1/0.7
-#     type: virtual
-#     speed: 10000
-#     duplex: null
-#     mtu: 1500
-#     enabled: true
-#     description: ""
-#     mode: ""
-#     untagged_vlan: null
-#     tagged_vlans: []
-#     parent: e1/0
-#     lag: null
-#     mac_address: "AA:BB:CC:00:14:01"
-#     vrf: null
-#     ip_addresses:
-#       - "192.168.3.1/24"
-#     connected_device: null
-#     connected_interface_label: null
-#   - name: Ethernet1/1
-#     label: e1/1
-#     type: other
-#     speed: 10000
-#     duplex: auto
-#     mtu: 1500
-#     enabled: false
-#     description: ""
-#     mode: ""
-#     untagged_vlan: null
-#     tagged_vlans: []
-#     parent: null
-#     lag: null
-#     mac_address: "AA:BB:CC:00:14:11"
-#     vrf: null
-#     ip_addresses: []
-#     connected_device: null
-#     connected_interface_label: null
-#   - name: Ethernet1/2
-#     label: e1/2
-#     type: other
-#     speed: 10000
-#     duplex: auto
-#     mtu: 1500
-#     enabled: false
-#     description: ""
-#     mode: ""
-#     untagged_vlan: null
-#     tagged_vlans: []
-#     parent: null
-#     lag: null
-#     mac_address: "AA:BB:CC:00:14:21"
-#     vrf: null
-#     ip_addresses: []
-#     connected_device: null
-#     connected_interface_label: null
-#   - name: Ethernet1/3
-#     label: e1/3
-#     type: other
-#     speed: 10000
-#     duplex: auto
-#     mtu: 1500
-#     enabled: false
-#     description: ""
-#     mode: ""
-#     untagged_vlan: null
-#     tagged_vlans: []
-#     parent: null
-#     lag: null
-#     mac_address: "AA:BB:CC:00:14:31"
-#     vrf: null
-#     ip_addresses: []
-#     connected_device: null
-#     connected_interface_label: null
-#   - name: Port-channel1
-#     label: po1
-#     type: lag
-#     speed: 20000
-#     duplex: full
-#     mtu: 1500
-#     enabled: true
-#     description: Main Link
-#     mode: tagged-all
-#     untagged_vlan: 1
-#     tagged_vlans: []
-#     parent: null
-#     lag: null
-#     mac_address: "AA:BB:CC:00:14:20"
-#     vrf: null
-#     ip_addresses: []
-#     connected_device: null
-#     connected_interface_label: null
-#   - name: Vlan1
-#     label: vl1
-#     type: bridge
-#     speed: 1000000
-#     duplex: null
-#     mtu: 1500
-#     enabled: true
-#     description: ""
-#     mode: ""
-#     untagged_vlan: null
-#     tagged_vlans: []
-#     parent: null
-#     lag: null
-#     mac_address: "AA:BB:CC:80:14:00"
-#     vrf: red
-#     ip_addresses:
-#       - "10.0.1.1/24"
-#     connected_device: null
-#     connected_interface_label: null
-#   - name: Vlan100
-#     label: vl100
-#     type: bridge
-#     speed: 1000000
-#     duplex: null
-#     mtu: 1500
-#     enabled: true
-#     description: ""
-#     mode: ""
-#     untagged_vlan: null
-#     tagged_vlans: []
-#     parent: null
-#     lag: null
-#     mac_address: "AA:BB:CC:80:14:00"
-#     vrf: red
-#     ip_addresses:
-#       - "192.168.100.1/24"
-#     connected_device: null
-#     connected_interface_label: null
-# SW2:
-#   - name: null
-#     label: e0/1
-#     type: other
-#     speed: null
-#     duplex: null
-#     mtu: null
-#     enabled: true
-#     description: ""
-#     mode: ""
-#     untagged_vlan: null
-#     tagged_vlans: []
-#     parent: null
-#     lag: null
-#     mac_address: null
-#     vrf: null
-#     ip_addresses: []
-#     connected_device: SW1
-#     connected_interface_label: e0/1
-#   - name: null
-#     label: e0/2
-#     type: other
-#     speed: null
-#     duplex: null
-#     mtu: null
-#     enabled: true
-#     description: ""
-#     mode: ""
-#     untagged_vlan: null
-#     tagged_vlans: []
-#     parent: null
-#     lag: null
-#     mac_address: null
-#     vrf: null
-#     ip_addresses: []
-#     connected_device: SW1
-#     connected_interface_label: e0/2
-#   - name: null
-#     label: e0/3
-#     type: other
-#     speed: null
-#     duplex: null
-#     mtu: null
-#     enabled: true
-#     description: ""
-#     mode: ""
-#     untagged_vlan: null
-#     tagged_vlans: []
-#     parent: null
-#     lag: null
-#     mac_address: null
-#     vrf: null
-#     ip_addresses: []
-#     connected_device: SW1
-#     connected_interface_label: e0/3
-#   - name: null
-#     label: e1/0
-#     type: other
-#     speed: null
-#     duplex: null
-#     mtu: null
-#     enabled: true
-#     description: ""
-#     mode: ""
-#     untagged_vlan: null
-#     tagged_vlans: []
-#     parent: null
-#     lag: null
-#     mac_address: null
-#     vrf: null
-#     ip_addresses: []
-#     connected_device: SW1
-#     connected_interface_label: e1/0
+SW2:
+  - name: "48"
+    label: "48"
+    type: other
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: null
+    vrf: null
+    ip_addresses: []
+    connected_device: SW1
+    connected_interface_label: 1/1/4
