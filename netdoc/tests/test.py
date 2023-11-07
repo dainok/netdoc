@@ -690,6 +690,9 @@ class QuestionModelTests(TestCase):
             if re.match(r".*/lab\d+$", dirpath):
                 # Found a test scenario (lab)
                 # Load output files (DiscoveryLog)
+                print("-"*78)
+                print("Scenario", dirpath)
+                print("-"*78)
                 expected_result_files = load_scenario(dirpath)
 
                 # Run test
