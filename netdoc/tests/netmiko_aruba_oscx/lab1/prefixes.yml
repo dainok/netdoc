@@ -1,0 +1,3 @@
+- prefix: 10.1.2.0/24
+  vrf: null
+  site: test-site
