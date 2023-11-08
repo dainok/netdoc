@@ -185,7 +185,7 @@ Interface vlan1 is up
 
 Interface vlan3072 is up 
  Admin state is up
- Description: 3072_Network_Switch_MGT
+ Description: mgmt
  Hardware: Ethernet, MAC Address: bc:d7:a5:be:a5:00 
  IPv4 address 10.1.2.1/24
  L3 Counters: Rx Disabled, Tx Disabled 
