@@ -17,7 +17,7 @@ COMMAND = ""
 
 STOP_ON_ERROR = True
 
-REINGEST = True
+REINGEST = False
 
 # Don't edit below this line
 

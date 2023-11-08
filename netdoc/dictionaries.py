@@ -290,6 +290,13 @@ class DiscoveryModeChoices(ChoiceSet):
             "framework": "netmiko",
             "discovery_script": "netmiko_hp_procurve",  # Discovery script called by tasks.py
         },
+        "netmiko_hp_procurve_telnet": {
+            "name": "Netmiko HPE Procurve (Telnet)",
+            "platform": "hp_procurve_telnet",  # Netmiko type, used by Nornir
+            "protocol": "telnet",
+            "framework": "netmiko",
+            "discovery_script": "netmiko_hp_procurve",  # Discovery script called by tasks.py
+        },
         "netmiko_linux": {
             "name": "Netmiko Linux",
             "platform": "linux",  # Netmiko type, used by Nornir
