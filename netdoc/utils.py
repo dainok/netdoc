@@ -649,6 +649,9 @@ def normalize_interface_type(name="", encapsulation=""):
     if re.match(r"^(po|bond).*", label):
         # LAG (portchannel, bond)
         return "lag"
+    if label.startswith("lag"):
+        # LAG (portchannel, bond)
+        return "lag"
     if re.match(r"lo.*", label):
         # Loopback
         return "virtual"

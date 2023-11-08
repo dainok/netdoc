@@ -33,6 +33,7 @@ def ingest(log):
         access_vlan = int(item.get("vlan_access")) if item.get("vlan_access") else None
         tagged_vlans = utils.normalize_vlan_list(item.get("vlan_trunk"))
         ip_addresses = [item.get("ip_address")] if item.get("ip_address") else []
+        attached_interface_names = item.get("aggregated_interfaces")
 
         if parent_name:
             # Parent Interface is set
@@ -73,6 +74,25 @@ def ingest(log):
 
         # Update Interface
         interface.update_addresses(interface_o, ip_addresses=ip_addresses)
+
+        # LAG
+        for attached_interface_name in attached_interface_names:
+            attached_interface_label = utils.normalize_interface_label(
+                attached_interface_name
+            )
+            attached_interface_o = interface.get(
+                device_id=device_o.id, label=attached_interface_label
+            )
+            if not attached_interface_name:
+                attached_interface_data = {
+                    "name": attached_interface_name,
+                    "device_id": device_o.id,
+                }
+                attached_interface_o = interface.create(**attached_interface_data)
+            # Set LAG on attached Interface
+            attached_interface_o = interface.update(
+                attached_interface_o, lag_id=interface_o.id
+            )
 
     # Update the log
     log.ingested = True
