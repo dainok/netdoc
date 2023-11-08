@@ -3,3 +3,18 @@
   site: test-site
   credential: test-credential
   mode: netmiko_aruba_aoscx
+- address: 10.1.0.1
+  device: null
+  site: test-site
+  credential: test-credential
+  mode: netmiko_aruba_aoscx
+- address: 10.1.0.2
+  device: null
+  site: test-site
+  credential: test-credential
+  mode: netmiko_aruba_aoscx
+- address: 10.1.7.9
+  device: null
+  site: test-site
+  credential: test-credential
+  mode: netmiko_aruba_aoscx
