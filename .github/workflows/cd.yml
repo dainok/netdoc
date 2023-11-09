@@ -1,6 +1,5 @@
 # Set on GitHub -> Settings -> Secrets and variables -> Actions -> Secrets:
-#   - PYPI_USERNAME: PyPI username
-#   - PYPI_PASSWORD: PyPI password
+#   - PYPI_PASSWORD: PyPI API key
 # Set on GitHub -> Settings -> Actions -> General -> Workflow permissions:
 #   - Read and write permissions
 # Set on GitHub -> Settings -> Environments:
@@ -9,6 +8,7 @@
 name: "CD"
 env:
   PYTHON_VERSION: v3.10
+  TWINE_USERNAME: _token_
 concurrency:
   # Cancel any existing runs of this workflow for this same PR
   group: "${{ github.workflow }}-${{ github.ref }}"
@@ -52,5 +52,4 @@ jobs:
       - name: "Publish to PyPI"
         run: "twine upload dist/*"
         env:
-          TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
           TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
