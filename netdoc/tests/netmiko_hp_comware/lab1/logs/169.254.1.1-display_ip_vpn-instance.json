@@ -1,16 +1,11 @@
 {
-    "configuration": false,
     "details": {
         "command": "display ip vpn-instance",
         "enable": true,
         "order": 3,
-        "supported": true,
-        "template": "display ip vpn-instance"
+        "template": "display ip vpn-instance",
+        "framework": "netmiko",
+        "platform": "hp_comware"
     },
-    "discoverable__mode": "netmiko_hp_comware",
-    "ingested": false,
-    "parsed": false,
-    "parsed_output": "",
-    "raw_output": "",
-    "success": true
+    "discoverable__mode": "netmiko_hp_comware"
 }

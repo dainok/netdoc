@@ -17,8 +17,8 @@ from nornir.core.filter import F
 from django.conf import settings
 
 from netdoc.nornir_inventory import AssetInventory
-from netdoc.models import DiscoveryModeChoices
 from netdoc import utils
+from netdoc.dictionaries import DiscoveryModeChoices
 
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 
@@ -87,16 +87,23 @@ def discovery(addresses=None, script_handler=None, filters=None, filter_type=Non
         )
 
     # Run discovery scripts
-    for mode, description in DiscoveryModeChoices():
+    for (
+        key,  # pylint: disable=unused-variable
+        value,
+    ) in DiscoveryModeChoices.MODES.items():
         # framework = mode.split("_").pop(0)
-        platform = "_".join(mode.split("_")[1:])
+        platform = value.get("platform")
+        description = value.get("name")
+        mode = value.get("discovery_script")
         filtered_devices = nrni.filter(platform=platform)
         filtered_addresses = (
             filtered_devices.dict().get("inventory").get("hosts").keys()
         )
         if not filtered_addresses:
             if script_handler:
-                script_handler.log_warning(f"No {description} device found")
+                script_handler.log_warning(
+                    f"No {description} ({platform}) device found"
+                )
             continue
         if script_handler:
             script_handler.log_info(f"Starting discovery of {description} devices")

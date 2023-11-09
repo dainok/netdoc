@@ -1,16 +1,11 @@
 {
-    "configuration": false,
     "details": {
         "command": "show ip eigrp neighbors",
         "enable": true,
         "order": 128,
-        "supported": false,
-        "template": "show ip eigrp neighbors"
+        "template": "show ip eigrp neighbors",
+        "framework": "netmiko",
+        "platform": "cisco_ios"
     },
-    "discoverable__mode": "netmiko_cisco_ios",
-    "ingested": false,
-    "parsed": false,
-    "parsed_output": "",
-    "raw_output": "",
-    "success": true
+    "discoverable__mode": "netmiko_cisco_ios"
 }

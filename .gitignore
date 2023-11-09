@@ -138,5 +138,9 @@ nohup.out
 # Reports
 *.csv
 
+# Archives
+.tar.gz
+.zip
+
 # Don't ignore
 !docker/*

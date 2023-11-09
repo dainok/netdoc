@@ -1,9 +1,8 @@
 """Run discovery directly (without RQ).
 
 Usage:
-/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < run_discovery_command.py
+/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < discovery_netmiko_command.py
 """
-
 import json
 import logging
 import pprint

@@ -156,8 +156,7 @@ def update_mode(obj, mode=None, untagged_vlan=None, tagged_vlans=None):
     if mode == "tagged" and tagged_vlans and len(tagged_vlans) >= 4093:
         # Trunk with all VLANs (override mode)
         # In some switch the trunk is excluding native VLAN, so total is 4093.
-        obj.mode = "tagged-all"
-        obj.save()
+        obj = utils.object_update(obj, mode="tagged-all", force=False)
     elif mode == "tagged":
         # Trunk with some VLANs
         # Query once to speed up the process
@@ -205,8 +204,7 @@ def update_mode(obj, mode=None, untagged_vlan=None, tagged_vlans=None):
             vlan_qs = existent_vlan_qs.filter(vid__in=vlans_to_be_removed)
             obj.tagged_vlans.remove(*vlan_qs)
 
-        obj.mode = mode
-        obj.save()
+        obj = utils.object_update(obj, mode=mode, force=False)
 
     if untagged_vlan and mode in ["tagged", "access"]:
         # Get current VLAN IDs and compare them with untagged_vlan
@@ -263,5 +261,4 @@ def update_addresses(obj, ip_addresses=None):
             # Remove unconfigured IP Address
             obj.ip_addresses.remove(ip_address_o)
 
-    obj.save()
     return obj

@@ -1,0 +1,24 @@
+- name: SW1
+  site: test-site
+  model: Unknown HPE device
+  manufacturer: HPE
+  address: null
+  serial: SG21KN0001
+- name: AP1
+  site: test-site
+  model: Unknown device
+  manufacturer: Unknown
+  address: null
+  serial: ""
+- name: CORE1
+  site: test-site
+  model: Unknown device
+  manufacturer: Unknown
+  address: null
+  serial: ""
+- name: CORE2
+  site: test-site
+  model: Unknown device
+  manufacturer: Unknown
+  address: null
+  serial: ""

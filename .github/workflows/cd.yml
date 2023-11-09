@@ -5,7 +5,10 @@
 #   - Read and write permissions
 # Set on GitHub -> Settings -> Environments:
 #   - add users who can review/approve on environment "release"
+# Set PYTHON_VERSION below to a specific Python version.
 name: "CD"
+env:
+  PYTHON_VERSION: v3.10
 concurrency:
   # Cancel any existing runs of this workflow for this same PR
   group: "${{ github.workflow }}-${{ github.ref }}"
@@ -22,6 +25,8 @@ jobs:
     steps:
       - name: "Setup Python3"
         uses: actions/setup-python@v3
+        with:
+          python-version: "${{ env.PYTHON_VERSION }}"
       - name: "Install Twine"
         run: pip install twine
       - name: "Check out repository code"

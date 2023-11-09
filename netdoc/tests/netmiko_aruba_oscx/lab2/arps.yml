@@ -1,0 +1,5 @@
+- device: SW1
+  interface: vl20
+  ip_address: 10.2.1.254
+  mac_address: 00:1B:17:FF:00:01
+  vendor: Palo Alto Networks

@@ -1,9 +1,8 @@
 """Run discovery directly (without RQ).
 
 Usage:
-/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < run_discovery_immediate.py
+/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < discovery_immediate.py
 """
-
 from netdoc.models import Discoverable
 from netdoc.tasks import discovery
 

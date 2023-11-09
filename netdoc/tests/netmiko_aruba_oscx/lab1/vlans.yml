@@ -1,0 +1,8 @@
+- vid: 1
+  name: DEFAULT_VLAN_1
+- vid: 666
+  name: VLAN0666
+- vid: 3072
+  name: mgmt
+- vid: 3077
+  name: VLAN3077

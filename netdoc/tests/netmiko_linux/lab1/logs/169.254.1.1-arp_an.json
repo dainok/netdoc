@@ -1,16 +1,11 @@
 {
-    "configuration": false,
     "details": {
         "command": "arp -an",
         "enable": true,
         "order": 10,
-        "supported": true,
-        "template": "arp -an"
+        "template": "arp -an",
+        "framework": "netmiko",
+        "platform": "linux"
     },
-    "discoverable__mode": "netmiko_linux",
-    "ingested": false,
-    "parsed": false,
-    "parsed_output": "",
-    "raw_output": "",
-    "success": true
+    "discoverable__mode": "netmiko_linux"
 }

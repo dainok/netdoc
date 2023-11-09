@@ -11,8 +11,7 @@ from jinja2 import Template, select_autoescape
 
 from django.conf import settings
 
-from netdoc.models import DeviceImageChoices
-from netdoc.utils import DRAWIO_ROLE_MAP
+from netdoc.dictionaries import DeviceImageChoices, DRAWIO_ROLE_MAP
 
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 ROLE_MAP = PLUGIN_SETTINGS.get("ROLE_MAP")
@@ -251,8 +250,13 @@ def get_l3_topology_data(interface_list, details):
                 # Virtual device
                 device_o = interface_o.virtual_machine
                 device_name = device_o.name
-                role_color = device_o.role.color
-                device_role = device_o.role.slug
+                if device_o.role:
+                    role_color = device_o.role.color
+                    device_role = device_o.role.slug
+                else:
+                    # Role is not set, use default
+                    role_color = "000000"
+                    device_role = "unknown"
             else:
                 # Physical device
                 device_o = interface_o.device

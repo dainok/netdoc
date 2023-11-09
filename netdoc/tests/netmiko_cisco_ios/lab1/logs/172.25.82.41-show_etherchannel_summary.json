@@ -1,16 +1,11 @@
 {
-    "configuration": false,
     "details": {
         "command": "show etherchannel summary",
         "enable": true,
         "order": 128,
-        "supported": true,
-        "template": "show etherchannel summary"
+        "template": "show etherchannel summary",
+        "framework": "netmiko",
+        "platform": "cisco_ios"
     },
-    "discoverable__mode": "netmiko_cisco_ios",
-    "ingested": false,
-    "parsed": false,
-    "parsed_output": "",
-    "raw_output": "",
-    "success": true
+    "discoverable__mode": "netmiko_cisco_ios"
 }

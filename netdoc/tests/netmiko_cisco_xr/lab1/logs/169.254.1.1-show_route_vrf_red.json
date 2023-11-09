@@ -1,17 +1,12 @@
 {
-    "configuration": false,
     "details": {
         "command": "show route vrf red",
         "enable": true,
         "order": 128,
-        "supported": true,
         "template": "show route",
-        "vrf": "red"
+        "vrf": "red",
+        "framework": "netmiko",
+        "platform": "cisco_xr"
     },
-    "discoverable__mode": "netmiko_cisco_xr",
-    "ingested": false,
-    "parsed": false,
-    "parsed_output": "",
-    "raw_output": "",
-    "success": true
+    "discoverable__mode": "netmiko_cisco_xr"
 }

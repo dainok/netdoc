@@ -1,0 +1,20 @@
+- device: SW1
+  interface: 1/1/1
+  vlan: 1
+  mac_address: 08:F1:EA:4D:00:01
+  vendor: Hewlett Packard Enterprise
+- device: SW1
+  interface: 1/1/2
+  vlan: 1
+  mac_address: 08:F1:EA:4D:00:02
+  vendor: Hewlett Packard Enterprise
+- device: SW1
+  interface: 1/1/1
+  vlan: 20
+  mac_address: E4:24:6C:23:33:33
+  vendor: Zhejiang Dahua Technology Co., Ltd.
+- device: SW1
+  interface: 1/1/2
+  vlan: 20
+  mac_address: E0:50:8B:5A:33:33
+  vendor: Zhejiang Dahua Technology Co., Ltd.

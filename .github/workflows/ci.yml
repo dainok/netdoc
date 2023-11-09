@@ -1,6 +1,17 @@
-# Set on GitHub -> Settings -> Secrets and variables -> Actions -> Variables:
-#   - NETBOX_VERSION: "v3.5.8"
+# Set on GitHub -> Settings -> Secrets and variables -> Actions -> Secrets:
+#   - PYPI_USERNAME: PyPI username
+#   - PYPI_PASSWORD: PyPI password
+# Set on GitHub -> Settings -> Actions -> General -> Workflow permissions:
+#   - Read and write permissions
+# Set on GitHub -> Settings -> Environments:
+#   - add users who can review/approve on environment "release"
+# Set NETBOX_VERSION below to a specific Netbox version.
+# Set PYTHON_VERSION below to a specific Python version.
+# Set UBUNTU_VERSION below to a specific Ubuntu version.
 name: "CI"
+env:
+  NETBOX_VERSION: v3.5.8
+  PYTHON_VERSION: v3.10
 concurrency:
   # Cancel any existing runs of this workflow for this same PR
   group: "${{ github.workflow }}-${{ github.ref }}"
@@ -14,6 +25,8 @@ jobs:
     steps:
       - name: "Setup Python3"
         uses: actions/setup-python@v3
+        with:
+          python-version: "${{ env.PYTHON_VERSION }}"
       - name: "Check out NetDoc repository code"
         uses: actions/checkout@v3
       - name: "Install and run pre-commit"
@@ -23,11 +36,13 @@ jobs:
     steps:
       - name: "Setup Python3"
         uses: actions/setup-python@v3
+        with:
+          python-version: "${{ env.PYTHON_VERSION }}"
       - name: "Check out Netbox repository code"
         uses: actions/checkout@v3
         with:
           repository: "netbox-community/netbox"
-          ref: "${{ vars.NETBOX_VERSION }}"
+          ref: "${{ env.NETBOX_VERSION }}"
           path: "netbox"
           fetch-depth: "0"
       - name: "Check out NetDoc repository code"
@@ -67,6 +82,8 @@ jobs:
         run: "sudo su - postgres -c 'psql -c \"alter user netbox createdb\"'"
       - name: "Setup Python3"
         uses: actions/setup-python@v3
+        with:
+          python-version: "${{ env.PYTHON_VERSION }}"
       - name: "Check out NetDoc repository code"
         uses: actions/checkout@v3
         with:
@@ -76,7 +93,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: "netbox-community/netbox"
-          ref: "${{ vars.NETBOX_VERSION }}"
+          ref: "${{ env.NETBOX_VERSION }}"
           path: "netbox"
       - name: "Check out NTC-Templates repository code"
         uses: actions/checkout@v3

@@ -15,6 +15,8 @@ repos:
         exclude: \.raw|migrations|docker|venv
       - id: check-added-large-files
         exclude: \.raw|migrations|docker|venv
+      - id: check-json
+        exclude: \.raw|migrations|docker|venv
   - repo: https://github.com/adrienverge/yamllint.git
     rev: v1.32.0
     hooks:

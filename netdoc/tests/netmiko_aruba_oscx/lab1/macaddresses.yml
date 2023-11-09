@@ -1,0 +1,10 @@
+- device: SW1
+  interface: lag1
+  vlan: 3072
+  mac_address: BC:D7:A5:BF:00:40
+  vendor: null
+- device: SW1
+  interface: lag1
+  vlan: 3072
+  mac_address: B8:D4:E7:07:00:00
+  vendor: Aruba, a Hewlett Packard Enterprise Company

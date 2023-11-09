@@ -1,7 +1,7 @@
 """Import exported DiscoveryLogs.
 
 Usage:
-/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < export_log.py
+/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < lab_export.py
 """
 from os import makedirs
 import json

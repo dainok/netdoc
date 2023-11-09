@@ -1,0 +1,5 @@
+- device: SW1
+  interface: vl3072
+  ip_address: 10.101.72.1
+  mac_address: 00:1B:17:00:01:31
+  vendor: Palo Alto Networks

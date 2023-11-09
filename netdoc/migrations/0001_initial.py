@@ -12,9 +12,10 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
+        ("virtualization", "0034_standardize_description_comments"),
+        ("ipam", "0066_iprange_mark_utilized"),
         ("extras", "0092_delete_jobresult"),
-        ("dcim", "0153_created_datetimefield"),
-        ("ipam", "0057_created_datetimefield"),
+        ("dcim", "0172_larger_power_draw_values"),
     ]
 
     operations = [

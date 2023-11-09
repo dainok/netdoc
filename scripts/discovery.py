@@ -1,7 +1,7 @@
 """Run discovery via RQ.
 
 Usage:
-/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < run_discovery.py
+/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < discovery.py
 """
 import uuid
 

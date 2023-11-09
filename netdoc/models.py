@@ -24,105 +24,23 @@ from django.conf import settings
 
 from ipam.fields import IPAddressField
 from dcim.fields import MACAddressField
-from utilities.choices import ChoiceSet
 from netbox.models import NetBoxModel
 
 from netdoc.utils import (
     parse_netmiko_output,
-    CONFIG_COMMANDS,
-    FAILURE_OUTPUT,
     is_command_supported,
+)
+from netdoc.dictionaries import (
+    CONFIG_COMMANDS,
+    CREDENTIAL_ENCRYPTED_FIELDS,
+    FAILURE_OUTPUT,
+    DiagramModeChoices,
+    DiscoveryModeChoices,
+    RouteTypeChoices,
 )
 
 SECRET_KEY = settings.SECRET_KEY.encode("utf-8")
 FERNET_KEY = base64.urlsafe_b64encode(SECRET_KEY.ljust(32)[:32])
-CREDENTIAL_ENCRYPTED_FIELDS = [
-    "password",
-    "enable_password",
-]
-
-
-class DeviceImageChoices(ChoiceSet):
-    """Image used in diagrams associated to device roles."""
-
-    CHOICES = [
-        ("access-switch", "Access Switch"),
-        ("core-switch", "Core Switch"),
-        ("distribution-switch", "Distribution Switch"),
-        ("firewall", "Firewall"),
-        ("laptop", "Laptop"),
-        ("load-balancer", "Load Balancer"),
-        ("mobile", "Mobile device"),
-        ("router", "Router"),
-        ("server", "Server"),
-        ("storage", "Storage"),
-        ("unknown", "Unknown"),
-        ("virtual-switch", "Virtual Switch"),
-        ("wireless-ap", "Wireless AP"),
-        ("wireless-controller", "Wireless Controller"),
-        ("workstation", "Workstation"),
-    ]
-
-
-class DiagramModeChoices(ChoiceSet):
-    """Diagram mode."""
-
-    CHOICES = [
-        ("l2", "L2"),
-        ("l3", "L3"),
-        ("site", "Site connections"),
-        # ("stp", "STP"),
-    ]
-
-
-class DiscoveryModeChoices(ChoiceSet):
-    """Discovey mode."""
-
-    CHOICES = [
-        ("netmiko_cisco_ios", "Netmiko Cisco IOS XE"),
-        ("netmiko_cisco_ios_telnet", "Netmiko Cisco IOS XE (Telnet)"),
-        ("netmiko_cisco_nxos", "Netmiko Cisco NX-OS"),
-        ("netmiko_cisco_xr", "Netmiko Cisco XR"),
-        ("netmiko_hp_comware", "Netmiko HPE Comware"),
-        ("netmiko_hp_procurve", "Netmiko HPE Procurve"),
-        ("netmiko_linux", "Netmiko Linux"),
-        ("json_vmware_vsphere", "VMware vSphere"),
-        ("xml_panw_ngfw", "Palo Alto Networks NGFW"),
-    ]
-
-
-class FilterModeChoices(ChoiceSet):
-    """Filter types used in NetDoc scripts."""
-
-    CHOICES = [
-        ("include", "Include only"),
-        ("exclude", "Exclude"),
-    ]
-
-
-class RouteTypeChoices(ChoiceSet):
-    """Route type."""
-
-    CHOICES = [
-        ("u", "Unknown"),
-        ("b", "BGP"),
-        ("c", "Connected"),
-        ("s", "Static"),
-        ("u", "User-space"),
-        ("r", "RIP"),
-        ("e", "EIGRP"),
-        ("ex", "EIGRP external"),
-        ("o", "OSPF intra area"),
-        ("oia", "OSPF inter area"),
-        ("on1", "OSPF NSSA external type 1"),
-        ("on2", "OSPF NSSA external type 2"),
-        ("oe1", "OSPF external type 1"),
-        ("oe2", "OSPF external type 2"),
-        ("i", "IS-IS"),
-        ("is", "IS-IS summary"),
-        ("i1", "IS-IS level-1"),
-        ("i2", "IS-IS level-2"),
-    ]
 
 
 #
@@ -458,7 +376,7 @@ class DiscoveryLog(NetBoxModel):
     )  # True if excuting request return OK and raw_output is valid (avoid command not found)
     supported = models.BooleanField(
         default=True, editable=False
-    )  #: False if output is unsupported (won't be parsed/ingested)
+    )  #: False if output is unsupported (won't be ingested)
     parsed = models.BooleanField(
         default=False, editable=False
     )  #: True if parsing raw_output return a valid JSON
@@ -500,9 +418,17 @@ class DiscoveryLog(NetBoxModel):
         self.parsed = False
         self.parsed_output = ""
 
+        # Check if the command is a configuration file
+        configuration = False
+        for regex in CONFIG_COMMANDS:
+            if re.search(regex, self.command):
+                configuration = True
+        self.configuration = configuration
+
         # Check if the command is supported
-        if not self.supported:
-            return
+        self.supported = is_command_supported(
+            self.details.get("framework"), self.details.get("platform"), self.template
+        )
 
         # Check if the output is completed successfully
         for regex in FAILURE_OUTPUT:
@@ -551,8 +477,8 @@ class DiscoveryLog(NetBoxModel):
         self.parsed = parsed
 
     def save(self, *args, **kwargs):
-        """Set supported flag and parse raw_output when creating."""
-        if not self.pk:
+        """Set details when creating."""
+        if self.pk:
             # Check if command is supported
             mode = self.discoverable.mode  # pylint: disable=no-member
             framework = mode.split("_")[0]
@@ -561,23 +487,13 @@ class DiscoveryLog(NetBoxModel):
                 protocol = mode.split("_")[3]  # pylint: disable=no-member
             except IndexError:
                 protocol = "default"
-            template = self.template
-            supported = is_command_supported(framework, platform, template)
-
-            # Check if the command is a configuration file
-            configuration = False
-            for regex in CONFIG_COMMANDS:
-                if re.search(regex, self.command):
-                    configuration = True
 
             # Update log details
             details = self.details
             details["framework"] = framework
             details["platform"] = platform
             details["protocol"] = protocol
-            self.supported = supported
             self.details = details
-            self.configuration = configuration
 
             # Parse
             self.parse()

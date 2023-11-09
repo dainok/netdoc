@@ -1,16 +1,11 @@
 {
-    "configuration": false,
     "details": {
         "command": "show version",
         "enable": true,
         "order": 0,
-        "supported": true,
-        "template": "HOSTNAME"
+        "template": "HOSTNAME",
+        "framework": "netmiko",
+        "platform": "cisco_ios"
     },
-    "discoverable__mode": "netmiko_cisco_ios",
-    "ingested": false,
-    "parsed": false,
-    "parsed_output": "",
-    "raw_output": "",
-    "success": true
+    "discoverable__mode": "netmiko_cisco_ios"
 }

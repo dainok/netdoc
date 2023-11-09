@@ -1,16 +1,11 @@
 {
-    "configuration": false,
     "details": {
         "command": "show cdp neighbors detail",
         "enable": true,
         "order": 10,
-        "supported": true,
-        "template": "show cdp neighbors detail"
+        "template": "show cdp neighbors detail",
+        "framework": "netmiko",
+        "platform": "cisco_ios"
     },
-    "discoverable__mode": "netmiko_cisco_ios_telnet",
-    "ingested": false,
-    "parsed": false,
-    "parsed_output": "",
-    "raw_output": "",
-    "success": true
+    "discoverable__mode": "netmiko_cisco_ios_telnet"
 }
