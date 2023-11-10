@@ -45,8 +45,10 @@ jobs:
           DEFAULT_BUMP: patch
           VERBOSE: false
           BRANCH_HISTORY: last
-      - name: "Set new version"
-        run: sed -i "s/0.0.1-dev1/${{steps.tag.outputs.new_tag}}/" setup.py */__init__.py
+      - name: "Set version on __init__.py"
+        run: sed -i 's/version =.*/version = "${{steps.tag.outputs.new_tag}}"/' setup.py */__init__.py
+      - name: "Set version on setup.py"
+        run: sed -i 's/__version__ =.*/__version__ = "${{steps.tag.outputs.new_tag}}"/' setup.py
       - name: "Building the package"
         run: "python3 setup.py sdist"
       - name: "Publish to PyPI"
