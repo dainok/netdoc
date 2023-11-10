@@ -6,6 +6,7 @@ __license__ = "GPLv3"
 
 import os
 import pkgutil
+import shutil
 
 from django.conf import settings
 
@@ -73,6 +74,8 @@ class NetdocConfig(PluginConfig):
             script_file_o = DataFile.objects.get(path=script_filename)
             try:
                 ScriptModule.objects.get(file_path=script_filename)
+                # Overwrite scripts
+                shutil.copy(f"{jobs_path}/{script_filename}", settings.SCRIPTS_ROOT)
             except ScriptModule.DoesNotExist:  # pylint: disable=no-member
                 script_o = ScriptModule.objects.create(
                     auto_sync_enabled=True,
@@ -91,6 +94,8 @@ class NetdocConfig(PluginConfig):
             report_file_o = DataFile.objects.get(path=report_filename)
             try:
                 ReportModule.objects.get(file_path=report_filename)
+                # Overwrite reports
+                shutil.copy(f"{jobs_path}/{report_filename}", settings.REPORTS_ROOT)
             except ReportModule.DoesNotExist:  # pylint: disable=no-member
                 report_o = ReportModule.objects.create(
                     auto_sync_enabled=True,
