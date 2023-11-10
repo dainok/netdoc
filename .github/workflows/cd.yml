@@ -8,7 +8,6 @@
 name: "CD"
 env:
   PYTHON_VERSION: v3.10
-  TWINE_USERNAME: _token_
 concurrency:
   # Cancel any existing runs of this workflow for this same PR
   group: "${{ github.workflow }}-${{ github.ref }}"
@@ -46,7 +45,7 @@ jobs:
           VERBOSE: false
           BRANCH_HISTORY: last
       - name: "Set version on __init__.py"
-        run: sed -i 's/version =.*/version = "${{steps.tag.outputs.new_tag}}"/' setup.py */__init__.py
+        run: sed -i 's/version =.*/version = "${{steps.tag.outputs.new_tag}}"/' */__init__.py
       - name: "Set version on setup.py"
         run: sed -i 's/__version__ =.*/__version__ = "${{steps.tag.outputs.new_tag}}"/' setup.py
       - name: "Building the package"
@@ -54,4 +53,5 @@ jobs:
       - name: "Publish to PyPI"
         run: "twine upload dist/*"
         env:
+          TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
