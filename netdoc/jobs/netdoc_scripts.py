@@ -326,7 +326,9 @@ class Ingest(Script):
         else:
             # This is the parent job, get all logs to be ingested
             self.log_info("This is the parent ingest job")
-            log_list_qs = DiscoveryLog_m.objects.filter(supported=True, parsed=True).order_by("order")
+            log_list_qs = DiscoveryLog_m.objects.filter(
+                supported=True, parsed=True
+            ).order_by("order")
             if not data.get("re_ingest"):
                 # Filter out logs already ingested
                 log_list_qs = log_list_qs.filter(ingested=False)
