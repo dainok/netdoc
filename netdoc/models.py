@@ -478,7 +478,7 @@ class DiscoveryLog(NetBoxModel):
 
     def save(self, *args, **kwargs):
         """Set details when creating."""
-        if self.pk:
+        if not self.pk:
             # Check if command is supported
             mode = self.discoverable.mode  # pylint: disable=no-member
             framework = mode.split("_")[0]
