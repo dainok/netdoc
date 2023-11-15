@@ -391,6 +391,9 @@ class Purge(Script):
         macaddressentries_qs = MacAddressTableEntry_m.objects.filter(
             last_updated__lt=today_minus_x
         )
+        orphan_arpentries_qs = ArpTableEntry_m.objects.filter(
+            interface__ip_addresses__isnull=True
+        )
 
         self.log_info(f"Deleting entries updated before f{today_minus_x}")
         self.log_info(f"Deleting {len(discoverylogs_qs)} discovery logs")
@@ -402,6 +405,9 @@ class Purge(Script):
         self.log_info(f"Deleting {len(macaddressentries_qs)} MAC address table entries")
         if macaddressentries_qs:
             macaddressentries_qs.delete()
+        self.log_info(f"Deleting {len(orphan_arpentries_qs)} orphan ARP table entries")
+        if orphan_arpentries_qs:
+            orphan_arpentries_qs.delete()
         self.log_info("Purge completed")
 
 
@@ -423,7 +429,9 @@ class IPAMFromARP(Script):
 
         ARPTableEntry.Interface.IPAddress.VRF must be equal to Prefix.VRF.
         """
-        for arptableentry_o in ArpTableEntry_m.objects.all():
+        for arptableentry_o in ArpTableEntry_m.objects.exclude(
+            interface__ip_addresses__isnull=True
+        ):
             try:
                 interface_vrf_o = arptableentry_o.interface.ip_addresses.first().vrf
             except AttributeError:
