@@ -273,10 +273,6 @@ def update_addresses(obj, ip_addresses=None):
         if not ip_address:
             # Skip empty IP addresses
             continue
-        # Get or create Prefix
-        prefix_o = prefix.get(prefix=ip_address, vrf_id=vrf_id)
-        if not prefix_o:
-            prefix.create(prefix=ip_address, vrf_id=vrf_id, site_id=site_id)
 
         if ip_address not in previous_ip_addresses:
             # Get or create IPAddress
@@ -288,6 +284,14 @@ def update_addresses(obj, ip_addresses=None):
 
             # Add missing IP address
             obj.ip_addresses.add(ip_address_o)
+
+        # Get or create Prefix (use IP address' VRF)
+        ip_vrf_o = obj.ip_addresses.first().vrf
+        ip_vrf_id = ip_vrf_o.id if ip_vrf_o else None
+        prefix_o = prefix.get(prefix=ip_address, vrf_id=ip_vrf_id)
+        if not prefix_o and not ip_address.endswith("/32"):
+            # Don't create /32 prefixes
+            prefix.create(prefix=ip_address, vrf_id=ip_vrf_id, site_id=site_id)
 
     for ip_address in previous_ip_addresses:
         if str(ip_address) not in ip_addresses:
