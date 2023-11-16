@@ -1,7 +1,7 @@
-"""Reparse all DiscoveryLogs.
+"""Delete duplicated DiscoveryLogs.
 
 Usage:
-/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < log_purge.py
+/opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py shell < del_duplicated_logs.py
 """
 from django.db.models import Count
 
