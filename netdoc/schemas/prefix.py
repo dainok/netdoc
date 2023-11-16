@@ -62,6 +62,9 @@ def create(prefix=None, **kwargs):
         "prefix": prefix,
         **kwargs,
     }
+    if prefix == 32:
+        # Don't create /32 prefixes
+        return None
     data = utils.delete_empty_keys(data)
     validate(data, get_schema_create(), format_checker=FormatChecker())
     obj = utils.object_create(Prefix, **data)

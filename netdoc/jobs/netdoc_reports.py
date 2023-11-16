@@ -5,8 +5,9 @@ __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2022, Andrea Dainese"
 __license__ = "GPLv3"
 
-from extras.reports import Report
+from django.db.models import Count
 
+from extras.reports import Report
 from dcim.models import Interface
 from ipam.models import Prefix, IPAddress
 from virtualization.models.virtualmachines import VMInterface
@@ -41,6 +42,7 @@ class VRFIpPrefixIntegrityCheck(Report):
     The report verifies that:
     * Interface.VRF == Interface.IPAddress.VRF -> warning if not
     * Interface.IPAddress.VRF in Prefix.VRF -> error if not
+    * IPAddress uniqueness (within same VRF, Interface)
 
     If Interface.VRF != Interface.IPAddress.VRF the user should check if this is expected
     (e.g. when Interface is configured in global but the IPAddress is part of a VRF).
@@ -52,6 +54,40 @@ class VRFIpPrefixIntegrityCheck(Report):
         "Check (1) VRF between Interface and IP address,  and"
         + "(2) prefix exist for the IP address within the same VRF"
     )
+
+    def test_ip_address_uniqueness(self):
+        """Test IPAddress uniqueness within same VRF and Interface."""
+        ip_address_qs = (
+            IPAddress.objects.values("address", "vrf", "assigned_object_id")
+            .annotate(address_count=Count("address"))
+            .filter(address_count__gte=2)
+        )
+        for ip_address in ip_address_qs:
+            ip_address_o = IPAddress.objects.filter(
+                vrf=ip_address.get("vrf"),
+                assigned_object_id=ip_address.get("assigned_object_id"),
+                address=ip_address.get("address"),
+            ).last()
+            self.log_failure(
+                ip_address_o,
+                f"IPAddress is found {ip_address.get('address_count')} times",
+            )
+
+    def test_prefix_uniqueness(self):
+        """Test Prefix uniqueness within same VRF."""
+        prefix_qs = (
+            Prefix.objects.values("prefix", "vrf")
+            .annotate(prefix_count=Count("prefix"))
+            .filter(prefix_count__gte=2)
+        )
+        for prefix in prefix_qs:
+            prefix_o = Prefix.objects.filter(
+                vrf=prefix.get("vrf"),
+                prefix=prefix.get("prefix"),
+            ).last()
+            self.log_failure(
+                prefix_o, f"Prefix is found {prefix.get('prefix_count')} times"
+            )
 
     def test_vrf(self):
         """Test VRF between Interface and Interface's IPAddress."""
@@ -77,13 +113,11 @@ class VRFIpPrefixIntegrityCheck(Report):
         for interface_o in list(interface_qs) + list(virtual_interface_qs):
             for ip_address_o in interface_o.ip_addresses.all():
                 vrf_o = ip_address_o.vrf
-                network = (
-                    f"{str(ip_address_o.address.network)}/"
-                    + f"{str(ip_address_o.address.prefixlen)}"
-                )
+                prefixlen = int(ip_address_o.address.prefixlen)
+                network = f"{str(ip_address_o.address.network)}/" + f"{prefixlen}"
                 prefix_qs = Prefix.objects.filter(prefix=network, vrf=vrf_o)
-                if prefix_qs:
-                    # Prefix found
+                if prefix_qs or prefixlen == 32:
+                    # Prefix found or /32
                     self.log_success(interface_o)
                 else:
                     # Prefix missing
@@ -98,10 +132,11 @@ class VRFIpPrefixIntegrityCheck(Report):
         ipaddress_qs = IPAddress.objects.all()
         for ip_address_o in ipaddress_qs:
             vrf_o = ip_address_o.vrf
-            network = f"{str(ip_address_o.address.network)}/{str(ip_address_o.address.prefixlen)}"
+            prefixlen = int(ip_address_o.address.prefixlen)
+            network = f"{str(ip_address_o.address.network)}/{prefixlen}"
             prefix_qs = Prefix.objects.filter(prefix=network, vrf=vrf_o)
-            if prefix_qs:
-                # Prefix found
+            if prefix_qs or prefixlen == 32:
+                # Prefix found or /32
                 self.log_success(ip_address_o)
             else:
                 # Prefix missing
@@ -148,7 +183,7 @@ class IPAMFromARP(Report):
             # IP address with prefixlen built from ARP table and associated interface
             address = str(arptableentry_o.ip_address.ip)
             if arptableentry_o.interface:
-                prefixlen = (
+                prefixlen = int(
                     arptableentry_o.interface.ip_addresses.filter(
                         address__net_contains_or_equals=address
                     )
@@ -156,13 +191,14 @@ class IPAMFromARP(Report):
                     .address.prefixlen
                 )
             else:
-                prefixlen = (
+                prefixlen = int(
                     arptableentry_o.virtual_interface.ip_addresses.filter(
                         address__net_contains_or_equals=address
                     )
                     .first()
                     .address.prefixlen
                 )
+
             ip_address = f"{address}/{prefixlen}"
 
             # Query for the IP address in the IPAM
