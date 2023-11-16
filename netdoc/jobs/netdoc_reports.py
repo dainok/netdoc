@@ -68,7 +68,7 @@ class VRFIpPrefixIntegrityCheck(Report):
                 assigned_object_id=ip_address.get("assigned_object_id"),
                 address=ip_address.get("address"),
             ).last()
-            self.log_error(
+            self.log_failure(
                 ip_address_o, f"IPAddress is found {ip_address.get('address_count')} times"
             )
 
@@ -96,13 +96,14 @@ class VRFIpPrefixIntegrityCheck(Report):
         for interface_o in list(interface_qs) + list(virtual_interface_qs):
             for ip_address_o in interface_o.ip_addresses.all():
                 vrf_o = ip_address_o.vrf
+                prefixlen = str(ip_address_o.address.prefixlen)
                 network = (
                     f"{str(ip_address_o.address.network)}/"
-                    + f"{str(ip_address_o.address.prefixlen)}"
+                    + f"{prefixlen}"
                 )
                 prefix_qs = Prefix.objects.filter(prefix=network, vrf=vrf_o)
-                if prefix_qs:
-                    # Prefix found
+                if prefix_qs or prefixlen == 32:
+                    # Prefix found or /32
                     self.log_success(interface_o)
                 else:
                     # Prefix missing
@@ -117,10 +118,11 @@ class VRFIpPrefixIntegrityCheck(Report):
         ipaddress_qs = IPAddress.objects.all()
         for ip_address_o in ipaddress_qs:
             vrf_o = ip_address_o.vrf
-            network = f"{str(ip_address_o.address.network)}/{str(ip_address_o.address.prefixlen)}"
+            prefixlen = str(ip_address_o.address.prefixlen)
+            network = f"{str(ip_address_o.address.network)}/{prefixlen}"
             prefix_qs = Prefix.objects.filter(prefix=network, vrf=vrf_o)
-            if prefix_qs:
-                # Prefix found
+            if prefix_qs or prefixlen == 32:
+                # Prefix found or /32
                 self.log_success(ip_address_o)
             else:
                 # Prefix missing
