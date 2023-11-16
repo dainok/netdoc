@@ -5,8 +5,9 @@ __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2022, Andrea Dainese"
 __license__ = "GPLv3"
 
-from extras.reports import Report
+from django.db.models import Count
 
+from extras.reports import Report
 from dcim.models import Interface
 from ipam.models import Prefix, IPAddress
 from virtualization.models.virtualmachines import VMInterface
@@ -41,6 +42,7 @@ class VRFIpPrefixIntegrityCheck(Report):
     The report verifies that:
     * Interface.VRF == Interface.IPAddress.VRF -> warning if not
     * Interface.IPAddress.VRF in Prefix.VRF -> error if not
+    * IPAddress uniqueness (within same VRF, Interface)
 
     If Interface.VRF != Interface.IPAddress.VRF the user should check if this is expected
     (e.g. when Interface is configured in global but the IPAddress is part of a VRF).
@@ -52,6 +54,23 @@ class VRFIpPrefixIntegrityCheck(Report):
         "Check (1) VRF between Interface and IP address,  and"
         + "(2) prefix exist for the IP address within the same VRF"
     )
+
+    def test_ip_address_uniqueness(self):
+        """Test IPAddress uniqueness within same VRF and Interface."""
+        ip_address_qs = (
+            IPAddress.objects.values("address", "vrf", "assigned_object_id")
+            .annotate(address_count=Count("address"))
+            .filter(address_count__gte=2)
+        )
+        for ip_address in ip_address_qs:
+            ip_address_o = IPAddress.objects.filter(
+                vrf=ip_address.get("vrf"),
+                assigned_object_id=ip_address.get("assigned_object_id"),
+                address=ip_address.get("address"),
+            ).last()
+            self.log_error(
+                ip_address_o, f"IPAddress is found {ip_address.get('address_count')} times"
+            )
 
     def test_vrf(self):
         """Test VRF between Interface and Interface's IPAddress."""
@@ -163,6 +182,7 @@ class IPAMFromARP(Report):
                     .first()
                     .address.prefixlen
                 )
+
             ip_address = f"{address}/{prefixlen}"
 
             # Query for the IP address in the IPAM
