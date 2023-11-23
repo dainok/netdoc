@@ -420,10 +420,11 @@ class DiscoveryLog(NetBoxModel):
 
         # Check if the command is a configuration file
         configuration = False
-        for regex in CONFIG_COMMANDS:
-            if re.search(regex, self.command):
-                configuration = True
-        self.configuration = configuration
+        if self.template != "HOSTNAME":
+            for regex in CONFIG_COMMANDS:
+                if re.search(regex, self.command):
+                    configuration = True
+            self.configuration = configuration
 
         # Check if the command is supported
         self.supported = is_command_supported(

@@ -297,6 +297,13 @@ class DiscoveryModeChoices(ChoiceSet):
             "framework": "netmiko",
             "discovery_script": "netmiko_hp_procurve",  # Discovery script called by tasks.py
         },
+        "netmiko_huawei_vrp": {
+            "name": "Netmiko Huawei VRP",
+            "platform": "huawei",  # Netmiko type, used by Nornir
+            "protocol": "ssh",
+            "framework": "netmiko",
+            "discovery_script": "netmiko_huawei_vrp",  # Discovery script called by tasks.py
+        },
         "netmiko_linux": {
             "name": "Netmiko Linux",
             "platform": "linux",  # Netmiko type, used by Nornir
