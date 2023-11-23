@@ -28,6 +28,11 @@ repos:
     hooks:
       - id: yamlfmt
         exclude: \.raw|migrations|docker|venv
+  - repo: https://github.com/ssbarnea/jsonlint
+    rev: master
+    hooks:
+      - id: jsonlint
+        exclude: \.raw|migrations|docker|venv
   - repo: https://github.com/psf/black
     rev: 23.3.0
     hooks:

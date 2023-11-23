@@ -13,7 +13,7 @@ from netdoc.schemas import discoverable, discoverylog
 
 
 def discovery(nrni, filters=None, filter_type=None):
-    """Discovery Cisco IOS devices."""
+    """Discovery HP Comware devices."""
     platform = "hp_comware"
     host_list = []
     failed_host_list = []
