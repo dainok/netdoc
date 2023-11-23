@@ -2,10 +2,10 @@
     "details": {
         "command": "show hsrp all",
         "enable": true,
-        "order": 128,
-        "template": "show hsrp all",
         "framework": "netmiko",
-        "platform": "cisco_nxos"
+        "order": 128,
+        "platform": "cisco_nxos",
+        "template": "show hsrp all"
     },
     "discoverable__mode": "netmiko_cisco_nxos"
 }

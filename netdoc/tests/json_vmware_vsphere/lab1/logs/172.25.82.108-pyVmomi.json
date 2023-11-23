@@ -2,10 +2,10 @@
     "details": {
         "command": "pyVmomi",
         "enable": false,
-        "order": 0,
-        "template": "pyVmomi",
         "framework": "json",
-        "platform": "vmware_vsphere"
+        "order": 0,
+        "platform": "vmware_vsphere",
+        "template": "pyVmomi"
     },
     "discoverable__mode": "json_vmware_vsphere"
 }

@@ -2,10 +2,10 @@
     "details": {
         "command": "show ip route eigrp",
         "enable": true,
-        "order": 128,
-        "template": "show ip route",
         "framework": "netmiko",
-        "platform": "cisco_ios"
+        "order": 128,
+        "platform": "cisco_ios",
+        "template": "show ip route"
     },
     "discoverable__mode": "netmiko_cisco_ios_telnet"
 }

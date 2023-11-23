@@ -2,10 +2,10 @@
     "details": {
         "command": "ip address show",
         "enable": true,
-        "order": 10,
-        "template": "ip address show",
         "framework": "netmiko",
-        "platform": "linux"
+        "order": 10,
+        "platform": "linux",
+        "template": "ip address show"
     },
     "discoverable__mode": "netmiko_linux"
 }

@@ -3,6 +3,6 @@
   protocol: c
   distance: 0
   metric: 0
-  nexthop_ip:  169.254.1.2
+  nexthop_ip: 169.254.1.2
   nexthop_if: XGE0/0/1
   vrf: null

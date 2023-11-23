@@ -2,10 +2,10 @@
     "details": {
         "command": "show glbp",
         "enable": true,
-        "order": 128,
-        "template": "show glbp",
         "framework": "netmiko",
-        "platform": "cisco_ios"
+        "order": 128,
+        "platform": "cisco_ios",
+        "template": "show glbp"
     },
     "discoverable__mode": "netmiko_cisco_ios_telnet"
 }

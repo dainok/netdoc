@@ -2,10 +2,10 @@
     "details": {
         "command": "show running-config | include hostname",
         "enable": true,
-        "order": 0,
-        "template": "HOSTNAME",
         "framework": "netmiko",
-        "platform": "cisco_xr"
+        "order": 0,
+        "platform": "cisco_xr",
+        "template": "HOSTNAME"
     },
     "discoverable__mode": "netmiko_cisco_xr"
 }

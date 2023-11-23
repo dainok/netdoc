@@ -2,10 +2,10 @@
     "details": {
         "command": "show ip interface",
         "enable": true,
-        "order": 10,
-        "template": "show ip interface",
         "framework": "netmiko",
-        "platform": "cisco_ios"
+        "order": 10,
+        "platform": "cisco_ios",
+        "template": "show ip interface"
     },
     "discoverable__mode": "netmiko_cisco_ios_telnet"
 }

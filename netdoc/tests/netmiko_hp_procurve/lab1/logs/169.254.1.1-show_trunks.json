@@ -2,10 +2,10 @@
     "details": {
         "command": "show trunks",
         "enable": true,
-        "order": 128,
-        "template": "show trunks",
         "framework": "netmiko",
-        "platform": "hp_procurve"
+        "order": 128,
+        "platform": "hp_procurve",
+        "template": "show trunks"
     },
     "discoverable__mode": "netmiko_hp_procurve"
 }

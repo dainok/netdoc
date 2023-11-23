@@ -2,10 +2,10 @@
     "details": {
         "command": "show route connected",
         "enable": true,
-        "order": 128,
-        "template": "show route",
         "framework": "netmiko",
-        "platform": "cisco_xr"
+        "order": 128,
+        "platform": "cisco_xr",
+        "template": "show route"
     },
     "discoverable__mode": "netmiko_cisco_xr"
 }

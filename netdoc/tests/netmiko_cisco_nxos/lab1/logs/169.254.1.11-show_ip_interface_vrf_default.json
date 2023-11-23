@@ -2,11 +2,11 @@
     "details": {
         "command": "show ip interface vrf default",
         "enable": true,
-        "order": 128,
-        "template": "show ip interface",
-        "vrf": "default",
         "framework": "netmiko",
-        "platform": "cisco_nxos"
+        "order": 128,
+        "platform": "cisco_nxos",
+        "template": "show ip interface",
+        "vrf": "default"
     },
     "discoverable__mode": "netmiko_cisco_nxos"
 }

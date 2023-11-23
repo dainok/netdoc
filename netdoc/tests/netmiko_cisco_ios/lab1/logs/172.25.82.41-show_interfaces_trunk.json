@@ -2,10 +2,10 @@
     "details": {
         "command": "show interfaces trunk",
         "enable": true,
-        "order": 128,
-        "template": "show interfaces trunk",
         "framework": "netmiko",
-        "platform": "cisco_ios"
+        "order": 128,
+        "platform": "cisco_ios",
+        "template": "show interfaces trunk"
     },
     "discoverable__mode": "netmiko_cisco_ios"
 }

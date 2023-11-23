@@ -2,10 +2,10 @@
     "details": {
         "command": "<show><routing><route></route></routing></show>",
         "enable": false,
-        "order": 128,
-        "template": "show routing route",
         "framework": "xml",
-        "platform": "panw_ngfw"
+        "order": 128,
+        "platform": "panw_ngfw",
+        "template": "show routing route"
     },
     "discoverable__mode": "xml_panw_ngfw"
 }

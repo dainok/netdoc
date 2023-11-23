@@ -2,10 +2,10 @@
     "details": {
         "command": "show system",
         "enable": true,
-        "order": 0,
-        "template": "HOSTNAME",
         "framework": "netmiko",
-        "platform": "hp_procurve"
+        "order": 0,
+        "platform": "hp_procurve",
+        "template": "HOSTNAME"
     },
     "discoverable__mode": "netmiko_hp_procurve"
 }

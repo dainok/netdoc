@@ -2,10 +2,10 @@
     "details": {
         "command": "show vpc",
         "enable": true,
-        "order": 128,
-        "template": "show vpc",
         "framework": "netmiko",
-        "platform": "cisco_nxos"
+        "order": 128,
+        "platform": "cisco_nxos",
+        "template": "show vpc"
     },
     "discoverable__mode": "netmiko_cisco_nxos"
 }

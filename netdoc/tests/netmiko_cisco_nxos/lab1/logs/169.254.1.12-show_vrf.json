@@ -2,10 +2,10 @@
     "details": {
         "command": "show vrf",
         "enable": true,
-        "order": 10,
-        "template": "show vrf",
         "framework": "netmiko",
-        "platform": "cisco_nxos"
+        "order": 10,
+        "platform": "cisco_nxos",
+        "template": "show vrf"
     },
     "discoverable__mode": "netmiko_cisco_nxos"
 }

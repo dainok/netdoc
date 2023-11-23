@@ -2,10 +2,10 @@
     "details": {
         "command": "show vrrp all",
         "enable": true,
-        "order": 128,
-        "template": "show vrrp all",
         "framework": "netmiko",
-        "platform": "cisco_ios"
+        "order": 128,
+        "platform": "cisco_ios",
+        "template": "show vrrp all"
     },
     "discoverable__mode": "netmiko_cisco_ios"
 }

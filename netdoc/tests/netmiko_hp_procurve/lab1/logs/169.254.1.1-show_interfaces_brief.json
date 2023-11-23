@@ -2,10 +2,10 @@
     "details": {
         "command": "show interfaces brief",
         "enable": true,
-        "order": 10,
-        "template": "show interfaces brief",
         "framework": "netmiko",
-        "platform": "hp_procurve"
+        "order": 10,
+        "platform": "hp_procurve",
+        "template": "show interfaces brief"
     },
     "discoverable__mode": "netmiko_hp_procurve"
 }
