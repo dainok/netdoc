@@ -1,0 +1,8 @@
+- vid: 1
+  name: default
+- vid: 10
+  name: VLAN 0010
+- vid: 20
+  name: VLAN 0020
+- vid: 30
+  name: VLAN 0030

@@ -1,0 +1,16 @@
+{
+    "configuration": false,
+    "details": {
+        "command": "display lldp neighbor brief",
+        "enable": true,
+        "order": 1,
+        "supported": true,
+        "template": "display lldp neighbor"
+    },
+    "discoverable__mode": "netmiko_huawei_vrp",
+    "ingested": false,
+    "parsed": false,
+    "parsed_output": "",
+    "raw_output": "",
+    "success": true
+}

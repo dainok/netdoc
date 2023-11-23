@@ -1,0 +1,10 @@
+- device: ROUTER1
+  interface: XGE0/0/1
+  ip_address: 10.10.10.1
+  mac_address: b0:76:1b:65:6a:4b
+  vendor: HUAWEI TECH Co., Ltd
+- device: ROUTER2
+  interface: XGE0/0/2
+  ip_address: 10.10.10.2
+  mac_address: b8:d6:f6:ff:73:9b
+  vendor: HUAWEI TECH Co., Ltd

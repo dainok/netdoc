@@ -1,0 +1,16 @@
+{
+    "configuration": false,
+    "details": {
+        "command": "display device manufacture-info",
+        "enable": true,
+        "order": 7,
+        "supported": true,
+        "template": "display device manufacture-info"
+    },
+    "discoverable__mode": "netmiko_huawei_vrp",
+    "ingested": false,
+    "parsed": false,
+    "parsed_output": "",
+    "raw_output": "",
+    "success": true
+}

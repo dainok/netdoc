@@ -1,0 +1,113 @@
+ROUTER1:
+  - name: Vlanif11
+    label: vlanif1
+    type: bridge
+    speed: 10000000
+    duplex: null
+    mtu: 1500
+    enabled: true
+    description: Management
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "B0:76:1B:65:6A:42"
+    vrf: null
+    ip_addresses:
+      - 10.10.1.1/24
+    connected_device: null
+    connected_interface_label: null
+  - name: Vlanif110
+    label: vlanif110
+    type: bridge
+    speed: 10000000
+    duplex: null
+    mtu: 1500
+    enabled: true
+    description: Servers
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "B0:76:1B:65:6A:4b"
+    vrf: null
+    ip_addresses:
+      - 10.10.10.1/24
+    connected_device: null
+    connected_interface_label: null
+  - name: Vlanif120
+    label: vlanif120
+    type: bridge
+    speed: 10000000
+    duplex: null
+    mtu: 1500
+    enabled: true
+    description: Servers
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "B0:76:1B:65:6A:46"
+    vrf: red
+    ip_addresses:
+      - 10.10.20.1/24
+    connected_device: null
+    connected_interface_label: null
+  - name: Eth-Trunk0
+    label: eth-trunk0
+    type: lag
+    speed: 40000000
+    duplex: full
+    mtu: null
+    enabled: true
+    description: Channel
+    mode: tagged-all
+    untagged_vlan: 1
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "B0:76:1B:65:6A:40"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/1
+    label: XGE0/0/1
+    type: other
+    speed: 1000000
+    duplex: full
+    mtu: null
+    enabled: true
+    description: Link 1
+    mode: "tagged-all"
+    untagged_vlan: 1
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "B0:76:1B:65:6A:40"
+    vrf: null
+    ip_addresses: []
+    connected_device: ROUTER2
+    connected_interface_label: XGE0/0/2
+ROUTER2:
+  - label: XGE0/0/1
+    # name: not tested because discovered via LLDP only
+    type: other
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: null
+    vrf: null
+    ip_addresses: []
+    connected_device: ROUTER1
+    connected_interface_label: XGE0/0/1
