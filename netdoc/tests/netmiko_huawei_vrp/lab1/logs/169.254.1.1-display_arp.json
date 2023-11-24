@@ -1,11 +1,11 @@
 {
     "configuration": false,
     "details": {
-        "command": "display arp",
+        "command": "display arp all",
         "enable": true,
         "order": 100,
         "supported": true,
-        "template": "display arp"
+        "template": "display arp all"
     },
     "discoverable__mode": "netmiko_huawei_vrp",
     "ingested": false,
