@@ -467,6 +467,8 @@ def normalize_interface_label(name):
         return name.replace("tengigabitethernet", "te")
     if name.startswith("ten-gigabitethernet"):  # HP Comware
         return name.replace("ten-gigabitethernet", "te")
+    if name.startswith("xgigabitethernet"):  # Huawei
+        return name.replace("xgigabitethernet", "xge")
     if name.startswith("m-gigabitethernet"):  # HP Comware
         return name.replace("m-gigabitethernet", "mge")
     if name.startswith("xge"):  # HP Comware
@@ -481,6 +483,8 @@ def normalize_interface_label(name):
         return name.replace("eth", "e")
     if name.startswith("et"):
         return name.replace("et", "e")
+    if name.startswith("vlanif"):  # Huawei
+        return name.replace("vlanif", "vl")
     if name.startswith("vlan-interface"):  # HP Comware
         return name.replace("vlan-interface", "vl")
     if name.startswith("vlan"):
