@@ -7,17 +7,18 @@ MP: Vlan-mapping;               ST: Vlan-stacking;
 
 VID  Type    Ports
 --------------------------------------------------------------------------------
-1    common  UT:40GE0/0/1(D)    40GE0/0/2(D)    40GE0/0/3(D)    40GE0/0/4(D)
-                40GE0/0/5(D)    40GE0/0/6(D)    XGE0/0/1(D)     XGE0/0/3(D)
-                XGE0/0/4(D)     XGE0/0/5(D)     XGE0/0/6(D)     XGE0/0/7(D)
-                XGE0/0/8(D)     XGE0/0/9(D)     XGE0/0/10(D)    XGE0/0/11(D)
-                XGE0/0/12(D)    XGE0/0/13(D)    XGE0/0/14(D)    XGE0/0/15(D)
-                XGE0/0/16(D)    XGE0/0/17(D)    XGE0/0/18(D)    XGE0/0/19(D)
-                XGE0/0/20(D)    XGE0/0/21(D)    XGE0/0/22(D)    XGE0/0/23(D)
-                XGE0/0/24(D)
-             TG:XGE0/0/2(U)
-10   common  UT:XGE0/0/2(U)
-20   common  TG:XGE0/0/2(U)
+1    common  UT:XGE0/0/1(D)     XGE0/0/2(D)     XGE0/0/3(D)     XGE0/0/4(D)
+                XGE0/0/5(D)     XGE0/0/6(D)
+             TG:40GE0/0/1(D)    40GE0/0/2(D)    40GE0/0/3(D)    40GE0/0/4(D)
+                40GE0/0/5(D)    40GE0/0/6(D)
+10   common  UT:XGE0/0/7(D)     XGE0/0/8(D)     XGE0/0/9(D)     XGE0/0/10(D)
+                XGE0/0/11(D)    XGE0/0/12(D)
+20   common  TG:40GE0/0/1(D)    40GE0/0/2(D)    40GE0/0/3(D)    40GE0/0/4(D)
+                40GE0/0/5(D)    40GE0/0/6(D)
+30   common  UT:XGE0/0/13(D)    XGE0/0/142(D)   XGE0/0/15(D)    XGE0/0/16(D)
+                XGE0/0/17(D)    XGE0/0/18(D)
+             TG:40GE0/0/1(D)    40GE0/0/2(D)    40GE0/0/3(D)    40GE0/0/4(D)
+                40GE0/0/5(D)    40GE0/0/6(D)
 
 VID  Status  Property      MAC-LRN Statistics Description
 --------------------------------------------------------------------------------
