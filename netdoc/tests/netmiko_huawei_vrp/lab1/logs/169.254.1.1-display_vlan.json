@@ -3,7 +3,7 @@
     "details": {
         "command": "display vlan",
         "enable": true,
-        "order": 2,
+        "order": 90,
         "supported": true,
         "template": "display vlan"
     },

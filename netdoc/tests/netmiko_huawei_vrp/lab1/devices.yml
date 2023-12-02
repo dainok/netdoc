@@ -1,12 +1,12 @@
 - name: ROUTER1
   site: test-site
-  model: Unknown HUAWEI device
-  manufacturer: HUAWEI
+  model: Unknown Huawei device
+  manufacturer: Huawei
   address: null
-  serial: "102160184741"
+  serial: ""
 - name: ROUTER2
   site: test-site
-  model: Unknown HUAWEI device
-  manufacturer: HUAWEI
+  model: Unknown device
+  manufacturer: Unknown
   address: null
   serial: ""

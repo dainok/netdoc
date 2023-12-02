@@ -4,7 +4,7 @@
   credential: test-credential
   mode: netmiko_huawei_vrp
 - address: 169.254.1.2
-  device: ROUTER2
+  device: null
   site: test-site
   credential: test-credential
   mode: netmiko_huawei_vrp
