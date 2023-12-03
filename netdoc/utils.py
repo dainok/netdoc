@@ -468,7 +468,7 @@ def normalize_interface_label(name):
     if name.startswith("ten-gigabitethernet"):  # HP Comware
         return name.replace("ten-gigabitethernet", "te")
     if name.startswith("xgigabitethernet"):  # Huawei
-        return name.replace("xgigabitethernet", "xge")
+        return name.replace("xgigabitethernet", "te")
     if name.startswith("m-gigabitethernet"):  # HP Comware
         return name.replace("m-gigabitethernet", "mge")
     if name.startswith("xge"):  # HP Comware
@@ -479,6 +479,8 @@ def normalize_interface_label(name):
         return name.replace("hundredgige", "hge")
     if name.startswith("ethernet"):
         return name.replace("ethernet", "e")
+    if name.startswith("eth-trunk"):
+        return name.replace("eth-trunk", "trunk")
     if name.startswith("eth"):
         return name.replace("eth", "e")
     if name.startswith("et"):
@@ -654,6 +656,9 @@ def normalize_interface_type(name="", encapsulation=""):
         # LAG (portchannel, bond)
         return "lag"
     if label.startswith("lag"):
+        # LAG (portchannel, bond)
+        return "lag"
+    if label.startswith("trunk"):
         # LAG (portchannel, bond)
         return "lag"
     if re.match(r"lo.*", label):
