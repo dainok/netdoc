@@ -1,6 +1,10 @@
-- address: 10.10.1.1/24
+- address: 169.254.1.1/32
   vrf: null
 - address: 10.10.10.1/24
   vrf: null
 - address: 10.10.20.1/24
-  vrf: red
+  vrf: null
+- address: 10.10.30.1/24
+  vrf: null
+- address: 192.168.1.253/24
+  vrf: null
