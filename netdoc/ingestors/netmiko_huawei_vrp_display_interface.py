@@ -18,12 +18,12 @@ def ingest(log):
         label = utils.normalize_interface_label(interface_name)
         description = item.get("description")
         duplex = utils.normalize_interface_duplex(item.get("duplex"))
-        speed = utils.normalize_interface_speed(item.get("speed"))
-        # mac_address = (
-        #     utils.normalize_mac_address(item.get("mac_address"))
-        #     if not utils.incomplete_mac(item.get("mac_address"))
-        #     else None
-        # )
+        speed = utils.normalize_interface_speed(f'{item.get("speed")}000') if item.get("speed") else None
+        mac_address = (
+            utils.normalize_mac_address(item.get("hardware_address"))
+            if not utils.incomplete_mac(item.get("hardware_address"))
+            else None
+        )
         int_type = utils.normalize_interface_type(item.get("interface"))
         enabled = utils.normalize_interface_status(item.get("link_status"))
         mtu = utils.normalize_interface_mtu(item.get("mtu"))
@@ -45,7 +45,7 @@ def ingest(log):
             "description": description,
             "duplex": duplex,
             "speed": speed,
-            # "mac_address": mac_address,
+            "mac_address": mac_address,
             "type": int_type,
             "device_id": device_o.id,
             "enabled": enabled,
