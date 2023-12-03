@@ -144,6 +144,17 @@ Current system time: 2023-11-22 16:42:00
     Input bandwidth utilization  : --
     Output bandwidth utilization : --
 
+Vlanif30 current state : UP
+Line protocol current state : UP
+Last line protocol up time : 2023-11-22 16:26:54
+Description:
+Route Port,The Maximum Transmit Unit is 1500
+Internet Address is 10.10.30.1/24
+IP Sending Frames' Format is PKTFMT_ETHNT_2, Hardware address is b076-1b65-6a56
+Current system time: 2023-11-22 16:42:00
+    Input bandwidth utilization  : --
+    Output bandwidth utilization : --
+
 XGigabitEthernet0/0/1 current state : UP
 Line protocol current state : UP
 Description:

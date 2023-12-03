@@ -18,7 +18,11 @@ def ingest(log):
         label = utils.normalize_interface_label(interface_name)
         description = item.get("description")
         duplex = utils.normalize_interface_duplex(item.get("duplex"))
-        speed = utils.normalize_interface_speed(f'{item.get("speed")}000') if item.get("speed") else None
+        speed = (
+            utils.normalize_interface_speed(f'{item.get("speed")}000')
+            if item.get("speed")
+            else None
+        )
         mac_address = (
             utils.normalize_mac_address(item.get("hardware_address"))
             if not utils.incomplete_mac(item.get("hardware_address"))
@@ -29,6 +33,7 @@ def ingest(log):
         mtu = utils.normalize_interface_mtu(item.get("mtu"))
         parent_name = utils.parent_interface(label)
         ip_addresses = [item.get("internet_address")]
+        attached_interface_names = item.get("aggregated_interfaces")
 
         if parent_name:
             # Parent Interface is set
@@ -61,6 +66,26 @@ def ingest(log):
 
         # Update Interface
         interface.update_addresses(interface_o, ip_addresses=ip_addresses)
+
+        # Bundled interfaces
+        for attached_interface_name in attached_interface_names:
+            # Get or create attached Interface
+            attached_interface_label = utils.normalize_interface_label(
+                attached_interface_name
+            )
+            attached_interface_o = interface.get(
+                device_id=device_o.id, label=attached_interface_label
+            )
+            if not attached_interface_o:
+                attached_interface_data = {
+                    "name": attached_interface_name,
+                    "device_id": device_o.id,
+                }
+                attached_interface_o = interface.create(**attached_interface_data)
+            # Set LAG on attached Interface
+            attached_interface_o = interface.update(
+                attached_interface_o, lag_id=interface_o.id
+            )
 
     # Update the log
     log.ingested = True

@@ -36,35 +36,127 @@ ROUTER1:
       - 192.168.1.253/24
     connected_device: null
     connected_interface_label: null
-  - name: Vlanif120
-    label: vlanif120
-    type: bridge
-    speed: 10000000
+  - name: NULL0
+    label: null0
+    type: virtual
+    speed: null
     duplex: null
     mtu: 1500
     enabled: true
-    description: Servers
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: null
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
+  - name: Vlanif1
+    label: vl1
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "B0:76:1B:65:6A:42"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
+  - name: Vlanif10
+    label: vl10
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "B0:76:1B:65:6A:4B"
+    vrf: null
+    ip_addresses:
+      - 10.10.10.1/24
+    connected_device: null
+    connected_interface_label: null
+  - name: Vlanif20
+    label: vl20
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: 1500
+    enabled: true
+    description: ""
     mode: ""
     untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:46"
-    vrf: red
+    vrf: null
     ip_addresses:
       - 10.10.20.1/24
     connected_device: null
     connected_interface_label: null
-  - name: Eth-Trunk0
-    label: eth-trunk0
-    type: lag
-    speed: 40000000
-    duplex: full
-    mtu: null
+  - name: Vlanif30
+    label: vl30
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: 1500
     enabled: true
-    description: Channel
-    mode: tagged-all
-    untagged_vlan: 1
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "B0:76:1B:65:6A:56"
+    vrf: null
+    ip_addresses:
+      - 10.10.30.1/24
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/1
+    label: te0/0/1
+    type: other
+    speed: 1000000
+    duplex: full
+    mtu: 9216
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: null
+    mac_address: "B0:76:1B:65:6A:40"
+    vrf: null
+    ip_addresses: []
+    connected_device: ROUTER2
+    connected_interface_label: te0/0/2
+  - name: XGigabitEthernet0/0/2
+    label: te0/0/2
+    type: other
+    speed: 10000000
+    duplex: full
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
@@ -73,602 +165,531 @@ ROUTER1:
     ip_addresses: []
     connected_device: null
     connected_interface_label: null
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+  - name: XGigabitEthernet0/0/3
+    label: te0/0/3
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/4
+    label: te0/0/4
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/5
+    label: te0/0/5
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/6
+    label: te0/0/6
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/7
+    label: te0/0/7
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/8
+    label: te0/0/8
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/9
+    label: te0/0/9
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/10
+    label: te0/0/10
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/11
+    label: te0/0/11
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/12
+    label: te0/0/12
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/13
+    label: te0/0/13
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/14
+    label: te0/0/14
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/15
+    label: te0/0/15
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/16
+    label: te0/0/16
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/17
+    label: te0/0/17
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/18
+    label: te0/0/18
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/19
+    label: te0/0/19
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/20
+    label: te0/0/20
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/21
+    label: te0/0/21
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/22
+    label: te0/0/22
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/23
+    label: te0/0/23
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: XGigabitEthernet0/0/24
+    label: te0/0/24
     type: other
-    speed: 1000000
+    speed: 10000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: 40GE0/0/1
+    label: 40ge0/0/1
     type: other
-    speed: 1000000
+    speed: 40000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: trunk0
+    mac_address: "B0:76:1B:65:6A:40"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
+  - name: 40GE0/0/2
+    label: 40ge0/0/2
+    type: other
+    speed: 40000000
+    duplex: full
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    lag: trunk0
+    mac_address: "B0:76:1B:65:6A:40"
+    vrf: null
+    ip_addresses: []
+    connected_device: null
+    connected_interface_label: null
+  - name: 40GE0/0/3
+    label: 40ge0/0/3
+    type: other
+    speed: 40000000
+    duplex: full
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: 40GE0/0/4
+    label: 40ge0/0/4
     type: other
-    speed: 1000000
+    speed: 40000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: 40GE0/0/5
+    label: 40ge0/0/5
     type: other
-    speed: 1000000
+    speed: 40000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
+    connected_device: null
+    connected_interface_label: null
+  - name: 40GE0/0/6
+    label: 40ge0/0/6
     type: other
-    speed: 1000000
+    speed: 40000000
     duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    mtu: 9216
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
     vrf: null
     ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
-    type: other
-    speed: 1000000
-    duplex: full
-    mtu: null
+    connected_device: null
+    connected_interface_label: null
+  - name: LoopBack1
+    label: lo1
+    type: virtual
+    speed: null
+    duplex: null
+    mtu: 1500
     enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
+    description: ""
+    mode: ""
+    untagged_vlan: null
     tagged_vlans: []
     parent: null
     lag: null
-    mac_address: "B0:76:1B:65:6A:40"
+    mac_address: null
     vrf: null
-    ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
-    type: other
-    speed: 1000000
-    duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
-    tagged_vlans: []
-    parent: null
-    lag: null
-    mac_address: "B0:76:1B:65:6A:40"
-    vrf: null
-    ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
-    type: other
-    speed: 1000000
-    duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
-    tagged_vlans: []
-    parent: null
-    lag: null
-    mac_address: "B0:76:1B:65:6A:40"
-    vrf: null
-    ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
-    type: other
-    speed: 1000000
-    duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
-    tagged_vlans: []
-    parent: null
-    lag: null
-    mac_address: "B0:76:1B:65:6A:40"
-    vrf: null
-    ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
-    type: other
-    speed: 1000000
-    duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
-    tagged_vlans: []
-    parent: null
-    lag: null
-    mac_address: "B0:76:1B:65:6A:40"
-    vrf: null
-    ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
-    type: other
-    speed: 1000000
-    duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
-    tagged_vlans: []
-    parent: null
-    lag: null
-    mac_address: "B0:76:1B:65:6A:40"
-    vrf: null
-    ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
-  - name: XGigabitEthernet0/0/1
-    label: XGE0/0/1
-    type: other
-    speed: 1000000
-    duplex: full
-    mtu: null
-    enabled: true
-    description: Link 1
-    mode: "tagged-all"
-    untagged_vlan: 1
-    tagged_vlans: []
-    parent: null
-    lag: null
-    mac_address: "B0:76:1B:65:6A:40"
-    vrf: null
-    ip_addresses: []
-    connected_device: ROUTER2
-    connected_interface_label: XGE0/0/2
+    ip_addresses:
+      - 169.254.1.1/32
+    connected_device: null
+    connected_interface_label: null
 ROUTER2:
-  - label: XGE0/0/1
+  - label: te0/0/2
     # name: not tested because discovered via LLDP only
     type: other
     speed: null
@@ -685,4 +706,4 @@ ROUTER2:
     vrf: null
     ip_addresses: []
     connected_device: ROUTER1
-    connected_interface_label: XGE0/0/1
+    connected_interface_label: te0/0/1
