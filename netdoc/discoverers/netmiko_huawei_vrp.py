@@ -29,7 +29,6 @@ def discovery(nrni, filters=None, filter_type=None):
             ("display eth-trunk", None),
             ("display ip interface", None),
             ("display vlan all", None),
-            ("display ip routing-table verbose", None),
             ("display lldp neighbor brief", None),
             ("display arp all", None),
             ("display mac-address", None),
@@ -93,21 +92,13 @@ def discovery(nrni, filters=None, filter_type=None):
             for vrf in vrfs:  # pylint: disable=cell-var-from-loop
                 if vrf == "default":
                     # Default VRF has no name
-                    commands = [
-                        ("display arp", None),
-                        ("display ip routing-table", None),
-                    ]
+                    commands = [("display ip routing-table verbose", None)]
                 else:
                     # with non default VRF commands and templates differ
                     commands = [
-                        (f"display arp vpn-instance {vrf}", "display arp"),
                         (
-                            f"display ip vpn-instance instance-name {vrf}",
-                            "display ip vpn-instance instance-name",
-                        ),
-                        (
-                            f"display ip routing-table vpn-instance {vrf}",
-                            "display ip routing-table",
+                            f"display ip routing-table vpn-instance {vrf} verbose",
+                            "display ip routing-table verbose",
                         ),
                     ]
 
@@ -135,14 +126,9 @@ def discovery(nrni, filters=None, filter_type=None):
                 details = json.loads(result.name)
                 if " vpn-instance " in details.get("command"):
                     # Save the VRF in details
-                    details["vrf"] = (
-                        details.get("command").split(" vpn-instance ").pop()
-                    )
-                elif " instance-name " in details.get("command"):
-                    # Save the VRF in details
-                    details["vrf"] = (
-                        details.get("command").split(" instance-name ").pop()
-                    )
+                    vrf = details.get("command").split(" vpn-instance ").pop()
+                    vrf = vrf.replace(" verbose", "")
+                    details["vrf"] = vrf
                 discoverylog.create(
                     command=details.get("command"),
                     discoverable_id=discoverable_o.id,
