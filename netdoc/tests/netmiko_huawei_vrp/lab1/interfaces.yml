@@ -7,9 +7,29 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 60
+      - 77
+      - 80
+      - 91
+      - 99
+      - 134
+      - 210
+      - 299
+      - 497
+      - 597
+      - 755
+      - 773
+      - 797
+      - 1021
+      - 1032
+      - 1050
+      - 1080
+      - 1180
+      - 1797
+      - 1847
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -137,9 +157,20 @@ ROUTER1:
     mtu: 9216
     enabled: true
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 99
+      - 118
+      - 299
+      - 773
+      - 1021
+      - 1032
+      - 1080
+      - 1180
+      - 1774
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -155,9 +186,18 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 149
+      - 299
+      - 773
+      - 1021
+      - 1080
+      - 1180
+      - 1774
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -173,9 +213,18 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 299
+      - 601
+      - 773
+      - 1021
+      - 1080
+      - 1180
+      - 1774
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -191,9 +240,18 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 118
+      - 299
+      - 773
+      - 1021
+      - 1080
+      - 1180
+      - 1774
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -209,9 +267,20 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 99
+      - 136
+      - 197
+      - 299
+      - 773
+      - 1021
+      - 1080
+      - 1180
+      - 1774
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -227,9 +296,20 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 142
+      - 299
+      - 617
+      - 773
+      - 1001
+      - 1021
+      - 1080
+      - 1180
+      - 1774
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -245,9 +325,18 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 143
+      - 299
+      - 773
+      - 1021
+      - 1080
+      - 1180
+      - 1774
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -263,9 +352,18 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 182
+      - 299
+      - 773
+      - 1021
+      - 1080
+      - 1180
+      - 1774
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -281,9 +379,20 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 142
+      - 182
+      - 186
+      - 299
+      - 773
+      - 1021
+      - 1080
+      - 1180
+      - 1774
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -299,9 +408,20 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 153
+      - 197
+      - 198
+      - 299
+      - 773
+      - 1021
+      - 1080
+      - 1180
+      - 1774
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -317,9 +437,21 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 136
+      - 143
+      - 212
+      - 299
+      - 604
+      - 773
+      - 1021
+      - 1080
+      - 1180
+      - 1774
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -335,9 +467,20 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 180
+      - 299
+      - 773
+      - 798
+      - 1021
+      - 1080
+      - 1180
+      - 1769
+      - 1774
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -353,9 +496,19 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 299
+      - 604
+      - 773
+      - 1021
+      - 1080
+      - 1180
+      - 1774
+      - 1805
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -371,9 +524,19 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 134
+      - 299
+      - 606
+      - 773
+      - 1021
+      - 1080
+      - 1180
+      - 1774
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -389,9 +552,12 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 100
+      - 1180
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -407,9 +573,13 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 91
+      - 755
+      - 1180
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -425,9 +595,22 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 91
+      - 172
+      - 299
+      - 755
+      - 773
+      - 1021
+      - 1050
+      - 1080
+      - 1180
+      - 1774
+      - 1805
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -443,9 +626,21 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
-    tagged_vlans: []
+    mode: "tagged"
+    untagged_vlan: 1
+    tagged_vlans:
+      - 1
+      - 91
+      - 172
+      - 299
+      - 755
+      - 773
+      - 1021
+      - 1050
+      - 1080
+      - 1180
+      - 1774
+      - 1823
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
@@ -461,8 +656,8 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
+    mode: "tagged-all"
+    untagged_vlan: 1
     tagged_vlans: []
     parent: null
     lag: null
@@ -479,8 +674,8 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
+    mode: "tagged-all"
+    untagged_vlan: 1
     tagged_vlans: []
     parent: null
     lag: null
@@ -605,8 +800,8 @@ ROUTER1:
     mtu: 9216
     enabled: false
     description: ""
-    mode: ""
-    untagged_vlan: null
+    mode: "access"
+    untagged_vlan: 103
     tagged_vlans: []
     parent: null
     lag: null
