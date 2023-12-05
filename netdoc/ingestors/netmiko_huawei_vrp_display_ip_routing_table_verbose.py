@@ -23,7 +23,7 @@ def ingest(log):
         nexthop_if_name = item.get("interface")
         distance = int(item.get("preference")) if item.get("preference") else None
         metric = int(item.get("cost")) if item.get("cost") else None
-        destination = item.get('destination') if item.get("destination") else None
+        destination = item.get("destination") if item.get("destination") else None
         protocol = item.get("protocol")
         nexthop_ip = item.get("next_hop") if item.get("next_hop") else None
         protocol = utils.normalize_route_type(protocol)

@@ -21,7 +21,6 @@ def ingest(log):
         if vrf_name:
             vrf_o = vrf.get_or_create(name=vrf_name)[0]
 
-
         for interface_name in item.get("interface_list"):
             label = utils.normalize_interface_label(interface_name)
 
