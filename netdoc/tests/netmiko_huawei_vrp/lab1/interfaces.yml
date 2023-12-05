@@ -106,7 +106,7 @@ ROUTER1:
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:4B"
-    vrf: null
+    vrf: red
     ip_addresses:
       - 10.10.10.1/24
     connected_device: null
@@ -125,7 +125,7 @@ ROUTER1:
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:46"
-    vrf: null
+    vrf: green
     ip_addresses:
       - 10.10.20.1/24
     connected_device: null
@@ -144,7 +144,7 @@ ROUTER1:
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:56"
-    vrf: null
+    vrf: yellow
     ip_addresses:
       - 10.10.30.1/24
     connected_device: null
@@ -806,7 +806,7 @@ ROUTER1:
     parent: null
     lag: null
     mac_address: "B0:76:1B:65:6A:40"
-    vrf: null
+    vrf: green
     ip_addresses: []
     connected_device: null
     connected_interface_label: null

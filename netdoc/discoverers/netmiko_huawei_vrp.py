@@ -26,6 +26,7 @@ def discovery(nrni, filters=None, filter_type=None):
             ("display lldp neighbor", None),
             ("display ip vpn-instance", None),
             ("display interface", None),
+            ("display ip vpn-instance interface", None),
             ("display eth-trunk", None),
             ("display ip interface", None),
             ("display vlan all", None),

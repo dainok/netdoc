@@ -1,11 +1,11 @@
 - prefix: 10.10.10.0/24
-  vrf: null
+  vrf: red
   site: test-site
 - prefix: 10.10.20.0/24
-  vrf: null
+  vrf: green
   site: test-site
 - prefix: 10.10.30.0/24
-  vrf: null
+  vrf: yellow
   site: test-site
 - prefix: 192.168.1.0/24
   vrf: null
