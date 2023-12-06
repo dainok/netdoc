@@ -18,23 +18,21 @@ def discovery(nrni, filters=None, filter_type=None):
     host_list = []
     failed_host_list = []
     # Define commands, in order with command, template, enabled
-    commands = (
-        [
-            ("display current-configuration | include sysname", "HOSTNAME"),
-            ("display current-configuration", None),
-            ("display device manufacture-info", None),
-            ("display lldp neighbor", None),
-            ("display ip vpn-instance", None),
-            ("display interface", None),
-            ("display ip vpn-instance interface", None),
-            ("display eth-trunk", None),
-            ("display ip interface", None),
-            ("display vlan all", None),
-            ("display lldp neighbor brief", None),
-            ("display arp all", None),
-            ("display mac-address", None),
-        ],
-    )
+    commands = [
+        ("display current-configuration | include sysname", "HOSTNAME"),
+        ("display current-configuration", None),
+        ("display device manufacture-info", None),
+        ("display lldp neighbor", None),
+        ("display ip vpn-instance", None),
+        ("display interface", None),
+        ("display ip vpn-instance interface", None),
+        ("display eth-trunk", None),
+        ("display ip interface", None),
+        ("display vlan all", None),
+        ("display lldp neighbor brief", None),
+        ("display arp all", None),
+        ("display mac-address", None),
+    ]
 
     def multiple_tasks(task):
         """Define commands (in order) for the playbook."""
