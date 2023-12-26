@@ -2,10 +2,10 @@
     "details": {
         "command": "show ip route all-vrf",
         "enable": true,
-        "order": 128,
-        "template": "show ip route all-vrf",
         "framework": "netmiko",
-        "platform": "aruba_aoscx"
+        "order": 128,
+        "platform": "aruba_aoscx",
+        "template": "show ip route all-vrf"
     },
     "discoverable__mode": "netmiko_aruba_aoscx"
 }

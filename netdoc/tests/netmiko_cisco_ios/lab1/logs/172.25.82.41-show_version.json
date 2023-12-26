@@ -2,10 +2,10 @@
     "details": {
         "command": "show version",
         "enable": true,
-        "order": 0,
-        "template": "HOSTNAME",
         "framework": "netmiko",
-        "platform": "cisco_ios"
+        "order": 0,
+        "platform": "cisco_ios",
+        "template": "HOSTNAME"
     },
     "discoverable__mode": "netmiko_cisco_ios"
 }

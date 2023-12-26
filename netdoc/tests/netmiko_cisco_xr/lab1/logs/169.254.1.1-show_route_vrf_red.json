@@ -2,11 +2,11 @@
     "details": {
         "command": "show route vrf red",
         "enable": true,
-        "order": 128,
-        "template": "show route",
-        "vrf": "red",
         "framework": "netmiko",
-        "platform": "cisco_xr"
+        "order": 128,
+        "platform": "cisco_xr",
+        "template": "show route",
+        "vrf": "red"
     },
     "discoverable__mode": "netmiko_cisco_xr"
 }

@@ -2,10 +2,10 @@
     "details": {
         "command": "display vlan all",
         "enable": true,
-        "order": 2,
-        "template": "display vlan all",
         "framework": "netmiko",
-        "platform": "hp_comware"
+        "order": 2,
+        "platform": "hp_comware",
+        "template": "display vlan all"
     },
     "discoverable__mode": "netmiko_hp_comware"
 }

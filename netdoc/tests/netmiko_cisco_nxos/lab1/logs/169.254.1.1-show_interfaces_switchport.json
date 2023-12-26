@@ -2,10 +2,10 @@
     "details": {
         "command": "show interfaces switchport",
         "enable": true,
-        "order": 128,
-        "template": "show interfaces switchport",
         "framework": "netmiko",
-        "platform": "cisco_ios"
+        "order": 128,
+        "platform": "cisco_ios",
+        "template": "show interfaces switchport"
     },
     "discoverable__mode": "netmiko_cisco_ios_telnet"
 }

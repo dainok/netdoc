@@ -2,10 +2,10 @@
     "details": {
         "command": "show etherchannel summary",
         "enable": true,
-        "order": 128,
-        "template": "show etherchannel summary",
         "framework": "netmiko",
-        "platform": "cisco_ios"
+        "order": 128,
+        "platform": "cisco_ios",
+        "template": "show etherchannel summary"
     },
     "discoverable__mode": "netmiko_cisco_ios_telnet"
 }

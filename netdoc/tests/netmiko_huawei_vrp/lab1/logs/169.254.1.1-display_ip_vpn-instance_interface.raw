@@ -1,0 +1,14 @@
+ Total VPN-Instances configured      : 3
+
+ VPN-Instance Name and ID : red, 1
+  Interface Number : 1 
+  Interface list : Vlanif10
+
+ VPN-Instance Name and ID : green, 2
+  Interface Number : 2 
+  Interface list : 40GE0/0/3, 
+                   Vlanif20
+
+ VPN-Instance Name and ID : yellow, 3
+  Interface Number : 1 
+  Interface list : Vlanif30

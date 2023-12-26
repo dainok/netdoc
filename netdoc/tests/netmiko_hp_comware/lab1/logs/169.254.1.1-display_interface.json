@@ -2,10 +2,10 @@
     "details": {
         "command": "display interface",
         "enable": true,
-        "order": 4,
-        "template": "display interface",
         "framework": "netmiko",
-        "platform": "hp_comware"
+        "order": 4,
+        "platform": "hp_comware",
+        "template": "display interface"
     },
     "discoverable__mode": "netmiko_hp_comware"
 }

@@ -2,11 +2,11 @@
     "details": {
         "command": "show ip arp vrf blue",
         "enable": true,
-        "order": 128,
-        "template": "show ip arp",
-        "vrf": "blue",
         "framework": "netmiko",
-        "platform": "cisco_nxos"
+        "order": 128,
+        "platform": "cisco_nxos",
+        "template": "show ip arp",
+        "vrf": "blue"
     },
     "discoverable__mode": "netmiko_cisco_nxos"
 }

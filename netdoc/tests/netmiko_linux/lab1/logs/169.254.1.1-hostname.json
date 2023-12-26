@@ -2,10 +2,10 @@
     "details": {
         "command": "hostname",
         "enable": true,
-        "order": 0,
-        "template": "HOSTNAME",
         "framework": "netmiko",
-        "platform": "linux"
+        "order": 0,
+        "platform": "linux",
+        "template": "HOSTNAME"
     },
     "discoverable__mode": "netmiko_linux"
 }

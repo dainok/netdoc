@@ -2,10 +2,10 @@
     "details": {
         "command": "display link-aggregation verbose",
         "enable": true,
-        "order": 7,
-        "template": "display link-aggregation verbose",
         "framework": "netmiko",
-        "platform": "hp_comware"
+        "order": 7,
+        "platform": "hp_comware",
+        "template": "display link-aggregation verbose"
     },
     "discoverable__mode": "netmiko_hp_comware"
 }

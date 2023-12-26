@@ -7,9 +7,6 @@
 - prefix: 10.10.7.0/24
   vrf: vrf-internal
   site: test-site
-- prefix: 10.10.255.1/32
-  vrf: vrf-internal
-  site: test-site
 - prefix: 10.13.4.0/30
   vrf: vrf-internal
   site: test-site

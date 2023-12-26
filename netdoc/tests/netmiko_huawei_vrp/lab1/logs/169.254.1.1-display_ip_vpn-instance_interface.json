@@ -1,0 +1,16 @@
+{
+    "configuration": false,
+    "details": {
+        "command": "display ip vpn-instance interface",
+        "enable": true,
+        "order": 3,
+        "supported": true,
+        "template": "display ip vpn-instance interface"
+    },
+    "discoverable__mode": "netmiko_huawei_vrp",
+    "ingested": false,
+    "parsed": false,
+    "parsed_output": "",
+    "raw_output": "",
+    "success": true
+}

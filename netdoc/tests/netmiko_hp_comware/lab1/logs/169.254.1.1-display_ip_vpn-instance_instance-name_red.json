@@ -2,10 +2,10 @@
     "details": {
         "command": "display ip vpn-instance instance-name red",
         "enable": true,
-        "order": 3,
-        "template": "display ip vpn-instance instance-name",
         "framework": "netmiko",
-        "platform": "hp_comware"
+        "order": 3,
+        "platform": "hp_comware",
+        "template": "display ip vpn-instance instance-name"
     },
     "discoverable__mode": "netmiko_hp_comware"
 }

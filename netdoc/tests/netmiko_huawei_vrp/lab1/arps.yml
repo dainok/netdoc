@@ -1,0 +1,25 @@
+- device: ROUTER1
+  interface: meth0/0/1
+  ip_address: 192.168.1.253
+  mac_address: B0:76:1B:65:6A:40
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+- device: ROUTER1
+  interface: vl10
+  ip_address: 10.10.10.1
+  mac_address: B0:76:1B:65:6A:4B
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+- device: ROUTER1
+  interface: te0/0/1
+  ip_address: 10.10.10.2
+  mac_address: B8:D6:F6:FF:73:9B
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+- device: ROUTER1
+  interface: vl20
+  ip_address: 10.10.20.1
+  mac_address: B0:76:1B:65:6A:46
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+- device: ROUTER1
+  interface: te0/0/1
+  ip_address: 10.10.20.2
+  mac_address: B8:D6:F6:FF:73:96
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD

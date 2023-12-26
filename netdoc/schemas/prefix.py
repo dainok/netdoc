@@ -62,7 +62,7 @@ def create(prefix=None, **kwargs):
         "prefix": prefix,
         **kwargs,
     }
-    if prefix == 32:
+    if prefix.endswith("/32"):
         # Don't create /32 prefixes
         return None
     data = utils.delete_empty_keys(data)

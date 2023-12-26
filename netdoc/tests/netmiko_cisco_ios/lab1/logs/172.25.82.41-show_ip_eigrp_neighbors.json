@@ -2,10 +2,10 @@
     "details": {
         "command": "show ip eigrp neighbors",
         "enable": true,
-        "order": 128,
-        "template": "show ip eigrp neighbors",
         "framework": "netmiko",
-        "platform": "cisco_ios"
+        "order": 128,
+        "platform": "cisco_ios",
+        "template": "show ip eigrp neighbors"
     },
     "discoverable__mode": "netmiko_cisco_ios"
 }

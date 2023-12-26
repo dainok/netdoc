@@ -2,10 +2,10 @@
     "details": {
         "command": "show cdp neighbors detail",
         "enable": true,
-        "order": 10,
-        "template": "show cdp neighbors detail",
         "framework": "netmiko",
-        "platform": "cisco_ios"
+        "order": 10,
+        "platform": "cisco_ios",
+        "template": "show cdp neighbors detail"
     },
     "discoverable__mode": "netmiko_cisco_ios"
 }

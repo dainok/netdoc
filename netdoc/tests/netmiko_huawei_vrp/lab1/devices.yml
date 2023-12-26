@@ -1,0 +1,12 @@
+- name: ROUTER1
+  site: test-site
+  model: Unknown Huawei device
+  manufacturer: Huawei
+  address: null
+  serial: ""
+- name: ROUTER2
+  site: test-site
+  model: Unknown device
+  manufacturer: Unknown
+  address: null
+  serial: ""

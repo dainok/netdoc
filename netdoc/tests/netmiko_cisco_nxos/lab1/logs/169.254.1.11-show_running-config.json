@@ -2,10 +2,10 @@
     "details": {
         "command": "show running-config",
         "enable": true,
-        "order": 10,
-        "template": "show running-config",
         "framework": "netmiko",
-        "platform": "cisco_nxos"
+        "order": 10,
+        "platform": "cisco_nxos",
+        "template": "show running-config"
     },
     "discoverable__mode": "netmiko_cisco_nxos"
 }

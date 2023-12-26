@@ -1,0 +1,7 @@
+Eth-Trunk0's state information is:
+WorkingMode: NORMAL         Hash arithmetic: According to SIP-XOR-DIP
+Least Active-linknumber: 1  Max Bandwidth-affected-linknumber: 32
+Operate status: down        Number Of Up Port In Trunk: 0
+--------------------------------------------------------------------------------
+PortName                      Status      Weight
+40GE0/0/1                     Down        1

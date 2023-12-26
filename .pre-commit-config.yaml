@@ -3,6 +3,7 @@
 #   - pre-commit install
 #   - pre-commit run --all-files
 # See https://pre-commit.com/hooks.html for more hooks
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
@@ -17,7 +18,10 @@ repos:
         exclude: \.raw|migrations|docker|venv
       - id: check-json
         exclude: \.raw|migrations|docker|venv
-  - repo: https://github.com/adrienverge/yamllint.git
+      - id: sort-simple-yaml
+        exclude: \.raw|migrations|docker|venv|library
+        files: \.yaml$|\.yml$
+  - repo: https://github.com/adrienverge/yamllint
     rev: v1.32.0
     hooks:
       - id: yamllint
@@ -28,6 +32,17 @@ repos:
     hooks:
       - id: yamlfmt
         exclude: \.raw|migrations|docker|venv
+  - repo: https://github.com/tillig/json-sort-cli
+    rev: v1.1.0
+    hooks:
+      - id: json-sort
+        exclude: \.raw|migrations|docker|venv
+        args:
+          - --autofix
+          - --end-of-line=lf
+          - --indent-size="    "
+          - --indent-style=space
+          - --insert-final-newline=true
   - repo: https://github.com/psf/black
     rev: 23.3.0
     hooks:

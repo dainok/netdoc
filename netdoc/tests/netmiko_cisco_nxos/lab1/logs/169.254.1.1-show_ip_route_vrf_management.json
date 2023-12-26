@@ -2,11 +2,11 @@
     "details": {
         "command": "show ip route vrf management",
         "enable": true,
-        "order": 128,
-        "template": "show ip route",
-        "vrf": "management",
         "framework": "netmiko",
-        "platform": "cisco_ios"
+        "order": 128,
+        "platform": "cisco_ios",
+        "template": "show ip route",
+        "vrf": "management"
     },
     "discoverable__mode": "netmiko_cisco_ios_telnet"
 }

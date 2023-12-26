@@ -2,11 +2,11 @@
     "details": {
         "command": "show ip route vrf red",
         "enable": true,
-        "order": 128,
-        "template": "show ip route",
-        "vrf": "red",
         "framework": "netmiko",
-        "platform": "cisco_ios"
+        "order": 128,
+        "platform": "cisco_ios",
+        "template": "show ip route",
+        "vrf": "red"
     },
     "discoverable__mode": "netmiko_cisco_ios"
 }

@@ -1,0 +1,6 @@
+- name: red
+  rd: "1:2"
+- name: green
+  rd: null
+- name: yellow
+  rd: null

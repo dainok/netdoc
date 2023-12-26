@@ -2,10 +2,10 @@
     "details": {
         "command": "show ip route vrf all",
         "enable": true,
-        "order": 128,
-        "template": "show ip route vrf all",
         "framework": "netmiko",
-        "platform": "cisco_nxos"
+        "order": 128,
+        "platform": "cisco_nxos",
+        "template": "show ip route vrf all"
     },
     "discoverable__mode": "netmiko_cisco_nxos"
 }

@@ -8,6 +8,7 @@
 # Set NETBOX_VERSION below to a specific Netbox version.
 # Set PYTHON_VERSION below to a specific Python version.
 # Set UBUNTU_VERSION below to a specific Ubuntu version.
+
 name: "CI"
 env:
   NETBOX_VERSION: v3.5.8

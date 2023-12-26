@@ -1,0 +1,16 @@
+{
+    "configuration": false,
+    "details": {
+        "command": "display vlan",
+        "enable": true,
+        "order": 90,
+        "supported": true,
+        "template": "display vlan"
+    },
+    "discoverable__mode": "netmiko_huawei_vrp",
+    "ingested": false,
+    "parsed": false,
+    "parsed_output": "",
+    "raw_output": "",
+    "success": true
+}

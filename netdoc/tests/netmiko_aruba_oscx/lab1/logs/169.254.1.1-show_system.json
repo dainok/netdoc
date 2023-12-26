@@ -2,10 +2,10 @@
     "details": {
         "command": "show system",
         "enable": true,
-        "order": 128,
-        "template": "show system",
         "framework": "netmiko",
-        "platform": "aruba_aoscx"
+        "order": 128,
+        "platform": "aruba_aoscx",
+        "template": "show system"
     },
     "discoverable__mode": "netmiko_aruba_aoscx"
 }

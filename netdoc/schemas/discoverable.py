@@ -22,7 +22,10 @@ def get_schema():
         "properties": {
             "address": {
                 "type": "string",
-                "format": "ipv4",
+                "oneOf": [
+                    {"format": "ipv4"},
+                    {"format": "ipv6"},
+                ],
             },
             "device_id": {
                 "type": "integer",

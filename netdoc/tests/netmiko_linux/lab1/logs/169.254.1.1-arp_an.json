@@ -2,10 +2,10 @@
     "details": {
         "command": "arp -an",
         "enable": true,
-        "order": 10,
-        "template": "arp -an",
         "framework": "netmiko",
-        "platform": "linux"
+        "order": 10,
+        "platform": "linux",
+        "template": "arp -an"
     },
     "discoverable__mode": "netmiko_linux"
 }

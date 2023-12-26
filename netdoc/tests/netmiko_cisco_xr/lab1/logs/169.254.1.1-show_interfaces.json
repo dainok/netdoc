@@ -2,10 +2,10 @@
     "details": {
         "command": "show interfaces",
         "enable": true,
-        "order": 10,
-        "template": "show interfaces",
         "framework": "netmiko",
-        "platform": "cisco_xr"
+        "order": 10,
+        "platform": "cisco_xr",
+        "template": "show interfaces"
     },
     "discoverable__mode": "netmiko_cisco_xr"
 }

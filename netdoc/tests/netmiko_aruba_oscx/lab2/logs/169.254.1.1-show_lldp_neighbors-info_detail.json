@@ -2,10 +2,10 @@
     "details": {
         "command": "show lldp neighbor-info detail",
         "enable": true,
-        "order": 128,
-        "template": "show lldp neighbors-info detail",
         "framework": "netmiko",
-        "platform": "aruba_aoscx"
+        "order": 128,
+        "platform": "aruba_aoscx",
+        "template": "show lldp neighbors-info detail"
     },
     "discoverable__mode": "netmiko_aruba_aoscx"
 }

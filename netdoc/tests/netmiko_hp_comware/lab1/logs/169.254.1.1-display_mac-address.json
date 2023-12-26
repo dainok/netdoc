@@ -2,10 +2,10 @@
     "details": {
         "command": "display mac-address",
         "enable": true,
-        "order": 6,
-        "template": "display mac-address",
         "framework": "netmiko",
-        "platform": "hp_comware"
+        "order": 6,
+        "platform": "hp_comware",
+        "template": "display mac-address"
     },
     "discoverable__mode": "netmiko_hp_comware"
 }
