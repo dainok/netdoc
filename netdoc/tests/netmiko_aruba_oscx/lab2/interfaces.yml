@@ -82,7 +82,7 @@ SW1:
     vrf: null
     ip_addresses: []
     connected_device: SW2
-    connected_interface_label: "48"
+    connected_interface_label: "1/48"
   - name: 1/1/5
     label: 1/1/5
     type: other
@@ -176,8 +176,8 @@ SW1:
     connected_device: null
     connected_interface_label: null
 SW2:
-  - name: "48"
-    label: "48"
+  - name: "1/48"
+    label: "1/48"
     type: other
     speed: null
     duplex: null

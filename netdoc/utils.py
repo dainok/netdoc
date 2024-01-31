@@ -230,6 +230,10 @@ def get_remote_lldp_interface_label(
         # port_description contains a description
         port_description = None
 
+    if port_description and "/" in port_description:
+        # port_description contains /
+        return normalize_interface_label(port_description)
+
     if port_id:
         # Give prevedence to port_id
         return normalize_interface_label(port_id)
@@ -780,7 +784,7 @@ def normalize_route_type(route_type):
     if route_type in ["n2", "o n2"]:
         # OSPF NSSA Type 2
         return "on2"
-    if route_type in ["e1", "o e1", "o_ase1", "a o1"]:
+    if route_type in ["o*e1", "e1", "o e1", "o_ase1", "a o1"]:
         # OSPF External Type 1
         return "oe1"
     if route_type in ["o*e2", "e2", "o e2", "o_ase2", "o_ase", "a o2"]:
