@@ -21,11 +21,12 @@ keywords:
   - PowerEdge R720xd
   - PowerEdge R720
   - PowerEdge T430
+  - VxRail E560
   - PowerEdge R530
   - PowerEdge R450
   - PowerEdge T330
   - PowerEdge R230
-  - PowerEdge R620 XL
+  - PowerEdge R620XL
   - PowerSwitch Z9100-ON
   - Z9100-ON
   - PowerSwitch N3048
@@ -54,8 +55,11 @@ keywords:
   - S3048-ON
   - PowerEdge C6400
   - PowerEdge T310
+  - PowerEdge R7615
   - DR4100
   - PowerEdge R640
+  - PowerConnect 7048P
+  - PC7048P
   - PowerEdge R415
   - PowerEdge R740xd2
   - PowerEdge T110
@@ -63,14 +67,21 @@ keywords:
   - S4148F-ON
   - PowerEdge M1000e
   - PowerEdge C6420
+  - VxRail E660
   - PowerEdge R420
   - PowerSwitch S5224F-ON
   - PowerEdge R410
+  - PowerConnect 3548p
+  - 469-3418
   - PowerEdge R620
   - PowerEdge R820
+  - PowerSwitch N2248X-ON
+  - N2248X-ON
+  - PowerEdge R6615
   - PowerEdge R200
   - PowerSwitch S5232F-ON
   - PowerSwitch S5248F-ON
+  - PowerEdge R7625
   - PowerConnect 6224
   - DKMMLED185-207
   - A7485910
@@ -85,6 +96,7 @@ keywords:
   - 49H29
   - PowerEdge R710
   - PowerConnect 6248
+  - PowerEdge R6625
   - PowerVault NX3240
   - PowerEdge R510
   - PowerConnect 5448
@@ -444,6 +456,7 @@ models:
         type: de-9
       - name: VGA
         type: other
+    front_image: true
     interfaces:
       - name: Gig-E 1
         type: 1000base-t
@@ -460,6 +473,7 @@ models:
         type: iec-60320-c14
       - name: Power 2
         type: iec-60320-c14
+    rear_image: true
     slug: dell-poweredge-r6515
     u_height: 1
   - comments: '[Technical Guide](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/aa/PowerEdge_R740_R740xd_Technical_Guide.pdf)'
@@ -648,6 +662,7 @@ models:
         type: rj-45
       - name: '16'
         type: rj-45
+    front_image: true
     interfaces:
       - name: mgmt1
         type: 1000base-t
@@ -664,6 +679,7 @@ models:
       - maximum_draw: 18
         name: ps2
         type: iec-60320-c14
+    rear_image: true
     slug: dell-dmpu2016-g01
     u_height: 1
   - console-ports:
@@ -857,6 +873,48 @@ models:
         type: iec-60320-c14
     slug: dell-poweredge-t430
     u_height: 5
+  - comments: '[Owner Manual](https://dl.dell.com/content/manual34075045-dell-vxrail-e560-e560f-and-e560n-technical-specifications.pdf?language=en-us)'
+    console-ports:
+      - name: Serial
+        type: de-9
+    front_image: true
+    interfaces:
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: VxRail E560
+    module-bays:
+      - description: PCIe2/3 8x Network daughter card
+        label: '1'
+        name: Network daughter card PCI
+        position: NDC-1
+      - description: PCIe2/3 4/16x Low profile
+        label: '1'
+        name: Riser PCIe slot 1
+        position: PCIe-1
+      - description: PCIe2/3 16x Low profile
+        label: '2'
+        name: Riser PCIe slot 2
+        position: PCIe-2
+      - description: PCIe2/3 16x Low profile
+        label: '3'
+        name: Riser PCIe slot 3
+        position: PCIe-3
+      - description: 1100W
+        label: '1'
+        name: power supply unit 1
+        position: PSU-1
+      - description: 1100W
+        label: '2'
+        name: power supply unit 2
+        position: PSU-2
+    rear_image: true
+    slug: dell-vxrail-e560
+    u_height: 1
+    weight: 21
+    weight_unit: kg
   - console-ports:
       - name: Serial
         type: de-9
@@ -879,6 +937,27 @@ models:
     is_full_depth: true
     manufacturer: Dell
     model: PowerEdge R530
+    module-bays:
+      - description: PCIe2/3 8x
+        label: '1'
+        name: PCIe slot 1
+        position: PCIe-1
+      - description: PCIe2/3 16x
+        label: '2'
+        name: PCIe slot 2
+        position: PCIe-2
+      - description: PCIe2/3 16x
+        label: '3'
+        name: PCIe slot 3
+        position: PCIe-3
+      - description: PCIe2/3 1x
+        label: '4'
+        name: PCIe slot 4
+        position: PCIe-4
+      - description: PCIe2/3 4x
+        label: '5'
+        name: PCIe slot 5
+        position: PCIe-5
     power-ports:
       - name: Power 1
         type: iec-60320-c14
@@ -975,13 +1054,13 @@ models:
         type: 1000base-t
     is_full_depth: true
     manufacturer: Dell
-    model: PowerEdge R620 XL
+    model: PowerEdge R620XL
     power-ports:
       - name: Power 1
         type: iec-60320-c14
       - name: Power 2
         type: iec-60320-c14
-    slug: dell-poweredge-r620-xl
+    slug: dell-poweredge-r620xl
     u_height: 1
   - comments: '[dell-networking-z9100-spec-sheet.pdf](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/us/dell-networking-z9100-spec-sheet.pdf)'
     console-ports:
@@ -1570,6 +1649,7 @@ models:
         type: de-9
       - name: VGA
         type: other
+    front_image: true
     interfaces:
       - name: Gig-E 1
         type: 1000base-t
@@ -1590,6 +1670,7 @@ models:
         type: iec-60320-c14
       - name: Power 2
         type: iec-60320-c14
+    rear_image: true
     slug: dell-poweredge-r430
     u_height: 1
   - comments: '[Dell R815 Data Sheet](https://www.dell.com/learn/us/en/12/shared-content~data-sheets~en/documents~r815-specsheet.pdf)
@@ -2031,6 +2112,11 @@ models:
   - is_full_depth: false
     manufacturer: Dell
     model: PowerEdge C6400
+    module-bays:
+      - name: Power 1
+        position: '1'
+      - name: Power 2
+        position: '2'
     slug: dell-poweredge-c6400
     u_height: 2
   - comments: '[T310-SpecSheet.pdf](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/T310-SpecSheet.pdf)'
@@ -2064,11 +2150,42 @@ models:
     slug: dell-poweredge-t310
     subdevice_role: parent
     u_height: 0
+  - comments: '[Technical Guide](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r7615-technical-guide.pdf)'
+    console-ports:
+      - name: Rear Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R7615
+    module-bays:
+      - name: OCP 3.0
+        position: OCP-1
+      - label: '1'
+        name: PSU-1
+        position: PSU-1
+      - label: '2'
+        name: PSU-2
+        position: PSU-2
+    slug: dell-poweredge-r7615
+    u_height: 2
   - console-ports:
       - name: Serial
         type: de-9
       - name: VGA
         type: other
+    front_image: true
     interfaces:
       - name: NIC.Integrated.1-1-1
         type: 10gbase-t
@@ -2089,6 +2206,7 @@ models:
         type: iec-60320-c14
       - name: Power 2
         type: iec-60320-c14
+    rear_image: true
     slug: dell-dr4100
     u_height: 2
   - console-ports:
@@ -2130,6 +2248,278 @@ models:
     slug: dell-poweredge-r640
     subdevice_role: parent
     u_height: 1
+  - airflow: front-to-rear
+    console-ports:
+      - label: Console
+        name: Serial
+        type: de-9
+      - name: USB
+        type: usb-a
+    interfaces:
+      - label: '1'
+        name: GigabitEthernet1/0/1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '2'
+        name: GigabitEthernet1/0/2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '3'
+        name: GigabitEthernet1/0/3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '4'
+        name: GigabitEthernet1/0/4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '5'
+        name: GigabitEthernet1/0/5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '6'
+        name: GigabitEthernet1/0/6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '7'
+        name: GigabitEthernet1/0/7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '8'
+        name: GigabitEthernet1/0/8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '9'
+        name: GigabitEthernet1/0/9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '10'
+        name: GigabitEthernet1/0/10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '11'
+        name: GigabitEthernet1/0/11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '12'
+        name: GigabitEthernet1/0/12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '13'
+        name: GigabitEthernet1/0/13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '14'
+        name: GigabitEthernet1/0/14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '15'
+        name: GigabitEthernet1/0/15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '16'
+        name: GigabitEthernet1/0/16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '17'
+        name: GigabitEthernet1/0/17
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '18'
+        name: GigabitEthernet1/0/18
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '19'
+        name: GigabitEthernet1/0/19
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '20'
+        name: GigabitEthernet1/0/20
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '21'
+        name: GigabitEthernet1/0/21
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '22'
+        name: GigabitEthernet1/0/22
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '23'
+        name: GigabitEthernet1/0/23
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '24'
+        name: GigabitEthernet1/0/24
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '25'
+        name: GigabitEthernet1/0/25
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '26'
+        name: GigabitEthernet1/0/26
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '27'
+        name: GigabitEthernet1/0/27
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '28'
+        name: GigabitEthernet1/0/28
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '29'
+        name: GigabitEthernet1/0/29
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '30'
+        name: GigabitEthernet1/0/30
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '31'
+        name: GigabitEthernet1/0/31
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '32'
+        name: GigabitEthernet1/0/32
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '33'
+        name: GigabitEthernet1/0/33
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '34'
+        name: GigabitEthernet1/0/34
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '35'
+        name: GigabitEthernet1/0/35
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '36'
+        name: GigabitEthernet1/0/36
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '37'
+        name: GigabitEthernet1/0/37
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '38'
+        name: GigabitEthernet1/0/38
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '39'
+        name: GigabitEthernet1/0/39
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '40'
+        name: GigabitEthernet1/0/40
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '41'
+        name: GigabitEthernet1/0/41
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '42'
+        name: GigabitEthernet1/0/42
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '43'
+        name: GigabitEthernet1/0/43
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '44'
+        name: GigabitEthernet1/0/44
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: 45 combo port
+        name: GigabitEthernet1/0/45
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: 46 combo port
+        name: GigabitEthernet1/0/46
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: 47 combo port
+        name: GigabitEthernet1/0/47
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: 48 combo port
+        name: GigabitEthernet1/0/48
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: Management
+        mgmt_only: true
+        name: OOB
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Dell
+    model: PowerConnect 7048P
+    module-bays:
+      - label: Expansion Slot 1
+        name: Slot 1/1
+        position: '1'
+      - label: Expansion Slot 2
+        name: Slot 1/2
+        position: '2'
+    part_number: PC7048P
+    power-ports:
+      - label: AC In
+        maximum_draw: 1000
+        name: Power
+        type: iec-60320-c14
+    slug: dell-powerconnect-7048p
+    u_height: 1
+    weight: 17.86
+    weight_unit: lb
   - console-ports:
       - name: Serial
         type: de-9
@@ -2366,9 +2756,6 @@ models:
   - comments: '[Dell C6420 Spec Sheet](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/dell-emc-poweredge-c6520-spec-sheet.pdf)
 
 '
-    console-ports:
-      - name: Mini-DP
-        type: other
     interfaces:
       - name: Gig-E 1
         type: 1000base-t
@@ -2378,13 +2765,55 @@ models:
     is_full_depth: false
     manufacturer: Dell
     model: PowerEdge C6420
-    power-ports:
+    module-bays:
       - name: Power 1
-        type: iec-60320-c14
+        position: '1'
       - name: Power 2
-        type: iec-60320-c14
+        position: '2'
     slug: dell-poweredge-c6420
     u_height: 2
+  - comments: '[Owner Manual](https://www.delltechnologies.com/asset/en-us/products/converged-infrastructure/technical-support/docu87343.pdf)'
+    console-ports:
+      - name: Serial
+        type: de-9
+    front_image: true
+    interfaces:
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: VxRail E660
+    module-bays:
+      - description: PCIe2/3 8x Network daughter card
+        label: '1'
+        name: Network daughter card PCI
+        position: NDC-1
+      - description: PCIe2/3 4/16x Low profile
+        label: '1'
+        name: Riser PCIe slot 1
+        position: PCIe-1
+      - description: PCIe2/3 16x Low profile
+        label: '2'
+        name: Riser PCIe slot 2
+        position: PCIe-2
+      - description: PCIe2/3 16x Low profile
+        label: '3'
+        name: Riser PCIe slot 3
+        position: PCIe-3
+      - description: 1100W
+        label: '1'
+        name: power supply unit 1
+        position: PSU-1
+      - description: 1100W
+        label: '2'
+        name: power supply unit 2
+        position: PSU-2
+    rear_image: true
+    slug: dell-vxrail-e660
+    u_height: 1
+    weight: 21
+    weight_unit: kg
   - console-ports:
       - name: Serial
         type: de-9
@@ -2403,6 +2832,15 @@ models:
     is_full_depth: true
     manufacturer: Dell
     model: PowerEdge R420
+    module-bays:
+      - description: PCIe2/3 4/16x
+        label: '1'
+        name: Riser PCIe slot 1
+        position: PCIe-1
+      - description: PCIe2/3 16x
+        label: '2'
+        name: Riser PCIe slot 2
+        position: PCIe-2
     power-ports:
       - name: Power 1
         type: iec-60320-c14
@@ -2511,6 +2949,227 @@ models:
         type: iec-60320-c14
     slug: dell-poweredge-r410
     u_height: 1
+  - airflow: front-to-rear
+    console-ports:
+      - name: rs-232
+        type: de-9
+    interfaces:
+      - name: g1
+        type: 1000base-x-sfp
+      - name: g2
+        type: 1000base-x-sfp
+      - name: g3
+        type: 1000base-t
+      - name: g4
+        type: 1000base-t
+      - name: e1
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e2
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e3
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e4
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e5
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e6
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e7
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e8
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e9
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e10
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e11
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e12
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e13
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e14
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e15
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e16
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e17
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e18
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e19
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e20
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e21
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e22
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e23
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e24
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e25
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e26
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e27
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e28
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e29
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e30
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e31
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e32
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e33
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e34
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e35
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e36
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e37
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e38
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e39
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e40
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e41
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e42
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e43
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e44
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e45
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e46
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e47
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - name: e48
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - mgmt_only: true
+        name: Management
+        type: virtual
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerConnect 3548p
+    part_number: 469-3418
+    power-ports:
+      - name: PS1
+        type: iec-60320-c14
+      - name: RPS
+        type: dc-terminal
+    slug: dell-powerconnect-3548p
+    u_height: 1
+    weight: 13.27
+    weight_unit: lb
   - console-ports:
       - name: Serial
         type: de-9
@@ -2566,6 +3225,170 @@ models:
     slug: dell-poweredge-r820
     u_height: 2
   - console-ports:
+      - label: RJ-45 Console
+        name: Console
+        type: rj-45
+      - label: USB Console
+        name: USB
+        type: usb-micro-b
+    interfaces:
+      - name: Gi1/0/1
+        type: 2.5gbase-t
+      - name: Gi1/0/2
+        type: 2.5gbase-t
+      - name: Gi1/0/3
+        type: 2.5gbase-t
+      - name: Gi1/0/4
+        type: 2.5gbase-t
+      - name: Gi1/0/5
+        type: 2.5gbase-t
+      - name: Gi1/0/6
+        type: 2.5gbase-t
+      - name: Gi1/0/7
+        type: 2.5gbase-t
+      - name: Gi1/0/8
+        type: 2.5gbase-t
+      - name: Gi1/0/9
+        type: 2.5gbase-t
+      - name: Gi1/0/10
+        type: 2.5gbase-t
+      - name: Gi1/0/11
+        type: 2.5gbase-t
+      - name: Gi1/0/12
+        type: 2.5gbase-t
+      - name: Gi1/0/13
+        type: 2.5gbase-t
+      - name: Gi1/0/14
+        type: 2.5gbase-t
+      - name: Gi1/0/15
+        type: 2.5gbase-t
+      - name: Gi1/0/16
+        type: 2.5gbase-t
+      - name: Gi1/0/17
+        type: 2.5gbase-t
+      - name: Gi1/0/18
+        type: 2.5gbase-t
+      - name: Gi1/0/19
+        type: 2.5gbase-t
+      - name: Gi1/0/20
+        type: 2.5gbase-t
+      - name: Gi1/0/21
+        type: 2.5gbase-t
+      - name: Gi1/0/22
+        type: 2.5gbase-t
+      - name: Gi1/0/23
+        type: 2.5gbase-t
+      - name: Gi1/0/24
+        type: 2.5gbase-t
+      - name: Gi1/0/25
+        type: 2.5gbase-t
+      - name: Gi1/0/26
+        type: 2.5gbase-t
+      - name: Gi1/0/27
+        type: 2.5gbase-t
+      - name: Gi1/0/28
+        type: 2.5gbase-t
+      - name: Gi1/0/29
+        type: 2.5gbase-t
+      - name: Gi1/0/30
+        type: 2.5gbase-t
+      - name: Gi1/0/31
+        type: 2.5gbase-t
+      - name: Gi1/0/32
+        type: 2.5gbase-t
+      - name: Gi1/0/33
+        type: 2.5gbase-t
+      - name: Gi1/0/34
+        type: 2.5gbase-t
+      - name: Gi1/0/35
+        type: 2.5gbase-t
+      - name: Gi1/0/36
+        type: 2.5gbase-t
+      - name: Gi1/0/37
+        type: 2.5gbase-t
+      - name: Gi1/0/38
+        type: 2.5gbase-t
+      - name: Gi1/0/39
+        type: 2.5gbase-t
+      - name: Gi1/0/40
+        type: 2.5gbase-t
+      - name: Gi1/0/41
+        type: 2.5gbase-t
+      - name: Gi1/0/42
+        type: 2.5gbase-t
+      - name: Gi1/0/43
+        type: 2.5gbase-t
+      - name: Gi1/0/44
+        type: 2.5gbase-t
+      - name: Gi1/0/45
+        type: 2.5gbase-t
+      - name: Gi1/0/46
+        type: 2.5gbase-t
+      - name: Gi1/0/47
+        type: 2.5gbase-t
+      - name: Gi1/0/48
+        type: 2.5gbase-t
+      - name: Tw1/0/1
+        type: 25gbase-x-sfp28
+      - name: Tw1/0/2
+        type: 25gbase-x-sfp28
+      - name: Tw1/0/3
+        type: 25gbase-x-sfp28
+      - name: Tw1/0/4
+        type: 25gbase-x-sfp28
+      - name: Fo1/0/1
+        type: 40gbase-x-qsfpp
+      - name: Fo1/0/2
+        type: 40gbase-x-qsfpp
+      - mgmt_only: true
+        name: mgmt 1/1/1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerSwitch N2248X-ON
+    module-bays:
+      - label: PSU Slot 1
+        name: '1'
+        position: '1'
+      - label: PSU Slot 2
+        name: '2'
+        position: '2'
+    part_number: N2248X-ON
+    slug: dell-powerswitch-n2248x-on
+    u_height: 1
+    weight: 6.9
+    weight_unit: kg
+  - comments: '[Technical Guide](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r6615-technical-guide.pdf)'
+    console-ports:
+      - name: Rear Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R6615
+    module-bays:
+      - name: OCP 3.0
+        position: OCP-1
+      - label: '1'
+        name: PSU-1
+        position: PSU-1
+      - label: '2'
+        name: PSU-2
+        position: PSU-2
+    slug: dell-poweredge-r6615
+    u_height: 1
+  - console-ports:
       - name: Serial
         type: de-9
       - name: VGA
@@ -2587,6 +3410,7 @@ models:
     console-ports:
       - name: Console
         type: rj-45
+    front_image: true
     interfaces:
       - name: Ethernet 1/1/1
         type: 100gbase-x-qsfp28
@@ -2677,6 +3501,7 @@ models:
     console-ports:
       - name: Console
         type: rj-45
+    front_image: true
     interfaces:
       - name: Ethernet 1/1/1
         type: 25gbase-x-sfp28
@@ -2807,6 +3632,36 @@ models:
         type: iec-60320-c14
     slug: dell-powerswitch-s5248f-on
     u_height: 1
+  - comments: '[Technical Guide](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r7625-technical-guide.pdf)'
+    console-ports:
+      - name: Rear Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R7625
+    module-bays:
+      - name: OCP 3.0
+        position: OCP-1
+      - label: '1'
+        name: PSU-1
+        position: PSU-1
+      - label: '2'
+        name: PSU-2
+        position: PSU-2
+    slug: dell-poweredge-r7625
+    u_height: 2
   - console-ports:
       - name: Serial
         type: de-9
@@ -2917,6 +3772,7 @@ models:
         name: A
       - label: Controller Slot B
         name: B
+    front_image: true
     is_full_depth: true
     manufacturer: Dell
     model: PowerVault ME4024
@@ -2927,6 +3783,7 @@ models:
       - label: PSU Slot 2
         name: '2'
         position: '2'
+    rear_image: true
     slug: dell-powervault-me4024
     subdevice_role: parent
     u_height: 2
@@ -3242,12 +4099,43 @@ models:
         type: iec-60320-c14
     slug: dell-powerconnect-6248
     u_height: 1
+  - comments: '[Technical Guide](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r6625-technical-guide.pdf)'
+    console-ports:
+      - name: Rear Serial
+        type: de-9
+      - name: Front VGA
+        type: other
+      - name: Rear VGA
+        type: other
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: iDRAC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Dell
+    model: PowerEdge R6625
+    module-bays:
+      - name: OCP 3.0
+        position: OCP-1
+      - label: '1'
+        name: PSU-1
+        position: PSU-1
+      - label: '2'
+        name: PSU-2
+        position: PSU-2
+    slug: dell-poweredge-r6625
+    u_height: 1
   - comments: '[storage-nx3240_owners-manual_en-us.pdf](https://dl.dell.com/topicspdf/storage-nx3240_owners-manual_en-us.pdf)'
     console-ports:
       - name: Serial
         type: de-9
       - name: VGA
         type: other
+    front_image: true
     interfaces:
       - name: NIC.Integrated.1-1-1
         type: 10gbase-t
@@ -3268,6 +4156,7 @@ models:
         type: iec-60320-c14
       - name: Power 2
         type: iec-60320-c14
+    rear_image: true
     slug: dell-powervault-nx3240
     u_height: 2
   - console-ports:
@@ -3409,6 +4298,7 @@ models:
         type: de-9
       - name: VGA
         type: other
+    front_image: true
     interfaces:
       - mgmt_only: true
         name: iDRAC
@@ -3431,6 +4321,7 @@ models:
         position: PCIe-Gen3-2
       - name: Riser PCIe-Gen3 3
         position: PCIe-Gen3-3
+    rear_image: true
     slug: dell-poweredge-r630
     u_height: 1
   - comments: '[https://i.dell.com/sites/csdocuments/Product_Docs/en/dell-emc-poweredge-r840-spec-sheet.pdf)

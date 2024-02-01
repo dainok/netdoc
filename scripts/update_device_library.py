@@ -5,14 +5,12 @@ from os import walk, path
 import yaml
 from yaml.loader import SafeLoader
 
-SRC_DIR = "../devicetype-library/device-types/device-types"
+SRC_DIR = "../devicetype-library/device-types"
 DST_DIR = "netdoc/library/"
 
 if not path.isdir(SRC_DIR):
     print("Clone git repository with the following command:")
-    print(
-        f"git clone https://github.com/netbox-community/devicetype-library/ {SRC_DIR}"
-    )
+    print("git clone https://github.com/netbox-community/devicetype-library/ ..")
 
 for dirpath, dirnames, filenames in walk(SRC_DIR):  # pylint: disable=unused-variable
     if not (dirpath and not dirnames and filenames):

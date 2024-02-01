@@ -1,6 +1,7 @@
 keywords:
   - Primergy BX2560 M2
   - PRIMERGY TX1330 M4
+  - PRIMERGY RX2540 M5
   - PRIMERGY TX1310 M3
   - PRIMERGY TX1310 M1
   - PRIMERGY TX100 S1
@@ -24,6 +25,7 @@ models:
     manufacturer: Fujitsu
     model: Primergy BX2560 M2
     slug: fujitsu-primergy-bx2560-m2
+    subdevice_role: child
     u_height: 0
   - console-ports:
       - name: Serial
@@ -46,6 +48,37 @@ models:
         type: iec-60320-c14
     slug: fujitsu-primergy-tx1330-m4
     u_height: 5
+  - airflow: front-to-rear
+    comments: '[Fujitsu Server PRIMERGY RX2540 M5 Rack Server](https://www.fujitsu.com/vn/en/imagesgig5/Data_Sheet_FUJITSU_Server_PRIMERGY_RX2540_M5_Rack_Server.pdf)'
+    console-ports:
+      - name: Serial
+        type: de-9
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - name: TenGig-E 1
+        type: 10gbase-t
+      - name: TenGig-E 2
+        type: 10gbase-t
+      - mgmt_only: true
+        name: iRMC-S5
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Fujitsu
+    model: PRIMERGY RX2540 M5
+    module-bays:
+      - label: '1'
+        name: PSU-1
+        position: PSU-1
+      - label: '2'
+        name: PSU-2
+        position: PSU-2
+    slug: fujitsu-primergy-rx2540-m5
+    u_height: 2
+    weight: 25
+    weight_unit: kg
   - console-ports:
       - name: Serial
         type: de-9
@@ -120,6 +153,7 @@ models:
     manufacturer: Fujitsu
     model: Primergy BX924 S4
     slug: fujitsu-primergy-bx924-s4
+    subdevice_role: child
     u_height: 0
   - console-ports:
       - name: Console
@@ -138,4 +172,5 @@ models:
     manufacturer: Fujitsu
     model: Primergy BX2560 M1
     slug: fujitsu-primergy-bx2560-m1
+    subdevice_role: child
     u_height: 0

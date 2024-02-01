@@ -437,7 +437,7 @@ models:
         name: PCIe slot 2 - FH
         position: PCIe-2
     part_number: E28Q-L
-    slug: freedom-e28q-l
+    slug: pluribus-freedom-e28q-l
     u_height: 2
     weight: 25
     weight_unit: kg

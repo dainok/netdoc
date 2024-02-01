@@ -1,14 +1,76 @@
 keywords:
+  - SX6012F-2BFS
+  - MSX6012F-2BFS
   - SN3700C
   - SN4600C
   - SN4700
+  - SX6012T-1BFS
+  - MSX6012T-1BFS
   - SN2010
+  - SX6012F-1BFS
+  - MSX6012F-1BFS
+  - SX6012T-2BFS
+  - MSX6012T-2BFS
   - SN4600
   - SN2700
+  - SX60-DKIT
+  - MSX60-DKIT
+  - SX6012F-2BRS
+  - MSX6012F-2BRS
   - SB7800
   - SN3700
+  - SX6012F-1BRS
+  - MSX6012F-1BRS
   - SX6036
 models:
+  - airflow: rear-to-front
+    console-ports:
+      - name: Serial Console
+        type: rj-45
+      - name: USB Console
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: mgmt0
+        type: 1000base-t
+      - name: IB1/1
+        type: infiniband-fdr
+      - name: IB1/2
+        type: infiniband-fdr
+      - name: IB1/3
+        type: infiniband-fdr
+      - name: IB1/4
+        type: infiniband-fdr
+      - name: IB1/5
+        type: infiniband-fdr
+      - name: IB1/6
+        type: infiniband-fdr
+      - name: IB1/7
+        type: infiniband-fdr
+      - name: IB1/8
+        type: infiniband-fdr
+      - name: IB1/9
+        type: infiniband-fdr
+      - name: IB1/10
+        type: infiniband-fdr
+      - name: IB1/11
+        type: infiniband-fdr
+      - name: IB1/12
+        type: infiniband-fdr
+    manufacturer: Mellanox
+    model: SX6012F-2BFS
+    part_number: MSX6012F-2BFS
+    power-ports:
+      - allocated_draw: 152
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 152
+        name: PS2
+        type: iec-60320-c14
+    slug: mellanox-sx6012f-2bfs
+    subdevice_role: child
+    weight: 2.98
+    weight_unit: kg
   - console-ports:
       - name: con0
         type: rj-45
@@ -322,6 +384,51 @@ models:
         type: iec-60320-c14
     slug: mellanox-sn4700
     u_height: 1
+  - airflow: rear-to-front
+    console-ports:
+      - name: Serial Console
+        type: rj-45
+      - name: USB Console
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: mgmt0
+        type: 1000base-t
+      - name: IB1/1
+        type: infiniband-fdr10
+      - name: IB1/2
+        type: infiniband-fdr10
+      - name: IB1/3
+        type: infiniband-fdr10
+      - name: IB1/4
+        type: infiniband-fdr10
+      - name: IB1/5
+        type: infiniband-fdr10
+      - name: IB1/6
+        type: infiniband-fdr10
+      - name: IB1/7
+        type: infiniband-fdr10
+      - name: IB1/8
+        type: infiniband-fdr10
+      - name: IB1/9
+        type: infiniband-fdr10
+      - name: IB1/10
+        type: infiniband-fdr10
+      - name: IB1/11
+        type: infiniband-fdr10
+      - name: IB1/12
+        type: infiniband-fdr10
+    manufacturer: Mellanox
+    model: SX6012T-1BFS
+    part_number: MSX6012T-1BFS
+    power-ports:
+      - allocated_draw: 152
+        name: PS1
+        type: iec-60320-c14
+    slug: mellanox-sx6012t-1bfs
+    subdevice_role: child
+    weight: 2.98
+    weight_unit: kg
   - console-ports:
       - name: con0
         type: rj-45
@@ -382,6 +489,99 @@ models:
         type: iec-60320-c14
     slug: mellanox-sn2010
     u_height: 1
+  - airflow: rear-to-front
+    console-ports:
+      - name: Serial Console
+        type: rj-45
+      - name: USB Console
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: mgmt0
+        type: 1000base-t
+      - name: IB1/1
+        type: infiniband-fdr
+      - name: IB1/2
+        type: infiniband-fdr
+      - name: IB1/3
+        type: infiniband-fdr
+      - name: IB1/4
+        type: infiniband-fdr
+      - name: IB1/5
+        type: infiniband-fdr
+      - name: IB1/6
+        type: infiniband-fdr
+      - name: IB1/7
+        type: infiniband-fdr
+      - name: IB1/8
+        type: infiniband-fdr
+      - name: IB1/9
+        type: infiniband-fdr
+      - name: IB1/10
+        type: infiniband-fdr
+      - name: IB1/11
+        type: infiniband-fdr
+      - name: IB1/12
+        type: infiniband-fdr
+    manufacturer: Mellanox
+    model: SX6012F-1BFS
+    part_number: MSX6012F-1BFS
+    power-ports:
+      - allocated_draw: 152
+        name: PS1
+        type: iec-60320-c14
+    slug: mellanox-sx6012f-1bfs
+    subdevice_role: child
+    weight: 2.98
+    weight_unit: kg
+  - airflow: rear-to-front
+    console-ports:
+      - name: Serial Console
+        type: rj-45
+      - name: USB Console
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: mgmt0
+        type: 1000base-t
+      - name: IB1/1
+        type: infiniband-fdr10
+      - name: IB1/2
+        type: infiniband-fdr10
+      - name: IB1/3
+        type: infiniband-fdr10
+      - name: IB1/4
+        type: infiniband-fdr10
+      - name: IB1/5
+        type: infiniband-fdr10
+      - name: IB1/6
+        type: infiniband-fdr10
+      - name: IB1/7
+        type: infiniband-fdr10
+      - name: IB1/8
+        type: infiniband-fdr10
+      - name: IB1/9
+        type: infiniband-fdr10
+      - name: IB1/10
+        type: infiniband-fdr10
+      - name: IB1/11
+        type: infiniband-fdr10
+      - name: IB1/12
+        type: infiniband-fdr10
+    manufacturer: Mellanox
+    model: SX6012T-2BFS
+    part_number: MSX6012T-2BFS
+    power-ports:
+      - allocated_draw: 152
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 152
+        name: PS2
+        type: iec-60320-c14
+    slug: mellanox-sx6012t-2bfs
+    subdevice_role: child
+    weight: 2.98
+    weight_unit: kg
   - comments: 'Data sheet: https://network.nvidia.com/files/doc-2020/br-sn4000-series.pdf
 
 '
@@ -614,6 +814,68 @@ models:
         type: iec-60320-c14
     slug: mellanox-sn2700
     u_height: 1
+  - comments: 'Rail kit for mounting two half-width SX6012 switches
+
+'
+    device-bays:
+      - name: SX6012 Slot 1
+      - name: SX6012 Slot 2
+    is_full_depth: true
+    is_powered: false
+    manufacturer: Mellanox
+    model: SX60-DKIT
+    part_number: MSX60-DKIT
+    slug: mellanox-sx60-dkit
+    subdevice_role: parent
+    u_height: 1
+  - airflow: front-to-rear
+    console-ports:
+      - name: Serial Console
+        type: rj-45
+      - name: USB Console
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: mgmt0
+        type: 1000base-t
+      - name: IB1/1
+        type: infiniband-fdr
+      - name: IB1/2
+        type: infiniband-fdr
+      - name: IB1/3
+        type: infiniband-fdr
+      - name: IB1/4
+        type: infiniband-fdr
+      - name: IB1/5
+        type: infiniband-fdr
+      - name: IB1/6
+        type: infiniband-fdr
+      - name: IB1/7
+        type: infiniband-fdr
+      - name: IB1/8
+        type: infiniband-fdr
+      - name: IB1/9
+        type: infiniband-fdr
+      - name: IB1/10
+        type: infiniband-fdr
+      - name: IB1/11
+        type: infiniband-fdr
+      - name: IB1/12
+        type: infiniband-fdr
+    manufacturer: Mellanox
+    model: SX6012F-2BRS
+    part_number: MSX6012F-2BRS
+    power-ports:
+      - allocated_draw: 152
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 152
+        name: PS2
+        type: iec-60320-c14
+    slug: mellanox-sx6012f-2brs
+    subdevice_role: child
+    weight: 2.98
+    weight_unit: kg
   - console-ports:
       - name: Console
         type: rj-45
@@ -786,6 +1048,51 @@ models:
         type: iec-60320-c14
     slug: mellanox-sn3700
     u_height: 1
+  - airflow: front-to-rear
+    console-ports:
+      - name: Serial Console
+        type: rj-45
+      - name: USB Console
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: mgmt0
+        type: 1000base-t
+      - name: IB1/1
+        type: infiniband-fdr
+      - name: IB1/2
+        type: infiniband-fdr
+      - name: IB1/3
+        type: infiniband-fdr
+      - name: IB1/4
+        type: infiniband-fdr
+      - name: IB1/5
+        type: infiniband-fdr
+      - name: IB1/6
+        type: infiniband-fdr
+      - name: IB1/7
+        type: infiniband-fdr
+      - name: IB1/8
+        type: infiniband-fdr
+      - name: IB1/9
+        type: infiniband-fdr
+      - name: IB1/10
+        type: infiniband-fdr
+      - name: IB1/11
+        type: infiniband-fdr
+      - name: IB1/12
+        type: infiniband-fdr
+    manufacturer: Mellanox
+    model: SX6012F-1BRS
+    part_number: MSX6012F-1BRS
+    power-ports:
+      - allocated_draw: 152
+        name: PS1
+        type: iec-60320-c14
+    slug: mellanox-sx6012f-1brs
+    subdevice_role: child
+    weight: 2.98
+    weight_unit: kg
   - console-ports:
       - name: Console
         type: rj-45

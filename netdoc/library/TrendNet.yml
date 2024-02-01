@@ -106,6 +106,7 @@ models:
         rear_port: Port 24
         type: 8p8c
     is_full_depth: false
+    is_powered: false
     manufacturer: TrendNet
     model: TC-P24C5E
     rear-ports:
@@ -575,6 +576,7 @@ models:
         rear_port: Port 48
         type: 8p8c
     is_full_depth: false
+    is_powered: false
     manufacturer: TrendNet
     model: TC-P48C5E
     rear-ports:
@@ -726,6 +728,7 @@ models:
         rear_port: Port 16
         type: 8p8c
     is_full_depth: false
+    is_powered: false
     manufacturer: TrendNet
     model: TC-P16C5E
     rear-ports:

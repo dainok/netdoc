@@ -1,4 +1,6 @@
 keywords:
+  - E2824
+  - E2824
   - FAS8200 Controller
   - X3172A
   - FAS2750
@@ -10,6 +12,31 @@ keywords:
   - FAS2700 Controller 10GBASE-T
   - X3219A
 models:
+  - console-ports:
+      - name: con0
+        type: rj-45
+    interfaces:
+      - name: e0a
+        type: 16gfc-sfpp
+      - name: e0b
+        type: 16gfc-sfpp
+      - name: e0c
+        type: 16gfc-sfpp
+      - name: e0d
+        type: 16gfc-sfpp
+    is_full_depth: true
+    manufacturer: NetApp
+    model: E2824
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
+    part_number: E2824
+    slug: netapp-e2824
+    u_height: 2
+    weight: 27.44
+    weight_unit: kg
   - console-ports:
       - name: con0
         type: rj-45

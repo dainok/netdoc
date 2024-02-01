@@ -1,10 +1,7 @@
 keywords:
   - COL5141S
 models:
-  - comments: '[Colable COL5141S product data](https://www.colable.com/Product/5817903943.html)
-
-'
-    interfaces:
+  - interfaces:
       - mgmt_only: true
         name: NMS
         type: 1000base-t

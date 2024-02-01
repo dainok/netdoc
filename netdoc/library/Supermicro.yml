@@ -7,6 +7,8 @@ keywords:
   - AS-1114S-WN10RT
   - IoT SuperServer SYS-510D-8C-FN6P
   - SYS-510D-8C-FN6P
+  - SuperServer 1018R-WC0R
+  - SYS-1018R-WC0R
 models:
   - console-ports:
       - name: Serial
@@ -94,6 +96,11 @@ models:
     is_full_depth: true
     manufacturer: Supermicro
     model: SYS-1019P-WTR
+    power-ports:
+      - name: PSU1
+        type: iec-60320-c14
+      - name: PSU2
+        type: iec-60320-c14
     slug: supermicro-sys-1019p-wtr
     u_height: 1
   - airflow: front-to-rear
@@ -171,4 +178,29 @@ models:
     slug: supermicro-iot-superserver-sys-510d-8c-fn6p
     u_height: 1
     weight: 4.54
+    weight_unit: kg
+  - airflow: front-to-rear
+    console-ports:
+      - name: Serial
+        type: de-9
+    interfaces:
+      - name: Gig-E 1
+        type: 1000base-t
+      - name: Gig-E 2
+        type: 1000base-t
+      - mgmt_only: true
+        name: BMC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Supermicro
+    model: SuperServer 1018R-WC0R
+    module-bays:
+      - name: PSU 1
+        position: PSU-1
+      - name: PSU 2
+        position: PSU-2
+    part_number: SYS-1018R-WC0R
+    slug: supermicro-superserver-1018r-wc0r
+    u_height: 1
+    weight: 11.3
     weight_unit: kg

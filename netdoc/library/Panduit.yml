@@ -96,6 +96,7 @@ models:
         rear_port_position: 1
         type: 8p8c
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Shielded DIN Rail Patch Panel (8 Port)
     part_number: CDPP8RG-S
@@ -140,6 +141,7 @@ models:
       - name: L
       - name: M
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Opticom Rack Mount Fiber Enclosure, 4 RU
     part_number: FRME4
@@ -404,7 +406,9 @@ models:
         rear_port: '24'
         rear_port_position: 1
         type: 8p8c
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Flush Mount Angled Patch Panel (24 Port, 1RU)
     part_number: CPPA24FMWBLY
@@ -677,6 +681,7 @@ models:
         rear_port_position: 1
         type: 8p8c
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Shielded High Density Patch Panel (48 Port, 1RU)
     part_number: CP48HDBL
@@ -833,6 +838,7 @@ models:
       - name: '03'
       - name: '04'
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Opticom Fiber Drawer (4 Adapters, 1RU)
     part_number: FMD1
@@ -1128,7 +1134,9 @@ models:
         rear_port: '72'
         rear_port_position: 1
         type: 8p8c
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Flush Mount Patch Panel (72 Port, 2RU)
     part_number: CPP72FMWBLY
@@ -1359,6 +1367,7 @@ models:
       - name: E
       - name: F
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Opticom Rack Mount Fiber Enclosure, 2 RU
     part_number: FRME2
@@ -1558,7 +1567,9 @@ models:
         rear_port: '48'
         rear_port_position: 1
         type: 8p8c
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Shielded Angled Patch Panel (48 Port, 2RU)
     part_number: CPA48BLY
@@ -1902,7 +1913,9 @@ models:
         rear_port: '48'
         rear_port_position: 1
         type: 8p8c
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Flush Mount Patch Panel (48 Port, 2RU)
     part_number: CPP48FMWBLY
@@ -2059,6 +2072,7 @@ models:
       - name: C
       - name: D
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Quicknet Rack Mount Fiber Enclosure, 1 RU
     part_number: FCE1
@@ -2259,6 +2273,7 @@ models:
         rear_port_position: 1
         type: 8p8c
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Shielded High Density Angled Patch Panel (48 Port, 1RU)
     part_number: CPA48HDBL
@@ -2603,6 +2618,7 @@ models:
         rear_port_position: 1
         type: 8p8c
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Shielded Patch Panel (48 Port, 2RU)
     part_number: CP48BLY
@@ -2787,6 +2803,7 @@ models:
         rear_port_position: 1
         type: 8p8c
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com DIN Rail Patch Panel (8 Port)
     part_number: CDPP8RG
@@ -2826,7 +2843,9 @@ models:
       - name: F
       - name: G
       - name: H
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Opticom Rack Mount Fiber Enclosure, 2 RU, 8 Ports
     part_number: FCE2U
@@ -2930,7 +2949,9 @@ models:
         rear_port: '24'
         rear_port_position: 1
         type: 8p8c
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Front Access Patch Panel (24 Port, 1RU)
     part_number: CPP24WBLY
@@ -3202,7 +3223,9 @@ models:
         rear_port: '48'
         rear_port_position: 1
         type: 8p8c
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com High Density Angled Patch Panel (48 Port, 1RU)
     part_number: CPPA48HDWBLY
@@ -3363,6 +3386,7 @@ models:
       - name: G
       - name: H
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Quicknet Rack Mount Fiber Enclosure, 2 RU
     part_number: FCE2
@@ -3466,7 +3490,9 @@ models:
         rear_port: '24'
         rear_port_position: 1
         type: 8p8c
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Flush Mount Patch Panel (24 Port, 1RU)
     part_number: CPP24FMWBLY
@@ -3550,6 +3576,7 @@ models:
       - name: B
       - name: C
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Opticom Rack Mount Fiber Enclosure, 1 RU
     part_number: FRME1
@@ -3560,6 +3587,7 @@ models:
       - name: '01'
       - name: '02'
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Opticom Wallmount Fiber Enclosure (2 Adapters)
     part_number: FWME2
@@ -3663,7 +3691,9 @@ models:
         rear_port: '24'
         rear_port_position: 1
         type: 8p8c
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Shielded Angled Patch Panel (24 Port, 1RU)
     part_number: CPA24BLY
@@ -4031,7 +4061,9 @@ models:
         rear_port: '72'
         rear_port_position: 1
         type: 8p8c
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Flush Mount Angled Patch Panel (72 Port, 2RU)
     part_number: CPPA72FMWBLY
@@ -4447,7 +4479,9 @@ models:
         rear_port: '48'
         rear_port_position: 1
         type: 8p8c
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com High Density Patch Panel (48 Port, 1RU)
     part_number: CPP48HDEWBL
@@ -4608,6 +4642,7 @@ models:
       - name: '07'
       - name: 08
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Opticom Fiber Drawer (8 Adapters, 2RU)
     part_number: FMD2
@@ -4619,7 +4654,9 @@ models:
       - name: B
       - name: C
       - name: D
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Opticom Rack Mount Fiber Enclosure, 1 RU, 4 Ports
     part_number: FCE1U
@@ -4819,7 +4856,9 @@ models:
         rear_port: '48'
         rear_port_position: 1
         type: 8p8c
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Flush Mount Angled Patch Panel (48 Port, 2RU)
     part_number: CPPA48FMWBLY
@@ -4976,6 +5015,7 @@ models:
       - name: '03'
       - name: '04'
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Opticom Wallmount Fiber Enclosure (4 Adapters)
     part_number: FWME4
@@ -5079,7 +5119,9 @@ models:
         rear_port: '24'
         rear_port_position: 1
         type: 8p8c
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Shielded Patch Panel (24 Port, 1RU)
     part_number: CP24BLY
@@ -5351,7 +5393,9 @@ models:
         rear_port: '48'
         rear_port_position: 1
         type: 8p8c
+    front_image: true
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Mini-Com Front Access Patch Panel (48 Port, 2RU)
     part_number: CPP48WBLY
@@ -5512,6 +5556,7 @@ models:
       - name: '07'
       - name: 08
     is_full_depth: false
+    is_powered: false
     manufacturer: Panduit
     model: Opticom Wallmount Fiber Enclosure (8 Adapters)
     part_number: FWME8

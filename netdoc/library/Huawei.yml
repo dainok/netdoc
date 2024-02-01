@@ -1,14 +1,21 @@
 keywords:
   - S5700-28X-LI-AC
+  - Dorado 3000 V6
+  - D3V6-192G-SAS
   - S6730-H28Y4C
   - S6730-H28Y4C
   - S5700-28P-LI-AC
-  - S5720-56C-EI-48S-AC
+  - CE6820H-48S6CQ
+  - CE6820H-48S6CQ
   - S1720-28GWR-PWR-4TP-E
   - '98010752'
   - S6720S-26Q-EI-24S-AC
+  - S5735-L48P4X-A1
+  - S5735-L48P4X-A1
   - CE8861-4C-EI
   - CE8861-4C-EI
+  - S5732-H24UM2CC
+  - S5732-H24UM2CC
   - ATN910I-D
   - CE6851-48S6Q-HI
   - S6730-H24X6C
@@ -16,29 +23,26 @@ keywords:
   - S5720-28X-LI-24S-DC
   - CE8850-64CQ-EI
   - CE8850-64CQ-EI
+  - S5720-56C-EI-48S-AC
   - AR6121E
   - 02353TBH
-  - Huawei Dorado 3000 V6
-  - D3V6-192G-SAS
   - S6720-30C-EI-24S-AC
   - S5731-S24T4X
   - 02353AHU-001
   - S5735-L24P4X-A1
   - '98011318'
+  - S5735-L48P4X-A
+  - S5735-L48P4X-A
   - NE40E-M2K-B
-  - Huawei_CE6820H-48S6CQ
-  - CE6820H-48S6CQ
   - S5735-L24T4X-A
   - CloudEngine S5732-H48XUM2CC
   - 02353MLH
   - OptiXtrans DC908
-  - Huawei 2288H V5
-  - H22-05-S8AFF
-  - Huawei_S5732-H24UM2CC
-  - S5732-H24UM2CC
   - S3100-8TP-PWR-EI
   - S3100-8TP-PWR-EI
   - S6720-30C-EI-24S-DC
+  - 2288H V5
+  - H22-05-S8AFF
   - S6730-H48X6C
   - S6730-H48X6C
 models:
@@ -118,6 +122,69 @@ models:
     u_height: 1.0
     weight: 3.4
     weight_unit: kg
+  - console-ports:
+      - name: Serial_A
+        type: rj-45
+      - name: Serial_B
+        type: rj-45
+    interfaces:
+      - name: Net P2.A
+        type: 10gbase-x-sfpp
+      - name: Net P3.A
+        type: 10gbase-x-sfpp
+      - name: Net P4.A
+        type: 10gbase-x-sfpp
+      - name: Net P5.A
+        type: 10gbase-x-sfpp
+      - name: Net P6.A
+        type: 1000base-t
+      - name: Net P7.A
+        type: 1000base-t
+      - name: Net P8.A
+        type: 1000base-t
+      - name: Net P9.A
+        type: 1000base-t
+      - mgmt_only: true
+        name: mgmt.A
+        type: 1000base-t
+      - mgmt_only: true
+        name: service.A
+        type: 1000base-t
+      - name: Net P2.B
+        type: 10gbase-x-sfpp
+      - name: Net P3.B
+        type: 10gbase-x-sfpp
+      - name: Net P4.B
+        type: 10gbase-x-sfpp
+      - name: Net P5.B
+        type: 10gbase-x-sfpp
+      - name: Net P6.B
+        type: 1000base-t
+      - name: Net P7.B
+        type: 1000base-t
+      - name: Net P8.B
+        type: 1000base-t
+      - name: Net P9.B
+        type: 1000base-t
+      - mgmt_only: true
+        name: mgmt.B
+        type: 1000base-t
+      - mgmt_only: true
+        name: service.B
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Huawei
+    model: Dorado 3000 V6
+    part_number: D3V6-192G-SAS
+    power-ports:
+      - maximum_draw: 900
+        name: PSU1
+        type: iec-60320-c14
+      - maximum_draw: 900
+        name: PSU2
+        type: iec-60320-c14
+    slug: huawei-dorado-3000-v6
+    u_height: 2
   - comments: '[Huawei CloudEngine S6730-H Series 25GE Switches Datasheet](https://e.huawei.com/za/material/networking/campus-network/campusswitch/74dd87cc705d4866ad87512921e9d929)'
     console-ports:
       - name: console
@@ -275,129 +342,135 @@ models:
     u_height: 1.0
     weight: 2.8
     weight_unit: kg
-  - comments: '[S5720-56C-EI-48S-AC](https://support.huawei.com/enterprise/en/doc/EDOC1000013597/4dfb988f/s5720-56c-ei-48s-ac)'
-    console-ports:
-      - name: Console
+  - console-ports:
+      - name: console
         type: rj-45
     interfaces:
       - mgmt_only: true
-        name: GigabitEthernet0
+        name: MEth0/0/1
         type: 1000base-t
-      - name: GigabitEthernet0/0/1
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/2
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/3
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/4
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/5
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/6
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/7
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/8
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/9
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/10
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/11
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/12
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/13
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/14
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/15
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/16
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/17
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/18
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/19
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/20
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/21
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/22
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/23
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/24
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/25
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/26
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/27
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/28
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/29
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/30
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/31
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/32
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/33
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/34
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/35
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/36
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/37
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/38
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/39
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/40
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/41
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/42
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/43
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/44
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/45
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/46
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/47
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/48
-        type: 1000base-x-sfp
-      - name: TenGigabitEthernet0/0/1
+      - name: 10GE0/0/1
         type: 10gbase-x-sfpp
-      - name: TenGigabitEthernet0/0/2
+      - name: 10GE0/0/2
         type: 10gbase-x-sfpp
-      - name: TenGigabitEthernet0/0/3
+      - name: 10GE0/0/3
         type: 10gbase-x-sfpp
-      - name: TenGigabitEthernet0/0/4
+      - name: 10GE0/0/4
         type: 10gbase-x-sfpp
-    is_full_depth: false
+      - name: 10GE0/0/5
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/6
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/7
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/8
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/9
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/10
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/11
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/12
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/13
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/14
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/15
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/16
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/17
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/18
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/19
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/20
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/21
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/22
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/23
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/24
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/25
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/26
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/27
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/28
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/29
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/30
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/31
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/32
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/33
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/34
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/35
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/36
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/37
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/38
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/39
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/40
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/41
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/42
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/43
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/44
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/45
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/46
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/47
+        type: 10gbase-x-sfpp
+      - name: 10GE0/0/48
+        type: 10gbase-x-sfpp
+      - name: 100GE0/0/1
+        type: 100gbase-x-qsfp28
+      - name: 100GE0/0/2
+        type: 100gbase-x-qsfp28
+      - name: 100GE0/0/3
+        type: 100gbase-x-qsfp28
+      - name: 100GE0/0/4
+        type: 100gbase-x-qsfp28
+      - name: 100GE0/0/5
+        type: 100gbase-x-qsfp28
+      - name: 100GE0/0/6
+        type: 100gbase-x-qsfp28
+    is_full_depth: true
     manufacturer: Huawei
-    model: S5720-56C-EI-48S-AC
+    model: CE6820H-48S6CQ
+    part_number: CE6820H-48S6CQ
     power-ports:
-      - maximum_draw: 150
+      - allocated_draw: 141
+        maximum_draw: 600
         name: PSU1
         type: iec-60320-c14
-      - maximum_draw: 150
+      - allocated_draw: 141
+        maximum_draw: 600
         name: PSU2
         type: iec-60320-c14
-    slug: huawei-s5720-56c-ei-48s-ac
+    slug: huawei-ce6820h-48s6cq
     u_height: 1
   - airflow: passive
     interfaces:
@@ -586,6 +659,226 @@ models:
         type: dc-terminal
     slug: huawei-s6720s-26q-ei-24s-ac
     u_height: 1
+  - airflow: front-to-rear
+    comments: CloudEngine S5735-L48P4X-A1 ( 48 * 10/100/1000BASE-T ports, 4 * 10GE SFP+ ports, PoE+, AC power )
+    console-ports:
+      - label: CONSOLE
+        name: con 0
+        type: rj-45
+    interfaces:
+      - mgmt_only: true
+        name: MEth0/0/1
+        type: 1000base-t
+      - name: GigabitEthernet0/0/1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/17
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/18
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/19
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/20
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/21
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/22
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/23
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/24
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/25
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/26
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/27
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/28
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/29
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/30
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/31
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/32
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/33
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/34
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/35
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/36
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/37
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/38
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/39
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/40
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/41
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/42
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/43
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/44
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/45
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/46
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/47
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/48
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: interface XGigabitEthernet0/0/1
+        type: 10gbase-x-sfpp
+      - name: interface XGigabitEthernet0/0/2
+        type: 10gbase-x-sfpp
+      - name: interface XGigabitEthernet0/0/3
+        type: 10gbase-x-sfpp
+      - name: interface XGigabitEthernet0/0/4
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Huawei
+    model: S5735-L48P4X-A1
+    part_number: S5735-L48P4X-A1
+    power-ports:
+      - maximum_draw: 434
+        name: PS0
+        type: iec-60320-c14
+    slug: huawei-s5735-l48p4x-a1
+    u_height: 1.0
   - comments: '[Huawei CE8861-4C-EI](https://support.huawei.com/enterprise/en/doc/EDOC1000019246/56e787dc/ce8861-4c-ei)'
     is_full_depth: true
     manufacturer: Huawei
@@ -610,6 +903,86 @@ models:
     u_height: 2
     weight: 21.3
     weight_unit: kg
+  - console-ports:
+      - name: console
+        type: rj-45
+    interfaces:
+      - mgmt_only: true
+        name: MEth0/0/1
+        type: 1000base-t
+      - name: XGigabitEthernet0/0/1
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/2
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/3
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/4
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/5
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/6
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/7
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/8
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/9
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/10
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/11
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/12
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/13
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/14
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/15
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/16
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/17
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/18
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/19
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/20
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/21
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/22
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/23
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/24
+        type: 10gbase-t
+      - name: XGigabitEthernet0/0/25
+        type: 25gbase-x-sfp28
+      - name: XGigabitEthernet0/0/26
+        type: 25gbase-x-sfp28
+      - name: XGigabitEthernet0/0/27
+        type: 25gbase-x-sfp28
+      - name: XGigabitEthernet0/0/28
+        type: 25gbase-x-sfp28
+      - name: 100GE0/0/1
+        type: 100gbase-x-qsfp28
+      - name: 100GE0/0/2
+        type: 100gbase-x-qsfp28
+    is_full_depth: false
+    manufacturer: Huawei
+    model: S5732-H24UM2CC
+    part_number: S5732-H24UM2CC
+    power-ports:
+      - maximum_draw: 1000
+        name: PSU1
+        type: iec-60320-c14
+      - maximum_draw: 1000
+        name: PSU2
+        type: iec-60320-c14
+    slug: huawei-s5732-h24um2cc
+    u_height: 1
   - interfaces:
       - name: FE/GE0
         type: 1000base-t
@@ -1079,6 +1452,130 @@ models:
     u_height: 2
     weight: 22.2
     weight_unit: kg
+  - comments: '[S5720-56C-EI-48S-AC](https://support.huawei.com/enterprise/en/doc/EDOC1000013597/4dfb988f/s5720-56c-ei-48s-ac)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - mgmt_only: true
+        name: GigabitEthernet0
+        type: 1000base-t
+      - name: GigabitEthernet0/0/1
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/2
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/3
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/4
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/5
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/6
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/7
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/8
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/9
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/10
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/11
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/12
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/13
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/14
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/15
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/16
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/17
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/18
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/19
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/20
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/21
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/22
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/23
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/24
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/25
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/26
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/27
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/28
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/29
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/30
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/31
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/32
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/33
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/34
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/35
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/36
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/37
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/38
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/39
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/40
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/41
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/42
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/43
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/44
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/45
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/46
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/47
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/48
+        type: 1000base-x-sfp
+      - name: TenGigabitEthernet0/0/1
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet0/0/2
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet0/0/3
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet0/0/4
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Huawei
+    model: S5720-56C-EI-48S-AC
+    power-ports:
+      - maximum_draw: 150
+        name: PSU1
+        type: iec-60320-c14
+      - maximum_draw: 150
+        name: PSU2
+        type: iec-60320-c14
+    slug: huawei-s5720-56c-ei-48s-ac
+    u_height: 1
   - comments: 'Technical details: [https://support.huawei.com/enterprise/it/doc/EDOC1100041787/61b8dc2/ar6121e-02353tbh](https://support.huawei.com/enterprise/it/doc/EDOC1100041787/61b8dc2/ar6121e-02353tbh)'
     console-ports:
       - name: Console
@@ -1123,69 +1620,6 @@ models:
         type: iec-60320-c14
     slug: huawei-ar6121e
     u_height: 1.0
-  - console-ports:
-      - name: Serial_A
-        type: rj-45
-      - name: Serial_B
-        type: rj-45
-    interfaces:
-      - name: Net P2.A
-        type: 10gbase-x-sfpp
-      - name: Net P3.A
-        type: 10gbase-x-sfpp
-      - name: Net P4.A
-        type: 10gbase-x-sfpp
-      - name: Net P5.A
-        type: 10gbase-x-sfpp
-      - name: Net P6.A
-        type: 1000base-t
-      - name: Net P7.A
-        type: 1000base-t
-      - name: Net P8.A
-        type: 1000base-t
-      - name: Net P9.A
-        type: 1000base-t
-      - mgmt_only: true
-        name: mgmt.A
-        type: 1000base-t
-      - mgmt_only: true
-        name: service.A
-        type: 1000base-t
-      - name: Net P2.B
-        type: 10gbase-x-sfpp
-      - name: Net P3.B
-        type: 10gbase-x-sfpp
-      - name: Net P4.B
-        type: 10gbase-x-sfpp
-      - name: Net P5.B
-        type: 10gbase-x-sfpp
-      - name: Net P6.B
-        type: 1000base-t
-      - name: Net P7.B
-        type: 1000base-t
-      - name: Net P8.B
-        type: 1000base-t
-      - name: Net P9.B
-        type: 1000base-t
-      - mgmt_only: true
-        name: mgmt.B
-        type: 1000base-t
-      - mgmt_only: true
-        name: service.B
-        type: 1000base-t
-    is_full_depth: true
-    manufacturer: Huawei
-    model: Huawei Dorado 3000 V6
-    part_number: D3V6-192G-SAS
-    power-ports:
-      - maximum_draw: 900
-        name: PSU1
-        type: iec-60320-c14
-      - maximum_draw: 900
-        name: PSU2
-        type: iec-60320-c14
-    slug: huawei-dorado-3000-v6
-    u_height: 2
   - console-ports:
       - name: console0
         type: rj-45
@@ -1470,6 +1904,226 @@ models:
         type: iec-60320-c14
     slug: huawei-s5735-l24p4x-a1
     u_height: 1.0
+  - airflow: front-to-rear
+    comments: CloudEngine S5735-L48P4X-A (48 * 10/100/1000BASE-T ports, 4 * 10GE SFP+ ports, PoE+, AC power)
+    console-ports:
+      - label: CONSOLE
+        name: con 0
+        type: rj-45
+    interfaces:
+      - mgmt_only: true
+        name: MEth0/0/1
+        type: 1000base-t
+      - name: GigabitEthernet0/0/1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/17
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/18
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/19
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/20
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/21
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/22
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/23
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/24
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/25
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/26
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/27
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/28
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/29
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/30
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/31
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/32
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/33
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/34
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/35
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/36
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/37
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/38
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/39
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/40
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/41
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/42
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/43
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/44
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/45
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/46
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/47
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet0/0/48
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: interface XGigabitEthernet0/0/1
+        type: 10gbase-x-sfpp
+      - name: interface XGigabitEthernet0/0/2
+        type: 10gbase-x-sfpp
+      - name: interface XGigabitEthernet0/0/3
+        type: 10gbase-x-sfpp
+      - name: interface XGigabitEthernet0/0/4
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Huawei
+    model: S5735-L48P4X-A
+    part_number: S5735-L48P4X-A
+    power-ports:
+      - maximum_draw: 434
+        name: PS0
+        type: iec-60320-c14
+    slug: huawei-s5735-l48p4x-a
+    u_height: 1.0
   - comments: '[NE40E-M2K-B Documentation](https://support.huawei.com/hedex/hdx.do?docid=EDOC1100168834)'
     console-ports:
       - name: Console
@@ -1529,138 +2183,13 @@ models:
     is_full_depth: false
     manufacturer: Huawei
     model: NE40E-M2K-B
+    module-bays:
+      - name: Power 1
+        position: '1'
+      - name: Power 2
+        position: '2'
     slug: huawei-ne40e-m2k-b
     u_height: 2
-  - console-ports:
-      - name: console
-        type: rj-45
-    interfaces:
-      - mgmt_only: true
-        name: MEth0/0/1
-        type: 1000base-t
-      - name: 10GE0/0/1
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/2
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/3
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/4
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/5
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/6
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/7
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/8
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/9
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/10
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/11
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/12
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/13
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/14
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/15
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/16
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/17
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/18
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/19
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/20
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/21
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/22
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/23
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/24
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/25
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/26
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/27
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/28
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/29
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/30
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/31
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/32
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/33
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/34
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/35
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/36
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/37
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/38
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/39
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/40
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/41
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/42
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/43
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/44
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/45
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/46
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/47
-        type: 10gbase-x-sfpp
-      - name: 10GE0/0/48
-        type: 10gbase-x-sfpp
-      - name: 100GE0/0/1
-        type: 100gbase-x-qsfp28
-      - name: 100GE0/0/2
-        type: 100gbase-x-qsfp28
-      - name: 100GE0/0/3
-        type: 100gbase-x-qsfp28
-      - name: 100GE0/0/4
-        type: 100gbase-x-qsfp28
-      - name: 100GE0/0/5
-        type: 100gbase-x-qsfp28
-      - name: 100GE0/0/6
-        type: 100gbase-x-qsfp28
-    is_full_depth: true
-    manufacturer: Huawei
-    model: Huawei_CE6820H-48S6CQ
-    part_number: CE6820H-48S6CQ
-    power-ports:
-      - allocated_draw: 141
-        maximum_draw: 600
-        name: PSU1
-        type: iec-60320-c14
-      - allocated_draw: 141
-        maximum_draw: 600
-        name: PSU2
-        type: iec-60320-c14
-    slug: huawei-ce6820h-48s6cq
-    u_height: 1
   - console-ports:
       - name: console0
         type: rj-45
@@ -1929,116 +2458,6 @@ models:
         type: iec-60320-c20
     slug: huawei-optixtrans-dc908
     u_height: 2
-  - console-ports:
-      - name: Serial
-        type: rj-45
-      - name: VGA
-        type: other
-    interfaces:
-      - name: Net 1
-        type: 10gbase-x-sfpp
-      - name: Net 2
-        type: 10gbase-x-sfpp
-      - name: Net 3
-        type: 1000base-t
-      - name: Net 4
-        type: 1000base-t
-      - mgmt_only: true
-        name: mgmt
-        type: 1000base-t
-    is_full_depth: true
-    manufacturer: Huawei
-    model: Huawei 2288H V5
-    part_number: H22-05-S8AFF
-    power-ports:
-      - maximum_draw: 900
-        name: PSU1
-        type: iec-60320-c14
-      - maximum_draw: 900
-        name: PSU2
-        type: iec-60320-c14
-    slug: huawei-2288h-v5
-    u_height: 2
-  - console-ports:
-      - name: console
-        type: rj-45
-    interfaces:
-      - mgmt_only: true
-        name: MEth0/0/1
-        type: 1000base-t
-      - name: XGigabitEthernet0/0/1
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/2
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/3
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/4
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/5
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/6
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/7
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/8
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/9
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/10
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/11
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/12
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/13
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/14
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/15
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/16
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/17
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/18
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/19
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/20
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/21
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/22
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/23
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/24
-        type: 10gbase-t
-      - name: XGigabitEthernet0/0/25
-        type: 25gbase-x-sfp28
-      - name: XGigabitEthernet0/0/26
-        type: 25gbase-x-sfp28
-      - name: XGigabitEthernet0/0/27
-        type: 25gbase-x-sfp28
-      - name: XGigabitEthernet0/0/28
-        type: 25gbase-x-sfp28
-      - name: 100GE0/0/1
-        type: 100gbase-x-qsfp28
-      - name: 100GE0/0/2
-        type: 100gbase-x-qsfp28
-    is_full_depth: false
-    manufacturer: Huawei
-    model: Huawei_S5732-H24UM2CC
-    part_number: S5732-H24UM2CC
-    power-ports:
-      - maximum_draw: 1000
-        name: PSU1
-        type: iec-60320-c14
-      - maximum_draw: 1000
-        name: PSU2
-        type: iec-60320-c14
-    slug: huawei-s5732-h24um2cc
-    u_height: 1
   - airflow: passive
     comments: H3C S3100-EI Series 10/100 Switches
     console-ports:
@@ -2149,6 +2568,36 @@ models:
         type: dc-terminal
     slug: huawei-s6720-30c-ei-24s-dc
     u_height: 1
+  - console-ports:
+      - name: Serial
+        type: rj-45
+      - name: VGA
+        type: other
+    interfaces:
+      - name: Net 1
+        type: 10gbase-x-sfpp
+      - name: Net 2
+        type: 10gbase-x-sfpp
+      - name: Net 3
+        type: 1000base-t
+      - name: Net 4
+        type: 1000base-t
+      - mgmt_only: true
+        name: mgmt
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Huawei
+    model: 2288H V5
+    part_number: H22-05-S8AFF
+    power-ports:
+      - maximum_draw: 900
+        name: PSU1
+        type: iec-60320-c14
+      - maximum_draw: 900
+        name: PSU2
+        type: iec-60320-c14
+    slug: huawei-2288h-v5
+    u_height: 2
   - comments: '[Huawei CloudEngine S6730-H Series 10GE Switches Datasheet](https://e.huawei.com/br/material/networking/4e6910a3ca27403b8220d34cebbb67e1)'
     console-ports:
       - name: console

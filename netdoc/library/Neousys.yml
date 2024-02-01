@@ -23,5 +23,8 @@ models:
     is_full_depth: false
     manufacturer: Neousys
     model: Nuvo-8240GC
+    power-ports:
+      - name: DC
+        type: dc-terminal
     slug: neousys-nuvo-8240gc
     u_height: 1

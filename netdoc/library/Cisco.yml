@@ -3,6 +3,8 @@ keywords:
   - WS-C3560E-24PD
   - Catalyst 3750-48TS
   - WS-C3750-48TS-S
+  - C8300-1N1S-6T
+  - C8300-1N1S-6T
   - ISR897VA
   - C897VA-K9
   - SG350-28
@@ -13,8 +15,6 @@ keywords:
   - WS-C2960S-24TD-L
   - Catalyst 3650-48TD-L
   - WS-C3650-48TD-L
-  - N7K-7702
-  - N77-C7702
   - Catalyst 3560X-48PF-S
   - WS-C3560X-48PF-S
   - Catalyst 2960-48TT-L
@@ -27,6 +27,8 @@ keywords:
   - WS-C3650-48FQ-l
   - Catalyst 3850-24T-L
   - WS-C3850-24T-L
+  - Meraki CW9162
+  - CW9162
   - ISR3825
   - ISR3825/K9
   - UCSB-5108-AC2
@@ -107,6 +109,8 @@ keywords:
   - SG500-28-K9
   - C1000FE-48P-4G-L
   - C1000FE-48P-4G-L
+  - C891F
+  - C891F-K9
   - Nexus 56128P
   - N5K-C56128P
   - ASR-9902
@@ -117,6 +121,8 @@ keywords:
   - ASA5555
   - ASA5512-X
   - ASA5512
+  - Catalyst 9800-L Wireless Controller Rack Mount Tray
+  - C9800-L-RMNT
   - Catalyst Digital Building 5-slot Rack Mount
   - CDB-MNT-RACK5-C14
   - ISR 1111-8P
@@ -153,6 +159,8 @@ keywords:
   - C1000-24FP-4X-L
   - ASA5555-X
   - ASA5555-K9
+  - Meraki MR46
+  - MR46
   - ISR3845
   - ISR3845/K9
   - Meraki MS250-24
@@ -169,6 +177,8 @@ keywords:
   - SRW2008-K9
   - ISR 1100-4G
   - ISR1100-4G
+  - Meraki MX105
+  - MX105
   - Catalyst 3650-48FD-E
   - WS-C3650-48FD-E
   - Aironet 1552H-A
@@ -195,8 +205,6 @@ keywords:
   - WS-C3560X-48T-S
   - N77-C7710
   - N77-C7710
-  - 7206VXR
-  - CISCO7206VXR
   - ISR 1100-6G
   - ISR1100-6G
   - Aironet 3702E-A
@@ -218,14 +226,20 @@ keywords:
   - AIR-CAP3702I-B-K9
   - Catalyst Digital Building Switch (PoE+)
   - CDB-8P
+  - ISR C1111-4P
+  - C1111-4P
   - Catalyst 2960S-48FPS-L
   - WS-C2960S-48FPS-L
   - Catalyst 2960XR-24TD-I
   - WS-C2960XR-24TD-I
   - C7201
   - CISCO7201
+  - Meraki MX68W
+  - MX68W
   - N77-C7706
   - N77-C7706
+  - Catalyst 9500-12Q
+  - C9500-12q
   - Nexus 9396PX
   - N9K-C9396PX
   - Catalyst 4948-10GE
@@ -244,6 +258,8 @@ keywords:
   - AIR-LAP1522HZ-A-K9
   - Catalyst 3750G-12S-E
   - WS-C3750G-12S-E
+  - FPR1K-DT-RACK-MNT
+  - FPR1K-DT-RACK-MNT
   - Catalyst 3650-48FS-L
   - WS-C3650-48FS-l
   - Catalyst 9120AXI-E
@@ -308,6 +324,8 @@ keywords:
   - WS-C3560CG-8PC-S
   - Meraki MX84
   - MX84
+  - Meraki MR16
+  - MR16
   - Catalyst 2960G-48TC-L
   - WS-C2960G-48TC-L
   - Catalyst 9300-48UN
@@ -376,12 +394,16 @@ keywords:
   - AS2511RJ
   - N2K-C2248TP-1GE
   - N2K-C2248TP-1GE
+  - Meraki MX67
+  - MX67
   - Catalyst 3750G-12S
   - WS-C3750G-12S
   - Catalyst 9300-48UXM
   - C9300-48UXM
   - Catalyst 2960-24TT-L
   - WS-C2960-24TT-L
+  - Nexus C3064TQ-10GT
+  - N3K-C3064TQ-10GT
   - SG350-10P
   - SG350-10P-K9
   - WS-C3560V2-48PS-S
@@ -416,6 +438,8 @@ keywords:
   - WS-C4506
   - Catalyst 9300-48U
   - C9300-48U
+  - Meraki CW9164
+  - CW9164
   - ISR4431
   - ISR4431/K9
   - N540-24Z8Q2C-SYS
@@ -434,6 +458,8 @@ keywords:
   - C9200-24T
   - Catalyst 3650-48FQM-L
   - WS-C3650-48FQM-L
+  - Meraki MR76
+  - MR76
   - UCS-C220-M4
   - UCS-C220M4
   - ISR 1111-8PLTELAWA
@@ -458,6 +484,8 @@ keywords:
   - AIR-CAP3702I-A-K9
   - Catalyst 3850-12XS
   - WS-C3850-12XS
+  - ME-3400EG-2CS-A
+  - ME-3400EG-2CS-A
   - Catalyst 2960X-48FPS-L
   - WS-C2960X-48FPS-L
   - Catalyst 9500-48Y4C
@@ -488,6 +516,8 @@ keywords:
   - WS-C2960XR-48TD-I
   - Aironet 2802I-B
   - AIR-AP2802I-B-K9
+  - Catalyst 9800-L-F
+  - C9800-L-F
   - Catalyst 3750X-12S
   - WS-C3750X-12S
   - Catalyst 9500-40X
@@ -498,6 +528,8 @@ keywords:
   - SG300-28P
   - C6816-X-LE
   - C6816-X-LE
+  - C8300-2N2S-4T2X
+  - C8300-2N2S-4T2X
   - N540-28Z4C-SYS-D
   - N540-28Z4C-SYS-D
   - Catalyst 3750X-12S-S
@@ -534,6 +566,8 @@ keywords:
   - C1111-8PLTEEAWA
   - Nexus 3132Q-40GX
   - N3K-C3132Q-40GX
+  - FirePOWER 3110 Next-Generation Firewall
+  - FPR3110-NGFW-K9
   - Nexus N7K-C7004
   - N7K-C7004
   - Catalyst 3560-48PS
@@ -560,6 +594,8 @@ keywords:
   - SG550X-24MP-K9
   - ASR1002-X
   - ASR1002X-5G-K9
+  - Meraki MX85
+  - MX85
   - Aironet 1552H-B
   - AIR-CAP1552H-B-K9
   - Nexus 93120TX
@@ -590,6 +626,8 @@ keywords:
   - CISCO7609-S
   - Meraki MS120-8FP
   - MS120-8FP-HW
+  - Meraki MX67W
+  - MX67W
   - ISR 1111-8PLTELAWN
   - C1111-8PLTELAWN
   - SPA112-V05
@@ -630,6 +668,8 @@ keywords:
   - WS-C3750G-24PS-S
   - Catalyst 3850-48U
   - WS-C3850-48U
+  - VG204XM
+  - VG204XM
   - Catalyst 3560C-12PC-S
   - WS-C3560C-12PC-S
   - C9200L-48P-4X
@@ -664,6 +704,8 @@ keywords:
   - WS-C3650-24PD-L
   - SG350-10MP
   - SG350-10MP-K9
+  - Meraki CW9166
+  - CW9166
   - ASR1002-HX
   - ASR1002-HX
   - Catalyst 2960XR-24TS-I
@@ -694,8 +736,12 @@ keywords:
   - MS250-48LP-HW
   - APIC-L3
   - APIC-L3
+  - Meraki MR18
+  - MR18
   - NCS 55A1-36H-S
   - NCS-55A1-36H-S
+  - C9200L-24PXG-2Y
+  - C9200L-24PXG-2Y
   - Catalyst 3560X-48P
   - WS-C3560X-48P
   - Catalyst 3750E-24PD
@@ -776,20 +822,28 @@ keywords:
   - MS125-48FP-HW
   - Nexus 9332PQ
   - N9K-C9332PQ
+  - N77-C7702
+  - N77-C7702
   - DN2-HW-APL
   - DN2-HW-APL
   - UCSB-B200-M3
   - UCSB-B200-M3
+  - IE-3200-8P2S
+  - IE-3200-8P2S
   - FPR4112-NGFW-K9
   - FPR4112-NGFW-K9
   - Catalyst 2960-48TC-L
   - WS-C2960-48TC-L
+  - VG320
+  - VG320
   - FPR4115-NGFW-K9
   - FPR4115-NGFW-K9
   - FPR4140-NGFW-K9
   - FPR4140-NGFW-K9
   - Nexus 93108TC-FX3P
   - N9K-C93108TC-FX3P
+  - Catalyst 8500L-8S4X
+  - C8500L-8S4X
   - Meraki MR74
   - MR74
   - C1000-16T-E-2G-L
@@ -804,6 +858,8 @@ keywords:
   - WS-C3750X-24T-S
   - Catalyst 9300L-48P-4X
   - C9300L-48P-4X
+  - Meraki MX67C
+  - MX67C
   - ISR 1111-8PLTELAWZ
   - C1111-8PLTELAWZ
   - N2K-C2232PP-10GE
@@ -812,10 +868,14 @@ keywords:
   - CBS350-8P-E-2G
   - C887VA-K9
   - C887VA-K9
+  - Meraki MR42
+  - MR42
   - Catalyst 3650-48TD-E
   - WS-C3650-48TD-E
   - Nexus 5696Q
   - N5K-C5696Q
+  - Meraki MX68
+  - MX68
   - Nexus 93108TC-FX
   - N9K-C93108TC-FX
   - Catalyst C4510R+E
@@ -852,7 +912,9 @@ keywords:
   - C9200L-48PL-4G
   - RV220W
   - RV220W
-  - uBR10012
+  - uBR 10012
+  - IE-2000-8TC-B
+  - IE-2000-8TC-B
   - C1000-24T-4X-L
   - C1000-24T-4X-L
   - Catalyst 9500-16X
@@ -865,8 +927,12 @@ keywords:
   - N7K-C7010
   - ISR 100X-4G
   - ISR1100X-4G
+  - Catalyst 9500-24Q
+  - C9500-24q
   - Catalyst 3650-48FQ-E
   - WS-C3650-48FQ-E
+  - Meraki MR78
+  - MR78
   - Catalyst 2960-24TC-S
   - WS-C2960-24TC-S
   - Aironet CT2504-K9
@@ -875,6 +941,8 @@ keywords:
   - N9K-C9364C
   - ASR-9906
   - ASR-9906
+  - Catalyst 6880-X-LE
+  - C6880-X-LE
   - APIC-M3
   - APIC-M3
   - UCS-FI-6332-16UP
@@ -883,6 +951,8 @@ keywords:
   - WS-C2960L-24TS-LL
   - SG550X-48P
   - SG550X-48P-K9
+  - ESA C390
+  - ESA-C390-K9
   - Catalyst 2960X-48FPD-L
   - WS-C2960X-48FPD-L
   - WS-C3560V2-24TS-S
@@ -959,6 +1029,8 @@ keywords:
   - ASR-9901
   - Catalyst 3850-24XS-E
   - WS-C3850-24XS-E
+  - UCS-X9508
+  - UCS-X9508
   - ISR1841
   - ISR1841/K9
   - ISR 1111-8PLTELAWH
@@ -987,6 +1059,8 @@ keywords:
   - WS-C3750V2-48PS-S
   - Nexus 9372PX
   - N9K-C9372PX
+  - Meraki MR28
+  - MR28
   - Catalyst 3850-48F LAN Base
   - WS-C3850-48F-L
   - Catalyst 2960X-48LPD-L
@@ -997,6 +1071,8 @@ keywords:
   - ASR1001-X
   - C1000-24P-4G-L
   - C1000-24P-4G-L
+  - Nexus C3064PQ-10GX
+  - N3K-C3064PQ-10GX
   - Meraki MS225-48FP
   - MS225-48FP-HW
   - vEdge 100B
@@ -1013,6 +1089,8 @@ keywords:
   - ASA5540
   - Catalyst 3750G-48PS-S
   - WS-C3750G-48PS-S
+  - Meraki MR86
+  - MR86
   - DPC3939B
   - DPC3939B-AMC11-K9
   - Nexus 92348GC-X
@@ -1023,8 +1101,6 @@ keywords:
   - C1111-8PLTEEAWQ
   - ME-3600X-24TS-M
   - ME-3600X-24TS-M
-  - Aironet BR1410A-A
-  - AIR-BR1410A-A-K9-N
   - Catalyst 9500-32QC
   - C9500-32QC
   - Catalyst 3560G-48TS
@@ -1037,6 +1113,8 @@ keywords:
   - N3K-C3172TQ-10GT
   - Catalyst 6509-V-E
   - WS-C6509-V-E
+  - 891fw
+  - C891FW-A-K9
   - Catalyst 3750X-24P-S
   - WS-C3750X-24P-S
   - Catalyst 3650-24PD-S
@@ -1077,6 +1155,8 @@ keywords:
   - MR44
   - C1000FE-24P-4G-L
   - C1000FE-24P-4G-L
+  - VG310
+  - VG310
   - C1000-24FP-4G-L
   - C1000-24FP-4G-L
   - Nexus 93600CD-GX
@@ -1105,6 +1185,8 @@ keywords:
   - N9K-C9348GC-FXP
   - WS-C2960L-16PS-JP
   - WS-C2960L-16PS-JP
+  - 7206VXR
+  - CISCO7206VXR
   - Catalyst 3560-CX-8PC-S
   - WS-C3560CX-8PC-S
   - C1000-16T-2G-L
@@ -1117,16 +1199,18 @@ keywords:
   - WS-C3650-48PQ-E
   - Catalyst 9130AXI-B
   - C9130AXI-B
+  - ISR 1127-8PLTEP
+  - C1127-8PLTEP
   - Catalyst 2960-12PC-L
   - WS-C2960C-12PC-L
+  - Meraki MX68CW
+  - MX68CW
   - ASA5520
   - ASA5520-K8
   - IE-2000-16PTC-G-NX
   - IE-2000-16PTC-G-NX
   - Catalyst 9300-48P-E
   - C9300-48P-E
-  - ISR 1111-8PWZ
-  - C1111-8PWZ
   - Catalyst 3560-CX-12PD-S
   - WS-C3560CX-12PD-S
   - Catalyst 2960-24TC-L
@@ -1165,6 +1249,8 @@ keywords:
   - UCSB-B200-M5
   - NCS 55A2-MOD-SE-S
   - NCS-55A2-MOD-SE-S
+  - Meraki MR33
+  - MR33
   - ASR-920-4SZ-A
   - ASR-920-4SZ-A
   - Catalyst 9300-24U
@@ -1182,12 +1268,18 @@ keywords:
   - VEDGE-100M-VZ-K9
   - IE-2000-4TS-G-B
   - IE-2000-4TS-G-B
+  - ISR 1111-8PWZ
+  - C1111-8PWZ
   - Catalyst 2960S-48TS-L
   - WS-C2960S-48TS-L
   - APIC-M2
   - APIC-M2
   - Nexus 93108TC-EX
   - N9K-C93108TC-EX
+  - Meraki MR72
+  - MR72
+  - UCS-C220-M6S
+  - UCSC-C220-M6S
   - ISR 1111-8PLTELAWE
   - C1111-8PLTELAWE
   - SG350-10
@@ -1432,6 +1524,40 @@ models:
         type: iec-60320-c14
     slug: cisco-ws-c3750-48ts-s
     u_height: 1
+  - airflow: front-to-rear
+    comments: '[Cisco 8000 Series Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8300-series-edge-platforms/datasheet-c78-744088.html)'
+    console-ports:
+      - name: con0
+        type: rj-45
+    interfaces:
+      - name: GigabitEthernet0/0/0
+        type: 1000base-t
+      - name: GigabitEthernet0/0/1
+        type: 1000base-t
+      - name: GigabitEthernet0/0/2
+        type: 1000base-t
+      - name: GigabitEthernet0/0/3
+        type: 1000base-t
+      - name: GigabitEthernet0/0/4
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/5
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Cisco
+    model: C8300-1N1S-6T
+    module-bays:
+      - name: PSU0
+        position: '0'
+      - name: PSU1
+        position: '1'
+      - name: SM 1
+      - name: NIM 1
+      - name: PIM 1
+    part_number: C8300-1N1S-6T
+    slug: cisco-c8300-1n1s-6t
+    u_height: 1
+    weight: 9.0
+    weight_unit: kg
   - console-ports:
       - mgmt_only: true
         name: con 0
@@ -1977,20 +2103,6 @@ models:
     part_number: WS-C3650-48TD-L
     slug: cisco-ws-c3650-48td-l
     u_height: 1
-  - is_full_depth: true
-    manufacturer: Cisco
-    model: N7K-7702
-    part_number: N77-C7702
-    power-ports:
-      - maximum_draw: 3000
-        name: PSU0
-        type: iec-60320-c20
-      - maximum_draw: 3000
-        name: PSU1
-        type: iec-60320-c20
-    slug: cisco-n7k-7702
-    subdevice_role: parent
-    u_height: 3
   - console-ports:
       - name: con0
         type: rj-45
@@ -2194,11 +2306,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 3560X-48PF-S
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
     part_number: WS-C3560X-48PF-S
-    power-ports:
-      - maximum_draw: 1100
-        name: PSU0
-        type: iec-60320-c14
     slug: cisco-ws-c3560x-48pf-s
     u_height: 1
   - console-ports:
@@ -2477,16 +2590,12 @@ models:
         type: 40gbase-x-qsfpp
     manufacturer: Cisco
     model: Nexus 9396TX
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C9396TX
-    power-ports:
-      - allocated_draw: 427
-        maximum_draw: 712
-        name: PS1
-        type: iec-60320-c14
-      - allocated_draw: 427
-        maximum_draw: 712
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-n9k-c9396tx
     u_height: 2
   - console-ports:
@@ -2766,13 +2875,43 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-24T-L
     slug: cisco-ws-c3850-24t-l
     u_height: 1
+  - airflow: passive
+    comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/CW9162_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/CW9162_Datasheet)\r\n- IEEE Standards: 802.11ab, 802.11at, 802.11a/b/g/n/ac/ax, 802.11d/h/i/k/r/u/v/w"
+    interfaces:
+      - name: main
+        poe_mode: pd
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: wlan0
+        type: ieee802.11ax
+      - name: wlan1
+        type: ieee802.11ax
+      - name: wlan2
+        type: ieee802.11ax
+      - description: WIDS/WIPS
+        name: wlan3
+        type: other-wireless
+      - description: Bluetooth Scanning and Beaconing
+        name: wlan4
+        type: ieee802.15.1
+      - description: USB Interface
+        name: usb0
+        type: other
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki CW9162
+    part_number: CW9162
+    slug: cisco-meraki-cw9162
+    u_height: 0.0
+    weight: 0.93
+    weight_unit: kg
   - console-ports:
       - name: con 0
         type: rj-45
@@ -4081,20 +4220,24 @@ models:
         poe_mode: pse
         poe_type: type3-ieee802.3bt
         type: 10gbase-t
+      - name: StackPort1/1
+        type: cisco-stackwise
+      - name: StackPort1/2
+        type: cisco-stackwise
     is_full_depth: true
     manufacturer: Cisco
     model: Catalyst 9300-24UX
     module-bays:
       - name: Network Module
         position: '1'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300-24UX
-    power-ports:
-      - maximum_draw: 1100
-        name: PS-A
-        type: iec-60320-c16
-      - maximum_draw: 1100
-        name: PS-B
-        type: iec-60320-c16
     slug: cisco-c9300-24ux
     u_height: 1
   - comments: IP Base feature set
@@ -4371,6 +4514,10 @@ models:
         type: 1000base-t
       - name: GigabitEthernet1/0/24
         type: 1000base-t
+      - name: StackPort1/1
+        type: cisco-stackwise
+      - name: StackPort1/2
+        type: cisco-stackwise
       - mgmt_only: true
         name: GigabitEthernet0/0
         type: 1000base-t
@@ -4380,14 +4527,14 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300-24T-E
-    power-ports:
-      - maximum_draw: 350
-        name: PS-A
-        type: iec-60320-c14
-      - maximum_draw: 350
-        name: PS-B
-        type: iec-60320-c14
     slug: cisco-c9300-24t-e
     u_height: 1
   - console-ports:
@@ -4616,14 +4763,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: N2K-C2348TQ-10G-E
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N2K-C2348TQ-E
-    power-ports:
-      - maximum_draw: 400
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 400
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-n2k-c2348tq-10g-e
     u_height: 1
   - console-ports:
@@ -4744,16 +4889,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 93180YC-FX
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C93180YC-FX
-    power-ports:
-      - allocated_draw: 260
-        maximum_draw: 425
-        name: Power Supply 1
-        type: iec-60320-c14
-      - allocated_draw: 260
-        maximum_draw: 425
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c93180yc-fx
     u_height: 1
   - airflow: front-to-rear
@@ -4832,6 +4973,9 @@ models:
     slug: cisco-meraki-mx450
     u_height: 1
   - interfaces:
+      - name: Port 1
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11n
     is_full_depth: false
@@ -5066,6 +5210,9 @@ models:
     slug: cisco-asa5545-x
     u_height: 1
   - interfaces:
+      - name: Port 1
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11n
     is_full_depth: false
@@ -5084,14 +5231,24 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 6506-E
+    module-bays:
+      - name: Slot 1
+        position: '1'
+      - name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: Slot 5
+        position: '5'
+      - name: Slot 6
+        position: '6'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: WS-C6506-E
-    power-ports:
-      - maximum_draw: 8700
-        name: PS1
-        type: iec-60320-c20
-      - maximum_draw: 8700
-        name: PS2
-        type: iec-60320-c20
     slug: cisco-ws-c6506-e
     u_height: 11
   - console-ports:
@@ -5211,12 +5368,12 @@ models:
         type: 40gbase-x-qsfpp
     manufacturer: Cisco
     model: Nexus 5672UP
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N5K-C5672UP
-    power-ports:
-      - name: PSU0
-        type: iec-60320-c14
-      - name: PSU1
-        type: iec-60320-c14
     slug: cisco-n5k-c5672up
     u_height: 1
   - console-ports:
@@ -6056,6 +6213,11 @@ models:
     manufacturer: Cisco
     model: IE-4000-8GT8GP4G-E
     part_number: IE-4000-8GT8GP4G-E
+    power-ports:
+      - name: DC-A
+        type: dc-terminal
+      - name: DC-B
+        type: dc-terminal
     slug: cisco-ie-4000-8gt8gp4g-e
     u_height: 3
   - airflow: front-to-rear
@@ -6304,16 +6466,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 93240YC-FX2
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C93240YC-FX2
-    power-ports:
-      - allocated_draw: 708
-        maximum_draw: 750
-        name: Power Supply 1
-        type: iec-60320-c14
-      - allocated_draw: 708
-        maximum_draw: 750
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c93240yc-fx2
     u_height: 2
   - comments: '[SG500 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/small-business-500-series-stackable-managed-switches/c78-695646_data_sheet.html)'
@@ -6674,6 +6832,44 @@ models:
         type: iec-60320-c14
     slug: cisco-c1000fe-48p-4g-l
     u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: con 0
+        type: rj-45
+      - name: usb
+        type: usb-a
+    interfaces:
+      - name: FastEthernet0
+        type: 100base-tx
+      - name: GigabitEthernet0
+        type: 1000base-t
+      - name: GigabitEthernet1
+        type: 1000base-t
+      - name: GigabitEthernet2
+        type: 1000base-t
+      - name: GigabitEthernet3
+        type: 1000base-t
+      - name: GigabitEthernet4
+        type: 1000base-t
+      - name: GigabitEthernet5
+        type: 1000base-t
+      - name: GigabitEthernet6
+        type: 1000base-t
+      - name: GigabitEthernet7
+        type: 1000base-t
+    is_full_depth: false
+    is_powered: true
+    manufacturer: Cisco
+    model: C891F
+    part_number: C891F-K9
+    power-ports:
+      - maximum_draw: 60
+        name: PSU0
+        type: iec-60320-c14
+    slug: cisco-c891f-k9
+    u_height: 1
+    weight: 2.5
+    weight_unit: kg
   - console-ports:
       - name: Console
         type: rj-45
@@ -6785,122 +6981,22 @@ models:
         type: 40gbase-x-qsfpp
       - name: Ethernet1/52
         type: 40gbase-x-qsfpp
-      - name: Ethernet2/1
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/2
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/3
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/4
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/5
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/6
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/7
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/8
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/9
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/10
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/11
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/12
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/13
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/14
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/15
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/16
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/17
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/18
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/19
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/20
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/21
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/22
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/23
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/24
-        type: 10gbase-x-sfpp
-      - name: Ethernet2/25
-        type: 40gbase-x-qsfpp
-      - name: Ethernet2/26
-        type: 40gbase-x-qsfpp
-      - name: Ethernet3/1
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/2
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/3
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/4
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/5
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/6
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/7
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/8
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/9
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/10
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/11
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/12
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/13
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/14
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/15
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/16
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/17
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/18
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/19
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/20
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/21
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/22
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/23
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/24
-        type: 10gbase-x-sfpp
-      - name: Ethernet3/25
-        type: 40gbase-x-qsfpp
-      - name: Ethernet3/26
-        type: 40gbase-x-qsfpp
     manufacturer: Cisco
     model: Nexus 56128P
-    part_number: N5K-C56128P
-    power-ports:
+    module-bays:
+      - name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
       - name: PS1
-        type: iec-60320-c14
+        position: '1'
       - name: PS2
-        type: iec-60320-c14
+        position: '2'
       - name: PS3
-        type: iec-60320-c14
+        position: '3'
       - name: PS4
-        type: iec-60320-c14
+        position: '4'
+    part_number: N5K-C56128P
     slug: cisco-n5k-c56128p
     u_height: 2
   - airflow: front-to-rear
@@ -7082,6 +7178,18 @@ models:
         type: iec-60320-c14
     slug: cisco-asa5512-x
     u_height: 1
+  - airflow: passive
+    device-bays:
+      - name: Left Slot
+      - name: Right Slot
+    is_full_depth: false
+    is_powered: false
+    manufacturer: Cisco
+    model: Catalyst 9800-L Wireless Controller Rack Mount Tray
+    part_number: C9800-L-RMNT
+    slug: cisco-c9800-l-rmnt
+    subdevice_role: parent
+    u_height: 2
   - device-bays:
       - name: Slot 1
       - name: Slot 2
@@ -8191,16 +8299,11 @@ models:
     module-bays:
       - name: Network Module
         position: '2'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: WS-C4500X-32SFP+
-    power-ports:
-      - allocated_draw: 330
-        maximum_draw: 400
-        name: PS1
-        type: iec-60320-c14
-      - allocated_draw: 330
-        maximum_draw: 400
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-catalyst-c4500x-32sfpp
     u_height: 1
   - console-ports:
@@ -8529,10 +8632,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-48P
     slug: cisco-ws-c3850-48p
     u_height: 1
@@ -8588,14 +8691,26 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Catalyst C4507R+E
+    module-bays:
+      - name: Slot 1
+        position: '1'
+      - name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: Slot 5
+        position: '5'
+      - name: Slot 6
+        position: '6'
+      - name: Slot 7
+        position: '7'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: WS-C4507R+E
-    power-ports:
-      - maximum_draw: 1400
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 1400
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-catalyst-c4507r-plus-e
     subdevice_role: parent
     u_height: 11
@@ -8822,6 +8937,30 @@ models:
         type: iec-60320-c14
     slug: cisco-asa5555-x
     u_height: 1
+  - airflow: passive
+    comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR46_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR46_Datasheet)\r\n- IEEE Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u"
+    interfaces:
+      - name: main
+        poe_mode: pd
+        type: 2.5gbase-t
+      - name: wlan0
+        type: ieee802.11ax
+      - name: wlan1
+        type: ieee802.11ax
+      - description: WIDS/WIPS
+        name: wlan2
+        type: other-wireless
+      - description: Bluetooth Scanning and Beaconing
+        name: wlan3
+        type: ieee802.15.1
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MR46
+    part_number: MR46
+    slug: cisco-meraki-mr46
+    u_height: 0.0
+    weight: 28.22
+    weight_unit: oz
   - console-ports:
       - name: con 0
         type: rj-45
@@ -9064,10 +9203,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-24P-S
     slug: cisco-ws-c3850-24p-s
     u_height: 1
@@ -9188,10 +9327,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-24XS-S
     slug: cisco-ws-c3850-24xs-s
     u_height: 1
@@ -9274,6 +9413,47 @@ models:
     slug: cisco-isr1100-4g
     u_height: 1
     weight: 2.67
+    weight_unit: lb
+  - airflow: front-to-rear
+    comments: '[Meraki MX105 Datasheet](https://documentation.meraki.com/MX/MX_Overviews_and_Specifications/MX95%2F%2F105_Datasheet)'
+    interfaces:
+      - name: USB
+        type: lte
+      - mgmt_only: true
+        name: Management
+        type: 1000base-t
+      - name: WAN 1
+        type: 10gbase-x-sfpp
+      - name: WAN 2
+        type: 10gbase-x-sfpp
+      - name: WAN 3
+        type: 2.5gbase-t
+      - name: WAN 4
+        type: 2.5gbase-t
+      - name: Port 5
+        type: 1000base-t
+      - name: Port 6
+        type: 1000base-t
+      - name: Port 7
+        type: 1000base-t
+      - name: Port 8
+        type: 1000base-t
+      - name: Port 9
+        type: 10gbase-x-sfpp
+      - name: Port 10
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MX105
+    part_number: MX105
+    power-ports:
+      - allocated_draw: 55
+        maximum_draw: 123
+        name: Slot 1
+        type: iec-60320-c14
+    slug: cisco-meraki-mx105
+    u_height: 1
+    weight: 10.74
     weight_unit: lb
   - comments: IP Services feature set
     console-ports:
@@ -9495,6 +9675,9 @@ models:
     slug: cisco-ws-c3650-48fd-e
     u_height: 1
   - interfaces:
+      - name: Port 1
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11n
     is_full_depth: false
@@ -10374,10 +10557,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-24U
     slug: cisco-ws-c3850-24u
     u_height: 1
@@ -10532,16 +10715,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 9336C-FX2
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C9336C-FX2
-    power-ports:
-      - allocated_draw: 337
-        maximum_draw: 719
-        name: Power Supply 1
-        type: iec-60320-c14
-      - allocated_draw: 337
-        maximum_draw: 719
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c9336c-fx2
     u_height: 1
   - console-ports:
@@ -10650,12 +10829,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 3560X-48T-S
-    part_number: WS-C3560X-48T-S
-    power-ports:
-      - name: PSU0
-        type: iec-60320-c14
+    module-bays:
       - name: PSU1
-        type: iec-60320-c14
+        position: '1'
+      - name: PSU2
+        position: '2'
+    part_number: WS-C3560X-48T-S
     slug: cisco-ws-c3560x-48t-s
     u_height: 1
   - console-ports:
@@ -10666,51 +10845,56 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: N77-C7710
+    module-bays:
+      - description: Line Card
+        name: Slot 1
+        position: '1'
+      - description: Line Card
+        name: Slot 2
+        position: '2'
+      - description: Line Card
+        name: Slot 3
+        position: '3'
+      - description: Line Card
+        name: Slot 4
+        position: '4'
+      - description: Supervisor Module
+        name: Slot 5
+        position: '5'
+      - description: Supervisor Module
+        name: Slot 6
+        position: '6'
+      - description: Line Card
+        name: Slot 7
+        position: '7'
+      - description: Line Card
+        name: Slot 8
+        position: '8'
+      - description: Line Card
+        name: Slot 9
+        position: '9'
+      - description: Line Card
+        name: Slot 10
+        position: '10'
+      - name: PSU0
+        position: '0'
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
+      - name: PSU3
+        position: '3'
+      - name: PSU4
+        position: '4'
+      - name: PSU5
+        position: '5'
+      - name: PSU6
+        position: '6'
+      - name: PSU7
+        position: '7'
     part_number: N77-C7710
-    power-ports:
-      - maximum_draw: 3000
-        name: PSU0
-        type: iec-60320-c20
-      - maximum_draw: 3000
-        name: PSU1
-        type: iec-60320-c20
-      - maximum_draw: 3000
-        name: PSU2
-        type: iec-60320-c20
-      - maximum_draw: 3000
-        name: PSU3
-        type: iec-60320-c20
-      - maximum_draw: 3000
-        name: PSU4
-        type: iec-60320-c20
-      - maximum_draw: 3000
-        name: PSU5
-        type: iec-60320-c20
-      - maximum_draw: 3000
-        name: PSU6
-        type: iec-60320-c20
-      - maximum_draw: 3000
-        name: PSU7
-        type: iec-60320-c20
     slug: cisco-n77-c7710
-    subdevice_role: parent
     u_height: 14
-  - console-ports:
-      - name: con 0
-        type: rj-45
-    is_full_depth: false
-    manufacturer: Cisco
-    model: 7206VXR
-    part_number: CISCO7206VXR
-    power-ports:
-      - maximum_draw: 370
-        name: PS-1
-        type: iec-60320-c14
-      - maximum_draw: 370
-        name: PS-2
-        type: iec-60320-c14
-    slug: cisco-7206vxr
-    u_height: 3
   - comments: '[Cisco ISR1100 and ISR1100X Series Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/datasheet-c78-742893.html)'
     console-ports:
       - name: con 0
@@ -10743,6 +10927,9 @@ models:
     weight: 2.67
     weight_unit: lb
   - interfaces:
+      - name: WAN
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11ac
     is_full_depth: false
@@ -10825,12 +11012,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Nexus 3232C
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N3K-C3232C
-    power-ports:
-      - name: Power Supply 1
-        type: iec-60320-c14
-      - name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n3k-c3232c
     u_height: 1
   - airflow: front-to-rear
@@ -11079,10 +11266,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-48T-E
     slug: cisco-ws-c3850-48t-e
     u_height: 1
@@ -11480,17 +11667,18 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: N2K-C2248TP-E-1GE
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N2K-C2248TP-E-1GE
-    power-ports:
-      - maximum_draw: 400
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 400
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-n2k-c2248tp-e-1ge
     u_height: 1
   - interfaces:
+      - name: WAN
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11ac
     is_full_depth: false
@@ -11532,6 +11720,36 @@ models:
     slug: cisco-cdb-8p
     subdevice_role: child
     u_height: 0
+  - airflow: passive
+    console-ports:
+      - name: con 0
+        type: rj-45
+      - name: usb
+        type: usb-micro-b
+    interfaces:
+      - name: GigabitEthernet0/0/0
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/1/0
+        type: 1000base-t
+      - name: GigabitEthernet0/1/1
+        type: 1000base-t
+      - name: GigabitEthernet0/1/2
+        type: 1000base-t
+      - name: GigabitEthernet0/1/3
+        type: 1000base-t
+    is_full_depth: false
+    is_powered: true
+    manufacturer: Cisco
+    model: ISR C1111-4P
+    part_number: C1111-4P
+    power-ports:
+      - maximum_draw: 150
+        name: PSU0
+        type: dc-terminal
+    slug: cisco-isr-c1111-4p
+    u_height: 1
+    weight: 1.98
+    weight_unit: kg
   - console-ports:
       - name: con0
         type: rj-45
@@ -11856,6 +12074,54 @@ models:
     u_height: 1
     weight: 7.48
     weight_unit: kg
+  - airflow: passive
+    comments: '[Meraki MX68 Datasheet](https://documentation.meraki.com/MX/MX_Overviews_and_Specifications/MX67_and_MX68_Datasheet)'
+    interfaces:
+      - name: USB
+        type: lte
+      - name: Internet 1
+        type: 1000base-t
+      - name: Internet 2
+        type: 1000base-t
+      - name: Port 3
+        type: 1000base-t
+      - name: Port 4
+        type: 1000base-t
+      - name: Port 5
+        type: 1000base-t
+      - name: Port 6
+        type: 1000base-t
+      - name: Port 7
+        type: 1000base-t
+      - name: Port 8
+        type: 1000base-t
+      - name: Port 9
+        type: 1000base-t
+      - name: Port 10
+        type: 1000base-t
+      - name: Port 11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11ac
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MX68W
+    part_number: MX68W
+    power-ports:
+      - allocated_draw: 19
+        maximum_draw: 87
+        name: Slot 1
+        type: iec-60320-c14
+    slug: cisco-meraki-mx68w
+    u_height: 1
+    weight: 2.55
+    weight_unit: lb
   - console-ports:
       - name: con0
         type: rj-45
@@ -11864,23 +12130,86 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: N77-C7706
+    module-bays:
+      - description: Line Card
+        name: Slot 1
+        position: '1'
+      - description: Line Card
+        name: Slot 2
+        position: '2'
+      - description: Supervisor Module
+        name: Slot 3
+        position: '3'
+      - description: Supervisor Module
+        name: Slot 4
+        position: '4'
+      - description: Line Card
+        name: Slot 5
+        position: '5'
+      - description: Line Card
+        name: Slot 6
+        position: '6'
+      - name: PSU0
+        position: '0'
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
+      - name: PSU3
+        position: '3'
     part_number: N77-C7706
-    power-ports:
-      - maximum_draw: 3000
-        name: PSU0
-        type: iec-60320-c20
-      - maximum_draw: 3000
-        name: PSU1
-        type: iec-60320-c20
-      - maximum_draw: 3000
-        name: PSU2
-        type: iec-60320-c20
-      - maximum_draw: 3000
-        name: PSU3
-        type: iec-60320-c20
     slug: cisco-n77-c7706
-    subdevice_role: parent
     u_height: 9
+  - airflow: front-to-rear
+    comments: '[Cisco Catalyst 9500 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9500-series-switches/nb-06-cat9500-ser-data-sheet-cte-en.html)'
+    console-ports:
+      - name: con 0
+        type: rj-45
+      - name: usb
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: GigabitEthernet0/0
+        type: 1000base-t
+      - name: FortyGigabitEthernet1/0/1
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/2
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/3
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/4
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/5
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/6
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/7
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/8
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/9
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/10
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/11
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/12
+        type: 40gbase-x-qsfpp
+    is_full_depth: true
+    manufacturer: Cisco
+    model: Catalyst 9500-12Q
+    module-bays:
+      - label: PS1
+        name: Power Supply Module 1
+        position: '1'
+      - label: PS2
+        name: Power Supply Module 2
+        position: '2'
+    part_number: C9500-12q
+    slug: cisco-c9500-12q
+    u_height: 1
+    weight: 11.68
+    weight_unit: kg
   - console-ports:
       - name: Console
         type: rj-45
@@ -12010,12 +12339,12 @@ models:
         type: 40gbase-x-qsfpp
     manufacturer: Cisco
     model: Nexus 9396PX
-    part_number: N9K-C9396PX
-    power-ports:
+    module-bays:
       - name: PS1
-        type: iec-60320-c14
+        position: '1'
       - name: PS2
-        type: iec-60320-c14
+        position: '2'
+    part_number: N9K-C9396PX
     slug: cisco-n9k-c9396px
     u_height: 2
   - console-ports:
@@ -12128,17 +12457,18 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 4948-10GE
-    part_number: WS-C4948-10GE-S
-    power-ports:
+    module-bays:
       - name: PSU0
-        type: iec-60320-c14
+        position: '0'
       - name: PSU1
-        type: iec-60320-c14
+        position: '1'
+    part_number: WS-C4948-10GE-S
     slug: cisco-ws-c4948-10ge-s
     u_height: 1
   - comments: "- Datasheet: [https://meraki.cisco.com/product-collateral/mr53e-datasheet/?file](https://meraki.cisco.com/product-collateral/mr53e-datasheet/?file)\r\n- IEEE Standards: 802.11ac Wave 2, 802.11a, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, 802.11u"
     interfaces:
       - name: main
+        poe_mode: pd
         type: 2.5gbase-t
       - name: secondary
         type: 1000base-t
@@ -12720,6 +13050,9 @@ models:
     slug: cisco-ws-c2960-24pc-l
     u_height: 1
   - interfaces:
+      - name: WAN
+        poe_mode: pd
+        type: 100base-tx
       - name: WiFi
         type: ieee802.11g
     is_full_depth: false
@@ -12767,6 +13100,20 @@ models:
         type: iec-60320-c14
     slug: cisco-ws-c3750g-12s-e
     u_height: 1
+  - comments: '[Rack Mount Installation guide](https://www.cisco.com/c/en/us/td/docs/security/firepower/1010/hw/guide/hw-install-1010/mount.html)'
+    device-bays:
+      - name: slot-1
+      - name: slot-2
+    is_full_depth: true
+    is_powered: false
+    manufacturer: Cisco
+    model: FPR1K-DT-RACK-MNT
+    part_number: FPR1K-DT-RACK-MNT
+    slug: cisco-fpr1k-dt-rack-mnt
+    subdevice_role: parent
+    u_height: 2.0
+    weight: 900.0
+    weight_unit: g
   - console-ports:
       - name: con0
         type: rj-45
@@ -12994,6 +13341,7 @@ models:
       - name: WiFi
         type: ieee802.11ax
       - name: GigabitEthernet0
+        poe_mode: pd
         type: 2.5gbase-t
     is_full_depth: false
     manufacturer: Cisco
@@ -13256,13 +13604,18 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 3560X-24P
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
     part_number: WS-C3560X-24P
-    power-ports:
-      - name: PSU0
-        type: iec-60320-c14
     slug: cisco-ws-c3560x-24p
     u_height: 1
   - interfaces:
+      - name: WAN
+        poe_mode: pd
+        type: 100base-tx
       - name: WiFi
         type: ieee802.11g
     is_full_depth: false
@@ -13661,6 +14014,9 @@ models:
     slug: cisco-8202-32fh-m
     u_height: 2
   - interfaces:
+      - name: WAN
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11ac
     is_full_depth: false
@@ -14049,10 +14405,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-24T-S
     slug: cisco-ws-c3850-24t-s
     u_height: 1
@@ -14151,6 +14507,11 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: ME-3600X-24FS-M
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
     part_number: ME-3600X-24FS-M
     slug: cisco-me-3600x-24fs-m
     u_height: 1
@@ -14376,6 +14737,7 @@ models:
   - comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR57_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR57_Datasheet)\r\n- IEEE Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, 802.11w and 802.11u"
     interfaces:
       - name: main
+        poe_mode: pd
         type: 2.5gbase-t
       - name: secondary
         type: 2.5gbase-t
@@ -14721,10 +15083,12 @@ models:
         type: 1000base-t
     manufacturer: Cisco
     model: WS-C3560X-48P-S
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
     part_number: WS-C3560X-48P-S
-    power-ports:
-      - name: Power Supply 0
-        type: iec-60320-c14
     slug: cisco-ws-c3560x-48p-s
     u_height: 1
   - comments: '[Cisco Catalyst 1000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1000-series-switches/nb-06-cat1k-ser-switch-ds-cte-en.html)'
@@ -15043,16 +15407,18 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Nexus 5596T
+    module-bays:
+      - name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N5K-C5596T
-    power-ports:
-      - allocated_draw: 660
-        maximum_draw: 972
-        name: PSU0
-        type: iec-60320-c14
-      - allocated_draw: 660
-        maximum_draw: 972
-        name: PSU1
-        type: iec-60320-c14
     slug: cisco-n5k-c5596t
     u_height: 2
   - console-ports:
@@ -15123,7 +15489,7 @@ models:
       - name: PSU0
         type: iec-60320-c14
     slug: cisco-ws-c3750g-24ts-s
-    u_height: 1.5
+    u_height: 1
   - airflow: front-to-rear
     console-ports:
       - name: console
@@ -15460,6 +15826,25 @@ models:
         type: iec-60320-c14
     slug: cisco-meraki-mx84
     u_height: 1
+  - airflow: passive
+    comments: "- Datasheet: [https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR16.pdf](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR16.pdf)\r \n- IEEE Standards: 802.11a, 802.11b, 802.11g, 802.11n"
+    interfaces:
+      - name: main
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11n
+      - name: wlan1
+        type: ieee802.11a
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MR16
+    part_number: MR16
+    slug: cisco-meraki-mr16
+    u_height: 0.0
+    weight: 17
+    weight_unit: oz
   - console-ports:
       - name: con0
         type: rj-45
@@ -15673,6 +16058,10 @@ models:
         type: 5gbase-t
       - name: FiveGigabitEthernet1/0/48
         type: 5gbase-t
+      - name: StackPort1/1
+        type: cisco-stackwise
+      - name: StackPort1/2
+        type: cisco-stackwise
       - mgmt_only: true
         name: GigabitEthernet0/0
         type: 1000base-t
@@ -15682,14 +16071,14 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300-48UN
-    power-ports:
-      - maximum_draw: 1100
-        name: PS-A
-        type: iec-60320-c16
-      - maximum_draw: 1100
-        name: PS-B
-        type: iec-60320-c16
     slug: cisco-c9300-48un
     u_height: 1
   - console-ports:
@@ -16380,12 +16769,12 @@ models:
       - name: Ethernet0/5
         type: 100base-tx
       - name: Ethernet0/6
-        poe-mode: pse
-        poe-type: type1-ieee802.3af
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
         type: 100base-tx
       - name: Ethernet0/7
-        poe-mode: pse
-        poe-type: type1-ieee802.3af
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
         type: 100base-tx
     is_full_depth: false
     manufacturer: Cisco
@@ -16975,16 +17364,18 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Nexus 5596UP
+    module-bays:
+      - name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N5K-C5596UP
-    power-ports:
-      - allocated_draw: 660
-        maximum_draw: 972
-        name: PSU0
-        type: iec-60320-c14
-      - allocated_draw: 660
-        maximum_draw: 972
-        name: PSU1
-        type: iec-60320-c14
     slug: cisco-n5k-c5596up
     u_height: 2
   - comments: '[MS225 Overview and Specifications](https://meraki.cisco.com/lib/pdf/meraki_datasheet_ms225.pdf)'
@@ -17328,6 +17719,9 @@ models:
     slug: cisco-ws-c3750x-48pf-s
     u_height: 1
   - interfaces:
+      - name: Port 1
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11n
     is_full_depth: false
@@ -17827,14 +18221,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: vEdge 2000
+    module-bays:
+      - name: PSU-1
+        position: '1'
+      - name: PSU-2
+        position: '2'
     part_number: VEDGE-2000-AC-K9
-    power-ports:
-      - allocated_draw: 125
-        name: PSU-1
-        type: iec-60320-c14
-      - allocated_draw: 125
-        name: PSU-2
-        type: iec-60320-c14
     slug: cisco-vedge-2000-ac-k9
     u_height: 1
   - console-ports:
@@ -17869,6 +18261,9 @@ models:
     slug: cisco-ws-c2960cg-8tl
     u_height: 1
   - interfaces:
+      - name: WAN
+        poe_mode: pd
+        type: 100base-tx
       - name: WiFi
         type: ieee802.11g
     is_full_depth: false
@@ -18317,16 +18712,42 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: N2K-C2248TP-1GE
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N2K-C2248TP-1GE
-    power-ports:
-      - maximum_draw: 400
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 400
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-n2k-c2248tp-1ge
     u_height: 1
+  - airflow: passive
+    comments: '[Meraki MX67 Datasheet](https://documentation.meraki.com/MX/MX_Overviews_and_Specifications/MX67_and_MX68_Datasheet)'
+    interfaces:
+      - name: USB
+        type: lte
+      - name: Internet 1
+        type: 1000base-t
+      - name: Port 2
+        type: 1000base-t
+      - name: Port 3
+        type: 1000base-t
+      - name: Port 4
+        type: 1000base-t
+      - name: Port 5
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MX67
+    part_number: MX67
+    power-ports:
+      - allocated_draw: 5
+        maximum_draw: 14
+        name: Slot 1
+        type: iec-60320-c14
+    slug: cisco-meraki-mx67
+    u_height: 1
+    weight: 1.74
+    weight_unit: lb
   - console-ports:
       - name: con0
         type: rj-45
@@ -18566,20 +18987,24 @@ models:
         poe_mode: pse
         poe_type: type3-ieee802.3bt
         type: 10gbase-t
+      - name: StackPort1/1
+        type: cisco-stackwise
+      - name: StackPort1/2
+        type: cisco-stackwise
     is_full_depth: true
     manufacturer: Cisco
     model: Catalyst 9300-48UXM
     module-bays:
       - name: Network Module
         position: '1'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300-48UXM
-    power-ports:
-      - maximum_draw: 1100
-        name: PS-A
-        type: iec-60320-c16
-      - maximum_draw: 1100
-        name: PS-B
-        type: iec-60320-c16
     slug: cisco-c9300-48uxm
     u_height: 1
   - console-ports:
@@ -18648,6 +19073,132 @@ models:
         type: iec-60320-c14
     slug: cisco-ws-c2960-24tt-l
     u_height: 1
+  - console-ports:
+      - name: Console
+        type: rj-45
+      - name: usb0
+        type: usb-a
+    interfaces:
+      - mgmt_only: true
+        name: mgmt0
+        type: 1000base-t
+      - name: Ethernet1/1
+        type: 10gbase-t
+      - name: Ethernet1/2
+        type: 10gbase-t
+      - name: Ethernet1/3
+        type: 10gbase-t
+      - name: Ethernet1/4
+        type: 10gbase-t
+      - name: Ethernet1/5
+        type: 10gbase-t
+      - name: Ethernet1/6
+        type: 10gbase-t
+      - name: Ethernet1/7
+        type: 10gbase-t
+      - name: Ethernet1/8
+        type: 10gbase-t
+      - name: Ethernet1/9
+        type: 10gbase-t
+      - name: Ethernet1/10
+        type: 10gbase-t
+      - name: Ethernet1/11
+        type: 10gbase-t
+      - name: Ethernet1/12
+        type: 10gbase-t
+      - name: Ethernet1/13
+        type: 10gbase-t
+      - name: Ethernet1/14
+        type: 10gbase-t
+      - name: Ethernet1/15
+        type: 10gbase-t
+      - name: Ethernet1/16
+        type: 10gbase-t
+      - name: Ethernet1/17
+        type: 10gbase-t
+      - name: Ethernet1/18
+        type: 10gbase-t
+      - name: Ethernet1/19
+        type: 10gbase-t
+      - name: Ethernet1/20
+        type: 10gbase-t
+      - name: Ethernet1/21
+        type: 10gbase-t
+      - name: Ethernet1/22
+        type: 10gbase-t
+      - name: Ethernet1/23
+        type: 10gbase-t
+      - name: Ethernet1/24
+        type: 10gbase-t
+      - name: Ethernet1/25
+        type: 10gbase-t
+      - name: Ethernet1/26
+        type: 10gbase-t
+      - name: Ethernet1/27
+        type: 10gbase-t
+      - name: Ethernet1/28
+        type: 10gbase-t
+      - name: Ethernet1/29
+        type: 10gbase-t
+      - name: Ethernet1/30
+        type: 10gbase-t
+      - name: Ethernet1/31
+        type: 10gbase-t
+      - name: Ethernet1/32
+        type: 10gbase-t
+      - name: Ethernet1/33
+        type: 10gbase-t
+      - name: Ethernet1/34
+        type: 10gbase-t
+      - name: Ethernet1/35
+        type: 10gbase-t
+      - name: Ethernet1/36
+        type: 10gbase-t
+      - name: Ethernet1/37
+        type: 10gbase-t
+      - name: Ethernet1/38
+        type: 10gbase-t
+      - name: Ethernet1/39
+        type: 10gbase-t
+      - name: Ethernet1/40
+        type: 10gbase-t
+      - name: Ethernet1/41
+        type: 10gbase-t
+      - name: Ethernet1/42
+        type: 10gbase-t
+      - name: Ethernet1/43
+        type: 10gbase-t
+      - name: Ethernet1/44
+        type: 10gbase-t
+      - name: Ethernet1/45
+        type: 10gbase-t
+      - name: Ethernet1/46
+        type: 10gbase-t
+      - name: Ethernet1/47
+        type: 10gbase-t
+      - name: Ethernet1/48
+        type: 10gbase-t
+      - name: Ethernet1/49
+        type: 40gbase-x-qsfpp
+      - name: Ethernet1/50
+        type: 40gbase-x-qsfpp
+      - name: Ethernet1/51
+        type: 40gbase-x-qsfpp
+      - name: Ethernet1/52
+        type: 40gbase-x-qsfpp
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Nexus C3064TQ-10GT
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: N3K-C3064TQ-10GT
+    slug: cisco-n3k-c3064tq-10gt
+    u_height: 1
+    weight: 9.3
+    weight_unit: kg
   - comments: '[SG350 Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/small-business-smart-switches/data-sheet-c78-737359.html)'
     console-ports:
       - name: console
@@ -19737,20 +20288,16 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: UCS-S3260-M5SRB
+    module-bays:
+      - name: PSU-1
+        position: '1'
+      - name: PSU-2
+        position: '2'
+      - name: PSU-3
+        position: '3'
+      - name: PSU-4
+        position: '4'
     part_number: UCS-S3260-M5SRB
-    power-ports:
-      - maximum_draw: 1050
-        name: PSU-1
-        type: iec-60320-c14
-      - maximum_draw: 1050
-        name: PSU-2
-        type: iec-60320-c14
-      - maximum_draw: 1050
-        name: PSU-3
-        type: iec-60320-c14
-      - maximum_draw: 1050
-        name: PSU-4
-        type: iec-60320-c14
     slug: cisco-ucs-s3260-m5srb
     u_height: 4
   - console-ports:
@@ -19877,6 +20424,7 @@ models:
   - comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR36_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR36_Datasheet)\r\n- IEEE Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u"
     interfaces:
       - name: main
+        poe_mode: pd
         type: 2.5gbase-t
       - name: wlan0
         type: ieee802.11n
@@ -19991,6 +20539,10 @@ models:
         poe_mode: pse
         poe_type: type2-ieee802.3at
         type: 1000base-t
+      - name: StackPort1/1
+        type: cisco-stackwise
+      - name: StackPort1/2
+        type: cisco-stackwise
       - mgmt_only: true
         name: GigabitEthernet0/0
         type: 1000base-t
@@ -20000,14 +20552,14 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300-24P
-    power-ports:
-      - maximum_draw: 715
-        name: PS-A
-        type: iec-60320-c16
-      - maximum_draw: 715
-        name: PS-B
-        type: iec-60320-c16
     slug: cisco-c9300-24p
     u_height: 1
   - comments: '[Cisco Catalyst 9200 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
@@ -20151,14 +20703,24 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Catalyst 4506
+    module-bays:
+      - name: Slot 1
+        position: '1'
+      - name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: Slot 5
+        position: '5'
+      - name: Slot 6
+        position: '6'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: WS-C4506
-    power-ports:
-      - maximum_draw: 1500
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 1500
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-ws-c4506
     subdevice_role: parent
     u_height: 10
@@ -20361,6 +20923,10 @@ models:
         poe_mode: pse
         poe_type: type3-ieee802.3bt
         type: 1000base-t
+      - name: StackPort1/1
+        type: cisco-stackwise
+      - name: StackPort1/2
+        type: cisco-stackwise
       - mgmt_only: true
         name: GigabitEthernet0/0
         type: 1000base-t
@@ -20370,16 +20936,46 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300-48U
-    power-ports:
-      - maximum_draw: 1100
-        name: PS-A
-        type: iec-60320-c16
-      - maximum_draw: 1100
-        name: PS-B
-        type: iec-60320-c16
     slug: cisco-c9300-48u
     u_height: 1
+  - airflow: passive
+    comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/CW9164_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/CW9164_Datasheet)\r\n- IEEE Standards: 802.11ab, 802.11at/bt, 802.11a/b/g/n/ac/ax, 802.11d/h/i/k/r/u/v/w"
+    interfaces:
+      - name: main
+        poe_mode: pd
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: wlan0
+        type: ieee802.11ax
+      - name: wlan1
+        type: ieee802.11ax
+      - name: wlan2
+        type: ieee802.11ax
+      - description: WIDS/WIPS
+        name: wlan3
+        type: other-wireless
+      - description: Bluetooth Scanning and Beaconing
+        name: wlan4
+        type: ieee802.15.1
+      - description: USB interface
+        name: usb0
+        type: other
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki CW9164
+    part_number: CW9164
+    slug: cisco-meraki-cw9164
+    u_height: 0.0
+    weight: 1.6
+    weight_unit: kg
   - console-ports:
       - name: con 0
         type: rj-45
@@ -20609,16 +21205,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 93180YC-EX
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C93180YC-EX
-    power-ports:
-      - allocated_draw: 210
-        maximum_draw: 470
-        name: Power Supply 1
-        type: iec-60320-c14
-      - allocated_draw: 210
-        maximum_draw: 470
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c93180yc-ex
     u_height: 1
   - console-ports:
@@ -21143,10 +21735,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-48P-E
     slug: cisco-ws-c3850-48p-e
     u_height: 1
@@ -21156,6 +21748,7 @@ models:
         type: rj-45
       - name: usb
         type: usb-mini-b
+    front_image: true
     interfaces:
       - name: GigabitEthernet1/0/1
         type: 1000base-t
@@ -21226,6 +21819,7 @@ models:
       - maximum_draw: 125
         name: PS-2
         type: iec-60320-c14
+    rear_image: true
     slug: cisco-c9200-24t
     u_height: 1
   - comments: LAN Base feature set
@@ -21451,6 +22045,31 @@ models:
     u_height: 1
     weight: 5.74
     weight_unit: kg
+  - airflow: passive
+    comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR76_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR76_Datasheet)\r \n- IEEE Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u"
+    interfaces:
+      - name: main
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11n
+      - name: wlan1
+        type: ieee802.11ac
+      - description: WIDS/WIPS
+        name: wlan2
+        type: other-wireless
+      - description: Bluetooth Scanning and Beaconing
+        name: wlan3
+        type: ieee802.15.1
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MR76
+    part_number: MR76
+    slug: cisco-meraki-mr76
+    u_height: 0.0
+    weight: 47.26
+    weight_unit: oz
   - console-ports:
       - name: Con
         type: rj-45
@@ -21465,14 +22084,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: UCS-C220-M4
+    module-bays:
+      - name: PS-0
+        position: '0'
+      - name: PS-1
+        position: '1'
     part_number: UCS-C220M4
-    power-ports:
-      - maximum_draw: 770
-        name: PS-0
-        type: iec-60320-c14
-      - maximum_draw: 770
-        name: PS-1
-        type: iec-60320-c14
     slug: cisco-ucs-c220-m4
     u_height: 1
   - console-ports:
@@ -21580,10 +22197,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-24XS-L
     slug: cisco-ws-c3850-24xs-l
     u_height: 1
@@ -21698,10 +22315,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-24P-L
     slug: cisco-ws-c3850-24p-l
     u_height: 1
@@ -21744,10 +22361,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-12S-E
     slug: cisco-ws-c3850-12s-e
     u_height: 1
@@ -21980,10 +22597,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-12X48U-L
     slug: cisco-ws-c3850-12x48u-l
     u_height: 1
@@ -22198,12 +22815,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 2960XR-48FPS-I
-    part_number: WS-C2960XR-48FPS-I
-    power-ports:
+    module-bays:
       - name: PSU0
-        type: iec-60320-c14
+        position: '0'
       - name: PSU1
-        type: iec-60320-c14
+        position: '1'
+    part_number: WS-C2960XR-48FPS-I
     slug: cisco-ws-c2960xr-48fps-i
     u_height: 1
   - comments: '[Cisco Catalyst 9300 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html)'
@@ -22212,6 +22829,7 @@ models:
         type: rj-45
       - name: usb
         type: usb-mini-b
+    front_image: true
     interfaces:
       - name: GigabitEthernet1/0/1
         type: 1000base-t
@@ -22309,6 +22927,10 @@ models:
         type: 1000base-t
       - name: GigabitEthernet1/0/48
         type: 1000base-t
+      - name: StackPort1/1
+        type: cisco-stackwise
+      - name: StackPort1/2
+        type: cisco-stackwise
       - mgmt_only: true
         name: GigabitEthernet0/0
         type: 1000base-t
@@ -22316,13 +22938,17 @@ models:
     manufacturer: Cisco
     model: Catalyst 9300-48T
     module-bays:
+      - name: Network Module
+        position: '1'
       - name: PS-A
         position: A
       - name: PS-B
         position: B
-      - name: Network Module
-        position: '1'
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300-48T
+    rear_image: true
     slug: cisco-c9300-48t
     u_height: 1
     weight: 16.43
@@ -22452,6 +23078,9 @@ models:
     slug: cisco-c9500-32c
     u_height: 1
   - interfaces:
+      - name: WAN
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11ac
     is_full_depth: false
@@ -22497,13 +23126,46 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+    part_number: WS-C3850-12XS
+    slug: cisco-ws-c3850-12xs
+    u_height: 1
+  - airflow: front-to-rear
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - mgmt_only: true
+        name: Management
+        type: 100base-tx
+      - name: Gi0/1
+        type: 1000base-x-sfp
+      - name: Gi0/2
+        type: 1000base-x-sfp
+      - name: Gi0/3
+        type: 1000base-x-sfp
+      - name: Gi0/4
+        type: 1000base-x-sfp
+      - name: Fa0/1
+        type: 100base-tx
+      - name: Fa0/2
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: Cisco
+    model: ME-3400EG-2CS-A
+    module-bays:
       - name: PSU1
         position: '1'
       - name: PSU2
         position: '2'
-    part_number: WS-C3850-12XS
-    slug: cisco-ws-c3850-12xs
+    part_number: ME-3400EG-2CS-A
+    slug: cisco-me-3400eg-2cs-a
     u_height: 1
+    weight: 3.4
+    weight_unit: lb
   - console-ports:
       - name: con0
         type: rj-45
@@ -22849,6 +23511,9 @@ models:
     slug: cisco-c9500-48y4c
     u_height: 1
   - interfaces:
+      - name: WAN
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11ac
     is_full_depth: false
@@ -22919,14 +23584,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: ME-3800X-24FS-M
+    module-bays:
+      - name: PSU0
+        position: '1'
+      - name: PSU1
+        position: '2'
     part_number: ME-3800X-24FS-M
-    power-ports:
-      - maximum_draw: 233
-        name: PSU0
-        type: iec-60320-c14
-      - maximum_draw: 233
-        name: PSU1
-        type: iec-60320-c14
     slug: cisco-me-3800x-24fs-m
     u_height: 1
   - console-ports:
@@ -23443,12 +24106,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: NCS 5501-SE
-    part_number: NCS-5501-SE
-    power-ports:
+    module-bays:
       - name: PSU0
-        type: iec-60320-c14
+        position: '0'
       - name: PSU1
-        type: iec-60320-c14
+        position: '1'
+    part_number: NCS-5501-SE
     slug: cisco-ncs-5501-se
     u_height: 1
   - console-ports:
@@ -23512,10 +24175,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-24XS
     slug: cisco-ws-c3850-24xs
     u_height: 1
@@ -23641,6 +24304,9 @@ models:
     slug: cisco-ws-c2960s-24ps-l
     u_height: 1
   - interfaces:
+      - name: WAN
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11ac
     is_full_depth: false
@@ -23764,15 +24430,18 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 2960XR-48TD-I
-    part_number: WS-C2960XR-48TD-I
-    power-ports:
+    module-bays:
       - name: PSU0
-        type: iec-60320-c14
+        position: '0'
       - name: PSU1
-        type: iec-60320-c14
+        position: '1'
+    part_number: WS-C2960XR-48TD-I
     slug: cisco-ws-c2960xr-48td-i
     u_height: 1
   - interfaces:
+      - name: WAN
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11ac
     is_full_depth: false
@@ -23781,6 +24450,44 @@ models:
     part_number: AIR-AP2802I-B-K9
     slug: cisco-air-ap2802i-b-k9
     u_height: 0
+  - airflow: front-to-rear
+    console-ports:
+      - name: Con
+        type: rj-45
+      - name: usb0
+        type: usb-micro-b
+    interfaces:
+      - mgmt_only: true
+        name: Service Port
+        type: 1000base-t
+      - mgmt_only: true
+        name: Redundancy Port
+        type: 1000base-t
+      - name: TwoGigabitEthernet0/0/0
+        type: 2.5gbase-t
+      - name: TwoGigabitEthernet0/0/1
+        type: 2.5gbase-t
+      - name: TwoGigabitEthernet0/0/2
+        type: 2.5gbase-t
+      - name: TwoGigabitEthernet0/0/3
+        type: 2.5gbase-t
+      - name: TenGigabitEthernet0/1/0
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet0/1/1
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Catalyst 9800-L-F
+    part_number: C9800-L-F
+    power-ports:
+      - maximum_draw: 85
+        name: PS1
+        type: dc-terminal
+    slug: cisco-c9800-l-f
+    subdevice_role: child
+    u_height: 0
+    weight: 4.01
+    weight_unit: lb
   - console-ports:
       - name: con0
         type: rj-45
@@ -24121,6 +24828,43 @@ models:
         type: iec-60320-c14
     slug: cisco-c6816-x-le
     u_height: 2
+  - airflow: front-to-rear
+    comments: '[Cisco 8000 Series Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8300-series-edge-platforms/datasheet-c78-744088.html)'
+    console-ports:
+      - name: con0
+        type: rj-45
+    interfaces:
+      - name: GigabitEthernet0/0/0
+        type: 1000base-t
+      - name: GigabitEthernet0/0/1
+        type: 1000base-t
+      - name: GigabitEthernet0/0/2
+        type: 1000base-t
+      - name: GigabitEthernet0/0/3
+        type: 1000base-t
+      - name: TenGigabitEthernet0/0/4
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet0/0/5
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    is_powered: true
+    manufacturer: Cisco
+    model: C8300-2N2S-4T2X
+    module-bays:
+      - name: PSU0
+        position: '0'
+      - name: PSU1
+        position: '1'
+      - name: SM 1
+      - name: SM 2
+      - name: NIM 1
+      - name: NIM 2
+      - name: PIM 1
+    part_number: C8300-2N2S-4T2X
+    slug: cisco-c8300-2n2s-4t2x
+    u_height: 2
+    weight: 18.0
+    weight_unit: kg
   - comments: '[Cisco Network Convergence System 540 Medium Density Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/network-convergence-system-500-series-routers/datasheet-c78-740296.html)'
     console-ports:
       - name: Console
@@ -24460,18 +25204,22 @@ models:
         type: 100gbase-x-qsfp28
       - name: Ethernet1/32
         type: 100gbase-x-qsfp28
+      - name: Ethernet1/33
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/34
+        type: 10gbase-x-sfpp
       - mgmt_only: true
         name: mgmt0
         type: 1000base-t
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 9332C
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C9332C
-    power-ports:
-      - name: Power Supply 1
-        type: iec-60320-c14
-      - name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c9332c
     u_height: 1
   - console-ports:
@@ -25390,6 +26138,11 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Catalyst C4900M
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: WS-C4900M
     power-ports:
       - maximum_draw: 960
@@ -25612,12 +26365,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 2960XR-48LPS-I
-    part_number: WS-C2960XR-48LPS-I
-    power-ports:
+    module-bays:
       - name: PSU0
-        type: iec-60320-c14
+        position: '0'
       - name: PSU1
-        type: iec-60320-c14
+        position: '1'
+    part_number: WS-C2960XR-48LPS-I
     slug: cisco-ws-c2960xr-48lps-i
     u_height: 1
   - console-ports:
@@ -25746,18 +26499,65 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Nexus 3132Q-40GX
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N3K-C3132Q-40GX
-    power-ports:
-      - allocated_draw: 170
-        maximum_draw: 290
-        name: PSU0
-        type: iec-60320-c14
-      - allocated_draw: 170
-        maximum_draw: 290
-        name: PSU1
-        type: iec-60320-c14
     slug: cisco-nexus-3132q-40gx
     u_height: 1
+  - comments: '[Cisco Firepower 3100 Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/security/firewalls/secure-firewall-3100-series-ds.html)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Ethernet1/1
+        type: 1000base-t
+      - name: Ethernet1/2
+        type: 1000base-t
+      - name: Ethernet1/3
+        type: 1000base-t
+      - name: Ethernet1/4
+        type: 1000base-t
+      - name: Ethernet1/5
+        type: 1000base-t
+      - name: Ethernet1/6
+        type: 1000base-t
+      - name: Ethernet1/7
+        type: 1000base-t
+      - name: Ethernet1/8
+        type: 1000base-t
+      - name: Ethernet1/9
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/10
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/11
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/12
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/13
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/14
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/15
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/16
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: Management1/1
+        type: 10gbase-x-sfpp
+    is_full_depth: true
+    manufacturer: Cisco
+    model: FirePOWER 3110 Next-Generation Firewall
+    module-bays:
+      - name: PS-0
+        position: '0'
+    part_number: FPR3110-NGFW-K9
+    slug: cisco-firepower-3110-next-generation-firewall
+    u_height: 1
+    weight: 10.5
+    weight_unit: kg
   - console-ports:
       - name: con0
         type: rj-45
@@ -25766,6 +26566,27 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus N7K-C7004
+    module-bays:
+      - description: Supervisor Module
+        name: Slot 1
+        position: '1'
+      - description: Supervisor Module
+        name: Slot 2
+        position: '2'
+      - description: Line Card
+        name: Slot 3
+        position: '3'
+      - description: Line Card
+        name: Slot 4
+        position: '4'
+      - name: PSU0
+        position: '0'
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
+      - name: PSU3
+        position: '3'
     part_number: N7K-C7004
     power-ports:
       - maximum_draw: 12000
@@ -26311,6 +27132,7 @@ models:
         type: rj-45
     interfaces:
       - name: Port 1
+        poe_mode: pd
         type: 1000base-t
       - name: Port 2
         type: 1000base-t
@@ -26581,6 +27403,9 @@ models:
     manufacturer: Cisco
     model: IR829
     part_number: IR829GW-LTE-NA-AK9
+    power-ports:
+      - name: DC-A
+        type: dc-terminal
     slug: cisco-ir829gw-lte-na-ak9
     u_height: 1
   - comments: '[Cisco Firepower 4100 Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/security/firepower-4100-series/datasheet-c78-742474.html)'
@@ -26848,7 +27673,59 @@ models:
         type: iec-60320-c14
     slug: cisco-asr1002-x
     u_height: 2
+  - airflow: front-to-rear
+    comments: '[Cisco Meraki MX85 Data Sheet](https://documentation.meraki.com/MX/MX_Overviews_and_Specifications/MX85_Datasheet)'
+    console-ports:
+      - name: Management
+        type: rj-45
+    interfaces:
+      - name: USB
+        type: lte
+      - name: WAN 1
+        type: 1000base-x-sfp
+      - name: WAN 2
+        type: 1000base-x-sfp
+      - name: WAN 3
+        type: 1000base-t
+      - name: WAN 4
+        type: 1000base-t
+      - name: Port 5
+        type: 1000base-t
+      - name: Port 6
+        type: 1000base-t
+      - name: Port 7
+        type: 1000base-t
+      - name: Port 8
+        type: 1000base-t
+      - name: Port 9
+        type: 1000base-t
+      - name: Port 10
+        type: 1000base-t
+      - name: Port 11
+        type: 1000base-t
+      - name: Port 12
+        type: 1000base-t
+      - name: Port 13
+        type: 1000base-x-sfp
+      - name: Port 14
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MX85
+    part_number: MX85
+    power-ports:
+      - allocated_draw: 12
+        maximum_draw: 55
+        name: Slot 1
+        type: iec-60320-c14
+    slug: cisco-meraki-mx85
+    u_height: 1
+    weight: 8.2
+    weight_unit: lb
   - interfaces:
+      - name: Port 1
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11n
     is_full_depth: false
@@ -27075,6 +27952,11 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 93120TX
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C93120TX
     power-ports:
       - allocated_draw: 542
@@ -27225,6 +28107,9 @@ models:
     slug: cisco-sg550x-24-k9
     u_height: 1
   - interfaces:
+      - name: WAN
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11ac
     is_full_depth: false
@@ -27351,21 +28236,18 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 93180YC-FX3S
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C93180YC-FX3S
-    power-ports:
-      - allocated_draw: 325
-        maximum_draw: 600
-        name: Power Supply 1
-        type: iec-60320-c14
-      - allocated_draw: 325
-        maximum_draw: 600
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c93180yc-fx3s
     u_height: 1
   - comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR56_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR56_Datasheet)\r\n- IEEE Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u"
     interfaces:
       - name: main
+        poe_mode: pd
         type: 2.5gbase-t
       - name: wlan0
         type: ieee802.11n
@@ -27423,16 +28305,11 @@ models:
     module-bays:
       - name: Network Module
         position: '2'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: WS-C4500X-16SFP+
-    power-ports:
-      - allocated_draw: 330
-        maximum_draw: 400
-        name: PS1
-        type: iec-60320-c14
-      - allocated_draw: 330
-        maximum_draw: 400
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-catalyst-c4500x-16sfpp
     u_height: 1
   - console-ports:
@@ -27549,12 +28426,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 3048
-    part_number: N3K-C3048TP-1GE
-    power-ports:
+    module-bays:
       - name: PS1
-        type: iec-60320-c14
+        position: '1'
       - name: PS2
-        type: iec-60320-c14
+        position: '2'
+    part_number: N3K-C3048TP-1GE
     slug: cisco-n3k-c3048tp-1ge
     u_height: 1
   - console-ports:
@@ -27629,10 +28506,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-12XS-E
     slug: cisco-ws-c3850-12xs-e
     u_height: 1
@@ -28003,10 +28880,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-24S
     slug: cisco-ws-c3850-24s
     u_height: 1
@@ -28093,6 +28970,36 @@ models:
         type: iec-60320-c14
     slug: cisco-meraki-ms120-8fp
     u_height: 1
+  - airflow: passive
+    comments: '[Meraki MX67 Datasheet](https://documentation.meraki.com/MX/MX_Overviews_and_Specifications/MX67_and_MX68_Datasheet)'
+    interfaces:
+      - name: USB
+        type: lte
+      - name: Internet 1
+        type: 1000base-t
+      - name: Port 2
+        type: 1000base-t
+      - name: Port 3
+        type: 1000base-t
+      - name: Port 4
+        type: 1000base-t
+      - name: Port 5
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11ac
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MX67W
+    part_number: MX67W
+    power-ports:
+      - allocated_draw: 15
+        maximum_draw: 23
+        name: Slot 1
+        type: iec-60320-c14
+    slug: cisco-meraki-mx67w
+    u_height: 1
+    weight: 1.84
+    weight_unit: lb
   - console-ports:
       - name: con 0
         type: rj-45
@@ -28350,10 +29257,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-12XS-S
     slug: cisco-ws-c3850-12xs-s
     u_height: 1
@@ -28479,16 +29386,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Nexus 3172PQ-10GE
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N3K-C3172Q-10GE
-    power-ports:
-      - allocated_draw: 143
-        maximum_draw: 293
-        name: PSU0
-        type: iec-60320-c14
-      - allocated_draw: 143
-        maximum_draw: 293
-        name: PSU1
-        type: iec-60320-c14
     slug: cisco-n3k-c3172q-10ge
     u_height: 1
   - console-ports:
@@ -28600,10 +29503,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-48T-L
     slug: cisco-ws-c3850-48t-l
     u_height: 1
@@ -28646,6 +29549,9 @@ models:
     slug: cisco-isr-1111-8pwq
     u_height: 1
   - interfaces:
+      - name: WAN
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11ac
     is_full_depth: false
@@ -28921,6 +29827,7 @@ models:
     console-ports:
       - name: console
         type: rj-45
+    front_image: true
     interfaces:
       - name: TenGigabitEthernet1/0/1
         type: 10gbase-t
@@ -28984,9 +29891,13 @@ models:
       - allocated_draw: 72
         name: PS A
         type: iec-60320-c14
+    rear_image: true
     slug: cisco-sg350xg-24t
     u_height: 1
   - interfaces:
+      - name: WAN
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11ac
     is_full_depth: false
@@ -29279,13 +30190,35 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-48U
     slug: cisco-ws-c3850-48u
     u_height: 1
+  - airflow: passive
+    comments: '[Cisco VG Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/product_data_sheet09186a00801d87f6.html)'
+    console-ports:
+      - name: con 0
+        type: rj-45
+    interfaces:
+      - name: FastEthernet0/0
+        type: 100base-tx
+      - name: FastEthernet0/1
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: Cisco
+    model: VG204XM
+    part_number: VG204XM
+    power-ports:
+      - maximum_draw: 30
+        name: PSU-1
+        type: iec-60320-c14
+    slug: cisco-vg204xm
+    u_height: 1
+    weight: 2.98
+    weight_unit: lb
   - console-ports:
       - name: con0
         type: rj-45
@@ -29761,10 +30694,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: ME-3750-24TE-M
-    part_number: ME-3750-24TE-M
-    power-ports:
+    module-bays:
       - name: PSU0
-        type: iec-60320-c14
+        position: '1'
+      - name: PSU1
+        position: '2'
+    part_number: ME-3750-24TE-M
     slug: cisco-me-3750-24te-m
     u_height: 1
   - comments: Meraki MX100
@@ -30245,10 +31180,10 @@ models:
     manufacturer: Cisco
     model: Catalyst 3850-48XS-E
     module-bays:
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
       - name: FAN1
         position: '1'
       - name: FAN2
@@ -30629,6 +31564,36 @@ models:
         type: iec-60320-c14
     slug: cisco-sg350-10mp-k9
     u_height: 1
+  - airflow: passive
+    comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/CW9166_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/CW9166_Datasheet)\r\n- IEEE Standards: 802.11ab, 802.11af/at/bt, 802.11a/b/g/n/ac/ax, 802.11d/h/i/k/r/u/v/w"
+    interfaces:
+      - name: main
+        poe_mode: pd
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: wlan0
+        type: ieee802.11ax
+      - name: wlan1
+        type: ieee802.11ax
+      - name: wlan2
+        type: ieee802.11ax
+      - description: WIDS/WIPS
+        name: wlan3
+        type: other-wireless
+      - description: Bluetooth Scanning and Beaconing
+        name: wlan4
+        type: ieee802.15.1
+      - description: USB interface
+        name: usb0
+        type: other
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki CW9166
+    part_number: CW9166
+    slug: cisco-meraki-cw9166
+    u_height: 0.0
+    weight: 1.6
+    weight_unit: kg
   - console-ports:
       - name: con 0
         type: rj-45
@@ -30692,6 +31657,7 @@ models:
   - console-ports:
       - name: con 0
         type: rj-45
+    front_image: true
     interfaces:
       - mgmt_only: true
         name: FastEthernet0
@@ -30761,6 +31727,7 @@ models:
       - name: PS-B
         position: B
     part_number: WS-C2960XR-24TS-I
+    rear_image: true
     slug: cisco-ws-c2960xr-24ts-i
     u_height: 1
     weight: 13.01
@@ -30987,14 +31954,24 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Catalyst 4506-E
+    module-bays:
+      - name: Slot 1
+        position: '1'
+      - name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: Slot 5
+        position: '5'
+      - name: Slot 6
+        position: '6'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: WS-C4506-E
-    power-ports:
-      - maximum_draw: 1500
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 1500
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-ws-c4506-e
     subdevice_role: parent
     u_height: 10
@@ -31082,14 +32059,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: N2K-C2232TM-E-10GE
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N2K-C2232TM-E-10GE
-    power-ports:
-      - maximum_draw: 400
-        name: Power Supply 1
-        type: iec-60320-c14
-      - maximum_draw: 400
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n2k-c2232tm-e-10ge
     u_height: 1
   - console-ports:
@@ -31661,16 +32636,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 9364C-GX
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C9364C-GX
-    power-ports:
-      - allocated_draw: 811
-        maximum_draw: 1622
-        name: Power Supply 1
-        type: iec-60320-c14
-      - allocated_draw: 811
-        maximum_draw: 1622
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c9364c-gx
     u_height: 2
   - console-ports:
@@ -31806,12 +32777,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: NCS 55A1-24H
-    part_number: NCS-55A1-24H
-    power-ports:
+    module-bays:
       - name: PSU0
-        type: iec-60320-c14
+        position: '0'
       - name: PSU1
-        type: iec-60320-c14
+        position: '1'
+    part_number: NCS-55A1-24H
     slug: cisco-ncs-55a1-24h
     u_height: 1
   - comments: '[MS250 Overview and Specifications](https://documentation.meraki.com/MS/MS_Overview_and_Specifications/MS250_Overview_and_Specifications)
@@ -32069,6 +33040,25 @@ models:
         type: iec-60320-c14
     slug: cisco-apic-l3
     u_height: 1
+  - airflow: passive
+    comments: "- Datasheet: [https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR18.pdf](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR18.pdf)\r \n- IEEE Standards: 802.11a, 802.11b, 802.11g, 802.11n"
+    interfaces:
+      - name: main
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11n
+      - name: wlan1
+        type: ieee802.11a
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MR18
+    part_number: MR18
+    slug: cisco-meraki-mr18
+    u_height: 0.0
+    weight: 25.7
+    weight_unit: oz
   - console-ports:
       - name: Console
         type: rj-45
@@ -32151,14 +33141,142 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: NCS 55A1-36H-S
-    part_number: NCS-55A1-36H-S
-    power-ports:
+    module-bays:
       - name: PSU0
-        type: iec-60320-c14
+        position: '0'
       - name: PSU1
-        type: iec-60320-c14
+        position: '1'
+    part_number: NCS-55A1-36H-S
     slug: cisco-ncs-55a1-36h-s
     u_height: 1
+  - airflow: front-to-rear
+    comments: '[Cisco Catalyst 9200 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
+    console-ports:
+      - name: Console
+        type: rj-45
+      - name: usb
+        type: usb-mini-b
+    interfaces:
+      - name: GigabitEthernet1/0/1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: GigabitEthernet1/0/16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: TenGigabitEthernet1/0/17
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 10gbase-t
+      - name: TenGigabitEthernet1/0/18
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 10gbase-t
+      - name: TenGigabitEthernet1/0/19
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 10gbase-t
+      - name: TenGigabitEthernet1/0/20
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 10gbase-t
+      - name: TenGigabitEthernet1/0/21
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 10gbase-t
+      - name: TenGigabitEthernet1/0/22
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 10gbase-t
+      - name: TenGigabitEthernet1/0/23
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 10gbase-t
+      - name: TenGigabitEthernet1/0/24
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 10gbase-t
+      - name: TwentyFiveGigE1/1/1
+        type: 25gbase-x-sfp28
+      - name: TwentyFiveGigE1/1/2
+        type: 25gbase-x-sfp28
+      - name: StackPort1/1
+        type: cisco-stackwise
+      - name: StackPort1/2
+        type: cisco-stackwise
+      - mgmt_only: true
+        name: GigabitEthernet0/0
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Cisco
+    model: C9200L-24PXG-2Y
+    module-bays:
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+    part_number: C9200L-24PXG-2Y
+    slug: cisco-c9200l-24pxg-2y
+    u_height: 1
+    weight: 5.44
+    weight_unit: kg
   - console-ports:
       - name: con0
         type: rj-45
@@ -32373,10 +33491,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 3560X-48P
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
     part_number: WS-C3560X-48P
-    power-ports:
-      - name: PSU0
-        type: iec-60320-c14
     slug: cisco-ws-c3560x-48p
     u_height: 1
   - airflow: front-to-rear
@@ -32525,14 +33645,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: UCS-C240-M4S
+    module-bays:
+      - name: PS-0
+        position: '0'
+      - name: PS-1
+        position: '1'
     part_number: UCS-C240M4S
-    power-ports:
-      - maximum_draw: 1400
-        name: PS-0
-        type: iec-60320-c14
-      - maximum_draw: 1400
-        name: PS-1
-        type: iec-60320-c14
     slug: cisco-ucs-c240-m4s
     u_height: 2
   - comments: '[Cisco Catalyst 9200 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
@@ -33705,10 +34823,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-48F-S
     slug: cisco-ws-c3850-48f-s
     u_height: 1
@@ -33843,6 +34961,7 @@ models:
       - name: WiFi
         type: ieee802.11ax
       - name: GigabitEthernet0
+        poe_mode: pd
         type: 5gbase-t
     is_full_depth: false
     manufacturer: Cisco
@@ -34061,16 +35180,14 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Nexus 5548P
+    module-bays:
+      - name: Slot 2
+        position: '2'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N5K-C5548P
-    power-ports:
-      - allocated_draw: 390
-        maximum_draw: 730
-        name: PSU0
-        type: iec-60320-c14
-      - allocated_draw: 390
-        maximum_draw: 730
-        name: PSU1
-        type: iec-60320-c14
     slug: cisco-n5k-c5548p
     u_height: 1
   - console-ports:
@@ -34193,14 +35310,15 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Catalyst 9300L-24P-4G
+    module-bays:
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300L-24P-4G
-    power-ports:
-      - maximum_draw: 715
-        name: PS-A
-        type: iec-60320-c16
-      - maximum_draw: 715
-        name: PS-B
-        type: iec-60320-c16
     slug: cisco-c9300l-24p-4g
     u_height: 1
   - comments: 'Datasheet: [Link](https://www.cisco.com/c/dam/global/de_at/assets/unified_partners/smb/vertriebliche-positionierung/routing/downloads/isr_2800_datenblatt_e.pdf)'
@@ -34338,11 +35456,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 3560X-24T-S
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
     part_number: WS-C3560X-24T-S
-    power-ports:
-      - maximum_draw: 350
-        name: PSU0
-        type: iec-60320-c14
     slug: cisco-ws-c3560x-24t-s
     u_height: 1
   - console-ports:
@@ -34418,12 +35537,14 @@ models:
         type: 10gbase-x-sfpp
     manufacturer: Cisco
     model: Nexus 5548UP
+    module-bays:
+      - name: Slot 2
+        position: '2'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N5K-C5548UP
-    power-ports:
-      - name: PSU0
-        type: iec-60320-c14
-      - name: PSU1
-        type: iec-60320-c14
     slug: cisco-n5k-c5548up
     u_height: 1
   - console-ports:
@@ -34460,6 +35581,11 @@ models:
     manufacturer: Cisco
     model: IE-4000-4GC4GP4G-E
     part_number: IE-4000-4GC4GP4G-E
+    power-ports:
+      - name: DC-A
+        type: dc-terminal
+      - name: DC-B
+        type: dc-terminal
     slug: cisco-ie-4000-4gc4gp4g-e
     u_height: 2
   - console-ports:
@@ -34533,6 +35659,9 @@ models:
     slug: cisco-ws-c3750e-24td
     u_height: 1
   - interfaces:
+      - name: Port 1
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11n
     is_full_depth: false
@@ -35069,10 +36198,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-48P-S
     slug: cisco-ws-c3850-48p-s
     u_height: 1
@@ -35556,12 +36685,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 93108LC-EX
-    part_number: N9K-C93108LC-EX
-    power-ports:
+    module-bays:
       - name: PS1
-        type: iec-60320-c14
+        position: '1'
       - name: PS2
-        type: iec-60320-c14
+        position: '2'
+    part_number: N9K-C93108LC-EX
     slug: cisco-n9k-c93108lc-ex
     u_height: 1
   - console-ports:
@@ -35686,16 +36815,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Nexus 9372PX-E
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C9372PX-E
-    power-ports:
-      - allocated_draw: 210
-        maximum_draw: 537
-        name: PS1
-        type: iec-60320-c14
-      - allocated_draw: 210
-        maximum_draw: 537
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-n9k-c9372px-e
     u_height: 1
   - device-bays:
@@ -36233,14 +37358,31 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Nexus 9332PQ
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C9332PQ
-    power-ports:
-      - name: Power Supply 1
-        type: iec-60320-c14
-      - name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c9332pq
     u_height: 1
+  - is_full_depth: true
+    manufacturer: Cisco
+    model: N77-C7702
+    module-bays:
+      - description: Line Card
+        name: Slot 1
+        position: '1'
+      - description: Supervisor Module
+        name: Slot 2
+        position: '2'
+      - name: PSU0
+        position: '0'
+      - name: PSU1
+        position: '1'
+    part_number: N77-C7702
+    slug: cisco-n77-c7702
+    u_height: 3
   - console-ports:
       - name: Con
         type: rj-45
@@ -36279,6 +37421,48 @@ models:
     slug: cisco-ucsb-b200-m3
     subdevice_role: child
     u_height: 0
+  - airflow: front-to-rear
+    comments: '[Cisco Catalyst IE3200 Rugged Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-ie3200-rugged-series/cat-ie3200-rugged-series-ds.html)'
+    console-ports:
+      - name: con0
+        type: rj-45
+      - name: usb0
+        type: usb-mini-b
+    interfaces:
+      - name: GigabitEthernet1/1
+        type: 1000base-x-sfp
+      - name: GigabitEthernet1/2
+        type: 1000base-x-sfp
+      - name: GigabitEthernet1/3
+        type: 1000base-t
+      - name: GigabitEthernet1/4
+        type: 1000base-t
+      - name: GigabitEthernet1/5
+        type: 1000base-t
+      - name: GigabitEthernet1/6
+        type: 1000base-t
+      - name: GigabitEthernet1/7
+        type: 1000base-t
+      - name: GigabitEthernet1/8
+        type: 1000base-t
+      - name: GigabitEthernet1/9
+        type: 1000base-t
+      - name: GigabitEthernet1/10
+        type: 1000base-t
+    is_full_depth: false
+    is_powered: true
+    manufacturer: Cisco
+    model: IE-3200-8P2S
+    part_number: IE-3200-8P2S
+    power-ports:
+      - name: PSU0
+        type: dc-terminal
+      - name: PSU1
+        type: dc-terminal
+    slug: cisco-ie-3200-8p2s
+    u_height: 1
+    weight: 1.7
+    weight_unit: kg
   - comments: '[Cisco Firepower 4100 Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/security/firepower-4100-series/datasheet-c78-742474.html)'
     console-ports:
       - name: Console
@@ -36437,6 +37621,32 @@ models:
         type: iec-60320-c14
     slug: cisco-ws-c2960-48tc-l
     u_height: 1
+  - airflow: front-to-rear
+    comments: '[Cisco VG Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/product_data_sheet09186a00801d87f6.html)'
+    console-ports:
+      - name: con 0
+        type: rj-45
+      - name: aux
+        type: rj-45
+      - name: usb
+        type: usb-mini-b
+    interfaces:
+      - name: GigabitEthernet0/0
+        type: 1000base-t
+      - name: GigabitEthernet0/1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Cisco
+    model: VG320
+    part_number: VG320
+    power-ports:
+      - maximum_draw: 135
+        name: PSU-1
+        type: iec-60320-c14
+    slug: cisco-vg320
+    u_height: 1
+    weight: 15.8
+    weight_unit: lb
   - comments: '[Cisco Firepower 4100 Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/security/firepower-4100-series/datasheet-c78-742474.html)'
     console-ports:
       - name: Console
@@ -36643,21 +37853,68 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 93108TC-FX3P
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C93108TC-FX3P
-    power-ports:
-      - allocated_draw: 360
-        maximum_draw: 530
-        name: Power Supply 1
-        type: iec-60320-c14
-      - allocated_draw: 360
-        maximum_draw: 530
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c93108tc-fx3p
     u_height: 1
+  - airflow: front-to-rear
+    comments: '[Cisco Catalyst 8500 Series Edge Platforms Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8500-series-edge-platforms/datasheet-c78-744089.html)'
+    console-ports:
+      - name: con 0
+        type: rj-45
+      - name: usb
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: GigabitEthernet0
+        type: 1000base-t
+      - name: GigabitEthernet0/0/0
+        type: 1000base-t
+      - name: GigabitEthernet0/0/1
+        type: 1000base-t
+      - name: GigabitEthernet0/0/2
+        type: 1000base-t
+      - name: GigabitEthernet0/0/3
+        type: 1000base-t
+      - name: GigabitEthernet0/0/4
+        type: 1000base-t
+      - name: GigabitEthernet0/0/5
+        type: 1000base-t
+      - name: GigabitEthernet0/0/6
+        type: 1000base-t
+      - name: GigabitEthernet0/0/7
+        type: 1000base-t
+      - name: TenGigabitEthernet0/1/0
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet0/1/1
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet0/1/2
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet0/1/3
+        type: 10gbase-x-sfpp
+    is_full_depth: true
+    manufacturer: Cisco
+    model: Catalyst 8500L-8S4X
+    module-bays:
+      - label: PS1
+        name: Power Supply Module 1
+        position: '1'
+      - label: PS2
+        name: Power Supply Module 2
+        position: '2'
+    part_number: C8500L-8S4X
+    slug: cisco-c8500l-8s4x
+    u_height: 1
+    weight: 7.71
+    weight_unit: kg
   - comments: "- Datasheet: [https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR74.pdf](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR74.pdf)\r\n- 2.4 GHz 802.11b/g/n client access radio, 5 GHz 802.11a/n/ac client access radio"
     interfaces:
       - name: main
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11n
@@ -36803,14 +38060,30 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 6509-E
+    module-bays:
+      - name: Slot 1
+        position: '1'
+      - name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: Slot 5
+        position: '5'
+      - name: Slot 6
+        position: '6'
+      - name: Slot 7
+        position: '7'
+      - name: Slot 8
+        position: '8'
+      - name: Slot 9
+        position: '9'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: WS-C6509-E
-    power-ports:
-      - maximum_draw: 8700
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 8700
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-ws-c6509-e
     u_height: 14
   - console-ports:
@@ -37099,16 +38372,47 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Catalyst 9300L-48P-4X
+    module-bays:
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300L-48P-4X
-    power-ports:
-      - maximum_draw: 715
-        name: PS-A
-        type: iec-60320-c16
-      - maximum_draw: 715
-        name: PS-B
-        type: iec-60320-c16
     slug: cisco-c9300l-48p-4x
     u_height: 1
+  - airflow: passive
+    comments: '[Meraki MX67 Datasheet](https://documentation.meraki.com/MX/MX_Overviews_and_Specifications/MX67_and_MX68_Datasheet)'
+    interfaces:
+      - name: USB
+        type: lte
+      - name: Internet 1
+        type: 1000base-t
+      - name: Port 2
+        type: 1000base-t
+      - name: Port 3
+        type: 1000base-t
+      - name: Port 4
+        type: 1000base-t
+      - name: Port 5
+        type: 1000base-t
+      - name: Cellular
+        type: lte
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MX67C
+    part_number: MX67C
+    power-ports:
+      - allocated_draw: 6
+        maximum_draw: 17
+        name: Slot 1
+        type: iec-60320-c14
+    slug: cisco-meraki-mx67c
+    u_height: 1
+    weight: 1.87
+    weight_unit: lb
   - console-ports:
       - name: con 0
         type: rj-45
@@ -37235,14 +38539,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: N2K-C2232PP-10GE
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N2K-C2232PP-10GE
-    power-ports:
-      - maximum_draw: 400
-        name: Power Supply 1
-        type: iec-60320-c14
-      - maximum_draw: 400
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n2k-c2232pp-10ge
     u_height: 1
   - comments: '[CBS350 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.html)'
@@ -37328,6 +38630,24 @@ models:
     u_height: 1
     weight: 2.5
     weight_unit: kg
+  - comments: "- Datasheet: [https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR42.pdf](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR42.pdf)\r \n- IEEE Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u"
+    interfaces:
+      - name: main
+        poe_mode: pd
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11n
+      - name: wlan1
+        type: ieee802.11ac
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MR42
+    part_number: MR42
+    slug: cisco-meraki-mr42
+    u_height: 0.0
+    weight: 25
+    weight_unit: oz
   - console-ports:
       - name: con0
         type: rj-45
@@ -37459,28 +38779,84 @@ models:
         type: 1000base-t
     manufacturer: Cisco
     model: Nexus 5696Q
+    module-bays:
+      - name: Slot 1
+        position: '1'
+      - name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: Slot 5
+        position: '5'
+      - name: Slot 6
+        position: '6'
+      - name: Slot 7
+        position: '7'
+      - name: Slot 8
+        position: '8'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+      - name: PS3
+        position: '3'
+      - name: PS4
+        position: '4'
+      - name: PS5
+        position: '5'
+      - name: PS6
+        position: '6'
     part_number: N5K-C5696Q
-    power-ports:
-      - maximum_draw: 1100
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 1100
-        name: PS2
-        type: iec-60320-c14
-      - maximum_draw: 1100
-        name: PS3
-        type: iec-60320-c14
-      - maximum_draw: 1100
-        name: PS4
-        type: iec-60320-c14
-      - maximum_draw: 1100
-        name: PS5
-        type: iec-60320-c14
-      - maximum_draw: 1100
-        name: PS6
-        type: iec-60320-c14
     slug: cisco-n5k-c5696q
     u_height: 4
+  - airflow: passive
+    comments: '[Meraki MX68 Datasheet](https://documentation.meraki.com/MX/MX_Overviews_and_Specifications/MX67_and_MX68_Datasheet)'
+    interfaces:
+      - name: USB
+        type: lte
+      - name: Internet 1
+        type: 1000base-t
+      - name: Internet 2
+        type: 1000base-t
+      - name: Port 3
+        type: 1000base-t
+      - name: Port 4
+        type: 1000base-t
+      - name: Port 5
+        type: 1000base-t
+      - name: Port 6
+        type: 1000base-t
+      - name: Port 7
+        type: 1000base-t
+      - name: Port 8
+        type: 1000base-t
+      - name: Port 9
+        type: 1000base-t
+      - name: Port 10
+        type: 1000base-t
+      - name: Port 11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MX68
+    part_number: MX68
+    power-ports:
+      - allocated_draw: 11
+        maximum_draw: 79
+        name: Slot 1
+        type: iec-60320-c14
+    slug: cisco-meraki-mx68
+    u_height: 1
+    weight: 2.46
+    weight_unit: lb
   - console-ports:
       - name: Console
         type: rj-45
@@ -37599,12 +38975,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 93108TC-FX
-    part_number: N9K-C93108TC-FX
-    power-ports:
+    module-bays:
       - name: PS1
-        type: iec-60320-c14
+        position: '1'
       - name: PS2
-        type: iec-60320-c14
+        position: '2'
+    part_number: N9K-C93108TC-FX
     slug: cisco-n9k-c93108tc-fx
     u_height: 1
   - console-ports:
@@ -37617,14 +38993,32 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Catalyst C4510R+E
+    module-bays:
+      - name: Slot 1
+        position: '1'
+      - name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: Slot 5
+        position: '5'
+      - name: Slot 6
+        position: '6'
+      - name: Slot 7
+        position: '7'
+      - name: Slot 8
+        position: '8'
+      - name: Slot 9
+        position: '9'
+      - name: Slot 10
+        position: '10'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: WS-C4510R+E
-    power-ports:
-      - maximum_draw: 1400
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 1400
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-catalyst-c4510r-plus-e
     subdevice_role: parent
     u_height: 14
@@ -37957,14 +39351,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: N2K-C2348UPQ-10GE
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N2K-C2348UPQ
-    power-ports:
-      - maximum_draw: 400
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 400
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-n2k-c2348upq-10ge
     u_height: 1
   - console-ports:
@@ -37981,14 +39373,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: UCS-C220-M5SX
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
     part_number: UCSC-C220-M5SX
-    power-ports:
-      - maximum_draw: 770
-        name: PSU1
-        type: iec-60320-c14
-      - maximum_draw: 770
-        name: PSU2
-        type: iec-60320-c14
     slug: cisco-ucs-c220-m5sx
     u_height: 1
   - console-ports:
@@ -38523,10 +39913,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-12X48U
     slug: cisco-catalyst-3850-48pt-12-mgig-plus-36-gig-upoe
     u_height: 1
@@ -38714,7 +40104,7 @@ models:
   - comments: '[Cisco uBR10012 Data Sheet](https://www.cisco.com/c/en/us/products/collateral/video/ubr10000-series-universal-broadband-routers/product_data_sheet09186a00801ed384.html)'
     is_full_depth: true
     manufacturer: Cisco
-    model: uBR10012
+    model: uBR 10012
     module-bays:
       - name: uplink-slot1
         position: '1'
@@ -38752,8 +40142,52 @@ models:
         position: timing1
       - name: timing-slot2
         position: timing2
-    slug: cisco-ubr10012
+    slug: cisco-ubr-10012
     u_height: 18
+  - airflow: passive
+    console-ports:
+      - name: con 0
+        type: rj-45
+      - name: usb
+        type: usb-mini-b
+    interfaces:
+      - name: FastEthernet1/1
+        type: 100base-tx
+      - name: FastEthernet1/2
+        type: 100base-tx
+      - name: FastEthernet1/3
+        type: 100base-tx
+      - name: FastEthernet1/4
+        type: 100base-tx
+      - name: FastEthernet1/5
+        type: 100base-tx
+      - name: FastEthernet1/6
+        type: 100base-tx
+      - name: FastEthernet1/7
+        type: 100base-tx
+      - name: FastEthernet1/8
+        type: 100base-tx
+      - name: FastEthernet1/9
+        type: 100base-tx
+      - name: FastEthernet1/10
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: Cisco
+    model: IE-2000-8TC-B
+    part_number: IE-2000-8TC-B
+    power-ports:
+      - allocated_draw: 14
+        maximum_draw: 18
+        name: DC-A
+        type: dc-terminal
+      - allocated_draw: 14
+        maximum_draw: 18
+        name: DC-B
+        type: dc-terminal
+    slug: cisco-ie-2000-8tc-b
+    u_height: 3
+    weight: 2.75
+    weight_unit: lb
   - comments: '[Cisco Catalyst 1000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1000-series-switches/nb-06-cat1k-ser-switch-ds-cte-en.html)'
     console-ports:
       - name: con0
@@ -39141,14 +40575,44 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: N7K-C7010
+    module-bays:
+      - description: Line Card
+        name: Slot 1
+        position: '1'
+      - description: Line Card
+        name: Slot 2
+        position: '2'
+      - description: Line Card
+        name: Slot 3
+        position: '3'
+      - description: Line Card
+        name: Slot 4
+        position: '4'
+      - description: Supervisor Module
+        name: Slot 5
+        position: '5'
+      - description: Supervisor Module
+        name: Slot 6
+        position: '6'
+      - description: Line Card
+        name: Slot 7
+        position: '7'
+      - description: Line Card
+        name: Slot 8
+        position: '8'
+      - description: Line Card
+        name: Slot 9
+        position: '9'
+      - description: Line Card
+        name: Slot 10
+        position: '10'
+      - name: PSU0
+        position: '0'
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
     part_number: N7K-C7010
-    power-ports:
-      - maximum_draw: 12000
-        name: PSU0
-        type: iec-60320-c20
-      - maximum_draw: 12000
-        name: PSU1
-        type: iec-60320-c20
     slug: cisco-n7k-c7010
     subdevice_role: parent
     u_height: 21
@@ -39179,6 +40643,80 @@ models:
     u_height: 1
     weight: 2.67
     weight_unit: lb
+  - airflow: front-to-rear
+    comments: '[Cisco Catalyst 9500 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9500-series-switches/nb-06-cat9500-ser-data-sheet-cte-en.html)'
+    console-ports:
+      - name: con 0
+        type: rj-45
+      - name: usb
+        type: usb-mini-b
+    interfaces:
+      - mgmt_only: true
+        name: GigabitEthernet0/0
+        type: 1000base-t
+      - name: FortyGigabitEthernet1/0/1
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/2
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/3
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/4
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/5
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/6
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/7
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/8
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/9
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/10
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/11
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/12
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/13
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/14
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/15
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/16
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/17
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/18
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/19
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/20
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/21
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/22
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/23
+        type: 40gbase-x-qsfpp
+      - name: FortyGigabitEthernet1/0/24
+        type: 40gbase-x-qsfpp
+    is_full_depth: true
+    manufacturer: Cisco
+    model: Catalyst 9500-24Q
+    module-bays:
+      - label: PS1
+        name: Power Supply Module 1
+        position: '1'
+      - label: PS2
+        name: Power Supply Module 2
+        position: '2'
+    part_number: C9500-24q
+    slug: cisco-c9500-24q
+    u_height: 1
+    weight: 11.68
+    weight_unit: kg
   - comments: IP Services feature set
     console-ports:
       - name: con 0
@@ -39398,6 +40936,31 @@ models:
     part_number: WS-C3650-48FQ-E
     slug: cisco-ws-c3650-48fq-e
     u_height: 1
+  - airflow: passive
+    comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR78_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR78_Datasheet)\r \n- IEEE Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u"
+    interfaces:
+      - name: main
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11n
+      - name: wlan1
+        type: ieee802.11ac
+      - description: WIDS/WIPS
+        name: wlan2
+        type: other-wireless
+      - description: Bluetooth Scanning and Beaconing
+        name: wlan3
+        type: ieee802.15.1
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MR78
+    part_number: MR78
+    slug: cisco-meraki-mr78
+    u_height: 0.0
+    weight: 15.87
+    weight_unit: oz
   - console-ports:
       - name: con0
         type: rj-45
@@ -39634,16 +41197,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 9364C
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C9364C
-    power-ports:
-      - allocated_draw: 429
-        maximum_draw: 1245
-        name: Power Supply 1
-        type: iec-60320-c14
-      - allocated_draw: 429
-        maximum_draw: 1245
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c9364c
     u_height: 2
   - comments: '[Cisco ASR 9000 Series Aggregation Services Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/data_sheet_c78-501767.html)'
@@ -39686,6 +41245,70 @@ models:
     slug: cisco-asr-9906
     subdevice_role: parent
     u_height: 14
+  - airflow: front-to-rear
+    comments: '[Cisco Catalyst 6880-X Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6880-x-switch/data_sheet_c78-728228.html)'
+    console-ports:
+      - name: con0
+        type: rj-45
+      - name: usb0
+        type: usb-b
+    interfaces:
+      - mgmt_only: true
+        name: mgmt0
+        type: 1000base-t
+      - name: TenGigabitEthernet1/5/1
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/2
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/3
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/4
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/5
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/6
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/7
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/8
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/9
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/10
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/11
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/12
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/13
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/14
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/15
+        type: 10gbase-x-sfpp
+      - name: TenGigabitEthernet1/5/16
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Catalyst 6880-X-LE
+    module-bays:
+      - name: Slot 1
+        position: '1'
+      - name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: C6880-X-LE
+    slug: cisco-c6880-x-le
+    u_height: 5
+    weight: 29.03
+    weight_unit: kg
   - console-ports:
       - name: Con
         type: rj-45
@@ -40178,6 +41801,37 @@ models:
         type: iec-60320-c14
     slug: cisco-sg550x-48p
     u_height: 1
+  - airflow: front-to-rear
+    console-ports:
+      - name: Console
+        type: rj-45
+      - name: RPC
+        type: rj-45
+    interfaces:
+      - mgmt_only: true
+        name: Management
+        type: 1000base-t
+      - name: Data 1
+        type: 1000base-t
+      - name: Data 2
+        type: 1000base-t
+      - name: Data 3
+        type: 1000base-t
+      - name: Data 4
+        type: 1000base-t
+      - name: Data 5
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Cisco
+    model: ESA C390
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
+    part_number: ESA-C390-K9
+    slug: cisco-esa-c390
+    u_height: 1
   - console-ports:
       - name: con0
         type: rj-45
@@ -40636,6 +42290,10 @@ models:
         type: 1000base-t
       - name: GigabitEthernet1/0/24
         type: 1000base-t
+      - name: StackPort1/1
+        type: cisco-stackwise
+      - name: StackPort1/2
+        type: cisco-stackwise
       - mgmt_only: true
         name: GigabitEthernet0/0
         type: 1000base-t
@@ -40645,14 +42303,14 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300-24T
-    power-ports:
-      - maximum_draw: 350
-        name: PS-A
-        type: iec-60320-c14
-      - maximum_draw: 350
-        name: PS-B
-        type: iec-60320-c14
     slug: cisco-c9300-24t
     u_height: 1
   - comments: '[Cisco Catalyst 9200 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
@@ -41182,12 +42840,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 9336PQ
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C9336PQ
-    power-ports:
-      - name: Power Supply 1
-        type: iec-60320-c14
-      - name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c9336pq
     u_height: 2
   - comments: IP Lite feature set
@@ -41401,12 +43059,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 2960XR-48FPD-I
-    part_number: WS-C2960XR-48FPD-I
-    power-ports:
+    module-bays:
       - name: PSU0
-        type: iec-60320-c14
+        position: '0'
       - name: PSU1
-        type: iec-60320-c14
+        position: '1'
+    part_number: WS-C2960XR-48FPD-I
     slug: cisco-ws-c2960xr-48fpd-i
     u_height: 1
   - console-ports:
@@ -41970,14 +43628,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: N2K-C2248PQ
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N2K-C2248PQ
-    power-ports:
-      - maximum_draw: 400
-        name: Power Supply 1
-        type: iec-60320-c14
-      - maximum_draw: 400
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n2k-c2248pq
     u_height: 1
   - console-ports:
@@ -42098,16 +43754,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 93180YC-FX3
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C93180YC-FX3
-    power-ports:
-      - allocated_draw: 375
-        maximum_draw: 600
-        name: Power Supply 1
-        type: iec-60320-c14
-      - allocated_draw: 375
-        maximum_draw: 600
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c93180yc-fx3
     u_height: 1
   - console-ports:
@@ -42168,14 +43820,15 @@ models:
     manufacturer: Cisco
     model: Nexus 5648Q Chassis
     module-bays:
-      - name: slot 3
-      - name: slot 4
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N5K-C5648Q
-    power-ports:
-      - name: PSU0
-        type: iec-60320-c14
-      - name: PSU1
-        type: iec-60320-c14
     slug: cisco-n5k-c5648q
     u_height: 2
   - comments: '[Cisco ASR 920 Series Aggregation Services Routers: Low-Port-Density Models Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-920-series-aggregation-services-router/datasheet-c78-732103.html)'
@@ -42415,19 +44068,18 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Nexus C3064PQ-10GE
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N3K-C3064Q-10GE
-    power-ports:
-      - allocated_draw: 143
-        maximum_draw: 293
-        name: PSU0
-        type: iec-60320-c14
-      - allocated_draw: 143
-        maximum_draw: 293
-        name: PSU1
-        type: iec-60320-c14
     slug: cisco-n3k-c3064q-10ge
     u_height: 1
-  - console-ports:
+    weight: 9.3
+    weight_unit: kg
+  - airflow: front-to-rear
+    console-ports:
       - name: Con
         type: rj-45
       - name: usb0
@@ -42439,28 +44091,31 @@ models:
       - mgmt_only: true
         name: Redundancy Port
         type: 1000base-t
-      - name: TenGigabitEthernet1
+      - name: TwoGigabitEthernet0/0/0
+        type: 2.5gbase-t
+      - name: TwoGigabitEthernet0/0/1
+        type: 2.5gbase-t
+      - name: TwoGigabitEthernet0/0/2
+        type: 2.5gbase-t
+      - name: TwoGigabitEthernet0/0/3
+        type: 2.5gbase-t
+      - name: TenGigabitEthernet0/1/0
         type: 10gbase-t
-      - name: TenGigabitEthernet2
+      - name: TenGigabitEthernet0/1/1
         type: 10gbase-t
-      - name: GigabitEthernet1
-        type: 2.5gbase-t
-      - name: GigabitEthernet2
-        type: 2.5gbase-t
-      - name: GigabitEthernet3
-        type: 2.5gbase-t
-      - name: GigabitEthernet4
-        type: 2.5gbase-t
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 9800-L-C
     part_number: C9800-L-C
     power-ports:
-      - maximum_draw: 110
+      - maximum_draw: 87
         name: PS1
-        type: iec-60320-c14
+        type: dc-terminal
     slug: cisco-c9800-l-c
-    u_height: 1
+    subdevice_role: child
+    u_height: 0
+    weight: 3.95
+    weight_unit: lb
   - console-ports:
       - name: Console
         type: rj-45
@@ -42831,12 +44486,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 2960XR-48TS-I
-    part_number: WS-C2960XR-48TS-I
-    power-ports:
+    module-bays:
       - name: PSU0
-        type: iec-60320-c14
+        position: '0'
       - name: PSU1
-        type: iec-60320-c14
+        position: '1'
+    part_number: WS-C2960XR-48TS-I
     slug: cisco-ws-c2960xr-48ts-i
     u_height: 1
   - console-ports:
@@ -43127,10 +44782,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-48T-S
     slug: cisco-ws-c3850-48t-s
     u_height: 1
@@ -43362,14 +45017,38 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 6513
+    module-bays:
+      - name: Slot 1
+        position: '1'
+      - name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: Slot 5
+        position: '5'
+      - name: Slot 6
+        position: '6'
+      - name: Slot 7
+        position: '7'
+      - name: Slot 8
+        position: '8'
+      - name: Slot 9
+        position: '9'
+      - name: Slot 10
+        position: '10'
+      - name: Slot 11
+        position: '11'
+      - name: Slot 12
+        position: '12'
+      - name: Slot 13
+        position: '13'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: WS-C6513
-    power-ports:
-      - maximum_draw: 8700
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 8700
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-ws-c6513
     u_height: 19
   - comments: '[MS210 Overview and Specifications](https://documentation.meraki.com/MS/MS_Overview_and_Specifications/MS210_Overview_and_Specifications)'
@@ -43611,10 +45290,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-24P-E
     slug: cisco-ws-c3850-24p-e
     u_height: 1
@@ -43784,13 +45463,77 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-24XS-E
     slug: cisco-ws-c3850-24xs-e
     u_height: 1
+  - airflow: front-to-rear
+    comments: '[UCS-X9508 Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/datasheet-c78-2472574.html)'
+    device-bays:
+      - name: slot-1
+      - name: slot-2
+      - name: slot-3
+      - name: slot-4
+      - name: slot-5
+      - name: slot-6
+      - name: slot-7
+      - name: slot-8
+    is_full_depth: true
+    is_powered: false
+    manufacturer: Cisco
+    model: UCS-X9508
+    module-bays:
+      - label: IFM1
+        name: Intelligent Fabric Module 1
+        position: '1'
+      - label: IFM2
+        name: Intelligent Fabric Module 2
+        position: '2'
+      - label: PSU1
+        name: Power slot 1
+        position: '1'
+      - label: PSU2
+        name: Power slot 2
+        position: '2'
+      - label: PSU3
+        name: Power slot 3
+        position: '3'
+      - label: PSU4
+        name: Power slot 4
+        position: '4'
+      - label: PSU5
+        name: Power slot 5
+        position: '5'
+      - label: PSU6
+        name: Power slot 6
+        position: '6'
+      - label: FAN1
+        name: FAN slot 1
+        position: '1'
+      - label: FAN2
+        name: FAN slot 2
+        position: '2'
+      - label: FAN3
+        name: FAN slot 3
+        position: '3'
+      - label: FAN4
+        name: FAN slot 4
+        position: '4'
+      - label: XFM1
+        name: X-Fabric module 1
+        position: '1'
+      - label: XFM2
+        name: X-Fabric module 2
+        position: '2'
+    part_number: UCS-X9508
+    slug: cisco-ucs-x9508
+    subdevice_role: parent
+    u_height: 7
+    weight: 43.09
+    weight_unit: kg
   - console-ports:
       - name: con 0
         type: rj-45
@@ -43856,6 +45599,9 @@ models:
     slug: cisco-isr-1111-8pltelawh
     u_height: 1
   - interfaces:
+      - name: WAN
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11ac
     is_full_depth: false
@@ -44153,14 +45899,15 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Catalyst 9300L-48UXG-4X
+    module-bays:
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300L-48UXG-4X
-    power-ports:
-      - maximum_draw: 1100
-        name: PS-A
-        type: iec-60320-c16
-      - maximum_draw: 1100
-        name: PS-B
-        type: iec-60320-c16
     slug: cisco-c9300l-48uxg-4x
     u_height: 1
   - comments: IP Services feature set
@@ -44856,12 +46603,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 2960XR-48LPD-I
-    part_number: WS-C2960XR-48LPD-I
-    power-ports:
+    module-bays:
       - name: PSU0
-        type: iec-60320-c14
+        position: '0'
       - name: PSU1
-        type: iec-60320-c14
+        position: '1'
+    part_number: WS-C2960XR-48LPD-I
     slug: cisco-ws-c2960xr-48lpd-i
     u_height: 1
   - console-ports:
@@ -44934,8 +46681,10 @@ models:
         type: iec-60320-c14
     slug: cisco-ws-c3750g-24ts-s1u
     u_height: 1
-  - console-ports:
-      - name: Con
+  - airflow: passive
+    comments: '[Cisco VG Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/product_data_sheet09186a00801d87f6.html)'
+    console-ports:
+      - name: con 0
         type: rj-45
     interfaces:
       - name: FastEthernet0/0
@@ -44952,6 +46701,8 @@ models:
         type: iec-60320-c14
     slug: cisco-vg202xm
     u_height: 1
+    weight: 2.98
+    weight_unit: lb
   - console-ports:
       - name: Con
         type: rj-45
@@ -44968,14 +46719,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: UCS-C240-M5SX
+    module-bays:
+      - name: PSU-0
+        position: '0'
+      - name: PSU-1
+        position: '1'
     part_number: UCS-C240M5SX
-    power-ports:
-      - maximum_draw: 770
-        name: PS-0
-        type: iec-60320-c14
-      - maximum_draw: 770
-        name: PS-1
-        type: iec-60320-c14
     slug: cisco-ucs-c240-m5sx
     u_height: 2
   - console-ports:
@@ -45309,14 +47058,39 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 9372PX
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C9372PX
-    power-ports:
-      - name: Power Supply 1
-        type: iec-60320-c14
-      - name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c9372px
     u_height: 1
+  - airflow: passive
+    comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR28_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR28_Datasheet)\r \n- IEEE Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u"
+    interfaces:
+      - name: main
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11n
+      - name: wlan1
+        type: ieee802.11ac
+      - description: WIDS/WIPS
+        name: wlan2
+        type: other-wireless
+      - description: Bluetooth Scanning and Beaconing
+        name: wlan3
+        type: ieee802.15.1
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MR28
+    part_number: MR28
+    slug: cisco-meraki-mr28
+    u_height: 0.0
+    weight: 9.6
+    weight_unit: oz
   - console-ports:
       - name: con0
         type: rj-45
@@ -45522,10 +47296,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-48F-L
     slug: cisco-ws-c3850-48f-l
     u_height: 1
@@ -45928,6 +47702,132 @@ models:
         type: iec-60320-c14
     slug: cisco-c1000-24p-4g-l
     u_height: 1
+  - console-ports:
+      - name: Console
+        type: rj-45
+      - name: usb0
+        type: usb-a
+    interfaces:
+      - mgmt_only: true
+        name: mgmt0
+        type: 1000base-t
+      - name: Ethernet1/1
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/2
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/3
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/4
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/5
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/6
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/7
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/8
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/9
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/10
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/11
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/12
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/13
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/14
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/15
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/16
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/17
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/18
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/19
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/20
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/21
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/22
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/23
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/24
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/25
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/26
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/27
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/28
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/29
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/30
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/31
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/32
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/33
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/34
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/35
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/36
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/37
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/38
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/39
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/40
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/41
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/42
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/43
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/44
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/45
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/46
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/47
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/48
+        type: 10gbase-x-sfpp
+      - name: Ethernet1/49
+        type: 40gbase-x-qsfpp
+      - name: Ethernet1/50
+        type: 40gbase-x-qsfpp
+      - name: Ethernet1/51
+        type: 40gbase-x-qsfpp
+      - name: Ethernet1/52
+        type: 40gbase-x-qsfpp
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Nexus C3064PQ-10GX
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: N3K-C3064PQ-10GX
+    slug: cisco-n3k-c3064pq-10gx
+    u_height: 1
+    weight: 9.3
+    weight_unit: kg
   - comments: '[MS225 Overview and Specifications](https://meraki.cisco.com/lib/pdf/meraki_datasheet_ms225.pdf)'
     interfaces:
       - name: Port 1
@@ -46307,6 +48207,9 @@ models:
     slug: cisco-c9200l-24p-4x
     u_height: 1
   - interfaces:
+      - name: Port 1
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11n
     is_full_depth: false
@@ -46357,16 +48260,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 9316D-GX
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C9316D-GX
-    power-ports:
-      - allocated_draw: 420
-        maximum_draw: 1010
-        name: Power Supply 1
-        type: iec-60320-c14
-      - allocated_draw: 420
-        maximum_draw: 1010
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c9316d-gx
     u_height: 1
   - console-ports:
@@ -46641,6 +48540,30 @@ models:
         type: iec-60320-c14
     slug: cisco-ws-c3750g-48ps-s
     u_height: 1
+  - airflow: passive
+    comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR86_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR86_Datasheet)\r\n- IEEE Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u"
+    interfaces:
+      - name: main
+        poe_mode: pd
+        type: 2.5gbase-t
+      - name: wlan0
+        type: ieee802.11ax
+      - name: wlan1
+        type: ieee802.11ax
+      - description: WIDS/WIPS
+        name: wlan2
+        type: other-wireless
+      - description: Bluetooth Scanning and Beaconing
+        name: wlan3
+        type: ieee802.15.1
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MR86
+    part_number: MR86
+    slug: cisco-meraki-mr86
+    u_height: 0.0
+    weight: 1.5
+    weight_unit: kg
   - comments: Comcast Business Gateway Model DPC3939B
     interfaces:
       - name: Ethernet 1
@@ -46783,14 +48706,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 92348GC-X
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C92348GC-X
-    power-ports:
-      - maximum_draw: 245
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 245
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-n9k-c92348gc-x
     u_height: 1
   - console-ports:
@@ -46803,14 +48724,30 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 6509
+    module-bays:
+      - name: Slot 1
+        position: '1'
+      - name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: Slot 5
+        position: '5'
+      - name: Slot 6
+        position: '6'
+      - name: Slot 7
+        position: '7'
+      - name: Slot 8
+        position: '8'
+      - name: Slot 9
+        position: '9'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: WS-C6509
-    power-ports:
-      - maximum_draw: 8700
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 8700
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-ws-c6509
     u_height: 14
   - console-ports:
@@ -46917,15 +48854,14 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: ME-3600X-24TS-M
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
     part_number: ME-3600X-24TS-M
     slug: cisco-me-3600x-24ts-m
     u_height: 1
-  - is_full_depth: false
-    manufacturer: Cisco
-    model: Aironet BR1410A-A
-    part_number: AIR-BR1410A-A-K9-N
-    slug: cisco-air-br1410a-a-k9-n
-    u_height: 0
   - comments: '[Cisco Catalyst 9500 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9500-series-switches/nb-06-cat9500-ser-data-sheet-cte-en.html)'
     console-ports:
       - name: con 0
@@ -47620,12 +49556,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 3172T
-    part_number: N3K-C3172TQ-10GT
-    power-ports:
+    module-bays:
       - name: PS1
-        type: iec-60320-c14
+        position: '1'
       - name: PS2
-        type: iec-60320-c14
+        position: '2'
+    part_number: N3K-C3172TQ-10GT
     slug: cisco-n3k-c3172tq-10gt
     u_height: 1
   - console-ports:
@@ -47638,16 +49574,66 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 6509-V-E
+    module-bays:
+      - name: Slot 1
+        position: '1'
+      - name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: Slot 5
+        position: '5'
+      - name: Slot 6
+        position: '6'
+      - name: Slot 7
+        position: '7'
+      - name: Slot 8
+        position: '8'
+      - name: Slot 9
+        position: '9'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: WS-C6509-V-E
-    power-ports:
-      - maximum_draw: 8700
-        name: PS1
-        type: iec-60320-c20
-      - maximum_draw: 8700
-        name: PS2
-        type: iec-60320-c20
     slug: cisco-ws-c6509-v-e
     u_height: 21
+  - console-ports:
+      - name: con 0
+        type: rj-45
+      - name: usb
+        type: usb-a
+    interfaces:
+      - name: FastEthernet0
+        type: 100base-tx
+      - name: GigabitEthernet0
+        type: 1000base-t
+      - name: GigabitEthernet1
+        type: 1000base-t
+      - name: GigabitEthernet2
+        type: 1000base-t
+      - name: GigabitEthernet3
+        type: 1000base-t
+      - name: GigabitEthernet4
+        type: 1000base-t
+      - name: GigabitEthernet5
+        type: 1000base-t
+      - name: GigabitEthernet6
+        type: 1000base-t
+      - name: GigabitEthernet7
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Cisco
+    model: 891fw
+    part_number: C891FW-A-K9
+    power-ports:
+      - maximum_draw: 60
+        name: PSU0
+        type: iec-60320-c14
+    slug: cisco-c891fw-a-k9
+    u_height: 1
   - console-ports:
       - name: con0
         type: rj-45
@@ -47934,11 +49920,17 @@ models:
     manufacturer: Cisco
     model: IE-2000-16PTC-G-E
     part_number: IE-2000-16PTC-G-E
+    power-ports:
+      - name: DC-A
+        type: dc-terminal
+      - name: DC-B
+        type: dc-terminal
     slug: cisco-ie-2000-16ptc-g-e
     u_height: 3
   - comments: "- Datasheet: [https://meraki.cisco.com/product-collateral/mr53-datasheet/?file](https://meraki.cisco.com/product-collateral/mr53-datasheet/?file)\r\n- IEEE Standards: 802.11b, 802.11g, 802.11a, 802.11n, 802.11ac, 802.11h, 802.11i, 802.11e, 802.11k, 802.11r, 802.11u"
     interfaces:
       - name: eth0
+        poe_mode: pd
         type: 2.5gbase-t
       - name: eth1
         type: 1000base-t
@@ -48638,16 +50630,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 93216TC-FX2
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C93216TC-FX2
-    power-ports:
-      - allocated_draw: 580
-        maximum_draw: 965
-        name: Power Supply 1
-        type: iec-60320-c14
-      - allocated_draw: 580
-        maximum_draw: 965
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c93216tc-fx2
     u_height: 2
   - comments: '[Cisco Catalyst 1000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1000-series-switches/nb-06-cat1k-ser-switch-ds-cte-en.html)'
@@ -49097,12 +51085,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Catalyst 4948-S
-    part_number: WS-C4948-S
-    power-ports:
+    module-bays:
       - name: PSU0
-        type: iec-60320-c14
+        position: '0'
       - name: PSU1
-        type: iec-60320-c14
+        position: '1'
+    part_number: WS-C4948-S
     slug: cisco-ws-c4948-s
     u_height: 1
   - console-ports:
@@ -49135,6 +51123,7 @@ models:
   - comments: "[Cisco Meraki MR52 Datasheet](https://meraki.cisco.com/product-collateral/mr52-datasheet/?file)\r\n- IEEE Standards: 802.11b, 802.11g, 802.11a, 802.11n, 802.11ac, 802.11h, 802.11i, 802.11e, 802.11k, 802.11r, 802.11u"
     interfaces:
       - name: eth0
+        poe_mode: pd
         type: 1000base-t
       - name: eth1
         type: 1000base-t
@@ -49695,30 +51684,38 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: N2K-C2348TQ-10GE
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N2K-C2348TQ
-    power-ports:
-      - maximum_draw: 400
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 400
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-n2k-c2348tq-10ge
     u_height: 1
-  - comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR44_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR44_Datasheet)\r\n- IEEE Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u"
+  - airflow: passive
+    comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR44_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR44_Datasheet)\r\n- IEEE Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u"
     interfaces:
       - name: main
+        poe_mode: pd
         type: 2.5gbase-t
       - name: wlan0
-        type: ieee802.11n
+        type: ieee802.11ax
       - name: wlan1
-        type: ieee802.11ac
+        type: ieee802.11ax
+      - description: WIDS/WIPS
+        name: wlan2
+        type: other-wireless
+      - description: Bluetooth Scanning and Beaconing
+        name: wlan3
+        type: ieee802.15.1
     is_full_depth: false
     manufacturer: Cisco
     model: Meraki MR44
     part_number: MR44
     slug: cisco-meraki-mr44
     u_height: 0.0
+    weight: 26.07
+    weight_unit: oz
   - comments: '[Cisco Catalyst 1000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1000-series-switches/nb-06-cat1k-ser-switch-ds-cte-en.html)'
     console-ports:
       - name: con0
@@ -49844,6 +51841,32 @@ models:
         type: iec-60320-c14
     slug: cisco-c1000fe-24p-4g-l
     u_height: 1
+  - airflow: front-to-rear
+    comments: '[Cisco VG Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/product_data_sheet09186a00801d87f6.html)'
+    console-ports:
+      - name: con 0
+        type: rj-45
+      - name: aux
+        type: rj-45
+      - name: usb
+        type: usb-mini-b
+    interfaces:
+      - name: GigabitEthernet0/0
+        type: 1000base-t
+      - name: GigabitEthernet0/1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Cisco
+    model: VG310
+    part_number: VG310
+    power-ports:
+      - maximum_draw: 135
+        name: PSU-1
+        type: iec-60320-c14
+    slug: cisco-vg310
+    u_height: 1
+    weight: 15.2
+    weight_unit: lb
   - comments: '[Cisco Catalyst 1000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1000-series-switches/nb-06-cat1k-ser-switch-ds-cte-en.html)'
     console-ports:
       - name: con0
@@ -50049,16 +52072,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 93600CD-GX
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C93600CD-GX
-    power-ports:
-      - allocated_draw: 586
-        maximum_draw: 1071
-        name: Power Supply 1
-        type: iec-60320-c14
-      - allocated_draw: 586
-        maximum_draw: 1071
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c93600cd-gx
     u_height: 1
   - console-ports:
@@ -50191,14 +52210,26 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 9504
+    module-bays:
+      - description: Line Card
+        name: Slot 1
+        position: '1'
+      - description: Line Card
+        name: Slot 2
+        position: '2'
+      - name: Slot 3
+        position: '3'
+      - name: Slot 4
+        position: '4'
+      - name: SUP 1
+        position: '1'
+      - name: SUP 2
+        position: '2'
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C9504
-    power-ports:
-      - maximum_draw: 3000
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 3000
-        name: PS2
-        type: iec-60320-c14
     slug: cisco-n9k-c9504
     u_height: 13
   - comments: '[Cisco Catalyst 9500 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9500-series-switches/nb-06-cat9500-ser-data-sheet-cte-en.html)'
@@ -50703,12 +52734,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Nexus 9372TX
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C9372TX
-    power-ports:
-      - name: Power Supply 1
-        type: iec-60320-c14
-      - name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c9372tx
     u_height: 1
   - console-ports:
@@ -51183,16 +53214,12 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 9348GC-FXP
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C9348GC-FXP
-    power-ports:
-      - allocated_draw: 178
-        maximum_draw: 287
-        name: Power Supply 1
-        type: iec-60320-c14
-      - allocated_draw: 178
-        maximum_draw: 287
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c9348gc-fxp
     u_height: 1
   - comments: '[Cisco Catalyst 2960-L Series Switches Data Sheet](https://www.cisco.com/c/ja_jp/products/collateral/switches/catalyst-2960-l-series-switches/datasheet-c78-737665.html)'
@@ -51282,6 +53309,22 @@ models:
         type: iec-60320-c14
     slug: cisco-ws-c2960l-16ps-jp
     u_height: 1
+  - console-ports:
+      - name: con 0
+        type: rj-45
+    is_full_depth: false
+    manufacturer: Cisco
+    model: 7206VXR
+    part_number: CISCO7206VXR
+    power-ports:
+      - maximum_draw: 370
+        name: PS-1
+        type: iec-60320-c14
+      - maximum_draw: 370
+        name: PS-2
+        type: iec-60320-c14
+    slug: cisco-7206vxr
+    u_height: 3
   - console-ports:
       - name: con0
         type: rj-45
@@ -51629,10 +53672,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-48P-L
     slug: cisco-ws-c3850-48p-l
     u_height: 1
@@ -51864,6 +53907,7 @@ models:
       - name: WiFi
         type: ieee802.11ax
       - name: GigabitEthernet0
+        poe_mode: pd
         type: 5gbase-t
     is_full_depth: false
     manufacturer: Cisco
@@ -51871,6 +53915,48 @@ models:
     part_number: C9130AXI-B
     slug: cisco-c9130axi-b
     u_height: 0
+  - airflow: passive
+    console-ports:
+      - name: con 0
+        type: rj-45
+      - name: usb
+        type: usb-micro-b
+    interfaces:
+      - name: GigabitEthernet0/0/0
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/1
+        type: 1000base-t
+      - name: GigabitEthernet0/1/0
+        type: 1000base-t
+      - name: GigabitEthernet0/1/1
+        type: 1000base-t
+      - name: GigabitEthernet0/1/2
+        type: 1000base-t
+      - name: GigabitEthernet0/1/3
+        type: 1000base-t
+      - name: GigabitEthernet0/1/4
+        type: 1000base-t
+      - name: GigabitEthernet0/1/5
+        type: 1000base-t
+      - name: GigabitEthernet0/1/6
+        type: 1000base-t
+      - name: GigabitEthernet0/1/7
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Cisco
+    model: ISR 1127-8PLTEP
+    module-bays:
+      - name: Cellular
+    part_number: C1127-8PLTEP
+    power-ports:
+      - allocated_draw: 24
+        maximum_draw: 66
+        name: PSU0
+        type: dc-terminal
+    slug: cisco-isr-1127-8pltep
+    u_height: 0
+    weight: 4.53
+    weight_unit: lb
   - interfaces:
       - name: FastEthernet0/1
         poe_mode: pse
@@ -51934,6 +54020,56 @@ models:
         type: iec-60320-c14
     slug: cisco-ws-c2960c-12pc-l
     u_height: 1
+  - airflow: passive
+    comments: '[Meraki MX68 Datasheet](https://documentation.meraki.com/MX/MX_Overviews_and_Specifications/MX67_and_MX68_Datasheet)'
+    interfaces:
+      - name: USB
+        type: lte
+      - name: Internet 1
+        type: 1000base-t
+      - name: Internet 2
+        type: 1000base-t
+      - name: Port 3
+        type: 1000base-t
+      - name: Port 4
+        type: 1000base-t
+      - name: Port 5
+        type: 1000base-t
+      - name: Port 6
+        type: 1000base-t
+      - name: Port 7
+        type: 1000base-t
+      - name: Port 8
+        type: 1000base-t
+      - name: Port 9
+        type: 1000base-t
+      - name: Port 10
+        type: 1000base-t
+      - name: Port 11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11ac
+      - name: Cellular
+        type: lte
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MX68CW
+    part_number: MX68CW
+    power-ports:
+      - allocated_draw: 19
+        maximum_draw: 89
+        name: Slot 1
+        type: iec-60320-c14
+    slug: cisco-meraki-mx68cw
+    u_height: 1
+    weight: 2.61
+    weight_unit: lb
   - comments: '[Cisco ASA 5500 Series Adaptive Security Appliances Data Sheet](https://www.cisco.com/c/en/us/products/security/asa-5500-series-next-generation-firewalls/data_sheet_c78-345385.html)'
     console-ports:
       - name: Con 0
@@ -52008,6 +54144,11 @@ models:
     manufacturer: Cisco
     model: IE-2000-16PTC-G-NX
     part_number: IE-2000-16PTC-G-NX
+    power-ports:
+      - name: DC-A
+        type: dc-terminal
+      - name: DC-B
+        type: dc-terminal
     slug: cisco-ie-2000-16ptc-g-nx
     u_height: 3
   - comments: '[Cisco Catalyst 9300 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html)'
@@ -52209,6 +54350,10 @@ models:
         poe_mode: pse
         poe_type: type2-ieee802.3at
         type: 1000base-t
+      - name: StackPort1/1
+        type: cisco-stackwise
+      - name: StackPort1/2
+        type: cisco-stackwise
       - mgmt_only: true
         name: GigabitEthernet0/0
         type: 1000base-t
@@ -52218,53 +54363,15 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300-48P-E
-    power-ports:
-      - maximum_draw: 715
-        name: PS-A
-        type: iec-60320-c16
-      - maximum_draw: 715
-        name: PS-B
-        type: iec-60320-c16
     slug: cisco-c9300-48p-e
-    u_height: 1
-  - console-ports:
-      - name: con 0
-        type: rj-45
-      - name: usb
-        type: usb-micro-b
-    interfaces:
-      - name: GigabitEthernet0/0/0
-        type: 1000base-x-sfp
-      - name: GigabitEthernet0/0/1
-        type: 1000base-t
-      - name: GigabitEthernet0/1/0
-        type: 1000base-t
-      - name: GigabitEthernet0/1/1
-        type: 1000base-t
-      - name: GigabitEthernet0/1/2
-        type: 1000base-t
-      - name: GigabitEthernet0/1/3
-        type: 1000base-t
-      - name: GigabitEthernet0/1/4
-        type: 1000base-t
-      - name: GigabitEthernet0/1/5
-        type: 1000base-t
-      - name: GigabitEthernet0/1/6
-        type: 1000base-t
-      - name: GigabitEthernet0/1/7
-        type: 1000base-t
-      - name: Wlan-GigabitEthernet0/1/8
-        type: ieee802.11ac
-    is_full_depth: false
-    manufacturer: Cisco
-    model: ISR 1111-8PWZ
-    part_number: C1111-8PWZ
-    power-ports:
-      - maximum_draw: 150
-        name: PSU0
-        type: iec-60320-c14
-    slug: cisco-isr-1111-8pwz
     u_height: 1
   - console-ports:
       - name: con0
@@ -52785,6 +54892,9 @@ models:
     slug: cisco-meraki-ms350-48fp
     u_height: 1
   - interfaces:
+      - name: Port 1
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11n
     is_full_depth: false
@@ -52830,10 +54940,10 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
-      - name: PSU1
-        position: '1'
-      - name: PSU2
-        position: '2'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
     part_number: WS-C3850-12S
     slug: cisco-ws-c3850-12s
     u_height: 1
@@ -53122,6 +55232,9 @@ models:
     slug: cisco-asa5585-x
     u_height: 1
   - interfaces:
+      - name: Port 1
+        poe_mode: pd
+        type: 1000base-t
       - name: WiFi
         type: ieee802.11n
     is_full_depth: false
@@ -53214,16 +55327,12 @@ models:
     is_full_depth: false
     manufacturer: Cisco
     model: Nexus 3132Q-40GE
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N3K-C3132Q-40GE
-    power-ports:
-      - allocated_draw: 210
-        maximum_draw: 340
-        name: PSU0
-        type: iec-60320-c14
-      - allocated_draw: 210
-        maximum_draw: 340
-        name: PSU1
-        type: iec-60320-c14
     slug: cisco-n3k-c3132q-40ge
     u_height: 1
   - console-ports:
@@ -53314,6 +55423,8 @@ models:
       - name: GigabitEthernet0/6
         type: 1000base-t
       - name: GigabitEthernet0/7
+        type: 1000base-t
+      - name: GigabitEthernet0/8
         type: 1000base-t
       - name: GigabitEthernet0/9
         type: 1000base-t
@@ -53571,6 +55682,28 @@ models:
     u_height: 2
     weight: 20.5
     weight_unit: lb
+  - airflow: passive
+    comments: "- Datasheet: [https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR33.pdf](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR33.pdf)\r \n- IEEE Standards: 802.11a, 802.11ac, 802.11b, 802.11g, 802.11n"
+    interfaces:
+      - name: main
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11n
+      - name: wlan1
+        type: ieee802.11ac
+      - description: Bluetooth Scanning and Beaconing
+        name: wlan2
+        type: ieee802.15.1
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MR33
+    part_number: MR33
+    slug: cisco-meraki-mr33
+    u_height: 0.0
+    weight: 13.2
+    weight_unit: oz
   - comments: '[Cisco ASR 920 Series Aggregation Services Routers: Low-Port-Density Models Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-920-series-aggregation-services-router/datasheet-c78-732103.html)'
     console-ports:
       - name: Console
@@ -53709,6 +55842,10 @@ models:
         poe_mode: pse
         poe_type: type3-ieee802.3bt
         type: 1000base-t
+      - name: StackPort1/1
+        type: cisco-stackwise
+      - name: StackPort1/2
+        type: cisco-stackwise
       - mgmt_only: true
         name: GigabitEthernet0/0
         type: 1000base-t
@@ -53718,14 +55855,14 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300-24U
-    power-ports:
-      - maximum_draw: 1100
-        name: PS-A
-        type: iec-60320-c16
-      - maximum_draw: 1100
-        name: PS-B
-        type: iec-60320-c16
     slug: cisco-c9300-24u
     u_height: 1
   - console-ports:
@@ -54185,6 +56322,10 @@ models:
         poe_mode: pse
         poe_type: type2-ieee802.3at
         type: 1000base-t
+      - name: StackPort1/1
+        type: cisco-stackwise
+      - name: StackPort1/2
+        type: cisco-stackwise
       - mgmt_only: true
         name: GigabitEthernet0/0
         type: 1000base-t
@@ -54194,14 +56335,14 @@ models:
     module-bays:
       - name: Network Module
         position: '1'
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300-48P
-    power-ports:
-      - maximum_draw: 715
-        name: PS-A
-        type: iec-60320-c16
-      - maximum_draw: 715
-        name: PS-B
-        type: iec-60320-c16
     slug: cisco-c9300-48p
     u_height: 1
   - console-ports:
@@ -54253,8 +56394,51 @@ models:
     manufacturer: Cisco
     model: IE-2000-4TS-G-B
     part_number: IE-2000-4TS-G-B
+    power-ports:
+      - name: DC-A
+        type: dc-terminal
+      - name: DC-B
+        type: dc-terminal
     slug: cisco-ie-2000-4ts-g-b
     u_height: 3
+  - console-ports:
+      - name: con 0
+        type: rj-45
+      - name: usb
+        type: usb-micro-b
+    interfaces:
+      - name: GigabitEthernet0/0/0
+        type: 1000base-x-sfp
+      - name: GigabitEthernet0/0/1
+        type: 1000base-t
+      - name: GigabitEthernet0/1/0
+        type: 1000base-t
+      - name: GigabitEthernet0/1/1
+        type: 1000base-t
+      - name: GigabitEthernet0/1/2
+        type: 1000base-t
+      - name: GigabitEthernet0/1/3
+        type: 1000base-t
+      - name: GigabitEthernet0/1/4
+        type: 1000base-t
+      - name: GigabitEthernet0/1/5
+        type: 1000base-t
+      - name: GigabitEthernet0/1/6
+        type: 1000base-t
+      - name: GigabitEthernet0/1/7
+        type: 1000base-t
+      - name: Wlan-GigabitEthernet0/1/8
+        type: ieee802.11ac
+    is_full_depth: false
+    manufacturer: Cisco
+    model: ISR 1111-8PWZ
+    part_number: C1111-8PWZ
+    power-ports:
+      - maximum_draw: 150
+        name: PSU0
+        type: iec-60320-c14
+    slug: cisco-isr-1111-8pwz
+    u_height: 1
   - console-ports:
       - name: con0
         type: rj-45
@@ -54524,17 +56708,71 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Nexus 93108TC-EX
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: N9K-C93108TC-EX
-    power-ports:
-      - allocated_draw: 290
-        maximum_draw: 499
-        name: Power Supply 1
-        type: iec-60320-c14
-      - allocated_draw: 290
-        maximum_draw: 499
-        name: Power Supply 2
-        type: iec-60320-c14
     slug: cisco-n9k-c93108tc-ex
+    u_height: 1
+  - airflow: passive
+    comments: "- Datasheet: [https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR72.pdf](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR72.pdf)\r \n- IEEE Standards: 802.11a, 802.11ac, 802.11b, 802.11e, 802.11g, 802.11n"
+    interfaces:
+      - name: main
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11n
+      - name: wlan1
+        type: ieee802.11ac
+      - description: WIDS/WIPS
+        name: wlan2
+        type: other-wireless
+      - description: Bluetooth Scanning and Beaconing
+        name: wlan3
+        type: ieee802.15.1
+    is_full_depth: false
+    manufacturer: Cisco
+    model: Meraki MR72
+    part_number: MR72
+    slug: cisco-meraki-mr72
+    u_height: 0.0
+    weight: 49.38
+    weight_unit: oz
+  - airflow: front-to-rear
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Ethernet0
+        type: 10gbase-t
+      - name: Ethernet1
+        type: 10gbase-t
+      - mgmt_only: true
+        name: CIMC
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Cisco
+    model: UCS-C220-M6S
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
+      - name: PCIe.1
+        position: '1'
+      - name: PCIe.2
+        position: '2'
+      - name: PCIe.3
+        position: '3'
+      - name: RAID-Controller
+        position: '1'
+      - name: mLOM
+        position: '1'
+    part_number: UCSC-C220-M6S
+    slug: cisco-ucs-c220-m6s
     u_height: 1
   - console-ports:
       - name: con 0
@@ -54748,14 +56986,13 @@ models:
         position: 1/1
       - name: StackPort1/2
         position: 1/2
+      - name: PS-A
+        position: PS-A
+      - name: PS-B
+        position: PS-B
+      - name: FAN 1
+      - name: FAN 2
     part_number: C9200-24P
-    power-ports:
-      - maximum_draw: 600
-        name: PS-1
-        type: iec-60320-c14
-      - maximum_draw: 600
-        name: PS-2
-        type: iec-60320-c14
     slug: cisco-c9200-24p
     u_height: 1
   - console-ports:
@@ -54974,13 +57211,14 @@ models:
     is_full_depth: true
     manufacturer: Cisco
     model: Catalyst 9300L-48P-4G
+    module-bays:
+      - name: PS-A
+        position: A
+      - name: PS-B
+        position: B
+      - name: FAN 1
+      - name: FAN 2
+      - name: FAN 3
     part_number: C9300L-48P-4G
-    power-ports:
-      - maximum_draw: 715
-        name: PS-A
-        type: iec-60320-c16
-      - maximum_draw: 715
-        name: PS-B
-        type: iec-60320-c16
     slug: cisco-c9300l-48p-4g
     u_height: 1

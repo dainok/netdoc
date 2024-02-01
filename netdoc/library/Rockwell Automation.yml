@@ -378,6 +378,7 @@ models:
       - name: Slot 8
       - name: Slot 9
     is_full_depth: false
+    is_powered: false
     manufacturer: Rockwell Automation
     model: ControlLogix Rack K - 10 Slot
     part_number: 1756-A10K
@@ -971,6 +972,7 @@ models:
       - name: Slot 2
       - name: Slot 3
     is_full_depth: false
+    is_powered: false
     manufacturer: Rockwell Automation
     model: ControlLogix Rack - 4 Slot
     part_number: 1756-a4
@@ -1051,6 +1053,7 @@ models:
       - name: Slot 11
       - name: Slot 12
     is_full_depth: false
+    is_powered: false
     manufacturer: Rockwell Automation
     model: ControlLogix Rack - 13 Slot
     part_number: 1756-A13
@@ -1481,6 +1484,7 @@ models:
       - name: Slot 11
       - name: Slot 12
     is_full_depth: false
+    is_powered: false
     manufacturer: Rockwell Automation
     model: ControlLogix Rack K - 13 Slot
     part_number: 1756-A13K
@@ -2029,6 +2033,7 @@ models:
       - name: Slot 15
       - name: Slot 16
     is_full_depth: false
+    is_powered: false
     manufacturer: Rockwell Automation
     model: ControlLogix Rack K - 17 Slot
     part_number: 1756-A17K
@@ -2081,6 +2086,7 @@ models:
       - name: Slot 8
       - name: Slot 9
     is_full_depth: false
+    is_powered: false
     manufacturer: Rockwell Automation
     model: ControlLogix Rack XT - 10 Slot
     part_number: 1756-A10XT
@@ -2855,6 +2861,7 @@ models:
       - name: Slot 15
       - name: Slot 16
     is_full_depth: false
+    is_powered: false
     manufacturer: Rockwell Automation
     model: ControlLogix Rack - 17 Slot
     part_number: 1756-A17
@@ -2891,6 +2898,7 @@ models:
       - name: Slot 2
       - name: Slot 3
     is_full_depth: false
+    is_powered: false
     manufacturer: Rockwell Automation
     model: ControlLogix Rack K - 4 Slot
     part_number: 1756-A4K
@@ -3342,6 +3350,7 @@ models:
       - name: Slot 8
       - name: Slot 9
     is_full_depth: false
+    is_powered: false
     manufacturer: Rockwell Automation
     model: ControlLogix Rack - 10 Slot
     part_number: 1756-A10
@@ -3785,6 +3794,7 @@ models:
       - name: Slot 5
       - name: Slot 6
     is_full_depth: false
+    is_powered: false
     manufacturer: Rockwell Automation
     model: ControlLogix Rack - 7 Slot
     part_number: 1756-A7
@@ -3823,6 +3833,7 @@ models:
       - name: Slot 5
       - name: Slot 6
     is_full_depth: false
+    is_powered: false
     manufacturer: Rockwell Automation
     model: ControlLogix Rack K - 7 Slot
     part_number: 1756-a7k
@@ -3922,6 +3933,7 @@ models:
       - name: Slot 5
       - name: Slot 6
     is_full_depth: false
+    is_powered: false
     manufacturer: Rockwell Automation
     model: ControlLogix Rack XT - 7 Slot
     part_number: 1756-A7XT

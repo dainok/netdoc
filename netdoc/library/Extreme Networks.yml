@@ -1,185 +1,57 @@
 keywords:
-  - BR-SLX-9140-48V
-  - BR-SLX-9140-48V
   - 715W AC PSU FB
   - '10951'
   - BR-MLXE-4-MR2-AC
   - BR-MLXE-4-MR2-AC
   - X460-G2-24t-10GE4
   - '16701'
-  - VSP-7254XSQ
-  - VSP-7254XSQ
-  - BR-SLX-9740-80C
-  - BR-SLX-9740-80C
   - BR-SLX-9640-24S-12C
   - BR-SLX-9640-24S-12C
+  - VSP-7254XSQ
+  - VSP-7254XSQ
   - BR-MLXE-8-MR2-AC
   - BR-MLXE-8-MR2-AC
-  - BR-SLX-9240-32C
-  - BR-SLX-9240-32C
+  - BR-SLX-9740-80C
+  - BR-SLX-9740-80C
+  - BR-SLX-9740-40C
+  - BR-SLX-9740-40C
   - X440-G2-24p-10GE4
   - '16533'
-  - BR-SLX-9250-32C
-  - BR-SLX-9250-32C
+  - ExtremeWireless AP130
+  - AP130
+  - BR-SLX-9140-48V
+  - BR-SLX-9140-48V
+  - BR-SLX-9540-48S
+  - BR-SLX-9540-48S
   - 5520-12MW-36W-FabricEngine
   - 5520-12MW-36W-FabricEngine
-  - BR-SLX-9740-40C
-  - BR-SLX-9740-40C
   - X440-G2-24x-10GE4
   - '16538'
-  - X460-G2 VIM-2x
-  - '16711'
   - X460-G2-48p-10GE4
   - '16704'
-  - BR-SLX-9150-48Y
-  - BR-SLX-9150-48Y
   - BR-MLXE-32-MR2-AC
   - BR-MLXE-32-MR2-AC
   - ExtremeWireless AP30
   - AP30
+  - BR-SLX-9240-32C
+  - BR-SLX-9240-32C
   - 5520-24T
   - 5520-24T
   - VSP-7400-48Y-8C
   - VSP-7400-48Y-8C
+  - BR-SLX-9150-48XT
+  - BR-SLX-9150-48XT
   - X450-G2-48p-10GE4
   - '16179'
   - X440-G2-24t-10GE4
   - '16532'
-  - BR-SLX-9540-48S
-  - BR-SLX-9540-48S
+  - BR-SLX-9250-32C
+  - BR-SLX-9250-32C
+  - BR-SLX-9150-48Y
+  - BR-SLX-9150-48Y
   - BR-MLXE-16-MR2-AC
   - BR-MLXE-16-MR2-AC
-  - BR-SLX-9150-48XT
-  - BR-SLX-9150-48XT
 models:
-  - console-ports:
-      - name: Console
-        type: usb-mini-b
-    interfaces:
-      - name: Ethernet 0/1
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/2
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/3
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/4
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/5
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/6
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/7
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/8
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/9
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/10
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/11
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/12
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/13
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/14
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/15
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/16
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/17
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/18
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/19
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/20
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/21
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/22
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/23
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/24
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/25
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/26
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/27
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/28
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/29
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/30
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/31
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/32
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/33
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/34
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/35
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/36
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/37
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/38
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/39
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/40
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/41
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/42
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/43
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/44
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/45
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/46
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/47
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/48
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/49
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/50
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/51
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/52
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/53
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/54
-        type: 100gbase-x-qsfp28
-      - mgmt_only: true
-        name: Management0
-        type: 1000base-t
-    is_full_depth: true
-    manufacturer: Extreme Networks
-    model: BR-SLX-9140-48V
-    part_number: BR-SLX-9140-48V
-    power-ports:
-      - maximum_draw: 650
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 650
-        name: PS2
-        type: iec-60320-c14
-    slug: extreme-networks-br-slx-9140-48v
-    u_height: 1
   - is_full_depth: false
     manufacturer: Extreme Networks
     model: 715W AC PSU FB
@@ -234,10 +106,6 @@ models:
   - console-ports:
       - name: Console
         type: rj-45
-    device-bays:
-      - name: PSU-1
-      - name: PSU-2
-      - name: VIM-2
     interfaces:
       - name: '1'
         type: 1000base-t
@@ -319,9 +187,105 @@ models:
     is_full_depth: false
     manufacturer: Extreme Networks
     model: X460-G2-24t-10GE4
+    module-bays:
+      - name: PSU-1
+      - name: PSU-2
+      - name: VIM-2
     part_number: '16701'
     slug: extreme-networks-x460-g2-24t-10ge4
     subdevice_role: parent
+    u_height: 1
+  - console-ports:
+      - name: Console
+        type: usb-mini-b
+    interfaces:
+      - name: Ethernet 0/1
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/2
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/3
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/4
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/5
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/6
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/7
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/8
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/9
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/10
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/11
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/12
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/13
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/14
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/15
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/16
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/17
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/18
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/19
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/20
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/21
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/22
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/23
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/24
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/25
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/26
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/27
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/28
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/29
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/30
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/31
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/32
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/33
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/34
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/35
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/36
+        type: 100gbase-x-qsfp28
+      - mgmt_only: true
+        name: Management0
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Extreme Networks
+    model: BR-SLX-9640-24S-12C
+    part_number: BR-SLX-9640-24S-12C
+    power-ports:
+      - maximum_draw: 650
+        name: PS1
+        type: iec-60320-c14
+      - maximum_draw: 650
+        name: PS2
+        type: iec-60320-c14
+    slug: extreme-networks-br-slx-9640-24s-12c
     u_height: 1
   - airflow: front-to-rear
     console-ports:
@@ -452,6 +416,50 @@ models:
     u_height: 1
     weight: 7250
     weight_unit: g
+  - console-ports:
+      - name: Serial
+        type: de-9
+    interfaces:
+      - mgmt_only: true
+        name: Management 1
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Extreme Networks
+    model: BR-MLXE-8-MR2-AC
+    module-bays:
+      - name: F1
+      - name: F2
+      - name: F3
+      - name: M1
+      - name: M2
+      - name: PSU1
+      - name: PSU2
+      - name: PSU3
+      - name: PSU4
+      - name: S1
+      - name: S2
+      - name: S3
+      - name: S4
+      - name: S5
+      - name: S6
+      - name: S7
+      - name: S8
+    part_number: BR-MLXE-8-MR2-AC
+    power-ports:
+      - maximum_draw: 1800
+        name: PSU1
+        type: iec-60320-c20
+      - maximum_draw: 1800
+        name: PSU2
+        type: iec-60320-c20
+      - maximum_draw: 1800
+        name: PSU3
+        type: iec-60320-c20
+      - maximum_draw: 1800
+        name: PSU4
+        type: iec-60320-c20
+    slug: extreme-networks-br-mlxe-8-mr2-ac
+    u_height: 7
   - console-ports:
       - name: Console
         type: rj-45
@@ -640,56 +648,56 @@ models:
     u_height: 2
   - console-ports:
       - name: Console
-        type: usb-mini-b
+        type: rj-45
     interfaces:
       - name: Ethernet 0/1
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/2
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/3
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/4
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/5
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/6
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/7
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/8
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/9
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/10
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/11
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/12
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/13
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/14
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/15
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/16
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/17
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/18
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/19
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/20
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/21
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/22
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/23
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/24
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/25
         type: 100gbase-x-qsfp28
       - name: Ethernet 0/26
@@ -714,149 +722,29 @@ models:
         type: 100gbase-x-qsfp28
       - name: Ethernet 0/36
         type: 100gbase-x-qsfp28
-      - mgmt_only: true
-        name: Management0
-        type: 1000base-t
-    is_full_depth: true
-    manufacturer: Extreme Networks
-    model: BR-SLX-9640-24S-12C
-    part_number: BR-SLX-9640-24S-12C
-    power-ports:
-      - maximum_draw: 650
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 650
-        name: PS2
-        type: iec-60320-c14
-    slug: extreme-networks-br-slx-9640-24s-12c
-    u_height: 1
-  - console-ports:
-      - name: Serial
-        type: de-9
-    interfaces:
-      - mgmt_only: true
-        name: Management 1
-        type: 1000base-t
-    is_full_depth: true
-    manufacturer: Extreme Networks
-    model: BR-MLXE-8-MR2-AC
-    module-bays:
-      - name: F1
-      - name: F2
-      - name: F3
-      - name: M1
-      - name: M2
-      - name: PSU1
-      - name: PSU2
-      - name: PSU3
-      - name: PSU4
-      - name: S1
-      - name: S2
-      - name: S3
-      - name: S4
-      - name: S5
-      - name: S6
-      - name: S7
-      - name: S8
-    part_number: BR-MLXE-8-MR2-AC
-    power-ports:
-      - maximum_draw: 1800
-        name: PSU1
-        type: iec-60320-c20
-      - maximum_draw: 1800
-        name: PSU2
-        type: iec-60320-c20
-      - maximum_draw: 1800
-        name: PSU3
-        type: iec-60320-c20
-      - maximum_draw: 1800
-        name: PSU4
-        type: iec-60320-c20
-    slug: extreme-networks-br-mlxe-8-mr2-ac
-    u_height: 7
-  - console-ports:
-      - name: Console
-        type: usb-mini-b
-    interfaces:
-      - name: Ethernet 0/1
+      - name: Ethernet 0/37
         type: 100gbase-x-qsfp28
-      - name: Ethernet 0/2
+      - name: Ethernet 0/38
         type: 100gbase-x-qsfp28
-      - name: Ethernet 0/3
+      - name: Ethernet 0/39
         type: 100gbase-x-qsfp28
-      - name: Ethernet 0/4
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/5
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/6
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/7
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/8
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/9
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/10
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/11
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/12
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/13
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/14
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/15
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/16
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/17
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/18
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/19
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/20
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/21
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/22
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/23
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/24
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/25
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/26
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/27
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/28
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/29
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/30
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/31
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/32
+      - name: Ethernet 0/40
         type: 100gbase-x-qsfp28
       - mgmt_only: true
         name: Management0
         type: 1000base-t
     is_full_depth: true
     manufacturer: Extreme Networks
-    model: BR-SLX-9240-32C
-    part_number: BR-SLX-9240-32C
+    model: BR-SLX-9740-40C
+    part_number: BR-SLX-9740-40C
     power-ports:
-      - maximum_draw: 650
+      - maximum_draw: 1600
         name: PS1
         type: iec-60320-c14
-      - maximum_draw: 650
+      - maximum_draw: 1600
         name: PS2
         type: iec-60320-c14
-    slug: extreme-networks-br-slx-9240-32c
+    slug: extreme-networks-br-slx-9740-40c
     u_height: 1
   - comments: '[Extreme Networks X440-G2 Technical Specifications](https://www.extremenetworks.com/product/x440-g2/)'
     console-ports:
@@ -940,89 +828,277 @@ models:
         type: dc-terminal
     slug: extreme-networks-x440-g2-24p-10ge4
     u_height: 1
+  - comments: '[ExtremeWireless AP130 Datasheet](https://cloud.kapostcontent.net/pub/fef12162-550a-4d09-801e-cea5ac802014/ap130-data-sheet)'
+    interfaces:
+      - name: Wifi
+        type: ieee802.11ac
+      - name: eth0
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Extreme Networks
+    model: ExtremeWireless AP130
+    part_number: AP130
+    slug: extreme-networks-extremewireless-ap130
+    u_height: 0
+    weight: 510.0
+    weight_unit: g
   - console-ports:
       - name: Console
-        type: rj-45
+        type: usb-mini-b
     interfaces:
       - name: Ethernet 0/1
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/2
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/3
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/4
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/5
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/6
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/7
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/8
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/9
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/10
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/11
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/12
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/13
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/14
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/15
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/16
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/17
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/18
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/19
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/20
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/21
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/22
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/23
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/24
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/25
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/26
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/27
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/28
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/29
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/30
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/31
-        type: 100gbase-x-qsfp28
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/32
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/33
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/34
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/35
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/36
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/37
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/38
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/39
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/40
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/41
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/42
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/43
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/44
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/45
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/46
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/47
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/48
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/49
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/50
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/51
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/52
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/53
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/54
         type: 100gbase-x-qsfp28
       - mgmt_only: true
         name: Management0
         type: 1000base-t
     is_full_depth: true
     manufacturer: Extreme Networks
-    model: BR-SLX-9250-32C
-    part_number: BR-SLX-9250-32C
+    model: BR-SLX-9140-48V
+    part_number: BR-SLX-9140-48V
     power-ports:
-      - maximum_draw: 750
+      - maximum_draw: 650
         name: PS1
         type: iec-60320-c14
-      - maximum_draw: 750
+      - maximum_draw: 650
         name: PS2
         type: iec-60320-c14
-    slug: extreme-networks-br-slx-9250-32c
+    slug: extreme-networks-br-slx-9140-48v
+    u_height: 1
+  - console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Ethernet 0/1
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/2
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/3
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/4
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/5
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/6
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/7
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/8
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/9
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/10
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/11
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/12
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/13
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/14
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/15
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/16
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/17
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/18
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/19
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/20
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/21
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/22
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/23
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/24
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/25
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/26
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/27
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/28
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/29
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/30
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/31
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/32
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/33
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/34
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/35
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/36
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/37
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/38
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/39
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/40
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/41
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/42
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/43
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/44
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/45
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/46
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/47
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/48
+        type: 10gbase-x-sfpp
+      - name: Ethernet 0/49
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/50
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/51
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/52
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/53
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/54
+        type: 100gbase-x-qsfp28
+      - mgmt_only: true
+        name: Management0
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Extreme Networks
+    model: BR-SLX-9540-48S
+    part_number: BR-SLX-9540-48S
+    power-ports:
+      - maximum_draw: 647
+        name: PS1
+        type: iec-60320-c14
+      - maximum_draw: 647
+        name: PS2
+        type: iec-60320-c14
+    slug: extreme-networks-br-slx-9540-48s
     u_height: 1
   - comments: '[5520-12MW-36W Datasheet](https://cloud.kapostcontent.net/pub/77abf982-0f20-4050-a5e9-55220fa16715/extremeswitching-5520-series-data-sheet-1)'
     console-ports:
@@ -1240,106 +1316,6 @@ models:
     u_height: 1.0
     weight: 6330
     weight_unit: g
-  - console-ports:
-      - name: Console
-        type: rj-45
-    interfaces:
-      - name: Ethernet 0/1
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/2
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/3
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/4
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/5
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/6
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/7
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/8
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/9
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/10
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/11
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/12
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/13
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/14
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/15
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/16
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/17
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/18
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/19
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/20
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/21
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/22
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/23
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/24
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/25
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/26
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/27
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/28
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/29
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/30
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/31
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/32
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/33
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/34
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/35
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/36
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/37
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/38
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/39
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/40
-        type: 100gbase-x-qsfp28
-      - mgmt_only: true
-        name: Management0
-        type: 1000base-t
-    is_full_depth: true
-    manufacturer: Extreme Networks
-    model: BR-SLX-9740-40C
-    part_number: BR-SLX-9740-40C
-    power-ports:
-      - maximum_draw: 1600
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 1600
-        name: PS2
-        type: iec-60320-c14
-    slug: extreme-networks-br-slx-9740-40c
-    u_height: 1
   - comments: '[Extreme Networks X440-G2 Technical Specifications](https://www.extremenetworks.com/product/x440-g2/)'
     console-ports:
       - name: Console
@@ -1422,25 +1398,9 @@ models:
         type: dc-terminal
     slug: extreme-networks-x440-g2-24x-10ge4
     u_height: 1
-  - interfaces:
-      - name: '33'
-        type: 10gbase-x-sfpp
-      - name: '34'
-        type: 10gbase-x-sfpp
-    is_full_depth: false
-    manufacturer: Extreme Networks
-    model: X460-G2 VIM-2x
-    part_number: '16711'
-    slug: extreme-networks-x460-g2-vim-2x
-    subdevice_role: child
-    u_height: 0
   - console-ports:
       - name: Console
         type: rj-45
-    device-bays:
-      - name: PSU-1
-      - name: PSU-2
-      - name: VIM-2
     interfaces:
       - name: '1'
         type: 1000base-t
@@ -1546,153 +1506,20 @@ models:
         type: 10gbase-x-sfpp
       - name: '52'
         type: 10gbase-x-sfpp
-      - description: either Stacking-Ports or additional SFP+; only with VIM-2 module
-        name: '53'
-        type: other
-      - description: either Stacking-Ports or additional SFP+; only with VIM-2 module
-        name: '54'
-        type: other
       - mgmt_only: true
         name: Mgmt
         type: 1000base-t
     is_full_depth: true
     manufacturer: Extreme Networks
     model: X460-G2-48p-10GE4
+    module-bays:
+      - name: PSU-1
+      - name: PSU-2
+      - name: VIM-2
+        position: VIM
     part_number: '16704'
     slug: extreme-networks-x460-g2-48p-10ge4
     subdevice_role: parent
-    u_height: 1
-  - console-ports:
-      - name: Console
-        type: rj-45
-    interfaces:
-      - name: Ethernet 0/1
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/2
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/3
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/4
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/5
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/6
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/7
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/8
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/9
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/10
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/11
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/12
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/13
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/14
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/15
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/16
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/17
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/18
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/19
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/20
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/21
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/22
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/23
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/24
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/25
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/26
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/27
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/28
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/29
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/30
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/31
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/32
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/33
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/34
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/35
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/36
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/37
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/38
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/39
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/40
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/41
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/42
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/43
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/44
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/45
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/46
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/47
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/48
-        type: 25gbase-x-sfp28
-      - name: Ethernet 0/49
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/50
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/51
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/52
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/53
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/54
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/55
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/56
-        type: 100gbase-x-qsfp28
-      - mgmt_only: true
-        name: Management0
-        type: 1000base-t
-    is_full_depth: true
-    manufacturer: Extreme Networks
-    model: BR-SLX-9150-48Y
-    part_number: BR-SLX-9150-48Y
-    power-ports:
-      - maximum_draw: 750
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 750
-        name: PS2
-        type: iec-60320-c14
-    slug: extreme-networks-br-slx-9150-48y
     u_height: 1
   - console-ports:
       - name: Serial
@@ -1801,14 +1628,94 @@ models:
     weight: 0.47
     weight_unit: lb
   - console-ports:
+      - name: Console
+        type: usb-mini-b
+    interfaces:
+      - name: Ethernet 0/1
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/2
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/3
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/4
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/5
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/6
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/7
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/8
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/9
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/10
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/11
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/12
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/13
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/14
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/15
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/16
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/17
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/18
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/19
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/20
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/21
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/22
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/23
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/24
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/25
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/26
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/27
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/28
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/29
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/30
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/31
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/32
+        type: 100gbase-x-qsfp28
+      - mgmt_only: true
+        name: Management0
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Extreme Networks
+    model: BR-SLX-9240-32C
+    part_number: BR-SLX-9240-32C
+    power-ports:
+      - maximum_draw: 650
+        name: PS1
+        type: iec-60320-c14
+      - maximum_draw: 650
+        name: PS2
+        type: iec-60320-c14
+    slug: extreme-networks-br-slx-9240-32c
+    u_height: 1
+  - console-ports:
       - name: Console_RJ45
         type: rj-45
       - name: Console_USB
         type: usb-micro-b
-    device-bays:
-      - name: PSU-1
-      - name: PSU-2
-      - name: VIM-2
     interfaces:
       - name: '1'
         type: 1000base-t
@@ -1880,6 +1787,10 @@ models:
     is_full_depth: true
     manufacturer: Extreme Networks
     model: 5520-24T
+    module-bays:
+      - name: PSU-1
+      - name: PSU-2
+      - name: VIM-2
     part_number: 5520-24T
     slug: extreme-networks-5520-24t
     subdevice_role: parent
@@ -2011,6 +1922,134 @@ models:
         name: PS2
         type: iec-60320-c14
     slug: extreme-networks-vsp-7400-48y-8c
+    u_height: 1
+  - console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Ethernet 0/1
+        type: 10gbase-t
+      - name: Ethernet 0/2
+        type: 10gbase-t
+      - name: Ethernet 0/3
+        type: 10gbase-t
+      - name: Ethernet 0/4
+        type: 10gbase-t
+      - name: Ethernet 0/5
+        type: 10gbase-t
+      - name: Ethernet 0/6
+        type: 10gbase-t
+      - name: Ethernet 0/7
+        type: 10gbase-t
+      - name: Ethernet 0/8
+        type: 10gbase-t
+      - name: Ethernet 0/9
+        type: 10gbase-t
+      - name: Ethernet 0/10
+        type: 10gbase-t
+      - name: Ethernet 0/11
+        type: 10gbase-t
+      - name: Ethernet 0/12
+        type: 10gbase-t
+      - name: Ethernet 0/13
+        type: 10gbase-t
+      - name: Ethernet 0/14
+        type: 10gbase-t
+      - name: Ethernet 0/15
+        type: 10gbase-t
+      - name: Ethernet 0/16
+        type: 10gbase-t
+      - name: Ethernet 0/17
+        type: 10gbase-t
+      - name: Ethernet 0/18
+        type: 10gbase-t
+      - name: Ethernet 0/19
+        type: 10gbase-t
+      - name: Ethernet 0/20
+        type: 10gbase-t
+      - name: Ethernet 0/21
+        type: 10gbase-t
+      - name: Ethernet 0/22
+        type: 10gbase-t
+      - name: Ethernet 0/23
+        type: 10gbase-t
+      - name: Ethernet 0/24
+        type: 10gbase-t
+      - name: Ethernet 0/25
+        type: 10gbase-t
+      - name: Ethernet 0/26
+        type: 10gbase-t
+      - name: Ethernet 0/27
+        type: 10gbase-t
+      - name: Ethernet 0/28
+        type: 10gbase-t
+      - name: Ethernet 0/29
+        type: 10gbase-t
+      - name: Ethernet 0/30
+        type: 10gbase-t
+      - name: Ethernet 0/31
+        type: 10gbase-t
+      - name: Ethernet 0/32
+        type: 10gbase-t
+      - name: Ethernet 0/33
+        type: 10gbase-t
+      - name: Ethernet 0/34
+        type: 10gbase-t
+      - name: Ethernet 0/35
+        type: 10gbase-t
+      - name: Ethernet 0/36
+        type: 10gbase-t
+      - name: Ethernet 0/37
+        type: 10gbase-t
+      - name: Ethernet 0/38
+        type: 10gbase-t
+      - name: Ethernet 0/39
+        type: 10gbase-t
+      - name: Ethernet 0/40
+        type: 10gbase-t
+      - name: Ethernet 0/41
+        type: 10gbase-t
+      - name: Ethernet 0/42
+        type: 10gbase-t
+      - name: Ethernet 0/43
+        type: 10gbase-t
+      - name: Ethernet 0/44
+        type: 10gbase-t
+      - name: Ethernet 0/45
+        type: 10gbase-t
+      - name: Ethernet 0/46
+        type: 10gbase-t
+      - name: Ethernet 0/47
+        type: 10gbase-t
+      - name: Ethernet 0/48
+        type: 10gbase-t
+      - name: Ethernet 0/49
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/50
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/51
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/52
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/53
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/54
+        type: 100gbase-x-qsfp28
+      - mgmt_only: true
+        name: Management0
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Extreme Networks
+    model: BR-SLX-9150-48XT
+    part_number: BR-SLX-9150-48XT
+    power-ports:
+      - maximum_draw: 750
+        name: PS1
+        type: iec-60320-c14
+      - maximum_draw: 750
+        name: PS2
+        type: iec-60320-c14
+    slug: extreme-networks-br-slx-9150-48xt
     u_height: 1
   - airflow: front-to-rear
     comments: '[X450-G2-48p-10GE4 Datasheet](https://cloud.kapostcontent.net/pub/6f346f0e-30e3-452c-86cd-56795f6a1a65/x450-g2-data-sheet.pdf?kui=bKqLVAj7ueLS6LTgIp2rvw)'
@@ -2325,101 +2364,185 @@ models:
         type: rj-45
     interfaces:
       - name: Ethernet 0/1
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/2
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/3
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/4
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/5
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/6
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/7
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/8
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/9
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/10
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/11
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/12
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/13
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/14
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/15
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/16
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/17
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/18
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/19
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/20
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/21
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/22
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/23
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/24
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/25
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/26
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/27
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/28
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/29
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/30
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/31
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
       - name: Ethernet 0/32
-        type: 10gbase-x-sfpp
+        type: 100gbase-x-qsfp28
+      - mgmt_only: true
+        name: Management0
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Extreme Networks
+    model: BR-SLX-9250-32C
+    part_number: BR-SLX-9250-32C
+    power-ports:
+      - maximum_draw: 750
+        name: PS1
+        type: iec-60320-c14
+      - maximum_draw: 750
+        name: PS2
+        type: iec-60320-c14
+    slug: extreme-networks-br-slx-9250-32c
+    u_height: 1
+  - console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: Ethernet 0/1
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/2
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/3
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/4
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/5
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/6
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/7
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/8
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/9
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/10
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/11
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/12
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/13
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/14
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/15
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/16
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/17
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/18
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/19
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/20
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/21
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/22
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/23
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/24
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/25
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/26
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/27
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/28
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/29
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/30
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/31
+        type: 25gbase-x-sfp28
+      - name: Ethernet 0/32
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/33
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/34
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/35
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/36
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/37
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/38
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/39
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/40
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/41
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/42
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/43
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/44
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/45
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/46
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/47
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/48
-        type: 10gbase-x-sfpp
+        type: 25gbase-x-sfp28
       - name: Ethernet 0/49
         type: 100gbase-x-qsfp28
       - name: Ethernet 0/50
@@ -2432,21 +2555,25 @@ models:
         type: 100gbase-x-qsfp28
       - name: Ethernet 0/54
         type: 100gbase-x-qsfp28
+      - name: Ethernet 0/55
+        type: 100gbase-x-qsfp28
+      - name: Ethernet 0/56
+        type: 100gbase-x-qsfp28
       - mgmt_only: true
         name: Management0
         type: 1000base-t
     is_full_depth: true
     manufacturer: Extreme Networks
-    model: BR-SLX-9540-48S
-    part_number: BR-SLX-9540-48S
+    model: BR-SLX-9150-48Y
+    part_number: BR-SLX-9150-48Y
     power-ports:
-      - maximum_draw: 647
+      - maximum_draw: 750
         name: PS1
         type: iec-60320-c14
-      - maximum_draw: 647
+      - maximum_draw: 750
         name: PS2
         type: iec-60320-c14
-    slug: extreme-networks-br-slx-9540-48s
+    slug: extreme-networks-br-slx-9150-48y
     u_height: 1
   - console-ports:
       - name: Serial
@@ -2517,131 +2644,3 @@ models:
         type: iec-60320-c20
     slug: extreme-networks-br-mlxe-16-mr2-ac
     u_height: 14
-  - console-ports:
-      - name: Console
-        type: rj-45
-    interfaces:
-      - name: Ethernet 0/1
-        type: 10gbase-t
-      - name: Ethernet 0/2
-        type: 10gbase-t
-      - name: Ethernet 0/3
-        type: 10gbase-t
-      - name: Ethernet 0/4
-        type: 10gbase-t
-      - name: Ethernet 0/5
-        type: 10gbase-t
-      - name: Ethernet 0/6
-        type: 10gbase-t
-      - name: Ethernet 0/7
-        type: 10gbase-t
-      - name: Ethernet 0/8
-        type: 10gbase-t
-      - name: Ethernet 0/9
-        type: 10gbase-t
-      - name: Ethernet 0/10
-        type: 10gbase-t
-      - name: Ethernet 0/11
-        type: 10gbase-t
-      - name: Ethernet 0/12
-        type: 10gbase-t
-      - name: Ethernet 0/13
-        type: 10gbase-t
-      - name: Ethernet 0/14
-        type: 10gbase-t
-      - name: Ethernet 0/15
-        type: 10gbase-t
-      - name: Ethernet 0/16
-        type: 10gbase-t
-      - name: Ethernet 0/17
-        type: 10gbase-t
-      - name: Ethernet 0/18
-        type: 10gbase-t
-      - name: Ethernet 0/19
-        type: 10gbase-t
-      - name: Ethernet 0/20
-        type: 10gbase-t
-      - name: Ethernet 0/21
-        type: 10gbase-t
-      - name: Ethernet 0/22
-        type: 10gbase-t
-      - name: Ethernet 0/23
-        type: 10gbase-t
-      - name: Ethernet 0/24
-        type: 10gbase-t
-      - name: Ethernet 0/25
-        type: 10gbase-t
-      - name: Ethernet 0/26
-        type: 10gbase-t
-      - name: Ethernet 0/27
-        type: 10gbase-t
-      - name: Ethernet 0/28
-        type: 10gbase-t
-      - name: Ethernet 0/29
-        type: 10gbase-t
-      - name: Ethernet 0/30
-        type: 10gbase-t
-      - name: Ethernet 0/31
-        type: 10gbase-t
-      - name: Ethernet 0/32
-        type: 10gbase-t
-      - name: Ethernet 0/33
-        type: 10gbase-t
-      - name: Ethernet 0/34
-        type: 10gbase-t
-      - name: Ethernet 0/35
-        type: 10gbase-t
-      - name: Ethernet 0/36
-        type: 10gbase-t
-      - name: Ethernet 0/37
-        type: 10gbase-t
-      - name: Ethernet 0/38
-        type: 10gbase-t
-      - name: Ethernet 0/39
-        type: 10gbase-t
-      - name: Ethernet 0/40
-        type: 10gbase-t
-      - name: Ethernet 0/41
-        type: 10gbase-t
-      - name: Ethernet 0/42
-        type: 10gbase-t
-      - name: Ethernet 0/43
-        type: 10gbase-t
-      - name: Ethernet 0/44
-        type: 10gbase-t
-      - name: Ethernet 0/45
-        type: 10gbase-t
-      - name: Ethernet 0/46
-        type: 10gbase-t
-      - name: Ethernet 0/47
-        type: 10gbase-t
-      - name: Ethernet 0/48
-        type: 10gbase-t
-      - name: Ethernet 0/49
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/50
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/51
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/52
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/53
-        type: 100gbase-x-qsfp28
-      - name: Ethernet 0/54
-        type: 100gbase-x-qsfp28
-      - mgmt_only: true
-        name: Management0
-        type: 1000base-t
-    is_full_depth: true
-    manufacturer: Extreme Networks
-    model: BR-SLX-9150-48XT
-    part_number: BR-SLX-9150-48XT
-    power-ports:
-      - maximum_draw: 750
-        name: PS1
-        type: iec-60320-c14
-      - maximum_draw: 750
-        name: PS2
-        type: iec-60320-c14
-    slug: extreme-networks-br-slx-9150-48xt
-    u_height: 1

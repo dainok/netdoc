@@ -1,5 +1,6 @@
 keywords:
   - 7100 Security Gateway
+  - 8200 Max PFSense+ Security Gateway
 models:
   - console-ports:
       - description: '115200 baud rate, 8 data bits, no parity, 1 stop bit, no flow control
@@ -68,4 +69,62 @@ models:
         name: PSU1
         type: iec-60320-c14
     slug: netgate-7100-security-gateway
+    u_height: 1
+  - airflow: front-to-rear
+    console-ports:
+      - description: 'Auto-detect console port: use RJ-45 -OR- micro-USB.
+
+          115200 baud rate, 8 data bits, no parity, 1 stop bit, no flow control
+
+          or XON/OFF
+
+'
+        name: console-usb
+        type: usb-micro-b
+      - description: 'Auto-detect console port: use RJ-45 -OR- micro-USB.
+
+          115200 baud rate, 8 data bits, no parity, 1 stop bit, no flow control
+
+          or XON/OFF
+
+'
+        name: console-rj45
+        type: rj-45
+    console-server-ports:
+      - name: usb1
+        type: usb-a
+      - name: usb2
+        type: usb-a
+    interfaces:
+      - description: WAN1
+        name: ix0
+        type: 10gbase-x-sfpp
+      - description: WAN2
+        name: ix1
+        type: 10gbase-x-sfpp
+      - description: WAN3
+        name: ix2
+        type: 1000base-x-sfp
+      - description: WAN4
+        name: ix3
+        type: 1000base-x-sfp
+      - description: LAN1
+        name: igc0
+        type: 2.5gbase-t
+      - description: LAN2
+        name: igc1
+        type: 2.5gbase-t
+      - description: LAN3
+        name: igc2
+        type: 2.5gbase-t
+      - description: LAN4
+        name: igc3
+        type: 2.5gbase-t
+    is_full_depth: false
+    manufacturer: Netgate
+    model: 8200 Max PFSense+ Security Gateway
+    power-ports:
+      - name: psu1
+        type: dc-terminal
+    slug: netgate-8200-max-pfsense-plus-security-gateway
     u_height: 1

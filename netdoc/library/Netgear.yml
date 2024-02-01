@@ -1,20 +1,38 @@
 keywords:
   - GS105E
+  - GS116Ev2
   - GS110EMX
+  - ProSafe M5300-28G-POE+ (GSM7228PS)
+  - GSM7228PS
   - D6220
+  - ProSafe GSM7328Sv2
+  - GSM7328Sv2
   - GS116
   - GS308T
   - JGS524
+  - ProSafe M5300-28G (GSM7228S)
+  - GSM7228S
+  - ProSafe GSM7352Sv2
+  - GSM7352Sv2
+  - ProSafe M5300-52G (GSM7252S)
+  - GSM7252S
   - M4300-12X12F
+  - ProSafe GSM7328FS
+  - GSM7328FS
+  - ProSafe GSM7352Sv1
+  - GSM7352Sv1
   - GS108E
+  - ProSafe GSM7328Sv1
+  - GSM7328Sv1
   - GS308E
   - GS108
   - ProSafe GS752TP
   - GS752TP
   - GS108PEv3
   - GS108PEv3
-  - GS116Ev2
   - GS105
+  - ProSafe M5300-52G-POE+ (GSM7252PS)
+  - GSM7252PS
 models:
   - comments: '[Gigabit Plus Switch Series GS105E](https://www.netgear.com/business/wired/switches/plus/gs105ev2/)'
     interfaces:
@@ -31,7 +49,53 @@ models:
     is_full_depth: false
     manufacturer: Netgear
     model: GS105E
+    power-ports:
+      - name: PSU0
+        type: dc-terminal
     slug: netgear-gs105e
+    u_height: 1
+  - comments: '[Gigabit Unmanaged Switch Series GS116Ev2](https://www.netgear.com/support/product/GS116Ev2.aspx)'
+    interfaces:
+      - name: GigabitEthernet/1
+        type: 1000base-t
+      - name: GigabitEthernet/2
+        type: 1000base-t
+      - name: GigabitEthernet/3
+        type: 1000base-t
+      - name: GigabitEthernet/4
+        type: 1000base-t
+      - name: GigabitEthernet/5
+        type: 1000base-t
+      - name: GigabitEthernet/6
+        type: 1000base-t
+      - name: GigabitEthernet/7
+        type: 1000base-t
+      - name: GigabitEthernet/8
+        type: 1000base-t
+      - name: GigabitEthernet/9
+        type: 1000base-t
+      - name: GigabitEthernet/10
+        type: 1000base-t
+      - name: GigabitEthernet/11
+        type: 1000base-t
+      - name: GigabitEthernet/12
+        type: 1000base-t
+      - name: GigabitEthernet/13
+        type: 1000base-t
+      - name: GigabitEthernet/14
+        type: 1000base-t
+      - name: GigabitEthernet/15
+        type: 1000base-t
+      - name: GigabitEthernet/16
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Netgear
+    model: GS116Ev2
+    power-ports:
+      - maximum_draw: 10
+        name: PSU1
+        type: dc-terminal
+    slug: netgear-gs116ev2
     u_height: 1
   - airflow: passive
     comments: '[10-Gigabit/Multi-Gigabit Plus (GS110EMX)](https://www.netgear.com/business/wired/switches/plus/gs110emx/)'
@@ -59,9 +123,85 @@ models:
     is_full_depth: false
     manufacturer: Netgear
     model: GS110EMX
+    power-ports:
+      - name: PSU0
+        type: dc-terminal
     slug: netgear-gs110emx
     u_height: 1.0
     weight: 0.75
+    weight_unit: kg
+  - comments: "[GSM7228PS – ProSAFE 28-Port-L2-Managed-Stackable-Gigabit-Ethernet-Switch with PoE](https://netgear.de/support/product/gsm7228ps#docs)"
+    console-ports:
+      - name: console
+        type: de-9
+    interfaces:
+      - name: 1/0/1
+        type: 1000base-t
+      - name: 1/0/2
+        type: 1000base-t
+      - name: 1/0/3
+        type: 1000base-t
+      - name: 1/0/4
+        type: 1000base-t
+      - name: 1/0/5
+        type: 1000base-t
+      - name: 1/0/6
+        type: 1000base-t
+      - name: 1/0/7
+        type: 1000base-t
+      - name: 1/0/8
+        type: 1000base-t
+      - name: 1/0/9
+        type: 1000base-t
+      - name: 1/0/10
+        type: 1000base-t
+      - name: 1/0/11
+        type: 1000base-t
+      - name: 1/0/12
+        type: 1000base-t
+      - name: 1/0/13
+        type: 1000base-t
+      - name: 1/0/14
+        type: 1000base-t
+      - name: 1/0/15
+        type: 1000base-t
+      - name: 1/0/16
+        type: 1000base-t
+      - name: 1/0/17
+        type: 1000base-t
+      - name: 1/0/18
+        type: 1000base-t
+      - name: 1/0/19
+        type: 1000base-t
+      - name: 1/0/20
+        type: 1000base-t
+      - name: 1/0/21
+        type: 1000base-t
+      - name: 1/0/22
+        type: 1000base-t
+      - name: 1/0/23
+        type: 1000base-t
+      - name: 1/0/24
+        type: 1000base-t
+      - name: 1/0/25
+        type: 1000base-x-sfp
+      - name: 1/0/26
+        type: 1000base-x-sfp
+      - name: 1/0/27
+        type: 1000base-x-sfp
+      - name: 1/0/28
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Netgear
+    model: ProSafe M5300-28G-POE+ (GSM7228PS)
+    part_number: GSM7228PS
+    power-ports:
+      - maximum_draw: 535
+        name: Power
+        type: iec-60320-c14
+    slug: netgear-prosafe-gsm7228ps
+    u_height: 1
+    weight: 6.3
     weight_unit: kg
   - airflow: passive
     comments: 'WiFi VDSL2/ADSL2+ Modem Router\r\nSpecifications: [D6220](https://www.netgear.com/support/product/d6220)'
@@ -97,6 +237,79 @@ models:
     u_height: 0
     weight: 341
     weight_unit: g
+  - comments: "[GSM7328Sv2 – ProSAFE L3-Managed-Stackable-Gigabit-Ethernet-Switch (24+4)](https://netgear.de/support/product/gsm7328sv2#docs)"
+    console-ports:
+      - name: console
+        type: de-9
+    interfaces:
+      - name: 1/0/1
+        type: 1000base-t
+      - name: 1/0/2
+        type: 1000base-t
+      - name: 1/0/3
+        type: 1000base-t
+      - name: 1/0/4
+        type: 1000base-t
+      - name: 1/0/5
+        type: 1000base-t
+      - name: 1/0/6
+        type: 1000base-t
+      - name: 1/0/7
+        type: 1000base-t
+      - name: 1/0/8
+        type: 1000base-t
+      - name: 1/0/9
+        type: 1000base-t
+      - name: 1/0/10
+        type: 1000base-t
+      - name: 1/0/11
+        type: 1000base-t
+      - name: 1/0/12
+        type: 1000base-t
+      - name: 1/0/13
+        type: 1000base-t
+      - name: 1/0/14
+        type: 1000base-t
+      - name: 1/0/15
+        type: 1000base-t
+      - name: 1/0/16
+        type: 1000base-t
+      - name: 1/0/17
+        type: 1000base-t
+      - name: 1/0/18
+        type: 1000base-t
+      - name: 1/0/19
+        type: 1000base-t
+      - name: 1/0/20
+        type: 1000base-t
+      - name: 1/0/21
+        type: 1000base-t
+      - name: 1/0/22
+        type: 1000base-t
+      - name: 1/0/23
+        type: 1000base-t
+      - name: 1/0/24
+        type: 1000base-t
+      - name: 1/0/25
+        type: 1000base-x-sfp
+      - name: 1/0/26
+        type: 1000base-x-sfp
+      - name: 1/0/27
+        type: 1000base-x-sfp
+      - name: 1/0/28
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Netgear
+    model: ProSafe GSM7328Sv2
+    part_number: GSM7328Sv2
+    power-ports:
+      - maximum_draw: 80
+        name: Power
+        type: iec-60320-c14
+    slug: netgear-prosafe-gsm7328sv2
+    u_height: 1
+    weight: 4.5
+    weight_unit: kg
   - comments: '[Gigabit Unmanaged Switch Series GS116](https://www.netgear.com/business/wired/switches/unmanaged/gs116/)'
     interfaces:
       - name: GigabitEthernet/1
@@ -229,6 +442,321 @@ models:
         type: iec-60320-c14
     slug: netgear-jgs524
     u_height: 1
+  - comments: "[M5300-28G (GSM7228S) – ProSAFE 24-Port-L2+-Managed-Stackable-Gigabit-Switch](https://netgear.de/support/product/m5300-28g%20(gsm7228s)#docs)"
+    console-ports:
+      - name: console
+        type: de-9
+    interfaces:
+      - name: 1/0/1
+        type: 1000base-t
+      - name: 1/0/2
+        type: 1000base-t
+      - name: 1/0/3
+        type: 1000base-t
+      - name: 1/0/4
+        type: 1000base-t
+      - name: 1/0/5
+        type: 1000base-t
+      - name: 1/0/6
+        type: 1000base-t
+      - name: 1/0/7
+        type: 1000base-t
+      - name: 1/0/8
+        type: 1000base-t
+      - name: 1/0/9
+        type: 1000base-t
+      - name: 1/0/10
+        type: 1000base-t
+      - name: 1/0/11
+        type: 1000base-t
+      - name: 1/0/12
+        type: 1000base-t
+      - name: 1/0/13
+        type: 1000base-t
+      - name: 1/0/14
+        type: 1000base-t
+      - name: 1/0/15
+        type: 1000base-t
+      - name: 1/0/16
+        type: 1000base-t
+      - name: 1/0/17
+        type: 1000base-t
+      - name: 1/0/18
+        type: 1000base-t
+      - name: 1/0/19
+        type: 1000base-t
+      - name: 1/0/20
+        type: 1000base-t
+      - name: 1/0/21
+        type: 1000base-t
+      - name: 1/0/22
+        type: 1000base-t
+      - name: 1/0/23
+        type: 1000base-t
+      - name: 1/0/24
+        type: 1000base-t
+      - name: 1/0/25
+        type: 1000base-x-sfp
+      - name: 1/0/26
+        type: 1000base-x-sfp
+      - name: 1/0/27
+        type: 1000base-x-sfp
+      - name: 1/0/28
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Netgear
+    model: ProSafe M5300-28G (GSM7228S)
+    part_number: GSM7228S
+    power-ports:
+      - maximum_draw: 55
+        name: Power
+        type: iec-60320-c14
+    slug: netgear-prosafe-gsm7228s
+    u_height: 1
+    weight: 6.3
+    weight_unit: kg
+  - comments: "[GSM7352Sv2 – ProSAFE L3-Managed-Stackable-Gigabit-Ethernet-Switch (48+4)](https://netgear.de/support/product/gsm7352sv2)"
+    console-ports:
+      - name: console
+        type: de-9
+    interfaces:
+      - name: 1/0/1
+        type: 1000base-t
+      - name: 1/0/2
+        type: 1000base-t
+      - name: 1/0/3
+        type: 1000base-t
+      - name: 1/0/4
+        type: 1000base-t
+      - name: 1/0/5
+        type: 1000base-t
+      - name: 1/0/6
+        type: 1000base-t
+      - name: 1/0/7
+        type: 1000base-t
+      - name: 1/0/8
+        type: 1000base-t
+      - name: 1/0/9
+        type: 1000base-t
+      - name: 1/0/10
+        type: 1000base-t
+      - name: 1/0/11
+        type: 1000base-t
+      - name: 1/0/12
+        type: 1000base-t
+      - name: 1/0/13
+        type: 1000base-t
+      - name: 1/0/14
+        type: 1000base-t
+      - name: 1/0/15
+        type: 1000base-t
+      - name: 1/0/16
+        type: 1000base-t
+      - name: 1/0/17
+        type: 1000base-t
+      - name: 1/0/18
+        type: 1000base-t
+      - name: 1/0/19
+        type: 1000base-t
+      - name: 1/0/20
+        type: 1000base-t
+      - name: 1/0/21
+        type: 1000base-t
+      - name: 1/0/22
+        type: 1000base-t
+      - name: 1/0/23
+        type: 1000base-t
+      - name: 1/0/24
+        type: 1000base-t
+      - name: 1/0/25
+        type: 1000base-t
+      - name: 1/0/26
+        type: 1000base-t
+      - name: 1/0/27
+        type: 1000base-t
+      - name: 1/0/28
+        type: 1000base-t
+      - name: 1/0/29
+        type: 1000base-t
+      - name: 1/0/30
+        type: 1000base-t
+      - name: 1/0/31
+        type: 1000base-t
+      - name: 1/0/32
+        type: 1000base-t
+      - name: 1/0/33
+        type: 1000base-t
+      - name: 1/0/34
+        type: 1000base-t
+      - name: 1/0/35
+        type: 1000base-t
+      - name: 1/0/36
+        type: 1000base-t
+      - name: 1/0/37
+        type: 1000base-t
+      - name: 1/0/38
+        type: 1000base-t
+      - name: 1/0/39
+        type: 1000base-t
+      - name: 1/0/40
+        type: 1000base-t
+      - name: 1/0/41
+        type: 1000base-t
+      - name: 1/0/42
+        type: 1000base-t
+      - name: 1/0/43
+        type: 1000base-t
+      - name: 1/0/44
+        type: 1000base-t
+      - name: 1/0/45
+        type: 1000base-t
+      - name: 1/0/46
+        type: 1000base-t
+      - name: 1/0/47
+        type: 1000base-t
+      - name: 1/0/48
+        type: 1000base-t
+      - name: 1/0/49
+        type: 1000base-x-sfp
+      - name: 1/0/50
+        type: 1000base-x-sfp
+      - name: 1/0/51
+        type: 1000base-x-sfp
+      - name: 1/0/52
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Netgear
+    model: ProSafe GSM7352Sv2
+    part_number: GSM7352Sv2
+    power-ports:
+      - maximum_draw: 92
+        name: Power
+        type: iec-60320-c14
+    slug: netgear-prosafe-gsm7352sv2
+    u_height: 1
+    weight: 5.4
+    weight_unit: kg
+  - comments: "[M5300-52G (GSM7252S) – ProSAFE 48-Port-L2+-Managed-Stackable-Gigabit-Switch](https://netgear.de/support/product/m5300-52g%20(gsm7252s)#docs)"
+    console-ports:
+      - name: console
+        type: de-9
+    interfaces:
+      - name: 1/0/1
+        type: 1000base-t
+      - name: 1/0/2
+        type: 1000base-t
+      - name: 1/0/3
+        type: 1000base-t
+      - name: 1/0/4
+        type: 1000base-t
+      - name: 1/0/5
+        type: 1000base-t
+      - name: 1/0/6
+        type: 1000base-t
+      - name: 1/0/7
+        type: 1000base-t
+      - name: 1/0/8
+        type: 1000base-t
+      - name: 1/0/9
+        type: 1000base-t
+      - name: 1/0/10
+        type: 1000base-t
+      - name: 1/0/11
+        type: 1000base-t
+      - name: 1/0/12
+        type: 1000base-t
+      - name: 1/0/13
+        type: 1000base-t
+      - name: 1/0/14
+        type: 1000base-t
+      - name: 1/0/15
+        type: 1000base-t
+      - name: 1/0/16
+        type: 1000base-t
+      - name: 1/0/17
+        type: 1000base-t
+      - name: 1/0/18
+        type: 1000base-t
+      - name: 1/0/19
+        type: 1000base-t
+      - name: 1/0/20
+        type: 1000base-t
+      - name: 1/0/21
+        type: 1000base-t
+      - name: 1/0/22
+        type: 1000base-t
+      - name: 1/0/23
+        type: 1000base-t
+      - name: 1/0/24
+        type: 1000base-t
+      - name: 1/0/25
+        type: 1000base-t
+      - name: 1/0/26
+        type: 1000base-t
+      - name: 1/0/27
+        type: 1000base-t
+      - name: 1/0/28
+        type: 1000base-t
+      - name: 1/0/29
+        type: 1000base-t
+      - name: 1/0/30
+        type: 1000base-t
+      - name: 1/0/31
+        type: 1000base-t
+      - name: 1/0/32
+        type: 1000base-t
+      - name: 1/0/33
+        type: 1000base-t
+      - name: 1/0/34
+        type: 1000base-t
+      - name: 1/0/35
+        type: 1000base-t
+      - name: 1/0/36
+        type: 1000base-t
+      - name: 1/0/37
+        type: 1000base-t
+      - name: 1/0/38
+        type: 1000base-t
+      - name: 1/0/39
+        type: 1000base-t
+      - name: 1/0/40
+        type: 1000base-t
+      - name: 1/0/41
+        type: 1000base-t
+      - name: 1/0/42
+        type: 1000base-t
+      - name: 1/0/43
+        type: 1000base-t
+      - name: 1/0/44
+        type: 1000base-t
+      - name: 1/0/45
+        type: 1000base-t
+      - name: 1/0/46
+        type: 1000base-t
+      - name: 1/0/47
+        type: 1000base-t
+      - name: 1/0/48
+        type: 1000base-t
+      - name: 1/0/49
+        type: 1000base-x-sfp
+      - name: 1/0/50
+        type: 1000base-x-sfp
+      - name: 1/0/51
+        type: 1000base-x-sfp
+      - name: 1/0/52
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Netgear
+    model: ProSafe M5300-52G (GSM7252S)
+    part_number: GSM7252S
+    power-ports:
+      - maximum_draw: 79
+        name: Power
+        type: iec-60320-c14
+    slug: netgear-prosafe-gsm7252s
+    u_height: 1
+    weight: 6.8
+    weight_unit: kg
   - airflow: front-to-rear
     comments: 'Documentation: [https://www.netgear.it/support/product/m4300-12x12f.aspx](https://www.netgear.it/support/product/m4300-12x12f.aspx)'
     manufacturer: Netgear
@@ -243,6 +771,200 @@ models:
     slug: netgear-m4300-12x12f
     subdevice_role: parent
     u_height: 1
+  - comments: "[GSM7328FS – ProSAFE L3-Managed-Stackable-Switch (24 SFP, 4 GbE)](https://netgear.de/support/product/gsm7328fs#docs)"
+    console-ports:
+      - name: console
+        type: de-9
+    interfaces:
+      - name: 1/0/1
+        type: 1000base-x-sfp
+      - name: 1/0/2
+        type: 1000base-x-sfp
+      - name: 1/0/3
+        type: 1000base-x-sfp
+      - name: 1/0/4
+        type: 1000base-x-sfp
+      - name: 1/0/5
+        type: 1000base-x-sfp
+      - name: 1/0/6
+        type: 1000base-x-sfp
+      - name: 1/0/7
+        type: 1000base-x-sfp
+      - name: 1/0/8
+        type: 1000base-x-sfp
+      - name: 1/0/9
+        type: 1000base-x-sfp
+      - name: 1/0/10
+        type: 1000base-x-sfp
+      - name: 1/0/11
+        type: 1000base-x-sfp
+      - name: 1/0/12
+        type: 1000base-x-sfp
+      - name: 1/0/13
+        type: 1000base-x-sfp
+      - name: 1/0/14
+        type: 1000base-x-sfp
+      - name: 1/0/15
+        type: 1000base-x-sfp
+      - name: 1/0/16
+        type: 1000base-x-sfp
+      - name: 1/0/17
+        type: 1000base-x-sfp
+      - name: 1/0/18
+        type: 1000base-x-sfp
+      - name: 1/0/19
+        type: 1000base-x-sfp
+      - name: 1/0/20
+        type: 1000base-x-sfp
+      - name: 1/0/21
+        type: 1000base-x-sfp
+      - name: 1/0/22
+        type: 1000base-x-sfp
+      - name: 1/0/23
+        type: 1000base-x-sfp
+      - name: 1/0/24
+        type: 1000base-x-sfp
+      - name: 1/0/25
+        type: 1000base-t
+      - name: 1/0/26
+        type: 1000base-t
+      - name: 1/0/27
+        type: 1000base-t
+      - name: 1/0/28
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Netgear
+    model: ProSafe GSM7328FS
+    part_number: GSM7328FS
+    power-ports:
+      - maximum_draw: 78
+        name: Power
+        type: iec-60320-c14
+    slug: netgear-prosafe-gsm7328fs
+    u_height: 1
+    weight: 5.4
+    weight_unit: kg
+  - comments: "[GSM7352Sv1 – ProSAFE L3-Managed-Stackable-Gigabit-Ethernet-Switch (48+4)](https://netgear.de/support/product/gsm7352sv1)"
+    console-ports:
+      - name: console
+        type: de-9
+    interfaces:
+      - name: 1/0/1
+        type: 1000base-t
+      - name: 1/0/2
+        type: 1000base-t
+      - name: 1/0/3
+        type: 1000base-t
+      - name: 1/0/4
+        type: 1000base-t
+      - name: 1/0/5
+        type: 1000base-t
+      - name: 1/0/6
+        type: 1000base-t
+      - name: 1/0/7
+        type: 1000base-t
+      - name: 1/0/8
+        type: 1000base-t
+      - name: 1/0/9
+        type: 1000base-t
+      - name: 1/0/10
+        type: 1000base-t
+      - name: 1/0/11
+        type: 1000base-t
+      - name: 1/0/12
+        type: 1000base-t
+      - name: 1/0/13
+        type: 1000base-t
+      - name: 1/0/14
+        type: 1000base-t
+      - name: 1/0/15
+        type: 1000base-t
+      - name: 1/0/16
+        type: 1000base-t
+      - name: 1/0/17
+        type: 1000base-t
+      - name: 1/0/18
+        type: 1000base-t
+      - name: 1/0/19
+        type: 1000base-t
+      - name: 1/0/20
+        type: 1000base-t
+      - name: 1/0/21
+        type: 1000base-t
+      - name: 1/0/22
+        type: 1000base-t
+      - name: 1/0/23
+        type: 1000base-t
+      - name: 1/0/24
+        type: 1000base-t
+      - name: 1/0/25
+        type: 1000base-t
+      - name: 1/0/26
+        type: 1000base-t
+      - name: 1/0/27
+        type: 1000base-t
+      - name: 1/0/28
+        type: 1000base-t
+      - name: 1/0/29
+        type: 1000base-t
+      - name: 1/0/30
+        type: 1000base-t
+      - name: 1/0/31
+        type: 1000base-t
+      - name: 1/0/32
+        type: 1000base-t
+      - name: 1/0/33
+        type: 1000base-t
+      - name: 1/0/34
+        type: 1000base-t
+      - name: 1/0/35
+        type: 1000base-t
+      - name: 1/0/36
+        type: 1000base-t
+      - name: 1/0/37
+        type: 1000base-t
+      - name: 1/0/38
+        type: 1000base-t
+      - name: 1/0/39
+        type: 1000base-t
+      - name: 1/0/40
+        type: 1000base-t
+      - name: 1/0/41
+        type: 1000base-t
+      - name: 1/0/42
+        type: 1000base-t
+      - name: 1/0/43
+        type: 1000base-t
+      - name: 1/0/44
+        type: 1000base-t
+      - name: 1/0/45
+        type: 1000base-t
+      - name: 1/0/46
+        type: 1000base-t
+      - name: 1/0/47
+        type: 1000base-t
+      - name: 1/0/48
+        type: 1000base-t
+      - name: 1/0/49
+        type: 1000base-x-sfp
+      - name: 1/0/50
+        type: 1000base-x-sfp
+      - name: 1/0/51
+        type: 1000base-x-sfp
+      - name: 1/0/52
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Netgear
+    model: ProSafe GSM7352Sv1
+    part_number: GSM7352Sv1
+    power-ports:
+      - maximum_draw: 80
+        name: Power
+        type: iec-60320-c14
+    slug: netgear-prosafe-gsm7352sv1
+    u_height: 1
+    weight: 5.4
+    weight_unit: kg
   - comments: '[Gigabit Plus Switch Series GS108E](https://www.netgear.com/business/wired/switches/plus/gs108e/)'
     interfaces:
       - name: GigabitEthernet/1
@@ -264,8 +986,84 @@ models:
     is_full_depth: false
     manufacturer: Netgear
     model: GS108E
+    power-ports:
+      - name: PSU0
+        type: dc-terminal
     slug: netgear-gs108e
     u_height: 1
+  - comments: "[GSM7328Sv1 – ProSAFE L3-Managed-Stackable-Gigabit-Ethernet-Switch (24+4)](https://netgear.de/support/product/gsm7328sv1#docs)"
+    console-ports:
+      - name: console
+        type: de-9
+    interfaces:
+      - name: 1/0/1
+        type: 1000base-t
+      - name: 1/0/2
+        type: 1000base-t
+      - name: 1/0/3
+        type: 1000base-t
+      - name: 1/0/4
+        type: 1000base-t
+      - name: 1/0/5
+        type: 1000base-t
+      - name: 1/0/6
+        type: 1000base-t
+      - name: 1/0/7
+        type: 1000base-t
+      - name: 1/0/8
+        type: 1000base-t
+      - name: 1/0/9
+        type: 1000base-t
+      - name: 1/0/10
+        type: 1000base-t
+      - name: 1/0/11
+        type: 1000base-t
+      - name: 1/0/12
+        type: 1000base-t
+      - name: 1/0/13
+        type: 1000base-t
+      - name: 1/0/14
+        type: 1000base-t
+      - name: 1/0/15
+        type: 1000base-t
+      - name: 1/0/16
+        type: 1000base-t
+      - name: 1/0/17
+        type: 1000base-t
+      - name: 1/0/18
+        type: 1000base-t
+      - name: 1/0/19
+        type: 1000base-t
+      - name: 1/0/20
+        type: 1000base-t
+      - name: 1/0/21
+        type: 1000base-t
+      - name: 1/0/22
+        type: 1000base-t
+      - name: 1/0/23
+        type: 1000base-t
+      - name: 1/0/24
+        type: 1000base-t
+      - name: 1/0/25
+        type: 1000base-x-sfp
+      - name: 1/0/26
+        type: 1000base-x-sfp
+      - name: 1/0/27
+        type: 1000base-x-sfp
+      - name: 1/0/28
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Netgear
+    model: ProSafe GSM7328Sv1
+    part_number: GSM7328Sv1
+    power-ports:
+      - maximum_draw: 80
+        name: Power
+        type: iec-60320-c14
+    slug: netgear-prosafe-gsm7328sv1
+    u_height: 1
+    weight: 4.5
+    weight_unit: kg
   - airflow: passive
     comments: '[300 Series SOHO Plus (GS308E)](https://www.netgear.com/business/wired/switches/plus/gs308e/)'
     interfaces:
@@ -317,6 +1115,9 @@ models:
     is_full_depth: false
     manufacturer: Netgear
     model: GS108
+    power-ports:
+      - name: PSU0
+        type: dc-terminal
     slug: netgear-gs108
     u_height: 1
   - comments: '[52-Port Gigabit Ethernet Smart Switch with 4 SFP Ports (40 PoE, 8 PoE+)](https://www.netgear.com/support/product/GS752TP.aspx)'
@@ -474,49 +1275,6 @@ models:
     u_height: 0
     weight: 0.54
     weight_unit: kg
-  - comments: '[Gigabit Unmanaged Switch Series GS116Ev2](https://www.netgear.com/support/product/GS116Ev2.aspx)'
-    interfaces:
-      - name: GigabitEthernet/1
-        type: 1000base-t
-      - name: GigabitEthernet/2
-        type: 1000base-t
-      - name: GigabitEthernet/3
-        type: 1000base-t
-      - name: GigabitEthernet/4
-        type: 1000base-t
-      - name: GigabitEthernet/5
-        type: 1000base-t
-      - name: GigabitEthernet/6
-        type: 1000base-t
-      - name: GigabitEthernet/7
-        type: 1000base-t
-      - name: GigabitEthernet/8
-        type: 1000base-t
-      - name: GigabitEthernet/9
-        type: 1000base-t
-      - name: GigabitEthernet/10
-        type: 1000base-t
-      - name: GigabitEthernet/11
-        type: 1000base-t
-      - name: GigabitEthernet/12
-        type: 1000base-t
-      - name: GigabitEthernet/13
-        type: 1000base-t
-      - name: GigabitEthernet/14
-        type: 1000base-t
-      - name: GigabitEthernet/15
-        type: 1000base-t
-      - name: GigabitEthernet/16
-        type: 1000base-t
-    is_full_depth: false
-    manufacturer: Netgear
-    model: GS116Ev2
-    power-ports:
-      - maximum_draw: 10
-        name: PSU1
-        type: dc-terminal
-    slug: netgear-gs116ev2
-    u_height: 1
   - comments: '[Gigabit Unmanaged Switch Series GS105](https://www.netgear.com/business/wired/switches/unmanaged/gs105/)'
     interfaces:
       - name: GigabitEthernet/1
@@ -532,5 +1290,129 @@ models:
     is_full_depth: false
     manufacturer: Netgear
     model: GS105
+    power-ports:
+      - name: PSU0
+        type: dc-terminal
     slug: netgear-gs105
     u_height: 1
+  - comments: "[GSM7252PS – ProSAFE 52-Port-L2-Managed-Stackable-Gigabit-Ethernet-Switch with PoE](https://netgear.de/support/product/gsm7252ps#docs)"
+    console-ports:
+      - name: console
+        type: de-9
+    interfaces:
+      - name: 1/0/1
+        type: 1000base-t
+      - name: 1/0/2
+        type: 1000base-t
+      - name: 1/0/3
+        type: 1000base-t
+      - name: 1/0/4
+        type: 1000base-t
+      - name: 1/0/5
+        type: 1000base-t
+      - name: 1/0/6
+        type: 1000base-t
+      - name: 1/0/7
+        type: 1000base-t
+      - name: 1/0/8
+        type: 1000base-t
+      - name: 1/0/9
+        type: 1000base-t
+      - name: 1/0/10
+        type: 1000base-t
+      - name: 1/0/11
+        type: 1000base-t
+      - name: 1/0/12
+        type: 1000base-t
+      - name: 1/0/13
+        type: 1000base-t
+      - name: 1/0/14
+        type: 1000base-t
+      - name: 1/0/15
+        type: 1000base-t
+      - name: 1/0/16
+        type: 1000base-t
+      - name: 1/0/17
+        type: 1000base-t
+      - name: 1/0/18
+        type: 1000base-t
+      - name: 1/0/19
+        type: 1000base-t
+      - name: 1/0/20
+        type: 1000base-t
+      - name: 1/0/21
+        type: 1000base-t
+      - name: 1/0/22
+        type: 1000base-t
+      - name: 1/0/23
+        type: 1000base-t
+      - name: 1/0/24
+        type: 1000base-t
+      - name: 1/0/25
+        type: 1000base-t
+      - name: 1/0/26
+        type: 1000base-t
+      - name: 1/0/27
+        type: 1000base-t
+      - name: 1/0/28
+        type: 1000base-t
+      - name: 1/0/29
+        type: 1000base-t
+      - name: 1/0/30
+        type: 1000base-t
+      - name: 1/0/31
+        type: 1000base-t
+      - name: 1/0/32
+        type: 1000base-t
+      - name: 1/0/33
+        type: 1000base-t
+      - name: 1/0/34
+        type: 1000base-t
+      - name: 1/0/35
+        type: 1000base-t
+      - name: 1/0/36
+        type: 1000base-t
+      - name: 1/0/37
+        type: 1000base-t
+      - name: 1/0/38
+        type: 1000base-t
+      - name: 1/0/39
+        type: 1000base-t
+      - name: 1/0/40
+        type: 1000base-t
+      - name: 1/0/41
+        type: 1000base-t
+      - name: 1/0/42
+        type: 1000base-t
+      - name: 1/0/43
+        type: 1000base-t
+      - name: 1/0/44
+        type: 1000base-t
+      - name: 1/0/45
+        type: 1000base-t
+      - name: 1/0/46
+        type: 1000base-t
+      - name: 1/0/47
+        type: 1000base-t
+      - name: 1/0/48
+        type: 1000base-t
+      - name: 1/0/49
+        type: 1000base-x-sfp
+      - name: 1/0/50
+        type: 1000base-x-sfp
+      - name: 1/0/51
+        type: 1000base-x-sfp
+      - name: 1/0/52
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Netgear
+    model: ProSafe M5300-52G-POE+ (GSM7252PS)
+    part_number: GSM7252PS
+    power-ports:
+      - maximum_draw: 556
+        name: Power
+        type: iec-60320-c14
+    slug: netgear-prosafe-gsm7252ps
+    u_height: 1
+    weight: 6.8
+    weight_unit: kg

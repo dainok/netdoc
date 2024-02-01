@@ -5,48 +5,88 @@ keywords:
   - FG-200D
   - FortiGate 300E
   - FG-300E
+  - FortiSwitch 224D-FPOE
+  - FS-224D-FPOE
+  - FortiGate 61E
+  - FG-61E
+  - FortiAP 221E
+  - FAP-221E
+  - FortiSwitch 108F
+  - FS-108F
+  - FortiGate 3700D
+  - FG-3700D
+  - FortiGate 80C
+  - FG-80C
+  - FortiSwitch 108F-FPOE
+  - FS-108F-FPOE
   - FortiGate 100EF
   - FG-100EF
+  - FortiGate 90G
+  - FG-90G
   - FortiGate 81E
   - FG-81E
+  - FortiSwitch 248E-POE
+  - FS-248E-POE
+  - FortiGate 300D
+  - FG-300D
   - SP-RACKTRAY-02
   - SP-RACKTRAY-02
-  - FortiSwitch 224E-POE
-  - FS-224E-POE
+  - FortiGate 1000D
+  - FG-1000D
   - FortiGate 200E
   - FG-200E
   - FortiGate 1100E
   - FG-1100E
   - FortiGate 60E
   - FG-60E
+  - FortiGate 800D
+  - FG-800D
   - FortiGate 140E-POE
   - FG-140E-POE
+  - FortiGate 80D
+  - FG-80D
   - FortiGate 100D
   - FG-100D
   - FortiGate 601F
   - FG-601F
+  - FortiSwitch 124F-FPOE
+  - FS-124F-FPOE
   - FortiGate 300C
   - FG-300C
   - FortiGate 1500DT
   - FG-1500DT
+  - FortiSwitch 1024D
+  - FS-1024D
   - FortiGate 301E
   - FG-301E
+  - FortiGate 400F
+  - FG-400F
   - FortiGate 1101E
   - FG-1101E
   - FortiGate 100E
   - FG-100E
   - FortiGate 201E
   - FG-201E
+  - FortiSwitch 108F-POE
+  - FS-108F-POE
   - FortiGate 80E
   - FG-80E
   - FortiGate 90D
   - FG-90D
+  - FortiSwitch 124F-POE
+  - FS-124F-POE
+  - FortiGate 3400E
+  - FG-3400E
   - FortiSwitch 448D-POE
   - FS-448D-POE
+  - FortiSwitch 224E
+  - FS-224E
   - FortiSwitch 424E-FPOE
   - FS-424E-FPOE
   - FortiGate 80F
   - FG-80F
+  - FortiAP C24JE
+  - FAP-C24JE
   - FortiGate 40F
   - FG-40F
   - FortiGate 3000D
@@ -55,6 +95,8 @@ keywords:
   - FG-400E
   - FortiWeb 2000E
   - FWB-2000E
+  - FortiSwitch 124E-FPOE
+  - FS-124E-FPOE
   - FortiGate 100F
   - FG-100F
   - FortiGate 80E-POE
@@ -69,10 +111,20 @@ keywords:
   - FS-248E-FPOE
   - FortiGate 60F
   - FG-60F
+  - FortiSwitch 424E-Fiber
+  - FS-424E-Fiber
   - FortiGate 3301E
   - FG-3301E
+  - FortiGate 51E
+  - FG-51E
+  - FortiSwitch 224E-POE
+  - FS-224E-POE
+  - FortiGate 401E
+  - FG-401E
   - FortiSwitch 448D-FPOE
   - FS-448D-FPOE
+  - FortiSwitch 124E-POE
+  - FS-124E-POE
   - FortiSwitch 1048E
   - FS-1048E
   - FortiGate 60D
@@ -93,14 +145,28 @@ keywords:
   - FG-2200E
   - FortiGate 1800F
   - FG-1800F
+  - FortiSwitch 108E-POE
+  - FS-108E-POE
+  - FortiGate 3200D
+  - FG-3200D
+  - FortiSwitch 648F
+  - FS-648F
+  - FortiGate 61F
+  - FG-61F
   - FortiGate 2600F
   - FG-2600F
+  - FortiSwitch 548D-FPOE
+  - FS-548D-FPOE
   - FortiGate 50E
   - FG-50E
   - FortiGate 3300E
   - FG-3300E
+  - FortiSwitch 108E-FPOE
+  - FS-108E-FPOE
   - FortiGate 600E
   - FG-600E
+  - FortiGate 501E
+  - FG-501E
 models:
   - comments: Same as FG-601F, but **WITHOUT** 2 x 240GB SSDs on-board.
     console-ports:
@@ -326,18 +392,428 @@ models:
     is_full_depth: false
     manufacturer: Fortinet
     model: FortiGate 300E
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: FG-300E
-    power-ports:
-      - allocated_draw: 95
-        maximum_draw: 180
-        name: PS1
-        type: iec-60320-c14
-      - allocated_draw: 95
-        maximum_draw: 180
-        name: PS2
-        type: iec-60320-c14
     slug: fortinet-fg-300e
     u_height: 1
+  - airflow: side-to-rear
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 224D-FPOE QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/224d-fpoe-quickstart-guide)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: port1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port17
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port18
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port19
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port20
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port21
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port22
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port23
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port24
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port25
+        type: 1000base-x-sfp
+      - name: port26
+        type: 1000base-x-sfp
+      - name: port27
+        type: 1000base-x-sfp
+      - name: port28
+        type: 1000base-x-sfp
+      - mgmt_only: true
+        name: mgmt
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 224D-FPOE
+    module-bays:
+      - allocated_draw: 380
+        maximum_draw: 397
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 380
+        maximum_draw: 397
+        name: RPScon
+        type: dc-terminal
+    part_number: FS-224D-FPOE
+    slug: fortinet-fs-224d-fpoe
+    u_height: 1
+    weight: 10.64
+    weight_unit: lb
+  - airflow: passive
+    comments: Same as FG-60E, but **WITH** 1 x 128 GB SSD onboard storage.
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: dmz
+        type: 1000base-t
+      - name: internal1
+        type: 1000base-t
+      - name: internal2
+        type: 1000base-t
+      - name: internal3
+        type: 1000base-t
+      - name: internal4
+        type: 1000base-t
+      - name: internal5
+        type: 1000base-t
+      - name: internal6
+        type: 1000base-t
+      - name: internal7
+        type: 1000base-t
+      - name: wan1
+        type: 1000base-t
+      - name: wan2
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiGate 61E
+    part_number: FG-61E
+    power-ports:
+      - allocated_draw: 12
+        label: 12V DC
+        maximum_draw: 14
+        name: PS1
+        type: dc-terminal
+    slug: fortinet-fg-61e
+    u_height: 1
+    weight: 0.9
+    weight_unit: kg
+  - airflow: passive
+    comments: '[FortiAP Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortiap-series.pdf), [FortiAP 221E/223E, FAP-221E+/223E+ QuickStart Guide](https://docs.fortinet.com/document/fortiap/hardware/fortiap-221e-223e-fap-221e-223e-quickstart-guide-gen-2)'
+    interfaces:
+      - name: wan-poe
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
+        type: 1000base-t
+      - name: radio-1
+        type: ieee802.11n
+      - name: radio-2
+        type: ieee802.11ac
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiAP 221E
+    part_number: FAP-221E
+    slug: fortinet-fap-221e
+    u_height: 0.0
+    weight: 1.1
+    weight_unit: lb
+  - airflow: passive
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 108F Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-108f-series-qsg)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: port1
+        type: 1000base-t
+      - name: port2
+        type: 1000base-t
+      - name: port3
+        type: 1000base-t
+      - name: port4
+        type: 1000base-t
+      - name: port5
+        type: 1000base-t
+      - name: port6
+        type: 1000base-t
+      - name: port7
+        type: 1000base-t
+      - name: port8
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
+        type: 1000base-t
+      - name: port9
+        type: 1000base-x-sfp
+      - name: port10
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 108F
+    part_number: FS-108F
+    power-ports:
+      - allocated_draw: 6
+        label: 12VDC
+        maximum_draw: 6
+        name: PS1
+        type: dc-terminal
+    slug: fortinet-fs-108f
+    u_height: 1
+    weight: 0.62
+    weight_unit: kg
+  - airflow: front-to-rear
+    comments: '[FortiGate 3700D Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_3700D.pdf)'
+    console-ports:
+      - name: Console
+        type: rj-45
+      - name: USB MGMT
+        type: usb-mini-b
+    front_image: true
+    interfaces:
+      - mgmt_only: true
+        name: mgmt1
+        type: 1000base-t
+      - mgmt_only: true
+        name: mgmt2
+        type: 1000base-t
+      - name: port1
+        type: 40gbase-x-qsfpp
+      - name: port2
+        type: 40gbase-x-qsfpp
+      - name: port3
+        type: 40gbase-x-qsfpp
+      - name: port4
+        type: 40gbase-x-qsfpp
+      - name: port5
+        type: 10gbase-x-sfpp
+      - name: port6
+        type: 10gbase-x-sfpp
+      - name: port7
+        type: 10gbase-x-sfpp
+      - name: port8
+        type: 10gbase-x-sfpp
+      - name: port9
+        type: 10gbase-x-sfpp
+      - name: port10
+        type: 10gbase-x-sfpp
+      - name: port11
+        type: 10gbase-x-sfpp
+      - name: port12
+        type: 10gbase-x-sfpp
+      - name: port13
+        type: 10gbase-x-sfpp
+      - name: port14
+        type: 10gbase-x-sfpp
+      - name: port15
+        type: 10gbase-x-sfpp
+      - name: port16
+        type: 10gbase-x-sfpp
+      - name: port17
+        type: 10gbase-x-sfpp
+      - name: port18
+        type: 10gbase-x-sfpp
+      - name: port19
+        type: 10gbase-x-sfpp
+      - name: port20
+        type: 10gbase-x-sfpp
+      - name: port21
+        type: 10gbase-x-sfpp
+      - name: port22
+        type: 10gbase-x-sfpp
+      - name: port23
+        type: 10gbase-x-sfpp
+      - name: port24
+        type: 10gbase-x-sfpp
+      - name: port25
+        type: 10gbase-x-sfpp
+      - name: port26
+        type: 10gbase-x-sfpp
+      - name: port27
+        type: 10gbase-x-sfpp
+      - name: port28
+        type: 10gbase-x-sfpp
+      - name: port29
+        type: 10gbase-x-sfpp
+      - name: port30
+        type: 10gbase-x-sfpp
+      - name: port31
+        type: 10gbase-x-sfpp
+      - name: port32
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiGate 3700D
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: FG-3700D
+    slug: fortinet-fg-3700d
+    u_height: 3
+    weight: 21.3
+    weight_unit: kg
+  - airflow: side-to-rear
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: dmz
+        type: 1000base-t
+      - name: wan1
+        type: 1000base-t
+      - name: wan2
+        type: 1000base-t
+      - name: port1
+        type: 1000base-t
+      - name: port2
+        type: 1000base-t
+      - name: port3
+        type: 1000base-t
+      - name: port4
+        type: 1000base-t
+      - name: port5
+        type: 1000base-t
+      - name: port6
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiGate 80C
+    part_number: FG-80C
+    power-ports:
+      - allocated_draw: 25
+        maximum_draw: 30
+        name: PS1
+        type: dc-terminal
+    slug: fortinet-fg-80c
+    u_height: 1
+    weight: 1.5
+    weight_unit: kg
+  - airflow: passive
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 108F Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-108f-series-qsg)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: port1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port9
+        type: 1000base-x-sfp
+      - name: port10
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 108F-FPOE
+    part_number: FS-108F-FPOE
+    power-ports:
+      - allocated_draw: 139
+        maximum_draw: 139
+        name: PS1
+        type: iec-60320-c14
+    slug: fortinet-fs-108f-fpoe
+    u_height: 1
+    weight: 1.84
+    weight_unit: kg
   - airflow: front-to-rear
     comments: '[FortiGate 100E Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_100E_Series.pdf)'
     console-ports:
@@ -405,6 +881,55 @@ models:
     u_height: 1
     weight: 7.28
     weight_unit: lb
+  - airflow: side-to-rear
+    comments: The 10G WAN interfaces and SFP+ interfaces are shared media ports
+    console-ports:
+      - name: Console
+        type: rj-45
+      - name: USB
+        type: usb-a
+    interfaces:
+      - name: internal1
+        type: 1000base-t
+      - name: internal2
+        type: 1000base-t
+      - name: internal3
+        type: 1000base-t
+      - name: internal4
+        type: 1000base-t
+      - name: internal5
+        type: 1000base-t
+      - name: internal6
+        type: 1000base-t
+      - name: a
+        type: 1000base-t
+      - name: b
+        type: 1000base-t
+      - description: Shared media (You can use 1 of the 2 ports **WITH** this name. One is 10gbase-x-sfpp, the other is 10gbase-t.)
+        name: wan1
+        type: 10gbase-x-sfpp
+      - description: Shared media (You can use 1 of the 2 ports **WITH** this name. One is 1000base-x-sfp, the other is 10gbase-t.)
+        name: wan2
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiGate 90G
+    part_number: FG-90G
+    power-ports:
+      - allocated_draw: 19
+        label: DC+12V
+        maximum_draw: 20
+        name: PSU1
+        type: dc-terminal
+      - allocated_draw: 19
+        label: DC+12V
+        maximum_draw: 20
+        name: PSU2
+        type: dc-terminal
+    slug: fortinet-fg-90g
+    u_height: 1
+    weight: 1.12
+    weight_unit: kg
   - comments: Same as FG-80E , but **WITH** a 128GB SSD on-board.  Has no POE.
     console-ports:
       - name: Console
@@ -453,22 +978,192 @@ models:
         type: nema-5-15p
     slug: fortinet-fg-81e
     u_height: 1
-  - comments: '[Fortinet Rack Mount Tray QuickStart Guide](https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/d3b3c280-1a08-11e9-9685-f8bc1258b856/Fortinet-Rack-Mount-Tray-QSG.pdf)'
-    device-bays:
-      - name: Left
-      - name: Right
-    is_full_depth: false
-    manufacturer: Fortinet
-    model: SP-RACKTRAY-02
-    part_number: SP-RACKTRAY-02
-    slug: fortinet-sp-racktray-02
-    subdevice_role: parent
-    u_height: 1.0
   - airflow: side-to-rear
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 248E Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-248e-series-quickstart-guide)'
     console-ports:
       - name: Console
         type: rj-45
     interfaces:
+      - name: port1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port17
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port18
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port19
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port20
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port21
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port22
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port23
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port24
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port25
+        type: 1000base-t
+      - name: port26
+        type: 1000base-t
+      - name: port27
+        type: 1000base-t
+      - name: port28
+        type: 1000base-t
+      - name: port29
+        type: 1000base-t
+      - name: port30
+        type: 1000base-t
+      - name: port31
+        type: 1000base-t
+      - name: port32
+        type: 1000base-t
+      - name: port33
+        type: 1000base-t
+      - name: port34
+        type: 1000base-t
+      - name: port35
+        type: 1000base-t
+      - name: port36
+        type: 1000base-t
+      - name: port37
+        type: 1000base-t
+      - name: port38
+        type: 1000base-t
+      - name: port39
+        type: 1000base-t
+      - name: port40
+        type: 1000base-t
+      - name: port41
+        type: 1000base-t
+      - name: port42
+        type: 1000base-t
+      - name: port43
+        type: 1000base-t
+      - name: port44
+        type: 1000base-t
+      - name: port45
+        type: 1000base-t
+      - name: port46
+        type: 1000base-t
+      - name: port47
+        type: 1000base-t
+      - name: port48
+        type: 1000base-t
+      - name: port49
+        type: 1000base-x-sfp
+      - name: port50
+        type: 1000base-x-sfp
+      - name: port51
+        type: 1000base-x-sfp
+      - name: port52
+        type: 1000base-x-sfp
+      - mgmt_only: true
+        name: mgmt
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 248E-POE
+    part_number: FS-248E-POE
+    power-ports:
+      - allocated_draw: 457
+        maximum_draw: 466
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 457
+        maximum_draw: 466
+        name: RPScon
+        type: dc-terminal
+    slug: fortinet-fs-248e-poe
+    u_height: 1
+    weight: 5.5
+    weight_unit: kg
+  - console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: mgmt1
+        type: 1000base-t
+      - name: mgmt2
+        type: 1000base-t
       - name: port1
         type: 1000base-t
       - name: port2
@@ -478,13 +1173,75 @@ models:
       - name: port4
         type: 1000base-t
       - name: port5
-        type: 1000base-t
+        type: 1000base-x-sfp
       - name: port6
-        type: 1000base-t
+        type: 1000base-x-sfp
       - name: port7
-        type: 1000base-t
+        type: 1000base-x-sfp
       - name: port8
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiGate 300D
+    part_number: FG-300D
+    power-ports:
+      - allocated_draw: 106
+        maximum_draw: 194
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 106
+        maximum_draw: 194
+        name: PS2
+        type: other
+    slug: fortinet-fg-300d
+    u_height: 1
+    weight: 4.8
+    weight_unit: kg
+  - comments: '[Fortinet Rack Mount Tray QuickStart Guide](https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/d3b3c280-1a08-11e9-9685-f8bc1258b856/Fortinet-Rack-Mount-Tray-QSG.pdf)'
+    device-bays:
+      - name: Left
+      - name: Right
+    is_full_depth: false
+    is_powered: false
+    manufacturer: Fortinet
+    model: SP-RACKTRAY-02
+    part_number: SP-RACKTRAY-02
+    slug: fortinet-sp-racktray-02
+    subdevice_role: parent
+    u_height: 1.0
+  - airflow: front-to-rear
+    console-ports:
+      - name: Console
+        type: rj-45
+      - name: usbmgmt
+        type: usb-mini-b
+      - name: usbport1
+        type: usb-a
+      - name: usbport2
+        type: usb-a
+    interfaces:
+      - mgmt_only: true
+        name: mgmt1
         type: 1000base-t
+      - mgmt_only: true
+        name: mgmt2
+        type: 1000base-t
+      - name: port1
+        type: 1000base-x-sfp
+      - name: port2
+        type: 1000base-x-sfp
+      - name: port3
+        type: 1000base-x-sfp
+      - name: port4
+        type: 1000base-x-sfp
+      - name: port5
+        type: 1000base-x-sfp
+      - name: port6
+        type: 1000base-x-sfp
+      - name: port7
+        type: 1000base-x-sfp
+      - name: port8
+        type: 1000base-x-sfp
       - name: port9
         type: 1000base-t
       - name: port10
@@ -502,49 +1259,54 @@ models:
       - name: port16
         type: 1000base-t
       - name: port17
-        type: 1000base-t
+        type: 1000base-x-sfp
       - name: port18
-        type: 1000base-t
+        type: 1000base-x-sfp
       - name: port19
-        type: 1000base-t
+        type: 1000base-x-sfp
       - name: port20
-        type: 1000base-t
+        type: 1000base-x-sfp
       - name: port21
-        type: 1000base-t
+        type: 1000base-x-sfp
       - name: port22
-        type: 1000base-t
+        type: 1000base-x-sfp
       - name: port23
-        type: 1000base-t
+        type: 1000base-x-sfp
       - name: port24
-        type: 1000base-t
+        type: 1000base-x-sfp
       - name: port25
-        type: 1000base-x-sfp
-      - name: port26
-        type: 1000base-x-sfp
-      - name: port27
-        type: 1000base-x-sfp
-      - name: port28
-        type: 1000base-x-sfp
-      - mgmt_only: true
-        name: mgmt
         type: 1000base-t
+      - name: port26
+        type: 1000base-t
+      - name: port27
+        type: 1000base-t
+      - name: port28
+        type: 1000base-t
+      - name: port29
+        type: 1000base-t
+      - name: port30
+        type: 1000base-t
+      - name: port31
+        type: 1000base-t
+      - name: port32
+        type: 1000base-t
+      - name: portA
+        type: 10gbase-x-sfpp
+      - name: portB
+        type: 10gbase-x-sfpp
     is_full_depth: false
     manufacturer: Fortinet
-    model: FortiSwitch 224E-POE
-    part_number: FS-224E-POE
-    power-ports:
-      - allocated_draw: 220
-        maximum_draw: 223
-        name: PS1
-        type: iec-60320-c14
-      - allocated_draw: 220
-        maximum_draw: 223
-        name: RPScon
-        type: dc-terminal
-    slug: fortinet-fs-224e-poe
-    u_height: 1
-    weight: 5.37
-    weight_unit: lb
+    model: FortiGate 1000D
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: FG-1000D
+    slug: fortinet-fg-1000d
+    u_height: 2
+    weight: 11.2
+    weight_unit: kg
   - comments: Same as FG-201E , but **WITHOUT** 1 x 480GB SSD on-board.
     console-ports:
       - name: Console
@@ -741,6 +1503,97 @@ models:
     u_height: 1
     weight: 0.9
     weight_unit: kg
+  - airflow: front-to-rear
+    comments: '[FortiGate 800D Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_800D.pdf)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    front_image: true
+    interfaces:
+      - mgmt_only: true
+        name: mgmt1
+        type: 1000base-t
+      - mgmt_only: true
+        name: mgmt2
+        type: 1000base-t
+      - name: wan1/1
+        type: 1000base-t
+      - name: wan2/2
+        type: 1000base-t
+      - name: port3
+        type: 1000base-t
+      - name: port4
+        type: 1000base-t
+      - name: port5
+        type: 1000base-t
+      - name: port6
+        type: 1000base-t
+      - name: port7
+        type: 1000base-t
+      - name: port8
+        type: 1000base-t
+      - name: port9
+        type: 1000base-t
+      - name: port10
+        type: 1000base-t
+      - name: port11
+        type: 1000base-t
+      - name: port12
+        type: 1000base-t
+      - name: port13
+        type: 1000base-t
+      - name: port14
+        type: 1000base-t
+      - name: port15
+        type: 1000base-t
+      - name: port16
+        type: 1000base-t
+      - name: port17
+        type: 1000base-t
+      - name: port18
+        type: 1000base-t
+      - name: port19
+        type: 1000base-t
+      - name: port20
+        type: 1000base-t
+      - name: port21
+        type: 1000base-t
+      - name: port22
+        type: 1000base-t
+      - name: port23
+        type: 1000base-x-sfp
+      - name: port24
+        type: 1000base-x-sfp
+      - name: port25
+        type: 1000base-x-sfp
+      - name: port26
+        type: 1000base-x-sfp
+      - name: port27
+        type: 1000base-x-sfp
+      - name: port28
+        type: 1000base-x-sfp
+      - name: port29
+        type: 1000base-x-sfp
+      - name: port30
+        type: 1000base-x-sfp
+      - name: port31
+        type: 10gbase-x-sfpp
+      - name: port32
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiGate 800D
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: FG-800D
+    rear_image: true
+    slug: fortinet-fg-800d
+    u_height: 1
+    weight: 8.6
+    weight_unit: kg
   - console-ports:
       - name: Console
         type: rj-45
@@ -896,6 +1749,32 @@ models:
         type: dc-terminal
     slug: fortinet-fg-140e-poe
     u_height: 1
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: port1
+        type: 1000base-t
+      - name: port2
+        type: 1000base-t
+      - name: port3
+        type: 1000base-t
+      - name: port4
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiGate 80D
+    part_number: FG-80D
+    power-ports:
+      - allocated_draw: 18
+        maximum_draw: 22
+        name: PS1
+        type: dc-terminal
+    slug: fortinet-fg-80d
+    u_height: 1
+    weight: 1.1
+    weight_unit: kg
   - airflow: front-to-rear
     console-ports:
       - name: Console
@@ -1054,6 +1933,131 @@ models:
         type: iec-60320-c14
     slug: fortinet-fg-601f
     u_height: 1
+  - airflow: side-to-rear
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 124F Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-124f-series-qsg)'
+    console-ports:
+      - name: Console
+        type: rj-45
+      - name: USB
+        type: usb-a
+    interfaces:
+      - name: port1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port17
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port18
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port19
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port20
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port21
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port22
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port23
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port24
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port25
+        type: 10gbase-x-sfpp
+      - name: port26
+        type: 10gbase-x-sfpp
+      - name: port27
+        type: 10gbase-x-sfpp
+      - name: port28
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 124F-FPOE
+    part_number: FS-124F-FPOE
+    power-ports:
+      - allocated_draw: 449
+        maximum_draw: 451
+        name: PS1
+        type: iec-60320-c14
+    slug: fortinet-fs-124f-fpoe
+    u_height: 1
+    weight: 3.82
+    weight_unit: kg
   - airflow: front-to-rear
     console-ports:
       - name: Console
@@ -1197,6 +2201,76 @@ models:
         type: iec-60320-c14
     slug: fortinet-fg-1500dt
     u_height: 2
+  - airflow: front-to-rear
+    comments: '[Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Data_Center_Series.pdf)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: port1
+        type: 10gbase-x-sfpp
+      - name: port2
+        type: 10gbase-x-sfpp
+      - name: port3
+        type: 10gbase-x-sfpp
+      - name: port4
+        type: 10gbase-x-sfpp
+      - name: port5
+        type: 10gbase-x-sfpp
+      - name: port6
+        type: 10gbase-x-sfpp
+      - name: port7
+        type: 10gbase-x-sfpp
+      - name: port8
+        type: 10gbase-x-sfpp
+      - name: port9
+        type: 10gbase-x-sfpp
+      - name: port10
+        type: 10gbase-x-sfpp
+      - name: port11
+        type: 10gbase-x-sfpp
+      - name: port12
+        type: 10gbase-x-sfpp
+      - name: port13
+        type: 10gbase-x-sfpp
+      - name: port14
+        type: 10gbase-x-sfpp
+      - name: port15
+        type: 10gbase-x-sfpp
+      - name: port16
+        type: 10gbase-x-sfpp
+      - name: port17
+        type: 10gbase-x-sfpp
+      - name: port18
+        type: 10gbase-x-sfpp
+      - name: port19
+        type: 10gbase-x-sfpp
+      - name: port20
+        type: 10gbase-x-sfpp
+      - name: port21
+        type: 10gbase-x-sfpp
+      - name: port22
+        type: 10gbase-x-sfpp
+      - name: port23
+        type: 10gbase-x-sfpp
+      - name: port24
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: mgmt
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 1024D
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
+    part_number: FS-1024D
+    slug: fortinet-fs-1024d
+    u_height: 1
+    weight: 18.96
+    weight_unit: lb
   - comments: Same as FG-300E , but **WITH** 2 x 240GB SSD on-board.
     console-ports:
       - name: Console
@@ -1286,6 +2360,96 @@ models:
         type: iec-60320-c14
     slug: fortinet-fg-301e
     u_height: 1
+  - airflow: front-to-rear
+    comments: '[FortiGate 400F Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-400f-series.pdf)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    front_image: true
+    interfaces:
+      - name: ha
+        type: 1000base-t
+      - mgmt_only: true
+        name: mgmt
+        type: 1000base-t
+      - name: port1
+        type: 1000base-t
+      - name: port2
+        type: 1000base-t
+      - name: port3
+        type: 1000base-t
+      - name: port4
+        type: 1000base-t
+      - name: port5
+        type: 1000base-t
+      - name: port6
+        type: 1000base-t
+      - name: port7
+        type: 1000base-t
+      - name: port8
+        type: 1000base-t
+      - name: port9
+        type: 1000base-t
+      - name: port10
+        type: 1000base-t
+      - name: port11
+        type: 1000base-t
+      - name: port12
+        type: 1000base-t
+      - name: port13
+        type: 1000base-t
+      - name: port14
+        type: 1000base-t
+      - name: port15
+        type: 1000base-t
+      - name: port16
+        type: 1000base-t
+      - name: port17
+        type: 10gbase-x-sfpp
+      - name: port18
+        type: 10gbase-x-sfpp
+      - name: port19
+        type: 10gbase-x-sfpp
+      - name: port20
+        type: 10gbase-x-sfpp
+      - name: port21
+        type: 10gbase-x-sfpp
+      - name: port22
+        type: 10gbase-x-sfpp
+      - name: port23
+        type: 10gbase-x-sfpp
+      - name: port24
+        type: 10gbase-x-sfpp
+      - name: port25
+        type: 1000base-x-sfp
+      - name: port26
+        type: 1000base-x-sfp
+      - name: port27
+        type: 1000base-x-sfp
+      - name: port28
+        type: 1000base-x-sfp
+      - name: port29
+        type: 1000base-x-sfp
+      - name: port30
+        type: 1000base-x-sfp
+      - name: port31
+        type: 1000base-x-sfp
+      - name: port32
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiGate 400F
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: FG-400F
+    rear_image: true
+    slug: fortinet-fg-400f
+    u_height: 1
+    weight: 6.4
+    weight_unit: kg
   - comments: Same as FG-1100E , but **WITH** 2 x 480GB SSDs on-board.
     console-ports:
       - name: Console
@@ -1505,6 +2669,61 @@ models:
         type: iec-60320-c14
     slug: fortinet-fg-201e
     u_height: 1
+  - airflow: passive
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 108F Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-108f-series-qsg)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: port1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port9
+        type: 1000base-x-sfp
+      - name: port10
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 108F-POE
+    part_number: FS-108F-POE
+    power-ports:
+      - allocated_draw: 74
+        maximum_draw: 74
+        name: PS1
+        type: iec-60320-c14
+    slug: fortinet-fs-108f-poe
+    u_height: 1
+    weight: 1.7
+    weight_unit: kg
   - comments: Same as FG-81E , but **WITHOUT** a 128GB SSD on-board.  Has no POE.
     console-ports:
       - name: Console
@@ -1603,6 +2822,190 @@ models:
         type: nema-5-15p
     slug: fortinet-fg-90d
     u_height: 1
+  - airflow: side-to-rear
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 124F Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-124f-series-qsg)'
+    console-ports:
+      - name: Console
+        type: rj-45
+      - name: USB
+        type: usb-a
+    interfaces:
+      - name: port1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port13
+        type: 1000base-t
+      - name: port14
+        type: 1000base-t
+      - name: port15
+        type: 1000base-t
+      - name: port16
+        type: 1000base-t
+      - name: port17
+        type: 1000base-t
+      - name: port18
+        type: 1000base-t
+      - name: port19
+        type: 1000base-t
+      - name: port20
+        type: 1000base-t
+      - name: port21
+        type: 1000base-t
+      - name: port22
+        type: 1000base-t
+      - name: port23
+        type: 1000base-t
+      - name: port24
+        type: 1000base-t
+      - name: port25
+        type: 10gbase-x-sfpp
+      - name: port26
+        type: 10gbase-x-sfpp
+      - name: port27
+        type: 10gbase-x-sfpp
+      - name: port28
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 124F-POE
+    part_number: FS-124F-POE
+    power-ports:
+      - allocated_draw: 235
+        maximum_draw: 237
+        name: PS1
+        type: iec-60320-c14
+    slug: fortinet-fs-124f-poe
+    u_height: 1
+    weight: 3.56
+    weight_unit: kg
+  - airflow: front-to-rear
+    comments: '[Fortinet FortiGate 3400E Data Sheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_3400E.pdf)'
+    console-ports:
+      - name: Console
+        type: rj-45
+      - name: usbmgmt
+        type: usb-a
+    interfaces:
+      - mgmt_only: true
+        name: mgmt1
+        type: 1000base-t
+      - mgmt_only: true
+        name: mgmt2
+        type: 1000base-t
+      - name: ha1
+        type: 25gbase-x-sfp28
+      - name: ha2
+        type: 25gbase-x-sfp28
+      - name: port1
+        type: 25gbase-x-sfp28
+      - name: port2
+        type: 25gbase-x-sfp28
+      - name: port3
+        type: 25gbase-x-sfp28
+      - name: port4
+        type: 25gbase-x-sfp28
+      - name: port5
+        type: 25gbase-x-sfp28
+      - name: port6
+        type: 25gbase-x-sfp28
+      - name: port7
+        type: 25gbase-x-sfp28
+      - name: port8
+        type: 25gbase-x-sfp28
+      - name: port9
+        type: 25gbase-x-sfp28
+      - name: port10
+        type: 25gbase-x-sfp28
+      - name: port11
+        type: 25gbase-x-sfp28
+      - name: port12
+        type: 25gbase-x-sfp28
+      - name: port13
+        type: 25gbase-x-sfp28
+      - name: port14
+        type: 25gbase-x-sfp28
+      - name: port15
+        type: 25gbase-x-sfp28
+      - name: port16
+        type: 25gbase-x-sfp28
+      - name: port17
+        type: 25gbase-x-sfp28
+      - name: port18
+        type: 25gbase-x-sfp28
+      - name: port19
+        type: 25gbase-x-sfp28
+      - name: port20
+        type: 25gbase-x-sfp28
+      - name: port21
+        type: 25gbase-x-sfp28
+      - name: port22
+        type: 25gbase-x-sfp28
+      - name: port23
+        type: 100gbase-x-qsfp28
+      - name: port24
+        type: 100gbase-x-qsfp28
+      - name: port25
+        type: 100gbase-x-qsfp28
+      - name: port26
+        type: 100gbase-x-qsfp28
+    is_full_depth: true
+    manufacturer: Fortinet
+    model: FortiGate 3400E
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: FG-3400E
+    slug: fortinet-fg-3400e
+    u_height: 2
+    weight: 19.5
+    weight_unit: kg
   - airflow: side-to-rear
     console-ports:
       - name: Console
@@ -1733,7 +3136,7 @@ models:
     weight: 13.44
     weight_unit: lb
   - airflow: side-to-rear
-    comments: '[Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf)'
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 224E Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/224e-series-quickstart-guide)'
     console-ports:
       - name: Console
         type: rj-45
@@ -1787,6 +3190,136 @@ models:
       - name: port24
         type: 1000base-t
       - name: port25
+        type: 1000base-x-sfp
+      - name: port26
+        type: 1000base-x-sfp
+      - name: port27
+        type: 1000base-x-sfp
+      - name: port28
+        type: 1000base-x-sfp
+      - mgmt_only: true
+        name: mgmt
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 224E
+    part_number: FS-224E
+    power-ports:
+      - allocated_draw: 17
+        maximum_draw: 17
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 17
+        maximum_draw: 17
+        name: PS2
+        type: iec-60320-c14
+    slug: fortinet-fs-224e
+    u_height: 1
+    weight: 4.78
+    weight_unit: lb
+  - airflow: side-to-rear
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 424E Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-424e-series-quickstart-guide)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: port1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port17
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port18
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port19
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port20
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port21
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port22
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port23
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port24
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port25
         type: 10gbase-x-sfpp
       - name: port26
         type: 10gbase-x-sfpp
@@ -1802,12 +3335,12 @@ models:
     model: FortiSwitch 424E-FPOE
     part_number: FS-424E-FPOE
     power-ports:
-      - allocated_draw: 281
-        maximum_draw: 283
+      - allocated_draw: 431
+        maximum_draw: 434
         name: PS1
         type: iec-60320-c14
-      - allocated_draw: 281
-        maximum_draw: 283
+      - allocated_draw: 431
+        maximum_draw: 434
         name: PS2
         type: iec-60320-c14
     slug: fortinet-fs-424e-fpoe
@@ -1856,6 +3389,41 @@ models:
         type: dc-terminal
     slug: fortinet-fg-80f
     u_height: 1
+  - airflow: passive
+    comments: '[FortiAP C Series Datasheet](https://fortinet.globalgate.com.ar/pdfs/FortiAP/FortiAP_C_Series.pdf), [FortiAP C24JE QuickStart Guide](https://docs.fortinet.com/document/fortiap/hardware/fortiap-c24je-quickstart-guide)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: wan-poe
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
+        type: 1000base-t
+      - name: lan1
+        type: 1000base-t
+      - name: lan2
+        type: 1000base-t
+      - name: lan3
+        poe_mode: pse
+        poe_type: type1-ieee802.3af
+        type: 1000base-t
+      - name: radio-1
+        type: ieee802.11n
+      - name: radio-2
+        type: ieee802.11ac
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiAP C24JE
+    part_number: FAP-C24JE
+    power-ports:
+      - allocated_draw: 15
+        maximum_draw: 15
+        name: DC-In
+        type: other
+    slug: fortinet-fap-c24je
+    u_height: 0.0
+    weight: 1.3
+    weight_unit: lb
   - console-ports:
       - name: Console
         type: rj-45
@@ -1936,7 +3504,9 @@ models:
         type: iec-60320-c14
     slug: fortinet-fg-3000d
     u_height: 2
-  - console-ports:
+  - airflow: side-to-rear
+    comments: '[FortiGate 400E Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_400E.pdf). Compatible PSU module: SP-FG300E-PS, maximum power draw 214W, average power draw 109W.'
+    console-ports:
       - name: Console
         type: rj-45
     interfaces:
@@ -2012,18 +3582,16 @@ models:
     is_full_depth: false
     manufacturer: Fortinet
     model: FortiGate 400E
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
     part_number: FG-400E
-    power-ports:
-      - allocated_draw: 109
-        maximum_draw: 214
-        name: PS1
-        type: iec-60320-c14
-      - allocated_draw: 109
-        maximum_draw: 214
-        name: PS2
-        type: iec-60320-c14
     slug: fortinet-fg-400e
     u_height: 1
+    weight: 16.4
+    weight_unit: lb
   - console-ports:
       - name: Console
         type: rj-45
@@ -2063,6 +3631,129 @@ models:
         type: iec-60320-c14
     slug: fortinet-fwb-2000e
     u_height: 2
+  - airflow: side-to-rear
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 124E Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-124e-series-quickstart-guide)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: port1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port17
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port18
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port19
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port20
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port21
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port22
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port23
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port24
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port25
+        type: 1000base-x-sfp
+      - name: port26
+        type: 1000base-x-sfp
+      - name: port27
+        type: 1000base-x-sfp
+      - name: port28
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 124E-FPOE
+    part_number: FS-124E-FPOE
+    power-ports:
+      - allocated_draw: 387
+        maximum_draw: 390
+        name: PS1
+        type: iec-60320-c14
+    slug: fortinet-fs-124e-fpoe
+    u_height: 1
+    weight: 5.03
+    weight_unit: kg
   - comments: Same as FG-101F , but **WITHOUT** a 480GB SSD on-board.
     console-ports:
       - name: Console
@@ -2322,16 +4013,12 @@ models:
     is_full_depth: false
     manufacturer: Fortinet
     model: FortiGate 500E
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: FG-500E
-    power-ports:
-      - allocated_draw: 95
-        maximum_draw: 193
-        name: PS1
-        type: iec-60320-c14
-      - allocated_draw: 95
-        maximum_draw: 193
-        name: PS2
-        type: iec-60320-c14
     slug: fortinet-fg-500e
     u_height: 1
   - comments: Built in LTE modem (2 antenna), PoE-capable, Wall-mount.
@@ -2355,105 +4042,202 @@ models:
     weight: 0.83
     weight_unit: lb
   - airflow: side-to-rear
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 248E Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/248e-series-quickstart-guide)'
     console-ports:
       - name: Console
         type: rj-45
     interfaces:
       - name: port1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port13
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port14
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port15
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port16
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port17
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port18
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port19
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port20
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port21
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port22
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port23
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port24
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port25
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port26
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port27
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port28
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port29
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port30
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port31
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port32
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port33
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port34
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port35
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port36
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port37
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port38
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port39
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port40
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port41
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port42
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port43
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port44
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port45
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port46
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port47
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port48
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
         type: 1000base-t
       - name: port49
         type: 1000base-x-sfp
@@ -2518,6 +4302,88 @@ models:
         type: dc-terminal
     slug: fortinet-fg-60f
     u_height: 1
+  - airflow: side-to-rear
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 424E Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-424e-series-quickstart-guide)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: port1
+        type: 1000base-x-sfp
+      - name: port2
+        type: 1000base-x-sfp
+      - name: port3
+        type: 1000base-x-sfp
+      - name: port4
+        type: 1000base-x-sfp
+      - name: port5
+        type: 1000base-x-sfp
+      - name: port6
+        type: 1000base-x-sfp
+      - name: port7
+        type: 1000base-x-sfp
+      - name: port8
+        type: 1000base-x-sfp
+      - name: port9
+        type: 1000base-x-sfp
+      - name: port10
+        type: 1000base-x-sfp
+      - name: port11
+        type: 1000base-x-sfp
+      - name: port12
+        type: 1000base-x-sfp
+      - name: port13
+        type: 1000base-x-sfp
+      - name: port14
+        type: 1000base-x-sfp
+      - name: port15
+        type: 1000base-x-sfp
+      - name: port16
+        type: 1000base-x-sfp
+      - name: port17
+        type: 1000base-x-sfp
+      - name: port18
+        type: 1000base-x-sfp
+      - name: port19
+        type: 1000base-x-sfp
+      - name: port20
+        type: 1000base-x-sfp
+      - name: port21
+        type: 1000base-x-sfp
+      - name: port22
+        type: 1000base-x-sfp
+      - name: port23
+        type: 1000base-x-sfp
+      - name: port24
+        type: 1000base-x-sfp
+      - name: port25
+        type: 10gbase-x-sfpp
+      - name: port26
+        type: 10gbase-x-sfpp
+      - name: port27
+        type: 10gbase-x-sfpp
+      - name: port28
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: mgmt
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 424E-Fiber
+    part_number: FS-424E-Fiber
+    power-ports:
+      - allocated_draw: 36
+        maximum_draw: 38
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 36
+        maximum_draw: 38
+        name: PS2
+        type: iec-60320-c14
+    slug: fortinet-fs-424e-fiber
+    u_height: 1
+    weight: 5.62
+    weight_unit: lb
   - airflow: front-to-rear
     comments: '[Fortinet FortiGate 3301E Data Sheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-3300e-series.pdf)'
     console-ports:
@@ -2611,6 +4477,234 @@ models:
     u_height: 2
     weight: 20.1
     weight_unit: kg
+  - airflow: passive
+    comments: Same as FG-50E, but **WITH** 1 x 32 GB SSD onboard storage.
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: internal1
+        type: 1000base-t
+      - name: internal2
+        type: 1000base-t
+      - name: internal3
+        type: 1000base-t
+      - name: internal4
+        type: 1000base-t
+      - name: internal5
+        type: 1000base-t
+      - name: wan1
+        type: 1000base-t
+      - name: wan2
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiGate 51E
+    part_number: FG-51E
+    power-ports:
+      - allocated_draw: 16
+        label: 12V DC
+        maximum_draw: 20
+        name: PS1
+        type: dc-terminal
+    slug: fortinet-fg-51e
+    u_height: 1
+    weight: 0.9
+    weight_unit: kg
+  - airflow: side-to-rear
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 224E Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-224e-series-quickstart-guide)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: port1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port13
+        type: 1000base-t
+      - name: port14
+        type: 1000base-t
+      - name: port15
+        type: 1000base-t
+      - name: port16
+        type: 1000base-t
+      - name: port17
+        type: 1000base-t
+      - name: port18
+        type: 1000base-t
+      - name: port19
+        type: 1000base-t
+      - name: port20
+        type: 1000base-t
+      - name: port21
+        type: 1000base-t
+      - name: port22
+        type: 1000base-t
+      - name: port23
+        type: 1000base-t
+      - name: port24
+        type: 1000base-t
+      - name: port25
+        type: 1000base-x-sfp
+      - name: port26
+        type: 1000base-x-sfp
+      - name: port27
+        type: 1000base-x-sfp
+      - name: port28
+        type: 1000base-x-sfp
+      - mgmt_only: true
+        name: mgmt
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 224E-POE
+    part_number: FS-224E-POE
+    power-ports:
+      - allocated_draw: 220
+        maximum_draw: 223
+        name: PS1
+        type: iec-60320-c14
+      - allocated_draw: 220
+        maximum_draw: 223
+        name: RPScon
+        type: dc-terminal
+    slug: fortinet-fs-224e-poe
+    u_height: 1
+    weight: 5.37
+    weight_unit: lb
+  - airflow: side-to-rear
+    comments: 'Same as FG-400E, but **WITH** 2 x 240GB SSD onboard storage. [FortiGate 400E Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_400E.pdf). Compatible PSU module: SP-FG300E-PS, maximum power draw 221W, average power draw 115W.'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: ha
+        type: 1000base-t
+      - mgmt_only: true
+        name: mgmt
+        type: 1000base-t
+      - name: port1
+        type: 1000base-t
+      - name: port2
+        type: 1000base-t
+      - name: port3
+        type: 1000base-t
+      - name: port4
+        type: 1000base-t
+      - name: port5
+        type: 1000base-t
+      - name: port6
+        type: 1000base-t
+      - name: port7
+        type: 1000base-t
+      - name: port8
+        type: 1000base-t
+      - name: port9
+        type: 1000base-t
+      - name: port10
+        type: 1000base-t
+      - name: port11
+        type: 1000base-t
+      - name: port12
+        type: 1000base-t
+      - name: port13
+        type: 1000base-t
+      - name: port14
+        type: 1000base-t
+      - name: port15
+        type: 1000base-t
+      - name: port16
+        type: 1000base-t
+      - name: port17
+        type: 1000base-x-sfp
+      - name: port18
+        type: 1000base-x-sfp
+      - name: port19
+        type: 1000base-x-sfp
+      - name: port20
+        type: 1000base-x-sfp
+      - name: port21
+        type: 1000base-x-sfp
+      - name: port22
+        type: 1000base-x-sfp
+      - name: port23
+        type: 1000base-x-sfp
+      - name: port24
+        type: 1000base-x-sfp
+      - name: port25
+        type: 1000base-x-sfp
+      - name: port26
+        type: 1000base-x-sfp
+      - name: port27
+        type: 1000base-x-sfp
+      - name: port28
+        type: 1000base-x-sfp
+      - name: s1
+        type: 1000base-x-sfp
+      - name: s2
+        type: 1000base-x-sfp
+      - name: vw1
+        type: 1000base-x-sfp
+      - name: vw2
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiGate 401E
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
+    part_number: FG-401E
+    slug: fortinet-fg-401e
+    u_height: 1
+    weight: 16.9
+    weight_unit: lb
   - airflow: side-to-rear
     console-ports:
       - name: Console
@@ -2736,6 +4830,105 @@ models:
     u_height: 1
     weight: 15.45
     weight_unit: lb
+  - airflow: side-to-rear
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 124E Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-124e-series-quickstart-guide)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: port1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port9
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port10
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port11
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port12
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port13
+        type: 1000base-t
+      - name: port14
+        type: 1000base-t
+      - name: port15
+        type: 1000base-t
+      - name: port16
+        type: 1000base-t
+      - name: port17
+        type: 1000base-t
+      - name: port18
+        type: 1000base-t
+      - name: port19
+        type: 1000base-t
+      - name: port20
+        type: 1000base-t
+      - name: port21
+        type: 1000base-t
+      - name: port22
+        type: 1000base-t
+      - name: port23
+        type: 1000base-t
+      - name: port24
+        type: 1000base-t
+      - name: port25
+        type: 1000base-x-sfp
+      - name: port26
+        type: 1000base-x-sfp
+      - name: port27
+        type: 1000base-x-sfp
+      - name: port28
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 124E-POE
+    part_number: FS-124E-POE
+    power-ports:
+      - allocated_draw: 202
+        maximum_draw: 205
+        name: PS1
+        type: iec-60320-c14
+    slug: fortinet-fs-124e-poe
+    u_height: 1
+    weight: 5.03
+    weight_unit: kg
   - airflow: front-to-rear
     comments: '[Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Data_Center_Series.pdf)'
     console-ports:
@@ -3545,10 +5738,357 @@ models:
         type: iec-60320-c14
     slug: fortinet-fg-1800f
     u_height: 2
+  - airflow: passive
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 108E Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-108e-series-quickstart-guide)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: port1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port5
+        type: 1000base-t
+      - name: port6
+        type: 1000base-t
+      - name: port7
+        type: 1000base-t
+      - name: port8
+        type: 1000base-t
+      - name: port9
+        type: 1000base-x-sfp
+      - name: port10
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 108E-POE
+    part_number: FS-108E-POE
+    power-ports:
+      - allocated_draw: 70
+        maximum_draw: 71
+        name: PS1
+        type: iec-60320-c14
+    slug: fortinet-fs-108e-poe
+    u_height: 1
+    weight: 1.95
+    weight_unit: kg
   - airflow: front-to-rear
     console-ports:
       - name: Console
         type: rj-45
+      - name: usbmgmt
+        type: usb-mini-b
+      - name: usbport
+        type: usb-a
+    interfaces:
+      - mgmt_only: true
+        name: mgmt1
+        type: 1000base-t
+      - mgmt_only: true
+        name: mgmt2
+        type: 1000base-t
+      - name: port1
+        type: 10gbase-x-sfpp
+      - name: port2
+        type: 10gbase-x-sfpp
+      - name: port3
+        type: 10gbase-x-sfpp
+      - name: port4
+        type: 10gbase-x-sfpp
+      - name: port5
+        type: 10gbase-x-sfpp
+      - name: port6
+        type: 10gbase-x-sfpp
+      - name: port7
+        type: 10gbase-x-sfpp
+      - name: port8
+        type: 10gbase-x-sfpp
+      - name: port9
+        type: 10gbase-x-sfpp
+      - name: port10
+        type: 10gbase-x-sfpp
+      - name: port11
+        type: 10gbase-x-sfpp
+      - name: port12
+        type: 10gbase-x-sfpp
+      - name: port13
+        type: 10gbase-x-sfpp
+      - name: port14
+        type: 10gbase-x-sfpp
+      - name: port15
+        type: 10gbase-x-sfpp
+      - name: port16
+        type: 10gbase-x-sfpp
+      - name: port17
+        type: 10gbase-x-sfpp
+      - name: port18
+        type: 10gbase-x-sfpp
+      - name: port19
+        type: 10gbase-x-sfpp
+      - name: port20
+        type: 10gbase-x-sfpp
+      - name: port21
+        type: 10gbase-x-sfpp
+      - name: port22
+        type: 10gbase-x-sfpp
+      - name: port23
+        type: 10gbase-x-sfpp
+      - name: port24
+        type: 10gbase-x-sfpp
+      - name: port25
+        type: 10gbase-x-sfpp
+      - name: port26
+        type: 10gbase-x-sfpp
+      - name: port27
+        type: 10gbase-x-sfpp
+      - name: port28
+        type: 10gbase-x-sfpp
+      - name: port29
+        type: 10gbase-x-sfpp
+      - name: port30
+        type: 10gbase-x-sfpp
+      - name: port31
+        type: 10gbase-x-sfpp
+      - name: port32
+        type: 10gbase-x-sfpp
+      - name: port33
+        type: 10gbase-x-sfpp
+      - name: port34
+        type: 10gbase-x-sfpp
+      - name: port35
+        type: 10gbase-x-sfpp
+      - name: port36
+        type: 10gbase-x-sfpp
+      - name: port37
+        type: 10gbase-x-sfpp
+      - name: port38
+        type: 10gbase-x-sfpp
+      - name: port39
+        type: 10gbase-x-sfpp
+      - name: port40
+        type: 10gbase-x-sfpp
+      - name: port41
+        type: 10gbase-x-sfpp
+      - name: port42
+        type: 10gbase-x-sfpp
+      - name: port43
+        type: 10gbase-x-sfpp
+      - name: port44
+        type: 10gbase-x-sfpp
+      - name: port45
+        type: 10gbase-x-sfpp
+      - name: port46
+        type: 10gbase-x-sfpp
+      - name: port47
+        type: 10gbase-x-sfpp
+      - name: port48
+        type: 10gbase-x-sfpp
+    is_full_depth: true
+    manufacturer: Fortinet
+    model: FortiGate 3200D
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: FG-3200D
+    slug: fortinet-fg-3200d
+    u_height: 2
+    weight: 17.2
+    weight_unit: kg
+  - airflow: front-to-rear
+    console-ports:
+      - name: Console
+        type: rj-45
+      - name: USB
+        type: usb-a
+    interfaces:
+      - name: port1
+        type: 2.5gbase-t
+      - name: port2
+        type: 2.5gbase-t
+      - name: port3
+        type: 2.5gbase-t
+      - name: port4
+        type: 2.5gbase-t
+      - name: port5
+        type: 2.5gbase-t
+      - name: port6
+        type: 2.5gbase-t
+      - name: port7
+        type: 2.5gbase-t
+      - name: port8
+        type: 2.5gbase-t
+      - name: port9
+        type: 2.5gbase-t
+      - name: port10
+        type: 2.5gbase-t
+      - name: port11
+        type: 2.5gbase-t
+      - name: port12
+        type: 2.5gbase-t
+      - name: port13
+        type: 2.5gbase-t
+      - name: port14
+        type: 2.5gbase-t
+      - name: port15
+        type: 2.5gbase-t
+      - name: port16
+        type: 2.5gbase-t
+      - name: port17
+        type: 2.5gbase-t
+      - name: port18
+        type: 2.5gbase-t
+      - name: port19
+        type: 2.5gbase-t
+      - name: port20
+        type: 2.5gbase-t
+      - name: port21
+        type: 2.5gbase-t
+      - name: port22
+        type: 2.5gbase-t
+      - name: port23
+        type: 2.5gbase-t
+      - name: port24
+        type: 2.5gbase-t
+      - name: port25
+        type: 2.5gbase-t
+      - name: port26
+        type: 2.5gbase-t
+      - name: port27
+        type: 2.5gbase-t
+      - name: port28
+        type: 2.5gbase-t
+      - name: port29
+        type: 2.5gbase-t
+      - name: port30
+        type: 2.5gbase-t
+      - name: port31
+        type: 2.5gbase-t
+      - name: port32
+        type: 2.5gbase-t
+      - name: port33
+        type: 5gbase-t
+      - name: port34
+        type: 5gbase-t
+      - name: port35
+        type: 5gbase-t
+      - name: port36
+        type: 5gbase-t
+      - name: port37
+        type: 5gbase-t
+      - name: port38
+        type: 5gbase-t
+      - name: port39
+        type: 5gbase-t
+      - name: port40
+        type: 5gbase-t
+      - name: port41
+        type: 5gbase-t
+      - name: port42
+        type: 5gbase-t
+      - name: port43
+        type: 5gbase-t
+      - name: port44
+        type: 5gbase-t
+      - name: port45
+        type: 5gbase-t
+      - name: port46
+        type: 5gbase-t
+      - name: port47
+        type: 5gbase-t
+      - name: port48
+        type: 5gbase-t
+      - name: port49
+        type: 25gbase-x-sfp28
+      - name: port50
+        type: 25gbase-x-sfp28
+      - name: port51
+        type: 25gbase-x-sfp28
+      - name: port52
+        type: 25gbase-x-sfp28
+      - name: port53
+        type: 25gbase-x-sfp28
+      - name: port54
+        type: 25gbase-x-sfp28
+      - name: port55
+        type: 25gbase-x-sfp28
+      - name: port56
+        type: 25gbase-x-sfp28
+      - mgmt_only: true
+        name: mgmt
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Fortinet
+    model: FortiSwitch 648F
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
+    part_number: FS-648F
+    slug: fortinet-fs-648f
+    u_height: 1
+    weight: 7.15
+    weight_unit: kg
+  - airflow: passive
+    comments: Same as FG-60F, but **WITH** 1 x 128 GB SSD onboard storage.
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: internal1
+        type: 1000base-t
+      - name: internal2
+        type: 1000base-t
+      - name: internal3
+        type: 1000base-t
+      - name: internal4
+        type: 1000base-t
+      - name: internal5
+        type: 1000base-t
+      - name: A
+        type: 1000base-t
+      - name: B
+        type: 1000base-t
+      - name: dmz
+        type: 1000base-t
+      - name: wan1
+        type: 1000base-t
+      - name: wan2
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiGate 61F
+    part_number: FG-61F
+    power-ports:
+      - allocated_draw: 17
+        label: 12V DC
+        maximum_draw: 19
+        name: PS1
+        type: dc-terminal
+    slug: fortinet-fg-61f
+    u_height: 1
+    weight: 1.01
+    weight_unit: kg
+  - airflow: front-to-rear
+    console-ports:
+      - name: Console
+        type: rj-45
+    front_image: true
     interfaces:
       - mgmt_only: true
         name: mgmt1
@@ -3645,6 +6185,135 @@ models:
     u_height: 2
     weight: 13.9
     weight_unit: kg
+  - airflow: side-to-rear
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: port1
+        type: 1000base-t
+      - name: port2
+        type: 1000base-t
+      - name: port3
+        type: 1000base-t
+      - name: port4
+        type: 1000base-t
+      - name: port5
+        type: 1000base-t
+      - name: port6
+        type: 1000base-t
+      - name: port7
+        type: 1000base-t
+      - name: port8
+        type: 1000base-t
+      - name: port9
+        type: 1000base-t
+      - name: port10
+        type: 1000base-t
+      - name: port11
+        type: 1000base-t
+      - name: port12
+        type: 1000base-t
+      - name: port13
+        type: 1000base-t
+      - name: port14
+        type: 1000base-t
+      - name: port15
+        type: 1000base-t
+      - name: port16
+        type: 1000base-t
+      - name: port17
+        type: 1000base-t
+      - name: port18
+        type: 1000base-t
+      - name: port19
+        type: 1000base-t
+      - name: port20
+        type: 1000base-t
+      - name: port21
+        type: 1000base-t
+      - name: port22
+        type: 1000base-t
+      - name: port23
+        type: 1000base-t
+      - name: port24
+        type: 1000base-t
+      - name: port25
+        type: 1000base-t
+      - name: port26
+        type: 1000base-t
+      - name: port27
+        type: 1000base-t
+      - name: port28
+        type: 1000base-t
+      - name: port29
+        type: 1000base-t
+      - name: port30
+        type: 1000base-t
+      - name: port31
+        type: 1000base-t
+      - name: port32
+        type: 1000base-t
+      - name: port33
+        type: 1000base-t
+      - name: port34
+        type: 1000base-t
+      - name: port35
+        type: 1000base-t
+      - name: port36
+        type: 1000base-t
+      - name: port37
+        type: 1000base-t
+      - name: port38
+        type: 1000base-t
+      - name: port39
+        type: 1000base-t
+      - name: port40
+        type: 1000base-t
+      - name: port41
+        type: 1000base-t
+      - name: port42
+        type: 1000base-t
+      - name: port43
+        type: 1000base-t
+      - name: port44
+        type: 1000base-t
+      - name: port45
+        type: 1000base-t
+      - name: port46
+        type: 1000base-t
+      - name: port47
+        type: 1000base-t
+      - name: port48
+        type: 1000base-t
+      - name: port49
+        type: 10gbase-x-sfpp
+      - name: port50
+        type: 10gbase-x-sfpp
+      - name: port51
+        type: 10gbase-x-sfpp
+      - name: port52
+        type: 10gbase-x-sfpp
+      - name: port53
+        type: 40gbase-x-qsfpp
+      - name: port54
+        type: 40gbase-x-qsfpp
+      - mgmt_only: true
+        name: mgmt
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 548D-FPOE
+    module-bays:
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
+    part_number: FS-548D-FPOE
+    slug: fortinet-fs-548d-fpoe
+    u_height: 1
+    weight: 15.74
+    weight_unit: lb
   - console-ports:
       - name: Console
         type: rj-45
@@ -3767,6 +6436,61 @@ models:
     u_height: 2
     weight: 19.5
     weight_unit: kg
+  - airflow: passive
+    comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf), [FortiSwitch 108E Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-108e-series-quickstart-guide)'
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: port1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: port9
+        type: 1000base-x-sfp
+      - name: port10
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiSwitch 108E-FPOE
+    part_number: FS-108E-FPOE
+    power-ports:
+      - allocated_draw: 135
+        maximum_draw: 136
+        name: PS1
+        type: iec-60320-c14
+    slug: fortinet-fs-108e-fpoe
+    u_height: 1
+    weight: 2.04
+    weight_unit: kg
   - comments: Same as FG-601E , but **WITHOUT** 2 x 240GB SSDs on-board.
     console-ports:
       - name: Console
@@ -3816,11 +6540,70 @@ models:
     is_full_depth: false
     manufacturer: Fortinet
     model: FortiGate 600E
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
     part_number: FG-600E
-    power-ports:
-      - allocated_draw: 129
-        maximum_draw: 244
-        name: PS1
-        type: iec-60320-c14
     slug: fortinet-fg-600e
     u_height: 1
+  - comments: Same as FG-500E, but **WITH** 2 x 240GB SSD onboard storage.
+    console-ports:
+      - name: Console
+        type: rj-45
+    interfaces:
+      - name: ha
+        type: 1000base-t
+      - mgmt_only: true
+        name: mgmt
+        type: 1000base-t
+      - name: port1
+        type: 1000base-t
+      - name: port2
+        type: 1000base-t
+      - name: port3
+        type: 1000base-t
+      - name: port4
+        type: 1000base-t
+      - name: port5
+        type: 1000base-t
+      - name: port6
+        type: 1000base-t
+      - name: port7
+        type: 1000base-t
+      - name: port8
+        type: 1000base-t
+      - name: port9
+        type: 1000base-x-sfp
+      - name: port10
+        type: 1000base-x-sfp
+      - name: port11
+        type: 1000base-x-sfp
+      - name: port12
+        type: 1000base-x-sfp
+      - name: s1
+        type: 1000base-x-sfp
+      - name: s2
+        type: 1000base-x-sfp
+      - name: vw1
+        type: 1000base-x-sfp
+      - name: vw2
+        type: 1000base-x-sfp
+      - name: x1
+        type: 10gbase-x-sfpp
+      - name: x2
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Fortinet
+    model: FortiGate 501E
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: FG-501E
+    slug: fortinet-fg-501e
+    u_height: 1
+    weight: 7.3
+    weight_unit: kg

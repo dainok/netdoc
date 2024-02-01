@@ -2,16 +2,22 @@ keywords:
   - PM10-L30A
   - DSRIQ-USB
   - PM10i-10A
+  - ACS 5016 Single-AC
+  - ACS5016-001
   - DSR2035
   - ACS 8032 Single-AC
   - ACS8032SAC-400
   - MPUIQ-VMCHS
   - 520-854-501
+  - ACS 5048 Single-AC
+  - ACS5048-001
   - PM10i-16A
   - PM20i-L30A
   - PM20i-20A
   - PM10-20A
   - PM10i-L30A
+  - ACS 5032 Single-AC
+  - ACS5032-001
   - PM3000
   - MPUIQ-SRL
   - 520-592-502
@@ -22,19 +28,27 @@ keywords:
   - ACS 8016 Single-AC
   - ACS8016SAC-400
   - PM20-20A
+  - ACS 5008 Single-AC
+  - ACS5008-001
   - PM3009H
   - DSRIQ-PS2
   - PM10-15A
-  - Cyclades TS-1000
   - PM10-L20A
   - ACS16
+  - ACS 5032 Dual-AC
+  - ACS5032DAC-001
   - PM10i-20A
   - ACS 8008 Single-AC
   - ACS8008SAC-400
   - DSRIQ-VSN
+  - ACS 5048 Dual-AC
+  - ACS5048DAC-001
   - PM20i-16A
+  - Cyclades TS 1000
   - DSRIQ-SRL
   - PM20-L30A
+  - ACS 5004 Single-AC
+  - ACS5004-001
 models:
   - comments: AlterPath PM10-L30A
     console-ports:
@@ -84,6 +98,7 @@ models:
     u_height: 1
   - console-ports:
       - name: DSR
+        poe: true
         type: rj-45
     console-server-ports:
       - name: VGA
@@ -141,6 +156,60 @@ models:
         type: iec-60320-c14
     slug: avocent-pm10i-10a
     u_height: 1
+  - airflow: passive
+    comments: '[Avocent ACS 5000 Data Sheet](https://www.vertiv.com/4935cd/globalassets/shared/avocent-acs-5000-advanced-console-server-data-sheet.pdf)'
+    console-ports:
+      - name: console
+        type: rj-45
+    console-server-ports:
+      - name: ttyS1
+        type: rj-45
+      - name: ttyS2
+        type: rj-45
+      - name: ttyS3
+        type: rj-45
+      - name: ttyS4
+        type: rj-45
+      - name: ttyS5
+        type: rj-45
+      - name: ttyS6
+        type: rj-45
+      - name: ttyS7
+        type: rj-45
+      - name: ttyS8
+        type: rj-45
+      - name: ttyS9
+        type: rj-45
+      - name: ttyS10
+        type: rj-45
+      - name: ttyS11
+        type: rj-45
+      - name: ttyS12
+        type: rj-45
+      - name: ttyS13
+        type: rj-45
+      - name: ttyS14
+        type: rj-45
+      - name: ttyS15
+        type: rj-45
+      - name: ttyS16
+        type: rj-45
+    interfaces:
+      - name: eth0
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: Avocent
+    model: ACS 5016 Single-AC
+    part_number: ACS5016-001
+    power-ports:
+      - allocated_draw: 18
+        maximum_draw: 36
+        name: ps1
+        type: iec-60320-c14
+    slug: avocent-acs5016-001
+    u_height: 1
+    weight: 3.5
+    weight_unit: kg
   - console-ports:
       - name: MODEM
         type: rj-45
@@ -337,6 +406,7 @@ models:
     comments: MPU IQ Serial Adapter
     console-ports:
       - name: KVM
+        poe: true
         type: rj-45
     console-server-ports:
       - name: vga0
@@ -349,6 +419,124 @@ models:
     part_number: 520-854-501
     slug: avocent-mpuiq-vmchs
     u_height: 0
+  - airflow: passive
+    comments: '[Avocent ACS 5000 Data Sheet](https://www.vertiv.com/4935cd/globalassets/shared/avocent-acs-5000-advanced-console-server-data-sheet.pdf)'
+    console-ports:
+      - name: console
+        type: rj-45
+    console-server-ports:
+      - name: ttyS1
+        type: rj-45
+      - name: ttyS2
+        type: rj-45
+      - name: ttyS3
+        type: rj-45
+      - name: ttyS4
+        type: rj-45
+      - name: ttyS5
+        type: rj-45
+      - name: ttyS6
+        type: rj-45
+      - name: ttyS7
+        type: rj-45
+      - name: ttyS8
+        type: rj-45
+      - name: ttyS9
+        type: rj-45
+      - name: ttyS10
+        type: rj-45
+      - name: ttyS11
+        type: rj-45
+      - name: ttyS12
+        type: rj-45
+      - name: ttyS13
+        type: rj-45
+      - name: ttyS14
+        type: rj-45
+      - name: ttyS15
+        type: rj-45
+      - name: ttyS16
+        type: rj-45
+      - name: ttyS17
+        type: rj-45
+      - name: ttyS18
+        type: rj-45
+      - name: ttyS19
+        type: rj-45
+      - name: ttyS20
+        type: rj-45
+      - name: ttyS21
+        type: rj-45
+      - name: ttyS22
+        type: rj-45
+      - name: ttyS23
+        type: rj-45
+      - name: ttyS24
+        type: rj-45
+      - name: ttyS25
+        type: rj-45
+      - name: ttyS26
+        type: rj-45
+      - name: ttyS27
+        type: rj-45
+      - name: ttyS28
+        type: rj-45
+      - name: ttyS29
+        type: rj-45
+      - name: ttyS30
+        type: rj-45
+      - name: ttyS31
+        type: rj-45
+      - name: ttyS32
+        type: rj-45
+      - name: ttyS33
+        type: rj-45
+      - name: ttyS34
+        type: rj-45
+      - name: ttyS35
+        type: rj-45
+      - name: ttyS36
+        type: rj-45
+      - name: ttyS37
+        type: rj-45
+      - name: ttyS38
+        type: rj-45
+      - name: ttyS39
+        type: rj-45
+      - name: ttyS40
+        type: rj-45
+      - name: ttyS41
+        type: rj-45
+      - name: ttyS42
+        type: rj-45
+      - name: ttyS43
+        type: rj-45
+      - name: ttyS44
+        type: rj-45
+      - name: ttyS45
+        type: rj-45
+      - name: ttyS46
+        type: rj-45
+      - name: ttyS47
+        type: rj-45
+      - name: ttyS48
+        type: rj-45
+    interfaces:
+      - name: eth0
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: Avocent
+    model: ACS 5048 Single-AC
+    part_number: ACS5048-001
+    power-ports:
+      - allocated_draw: 18
+        maximum_draw: 36
+        name: ps1
+        type: iec-60320-c14
+    slug: avocent-acs5048-001
+    u_height: 1
+    weight: 3.5
+    weight_unit: kg
   - comments: AlterPath PM10i-16A
     console-ports:
       - name: In
@@ -639,6 +827,92 @@ models:
         type: nema-l6-30p
     slug: avocent-pm10i-l30a
     u_height: 1
+  - airflow: passive
+    comments: '[Avocent ACS 5000 Data Sheet](https://www.vertiv.com/4935cd/globalassets/shared/avocent-acs-5000-advanced-console-server-data-sheet.pdf)'
+    console-ports:
+      - name: console
+        type: rj-45
+    console-server-ports:
+      - name: ttyS1
+        type: rj-45
+      - name: ttyS2
+        type: rj-45
+      - name: ttyS3
+        type: rj-45
+      - name: ttyS4
+        type: rj-45
+      - name: ttyS5
+        type: rj-45
+      - name: ttyS6
+        type: rj-45
+      - name: ttyS7
+        type: rj-45
+      - name: ttyS8
+        type: rj-45
+      - name: ttyS9
+        type: rj-45
+      - name: ttyS10
+        type: rj-45
+      - name: ttyS11
+        type: rj-45
+      - name: ttyS12
+        type: rj-45
+      - name: ttyS13
+        type: rj-45
+      - name: ttyS14
+        type: rj-45
+      - name: ttyS15
+        type: rj-45
+      - name: ttyS16
+        type: rj-45
+      - name: ttyS17
+        type: rj-45
+      - name: ttyS18
+        type: rj-45
+      - name: ttyS19
+        type: rj-45
+      - name: ttyS20
+        type: rj-45
+      - name: ttyS21
+        type: rj-45
+      - name: ttyS22
+        type: rj-45
+      - name: ttyS23
+        type: rj-45
+      - name: ttyS24
+        type: rj-45
+      - name: ttyS25
+        type: rj-45
+      - name: ttyS26
+        type: rj-45
+      - name: ttyS27
+        type: rj-45
+      - name: ttyS28
+        type: rj-45
+      - name: ttyS29
+        type: rj-45
+      - name: ttyS30
+        type: rj-45
+      - name: ttyS31
+        type: rj-45
+      - name: ttyS32
+        type: rj-45
+    interfaces:
+      - name: eth0
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: Avocent
+    model: ACS 5032 Single-AC
+    part_number: ACS5032-001
+    power-ports:
+      - allocated_draw: 18
+        maximum_draw: 36
+        name: ps1
+        type: iec-60320-c14
+    slug: avocent-acs5032-001
+    u_height: 1
+    weight: 3.5
+    weight_unit: kg
   - interfaces:
       - mgmt_only: true
         name: Link
@@ -729,6 +1003,7 @@ models:
     comments: MPU IQ Serial Adapter
     console-ports:
       - name: KVM
+        poe: true
         type: rj-45
     console-server-ports:
       - name: con0
@@ -1115,6 +1390,44 @@ models:
         type: nema-5-20p
     slug: avocent-pm20-20a
     u_height: 0
+  - airflow: passive
+    comments: '[Avocent ACS 5000 Data Sheet](https://www.vertiv.com/4935cd/globalassets/shared/avocent-acs-5000-advanced-console-server-data-sheet.pdf)'
+    console-ports:
+      - name: console
+        type: rj-45
+    console-server-ports:
+      - name: ttyS1
+        type: rj-45
+      - name: ttyS2
+        type: rj-45
+      - name: ttyS3
+        type: rj-45
+      - name: ttyS4
+        type: rj-45
+      - name: ttyS5
+        type: rj-45
+      - name: ttyS6
+        type: rj-45
+      - name: ttyS7
+        type: rj-45
+      - name: ttyS8
+        type: rj-45
+    interfaces:
+      - name: eth0
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: Avocent
+    model: ACS 5008 Single-AC
+    part_number: ACS5008-001
+    power-ports:
+      - allocated_draw: 18
+        maximum_draw: 36
+        name: ps1
+        type: iec-60320-c14
+    slug: avocent-acs5008-001
+    u_height: 1
+    weight: 3.5
+    weight_unit: kg
   - console-ports:
       - name: In/Console
         type: rj-45
@@ -1170,6 +1483,7 @@ models:
     u_height: 1
   - console-ports:
       - name: DSR
+        poe: true
         type: rj-45
     console-server-ports:
       - name: VGA
@@ -1228,53 +1542,6 @@ models:
         name: Power Port 1
         type: nema-5-15p
     slug: avocent-pm10-15a
-    u_height: 1
-  - console-ports:
-      - name: Console
-        type: rj-45
-    console-server-ports:
-      - name: ttyS01
-        type: rj-45
-      - name: ttyS02
-        type: rj-45
-      - name: ttyS03
-        type: rj-45
-      - name: ttyS04
-        type: rj-45
-      - name: ttyS05
-        type: rj-45
-      - name: ttyS06
-        type: rj-45
-      - name: ttyS07
-        type: rj-45
-      - name: ttyS08
-        type: rj-45
-      - name: ttyS09
-        type: rj-45
-      - name: ttyS10
-        type: rj-45
-      - name: ttyS11
-        type: rj-45
-      - name: ttyS12
-        type: rj-45
-      - name: ttyS13
-        type: rj-45
-      - name: ttyS14
-        type: rj-45
-      - name: ttyS15
-        type: rj-45
-      - name: ttyS16
-        type: rj-45
-    interfaces:
-      - name: Ethernet
-        type: 100base-tx
-    is_full_depth: false
-    manufacturer: Avocent
-    model: Cyclades TS-1000
-    power-ports:
-      - name: Power
-        type: iec-60320-c14
-    slug: avocent-cyclades-ts-1000
     u_height: 1
   - comments: AlterPath PM10-L20A
     console-ports:
@@ -1370,6 +1637,96 @@ models:
         type: iec-60320-c14
     slug: avocent-acs16
     u_height: 1
+  - airflow: passive
+    comments: '[Avocent ACS 5000 Data Sheet](https://www.vertiv.com/4935cd/globalassets/shared/avocent-acs-5000-advanced-console-server-data-sheet.pdf)'
+    console-ports:
+      - name: console
+        type: rj-45
+    console-server-ports:
+      - name: ttyS1
+        type: rj-45
+      - name: ttyS2
+        type: rj-45
+      - name: ttyS3
+        type: rj-45
+      - name: ttyS4
+        type: rj-45
+      - name: ttyS5
+        type: rj-45
+      - name: ttyS6
+        type: rj-45
+      - name: ttyS7
+        type: rj-45
+      - name: ttyS8
+        type: rj-45
+      - name: ttyS9
+        type: rj-45
+      - name: ttyS10
+        type: rj-45
+      - name: ttyS11
+        type: rj-45
+      - name: ttyS12
+        type: rj-45
+      - name: ttyS13
+        type: rj-45
+      - name: ttyS14
+        type: rj-45
+      - name: ttyS15
+        type: rj-45
+      - name: ttyS16
+        type: rj-45
+      - name: ttyS17
+        type: rj-45
+      - name: ttyS18
+        type: rj-45
+      - name: ttyS19
+        type: rj-45
+      - name: ttyS20
+        type: rj-45
+      - name: ttyS21
+        type: rj-45
+      - name: ttyS22
+        type: rj-45
+      - name: ttyS23
+        type: rj-45
+      - name: ttyS24
+        type: rj-45
+      - name: ttyS25
+        type: rj-45
+      - name: ttyS26
+        type: rj-45
+      - name: ttyS27
+        type: rj-45
+      - name: ttyS28
+        type: rj-45
+      - name: ttyS29
+        type: rj-45
+      - name: ttyS30
+        type: rj-45
+      - name: ttyS31
+        type: rj-45
+      - name: ttyS32
+        type: rj-45
+    interfaces:
+      - name: eth0
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: Avocent
+    model: ACS 5032 Dual-AC
+    part_number: ACS5032DAC-001
+    power-ports:
+      - allocated_draw: 18
+        maximum_draw: 36
+        name: ps1
+        type: iec-60320-c14
+      - allocated_draw: 18
+        maximum_draw: 36
+        name: ps2
+        type: iec-60320-c14
+    slug: avocent-acs5032dac-001
+    u_height: 1
+    weight: 3.5
+    weight_unit: kg
   - comments: AlterPath PM10i-20A
     console-ports:
       - name: In
@@ -1458,6 +1815,7 @@ models:
     weight_unit: lb
   - console-ports:
       - name: DSR
+        poe: true
         type: rj-45
     console-server-ports:
       - name: VGA
@@ -1469,6 +1827,128 @@ models:
     model: DSRIQ-VSN
     slug: avocent-dsriq-vsn
     u_height: 0
+  - airflow: passive
+    comments: '[Avocent ACS 5000 Data Sheet](https://www.vertiv.com/4935cd/globalassets/shared/avocent-acs-5000-advanced-console-server-data-sheet.pdf)'
+    console-ports:
+      - name: console
+        type: rj-45
+    console-server-ports:
+      - name: ttyS1
+        type: rj-45
+      - name: ttyS2
+        type: rj-45
+      - name: ttyS3
+        type: rj-45
+      - name: ttyS4
+        type: rj-45
+      - name: ttyS5
+        type: rj-45
+      - name: ttyS6
+        type: rj-45
+      - name: ttyS7
+        type: rj-45
+      - name: ttyS8
+        type: rj-45
+      - name: ttyS9
+        type: rj-45
+      - name: ttyS10
+        type: rj-45
+      - name: ttyS11
+        type: rj-45
+      - name: ttyS12
+        type: rj-45
+      - name: ttyS13
+        type: rj-45
+      - name: ttyS14
+        type: rj-45
+      - name: ttyS15
+        type: rj-45
+      - name: ttyS16
+        type: rj-45
+      - name: ttyS17
+        type: rj-45
+      - name: ttyS18
+        type: rj-45
+      - name: ttyS19
+        type: rj-45
+      - name: ttyS20
+        type: rj-45
+      - name: ttyS21
+        type: rj-45
+      - name: ttyS22
+        type: rj-45
+      - name: ttyS23
+        type: rj-45
+      - name: ttyS24
+        type: rj-45
+      - name: ttyS25
+        type: rj-45
+      - name: ttyS26
+        type: rj-45
+      - name: ttyS27
+        type: rj-45
+      - name: ttyS28
+        type: rj-45
+      - name: ttyS29
+        type: rj-45
+      - name: ttyS30
+        type: rj-45
+      - name: ttyS31
+        type: rj-45
+      - name: ttyS32
+        type: rj-45
+      - name: ttyS33
+        type: rj-45
+      - name: ttyS34
+        type: rj-45
+      - name: ttyS35
+        type: rj-45
+      - name: ttyS36
+        type: rj-45
+      - name: ttyS37
+        type: rj-45
+      - name: ttyS38
+        type: rj-45
+      - name: ttyS39
+        type: rj-45
+      - name: ttyS40
+        type: rj-45
+      - name: ttyS41
+        type: rj-45
+      - name: ttyS42
+        type: rj-45
+      - name: ttyS43
+        type: rj-45
+      - name: ttyS44
+        type: rj-45
+      - name: ttyS45
+        type: rj-45
+      - name: ttyS46
+        type: rj-45
+      - name: ttyS47
+        type: rj-45
+      - name: ttyS48
+        type: rj-45
+    interfaces:
+      - name: eth0
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: Avocent
+    model: ACS 5048 Dual-AC
+    part_number: ACS5048DAC-001
+    power-ports:
+      - allocated_draw: 18
+        maximum_draw: 36
+        name: ps1
+        type: iec-60320-c14
+      - allocated_draw: 18
+        maximum_draw: 36
+        name: ps2
+        type: iec-60320-c14
+    slug: avocent-acs5048dac-001
+    u_height: 1
+    weight: 3.5
+    weight_unit: kg
   - comments: AlterPath PM20i-16A
     console-ports:
       - name: In
@@ -1545,6 +2025,53 @@ models:
         type: iec-60320-c20
     slug: avocent-pm20i-16a
     u_height: 0
+  - console-ports:
+      - name: Console
+        type: rj-45
+    console-server-ports:
+      - name: ttyS01
+        type: rj-45
+      - name: ttyS02
+        type: rj-45
+      - name: ttyS03
+        type: rj-45
+      - name: ttyS04
+        type: rj-45
+      - name: ttyS05
+        type: rj-45
+      - name: ttyS06
+        type: rj-45
+      - name: ttyS07
+        type: rj-45
+      - name: ttyS08
+        type: rj-45
+      - name: ttyS09
+        type: rj-45
+      - name: ttyS10
+        type: rj-45
+      - name: ttyS11
+        type: rj-45
+      - name: ttyS12
+        type: rj-45
+      - name: ttyS13
+        type: rj-45
+      - name: ttyS14
+        type: rj-45
+      - name: ttyS15
+        type: rj-45
+      - name: ttyS16
+        type: rj-45
+    interfaces:
+      - name: Ethernet
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: Avocent
+    model: Cyclades TS 1000
+    power-ports:
+      - name: Power
+        type: iec-60320-c14
+    slug: avocent-cyclades-ts-1000
+    u_height: 1
   - console-ports:
       - name: DSR
         type: rj-45
@@ -1635,3 +2162,33 @@ models:
         type: nema-l5-30p
     slug: avocent-pm20-l30a
     u_height: 0
+  - airflow: passive
+    comments: '[Avocent ACS 5000 Data Sheet](https://www.vertiv.com/4935cd/globalassets/shared/avocent-acs-5000-advanced-console-server-data-sheet.pdf)'
+    console-ports:
+      - name: console
+        type: rj-45
+    console-server-ports:
+      - name: ttyS1
+        type: rj-45
+      - name: ttyS2
+        type: rj-45
+      - name: ttyS3
+        type: rj-45
+      - name: ttyS4
+        type: rj-45
+    interfaces:
+      - name: eth0
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: Avocent
+    model: ACS 5004 Single-AC
+    part_number: ACS5004-001
+    power-ports:
+      - allocated_draw: 18
+        maximum_draw: 36
+        name: ps1
+        type: iec-60320-c14
+    slug: avocent-acs5004-001
+    u_height: 1
+    weight: 3.5
+    weight_unit: kg
