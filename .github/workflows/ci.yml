@@ -25,29 +25,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Setup Python3"
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v5
         with:
           python-version: "${{ env.PYTHON_VERSION }}"
       - name: "Check out NetDoc repository code"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: "Install and run pre-commit"
         uses: pre-commit/action@v3.0.0
   pylint:
     runs-on: ubuntu-latest
     steps:
       - name: "Setup Python3"
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v5
         with:
           python-version: "${{ env.PYTHON_VERSION }}"
       - name: "Check out Netbox repository code"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: "netbox-community/netbox"
           ref: "${{ env.NETBOX_VERSION }}"
           path: "netbox"
           fetch-depth: "0"
       - name: "Check out NetDoc repository code"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: "netdoc"
           fetch-depth: "0"
@@ -82,22 +82,22 @@ jobs:
       - name: "Setting PostgreSQL administrative privileges"
         run: "sudo su - postgres -c 'psql -c \"alter user netbox createdb\"'"
       - name: "Setup Python3"
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v5
         with:
           python-version: "${{ env.PYTHON_VERSION }}"
       - name: "Check out NetDoc repository code"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: "netdoc"
           fetch-depth: "0"
       - name: "Check out Netbox repository code"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: "netbox-community/netbox"
           ref: "${{ env.NETBOX_VERSION }}"
           path: "netbox"
       - name: "Check out NTC-Templates repository code"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: "networktocode/ntc-templates"
           path: "ntc-templates"
