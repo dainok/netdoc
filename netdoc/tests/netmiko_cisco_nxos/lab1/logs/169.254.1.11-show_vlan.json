@@ -3,7 +3,7 @@
         "command": "show vlan",
         "enable": true,
         "framework": "netmiko",
-        "order": 10,
+        "order": 2,
         "platform": "cisco_nxos",
         "template": "show vlan"
     },

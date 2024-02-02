@@ -22,12 +22,12 @@ def discovery(nrni, filters=None, filter_type=None):
         [
             ("display current-configuration | include sysname", "HOSTNAME"),
             ("display current-configuration", None),
-            # Depending on version, "verbose" may be unsupportted
-            ("display lldp neighbor-information verbose", None),
-            ("display lldp neighbor-information list", None),
             # Depending on version, "brief" may be unsupportted
             ("display vlan brief", None),
             ("display vlan all", None),
+            # Depending on version, "verbose" may be unsupportted
+            ("display lldp neighbor-information verbose", None),
+            ("display lldp neighbor-information list", None),
             ("display ip vpn-instance", None),
             ("display interface", None),
             ("display ip interface", None),

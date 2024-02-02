@@ -20,8 +20,8 @@ def discovery(nrni, filters=None, filter_type=None):
     commands = [
         ("show system", "HOSTNAME"),
         ("show running-config", None),
-        ("show interfaces brief", None),
         ("show vlans", None),
+        ("show interfaces brief", None),
         ("show cdp neighbors detail", None),
         ("show lldp info remote-device", None),
         ("show mac-address", None),

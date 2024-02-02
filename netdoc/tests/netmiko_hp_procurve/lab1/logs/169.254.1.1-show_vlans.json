@@ -3,7 +3,7 @@
         "command": "show vlans",
         "enable": true,
         "framework": "netmiko",
-        "order": 10,
+        "order": 2,
         "platform": "hp_procurve",
         "template": "show vlans"
     },

@@ -6,7 +6,6 @@ To make the process faster, the database is created once and resued:
 """
 
 from os import walk, path
-import logging
 import re
 import json
 import yaml
@@ -344,7 +343,6 @@ def test_vlans(test_o, expected_results):
     """Test VLAN given an expected_results dict."""
     # Test total VLAN objects
     vlan_qs = VLAN.objects.all()
-    logging.error(list(vlan_qs))
     test_o.assertEquals(len(vlan_qs), len(expected_results), "number of results")
 
     # Test each item
