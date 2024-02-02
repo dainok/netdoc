@@ -1,0 +1,100 @@
+keywords:
+  - PF-2273-2L1M-LF
+  - PF-2273-2L1M-LF
+models:
+  - airflow: front-to-rear
+    comments: 'Open Compute Project ORv1/v2 compatible Power Shelf
+
+
+      * 3-phase, 5-wire 220 / 230 / 240VAC
+
+      * 27kW power output (3kW x 9; 12.5VDC/2160A)
+
+      * 3OU shelf accepts up to 10 hot-swappable 3kW Power Supply Units for 9+1 redundant operation
+
+      * 21-inch shelf with a height of 3 OU (OpenU), 5.11 inches (130 mm)
+
+      * Communication with Li-ion Battery Backup Shelf (BBS)
+
+      * Real-time PSU and BBS monitoring and control
+
+      * Remote control PSU On/Off through the optional Shelf Controller
+
+      * Supports 3 sets of bus bars to deliver DC power to load
+
+      * Supports 6x C13 outlets for external AC load
+
+
+      Fits 21" ORv1/v2 racks only
+
+
+      Takes PSU type PSU-PS-2302-1L1U-LF
+
+'
+    is_full_depth: true
+    manufacturer: LiteOn
+    model: PF-2273-2L1M-LF
+    module-bays:
+      - description: Power Shelf Controller
+        name: psc
+      - label: N+1 R
+        name: psu-01
+      - label: S
+        name: psu-02
+      - label: T
+        name: psu-03
+      - label: R
+        name: psu-04
+      - label: S
+        name: psu-05
+      - label: T
+        name: psu-06
+      - label: R
+        name: psu-07
+      - label: S
+        name: psu-08
+      - label: T
+        name: psu-09
+      - label: R
+        name: psu-10
+    part_number: PF-2273-2L1M-LF
+    power-outlets:
+      - feed_leg: A
+        name: ac-output-a1
+        power_port: ac-input-a
+        type: iec-60320-c13
+      - feed_leg: B
+        name: ac-output-a2
+        power_port: ac-input-a
+        type: iec-60320-c13
+      - feed_leg: C
+        name: ac-output-a3
+        power_port: ac-input-a
+        type: iec-60320-c13
+      - feed_leg: A
+        name: ac-output-b1
+        power_port: ac-input-b
+        type: iec-60320-c13
+      - feed_leg: B
+        name: ac-output-b2
+        power_port: ac-input-b
+        type: iec-60320-c13
+      - feed_leg: C
+        name: ac-output-b3
+        power_port: ac-input-b
+        type: iec-60320-c13
+      - name: dc-output-bus-left
+        type: dc-terminal
+      - name: dc-output-bus-center
+        type: dc-terminal
+      - name: dc-output-bus-right
+        type: dc-terminal
+    power-ports:
+      - name: ac-input-a
+        type: other
+      - name: ac-input-b
+        type: other
+    slug: liteon-pf-2273-2l1m-lf
+    u_height: 3
+    weight: 27
+    weight_unit: kg

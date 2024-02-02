@@ -1,4 +1,5 @@
 keywords:
+  - IES3110-8TF-R
   - S3800-24F4S
   - s3800-24f4s
   - FHU-FPP48FLCSMF
@@ -7,6 +8,8 @@ keywords:
   - '42937'
   - S3900-48T6S-R
   - s3900-48t6s-r
+  - FHU-96FLC12MSMF
+  - '43552'
   - S5860-20SQ
   - s5860-20sq
   - PDU-2PE42I-VMO
@@ -40,6 +43,45 @@ keywords:
   - S3900-24T4S-R
   - s3900-24t4s-r
 models:
+  - comments: '[IES3110-8TF-R Web Datasheet](https://www.fs.com/products_support/preview.html?categories_id=4242&files_id=4628&model_name=IES3110-8TF-R,IES3110-8TFP-R&is_datasheet=1)'
+    console-ports:
+      - name: Management
+        type: rj-45
+    interfaces:
+      - name: 1/1
+        type: 1000base-t
+      - name: 1/2
+        type: 1000base-t
+      - name: 1/3
+        type: 1000base-t
+      - name: 1/4
+        type: 1000base-t
+      - name: 1/5
+        type: 1000base-t
+      - name: 1/6
+        type: 1000base-t
+      - name: 1/7
+        type: 1000base-t
+      - name: 1/8
+        type: 1000base-t
+      - name: 1/9
+        type: 1000base-x-sfp
+      - name: 1/10
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: FS
+    model: IES3110-8TF-R
+    power-ports:
+      - maximum_draw: 10
+        name: PSU1
+        type: dc-terminal
+      - maximum_draw: 10
+        name: PSU2
+        type: dc-terminal
+    slug: fs-ies3110-8tf-r
+    u_height: 0.5
+    weight: 1.76
+    weight_unit: lb
   - console-ports:
       - name: Management
         type: rj-45
@@ -161,6 +203,7 @@ models:
         rear_port_position: 1
         type: lc
     is_full_depth: true
+    is_powered: false
     manufacturer: FS
     model: FHU-FPP48FLCSMF
     part_number: FHU-FPP48FLCSMF (#35530)
@@ -376,6 +419,40 @@ models:
         type: iec-60320-c14
     slug: fs-s3900-48t6s-r
     u_height: 1
+  - airflow: passive
+    comments: '[FHU 1U Breakout Cassette, 96 Fibers OS2 Single Mode, Holds up to 12x MTP-8 to 24x LC Quad](https://www.fs.com/products/43552.html?attribute=29153&id=556469)'
+    manufacturer: FS
+    model: FHU-96FLC12MSMF
+    module-bays:
+      - name: '1'
+        position: '1'
+      - name: '2'
+        position: '2'
+      - name: '3'
+        position: '3'
+      - name: '4'
+        position: '4'
+      - name: '5'
+        position: '5'
+      - name: '6'
+        position: '6'
+      - name: '7'
+        position: '7'
+      - name: '8'
+        position: '8'
+      - name: '9'
+        position: '9'
+      - name: '10'
+        position: '10'
+      - name: '11'
+        position: '11'
+      - name: '12'
+        position: '12'
+    part_number: '43552'
+    slug: fs-fhu-96flc12msmf
+    u_height: 1
+    weight: 2.8
+    weight_unit: kg
   - airflow: front-to-rear
     comments: '[FS S5860-20SQ Datasheet] (https://resource.fs.com/icon/js/stream/www.fs.com/477436/S5860%20Series%20Switches%20Datasheet.pdf)
 
@@ -998,6 +1075,7 @@ models:
         rear_port_position: 18
         type: lc
     is_full_depth: false
+    is_powered: false
     manufacturer: FS
     model: FMU-C182761M
     part_number: FMU-C182761M
@@ -1116,11 +1194,14 @@ models:
     slug: fs-fmu-mc084761em3
     subdevice_role: child
     u_height: 0
-  - comments: FMU 2-Slot 1U Rack-Chassis
+  - airflow: passive
+    comments: FMU 3-Slot 1U Rack-Chassis
     device-bays:
       - name: '1'
       - name: '2'
+      - name: '3'
     is_full_depth: false
+    is_powered: false
     manufacturer: FS
     model: FMU-1UFMX-N
     part_number: FMU-1UFMX-N
@@ -1290,6 +1371,7 @@ models:
         rear_port_position: 40
         type: lc
     is_full_depth: false
+    is_powered: false
     manufacturer: FS
     model: FMU-D402160M
     part_number: FMU-D402160M

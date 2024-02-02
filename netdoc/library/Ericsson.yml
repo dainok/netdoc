@@ -2,7 +2,8 @@ keywords:
   - R6672
   - R6672
 models:
-  - console-ports:
+  - airflow: front-to-rear
+    console-ports:
       - description: baudrate 115200
         name: console
         type: rj-45
@@ -55,5 +56,8 @@ models:
     manufacturer: Ericsson
     model: R6672
     part_number: R6672
+    power-ports:
+      - name: PSU1
+        type: iec-60320-c16
     slug: ericsson-r6672
     u_height: 1

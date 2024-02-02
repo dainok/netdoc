@@ -1,0 +1,60 @@
+keywords:
+  - SFA200NVX2 Enclosure
+  - ENC-200NVX2
+  - SFA200NVX2 Controller
+  - CTLR-200NVX2E
+models:
+  - airflow: front-to-rear
+    comments: 24bay Enclosure for SFA200NVX2 or SFA400NVX2
+    device-bays:
+      - label: Controller Slot 0
+        name: Controller 0
+        position: '0'
+      - label: Controller Slot 1
+        name: Controller 1
+        position: '1'
+    is_full_depth: true
+    manufacturer: DataDirect Networks
+    model: SFA200NVX2 Enclosure
+    module-bays:
+      - label: PSU Slot 1
+        name: PSU 1
+        position: '1'
+      - label: PSU Slot 2
+        name: PSU 2
+        position: '2'
+    part_number: ENC-200NVX2
+    slug: datadirect-networks-sfa200nvx2-enclosure
+    subdevice_role: parent
+    u_height: 2
+    weight: 36.36
+    weight_unit: kg
+  - airflow: front-to-rear
+    comments: Controller for SFA200NVX2
+    console-ports:
+      - description: 3.5mm stereo jack
+        name: Console
+        type: other
+    interfaces:
+      - mgmt_only: true
+        name: BMC
+        type: 1000base-t
+      - mgmt_only: true
+        name: Mgmt 0
+        type: 10gbase-t
+      - mgmt_only: true
+        name: Mgmt 1
+        type: 10gbase-t
+      - description: HDR200 or 200GbE
+        name: RP0 Port0
+        type: infiniband-hdr
+      - description: HDR200 or 200GbE
+        name: RP0 Port1
+        type: infiniband-hdr
+    is_full_depth: false
+    manufacturer: DataDirect Networks
+    model: SFA200NVX2 Controller
+    part_number: CTLR-200NVX2E
+    slug: datadirect-networks-sfa200nvx2-controller
+    subdevice_role: child
+    u_height: 0

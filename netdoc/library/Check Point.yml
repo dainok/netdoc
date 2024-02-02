@@ -105,6 +105,7 @@ models:
       - name: Left
       - name: Right
     is_full_depth: false
+    is_powered: false
     manufacturer: Check Point
     model: CPAC-1500/3600/3800-RM-DUAL
     part_number: CPAC-1500/3600/3800-RM-DUAL

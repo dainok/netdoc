@@ -1,14 +1,20 @@
 keywords:
+  - PA-5420
+  - PA-5420
   - PA-5050
   - PA-5050
   - PA-820
   - PA-820
   - PA-5250
   - PA-5250
+  - PA-5440
+  - PA-5440
   - PA-460
   - PA-460
   - PA-440
   - PA-440
+  - PA-5410
+  - PA-5410
   - PA-220
   - PA-220
   - PA-5220
@@ -17,22 +23,32 @@ keywords:
   - PA-200
   - PA-5060
   - PA-5060
+  - PA-5430
+  - PA-5430
   - PA-410
   - PA-410
   - PA-450
   - PA-450
+  - PA-220 Rack Kit
+  - PAN-PA-220-RACK-SINGLE
   - PA-850
   - PA-850
   - PA-5260
   - PA-5260
+  - PA-3440
+  - PA-3440
   - PA-3250
   - PA-3250
   - PA-5280
   - PA-5280
   - PA-500
   - PA-500
+  - PA-3420
+  - PA-3420
   - M-500
   - M-500
+  - PA-220 Rack Tray Kit
+  - PAN-PA-220-RACKTRAY
   - PA-3050
   - PA-3050
   - PA-3260
@@ -43,11 +59,99 @@ keywords:
   - M-100
   - PA-7080
   - PA-7080
+  - PA-3410
+  - PA-3410
+  - PA-3430
+  - PA-3430
   - PA-3060
   - PA-3060
   - PA-3220
   - PA-3220
 models:
+  - airflow: front-to-rear
+    comments: '[PA-5400 Series Next-Gen Firewall Hardware Reference](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-5400/pa-5400-hardware-reference.pdf)'
+    console-ports:
+      - name: console
+        type: rj-45
+    interfaces:
+      - name: ethernet1/1
+        type: 10gbase-t
+      - name: ethernet1/2
+        type: 10gbase-t
+      - name: ethernet1/3
+        type: 10gbase-t
+      - name: ethernet1/4
+        type: 10gbase-t
+      - name: ethernet1/5
+        type: 10gbase-t
+      - name: ethernet1/6
+        type: 10gbase-t
+      - name: ethernet1/7
+        type: 10gbase-t
+      - name: ethernet1/8
+        type: 10gbase-t
+      - name: ethernet1/9
+        type: 10gbase-x-sfpp
+      - name: ethernet1/10
+        type: 10gbase-x-sfpp
+      - name: ethernet1/11
+        type: 10gbase-x-sfpp
+      - name: ethernet1/12
+        type: 10gbase-x-sfpp
+      - name: ethernet1/13
+        type: 10gbase-x-sfpp
+      - name: ethernet1/14
+        type: 10gbase-x-sfpp
+      - name: ethernet1/15
+        type: 10gbase-x-sfpp
+      - name: ethernet1/16
+        type: 10gbase-x-sfpp
+      - name: ethernet1/17
+        type: 10gbase-x-sfpp
+      - name: ethernet1/18
+        type: 10gbase-x-sfpp
+      - name: ethernet1/19
+        type: 10gbase-x-sfpp
+      - name: ethernet1/20
+        type: 10gbase-x-sfpp
+      - name: ethernet1/21
+        type: 25gbase-x-sfp28
+      - name: ethernet1/22
+        type: 25gbase-x-sfp28
+      - name: ethernet1/23
+        type: 25gbase-x-sfp28
+      - name: ethernet1/24
+        type: 25gbase-x-sfp28
+      - name: ethernet1/41
+        type: 100gbase-x-qsfp28
+      - name: ethernet1/42
+        type: 100gbase-x-qsfp28
+      - name: ethernet1/43
+        type: 100gbase-x-qsfp28
+      - name: ethernet1/44
+        type: 100gbase-x-qsfp28
+      - name: hsci
+        type: 40gbase-x-qsfpp
+      - name: ha1-a
+        type: 10gbase-x-sfpp
+      - name: ha1-b
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: management
+        type: 10gbase-x-sfpp
+    is_full_depth: true
+    manufacturer: Palo Alto
+    model: PA-5420
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: PA-5420
+    slug: palo-alto-pa-5420
+    u_height: 2
+    weight: 15.88
+    weight_unit: kg
   - comments: '[PA-5000 Series Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-5000-series-specsheet)'
     console-ports:
       - name: console
@@ -248,6 +352,90 @@ models:
         type: iec-60320-c14
     slug: palo-alto-pa-5250
     u_height: 3
+  - airflow: front-to-rear
+    comments: '[PA-5400 Series Next-Gen Firewall Hardware Reference](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-5400/pa-5400-hardware-reference.pdf)'
+    console-ports:
+      - name: console
+        type: rj-45
+    interfaces:
+      - name: ethernet1/1
+        type: 10gbase-t
+      - name: ethernet1/2
+        type: 10gbase-t
+      - name: ethernet1/3
+        type: 10gbase-t
+      - name: ethernet1/4
+        type: 10gbase-t
+      - name: ethernet1/5
+        type: 10gbase-t
+      - name: ethernet1/6
+        type: 10gbase-t
+      - name: ethernet1/7
+        type: 10gbase-t
+      - name: ethernet1/8
+        type: 10gbase-t
+      - name: ethernet1/9
+        type: 10gbase-x-sfpp
+      - name: ethernet1/10
+        type: 10gbase-x-sfpp
+      - name: ethernet1/11
+        type: 10gbase-x-sfpp
+      - name: ethernet1/12
+        type: 10gbase-x-sfpp
+      - name: ethernet1/13
+        type: 10gbase-x-sfpp
+      - name: ethernet1/14
+        type: 10gbase-x-sfpp
+      - name: ethernet1/15
+        type: 10gbase-x-sfpp
+      - name: ethernet1/16
+        type: 10gbase-x-sfpp
+      - name: ethernet1/17
+        type: 10gbase-x-sfpp
+      - name: ethernet1/18
+        type: 10gbase-x-sfpp
+      - name: ethernet1/19
+        type: 10gbase-x-sfpp
+      - name: ethernet1/20
+        type: 10gbase-x-sfpp
+      - name: ethernet1/21
+        type: 25gbase-x-sfp28
+      - name: ethernet1/22
+        type: 25gbase-x-sfp28
+      - name: ethernet1/23
+        type: 25gbase-x-sfp28
+      - name: ethernet1/24
+        type: 25gbase-x-sfp28
+      - name: ethernet1/41
+        type: 100gbase-x-qsfp28
+      - name: ethernet1/42
+        type: 100gbase-x-qsfp28
+      - name: ethernet1/43
+        type: 100gbase-x-qsfp28
+      - name: ethernet1/44
+        type: 100gbase-x-qsfp28
+      - name: hsci
+        type: 40gbase-x-qsfpp
+      - name: ha1-a
+        type: 10gbase-x-sfpp
+      - name: ha1-b
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: management
+        type: 10gbase-x-sfpp
+    is_full_depth: true
+    manufacturer: Palo Alto
+    model: PA-5440
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: PA-5440
+    slug: palo-alto-pa-5440
+    u_height: 2
+    weight: 15.88
+    weight_unit: kg
   - airflow: passive
     comments: '[Product Summary Specsheet - PAN-OS 10.1](https://www.paloaltonetworks.com/resources/datasheets/palo-alto-networks-product-summary-specsheet-pan-os-10-1)'
     console-ports:
@@ -332,7 +520,92 @@ models:
     u_height: 1
     weight: 5
     weight_unit: lb
-  - comments: '[PA-220 Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-220-specsheet)'
+  - airflow: front-to-rear
+    comments: '[PA-5400 Series Next-Gen Firewall Hardware Reference](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-5400/pa-5400-hardware-reference.pdf)'
+    console-ports:
+      - name: console
+        type: rj-45
+    interfaces:
+      - name: ethernet1/1
+        type: 10gbase-t
+      - name: ethernet1/2
+        type: 10gbase-t
+      - name: ethernet1/3
+        type: 10gbase-t
+      - name: ethernet1/4
+        type: 10gbase-t
+      - name: ethernet1/5
+        type: 10gbase-t
+      - name: ethernet1/6
+        type: 10gbase-t
+      - name: ethernet1/7
+        type: 10gbase-t
+      - name: ethernet1/8
+        type: 10gbase-t
+      - name: ethernet1/9
+        type: 10gbase-x-sfpp
+      - name: ethernet1/10
+        type: 10gbase-x-sfpp
+      - name: ethernet1/11
+        type: 10gbase-x-sfpp
+      - name: ethernet1/12
+        type: 10gbase-x-sfpp
+      - name: ethernet1/13
+        type: 10gbase-x-sfpp
+      - name: ethernet1/14
+        type: 10gbase-x-sfpp
+      - name: ethernet1/15
+        type: 10gbase-x-sfpp
+      - name: ethernet1/16
+        type: 10gbase-x-sfpp
+      - name: ethernet1/17
+        type: 10gbase-x-sfpp
+      - name: ethernet1/18
+        type: 10gbase-x-sfpp
+      - name: ethernet1/19
+        type: 10gbase-x-sfpp
+      - name: ethernet1/20
+        type: 10gbase-x-sfpp
+      - name: ethernet1/21
+        type: 25gbase-x-sfp28
+      - name: ethernet1/22
+        type: 25gbase-x-sfp28
+      - name: ethernet1/23
+        type: 25gbase-x-sfp28
+      - name: ethernet1/24
+        type: 25gbase-x-sfp28
+      - name: ethernet1/41
+        type: 100gbase-x-qsfp28
+      - name: ethernet1/42
+        type: 100gbase-x-qsfp28
+      - name: ethernet1/43
+        type: 100gbase-x-qsfp28
+      - name: ethernet1/44
+        type: 100gbase-x-qsfp28
+      - name: hsci
+        type: 40gbase-x-qsfpp
+      - name: ha1-a
+        type: 10gbase-x-sfpp
+      - name: ha1-b
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: management
+        type: 10gbase-x-sfpp
+    is_full_depth: true
+    manufacturer: Palo Alto
+    model: PA-5410
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: PA-5410
+    slug: palo-alto-pa-5410
+    u_height: 2
+    weight: 15.88
+    weight_unit: kg
+  - airflow: passive
+    comments: '[PA-220 Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-220-specsheet)'
     console-ports:
       - name: console
         type: rj-45
@@ -364,11 +637,14 @@ models:
     part_number: PA-220
     power-ports:
       - name: PS1
-        type: nema-1-15p
+        type: dc-terminal
       - name: PS2
-        type: nema-1-15p
+        type: dc-terminal
     slug: palo-alto-pa-220
-    u_height: 1
+    subdevice_role: child
+    u_height: 0
+    weight: 3
+    weight_unit: lb
   - console-ports:
       - name: console
         type: rj-45
@@ -549,6 +825,90 @@ models:
         type: iec-60320-c14
     slug: palo-alto-pa-5060
     u_height: 2
+  - airflow: front-to-rear
+    comments: '[PA-5400 Series Next-Gen Firewall Hardware Reference](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-5400/pa-5400-hardware-reference.pdf)'
+    console-ports:
+      - name: console
+        type: rj-45
+    interfaces:
+      - name: ethernet1/1
+        type: 10gbase-t
+      - name: ethernet1/2
+        type: 10gbase-t
+      - name: ethernet1/3
+        type: 10gbase-t
+      - name: ethernet1/4
+        type: 10gbase-t
+      - name: ethernet1/5
+        type: 10gbase-t
+      - name: ethernet1/6
+        type: 10gbase-t
+      - name: ethernet1/7
+        type: 10gbase-t
+      - name: ethernet1/8
+        type: 10gbase-t
+      - name: ethernet1/9
+        type: 10gbase-x-sfpp
+      - name: ethernet1/10
+        type: 10gbase-x-sfpp
+      - name: ethernet1/11
+        type: 10gbase-x-sfpp
+      - name: ethernet1/12
+        type: 10gbase-x-sfpp
+      - name: ethernet1/13
+        type: 10gbase-x-sfpp
+      - name: ethernet1/14
+        type: 10gbase-x-sfpp
+      - name: ethernet1/15
+        type: 10gbase-x-sfpp
+      - name: ethernet1/16
+        type: 10gbase-x-sfpp
+      - name: ethernet1/17
+        type: 10gbase-x-sfpp
+      - name: ethernet1/18
+        type: 10gbase-x-sfpp
+      - name: ethernet1/19
+        type: 10gbase-x-sfpp
+      - name: ethernet1/20
+        type: 10gbase-x-sfpp
+      - name: ethernet1/21
+        type: 25gbase-x-sfp28
+      - name: ethernet1/22
+        type: 25gbase-x-sfp28
+      - name: ethernet1/23
+        type: 25gbase-x-sfp28
+      - name: ethernet1/24
+        type: 25gbase-x-sfp28
+      - name: ethernet1/41
+        type: 100gbase-x-qsfp28
+      - name: ethernet1/42
+        type: 100gbase-x-qsfp28
+      - name: ethernet1/43
+        type: 100gbase-x-qsfp28
+      - name: ethernet1/44
+        type: 100gbase-x-qsfp28
+      - name: hsci
+        type: 40gbase-x-qsfpp
+      - name: ha1-a
+        type: 10gbase-x-sfpp
+      - name: ha1-b
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: management
+        type: 10gbase-x-sfpp
+    is_full_depth: true
+    manufacturer: Palo Alto
+    model: PA-5430
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: PA-5430
+    slug: palo-alto-pa-5430
+    u_height: 2
+    weight: 15.88
+    weight_unit: kg
   - airflow: passive
     comments: '[Product Summary Specsheet - PAN-OS 10.1](https://www.paloaltonetworks.com/resources/datasheets/palo-alto-networks-product-summary-specsheet-pan-os-10-1)'
     console-ports:
@@ -627,6 +987,17 @@ models:
     u_height: 1
     weight: 5
     weight_unit: lb
+  - airflow: passive
+    device-bays:
+      - name: Firewall
+    is_full_depth: false
+    is_powered: false
+    manufacturer: Palo Alto
+    model: PA-220 Rack Kit
+    part_number: PAN-PA-220-RACK-SINGLE
+    slug: palo-alto-pa-220-rack-kit
+    subdevice_role: parent
+    u_height: 1
   - airflow: front-to-rear
     comments: '[PA-800 Series Datasheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-800-series-datasheet)'
     console-ports:
@@ -634,6 +1005,7 @@ models:
         type: rj-45
       - name: console USB
         type: usb-micro-b
+    front_image: true
     interfaces:
       - mgmt_only: true
         name: management
@@ -761,6 +1133,90 @@ models:
         type: iec-60320-c14
     slug: palo-alto-pa-5260
     u_height: 3
+  - airflow: front-to-rear
+    comments: '[Palo Alto 3400 Series Data Sheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-3400-series-pan-os-10-2)'
+    console-ports:
+      - name: console
+        type: rj-45
+    interfaces:
+      - name: ethernet1/1
+        type: 10gbase-t
+      - name: ethernet1/2
+        type: 10gbase-t
+      - name: ethernet1/3
+        type: 10gbase-t
+      - name: ethernet1/4
+        type: 10gbase-t
+      - name: ethernet1/5
+        type: 10gbase-t
+      - name: ethernet1/6
+        type: 10gbase-t
+      - name: ethernet1/7
+        type: 10gbase-t
+      - name: ethernet1/8
+        type: 10gbase-t
+      - name: ethernet1/9
+        type: 10gbase-t
+      - name: ethernet1/10
+        type: 10gbase-t
+      - name: ethernet1/11
+        type: 10gbase-t
+      - name: ethernet1/12
+        type: 10gbase-t
+      - name: ethernet1/13
+        type: 10gbase-x-sfpp
+      - name: ethernet1/14
+        type: 10gbase-x-sfpp
+      - name: ethernet1/15
+        type: 10gbase-x-sfpp
+      - name: ethernet1/16
+        type: 10gbase-x-sfpp
+      - name: ethernet1/17
+        type: 10gbase-x-sfpp
+      - name: ethernet1/18
+        type: 10gbase-x-sfpp
+      - name: ethernet1/19
+        type: 10gbase-x-sfpp
+      - name: ethernet1/20
+        type: 10gbase-x-sfpp
+      - name: ethernet1/21
+        type: 10gbase-x-sfpp
+      - name: ethernet1/22
+        type: 10gbase-x-sfpp
+      - name: ethernet1/23
+        type: 25gbase-x-sfp28
+      - name: ethernet1/24
+        type: 25gbase-x-sfp28
+      - name: ethernet1/25
+        type: 25gbase-x-sfp28
+      - name: ethernet1/26
+        type: 25gbase-x-sfp28
+      - name: ethernet1/35
+        type: 100gbase-x-qsfp28
+      - name: ethernet1/36
+        type: 100gbase-x-qsfp28
+      - name: ha1-a
+        type: 1000base-t
+      - name: ha1-b
+        type: 1000base-t
+      - name: hsci
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: management
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Palo Alto
+    model: PA-3440
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: PA-3440
+    slug: palo-alto-pa-3440
+    u_height: 1
+    weight: 7.0
+    weight_unit: kg
   - console-ports:
       - name: console
         type: rj-45
@@ -946,6 +1402,86 @@ models:
         type: iec-60320-c14
     slug: palo-alto-pa-500
     u_height: 1
+  - airflow: front-to-rear
+    comments: '[Palo Alto 3400 Series Data Sheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-3400-series-pan-os-10-2)'
+    console-ports:
+      - name: console
+        type: rj-45
+    interfaces:
+      - name: ethernet1/1
+        type: 10gbase-t
+      - name: ethernet1/2
+        type: 10gbase-t
+      - name: ethernet1/3
+        type: 10gbase-t
+      - name: ethernet1/4
+        type: 10gbase-t
+      - name: ethernet1/5
+        type: 10gbase-t
+      - name: ethernet1/6
+        type: 10gbase-t
+      - name: ethernet1/7
+        type: 10gbase-t
+      - name: ethernet1/8
+        type: 10gbase-t
+      - name: ethernet1/9
+        type: 10gbase-t
+      - name: ethernet1/10
+        type: 10gbase-t
+      - name: ethernet1/11
+        type: 10gbase-t
+      - name: ethernet1/12
+        type: 10gbase-t
+      - name: ethernet1/13
+        type: 10gbase-x-sfpp
+      - name: ethernet1/14
+        type: 10gbase-x-sfpp
+      - name: ethernet1/15
+        type: 10gbase-x-sfpp
+      - name: ethernet1/16
+        type: 10gbase-x-sfpp
+      - name: ethernet1/17
+        type: 10gbase-x-sfpp
+      - name: ethernet1/18
+        type: 10gbase-x-sfpp
+      - name: ethernet1/19
+        type: 10gbase-x-sfpp
+      - name: ethernet1/20
+        type: 10gbase-x-sfpp
+      - name: ethernet1/21
+        type: 10gbase-x-sfpp
+      - name: ethernet1/22
+        type: 10gbase-x-sfpp
+      - name: ethernet1/23
+        type: 25gbase-x-sfp28
+      - name: ethernet1/24
+        type: 25gbase-x-sfp28
+      - name: ethernet1/25
+        type: 25gbase-x-sfp28
+      - name: ethernet1/26
+        type: 25gbase-x-sfp28
+      - name: ha1-a
+        type: 1000base-t
+      - name: ha1-b
+        type: 1000base-t
+      - name: hsci
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: management
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Palo Alto
+    model: PA-3420
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: PA-3420
+    slug: palo-alto-pa-3420
+    u_height: 1
+    weight: 7.0
+    weight_unit: kg
   - console-ports:
       - name: console
         type: de-9
@@ -974,6 +1510,18 @@ models:
         type: iec-60320-c14
     slug: palo-alto-m-500
     u_height: 2
+  - airflow: passive
+    device-bays:
+      - name: Firewall A
+      - name: Firewall B
+    is_full_depth: false
+    is_powered: false
+    manufacturer: Palo Alto
+    model: PA-220 Rack Tray Kit
+    part_number: PAN-PA-220-RACKTRAY
+    slug: palo-alto-pa-220-rack-tray-kit
+    subdevice_role: parent
+    u_height: 1
   - comments: '[PA-3000 Series Datasheet](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf)'
     console-ports:
       - name: console
@@ -1234,6 +1782,170 @@ models:
         type: iec-60320-c20
     slug: palo-alto-pa-7080
     u_height: 19
+  - airflow: front-to-rear
+    comments: '[Palo Alto 3400 Series Data Sheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-3400-series-pan-os-10-2)'
+    console-ports:
+      - name: console
+        type: rj-45
+    interfaces:
+      - name: ethernet1/1
+        type: 10gbase-t
+      - name: ethernet1/2
+        type: 10gbase-t
+      - name: ethernet1/3
+        type: 10gbase-t
+      - name: ethernet1/4
+        type: 10gbase-t
+      - name: ethernet1/5
+        type: 10gbase-t
+      - name: ethernet1/6
+        type: 10gbase-t
+      - name: ethernet1/7
+        type: 10gbase-t
+      - name: ethernet1/8
+        type: 10gbase-t
+      - name: ethernet1/9
+        type: 10gbase-t
+      - name: ethernet1/10
+        type: 10gbase-t
+      - name: ethernet1/11
+        type: 10gbase-t
+      - name: ethernet1/12
+        type: 10gbase-t
+      - name: ethernet1/13
+        type: 10gbase-x-sfpp
+      - name: ethernet1/14
+        type: 10gbase-x-sfpp
+      - name: ethernet1/15
+        type: 10gbase-x-sfpp
+      - name: ethernet1/16
+        type: 10gbase-x-sfpp
+      - name: ethernet1/17
+        type: 10gbase-x-sfpp
+      - name: ethernet1/18
+        type: 10gbase-x-sfpp
+      - name: ethernet1/19
+        type: 10gbase-x-sfpp
+      - name: ethernet1/20
+        type: 10gbase-x-sfpp
+      - name: ethernet1/21
+        type: 10gbase-x-sfpp
+      - name: ethernet1/22
+        type: 10gbase-x-sfpp
+      - name: ethernet1/23
+        type: 25gbase-x-sfp28
+      - name: ethernet1/24
+        type: 25gbase-x-sfp28
+      - name: ethernet1/25
+        type: 25gbase-x-sfp28
+      - name: ethernet1/26
+        type: 25gbase-x-sfp28
+      - name: ha1-a
+        type: 1000base-t
+      - name: ha1-b
+        type: 1000base-t
+      - name: hsci
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: management
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Palo Alto
+    model: PA-3410
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: PA-3410
+    slug: palo-alto-pa-3410
+    u_height: 1
+    weight: 7.0
+    weight_unit: kg
+  - airflow: front-to-rear
+    comments: '[Palo Alto 3400 Series Data Sheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-3400-series-pan-os-10-2)'
+    console-ports:
+      - name: console
+        type: rj-45
+    interfaces:
+      - name: ethernet1/1
+        type: 10gbase-t
+      - name: ethernet1/2
+        type: 10gbase-t
+      - name: ethernet1/3
+        type: 10gbase-t
+      - name: ethernet1/4
+        type: 10gbase-t
+      - name: ethernet1/5
+        type: 10gbase-t
+      - name: ethernet1/6
+        type: 10gbase-t
+      - name: ethernet1/7
+        type: 10gbase-t
+      - name: ethernet1/8
+        type: 10gbase-t
+      - name: ethernet1/9
+        type: 10gbase-t
+      - name: ethernet1/10
+        type: 10gbase-t
+      - name: ethernet1/11
+        type: 10gbase-t
+      - name: ethernet1/12
+        type: 10gbase-t
+      - name: ethernet1/13
+        type: 10gbase-x-sfpp
+      - name: ethernet1/14
+        type: 10gbase-x-sfpp
+      - name: ethernet1/15
+        type: 10gbase-x-sfpp
+      - name: ethernet1/16
+        type: 10gbase-x-sfpp
+      - name: ethernet1/17
+        type: 10gbase-x-sfpp
+      - name: ethernet1/18
+        type: 10gbase-x-sfpp
+      - name: ethernet1/19
+        type: 10gbase-x-sfpp
+      - name: ethernet1/20
+        type: 10gbase-x-sfpp
+      - name: ethernet1/21
+        type: 10gbase-x-sfpp
+      - name: ethernet1/22
+        type: 10gbase-x-sfpp
+      - name: ethernet1/23
+        type: 25gbase-x-sfp28
+      - name: ethernet1/24
+        type: 25gbase-x-sfp28
+      - name: ethernet1/25
+        type: 25gbase-x-sfp28
+      - name: ethernet1/26
+        type: 25gbase-x-sfp28
+      - name: ethernet1/35
+        type: 100gbase-x-qsfp28
+      - name: ethernet1/36
+        type: 100gbase-x-qsfp28
+      - name: ha1-a
+        type: 1000base-t
+      - name: ha1-b
+        type: 1000base-t
+      - name: hsci
+        type: 10gbase-x-sfpp
+      - mgmt_only: true
+        name: management
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Palo Alto
+    model: PA-3430
+    module-bays:
+      - name: PS1
+        position: '1'
+      - name: PS2
+        position: '2'
+    part_number: PA-3430
+    slug: palo-alto-pa-3430
+    u_height: 1
+    weight: 7.0
+    weight_unit: kg
   - comments: '[PA-3000 Series Datasheet](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf)'
     console-ports:
       - name: console

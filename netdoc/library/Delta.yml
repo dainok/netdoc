@@ -1,6 +1,123 @@
 keywords:
+  - AD-208/24C-B
+  - AD-208/24C-B
+  - SG-11M-A
+  - SG-11M-A
   - PD1215-RM
+  - SG110-A
+  - SG110-A
+  - AD-208/24C-A
+  - AD-208/24C-A
 models:
+  - airflow: passive
+    comments: 'Open Compute Project ORv2 Top of Rack Surge PDU
+
+
+      V2 AC Power Distribution Unit
+
+
+      INPUT: 208V~,3W+PE, 50-60HZ,24A MAX (x2)
+
+
+      OUTPUT: 208V~,3W+PE, 50-60HZ,24A MAX (x2)
+
+
+      FB PN: 07-000866
+
+'
+    is_full_depth: false
+    manufacturer: Delta
+    model: AD-208/24C-B
+    part_number: AD-208/24C-B
+    power-outlets:
+      - label: TOP POWER SHELF
+        name: ac-output-1
+        power_port: ac-input-1
+        type: other
+      - label: BOTTOM POWER SHELF
+        name: ac-output-2
+        power_port: ac-input-2
+        type: other
+    power-ports:
+      - label: TOP POWER SHELF
+        name: ac-input-1
+        type: nema-l21-30p
+      - label: BOTTOM POWER SHELF
+        name: ac-input-2
+        type: nema-l21-30p
+    slug: delta-ad-208-24c-b
+    u_height: 0
+  - airflow: front-to-rear
+    comments: 'Open Compute Project ORv2 compatible Power Shelf
+
+
+      Fits 21" ORv2 racks only
+
+
+      FB PN: 14-000071
+
+
+      Takes PSU type DPST-2130CB-A
+
+'
+    interfaces:
+      - label: MGMT
+        mgmt_only: true
+        name: Management
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Delta
+    model: SG-11M-A
+    module-bays:
+      - label: 1A
+        name: psu-1a
+      - label: 2A
+        name: psu-2a
+      - label: 3A
+        name: psu-3a
+      - label: 1B
+        name: psu-1b
+      - label: 2B
+        name: psu-2b
+      - label: 3B
+        name: psu-3b
+    part_number: SG-11M-A
+    power-outlets:
+      - feed_leg: A
+        name: ac-output-a1
+        power_port: ac-input-a
+        type: iec-60320-c13
+      - feed_leg: B
+        name: ac-output-a2
+        power_port: ac-input-a
+        type: iec-60320-c13
+      - feed_leg: C
+        name: ac-output-a3
+        power_port: ac-input-a
+        type: iec-60320-c13
+      - feed_leg: A
+        name: ac-output-b1
+        power_port: ac-input-b
+        type: iec-60320-c13
+      - feed_leg: B
+        name: ac-output-b2
+        power_port: ac-input-b
+        type: iec-60320-c13
+      - feed_leg: C
+        name: ac-output-b3
+        power_port: ac-input-b
+        type: iec-60320-c13
+      - name: dc-output-bus
+        type: dc-terminal
+    power-ports:
+      - label: AC INPUT A
+        name: ac-input-a
+        type: other
+      - label: AC INPUT B
+        name: ac-input-b
+        type: other
+    slug: delta-sg-11m-a
+    u_height: 3
   - comments: 'Delta PD1215-RM 1U power distribution unit (PDU) with 12 NEMA 5-15P receptacles (2 front, 10 rear) from a single NEMA 5-15P plug
 
 
@@ -41,3 +158,95 @@ models:
         type: nema-5-15p
     slug: delta-pd1215-rm
     u_height: 1
+  - airflow: front-to-rear
+    comments: 'Open Compute Project ORv1/v2 compatible Power Shelf
+
+
+      Stingray v1
+
+
+      Fits 21" ORv1/v2 racks and 19" EIA racks (with proper adapters)
+
+
+      Can take up to 6 PSU. In configurations where only 4 PSU are used, slots 1A and 3B are covered / unused.
+
+
+      Takes PSU type DPST-2130CB-A
+
+'
+    interfaces:
+      - label: RJ45
+        mgmt_only: true
+        name: Management
+        type: 1000base-t
+    is_full_depth: true
+    manufacturer: Delta
+    model: SG110-A
+    module-bays:
+      - label: 1A
+        name: psu-1a
+      - label: 2A
+        name: psu-2a
+      - label: 3A
+        name: psu-3a
+      - label: 1B
+        name: psu-1b
+      - label: 2B
+        name: psu-2b
+      - label: 3B
+        name: psu-3b
+    part_number: SG110-A
+    power-outlets:
+      - name: dc-output-bus-left
+        type: dc-terminal
+      - name: dc-output-bus-center
+        type: dc-terminal
+      - name: dc-output-bus-right
+        type: dc-terminal
+    power-ports:
+      - label: AC INPUT A
+        name: ac-input-a
+        type: other
+      - label: AC INPUT B
+        name: ac-input-b
+        type: other
+    slug: delta-sg110-a
+    u_height: 3
+  - airflow: passive
+    comments: 'Open Compute Project ORv2 Top of Rack Surge PDU
+
+
+      V2 AC Power Distribution Unit
+
+
+      INPUT: 208V~,3W+PE, 50-60HZ,24A MAX (x2)
+
+
+      OUTPUT: 208V~,3W+PE, 50-60HZ,24A MAX (x2)
+
+
+      FB PN: 07-000866
+
+'
+    is_full_depth: false
+    manufacturer: Delta
+    model: AD-208/24C-A
+    part_number: AD-208/24C-A
+    power-outlets:
+      - label: TOP POWER SHELF
+        name: ac-output-1
+        power_port: ac-input-1
+        type: other
+      - label: BOTTOM POWER SHELF
+        name: ac-output-2
+        power_port: ac-input-2
+        type: other
+    power-ports:
+      - label: TOP POWER SHELF
+        name: ac-input-1
+        type: nema-l21-30p
+      - label: BOTTOM POWER SHELF
+        name: ac-input-2
+        type: nema-l21-30p
+    slug: delta-ad-208-24c-a
+    u_height: 0

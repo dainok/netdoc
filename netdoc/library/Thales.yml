@@ -1,9 +1,27 @@
 keywords:
+  - G5Backup
+  - 808-000042-003
   - Luna K6
   - 808-000054-001
   - Luna-T7
   - 972-500080-001
 models:
+  - airflow: front-to-rear
+    comments: SafeNet Luna G5 Backup Token - Also referred to as LTK-03 and Luna G5 - Also branded as SafeNet AT/SafeNet Assured Technologies
+    console-ports:
+      - name: PED
+        type: de-9
+      - name: Console
+        type: usb-mini-b
+    is_full_depth: true
+    manufacturer: Thales
+    model: G5Backup
+    part_number: 808-000042-003
+    power-ports:
+      - name: Power
+        type: dc-terminal
+    slug: thales-g5backup
+    u_height: 1
   - airflow: front-to-rear
     comments: SafeNet Luna Network HSM K6
     console-ports:

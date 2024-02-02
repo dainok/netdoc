@@ -1,0 +1,22 @@
+keywords:
+  - uATS1-HV-C14-2
+  - UATS1-HV-C14-2
+models:
+  - airflow: passive
+    comments: Z-ATS Micro Auto Transfer Switch, High Voltage, Integrated C13 Output with 2 ft. C14 Input cords
+    is_full_depth: false
+    manufacturer: Zonit
+    model: uATS1-HV-C14-2
+    part_number: UATS1-HV-C14-2
+    power-outlets:
+      - name: Output
+        type: iec-60320-c13
+    power-ports:
+      - name: Input A
+        type: iec-60320-c14
+      - name: Input B
+        type: iec-60320-c14
+    slug: zonit-uats1-hv-c14-2
+    u_height: 0
+    weight: 0.9
+    weight_unit: lb

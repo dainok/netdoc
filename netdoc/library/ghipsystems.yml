@@ -21,6 +21,7 @@ models:
         rear_port_position: 4
         type: lc
     is_full_depth: false
+    is_powered: false
     manufacturer: ghipsystems
     model: GS5104-1471-EC
     part_number: GS5104-1471-EC

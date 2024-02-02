@@ -1,8 +1,8 @@
 keywords:
   - SO-CHASSIS-MOD4
   - SO-MOD4-3xMPO/MMF-24xLC
-  - SO-DWDM-MUX-CH20-35+UPG+MON
   - SO-DWDM-MUX-8CH+UPG
+  - SO-DWDM-MUX-CH20-35+UPG+MON
 models:
   - comments: 4 Slot LGX Chassis 1RU, 19" Suitable for MOD4 Mux
     device-bays:
@@ -11,6 +11,7 @@ models:
       - name: Upper left
       - name: Upper Right
     is_full_depth: false
+    is_powered: false
     manufacturer: Solid Optics
     model: SO-CHASSIS-MOD4
     slug: solid-optics-so-chassis-mod4
@@ -66,6 +67,7 @@ models:
         rear_port_position: 4
         type: lc
     is_full_depth: false
+    is_powered: false
     manufacturer: Solid Optics
     model: SO-MOD4-3xMPO/MMF-24xLC
     rear-ports:
@@ -81,6 +83,53 @@ models:
     slug: solid-optics-so-mod4-3xmpo-mmf-24xlc
     subdevice_role: child
     u_height: 0
+  - front-ports:
+      - name: C20
+        rear_port: COM
+        rear_port_position: 1
+        type: lc
+      - name: C21
+        rear_port: COM
+        rear_port_position: 2
+        type: lc
+      - name: C22
+        rear_port: COM
+        rear_port_position: 3
+        type: lc
+      - name: C23
+        rear_port: COM
+        rear_port_position: 4
+        type: lc
+      - name: C24
+        rear_port: COM
+        rear_port_position: 5
+        type: lc
+      - name: C25
+        rear_port: COM
+        rear_port_position: 6
+        type: lc
+      - name: C26
+        rear_port: COM
+        rear_port_position: 7
+        type: lc
+      - name: C27
+        rear_port: COM
+        rear_port_position: 8
+        type: lc
+      - name: UPG
+        rear_port: COM
+        rear_port_position: 9
+        type: lc
+    is_full_depth: false
+    is_powered: false
+    manufacturer: Solid Optics
+    model: SO-DWDM-MUX-8CH+UPG
+    rear-ports:
+      - name: COM
+        positions: 9
+        type: lc
+    slug: solid-optics-so-dwdm-mux-8ch-plus-upg
+    u_height: 1
   - front-ports:
       - name: C20
         rear_port: COM
@@ -155,6 +204,7 @@ models:
         rear_port_position: 18
         type: lc
     is_full_depth: false
+    is_powered: false
     manufacturer: Solid Optics
     model: SO-DWDM-MUX-CH20-35+UPG+MON
     rear-ports:
@@ -162,50 +212,4 @@ models:
         positions: 18
         type: lc
     slug: solid-optics-so-dwdm-mux-ch20-35-plus-upg-plus-mon
-    u_height: 1
-  - front-ports:
-      - name: C20
-        rear_port: COM
-        rear_port_position: 1
-        type: lc
-      - name: C21
-        rear_port: COM
-        rear_port_position: 2
-        type: lc
-      - name: C22
-        rear_port: COM
-        rear_port_position: 3
-        type: lc
-      - name: C23
-        rear_port: COM
-        rear_port_position: 4
-        type: lc
-      - name: C24
-        rear_port: COM
-        rear_port_position: 5
-        type: lc
-      - name: C25
-        rear_port: COM
-        rear_port_position: 6
-        type: lc
-      - name: C26
-        rear_port: COM
-        rear_port_position: 7
-        type: lc
-      - name: C27
-        rear_port: COM
-        rear_port_position: 8
-        type: lc
-      - name: UPG
-        rear_port: COM
-        rear_port_position: 9
-        type: lc
-    is_full_depth: false
-    manufacturer: Solid Optics
-    model: SO-DWDM-MUX-8CH+UPG
-    rear-ports:
-      - name: COM
-        positions: 9
-        type: lc
-    slug: solid-optics-so-dwdm-mux-8ch-plus-upg
     u_height: 1

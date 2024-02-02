@@ -1,9 +1,9 @@
 keywords:
   - BladeCenter H
+  - BladeCenter HS22
   - System x3550
   - eServer x226
   - 86482DG
-  - BladeCenter HS22
 models:
   - device-bays:
       - name: Server Bay 1
@@ -35,9 +35,23 @@ models:
     is_full_depth: true
     manufacturer: IBM
     model: BladeCenter H
+    module-bays:
+      - name: PSU0
+        position: '0'
+      - name: PSU1
+        position: '1'
+      - name: PSU2
+        position: '2'
+      - name: PSU3
+        position: '3'
     slug: ibm-bladecenter-h
     subdevice_role: parent
     u_height: 9
+  - manufacturer: IBM
+    model: BladeCenter HS22
+    slug: ibm-bladecenter-hs22
+    subdevice_role: child
+    u_height: 0
   - console-ports:
       - name: Serial
         type: de-9
@@ -89,8 +103,3 @@ models:
         type: iec-60320-c14
     slug: ibm-eserver-x226
     u_height: 5
-  - manufacturer: IBM
-    model: BladeCenter HS22
-    slug: ibm-bladecenter-hs22
-    subdevice_role: child
-    u_height: 0

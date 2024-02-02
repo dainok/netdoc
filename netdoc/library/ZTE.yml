@@ -1,10 +1,79 @@
 keywords:
+  - ZXA10 C300
   - ZXA10 F832 16
   - ZXA10 F822 16
-  - ZXA10 C300
   - ZXA10 F822 24
   - ZXA10 F832 24
 models:
+  - airflow: front-to-rear
+    comments: ZXA10 C300 Optical Access Convergence Equipment Hardware Description [https://www.triotronik.com/content/sunaddons/flextor/_upload/94/4694/1.pdf](https://www.triotronik.com/content/sunaddons/flextor/_upload/94/4694/1.pdf)
+    is_full_depth: false
+    manufacturer: ZTE
+    model: ZXA10 C300
+    module-bays:
+      - description: Power card
+        name: slot-1
+        position: '1'
+      - description: Power card
+        name: slot-2
+        position: '2'
+      - description: Service card
+        name: slot-3
+        position: '3'
+      - description: Service card
+        name: slot-4
+        position: '4'
+      - description: Service card
+        name: slot-5
+        position: '5'
+      - description: Service card
+        name: slot-6
+        position: '6'
+      - description: Service card
+        name: slot-7
+        position: '7'
+      - description: Service card
+        name: slot-8
+        position: '8'
+      - description: Service card
+        name: slot-9
+        position: '9'
+      - description: Switching and control card
+        name: slot-10
+        position: '10'
+      - description: Switching and control card
+        name: slot-11
+        position: '11'
+      - description: Service card
+        name: slot-12
+        position: '12'
+      - description: Service card
+        name: slot-13
+        position: '13'
+      - description: Service card
+        name: slot-14
+        position: '14'
+      - description: Service card
+        name: slot-15
+        position: '15'
+      - description: Service card
+        name: slot-16
+        position: '16'
+      - description: Service card
+        name: slot-17
+        position: '17'
+      - description: Service card
+        name: slot-18
+        position: '18'
+      - description: Uplink card
+        name: slot-19
+        position: '19'
+      - description: Uplink card
+        name: slot-20
+        position: '20'
+    slug: zte-zxa10-c300
+    subdevice_role: parent
+    u_height: 9
   - airflow: rear-to-front
     console-ports:
       - name: console
@@ -103,75 +172,6 @@ models:
         type: dc-terminal
     slug: zte-zxa10-f822-16
     u_height: 1
-  - airflow: front-to-rear
-    comments: ZXA10 C300 Optical Access Convergence Equipment Hardware Description [https://www.triotronik.com/content/sunaddons/flextor/_upload/94/4694/1.pdf](https://www.triotronik.com/content/sunaddons/flextor/_upload/94/4694/1.pdf)
-    is_full_depth: false
-    manufacturer: ZTE
-    model: ZXA10 C300
-    module-bays:
-      - description: Power card
-        name: slot-1
-        position: '1'
-      - description: Power card
-        name: slot-2
-        position: '2'
-      - description: Service card
-        name: slot-3
-        position: '3'
-      - description: Service card
-        name: slot-4
-        position: '4'
-      - description: Service card
-        name: slot-5
-        position: '5'
-      - description: Service card
-        name: slot-6
-        position: '6'
-      - description: Service card
-        name: slot-7
-        position: '7'
-      - description: Service card
-        name: slot-8
-        position: '8'
-      - description: Service card
-        name: slot-9
-        position: '9'
-      - description: Switching and control card
-        name: slot-10
-        position: '10'
-      - description: Switching and control card
-        name: slot-11
-        position: '11'
-      - description: Service card
-        name: slot-12
-        position: '12'
-      - description: Service card
-        name: slot-13
-        position: '13'
-      - description: Service card
-        name: slot-14
-        position: '14'
-      - description: Service card
-        name: slot-15
-        position: '15'
-      - description: Service card
-        name: slot-16
-        position: '16'
-      - description: Service card
-        name: slot-17
-        position: '17'
-      - description: Service card
-        name: slot-18
-        position: '18'
-      - description: Uplink card
-        name: slot-19
-        position: '19'
-      - description: Uplink card
-        name: slot-20
-        position: '20'
-    slug: zte-zxa10-c300
-    subdevice_role: parent
-    u_height: 9
   - airflow: rear-to-front
     console-ports:
       - name: console

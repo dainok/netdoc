@@ -21,6 +21,7 @@ def discovery(nrni, filters=None, filter_type=None):
         ("show system", "HOSTNAME"),
         ("show system", None),
         ("show running-config", None),
+        ("show vlan", None),
         ("show interface", None),
         ("show lldp neighbor-info detail", "show lldp neighbors-info detail"),
         ("show mac-address-table", None),
@@ -29,7 +30,6 @@ def discovery(nrni, filters=None, filter_type=None):
         ("show ip route all-vrfs", None),
         # Unsupported
         ("show vrf", None),
-        ("show vlan", None),
         ("show cdp neighbor-info", None),
         ("show lag", None),
         ("show version", None),

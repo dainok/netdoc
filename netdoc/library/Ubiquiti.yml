@@ -1,8 +1,14 @@
 keywords:
   - Surge Protector
   - ETH-SP-G2
+  - NanoStation LOCO 5AC
+  - LOCO5AC
   - Rocket M5
   - Rocket M5
+  - U6 Mesh
+  - U6-Mesh
+  - U6+
+  - U6+
   - EdgeSwitch 16 150W
   - ES-16-150W
   - UniFi Switch Lite 16 PoE
@@ -23,12 +29,13 @@ keywords:
   - US-XG-6POE
   - UniFi Switch 48 PoE 500W Gen1
   - US-48-500W
-  - Unifi AC Mesh
+  - AC Mesh
   - UAP-AC-M
   - LiteBeam 5AC Gen2
   - LBE-5AC-Gen2
   - airCube-AC
   - aircube-ac
+  - LiteAP 120
   - UniFi Switch 16 PoE Gen2
   - USW-16-POE
   - PowerBeam 2AC 400
@@ -42,9 +49,11 @@ keywords:
   - USW-Flex
   - UniFi SmartPower RPS
   - USP-RPS
+  - U6 Long-Range
   - U6-LR
   - EdgeSwitch 24 250W
   - ES-24-250W
+  - AC Long-Range
   - UAP-AC-LR
   - Cloud Key Gen2
   - uck-g2
@@ -54,8 +63,6 @@ keywords:
   - ES-48-750W
   - UniFi Switch 24 PoE Gen2
   - USW-24-POE
-  - Nano Station LOCO 5AC
-  - LOCO5AC
   - Rocket Prism 5AC Gen2
   - RP-5AC-Gen2
   - USW-PRO-24
@@ -73,6 +80,7 @@ keywords:
   - Rocket M2 Titanium
   - "8‑Port GPON Optical Line Terminal"
   - UF-OLT
+  - U6 Lite
   - U6-Lite
   - EdgePoint Router 8-Port
   - EP-R8
@@ -82,7 +90,7 @@ keywords:
   - UniFi Dream Machine
   - UDM
   - ER-X
-  - UniFi UAP InWall HD
+  - In-Wall HD
   - UAP-IW-HD
   - UISP Wave LR
   - Wave-LR
@@ -90,7 +98,7 @@ keywords:
   - PBE-5AC-Gen2
   - Rocket M2
   - Rocket M2
-  - UniFi U6 Access Point Enterprise
+  - U6 Enterprise
   - U6-Enterprise
   - airFiber 5XHD
   - AF-5XHD
@@ -100,6 +108,8 @@ keywords:
   - ERPro-8
   - EdgeRouter 12P
   - ER-12P
+  - Switch Enterprise 8 PoE
+  - USW-Enterprise-8-PoE
   - airFiber 60 LR
   - AF60-LR
   - Cloud Key Gen2 Plus
@@ -112,6 +122,7 @@ keywords:
   - USW-Pro-48
   - EdgeSwitch 48 Lite
   - ES-48-LITE
+  - AC Lite
   - UAP-AC-LITE
   - UniFi Security Gateway Pro
   - USG-PRO-4
@@ -126,8 +137,9 @@ keywords:
   - NanoStation LOCO M5
   - nanostation loco m5
   - USG
-  - UAP AC Pro
-  - UAP-AC-Pro
+  - AC Professional
+  - UAP-AC-PRO
+  - FlexHD
   - UAP-FlexHD
   - EdgeRouter 4
   - ER-4
@@ -155,13 +167,14 @@ keywords:
   - PBE-M2-400
   - PicoStation M2
   - picostation m2
-  - UAP pro
+  - UniFi AP-PRO
   - UAP-Pro
-  - Unifi U6 Access Point Professional
-  - U6-PRO
+  - U6 Professional
+  - U6-Pro
   - UniFi Switch 48 Gen2
   - USW-48
-  - LiteAP 120
+  - Access Point
+  - UAP
   - airFiber 60
   - AF-60
   - UniFi Switch 48 Pro PoE Gen2
@@ -187,6 +200,8 @@ keywords:
   - ES-10X
   - EdgeRouter 10X
   - ER-10X
+  - UniFi Switch Flex XG
+  - USW-Flex-XG
   - NanoStation LOCO M900
   - nanostation loco m900
   - UniFi Switch 24 Gen1
@@ -195,22 +210,26 @@ keywords:
   - AF60-HD
   - Bullet M2
   - bullet m2
-  - Unifi AC Mesh Pro
-  - UAP-AC-M-Pro
+  - AC Mesh Professional
+  - UAP-AC-M-PRO
   - UniFi Switch 16 PoE 150W Gen1
   - US-16-150W
   - NanoBeam M5 19
   - NBE-M5-19
-  - UniFi U6 In-Wall Access Point
-  - u6-iw
+  - U6 In-Wall
+  - U6-IW
   - EdgeSwitch 24 Lite
   - ES-24-LITE
+  - Access Point nanoHD
+  - UAP-nanoHD
   - NanoBeam 5AC 19
   - NBE-5AC-19
-  - Unifi U6 Mesh Access Point
-  - U6-Mesh
+  - AC HD
+  - UAP-AC-HD
   - NanoStation LOCO M2
   - nanostation loco m2
+  - Access Point Long-Range
+  - UAP-LR
   - UniFi Switch 24 Gen2
   - USW-24
   - UniFi Switch Aggregation
@@ -232,12 +251,26 @@ models:
     part_number: ETH-SP-G2
     rear-ports:
       - name: '1'
+        poe: true
         positions: 1
         type: 8p8c
     slug: ubiquiti-surge-protector
     u_height: 0
   - interfaces:
+      - name: eth0
+        poe_mode: pd
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11ac
+    is_full_depth: false
+    manufacturer: Ubiquiti
+    model: NanoStation LOCO 5AC
+    part_number: LOCO5AC
+    slug: ubiquiti-nanostation-loco-5ac
+    u_height: 0
+  - interfaces:
       - name: lan0
+        poe_mode: pd
         type: 100base-tx
       - name: wlan0
         type: ieee802.11n
@@ -247,6 +280,48 @@ models:
     part_number: Rocket M5
     slug: ubiquiti-rocket-m5
     u_height: 0
+  - airflow: passive
+    comments: '[Access Point U6 Mesh](https://store.ui.com/collections/unifi-network-wireless/products/access-point-wifi-6-mesh)
+
+'
+    interfaces:
+      - name: eth0
+        poe_mode: pd
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11ax
+      - name: wlan1
+        type: ieee802.11ax
+    is_full_depth: false
+    manufacturer: Ubiquiti
+    model: U6 Mesh
+    part_number: U6-Mesh
+    slug: ubiquiti-u6-mesh
+    u_height: 0
+    weight: 400
+    weight_unit: g
+  - airflow: passive
+    comments: '[UniFi 6+ Access Point](https://store.ui.com/us/en/products/u6-plus)
+
+'
+    interfaces:
+      - name: lan0
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11ax
+      - name: wlan1
+        type: ieee802.11ax
+    is_full_depth: false
+    manufacturer: Ubiquiti
+    model: U6+
+    part_number: U6+
+    slug: ubiquiti-u6-plus
+    u_height: 0
+    weight: 338.0
+    weight_unit: g
   - comments: '[EdgeSwitch](https://www.ui.com/edgemax/edgeswitch/)'
     console-ports:
       - name: Console
@@ -673,6 +748,7 @@ models:
     weight_unit: lb
   - interfaces:
       - name: lan0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11n
@@ -922,9 +998,12 @@ models:
         type: iec-60320-c14
     slug: ubiquiti-unifi-switch-48-poe-500w-gen1
     u_height: 1
-  - comments: '[Unifi Mesh](https://unifi-mesh.ui.com/)'
+  - comments: '[Access Point AC Mesh](https://store.ui.com/collections/wireless/products/unifi-ac-mesh-ap)
+
+'
     interfaces:
       - name: lan0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11n
@@ -932,13 +1011,14 @@ models:
         type: ieee802.11ac
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: Unifi AC Mesh
+    model: AC Mesh
     part_number: UAP-AC-M
     slug: ubiquiti-uap-ac-m
     u_height: 0
   - comments: '[LiteBeam AC Gen2](https://www.ui.com/airmax/litebeam-ac-gen2/)'
     interfaces:
       - name: lan0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11ac
@@ -971,7 +1051,22 @@ models:
     manufacturer: Ubiquiti
     model: airCube-AC
     part_number: aircube-ac
+    power-ports:
+      - name: Power
+        type: dc-terminal
     slug: ubiquiti-aircube-ac
+    u_height: 0
+  - comments: '[LiteAP AC](https://www.ui.com/airmax/liteap-ac/)'
+    interfaces:
+      - name: lan0
+        poe_mode: pd
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11ac
+    is_full_depth: false
+    manufacturer: Ubiquiti
+    model: LiteAP 120
+    slug: ubiquiti-liteap-120
     u_height: 0
   - comments: 'UniFi Switch 16 PoE (18W + max. 42W PoE), Gen2, (16) Gigabit, (1-8) Gigabit PoE+ IEEE 802.3af/at, (2) SFP
 
@@ -1028,6 +1123,7 @@ models:
     u_height: 1
   - interfaces:
       - name: lan0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11n
@@ -1141,14 +1237,19 @@ models:
 '
     interfaces:
       - name: Port 1 (PoE++ IN)
+        poe_mode: pd
         type: 1000base-t
       - name: Port 2 (PoE+)
+        poe_mode: pse
         type: 1000base-t
       - name: Port 3 (PoE+)
+        poe_mode: pse
         type: 1000base-t
       - name: Port 4 (PoE+)
+        poe_mode: pse
         type: 1000base-t
       - name: Port 5 (PoE+)
+        poe_mode: pse
         type: 1000base-t
     is_full_depth: false
     manufacturer: Ubiquiti
@@ -1199,15 +1300,27 @@ models:
         type: iec-60320-c14
     slug: ubiquiti-unifi-smartpower-rps
     u_height: 1
-  - comments: '[UniFi 6 Long Range Access Point](https://store.ui.com/products/unifi-6-long-range-access-point)'
+  - airflow: passive
+    comments: '[Access Point U6 Long-Range](https://store.ui.com/products/unifi-6-long-range-access-point)
+
+'
     interfaces:
-      - name: lan0
+      - name: eth0
+        poe_mode: pd
+        poe_type: type2-ieee802.3at
         type: 1000base-t
+      - name: wlan0
+        type: ieee802.11ax
+      - name: wlan1
+        type: ieee802.11ax
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: U6-LR
+    model: U6 Long-Range
+    part_number: U6-LR
     slug: ubiquiti-u6-lr
     u_height: 0
+    weight: 800.0
+    weight_unit: g
   - comments: '[EdgeSwitch](https://www.ui.com/edgemax/edgeswitch/)'
     console-ports:
       - name: Console
@@ -1275,9 +1388,13 @@ models:
         type: iec-60320-c14
     slug: ubiquiti-es-24-250w
     u_height: 1
-  - comments: '[Unifi AP AC Long Range](https://www.ui.com/unifi/unifi-ap-ac-lr/)'
+  - comments: '[Access Point AC Long-Range](https://store.ui.com/collections/wireless/products/unifi-ac-lr)
+
+'
     interfaces:
-      - name: lan0
+      - name: eth0
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
         type: 1000base-t
       - name: wlan0
         type: ieee802.11n
@@ -1285,9 +1402,12 @@ models:
         type: ieee802.11ac
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: UAP-AC-LR
+    model: AC Long-Range
+    part_number: UAP-AC-LR
     slug: ubiquiti-uap-ac-lr
     u_height: 0
+    weight: 240.0
+    weight_unit: g
   - comments: 'Unifi Cloud Key Generation 2
 
 
@@ -1747,20 +1867,10 @@ models:
         type: iec-60320-c14
     slug: ubiquiti-unifi-switch-24-poe-gen2
     u_height: 1
-  - interfaces:
-      - name: eth0
-        type: 1000base-t
-      - name: wlan0
-        type: ieee802.11ac
-    is_full_depth: false
-    manufacturer: Ubiquiti
-    model: Nano Station LOCO 5AC
-    part_number: LOCO5AC
-    slug: ubiquiti-nano-station-loco-5ac
-    u_height: 0
   - comments: '[Rocket Prism 5AC Gen2](https://dl.ubnt.com/datasheets/RocketAC/Rocket_Prism_AC_Gen2_DS.pdf)'
     interfaces:
       - name: lan0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11ac
@@ -1844,6 +1954,7 @@ models:
   - comments: '[LiteBeam AC](https://www.ui.com/airmax/litebeam-ac)'
     interfaces:
       - name: lan0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11ac
@@ -1867,6 +1978,7 @@ models:
     rear-ports:
       - label: PoE IN
         name: PoE in
+        poe: true
         positions: 1
         type: 8p8c
     slug: ubiquiti-ins-3af-o-g
@@ -1876,6 +1988,7 @@ models:
 '
     interfaces:
       - name: Port 1 (PoE IN)
+        poe_mode: pd
         type: 1000base-t
       - name: Port 2
         type: 1000base-t
@@ -1987,6 +2100,7 @@ models:
     u_height: 1
   - interfaces:
       - name: lan0
+        poe_mode: pd
         type: 100base-tx
       - name: lan1
         type: 100base-tx
@@ -2039,15 +2153,27 @@ models:
     part_number: UF-OLT
     slug: ubiquiti-uf-olt
     u_height: 1
-  - comments: '[UniFi 6 Lite Access Point](https://store.ui.com/products/unifi-ap-6-lite)'
+  - airflow: passive
+    comments: '[UniFi 6 Lite Access Point](https://store.ui.com/products/unifi-ap-6-lite)
+
+'
     interfaces:
       - name: lan0
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
         type: 1000base-t
+      - name: wlan0
+        type: ieee802.11ax
+      - name: wlan1
+        type: ieee802.11ax
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: U6-Lite
+    model: U6 Lite
+    part_number: U6-Lite
     slug: ubiquiti-u6-lite
     u_height: 0
+    weight: 300.0
+    weight_unit: g
   - comments: '[EdgePoint Router 8-Port](https://www.ui.com/downloads/datasheets/edgemax/EdgePoint_DS.pdf)'
     interfaces:
       - name: eth0
@@ -2185,32 +2311,41 @@ models:
     u_height: 1
     weight: 215
     weight_unit: g
-  - interfaces:
-      - name: Port 1
-        poe_mode: pse
-        poe_type: type2-ieee802.3at
-        type: 1000base-t
-      - name: Port 2
-        type: 1000base-t
-      - name: Port 3
-        type: 1000base-t
-      - name: Port 4
-        type: 1000base-t
-      - mgmt_only: true
-        name: Port 5
+  - airflow: passive
+    comments: '[Access Point In-Wall HD](https://store.ui.com/collections/wireless/products/unifi-in-wall-hd)
+
+'
+    interfaces:
+      - name: eth0
         poe_mode: pd
         poe_type: type2-ieee802.3at
         type: 1000base-t
-      - name: Wlan 0
+      - label: '1'
+        name: eth1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '2'
+        name: eth2
+        type: 1000base-t
+      - label: '3'
+        name: eth3
+        type: 1000base-t
+      - label: '4'
+        name: eth4
+        type: 1000base-t
+      - name: wlan0
         type: ieee802.11n
-      - name: Wlan 1
+      - name: wlan1
         type: ieee802.11ac
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: UniFi UAP InWall HD
+    model: In-Wall HD
     part_number: UAP-IW-HD
     slug: ubiquiti-uap-iw-hd
     u_height: 0
+    weight: 210.0
+    weight_unit: g
   - comments: The eth0 and prs0 are permanently bridged as this is a L2 bridge device. [](https://dl.ui.com/ds/wave-lr_ds.pdf)
     interfaces:
       - mgmt_only: true
@@ -2218,6 +2353,7 @@ models:
         type: bridge
       - label: Ethernet
         name: eth0
+        poe_mode: pd
         type: 1000base-t
       - label: Wireless
         name: prs0
@@ -2233,6 +2369,7 @@ models:
   - comments: '[PowerBeam AC Gen2](https://www.ui.com/airmax/powerbeam-ac-gen2/)'
     interfaces:
       - name: lan0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11ac
@@ -2244,6 +2381,7 @@ models:
     u_height: 0
   - interfaces:
       - name: lan0
+        poe_mode: pd
         type: 100base-tx
       - name: wlan0
         type: ieee802.11n
@@ -2253,22 +2391,29 @@ models:
     part_number: Rocket M2
     slug: ubiquiti-rocket-m2
     u_height: 0
-  - comments: '[UniFi 6 Enterprise Access Point](https://store.ui.com/products/u6-enterprise)'
+  - airflow: passive
+    comments: '[U6 Access Point Enterprise](https://store.ui.com/products/u6-enterprise)
+
+'
     interfaces:
-      - name: Port 1
+      - name: eth0
         poe_mode: pd
         poe_type: type2-ieee802.3at
         type: 2.5gbase-t
-      - name: Wlan 0
+      - name: wlan0
+        type: ieee802.11ax
+      - name: wlan1
+        type: ieee802.11ax
+      - name: wlan2
         type: ieee802.11ax
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: UniFi U6 Access Point Enterprise
+    model: U6 Enterprise
     part_number: U6-Enterprise
     slug: ubiquiti-u6-enterprise
     u_height: 0
-    weight: 2.1
-    weight_unit: lb
+    weight: 960
+    weight_unit: g
   - comments: 'ath0 is setup to use ieee802.11ax as LTE currently doesn''t allow wireless
 
       parameters to be specified despite the fact that the airFiber is a LTE-U
@@ -2285,6 +2430,7 @@ models:
         type: bridge
       - label: Ethernet
         name: eth0
+        poe_mode: pd
         type: 1000base-t
       - label: Wireless
         name: ath0
@@ -2414,6 +2560,56 @@ models:
         type: dc-terminal
     slug: ubiquiti-er-12p
     u_height: 1
+  - comments: '[Switch Enterprise 8 PoE Datasheet](https://dl.ui.com/ds/usw-enterprise-8-poe_ds)'
+    interfaces:
+      - name: Port 1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: Port 2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: Port 3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: Port 4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: Port 5
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: Port 6
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: Port 7
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: Port 8
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 2.5gbase-t
+      - name: SFP+ 9
+        type: 10gbase-x-sfpp
+      - name: SFP+ 10
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: Ubiquiti
+    model: Switch Enterprise 8 PoE
+    part_number: USW-Enterprise-8-PoE
+    power-ports:
+      - maximum_draw: 200
+        name: PSU1
+        type: iec-60320-c14
+    slug: ubiquiti-usw-enterprise-8-poe
+    u_height: 0
+    weight: 2.4
+    weight_unit: kg
   - comments: 'ubond0 is setup to use ieee802.11ax as LTE currently doesn''t allow wireless
 
       parameters to be specified despite the fact that the airFiber is a LTE-U
@@ -2433,6 +2629,7 @@ models:
         type: bridge
       - label: Ethernet
         name: eth0
+        poe_mode: pd
         type: 1000base-t
       - label: Wireless
         name: ath0
@@ -2509,6 +2706,9 @@ models:
     manufacturer: Ubiquiti
     model: EdgePoint EP-S16
     part_number: EP-S16
+    power-ports:
+      - name: Power
+        type: dc-terminal
     slug: ubiquiti-edgepoint-ep-s16
     u_height: 0
   - airflow: passive
@@ -2794,9 +2994,10 @@ models:
         type: iec-60320-c14
     slug: ubiquiti-es-48-lite
     u_height: 1
-  - comments: '[Unifi AP AC Lite](https://www.ui.com/unifi/unifi-ap-ac-lite/)'
+  - comments: '[AC Lite](https://www.ui.com/unifi/unifi-ap-ac-lite/)'
     interfaces:
       - name: lan0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11n
@@ -2804,9 +3005,12 @@ models:
         type: ieee802.11ac
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: UAP-AC-LITE
+    model: AC Lite
+    part_number: UAP-AC-LITE
     slug: ubiquiti-uap-ac-lite
     u_height: 0
+    weight: 170
+    weight_unit: g
   - comments: "UniFi Security Gateway Pro, (2) Gigabit LAN, (2) 1 Gbps RJ45/SFP Combination WAN Ports*\n\nDimensions: 484 x 44 x 164 mm (19.06 x 1.73 x 6.46\")\n\n(*, see datasheet) The USG‑PRO‑4 WAN port, as a result of being a combination SFP/GigE port, is a pure 1Gbps port – it is incapable of both 10Mbps and 100Mbps FDX/HDX settings\n"
     console-ports:
       - name: Console
@@ -2861,6 +3065,7 @@ models:
   - comments: '[PowerBeam AC](https://www.ui.com/airmax/powerbeam-ac/)'
     interfaces:
       - name: lan0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11ac
@@ -2926,6 +3131,7 @@ models:
       Dimensions: 442.4 x 285.4 x 43.7 mm (17.42 x 11.24 x 1.72")
 
 '
+    front_image: true
     interfaces:
       - name: Port 1
         poe_mode: pse
@@ -3027,7 +3233,7 @@ models:
         type: 10gbase-x-sfpp
       - name: SFP+ 26
         type: 10gbase-x-sfpp
-    is_full_depth: true
+    is_full_depth: false
     manufacturer: Ubiquiti
     model: UniFi Switch 24 Pro PoE Gen2
     part_number: USW-PRO-24-POE
@@ -3035,6 +3241,7 @@ models:
       - maximum_draw: 450
         name: Input
         type: iec-60320-c14
+    rear_image: true
     slug: ubiquiti-unifi-switch-24-pro-poe-gen2
     u_height: 1
   - comments: '[UniFi Switch PoE 8 (150W)](https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-8-150w) (20W + max. 130W PoE), Gen1, (8) Gigabit PoE+ IEEE 802.3af/at and 24V Passive PoE, (2) SFP
@@ -3075,6 +3282,7 @@ models:
     u_height: 0
   - interfaces:
       - name: eth0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11n
@@ -3107,11 +3315,15 @@ models:
         type: dc-terminal
     slug: ubiquiti-usg
     u_height: 1
-  - comments: '[Unifi AP AC Pro](https://www.ui.com/unifi/unifi-ap-ac-pro/)'
+  - comments: '[Access Point AC Pro](https://store.ui.com/collections/wireless/products/uap-ac-pro)''
+
+'
     interfaces:
-      - name: lan0
+      - name: eth0
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
         type: 1000base-t
-      - name: lan1
+      - name: eth1
         type: 1000base-t
       - name: wlan0
         type: ieee802.11n
@@ -3119,19 +3331,33 @@ models:
         type: ieee802.11ac
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: UAP AC Pro
-    part_number: UAP-AC-Pro
+    model: AC Professional
+    part_number: UAP-AC-PRO
     slug: ubiquiti-uap-ac-pro
     u_height: 0
-  - comments: '[UniFi FlexHD Access Point](https://store.ui.com/products/unifi-flexhd)'
+    weight: 350.0
+    weight_unit: g
+  - airflow: passive
+    comments: '[UniFi Access Point FlexHD](https://store.ui.com/collections/wireless/products/unifi-flexhd)
+
+'
     interfaces:
-      - name: lan0
+      - name: eth0
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
         type: 1000base-t
+      - name: wlan0
+        type: ieee802.11n
+      - name: wlan1
+        type: ieee802.11ac
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: UAP-FlexHD
+    model: FlexHD
+    part_number: UAP-FlexHD
     slug: ubiquiti-uap-flexhd
     u_height: 0
+    weight: 315
+    weight_unit: g
   - comments: '[EdgeRouter 4](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
     console-ports:
       - name: Console
@@ -3230,6 +3456,7 @@ models:
     u_height: 1
   - interfaces:
       - name: eth0
+        poe_mode: pd
         type: 1000base-t
       - name: eth1
         type: 1000base-t
@@ -3549,6 +3776,7 @@ models:
     u_height: 1
   - interfaces:
       - name: eth0
+        poe_mode: pd
         type: 1000base-t
       - name: eth1
         type: 1000base-t
@@ -3642,6 +3870,7 @@ models:
       Dimensions: 442.4 x 43.7 x 285.6 mm (17.42 x 1.72 x 11.24")
 
 '
+    front_image: true
     interfaces:
       - label: Port 1 - LAN
         name: port.1
@@ -3684,10 +3913,12 @@ models:
         maximum_draw: 33
         name: ps1
         type: iec-60320-c14
+    rear_image: true
     slug: ubiquiti-unifi-dream-machine-pro
     u_height: 1
   - interfaces:
       - name: lan0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11n
@@ -3699,6 +3930,7 @@ models:
     u_height: 0
   - interfaces:
       - name: eth0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11n
@@ -3708,16 +3940,28 @@ models:
     part_number: picostation m2
     slug: ubiquiti-picostation-m2
     u_height: 0
-  - interfaces:
+  - airflow: passive
+    interfaces:
       - name: eth0
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
         type: 1000base-t
+      - name: wlan0
+        type: ieee802.11n
+      - name: wlan1
+        type: ieee802.11n
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: UAP pro
+    model: UniFi AP-PRO
     part_number: UAP-Pro
     slug: ubiquiti-uap-pro
     u_height: 0
-  - comments: '[UniFi 6 Professional Access Point](https://store.ui.com/products/unifi-ap6-professional)'
+    weight: 298
+    weight_unit: g
+  - airflow: passive
+    comments: '[Access Point U6 Pro](https://store.ui.com/products/unifi-ap6-professional)
+
+'
     interfaces:
       - mgmt_only: true
         name: Port 1
@@ -3730,10 +3974,12 @@ models:
         type: ieee802.11ac
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: Unifi U6 Access Point Professional
-    part_number: U6-PRO
+    model: U6 Professional
+    part_number: U6-Pro
     slug: ubiquiti-u6-pro
     u_height: 0
+    weight: 460
+    weight_unit: g
   - comments: 'UniFi Switch 48 PoE (40W), Gen2, (48) Gigabit, (1-32) Gigabit (4) 1G SFP
 
 
@@ -3855,17 +4101,25 @@ models:
         type: iec-60320-c14
     slug: ubiquiti-unifi-switch-48-gen2
     u_height: 1
-  - comments: '[LiteAP AC](https://www.ui.com/airmax/liteap-ac/)'
+  - airflow: passive
+    comments: '[Datasheet](https://www.wimoodshop.nl/downloads/54_UniFi_AP_Datasheet.pdf)
+
+'
     interfaces:
       - name: lan0
-        type: 1000base-t
+        poe_mode: pd
+        poe_type: passive-24v-2pair
+        type: 100base-tx
       - name: wlan0
-        type: ieee802.11ac
+        type: ieee802.11n
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: LiteAP 120
-    slug: ubiquiti-liteap-120
+    model: Access Point
+    part_number: UAP
+    slug: ubiquiti-uap
     u_height: 0
+    weight: 290.0
+    weight_unit: g
   - comments: 'ubond0 is setup to use ieee802.11ax as LTE currently doesn''t allow wireless
 
       parameters to be specified despite the fact that the airFiber is a LTE-U
@@ -3882,6 +4136,7 @@ models:
         type: bridge
       - label: Ethernet
         name: eth0
+        poe_mode: pd
         type: 1000base-t
       - label: Wireless
         name: ubond0
@@ -4111,6 +4366,7 @@ models:
     u_height: 1
   - interfaces:
       - name: eth0
+        poe_mode: pd
         type: 100base-tx
       - description: 900MHz
         name: wlan0
@@ -4145,6 +4401,7 @@ models:
   - comments: '[PowerBeam AC](https://www.ui.com/airmax/powerbeam-ac/)'
     interfaces:
       - name: lan0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11ac
@@ -4280,6 +4537,7 @@ models:
     u_height: 1
   - interfaces:
       - name: lan0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11n
@@ -4443,6 +4701,7 @@ models:
     u_height: 0
   - interfaces:
       - name: eth0
+        poe_mode: pd
         type: 1000base-t
       - name: eth1
         type: 1000base-t
@@ -4457,6 +4716,7 @@ models:
   - comments: '[NanoBeam AC Gen2](https://www.ui.com/airmax/nanobeam-ac-gen2/)'
     interfaces:
       - name: eth0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11ac
@@ -4532,8 +4792,33 @@ models:
         type: dc-terminal
     slug: ubiquiti-er-10x
     u_height: 1
+  - comments: '135 x 185 x 32 mm (5.31 x 7.28 x 1.27")
+
+'
+    interfaces:
+      - name: Port 1 (PoE IN)
+        poe_mode: pd
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 2
+        type: 10gbase-t
+      - name: Port 3
+        type: 10gbase-t
+      - name: Port 4
+        type: 10gbase-t
+      - name: Port 5
+        type: 10gbase-t
+    is_full_depth: false
+    manufacturer: Ubiquiti
+    model: UniFi Switch Flex XG
+    part_number: USW-Flex-XG
+    slug: ubiquiti-unifi-switch-flex-xg
+    u_height: 0
+    weight: 1.2
+    weight_unit: kg
   - interfaces:
       - name: eth0
+        poe_mode: pd
         type: 100base-tx
       - description: 900MHz
         name: wlan0
@@ -4635,6 +4920,7 @@ models:
         type: bridge
       - label: Ethernet
         name: eth0
+        poe_mode: pd
         type: 1000base-t
       - label: Wireless
         name: ubond0
@@ -4647,6 +4933,7 @@ models:
     u_height: 0
   - interfaces:
       - name: lan0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11n
@@ -4656,11 +4943,15 @@ models:
     part_number: bullet m2
     slug: ubiquiti-bullet-m2
     u_height: 0
-  - comments: '[Unifi Mesh](https://unifi-mesh.ui.com/)'
+  - comments: '[Access Point AC Mesh Pro](https://store.ui.com/collections/wireless/products/unifi-ac-mesh-pro-ap)
+
+'
     interfaces:
-      - name: main
+      - name: eth0
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
         type: 1000base-t
-      - name: secondary
+      - name: eth1
         type: 1000base-t
       - name: wlan0
         type: ieee802.11n
@@ -4668,10 +4959,12 @@ models:
         type: ieee802.11ac
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: Unifi AC Mesh Pro
-    part_number: UAP-AC-M-Pro
+    model: AC Mesh Professional
+    part_number: UAP-AC-M-PRO
     slug: ubiquiti-uap-ac-m-pro
     u_height: 0
+    weight: 633.0
+    weight_unit: g
   - comments: 'UniFi Switch 16 PoE 150W (30W + max. 120W PoE), Gen1, (16) Gigabit PoE+ IEEE 802.3af/at and 24V Passive PoE, (2) SFP
 
 
@@ -4730,6 +5023,7 @@ models:
     u_height: 1
   - interfaces:
       - name: lan0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: virtual
@@ -4739,33 +5033,43 @@ models:
     part_number: NBE-M5-19
     slug: ubiquiti-nbe-m5-19
     u_height: 0
-  - comments: '[UniFi 6 In-Wall Access Point](https://store.ui.com/products/access-point-wifi-6-in-wall)'
+  - airflow: passive
+    comments: '[Access Point U6 In-Wall](https://store.ui.com/products/access-point-wifi-6-in-wall)
+
+'
     interfaces:
-      - name: Port 1
-        poe_mode: pse
-        poe_type: type2-ieee802.3at
-        type: 1000base-t
-      - name: Port 2
-        type: 1000base-t
-      - name: Port 3
-        type: 1000base-t
-      - name: Port 4
-        type: 1000base-t
-      - mgmt_only: true
-        name: Port 5
+      - name: eth0
         poe_mode: pd
         poe_type: type2-ieee802.3at
         type: 1000base-t
-      - name: Wlan 0
-        type: ieee802.11n
-      - name: Wlan 1
-        type: ieee802.11ac
+      - label: '1'
+        name: eth1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - label: '2'
+        name: eth2
+        type: 1000base-t
+      - label: '3'
+        name: eth3
+        type: 1000base-t
+      - label: '4'
+        name: eth4
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11ax
+      - name: wlan1
+        type: ieee802.11ax
+      - name: wlan2
+        type: ieee802.11ax
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: UniFi U6 In-Wall Access Point
-    part_number: u6-iw
+    model: U6 In-Wall
+    part_number: U6-IW
     slug: ubiquiti-u6-iw
     u_height: 0
+    weight: 460
+    weight_unit: g
   - comments: '[EdgeSwitch Lite](https://www.ui.com/edgemax/edgeswitch-lite/)'
     console-ports:
       - name: Console
@@ -4833,8 +5137,30 @@ models:
         type: iec-60320-c14
     slug: ubiquiti-es-24-lite
     u_height: 1
+  - airflow: passive
+    comments: '[Datasheet](https://dl.ubnt.com/datasheets/unifi/UniFi_nanoHD_AP_DS.pdf)
+
+'
+    interfaces:
+      - name: lan0
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
+        type: 1000base-t
+      - name: wlan0
+        type: ieee802.11n
+      - name: wlan1
+        type: ieee802.11ac
+    is_full_depth: false
+    manufacturer: Ubiquiti
+    model: Access Point nanoHD
+    part_number: UAP-nanoHD
+    slug: ubiquiti-uap-nanohd
+    u_height: 0
+    weight: 300.0
+    weight_unit: g
   - interfaces:
       - name: eth0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11ac
@@ -4844,25 +5170,28 @@ models:
     part_number: NBE-5AC-19
     slug: ubiquiti-nbe-5ac-19
     u_height: 0
-  - comments: '[UniFi 6 Mesh Access Point](https://store.ui.com/collections/unifi-network-wireless/products/access-point-wifi-6-mesh)'
-    interfaces:
-      - mgmt_only: false
-        name: eth0
+  - interfaces:
+      - name: eth0
         poe_mode: pd
         poe_type: type2-ieee802.3at
         type: 1000base-t
-      - name: wlan0
+      - name: eth1
+        type: 1000base-t
+      - name: wifi0
         type: ieee802.11n
-      - name: wlan1
+      - name: wifi1
         type: ieee802.11ac
     is_full_depth: false
     manufacturer: Ubiquiti
-    model: Unifi U6 Mesh Access Point
-    part_number: U6-Mesh
-    slug: ubiquiti-u6-mesh
+    model: AC HD
+    part_number: UAP-AC-HD
+    slug: ubiquiti-uap-ac-hd
     u_height: 0
+    weight: 700
+    weight_unit: g
   - interfaces:
       - name: eth0
+        poe_mode: pd
         type: 1000base-t
       - name: wlan0
         type: ieee802.11n
@@ -4872,6 +5201,25 @@ models:
     part_number: nanostation loco m2
     slug: ubiquiti-nanostation-loco-m2
     u_height: 0
+  - airflow: passive
+    comments: '[Datasheet](https://www.wimoodshop.nl/downloads/54_UniFi_AP_Datasheet.pdf)
+
+'
+    interfaces:
+      - name: lan0
+        poe_mode: pd
+        poe_type: passive-24v-2pair
+        type: 100base-tx
+      - name: wlan0
+        type: ieee802.11n
+    is_full_depth: false
+    manufacturer: Ubiquiti
+    model: Access Point Long-Range
+    part_number: UAP-LR
+    slug: ubiquiti-uap-lr
+    u_height: 0
+    weight: 290.0
+    weight_unit: g
   - comments: 'UniFi Switch 24 (25W), Gen2, (24) Gigabit, (2) SFP
 
 

@@ -1,0 +1,50 @@
+keywords:
+  - FB6202
+  - FB6202
+  - FB2900
+  - FB2900
+models:
+  - airflow: passive
+    console-ports:
+      - name: Console
+        type: de-9
+    interfaces:
+      - name: '1'
+        type: 1000base-t
+      - name: '2'
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: FireBrick
+    model: FB6202
+    part_number: FB6202
+    power-ports:
+      - maximum_draw: 30
+        name: PSU1
+        type: iec-60320-c14
+      - maximum_draw: 30
+        name: PSU2
+        type: iec-60320-c14
+    slug: firebrick-fb6202
+    u_height: 1
+  - airflow: passive
+    interfaces:
+      - name: '1'
+        type: 1000base-t
+      - name: '2'
+        type: 1000base-t
+      - name: '3'
+        type: 1000base-t
+      - name: '4'
+        type: 1000base-t
+      - name: '5'
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: FireBrick
+    model: FB2900
+    part_number: FB2900
+    power-ports:
+      - maximum_draw: 15
+        name: PSU1
+        type: iec-60320-c8
+    slug: firebrick-fb2900
+    u_height: 1

@@ -1,0 +1,566 @@
+keywords:
+  - C300R-015-B
+  - C300R-015-B
+  - C450R-BB2
+  - C450R-BB2
+  - C450R-010-B
+  - C450R-010-B
+  - EBM-240-7AH
+  - EBM-240-7AH
+  - C450R-030-B
+  - C450R-030-B
+  - EBM-240-9AH
+  - EBM-240-9AH
+  - C450R-020-B
+  - C450R-020-B
+  - C650R-060-B
+  - C650R-060-B
+  - C300R-030-B
+  - C300R-030-B
+  - C400R-020-B
+  - C400R-020-B
+  - C300R-020-B
+  - C300R-020-B
+  - C400R-030-B
+  - C400R-030-B
+  - C650R-100-B
+  - C650R-100-B
+  - C450R-BB1
+  - C450R-BB1
+  - C400R-010-B
+  - C400R-010-B
+  - C300R-010-B
+  - C300R-010-B
+models:
+  - comments: Line Interactive UPS offering 1500VA load support.
+    console-ports:
+      - name: Serial
+        type: rj-45
+      - name: USB management
+        type: usb-b
+    is_full_depth: true
+    manufacturer: Certa
+    model: C300R-015-B
+    module-bays:
+      - name: Intelligent Port
+        position: '1'
+    part_number: C300R-015-B
+    power-outlets:
+      - name: Power Outlet 1
+        type: iec-60320-c13
+      - name: Power Outlet 2
+        type: iec-60320-c13
+      - name: Power Outlet 3
+        type: iec-60320-c13
+      - name: Power Outlet 4
+        type: iec-60320-c13
+      - name: Power Outlet 5
+        type: iec-60320-c13
+      - name: Power Outlet 6
+        type: iec-60320-c13
+      - name: Power Outlet 7
+        type: iec-60320-c13
+      - name: Power Outlet 8
+        type: iec-60320-c13
+    power-ports:
+      - name: Power Port 1
+        type: iec-60320-c20
+    slug: certa-c300r-015-b
+    u_height: 2
+    weight: 20
+    weight_unit: kg
+  - comments: Rackmount, External battery pack for C450 series
+    console-ports:
+      - name: Battery Detect 1
+        type: rj-45
+      - name: Battery Detect 2
+        type: rj-45
+    is_full_depth: true
+    manufacturer: Certa
+    model: C450R-BB2
+    part_number: C450R-BB2
+    power-ports:
+      - name: EBM Connector 1
+        type: other
+      - name: EBM Connector 2
+        type: other
+    slug: certa-c450r-bb2
+    u_height: 2
+    weight: 39.9
+    weight_unit: kg
+  - comments: Unity power factor, online Double Conversion UPS for continuous power protection for critical loads. Offering 1000VA load support.
+    console-ports:
+      - name: Serial 1
+        type: rj-45
+      - name: Serial 2
+        type: de-9
+      - name: USB management
+        type: usb-b
+      - name: Battery Detect
+        type: rj-45
+    is_full_depth: true
+    manufacturer: Certa
+    model: C450R-010-B
+    module-bays:
+      - name: Intelligent Port
+        position: '1'
+    part_number: C450R-010-B
+    power-outlets:
+      - name: Power Outlet 1
+        type: iec-60320-c13
+      - name: Power Outlet 2
+        type: iec-60320-c13
+      - name: Power Outlet 3
+        type: iec-60320-c13
+      - name: Power Outlet 4
+        type: iec-60320-c13
+      - name: Power Outlet 5
+        type: iec-60320-c13
+      - name: Power Outlet 6
+        type: iec-60320-c13
+      - name: Power Outlet 7
+        type: iec-60320-c13
+      - name: Power Outlet 8
+        type: iec-60320-c13
+      - name: EBM Connector (Battery Pack)
+        type: other
+    power-ports:
+      - name: Power Port 1
+        type: iec-60320-c14
+    slug: certa-c450r-010-b
+    u_height: 2
+    weight: 14.3
+    weight_unit: kg
+  - comments: Rackmount, 7AH external battery pack for C650 series
+    console-ports:
+      - name: Battery Detect 1
+        type: rj-45
+      - name: Battery Detect 2
+        type: rj-45
+    is_full_depth: true
+    manufacturer: Certa
+    model: EBM-240-7AH
+    part_number: EBM-240-7AH
+    power-ports:
+      - name: EBM Connector 1
+        type: other
+      - name: EBM Connector 2
+        type: other
+    slug: certa-ebm-240-7ah
+    u_height: 2
+    weight: 56.1
+    weight_unit: kg
+  - comments: Unity power factor, online Double Conversion UPS for continuous power protection for critical loads. Offering 3000VA load support.
+    console-ports:
+      - name: Serial 1
+        type: rj-45
+      - name: Serial 2
+        type: de-9
+      - name: USB management
+        type: usb-b
+      - name: Battery Detect
+        type: rj-45
+    is_full_depth: true
+    manufacturer: Certa
+    model: C450R-030-B
+    module-bays:
+      - name: Intelligent Port
+        position: '1'
+    part_number: C450R-030-B
+    power-outlets:
+      - name: Power Outlet 1
+        type: iec-60320-c13
+      - name: Power Outlet 2
+        type: iec-60320-c13
+      - name: Power Outlet 3
+        type: iec-60320-c13
+      - name: Power Outlet 4
+        type: iec-60320-c13
+      - name: Power Outlet 5
+        type: iec-60320-c13
+      - name: Power Outlet 6
+        type: iec-60320-c13
+      - name: Power Outlet 7
+        type: iec-60320-c13
+      - name: Power Outlet 8
+        type: iec-60320-c13
+      - name: Power Outlet 9
+        type: iec-60320-c19
+      - name: EBM Connector (Battery Pack)
+        type: other
+    power-ports:
+      - name: Power Port 1
+        type: iec-60320-c20
+    slug: certa-c450r-030-b
+    u_height: 2
+    weight: 26.2
+    weight_unit: kg
+  - comments: Rackmount, 9AH external battery pack for C650 series
+    console-ports:
+      - name: Battery Detect 1
+        type: rj-45
+      - name: Battery Detect 2
+        type: rj-45
+    is_full_depth: true
+    manufacturer: Certa
+    model: EBM-240-9AH
+    part_number: EBM-240-9AH
+    power-ports:
+      - name: EBM Connector 1
+        type: other
+      - name: EBM Connector 2
+        type: other
+    slug: certa-ebm-240-9ah
+    u_height: 2
+    weight: 60.5
+    weight_unit: kg
+  - comments: Unity power factor, online Double Conversion UPS for continuous power protection for critical loads. Offering 2000VA load support.
+    console-ports:
+      - name: Serial 1
+        type: rj-45
+      - name: Serial 2
+        type: de-9
+      - name: USB management
+        type: usb-b
+      - name: Battery Detect
+        type: rj-45
+    is_full_depth: true
+    manufacturer: Certa
+    model: C450R-020-B
+    module-bays:
+      - name: Intelligent Port
+        position: '1'
+    part_number: C450R-020-B
+    power-outlets:
+      - name: Power Outlet 1
+        type: iec-60320-c13
+      - name: Power Outlet 2
+        type: iec-60320-c13
+      - name: Power Outlet 3
+        type: iec-60320-c13
+      - name: Power Outlet 4
+        type: iec-60320-c13
+      - name: Power Outlet 5
+        type: iec-60320-c13
+      - name: Power Outlet 6
+        type: iec-60320-c13
+      - name: Power Outlet 7
+        type: iec-60320-c13
+      - name: Power Outlet 8
+        type: iec-60320-c13
+      - name: EBM Connector (Battery Pack)
+        type: other
+    power-ports:
+      - name: Power Port 1
+        type: iec-60320-c20
+    slug: certa-c450r-020-b
+    u_height: 2
+    weight: 23.3
+    weight_unit: kg
+  - comments: 6kVA Online double conversion unity power factor UPS providing continuous support to critical loads.
+    console-ports:
+      - name: Serial 1
+        type: rj-45
+      - name: Serial 2
+        type: de-9
+      - name: USB management
+        type: usb-b
+      - name: Battery Detect
+        type: rj-45
+    is_full_depth: true
+    manufacturer: Certa
+    model: C650R-060-B
+    module-bays:
+      - name: Intelligent Port
+        position: '1'
+      - name: Parallel Slot
+        position: '2'
+    part_number: C650R-060-B
+    power-outlets:
+      - name: Power Outlet 1
+        type: hardwired
+      - name: EBM Connector (Battery Pack)
+        type: other
+    power-ports:
+      - name: Power Port 1
+        type: hardwired
+    slug: certa-c650r-060-b
+    u_height: 2
+    weight: 13.3
+    weight_unit: kg
+  - comments: Line Interactive UPS offering 3000VA load support.
+    console-ports:
+      - name: Serial
+        type: rj-45
+      - name: USB management
+        type: usb-b
+    is_full_depth: true
+    manufacturer: Certa
+    model: C300R-030-B
+    module-bays:
+      - name: Intelligent Port
+        position: '1'
+    part_number: C300R-030-B
+    power-outlets:
+      - name: Power Outlet 1
+        type: iec-60320-c13
+      - name: Power Outlet 2
+        type: iec-60320-c13
+      - name: Power Outlet 3
+        type: iec-60320-c13
+      - name: Power Outlet 4
+        type: iec-60320-c13
+      - name: Power Outlet 5
+        type: iec-60320-c13
+      - name: Power Outlet 6
+        type: iec-60320-c13
+      - name: Power Outlet 7
+        type: iec-60320-c13
+      - name: Power Outlet 8
+        type: iec-60320-c13
+      - name: Power Outlet 9
+        type: iec-60320-c19
+    power-ports:
+      - name: Power Port 1
+        type: iec-60320-c20
+    slug: certa-c300r-030-b
+    u_height: 2
+    weight: 32
+    weight_unit: kg
+  - comments: Online Double Conversion UPS for continuous power protection for critical loads. Offering 2000VA load support.
+    console-ports:
+      - name: Serial
+        type: rj-45
+      - name: USB management
+        type: usb-b
+    is_full_depth: true
+    manufacturer: Certa
+    model: C400R-020-B
+    module-bays:
+      - name: Intelligent Port
+        position: '1'
+    part_number: C400R-020-B
+    power-outlets:
+      - name: Power Outlet 1
+        type: iec-60320-c13
+      - name: Power Outlet 2
+        type: iec-60320-c13
+      - name: Power Outlet 3
+        type: iec-60320-c13
+      - name: Power Outlet 4
+        type: iec-60320-c13
+      - name: Power Outlet 5
+        type: iec-60320-c13
+      - name: Power Outlet 6
+        type: iec-60320-c13
+      - name: Power Outlet 7
+        type: iec-60320-c13
+      - name: Power Outlet 8
+        type: iec-60320-c13
+    power-ports:
+      - name: Power Port 1
+        type: iec-60320-c20
+    slug: certa-c400r-020-b
+    u_height: 4
+    weight: 19.7
+    weight_unit: kg
+  - comments: Line Interactive UPS offering 2000VA load support.
+    console-ports:
+      - name: Serial
+        type: rj-45
+      - name: USB management
+        type: usb-b
+    is_full_depth: true
+    manufacturer: Certa
+    model: C300R-020-B
+    module-bays:
+      - name: Intelligent Port
+        position: '1'
+    part_number: C300R-020-B
+    power-outlets:
+      - name: Power Outlet 1
+        type: iec-60320-c13
+      - name: Power Outlet 2
+        type: iec-60320-c13
+      - name: Power Outlet 3
+        type: iec-60320-c13
+      - name: Power Outlet 4
+        type: iec-60320-c13
+      - name: Power Outlet 5
+        type: iec-60320-c13
+      - name: Power Outlet 6
+        type: iec-60320-c13
+      - name: Power Outlet 7
+        type: iec-60320-c13
+      - name: Power Outlet 8
+        type: iec-60320-c13
+    power-ports:
+      - name: Power Port 1
+        type: iec-60320-c20
+    slug: certa-c300r-020-b
+    u_height: 2
+    weight: 28
+    weight_unit: kg
+  - comments: Online Double Conversion UPS for continuous power protection for critical loads. Offering 3000VA load support.
+    console-ports:
+      - name: Serial
+        type: rj-45
+      - name: USB management
+        type: usb-b
+    is_full_depth: true
+    manufacturer: Certa
+    model: C400R-030-B
+    module-bays:
+      - name: Intelligent Port
+        position: '1'
+    part_number: C400R-030-B
+    power-outlets:
+      - name: Power Outlet 1
+        type: iec-60320-c13
+      - name: Power Outlet 2
+        type: iec-60320-c13
+      - name: Power Outlet 3
+        type: iec-60320-c13
+      - name: Power Outlet 4
+        type: iec-60320-c13
+      - name: Power Outlet 5
+        type: iec-60320-c13
+      - name: Power Outlet 6
+        type: iec-60320-c13
+      - name: Power Outlet 7
+        type: iec-60320-c13
+      - name: Power Outlet 8
+        type: iec-60320-c13
+      - name: Power Outlet 9
+        type: iec-60320-c19
+    power-ports:
+      - name: Power Port 1
+        type: iec-60320-c20
+    slug: certa-c400r-030-b
+    u_height: 2
+    weight: 28.8
+    weight_unit: kg
+  - comments: 10kVA Online double conversion unity power factor UPS providing continuous support to critical loads.
+    console-ports:
+      - name: Serial 1
+        type: rj-45
+      - name: Serial 2
+        type: de-9
+      - name: USB management
+        type: usb-b
+      - name: Battery Detect
+        type: rj-45
+    is_full_depth: true
+    manufacturer: Certa
+    model: C650R-100-B
+    module-bays:
+      - name: Intelligent Port
+        position: '1'
+      - name: Parallel Slot
+        position: '2'
+    part_number: C650R-100-B
+    power-outlets:
+      - name: Power Outlet 1
+        type: hardwired
+      - name: EBM Connector (Battery Pack)
+        type: other
+    power-ports:
+      - name: Power Port 1
+        type: hardwired
+    slug: certa-c650r-100-b
+    u_height: 2
+    weight: 15.2
+    weight_unit: kg
+  - comments: Rackmount, External battery pack for C450 series
+    console-ports:
+      - name: Battery Detect 1
+        type: rj-45
+      - name: Battery Detect 2
+        type: rj-45
+    is_full_depth: true
+    manufacturer: Certa
+    model: C450R-BB1
+    part_number: C450R-BB1
+    power-ports:
+      - name: EBM Connector 1
+        type: other
+      - name: EBM Connector 2
+        type: other
+    slug: certa-c450r-bb1
+    u_height: 2
+    weight: 22.6
+    weight_unit: kg
+  - comments: Online Double Conversion UPS for continuous power protection for critical loads. Offering 1000VA load support.
+    console-ports:
+      - name: Serial
+        type: rj-45
+      - name: USB management
+        type: usb-b
+    is_full_depth: true
+    manufacturer: Certa
+    model: C400R-010-B
+    module-bays:
+      - name: Intelligent Port
+        position: '1'
+    part_number: C400R-010-B
+    power-outlets:
+      - name: Power Outlet 1
+        type: iec-60320-c13
+      - name: Power Outlet 2
+        type: iec-60320-c13
+      - name: Power Outlet 3
+        type: iec-60320-c13
+      - name: Power Outlet 4
+        type: iec-60320-c13
+      - name: Power Outlet 5
+        type: iec-60320-c13
+      - name: Power Outlet 6
+        type: iec-60320-c13
+      - name: Power Outlet 7
+        type: iec-60320-c13
+      - name: Power Outlet 8
+        type: iec-60320-c13
+    power-ports:
+      - name: Power Port 1
+        type: iec-60320-c20
+    slug: certa-c400r-010-b
+    u_height: 4
+    weight: 16.2
+    weight_unit: kg
+  - comments: Line Interactive UPS offering 1000VA load support.
+    console-ports:
+      - name: Serial
+        type: rj-45
+      - name: USB management
+        type: usb-b
+    is_full_depth: true
+    manufacturer: Certa
+    model: C300R-010-B
+    module-bays:
+      - name: Intelligent Port
+        position: '1'
+    part_number: C300R-010-B
+    power-outlets:
+      - name: Power Outlet 1
+        type: iec-60320-c13
+      - name: Power Outlet 2
+        type: iec-60320-c13
+      - name: Power Outlet 3
+        type: iec-60320-c13
+      - name: Power Outlet 4
+        type: iec-60320-c13
+      - name: Power Outlet 5
+        type: iec-60320-c13
+      - name: Power Outlet 6
+        type: iec-60320-c13
+      - name: Power Outlet 7
+        type: iec-60320-c13
+      - name: Power Outlet 8
+        type: iec-60320-c13
+    power-ports:
+      - name: Power Port 1
+        type: iec-60320-c20
+    slug: certa-c300r-010-b
+    u_height: 2
+    weight: 18
+    weight_unit: kg

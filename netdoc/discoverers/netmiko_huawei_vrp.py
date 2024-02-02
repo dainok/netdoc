@@ -28,6 +28,7 @@ def discovery(nrni, filters=None, filter_type=None):
         ("display ip vpn-instance interface", None),
         ("display eth-trunk", None),
         ("display ip interface", None),
+        # Huawei shows VLAN name in display interface not in display vlan
         ("display vlan all", None),
         ("display lldp neighbor brief", None),
         ("display arp all", None),

@@ -12,7 +12,7 @@
   serial: SAL1819S6LU
 - name: NXOS12
   site: test-site
-  model: Unknown Cisco device
+  model: Nexus 9396PX
   manufacturer: Cisco
   address: 169.254.1.12/16
   serial: 9D4RFH3U8OX

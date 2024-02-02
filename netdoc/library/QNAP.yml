@@ -13,6 +13,8 @@ keywords:
   - TS-EC1280U
   - TS-1685
   - TS-1685-D1521-16G-550W
+  - TS-251+
+  - TS-251+
   - TS-453D
   - TS-453d
   - TS-879U-RP
@@ -25,6 +27,8 @@ keywords:
   - TS-453B
   - TS-453mini
   - TS-453mini
+  - TS-563
+  - TS-563
   - TS-212
   - TS-212
   - TS-431XeU
@@ -142,9 +146,7 @@ models:
     model: TS-873
     module-bays:
       - name: Slot 1
-        position: rear
       - name: Slot 2
-        position: rear
     part_number: TS-873
     power-ports:
       - allocated_draw: 70
@@ -242,6 +244,28 @@ models:
     u_height: 0
     weight: 29.52
     weight_unit: lb
+  - airflow: side-to-rear
+    comments: '[TS-251+ | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-251+/specs/hardware)'
+    interfaces:
+      - label: '1'
+        name: eth0
+        type: 1000base-t
+      - label: '2'
+        name: eth1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: QNAP
+    model: TS-251+
+    part_number: TS-251+
+    power-ports:
+      - allocated_draw: 11
+        label: DC 12V
+        maximum_draw: 19
+        name: Power
+        type: dc-terminal
+    slug: qnap-ts-251-plus
+    weight: 1.28
+    weight_unit: kg
   - airflow: side-to-rear
     comments: '[TS-453B | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-453d/specs/hardware)'
     interfaces:
@@ -394,6 +418,27 @@ models:
         type: dc-terminal
     slug: qnap-ts-453mini
     subdevice_role: parent
+  - comments: '[TS-563 | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-563/specs/hardware)'
+    interfaces:
+      - label: '1'
+        name: eth0
+        type: 1000base-t
+      - label: '2'
+        name: eth1
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: QNAP
+    model: TS-563
+    part_number: TS-563
+    power-ports:
+      - allocated_draw: 70
+        maximum_draw: 250
+        name: PSU
+        type: iec-60320-c14
+    slug: qnap-ts-563
+    u_height: 0
+    weight: 4.4
+    weight_unit: kg
   - comments: '[TS-212 | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-212/specs/hardware)'
     device-bays:
       - name: Disk 1

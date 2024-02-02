@@ -21,10 +21,10 @@ def discovery(nrni, filters=None, filter_type=None):
     commands = [
         ("show hostname", "HOSTNAME"),
         ("show running-config", None),
+        ("show vlan", None),
         ("show interface", None),
         ("show cdp neighbors detail", None),
         ("show lldp neighbors detail", None),
-        ("show vlan", None),
         ("show vrf", None),
         ("show mac address-table dynamic", "show mac address-table"),
         ("show ip route vrf all", None),

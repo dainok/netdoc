@@ -18,12 +18,25 @@ keywords:
   - XGS1250-12
   - XGS1930-52HP
   - XGS1930-52HP
+  - GS1920-48v2
+  - GS1920-48v2
+  - GS1920-24HPv2
+  - GS1920-24HPv2
   - XGS1930-28HP
   - XGS1930-28HP
+  - GS1900-24E
+  - GS1900-24E
   - GS1900-8HP
   - GS1900-8HP
+  - GS1920-24
+  - GS1920-24
+  - GS1920-24v2
+  - GS1920-24v2
+  - GS1920-48HPv2
+  - GS1920-48HPv2
   - VMG1312-B10A
   - '402444'
+  - USG FLEX 200
 models:
   - airflow: passive
     comments: '[802.11ac Dual Radio Smart Antenna 3x3 Access Point](https://www.zyxelguard.com/WAC6503D-S.asp)'
@@ -622,6 +635,240 @@ models:
         type: iec-60320-c14
     slug: zyxel-xgs1930-52hp
     u_height: 1
+  - comments: '[Zyxel GS1920-48v2 48-port GbE Smart Managed Switch](https://www.zyxel.com/global/en/products/switch/8-24-48-port-gbe-smart-managed-switch-gs1920-series)'
+    interfaces:
+      - name: '1'
+        type: 1000base-t
+      - name: '2'
+        type: 1000base-t
+      - name: '3'
+        type: 1000base-t
+      - name: '4'
+        type: 1000base-t
+      - name: '5'
+        type: 1000base-t
+      - name: '6'
+        type: 1000base-t
+      - name: '7'
+        type: 1000base-t
+      - name: '8'
+        type: 1000base-t
+      - name: '9'
+        type: 1000base-t
+      - name: '10'
+        type: 1000base-t
+      - name: '11'
+        type: 1000base-t
+      - name: '12'
+        type: 1000base-t
+      - name: '13'
+        type: 1000base-t
+      - name: '14'
+        type: 1000base-t
+      - name: '15'
+        type: 1000base-t
+      - name: '16'
+        type: 1000base-t
+      - name: '17'
+        type: 1000base-t
+      - name: '18'
+        type: 1000base-t
+      - name: '19'
+        type: 1000base-t
+      - name: '20'
+        type: 1000base-t
+      - name: '21'
+        type: 1000base-t
+      - name: '22'
+        type: 1000base-t
+      - name: '23'
+        type: 1000base-t
+      - name: '24'
+        type: 1000base-t
+      - name: '25'
+        type: 1000base-t
+      - name: '26'
+        type: 1000base-t
+      - name: '27'
+        type: 1000base-t
+      - name: '28'
+        type: 1000base-t
+      - name: '29'
+        type: 1000base-t
+      - name: '30'
+        type: 1000base-t
+      - name: '31'
+        type: 1000base-t
+      - name: '32'
+        type: 1000base-t
+      - name: '33'
+        type: 1000base-t
+      - name: '34'
+        type: 1000base-t
+      - name: '35'
+        type: 1000base-t
+      - name: '36'
+        type: 1000base-t
+      - name: '37'
+        type: 1000base-t
+      - name: '38'
+        type: 1000base-t
+      - name: '39'
+        type: 1000base-t
+      - name: '40'
+        type: 1000base-t
+      - name: '41'
+        type: 1000base-t
+      - name: '42'
+        type: 1000base-t
+      - name: '43'
+        type: 1000base-t
+      - name: '44'
+        type: 1000base-t
+      - name: '45'
+        type: 1000base-t
+      - name: '46'
+        type: 1000base-t
+      - name: '47'
+        type: 1000base-t
+      - name: '48'
+        type: 1000base-t
+      - name: '49'
+        type: 1000base-x-sfp
+      - name: '50'
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Zyxel
+    model: GS1920-48v2
+    part_number: GS1920-48v2
+    power-ports:
+      - description: 100 to 240 V AC, 50/60 Hz
+        maximum_draw: 37
+        name: PS
+        type: iec-60320-c14
+    slug: zyxel-gs1920-48v2
+    u_height: 1
+    weight: 2.8
+    weight_unit: kg
+  - comments: '[Zyxel GS1920-24HPv2 24-port GbE Smart Managed PoE Switch](https://www.zyxel.com/global/en/products/switch/8-24-48-port-gbe-smart-managed-switch-gs1920-series)'
+    interfaces:
+      - name: '1'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '2'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '3'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '4'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '5'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '6'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '7'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '8'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '9'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '10'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '11'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '12'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '13'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '14'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '15'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '16'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '17'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '18'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '19'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '20'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '21'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '22'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '23'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '24'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '25'
+        type: 1000base-t
+      - name: '26'
+        type: 1000base-t
+      - name: '27'
+        type: 1000base-t
+      - name: '28'
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Zyxel
+    model: GS1920-24HPv2
+    part_number: GS1920-24HPv2
+    power-ports:
+      - description: 100 to 240 V AC, 50/60 Hz
+        maximum_draw: 464
+        name: PS
+        type: iec-60320-c14
+    slug: zyxel-gs1920-24hpv2
+    u_height: 1
+    weight: 3.8
+    weight_unit: kg
   - airflow: left-to-right
     comments: '[XGS1930 series specs](https://www.zyxel.com/products_services/24-48-port-GbE-Smart-Managed-Switch-with-4-SFP--Uplink-XGS1930-Series/specifications)'
     interfaces:
@@ -696,6 +943,69 @@ models:
         type: iec-60320-c14
     slug: zyxel-xgs1930-28hp
     u_height: 1
+  - comments: '[Zyxel GS1900-24E 24-port GbE Smart Managed Switch with GbE Uplink](https://www.zyxelguard.com/GS1900-24E.asp)'
+    interfaces:
+      - name: '1'
+        type: 1000base-t
+      - name: '2'
+        type: 1000base-t
+      - name: '3'
+        type: 1000base-t
+      - name: '4'
+        type: 1000base-t
+      - name: '5'
+        type: 1000base-t
+      - name: '6'
+        type: 1000base-t
+      - name: '7'
+        type: 1000base-t
+      - name: '8'
+        type: 1000base-t
+      - name: '9'
+        type: 1000base-t
+      - name: '10'
+        type: 1000base-t
+      - name: '11'
+        type: 1000base-t
+      - name: '12'
+        type: 1000base-t
+      - name: '13'
+        type: 1000base-t
+      - name: '14'
+        type: 1000base-t
+      - name: '15'
+        type: 1000base-t
+      - name: '16'
+        type: 1000base-t
+      - name: '17'
+        type: 1000base-t
+      - name: '18'
+        type: 1000base-t
+      - name: '19'
+        type: 1000base-t
+      - name: '20'
+        type: 1000base-t
+      - name: '21'
+        type: 1000base-t
+      - name: '22'
+        type: 1000base-t
+      - name: '23'
+        type: 1000base-t
+      - name: '24'
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Zyxel
+    model: GS1900-24E
+    part_number: GS1900-24E
+    power-ports:
+      - description: 100 to 240 V AC, 50/60 Hz
+        maximum_draw: 15
+        name: PS
+        type: iec-60320-c14
+    slug: zyxel-gs1900-24e
+    u_height: 1
+    weight: 1.6
+    weight_unit: kg
   - airflow: passive
     comments: '[Zyxel GS1900-8HP 8-port GbE Smart Managed PoE Switch](https://www.zyxelguard.com/GS1900-8HP.asp)'
     interfaces:
@@ -744,6 +1054,419 @@ models:
     weight: 0.72
     weight_unit: kg
   - airflow: passive
+    interfaces:
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 1
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 2
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 3
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 4
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 5
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 6
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 7
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 8
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 9
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 10
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 11
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 12
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 13
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 14
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 15
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 16
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 17
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 18
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 19
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 20
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 21
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 22
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 23
+        type: 1000base-t
+      - enabled: true
+        mgmt_only: false
+        name: Gig-E 24
+        type: 1000base-t
+      - description: Gigabit Combo(RJ45/SFP)
+        enabled: true
+        mgmt_only: false
+        name: Gig-E/SFP 25
+        type: 1000base-t
+      - description: Gigabit Combo(RJ45/SFP)
+        enabled: true
+        mgmt_only: false
+        name: Gig-E/SFP 26
+        type: 1000base-t
+      - description: Gigabit Combo(RJ45/SFP)
+        enabled: true
+        mgmt_only: false
+        name: Gig-E/SFP 27
+        type: 1000base-t
+      - description: Gigabit Combo(RJ45/SFP)
+        enabled: true
+        mgmt_only: false
+        name: Gig-E/SFP 28
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Zyxel
+    model: GS1920-24
+    part_number: GS1920-24
+    power-ports:
+      - name: Power Port 1
+        type: iec-60320-c14
+    slug: zyxel-gs1920-24
+    subdevice_role: parent
+    u_height: 1
+    weight: 2.91
+    weight_unit: kg
+  - airflow: passive
+    comments: '[Zyxel GS1920-24v2 24-port GbE Smart Managed PoE Switch](https://www.zyxel.com/global/en/products/switch/8-24-48-port-gbe-smart-managed-switch-gs1920-series)'
+    interfaces:
+      - name: '1'
+        type: 1000base-t
+      - name: '2'
+        type: 1000base-t
+      - name: '3'
+        type: 1000base-t
+      - name: '4'
+        type: 1000base-t
+      - name: '5'
+        type: 1000base-t
+      - name: '6'
+        type: 1000base-t
+      - name: '7'
+        type: 1000base-t
+      - name: '8'
+        type: 1000base-t
+      - name: '9'
+        type: 1000base-t
+      - name: '10'
+        type: 1000base-t
+      - name: '11'
+        type: 1000base-t
+      - name: '12'
+        type: 1000base-t
+      - name: '13'
+        type: 1000base-t
+      - name: '14'
+        type: 1000base-t
+      - name: '15'
+        type: 1000base-t
+      - name: '16'
+        type: 1000base-t
+      - name: '17'
+        type: 1000base-t
+      - name: '18'
+        type: 1000base-t
+      - name: '19'
+        type: 1000base-t
+      - name: '20'
+        type: 1000base-t
+      - name: '21'
+        type: 1000base-t
+      - name: '22'
+        type: 1000base-t
+      - name: '23'
+        type: 1000base-t
+      - name: '24'
+        type: 1000base-t
+      - name: '25'
+        type: 1000base-t
+      - name: '26'
+        type: 1000base-t
+      - name: '27'
+        type: 1000base-t
+      - name: '28'
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Zyxel
+    model: GS1920-24v2
+    part_number: GS1920-24v2
+    power-ports:
+      - description: 100 to 240 V AC, 50/60 Hz
+        maximum_draw: 23
+        name: PS
+        type: iec-60320-c14
+    slug: zyxel-gs1920-24v2
+    u_height: 1
+    weight: 2.1
+    weight_unit: kg
+  - comments: '[Zyxel GS1920-48HPv2 48-port GbE Smart Managed Switch](https://www.zyxel.com/global/en/products/switch/8-24-48-port-gbe-smart-managed-switch-gs1920-series)'
+    interfaces:
+      - name: '1'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '2'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '3'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '4'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '5'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '6'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '7'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '8'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '9'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '10'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '11'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '12'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '13'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '14'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '15'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '16'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '17'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '18'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '19'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '20'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '21'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '22'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '23'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '24'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '25'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '26'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '27'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '28'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '29'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '30'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '31'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '32'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '33'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '34'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '35'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '36'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '37'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '38'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '39'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '40'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '41'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '42'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '43'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '44'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '45'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '46'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '47'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '48'
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: '49'
+        type: 1000base-x-sfp
+      - name: '50'
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: Zyxel
+    model: GS1920-48HPv2
+    part_number: GS1920-48HPv2
+    power-ports:
+      - description: 100 to 240 V AC, 50/60 Hz
+        maximum_draw: 475
+        name: PS
+        type: iec-60320-c14
+    slug: zyxel-gs1920-48hpv2
+    u_height: 1
+    weight: 4.1
+    weight_unit: kg
+  - airflow: passive
     comments: '[VMG1312-B series specs](https://service-provider.zyxel.com/global/en/products/dsl-cpe/vdsl/modemresidential-gateways/vmg1312-b-series)'
     interfaces:
       - label: DSL
@@ -776,3 +1499,40 @@ models:
     u_height: 0
     weight: 245
     weight_unit: g
+  - airflow: passive
+    comments: '[Zyxel USG FLEX 200 Firewall](https://www.zyxel.com/global/en/products/next-gen-firewall/usg-flex-firewall-usg-flex-200/license-and-spec)'
+    console-ports:
+      - name: Console port
+        type: de-9
+    interfaces:
+      - name: P1
+        type: 1000base-x-sfp
+      - label: WAN1
+        name: P2
+        type: 1000base-t
+      - label: WAN2
+        name: P3
+        type: 1000base-t
+      - label: LAN/DMZ
+        name: P4
+        type: 1000base-t
+      - label: LAN/DMZ
+        name: P5
+        type: 1000base-t
+      - label: LAN/DMZ
+        name: P6
+        type: 1000base-t
+      - label: LAN/DMZ
+        name: P7
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: Zyxel
+    model: USG FLEX 200
+    power-ports:
+      - description: Wallwart to 12V DC, 2.5A max
+        name: POWER
+        type: dc-terminal
+    slug: zyxel-usg-flex-200
+    u_height: 1.0
+    weight: 1.4
+    weight_unit: kg

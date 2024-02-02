@@ -3,18 +3,28 @@ keywords:
   - TL-SG3424P
   - T2600G-28TS
   - T2600G-28TS
+  - TL-SE2109PB
+  - TL-SE2109PB
+  - TD-W8950N
+  - TD-W8950N
   - TL-SG1005D
   - TL-SG105D
   - TL-SG108PE
   - TL-SG108PE
   - TL-SG3428MP
   - TL-SG3428MP
+  - ER707-M2
+  - ER707-M2
   - TL-SG1024D
   - TL-SG1024D
   - TL-SG1016PE
   - TL-SG1016PE
   - TL-SG108E
   - TL-SG108E
+  - TL-SG105PE
+  - TL-SG105PE
+  - OC200
+  - OC200
   - T2600G-28MPS
   - T2600G-28MPS
   - T2500G-10TS
@@ -176,6 +186,95 @@ models:
         type: iec-60320-c14
     slug: tp-link-t2600g-28ts
     u_height: 1
+  - airflow: left-to-right
+    comments: '[TP-Link TL-SE2109PB](https://www.tp-link.com.cn/product_2787.html?v=specification#tag)'
+    interfaces:
+      - name: Port 1
+        poe_mode: pse
+        poe_type: type4-ieee802.3bt
+        type: 2.5gbase-t
+      - name: Port 2
+        poe_mode: pse
+        poe_type: type4-ieee802.3bt
+        type: 2.5gbase-t
+      - name: Port 3
+        poe_mode: pse
+        poe_type: type4-ieee802.3bt
+        type: 2.5gbase-t
+      - name: Port 4
+        poe_mode: pse
+        poe_type: type4-ieee802.3bt
+        type: 2.5gbase-t
+      - name: Port 5
+        poe_mode: pse
+        poe_type: type4-ieee802.3bt
+        type: 2.5gbase-t
+      - name: Port 6
+        poe_mode: pse
+        poe_type: type4-ieee802.3bt
+        type: 2.5gbase-t
+      - name: Port 7
+        poe_mode: pse
+        poe_type: type4-ieee802.3bt
+        type: 2.5gbase-t
+      - name: Port 8
+        poe_mode: pse
+        poe_type: type4-ieee802.3bt
+        type: 2.5gbase-t
+      - name: Port 9
+        type: 10gbase-x-sfpp
+    is_full_depth: false
+    manufacturer: TP-Link
+    model: TL-SE2109PB
+    part_number: TL-SE2109PB
+    power-ports:
+      - allocated_draw: 220
+        maximum_draw: 250
+        name: PS1
+        type: iec-60320-c14
+    slug: tp-link-tl-se2109pb
+    u_height: 1
+  - airflow: passive
+    interfaces:
+      - enabled: true
+        label: ADSL
+        mgmt_only: false
+        name: ADSL
+        type: xdsl
+      - enabled: true
+        label: LAN1
+        mgmt_only: false
+        name: LAN1
+        type: 100base-tx
+      - enabled: true
+        label: LAN2
+        mgmt_only: false
+        name: LAN2
+        type: 100base-tx
+      - enabled: true
+        label: LAN3
+        mgmt_only: false
+        name: LAN3
+        type: 100base-tx
+      - enabled: true
+        label: LAN4/WAN
+        mgmt_only: false
+        name: LAN4
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: TP-Link
+    model: TD-W8950N
+    part_number: TD-W8950N
+    power-ports:
+      - allocated_draw: 7
+        label: power
+        maximum_draw: 8
+        name: power
+        type: dc-terminal
+    slug: tp-link-td-w8950n
+    u_height: 1
+    weight: 500.0
+    weight_unit: g
   - airflow: passive
     comments: '[TP-Link TL-SG1005D](https://www.tp-link.com/us/home-networking/5-port-switch/tl-sg1005d/#specifications)'
     interfaces:
@@ -309,6 +408,33 @@ models:
         type: iec-60320-c14
     slug: tp-link-tl-sg3428mp
     u_height: 1
+  - airflow: passive
+    comments: '[TP-Link ER707-M2 Datasheet](https://www.tp-link.com/us/business-networking/omada-sdn-router/er707-m2/#specifications)'
+    interfaces:
+      - name: wan1
+        type: 2.5gbase-t
+      - name: wan/lan2
+        type: 2.5gbase-t
+      - name: wan/lan3
+        type: 1000base-t
+      - name: wan/lan4
+        type: 1000base-t
+      - name: wan/lan5
+        type: 1000base-t
+      - name: wan/lan6
+        type: 1000base-t
+      - name: wan/lan7
+        type: 1000base-x-sfp
+    is_full_depth: false
+    manufacturer: TP-Link
+    model: ER707-M2
+    part_number: ER707-M2
+    power-ports:
+      - maximum_draw: 7
+        name: 12VDC
+        type: dc-terminal
+    slug: tp-link-er707-m2
+    u_height: 0.0
   - interfaces:
       - name: '1'
         type: 1000base-t
@@ -457,6 +583,61 @@ models:
         type: dc-terminal
     slug: tp-link-tl-sg108e
     u_height: 0
+  - airflow: passive
+    comments: '[TP-Link TL-SG105PE](https://www.tp-link.com/us/business-networking/poe-switch/tl-sg105pe/#specifications)'
+    interfaces:
+      - name: Port 1
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 2
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 3
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 4
+        poe_mode: pse
+        poe_type: type2-ieee802.3at
+        type: 1000base-t
+      - name: Port 5
+        type: 1000base-t
+    is_full_depth: false
+    manufacturer: TP-Link
+    model: TL-SG105PE
+    part_number: TL-SG105PE
+    power-ports:
+      - maximum_draw: 4
+        name: External Power Adapter
+        type: dc-terminal
+    slug: tp-link-tl-sg105pe
+    u_height: 0.0
+  - comments: '[TP-Link OC200 Datasheet](https://www.tp-link.com/us/business-networking/omada-sdn-controller/oc200/#specifications)'
+    console-ports:
+      - label: USB configuration backup
+        name: backup-usb
+        type: usb-a
+    interfaces:
+      - label: ETH1 (PoE In)
+        name: '1'
+        poe_mode: pd
+        poe_type: type1-ieee802.3af
+        type: 100base-tx
+      - label: ETH2
+        name: '2'
+        type: 100base-tx
+    is_full_depth: false
+    manufacturer: TP-Link
+    model: OC200
+    part_number: OC200
+    power-ports:
+      - label: Optional or backup power if using PoE
+        name: Micro USB Power
+        type: usb-micro-b
+    slug: tp-link-oc200
+    u_height: 1
   - comments: '[TP-Link T2600G-28MPS Datasheet](https://www.tp-link.com/us/business-networking/poe-switch/t2600g-28mps/#specifications)'
     console-ports:
       - name: console

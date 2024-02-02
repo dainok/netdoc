@@ -434,23 +434,22 @@ class IPAMFromARP(Script):
         ):
             try:
                 interface_vrf_o = arptableentry_o.interface.ip_addresses.first().vrf
+                # IP address with prefixlen built from ARP table and associated interface
+                address = str(arptableentry_o.ip_address.ip)
+                prefixlen = (
+                    arptableentry_o.interface.ip_addresses.filter(
+                        address__net_contains_or_equals=address
+                    )
+                    .first()
+                    .address.prefixlen
+                )
+                ip_address = f"{address}/{prefixlen}"
             except AttributeError:
                 self.log_failure(
                     f"IP address not found on interface {arptableentry_o.interface}, maybe "
                     + "some ingestion script has failed",
                 )
                 continue
-
-            # IP address with prefixlen built from ARP table and associated interface
-            address = str(arptableentry_o.ip_address.ip)
-            prefixlen = (
-                arptableentry_o.interface.ip_addresses.filter(
-                    address__net_contains_or_equals=address
-                )
-                .first()
-                .address.prefixlen
-            )
-            ip_address = f"{address}/{prefixlen}"
 
             # Query for the IP address in the IPAM
             ipaddresses_qs = IPAddress.objects.filter(
