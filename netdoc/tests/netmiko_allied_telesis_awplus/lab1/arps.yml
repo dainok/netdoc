@@ -1,0 +1,5 @@
+- device: 6F-SH210-5
+  interface: vl954
+  ip_address: 192.168.254.251
+  mac_address: 0000.cd37.06aa
+  vendor: "Allied Telesis Labs Ltd"

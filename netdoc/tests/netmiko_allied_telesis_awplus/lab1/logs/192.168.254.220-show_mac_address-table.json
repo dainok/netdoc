@@ -1,0 +1,13 @@
+{
+	"details": {
+		"command": "show mac address-table",
+		"enable": true,
+		"framework": "netmiko",
+		"order": 11,
+		"platform": "allied_telesis",
+		"protocol": "awplus",
+		"template": "show mac address-table"
+	},
+	"discoverable__mode": "netmiko_allied_telesis_awplus"
+}
+

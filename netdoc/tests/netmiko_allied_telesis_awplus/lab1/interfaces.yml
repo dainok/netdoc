@@ -1,0 +1,786 @@
+6F-SH210-5:
+  - name: port1.0.1
+    label: port1.0.1
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [767, 793, 794, 811, 900, 964, 973, 989, 1111, 2222]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.2
+    label: port1.0.2
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [767, 793, 794, 811, 900, 964, 973, 989, 1111, 2222]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.3
+    label: port1.0.3
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [795]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.4
+    label: port1.0.4
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [793]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.5
+    label: port1.0.5
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [794]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.6
+    label: port1.0.6
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "tagged"
+    untagged_vlan: 
+    tagged_vlans: [989]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.7
+    label: port1.0.7
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "access"
+    untagged_vlan: 989
+    tagged_vlans: []
+    parent:
+    lag: po7
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.8
+    label: port1.0.8
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "access"
+    untagged_vlan: 989
+    tagged_vlans: []
+    parent: 
+    lag: po7
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.9
+    label: port1.0.9
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "access"
+    untagged_vlan: 989
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.10
+    label: port1.0.10
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "access"
+    untagged_vlan: 900
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.11
+    label: port1.0.11
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: false
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [989]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.12
+    label: port1.0.12
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: false
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [795]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.13
+    label: port1.0.13
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: false
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [479, 767, 793, 794, 811, 900, 964, 973, 989, 1111, 2222]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.14
+    label: port1.0.14
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: false
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [479, 767, 793, 794, 811, 900, 964, 973, 989, 1111, 2222]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.15
+    label: port1.0.15
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: false
+    description: ""
+    mode: "access"
+    untagged_vlan: 954
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.16
+    label: port1.0.16
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: false
+    description: ""
+    mode: "access"
+    untagged_vlan: 954
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.17
+    label: port1.0.17
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [793]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.18
+    label: port1.0.18
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [794]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.19
+    label: port1.0.19
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [989]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.20
+    label: port1.0.20
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [795]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.21
+    label: port1.0.21
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [767, 793, 794, 811, 900, 973, 989, 1111, 2222]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.22
+    label: port1.0.22
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [767, 793, 794, 811, 900, 973, 989, 1111, 2222]
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: port1.0.23
+    label: port1.0.23
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "tagged"
+    untagged_vlan: null
+    tagged_vlans: [504, 508, 767, 793, 794, 811, 883, 900, 909, 910, 914, 915, 929, 952, 954, 955, 964, 973, 989]
+    parent:
+    lag: sa1
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+    connected_device: 6F-SH210-1
+    connected_interface_label: port1.0.15
+  - name: port1.0.24
+    label: port1.0.24
+    type: other
+    speed: null
+    duplex: auto
+    mtu: 1500
+    enabled: true
+    description: ""
+    mode: "tagged"
+    untagged_vlan: 
+    tagged_vlans: [504, 508, 767, 793, 794, 811, 883, 900, 909, 910, 914, 915, 929, 952, 954, 955, 964, 973, 989]
+    parent:
+    lag: sa1
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+    connected_device: 6F-SH210-1
+    connected_interface_label: port1.0.16
+  - name: sa1
+    label: sa1
+    type: lag
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: 
+    tagged_vlans: []
+    parent: null
+    mac_address: null
+    ip_addresses: []
+  - name: vlan1
+    label: vl1
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan: 
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan479
+    label: vl479
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan504
+    label: vl504
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan508
+    label: vl508
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan511
+    label: vl511
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: false
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan767
+    label: vl767
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan793
+    label: vl793
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan794
+    label: vl794
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan795
+    label: vl795
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses:
+      - 10.255.255.1/24
+  - name: vlan811
+    label: vl811
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan883
+    label: vl883
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan900
+    label: vl900
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan909
+    label: vl909
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan910
+    label: vl910
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan914
+    label: vl914
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan915
+    label: vl915
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan929
+    label: vl929
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan931
+    label: vl931
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan952
+    label: vl952
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan954
+    label: vl954
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses:
+      - 192.168.254.220/24
+  - name: vlan955
+    label: vl955
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan964
+    label: vl964
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan973
+    label: vl973
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan989
+    label: vl989
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan1111
+    label: vl1111
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: vlan2222
+    label: vl2222
+    type: bridge
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: "00:1A:EB:95:4E:20"
+    ip_addresses: []
+  - name: po7
+    label: po7
+    type: lag
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: null
+    ip_addresses: []
+  - name: lo
+    label: lo
+    type: virtual
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: null
+    ip_addresses: []
+6F-SH210-1:
+  - name: port1.0.15
+    label: port1.0.15
+    type: other
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    mac_address: null
+    ip_addresses: []
+    connected_device: 6F-SH210-5
+    connected_interface_label: port1.0.23
+  - name: port1.0.16
+    label: port1.0.16
+    type: other
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan: null
+    tagged_vlans: []
+    parent: null
+    mac_address: null
+    ip_addresses: []
+    connected_device: 6F-SH210-5
+    connected_interface_label: port1.0.24
