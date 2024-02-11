@@ -1,0 +1,22 @@
+Value Required GROUP (\d+)
+Value PO_NAME (\S+)
+Value PO_STATUS (\D+)
+Value PROTOCOL (\S+)
+Value List INTERFACES (\w+\.\d\.\w+)
+Value List INTERFACES_STATUS (\D+)
+
+Start
+ ^% LAG Max -> OldSA
+ ^Static\sAggregator: \S+ -> Continue.Record
+ ^Static\sAggregator:\s\w.${GROUP}
+# ^Member: -> Continue
+ ^\s${INTERFACES}
+
+
+OldSA
+ ^% Static Aggregator: \S+ -> Continue.Record
+ ^% Static Aggregator:\s\w.${GROUP}
+ ^%\sMember: -> Continue
+ ^\s..${INTERFACES}
+
+

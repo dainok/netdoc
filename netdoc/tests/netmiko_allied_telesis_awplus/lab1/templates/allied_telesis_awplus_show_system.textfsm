@@ -1,0 +1,18 @@
+Value NAME (\S+)
+Value DESCR (\S+)
+Value PID (\S+)
+Value VID (.*)
+Value SN (\S+)
+Value SOFTWARE (\S+)
+Value HOSTNAME (\S+)
+
+Start
+ ^Base\s+\d+\s+Base\s+${NAME}\s+\S+\s+${SN}
+ ^Base\s+\d+\s+${NAME}\s+\S+\s+${SN}
+ ^Current\ssoftware\s+:\s${SOFTWARE}
+ ^\sSystem Name
+ ^\s${HOSTNAME} -> Record
+ # Capture time-stamp if vty line has command time-stamping turned on
+ ^Load\s+for\s+
+ ^Time\s+source\s+is
+

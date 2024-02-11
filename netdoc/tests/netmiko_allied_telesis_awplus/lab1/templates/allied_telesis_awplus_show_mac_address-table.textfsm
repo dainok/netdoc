@@ -1,0 +1,10 @@
+Value Required VLAN_ID (\d+)
+Value PORT (\S+)
+Value MAC (\S+)
+Value FWD (\S+)
+
+Start
+ ^${VLAN_ID}\s+${PORT}\s+${MAC}\s+${FWD} -> Record
+ # Capture time-stamp if vty line has command time-stamping turned on
+ ^Load\s+for\s+
+ ^Time\s+source\s+is
