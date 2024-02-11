@@ -4,7 +4,7 @@ vlan1                 unassigned         admin up        down
 vlan479               unassigned         admin up        down       
 vlan504               unassigned         admin up        running    
 vlan508               unassigned         admin up        running    
-vlan511               unassigned         admin up        down       
+vlan511               20.0.0.1/24        admin up        running       
 vlan767               unassigned         admin up        running    
 vlan793               unassigned         admin up        running    
 vlan794               unassigned         admin up        running    

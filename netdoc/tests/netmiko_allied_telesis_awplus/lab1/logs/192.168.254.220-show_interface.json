@@ -1,12 +1,12 @@
 {
-	"details": {
-		"command": "show interface",
-		"enable": true,
-		"framework": "netmiko",
-		"order": 2,
-		"platform": "allied_telesis",
-		"protocol": "awplus",
-		"template": "show interface"
-	},
-	"discoverable__mode": "netmiko_allied_telesis_awplus"
+    "details": {
+        "command": "show interface",
+        "enable": true,
+        "framework": "netmiko",
+        "order": 2,
+        "platform": "allied_telesis",
+        "protocol": "awplus",
+        "template": "show interface"
+    },
+    "discoverable__mode": "netmiko_allied_telesis_awplus"
 }

@@ -20,19 +20,19 @@ def discovery(nrni, filters=None, filter_type=None):
 
     # Define commands, in order with command, template, enabled
     commands = [
-            ("show system", None),
-            ("show running-config", None),
-            ("show interface", None),
-            ("show ip interface", None),
-            ("show lldp neighbors detail", None),
-            ("show interface switchport", None),
-            ("show vlan all", None),
-            ("show static-channel-group", None),
-            ("show ip route", None),
-            ("show arp", None),
-            ("show etherchannel summary", None),
+        ("show system", None),
+        ("show running-config", None),
+        ("show interface", None),
+        ("show ip interface", None),
+        ("show lldp neighbors detail", None),
+        ("show interface switchport", None),
+        ("show vlan all", None),
+        ("show static-channel-group", None),
+        ("show ip route", None),
+        ("show arp", None),
+        ("show etherchannel summary", None),
+        ("show mac address-table", None),
     ]
-
 
     def multiple_tasks(task):
         """Define commands (in order) for the playbook."""
@@ -92,14 +92,14 @@ def discovery(nrni, filters=None, filter_type=None):
                 if vrf == "default":
                     # Default VRF has no name
                     commands = [
-                        ("show arp", None),
-                        ("show ip route connected", "show ip route"),
-                        ("show ip route static", "show ip route"),
-                        ("show ip route rip", "show ip route"),
-                        ("show ip route bgp", "show ip route"),
-                        ("show ip route eigrp", "show ip route"),
-                        ("show ip route ospf", "show ip route"),
-                        ("show ip route isis", "show ip route"),
+                        #                        ("show arp", None),
+                        #                        ("show ip route connected", "show ip route"),
+                        #                        ("show ip route static", "show ip route"),
+                        #                        ("show ip route rip", "show ip route"),
+                        #                        ("show ip route bgp", "show ip route"),
+                        #                        ("show ip route eigrp", "show ip route"),
+                        #                        ("show ip route ospf", "show ip route"),
+                        #                        ("show ip route isis", "show ip route"),
                     ]
                 else:
                     # with non default VRF commands and templates differ

@@ -241,6 +241,20 @@ class DiscoveryModeChoices(ChoiceSet):
     """Discovey mode."""
 
     MODES = {
+        "netmiko_allied_telesis_awplus": {
+            "name": "Netmiko Allied Telesis AW+",
+            "platform": "allied_telesis_awplus",
+            "protocol": "ssh",
+            "framework": "netmiko",
+            "discovery_script": "netmiko_allied_telesis_awplus",
+        },
+        "netmiko_nec_ix": {
+            "name": "Netmiko NEC IX",
+            "platform": "nec_ix",
+            "protocol": "ssh",
+            "framework": "netmiko",
+            "discovery_script": "netmiko_nec_ix",
+        },
         "netmiko_aruba_aoscx": {
             "name": "Netmiko Aruba OSCX",
             "platform": "aruba_osswitch",  # Netmiko type, used by Nornir

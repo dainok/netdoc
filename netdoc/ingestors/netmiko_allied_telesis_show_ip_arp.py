@@ -1,7 +1,7 @@
 """Ingestor for netmiko_allied_teresis_show_ip_arp."""
-__remodeler__ = "tatumi0726"
-__contact__ = "tatumi0726@gmail.com"
-__copyright__ = "Copyright 2023, tatumi0726"
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2024, Andrea Dainese"
 __license__ = "GPLv3"
 
 from netdoc.schemas import interface, arptableentry
@@ -19,7 +19,7 @@ def ingest(log):
         label = utils.normalize_interface_label(interface_name)
         ip_address = item.get("ip_address")
         mac_address = utils.normalize_mac_address(item.get("mac_address"))
- 
+
         interface_o = interface.get(device_id=device_o.id, label=label)
         if not interface_o:
             interface_data = {

@@ -1,7 +1,7 @@
 """Ingestor for netmiko_allied_telesis_awplus_show_etherchannel_summary."""
-__remodeler__ = "tatumi0726"
-__contact__ = "tatumi0726@gmail.com"
-__copyright__ = "Copyright 2024, tatumi0726"
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2024, Andrea Dainese"
 __license__ = "GPLv3"
 
 from netdoc.schemas import interface

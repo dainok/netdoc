@@ -1,7 +1,7 @@
 """Ingestor for netmiko_allied_telesis_show_system."""
-__remodeler__ = "tatumi0726"
-__contact__ = "tatumi0726@gmail.com"
-__copyright__ = "Copyright 2023, tatumi0726"
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2024, Andrea Dainese"
 __license__ = "GPLv3"
 
 from netdoc.schemas import device, discoverable
@@ -28,14 +28,14 @@ def ingest(log):
 
         if "chassis" in part_description.lower():
             # Chassis model and Serial Number
-             part_serial_number = item.get("sn")
-             part_number = item.get("pid")
-             break
+            part_serial_number = item.get("sn")
+            part_number = item.get("pid")
+            break
 
     # Get or create Device
     data = {
         "name": hostname,
-        "site_id":  log.discoverable.site.id,
+        "site_id": log.discoverable.site.id,
         "manufacturer": MANUFACTURER,
         "serial": part_serial_number,
         "model_keyword": part_number,

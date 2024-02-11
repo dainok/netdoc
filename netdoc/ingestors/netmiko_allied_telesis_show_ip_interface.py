@@ -1,16 +1,17 @@
 """Ingestor for netmiko_allied_teresis_show_ip_interface."""
-__remodeler__ = "tatumi0726"
-__contact__ = "tatumi0726@gmail.com"
-__copyright__ = "Copyright 2023, tatumi0726"
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2024, Andrea Dainese"
 __license__ = "GPLv3"
 
-from netdoc.schemas import interface, vrf, device
+from netdoc.schemas import interface, device
 from netdoc import utils
 
 
 def ingest(log):
     """Processing parsed output."""
     device_o = log.discoverable.device
+    vrf_o = None
 
     for item in log.parsed_output:
         if item.get("link_status") == "deleted":
@@ -18,22 +19,12 @@ def ingest(log):
             continue
         interface_name = item.get("intf")
         label = utils.normalize_interface_label(interface_name)
-        vrf_name = item.get("vrf")
+        #        vrf_name = item.get("vrf")
         ip_list = item.get("ipaddr")
         mask_list = item.get("mask")
         ip_addresses = [
             f"{ipaddr}/{mask_list[index]}" for index, ipaddr in enumerate(ip_list)
         ]
-
-        # Get or create VRF
-        vrf_o = None
-        if vrf_name:
-            vrf_o = vrf.get(name=vrf_name)
-            if not vrf_o:
-                vrf_data = {
-                    "name": vrf_name,
-                }
-                vrf_o = vrf.create(**vrf_data)
 
         # Get or create Interface
         interface_o = interface.get(device_id=device_o.id, label=label)

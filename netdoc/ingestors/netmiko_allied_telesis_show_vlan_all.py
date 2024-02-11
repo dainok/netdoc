@@ -1,7 +1,7 @@
 """Ingestor for netmiko_allied_telesis_show_vlan_all."""
-__remodeler__ = "tatumi0726"
-__contact__ = "tatumi0726@gmail.com"
-__copyright__ = "Copyright 2023, tatumi0726"
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2024, Andrea Dainese"
 __license__ = "GPLv3"
 
 

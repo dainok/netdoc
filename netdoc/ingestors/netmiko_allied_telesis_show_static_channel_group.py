@@ -1,7 +1,7 @@
 """Ingestor for netmiko_allied_telesis_show_etherchannel_summary."""
-__remodeler__ = "tatumi0726"
-__contact__ = "tatumi0726@gmail.com"
-__copyright__ = "Copyright 2023, tatumi0726"
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2024, Andrea Dainese"
 __license__ = "GPLv3"
 
 from netdoc.schemas import interface
@@ -14,7 +14,7 @@ def ingest(log):
 
     for item in log.parsed_output:
         sa_group = item.get("group")
-        bundle_name = 'sa' + sa_group
+        bundle_name = "sa" + sa_group
         bundle_label = utils.normalize_interface_label(bundle_name)
         attached_interface_names = item.get("interfaces")
 

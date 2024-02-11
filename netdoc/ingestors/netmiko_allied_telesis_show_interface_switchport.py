@@ -1,7 +1,7 @@
 """Ingestor for netmiko_allied_teresis_show_interface_switchport."""
-__remodeler__ = "tatumi0726"
-__contact__ = "tatumi0726@gmail.com"
-__copyright__ = "Copyright 2023, tatumi0726"
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2024, Andrea Dainese"
 __license__ = "GPLv3"
 
 from netdoc.schemas import interface
@@ -17,8 +17,8 @@ def ingest(log):
         label = utils.normalize_interface_label(interface_name)
         mode = utils.normalize_interface_mode(item.get("mode"))
         native_vlan = int(item.get("native_vlan")) if item.get("native_vlan") else None
-#       native_vlan = item.get("access_vlan")
-        access_vlan = native_vlan
+        #       native_vlan = item.get("access_vlan")
+        #       access_vlan = native_vlan
         tagged_vlans = utils.normalize_vlan_list(item.get("trunking_vlans"))
 
         # Get or create Interface

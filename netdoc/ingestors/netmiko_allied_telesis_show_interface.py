@@ -1,12 +1,12 @@
 """Ingestor for netmiko_allied_telesis_show_interface."""
-__remodeler__ = "tatumi0726"
-__contact__ = "tatumi0726@gmail.com"
-__copyright__ = "Copyright 2023, tatumi0726"
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2024, Andrea Dainese"
 __license__ = "GPLv3"
 
+import re
 from netdoc.schemas import interface
 from netdoc import utils
-
 
 def ingest(log):
     """Processing parsed output."""
@@ -26,9 +26,14 @@ def ingest(log):
             if not utils.incomplete_mac(item.get("address"))
             else None
         )
-        int_type = utils.normalize_interface_type(item.get("interface"))
-        enabled = utils.normalize_interface_status(item.get("link_status"))
-#       enabled = utils.normalize_interface_status(item.get("protocol_status"))
+
+        # interface type
+        if re.match(f"port\S+", interface_name):
+            int_type = "other"
+        else:
+            int_type = utils.normalize_interface_type(item.get("interface"))
+
+        enabled = utils.normalize_interface_status(item.get("protocol_status"))
         mtu = utils.normalize_interface_mtu(item.get("mtu"))
         parent_name = utils.parent_interface(label)
 

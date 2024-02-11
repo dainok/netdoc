@@ -4,4 +4,6 @@
 - prefix: 10.255.255.0/24
   vrf: null
   site: test-site
-
+- prefix: 20.0.0.0/24
+  vrf: null
+  site: test-site

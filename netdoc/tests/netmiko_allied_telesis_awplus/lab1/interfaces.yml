@@ -78,7 +78,7 @@
     enabled: true
     description: ""
     mode: "tagged"
-    untagged_vlan: 
+    untagged_vlan:
     tagged_vlans: [989]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
@@ -109,7 +109,7 @@
     mode: "access"
     untagged_vlan: 989
     tagged_vlans: []
-    parent: 
+    parent:
     lag: po7
     mac_address: "00:1A:EB:95:4E:20"
     ip_addresses: []
@@ -147,7 +147,7 @@
     speed: null
     duplex: auto
     mtu: 1500
-    enabled: false
+    enabled: true
     description: ""
     mode: "tagged"
     untagged_vlan: null
@@ -161,7 +161,7 @@
     speed: null
     duplex: auto
     mtu: 1500
-    enabled: false
+    enabled: true
     description: ""
     mode: "tagged"
     untagged_vlan: null
@@ -175,7 +175,7 @@
     speed: null
     duplex: auto
     mtu: 1500
-    enabled: false
+    enabled: true
     description: ""
     mode: "tagged"
     untagged_vlan: null
@@ -189,7 +189,7 @@
     speed: null
     duplex: auto
     mtu: 1500
-    enabled: false
+    enabled: true
     description: ""
     mode: "tagged"
     untagged_vlan: null
@@ -203,7 +203,7 @@
     speed: null
     duplex: auto
     mtu: 1500
-    enabled: false
+    enabled: true
     description: ""
     mode: "access"
     untagged_vlan: 954
@@ -217,7 +217,7 @@
     speed: null
     duplex: auto
     mtu: 1500
-    enabled: false
+    enabled: true
     description: ""
     mode: "access"
     untagged_vlan: 954
@@ -335,7 +335,7 @@
     enabled: true
     description: ""
     mode: "tagged"
-    untagged_vlan: 
+    untagged_vlan:
     tagged_vlans: [504, 508, 767, 793, 794, 811, 883, 900, 909, 910, 914, 915, 929, 952, 954, 955, 964, 973, 989]
     parent:
     lag: sa1
@@ -352,7 +352,7 @@
     enabled: true
     description: ""
     mode: ""
-    untagged_vlan: 
+    untagged_vlan:
     tagged_vlans: []
     parent: null
     mac_address: null
@@ -363,10 +363,10 @@
     speed: null
     duplex: null
     mtu: null
-    enabled: false
+    enabled: true
     description: ""
     mode: ""
-    untagged_vlan: 
+    untagged_vlan:
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
@@ -377,7 +377,7 @@
     speed: null
     duplex: null
     mtu: null
-    enabled: false
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan:
@@ -419,14 +419,15 @@
     speed: null
     duplex: null
     mtu: null
-    enabled: false
+    enabled: true
     description: ""
     mode: ""
     untagged_vlan:
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
-    ip_addresses: []
+    ip_addresses:
+      - 20.0.0.1/24
   - name: vlan767
     label: vl767
     type: bridge

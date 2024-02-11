@@ -4,7 +4,7 @@
   name: VLAN0479
 - vid: 504
   name: VLAN0504
-- vid : 508
+- vid: 508
   name: VLAN0508
 - vid: 511
   name: DMZ-G
@@ -50,4 +50,3 @@
   name: VLAN1111
 - vid: 2222
   name: VLAN2222
-

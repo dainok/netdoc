@@ -1,12 +1,12 @@
 {
-	"details": {
-		"command": "show interface switchport",
-		"enable": true,
-		"framework": "netmiko",
-		"order": 5,
-		"platform": "allied_telesis",
-		"protocol": "awplus",
-		"template": "show interface switchport"
-	},
-	"discoverable__mode": "netmiko_allied_telesis_awplus"
+    "details": {
+        "command": "show interface switchport",
+        "enable": true,
+        "framework": "netmiko",
+        "order": 5,
+        "platform": "allied_telesis",
+        "protocol": "awplus",
+        "template": "show interface switchport"
+    },
+    "discoverable__mode": "netmiko_allied_telesis_awplus"
 }

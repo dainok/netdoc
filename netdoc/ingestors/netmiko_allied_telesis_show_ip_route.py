@@ -1,7 +1,7 @@
 """Ingestor for netmiko_allied_telesis_show_ip_route."""
-__remodeler__ = "tatumi0726"
-__contact__ = "tatumi0726@gmail.com"
-__copyright__ = "Copyright 2023, tatumi0726"
+__author__ = "Andrea Dainese"
+__contact__ = "andrea@adainese.it"
+__copyright__ = "Copyright 2024, Andrea Dainese"
 __license__ = "GPLv3"
 
 from netdoc.schemas import interface, vrf, routetableentry
@@ -11,17 +11,6 @@ from netdoc import utils
 def ingest(log):
     """Processing parsed output."""
     device_o = log.discoverable.device
-    vrf_name = log.details.get("vrf")
-
-    # Get or create VRF
-    vrf_o = None
-    if vrf_name:
-        vrf_o = vrf.get(name=vrf_name)
-        if not vrf_o:
-            data = {
-                "name": vrf_name,
-            }
-            vrf_o = vrf.create(**data)
 
     for item in log.parsed_output:
         nexthop_if_name = item.get("nexthop_if")
@@ -32,6 +21,12 @@ def ingest(log):
         )
         protocol = utils.normalize_route_type(item.get("protocol"))
         nexthop_ip = item.get("nexthop_ip") if item.get("nexthop_ip") else None
+
+        # Get or Create VRF
+        vrf_o = None
+        vrf_name = item.get("vrf")
+        if vrf_name:
+            vrf_o = vrf.get_or_create(name=vrf_name)[0]
 
         # Get or create interface
         nexthop_if_id = None
