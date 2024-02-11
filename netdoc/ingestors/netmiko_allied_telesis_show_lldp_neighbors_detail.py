@@ -4,6 +4,7 @@ __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2024, Andrea Dainese"
 __license__ = "GPLv3"
 
+import re
 from netdoc.schemas import interface, device, discoverable, cable
 from netdoc import utils
 
@@ -22,11 +23,20 @@ def ingest(log):
             item.get("management_ip")
         )
         remote_name = utils.normalize_hostname(item.get("neighbor"))
-        remote_interface_label = utils.get_remote_lldp_interface_label(
-            port_id=item.get("neighbor_port_id"),
-            port_description=item.get("neighbor_interface"),
-            system_description=item.get("system_description"),
-        )
+
+        # Check AT-TQ mac and determine port_id
+        if re.match("^88:9d:98|^889d.98|^001a.eb|^00:1a:eb", item.get("neighbor_port_id")):
+                remote_interface_label = utils.get_remote_lldp_interface_label(
+                    port_id="LAN1",
+                    port_description=item.get("neighbor_interface"),
+                    system_description=item.get("system_description"),
+                )
+        else:
+            remote_interface_label = utils.get_remote_lldp_interface_label(
+                port_id=item.get("neighbor_port_id"),
+                port_description=item.get("neighbor_interface"),
+                system_description=item.get("system_description"),
+            )
 
         if not utils.is_hostname(remote_name):
             # Skip neighbors not announcing a valid hostname
@@ -101,7 +111,3 @@ def ingest(log):
             right_interface_id=remote_interface_o.id,
             protocol="lldp",
         )
-
-    # Update the log
-    log.ingested = True
-    log.save()

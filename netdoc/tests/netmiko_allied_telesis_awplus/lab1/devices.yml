@@ -1,6 +1,6 @@
 - name: 6F-SH210-5
   site: test-site
-  model: SH210-24GT
+  model: x230-28GT
   manufacturer: Allied Telesis
   address: 192.168.254.220/24
   serial: G22TG6001
