@@ -3,7 +3,7 @@
         "command": "show static-channel-group",
         "enable": true,
         "framework": "netmiko",
-        "order": 7,
+        "order": 11,
         "platform": "allied_telesis",
         "protocol": "awplus",
         "template": "show static-channel-group"

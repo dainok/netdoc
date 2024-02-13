@@ -3,7 +3,7 @@
         "command": "show etherchannel summary",
         "enable": true,
         "framework": "netmiko",
-        "order": 10,
+        "order": 12,
         "platform": "allied_telesis",
         "protocol": "awplus",
         "template": "show etherchannel summary"

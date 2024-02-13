@@ -3,7 +3,7 @@
         "command": "show ip route",
         "enable": true,
         "framework": "netmiko",
-        "order": 8,
+        "order": 30,
         "platform": "allied_telesis",
         "protocol": "awplus",
         "template": "show ip route"

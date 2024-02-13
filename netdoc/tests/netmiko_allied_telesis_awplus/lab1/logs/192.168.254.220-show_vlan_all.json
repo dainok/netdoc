@@ -3,7 +3,7 @@
         "command": "show vlan all",
         "enable": true,
         "framework": "netmiko",
-        "order": 6,
+        "order": 2,
         "platform": "allied_telesis",
         "protocol": "awplus",
         "template": "show vlan all"

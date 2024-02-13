@@ -3,7 +3,7 @@
         "command": "show lldp neighbors detail",
         "enable": true,
         "framework": "netmiko",
-        "order": 4,
+        "order": 20,
         "platform": "allied_telesis",
         "protocol": "awplus",
         "template": "show lldp neighbors detail"

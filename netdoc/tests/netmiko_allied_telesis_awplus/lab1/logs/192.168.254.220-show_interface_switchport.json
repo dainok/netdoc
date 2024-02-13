@@ -3,7 +3,7 @@
         "command": "show interface switchport",
         "enable": true,
         "framework": "netmiko",
-        "order": 5,
+        "order": 10,
         "platform": "allied_telesis",
         "protocol": "awplus",
         "template": "show interface switchport"
