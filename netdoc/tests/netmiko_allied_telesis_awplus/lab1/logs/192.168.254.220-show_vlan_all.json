@@ -2,9 +2,7 @@
     "details": {
         "command": "show vlan all",
         "enable": true,
-        "framework": "netmiko",
         "order": 2,
-        "platform": "alliedtelesis_awplus",
         "template": "show vlan all"
     },
     "discoverable__mode": "netmiko_alliedtelesis_awplus"

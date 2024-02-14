@@ -2,9 +2,7 @@
     "details": {
         "command": "show mac address-table",
         "enable": true,
-        "framework": "netmiko",
         "order": 51,
-        "platform": "alliedtelesis_awplus",
         "template": "show mac address-table"
     },
     "discoverable__mode": "netmiko_alliedtelesis_awplus"
