@@ -332,9 +332,9 @@ def is_hostname(name):
     return False
 
 
-def is_command_supported(framework, platform, command):
-    """Return true if the framework/platform/command is supported."""
-    function_name = f"{framework}_{platform}_{command}"
+def is_command_supported(mode, command):
+    """Return true if the discoverer/command is supported."""
+    function_name = f"{mode}_{command}"
     function_name = function_name.replace(" ", "_")
     function_name = function_name.replace("-", "_")
     function_name = function_name.lower().strip()
@@ -379,10 +379,7 @@ def is_command_filtered_out(cmd_line, filters, filter_type):
 
 def log_ingest(log):
     """Ingest a log calling the custom ingestor."""
-    function_name = (
-        f"{log.details.get('framework')}_"
-        + f"{log.details.get('platform')}_{log.template}"
-    )
+    function_name = f"{log.discoverable.mode}_{log.template}"
     function_name = function_name.replace(" ", "_")
     function_name = function_name.replace("-", "_")
     function_name = function_name.lower().strip()
@@ -976,16 +973,13 @@ def parent_interface(label, return_label=True):
     return None
 
 
-def parse_netmiko_output(output, command, platform, template=None):
+def parse_netmiko_output(output, platform, command):
     """Parse Netmiko output using NTC templates."""
-    if not template:
-        # If template is empty, use command as template
-        template = command
-    if template == "HOSTNAME":
+    if command == "HOSTNAME":
         # Parsed during ingestion
         return output, True
     try:
-        parsed_output = get_structured_data(output, platform=platform, command=template)
+        parsed_output = get_structured_data(output, platform=platform, command=command)
         if isinstance(parsed_output, str) and parsed_output == output:
             # NTC template not found
             return (

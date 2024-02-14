@@ -428,7 +428,7 @@ class DiscoveryLog(NetBoxModel):
 
         # Check if the command is supported
         self.supported = is_command_supported(
-            self.details.get("framework"), self.details.get("platform"), self.template
+            self.discoverable.mode, self.template  # pylint: disable=no-member
         )
 
         # Check if the output is completed successfully
@@ -438,9 +438,13 @@ class DiscoveryLog(NetBoxModel):
                 return
         self.success = True
 
-        # Parse framework (e.g. netmiko) and platform (e.g. cisco_ios)
-        framework = self.details.get("framework")
-        platform = self.details.get("platform")
+        # Get framework (e.g. netmiko) and NTC Template (e.g. cisco_ios)
+        framework = DiscoveryModeChoices.MODES.get(
+            self.discoverable.mode  # pylint: disable=no-member
+        ).get("framework")
+        ntc_template = DiscoveryModeChoices.MODES.get(
+            self.discoverable.mode  # pylint: disable=no-member
+        ).get("ntc_template")
 
         if self.template == "HOSTNAME":
             # Logs tracking hostnames are parsed during ingestion phase
@@ -449,7 +453,7 @@ class DiscoveryLog(NetBoxModel):
         else:
             if framework == "netmiko":
                 parsed_output, parsed = parse_netmiko_output(
-                    self.raw_output, self.command, platform, template=self.template
+                    self.raw_output, ntc_template, self.template
                 )
             elif framework == "json":
                 try:

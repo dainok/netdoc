@@ -316,7 +316,7 @@ class DiscoveryModeChoices(ChoiceSet):
         "netmiko_huawei_vrp": {
             "name": "Netmiko Huawei VRP",
             "platform": "huawei",  # Netmiko type, used by Nornir
-            "ntc_template":  "huawei_vrp",
+            "ntc_template": "huawei_vrp",
             "protocol": "ssh",
             "framework": "netmiko",
             "discovery_script": "netmiko_huawei_vrp",  # Discovery script called by tasks.py
