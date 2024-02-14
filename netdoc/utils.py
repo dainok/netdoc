@@ -32,6 +32,8 @@ from utilities.utils import NetBoxFakeRequest
 from dcim.models import Interface
 from virtualization.models import VMInterface
 
+from netdoc.dictionaries import DiscoveryModeChoices
+
 
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 
@@ -332,12 +334,13 @@ def is_hostname(name):
     return False
 
 
-def is_command_supported(mode, command):
+def is_command_supported(discoverer, command):
     """Return true if the discoverer/command is supported."""
-    function_name = f"{mode}_{command}"
+    function_name = f"{discoverer}_{command}"
     function_name = function_name.replace(" ", "_")
     function_name = function_name.replace("-", "_")
     function_name = function_name.lower().strip()
+    print(function_name)
     try:
         importlib.import_module(f"netdoc.ingestors.{function_name}")
     except ModuleNotFoundError:
@@ -379,7 +382,10 @@ def is_command_filtered_out(cmd_line, filters, filter_type):
 
 def log_ingest(log):
     """Ingest a log calling the custom ingestor."""
-    function_name = f"{log.discoverable.mode}_{log.template}"
+    discoverer = DiscoveryModeChoices.MODES.get(
+        log.discoverable.mode  # pylint: disable=no-member
+    ).get("discovery_script")
+    function_name = f"{discoverer}_{log.template}"
     function_name = function_name.replace(" ", "_")
     function_name = function_name.replace("-", "_")
     function_name = function_name.lower().strip()

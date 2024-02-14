@@ -427,8 +427,11 @@ class DiscoveryLog(NetBoxModel):
             self.configuration = configuration
 
         # Check if the command is supported
+        discoverer = DiscoveryModeChoices.MODES.get(
+            self.discoverable.mode  # pylint: disable=no-member
+        ).get("discovery_script")
         self.supported = is_command_supported(
-            self.discoverable.mode, self.template  # pylint: disable=no-member
+            discoverer, self.template  # pylint: disable=no-member
         )
 
         # Check if the output is completed successfully

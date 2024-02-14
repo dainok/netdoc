@@ -255,7 +255,7 @@ class DiscoveryModeChoices(ChoiceSet):
             "ntc_template": "aruba_aoscx",
             "protocol": "ssh",
             "framework": "netmiko",
-            "discovery_script": "netmiko_aruba_oscx",  # Discovery script called by tasks.py
+            "discovery_script": "netmiko_aruba_aoscx",  # Discovery script called by tasks.py
         },
         "netmiko_cisco_ios": {
             "name": "Netmiko Cisco IOS XE",
