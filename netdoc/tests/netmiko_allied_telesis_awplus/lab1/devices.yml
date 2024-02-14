@@ -1,0 +1,6 @@
+- name: 6F-SH210-5
+  site: test-site
+  model: Unknown Allied Telesis device
+  manufacturer: Allied Telesis
+  address: null
+  serial: ""
