@@ -12,14 +12,14 @@ from netdoc.schemas import discoverable, discoverylog
 
 
 def discovery(nrni, filters=None, filter_type=None):
-    """Discovery AlliedTelesis AWPlus devices."""
-    # platform = "allied_telesis"
+    """Discovery Allied Telesis AW+ devices."""
+    # platform = "alliedtelesis_awplus"
     host_list = []
     failed_host_list = []
 
     # Define commands, in order with command, template, enabled
     commands = [
-        ("show system", None),
+        ("show system", "HOSTNAME"),
         ("show running-config", None),
         ("show vlan all", None),
         ("show interface", None),
@@ -34,6 +34,7 @@ def discovery(nrni, filters=None, filter_type=None):
         ("show arp", None),
         ("show mac address-table", None),
         # Unsupported
+        ("show system", None),
     ]
 
     def multiple_tasks(task):

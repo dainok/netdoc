@@ -1,0 +1,11 @@
+{
+    "details": {
+        "command": "show arp",
+        "enable": true,
+        "framework": "netmiko",
+        "order": 9,
+        "platform": "alliedtelesis_awplus",
+        "template": "show arp"
+    },
+    "discoverable__mode": "netmiko_alliedtelesis_awplus"
+}

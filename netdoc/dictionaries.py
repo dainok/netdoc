@@ -241,12 +241,12 @@ class DiscoveryModeChoices(ChoiceSet):
     """Discovey mode."""
 
     MODES = {
-        "netmiko_allied_telesis_awplus": {
+        "netmiko_alliedtelesis_awplus": {
             "name": "Netmiko Allied Telesis AW+",
-            "platform": "allied_telesis_awplus",
+            "platform": "alliedtelesis_awplus",
             "protocol": "ssh",
             "framework": "netmiko",
-            "discovery_script": "netmiko_allied_telesis_awplus",
+            "discovery_script": "netmiko_alliedtelesis_awplus",
         },
         "netmiko_aruba_aoscx": {
             "name": "Netmiko Aruba OSCX",

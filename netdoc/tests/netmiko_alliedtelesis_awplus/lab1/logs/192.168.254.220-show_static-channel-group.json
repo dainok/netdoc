@@ -1,0 +1,11 @@
+{
+    "details": {
+        "command": "show static-channel-group",
+        "enable": true,
+        "framework": "netmiko",
+        "order": 11,
+        "platform": "alliedtelesis_awplus",
+        "template": "show static-channel-group"
+    },
+    "discoverable__mode": "netmiko_alliedtelesis_awplus"
+}

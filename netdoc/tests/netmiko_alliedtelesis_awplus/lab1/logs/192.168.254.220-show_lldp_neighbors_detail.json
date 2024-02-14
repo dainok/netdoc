@@ -1,0 +1,11 @@
+{
+    "details": {
+        "command": "show lldp neighbors detail",
+        "enable": true,
+        "framework": "netmiko",
+        "order": 20,
+        "platform": "alliedtelesis_awplus",
+        "template": "show lldp neighbors detail"
+    },
+    "discoverable__mode": "netmiko_alliedtelesis_awplus"
+}

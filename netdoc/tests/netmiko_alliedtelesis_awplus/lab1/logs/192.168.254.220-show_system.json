@@ -1,0 +1,11 @@
+{
+    "details": {
+        "command": "show system",
+        "enable": true,
+        "framework": "netmiko",
+        "order": 0,
+        "platform": "alliedtelesis_awplus",
+        "template": "HOSTNAME"
+    },
+    "discoverable__mode": "netmiko_alliedtelesis_awplus"
+}

@@ -1,0 +1,11 @@
+{
+    "details": {
+        "command": "show ip route",
+        "enable": true,
+        "framework": "netmiko",
+        "order": 30,
+        "platform": "alliedtelesis_awplus",
+        "template": "show ip route"
+    },
+    "discoverable__mode": "netmiko_alliedtelesis_awplus"
+}
