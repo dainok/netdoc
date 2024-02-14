@@ -340,7 +340,6 @@ def is_command_supported(discoverer, command):
     function_name = function_name.replace(" ", "_")
     function_name = function_name.replace("-", "_")
     function_name = function_name.lower().strip()
-    print(function_name)
     try:
         importlib.import_module(f"netdoc.ingestors.{function_name}")
     except ModuleNotFoundError:
