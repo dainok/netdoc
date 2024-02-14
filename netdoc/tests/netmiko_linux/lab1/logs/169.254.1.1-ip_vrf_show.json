@@ -2,9 +2,7 @@
     "details": {
         "command": "ip vrf show",
         "enable": true,
-        "framework": "netmiko",
         "order": 10,
-        "platform": "linux",
         "template": "ip vrf show"
     },
     "discoverable__mode": "netmiko_linux"
