@@ -2,9 +2,7 @@
     "details": {
         "command": "display lldp neighbor-information verbose",
         "enable": true,
-        "framework": "netmiko",
         "order": 1,
-        "platform": "hp_comware",
         "template": "display lldp neighbor-information verbose"
     },
     "discoverable__mode": "netmiko_hp_comware"

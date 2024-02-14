@@ -2,9 +2,7 @@
     "details": {
         "command": "show interface",
         "enable": true,
-        "framework": "netmiko",
         "order": 10,
-        "platform": "cisco_nxos",
         "template": "show interface"
     },
     "discoverable__mode": "netmiko_cisco_nxos"

@@ -2,9 +2,7 @@
     "details": {
         "command": "show vlan",
         "enable": true,
-        "framework": "netmiko",
         "order": 2,
-        "platform": "aruba_aoscx",
         "template": "show vlan"
     },
     "discoverable__mode": "netmiko_aruba_aoscx"

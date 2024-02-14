@@ -2,9 +2,7 @@
     "details": {
         "command": "show vlans",
         "enable": true,
-        "framework": "netmiko",
         "order": 2,
-        "platform": "hp_procurve",
         "template": "show vlans"
     },
     "discoverable__mode": "netmiko_hp_procurve"

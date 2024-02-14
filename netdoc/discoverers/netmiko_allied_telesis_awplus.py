@@ -13,7 +13,7 @@ from netdoc.schemas import discoverable, discoverylog
 
 def discovery(nrni, filters=None, filter_type=None):
     """Discovery Allied Telesis AW+ devices."""
-    # platform = "alliedtelesis_awplus"
+    # platform = "allied_telesis_awplus"
     host_list = []
     failed_host_list = []
 

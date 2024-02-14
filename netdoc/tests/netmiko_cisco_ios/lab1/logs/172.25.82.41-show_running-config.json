@@ -2,9 +2,7 @@
     "details": {
         "command": "show running-config",
         "enable": true,
-        "framework": "netmiko",
         "order": 10,
-        "platform": "cisco_ios",
         "template": "show running-config"
     },
     "discoverable__mode": "netmiko_cisco_ios"

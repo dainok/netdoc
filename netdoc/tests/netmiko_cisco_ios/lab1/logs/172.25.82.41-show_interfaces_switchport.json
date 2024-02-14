@@ -2,9 +2,7 @@
     "details": {
         "command": "show interfaces switchport",
         "enable": true,
-        "framework": "netmiko",
         "order": 128,
-        "platform": "cisco_ios",
         "template": "show interfaces switchport"
     },
     "discoverable__mode": "netmiko_cisco_ios"

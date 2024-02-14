@@ -2,9 +2,7 @@
     "details": {
         "command": "show vlan",
         "enable": true,
-        "framework": "netmiko",
         "order": 2,
-        "platform": "cisco_ios",
         "template": "show vlan"
     },
     "discoverable__mode": "netmiko_cisco_ios_telnet"

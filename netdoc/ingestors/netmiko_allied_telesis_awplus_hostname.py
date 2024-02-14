@@ -1,4 +1,4 @@
-"""Ingestor for netmiko_alliedtelesis_awplus_hostname."""
+"""Ingestor for netmiko_allied_telesis_awplus_hostname."""
 __author__ = "Andrea Dainese"
 __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2024, Andrea Dainese"
@@ -19,7 +19,9 @@ def ingest(log):
 
     # Parsing hostname
     try:
-        name = re.findall(r"System Name\n\s+(\S+)\n", output, re.MULTILINE | re.DOTALL).pop()
+        name = re.findall(
+            r"System Name\n\s+(\S+)\n", output, re.MULTILINE | re.DOTALL
+        ).pop()
     except AttributeError as exc:
         raise AttributeError(f"Failed to match HOSTNAME regex on {output}") from exc
     name = utils.normalize_hostname(name)

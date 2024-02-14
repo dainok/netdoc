@@ -2,9 +2,7 @@
     "details": {
         "command": "show mac-address-table",
         "enable": true,
-        "framework": "netmiko",
         "order": 128,
-        "platform": "aruba_aoscx",
         "template": "show mac-address-table"
     },
     "discoverable__mode": "netmiko_aruba_aoscx"

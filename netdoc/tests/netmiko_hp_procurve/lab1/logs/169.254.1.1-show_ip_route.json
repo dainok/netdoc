@@ -2,9 +2,7 @@
     "details": {
         "command": "show ip route",
         "enable": true,
-        "framework": "netmiko",
         "order": 128,
-        "platform": "hp_procurve",
         "template": "show ip route"
     },
     "discoverable__mode": "netmiko_hp_procurve"

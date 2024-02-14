@@ -2,9 +2,7 @@
     "details": {
         "command": "display ip routing-table",
         "enable": true,
-        "framework": "netmiko",
         "order": 100,
-        "platform": "hp_comware",
         "template": "display ip routing-table"
     },
     "discoverable__mode": "netmiko_hp_comware"

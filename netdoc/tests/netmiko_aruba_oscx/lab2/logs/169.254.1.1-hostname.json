@@ -2,9 +2,7 @@
     "details": {
         "command": "show system",
         "enable": true,
-        "framework": "netmiko",
         "order": 0,
-        "platform": "aruba_aoscx",
         "template": "HOSTNAME"
     },
     "discoverable__mode": "netmiko_aruba_aoscx"

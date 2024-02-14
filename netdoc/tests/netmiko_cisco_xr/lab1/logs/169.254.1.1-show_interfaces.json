@@ -2,9 +2,7 @@
     "details": {
         "command": "show interfaces",
         "enable": true,
-        "framework": "netmiko",
         "order": 10,
-        "platform": "cisco_xr",
         "template": "show interfaces"
     },
     "discoverable__mode": "netmiko_cisco_xr"

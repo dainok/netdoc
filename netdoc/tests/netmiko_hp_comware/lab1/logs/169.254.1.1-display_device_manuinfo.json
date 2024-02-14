@@ -2,9 +2,7 @@
     "details": {
         "command": "display device manuinfo",
         "enable": true,
-        "framework": "netmiko",
         "order": 7,
-        "platform": "hp_comware",
         "template": "display device manuinfo"
     },
     "discoverable__mode": "netmiko_hp_comware"

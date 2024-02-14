@@ -2,9 +2,7 @@
     "details": {
         "command": "show arp",
         "enable": true,
-        "framework": "netmiko",
         "order": 10,
-        "platform": "hp_procurve",
         "template": "show arp"
     },
     "discoverable__mode": "netmiko_hp_procurve"

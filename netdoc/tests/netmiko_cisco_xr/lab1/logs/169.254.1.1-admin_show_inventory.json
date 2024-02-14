@@ -2,9 +2,7 @@
     "details": {
         "command": "admin show inventory",
         "enable": true,
-        "framework": "netmiko",
         "order": 10,
-        "platform": "cisco_xr",
         "template": "admin show inventory"
     },
     "discoverable__mode": "netmiko_cisco_xr"

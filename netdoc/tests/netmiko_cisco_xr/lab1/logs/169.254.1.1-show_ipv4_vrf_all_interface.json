@@ -2,9 +2,7 @@
     "details": {
         "command": "show ipv4 vrf all interface",
         "enable": true,
-        "framework": "netmiko",
         "order": 10,
-        "platform": "cisco_xr",
         "template": "show ipv4 interface"
     },
     "discoverable__mode": "netmiko_cisco_xr"

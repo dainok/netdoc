@@ -482,12 +482,9 @@ class DiscoveryLog(NetBoxModel):
         if not self.pk:
             # Check if command is supported
             mode = self.discoverable.mode  # pylint: disable=no-member
-            framework = mode.split("_")[0]
-            platform = "_".join(mode.split("_")[1:3])
-            try:
-                protocol = mode.split("_")[3]  # pylint: disable=no-member
-            except IndexError:
-                protocol = "default"
+            framework = DiscoveryModeChoices.MODES.get(mode).get("framework")
+            platform = DiscoveryModeChoices.MODES.get(mode).get("platform")
+            protocol = DiscoveryModeChoices.MODES.get(mode).get("protocol")
 
             # Update log details
             details = self.details

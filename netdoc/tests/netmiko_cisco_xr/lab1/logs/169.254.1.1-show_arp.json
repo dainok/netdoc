@@ -2,9 +2,7 @@
     "details": {
         "command": "show arp",
         "enable": true,
-        "framework": "netmiko",
         "order": 128,
-        "platform": "cisco_xr",
         "template": "show arp"
     },
     "discoverable__mode": "netmiko_cisco_xr"
