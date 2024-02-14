@@ -5,5 +5,5 @@
         "order": 30,
         "template": "show ip route"
     },
-    "discoverable__mode": "netmiko_alliedtelesis_awplus"
+    "discoverable__mode": "netmiko_allied_telesis_awplus"
 }
