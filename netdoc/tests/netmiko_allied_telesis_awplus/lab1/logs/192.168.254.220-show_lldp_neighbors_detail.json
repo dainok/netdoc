@@ -2,7 +2,7 @@
     "details": {
         "command": "show lldp neighbors detail",
         "enable": true,
-        "order": 20,
+        "order": 6,
         "template": "show lldp neighbors detail"
     },
     "discoverable__mode": "netmiko_allied_telesis_awplus"

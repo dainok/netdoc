@@ -2,7 +2,7 @@
     "details": {
         "command": "show static-channel-group",
         "enable": true,
-        "order": 11,
+        "order": 4,
         "template": "show static-channel-group"
     },
     "discoverable__mode": "netmiko_allied_telesis_awplus"
