@@ -13,7 +13,7 @@ def ingest(log):
     device_o = log.discoverable.device
 
     for item in log.parsed_output:
-        if not item.get("port"):
+        if not item.get("destination_port"):
             # Skip entries without associated interfaces
             continue
         interface_name = item.get("destination_port")

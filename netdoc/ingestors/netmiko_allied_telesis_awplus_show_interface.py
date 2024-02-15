@@ -7,6 +7,7 @@ __license__ = "GPLv3"
 from netdoc.schemas import interface
 from netdoc import utils
 
+
 def ingest(log):
     """Processing parsed output."""
     device_o = log.discoverable.device
