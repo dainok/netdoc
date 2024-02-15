@@ -655,6 +655,12 @@ def normalize_interface_type(name="", encapsulation=""):
     if label == "sfp+sr":
         # HPE Procurve SPF
         return "other"
+    if re.match(r"^port\d+.*", label):
+        # Allied Telesis
+        return "other"
+    if re.match(r"^sa\d+", label):
+        # Allied Telesis
+        return "lag"
     if parent_interface(label):
         # Subinterface
         return "virtual"
