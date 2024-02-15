@@ -4,3 +4,9 @@
   manufacturer: Allied Telesis
   address: null
   serial: ""
+- name: 6F-SH210-1
+  site: test-site
+  model: Unknown device
+  manufacturer: Unknown
+  address: null
+  serial: ""

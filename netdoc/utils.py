@@ -228,7 +228,9 @@ def get_remote_lldp_interface_label(
         # port_id contains a description
         port_id = None
 
-    if port_description and re.match(r"\*\*\*|.*###|.*\[.*\]", port_description):
+    if port_description and re.match(
+        r".*===|.*\*\*\*|.*###|.*\[.*\]", port_description
+    ):
         # port_description contains a description
         port_description = None
 
