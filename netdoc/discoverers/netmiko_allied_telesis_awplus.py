@@ -21,6 +21,7 @@ def discovery(nrni, filters=None, filter_type=None):
     commands = [
         ("show system", "HOSTNAME"),
         ("show running-config", None),
+        ("show system", None),
         ("show vlan all", None),
         ("show interface", None),
         ("show interface switchport", None),
@@ -29,12 +30,11 @@ def discovery(nrni, filters=None, filter_type=None):
         ("show lldp neighbors detail", None),
         ("show ip vrf detail", None),  # unsup
         ("show ip vrf interface", None),  # unsup
-        ("show ip interface", None),  # unsup
         ("show ip route", None),
         ("show arp", None),
         ("show mac address-table", None),
         # Unsupported
-        ("show system", None),
+        ("show ip interface", None),
     ]
 
     def multiple_tasks(task):
