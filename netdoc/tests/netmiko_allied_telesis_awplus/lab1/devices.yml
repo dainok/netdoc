@@ -3,7 +3,7 @@
   model: Unknown Allied Telesis device
   manufacturer: Allied Telesis
   address: null
-  serial: ""
+  serial: "G22TG6001"
 - name: 6F-SH210-1
   site: test-site
   model: Unknown device
