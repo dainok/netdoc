@@ -1,4 +1,4 @@
-"""Ingestor for netmiko_cisco_nxos_show_lldp_neighbors_detail."""
+"""Ingestor for netmiko_allied_telesis_awplus_show_lldp_neighbors_detail."""
 __author__ = "Andrea Dainese"
 __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2022, Andrea Dainese"

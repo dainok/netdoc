@@ -1,4 +1,4 @@
-"""Ingestor for netmiko_cisco_ios_show_interfaces_switchport."""
+"""Ingestor for netmiko_allied_telesis_awplus_show_interface_switchport."""
 __author__ = "Andrea Dainese"
 __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2022, Andrea Dainese"
