@@ -18,9 +18,11 @@ def ingest(log):
 
     # Parsing hostname
     try:
-        name = re.findall(r"^(\S+)\s+uptime.*$", output, re.MULTILINE | re.DOTALL).pop()
-    except AttributeError as exc:
-        raise AttributeError(f"Failed to match HOSTNAME regex on {output}") from exc
+        name = re.findall(
+            r"^\s*(\S+)\s+uptime.*$", output, re.MULTILINE | re.DOTALL
+        ).pop()
+    except IndexError as exc:
+        raise IndexError(f"Failed to match HOSTNAME regex on {output}") from exc
     name = utils.normalize_hostname(name)
     log.parsed_output = name
     log.save()
