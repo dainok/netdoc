@@ -677,3 +677,51 @@ Interface vlan2222
     input packets 0, bytes 0, dropped 0, multicast packets 0
     output packets 0, bytes 0, multicast packets 0 broadcast packets 0
   Time since last state change: 49644 days 18:39:24
+Interface lo1
+  Scope: both
+  Link is UP, administrative state is UP
+  Hardware is Loopback
+  index 5 metric 1
+  <UP,RUNNING,NOARP>
+  VRF Binding: Associated with VRF01
+  SNMP link-status traps: Disabled
+  Router Advertisement is disabled
+  Router Advertisement default routes are accepted
+  Router Advertisement prefix info is accepted
+  Time since last state change: 134 days 01:59:44
+Interface lo2
+  Scope: both
+  Link is UP, administrative state is UP
+  Hardware is Loopback
+  index 6 metric 1
+  <UP,RUNNING,NOARP>
+  VRF Binding: Associated with VRF02
+  SNMP link-status traps: Disabled
+  Router Advertisement is disabled
+  Router Advertisement default routes are accepted
+  Router Advertisement prefix info is accepted
+  Time since last state change: 134 days 01:59:44
+Interface lo3
+  Scope: both
+  Link is UP, administrative state is UP
+  Hardware is Loopback
+  index 7 metric 1
+  <UP,RUNNING,NOARP>
+  VRF Binding: Associated with VRF03
+  SNMP link-status traps: Disabled
+  Router Advertisement is disabled
+  Router Advertisement default routes are accepted
+  Router Advertisement prefix info is accepted
+  Time since last state change: 134 days 01:59:44
+Interface lo4
+  Scope: both
+  Link is UP, administrative state is UP
+  Hardware is Loopback
+  index 8 metric 1
+  <UP,RUNNING,NOARP>
+  VRF Binding: Associated with VRF04
+  SNMP link-status traps: Disabled
+  Router Advertisement is disabled
+  Router Advertisement default routes are accepted
+  Router Advertisement prefix info is accepted
+  Time since last state change: 134 days 01:59:44

@@ -12,6 +12,7 @@
     tagged_vlans: [767, 793, 794, 811, 900, 964, 973, 989, 1111, 2222]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.2
     label: port1.0.2
@@ -26,6 +27,7 @@
     tagged_vlans: [767, 793, 794, 811, 900, 964, 973, 989, 1111, 2222]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.3
     label: port1.0.3
@@ -40,6 +42,7 @@
     tagged_vlans: [795]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.4
     label: port1.0.4
@@ -54,6 +57,7 @@
     tagged_vlans: [793]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.5
     label: port1.0.5
@@ -68,6 +72,7 @@
     tagged_vlans: [794]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.6
     label: port1.0.6
@@ -82,6 +87,7 @@
     tagged_vlans: [989]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.7
     label: port1.0.7
@@ -97,6 +103,7 @@
     parent:
     lag: po7
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.8
     label: port1.0.8
@@ -112,6 +119,7 @@
     parent:
     lag: po7
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.9
     label: port1.0.9
@@ -126,6 +134,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.10
     label: port1.0.10
@@ -140,6 +149,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.11
     label: port1.0.11
@@ -154,6 +164,7 @@
     tagged_vlans: [989]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.12
     label: port1.0.12
@@ -168,6 +179,7 @@
     tagged_vlans: [795]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.13
     label: port1.0.13
@@ -182,6 +194,7 @@
     tagged_vlans: [479, 767, 793, 794, 811, 900, 964, 973, 989, 1111, 2222]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.14
     label: port1.0.14
@@ -196,6 +209,7 @@
     tagged_vlans: [479, 767, 793, 794, 811, 900, 964, 973, 989, 1111, 2222]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.15
     label: port1.0.15
@@ -210,6 +224,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.16
     label: port1.0.16
@@ -224,6 +239,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.17
     label: port1.0.17
@@ -238,6 +254,7 @@
     tagged_vlans: [793]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.18
     label: port1.0.18
@@ -252,6 +269,7 @@
     tagged_vlans: [794]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.19
     label: port1.0.19
@@ -266,6 +284,7 @@
     tagged_vlans: [989]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.20
     label: port1.0.20
@@ -280,6 +299,7 @@
     tagged_vlans: [795]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.21
     label: port1.0.21
@@ -294,6 +314,7 @@
     tagged_vlans: [767, 793, 794, 811, 900, 973, 989, 1111, 2222]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.22
     label: port1.0.22
@@ -308,6 +329,7 @@
     tagged_vlans: [767, 793, 794, 811, 900, 973, 989, 1111, 2222]
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: port1.0.23
     label: port1.0.23
@@ -323,6 +345,7 @@
     parent:
     lag: sa1
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
     connected_device: 6F-SH210-1
     connected_interface_label: port1.0.15
@@ -340,6 +363,7 @@
     parent:
     lag: sa1
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
     connected_device: 6F-SH210-1
     connected_interface_label: port1.0.16
@@ -356,6 +380,7 @@
     tagged_vlans: []
     parent: null
     mac_address: null
+    vrf: null
     ip_addresses: []
   - name: vlan1
     label: vl1
@@ -370,6 +395,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan479
     label: vl479
@@ -384,6 +410,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan504
     label: vl504
@@ -398,6 +425,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan508
     label: vl508
@@ -412,6 +440,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan511
     label: vl511
@@ -426,6 +455,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses:
       - 20.0.0.1/24
   - name: vlan767
@@ -441,6 +471,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan793
     label: vl793
@@ -455,6 +486,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan794
     label: vl794
@@ -469,6 +501,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan795
     label: vl795
@@ -483,6 +516,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses:
       - 10.255.255.1/24
   - name: vlan811
@@ -498,6 +532,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan883
     label: vl883
@@ -512,6 +547,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan900
     label: vl900
@@ -526,6 +562,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan909
     label: vl909
@@ -540,6 +577,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan910
     label: vl910
@@ -554,6 +592,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan914
     label: vl914
@@ -568,6 +607,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan915
     label: vl915
@@ -582,6 +622,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan929
     label: vl929
@@ -596,6 +637,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan931
     label: vl931
@@ -610,6 +652,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan952
     label: vl952
@@ -624,6 +667,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan954
     label: vl954
@@ -638,6 +682,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses:
       - 192.168.254.220/24
   - name: vlan955
@@ -653,6 +698,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan964
     label: vl964
@@ -667,6 +713,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan973
     label: vl973
@@ -681,6 +728,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan989
     label: vl989
@@ -695,6 +743,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan1111
     label: vl1111
@@ -709,6 +758,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: vlan2222
     label: vl2222
@@ -723,6 +773,7 @@
     tagged_vlans: []
     parent: null
     mac_address: "00:1A:EB:95:4E:20"
+    vrf: null
     ip_addresses: []
   - name: po7
     label: po7
@@ -737,6 +788,7 @@
     tagged_vlans: []
     parent: null
     mac_address: null
+    vrf: null
     ip_addresses: []
   - name: lo
     label: lo
@@ -751,6 +803,67 @@
     tagged_vlans: []
     parent: null
     mac_address: null
+    vrf: null
+    ip_addresses: []
+  - name: lo1
+    label: lo1
+    type: virtual
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: null
+    vrf: VRF01
+    ip_addresses: []
+  - name: lo2
+    label: lo2
+    type: virtual
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: null
+    vrf: VRF02
+    ip_addresses: []
+  - name: lo3
+    label: lo3
+    type: virtual
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: null
+    vrf: VRF03
+    ip_addresses: []
+  - name: lo4
+    label: lo4
+    type: virtual
+    speed: null
+    duplex: null
+    mtu: null
+    enabled: true
+    description: ""
+    mode: ""
+    untagged_vlan:
+    tagged_vlans: []
+    parent: null
+    mac_address: null
+    vrf: VRF04
     ip_addresses: []
 6F-SH210-1:
   - name: port1.0.15
@@ -766,6 +879,7 @@
     tagged_vlans: []
     parent: null
     mac_address: null
+    vrf: null
     ip_addresses: []
     connected_device: 6F-SH210-5
     connected_interface_label: port1.0.23
@@ -782,6 +896,7 @@
     tagged_vlans: []
     parent: null
     mac_address: null
+    vrf: null
     ip_addresses: []
     connected_device: 6F-SH210-5
     connected_interface_label: port1.0.24

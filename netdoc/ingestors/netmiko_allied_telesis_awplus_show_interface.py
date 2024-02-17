@@ -4,7 +4,7 @@ __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2024, Andrea Dainese"
 __license__ = "GPLv3"
 
-from netdoc.schemas import interface
+from netdoc.schemas import interface, vrf
 from netdoc import utils
 
 
@@ -32,6 +32,7 @@ def ingest(log):
         ip_address = item.get("ip_address")
         mask = item.get("prefix_length")
         ip_addresses = [f"{ip_address}/{mask}"] if ip_address and mask else []
+        vrf_name = item.get("vrf") if item.get("vrf") else None
 
         if parent_name:
             # Parent Interface is set
@@ -44,6 +45,11 @@ def ingest(log):
                 }
                 parent_o = interface.create(**parent_data)
 
+        # Get or create VRF
+        vrf_o = None
+        if vrf_name:
+            vrf_o = vrf.get_or_create(name=vrf_name)[0]
+
         data = {
             "name": interface_name,
             "description": description,
@@ -54,6 +60,7 @@ def ingest(log):
             "enabled": enabled,
             "mtu": mtu,
             "parent_id": parent_o.id if parent_name else None,
+            "vrf_id": vrf_o.id if vrf_o else None,
         }
         interface_o = interface.get(device_id=device_o.id, label=label)
         if not interface_o:

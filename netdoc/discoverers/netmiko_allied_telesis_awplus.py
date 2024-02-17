@@ -28,13 +28,13 @@ def discovery(nrni, filters=None, filter_type=None):
         ("show static-channel-group", None),
         ("show etherchannel summary", None),
         ("show lldp neighbors detail", None),
-        ("show ip vrf detail", None),  # unsup
-        ("show ip vrf interface", None),  # unsup
         ("show ip route", None),
         ("show arp", None),
         ("show mac address-table", None),
         # Unsupported
         ("show ip interface", None),
+        ("show ip vrf detail", None),
+        ("show ip vrf interface", None),
     ]
 
     def multiple_tasks(task):
