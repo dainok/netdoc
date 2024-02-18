@@ -18,8 +18,8 @@ def ingest(log):
     part_serial_number = None
 
     for item in log.parsed_output:
-        part_serial_number = item.get("serial")
-        part_number = item.get("hardware")
+        part_serial_number = item.get("serial").pop() if item.get("serial") else None
+        part_number = item.get("hardware").pop() if item.get("hardware") else None
 
     device.update(
         device_o,
