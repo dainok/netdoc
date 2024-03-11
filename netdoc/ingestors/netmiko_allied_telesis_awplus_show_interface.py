@@ -4,7 +4,7 @@ __contact__ = "andrea@adainese.it"
 __copyright__ = "Copyright 2024, Andrea Dainese"
 __license__ = "GPLv3"
 
-from netdoc.schemas import interface, vrf
+from netdoc.schemas import interface, vrf, device
 from netdoc import utils
 
 
@@ -67,6 +67,9 @@ def ingest(log):
             interface_o = interface.create(**data)
         interface.update(interface_o, **data)
         interface.update_addresses(interface_o, ip_addresses=ip_addresses)
+
+        # Update management IP address
+        device.update_management(device_o, log.discoverable.address)
 
     # Update the log
     log.ingested = True
