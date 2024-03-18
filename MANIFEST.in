@@ -1,6 +1,7 @@
 recursive-include netdoc/api *
 recursive-include netdoc/jobs *
 recursive-include netdoc/library *
+recursive-include netdoc/ntc_templates *
 recursive-include netdoc/reports *
 recursive-include netdoc/scripts *
 recursive-include netdoc/static *

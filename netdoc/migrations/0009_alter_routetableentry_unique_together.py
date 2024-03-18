@@ -4,14 +4,24 @@ from django.db import migrations
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('netdoc', '0008_alter_discoverable_device'),
+        ("netdoc", "0008_alter_discoverable_device"),
     ]
 
     operations = [
         migrations.AlterUniqueTogether(
-            name='routetableentry',
-            unique_together={('device', 'destination', 'distance', 'metric', 'protocol', 'vrf', 'nexthop_if', 'nexthop_ip')},
+            name="routetableentry",
+            unique_together={
+                (
+                    "device",
+                    "destination",
+                    "distance",
+                    "metric",
+                    "protocol",
+                    "vrf",
+                    "nexthop_if",
+                    "nexthop_ip",
+                )
+            },
         ),
     ]

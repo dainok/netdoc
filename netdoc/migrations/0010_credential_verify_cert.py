@@ -4,15 +4,14 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('netdoc', '0009_alter_routetableentry_unique_together'),
+        ("netdoc", "0009_alter_routetableentry_unique_together"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='credential',
-            name='verify_cert',
+            model_name="credential",
+            name="verify_cert",
             field=models.BooleanField(default=True),
         ),
     ]
