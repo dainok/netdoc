@@ -96,12 +96,12 @@ jobs:
           repository: "netbox-community/netbox"
           ref: "${{ env.NETBOX_VERSION }}"
           path: "netbox"
-      - name: "Check out NTC-Templates repository code"
-        uses: actions/checkout@v4
-        with:
-          repository: "networktocode/ntc-templates"
-          path: "ntc-templates"
-          fetch-depth: "0"
+      # - name: "Check out NTC-Templates repository code"
+      #   uses: actions/checkout@v4
+      #   with:
+      #     repository: "networktocode/ntc-templates"
+      #     path: "ntc-templates"
+      #     fetch-depth: "0"
       - name: "Cloning Netbox example configuration"
         run: "cp -a netbox/netbox/netbox/configuration_example.py netbox/netbox/netbox/configuration.py"
       - name: "Setting PostgreSQL username on Netbox configuration"
@@ -112,8 +112,8 @@ jobs:
         run: "sed -i \"s/.*SECRET_KEY.*/SECRET_KEY = '01234567890123456789012345678901234567890123456789'/\" netbox/netbox/netbox/configuration.py"
       - name: "Enabling NetDoc plugin on Netbox configuration"
         run: "sed -i \"s/PLUGINS =.*/PLUGINS = ['netdoc']/\" netbox/netbox/netbox/configuration.py"
-      - name: "Configuring NetDoc plugin on Netbox"
-        run: "echo \"PLUGINS_CONFIG = {'netdoc': {'NTC_TEMPLATES_DIR': '${PWD}/ntc-templates/ntc_templates/templates'}}\" >> netbox/netbox/netbox/configuration.py"
+      # - name: "Configuring NetDoc plugin on Netbox"
+      #   run: "echo \"PLUGINS_CONFIG = {'netdoc': {'NTC_TEMPLATES_DIR': '${PWD}/ntc-templates/ntc_templates/templates'}}\" >> netbox/netbox/netbox/configuration.py"
       - name: "Setting NetDoc requirements"
         run: echo "-e $PWD/netdoc" >> netbox/local_requirements.txt
       - name: "Upgrade Netbox"
