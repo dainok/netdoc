@@ -14,9 +14,9 @@ def ingest(log):
 
     for item in log.parsed_output:
         # See https://github.com/networktocode/ntc-templates/tree/master/tests/cisco_ios/show_etherchannel_summary # pylint: disable=line-too-long
-        bundle_name = item.get("po_name")
+        bundle_name = item.get("bundle_name")
         bundle_label = utils.normalize_interface_label(bundle_name)
-        attached_interface_names = item.get("interfaces")
+        attached_interface_names = item.get("member_interface")
 
         # Get or create bundle Interface
         bundle_o = interface.get(device_id=device_o.id, label=bundle_label)

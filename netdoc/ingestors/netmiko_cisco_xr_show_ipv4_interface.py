@@ -17,7 +17,11 @@ def ingest(log):
         interface_name = item.get("interface")
         label = utils.normalize_interface_label(interface_name)
         vrf_name = utils.normalize_vrf_name(item.get("vrf"))
-        ip_address = item.get("ip_address") if item.get("ip_address") else None
+        ip_address = (
+            (f"{item.get('ip_address')}/{item.get('prefix_length')}")
+            if item.get("ip_address")
+            else None
+        )
         ip_addresses = [ip_address]
 
         # Get or create VRF
