@@ -2,9 +2,7 @@
     "details": {
         "command": "show arp all-vrfs",
         "enable": true,
-        "framework": "netmiko",
         "order": 128,
-        "platform": "aruba_aoscx",
         "template": "show arp all-vrfs"
     },
     "discoverable__mode": "netmiko_aruba_aoscx"

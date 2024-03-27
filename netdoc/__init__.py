@@ -13,6 +13,9 @@ from django.conf import settings
 from extras.plugins import PluginConfig
 
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
+NTC_TEMPLATES_DIR = PLUGIN_SETTINGS.get("NTC_TEMPLATES_DIR")
+PACKAGE = pkgutil.get_loader("netdoc")
+MODULE_PATH = os.path.dirname(PACKAGE.path)
 
 
 class NetdocConfig(PluginConfig):
@@ -25,10 +28,9 @@ class NetdocConfig(PluginConfig):
     author = "Andrea Dainese"
     author_email = "andrea@adainese.it"
     base_url = "netdoc"
-    required_settings = ["NTC_TEMPLATES_DIR"]
+    required_settings = []
     default_settings = {
         "MAX_INGESTED_LOGS": 25,
-        "NTC_TEMPLATES_DIR": "/opt/ntc-templates/ntc_templates/templates",
         "NORNIR_LOG": f"{settings.BASE_DIR}/nornir.log",
         "NORNIR_TIMEOUT": 300,
         "RAISE_ON_CDP_FAIL": True,
@@ -57,9 +59,7 @@ class NetdocConfig(PluginConfig):
             )
 
             # Create/update data sources for NetDoc scripts on every restart
-            package = pkgutil.get_loader("netdoc")
-            module_path = os.path.dirname(package.path)
-            jobs_path = os.path.join(module_path, "jobs")
+            jobs_path = os.path.join(MODULE_PATH, "jobs")
             try:
                 jobs_ds_o = DataSource.objects.get(name="netdoc_jobs")
             except DataSource.DoesNotExist:  # pylint: disable=no-member
@@ -114,4 +114,8 @@ class NetdocConfig(PluginConfig):
 config = NetdocConfig  # pylint: disable=invalid-name
 
 # Setting NTC_TEMPLATES_DIR
-os.environ.setdefault("NET_TEXTFSM", PLUGIN_SETTINGS.get("NTC_TEMPLATES_DIR"))
+if not NTC_TEMPLATES_DIR:
+    # Use ntc_templates embedded in NetDoc
+    NTC_TEMPLATES_DIR = os.path.join(MODULE_PATH, "ntc_templates")
+
+os.environ.setdefault("NET_TEXTFSM", NTC_TEMPLATES_DIR)

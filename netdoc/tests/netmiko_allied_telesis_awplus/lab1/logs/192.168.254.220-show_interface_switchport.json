@@ -1,0 +1,9 @@
+{
+    "details": {
+        "command": "show interface switchport",
+        "enable": true,
+        "order": 3,
+        "template": "show interface switchport"
+    },
+    "discoverable__mode": "netmiko_allied_telesis_awplus"
+}

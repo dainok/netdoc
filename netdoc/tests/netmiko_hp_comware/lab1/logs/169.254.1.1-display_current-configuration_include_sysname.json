@@ -2,9 +2,7 @@
     "details": {
         "command": "display current-configuration | include sysname",
         "enable": true,
-        "framework": "netmiko",
         "order": 0,
-        "platform": "hp_comware",
         "template": "HOSTNAME"
     },
     "discoverable__mode": "netmiko_hp_comware"

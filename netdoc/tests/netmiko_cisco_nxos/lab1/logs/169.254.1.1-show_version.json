@@ -2,9 +2,7 @@
     "details": {
         "command": "show version",
         "enable": true,
-        "framework": "netmiko",
         "order": 0,
-        "platform": "cisco_ios",
         "template": "HOSTNAME"
     },
     "discoverable__mode": "netmiko_cisco_ios_telnet"

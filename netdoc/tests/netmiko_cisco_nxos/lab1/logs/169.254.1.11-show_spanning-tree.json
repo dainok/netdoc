@@ -2,9 +2,7 @@
     "details": {
         "command": "show spanning-tree",
         "enable": true,
-        "framework": "netmiko",
         "order": 128,
-        "platform": "cisco_nxos",
         "template": "show spanning-tree"
     },
     "discoverable__mode": "netmiko_cisco_nxos"

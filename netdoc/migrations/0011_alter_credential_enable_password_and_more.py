@@ -4,20 +4,19 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('netdoc', '0010_credential_verify_cert'),
+        ("netdoc", "0010_credential_verify_cert"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='credential',
-            name='enable_password',
+            model_name="credential",
+            name="enable_password",
             field=models.TextField(blank=True),
         ),
         migrations.AlterField(
-            model_name='credential',
-            name='password',
+            model_name="credential",
+            name="password",
             field=models.TextField(blank=True),
         ),
     ]

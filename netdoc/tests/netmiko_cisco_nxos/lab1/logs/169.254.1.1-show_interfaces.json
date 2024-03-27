@@ -2,9 +2,7 @@
     "details": {
         "command": "show interfaces",
         "enable": true,
-        "framework": "netmiko",
         "order": 10,
-        "platform": "cisco_ios",
         "template": "show interfaces"
     },
     "discoverable__mode": "netmiko_cisco_ios_telnet"

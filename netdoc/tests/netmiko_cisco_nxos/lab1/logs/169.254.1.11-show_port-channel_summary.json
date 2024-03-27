@@ -2,9 +2,7 @@
     "details": {
         "command": "show port-channel summary",
         "enable": true,
-        "framework": "netmiko",
         "order": 128,
-        "platform": "cisco_nxos",
         "template": "show port-channel summary"
     },
     "discoverable__mode": "netmiko_cisco_nxos"

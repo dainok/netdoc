@@ -5,6 +5,6 @@ Usage:
 """
 from netdoc.tests.test import load_scenario
 
-LAB_DIR = "netdoc/tests/netmiko_aruba_oscx/lab2"
+LAB_DIR = "netdoc/tests/netmiko_allied_telesis_awplus/lab1"
 
 load_scenario(LAB_DIR)

@@ -2,9 +2,7 @@
     "details": {
         "command": "show mac address-table dynamic",
         "enable": true,
-        "framework": "netmiko",
         "order": 128,
-        "platform": "cisco_ios",
         "template": "show mac address-table"
     },
     "discoverable__mode": "netmiko_cisco_ios_telnet"

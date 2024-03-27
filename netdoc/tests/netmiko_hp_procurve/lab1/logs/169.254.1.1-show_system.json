@@ -2,9 +2,7 @@
     "details": {
         "command": "show system",
         "enable": true,
-        "framework": "netmiko",
         "order": 0,
-        "platform": "hp_procurve",
         "template": "HOSTNAME"
     },
     "discoverable__mode": "netmiko_hp_procurve"

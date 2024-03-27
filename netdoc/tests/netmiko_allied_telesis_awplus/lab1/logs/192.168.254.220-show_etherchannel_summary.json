@@ -1,0 +1,9 @@
+{
+    "details": {
+        "command": "show etherchannel summary",
+        "enable": true,
+        "order": 5,
+        "template": "show etherchannel summary"
+    },
+    "discoverable__mode": "netmiko_allied_telesis_awplus"
+}

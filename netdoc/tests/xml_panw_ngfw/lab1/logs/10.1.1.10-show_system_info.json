@@ -2,9 +2,7 @@
     "details": {
         "command": "<show><system><info></info></system></show>",
         "enable": false,
-        "framework": "xml",
         "order": 0,
-        "platform": "panw_ngfw",
         "template": "show system info"
     },
     "discoverable__mode": "xml_panw_ngfw"

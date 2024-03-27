@@ -2,9 +2,7 @@
     "details": {
         "command": "<show><arp><entry name = 'all'/></arp></show>",
         "enable": false,
-        "framework": "xml",
         "order": 128,
-        "platform": "panw_ngfw",
         "template": "show arp"
     },
     "discoverable__mode": "xml_panw_ngfw"

@@ -32,6 +32,8 @@ from utilities.utils import NetBoxFakeRequest
 from dcim.models import Interface
 from virtualization.models import VMInterface
 
+from netdoc.dictionaries import DiscoveryModeChoices
+
 
 PLUGIN_SETTINGS = settings.PLUGINS_CONFIG.get("netdoc", {})
 
@@ -226,7 +228,9 @@ def get_remote_lldp_interface_label(
         # port_id contains a description
         port_id = None
 
-    if port_description and re.match(r"\*\*\*|.*###|.*\[.*\]", port_description):
+    if port_description and re.match(
+        r".*===|.*\*\*\*|.*###|.*\[.*\]", port_description
+    ):
         # port_description contains a description
         port_description = None
 
@@ -332,9 +336,9 @@ def is_hostname(name):
     return False
 
 
-def is_command_supported(framework, platform, command):
-    """Return true if the framework/platform/command is supported."""
-    function_name = f"{framework}_{platform}_{command}"
+def is_command_supported(discoverer, command):
+    """Return true if the discoverer/command is supported."""
+    function_name = f"{discoverer}_{command}"
     function_name = function_name.replace(" ", "_")
     function_name = function_name.replace("-", "_")
     function_name = function_name.lower().strip()
@@ -379,10 +383,10 @@ def is_command_filtered_out(cmd_line, filters, filter_type):
 
 def log_ingest(log):
     """Ingest a log calling the custom ingestor."""
-    function_name = (
-        f"{log.details.get('framework')}_"
-        + f"{log.details.get('platform')}_{log.template}"
-    )
+    discoverer = DiscoveryModeChoices.MODES.get(
+        log.discoverable.mode  # pylint: disable=no-member
+    ).get("discovery_script")
+    function_name = f"{discoverer}_{log.template}"
     function_name = function_name.replace(" ", "_")
     function_name = function_name.replace("-", "_")
     function_name = function_name.lower().strip()
@@ -653,6 +657,12 @@ def normalize_interface_type(name="", encapsulation=""):
     if label == "sfp+sr":
         # HPE Procurve SPF
         return "other"
+    if re.match(r"^port\d+.*", label):
+        # Allied Telesis
+        return "other"
+    if re.match(r"^sa\d+", label):
+        # Allied Telesis
+        return "lag"
     if parent_interface(label):
         # Subinterface
         return "virtual"
@@ -976,16 +986,13 @@ def parent_interface(label, return_label=True):
     return None
 
 
-def parse_netmiko_output(output, command, platform, template=None):
+def parse_netmiko_output(output, platform, command):
     """Parse Netmiko output using NTC templates."""
-    if not template:
-        # If template is empty, use command as template
-        template = command
-    if template == "HOSTNAME":
+    if command == "HOSTNAME":
         # Parsed during ingestion
         return output, True
     try:
-        parsed_output = get_structured_data(output, platform=platform, command=template)
+        parsed_output = get_structured_data(output, platform=platform, command=command)
         if isinstance(parsed_output, str) and parsed_output == output:
             # NTC template not found
             return (

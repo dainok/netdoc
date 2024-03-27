@@ -2,9 +2,7 @@
     "details": {
         "command": "display arp",
         "enable": true,
-        "framework": "netmiko",
         "order": 100,
-        "platform": "hp_comware",
         "template": "display arp"
     },
     "discoverable__mode": "netmiko_hp_comware"

@@ -2,9 +2,7 @@
     "details": {
         "command": "show lldp info remote-device",
         "enable": true,
-        "framework": "netmiko",
         "order": 10,
-        "platform": "hp_procurve",
         "template": "show lldp info remote-device"
     },
     "discoverable__mode": "netmiko_hp_procurve"

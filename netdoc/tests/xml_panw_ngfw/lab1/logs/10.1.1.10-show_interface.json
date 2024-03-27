@@ -2,9 +2,7 @@
     "details": {
         "command": "<show><interface>all</interface></show>",
         "enable": false,
-        "framework": "xml",
         "order": 10,
-        "platform": "panw_ngfw",
         "template": "show interface"
     },
     "discoverable__mode": "xml_panw_ngfw"

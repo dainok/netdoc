@@ -2,9 +2,7 @@
     "details": {
         "command": "show hostname",
         "enable": true,
-        "framework": "netmiko",
         "order": 0,
-        "platform": "cisco_nxos",
         "template": "HOSTNAME"
     },
     "discoverable__mode": "netmiko_cisco_nxos"

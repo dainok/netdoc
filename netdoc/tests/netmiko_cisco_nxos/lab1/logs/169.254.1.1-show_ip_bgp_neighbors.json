@@ -2,9 +2,7 @@
     "details": {
         "command": "show ip bgp neighbors",
         "enable": true,
-        "framework": "netmiko",
         "order": 128,
-        "platform": "cisco_ios",
         "template": "show ip bgp neighbors"
     },
     "discoverable__mode": "netmiko_cisco_ios_telnet"

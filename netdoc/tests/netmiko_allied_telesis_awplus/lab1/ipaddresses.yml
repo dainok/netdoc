@@ -1,0 +1,6 @@
+- address: 192.168.254.220/24
+  vrf: null
+- address: 10.255.255.1/24
+  vrf: null
+- address: 20.0.0.1/24
+  vrf: null

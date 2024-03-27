@@ -2,9 +2,7 @@
     "details": {
         "command": "display ip vpn-instance",
         "enable": true,
-        "framework": "netmiko",
         "order": 3,
-        "platform": "hp_comware",
         "template": "display ip vpn-instance"
     },
     "discoverable__mode": "netmiko_hp_comware"

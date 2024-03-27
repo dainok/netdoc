@@ -2,9 +2,7 @@
     "details": {
         "command": "show lldp neighbors",
         "enable": true,
-        "framework": "netmiko",
         "order": 10,
-        "platform": "cisco_xr",
         "template": "show lldp neighbors"
     },
     "discoverable__mode": "netmiko_cisco_xr"

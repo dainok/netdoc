@@ -2,9 +2,7 @@
     "details": {
         "command": "display ip interface",
         "enable": true,
-        "framework": "netmiko",
         "order": 5,
-        "platform": "hp_comware",
         "template": "display ip interface"
     },
     "discoverable__mode": "netmiko_hp_comware"

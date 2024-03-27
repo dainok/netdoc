@@ -2,9 +2,7 @@
     "details": {
         "command": "show ip ospf neighbor",
         "enable": true,
-        "framework": "netmiko",
         "order": 128,
-        "platform": "cisco_nxos",
         "template": "show ip ospf neighbor"
     },
     "discoverable__mode": "netmiko_cisco_nxos"

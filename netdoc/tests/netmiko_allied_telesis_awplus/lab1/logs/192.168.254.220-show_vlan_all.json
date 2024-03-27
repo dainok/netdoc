@@ -1,0 +1,9 @@
+{
+    "details": {
+        "command": "show vlan all",
+        "enable": true,
+        "order": 2,
+        "template": "show vlan all"
+    },
+    "discoverable__mode": "netmiko_allied_telesis_awplus"
+}

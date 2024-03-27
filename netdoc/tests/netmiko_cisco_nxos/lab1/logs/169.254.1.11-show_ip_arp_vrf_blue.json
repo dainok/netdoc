@@ -2,9 +2,7 @@
     "details": {
         "command": "show ip arp vrf blue",
         "enable": true,
-        "framework": "netmiko",
         "order": 128,
-        "platform": "cisco_nxos",
         "template": "show ip arp",
         "vrf": "blue"
     },

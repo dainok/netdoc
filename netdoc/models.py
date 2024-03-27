@@ -427,8 +427,11 @@ class DiscoveryLog(NetBoxModel):
             self.configuration = configuration
 
         # Check if the command is supported
+        discoverer = DiscoveryModeChoices.MODES.get(
+            self.discoverable.mode  # pylint: disable=no-member
+        ).get("discovery_script")
         self.supported = is_command_supported(
-            self.details.get("framework"), self.details.get("platform"), self.template
+            discoverer, self.template  # pylint: disable=no-member
         )
 
         # Check if the output is completed successfully
@@ -438,9 +441,13 @@ class DiscoveryLog(NetBoxModel):
                 return
         self.success = True
 
-        # Parse framework (e.g. netmiko) and platform (e.g. cisco_ios)
-        framework = self.details.get("framework")
-        platform = self.details.get("platform")
+        # Get framework (e.g. netmiko) and NTC Template (e.g. cisco_ios)
+        framework = DiscoveryModeChoices.MODES.get(
+            self.discoverable.mode  # pylint: disable=no-member
+        ).get("framework")
+        ntc_template = DiscoveryModeChoices.MODES.get(
+            self.discoverable.mode  # pylint: disable=no-member
+        ).get("ntc_template")
 
         if self.template == "HOSTNAME":
             # Logs tracking hostnames are parsed during ingestion phase
@@ -449,7 +456,7 @@ class DiscoveryLog(NetBoxModel):
         else:
             if framework == "netmiko":
                 parsed_output, parsed = parse_netmiko_output(
-                    self.raw_output, self.command, platform, template=self.template
+                    self.raw_output, ntc_template, self.template
                 )
             elif framework == "json":
                 try:
@@ -482,12 +489,9 @@ class DiscoveryLog(NetBoxModel):
         if not self.pk:
             # Check if command is supported
             mode = self.discoverable.mode  # pylint: disable=no-member
-            framework = mode.split("_")[0]
-            platform = "_".join(mode.split("_")[1:3])
-            try:
-                protocol = mode.split("_")[3]  # pylint: disable=no-member
-            except IndexError:
-                protocol = "default"
+            framework = DiscoveryModeChoices.MODES.get(mode).get("framework")
+            platform = DiscoveryModeChoices.MODES.get(mode).get("platform")
+            protocol = DiscoveryModeChoices.MODES.get(mode).get("protocol")
 
             # Update log details
             details = self.details

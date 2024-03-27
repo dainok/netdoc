@@ -1,0 +1,12 @@
+- name: 6F-SH210-5
+  site: test-site
+  model: "x230-28GT"
+  manufacturer: Allied Telesis
+  address: "192.168.254.220/24"
+  serial: "G22TG6001"
+- name: 6F-SH210-1
+  site: test-site
+  model: Unknown device
+  manufacturer: Unknown
+  address: null
+  serial: ""
