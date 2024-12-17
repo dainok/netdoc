@@ -54,7 +54,7 @@ def ingest(log):
             mac_address = (
                 utils.normalize_mac_address(nic.get("mac_address"))
                 if not utils.incomplete_mac(nic.get("mac_address"))
-                else None
+                else "00:00:00:00:00:00"
             )
             int_type = utils.normalize_interface_type("vNIC")
             speed = (
